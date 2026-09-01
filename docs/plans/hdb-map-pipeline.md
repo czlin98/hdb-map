@@ -28,7 +28,7 @@ the spec; executors read both. This plan covers only the **pipeline half**
 
 ## Post-implementation deltas
 
-The pipeline was later revised in three ways that diverge from the task
+The pipeline was later revised in four ways that diverge from the task
 listings below. The listings are kept as the original execution record;
 the implemented behavior is:
 
@@ -41,6 +41,9 @@ the implemented behavior is:
   sorting index features and shard keys by `id`.
 - **run.py (Task 9):** gained an optional `--limit N` flag that geocodes
   only the first N blocks, for fast smoke tests.
+- **Logging (Task 6 / Task 10):** `geocode_all` logs a per-address progress
+  line (`[i/total]` + block/street, failures at WARNING); the monthly
+  workflow sets `PYTHONUNBUFFERED` so these stream live in the Actions log.
 
 ---
 
