@@ -153,18 +153,20 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   secrets (`ONEMAP_EMAIL`, `ONEMAP_PASSWORD`). No static token is stored. If the
   token request fails, **fail the run fast** with no commit (last good data
   stays live).
-- **Match (hard gate).** A returned result qualifies only if **both** hold
-  (normalized, uppercased):
+- **Match (hard gate).** A returned result qualifies only if **all three**
+  hold (normalized, uppercased):
   1. `BLK_NO` == `blk_no`, exactly;
-  2. `ROAD_NAME` == `street_full`, exactly.
+  2. `ROAD_NAME` == `street_full`, exactly;
+  3. `POSTAL` is a real postal, not `NIL` or empty.
 
-  With exactly one qualifier, use it. With several, take the first by OneMap's
-  ranking; block and street uniquely identify an HDB block, so multiples are
-  just duplicates at the same location. With **zero qualifiers the block
+  With several qualifiers, take the first by OneMap's ranking. A block and
+  street can return several results: the residential building plus businesses
+  sharing the block, which come back with `POSTAL` = `NIL`; the postal
+  requirement selects the residential result. With **zero qualifiers the block
   fails**: the gate never falls back to an unqualified result, choosing
-  correctness over coverage so no block gets wrong coordinates. Any passing
-  result is necessarily the right Singapore HDB block, so no separate
-  coordinate-bounds check is needed.
+  correctness over coverage so no block gets wrong coordinates or a missing
+  postal. Any passing result is necessarily the right Singapore HDB block, so
+  no separate coordinate-bounds check is needed.
 - **Rate limit:** OneMap allows **300 calls/min** with a token. v1 throttles
   with a plain `time.sleep()` between calls (staying under the cap) plus
   retry-with-backoff on 429/5xx. (A token-bucket limiter is a deferred

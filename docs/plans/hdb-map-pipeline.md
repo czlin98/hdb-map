@@ -28,7 +28,7 @@ the spec; executors read both. This plan covers only the **pipeline half**
 
 ## Post-implementation deltas
 
-The pipeline was later revised in four ways that diverge from the task
+The pipeline was later revised in five ways that diverge from the task
 listings below. The listings are kept as the original execution record;
 the implemented behavior is:
 
@@ -44,6 +44,10 @@ the implemented behavior is:
 - **Logging (Task 6 / Task 10):** `geocode_all` logs a per-address progress
   line (`[i/total]` + block/street, failures at WARNING); the monthly
   workflow sets `PYTHONUNBUFFERED` so these stream live in the Actions log.
+- **Geocode gate (Task 5):** a result must also have a valid postal (not
+  `NIL`/empty) to qualify, so the gate selects the residential building over
+  businesses that share a block; a block with no valid-postal result fails as
+  `no_match`.
 
 ---
 
