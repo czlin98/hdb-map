@@ -120,8 +120,9 @@ export**, orchestrated by `run.py`.
 
 ### 3.1 fetch.py
 
-- Pull HDB Property Information from the data.gov.sg datastore API (paginated;
-  resource id in `config.py`).
+- Pull HDB Property Information from data.gov.sg via the dataset download
+  API (initiate-download, poll for the CSV url, then fetch the full CSV in
+  one request; dataset id in `config.py`).
 - Keep only `residential == 'Y'`.
 - **Expand street abbreviations:** derive `street_full` from the abbreviated
   `street` by token-wise replacement using the OneMap abbreviation map in
@@ -206,7 +207,8 @@ vocabulary). The matched result's fields are captured as OneMap returns them
 - Write `app/public/data/block-details/{town_slug}.json` bucketed by town, using
   `town_slug` values from `towns.json`.
 - Copy `towns.json` into `app/public/data/`.
-- **Deterministic output:** stable feature ordering and sorted keys, so an
+- **Deterministic output:** index features and detail-shard keys are sorted
+  by `id`, and each record's fields keep a fixed logical order, so an
   unchanged month produces a zero-line diff and real changes stay legible in
   git.
 
@@ -337,7 +339,8 @@ that town's shard the first time and caches it in memory, then returns
 
 - `id` is unique and identical wherever it appears (index key ↔ detail key).
 - Every `town` in the index and detail exists in `towns.json`.
-- Both files are emitted with sorted keys and stable ordering.
+- Both files are written with fields in a fixed logical order, and with
+  index features and shard keys sorted by `id`.
 - TS types (`BlockIndexProperties`, `BlockDetail`, `FlatTypeCounts`, `Town`)
   mirror this contract in `app/src/types`, hand-kept in v1.
 

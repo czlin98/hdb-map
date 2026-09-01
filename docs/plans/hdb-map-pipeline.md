@@ -26,6 +26,24 @@ the spec; executors read both. This plan covers only the **pipeline half**
 (`pipeline/` + the pipeline portions of `.github/workflows/`). The frontend
 (`app/`) is a separate plan.
 
+## Post-implementation deltas
+
+The pipeline was later revised in three ways that diverge from the task
+listings below. The listings are kept as the original execution record;
+the implemented behavior is:
+
+- **Fetch (Task 3):** uses data.gov.sg's dataset download API
+  (initiate-download, poll for the CSV url, then fetch the full CSV in one
+  request) instead of paginated `datastore_search`. This removed the
+  per-page rate-limiting that a full ~10k-row pull triggered.
+- **Export (Task 8):** JSON is written with fields in a fixed logical order
+  rather than `sort_keys=True`. Determinism is preserved by explicitly
+  sorting index features and shard keys by `id`.
+- **run.py (Task 9):** gained an optional `--limit N` flag that geocodes
+  only the first N blocks, for fast smoke tests.
+
+---
+
 ## Global Constraints
 
 Every task's requirements implicitly include this section.
