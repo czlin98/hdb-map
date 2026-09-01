@@ -19,4 +19,20 @@ jobs:
       - run: pip install -r requirements-dev.txt
       - run: ruff check src tests
       - run: pytest
-  # NOTE: the frontend plan appends a `frontend:` job here (tsc / eslint / vite build / vitest).
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - run: npx tsc --noEmit
+      - run: npm run lint
+      - run: npm run build
+      - run: npm run test -- --run
