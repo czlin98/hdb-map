@@ -1,0 +1,102 @@
+"""Stage 2: OneMap geocoding (token, per-block gate, batch loop)."""
+
+import time
+
+import requests
+
+from config import ONEMAP_SEARCH_URL, ONEMAP_TOKEN_URL
+
+
+def get_token(session: requests.Session, email: str, password: str) -> str:
+    resp = session.post(
+        ONEMAP_TOKEN_URL, json={"email": email, "password": password}, timeout=30
+    )
+    resp.raise_for_status()
+    token = resp.json().get("access_token")
+    if not token:
+        raise RuntimeError("OneMap token request returned no access_token")
+    return token
+
+
+_TRANSIENT = {429, 500, 502, 503, 504}
+
+
+def _norm(value: str | None) -> str:
+    return (value or "").strip().upper()
+
+
+def geocode_block(
+    session: requests.Session,
+    token: str,
+    block: dict,
+    max_retries: int = 3,
+    backoff: float = 1.0,
+) -> dict:
+    params = {
+        "searchVal": f"{block['blk_no']} {block['street_full']}",
+        "returnGeom": "Y",
+        "getAddrDetails": "Y",
+        "pageNum": 1,
+    }
+    headers = {"Authorization": f"Bearer {token}"}
+    for attempt in range(max_retries):
+        try:
+            resp = session.get(
+                ONEMAP_SEARCH_URL, params=params, headers=headers, timeout=30
+            )
+        except requests.RequestException:
+            resp = None
+
+        if resp is not None and resp.status_code == 200:
+            data = resp.json()
+            results = data.get("results", [])
+            found = data.get("found", len(results))
+            if not results:
+                return {"ok": False, "reason": "no_results", "found": found}
+            blk, road = _norm(block["blk_no"]), _norm(block["street_full"])
+            for r in results:
+                if _norm(r.get("BLK_NO")) == blk and _norm(r.get("ROAD_NAME")) == road:
+                    return {
+                        "ok": True,
+                        "postal": r.get("POSTAL"),
+                        "lat": r.get("LATITUDE"),
+                        "lon": r.get("LONGITUDE"),
+                    }
+            return {"ok": False, "reason": "no_match", "found": found}
+
+        # Non-transient HTTP error: give up immediately.
+        if resp is not None and resp.status_code not in _TRANSIENT:
+            return {"ok": False, "reason": "api_error", "found": 0}
+
+        # Transient or connection error: back off and retry.
+        time.sleep(backoff * (2 ** attempt))
+
+    return {"ok": False, "reason": "api_error", "found": 0}
+
+
+def geocode_all(
+    session: requests.Session,
+    token: str,
+    blocks: list[dict],
+    sleep: float = 0.2,
+) -> tuple[list[dict], list[dict]]:
+    successes: list[dict] = []
+    failures: list[dict] = []
+    for block in blocks:
+        result = geocode_block(session, token, block)
+        if result["ok"]:
+            successes.append({
+                **block,
+                "postal": result["postal"],
+                "lat": result["lat"],
+                "lon": result["lon"],
+            })
+        else:
+            failures.append({
+                "blk_no": block["blk_no"],
+                "street_full": block["street_full"],
+                "reason": result["reason"],
+                "found": result["found"],
+            })
+        time.sleep(sleep)
+    return successes, failures
