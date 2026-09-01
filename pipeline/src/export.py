@@ -40,8 +40,9 @@ def to_detail_entry(rec: dict) -> dict:
 
 
 def _write_json(path: Path, obj) -> None:
+    # Fields follow their construction order above.
     path.write_text(
-        json.dumps(obj, sort_keys=True, indent=2, ensure_ascii=False) + "\n",
+        json.dumps(obj, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
 
@@ -68,7 +69,7 @@ def write_outputs(records: list[dict], towns: list[dict], app_data_dir: Path | N
     shard_dir = app_data_dir / "block-details"
     shard_dir.mkdir(parents=True, exist_ok=True)
     by_slug: dict[str, dict] = {}
-    for r in records:
+    for r in sorted(records, key=lambda r: r["id"]):  # id-sorted -> stable key order
         by_slug.setdefault(r["town_slug"], {})[r["id"]] = to_detail_entry(r)
     for slug in slugs:  # a shard for EVERY town, even empty
         _write_json(shard_dir / f"{slug}.json", by_slug.get(slug, {}))

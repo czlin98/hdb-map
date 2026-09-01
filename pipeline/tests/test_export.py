@@ -50,6 +50,35 @@ def test_write_outputs_creates_all_files(tmp_path):
     assert json.loads((tmp_path / "towns.json").read_text()) == TOWNS
 
 
+def test_written_fields_follow_logical_order(tmp_path):
+    write_outputs([_rec()], TOWNS, app_data_dir=tmp_path)
+
+    index = json.loads((tmp_path / "index.geojson").read_text())
+    props = list(index["features"][0]["properties"].keys())
+    assert props == ["id", "blk_no", "street", "street_full", "postal", "town"]
+
+    amk = json.loads((tmp_path / "block-details" / "ang-mo-kio.json").read_text())
+    entry = next(iter(amk.values()))
+    assert list(entry.keys()) == [
+        "blk_no", "street", "street_full", "postal", "town",
+        "year_completed", "max_floor_lvl", "total_dwelling_units",
+        "sold_units_by_type",
+    ]
+
+
+def test_shard_ids_written_in_sorted_order(tmp_path):
+    recs = [
+        _rec(id="9-ang-mo-kio-ave-3"),
+        _rec(id="1-ang-mo-kio-ave-3"),
+        _rec(id="5-ang-mo-kio-ave-3"),
+    ]
+    write_outputs(recs, TOWNS, app_data_dir=tmp_path)
+    amk = json.loads((tmp_path / "block-details" / "ang-mo-kio.json").read_text())
+    assert list(amk.keys()) == [
+        "1-ang-mo-kio-ave-3", "5-ang-mo-kio-ave-3", "9-ang-mo-kio-ave-3",
+    ]
+
+
 def test_write_outputs_is_deterministic(tmp_path):
     write_outputs([_rec()], TOWNS, app_data_dir=tmp_path)
     first = (tmp_path / "index.geojson").read_text()

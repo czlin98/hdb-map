@@ -3,8 +3,13 @@ import csv
 import responses
 
 import config
+import fetch
 import geocode
 import run as run_module
+
+_INIT_URL = f"{config.DATASETS_API_BASE}/{config.RESOURCE_ID}/initiate-download"
+_POLL_URL = f"{config.DATASETS_API_BASE}/{config.RESOURCE_ID}/poll-download"
+_CSV_URL = "https://download.example.com/hdb.csv"
 
 
 @responses.activate
@@ -14,17 +19,23 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
     monkeypatch.setattr(config, "FAILURES_PATH", tmp_path / "geocode_failures.csv")
     monkeypatch.setattr(geocode.time, "sleep", lambda *_: None)
+    monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
 
     # towns: use the real canonical file.
     responses.add(responses.POST, config.ONEMAP_TOKEN_URL,
                   json={"access_token": "tok"}, status=200)
-    responses.add(responses.GET, config.DATASTORE_URL, json={"result": {"records": [
-        {"blk_no": "123", "street": "ANG MO KIO AVE 3", "residential": "Y",
-         "bldg_contract_town": "AMK", "year_completed": "1978", "max_floor_lvl": "12",
-         "total_dwelling_units": "200", "3room_sold": "40"},
-        {"blk_no": "999", "street": "NOWHERE RD", "residential": "Y",
-         "bldg_contract_town": "AMK"},
-    ], "total": 2}}, status=200)
+    # data.gov.sg bulk download: initiate -> poll (url ready) -> CSV.
+    responses.add(responses.GET, _INIT_URL,
+                  json={"code": 0, "data": {"message": "ok"}, "errorMsg": ""}, status=201)
+    responses.add(responses.GET, _POLL_URL,
+                  json={"code": 0, "data": {"status": "READY", "url": _CSV_URL},
+                        "errorMsg": ""}, status=200)
+    _cols = ["blk_no", "street", "residential", "bldg_contract_town",
+             "year_completed", "max_floor_lvl", "total_dwelling_units", "3room_sold"]
+    _csv_body = ",".join(_cols) + "\n" + \
+        "123,ANG MO KIO AVE 3,Y,AMK,1978,12,200,40\n" + \
+        "999,NOWHERE RD,Y,AMK,,,,\n"
+    responses.add(responses.GET, _CSV_URL, body=_csv_body, status=200)
     # block 123 matches; block 999 has no results -> failure
     responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json={"found": 1, "results": [
         {"BLK_NO": "123", "ROAD_NAME": "ANG MO KIO AVENUE 3", "POSTAL": "560123",
@@ -43,6 +54,30 @@ def test_run_end_to_end(tmp_path, monkeypatch):
         rows = list(csv.DictReader(fh))
     assert rows == [{"blk_no": "999", "street_full": "NOWHERE ROAD",
                      "reason": "no_results", "found": "0"}]
+
+
+def test_run_limit_caps_blocks_before_geocode(tmp_path, monkeypatch):
+    monkeypatch.setenv("ONEMAP_EMAIL", "e@x.com")
+    monkeypatch.setenv("ONEMAP_PASSWORD", "pw")
+    monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
+    monkeypatch.setattr(config, "FAILURES_PATH", tmp_path / "geocode_failures.csv")
+
+    monkeypatch.setattr(run_module, "get_token", lambda *a, **k: "tok")
+    monkeypatch.setattr(run_module, "fetch_blocks", lambda *a, **k: [
+        {"blk_no": str(i), "street": "X RD", "street_full": "X ROAD",
+         "bldg_contract_town": "AMK"} for i in range(5)
+    ])
+    seen = {}
+
+    def fake_geocode_all(session, token, blocks, **kw):
+        seen["n"] = len(blocks)
+        return [], []
+
+    monkeypatch.setattr(run_module, "geocode_all", fake_geocode_all)
+
+    run_module.run(limit=2)
+
+    assert seen["n"] == 2  # only the first 2 of 5 fetched blocks are geocoded
 
 
 def test_write_failures_sorted(tmp_path):
