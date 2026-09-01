@@ -38,18 +38,18 @@ def run(limit: int | None = None) -> None:
     token = get_token(session, email, password)
     towns = load_towns(config.TOWNS_PATH)
     blocks = fetch_blocks(session)
-    log.info("fetched %d residential blocks", len(blocks))
+    log.info("Fetched %d residential blocks", len(blocks))
     if limit is not None:
         blocks = blocks[:limit]
-        log.info("limited to first %d blocks (--limit)", len(blocks))
+        log.info("Limited to first %d blocks (--limit)", len(blocks))
 
     successes, failures = geocode_all(session, token, blocks)
-    log.info("geocoded %d, failed %d", len(successes), len(failures))
+    log.info("Geocoded %d, failed %d", len(successes), len(failures))
 
     records = transform(successes, towns)  # unknown town code -> raises, no writes
     write_outputs(records, towns, config.APP_DATA_DIR)
     write_failures(failures, config.FAILURES_PATH)
-    log.info("wrote %d blocks to index + %d shards", len(records), len(towns))
+    log.info("Wrote %d blocks to index + %d shards", len(records), len(towns))
 
 
 if __name__ == "__main__":
