@@ -96,8 +96,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7832716624587,
-          1.302529947349503
+          103.7832731668167,
+          1.302525746948527
         ]
       },
       "properties": {
@@ -105,7 +105,7 @@
         "blk_no": "1",
         "street": "DOVER RD",
         "street_full": "DOVER ROAD",
-        "postal": "NIL",
+        "postal": "130001",
         "town": "QUEENSTOWN"
       }
     },
@@ -492,8 +492,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7745863189453,
-          1.339581558770648
+          103.7746782463922,
+          1.339571753141883
         ]
       },
       "properties": {
@@ -501,7 +501,7 @@
         "blk_no": "1",
         "street": "TOH YI DR",
         "street_full": "TOH YI DRIVE",
-        "postal": "NIL",
+        "postal": "591501",
         "town": "BUKIT TIMAH"
       }
     },
@@ -816,8 +816,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7552110771688,
-          1.380470546472359
+          103.7552110752648,
+          1.380470550578285
         ]
       },
       "properties": {
@@ -825,7 +825,7 @@
         "blk_no": "10",
         "street": "TECK WHYE AVE",
         "street_full": "TECK WHYE AVENUE",
-        "postal": "NIL",
+        "postal": "680010",
         "town": "CHOA CHU KANG"
       }
     },
@@ -888,8 +888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9383897130026,
-          1.334138999740372
+          103.9390327112405,
+          1.334355934008108
         ]
       },
       "properties": {
@@ -897,7 +897,7 @@
         "blk_no": "100",
         "street": "BEDOK NTH AVE 4",
         "street_full": "BEDOK NORTH AVENUE 4",
-        "postal": "NIL",
+        "postal": "460100",
         "town": "BEDOK"
       }
     },
@@ -1194,8 +1194,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8505453210323,
-          1.328714783929596
+          103.850782023537,
+          1.328800861679852
         ]
       },
       "properties": {
@@ -1203,7 +1203,7 @@
         "blk_no": "101",
         "street": "JLN RAJAH",
         "street_full": "JALAN RAJAH",
-        "postal": "NIL",
+        "postal": "321101",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -1284,8 +1284,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8992720359138,
-          1.382764288935955
+          103.8992720291143,
+          1.382764289757343
         ]
       },
       "properties": {
@@ -1293,7 +1293,7 @@
         "blk_no": "101",
         "street": "RIVERVALE WALK",
         "street_full": "RIVERVALE WALK",
-        "postal": "NIL",
+        "postal": "540101",
         "town": "SENGKANG"
       }
     },
@@ -1644,8 +1644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8394103488106,
-          1.370650092493771
+          103.8394103398353,
+          1.370650097694718
         ]
       },
       "properties": {
@@ -1653,7 +1653,7 @@
         "blk_no": "102",
         "street": "ANG MO KIO AVE 3",
         "street_full": "ANG MO KIO AVENUE 3",
-        "postal": "NIL",
+        "postal": "560102",
         "town": "ANG MO KIO"
       }
     },
@@ -2310,8 +2310,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9375425200911,
-          1.333482587777599
+          103.9375425143798,
+          1.333482591336364
         ]
       },
       "properties": {
@@ -2319,7 +2319,7 @@
         "blk_no": "103",
         "street": "BEDOK NTH AVE 4",
         "street_full": "BEDOK NORTH AVENUE 4",
-        "postal": "NIL",
+        "postal": "460103",
         "town": "BEDOK"
       }
     },
@@ -2598,8 +2598,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9012085833131,
-          1.382911467121096
+          103.9012085811375,
+          1.3829114767018
         ]
       },
       "properties": {
@@ -2607,7 +2607,7 @@
         "blk_no": "103",
         "street": "RIVERVALE WALK",
         "street_full": "RIVERVALE WALK",
-        "postal": "NIL",
+        "postal": "540103",
         "town": "SENGKANG"
       }
     },
@@ -2616,8 +2616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8702639242961,
-          1.370673530475235
+          103.8702689311561,
+          1.370655487027874
         ]
       },
       "properties": {
@@ -2625,7 +2625,7 @@
         "blk_no": "103",
         "street": "SERANGOON NTH AVE 1",
         "street_full": "SERANGOON NORTH AVENUE 1",
-        "postal": "NIL",
+        "postal": "550103",
         "town": "SERANGOON"
       }
     },
@@ -3624,8 +3624,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9364739035916,
-          1.333688594579251
+          103.9365177190474,
+          1.333722809290007
         ]
       },
       "properties": {
@@ -3633,7 +3633,7 @@
         "blk_no": "105",
         "street": "BEDOK NTH AVE 4",
         "street_full": "BEDOK NORTH AVENUE 4",
-        "postal": "NIL",
+        "postal": "460105",
         "town": "BEDOK"
       }
     },
@@ -3723,7 +3723,7 @@
         "blk_no": "105",
         "street": "CLEMENTI ST 12",
         "street_full": "CLEMENTI STREET 12",
-        "postal": "NIL",
+        "postal": "120105",
         "town": "CLEMENTI"
       }
     },
@@ -3786,8 +3786,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8538725235602,
-          1.328579099876147
+          103.854154506034,
+          1.328265514279672
         ]
       },
       "properties": {
@@ -3795,7 +3795,7 @@
         "blk_no": "105",
         "street": "JLN RAJAH",
         "street_full": "JALAN RAJAH",
-        "postal": "NIL",
+        "postal": "320105",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -5046,8 +5046,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7381318775391,
-          1.337786345399596
+          103.7380933521199,
+          1.337754568475875
         ]
       },
       "properties": {
@@ -5055,7 +5055,7 @@
         "blk_no": "107",
         "street": "JURONG EAST ST 13",
         "street_full": "JURONG EAST STREET 13",
-        "postal": "NIL",
+        "postal": "600107",
         "town": "JURONG EAST"
       }
     },
@@ -5154,8 +5154,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.870224885633,
-          1.369900397487746
+          103.8702248845452,
+          1.369900403783617
         ]
       },
       "properties": {
@@ -5163,7 +5163,7 @@
         "blk_no": "107",
         "street": "SERANGOON NTH AVE 1",
         "street_full": "SERANGOON NORTH AVENUE 1",
-        "postal": "NIL",
+        "postal": "550107",
         "town": "SERANGOON"
       }
     },
@@ -5514,8 +5514,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9093869724578,
-          1.33023193004173
+          103.909386968106,
+          1.330231922103617
         ]
       },
       "properties": {
@@ -5523,7 +5523,7 @@
         "blk_no": "108",
         "street": "BEDOK RESERVOIR RD",
         "street_full": "BEDOK RESERVOIR ROAD",
-        "postal": "NIL",
+        "postal": "470108",
         "town": "BEDOK"
       }
     },
@@ -5676,8 +5676,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7371020992357,
-          1.338283030681062
+          103.7372828936999,
+          1.338380443613156
         ]
       },
       "properties": {
@@ -5685,7 +5685,7 @@
         "blk_no": "108",
         "street": "JURONG EAST ST 13",
         "street_full": "JURONG EAST STREET 13",
-        "postal": "NIL",
+        "postal": "600108",
         "town": "JURONG EAST"
       }
     },
@@ -6270,8 +6270,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9106137210882,
-          1.324566842762959
+          103.9106975310816,
+          1.324580762449695
         ]
       },
       "properties": {
@@ -6279,7 +6279,7 @@
         "blk_no": "109",
         "street": "LENGKONG TIGA",
         "street_full": "LENGKONG TIGA",
-        "postal": "NIL",
+        "postal": "410109",
         "town": "BEDOK"
       }
     },
@@ -7458,8 +7458,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7362185061136,
-          1.338870882464053
+          103.7362185050254,
+          1.338870889307322
         ]
       },
       "properties": {
@@ -7467,7 +7467,7 @@
         "blk_no": "110",
         "street": "JURONG EAST ST 13",
         "street_full": "JURONG EAST STREET 13",
-        "postal": "NIL",
+        "postal": "600110",
         "town": "JURONG EAST"
       }
     },
@@ -8071,7 +8071,7 @@
         "type": "Point",
         "coordinates": [
           103.8261858544358,
-          1.280321141145694
+          1.2803211362185
         ]
       },
       "properties": {
@@ -8079,7 +8079,7 @@
         "blk_no": "111",
         "street": "JLN BT MERAH",
         "street_full": "JALAN BUKIT MERAH",
-        "postal": "NIL",
+        "postal": "160111",
         "town": "BUKIT MERAH"
       }
     },
@@ -8898,8 +8898,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8567322059891,
-          1.32600154062316
+          103.8568231311535,
+          1.325925011699216
         ]
       },
       "properties": {
@@ -8907,7 +8907,7 @@
         "blk_no": "112",
         "street": "WHAMPOA RD",
         "street_full": "WHAMPOA ROAD",
-        "postal": "NIL",
+        "postal": "321112",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -9168,8 +9168,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8269322774939,
-          1.274770134941821
+          103.826932267703,
+          1.274770125361139
         ]
       },
       "properties": {
@@ -9177,7 +9177,7 @@
         "blk_no": "113",
         "street": "BT PURMEI RD",
         "street_full": "BUKIT PURMEI ROAD",
-        "postal": "NIL",
+        "postal": "090113",
         "town": "BUKIT MERAH"
       }
     },
@@ -9402,8 +9402,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9016836652122,
-          1.383827436891408
+          103.9016935349006,
+          1.383829505202524
         ]
       },
       "properties": {
@@ -9411,7 +9411,7 @@
         "blk_no": "113",
         "street": "RIVERVALE WALK",
         "street_full": "RIVERVALE WALK",
-        "postal": "NIL",
+        "postal": "540113",
         "town": "SENGKANG"
       }
     },
@@ -9906,8 +9906,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7346320451855,
-          1.33923166301632
+          103.7346099742851,
+          1.339213864856163
         ]
       },
       "properties": {
@@ -9915,7 +9915,7 @@
         "blk_no": "114",
         "street": "JURONG EAST ST 13",
         "street_full": "JURONG EAST STREET 13",
-        "postal": "NIL",
+        "postal": "600114",
         "town": "JURONG EAST"
       }
     },
@@ -10140,8 +10140,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8574813859723,
-          1.325412048465901
+          103.8574874405054,
+          1.32539594141453
         ]
       },
       "properties": {
@@ -10149,7 +10149,7 @@
         "blk_no": "114",
         "street": "WHAMPOA RD",
         "street_full": "WHAMPOA ROAD",
-        "postal": "NIL",
+        "postal": "320114",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -10698,8 +10698,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8573374814842,
-          1.326263577389816
+          103.8573413149532,
+          1.326262709345345
         ]
       },
       "properties": {
@@ -10707,7 +10707,7 @@
         "blk_no": "115",
         "street": "WHAMPOA RD",
         "street_full": "WHAMPOA ROAD",
-        "postal": "NIL",
+        "postal": "320115",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -11418,8 +11418,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9022386819975,
-          1.382460380392853
+          103.902238675198,
+          1.38246038121425
         ]
       },
       "properties": {
@@ -11427,7 +11427,7 @@
         "blk_no": "116A",
         "street": "RIVERVALE DR",
         "street_full": "RIVERVALE DRIVE",
-        "postal": "NIL",
+        "postal": "541116",
         "town": "SENGKANG"
       }
     },
@@ -12660,8 +12660,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8210682272278,
-          1.283422476846971
+          103.820830012818,
+          1.283527551664666
         ]
       },
       "properties": {
@@ -12669,7 +12669,7 @@
         "blk_no": "119",
         "street": "BT MERAH VIEW",
         "street_full": "BUKIT MERAH VIEW",
-        "postal": "NIL",
+        "postal": "152119",
         "town": "BUKIT MERAH"
       }
     },
@@ -13524,8 +13524,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.772685810097,
-          1.338402743403606
+          103.7726858016656,
+          1.338402749972982
         ]
       },
       "properties": {
@@ -13533,7 +13533,7 @@
         "blk_no": "12",
         "street": "TOH YI DR",
         "street_full": "TOH YI DRIVE",
-        "postal": "NIL",
+        "postal": "590012",
         "town": "BUKIT TIMAH"
       }
     },
@@ -15774,8 +15774,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9029005711608,
-          1.386041636865785
+          103.9029005659933,
+          1.386041640424461
         ]
       },
       "properties": {
@@ -15783,7 +15783,7 @@
         "blk_no": "123A",
         "street": "RIVERVALE DR",
         "street_full": "RIVERVALE DRIVE",
-        "postal": "NIL",
+        "postal": "541123",
         "town": "SENGKANG"
       }
     },
@@ -16332,8 +16332,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9021761458167,
-          1.388133067453801
+          103.902176141737,
+          1.388133068275118
         ]
       },
       "properties": {
@@ -16341,7 +16341,7 @@
         "blk_no": "124A",
         "street": "RIVERVALE DR",
         "street_full": "RIVERVALE DRIVE",
-        "postal": "NIL",
+        "postal": "541124",
         "town": "SENGKANG"
       }
     },
@@ -17124,8 +17124,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8300118878872,
-          1.433509059898166
+          103.8301487710383,
+          1.433528970040709
         ]
       },
       "properties": {
@@ -17133,7 +17133,7 @@
         "blk_no": "126",
         "street": "YISHUN ST 11",
         "street_full": "YISHUN STREET 11",
-        "postal": "NIL",
+        "postal": "760126",
         "town": "YISHUN"
       }
     },
@@ -17196,8 +17196,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7359201146558,
-          1.359189295178813
+          103.7359918440329,
+          1.359286277941959
         ]
       },
       "properties": {
@@ -17205,7 +17205,7 @@
         "blk_no": "126A",
         "street": "TENGAH DR",
         "street_full": "TENGAH DRIVE",
-        "postal": "NIL",
+        "postal": "691126",
         "town": "TENGAH"
       }
     },
@@ -17250,8 +17250,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7357094385912,
-          1.358954375169532
+          103.7356449389471,
+          1.358958781554223
         ]
       },
       "properties": {
@@ -17259,7 +17259,7 @@
         "blk_no": "126B",
         "street": "TENGAH DR",
         "street_full": "TENGAH DRIVE",
-        "postal": "NIL",
+        "postal": "692126",
         "town": "TENGAH"
       }
     },
@@ -17322,8 +17322,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7350449951386,
-          1.358434914168416
+          103.7350753921786,
+          1.358420844195473
         ]
       },
       "properties": {
@@ -17331,7 +17331,7 @@
         "blk_no": "126C",
         "street": "TENGAH DR",
         "street_full": "TENGAH DRIVE",
-        "postal": "NIL",
+        "postal": "693126",
         "town": "TENGAH"
       }
     },
@@ -17700,8 +17700,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7341691896662,
-          1.357561190150734
+          103.7343227012247,
+          1.357850390436764
         ]
       },
       "properties": {
@@ -17709,7 +17709,7 @@
         "blk_no": "127A",
         "street": "PLANTATION CRES",
         "street_full": "PLANTATION CRESCENT",
-        "postal": "NIL",
+        "postal": "691127",
         "town": "TENGAH"
       }
     },
@@ -17718,8 +17718,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7347917335957,
-          1.358158418680933
+          103.7345295151643,
+          1.358395502366855
         ]
       },
       "properties": {
@@ -17727,7 +17727,7 @@
         "blk_no": "127B",
         "street": "PLANTATION CRES",
         "street_full": "PLANTATION CRESCENT",
-        "postal": "NIL",
+        "postal": "692127",
         "town": "TENGAH"
       }
     },
@@ -19626,8 +19626,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8281784456104,
-          1.280189422610104
+          103.8281784447945,
+          1.28018941877784
         ]
       },
       "properties": {
@@ -19635,7 +19635,7 @@
         "blk_no": "131",
         "street": "JLN BT MERAH",
         "street_full": "JALAN BUKIT MERAH",
-        "postal": "NIL",
+        "postal": "160131",
         "town": "BUKIT MERAH"
       }
     },
@@ -20796,8 +20796,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8419477331952,
-          1.372076654795067
+          103.8422497373814,
+          1.372053182460395
         ]
       },
       "properties": {
@@ -20805,7 +20805,7 @@
         "blk_no": "134",
         "street": "ANG MO KIO AVE 3",
         "street_full": "ANG MO KIO AVENUE 3",
-        "postal": "NIL",
+        "postal": "560134",
         "town": "ANG MO KIO"
       }
     },
@@ -21516,8 +21516,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9135369442292,
-          1.333538061226574
+          103.913545814607,
+          1.333569160796723
         ]
       },
       "properties": {
@@ -21525,7 +21525,7 @@
         "blk_no": "136",
         "street": "BEDOK RESERVOIR RD",
         "street_full": "BEDOK RESERVOIR ROAD",
-        "postal": "NIL",
+        "postal": "470136",
         "town": "BEDOK"
       }
     },
@@ -22938,8 +22938,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8620884372132,
-          1.323729595197351
+          103.8620884295979,
+          1.323729593007577
         ]
       },
       "properties": {
@@ -22947,7 +22947,7 @@
         "blk_no": "14",
         "street": "ST. GEORGE'S RD",
         "street_full": "SAINT GEORGE'S ROAD",
-        "postal": "NIL",
+        "postal": "320014",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -24198,8 +24198,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.905723427087,
-          1.390065928337149
+          103.9057234183837,
+          1.390065933812069
         ]
       },
       "properties": {
@@ -24207,7 +24207,7 @@
         "blk_no": "143",
         "street": "RIVERVALE DR",
         "street_full": "RIVERVALE DRIVE",
-        "postal": "NIL",
+        "postal": "540143",
         "town": "SENGKANG"
       }
     },
@@ -24738,8 +24738,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9060703438483,
-          1.389900440798812
+          103.9060703343292,
+          1.389900448737351
         ]
       },
       "properties": {
@@ -24747,7 +24747,7 @@
         "blk_no": "145",
         "street": "RIVERVALE DR",
         "street_full": "RIVERVALE DRIVE",
-        "postal": "NIL",
+        "postal": "540145",
         "town": "SENGKANG"
       }
     },
@@ -25926,8 +25926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8583152339521,
-          1.336268208009509
+          103.8583152342241,
+          1.336268210746836
         ]
       },
       "properties": {
@@ -25935,7 +25935,7 @@
         "blk_no": "14A",
         "street": "LOR 7 TOA PAYOH",
         "street_full": "LORONG 7 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "311014",
         "town": "TOA PAYOH"
       }
     },
@@ -26142,8 +26142,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9142573997257,
-          1.304845468884632
+          103.9139400064461,
+          1.304884330569585
         ]
       },
       "properties": {
@@ -26151,7 +26151,7 @@
         "blk_no": "15",
         "street": "MARINE TER",
         "street_full": "MARINE TERRACE",
-        "postal": "NIL",
+        "postal": "440015",
         "town": "MARINE PARADE"
       }
     },
@@ -27258,8 +27258,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9065798478885,
-          1.391340139704553
+          103.9066012435329,
+          1.39136527233854
         ]
       },
       "properties": {
@@ -27267,7 +27267,7 @@
         "blk_no": "153",
         "street": "RIVERVALE CRES",
         "street_full": "RIVERVALE CRESCENT",
-        "postal": "NIL",
+        "postal": "540153",
         "town": "SENGKANG"
       }
     },
@@ -28644,8 +28644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9451056110311,
-          1.318670387068642
+          103.9450867431065,
+          1.318735826395004
         ]
       },
       "properties": {
@@ -28653,7 +28653,7 @@
         "blk_no": "158",
         "street": "BEDOK STH AVE 3",
         "street_full": "BEDOK SOUTH AVENUE 3",
-        "postal": "NIL",
+        "postal": "460158",
         "town": "BEDOK"
       }
     },
@@ -28716,8 +28716,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8451194268562,
-          1.331434290389403
+          103.8450546363397,
+          1.331466010049369
         ]
       },
       "properties": {
@@ -28725,7 +28725,7 @@
         "blk_no": "158",
         "street": "LOR 1 TOA PAYOH",
         "street_full": "LORONG 1 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310158",
         "town": "TOA PAYOH"
       }
     },
@@ -29022,8 +29022,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8456012231026,
-          1.330745429285595
+          103.8456012152153,
+          1.330745426274572
         ]
       },
       "properties": {
@@ -29031,7 +29031,7 @@
         "blk_no": "159",
         "street": "LOR 1 TOA PAYOH",
         "street_full": "LORONG 1 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310159",
         "town": "TOA PAYOH"
       }
     },
@@ -29634,8 +29634,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8334301363791,
-          1.432421720810369
+          103.833344538739,
+          1.432414546004896
         ]
       },
       "properties": {
@@ -29643,7 +29643,7 @@
         "blk_no": "160",
         "street": "YISHUN ST 11",
         "street_full": "YISHUN STREET 11",
-        "postal": "NIL",
+        "postal": "760160",
         "town": "YISHUN"
       }
     },
@@ -31974,8 +31974,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9140016087835,
-          1.393746763098171
+          103.914001603344,
+          1.393746767751811
         ]
       },
       "properties": {
@@ -31983,7 +31983,7 @@
         "blk_no": "168D",
         "street": "PUNGGOL FIELD",
         "street_full": "PUNGGOL FIELD",
-        "postal": "NIL",
+        "postal": "824168",
         "town": "PUNGGOL"
       }
     },
@@ -32082,8 +32082,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8427994701929,
-          1.331725998460823
+          103.8426823251817,
+          1.331729638737355
         ]
       },
       "properties": {
@@ -32091,7 +32091,7 @@
         "blk_no": "169",
         "street": "LOR 1 TOA PAYOH",
         "street_full": "LORONG 1 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310169",
         "town": "TOA PAYOH"
       }
     },
@@ -32514,8 +32514,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9461110701125,
-          1.320720112439933
+          103.9461110692962,
+          1.320720104227998
         ]
       },
       "properties": {
@@ -32523,7 +32523,7 @@
         "blk_no": "170",
         "street": "BEDOK STH RD",
         "street_full": "BEDOK SOUTH ROAD",
-        "postal": "NIL",
+        "postal": "460170",
         "town": "BEDOK"
       }
     },
@@ -33054,8 +33054,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9446895293596,
-          1.320669171009098
+          103.9446895282717,
+          1.320669170461682
         ]
       },
       "properties": {
@@ -33063,7 +33063,7 @@
         "blk_no": "172",
         "street": "BEDOK STH RD",
         "street_full": "BEDOK SOUTH ROAD",
-        "postal": "NIL",
+        "postal": "460172",
         "town": "BEDOK"
       }
     },
@@ -33216,8 +33216,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8425402474283,
-          1.330269939321356
+          103.842448857691,
+          1.330277548069321
         ]
       },
       "properties": {
@@ -33225,7 +33225,7 @@
         "blk_no": "172A",
         "street": "LOR 1 TOA PAYOH",
         "street_full": "LORONG 1 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "311172",
         "town": "TOA PAYOH"
       }
     },
@@ -34152,8 +34152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7215615087251,
-          1.331937863684428
+          103.7215139511787,
+          1.331952223157433
         ]
       },
       "properties": {
@@ -34161,7 +34161,7 @@
         "blk_no": "175A",
         "street": "YUNG KUANG RD",
         "street_full": "YUNG KUANG ROAD",
-        "postal": "NIL",
+        "postal": "611175",
         "town": "JURONG WEST"
       }
     },
@@ -34836,8 +34836,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9096515941757,
-          1.388973236280309
+          103.9096515862883,
+          1.38897323682803
         ]
       },
       "properties": {
@@ -34845,7 +34845,7 @@
         "blk_no": "178A",
         "street": "RIVERVALE CRES",
         "street_full": "RIVERVALE CRESCENT",
-        "postal": "NIL",
+        "postal": "541178",
         "town": "SENGKANG"
       }
     },
@@ -36960,8 +36960,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7449774595943,
-          1.347036727636122
+          103.7449239724868,
+          1.347081584975824
         ]
       },
       "properties": {
@@ -36969,7 +36969,7 @@
         "blk_no": "185",
         "street": "BT BATOK WEST AVE 6",
         "street_full": "BUKIT BATOK WEST AVENUE 6",
-        "postal": "NIL",
+        "postal": "650185",
         "town": "BUKIT BATOK"
       }
     },
@@ -37554,8 +37554,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.90584757628,
-          1.394297906574617
+          103.9058475708405,
+          1.394297911228239
         ]
       },
       "properties": {
@@ -37563,7 +37563,7 @@
         "blk_no": "187B",
         "street": "RIVERVALE DR",
         "street_full": "RIVERVALE DRIVE",
-        "postal": "NIL",
+        "postal": "542187",
         "town": "SENGKANG"
       }
     },
@@ -37608,8 +37608,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7458346362529,
-          1.346000533176816
+          103.7460031670364,
+          1.346284881973044
         ]
       },
       "properties": {
@@ -37617,7 +37617,7 @@
         "blk_no": "188",
         "street": "BT BATOK WEST AVE 6",
         "street_full": "BUKIT BATOK WEST AVENUE 6",
-        "postal": "NIL",
+        "postal": "650188",
         "town": "BUKIT BATOK"
       }
     },
@@ -38454,8 +38454,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7529494469484,
-          1.379394294419965
+          103.7529494442283,
+          1.379394304000511
         ]
       },
       "properties": {
@@ -38463,7 +38463,7 @@
         "blk_no": "19",
         "street": "TECK WHYE LANE",
         "street_full": "TECK WHYE LANE",
-        "postal": "NIL",
+        "postal": "680019",
         "town": "CHOA CHU KANG"
       }
     },
@@ -39084,8 +39084,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9015925607086,
-          1.392609558109381
+          103.9015925528213,
+          1.392609562215599
         ]
       },
       "properties": {
@@ -39093,7 +39093,7 @@
         "blk_no": "194",
         "street": "RIVERVALE DR",
         "street_full": "RIVERVALE DRIVE",
-        "postal": "NIL",
+        "postal": "540194",
         "town": "SENGKANG"
       }
     },
@@ -39156,8 +39156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8583546041119,
-          1.330081022229912
+          103.859165821409,
+          1.330293033908347
         ]
       },
       "properties": {
@@ -39165,7 +39165,7 @@
         "blk_no": "195",
         "street": "KIM KEAT AVE",
         "street_full": "KIM KEAT AVENUE",
-        "postal": "NIL",
+        "postal": "310195",
         "town": "TOA PAYOH"
       }
     },
@@ -39246,8 +39246,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9067669693096,
-          1.401083422449491
+          103.9068311636977,
+          1.401092070645824
         ]
       },
       "properties": {
@@ -39255,7 +39255,7 @@
         "blk_no": "195C",
         "street": "PUNGGOL RD",
         "street_full": "PUNGGOL ROAD",
-        "postal": "NIL",
+        "postal": "823195",
         "town": "PUNGGOL"
       }
     },
@@ -39714,8 +39714,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.850648936995,
-          1.342033510136887
+          103.8506489296517,
+          1.342033518348925
         ]
       },
       "properties": {
@@ -39723,7 +39723,7 @@
         "blk_no": "199",
         "street": "TOA PAYOH NTH",
         "street_full": "TOA PAYOH NORTH",
-        "postal": "NIL",
+        "postal": "310199",
         "town": "TOA PAYOH"
       }
     },
@@ -39912,8 +39912,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8414857883682,
-          1.276920243047129
+          103.8414857859205,
+          1.276920234013947
         ]
       },
       "properties": {
@@ -39921,7 +39921,7 @@
         "blk_no": "1D",
         "street": "CANTONMENT RD",
         "street_full": "CANTONMENT ROAD",
-        "postal": "NIL",
+        "postal": "085401",
         "town": "CENTRAL AREA"
       }
     },
@@ -39930,8 +39930,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.841156142262,
-          1.276621684273679
+          103.841156133831,
+          1.276621682905039
         ]
       },
       "properties": {
@@ -39939,7 +39939,7 @@
         "blk_no": "1E",
         "street": "CANTONMENT RD",
         "street_full": "CANTONMENT ROAD",
-        "postal": "NIL",
+        "postal": "085501",
         "town": "CENTRAL AREA"
       }
     },
@@ -40380,8 +40380,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7518881786822,
-          1.381946425270693
+          103.7518346857798,
+          1.381933500237996
         ]
       },
       "properties": {
@@ -40389,7 +40389,7 @@
         "blk_no": "2",
         "street": "TECK WHYE AVE",
         "street_full": "TECK WHYE AVENUE",
-        "postal": "NIL",
+        "postal": "680002",
         "town": "CHOA CHU KANG"
       }
     },
@@ -41136,8 +41136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.837996781156,
-          1.430648656064276
+          103.8381334114685,
+          1.43063855969788
         ]
       },
       "properties": {
@@ -41145,7 +41145,7 @@
         "blk_no": "201",
         "street": "YISHUN ST 21",
         "street_full": "YISHUN STREET 21",
-        "postal": "NIL",
+        "postal": "760201",
         "town": "YISHUN"
       }
     },
@@ -42018,8 +42018,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8493959971898,
-          1.342052874118411
+          103.8491654366692,
+          1.342065202096788
         ]
       },
       "properties": {
@@ -42027,7 +42027,7 @@
         "blk_no": "203",
         "street": "TOA PAYOH NTH",
         "street_full": "TOA PAYOH NORTH",
-        "postal": "NIL",
+        "postal": "310203",
         "town": "TOA PAYOH"
       }
     },
@@ -42828,8 +42828,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8477276202222,
-          1.342209483324947
+          103.8480502687802,
+          1.342274860303177
         ]
       },
       "properties": {
@@ -42837,7 +42837,7 @@
         "blk_no": "205",
         "street": "TOA PAYOH NTH",
         "street_full": "TOA PAYOH NORTH",
-        "postal": "NIL",
+        "postal": "310205",
         "town": "TOA PAYOH"
       }
     },
@@ -42864,8 +42864,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8969666863715,
-          1.386039983365028
+          103.896966680116,
+          1.386039984186395
         ]
       },
       "properties": {
@@ -42873,7 +42873,7 @@
         "blk_no": "205A",
         "street": "COMPASSVALE LANE",
         "street_full": "COMPASSVALE LANE",
-        "postal": "NIL",
+        "postal": "541205",
         "town": "SENGKANG"
       }
     },
@@ -43152,8 +43152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8465089002292,
-          1.342314814168059
+          103.8465088983254,
+          1.342314815263001
         ]
       },
       "properties": {
@@ -43161,7 +43161,7 @@
         "blk_no": "206",
         "street": "TOA PAYOH NTH",
         "street_full": "TOA PAYOH NORTH",
-        "postal": "NIL",
+        "postal": "310206",
         "town": "TOA PAYOH"
       }
     },
@@ -43530,8 +43530,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8455981406121,
-          1.342382311064402
+          103.8452265115292,
+          1.342401969670611
         ]
       },
       "properties": {
@@ -43539,7 +43539,7 @@
         "blk_no": "207",
         "street": "TOA PAYOH NTH",
         "street_full": "TOA PAYOH NORTH",
-        "postal": "NIL",
+        "postal": "310207",
         "town": "TOA PAYOH"
       }
     },
@@ -44142,8 +44142,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9011271998528,
-          1.401361538809029
+          103.9011271965891,
+          1.40136154264138
         ]
       },
       "properties": {
@@ -44151,7 +44151,7 @@
         "blk_no": "208B",
         "street": "PUNGGOL PL",
         "street_full": "PUNGGOL PLACE",
-        "postal": "NIL",
+        "postal": "822208",
         "town": "PUNGGOL"
       }
     },
@@ -44430,8 +44430,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9007320567426,
-          1.399730674603661
+          103.9007320504872,
+          1.399730681447156
         ]
       },
       "properties": {
@@ -44439,7 +44439,7 @@
         "blk_no": "209A",
         "street": "PUNGGOL PL",
         "street_full": "PUNGGOL PLACE",
-        "postal": "NIL",
+        "postal": "821209",
         "town": "PUNGGOL"
       }
     },
@@ -45618,8 +45618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8999443560523,
-          1.401759842904774
+          103.899944347349,
+          1.401759847011012
         ]
       },
       "properties": {
@@ -45627,7 +45627,7 @@
         "blk_no": "211A",
         "street": "PUNGGOL WALK",
         "street_full": "PUNGGOL WALK",
-        "postal": "NIL",
+        "postal": "821211",
         "town": "PUNGGOL"
       }
     },
@@ -47940,8 +47940,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8363187331231,
-          1.432622676149897
+          103.8363170718319,
+          1.432623935322435
         ]
       },
       "properties": {
@@ -47949,7 +47949,7 @@
         "blk_no": "217",
         "street": "YISHUN ST 21",
         "street_full": "YISHUN STREET 21",
-        "postal": "NIL",
+        "postal": "760217",
         "town": "YISHUN"
       }
     },
@@ -48192,8 +48192,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9337677961941,
-          1.327356572596335
+          103.9342494342139,
+          1.327492955414554
         ]
       },
       "properties": {
@@ -48201,7 +48201,7 @@
         "blk_no": "218",
         "street": "BEDOK NTH ST 1",
         "street_full": "BEDOK NORTH STREET 1",
-        "postal": "NIL",
+        "postal": "460218",
         "town": "BEDOK"
       }
     },
@@ -49326,8 +49326,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8352440341905,
-          1.433616715931685
+          103.8352493319569,
+          1.433633033680082
         ]
       },
       "properties": {
@@ -49335,7 +49335,7 @@
         "blk_no": "220",
         "street": "YISHUN ST 21",
         "street_full": "YISHUN STREET 21",
-        "postal": "NIL",
+        "postal": "760220",
         "town": "YISHUN"
       }
     },
@@ -49578,8 +49578,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8836506222411,
-          1.356604529344673
+          103.8836506219694,
+          1.356604544126248
         ]
       },
       "properties": {
@@ -49587,7 +49587,7 @@
         "blk_no": "221",
         "street": "HOUGANG ST 21",
         "street_full": "HOUGANG STREET 21",
-        "postal": "NIL",
+        "postal": "530221",
         "town": "HOUGANG"
       }
     },
@@ -49938,8 +49938,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8837226950592,
-          1.356334679070297
+          103.8837226947872,
+          1.35633467879657
         ]
       },
       "properties": {
@@ -49947,7 +49947,7 @@
         "blk_no": "222",
         "street": "HOUGANG ST 21",
         "street_full": "HOUGANG STREET 21",
-        "postal": "NIL",
+        "postal": "530222",
         "town": "HOUGANG"
       }
     },
@@ -50424,8 +50424,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8356026855636,
-          1.434367273377777
+          103.8356076392618,
+          1.434374012671503
         ]
       },
       "properties": {
@@ -50433,7 +50433,7 @@
         "blk_no": "223",
         "street": "YISHUN ST 21",
         "street_full": "YISHUN STREET 21",
-        "postal": "NIL",
+        "postal": "760223",
         "town": "YISHUN"
       }
     },
@@ -50442,8 +50442,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8972576537201,
-          1.388132095038322
+          103.8972576463768,
+          1.388132103250501
         ]
       },
       "properties": {
@@ -50451,7 +50451,7 @@
         "blk_no": "223A",
         "street": "COMPASSVALE WALK",
         "street_full": "COMPASSVALE WALK",
-        "postal": "NIL",
+        "postal": "541223",
         "town": "SENGKANG"
       }
     },
@@ -51144,8 +51144,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8556467972892,
-          1.339509223025749
+          103.8559141627423,
+          1.339507531355659
         ]
       },
       "properties": {
@@ -51153,7 +51153,7 @@
         "blk_no": "225",
         "street": "LOR 8 TOA PAYOH",
         "street_full": "LORONG 8 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310225",
         "town": "TOA PAYOH"
       }
     },
@@ -53718,8 +53718,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8594897198391,
-          1.336960114145143
+          103.8594923945998,
+          1.337360069334223
         ]
       },
       "properties": {
@@ -53727,7 +53727,7 @@
         "blk_no": "231",
         "street": "LOR 8 TOA PAYOH",
         "street_full": "LORONG 8 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310231",
         "town": "TOA PAYOH"
       }
     },
@@ -54060,8 +54060,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8588439354276,
-          1.337571869081129
+          103.8588439302601,
+          1.337571873187176
         ]
       },
       "properties": {
@@ -54069,7 +54069,7 @@
         "blk_no": "232",
         "street": "LOR 8 TOA PAYOH",
         "street_full": "LORONG 8 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310232",
         "town": "TOA PAYOH"
       }
     },
@@ -55860,8 +55860,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8986639849912,
-          1.390440058058727
+          103.8986639809122,
+          1.390440083515973
         ]
       },
       "properties": {
@@ -55869,7 +55869,7 @@
         "blk_no": "238",
         "street": "COMPASSVALE WALK",
         "street_full": "COMPASSVALE WALK",
-        "postal": "NIL",
+        "postal": "540238",
         "town": "SENGKANG"
       }
     },
@@ -59568,8 +59568,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9007700453474,
-          1.393681905542138
+          103.9008793948403,
+          1.393828075865164
         ]
       },
       "properties": {
@@ -59577,7 +59577,7 @@
         "blk_no": "252",
         "street": "COMPASSVALE ST",
         "street_full": "COMPASSVALE STREET",
-        "postal": "NIL",
+        "postal": "540252",
         "town": "SENGKANG"
       }
     },
@@ -63654,8 +63654,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8975048942387,
-          1.40455908718089
+          103.8975048896151,
+          1.404559094024332
         ]
       },
       "properties": {
@@ -63663,7 +63663,7 @@
         "blk_no": "267A",
         "street": "PUNGGOL FIELD",
         "street_full": "PUNGGOL FIELD",
-        "postal": "NIL",
+        "postal": "821267",
         "town": "PUNGGOL"
       }
     },
@@ -65040,8 +65040,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7462455390121,
-          1.34168199586003
+          103.7462455327567,
+          1.341681996407271
         ]
       },
       "properties": {
@@ -65049,7 +65049,7 @@
         "blk_no": "271",
         "street": "TOH GUAN RD",
         "street_full": "TOH GUAN ROAD",
-        "postal": "NIL",
+        "postal": "600271",
         "town": "JURONG EAST"
       }
     },
@@ -65094,8 +65094,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9003188678069,
-          1.403745396522358
+          103.9003188664472,
+          1.403745403913177
         ]
       },
       "properties": {
@@ -65103,7 +65103,7 @@
         "blk_no": "271A",
         "street": "PUNGGOL WALK",
         "street_full": "PUNGGOL WALK",
-        "postal": "NIL",
+        "postal": "821271",
         "town": "PUNGGOL"
       }
     },
@@ -65652,8 +65652,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7430727304155,
-          1.379250434378004
+          103.7430767865161,
+          1.379248708649561
         ]
       },
       "properties": {
@@ -65661,7 +65661,7 @@
         "blk_no": "273",
         "street": "CHOA CHU KANG AVE 2",
         "street_full": "CHOA CHU KANG AVENUE 2",
-        "postal": "NIL",
+        "postal": "680273",
         "town": "CHOA CHU KANG"
       }
     },
@@ -66210,8 +66210,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9022873668538,
-          1.40311625745814
+          103.9022873635901,
+          1.403116262932888
         ]
       },
       "properties": {
@@ -66219,7 +66219,7 @@
         "blk_no": "274B",
         "street": "PUNGGOL PL",
         "street_full": "PUNGGOL PLACE",
-        "postal": "NIL",
+        "postal": "822274",
         "town": "PUNGGOL"
       }
     },
@@ -66282,8 +66282,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.704379929183,
-          1.352198918497991
+          103.7043860598369,
+          1.352203458126415
         ]
       },
       "properties": {
@@ -66291,7 +66291,7 @@
         "blk_no": "274D",
         "street": "JURONG WEST AVE 3",
         "street_full": "JURONG WEST AVENUE 3",
-        "postal": "NIL",
+        "postal": "644274",
         "town": "JURONG WEST"
       }
     },
@@ -66480,8 +66480,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7022212397879,
-          1.352412932677118
+          103.7022212351642,
+          1.352412935140456
         ]
       },
       "properties": {
@@ -66489,7 +66489,7 @@
         "blk_no": "275A",
         "street": "JURONG WEST ST 25",
         "street_full": "JURONG WEST STREET 25",
-        "postal": "NIL",
+        "postal": "641275",
         "town": "JURONG WEST"
       }
     },
@@ -66750,8 +66750,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7044111530753,
-          1.35344766528144
+          103.7044930573946,
+          1.353608837965716
         ]
       },
       "properties": {
@@ -66759,7 +66759,7 @@
         "blk_no": "276D",
         "street": "JURONG WEST ST 25",
         "street_full": "JURONG WEST STREET 25",
-        "postal": "NIL",
+        "postal": "644276",
         "town": "JURONG WEST"
       }
     },
@@ -67992,8 +67992,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7421381921609,
-          1.379714082709212
+          103.7421342267046,
+          1.379713803349144
         ]
       },
       "properties": {
@@ -68001,7 +68001,7 @@
         "blk_no": "284",
         "street": "CHOA CHU KANG AVE 3",
         "street_full": "CHOA CHU KANG AVENUE 3",
-        "postal": "NIL",
+        "postal": "680284",
         "town": "CHOA CHU KANG"
       }
     },
@@ -68262,8 +68262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7415379489834,
-          1.379610963898498
+          103.7415307263052,
+          1.379610450643458
         ]
       },
       "properties": {
@@ -68271,7 +68271,7 @@
         "blk_no": "286",
         "street": "CHOA CHU KANG AVE 3",
         "street_full": "CHOA CHU KANG AVENUE 3",
-        "postal": "NIL",
+        "postal": "680286",
         "town": "CHOA CHU KANG"
       }
     },
@@ -68478,8 +68478,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.741685629222,
-          1.3785215910742
+          103.7415643470177,
+          1.378930954639024
         ]
       },
       "properties": {
@@ -68487,7 +68487,7 @@
         "blk_no": "287",
         "street": "CHOA CHU KANG AVE 2",
         "street_full": "CHOA CHU KANG AVENUE 2",
-        "postal": "NIL",
+        "postal": "680287",
         "town": "CHOA CHU KANG"
       }
     },
@@ -68676,8 +68676,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7410271259401,
-          1.37893889552044
+          103.7410231482462,
+          1.378938615336927
         ]
       },
       "properties": {
@@ -68685,7 +68685,7 @@
         "blk_no": "288",
         "street": "CHOA CHU KANG AVE 3",
         "street_full": "CHOA CHU KANG AVENUE 3",
-        "postal": "NIL",
+        "postal": "680288",
         "town": "CHOA CHU KANG"
       }
     },
@@ -68874,8 +68874,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7597546690148,
-          1.346100327880165
+          103.7599684923625,
+          1.346064976588582
         ]
       },
       "properties": {
@@ -68883,7 +68883,7 @@
         "blk_no": "288C",
         "street": "BT BATOK ST 25",
         "street_full": "BUKIT BATOK STREET 25",
-        "postal": "NIL",
+        "postal": "652288",
         "town": "BUKIT BATOK"
       }
     },
@@ -68982,8 +68982,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.758897488955,
-          1.345512407442437
+          103.7588974840592,
+          1.345512414285604
         ]
       },
       "properties": {
@@ -68991,7 +68991,7 @@
         "blk_no": "288E",
         "street": "BT BATOK ST 25",
         "street_full": "BUKIT BATOK STREET 25",
-        "postal": "NIL",
+        "postal": "654288",
         "town": "BUKIT BATOK"
       }
     },
@@ -69072,8 +69072,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7407183725692,
-          1.379325669874337
+          103.7407719376982,
+          1.37936640828773
         ]
       },
       "properties": {
@@ -69081,7 +69081,7 @@
         "blk_no": "289",
         "street": "CHOA CHU KANG AVE 3",
         "street_full": "CHOA CHU KANG AVENUE 3",
-        "postal": "NIL",
+        "postal": "680289",
         "town": "CHOA CHU KANG"
       }
     },
@@ -69360,8 +69360,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7592054583151,
-          1.344210302086709
+          103.7594313878395,
+          1.344170293367957
         ]
       },
       "properties": {
@@ -69369,7 +69369,7 @@
         "blk_no": "289E",
         "street": "BT BATOK ST 25",
         "street_full": "BUKIT BATOK STREET 25",
-        "postal": "NIL",
+        "postal": "654289",
         "town": "BUKIT BATOK"
       }
     },
@@ -69540,8 +69540,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8585655030166,
-          1.325407584503024
+          103.8589405658375,
+          1.325258073736938
         ]
       },
       "properties": {
@@ -69549,7 +69549,7 @@
         "blk_no": "29",
         "street": "JLN BAHAGIA",
         "street_full": "JALAN BAHAGIA",
-        "postal": "NIL",
+        "postal": "320029",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -69720,8 +69720,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7565314516555,
-          1.343262730875435
+          103.7565485055412,
+          1.343178552329477
         ]
       },
       "properties": {
@@ -69729,7 +69729,7 @@
         "blk_no": "290A",
         "street": "BT BATOK ST 24",
         "street_full": "BUKIT BATOK STREET 24",
-        "postal": "NIL",
+        "postal": "652290",
         "town": "BUKIT BATOK"
       }
     },
@@ -69828,8 +69828,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7574615115786,
-          1.344411499171734
+          103.7574615031473,
+          1.344411503277459
         ]
       },
       "properties": {
@@ -69837,7 +69837,7 @@
         "blk_no": "290D",
         "street": "BT BATOK EAST AVE 3",
         "street_full": "BUKIT BATOK EAST AVENUE 3",
-        "postal": "NIL",
+        "postal": "651290",
         "town": "BUKIT BATOK"
       }
     },
@@ -69972,8 +69972,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7560517030593,
-          1.34366766259089
+          103.7560517008833,
+          1.343667667244276
         ]
       },
       "properties": {
@@ -69981,7 +69981,7 @@
         "blk_no": "291A",
         "street": "BT BATOK ST 24",
         "street_full": "BUKIT BATOK STREET 24",
-        "postal": "NIL",
+        "postal": "650291",
         "town": "BUKIT BATOK"
       }
     },
@@ -70008,8 +70008,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7556776267895,
-          1.343064355133094
+          103.755862270481,
+          1.343156999820977
         ]
       },
       "properties": {
@@ -70017,7 +70017,7 @@
         "blk_no": "291B",
         "street": "BT BATOK ST 24",
         "street_full": "BUKIT BATOK STREET 24",
-        "postal": "NIL",
+        "postal": "651291",
         "town": "BUKIT BATOK"
       }
     },
@@ -70530,8 +70530,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7409617766493,
-          1.378604309513836
+          103.74097440321,
+          1.378599847346463
         ]
       },
       "properties": {
@@ -70539,7 +70539,7 @@
         "blk_no": "294",
         "street": "CHOA CHU KANG AVE 2",
         "street_full": "CHOA CHU KANG AVENUE 2",
-        "postal": "NIL",
+        "postal": "680294",
         "town": "CHOA CHU KANG"
       }
     },
@@ -70602,8 +70602,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7409679661016,
-          1.378166435545375
+          103.7409679625657,
+          1.378166438556295
         ]
       },
       "properties": {
@@ -70611,7 +70611,7 @@
         "blk_no": "295",
         "street": "CHOA CHU KANG AVE 2",
         "street_full": "CHOA CHU KANG AVENUE 2",
-        "postal": "NIL",
+        "postal": "680295",
         "town": "CHOA CHU KANG"
       }
     },
@@ -71430,8 +71430,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9542864031918,
-          1.349688793311813
+          103.9541241328102,
+          1.349493963177444
         ]
       },
       "properties": {
@@ -71439,7 +71439,7 @@
         "blk_no": "299B",
         "street": "TAMPINES ST 22",
         "street_full": "TAMPINES STREET 22",
-        "postal": "NIL",
+        "postal": "522299",
         "town": "TAMPINES"
       }
     },
@@ -72060,8 +72060,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7525279803805,
-          1.382476564525752
+          103.7525279765727,
+          1.382476567262946
         ]
       },
       "properties": {
@@ -72069,7 +72069,7 @@
         "blk_no": "3",
         "street": "TECK WHYE AVE",
         "street_full": "TECK WHYE AVENUE",
-        "postal": "NIL",
+        "postal": "680003",
         "town": "CHOA CHU KANG"
       }
     },
@@ -72600,8 +72600,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8678228114751,
-          1.35288347756586
+          103.8679178147013,
+          1.353092239090324
         ]
       },
       "properties": {
@@ -72609,7 +72609,7 @@
         "blk_no": "301",
         "street": "SERANGOON AVE 2",
         "street_full": "SERANGOON AVENUE 2",
-        "postal": "NIL",
+        "postal": "550301",
         "town": "SERANGOON"
       }
     },
@@ -74076,8 +74076,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8387275719872,
-          1.350115060714774
+          103.8387306265632,
+          1.350116512039675
         ]
       },
       "properties": {
@@ -74085,7 +74085,7 @@
         "blk_no": "305",
         "street": "SHUNFU RD",
         "street_full": "SHUNFU ROAD",
-        "postal": "NIL",
+        "postal": "570305",
         "town": "BISHAN"
       }
     },
@@ -74508,8 +74508,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9053953096767,
-          1.40609259284715
+          103.9053953096768,
+          1.406092596405673
         ]
       },
       "properties": {
@@ -74517,7 +74517,7 @@
         "blk_no": "306A",
         "street": "PUNGGOL PL",
         "street_full": "PUNGGOL PLACE",
-        "postal": "NIL",
+        "postal": "821306",
         "town": "PUNGGOL"
       }
     },
@@ -75264,8 +75264,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.900998963843,
-          1.407761430657455
+          103.9009062366499,
+          1.407754256369413
         ]
       },
       "properties": {
@@ -75273,7 +75273,7 @@
         "blk_no": "308A",
         "street": "PUNGGOL WALK",
         "street_full": "PUNGGOL WALK",
-        "postal": "NIL",
+        "postal": "821308",
         "town": "PUNGGOL"
       }
     },
@@ -75336,8 +75336,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8988786805095,
-          1.407766781756705
+          103.8995808513293,
+          1.407766768084723
         ]
       },
       "properties": {
@@ -75345,7 +75345,7 @@
         "blk_no": "308B",
         "street": "PUNGGOL WALK",
         "street_full": "PUNGGOL WALK",
-        "postal": "NIL",
+        "postal": "822308",
         "town": "PUNGGOL"
       }
     },
@@ -76146,8 +76146,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8412422501494,
-          1.431868735847333
+          103.8410974327041,
+          1.432359225354895
         ]
       },
       "properties": {
@@ -76155,7 +76155,7 @@
         "blk_no": "310",
         "street": "YISHUN RING RD",
         "street_full": "YISHUN RING ROAD",
-        "postal": "NIL",
+        "postal": "760310",
         "town": "YISHUN"
       }
     },
@@ -76182,8 +76182,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8438442439858,
-          1.364812551875871
+          103.8438393179739,
+          1.364827262026724
         ]
       },
       "properties": {
@@ -76191,7 +76191,7 @@
         "blk_no": "310A",
         "street": "ANG MO KIO AVE 1",
         "street_full": "ANG MO KIO AVENUE 1",
-        "postal": "NIL",
+        "postal": "561310",
         "town": "ANG MO KIO"
       }
     },
@@ -76488,8 +76488,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8408153090666,
-          1.431575069744988
+          103.8408153079786,
+          1.431575071113655
         ]
       },
       "properties": {
@@ -76497,7 +76497,7 @@
         "blk_no": "311",
         "street": "YISHUN RING RD",
         "street_full": "YISHUN RING ROAD",
-        "postal": "NIL",
+        "postal": "760311",
         "town": "YISHUN"
       }
     },
@@ -76596,8 +76596,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7655734739841,
-          1.320105794463323
+          103.7655734701765,
+          1.320105793368287
         ]
       },
       "properties": {
@@ -76605,7 +76605,7 @@
         "blk_no": "311C",
         "street": "CLEMENTI AVE 4",
         "street_full": "CLEMENTI AVENUE 4",
-        "postal": "NIL",
+        "postal": "123311",
         "town": "CLEMENTI"
       }
     },
@@ -76812,8 +76812,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8412806199,
-          1.431582353838901
+          103.8414573935146,
+          1.431416565644488
         ]
       },
       "properties": {
@@ -76821,7 +76821,7 @@
         "blk_no": "312",
         "street": "YISHUN RING RD",
         "street_full": "YISHUN RING ROAD",
-        "postal": "NIL",
+        "postal": "760312",
         "town": "YISHUN"
       }
     },
@@ -76956,8 +76956,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9011860898973,
-          1.410907280643559
+          103.9011860830977,
+          1.410907282286153
         ]
       },
       "properties": {
@@ -76965,7 +76965,7 @@
         "blk_no": "312C",
         "street": "SUMANG LINK",
         "street_full": "SUMANG LINK",
-        "postal": "NIL",
+        "postal": "823312",
         "town": "PUNGGOL"
       }
     },
@@ -77082,8 +77082,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8371852161211,
-          1.351478812634266
+          103.8372288181903,
+          1.351519255228113
         ]
       },
       "properties": {
@@ -77091,7 +77091,7 @@
         "blk_no": "313",
         "street": "SHUNFU RD",
         "street_full": "SHUNFU ROAD",
-        "postal": "NIL",
+        "postal": "570313",
         "town": "BISHAN"
       }
     },
@@ -77892,8 +77892,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8433008707724,
-          1.43236735703997
+          103.8433008653327,
+          1.432367365799439
         ]
       },
       "properties": {
@@ -77901,7 +77901,7 @@
         "blk_no": "315C",
         "street": "YISHUN AVE 9",
         "street_full": "YISHUN AVENUE 9",
-        "postal": "NIL",
+        "postal": "763315",
         "town": "YISHUN"
       }
     },
@@ -78900,8 +78900,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8435736493747,
-          1.43407449545002
+          103.8435736496468,
+          1.434074496818681
         ]
       },
       "properties": {
@@ -78909,7 +78909,7 @@
         "blk_no": "318A",
         "street": "YISHUN AVE 9",
         "street_full": "YISHUN AVENUE 9",
-        "postal": "NIL",
+        "postal": "761318",
         "town": "YISHUN"
       }
     },
@@ -79026,8 +79026,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8473790379141,
-          1.365110233507759
+          103.8473807235656,
+          1.365097852835333
         ]
       },
       "properties": {
@@ -79035,7 +79035,7 @@
         "blk_no": "319",
         "street": "ANG MO KIO AVE 1",
         "street_full": "ANG MO KIO AVENUE 1",
-        "postal": "NIL",
+        "postal": "560319",
         "town": "ANG MO KIO"
       }
     },
@@ -79602,8 +79602,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8483867441672,
-          1.365592446085289
+          103.8483867441673,
+          1.365592456213404
         ]
       },
       "properties": {
@@ -79611,7 +79611,7 @@
         "blk_no": "320",
         "street": "ANG MO KIO AVE 1",
         "street_full": "ANG MO KIO AVENUE 1",
-        "postal": "NIL",
+        "postal": "560320",
         "town": "ANG MO KIO"
       }
     },
@@ -79854,8 +79854,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8487041857999,
-          1.365141269118532
+          103.8483963341709,
+          1.365117670928736
         ]
       },
       "properties": {
@@ -79863,7 +79863,7 @@
         "blk_no": "321",
         "street": "ANG MO KIO AVE 1",
         "street_full": "ANG MO KIO AVENUE 1",
-        "postal": "NIL",
+        "postal": "560321",
         "town": "ANG MO KIO"
       }
     },
@@ -81456,8 +81456,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8906754553755,
-          1.392908490645752
+          103.8906754518399,
+          1.392908499131551
         ]
       },
       "properties": {
@@ -81465,7 +81465,7 @@
         "blk_no": "325B",
         "street": "SENGKANG EAST WAY",
         "street_full": "SENGKANG EAST WAY",
-        "postal": "NIL",
+        "postal": "542325",
         "town": "SENGKANG"
       }
     },
@@ -83130,8 +83130,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8507664751294,
-          1.36211140145299
+          103.8507664734976,
+          1.362111406653926
         ]
       },
       "properties": {
@@ -83139,7 +83139,7 @@
         "blk_no": "331",
         "street": "ANG MO KIO AVE 1",
         "street_full": "ANG MO KIO AVENUE 1",
-        "postal": "NIL",
+        "postal": "560331",
         "town": "ANG MO KIO"
       }
     },
@@ -83994,8 +83994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8461412734269,
-          1.432140106662753
+          103.8461128898822,
+          1.432065471690213
         ]
       },
       "properties": {
@@ -84003,7 +84003,7 @@
         "blk_no": "333D",
         "street": "YISHUN ST 31",
         "street_full": "YISHUN STREET 31",
-        "postal": "NIL",
+        "postal": "764333",
         "town": "YISHUN"
       }
     },
@@ -84696,8 +84696,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8517844096151,
-          1.363593846835325
+          103.8518711708624,
+          1.363575651143038
         ]
       },
       "properties": {
@@ -84705,7 +84705,7 @@
         "blk_no": "336",
         "street": "ANG MO KIO AVE 1",
         "street_full": "ANG MO KIO AVENUE 1",
-        "postal": "NIL",
+        "postal": "560336",
         "town": "ANG MO KIO"
       }
     },
@@ -86802,8 +86802,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8491511137486,
-          1.368374747594891
+          103.8491511066771,
+          1.368374751427198
         ]
       },
       "properties": {
@@ -86811,7 +86811,7 @@
         "blk_no": "343",
         "street": "ANG MO KIO AVE 3",
         "street_full": "ANG MO KIO AVENUE 3",
-        "postal": "NIL",
+        "postal": "560343",
         "town": "ANG MO KIO"
       }
     },
@@ -87162,8 +87162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7312191476534,
-          1.345512099571753
+          103.7312191462933,
+          1.345512105867542
         ]
       },
       "properties": {
@@ -87171,7 +87171,7 @@
         "blk_no": "345",
         "street": "JURONG EAST ST 31",
         "street_full": "JURONG EAST STREET 31",
-        "postal": "NIL",
+        "postal": "600345",
         "town": "JURONG EAST"
       }
     },
@@ -88062,8 +88062,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8088392678514,
-          1.287973008696827
+          103.8089558484682,
+          1.287965957091092
         ]
       },
       "properties": {
@@ -88071,7 +88071,7 @@
         "blk_no": "35",
         "street": "JLN RUMAH TINGGI",
         "street_full": "JALAN RUMAH TINGGI",
-        "postal": "NIL",
+        "postal": "150035",
         "town": "BUKIT MERAH"
       }
     },
@@ -90114,8 +90114,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8459947828307,
-          1.425907663877463
+          103.8459975608096,
+          1.426091760871348
         ]
       },
       "properties": {
@@ -90123,7 +90123,7 @@
         "blk_no": "357",
         "street": "YISHUN RING RD",
         "street_full": "YISHUN RING ROAD",
-        "postal": "NIL",
+        "postal": "760357",
         "town": "YISHUN"
       }
     },
@@ -90690,8 +90690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8270569110962,
-          1.28835977080874
+          103.8271803522638,
+          1.28830079095394
         ]
       },
       "properties": {
@@ -90699,7 +90699,7 @@
         "blk_no": "36",
         "street": "BEO CRES",
         "street_full": "BEO CRESCENT",
-        "postal": "NIL",
+        "postal": "160036",
         "town": "BUKIT MERAH"
       }
     },
@@ -90780,8 +90780,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8087769689099,
-          1.288494661602817
+          103.808776830683,
+          1.288501554471927
         ]
       },
       "properties": {
@@ -90789,7 +90789,7 @@
         "blk_no": "36",
         "street": "JLN RUMAH TINGGI",
         "street_full": "JALAN RUMAH TINGGI",
-        "postal": "NIL",
+        "postal": "150036",
         "town": "BUKIT MERAH"
       }
     },
@@ -92022,8 +92022,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8458099161631,
-          1.428839245144013
+          103.8458796598327,
+          1.429080984670021
         ]
       },
       "properties": {
@@ -92031,7 +92031,7 @@
         "blk_no": "366",
         "street": "YISHUN RING RD",
         "street_full": "YISHUN RING ROAD",
-        "postal": "NIL",
+        "postal": "760366",
         "town": "YISHUN"
       }
     },
@@ -92166,8 +92166,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8451214542767,
-          1.42959194827855
+          103.8451214463891,
+          1.429591952932046
         ]
       },
       "properties": {
@@ -92175,7 +92175,7 @@
         "blk_no": "367",
         "street": "YISHUN RING RD",
         "street_full": "YISHUN RING ROAD",
-        "postal": "NIL",
+        "postal": "760367",
         "town": "YISHUN"
       }
     },
@@ -95856,8 +95856,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9177337475522,
-          1.305096421002601
+          103.9177352720381,
+          1.305098955168283
         ]
       },
       "properties": {
@@ -95865,7 +95865,7 @@
         "blk_no": "4",
         "street": "MARINE TER",
         "street_full": "MARINE TERRACE",
-        "postal": "NIL",
+        "postal": "440004",
         "town": "MARINE PARADE"
       }
     },
@@ -98160,8 +98160,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8961876657075,
-          1.373639491946524
+          103.8961876638038,
+          1.373639497968692
         ]
       },
       "properties": {
@@ -98169,7 +98169,7 @@
         "blk_no": "406",
         "street": "HOUGANG AVE 10",
         "street_full": "HOUGANG AVENUE 10",
-        "postal": "NIL",
+        "postal": "530406",
         "town": "HOUGANG"
       }
     },
@@ -98178,8 +98178,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7223959471253,
-          1.35431434826727
+          103.7223959400535,
+          1.354314355383986
         ]
       },
       "properties": {
@@ -98187,7 +98187,7 @@
         "blk_no": "406",
         "street": "JURONG WEST ST 42",
         "street_full": "JURONG WEST STREET 42",
-        "postal": "NIL",
+        "postal": "640406",
         "town": "JURONG WEST"
       }
     },
@@ -99348,8 +99348,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8771519254915,
-          1.389064941565653
+          103.8771553961661,
+          1.389016419914392
         ]
       },
       "properties": {
@@ -99357,7 +99357,7 @@
         "blk_no": "409A",
         "street": "FERNVALE RD",
         "street_full": "FERNVALE ROAD",
-        "postal": "NIL",
+        "postal": "791409",
         "town": "SENGKANG"
       }
     },
@@ -100302,8 +100302,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.946078782025,
-          1.359114520715648
+          103.9462694221214,
+          1.359120109852607
         ]
       },
       "properties": {
@@ -100311,7 +100311,7 @@
         "blk_no": "411",
         "street": "TAMPINES ST 41",
         "street_full": "TAMPINES STREET 41",
-        "postal": "NIL",
+        "postal": "520411",
         "town": "TAMPINES"
       }
     },
@@ -101436,8 +101436,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8536552336718,
-          1.364453355775429
+          103.8536552312241,
+          1.364453365629832
         ]
       },
       "properties": {
@@ -101445,7 +101445,7 @@
         "blk_no": "415",
         "street": "ANG MO KIO AVE 10",
         "street_full": "ANG MO KIO AVENUE 10",
-        "postal": "NIL",
+        "postal": "560415",
         "town": "ANG MO KIO"
       }
     },
@@ -102516,8 +102516,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.741352257872,
-          1.382373002829497
+          103.7413522527042,
+          1.382373008030212
         ]
       },
       "properties": {
@@ -102525,7 +102525,7 @@
         "blk_no": "418",
         "street": "CHOA CHU KANG AVE 4",
         "street_full": "CHOA CHU KANG AVENUE 4",
-        "postal": "NIL",
+        "postal": "680418",
         "town": "CHOA CHU KANG"
       }
     },
@@ -104028,8 +104028,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8940505843508,
-          1.374772767408879
+          103.8940505789112,
+          1.374772767135285
         ]
       },
       "properties": {
@@ -104037,7 +104037,7 @@
         "blk_no": "422",
         "street": "HOUGANG AVE 6",
         "street_full": "HOUGANG AVENUE 6",
-        "postal": "NIL",
+        "postal": "530422",
         "town": "HOUGANG"
       }
     },
@@ -104154,8 +104154,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8517711280434,
-          1.368760587760171
+          103.8516193475026,
+          1.368732328205387
         ]
       },
       "properties": {
@@ -104163,7 +104163,7 @@
         "blk_no": "423",
         "street": "ANG MO KIO AVE 3",
         "street_full": "ANG MO KIO AVENUE 3",
-        "postal": "NIL",
+        "postal": "560423",
         "town": "ANG MO KIO"
       }
     },
@@ -104280,8 +104280,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8940194583692,
-          1.374154688047909
+          103.8939766589254,
+          1.374081609361762
         ]
       },
       "properties": {
@@ -104289,7 +104289,7 @@
         "blk_no": "423",
         "street": "HOUGANG AVE 6",
         "street_full": "HOUGANG AVENUE 6",
-        "postal": "NIL",
+        "postal": "530423",
         "town": "HOUGANG"
       }
     },
@@ -104550,8 +104550,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8936189452041,
-          1.373763700418361
+          103.8934828078498,
+          1.373765404024361
         ]
       },
       "properties": {
@@ -104559,7 +104559,7 @@
         "blk_no": "424",
         "street": "HOUGANG AVE 6",
         "street_full": "HOUGANG AVENUE 6",
-        "postal": "NIL",
+        "postal": "530424",
         "town": "HOUGANG"
       }
     },
@@ -105126,8 +105126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8930711124893,
-          1.3735640903293
+          103.8930905504799,
+          1.373647437608121
         ]
       },
       "properties": {
@@ -105135,7 +105135,7 @@
         "blk_no": "426",
         "street": "HOUGANG AVE 6",
         "street_full": "HOUGANG AVENUE 6",
-        "postal": "NIL",
+        "postal": "530426",
         "town": "HOUGANG"
       }
     },
@@ -105360,8 +105360,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7397635296801,
-          1.380884186266984
+          103.7397635283199,
+          1.380884194478903
         ]
       },
       "properties": {
@@ -105369,7 +105369,7 @@
         "blk_no": "427",
         "street": "CHOA CHU KANG AVE 4",
         "street_full": "CHOA CHU KANG AVENUE 4",
-        "postal": "NIL",
+        "postal": "680427",
         "town": "CHOA CHU KANG"
       }
     },
@@ -105612,8 +105612,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8932548452023,
-          1.374994486740289
+          103.8932549659612,
+          1.374994485368575
         ]
       },
       "properties": {
@@ -105621,7 +105621,7 @@
         "blk_no": "428",
         "street": "HOUGANG AVE 6",
         "street_full": "HOUGANG AVENUE 6",
-        "postal": "NIL",
+        "postal": "530428",
         "town": "HOUGANG"
       }
     },
@@ -105666,8 +105666,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9489109951416,
-          1.359086166392356
+          103.9489109902462,
+          1.359086171319773
         ]
       },
       "properties": {
@@ -105675,7 +105675,7 @@
         "blk_no": "428",
         "street": "TAMPINES ST 41",
         "street_full": "TAMPINES STREET 41",
-        "postal": "NIL",
+        "postal": "520428",
         "town": "TAMPINES"
       }
     },
@@ -107502,8 +107502,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8938221134762,
-          1.376472214048287
+          103.8938221061328,
+          1.376472216238336
         ]
       },
       "properties": {
@@ -107511,7 +107511,7 @@
         "blk_no": "434",
         "street": "HOUGANG AVE 8",
         "street_full": "HOUGANG AVENUE 8",
-        "postal": "NIL",
+        "postal": "530434",
         "town": "HOUGANG"
       }
     },
@@ -107592,8 +107592,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.854307499675,
-          1.367661163259285
+          103.8542143130107,
+          1.367703678342681
         ]
       },
       "properties": {
@@ -107601,7 +107601,7 @@
         "blk_no": "435",
         "street": "ANG MO KIO AVE 10",
         "street_full": "ANG MO KIO AVENUE 10",
-        "postal": "NIL",
+        "postal": "560435",
         "town": "ANG MO KIO"
       }
     },
@@ -109338,8 +109338,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7641976249758,
-          1.315998673983866
+          103.7641857834711,
+          1.316001325850225
         ]
       },
       "properties": {
@@ -109347,7 +109347,7 @@
         "blk_no": "440A",
         "street": "CLEMENTI AVE 3",
         "street_full": "CLEMENTI AVENUE 3",
-        "postal": "NIL",
+        "postal": "121440",
         "town": "CLEMENTI"
       }
     },
@@ -109590,8 +109590,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8317510289817,
-          1.359084315409721
+          103.8317510216383,
+          1.359084321979305
         ]
       },
       "properties": {
@@ -109599,7 +109599,7 @@
         "blk_no": "441",
         "street": "SIN MING AVE",
         "street_full": "SIN MING AVENUE",
-        "postal": "NIL",
+        "postal": "570441",
         "town": "BISHAN"
       }
     },
@@ -110202,8 +110202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8326898457339,
-          1.358744096831713
+          103.832787659271,
+          1.358948357684941
         ]
       },
       "properties": {
@@ -110211,7 +110211,7 @@
         "blk_no": "443",
         "street": "SIN MING AVE",
         "street_full": "SIN MING AVENUE",
-        "postal": "NIL",
+        "postal": "570443",
         "town": "BISHAN"
       }
     },
@@ -111876,8 +111876,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9244970701076,
-          1.328619575885727
+          103.9244953824541,
+          1.328647793945108
         ]
       },
       "properties": {
@@ -111885,7 +111885,7 @@
         "blk_no": "45",
         "street": "CHAI CHEE ST",
         "street_full": "CHAI CHEE STREET",
-        "postal": "NIL",
+        "postal": "461045",
         "town": "BEDOK"
       }
     },
@@ -115728,8 +115728,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8139717402945,
-          1.455998689662811
+          103.8139717356706,
+          1.455998695137423
         ]
       },
       "properties": {
@@ -115737,7 +115737,7 @@
         "blk_no": "463B",
         "street": "SEMBAWANG DR",
         "street_full": "SEMBAWANG DRIVE",
-        "postal": "NIL",
+        "postal": "752463",
         "town": "SEMBAWANG"
       }
     },
@@ -116232,8 +116232,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.857061606231,
-          1.365819605387644
+          103.8570615972557,
+          1.365819606208931
         ]
       },
       "properties": {
@@ -116241,7 +116241,7 @@
         "blk_no": "466",
         "street": "ANG MO KIO AVE 10",
         "street_full": "ANG MO KIO AVENUE 10",
-        "postal": "NIL",
+        "postal": "560466",
         "town": "ANG MO KIO"
       }
     },
@@ -116394,8 +116394,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8135886421021,
-          1.455201016063531
+          103.8135886347583,
+          1.455201020990653
         ]
       },
       "properties": {
@@ -116403,7 +116403,7 @@
         "blk_no": "466A",
         "street": "SEMBAWANG DR",
         "street_full": "SEMBAWANG DRIVE",
-        "postal": "NIL",
+        "postal": "751466",
         "town": "SEMBAWANG"
       }
     },
@@ -117294,8 +117294,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7421029132333,
-          1.355450618356299
+          103.7420785448019,
+          1.355445832040526
         ]
       },
       "properties": {
@@ -117303,7 +117303,7 @@
         "blk_no": "469A",
         "street": "BT BATOK WEST AVE 9",
         "street_full": "BUKIT BATOK WEST AVENUE 9",
-        "postal": "NIL",
+        "postal": "651469",
         "town": "BUKIT BATOK"
       }
     },
@@ -117654,8 +117654,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8566924089404,
-          1.364086200302029
+          103.8566942207035,
+          1.364098079194025
         ]
       },
       "properties": {
@@ -117663,7 +117663,7 @@
         "blk_no": "470",
         "street": "ANG MO KIO AVE 10",
         "street_full": "ANG MO KIO AVENUE 10",
-        "postal": "NIL",
+        "postal": "560470",
         "town": "ANG MO KIO"
       }
     },
@@ -120984,8 +120984,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8161182625927,
-          1.455452413793651
+          103.8161946893765,
+          1.455484507339229
         ]
       },
       "properties": {
@@ -120993,7 +120993,7 @@
         "blk_no": "487",
         "street": "ADMIRALTY LINK",
         "street_full": "ADMIRALTY LINK",
-        "postal": "NIL",
+        "postal": "750487",
         "town": "SEMBAWANG"
       }
     },
@@ -121038,8 +121038,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7711061976985,
-          1.389173062019357
+          103.7711061947065,
+          1.389173070778722
         ]
       },
       "properties": {
@@ -121047,7 +121047,7 @@
         "blk_no": "487",
         "street": "SEGAR RD",
         "street_full": "SEGAR ROAD",
-        "postal": "NIL",
+        "postal": "670487",
         "town": "BUKIT PANJANG"
       }
     },
@@ -121398,8 +121398,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7395845886295,
-          1.375736365674965
+          103.7395845845496,
+          1.375736371149453
         ]
       },
       "properties": {
@@ -121407,7 +121407,7 @@
         "blk_no": "489B",
         "street": "CHOA CHU KANG AVE 5",
         "street_full": "CHOA CHU KANG AVENUE 5",
-        "postal": "NIL",
+        "postal": "682489",
         "town": "CHOA CHU KANG"
       }
     },
@@ -121866,8 +121866,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8177165920619,
-          1.456112789025668
+          103.8177165819983,
+          1.456112789573062
         ]
       },
       "properties": {
@@ -121875,7 +121875,7 @@
         "blk_no": "491",
         "street": "ADMIRALTY LINK",
         "street_full": "ADMIRALTY LINK",
-        "postal": "NIL",
+        "postal": "750491",
         "town": "SEMBAWANG"
       }
     },
@@ -123576,8 +123576,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7745226262929,
-          1.338202367859458
+          103.7745226278868,
+          1.338192541674556
         ]
       },
       "properties": {
@@ -123585,7 +123585,7 @@
         "blk_no": "5",
         "street": "TOH YI DR",
         "street_full": "TOH YI DRIVE",
-        "postal": "NIL",
+        "postal": "590005",
         "town": "BUKIT TIMAH"
       }
     },
@@ -123684,8 +123684,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8267937588869,
-          1.28977813992269
+          103.8267937499118,
+          1.289778139101468
         ]
       },
       "properties": {
@@ -123693,7 +123693,7 @@
         "blk_no": "50",
         "street": "HAVELOCK RD",
         "street_full": "HAVELOCK ROAD",
-        "postal": "NIL",
+        "postal": "160050",
         "town": "BUKIT MERAH"
       }
     },
@@ -124008,8 +124008,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7668471294898,
-          1.382882266836496
+          103.7669898790327,
+          1.383114735819797
         ]
       },
       "properties": {
@@ -124017,7 +124017,7 @@
         "blk_no": "501",
         "street": "JELAPANG RD",
         "street_full": "JELAPANG ROAD",
-        "postal": "NIL",
+        "postal": "670501",
         "town": "BUKIT PANJANG"
       }
     },
@@ -124170,8 +124170,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8213698878835,
-          1.452185712907202
+          103.8213698832597,
+          1.452185714002108
         ]
       },
       "properties": {
@@ -124179,7 +124179,7 @@
         "blk_no": "501B",
         "street": "WELLINGTON CIRCLE",
         "street_full": "WELLINGTON CIRCLE",
-        "postal": "NIL",
+        "postal": "752501",
         "town": "SEMBAWANG"
       }
     },
@@ -124782,8 +124782,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8220618491052,
-          1.450380427568685
+          103.8220664271453,
+          1.450394564513815
         ]
       },
       "properties": {
@@ -124791,7 +124791,7 @@
         "blk_no": "503B",
         "street": "CANBERRA LINK",
         "street_full": "CANBERRA LINK",
-        "postal": "NIL",
+        "postal": "752503",
         "town": "SEMBAWANG"
       }
     },
@@ -125232,8 +125232,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7674836834208,
-          1.384162482892459
+          103.7676839037148,
+          1.384542267306593
         ]
       },
       "properties": {
@@ -125241,7 +125241,7 @@
         "blk_no": "505",
         "street": "JELAPANG RD",
         "street_full": "JELAPANG ROAD",
-        "postal": "NIL",
+        "postal": "670505",
         "town": "BUKIT PANJANG"
       }
     },
@@ -125826,8 +125826,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.767999747519,
-          1.386555669016668
+          103.767999746703,
+          1.386555670932773
         ]
       },
       "properties": {
@@ -125835,7 +125835,7 @@
         "blk_no": "507",
         "street": "JELAPANG RD",
         "street_full": "JELAPANG ROAD",
-        "postal": "NIL",
+        "postal": "670507",
         "town": "BUKIT PANJANG"
       }
     },
@@ -126492,8 +126492,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7610175409318,
-          1.311157766419461
+          103.7610175376683,
+          1.311157758207383
         ]
       },
       "properties": {
@@ -126501,7 +126501,7 @@
         "blk_no": "509",
         "street": "WEST COAST DR",
         "street_full": "WEST COAST DRIVE",
-        "postal": "NIL",
+        "postal": "120509",
         "town": "CLEMENTI"
       }
     },
@@ -127248,8 +127248,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7195911052393,
-          1.347792672113154
+          103.7195910992556,
+          1.347792674850196
         ]
       },
       "properties": {
@@ -127257,7 +127257,7 @@
         "blk_no": "511",
         "street": "JURONG WEST ST 52",
         "street_full": "JURONG WEST STREET 52",
-        "postal": "NIL",
+        "postal": "640511",
         "town": "JURONG WEST"
       }
     },
@@ -127986,8 +127986,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7201532209289,
-          1.346748456359842
+          103.7203594270157,
+          1.346857953179045
         ]
       },
       "properties": {
@@ -127995,7 +127995,7 @@
         "blk_no": "514",
         "street": "JURONG WEST ST 52",
         "street_full": "JURONG WEST STREET 52",
-        "postal": "NIL",
+        "postal": "640514",
         "town": "JURONG WEST"
       }
     },
@@ -129714,8 +129714,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7661654014718,
-          1.386335992931303
+          103.7661708966928,
+          1.386331711910175
         ]
       },
       "properties": {
@@ -129723,7 +129723,7 @@
         "blk_no": "522",
         "street": "JELAPANG RD",
         "street_full": "JELAPANG ROAD",
-        "postal": "NIL",
+        "postal": "670522",
         "town": "BUKIT PANJANG"
       }
     },
@@ -130254,8 +130254,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.938908850193,
-          1.358350900761185
+          103.9389088404019,
+          1.358350902677742
         ]
       },
       "properties": {
@@ -130263,7 +130263,7 @@
         "blk_no": "524A",
         "street": "TAMPINES CTRL 7",
         "street_full": "TAMPINES CENTRAL 7",
-        "postal": "NIL",
+        "postal": "521524",
         "town": "TAMPINES"
       }
     },
@@ -131460,8 +131460,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9163365043788,
-          1.305140307453572
+          103.9163877935901,
+          1.305131041266792
         ]
       },
       "properties": {
@@ -131469,7 +131469,7 @@
         "blk_no": "53",
         "street": "MARINE TER",
         "street_full": "MARINE TERRACE",
-        "postal": "NIL",
+        "postal": "440053",
         "town": "MARINE PARADE"
       }
     },
@@ -131820,8 +131820,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9501138715587,
-          1.371626181905435
+          103.9501138633994,
+          1.371626181632103
         ]
       },
       "properties": {
@@ -131829,7 +131829,7 @@
         "blk_no": "530C",
         "street": "PASIR RIS DR 1",
         "street_full": "PASIR RIS DRIVE 1",
-        "postal": "NIL",
+        "postal": "513530",
         "town": "PASIR RIS"
       }
     },
@@ -133134,8 +133134,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7631277761864,
-          1.383721408162952
+          103.7631277737385,
+          1.383721413090065
         ]
       },
       "properties": {
@@ -133143,7 +133143,7 @@
         "blk_no": "537",
         "street": "BT PANJANG RING RD",
         "street_full": "BUKIT PANJANG RING ROAD",
-        "postal": "NIL",
+        "postal": "670537",
         "town": "BUKIT PANJANG"
       }
     },
@@ -134970,8 +134970,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7703529428592,
-          1.388526287295082
+          103.7703529360596,
+          1.388526290032226
         ]
       },
       "properties": {
@@ -134979,7 +134979,7 @@
         "blk_no": "546A",
         "street": "SEGAR RD",
         "street_full": "SEGAR ROAD",
-        "postal": "NIL",
+        "postal": "671546",
         "town": "BUKIT PANJANG"
       }
     },
@@ -135708,8 +135708,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8511977956194,
-          1.337359768625998
+          103.8511977934436,
+          1.337359773553207
         ]
       },
       "properties": {
@@ -135717,7 +135717,7 @@
         "blk_no": "55",
         "street": "LOR 5 TOA PAYOH",
         "street_full": "LORONG 5 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310055",
         "town": "TOA PAYOH"
       }
     },
@@ -135816,8 +135816,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7375515934047,
-          1.321891972611666
+          103.7375515866054,
+          1.321891969600344
         ]
       },
       "properties": {
@@ -135825,7 +135825,7 @@
         "blk_no": "55",
         "street": "TEBAN GDNS RD",
         "street_full": "TEBAN GARDENS ROAD",
-        "postal": "NIL",
+        "postal": "600055",
         "town": "JURONG EAST"
       }
     },
@@ -136032,8 +136032,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7674470220795,
-          1.389591186210004
+          103.767447013104,
+          1.389591191410671
         ]
       },
       "properties": {
@@ -136041,7 +136041,7 @@
         "blk_no": "550B",
         "street": "SEGAR RD",
         "street_full": "SEGAR ROAD",
-        "postal": "NIL",
+        "postal": "672550",
         "town": "BUKIT PANJANG"
       }
     },
@@ -139488,8 +139488,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9197330952412,
-          1.325960771365283
+          103.9197568594169,
+          1.325918894914198
         ]
       },
       "properties": {
@@ -139497,7 +139497,7 @@
         "blk_no": "58",
         "street": "CHAI CHEE DR",
         "street_full": "CHAI CHEE DRIVE",
-        "postal": "NIL",
+        "postal": "460058",
         "town": "BEDOK"
       }
     },
@@ -140496,8 +140496,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9202467304602,
-          1.324889166441976
+          103.9202467288283,
+          1.324889162883509
         ]
       },
       "properties": {
@@ -140505,7 +140505,7 @@
         "blk_no": "59",
         "street": "CHAI CHEE RD",
         "street_full": "CHAI CHEE ROAD",
-        "postal": "NIL",
+        "postal": "460059",
         "town": "BEDOK"
       }
     },
@@ -140892,8 +140892,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8280705451832,
-          1.450939312893906
+          103.8280705367515,
+          1.450939320832133
         ]
       },
       "properties": {
@@ -140901,7 +140901,7 @@
         "blk_no": "592C",
         "street": "MONTREAL LINK",
         "street_full": "MONTREAL LINK",
-        "postal": "NIL",
+        "postal": "753592",
         "town": "SEMBAWANG"
       }
     },
@@ -141342,8 +141342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8571923777101,
-          1.338582797212489
+          103.8571923736306,
+          1.338582807066913
         ]
       },
       "properties": {
@@ -141351,7 +141351,7 @@
         "blk_no": "6",
         "street": "LOR 7 TOA PAYOH",
         "street_full": "LORONG 7 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310006",
         "town": "TOA PAYOH"
       }
     },
@@ -141432,8 +141432,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.753828252297,
-          1.381586823822337
+          103.7538282517529,
+          1.381586827107109
         ]
       },
       "properties": {
@@ -141441,7 +141441,7 @@
         "blk_no": "6",
         "street": "TECK WHYE AVE",
         "street_full": "TECK WHYE AVENUE",
-        "postal": "NIL",
+        "postal": "680006",
         "town": "CHOA CHU KANG"
       }
     },
@@ -141702,8 +141702,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8351317448222,
-          1.381041347844975
+          103.8351317426464,
+          1.381041355235763
         ]
       },
       "properties": {
@@ -141711,7 +141711,7 @@
         "blk_no": "601",
         "street": "ANG MO KIO AVE 5",
         "street_full": "ANG MO KIO AVENUE 5",
-        "postal": "NIL",
+        "postal": "560601",
         "town": "ANG MO KIO"
       }
     },
@@ -144114,8 +144114,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8391572326858,
-          1.379394703000786
+          103.8391572313259,
+          1.379394709570377
         ]
       },
       "properties": {
@@ -144123,7 +144123,7 @@
         "blk_no": "610",
         "street": "ANG MO KIO AVE 4",
         "street_full": "ANG MO KIO AVENUE 4",
-        "postal": "NIL",
+        "postal": "560610",
         "town": "ANG MO KIO"
       }
     },
@@ -144348,8 +144348,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8372519001602,
-          1.37829205175134
+          103.8372518958085,
+          1.37829205312001
         ]
       },
       "properties": {
@@ -144357,7 +144357,7 @@
         "blk_no": "611",
         "street": "ANG MO KIO AVE 5",
         "street_full": "ANG MO KIO AVENUE 5",
-        "postal": "NIL",
+        "postal": "560611",
         "town": "ANG MO KIO"
       }
     },
@@ -144510,8 +144510,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8361528949834,
-          1.420200856312735
+          103.8361528906316,
+          1.420200858776335
         ]
       },
       "properties": {
@@ -144519,7 +144519,7 @@
         "blk_no": "611",
         "street": "YISHUN ST 61",
         "street_full": "YISHUN STREET 61",
-        "postal": "NIL",
+        "postal": "760611",
         "town": "YISHUN"
       }
     },
@@ -144690,8 +144690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8354133047744,
-          1.420364752376071
+          103.8354175572552,
+          1.42036073945059
         ]
       },
       "properties": {
@@ -144699,7 +144699,7 @@
         "blk_no": "612",
         "street": "YISHUN ST 61",
         "street_full": "YISHUN STREET 61",
-        "postal": "NIL",
+        "postal": "760612",
         "town": "YISHUN"
       }
     },
@@ -145518,8 +145518,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.909882888515,
-          1.403745871444456
+          103.9098828887873,
+          1.403745881846283
         ]
       },
       "properties": {
@@ -145527,7 +145527,7 @@
         "blk_no": "615B",
         "street": "EDGEFIELD PLAINS",
         "street_full": "EDGEFIELD PLAINS",
-        "postal": "NIL",
+        "postal": "822615",
         "town": "PUNGGOL"
       }
     },
@@ -147300,8 +147300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9109143857546,
-          1.400662014982114
+          103.9109493876691,
+          1.400668946091758
         ]
       },
       "properties": {
@@ -147309,7 +147309,7 @@
         "blk_no": "622C",
         "street": "PUNGGOL CTRL",
         "street_full": "PUNGGOL CENTRAL",
-        "postal": "NIL",
+        "postal": "823622",
         "town": "PUNGGOL"
       }
     },
@@ -149280,8 +149280,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7602564690333,
-          1.386478066626196
+          103.7602577101511,
+          1.386626586567934
         ]
       },
       "properties": {
@@ -149289,7 +149289,7 @@
         "blk_no": "631",
         "street": "SENJA RD",
         "street_full": "SENJA ROAD",
-        "postal": "NIL",
+        "postal": "670631",
         "town": "BUKIT PANJANG"
       }
     },
@@ -149550,8 +149550,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7580309640551,
-          1.385414459775626
+          103.7580309626952,
+          1.385414460870513
         ]
       },
       "properties": {
@@ -149559,7 +149559,7 @@
         "blk_no": "632A",
         "street": "SENJA RD",
         "street_full": "SENJA ROAD",
-        "postal": "NIL",
+        "postal": "671632",
         "town": "BUKIT PANJANG"
       }
     },
@@ -149658,8 +149658,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8425137542075,
-          1.38120447407276
+          103.842251233005,
+          1.381206087638565
         ]
       },
       "properties": {
@@ -149667,7 +149667,7 @@
         "blk_no": "633",
         "street": "ANG MO KIO AVE 6",
         "street_full": "ANG MO KIO AVENUE 6",
-        "postal": "NIL",
+        "postal": "560633",
         "town": "ANG MO KIO"
       }
     },
@@ -149766,8 +149766,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8549432515491,
-          1.305706696759653
+          103.8549432439339,
+          1.305706695664787
         ]
       },
       "properties": {
@@ -149775,7 +149775,7 @@
         "blk_no": "633",
         "street": "VEERASAMY RD",
         "street_full": "VEERASAMY ROAD",
-        "postal": "NIL",
+        "postal": "200633",
         "town": "CENTRAL AREA"
       }
     },
@@ -151134,8 +151134,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9154646789312,
-          1.399057619910414
+          103.915464671588,
+          1.399057627575181
         ]
       },
       "properties": {
@@ -151143,7 +151143,7 @@
         "blk_no": "637D",
         "street": "PUNGGOL DR",
         "street_full": "PUNGGOL DRIVE",
-        "postal": "NIL",
+        "postal": "824637",
         "town": "PUNGGOL"
       }
     },
@@ -151800,8 +151800,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8336005942674,
-          1.283512991069118
+          103.8336901805724,
+          1.28371484671919
         ]
       },
       "properties": {
@@ -151809,7 +151809,7 @@
         "blk_no": "64",
         "street": "TIONG POH RD",
         "street_full": "TIONG POH ROAD",
-        "postal": "NIL",
+        "postal": "160064",
         "town": "BUKIT MERAH"
       }
     },
@@ -157056,8 +157056,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9170800467991,
-          1.400243475537945
+          103.9170800399996,
+          1.400243477180585
         ]
       },
       "properties": {
@@ -157065,7 +157065,7 @@
         "blk_no": "663A",
         "street": "PUNGGOL DR",
         "street_full": "PUNGGOL DRIVE",
-        "postal": "NIL",
+        "postal": "821663",
         "town": "PUNGGOL"
       }
     },
@@ -157560,8 +157560,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9136377328734,
-          1.402282727518696
+          103.9135784634089,
+          1.402127691040035
         ]
       },
       "properties": {
@@ -157569,7 +157569,7 @@
         "blk_no": "665A",
         "street": "PUNGGOL DR",
         "street_full": "PUNGGOL DRIVE",
-        "postal": "NIL",
+        "postal": "821665",
         "town": "PUNGGOL"
       }
     },
@@ -159288,8 +159288,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9116132971123,
-          1.406676722108885
+          103.9116132911288,
+          1.40667672566761
         ]
       },
       "properties": {
@@ -159297,7 +159297,7 @@
         "blk_no": "673A",
         "street": "EDGEFIELD PLAINS",
         "street_full": "EDGEFIELD PLAINS",
-        "postal": "NIL",
+        "postal": "821673",
         "town": "PUNGGOL"
       }
     },
@@ -159810,8 +159810,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8007249693418,
-          1.439287626808589
+          103.8006613123742,
+          1.439403331578373
         ]
       },
       "properties": {
@@ -159819,7 +159819,7 @@
         "blk_no": "676A",
         "street": "WOODLANDS DR 71",
         "street_full": "WOODLANDS DRIVE 71",
-        "postal": "NIL",
+        "postal": "731676",
         "town": "WOODLANDS"
       }
     },
@@ -159864,8 +159864,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9102781006793,
-          1.40481059599871
+          103.9102097499434,
+          1.404891408204335
         ]
       },
       "properties": {
@@ -159873,7 +159873,7 @@
         "blk_no": "676B",
         "street": "PUNGGOL DR",
         "street_full": "PUNGGOL DRIVE",
-        "postal": "NIL",
+        "postal": "822676",
         "town": "PUNGGOL"
       }
     },
@@ -159882,8 +159882,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8011454717706,
-          1.439577896434523
+          103.8010311842803,
+          1.439567156551042
         ]
       },
       "properties": {
@@ -159891,7 +159891,7 @@
         "blk_no": "676B",
         "street": "WOODLANDS DR 71",
         "street_full": "WOODLANDS DRIVE 71",
-        "postal": "NIL",
+        "postal": "732676",
         "town": "WOODLANDS"
       }
     },
@@ -160242,8 +160242,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8012118530399,
-          1.440018772514806
+          103.8012931042679,
+          1.439983666087329
         ]
       },
       "properties": {
@@ -160251,7 +160251,7 @@
         "blk_no": "678",
         "street": "WOODLANDS AVE 6",
         "street_full": "WOODLANDS AVENUE 6",
-        "postal": "NIL",
+        "postal": "730678",
         "town": "WOODLANDS"
       }
     },
@@ -163428,8 +163428,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8873988561126,
-          1.376334011645134
+          103.8874736065934,
+          1.376314851934778
         ]
       },
       "properties": {
@@ -163437,7 +163437,7 @@
         "blk_no": "695",
         "street": "HOUGANG ST 61",
         "street_full": "HOUGANG STREET 61",
-        "postal": "NIL",
+        "postal": "530695",
         "town": "HOUGANG"
       }
     },
@@ -164670,8 +164670,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9374799230018,
-          1.356172537137512
+          103.937481306728,
+          1.356163987045717
         ]
       },
       "properties": {
@@ -164679,7 +164679,7 @@
         "blk_no": "702",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520702",
         "town": "TAMPINES"
       }
     },
@@ -164832,8 +164832,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9377391901804,
-          1.356878481231941
+          103.937745922169,
+          1.356618575029259
         ]
       },
       "properties": {
@@ -164841,7 +164841,7 @@
         "blk_no": "703",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520703",
         "town": "TAMPINES"
       }
     },
@@ -165534,8 +165534,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9368909757084,
-          1.357647875443391
+          103.9368909751645,
+          1.357647876538344
         ]
       },
       "properties": {
@@ -165543,7 +165543,7 @@
         "blk_no": "707",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520707",
         "town": "TAMPINES"
       }
     },
@@ -165696,8 +165696,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9368924563106,
-          1.357992007389477
+          103.9368911285751,
+          1.357993367896807
         ]
       },
       "properties": {
@@ -165705,7 +165705,7 @@
         "blk_no": "708",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520708",
         "town": "TAMPINES"
       }
     },
@@ -166182,8 +166182,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.937644661626,
-          1.358924313983917
+          103.9377306079117,
+          1.358602388075638
         ]
       },
       "properties": {
@@ -166191,7 +166191,7 @@
         "blk_no": "710",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520710",
         "town": "TAMPINES"
       }
     },
@@ -166290,8 +166290,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6956408161683,
-          1.343040858723352
+          103.6956598360646,
+          1.343019343089696
         ]
       },
       "properties": {
@@ -166299,7 +166299,7 @@
         "blk_no": "711",
         "street": "JURONG WEST ST 71",
         "street_full": "JURONG WEST STREET 71",
-        "postal": "NIL",
+        "postal": "640711",
         "town": "JURONG WEST"
       }
     },
@@ -166434,8 +166434,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6966752470776,
-          1.34235316411479
+          103.6963969001489,
+          1.342134562952782
         ]
       },
       "properties": {
@@ -166443,7 +166443,7 @@
         "blk_no": "712",
         "street": "JURONG WEST ST 71",
         "street_full": "JURONG WEST STREET 71",
-        "postal": "NIL",
+        "postal": "640712",
         "town": "JURONG WEST"
       }
     },
@@ -166596,8 +166596,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6960642378826,
-          1.343657112511986
+          103.6962524841781,
+          1.343400906337813
         ]
       },
       "properties": {
@@ -166605,7 +166605,7 @@
         "blk_no": "713",
         "street": "JURONG WEST ST 71",
         "street_full": "JURONG WEST STREET 71",
-        "postal": "NIL",
+        "postal": "640713",
         "town": "JURONG WEST"
       }
     },
@@ -166632,8 +166632,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9376466413376,
-          1.359240980955196
+          103.9376516304128,
+          1.359239119358
         ]
       },
       "properties": {
@@ -166641,7 +166641,7 @@
         "blk_no": "713",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520713",
         "town": "TAMPINES"
       }
     },
@@ -166740,8 +166740,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6966749828321,
-          1.34312002434277
+          103.6968629684836,
+          1.343270527628926
         ]
       },
       "properties": {
@@ -166749,7 +166749,7 @@
         "blk_no": "714",
         "street": "JURONG WEST ST 71",
         "street_full": "JURONG WEST STREET 71",
-        "postal": "NIL",
+        "postal": "640714",
         "town": "JURONG WEST"
       }
     },
@@ -166866,8 +166866,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6964187831671,
-          1.343744610197756
+          103.6964099888134,
+          1.343754882046574
         ]
       },
       "properties": {
@@ -166875,7 +166875,7 @@
         "blk_no": "715",
         "street": "JURONG WEST ST 71",
         "street_full": "JURONG WEST STREET 71",
-        "postal": "NIL",
+        "postal": "640715",
         "town": "JURONG WEST"
       }
     },
@@ -166920,8 +166920,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7993936707451,
-          1.44198957569919
+          103.7993936702011,
+          1.441989580626369
         ]
       },
       "properties": {
@@ -166929,7 +166929,7 @@
         "blk_no": "715",
         "street": "WOODLANDS DR 70",
         "street_full": "WOODLANDS DRIVE 70",
-        "postal": "NIL",
+        "postal": "730715",
         "town": "WOODLANDS"
       }
     },
@@ -167010,8 +167010,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6967239006863,
-          1.344097603576446
+          103.6967098703522,
+          1.344052388537732
         ]
       },
       "properties": {
@@ -167019,7 +167019,7 @@
         "blk_no": "716",
         "street": "JURONG WEST ST 71",
         "street_full": "JURONG WEST STREET 71",
-        "postal": "NIL",
+        "postal": "640716",
         "town": "JURONG WEST"
       }
     },
@@ -167082,8 +167082,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8277041082942,
-          1.426210965650141
+          103.8274494094028,
+          1.426157265770081
         ]
       },
       "properties": {
@@ -167091,7 +167091,7 @@
         "blk_no": "716",
         "street": "YISHUN ST 71",
         "street_full": "YISHUN STREET 71",
-        "postal": "NIL",
+        "postal": "760716",
         "town": "YISHUN"
       }
     },
@@ -167136,8 +167136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6974799253547,
-          1.343009457088779
+          103.6975008842722,
+          1.343034962977746
         ]
       },
       "properties": {
@@ -167145,7 +167145,7 @@
         "blk_no": "717",
         "street": "JURONG WEST ST 71",
         "street_full": "JURONG WEST STREET 71",
-        "postal": "NIL",
+        "postal": "640717",
         "town": "JURONG WEST"
       }
     },
@@ -167172,8 +167172,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9352127021721,
-          1.358812187863515
+          103.9351473219112,
+          1.358815270400741
         ]
       },
       "properties": {
@@ -167181,7 +167181,7 @@
         "blk_no": "717",
         "street": "TAMPINES ST 72",
         "street_full": "TAMPINES STREET 72",
-        "postal": "NIL",
+        "postal": "520717",
         "town": "TAMPINES"
       }
     },
@@ -167190,8 +167190,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.799421965632,
-          1.440847349579983
+          103.7994941710699,
+          1.440873789946623
         ]
       },
       "properties": {
@@ -167199,7 +167199,7 @@
         "blk_no": "717",
         "street": "WOODLANDS DR 70",
         "street_full": "WOODLANDS DRIVE 70",
-        "postal": "NIL",
+        "postal": "730717",
         "town": "WOODLANDS"
       }
     },
@@ -167280,8 +167280,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6974670514513,
-          1.34372249761306
+          103.6975208873376,
+          1.343708112717754
         ]
       },
       "properties": {
@@ -167289,7 +167289,7 @@
         "blk_no": "718",
         "street": "JURONG WEST ST 71",
         "street_full": "JURONG WEST STREET 71",
-        "postal": "NIL",
+        "postal": "640718",
         "town": "JURONG WEST"
       }
     },
@@ -167334,8 +167334,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8011064888785,
-          1.441595505426957
+          103.8012715450701,
+          1.441666211265711
         ]
       },
       "properties": {
@@ -167343,7 +167343,7 @@
         "blk_no": "718",
         "street": "WOODLANDS AVE 6",
         "street_full": "WOODLANDS AVENUE 6",
-        "postal": "NIL",
+        "postal": "730718",
         "town": "WOODLANDS"
       }
     },
@@ -167424,8 +167424,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9359132160262,
-          1.358812400559924
+          103.9359412409738,
+          1.358815213331526
         ]
       },
       "properties": {
@@ -167433,7 +167433,7 @@
         "blk_no": "719",
         "street": "TAMPINES ST 72",
         "street_full": "TAMPINES STREET 72",
-        "postal": "NIL",
+        "postal": "520719",
         "town": "TAMPINES"
       }
     },
@@ -167442,8 +167442,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8001354965157,
-          1.44192155949727
+          103.8001354910758,
+          1.441921568256634
         ]
       },
       "properties": {
@@ -167451,7 +167451,7 @@
         "blk_no": "719",
         "street": "WOODLANDS AVE 6",
         "street_full": "WOODLANDS AVENUE 6",
-        "postal": "NIL",
+        "postal": "730719",
         "town": "WOODLANDS"
       }
     },
@@ -167658,8 +167658,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6974973125938,
-          1.344351372848089
+          103.6974973120493,
+          1.344351382154951
         ]
       },
       "properties": {
@@ -167667,7 +167667,7 @@
         "blk_no": "720",
         "street": "JURONG WEST AVE 5",
         "street_full": "JURONG WEST AVENUE 5",
-        "postal": "NIL",
+        "postal": "640720",
         "town": "JURONG WEST"
       }
     },
@@ -167802,8 +167802,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.697595848966,
-          1.34399335727787
+          103.6975575728924,
+          1.344015748066854
         ]
       },
       "properties": {
@@ -167811,7 +167811,7 @@
         "blk_no": "721",
         "street": "JURONG WEST AVE 5",
         "street_full": "JURONG WEST AVENUE 5",
-        "postal": "NIL",
+        "postal": "640721",
         "town": "JURONG WEST"
       }
     },
@@ -167946,8 +167946,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6982733845694,
-          1.343645389564137
+          103.6982983462428,
+          1.343669446532267
         ]
       },
       "properties": {
@@ -167955,7 +167955,7 @@
         "blk_no": "722",
         "street": "JURONG WEST AVE 5",
         "street_full": "JURONG WEST AVENUE 5",
-        "postal": "NIL",
+        "postal": "640722",
         "town": "JURONG WEST"
       }
     },
@@ -168072,8 +168072,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6981939631255,
-          1.344426967562673
+          103.6981644486962,
+          1.344465010852011
         ]
       },
       "properties": {
@@ -168081,7 +168081,7 @@
         "blk_no": "723",
         "street": "JURONG WEST AVE 5",
         "street_full": "JURONG WEST AVENUE 5",
-        "postal": "NIL",
+        "postal": "640723",
         "town": "JURONG WEST"
       }
     },
@@ -168198,8 +168198,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6981478060186,
-          1.345047449204159
+          103.698185850525,
+          1.345086718197964
         ]
       },
       "properties": {
@@ -168207,7 +168207,7 @@
         "blk_no": "724",
         "street": "JURONG WEST ST 72",
         "street_full": "JURONG WEST STREET 72",
-        "postal": "NIL",
+        "postal": "640724",
         "town": "JURONG WEST"
       }
     },
@@ -168342,8 +168342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6977155352537,
-          1.345453047895081
+          103.6977196238359,
+          1.345453549601021
         ]
       },
       "properties": {
@@ -168351,7 +168351,7 @@
         "blk_no": "725",
         "street": "JURONG WEST AVE 5",
         "street_full": "JURONG WEST AVENUE 5",
-        "postal": "NIL",
+        "postal": "640725",
         "town": "JURONG WEST"
       }
     },
@@ -168378,8 +168378,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9353345021965,
-          1.356984506866705
+          103.9353344937652,
+          1.35698450659333
         ]
       },
       "properties": {
@@ -168387,7 +168387,7 @@
         "blk_no": "725",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520725",
         "town": "TAMPINES"
       }
     },
@@ -168540,8 +168540,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6976588314515,
-          1.345780558906503
+          103.6976586518185,
+          1.345782895473805
         ]
       },
       "properties": {
@@ -168549,7 +168549,7 @@
         "blk_no": "727",
         "street": "JURONG WEST AVE 5",
         "street_full": "JURONG WEST AVENUE 5",
-        "postal": "NIL",
+        "postal": "640727",
         "town": "JURONG WEST"
       }
     },
@@ -168558,8 +168558,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9354839152211,
-          1.356313499400797
+          103.9354847326344,
+          1.356225592933929
         ]
       },
       "properties": {
@@ -168567,7 +168567,7 @@
         "blk_no": "727",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520727",
         "town": "TAMPINES"
       }
     },
@@ -168648,8 +168648,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6976963562785,
-          1.346099253625202
+          103.6976983115568,
+          1.346098440750252
         ]
       },
       "properties": {
@@ -168657,7 +168657,7 @@
         "blk_no": "728",
         "street": "JURONG WEST AVE 5",
         "street_full": "JURONG WEST AVENUE 5",
-        "postal": "NIL",
+        "postal": "640728",
         "town": "JURONG WEST"
       }
     },
@@ -168756,8 +168756,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6978393478886,
-          1.346412628785693
+          103.6978015532445,
+          1.346409119068341
         ]
       },
       "properties": {
@@ -168765,7 +168765,7 @@
         "blk_no": "729",
         "street": "JURONG WEST AVE 5",
         "street_full": "JURONG WEST AVENUE 5",
-        "postal": "NIL",
+        "postal": "640729",
         "town": "JURONG WEST"
       }
     },
@@ -168810,8 +168810,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8315983173231,
-          1.425852849339101
+          103.8315983078036,
+          1.425852856182411
         ]
       },
       "properties": {
@@ -168819,7 +168819,7 @@
         "blk_no": "729",
         "street": "YISHUN ST 71",
         "street_full": "YISHUN STREET 71",
-        "postal": "NIL",
+        "postal": "760729",
         "town": "YISHUN"
       }
     },
@@ -168936,8 +168936,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6984269861469,
-          1.346108864084576
+          103.698426985603,
+          1.346108863810813
         ]
       },
       "properties": {
@@ -168945,7 +168945,7 @@
         "blk_no": "730",
         "street": "JURONG WEST ST 72",
         "street_full": "JURONG WEST STREET 72",
-        "postal": "NIL",
+        "postal": "640730",
         "town": "JURONG WEST"
       }
     },
@@ -168954,8 +168954,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9334991789206,
-          1.356706064564427
+          103.9334991800085,
+          1.356706064564382
         ]
       },
       "properties": {
@@ -168963,7 +168963,7 @@
         "blk_no": "730",
         "street": "TAMPINES ST 71",
         "street_full": "TAMPINES STREET 71",
-        "postal": "NIL",
+        "postal": "520730",
         "town": "TAMPINES"
       }
     },
@@ -169026,8 +169026,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6987080598711,
-          1.345496177972273
+          103.6987679147799,
+          1.34555322187045
         ]
       },
       "properties": {
@@ -169035,7 +169035,7 @@
         "blk_no": "731",
         "street": "JURONG WEST ST 72",
         "street_full": "JURONG WEST STREET 72",
-        "postal": "NIL",
+        "postal": "640731",
         "town": "JURONG WEST"
       }
     },
@@ -169332,8 +169332,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9341558013968,
-          1.359575841406632
+          103.9341558016688,
+          1.359575841132888
         ]
       },
       "properties": {
@@ -169341,7 +169341,7 @@
         "blk_no": "735",
         "street": "TAMPINES ST 72",
         "street_full": "TAMPINES STREET 72",
-        "postal": "NIL",
+        "postal": "520735",
         "town": "TAMPINES"
       }
     },
@@ -169962,8 +169962,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9330437819138,
-          1.36001177722699
+          103.9330437751147,
+          1.360011784344316
         ]
       },
       "properties": {
@@ -169971,7 +169971,7 @@
         "blk_no": "741",
         "street": "TAMPINES ST 72",
         "street_full": "TAMPINES STREET 72",
-        "postal": "NIL",
+        "postal": "520741",
         "town": "TAMPINES"
       }
     },
@@ -170016,8 +170016,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9220907345672,
-          1.338085249609016
+          103.9220907280398,
+          1.338085250430452
         ]
       },
       "properties": {
@@ -170025,7 +170025,7 @@
         "blk_no": "742",
         "street": "BEDOK RESERVOIR RD",
         "street_full": "BEDOK RESERVOIR ROAD",
-        "postal": "NIL",
+        "postal": "470742",
         "town": "BEDOK"
       }
     },
@@ -170088,8 +170088,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8331094489595,
-          1.429720068098111
+          103.8331094440638,
+          1.429720076310091
         ]
       },
       "properties": {
@@ -170097,7 +170097,7 @@
         "blk_no": "742",
         "street": "YISHUN AVE 5",
         "street_full": "YISHUN AVENUE 5",
-        "postal": "NIL",
+        "postal": "760742",
         "town": "YISHUN"
       }
     },
@@ -170106,8 +170106,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6991936609414,
-          1.347293368579025
+          103.6991953427807,
+          1.347294455662497
         ]
       },
       "properties": {
@@ -170115,7 +170115,7 @@
         "blk_no": "743",
         "street": "JURONG WEST ST 73",
         "street_full": "JURONG WEST STREET 73",
-        "postal": "NIL",
+        "postal": "640743",
         "town": "JURONG WEST"
       }
     },
@@ -172968,8 +172968,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8547627079542,
-          1.325045675834736
+          103.854803547284,
+          1.325073111455437
         ]
       },
       "properties": {
@@ -172977,7 +172977,7 @@
         "blk_no": "77",
         "street": "LOR LIMAU",
         "street_full": "LORONG LIMAU",
-        "postal": "NIL",
+        "postal": "320077",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -173778,8 +173778,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8274477937975,
-          1.291304428070299
+          103.8274764366702,
+          1.291293745158741
         ]
       },
       "properties": {
@@ -173787,7 +173787,7 @@
         "blk_no": "78",
         "street": "INDUS RD",
         "street_full": "INDUS ROAD",
-        "postal": "NIL",
+        "postal": "161078",
         "town": "BUKIT MERAH"
       }
     },
@@ -173976,8 +173976,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.801945845172,
-          1.44811995933797
+          103.8019458416362,
+          1.448119960980317
         ]
       },
       "properties": {
@@ -173985,7 +173985,7 @@
         "blk_no": "780D",
         "street": "WOODLANDS CRES",
         "street_full": "WOODLANDS CRESCENT",
-        "postal": "NIL",
+        "postal": "734780",
         "town": "WOODLANDS"
       }
     },
@@ -174228,8 +174228,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8030354459325,
-          1.448173942009035
+          103.8030354445724,
+          1.448173951863391
         ]
       },
       "properties": {
@@ -174237,7 +174237,7 @@
         "blk_no": "782D",
         "street": "WOODLANDS CRES",
         "street_full": "WOODLANDS CRESCENT",
-        "postal": "NIL",
+        "postal": "734782",
         "town": "WOODLANDS"
       }
     },
@@ -176226,8 +176226,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9380140412668,
-          1.347192330023907
+          103.9380140371872,
+          1.347192330845281
         ]
       },
       "properties": {
@@ -176235,7 +176235,7 @@
         "blk_no": "801",
         "street": "TAMPINES AVE 4",
         "street_full": "TAMPINES AVENUE 4",
-        "postal": "NIL",
+        "postal": "520801",
         "town": "TAMPINES"
       }
     },
@@ -176550,8 +176550,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9376886074663,
-          1.345198084501698
+          103.937688600395,
+          1.345198087239326
         ]
       },
       "properties": {
@@ -176559,7 +176559,7 @@
         "blk_no": "803",
         "street": "TAMPINES AVE 4",
         "street_full": "TAMPINES AVENUE 4",
-        "postal": "NIL",
+        "postal": "520803",
         "town": "TAMPINES"
       }
     },
@@ -177972,8 +177972,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.745947621659,
-          1.373733232509345
+          103.7459297845303,
+          1.373730848190214
         ]
       },
       "properties": {
@@ -177981,7 +177981,7 @@
         "blk_no": "811A",
         "street": "CHOA CHU KANG AVE 7",
         "street_full": "CHOA CHU KANG AVENUE 7",
-        "postal": "NIL",
+        "postal": "681811",
         "town": "CHOA CHU KANG"
       }
     },
@@ -178512,8 +178512,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9366956022388,
-          1.347635076891171
+          103.9366979661775,
+          1.3476396672832
         ]
       },
       "properties": {
@@ -178521,7 +178521,7 @@
         "blk_no": "817",
         "street": "TAMPINES ST 81",
         "street_full": "TAMPINES STREET 81",
-        "postal": "NIL",
+        "postal": "520817",
         "town": "TAMPINES"
       }
     },
@@ -180420,8 +180420,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6937055210354,
-          1.343504590530297
+          103.6937070457729,
+          1.343503823346967
         ]
       },
       "properties": {
@@ -180429,7 +180429,7 @@
         "blk_no": "835",
         "street": "JURONG WEST ST 81",
         "street_full": "JURONG WEST STREET 81",
-        "postal": "NIL",
+        "postal": "640835",
         "town": "JURONG WEST"
       }
     },
@@ -180510,8 +180510,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6934648950665,
-          1.342630964319388
+          103.693576643138,
+          1.342708362746701
         ]
       },
       "properties": {
@@ -180519,7 +180519,7 @@
         "blk_no": "836",
         "street": "JURONG WEST ST 81",
         "street_full": "JURONG WEST STREET 81",
-        "postal": "NIL",
+        "postal": "640836",
         "town": "JURONG WEST"
       }
     },
@@ -180600,8 +180600,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6929060319291,
-          1.343077329687694
+          103.6929060243134,
+          1.343077335435628
         ]
       },
       "properties": {
@@ -180609,7 +180609,7 @@
         "blk_no": "837",
         "street": "JURONG WEST ST 81",
         "street_full": "JURONG WEST STREET 81",
-        "postal": "NIL",
+        "postal": "640837",
         "town": "JURONG WEST"
       }
     },
@@ -180690,8 +180690,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6935080935631,
-          1.343849014869929
+          103.6935080902993,
+          1.343849016785865
         ]
       },
       "properties": {
@@ -180699,7 +180699,7 @@
         "blk_no": "838",
         "street": "JURONG WEST ST 81",
         "street_full": "JURONG WEST STREET 81",
-        "postal": "NIL",
+        "postal": "640838",
         "town": "JURONG WEST"
       }
     },
@@ -180960,8 +180960,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6922408918723,
-          1.344019655090372
+          103.6920910821782,
+          1.344193454462761
         ]
       },
       "properties": {
@@ -180969,7 +180969,7 @@
         "blk_no": "840",
         "street": "JURONG WEST ST 81",
         "street_full": "JURONG WEST STREET 81",
-        "postal": "NIL",
+        "postal": "640840",
         "town": "JURONG WEST"
       }
     },
@@ -180978,8 +180978,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9356168639871,
-          1.351142174563706
+          103.9356168620834,
+          1.351142177027379
         ]
       },
       "properties": {
@@ -180987,7 +180987,7 @@
         "blk_no": "840",
         "street": "TAMPINES ST 82",
         "street_full": "TAMPINES STREET 82",
-        "postal": "NIL",
+        "postal": "520840",
         "town": "TAMPINES"
       }
     },
@@ -181194,8 +181194,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9367584596044,
-          1.350928953514787
+          103.9368516188162,
+          1.350887883362605
         ]
       },
       "properties": {
@@ -181203,7 +181203,7 @@
         "blk_no": "842C",
         "street": "TAMPINES ST 82",
         "street_full": "TAMPINES STREET 82",
-        "postal": "NIL",
+        "postal": "523842",
         "town": "TAMPINES"
       }
     },
@@ -181446,8 +181446,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6918397292631,
-          1.344576436950478
+          103.6916842345703,
+          1.344860533003804
         ]
       },
       "properties": {
@@ -181455,7 +181455,7 @@
         "blk_no": "845",
         "street": "JURONG WEST ST 81",
         "street_full": "JURONG WEST STREET 81",
-        "postal": "NIL",
+        "postal": "640845",
         "town": "JURONG WEST"
       }
     },
@@ -181914,8 +181914,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8564444726285,
-          1.32278920327275
+          103.8564580233806,
+          1.322810450568608
         ]
       },
       "properties": {
@@ -181923,7 +181923,7 @@
         "blk_no": "85",
         "street": "WHAMPOA DR",
         "street_full": "WHAMPOA DRIVE",
-        "postal": "NIL",
+        "postal": "320085",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -181950,8 +181950,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6919403823171,
-          1.346431219452134
+          103.6919365063738,
+          1.346426807212748
         ]
       },
       "properties": {
@@ -181959,7 +181959,7 @@
         "blk_no": "850",
         "street": "JURONG WEST ST 81",
         "street_full": "JURONG WEST STREET 81",
-        "postal": "NIL",
+        "postal": "640850",
         "town": "JURONG WEST"
       }
     },
@@ -182130,8 +182130,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6928279440387,
-          1.347446204690921
+          103.692827949719,
+          1.347446749418046
         ]
       },
       "properties": {
@@ -182139,7 +182139,7 @@
         "blk_no": "852",
         "street": "JURONG WEST ST 81",
         "street_full": "JURONG WEST STREET 81",
-        "postal": "NIL",
+        "postal": "640852",
         "town": "JURONG WEST"
       }
     },
@@ -182382,8 +182382,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9352994804658,
-          1.353582500091893
+          103.9353061741084,
+          1.35358948409179
         ]
       },
       "properties": {
@@ -182391,7 +182391,7 @@
         "blk_no": "855",
         "street": "TAMPINES ST 83",
         "street_full": "TAMPINES STREET 83",
-        "postal": "NIL",
+        "postal": "520855",
         "town": "TAMPINES"
       }
     },
@@ -182418,8 +182418,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8369422243694,
-          1.417081006779817
+          103.8368242879851,
+          1.417030557746823
         ]
       },
       "properties": {
@@ -182427,7 +182427,7 @@
         "blk_no": "855",
         "street": "YISHUN RING RD",
         "street_full": "YISHUN RING ROAD",
-        "postal": "NIL",
+        "postal": "760855",
         "town": "YISHUN"
       }
     },
@@ -182454,8 +182454,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9365576325138,
-          1.353443248938317
+          103.9365577392005,
+          1.353444947169732
         ]
       },
       "properties": {
@@ -182463,7 +182463,7 @@
         "blk_no": "856",
         "street": "TAMPINES ST 82",
         "street_full": "TAMPINES STREET 82",
-        "postal": "NIL",
+        "postal": "520856",
         "town": "TAMPINES"
       }
     },
@@ -182544,8 +182544,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9387060924369,
-          1.352764365837695
+          103.9387947177689,
+          1.352917260674258
         ]
       },
       "properties": {
@@ -182553,7 +182553,7 @@
         "blk_no": "856E",
         "street": "TAMPINES ST 82",
         "street_full": "TAMPINES STREET 82",
-        "postal": "NIL",
+        "postal": "525856",
         "town": "TAMPINES"
       }
     },
@@ -182688,8 +182688,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.937594965945,
-          1.354293321638808
+          103.9375949588739,
+          1.354293328208692
         ]
       },
       "properties": {
@@ -182697,7 +182697,7 @@
         "blk_no": "858",
         "street": "TAMPINES AVE 5",
         "street_full": "TAMPINES AVENUE 5",
-        "postal": "NIL",
+        "postal": "520858",
         "town": "TAMPINES"
       }
     },
@@ -183840,8 +183840,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9337534859384,
-          1.355706436177117
+          103.9337534764193,
+          1.3557064402835
         ]
       },
       "properties": {
@@ -183849,7 +183849,7 @@
         "blk_no": "867A",
         "street": "TAMPINES ST 83",
         "street_full": "TAMPINES STREET 83",
-        "postal": "NIL",
+        "postal": "521867",
         "town": "TAMPINES"
       }
     },
@@ -183858,8 +183858,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9339796269782,
-          1.354776153861728
+          103.9339796207231,
+          1.35477616399009
         ]
       },
       "properties": {
@@ -183867,7 +183867,7 @@
         "blk_no": "868",
         "street": "TAMPINES ST 83",
         "street_full": "TAMPINES STREET 83",
-        "postal": "NIL",
+        "postal": "520868",
         "town": "TAMPINES"
       }
     },
@@ -184236,8 +184236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9327022939946,
-          1.354403475557976
+          103.9327022882834,
+          1.354403484043918
         ]
       },
       "properties": {
@@ -184245,7 +184245,7 @@
         "blk_no": "871",
         "street": "TAMPINES ST 84",
         "street_full": "TAMPINES STREET 84",
-        "postal": "NIL",
+        "postal": "520871",
         "town": "TAMPINES"
       }
     },
@@ -184830,8 +184830,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9313822532153,
-          1.352211870656472
+          103.9313858804396,
+          1.352215416439501
         ]
       },
       "properties": {
@@ -184839,7 +184839,7 @@
         "blk_no": "878",
         "street": "TAMPINES AVE 8",
         "street_full": "TAMPINES AVENUE 8",
-        "postal": "NIL",
+        "postal": "520878",
         "town": "TAMPINES"
       }
     },
@@ -185208,8 +185208,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9334620493843,
-          1.352046849380141
+          103.9334620412252,
+          1.352046854307664
         ]
       },
       "properties": {
@@ -185217,7 +185217,7 @@
         "blk_no": "882",
         "street": "TAMPINES ST 84",
         "street_full": "TAMPINES STREET 84",
-        "postal": "NIL",
+        "postal": "521882",
         "town": "TAMPINES"
       }
     },
@@ -185388,8 +185388,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.7941357641571,
-          1.437731460399553
+          103.7941447681557,
+          1.437818729796324
         ]
       },
       "properties": {
@@ -185397,7 +185397,7 @@
         "blk_no": "886C",
         "street": "WOODLANDS DR 50",
         "street_full": "WOODLANDS DRIVE 50",
-        "postal": "NIL",
+        "postal": "733886",
         "town": "WOODLANDS"
       }
     },
@@ -185424,8 +185424,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9318963961608,
-          1.350464113049605
+          103.9318963956169,
+          1.350464114144557
         ]
       },
       "properties": {
@@ -185433,7 +185433,7 @@
         "blk_no": "887",
         "street": "TAMPINES ST 81",
         "street_full": "TAMPINES STREET 81",
-        "postal": "NIL",
+        "postal": "520887",
         "town": "TAMPINES"
       }
     },
@@ -185802,8 +185802,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9338761193919,
-          1.346724486646778
+          103.9338761144967,
+          1.34672449540642
         ]
       },
       "properties": {
@@ -185811,7 +185811,7 @@
         "blk_no": "890A",
         "street": "TAMPINES AVE 1",
         "street_full": "TAMPINES AVENUE 1",
-        "postal": "NIL",
+        "postal": "521890",
         "town": "TAMPINES"
       }
     },
@@ -186342,8 +186342,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.932451735683,
-          1.348303273855576
+          103.9324517313316,
+          1.348303277688009
         ]
       },
       "properties": {
@@ -186351,7 +186351,7 @@
         "blk_no": "896",
         "street": "TAMPINES ST 81",
         "street_full": "TAMPINES STREET 81",
-        "postal": "NIL",
+        "postal": "520896",
         "town": "TAMPINES"
       }
     },
@@ -186954,8 +186954,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8795406088821,
-          1.334948202742717
+          103.8793342628838,
+          1.334900178569344
         ]
       },
       "properties": {
@@ -186963,7 +186963,7 @@
         "blk_no": "9",
         "street": "JOO SENG RD",
         "street_full": "JOO SENG ROAD",
-        "postal": "NIL",
+        "postal": "360009",
         "town": "TOA PAYOH"
       }
     },
@@ -188214,8 +188214,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.6878422024717,
-          1.340344127904299
+          103.6878458486231,
+          1.340310934556985
         ]
       },
       "properties": {
@@ -188223,7 +188223,7 @@
         "blk_no": "917",
         "street": "JURONG WEST ST 91",
         "street_full": "JURONG WEST STREET 91",
-        "postal": "NIL",
+        "postal": "640917",
         "town": "JURONG WEST"
       }
     },
@@ -189528,8 +189528,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9413482039419,
-          1.34574577748224
+          103.9410773896002,
+          1.345634287377766
         ]
       },
       "properties": {
@@ -189537,7 +189537,7 @@
         "blk_no": "935",
         "street": "TAMPINES ST 91",
         "street_full": "TAMPINES STREET 91",
-        "postal": "NIL",
+        "postal": "520935",
         "town": "TAMPINES"
       }
     },
@@ -189852,8 +189852,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9411920624437,
-          1.348291901967659
+          103.9412419730002,
+          1.348111064456642
         ]
       },
       "properties": {
@@ -189861,7 +189861,7 @@
         "blk_no": "939",
         "street": "TAMPINES AVE 5",
         "street_full": "TAMPINES AVENUE 5",
-        "postal": "NIL",
+        "postal": "520939",
         "town": "TAMPINES"
       }
     },
@@ -190176,8 +190176,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.9406222440988,
-          1.349773396615091
+          103.9406239878168,
+          1.349768954134594
         ]
       },
       "properties": {
@@ -190185,7 +190185,7 @@
         "blk_no": "942",
         "street": "TAMPINES AVE 5",
         "street_full": "TAMPINES AVENUE 5",
-        "postal": "NIL",
+        "postal": "520942",
         "town": "TAMPINES"
       }
     },
@@ -192318,8 +192318,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8477692898975,
-          1.338625531702704
+          103.8477692844581,
+          1.338625539640991
         ]
       },
       "properties": {
@@ -192327,7 +192327,7 @@
         "blk_no": "97",
         "street": "LOR 3 TOA PAYOH",
         "street_full": "LORONG 3 TOA PAYOH",
-        "postal": "NIL",
+        "postal": "310097",
         "town": "TOA PAYOH"
       }
     },
@@ -192336,8 +192336,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8549380848308,
-          1.321280208622798
+          103.8549478162477,
+          1.321271490965152
         ]
       },
       "properties": {
@@ -192345,7 +192345,7 @@
         "blk_no": "97",
         "street": "WHAMPOA DR",
         "street_full": "WHAMPOA DRIVE",
-        "postal": "NIL",
+        "postal": "320097",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -194316,8 +194316,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8289283128013,
-          1.286814178227953
+          103.8289283111695,
+          1.286814173027022
         ]
       },
       "properties": {
@@ -194325,7 +194325,7 @@
         "blk_no": "9B",
         "street": "BOON TIONG RD",
         "street_full": "BOON TIONG ROAD",
-        "postal": "NIL",
+        "postal": "163009",
         "town": "BUKIT MERAH"
       }
     }
