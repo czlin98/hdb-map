@@ -82,6 +82,8 @@ export function MapView({ data, selectedId, onSelectBlock, flyPaddingBottom = 0 
           "circle-stroke-color": "#ffffff",
         },
       });
+      // Ensure the canvas matches the (now laid-out) container height.
+      map.resize();
     });
 
     const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });
@@ -131,5 +133,7 @@ export function MapView({ data, selectedId, onSelectBlock, flyPaddingBottom = 0 
     }
   }, [selectedId, data, flyPaddingBottom]);
 
-  return <div ref={containerRef} className="absolute inset-0" />;
+  // Inline position/size so the container fills its parent independent of when
+  // Tailwind's utilities are applied; MapLibre measures this at creation time.
+  return <div ref={containerRef} className="absolute inset-0" style={{ position: "absolute", inset: 0 }} />;
 }

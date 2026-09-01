@@ -12,6 +12,7 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
     getLayer: vi.fn().mockReturnValue({}),
     getSource: vi.fn().mockReturnValue({ setData: vi.fn() }),
     setFilter: vi.fn(),
+    resize: vi.fn(),
     flyTo: vi.fn(),
     getZoom: vi.fn().mockReturnValue(11),
     getCanvas: vi.fn().mockReturnValue({ style: {} }),
