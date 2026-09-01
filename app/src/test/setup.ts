@@ -17,3 +17,13 @@ if (!window.matchMedia) {
     dispatchEvent: () => false,
   })) as unknown as typeof window.matchMedia;
 }
+
+// jsdom doesn't implement ResizeObserver; cmdk (Command) and Vaul (Drawer)
+// construct one on mount, so stub it or those renders throw.
+if (!globalThis.ResizeObserver) {
+  globalThis.ResizeObserver = class {
+    observe() {}
+    unobserve() {}
+    disconnect() {}
+  } as unknown as typeof ResizeObserver;
+}
