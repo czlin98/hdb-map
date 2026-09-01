@@ -38,6 +38,31 @@ def test_multiple_qualifiers_take_first():
 
 
 @responses.activate
+def test_gate_skips_nil_postal_and_takes_valid_qualifier():
+    # A block+street can return several results: the residential building plus
+    # businesses sharing the block. The businesses come back with POSTAL "NIL",
+    # so the gate must skip them and select the result with a real postal.
+    body = {"found": 2, "results": [
+        _result("123", "ANG MO KIO AVENUE 3", postal="NIL"),
+        _result("123", "ANG MO KIO AVENUE 3", postal="560123"),
+    ]}
+    responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
+    out = geocode_block(requests.Session(), "tok", BLOCK)
+    assert out == {"ok": True, "postal": "560123", "lat": "1.36", "lon": "103.84"}
+
+
+@responses.activate
+def test_gate_fails_when_all_qualifiers_have_nil_postal():
+    body = {"found": 2, "results": [
+        _result("123", "ANG MO KIO AVENUE 3", postal="NIL"),
+        _result("123", "ANG MO KIO AVENUE 3", postal="NIL"),
+    ]}
+    responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
+    out = geocode_block(requests.Session(), "tok", BLOCK)
+    assert out == {"ok": False, "reason": "no_match", "found": 2}
+
+
+@responses.activate
 def test_no_results():
     responses.add(responses.GET, config.ONEMAP_SEARCH_URL,
                   json={"found": 0, "results": []}, status=200)

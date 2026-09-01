@@ -28,6 +28,12 @@ def _norm(value: str | None) -> str:
     return (value or "").strip().upper()
 
 
+def _valid_postal(postal: str | None) -> bool:
+    # OneMap returns "NIL" for results with no postal (e.g. businesses sharing
+    # a block); such a result must not qualify.
+    return _norm(postal) not in ("", "NIL")
+
+
 def geocode_block(
     session: requests.Session,
     token: str,
@@ -58,7 +64,11 @@ def geocode_block(
                 return {"ok": False, "reason": "no_results", "found": found}
             blk, road = _norm(block["blk_no"]), _norm(block["street_full"])
             for r in results:
-                if _norm(r.get("BLK_NO")) == blk and _norm(r.get("ROAD_NAME")) == road:
+                if (
+                    _norm(r.get("BLK_NO")) == blk
+                    and _norm(r.get("ROAD_NAME")) == road
+                    and _valid_postal(r.get("POSTAL"))
+                ):
                     return {
                         "ok": True,
                         "postal": r.get("POSTAL"),
