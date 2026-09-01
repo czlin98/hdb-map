@@ -1,0 +1,42 @@
+name: pipeline
+
+on:
+  schedule:
+    - cron: "0 2 1 * *"   # 02:00 UTC = 10:00 SGT on the 1st of each month (Actions cron is UTC-only)
+  workflow_dispatch:
+
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - name: Install runtime deps
+        working-directory: pipeline
+        run: pip install -r requirements.txt
+      - name: Run pipeline
+        working-directory: pipeline
+        env:
+          ONEMAP_EMAIL: ${{ secrets.ONEMAP_EMAIL }}
+          ONEMAP_PASSWORD: ${{ secrets.ONEMAP_PASSWORD }}
+        run: python src/run.py
+      - name: Commit data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add app/public/data pipeline/geocode_failures.csv
+          if git diff --cached --quiet; then
+            echo "No data changes; nothing to commit."
+          else
+            git commit -m "chore(data): monthly HDB refresh"
+            git push
+          fi

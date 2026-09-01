@@ -1,0 +1,22 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pipeline
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - run: pip install -r requirements-dev.txt
+      - run: ruff check src tests
+      - run: pytest
+  # NOTE: the frontend plan appends a `frontend:` job here (tsc / eslint / vite build / vitest).
