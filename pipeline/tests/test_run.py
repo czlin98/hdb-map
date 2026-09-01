@@ -45,6 +45,30 @@ def test_run_end_to_end(tmp_path, monkeypatch):
                      "reason": "no_results", "found": "0"}]
 
 
+def test_run_limit_caps_blocks_before_geocode(tmp_path, monkeypatch):
+    monkeypatch.setenv("ONEMAP_EMAIL", "e@x.com")
+    monkeypatch.setenv("ONEMAP_PASSWORD", "pw")
+    monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
+    monkeypatch.setattr(config, "FAILURES_PATH", tmp_path / "geocode_failures.csv")
+
+    monkeypatch.setattr(run_module, "get_token", lambda *a, **k: "tok")
+    monkeypatch.setattr(run_module, "fetch_blocks", lambda *a, **k: [
+        {"blk_no": str(i), "street": "X RD", "street_full": "X ROAD",
+         "bldg_contract_town": "AMK"} for i in range(5)
+    ])
+    seen = {}
+
+    def fake_geocode_all(session, token, blocks, **kw):
+        seen["n"] = len(blocks)
+        return [], []
+
+    monkeypatch.setattr(run_module, "geocode_all", fake_geocode_all)
+
+    run_module.run(limit=2)
+
+    assert seen["n"] == 2  # only the first 2 of 5 fetched blocks are geocoded
+
+
 def test_write_failures_sorted(tmp_path):
     path = tmp_path / "f.csv"
     run_module.write_failures([

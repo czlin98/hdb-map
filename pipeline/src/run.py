@@ -1,5 +1,6 @@
 """Orchestrator: fetch -> geocode -> transform -> export."""
 
+import argparse
 import csv
 import logging
 import os
@@ -26,7 +27,7 @@ def write_failures(failures: list[dict], path: Path | None = None) -> None:
         writer.writerows(rows)
 
 
-def run() -> None:
+def run(limit: int | None = None) -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
     email = os.environ["ONEMAP_EMAIL"]
@@ -38,6 +39,9 @@ def run() -> None:
     towns = load_towns(config.TOWNS_PATH)
     blocks = fetch_blocks(session)
     log.info("fetched %d residential blocks", len(blocks))
+    if limit is not None:
+        blocks = blocks[:limit]
+        log.info("limited to first %d blocks (--limit)", len(blocks))
 
     successes, failures = geocode_all(session, token, blocks)
     log.info("geocoded %d, failed %d", len(successes), len(failures))
@@ -49,4 +53,12 @@ def run() -> None:
 
 
 if __name__ == "__main__":
-    run()
+    parser = argparse.ArgumentParser(description="Run the HDB data pipeline.")
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Geocode only the first N blocks (smoke test); default: all blocks.",
+    )
+    args = parser.parse_args()
+    run(limit=args.limit)
