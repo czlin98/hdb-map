@@ -28,6 +28,7 @@ jobs:
         env:
           ONEMAP_EMAIL: ${{ secrets.ONEMAP_EMAIL }}
           ONEMAP_PASSWORD: ${{ secrets.ONEMAP_PASSWORD }}
+          PYTHONUNBUFFERED: "1"   # stream per-address geocode logs live
         run: python src/run.py
       - name: Commit data if changed
         run: |
