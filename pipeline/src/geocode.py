@@ -1,10 +1,13 @@
 """Stage 2: OneMap geocoding (token, per-block gate, batch loop)."""
 
+import logging
 import time
 
 import requests
 
 from config import ONEMAP_SEARCH_URL, ONEMAP_TOKEN_URL
+
+log = logging.getLogger("pipeline.geocode")
 
 
 def get_token(session: requests.Session, email: str, password: str) -> str:
@@ -82,7 +85,9 @@ def geocode_all(
 ) -> tuple[list[dict], list[dict]]:
     successes: list[dict] = []
     failures: list[dict] = []
-    for block in blocks:
+    total = len(blocks)
+    for i, block in enumerate(blocks, 1):
+        log.info("[%d/%d] Geocoding %s %s", i, total, block["blk_no"], block["street_full"])
         result = geocode_block(session, token, block)
         if result["ok"]:
             successes.append({
@@ -98,5 +103,10 @@ def geocode_all(
                 "reason": result["reason"],
                 "found": result["found"],
             })
+            log.warning(
+                "[%d/%d] FAILED %s %s: %s (found %s)",
+                i, total, block["blk_no"], block["street_full"],
+                result["reason"], result["found"],
+            )
         time.sleep(sleep)
     return successes, failures
