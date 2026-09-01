@@ -10,6 +10,14 @@ export default tseslint.config(
   {
     files: ["**/*.{ts,tsx}"],
     plugins: { "react-hooks": reactHooks, "react-refresh": reactRefresh },
-    rules: { ...reactHooks.configs.recommended.rules },
+    rules: {
+      ...reactHooks.configs.recommended.rules,
+      // Treat a leading underscore as "intentionally unused", matching TS's
+      // noUnusedLocals/noUnusedParameters convention.
+      "@typescript-eslint/no-unused-vars": [
+        "error",
+        { argsIgnorePattern: "^_", varsIgnorePattern: "^_", caughtErrorsIgnorePattern: "^_" },
+      ],
+    },
   },
 );
