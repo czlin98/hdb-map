@@ -10,10 +10,10 @@ APP_DATA_DIR = ROOT / "app" / "public" / "data"
 TOWNS_PATH = PIPELINE_DIR / "towns.json"
 FAILURES_PATH = PIPELINE_DIR / "geocode_failures.csv"
 
-# data.gov.sg CKAN datastore.
-DATASTORE_URL = "https://data.gov.sg/api/action/datastore_search"
-# HDB Property Information resource id on data.gov.sg. datastore_search accepts
-# the d_-prefixed id. Tests mock the datastore URL, so it isn't hit in tests.
+# data.gov.sg dataset download API (bulk CSV via initiate-download + poll-download).
+DATASETS_API_BASE = "https://api-open.data.gov.sg/v1/public/api/datasets"
+# HDB Property Information dataset id on data.gov.sg (the d_-prefixed id).
+# Tests mock the download endpoints, so it isn't hit in tests.
 RESOURCE_ID = "d_17f5382f26140b1fdae0ba2ef6239d2f"
 
 ONEMAP_TOKEN_URL = "https://www.onemap.gov.sg/api/auth/post/getToken"
