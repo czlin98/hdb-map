@@ -72,3 +72,31 @@ def geocode_block(
         time.sleep(backoff * (2 ** attempt))
 
     return {"ok": False, "reason": "api_error", "found": 0}
+
+
+def geocode_all(
+    session: requests.Session,
+    token: str,
+    blocks: list[dict],
+    sleep: float = 0.2,
+) -> tuple[list[dict], list[dict]]:
+    successes: list[dict] = []
+    failures: list[dict] = []
+    for block in blocks:
+        result = geocode_block(session, token, block)
+        if result["ok"]:
+            successes.append({
+                **block,
+                "postal": result["postal"],
+                "lat": result["lat"],
+                "lon": result["lon"],
+            })
+        else:
+            failures.append({
+                "blk_no": block["blk_no"],
+                "street_full": block["street_full"],
+                "reason": result["reason"],
+                "found": result["found"],
+            })
+        time.sleep(sleep)
+    return successes, failures
