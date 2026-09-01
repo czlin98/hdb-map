@@ -1,0 +1,3249 @@
+{
+  "101-jurong-east-st-13": {
+    "blk_no": "101",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600101",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 238,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 40,
+      "5room": 2
+    }
+  },
+  "102-jurong-east-st-13": {
+    "blk_no": "102",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600102",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 172,
+      "4room": 22,
+      "5room": 2
+    }
+  },
+  "103-jurong-east-st-13": {
+    "blk_no": "103",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600103",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "104-jurong-east-st-13": {
+    "blk_no": "104",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600104",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 20
+    }
+  },
+  "105-jurong-east-st-13": {
+    "blk_no": "105",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600105",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 98
+    }
+  },
+  "106-jurong-east-st-13": {
+    "blk_no": "106",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600106",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "107-jurong-east-st-13": {
+    "blk_no": "107",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "NIL",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "5room": 25,
+      "exec": 35
+    }
+  },
+  "108-jurong-east-st-13": {
+    "blk_no": "108",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "NIL",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 98
+    }
+  },
+  "109-jurong-east-st-13": {
+    "blk_no": "109",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600109",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "110-jurong-east-st-13": {
+    "blk_no": "110",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "NIL",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 215,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 18,
+      "5room": 1
+    }
+  },
+  "111-jurong-east-st-13": {
+    "blk_no": "111",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600111",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "112-jurong-east-st-13": {
+    "blk_no": "112",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600112",
+    "town": "JURONG EAST",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "113-jurong-east-st-13": {
+    "blk_no": "113",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600113",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "114-jurong-east-st-13": {
+    "blk_no": "114",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "NIL",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 9,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "115-jurong-east-st-13": {
+    "blk_no": "115",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600115",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 99,
+      "4room": 19,
+      "exec": 1
+    }
+  },
+  "116-jurong-east-st-13": {
+    "blk_no": "116",
+    "street": "JURONG EAST ST 13",
+    "street_full": "JURONG EAST STREET 13",
+    "postal": "600116",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "20-teban-gdns-rd": {
+    "blk_no": "20",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600020",
+    "town": "JURONG EAST",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 306,
+    "sold_units_by_type": {
+      "3room": 153,
+      "4room": 153
+    }
+  },
+  "201-jurong-east-st-21": {
+    "blk_no": "201",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600201",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "202-jurong-east-st-21": {
+    "blk_no": "202",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600202",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "203-jurong-east-st-21": {
+    "blk_no": "203",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600203",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "3room": 25,
+      "4room": 5,
+      "5room": 72
+    }
+  },
+  "204-jurong-east-st-21": {
+    "blk_no": "204",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600204",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 58
+    }
+  },
+  "205-jurong-east-st-21": {
+    "blk_no": "205",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600205",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 36
+    }
+  },
+  "206-jurong-east-st-21": {
+    "blk_no": "206",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600206",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "3room": 56,
+      "4room": 28
+    }
+  },
+  "207-jurong-east-st-21": {
+    "blk_no": "207",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600207",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 56,
+      "4room": 56
+    }
+  },
+  "208-jurong-east-st-21": {
+    "blk_no": "208",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600208",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 42,
+      "5room": 1
+    }
+  },
+  "209-jurong-east-st-21": {
+    "blk_no": "209",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600209",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 58
+    }
+  },
+  "21-teban-gdns-rd": {
+    "blk_no": "21",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600021",
+    "town": "JURONG EAST",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 302,
+    "sold_units_by_type": {
+      "4room": 227,
+      "5room": 75
+    }
+  },
+  "210-jurong-east-st-21": {
+    "blk_no": "210",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600210",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 213,
+    "sold_units_by_type": {
+      "3room": 174,
+      "4room": 36,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "211-jurong-east-st-21": {
+    "blk_no": "211",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600211",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 50
+    }
+  },
+  "212-jurong-east-st-21": {
+    "blk_no": "212",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600212",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "213-jurong-east-st-21": {
+    "blk_no": "213",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600213",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "214-jurong-east-st-21": {
+    "blk_no": "214",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600214",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 103,
+      "4room": 23
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "215-jurong-east-st-21": {
+    "blk_no": "215",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600215",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 15
+    }
+  },
+  "215a-jurong-east-st-21": {
+    "blk_no": "215A",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "601215",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "216-jurong-east-st-21": {
+    "blk_no": "216",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600216",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "exec": 88
+    }
+  },
+  "217-jurong-east-st-21": {
+    "blk_no": "217",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600217",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "217a-jurong-east-st-21": {
+    "blk_no": "217A",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "601217",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "218-jurong-east-st-21": {
+    "blk_no": "218",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600218",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "219-jurong-east-st-21": {
+    "blk_no": "219",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600219",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "219a-jurong-east-st-21": {
+    "blk_no": "219A",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "601219",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "22-teban-gdns-rd": {
+    "blk_no": "22",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600022",
+    "town": "JURONG EAST",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 302,
+    "sold_units_by_type": {
+      "4room": 226,
+      "5room": 76
+    }
+  },
+  "220-jurong-east-st-21": {
+    "blk_no": "220",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600220",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "221-jurong-east-st-21": {
+    "blk_no": "221",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600221",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 15
+    }
+  },
+  "221a-jurong-east-st-21": {
+    "blk_no": "221A",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "601221",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "222-jurong-east-st-21": {
+    "blk_no": "222",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600222",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 16
+    }
+  },
+  "223-jurong-east-st-21": {
+    "blk_no": "223",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600223",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 24
+    }
+  },
+  "223a-jurong-east-st-21": {
+    "blk_no": "223A",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "601223",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "5room": 31,
+      "exec": 32
+    }
+  },
+  "224-jurong-east-st-21": {
+    "blk_no": "224",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600224",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "225-jurong-east-st-21": {
+    "blk_no": "225",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600225",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 2
+    }
+  },
+  "225a-jurong-east-st-21": {
+    "blk_no": "225A",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "601225",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 100,
+      "4room": 18,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "226-jurong-east-st-21": {
+    "blk_no": "226",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600226",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "227-jurong-east-st-21": {
+    "blk_no": "227",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600227",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "228-jurong-east-st-21": {
+    "blk_no": "228",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600228",
+    "town": "JURONG EAST",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 46
+    }
+  },
+  "229-jurong-east-st-21": {
+    "blk_no": "229",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600229",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "23-teban-gdns-rd": {
+    "blk_no": "23",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600023",
+    "town": "JURONG EAST",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 242,
+    "sold_units_by_type": {
+      "2room": 92,
+      "3room": 114,
+      "4room": 36
+    }
+  },
+  "230-jurong-east-st-21": {
+    "blk_no": "230",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600230",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "231-jurong-east-st-21": {
+    "blk_no": "231",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600231",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "232-jurong-east-st-21": {
+    "blk_no": "232",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600232",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 36,
+      "exec": 1
+    }
+  },
+  "233-jurong-east-st-21": {
+    "blk_no": "233",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600233",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 14
+    }
+  },
+  "234-jurong-east-st-21": {
+    "blk_no": "234",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600234",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "235-jurong-east-st-21": {
+    "blk_no": "235",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600235",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 15
+    }
+  },
+  "236-jurong-east-st-21": {
+    "blk_no": "236",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600236",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "237-jurong-east-st-21": {
+    "blk_no": "237",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600237",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "238-jurong-east-st-21": {
+    "blk_no": "238",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600238",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "239-jurong-east-st-21": {
+    "blk_no": "239",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600239",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "24-teban-gdns-rd": {
+    "blk_no": "24",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600024",
+    "town": "JURONG EAST",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "240-jurong-east-st-21": {
+    "blk_no": "240",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "600240",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 68
+    }
+  },
+  "240a-jurong-east-ave-1": {
+    "blk_no": "240A",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "601240",
+    "town": "JURONG EAST",
+    "year_completed": 2019,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "3room": 63
+    }
+  },
+  "240b-jurong-east-ave-1": {
+    "blk_no": "240B",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "602240",
+    "town": "JURONG EAST",
+    "year_completed": 2019,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 81,
+      "2room": 81
+    }
+  },
+  "241-jurong-east-st-24": {
+    "blk_no": "241",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600241",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 215,
+    "sold_units_by_type": {
+      "3room": 190,
+      "4room": 24,
+      "exec": 1
+    }
+  },
+  "242-jurong-east-st-24": {
+    "blk_no": "242",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600242",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "243-jurong-east-st-24": {
+    "blk_no": "243",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600243",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 44
+    }
+  },
+  "244-jurong-east-st-24": {
+    "blk_no": "244",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600244",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 236,
+    "sold_units_by_type": {
+      "3room": 171,
+      "4room": 64
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "245-jurong-east-st-24": {
+    "blk_no": "245",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600245",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 36,
+      "5room": 1
+    }
+  },
+  "246-jurong-east-st-24": {
+    "blk_no": "246",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600246",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "247-jurong-east-st-24": {
+    "blk_no": "247",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600247",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "3room": 163,
+      "4room": 24,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "248-jurong-east-st-24": {
+    "blk_no": "248",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600248",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 44
+    }
+  },
+  "249-jurong-east-st-24": {
+    "blk_no": "249",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600249",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 22
+    }
+  },
+  "25-teban-gdns-rd": {
+    "blk_no": "25",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600025",
+    "town": "JURONG EAST",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "250-jurong-east-st-24": {
+    "blk_no": "250",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600250",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 22
+    }
+  },
+  "251-jurong-east-st-24": {
+    "blk_no": "251",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600251",
+    "town": "JURONG EAST",
+    "year_completed": 1981,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "252-jurong-east-st-24": {
+    "blk_no": "252",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600252",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "3room": 78
+    },
+    "rental_units_by_type": {
+      "3room": 15
+    }
+  },
+  "253-jurong-east-st-24": {
+    "blk_no": "253",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600253",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "3room": 84
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "256-jurong-east-st-24": {
+    "blk_no": "256",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600256",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 14
+    },
+    "rental_units_by_type": {
+      "3room": 5
+    }
+  },
+  "257-jurong-east-st-24": {
+    "blk_no": "257",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600257",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 235,
+    "sold_units_by_type": {
+      "3room": 149,
+      "4room": 84,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "258-jurong-east-st-24": {
+    "blk_no": "258",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600258",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 100
+    }
+  },
+  "259-jurong-east-st-24": {
+    "blk_no": "259",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600259",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 2
+    }
+  },
+  "260-jurong-east-st-24": {
+    "blk_no": "260",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600260",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 74
+    }
+  },
+  "261-jurong-east-st-24": {
+    "blk_no": "261",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600261",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 64,
+      "exec": 1
+    }
+  },
+  "262-jurong-east-st-24": {
+    "blk_no": "262",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600262",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 2
+    }
+  },
+  "263-jurong-east-st-24": {
+    "blk_no": "263",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600263",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 68
+    }
+  },
+  "264-jurong-east-st-24": {
+    "blk_no": "264",
+    "street": "JURONG EAST ST 24",
+    "street_full": "JURONG EAST STREET 24",
+    "postal": "600264",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "3room": 162,
+      "4room": 24,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "265-toh-guan-rd": {
+    "blk_no": "265",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600265",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 90
+    }
+  },
+  "266-toh-guan-rd": {
+    "blk_no": "266",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600266",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 86
+    }
+  },
+  "267-toh-guan-rd": {
+    "blk_no": "267",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600267",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 90
+    }
+  },
+  "268-toh-guan-rd": {
+    "blk_no": "268",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600268",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 15
+    }
+  },
+  "269-toh-guan-rd": {
+    "blk_no": "269",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600269",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 90
+    }
+  },
+  "270-toh-guan-rd": {
+    "blk_no": "270",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600270",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "271-toh-guan-rd": {
+    "blk_no": "271",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "NIL",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "272-toh-guan-rd": {
+    "blk_no": "272",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600272",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 90
+    }
+  },
+  "273-toh-guan-rd": {
+    "blk_no": "273",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600273",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "274-toh-guan-rd": {
+    "blk_no": "274",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600274",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 98
+    }
+  },
+  "275-toh-guan-rd": {
+    "blk_no": "275",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600275",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "276-toh-guan-rd": {
+    "blk_no": "276",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600276",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "277-toh-guan-rd": {
+    "blk_no": "277",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600277",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "278-toh-guan-rd": {
+    "blk_no": "278",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600278",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "279-toh-guan-rd": {
+    "blk_no": "279",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600279",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "280-toh-guan-rd": {
+    "blk_no": "280",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600280",
+    "town": "JURONG EAST",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 95
+    }
+  },
+  "281-toh-guan-rd": {
+    "blk_no": "281",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600281",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "282-toh-guan-rd": {
+    "blk_no": "282",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600282",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 95
+    }
+  },
+  "283-toh-guan-rd": {
+    "blk_no": "283",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600283",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "284-toh-guan-rd": {
+    "blk_no": "284",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "600284",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "285a-toh-guan-rd": {
+    "blk_no": "285A",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "601285",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "5room": 2,
+      "exec": 111
+    }
+  },
+  "285b-toh-guan-rd": {
+    "blk_no": "285B",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "602285",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 30
+    }
+  },
+  "285c-toh-guan-rd": {
+    "blk_no": "285C",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "603285",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "exec": 68
+    }
+  },
+  "285d-toh-guan-rd": {
+    "blk_no": "285D",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "604285",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "5room": 2,
+      "exec": 111
+    }
+  },
+  "286a-toh-guan-rd": {
+    "blk_no": "286A",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "601286",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "286b-toh-guan-rd": {
+    "blk_no": "286B",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "602286",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "5room": 2,
+      "exec": 111
+    }
+  },
+  "286c-toh-guan-rd": {
+    "blk_no": "286C",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "603286",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "5room": 2,
+      "exec": 111
+    }
+  },
+  "286d-toh-guan-rd": {
+    "blk_no": "286D",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "604286",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 74
+    }
+  },
+  "287a-jurong-east-st-21": {
+    "blk_no": "287A",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "601287",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "5room": 2,
+      "exec": 111
+    }
+  },
+  "287b-jurong-east-st-21": {
+    "blk_no": "287B",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "602287",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "5room": 2,
+      "exec": 111
+    }
+  },
+  "287c-jurong-east-st-21": {
+    "blk_no": "287C",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "603287",
+    "town": "JURONG EAST",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "exec": 111
+    }
+  },
+  "287d-jurong-east-st-21": {
+    "blk_no": "287D",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "604287",
+    "town": "JURONG EAST",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "exec": 68
+    }
+  },
+  "288a-jurong-east-st-21": {
+    "blk_no": "288A",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "601288",
+    "town": "JURONG EAST",
+    "year_completed": 1998,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 90
+    }
+  },
+  "288b-jurong-east-st-21": {
+    "blk_no": "288B",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "602288",
+    "town": "JURONG EAST",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 30
+    }
+  },
+  "288c-jurong-east-st-21": {
+    "blk_no": "288C",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "603288",
+    "town": "JURONG EAST",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "288d-jurong-east-st-21": {
+    "blk_no": "288D",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "604288",
+    "town": "JURONG EAST",
+    "year_completed": 1998,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 90
+    }
+  },
+  "288e-jurong-east-st-21": {
+    "blk_no": "288E",
+    "street": "JURONG EAST ST 21",
+    "street_full": "JURONG EAST STREET 21",
+    "postal": "605288",
+    "town": "JURONG EAST",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 30
+    }
+  },
+  "289a-toh-guan-rd": {
+    "blk_no": "289A",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "601289",
+    "town": "JURONG EAST",
+    "year_completed": 2026,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "2room": 56,
+      "3room": 14
+    }
+  },
+  "289b-toh-guan-rd": {
+    "blk_no": "289B",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "602289",
+    "town": "JURONG EAST",
+    "year_completed": 2026,
+    "max_floor_lvl": 37,
+    "total_dwelling_units": 226,
+    "sold_units_by_type": {
+      "2room": 46,
+      "3room": 48,
+      "4room": 132
+    }
+  },
+  "289c-toh-guan-rd": {
+    "blk_no": "289C",
+    "street": "TOH GUAN RD",
+    "street_full": "TOH GUAN ROAD",
+    "postal": "603289",
+    "town": "JURONG EAST",
+    "year_completed": 2026,
+    "max_floor_lvl": 37,
+    "total_dwelling_units": 273,
+    "sold_units_by_type": {
+      "2room": 142,
+      "3room": 23,
+      "4room": 108
+    }
+  },
+  "30-teban-gdns-rd": {
+    "blk_no": "30",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600030",
+    "town": "JURONG EAST",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "301-jurong-east-st-32": {
+    "blk_no": "301",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600301",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 140,
+      "4room": 24,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "302-jurong-east-st-32": {
+    "blk_no": "302",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600302",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "3room": 185,
+      "4room": 21,
+      "5room": 2
+    }
+  },
+  "303-jurong-east-st-32": {
+    "blk_no": "303",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600303",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "3room": 73,
+      "4room": 8,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "304-jurong-east-st-32": {
+    "blk_no": "304",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600304",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 178,
+    "sold_units_by_type": {
+      "3room": 143,
+      "4room": 33,
+      "5room": 2
+    }
+  },
+  "305-jurong-east-st-32": {
+    "blk_no": "305",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600305",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 112
+    }
+  },
+  "306-jurong-east-st-32": {
+    "blk_no": "306",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600306",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "3room": 189,
+      "4room": 19,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "307-jurong-east-st-32": {
+    "blk_no": "307",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600307",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "308-jurong-east-st-32": {
+    "blk_no": "308",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600308",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 91,
+      "4room": 75,
+      "exec": 1
+    }
+  },
+  "309-jurong-east-st-32": {
+    "blk_no": "309",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600309",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "31-teban-gdns-rd": {
+    "blk_no": "31",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600031",
+    "town": "JURONG EAST",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "310-jurong-east-st-32": {
+    "blk_no": "310",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600310",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 48
+    }
+  },
+  "311-jurong-east-st-32": {
+    "blk_no": "311",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600311",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 39
+    }
+  },
+  "312-jurong-east-st-32": {
+    "blk_no": "312",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600312",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 48
+    }
+  },
+  "313-jurong-east-st-32": {
+    "blk_no": "313",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600313",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 36
+    }
+  },
+  "314-jurong-east-st-32": {
+    "blk_no": "314",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600314",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 39
+    }
+  },
+  "315-jurong-east-st-32": {
+    "blk_no": "315",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600315",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 60,
+      "4room": 84
+    }
+  },
+  "316-jurong-east-st-32": {
+    "blk_no": "316",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600316",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 177,
+    "sold_units_by_type": {
+      "4room": 114,
+      "5room": 63
+    }
+  },
+  "317-jurong-east-st-31": {
+    "blk_no": "317",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600317",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "4room": 108,
+      "5room": 54
+    }
+  },
+  "318-jurong-east-st-31": {
+    "blk_no": "318",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600318",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 17,
+      "4room": 2
+    }
+  },
+  "318a-jurong-east-ave-1": {
+    "blk_no": "318A",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "601318",
+    "town": "JURONG EAST",
+    "year_completed": 2001,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "2room": 61,
+      "studio_apartment": 82
+    }
+  },
+  "319-jurong-east-st-31": {
+    "blk_no": "319",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600319",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "32-teban-gdns-rd": {
+    "blk_no": "32",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600032",
+    "town": "JURONG EAST",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "320-jurong-east-st-31": {
+    "blk_no": "320",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600320",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 48
+    }
+  },
+  "321-jurong-east-st-31": {
+    "blk_no": "321",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600321",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 36
+    }
+  },
+  "322-jurong-east-st-31": {
+    "blk_no": "322",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600322",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "322a-jurong-east-st-31": {
+    "blk_no": "322A",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "601322",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "323-jurong-east-st-31": {
+    "blk_no": "323",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600323",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "324-jurong-east-st-31": {
+    "blk_no": "324",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600324",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 39
+    }
+  },
+  "325-jurong-east-st-31": {
+    "blk_no": "325",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600325",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "326-jurong-east-st-31": {
+    "blk_no": "326",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600326",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "327-jurong-east-st-31": {
+    "blk_no": "327",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600327",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "328-jurong-east-st-31": {
+    "blk_no": "328",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600328",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "329-jurong-east-ave-1": {
+    "blk_no": "329",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600329",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 48,
+      "exec": 1
+    }
+  },
+  "33-teban-gdns-rd": {
+    "blk_no": "33",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600033",
+    "town": "JURONG EAST",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "3room": 100,
+      "5room": 6
+    }
+  },
+  "330-jurong-east-ave-1": {
+    "blk_no": "330",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600330",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 71,
+      "4room": 48
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "331-jurong-east-ave-1": {
+    "blk_no": "331",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600331",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 96
+    }
+  },
+  "332-jurong-east-ave-1": {
+    "blk_no": "332",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600332",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 48
+    }
+  },
+  "333-jurong-east-ave-1": {
+    "blk_no": "333",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600333",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "334-jurong-east-ave-1": {
+    "blk_no": "334",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600334",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "335-jurong-east-ave-1": {
+    "blk_no": "335",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600335",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "336-jurong-east-ave-1": {
+    "blk_no": "336",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600336",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "337-jurong-east-ave-1": {
+    "blk_no": "337",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600337",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "338-jurong-east-ave-1": {
+    "blk_no": "338",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600338",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 18,
+    "sold_units_by_type": {
+      "4room": 18
+    }
+  },
+  "339-jurong-east-ave-1": {
+    "blk_no": "339",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600339",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "34-teban-gdns-rd": {
+    "blk_no": "34",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600034",
+    "town": "JURONG EAST",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "3room": 100,
+      "5room": 6
+    }
+  },
+  "340-jurong-east-ave-1": {
+    "blk_no": "340",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600340",
+    "town": "JURONG EAST",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "341-jurong-east-ave-1": {
+    "blk_no": "341",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600341",
+    "town": "JURONG EAST",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "343-jurong-east-st-31": {
+    "blk_no": "343",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600343",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 7
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "345-jurong-east-st-31": {
+    "blk_no": "345",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "NIL",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 13,
+    "sold_units_by_type": {
+      "3room": 13
+    }
+  },
+  "346-jurong-east-st-31": {
+    "blk_no": "346",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600346",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "348-jurong-east-ave-1": {
+    "blk_no": "348",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600348",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "349-jurong-east-ave-1": {
+    "blk_no": "349",
+    "street": "JURONG EAST AVE 1",
+    "street_full": "JURONG EAST AVENUE 1",
+    "postal": "600349",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 14,
+    "sold_units_by_type": {
+      "3room": 14
+    }
+  },
+  "35-teban-gdns-rd": {
+    "blk_no": "35",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600035",
+    "town": "JURONG EAST",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 104,
+      "5room": 4
+    }
+  },
+  "351-jurong-east-st-31": {
+    "blk_no": "351",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600351",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "352-jurong-east-st-31": {
+    "blk_no": "352",
+    "street": "JURONG EAST ST 31",
+    "street_full": "JURONG EAST STREET 31",
+    "postal": "600352",
+    "town": "JURONG EAST",
+    "year_completed": 1984,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "36-teban-gdns-rd": {
+    "blk_no": "36",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600036",
+    "town": "JURONG EAST",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 96,
+      "5room": 8
+    }
+  },
+  "37-teban-gdns-rd": {
+    "blk_no": "37",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600037",
+    "town": "JURONG EAST",
+    "year_completed": 1976,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 40
+    }
+  },
+  "371-jurong-east-st-32": {
+    "blk_no": "371",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600371",
+    "town": "JURONG EAST",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "2room": 90,
+      "3room": 105
+    }
+  },
+  "372-jurong-east-st-32": {
+    "blk_no": "372",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600372",
+    "town": "JURONG EAST",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 90
+    }
+  },
+  "373-jurong-east-st-32": {
+    "blk_no": "373",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600373",
+    "town": "JURONG EAST",
+    "year_completed": 2012,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 176,
+      "2room": 55
+    }
+  },
+  "374-jurong-east-st-32": {
+    "blk_no": "374",
+    "street": "JURONG EAST ST 32",
+    "street_full": "JURONG EAST STREET 32",
+    "postal": "600374",
+    "town": "JURONG EAST",
+    "year_completed": 2012,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 176,
+      "2room": 55
+    }
+  },
+  "38-teban-gdns-rd": {
+    "blk_no": "38",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600038",
+    "town": "JURONG EAST",
+    "year_completed": 1976,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 40
+    }
+  },
+  "39-teban-gdns-rd": {
+    "blk_no": "39",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600039",
+    "town": "JURONG EAST",
+    "year_completed": 1976,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 40
+    }
+  },
+  "40-teban-gdns-rd": {
+    "blk_no": "40",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600040",
+    "town": "JURONG EAST",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "3room": 94,
+      "5room": 9
+    }
+  },
+  "401-pandan-gdns": {
+    "blk_no": "401",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600401",
+    "town": "JURONG EAST",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "402-pandan-gdns": {
+    "blk_no": "402",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600402",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "403-pandan-gdns": {
+    "blk_no": "403",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600403",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "5room": 112
+    }
+  },
+  "404-pandan-gdns": {
+    "blk_no": "404",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600404",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "5room": 112
+    }
+  },
+  "405-pandan-gdns": {
+    "blk_no": "405",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600405",
+    "town": "JURONG EAST",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "406-pandan-gdns": {
+    "blk_no": "406",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600406",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "5room": 112
+    }
+  },
+  "407-pandan-gdns": {
+    "blk_no": "407",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600407",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "5room": 112
+    }
+  },
+  "408-pandan-gdns": {
+    "blk_no": "408",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600408",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "409-pandan-gdns": {
+    "blk_no": "409",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600409",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "41-teban-gdns-rd": {
+    "blk_no": "41",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600041",
+    "town": "JURONG EAST",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "410-pandan-gdns": {
+    "blk_no": "410",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600410",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "3room": 162,
+      "5room": 3
+    }
+  },
+  "411-pandan-gdns": {
+    "blk_no": "411",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600411",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "3room": 162,
+      "5room": 3
+    }
+  },
+  "412-pandan-gdns": {
+    "blk_no": "412",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600412",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "3room": 158,
+      "5room": 5
+    }
+  },
+  "413-pandan-gdns": {
+    "blk_no": "413",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600413",
+    "town": "JURONG EAST",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "414-pandan-gdns": {
+    "blk_no": "414",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600414",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "415-pandan-gdns": {
+    "blk_no": "415",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600415",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "3room": 28
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "416-pandan-gdns": {
+    "blk_no": "416",
+    "street": "PANDAN GDNS",
+    "street_full": "PANDAN GARDENS",
+    "postal": "600416",
+    "town": "JURONG EAST",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "3room": 30
+    }
+  },
+  "43-teban-gdns-rd": {
+    "blk_no": "43",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600043",
+    "town": "JURONG EAST",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "44-teban-gdns-rd": {
+    "blk_no": "44",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600044",
+    "town": "JURONG EAST",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "45-teban-gdns-rd": {
+    "blk_no": "45",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600045",
+    "town": "JURONG EAST",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "exec": 22
+    }
+  },
+  "46-teban-gdns-rd": {
+    "blk_no": "46",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600046",
+    "town": "JURONG EAST",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "47-teban-gdns-rd": {
+    "blk_no": "47",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600047",
+    "town": "JURONG EAST",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "48-teban-gdns-rd": {
+    "blk_no": "48",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600048",
+    "town": "JURONG EAST",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "49-teban-gdns-rd": {
+    "blk_no": "49",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600049",
+    "town": "JURONG EAST",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 5
+    }
+  },
+  "50-teban-gdns-rd": {
+    "blk_no": "50",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600050",
+    "town": "JURONG EAST",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "51-teban-gdns-rd": {
+    "blk_no": "51",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600051",
+    "town": "JURONG EAST",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "52-teban-gdns-rd": {
+    "blk_no": "52",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600052",
+    "town": "JURONG EAST",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 42
+    }
+  },
+  "53-teban-gdns-rd": {
+    "blk_no": "53",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600053",
+    "town": "JURONG EAST",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 42
+    }
+  },
+  "54-teban-gdns-rd": {
+    "blk_no": "54",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600054",
+    "town": "JURONG EAST",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 18,
+      "4room": 13
+    }
+  },
+  "55-teban-gdns-rd": {
+    "blk_no": "55",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "NIL",
+    "town": "JURONG EAST",
+    "year_completed": 2015,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 185,
+    "sold_units_by_type": {
+      "3room": 74,
+      "4room": 111
+    }
+  },
+  "56-teban-gdns-rd": {
+    "blk_no": "56",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600056",
+    "town": "JURONG EAST",
+    "year_completed": 2015,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "4room": 148
+    }
+  },
+  "57-teban-gdns-rd": {
+    "blk_no": "57",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600057",
+    "town": "JURONG EAST",
+    "year_completed": 2015,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 185,
+    "sold_units_by_type": {
+      "3room": 111,
+      "4room": 74
+    }
+  },
+  "60-teban-gdns-rd": {
+    "blk_no": "60",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600060",
+    "town": "JURONG EAST",
+    "year_completed": 2002,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 83
+    }
+  },
+  "62-teban-gdns-rd": {
+    "blk_no": "62",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600062",
+    "town": "JURONG EAST",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 24
+    }
+  },
+  "63-teban-gdns-rd": {
+    "blk_no": "63",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600063",
+    "town": "JURONG EAST",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 96
+    }
+  },
+  "64-teban-gdns-rd": {
+    "blk_no": "64",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600064",
+    "town": "JURONG EAST",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 98,
+      "5room": 24
+    }
+  },
+  "65-teban-gdns-rd": {
+    "blk_no": "65",
+    "street": "TEBAN GDNS RD",
+    "street_full": "TEBAN GARDENS ROAD",
+    "postal": "600065",
+    "town": "JURONG EAST",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 24
+    }
+  }
+}

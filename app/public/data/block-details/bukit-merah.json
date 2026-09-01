@@ -1,0 +1,6044 @@
+{
+  "1-delta-ave": {
+    "blk_no": "1",
+    "street": "DELTA AVE",
+    "street_full": "DELTA AVENUE",
+    "postal": "160001",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "1-everton-pk": {
+    "blk_no": "1",
+    "street": "EVERTON PK",
+    "street_full": "EVERTON PARK",
+    "postal": "081001",
+    "town": "BUKIT MERAH",
+    "year_completed": 1965,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "3room": 62,
+      "5room": 33
+    }
+  },
+  "1-jln-bt-merah": {
+    "blk_no": "1",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "150001",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 244,
+    "sold_units_by_type": {
+      "3room": 243
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "1-telok-blangah-cres": {
+    "blk_no": "1",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090001",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "3room": 146,
+      "5room": 2
+    }
+  },
+  "10-jln-bt-ho-swee": {
+    "blk_no": "10",
+    "street": "JLN BT HO SWEE",
+    "street_full": "JALAN BUKIT HO SWEE",
+    "postal": "161010",
+    "town": "BUKIT MERAH",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 50
+    },
+    "rental_units_by_type": {
+      "2room": 70
+    }
+  },
+  "10-jln-rumah-tinggi": {
+    "blk_no": "10",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "150010",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 20,
+      "4room": 8
+    }
+  },
+  "10-telok-blangah-cres": {
+    "blk_no": "10",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090010",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "3room": 65,
+      "5room": 1
+    }
+  },
+  "101-bt-purmei-rd": {
+    "blk_no": "101",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090101",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 89,
+      "4room": 50
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "101-henderson-cres": {
+    "blk_no": "101",
+    "street": "HENDERSON CRES",
+    "street_full": "HENDERSON CRESCENT",
+    "postal": "150101",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "101-spottiswoode-pk-rd": {
+    "blk_no": "101",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "080101",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "102-bt-purmei-rd": {
+    "blk_no": "102",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090102",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 147,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 54
+    }
+  },
+  "102-henderson-cres": {
+    "blk_no": "102",
+    "street": "HENDERSON CRES",
+    "street_full": "HENDERSON CRESCENT",
+    "postal": "150102",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "102-spottiswoode-pk-rd": {
+    "blk_no": "102",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "080102",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "102a-depot-rd": {
+    "blk_no": "102A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101102",
+    "town": "BUKIT MERAH",
+    "year_completed": 2016,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "2room": 45,
+      "studio_apartment": 69
+    }
+  },
+  "103-bt-purmei-rd": {
+    "blk_no": "103",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090103",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 50,
+      "5room": 1
+    }
+  },
+  "103-henderson-cres": {
+    "blk_no": "103",
+    "street": "HENDERSON CRES",
+    "street_full": "HENDERSON CRESCENT",
+    "postal": "150103",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "103-spottiswoode-pk-rd": {
+    "blk_no": "103",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "080103",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "5room": 92,
+      "exec": 2
+    }
+  },
+  "103a-depot-rd": {
+    "blk_no": "103A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101103",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "103b-depot-rd": {
+    "blk_no": "103B",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "102103",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 38
+    }
+  },
+  "104-bt-purmei-rd": {
+    "blk_no": "104",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090104",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 44
+    }
+  },
+  "104-henderson-cres": {
+    "blk_no": "104",
+    "street": "HENDERSON CRES",
+    "street_full": "HENDERSON CRESCENT",
+    "postal": "150104",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "104-jln-bt-merah": {
+    "blk_no": "104",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160104",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 216
+    }
+  },
+  "104-spottiswoode-pk-rd": {
+    "blk_no": "104",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "080104",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "5room": 92,
+      "exec": 2
+    }
+  },
+  "104a-depot-rd": {
+    "blk_no": "104A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101104",
+    "town": "BUKIT MERAH",
+    "year_completed": 1998,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "104b-depot-rd": {
+    "blk_no": "104B",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "102104",
+    "town": "BUKIT MERAH",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 38
+    }
+  },
+  "105-bt-purmei-rd": {
+    "blk_no": "105",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090105",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 96,
+      "4room": 48
+    }
+  },
+  "105-henderson-cres": {
+    "blk_no": "105",
+    "street": "HENDERSON CRES",
+    "street_full": "HENDERSON CRESCENT",
+    "postal": "150105",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {
+      "3room": 264,
+      "5room": 6
+    }
+  },
+  "105-jln-bt-merah": {
+    "blk_no": "105",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160105",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 324,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 306,
+      "2room": 18
+    }
+  },
+  "105-spottiswoode-pk-rd": {
+    "blk_no": "105",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "080105",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "5room": 92,
+      "exec": 2
+    }
+  },
+  "105a-depot-rd": {
+    "blk_no": "105A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101105",
+    "town": "BUKIT MERAH",
+    "year_completed": 2016,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 80
+    }
+  },
+  "106-bt-purmei-rd": {
+    "blk_no": "106",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090106",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "3room": 51,
+      "4room": 72
+    }
+  },
+  "106-henderson-cres": {
+    "blk_no": "106",
+    "street": "HENDERSON CRES",
+    "street_full": "HENDERSON CRESCENT",
+    "postal": "150106",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "106-jln-bt-merah": {
+    "blk_no": "106",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160106",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 330,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 312,
+      "2room": 18
+    }
+  },
+  "106-spottiswoode-pk-rd": {
+    "blk_no": "106",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "080106",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "5room": 92,
+      "exec": 2
+    }
+  },
+  "106a-depot-rd": {
+    "blk_no": "106A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101106",
+    "town": "BUKIT MERAH",
+    "year_completed": 1998,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "106b-depot-rd": {
+    "blk_no": "106B",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "102106",
+    "town": "BUKIT MERAH",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 38
+    }
+  },
+  "107-bt-purmei-rd": {
+    "blk_no": "107",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090107",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 84,
+      "4room": 60
+    }
+  },
+  "107-jln-bt-merah": {
+    "blk_no": "107",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160107",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 222,
+    "sold_units_by_type": {
+      "3room": 218,
+      "4room": 4
+    }
+  },
+  "107-spottiswoode-pk-rd": {
+    "blk_no": "107",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "080107",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "5room": 92,
+      "exec": 2
+    }
+  },
+  "108-bt-purmei-rd": {
+    "blk_no": "108",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090108",
+    "town": "BUKIT MERAH",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 55,
+      "4room": 121
+    }
+  },
+  "108-jln-bt-merah": {
+    "blk_no": "108",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160108",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "3room": 94,
+      "4room": 74,
+      "exec": 1
+    }
+  },
+  "109-bt-purmei-rd": {
+    "blk_no": "109",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090109",
+    "town": "BUKIT MERAH",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 99,
+      "4room": 61,
+      "exec": 2
+    }
+  },
+  "109-jln-bt-merah": {
+    "blk_no": "109",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160109",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 118
+    }
+  },
+  "109-spottiswoode-pk-rd": {
+    "blk_no": "109",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "080109",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 88,
+      "exec": 4
+    }
+  },
+  "109a-depot-rd": {
+    "blk_no": "109A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101109",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "109b-depot-rd": {
+    "blk_no": "109B",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "102109",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "10a-boon-tiong-rd": {
+    "blk_no": "10A",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "160010",
+    "town": "BUKIT MERAH",
+    "year_completed": 2014,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 152
+    }
+  },
+  "10b-boon-tiong-rd": {
+    "blk_no": "10B",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "164010",
+    "town": "BUKIT MERAH",
+    "year_completed": 2014,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "2room": 16,
+      "3room": 28,
+      "4room": 84,
+      "studio_apartment": 32
+    }
+  },
+  "11-cantonment-cl": {
+    "blk_no": "11",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "080011",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 87,
+      "5room": 29
+    }
+  },
+  "11-jln-bt-merah": {
+    "blk_no": "11",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "150011",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 21,
+    "sold_units_by_type": {
+      "3room": 21
+    }
+  },
+  "110-bt-purmei-rd": {
+    "blk_no": "110",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090110",
+    "town": "BUKIT MERAH",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "3room": 53,
+      "4room": 121,
+      "exec": 1
+    }
+  },
+  "110-jln-bt-merah": {
+    "blk_no": "110",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160110",
+    "town": "BUKIT MERAH",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 147,
+      "3room": 20
+    }
+  },
+  "110-spottiswoode-pk-rd": {
+    "blk_no": "110",
+    "street": "SPOTTISWOODE PK RD",
+    "street_full": "SPOTTISWOODE PARK ROAD",
+    "postal": "081110",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 88,
+      "exec": 4
+    }
+  },
+  "110a-depot-rd": {
+    "blk_no": "110A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101110",
+    "town": "BUKIT MERAH",
+    "year_completed": 2016,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 96
+    }
+  },
+  "111-bt-purmei-rd": {
+    "blk_no": "111",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090111",
+    "town": "BUKIT MERAH",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 159,
+    "sold_units_by_type": {
+      "4room": 114,
+      "5room": 45
+    }
+  },
+  "111-jln-bt-merah": {
+    "blk_no": "111",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1969,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 2,
+    "sold_units_by_type": {
+      "3room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "111a-depot-rd": {
+    "blk_no": "111A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101111",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "111b-depot-rd": {
+    "blk_no": "111B",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "102111",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "112-bt-purmei-rd": {
+    "blk_no": "112",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090112",
+    "town": "BUKIT MERAH",
+    "year_completed": 1984,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 99,
+      "4room": 73
+    }
+  },
+  "112a-depot-rd": {
+    "blk_no": "112A",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "101112",
+    "town": "BUKIT MERAH",
+    "year_completed": 2003,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 41
+    }
+  },
+  "112b-depot-rd": {
+    "blk_no": "112B",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "102112",
+    "town": "BUKIT MERAH",
+    "year_completed": 2003,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 41
+    }
+  },
+  "113-bt-purmei-rd": {
+    "blk_no": "113",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1984,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 160
+    }
+  },
+  "113-depot-rd": {
+    "blk_no": "113",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "100113",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "113-jln-bt-merah": {
+    "blk_no": "113",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160113",
+    "town": "BUKIT MERAH",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 1,
+      "3room": 119
+    }
+  },
+  "114-bt-purmei-rd": {
+    "blk_no": "114",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090114",
+    "town": "BUKIT MERAH",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 177,
+    "sold_units_by_type": {
+      "4room": 132,
+      "5room": 45
+    }
+  },
+  "114-depot-rd": {
+    "blk_no": "114",
+    "street": "DEPOT RD",
+    "street_full": "DEPOT ROAD",
+    "postal": "100114",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "115-bt-merah-ctrl": {
+    "blk_no": "115",
+    "street": "BT MERAH CTRL",
+    "street_full": "BUKIT MERAH CENTRAL",
+    "postal": "150115",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "115-bt-purmei-rd": {
+    "blk_no": "115",
+    "street": "BT PURMEI RD",
+    "street_full": "BUKIT PURMEI ROAD",
+    "postal": "090115",
+    "town": "BUKIT MERAH",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 181,
+    "sold_units_by_type": {
+      "4room": 136,
+      "5room": 45
+    }
+  },
+  "115-jln-bt-merah": {
+    "blk_no": "115",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160115",
+    "town": "BUKIT MERAH",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 136,
+      "3room": 18
+    }
+  },
+  "116-bt-merah-ctrl": {
+    "blk_no": "116",
+    "street": "BT MERAH CTRL",
+    "street_full": "BUKIT MERAH CENTRAL",
+    "postal": "150116",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "116-bt-merah-view": {
+    "blk_no": "116",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "151116",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "3room": 72,
+      "5room": 1
+    }
+  },
+  "116-jln-bt-merah": {
+    "blk_no": "116",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160116",
+    "town": "BUKIT MERAH",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 136,
+      "3room": 18
+    }
+  },
+  "117-bt-merah-ctrl": {
+    "blk_no": "117",
+    "street": "BT MERAH CTRL",
+    "street_full": "BUKIT MERAH CENTRAL",
+    "postal": "150117",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "117-bt-merah-view": {
+    "blk_no": "117",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "151117",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 280,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 280
+    }
+  },
+  "117-jln-bt-merah": {
+    "blk_no": "117",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160117",
+    "town": "BUKIT MERAH",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 136,
+      "3room": 18
+    }
+  },
+  "118-bt-merah-view": {
+    "blk_no": "118",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "150118",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "2room": 49,
+      "studio_apartment": 81
+    }
+  },
+  "118a-jln-membina": {
+    "blk_no": "118A",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "161118",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "4room": 172
+    }
+  },
+  "118b-jln-membina": {
+    "blk_no": "118B",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "162118",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 85
+    }
+  },
+  "118c-jln-membina": {
+    "blk_no": "118C",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "163118",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 85
+    }
+  },
+  "118d-jln-membina": {
+    "blk_no": "118D",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "164118",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "4room": 172
+    }
+  },
+  "119-bt-merah-lane-1": {
+    "blk_no": "119",
+    "street": "BT MERAH LANE 1",
+    "street_full": "BUKIT MERAH LANE 1",
+    "postal": "151119",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "119-bt-merah-view": {
+    "blk_no": "119",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 296,
+    "sold_units_by_type": {
+      "3room": 292,
+      "5room": 4
+    }
+  },
+  "119b-kim-tian-rd": {
+    "blk_no": "119B",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "162119",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "4room": 128,
+      "5room": 72
+    }
+  },
+  "119c-kim-tian-rd": {
+    "blk_no": "119C",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "163119",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "4room": 128,
+      "5room": 72
+    }
+  },
+  "119d-kim-tian-rd": {
+    "blk_no": "119D",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "164119",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "4room": 128,
+      "5room": 72
+    }
+  },
+  "12-cantonment-cl": {
+    "blk_no": "12",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "080012",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 87,
+      "5room": 29
+    }
+  },
+  "12-jln-bt-merah": {
+    "blk_no": "12",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "150012",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 48
+    }
+  },
+  "12-taman-ho-swee": {
+    "blk_no": "12",
+    "street": "TAMAN HO SWEE",
+    "street_full": "TAMAN HO SWEE",
+    "postal": "162012",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 67,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "12-telok-blangah-cres": {
+    "blk_no": "12",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090012",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 163,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "120-bt-merah-view": {
+    "blk_no": "120",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "152120",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "120-kim-tian-pl": {
+    "blk_no": "120",
+    "street": "KIM TIAN PL",
+    "street_full": "KIM TIAN PLACE",
+    "postal": "160120",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 50
+    }
+  },
+  "120a-kim-tian-pl": {
+    "blk_no": "120A",
+    "street": "KIM TIAN PL",
+    "street_full": "KIM TIAN PLACE",
+    "postal": "161120",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 51
+    }
+  },
+  "121-bt-merah-lane-1": {
+    "blk_no": "121",
+    "street": "BT MERAH LANE 1",
+    "street_full": "BUKIT MERAH LANE 1",
+    "postal": "150121",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 16
+    }
+  },
+  "121-bt-merah-view": {
+    "blk_no": "121",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "151121",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 224,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 224
+    }
+  },
+  "121-kim-tian-pl": {
+    "blk_no": "121",
+    "street": "KIM TIAN PL",
+    "street_full": "KIM TIAN PLACE",
+    "postal": "160121",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 50
+    }
+  },
+  "121a-kim-tian-pl": {
+    "blk_no": "121A",
+    "street": "KIM TIAN PL",
+    "street_full": "KIM TIAN PLACE",
+    "postal": "161121",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 50
+    }
+  },
+  "122-bt-merah-lane-1": {
+    "blk_no": "122",
+    "street": "BT MERAH LANE 1",
+    "street_full": "BUKIT MERAH LANE 1",
+    "postal": "150122",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 20
+    }
+  },
+  "122-kim-tian-rd": {
+    "blk_no": "122",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "160122",
+    "town": "BUKIT MERAH",
+    "year_completed": 1994,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "123-bt-merah-view": {
+    "blk_no": "123",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "151123",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 320,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 320
+    }
+  },
+  "123-kim-tian-rd": {
+    "blk_no": "123",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "160123",
+    "town": "BUKIT MERAH",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 30
+    }
+  },
+  "124-bt-merah-lane-1": {
+    "blk_no": "124",
+    "street": "BT MERAH LANE 1",
+    "street_full": "BUKIT MERAH LANE 1",
+    "postal": "150124",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 17,
+    "sold_units_by_type": {
+      "3room": 15,
+      "4room": 2
+    }
+  },
+  "124-kim-tian-pl": {
+    "blk_no": "124",
+    "street": "KIM TIAN PL",
+    "street_full": "KIM TIAN PLACE",
+    "postal": "160124",
+    "town": "BUKIT MERAH",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 288,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 288
+    }
+  },
+  "124a-bt-merah-view": {
+    "blk_no": "124A",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "151124",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 38
+    }
+  },
+  "124b-bt-merah-view": {
+    "blk_no": "124B",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "152124",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 34
+    }
+  },
+  "125-bt-merah-lane-1": {
+    "blk_no": "125",
+    "street": "BT MERAH LANE 1",
+    "street_full": "BUKIT MERAH LANE 1",
+    "postal": "150125",
+    "town": "BUKIT MERAH",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "125-bt-merah-view": {
+    "blk_no": "125",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "151125",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 34
+    }
+  },
+  "125-kim-tian-rd": {
+    "blk_no": "125",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "160125",
+    "town": "BUKIT MERAH",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 30
+    }
+  },
+  "126-bt-merah-view": {
+    "blk_no": "126",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "151126",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "5room": 116
+    }
+  },
+  "126a-kim-tian-rd": {
+    "blk_no": "126A",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "161126",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 214,
+    "sold_units_by_type": {
+      "4room": 136,
+      "5room": 78
+    }
+  },
+  "126c-kim-tian-rd": {
+    "blk_no": "126C",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "163126",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 214,
+    "sold_units_by_type": {
+      "3room": 78,
+      "4room": 136
+    }
+  },
+  "127-bt-merah-lane-1": {
+    "blk_no": "127",
+    "street": "BT MERAH LANE 1",
+    "street_full": "BUKIT MERAH LANE 1",
+    "postal": "150127",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "127a-kim-tian-rd": {
+    "blk_no": "127A",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "161127",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "2room": 69,
+      "3room": 72,
+      "4room": 78
+    }
+  },
+  "127c-kim-tian-rd": {
+    "blk_no": "127C",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "163127",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 221,
+    "sold_units_by_type": {
+      "2room": 72,
+      "3room": 76,
+      "4room": 72,
+      "exec": 1
+    }
+  },
+  "127d-kim-tian-rd": {
+    "blk_no": "127D",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "164127",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {
+      "4room": 192,
+      "5room": 39
+    }
+  },
+  "128-bt-merah-view": {
+    "blk_no": "128",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "150128",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 300,
+    "sold_units_by_type": {
+      "3room": 295,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "128-kim-tian-rd": {
+    "blk_no": "128",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "160128",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "129-bt-merah-view": {
+    "blk_no": "129",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "150129",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 297,
+    "sold_units_by_type": {
+      "3room": 290,
+      "5room": 7
+    }
+  },
+  "129-kim-tian-rd": {
+    "blk_no": "129",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "160129",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 113
+    }
+  },
+  "13-cantonment-cl": {
+    "blk_no": "13",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "080013",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 87,
+      "5room": 29
+    }
+  },
+  "13-jln-bt-merah": {
+    "blk_no": "13",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "150013",
+    "town": "BUKIT MERAH",
+    "year_completed": 1994,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 42
+    }
+  },
+  "13-telok-blangah-cres": {
+    "blk_no": "13",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090013",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "3room": 168,
+      "5room": 7
+    }
+  },
+  "130-bt-merah-view": {
+    "blk_no": "130",
+    "street": "BT MERAH VIEW",
+    "street_full": "BUKIT MERAH VIEW",
+    "postal": "150130",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 293,
+    "sold_units_by_type": {
+      "3room": 282,
+      "5room": 11
+    }
+  },
+  "130-kim-tian-rd": {
+    "blk_no": "130",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "160130",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 106,
+      "5room": 2
+    }
+  },
+  "131-jln-bt-merah": {
+    "blk_no": "131",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 137,
+      "5room": 5
+    }
+  },
+  "131b-kim-tian-rd": {
+    "blk_no": "131B",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "162131",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 83
+    }
+  },
+  "131c-kim-tian-rd": {
+    "blk_no": "131C",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "163131",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 40
+    }
+  },
+  "132-jln-bt-merah": {
+    "blk_no": "132",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160132",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 127,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "133-jln-bt-merah": {
+    "blk_no": "133",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160133",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 112
+    }
+  },
+  "134-jln-bt-merah": {
+    "blk_no": "134",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160134",
+    "town": "BUKIT MERAH",
+    "year_completed": 1994,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 32
+    }
+  },
+  "135-jln-bt-merah": {
+    "blk_no": "135",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160135",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 65
+    }
+  },
+  "136-jln-bt-merah": {
+    "blk_no": "136",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160136",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 86,
+      "5room": 2
+    }
+  },
+  "137-jln-bt-merah": {
+    "blk_no": "137",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160137",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "3room": 86,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "138-jln-bt-merah": {
+    "blk_no": "138",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160138",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 85,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "139-jln-bt-merah": {
+    "blk_no": "139",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160139",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 28
+    }
+  },
+  "14-jln-bt-merah": {
+    "blk_no": "14",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "150014",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 38
+    }
+  },
+  "14-taman-ho-swee": {
+    "blk_no": "14",
+    "street": "TAMAN HO SWEE",
+    "street_full": "TAMAN HO SWEE",
+    "postal": "161014",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 72
+    }
+  },
+  "14-telok-blangah-cres": {
+    "blk_no": "14",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090014",
+    "town": "BUKIT MERAH",
+    "year_completed": 1998,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 49
+    }
+  },
+  "140-jln-bt-merah": {
+    "blk_no": "140",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160140",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "141-jln-bt-merah": {
+    "blk_no": "141",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160141",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 212,
+    "sold_units_by_type": {
+      "3room": 188,
+      "4room": 19,
+      "5room": 2,
+      "exec": 3
+    }
+  },
+  "142-jln-bt-merah": {
+    "blk_no": "142",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160142",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 120,
+      "4room": 24
+    }
+  },
+  "143-jln-bt-merah": {
+    "blk_no": "143",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160143",
+    "town": "BUKIT MERAH",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "144-jln-bt-merah": {
+    "blk_no": "144",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160144",
+    "town": "BUKIT MERAH",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 20
+    }
+  },
+  "145-jln-bt-merah": {
+    "blk_no": "145",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160145",
+    "town": "BUKIT MERAH",
+    "year_completed": 1981,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "3room": 62,
+      "4room": 16,
+      "exec": 1
+    }
+  },
+  "146-jln-bt-merah": {
+    "blk_no": "146",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "160146",
+    "town": "BUKIT MERAH",
+    "year_completed": 1981,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 177,
+    "sold_units_by_type": {
+      "3room": 129,
+      "4room": 45,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "147-silat-ave": {
+    "blk_no": "147",
+    "street": "SILAT AVE",
+    "street_full": "SILAT AVENUE",
+    "postal": "160147",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 4
+    }
+  },
+  "148-silat-ave": {
+    "blk_no": "148",
+    "street": "SILAT AVE",
+    "street_full": "SILAT AVENUE",
+    "postal": "160148",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 89,
+      "4room": 24,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "149-silat-ave": {
+    "blk_no": "149",
+    "street": "SILAT AVE",
+    "street_full": "SILAT AVENUE",
+    "postal": "160149",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 92,
+      "4room": 33,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "14a-telok-blangah-cres": {
+    "blk_no": "14A",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "091014",
+    "town": "BUKIT MERAH",
+    "year_completed": 1998,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 24
+    }
+  },
+  "15-telok-blangah-cres": {
+    "blk_no": "15",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090015",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 168,
+      "5room": 6
+    }
+  },
+  "150-silat-ave": {
+    "blk_no": "150",
+    "street": "SILAT AVE",
+    "street_full": "SILAT AVENUE",
+    "postal": "160150",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 4
+    }
+  },
+  "16-cantonment-cl": {
+    "blk_no": "16",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "080016",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 87,
+      "5room": 29
+    }
+  },
+  "16-taman-ho-swee": {
+    "blk_no": "16",
+    "street": "TAMAN HO SWEE",
+    "street_full": "TAMAN HO SWEE",
+    "postal": "163016",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 66,
+      "4room": 3
+    }
+  },
+  "16-telok-blangah-cres": {
+    "blk_no": "16",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090016",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 178,
+    "sold_units_by_type": {
+      "3room": 174,
+      "5room": 4
+    }
+  },
+  "161-bt-merah-ctrl": {
+    "blk_no": "161",
+    "street": "BT MERAH CTRL",
+    "street_full": "BUKIT MERAH CENTRAL",
+    "postal": "150161",
+    "town": "BUKIT MERAH",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 57,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 3,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "164-bt-merah-ctrl": {
+    "blk_no": "164",
+    "street": "BT MERAH CTRL",
+    "street_full": "BUKIT MERAH CENTRAL",
+    "postal": "150164",
+    "town": "BUKIT MERAH",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "165-bt-merah-ctrl": {
+    "blk_no": "165",
+    "street": "BT MERAH CTRL",
+    "street_full": "BUKIT MERAH CENTRAL",
+    "postal": "150165",
+    "town": "BUKIT MERAH",
+    "year_completed": 1980,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "3room": 3,
+      "4room": 1
+    }
+  },
+  "17-cantonment-cl": {
+    "blk_no": "17",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "080017",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 58
+    }
+  },
+  "17-seng-poh-rd": {
+    "blk_no": "17",
+    "street": "SENG POH RD",
+    "street_full": "SENG POH ROAD",
+    "postal": "161017",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 4
+    }
+  },
+  "17-telok-blangah-cres": {
+    "blk_no": "17",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090017",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 58
+    }
+  },
+  "17-tiong-bahru-rd": {
+    "blk_no": "17",
+    "street": "TIONG BAHRU RD",
+    "street_full": "TIONG BAHRU ROAD",
+    "postal": "163017",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 20,
+      "4room": 12
+    }
+  },
+  "17a-telok-blangah-cres": {
+    "blk_no": "17A",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "091017",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "18-cantonment-cl": {
+    "blk_no": "18",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "080018",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 87,
+      "5room": 29
+    }
+  },
+  "18-taman-ho-swee": {
+    "blk_no": "18",
+    "street": "TAMAN HO SWEE",
+    "street_full": "TAMAN HO SWEE",
+    "postal": "162018",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 67,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "18-telok-blangah-cres": {
+    "blk_no": "18",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090018",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 166,
+      "5room": 8
+    }
+  },
+  "18-tiong-bahru-rd": {
+    "blk_no": "18",
+    "street": "TIONG BAHRU RD",
+    "street_full": "TIONG BAHRU ROAD",
+    "postal": "163018",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "19-cantonment-cl": {
+    "blk_no": "19",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "080019",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 58
+    }
+  },
+  "19-jln-membina": {
+    "blk_no": "19",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "163019",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 87
+    }
+  },
+  "19-lim-liak-st": {
+    "blk_no": "19",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "161019",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "19-telok-blangah-cres": {
+    "blk_no": "19",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090019",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 364,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 364
+    }
+  },
+  "2-delta-ave": {
+    "blk_no": "2",
+    "street": "DELTA AVE",
+    "street_full": "DELTA AVENUE",
+    "postal": "161002",
+    "town": "BUKIT MERAH",
+    "year_completed": 1985,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "2-everton-pk": {
+    "blk_no": "2",
+    "street": "EVERTON PK",
+    "street_full": "EVERTON PARK",
+    "postal": "081002",
+    "town": "BUKIT MERAH",
+    "year_completed": 1965,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "3room": 60,
+      "5room": 34
+    }
+  },
+  "2-jln-bt-ho-swee": {
+    "blk_no": "2",
+    "street": "JLN BT HO SWEE",
+    "street_full": "JALAN BUKIT HO SWEE",
+    "postal": "162002",
+    "town": "BUKIT MERAH",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 75
+    },
+    "rental_units_by_type": {
+      "2room": 45
+    }
+  },
+  "2-jln-bt-merah": {
+    "blk_no": "2",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "150002",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "3room": 238,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "20-jln-klinik": {
+    "blk_no": "20",
+    "street": "JLN KLINIK",
+    "street_full": "JALAN KLINIK",
+    "postal": "160020",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "2room": 29,
+      "3room": 83,
+      "4room": 4
+    }
+  },
+  "20-jln-membina": {
+    "blk_no": "20",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "164020",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 87
+    }
+  },
+  "20-telok-blangah-cres": {
+    "blk_no": "20",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090020",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "3room": 170,
+      "5room": 5
+    }
+  },
+  "20-tiong-bahru-rd": {
+    "blk_no": "20",
+    "street": "TIONG BAHRU RD",
+    "street_full": "TIONG BAHRU ROAD",
+    "postal": "163020",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "21-jln-membina": {
+    "blk_no": "21",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "163021",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "4room": 196
+    }
+  },
+  "21-lim-liak-st": {
+    "blk_no": "21",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "161021",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "21-telok-blangah-cres": {
+    "blk_no": "21",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090021",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 148,
+      "5room": 4
+    }
+  },
+  "22-havelock-rd": {
+    "blk_no": "22",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "160022",
+    "town": "BUKIT MERAH",
+    "year_completed": 1964,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 280,
+    "sold_units_by_type": {
+      "3room": 278
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "22-jln-membina": {
+    "blk_no": "22",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "166022",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 87
+    }
+  },
+  "22-telok-blangah-cres": {
+    "blk_no": "22",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090022",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 142,
+      "5room": 7
+    }
+  },
+  "22-tiong-bahru-rd": {
+    "blk_no": "22",
+    "street": "TIONG BAHRU RD",
+    "street_full": "TIONG BAHRU ROAD",
+    "postal": "165022",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "23-jln-membina": {
+    "blk_no": "23",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "163023",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 87
+    }
+  },
+  "23-lim-liak-st": {
+    "blk_no": "23",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "161023",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "23-telok-blangah-cres": {
+    "blk_no": "23",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090023",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "24-beo-cres": {
+    "blk_no": "24",
+    "street": "BEO CRES",
+    "street_full": "BEO CRESCENT",
+    "postal": "160024",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "2room": 30,
+      "3room": 88,
+      "4room": 1
+    }
+  },
+  "24-telok-blangah-cres": {
+    "blk_no": "24",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090024",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "24-tiong-bahru-rd": {
+    "blk_no": "24",
+    "street": "TIONG BAHRU RD",
+    "street_full": "TIONG BAHRU ROAD",
+    "postal": "164024",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "25-lim-liak-st": {
+    "blk_no": "25",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "161025",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "25-telok-blangah-cres": {
+    "blk_no": "25",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090025",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "25a-jln-membina": {
+    "blk_no": "25A",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "162025",
+    "town": "BUKIT MERAH",
+    "year_completed": 2007,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 46
+    }
+  },
+  "25b-jln-membina": {
+    "blk_no": "25B",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "164025",
+    "town": "BUKIT MERAH",
+    "year_completed": 2007,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 236,
+    "sold_units_by_type": {
+      "4room": 196,
+      "5room": 40
+    }
+  },
+  "26-jln-klinik": {
+    "blk_no": "26",
+    "street": "JLN KLINIK",
+    "street_full": "JALAN KLINIK",
+    "postal": "160026",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 105,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "26-telok-blangah-cres": {
+    "blk_no": "26",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090026",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "26-tiong-bahru-rd": {
+    "blk_no": "26",
+    "street": "TIONG BAHRU RD",
+    "street_full": "TIONG BAHRU ROAD",
+    "postal": "164026",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "26a-jln-membina": {
+    "blk_no": "26A",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "162026",
+    "town": "BUKIT MERAH",
+    "year_completed": 2007,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "2room": 7,
+      "3room": 110,
+      "studio_apartment": 31
+    }
+  },
+  "26b-jln-membina": {
+    "blk_no": "26B",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "165026",
+    "town": "BUKIT MERAH",
+    "year_completed": 2007,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 202,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 42,
+      "4room": 116,
+      "studio_apartment": 34
+    }
+  },
+  "26c-jln-membina": {
+    "blk_no": "26C",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "166026",
+    "town": "BUKIT MERAH",
+    "year_completed": 2007,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 184,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 104
+    }
+  },
+  "26d-jln-membina": {
+    "blk_no": "26D",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "167026",
+    "town": "BUKIT MERAH",
+    "year_completed": 2007,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 202,
+    "sold_units_by_type": {
+      "3room": 86,
+      "4room": 116
+    }
+  },
+  "27-lim-liak-st": {
+    "blk_no": "27",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "160027",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 1
+    }
+  },
+  "27-telok-blangah-way": {
+    "blk_no": "27",
+    "street": "TELOK BLANGAH WAY",
+    "street_full": "TELOK BLANGAH WAY",
+    "postal": "090027",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 156
+    }
+  },
+  "27a-jln-membina": {
+    "blk_no": "27A",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "163027",
+    "town": "BUKIT MERAH",
+    "year_completed": 2007,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "27b-jln-membina": {
+    "blk_no": "27B",
+    "street": "JLN MEMBINA",
+    "street_full": "JALAN MEMBINA",
+    "postal": "164027",
+    "town": "BUKIT MERAH",
+    "year_completed": 2007,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 46
+    }
+  },
+  "28-hoy-fatt-rd": {
+    "blk_no": "28",
+    "street": "HOY FATT RD",
+    "street_full": "HOY FATT ROAD",
+    "postal": "151028",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "2room": 28,
+      "3room": 117,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "28-jln-bt-merah": {
+    "blk_no": "28",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "152028",
+    "town": "BUKIT MERAH",
+    "year_completed": 1967,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "2room": 58,
+      "3room": 142,
+      "4room": 4
+    },
+    "rental_units_by_type": {
+      "2room": 1,
+      "3room": 1
+    }
+  },
+  "28-jln-klinik": {
+    "blk_no": "28",
+    "street": "JLN KLINIK",
+    "street_full": "JALAN KLINIK",
+    "postal": "160028",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "2room": 37,
+      "3room": 128,
+      "4room": 7
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "28-telok-blangah-rise": {
+    "blk_no": "28",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090028",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 140,
+      "5room": 2
+    }
+  },
+  "28-tiong-bahru-rd": {
+    "blk_no": "28",
+    "street": "TIONG BAHRU RD",
+    "street_full": "TIONG BAHRU ROAD",
+    "postal": "163028",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "29-lim-liak-st": {
+    "blk_no": "29",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "161029",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "29-telok-blangah-rise": {
+    "blk_no": "29",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090029",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 154
+    }
+  },
+  "2a-boon-tiong-rd": {
+    "blk_no": "2A",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "164002",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 106
+    }
+  },
+  "2c-boon-tiong-rd": {
+    "blk_no": "2C",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "166002",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "5room": 116
+    }
+  },
+  "3-delta-ave": {
+    "blk_no": "3",
+    "street": "DELTA AVE",
+    "street_full": "DELTA AVENUE",
+    "postal": "160003",
+    "town": "BUKIT MERAH",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "3-everton-pk": {
+    "blk_no": "3",
+    "street": "EVERTON PK",
+    "street_full": "EVERTON PARK",
+    "postal": "080003",
+    "town": "BUKIT MERAH",
+    "year_completed": 1965,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "3room": 62,
+      "5room": 33
+    }
+  },
+  "3-jln-bt-merah": {
+    "blk_no": "3",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "150003",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 520,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 520
+    }
+  },
+  "3-telok-blangah-cres": {
+    "blk_no": "3",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090003",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 231
+    }
+  },
+  "30-jln-klinik": {
+    "blk_no": "30",
+    "street": "JLN KLINIK",
+    "street_full": "JALAN KLINIK",
+    "postal": "160030",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "2room": 35,
+      "3room": 134,
+      "4room": 5
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "30-telok-blangah-rise": {
+    "blk_no": "30",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090030",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 108,
+      "5room": 6
+    }
+  },
+  "31-telok-blangah-rise": {
+    "blk_no": "31",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090031",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 110,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "32-jln-bt-ho-swee": {
+    "blk_no": "32",
+    "street": "JLN BT HO SWEE",
+    "street_full": "JALAN BUKIT HO SWEE",
+    "postal": "160032",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "2room": 27,
+      "3room": 58,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "32-telok-blangah-rise": {
+    "blk_no": "32",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090032",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "3room": 132,
+      "5room": 6
+    }
+  },
+  "33-lim-liak-st": {
+    "blk_no": "33",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "160033",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 23,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 1
+    }
+  },
+  "33-telok-blangah-way": {
+    "blk_no": "33",
+    "street": "TELOK BLANGAH WAY",
+    "street_full": "TELOK BLANGAH WAY",
+    "postal": "090033",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "3room": 162,
+      "5room": 7
+    }
+  },
+  "34-jln-bt-ho-swee": {
+    "blk_no": "34",
+    "street": "JLN BT HO SWEE",
+    "street_full": "JALAN BUKIT HO SWEE",
+    "postal": "160034",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "2room": 18,
+      "3room": 78,
+      "4room": 1
+    }
+  },
+  "34-kim-cheng-st": {
+    "blk_no": "34",
+    "street": "KIM CHENG ST",
+    "street_full": "KIM CHENG STREET",
+    "postal": "161034",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 24
+    }
+  },
+  "34-telok-blangah-way": {
+    "blk_no": "34",
+    "street": "TELOK BLANGAH WAY",
+    "street_full": "TELOK BLANGAH WAY",
+    "postal": "090034",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 156
+    }
+  },
+  "35-jln-rumah-tinggi": {
+    "blk_no": "35",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1997,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 105
+    }
+  },
+  "35-lim-liak-st": {
+    "blk_no": "35",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "160035",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 1
+    }
+  },
+  "35-telok-blangah-rise": {
+    "blk_no": "35",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090035",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 28
+    }
+  },
+  "36-beo-cres": {
+    "blk_no": "36",
+    "street": "BEO CRES",
+    "street_full": "BEO CRESCENT",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "2room": 17,
+      "3room": 73,
+      "4room": 4
+    }
+  },
+  "36-jln-rumah-tinggi": {
+    "blk_no": "36",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1998,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 105
+    }
+  },
+  "36-moh-guan-ter": {
+    "blk_no": "36",
+    "street": "MOH GUAN TER",
+    "street_full": "MOH GUAN TERRACE",
+    "postal": "161036",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "37-jln-rumah-tinggi": {
+    "blk_no": "37",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "150037",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 199,
+    "sold_units_by_type": {
+      "3room": 194,
+      "4room": 5
+    }
+  },
+  "37-lim-liak-st": {
+    "blk_no": "37",
+    "street": "LIM LIAK ST",
+    "street_full": "LIM LIAK STREET",
+    "postal": "160037",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 24
+    }
+  },
+  "37-telok-blangah-rise": {
+    "blk_no": "37",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090037",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "38-beo-cres": {
+    "blk_no": "38",
+    "street": "BEO CRES",
+    "street_full": "BEO CRESCENT",
+    "postal": "160038",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "2room": 17,
+      "3room": 79,
+      "4room": 1
+    }
+  },
+  "38-jln-rumah-tinggi": {
+    "blk_no": "38",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "150038",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 105
+    }
+  },
+  "38-kim-pong-rd": {
+    "blk_no": "38",
+    "street": "KIM PONG RD",
+    "street_full": "KIM PONG ROAD",
+    "postal": "161038",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 24
+    }
+  },
+  "38-telok-blangah-rise": {
+    "blk_no": "38",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090038",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 28
+    }
+  },
+  "39-jln-rumah-tinggi": {
+    "blk_no": "39",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "151039",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 105
+    }
+  },
+  "39-telok-blangah-rise": {
+    "blk_no": "39",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090039",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "4-delta-ave": {
+    "blk_no": "4",
+    "street": "DELTA AVE",
+    "street_full": "DELTA AVENUE",
+    "postal": "161004",
+    "town": "BUKIT MERAH",
+    "year_completed": 1985,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "4-everton-pk": {
+    "blk_no": "4",
+    "street": "EVERTON PK",
+    "street_full": "EVERTON PARK",
+    "postal": "080004",
+    "town": "BUKIT MERAH",
+    "year_completed": 1965,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "3room": 58,
+      "5room": 35
+    }
+  },
+  "4-jln-bt-ho-swee": {
+    "blk_no": "4",
+    "street": "JLN BT HO SWEE",
+    "street_full": "JALAN BUKIT HO SWEE",
+    "postal": "162004",
+    "town": "BUKIT MERAH",
+    "year_completed": 1962,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "4-telok-blangah-cres": {
+    "blk_no": "4",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090004",
+    "town": "BUKIT MERAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 231
+    }
+  },
+  "40-beo-cres": {
+    "blk_no": "40",
+    "street": "BEO CRES",
+    "street_full": "BEO CRESCENT",
+    "postal": "160040",
+    "town": "BUKIT MERAH",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "2room": 18,
+      "3room": 76,
+      "4room": 2
+    }
+  },
+  "40-jln-rumah-tinggi": {
+    "blk_no": "40",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "151040",
+    "town": "BUKIT MERAH",
+    "year_completed": 1996,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 105
+    }
+  },
+  "40-telok-blangah-rise": {
+    "blk_no": "40",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090040",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "41-kim-cheng-st": {
+    "blk_no": "41",
+    "street": "KIM CHENG ST",
+    "street_full": "KIM CHENG STREET",
+    "postal": "160041",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 24
+    }
+  },
+  "41-telok-blangah-rise": {
+    "blk_no": "41",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090041",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 182
+    }
+  },
+  "42-beo-cres": {
+    "blk_no": "42",
+    "street": "BEO CRES",
+    "street_full": "BEO CRESCENT",
+    "postal": "160042",
+    "town": "BUKIT MERAH",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 126
+    }
+  },
+  "42-kim-cheng-st": {
+    "blk_no": "42",
+    "street": "KIM CHENG ST",
+    "street_full": "KIM CHENG STREET",
+    "postal": "161042",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 24
+    }
+  },
+  "42-telok-blangah-rise": {
+    "blk_no": "42",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090042",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 148,
+      "5room": 4
+    }
+  },
+  "43-lengkok-bahru": {
+    "blk_no": "43",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150043",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 6
+    }
+  },
+  "43-moh-guan-ter": {
+    "blk_no": "43",
+    "street": "MOH GUAN TER",
+    "street_full": "MOH GUAN TERRACE",
+    "postal": "160043",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "2room": 6,
+      "3room": 8,
+      "4room": 1
+    }
+  },
+  "43-telok-blangah-rise": {
+    "blk_no": "43",
+    "street": "TELOK BLANGAH RISE",
+    "street_full": "TELOK BLANGAH RISE",
+    "postal": "090043",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 151,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "44-beo-cres": {
+    "blk_no": "44",
+    "street": "BEO CRES",
+    "street_full": "BEO CRESCENT",
+    "postal": "160044",
+    "town": "BUKIT MERAH",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 126
+    }
+  },
+  "44-lengkok-bahru": {
+    "blk_no": "44",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150044",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "5room": 16
+    }
+  },
+  "44-moh-guan-ter": {
+    "blk_no": "44",
+    "street": "MOH GUAN TER",
+    "street_full": "MOH GUAN TERRACE",
+    "postal": "161044",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "2room": 8,
+      "3room": 8
+    }
+  },
+  "44-telok-blangah-dr": {
+    "blk_no": "44",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100044",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 237,
+    "sold_units_by_type": {
+      "3room": 234,
+      "5room": 3
+    }
+  },
+  "45-kim-cheng-st": {
+    "blk_no": "45",
+    "street": "KIM CHENG ST",
+    "street_full": "KIM CHENG STREET",
+    "postal": "160045",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 24
+    }
+  },
+  "45-lengkok-bahru": {
+    "blk_no": "45",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150045",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "5room": 16
+    }
+  },
+  "45-telok-blangah-dr": {
+    "blk_no": "45",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100045",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 320,
+    "sold_units_by_type": {
+      "2room": 225,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "2room": 93
+    }
+  },
+  "46-jln-bt-ho-swee": {
+    "blk_no": "46",
+    "street": "JLN BT HO SWEE",
+    "street_full": "JALAN BUKIT HO SWEE",
+    "postal": "160046",
+    "town": "BUKIT MERAH",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "3room": 102,
+      "4room": 3
+    }
+  },
+  "46-lengkok-bahru": {
+    "blk_no": "46",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150046",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 22
+    }
+  },
+  "46-seng-poh-rd": {
+    "blk_no": "46",
+    "street": "SENG POH RD",
+    "street_full": "SENG POH ROAD",
+    "postal": "161046",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "46-telok-blangah-dr": {
+    "blk_no": "46",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100046",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 19
+    }
+  },
+  "47-lengkok-bahru": {
+    "blk_no": "47",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "151047",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 22
+    }
+  },
+  "47-moh-guan-ter": {
+    "blk_no": "47",
+    "street": "MOH GUAN TER",
+    "street_full": "MOH GUAN TERRACE",
+    "postal": "160047",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "2room": 8,
+      "3room": 8
+    }
+  },
+  "47-telok-blangah-dr": {
+    "blk_no": "47",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100047",
+    "town": "BUKIT MERAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "3room": 101,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "48-lengkok-bahru": {
+    "blk_no": "48",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "151048",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 81,
+      "5room": 40
+    }
+  },
+  "48-lower-delta-rd": {
+    "blk_no": "48",
+    "street": "LOWER DELTA RD",
+    "street_full": "LOWER DELTA ROAD",
+    "postal": "160048",
+    "town": "BUKIT MERAH",
+    "year_completed": 1964,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 382,
+    "sold_units_by_type": {
+      "2room": 111
+    },
+    "rental_units_by_type": {
+      "2room": 271
+    }
+  },
+  "48-moh-guan-ter": {
+    "blk_no": "48",
+    "street": "MOH GUAN TER",
+    "street_full": "MOH GUAN TERRACE",
+    "postal": "161048",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "2room": 8,
+      "3room": 7
+    }
+  },
+  "48-telok-blangah-dr": {
+    "blk_no": "48",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100048",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "49-hoy-fatt-rd": {
+    "blk_no": "49",
+    "street": "HOY FATT RD",
+    "street_full": "HOY FATT ROAD",
+    "postal": "150049",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "49-kim-pong-rd": {
+    "blk_no": "49",
+    "street": "KIM PONG RD",
+    "street_full": "KIM PONG ROAD",
+    "postal": "160049",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 24
+    }
+  },
+  "49-telok-blangah-dr": {
+    "blk_no": "49",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100049",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "4a-boon-tiong-rd": {
+    "blk_no": "4A",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "164004",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "5room": 116
+    }
+  },
+  "4b-boon-tiong-rd": {
+    "blk_no": "4B",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "165004",
+    "town": "BUKIT MERAH",
+    "year_completed": 2003,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 40
+    }
+  },
+  "5-delta-ave": {
+    "blk_no": "5",
+    "street": "DELTA AVE",
+    "street_full": "DELTA AVENUE",
+    "postal": "160005",
+    "town": "BUKIT MERAH",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "5-everton-pk": {
+    "blk_no": "5",
+    "street": "EVERTON PK",
+    "street_full": "EVERTON PARK",
+    "postal": "080005",
+    "town": "BUKIT MERAH",
+    "year_completed": 1965,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "3room": 60,
+      "5room": 34
+    }
+  },
+  "5-telok-blangah-cres": {
+    "blk_no": "5",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090005",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 136,
+      "5room": 7
+    }
+  },
+  "50-havelock-rd": {
+    "blk_no": "50",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1966,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "2room": 28
+    },
+    "rental_units_by_type": {
+      "2room": 68
+    }
+  },
+  "50-hoy-fatt-rd": {
+    "blk_no": "50",
+    "street": "HOY FATT RD",
+    "street_full": "HOY FATT ROAD",
+    "postal": "150050",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 58
+    }
+  },
+  "50-moh-guan-ter": {
+    "blk_no": "50",
+    "street": "MOH GUAN TER",
+    "street_full": "MOH GUAN TERRACE",
+    "postal": "161050",
+    "town": "BUKIT MERAH",
+    "year_completed": 1949,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 21,
+    "sold_units_by_type": {
+      "3room": 18,
+      "4room": 3
+    }
+  },
+  "50-telok-blangah-dr": {
+    "blk_no": "50",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100050",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "51-lengkok-bahru": {
+    "blk_no": "51",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150051",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 58
+    }
+  },
+  "51-telok-blangah-dr": {
+    "blk_no": "51",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100051",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "52-havelock-rd": {
+    "blk_no": "52",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "161052",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 184,
+    "sold_units_by_type": {
+      "2room": 6,
+      "3room": 68,
+      "4room": 68,
+      "studio_apartment": 42
+    }
+  },
+  "52-lengkok-bahru": {
+    "blk_no": "52",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150052",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 58
+    }
+  },
+  "52-telok-blangah-dr": {
+    "blk_no": "52",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100052",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "53-havelock-rd": {
+    "blk_no": "53",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "161053",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 117,
+      "5room": 39
+    }
+  },
+  "53-lengkok-bahru": {
+    "blk_no": "53",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150053",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "53-telok-blangah-dr": {
+    "blk_no": "53",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100053",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "54-havelock-rd": {
+    "blk_no": "54",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "161054",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 105
+    }
+  },
+  "54-lengkok-bahru": {
+    "blk_no": "54",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150054",
+    "town": "BUKIT MERAH",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 12
+    }
+  },
+  "54-telok-blangah-dr": {
+    "blk_no": "54",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100054",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 24,
+      "5room": 2
+    }
+  },
+  "55-havelock-rd": {
+    "blk_no": "55",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "161055",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 105
+    }
+  },
+  "55-lengkok-bahru": {
+    "blk_no": "55",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "151055",
+    "town": "BUKIT MERAH",
+    "year_completed": 1966,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 420,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 360,
+      "3room": 60
+    }
+  },
+  "55-telok-blangah-dr": {
+    "blk_no": "55",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100055",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 2
+    }
+  },
+  "55-tiong-bahru-rd": {
+    "blk_no": "55",
+    "street": "TIONG BAHRU RD",
+    "street_full": "TIONG BAHRU ROAD",
+    "postal": "160055",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 34,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 22,
+      "5room": 2
+    }
+  },
+  "56-eng-hoon-st": {
+    "blk_no": "56",
+    "street": "ENG HOON ST",
+    "street_full": "ENG HOON STREET",
+    "postal": "160056",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "3room": 17,
+      "4room": 22
+    }
+  },
+  "56-havelock-rd": {
+    "blk_no": "56",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "161056",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 78
+    }
+  },
+  "56-lengkok-bahru": {
+    "blk_no": "56",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150056",
+    "town": "BUKIT MERAH",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 176
+    }
+  },
+  "56-telok-blangah-hts": {
+    "blk_no": "56",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100056",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "57-eng-hoon-st": {
+    "blk_no": "57",
+    "street": "ENG HOON ST",
+    "street_full": "ENG HOON STREET",
+    "postal": "160057",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 14
+    }
+  },
+  "57-havelock-rd": {
+    "blk_no": "57",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "161057",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 184,
+    "sold_units_by_type": {
+      "2room": 11,
+      "3room": 68,
+      "4room": 68,
+      "studio_apartment": 37
+    }
+  },
+  "57-lengkok-bahru": {
+    "blk_no": "57",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "151057",
+    "town": "BUKIT MERAH",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 176
+    }
+  },
+  "57-telok-blangah-hts": {
+    "blk_no": "57",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100057",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "58-havelock-rd": {
+    "blk_no": "58",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "161058",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "2room": 13,
+      "3room": 74,
+      "4room": 70,
+      "studio_apartment": 31
+    }
+  },
+  "58-lengkok-bahru": {
+    "blk_no": "58",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150058",
+    "town": "BUKIT MERAH",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 176
+    }
+  },
+  "58-seng-poh-rd": {
+    "blk_no": "58",
+    "street": "SENG POH RD",
+    "street_full": "SENG POH ROAD",
+    "postal": "160058",
+    "town": "BUKIT MERAH",
+    "year_completed": 1938,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 11,
+    "sold_units_by_type": {
+      "4room": 8,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "58-telok-blangah-hts": {
+    "blk_no": "58",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100058",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "59-eng-hoon-st": {
+    "blk_no": "59",
+    "street": "ENG HOON ST",
+    "street_full": "ENG HOON STREET",
+    "postal": "160059",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 34
+    }
+  },
+  "59-lengkok-bahru": {
+    "blk_no": "59",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150059",
+    "town": "BUKIT MERAH",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 176
+    }
+  },
+  "59-telok-blangah-hts": {
+    "blk_no": "59",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100059",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "6-everton-pk": {
+    "blk_no": "6",
+    "street": "EVERTON PK",
+    "street_full": "EVERTON PARK",
+    "postal": "080006",
+    "town": "BUKIT MERAH",
+    "year_completed": 1965,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "3room": 62,
+      "5room": 33
+    }
+  },
+  "6-jln-bt-ho-swee": {
+    "blk_no": "6",
+    "street": "JLN BT HO SWEE",
+    "street_full": "JALAN BUKIT HO SWEE",
+    "postal": "161006",
+    "town": "BUKIT MERAH",
+    "year_completed": 1962,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "3room": 67,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "6-kim-tian-rd": {
+    "blk_no": "6",
+    "street": "KIM TIAN RD",
+    "street_full": "KIM TIAN ROAD",
+    "postal": "163006",
+    "town": "BUKIT MERAH",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 30
+    }
+  },
+  "6-telok-blangah-cres": {
+    "blk_no": "6",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090006",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 132,
+      "5room": 4
+    }
+  },
+  "60-telok-blangah-hts": {
+    "blk_no": "60",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100060",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 172,
+      "4room": 20,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "61-lengkok-bahru": {
+    "blk_no": "61",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "150061",
+    "town": "BUKIT MERAH",
+    "year_completed": 1966,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 144
+    }
+  },
+  "61-telok-blangah-hts": {
+    "blk_no": "61",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100061",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 183,
+    "sold_units_by_type": {
+      "3room": 160,
+      "4room": 19,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "62-telok-blangah-hts": {
+    "blk_no": "62",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100062",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "63-telok-blangah-hts": {
+    "blk_no": "63",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100063",
+    "town": "BUKIT MERAH",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "63a-lengkok-bahru": {
+    "blk_no": "63A",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "151063",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 84
+    }
+  },
+  "63b-lengkok-bahru": {
+    "blk_no": "63B",
+    "street": "LENGKOK BAHRU",
+    "street_full": "LENGKOK BAHRU",
+    "postal": "152063",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "4room": 112,
+      "5room": 29
+    }
+  },
+  "64-telok-blangah-dr": {
+    "blk_no": "64",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100064",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 164,
+      "4room": 22,
+      "5room": 2,
+      "exec": 4
+    }
+  },
+  "64-tiong-poh-rd": {
+    "blk_no": "64",
+    "street": "TIONG POH RD",
+    "street_full": "TIONG POH ROAD",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "2room": 2,
+      "3room": 15,
+      "4room": 7
+    }
+  },
+  "65-telok-blangah-dr": {
+    "blk_no": "65",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100065",
+    "town": "BUKIT MERAH",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 20
+    }
+  },
+  "65-tiong-poh-rd": {
+    "blk_no": "65",
+    "street": "TIONG POH RD",
+    "street_full": "TIONG POH ROAD",
+    "postal": "160065",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 23,
+    "sold_units_by_type": {
+      "2room": 2,
+      "3room": 14,
+      "4room": 7
+    }
+  },
+  "66-eng-watt-st": {
+    "blk_no": "66",
+    "street": "ENG WATT ST",
+    "street_full": "ENG WATT STREET",
+    "postal": "160066",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 38,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 30
+    }
+  },
+  "66-telok-blangah-dr": {
+    "blk_no": "66",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100066",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "67-telok-blangah-dr": {
+    "blk_no": "67",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100067",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "68-redhill-cl": {
+    "blk_no": "68",
+    "street": "REDHILL CL",
+    "street_full": "REDHILL CLOSE",
+    "postal": "150068",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 29
+    }
+  },
+  "68-telok-blangah-hts": {
+    "blk_no": "68",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100068",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "69-redhill-cl": {
+    "blk_no": "69",
+    "street": "REDHILL CL",
+    "street_full": "REDHILL CLOSE",
+    "postal": "150069",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 29
+    }
+  },
+  "69-telok-blangah-hts": {
+    "blk_no": "69",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100069",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "6a-boon-tiong-rd": {
+    "blk_no": "6A",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "164006",
+    "town": "BUKIT MERAH",
+    "year_completed": 2003,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 40
+    }
+  },
+  "6b-boon-tiong-rd": {
+    "blk_no": "6B",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "165006",
+    "town": "BUKIT MERAH",
+    "year_completed": 2003,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 40
+    }
+  },
+  "7-everton-pk": {
+    "blk_no": "7",
+    "street": "EVERTON PK",
+    "street_full": "EVERTON PARK",
+    "postal": "080007",
+    "town": "BUKIT MERAH",
+    "year_completed": 1965,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "7-jln-bt-merah": {
+    "blk_no": "7",
+    "street": "JLN BT MERAH",
+    "street_full": "JALAN BUKIT MERAH",
+    "postal": "150007",
+    "town": "BUKIT MERAH",
+    "year_completed": 1989,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 35,
+    "sold_units_by_type": {
+      "3room": 35
+    }
+  },
+  "7-kim-tian-pl": {
+    "blk_no": "7",
+    "street": "KIM TIAN PL",
+    "street_full": "KIM TIAN PLACE",
+    "postal": "160007",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "7-telok-blangah-cres": {
+    "blk_no": "7",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090007",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 262,
+    "sold_units_by_type": {
+      "1room": 253,
+      "3room": 2
+    },
+    "rental_units_by_type": {
+      "1room": 7
+    }
+  },
+  "70-redhill-cl": {
+    "blk_no": "70",
+    "street": "REDHILL CL",
+    "street_full": "REDHILL CLOSE",
+    "postal": "150070",
+    "town": "BUKIT MERAH",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 23
+    }
+  },
+  "70a-telok-blangah-hts": {
+    "blk_no": "70A",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "101070",
+    "town": "BUKIT MERAH",
+    "year_completed": 2016,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 122
+    }
+  },
+  "70b-telok-blangah-hts": {
+    "blk_no": "70B",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "102070",
+    "town": "BUKIT MERAH",
+    "year_completed": 2016,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 122
+    }
+  },
+  "70c-telok-blangah-hts": {
+    "blk_no": "70C",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "103070",
+    "town": "BUKIT MERAH",
+    "year_completed": 2016,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "4room": 152
+    }
+  },
+  "71-redhill-rd": {
+    "blk_no": "71",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "150071",
+    "town": "BUKIT MERAH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 136,
+      "2room": 36
+    }
+  },
+  "71-seng-poh-rd": {
+    "blk_no": "71",
+    "street": "SENG POH RD",
+    "street_full": "SENG POH ROAD",
+    "postal": "160071",
+    "town": "BUKIT MERAH",
+    "year_completed": 1938,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "2room": 2,
+      "3room": 6,
+      "4room": 7
+    }
+  },
+  "72-redhill-rd": {
+    "blk_no": "72",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "150072",
+    "town": "BUKIT MERAH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 181,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 145,
+      "2room": 36
+    }
+  },
+  "72-seng-poh-rd": {
+    "blk_no": "72",
+    "street": "SENG POH RD",
+    "street_full": "SENG POH ROAD",
+    "postal": "160072",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "2room": 2,
+      "3room": 15,
+      "4room": 7
+    }
+  },
+  "72-telok-blangah-hts": {
+    "blk_no": "72",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100072",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "73-eng-watt-st": {
+    "blk_no": "73",
+    "street": "ENG WATT ST",
+    "street_full": "ENG WATT STREET",
+    "postal": "160073",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 34
+    }
+  },
+  "73-telok-blangah-hts": {
+    "blk_no": "73",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100073",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "73a-redhill-rd": {
+    "blk_no": "73A",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "151073",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 116
+    }
+  },
+  "74-telok-blangah-hts": {
+    "blk_no": "74",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100074",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "74-tiong-poh-rd": {
+    "blk_no": "74",
+    "street": "TIONG POH RD",
+    "street_full": "TIONG POH ROAD",
+    "postal": "160074",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "2room": 2,
+      "3room": 15,
+      "4room": 7
+    }
+  },
+  "74a-redhill-rd": {
+    "blk_no": "74A",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "151074",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 116
+    }
+  },
+  "75-telok-blangah-dr": {
+    "blk_no": "75",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100075",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "3room": 158,
+      "4room": 24,
+      "5room": 3,
+      "exec": 2
+    }
+  },
+  "75-tiong-poh-rd": {
+    "blk_no": "75",
+    "street": "TIONG POH RD",
+    "street_full": "TIONG POH ROAD",
+    "postal": "160075",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "2room": 2,
+      "3room": 15,
+      "4room": 7
+    }
+  },
+  "75a-redhill-rd": {
+    "blk_no": "75A",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "151075",
+    "town": "BUKIT MERAH",
+    "year_completed": 2005,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "75b-redhill-rd": {
+    "blk_no": "75B",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "152075",
+    "town": "BUKIT MERAH",
+    "year_completed": 2005,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "75c-redhill-rd": {
+    "blk_no": "75C",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "153075",
+    "town": "BUKIT MERAH",
+    "year_completed": 2005,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "76-guan-chuan-st": {
+    "blk_no": "76",
+    "street": "GUAN CHUAN ST",
+    "street_full": "GUAN CHUAN STREET",
+    "postal": "160076",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 34
+    }
+  },
+  "76-telok-blangah-dr": {
+    "blk_no": "76",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100076",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "2room": 91
+    },
+    "rental_units_by_type": {
+      "2room": 149
+    }
+  },
+  "76a-redhill-rd": {
+    "blk_no": "76A",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "151076",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "77-indus-rd": {
+    "blk_no": "77",
+    "street": "INDUS RD",
+    "street_full": "INDUS ROAD",
+    "postal": "160077",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 160
+    }
+  },
+  "77-seng-poh-rd": {
+    "blk_no": "77",
+    "street": "SENG POH RD",
+    "street_full": "SENG POH ROAD",
+    "postal": "161077",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "2room": 2,
+      "3room": 15,
+      "4room": 7
+    }
+  },
+  "77-telok-blangah-dr": {
+    "blk_no": "77",
+    "street": "TELOK BLANGAH DR",
+    "street_full": "TELOK BLANGAH DRIVE",
+    "postal": "100077",
+    "town": "BUKIT MERAH",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 115,
+      "4room": 24,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "77a-redhill-rd": {
+    "blk_no": "77A",
+    "street": "REDHILL RD",
+    "street_full": "REDHILL ROAD",
+    "postal": "151077",
+    "town": "BUKIT MERAH",
+    "year_completed": 2004,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "78-guan-chuan-st": {
+    "blk_no": "78",
+    "street": "GUAN CHUAN ST",
+    "street_full": "GUAN CHUAN STREET",
+    "postal": "160078",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 40
+    }
+  },
+  "78-indus-rd": {
+    "blk_no": "78",
+    "street": "INDUS RD",
+    "street_full": "INDUS ROAD",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 144
+    }
+  },
+  "78-moh-guan-ter": {
+    "blk_no": "78",
+    "street": "MOH GUAN TER",
+    "street_full": "MOH GUAN TERRACE",
+    "postal": "162078",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "2room": 6,
+      "3room": 29,
+      "4room": 35
+    }
+  },
+  "78-redhill-lane": {
+    "blk_no": "78",
+    "street": "REDHILL LANE",
+    "street_full": "REDHILL LANE",
+    "postal": "150078",
+    "town": "BUKIT MERAH",
+    "year_completed": 1970,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 144
+    }
+  },
+  "78-yong-siak-st": {
+    "blk_no": "78",
+    "street": "YONG SIAK ST",
+    "street_full": "YONG SIAK STREET",
+    "postal": "163078",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 40
+    }
+  },
+  "79-chay-yan-st": {
+    "blk_no": "79",
+    "street": "CHAY YAN ST",
+    "street_full": "CHAY YAN STREET",
+    "postal": "160079",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 41,
+    "sold_units_by_type": {
+      "2room": 14,
+      "3room": 15,
+      "4room": 12
+    }
+  },
+  "79-indus-rd": {
+    "blk_no": "79",
+    "street": "INDUS RD",
+    "street_full": "INDUS ROAD",
+    "postal": "161079",
+    "town": "BUKIT MERAH",
+    "year_completed": 1971,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 520,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 520
+    }
+  },
+  "8-cantonment-cl": {
+    "blk_no": "8",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "081008",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 87,
+      "5room": 29
+    }
+  },
+  "8-jln-bt-ho-swee": {
+    "blk_no": "8",
+    "street": "JLN BT HO SWEE",
+    "street_full": "JALAN BUKIT HO SWEE",
+    "postal": "161008",
+    "town": "BUKIT MERAH",
+    "year_completed": 1962,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "3room": 72
+    }
+  },
+  "8-jln-rumah-tinggi": {
+    "blk_no": "8",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "150008",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 68
+    }
+  },
+  "8-kim-tian-pl": {
+    "blk_no": "8",
+    "street": "KIM TIAN PL",
+    "street_full": "KIM TIAN PLACE",
+    "postal": "163008",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "8-telok-blangah-cres": {
+    "blk_no": "8",
+    "street": "TELOK BLANGAH CRES",
+    "street_full": "TELOK BLANGAH CRESCENT",
+    "postal": "090008",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "3room": 65,
+      "5room": 1
+    }
+  },
+  "80-chay-yan-st": {
+    "blk_no": "80",
+    "street": "CHAY YAN ST",
+    "street_full": "CHAY YAN STREET",
+    "postal": "160080",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 41,
+    "sold_units_by_type": {
+      "2room": 14,
+      "3room": 15,
+      "4room": 12
+    }
+  },
+  "80-redhill-lane": {
+    "blk_no": "80",
+    "street": "REDHILL LANE",
+    "street_full": "REDHILL LANE",
+    "postal": "150080",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 4
+    }
+  },
+  "80a-telok-blangah-st-31": {
+    "blk_no": "80A",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "101080",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "80b-telok-blangah-st-31": {
+    "blk_no": "80B",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "102080",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 18,
+      "3room": 30,
+      "studio_apartment": 72
+    }
+  },
+  "80c-telok-blangah-st-31": {
+    "blk_no": "80C",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "103080",
+    "town": "BUKIT MERAH",
+    "year_completed": 2011,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 70,
+      "exec": 1
+    }
+  },
+  "81-redhill-lane": {
+    "blk_no": "81",
+    "street": "REDHILL LANE",
+    "street_full": "REDHILL LANE",
+    "postal": "150081",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 5,
+      "5room": 100
+    }
+  },
+  "81-tiong-poh-rd": {
+    "blk_no": "81",
+    "street": "TIONG POH RD",
+    "street_full": "TIONG POH ROAD",
+    "postal": "160081",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 17,
+      "4room": 21,
+      "5room": 2
+    }
+  },
+  "82-redhill-lane": {
+    "blk_no": "82",
+    "street": "REDHILL LANE",
+    "street_full": "REDHILL LANE",
+    "postal": "150082",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 5,
+      "5room": 82
+    }
+  },
+  "82-tiong-poh-rd": {
+    "blk_no": "82",
+    "street": "TIONG POH RD",
+    "street_full": "TIONG POH ROAD",
+    "postal": "160082",
+    "town": "BUKIT MERAH",
+    "year_completed": 1937,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "2room": 6,
+      "3room": 17,
+      "4room": 35
+    }
+  },
+  "83-redhill-lane": {
+    "blk_no": "83",
+    "street": "REDHILL LANE",
+    "street_full": "REDHILL LANE",
+    "postal": "150083",
+    "town": "BUKIT MERAH",
+    "year_completed": 1995,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 82
+    }
+  },
+  "84-telok-blangah-hts": {
+    "blk_no": "84",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100084",
+    "town": "BUKIT MERAH",
+    "year_completed": 1981,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "85-telok-blangah-hts": {
+    "blk_no": "85",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100085",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 87
+    }
+  },
+  "86-redhill-cl": {
+    "blk_no": "86",
+    "street": "REDHILL CL",
+    "street_full": "REDHILL CLOSE",
+    "postal": "150086",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 144
+    }
+  },
+  "86-telok-blangah-hts": {
+    "blk_no": "86",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100086",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 72
+    }
+  },
+  "87-redhill-cl": {
+    "blk_no": "87",
+    "street": "REDHILL CL",
+    "street_full": "REDHILL CLOSE",
+    "postal": "150087",
+    "town": "BUKIT MERAH",
+    "year_completed": 1993,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "5room": 114
+    }
+  },
+  "87-telok-blangah-hts": {
+    "blk_no": "87",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100087",
+    "town": "BUKIT MERAH",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 72
+    }
+  },
+  "87-zion-rd": {
+    "blk_no": "87",
+    "street": "ZION RD",
+    "street_full": "ZION ROAD",
+    "postal": "160087",
+    "town": "BUKIT MERAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "88-redhill-cl": {
+    "blk_no": "88",
+    "street": "REDHILL CL",
+    "street_full": "REDHILL CLOSE",
+    "postal": "150088",
+    "town": "BUKIT MERAH",
+    "year_completed": 1993,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 60
+    }
+  },
+  "88-telok-blangah-hts": {
+    "blk_no": "88",
+    "street": "TELOK BLANGAH HTS",
+    "street_full": "TELOK BLANGAH HEIGHTS",
+    "postal": "100088",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 87
+    }
+  },
+  "89-redhill-cl": {
+    "blk_no": "89",
+    "street": "REDHILL CL",
+    "street_full": "REDHILL CLOSE",
+    "postal": "150089",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 264
+    }
+  },
+  "8a-boon-tiong-rd": {
+    "blk_no": "8A",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "164008",
+    "town": "BUKIT MERAH",
+    "year_completed": 2003,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 40
+    }
+  },
+  "8b-boon-tiong-rd": {
+    "blk_no": "8B",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "165008",
+    "town": "BUKIT MERAH",
+    "year_completed": 2003,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 40
+    }
+  },
+  "9-cantonment-cl": {
+    "blk_no": "9",
+    "street": "CANTONMENT CL",
+    "street_full": "CANTONMENT CLOSE",
+    "postal": "080009",
+    "town": "BUKIT MERAH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 87,
+      "5room": 29
+    }
+  },
+  "9-jln-rumah-tinggi": {
+    "blk_no": "9",
+    "street": "JLN RUMAH TINGGI",
+    "street_full": "JALAN RUMAH TINGGI",
+    "postal": "150009",
+    "town": "BUKIT MERAH",
+    "year_completed": 1983,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 68
+    }
+  },
+  "90-redhill-cl": {
+    "blk_no": "90",
+    "street": "REDHILL CL",
+    "street_full": "REDHILL CLOSE",
+    "postal": "150090",
+    "town": "BUKIT MERAH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 264
+    }
+  },
+  "90a-telok-blangah-st-31": {
+    "blk_no": "90A",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "101090",
+    "town": "BUKIT MERAH",
+    "year_completed": 2017,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 222,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 174
+    }
+  },
+  "90b-telok-blangah-st-31": {
+    "blk_no": "90B",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "102090",
+    "town": "BUKIT MERAH",
+    "year_completed": 2017,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 116
+    }
+  },
+  "91a-telok-blangah-st-31": {
+    "blk_no": "91A",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "101091",
+    "town": "BUKIT MERAH",
+    "year_completed": 2017,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 116
+    }
+  },
+  "92a-telok-blangah-st-31": {
+    "blk_no": "92A",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "101092",
+    "town": "BUKIT MERAH",
+    "year_completed": 2017,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "2room": 49,
+      "3room": 58,
+      "studio_apartment": 67
+    }
+  },
+  "92b-telok-blangah-st-31": {
+    "blk_no": "92B",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "102092",
+    "town": "BUKIT MERAH",
+    "year_completed": 2017,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "2room": 30,
+      "3room": 56,
+      "4room": 116,
+      "studio_apartment": 26
+    }
+  },
+  "93a-telok-blangah-st-31": {
+    "blk_no": "93A",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "101093",
+    "town": "BUKIT MERAH",
+    "year_completed": 2017,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "3room": 56,
+      "4room": 172
+    }
+  },
+  "93b-telok-blangah-st-31": {
+    "blk_no": "93B",
+    "street": "TELOK BLANGAH ST 31",
+    "street_full": "TELOK BLANGAH STREET 31",
+    "postal": "102093",
+    "town": "BUKIT MERAH",
+    "year_completed": 2017,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 282,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 228,
+      "exec": 2
+    }
+  },
+  "94-havelock-rd": {
+    "blk_no": "94",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "160094",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "95-havelock-rd": {
+    "blk_no": "95",
+    "street": "HAVELOCK RD",
+    "street_full": "HAVELOCK ROAD",
+    "postal": "160095",
+    "town": "BUKIT MERAH",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "95a-henderson-rd": {
+    "blk_no": "95A",
+    "street": "HENDERSON RD",
+    "street_full": "HENDERSON ROAD",
+    "postal": "151095",
+    "town": "BUKIT MERAH",
+    "year_completed": 2018,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 257,
+    "sold_units_by_type": {
+      "2room": 48,
+      "3room": 104,
+      "4room": 104
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "95b-henderson-rd": {
+    "blk_no": "95B",
+    "street": "HENDERSON RD",
+    "street_full": "HENDERSON ROAD",
+    "postal": "152095",
+    "town": "BUKIT MERAH",
+    "year_completed": 2018,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 286,
+    "sold_units_by_type": {
+      "2room": 78,
+      "3room": 104,
+      "4room": 104
+    }
+  },
+  "95c-henderson-rd": {
+    "blk_no": "95C",
+    "street": "HENDERSON RD",
+    "street_full": "HENDERSON ROAD",
+    "postal": "153095",
+    "town": "BUKIT MERAH",
+    "year_completed": 2018,
+    "max_floor_lvl": 48,
+    "total_dwelling_units": 229,
+    "sold_units_by_type": {
+      "3room": 49,
+      "4room": 135,
+      "5room": 45
+    }
+  },
+  "96a-henderson-rd": {
+    "blk_no": "96A",
+    "street": "HENDERSON RD",
+    "street_full": "HENDERSON ROAD",
+    "postal": "151096",
+    "town": "BUKIT MERAH",
+    "year_completed": 2018,
+    "max_floor_lvl": 48,
+    "total_dwelling_units": 229,
+    "sold_units_by_type": {
+      "3room": 49,
+      "4room": 90,
+      "5room": 90
+    }
+  },
+  "96b-henderson-rd": {
+    "blk_no": "96B",
+    "street": "HENDERSON RD",
+    "street_full": "HENDERSON ROAD",
+    "postal": "152096",
+    "town": "BUKIT MERAH",
+    "year_completed": 2018,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {
+      "3room": 91,
+      "4room": 140
+    }
+  },
+  "9a-boon-tiong-rd": {
+    "blk_no": "9A",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "162009",
+    "town": "BUKIT MERAH",
+    "year_completed": 2014,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 78
+    }
+  },
+  "9b-boon-tiong-rd": {
+    "blk_no": "9B",
+    "street": "BOON TIONG RD",
+    "street_full": "BOON TIONG ROAD",
+    "postal": "NIL",
+    "town": "BUKIT MERAH",
+    "year_completed": 2014,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 78
+    }
+  }
+}

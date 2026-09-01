@@ -1,0 +1,5819 @@
+{
+  "101-ang-mo-kio-ave-3": {
+    "blk_no": "101",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560101",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "102-ang-mo-kio-ave-3": {
+    "blk_no": "102",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 22
+    }
+  },
+  "103-ang-mo-kio-ave-3": {
+    "blk_no": "103",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560103",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 97,
+      "4room": 33,
+      "5room": 1
+    }
+  },
+  "104a-ang-mo-kio-st-11": {
+    "blk_no": "104A",
+    "street": "ANG MO KIO ST 11",
+    "street_full": "ANG MO KIO STREET 11",
+    "postal": "560104",
+    "town": "ANG MO KIO",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "104b-ang-mo-kio-st-11": {
+    "blk_no": "104B",
+    "street": "ANG MO KIO ST 11",
+    "street_full": "ANG MO KIO STREET 11",
+    "postal": "561104",
+    "town": "ANG MO KIO",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "5room": 88
+    }
+  },
+  "105-ang-mo-kio-ave-4": {
+    "blk_no": "105",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560105",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "106-ang-mo-kio-ave-4": {
+    "blk_no": "106",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560106",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "3room": 115,
+      "4room": 20,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "107-ang-mo-kio-ave-4": {
+    "blk_no": "107",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560107",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 111,
+      "4room": 18,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "108-ang-mo-kio-ave-4": {
+    "blk_no": "108",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560108",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "3room": 87,
+      "4room": 31,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "109-ang-mo-kio-ave-4": {
+    "blk_no": "109",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560109",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 120,
+      "4room": 33
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "110-ang-mo-kio-ave-4": {
+    "blk_no": "110",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560110",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 33,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "111-ang-mo-kio-ave-4": {
+    "blk_no": "111",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560111",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "112-ang-mo-kio-ave-4": {
+    "blk_no": "112",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560112",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "113-ang-mo-kio-ave-4": {
+    "blk_no": "113",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560113",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "114-ang-mo-kio-ave-4": {
+    "blk_no": "114",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560114",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 98,
+      "4room": 20,
+      "exec": 1
+    }
+  },
+  "115-ang-mo-kio-ave-4": {
+    "blk_no": "115",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560115",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 196
+    }
+  },
+  "116-ang-mo-kio-ave-4": {
+    "blk_no": "116",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560116",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "2room": 51
+    },
+    "rental_units_by_type": {
+      "2room": 109
+    }
+  },
+  "117-ang-mo-kio-ave-4": {
+    "blk_no": "117",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560117",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 119,
+      "4room": 33,
+      "5room": 1
+    }
+  },
+  "118-ang-mo-kio-ave-4": {
+    "blk_no": "118",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560118",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 115,
+      "4room": 33,
+      "5room": 3
+    }
+  },
+  "119-ang-mo-kio-ave-3": {
+    "blk_no": "119",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560119",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 171,
+      "4room": 20,
+      "5room": 1,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "120-ang-mo-kio-ave-3": {
+    "blk_no": "120",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560120",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 86,
+      "4room": 30,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "121-ang-mo-kio-ave-3": {
+    "blk_no": "121",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560121",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 217,
+    "sold_units_by_type": {
+      "3room": 194,
+      "4room": 20,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "122-ang-mo-kio-ave-3": {
+    "blk_no": "122",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560122",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 101,
+      "4room": 28,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "123-ang-mo-kio-ave-6": {
+    "blk_no": "123",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560123",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 192
+    }
+  },
+  "124-ang-mo-kio-ave-6": {
+    "blk_no": "124",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560124",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "125-ang-mo-kio-ave-6": {
+    "blk_no": "125",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560125",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 160
+    }
+  },
+  "126-ang-mo-kio-ave-3": {
+    "blk_no": "126",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560126",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 20,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "127-ang-mo-kio-ave-3": {
+    "blk_no": "127",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560127",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 159,
+    "sold_units_by_type": {
+      "3room": 138,
+      "4room": 20,
+      "5room": 1
+    }
+  },
+  "128-ang-mo-kio-ave-3": {
+    "blk_no": "128",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560128",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 18,
+      "exec": 2
+    }
+  },
+  "129-ang-mo-kio-ave-3": {
+    "blk_no": "129",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560129",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 235,
+    "sold_units_by_type": {
+      "3room": 206,
+      "4room": 22,
+      "5room": 3,
+      "exec": 4
+    }
+  },
+  "130-ang-mo-kio-ave-3": {
+    "blk_no": "130",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560130",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "3room": 164,
+      "4room": 24,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "131-ang-mo-kio-ave-3": {
+    "blk_no": "131",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560131",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "132-ang-mo-kio-ave-3": {
+    "blk_no": "132",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560132",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 84
+    }
+  },
+  "133-ang-mo-kio-ave-3": {
+    "blk_no": "133",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560133",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "3room": 17,
+      "4room": 4,
+      "5room": 1
+    }
+  },
+  "134-ang-mo-kio-ave-3": {
+    "blk_no": "134",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "150-ang-mo-kio-ave-5": {
+    "blk_no": "150",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560150",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 102,
+      "4room": 22,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "151-ang-mo-kio-ave-5": {
+    "blk_no": "151",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560151",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 99,
+      "4room": 21,
+      "exec": 2
+    }
+  },
+  "152-ang-mo-kio-ave-5": {
+    "blk_no": "152",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560152",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 105,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "153-ang-mo-kio-ave-5": {
+    "blk_no": "153",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560153",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 102,
+      "4room": 22,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "154-ang-mo-kio-ave-5": {
+    "blk_no": "154",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560154",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 101,
+      "4room": 22,
+      "5room": 2,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "155-ang-mo-kio-ave-4": {
+    "blk_no": "155",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560155",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 20,
+      "5room": 2,
+      "exec": 3
+    }
+  },
+  "156-ang-mo-kio-ave-4": {
+    "blk_no": "156",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560156",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 20,
+      "5room": 5
+    }
+  },
+  "157-ang-mo-kio-ave-4": {
+    "blk_no": "157",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560157",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "3room": 46
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "158-ang-mo-kio-ave-4": {
+    "blk_no": "158",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560158",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "159-ang-mo-kio-ave-4": {
+    "blk_no": "159",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560159",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 23,
+    "sold_units_by_type": {
+      "3room": 23
+    }
+  },
+  "163-ang-mo-kio-ave-4": {
+    "blk_no": "163",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560163",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "3room": 84
+    }
+  },
+  "170-ang-mo-kio-ave-4": {
+    "blk_no": "170",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560170",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 179,
+    "sold_units_by_type": {
+      "2room": 50,
+      "3room": 124,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 4
+    }
+  },
+  "171-ang-mo-kio-ave-4": {
+    "blk_no": "171",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560171",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 82
+    }
+  },
+  "172-ang-mo-kio-ave-4": {
+    "blk_no": "172",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560172",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 178,
+    "sold_units_by_type": {
+      "2room": 49,
+      "3room": 124,
+      "4room": 1,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 3
+    }
+  },
+  "173-ang-mo-kio-ave-4": {
+    "blk_no": "173",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560173",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 144
+    }
+  },
+  "174-ang-mo-kio-ave-4": {
+    "blk_no": "174",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560174",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "2room": 57,
+      "3room": 137,
+      "4room": 1,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 2
+    }
+  },
+  "175-ang-mo-kio-ave-4": {
+    "blk_no": "175",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560175",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "176-ang-mo-kio-ave-4": {
+    "blk_no": "176",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560176",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "5room": 60
+    }
+  },
+  "177-ang-mo-kio-ave-4": {
+    "blk_no": "177",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560177",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 154
+    }
+  },
+  "178-ang-mo-kio-ave-4": {
+    "blk_no": "178",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560178",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "3room": 158,
+      "4room": 24,
+      "5room": 3,
+      "exec": 2
+    }
+  },
+  "179-ang-mo-kio-ave-5": {
+    "blk_no": "179",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560179",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "180-ang-mo-kio-ave-5": {
+    "blk_no": "180",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560180",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 235,
+    "sold_units_by_type": {
+      "3room": 214,
+      "4room": 16,
+      "5room": 2,
+      "exec": 3
+    }
+  },
+  "181-ang-mo-kio-ave-5": {
+    "blk_no": "181",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560181",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 73,
+      "4room": 15
+    }
+  },
+  "182-ang-mo-kio-ave-5": {
+    "blk_no": "182",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560182",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 114,
+      "4room": 24,
+      "5room": 3
+    }
+  },
+  "201-ang-mo-kio-ave-3": {
+    "blk_no": "201",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560201",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 18,
+      "5room": 2
+    }
+  },
+  "202-ang-mo-kio-ave-3": {
+    "blk_no": "202",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560202",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 16,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "203-ang-mo-kio-ave-3": {
+    "blk_no": "203",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560203",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 160
+    }
+  },
+  "204-ang-mo-kio-ave-3": {
+    "blk_no": "204",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560204",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "205-ang-mo-kio-ave-1": {
+    "blk_no": "205",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560205",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "206-ang-mo-kio-ave-1": {
+    "blk_no": "206",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560206",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 160
+    }
+  },
+  "207-ang-mo-kio-ave-1": {
+    "blk_no": "207",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560207",
+    "town": "ANG MO KIO",
+    "year_completed": 1975,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "208-ang-mo-kio-ave-1": {
+    "blk_no": "208",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560208",
+    "town": "ANG MO KIO",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "209-ang-mo-kio-ave-3": {
+    "blk_no": "209",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560209",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 108
+    }
+  },
+  "210-ang-mo-kio-ave-3": {
+    "blk_no": "210",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560210",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 108
+    }
+  },
+  "211-ang-mo-kio-ave-3": {
+    "blk_no": "211",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560211",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 215,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 18,
+      "5room": 1
+    }
+  },
+  "212-ang-mo-kio-ave-3": {
+    "blk_no": "212",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560212",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 214,
+    "sold_units_by_type": {
+      "3room": 193,
+      "4room": 18,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "213-ang-mo-kio-ave-3": {
+    "blk_no": "213",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560213",
+    "town": "ANG MO KIO",
+    "year_completed": 1975,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 121,
+      "4room": 18,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "214-ang-mo-kio-ave-3": {
+    "blk_no": "214",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560214",
+    "town": "ANG MO KIO",
+    "year_completed": 1975,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 120,
+      "4room": 18,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "215-ang-mo-kio-ave-1": {
+    "blk_no": "215",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560215",
+    "town": "ANG MO KIO",
+    "year_completed": 1975,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 113,
+      "4room": 16,
+      "exec": 1
+    }
+  },
+  "216-ang-mo-kio-ave-1": {
+    "blk_no": "216",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560216",
+    "town": "ANG MO KIO",
+    "year_completed": 1975,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 18
+    }
+  },
+  "217-ang-mo-kio-ave-1": {
+    "blk_no": "217",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560217",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 200,
+      "2room": 40
+    }
+  },
+  "218-ang-mo-kio-ave-1": {
+    "blk_no": "218",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560218",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "3room": 164,
+      "4room": 24,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "219-ang-mo-kio-ave-1": {
+    "blk_no": "219",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560219",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 24,
+      "exec": 1
+    }
+  },
+  "220-ang-mo-kio-ave-1": {
+    "blk_no": "220",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560220",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 24,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "221-ang-mo-kio-ave-1": {
+    "blk_no": "221",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560221",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 33
+    }
+  },
+  "222-ang-mo-kio-ave-1": {
+    "blk_no": "222",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560222",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 33
+    }
+  },
+  "223-ang-mo-kio-ave-1": {
+    "blk_no": "223",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560223",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "224-ang-mo-kio-ave-1": {
+    "blk_no": "224",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560224",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 160
+    }
+  },
+  "225-ang-mo-kio-ave-1": {
+    "blk_no": "225",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560225",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 193,
+    "sold_units_by_type": {
+      "3room": 166,
+      "4room": 22,
+      "5room": 3,
+      "exec": 2
+    }
+  },
+  "226-ang-mo-kio-ave-1": {
+    "blk_no": "226",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560226",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "226b-ang-mo-kio-ave-1": {
+    "blk_no": "226B",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "562226",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "226e-ang-mo-kio-ave-1": {
+    "blk_no": "226E",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "565226",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 2,
+    "sold_units_by_type": {
+      "3room": 2
+    }
+  },
+  "226f-ang-mo-kio-ave-1": {
+    "blk_no": "226F",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "566226",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "227a-ang-mo-kio-st-23": {
+    "blk_no": "227A",
+    "street": "ANG MO KIO ST 23",
+    "street_full": "ANG MO KIO STREET 23",
+    "postal": "561227",
+    "town": "ANG MO KIO",
+    "year_completed": 2020,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 260,
+    "sold_units_by_type": {
+      "2room": 156,
+      "4room": 104
+    }
+  },
+  "228a-ang-mo-kio-st-23": {
+    "blk_no": "228A",
+    "street": "ANG MO KIO ST 23",
+    "street_full": "ANG MO KIO STREET 23",
+    "postal": "561228",
+    "town": "ANG MO KIO",
+    "year_completed": 2020,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 122
+    }
+  },
+  "228b-ang-mo-kio-st-23": {
+    "blk_no": "228B",
+    "street": "ANG MO KIO ST 23",
+    "street_full": "ANG MO KIO STREET 23",
+    "postal": "562228",
+    "town": "ANG MO KIO",
+    "year_completed": 2020,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 78
+    }
+  },
+  "229-ang-mo-kio-ave-3": {
+    "blk_no": "229",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560229",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "230-ang-mo-kio-ave-3": {
+    "blk_no": "230",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560230",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "231-ang-mo-kio-ave-3": {
+    "blk_no": "231",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560231",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "232-ang-mo-kio-ave-3": {
+    "blk_no": "232",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560232",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 20,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "233-ang-mo-kio-ave-3": {
+    "blk_no": "233",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560233",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 20,
+      "5room": 3,
+      "exec": 2
+    }
+  },
+  "234-ang-mo-kio-ave-3": {
+    "blk_no": "234",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560234",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 33
+    }
+  },
+  "235-ang-mo-kio-ave-3": {
+    "blk_no": "235",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560235",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "244-ang-mo-kio-ave-3": {
+    "blk_no": "244",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560244",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 154
+    }
+  },
+  "245-ang-mo-kio-ave-3": {
+    "blk_no": "245",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560245",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 154
+    }
+  },
+  "246a-ang-mo-kio-st-21": {
+    "blk_no": "246A",
+    "street": "ANG MO KIO ST 21",
+    "street_full": "ANG MO KIO STREET 21",
+    "postal": "561246",
+    "town": "ANG MO KIO",
+    "year_completed": 2025,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 56
+    }
+  },
+  "246b-ang-mo-kio-st-21": {
+    "blk_no": "246B",
+    "street": "ANG MO KIO ST 21",
+    "street_full": "ANG MO KIO STREET 21",
+    "postal": "562246",
+    "town": "ANG MO KIO",
+    "year_completed": 2025,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "4room": 156,
+      "5room": 84
+    }
+  },
+  "253-ang-mo-kio-st-21": {
+    "blk_no": "253",
+    "street": "ANG MO KIO ST 21",
+    "street_full": "ANG MO KIO STREET 21",
+    "postal": "560253",
+    "town": "ANG MO KIO",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "5room": 110
+    }
+  },
+  "253a-ang-mo-kio-st-21": {
+    "blk_no": "253A",
+    "street": "ANG MO KIO ST 21",
+    "street_full": "ANG MO KIO STREET 21",
+    "postal": "561253",
+    "town": "ANG MO KIO",
+    "year_completed": 1994,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 49,
+    "sold_units_by_type": {
+      "5room": 49
+    }
+  },
+  "254-ang-mo-kio-ave-4": {
+    "blk_no": "254",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560254",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 109
+    },
+    "rental_units_by_type": {
+      "other_room": 1
+    }
+  },
+  "255-ang-mo-kio-ave-4": {
+    "blk_no": "255",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560255",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "256-ang-mo-kio-ave-4": {
+    "blk_no": "256",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560256",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "257-ang-mo-kio-ave-4": {
+    "blk_no": "257",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560257",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 264
+    }
+  },
+  "258-ang-mo-kio-ave-4": {
+    "blk_no": "258",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560258",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 6
+    }
+  },
+  "259-ang-mo-kio-ave-2": {
+    "blk_no": "259",
+    "street": "ANG MO KIO AVE 2",
+    "street_full": "ANG MO KIO AVENUE 2",
+    "postal": "560259",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "260a-ang-mo-kio-st-21": {
+    "blk_no": "260A",
+    "street": "ANG MO KIO ST 21",
+    "street_full": "ANG MO KIO STREET 21",
+    "postal": "561260",
+    "town": "ANG MO KIO",
+    "year_completed": 2016,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 53
+    }
+  },
+  "260b-ang-mo-kio-st-21": {
+    "blk_no": "260B",
+    "street": "ANG MO KIO ST 21",
+    "street_full": "ANG MO KIO STREET 21",
+    "postal": "562260",
+    "town": "ANG MO KIO",
+    "year_completed": 2016,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 50
+    }
+  },
+  "301-ang-mo-kio-ave-3": {
+    "blk_no": "301",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560301",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "3room": 170,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "302-ang-mo-kio-ave-3": {
+    "blk_no": "302",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560302",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 176,
+      "4room": 22
+    }
+  },
+  "303-ang-mo-kio-ave-1": {
+    "blk_no": "303",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560303",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "304-ang-mo-kio-ave-1": {
+    "blk_no": "304",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560304",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "305-ang-mo-kio-ave-1": {
+    "blk_no": "305",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560305",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 78
+    }
+  },
+  "306-ang-mo-kio-ave-1": {
+    "blk_no": "306",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560306",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 78
+    }
+  },
+  "307a-ang-mo-kio-ave-1": {
+    "blk_no": "307A",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "561307",
+    "town": "ANG MO KIO",
+    "year_completed": 2010,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 74
+    }
+  },
+  "307b-ang-mo-kio-ave-1": {
+    "blk_no": "307B",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "562307",
+    "town": "ANG MO KIO",
+    "year_completed": 2010,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 74
+    }
+  },
+  "307c-ang-mo-kio-ave-1": {
+    "blk_no": "307C",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "563307",
+    "town": "ANG MO KIO",
+    "year_completed": 2010,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 230,
+    "sold_units_by_type": {
+      "2room": 21,
+      "3room": 58,
+      "4room": 36,
+      "studio_apartment": 115
+    }
+  },
+  "308a-ang-mo-kio-ave-1": {
+    "blk_no": "308A",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "561308",
+    "town": "ANG MO KIO",
+    "year_completed": 2010,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 85,
+      "4room": 87
+    }
+  },
+  "308b-ang-mo-kio-ave-1": {
+    "blk_no": "308B",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "562308",
+    "town": "ANG MO KIO",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 85,
+      "4room": 83
+    }
+  },
+  "309a-ang-mo-kio-st-31": {
+    "blk_no": "309A",
+    "street": "ANG MO KIO ST 31",
+    "street_full": "ANG MO KIO STREET 31",
+    "postal": "562309",
+    "town": "ANG MO KIO",
+    "year_completed": 2005,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 184,
+    "sold_units_by_type": {
+      "4room": 103,
+      "5room": 81
+    }
+  },
+  "310a-ang-mo-kio-ave-1": {
+    "blk_no": "310A",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 116
+    }
+  },
+  "310b-ang-mo-kio-ave-1": {
+    "blk_no": "310B",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "562310",
+    "town": "ANG MO KIO",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "4room": 107,
+      "5room": 58
+    }
+  },
+  "310c-ang-mo-kio-ave-1": {
+    "blk_no": "310C",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "563310",
+    "town": "ANG MO KIO",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 85,
+      "4room": 82
+    }
+  },
+  "311-ang-mo-kio-ave-3": {
+    "blk_no": "311",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560311",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "312-ang-mo-kio-ave-3": {
+    "blk_no": "312",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560312",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "313-ang-mo-kio-ave-3": {
+    "blk_no": "313",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560313",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "3room": 168,
+      "4room": 22,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "314-ang-mo-kio-ave-3": {
+    "blk_no": "314",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560314",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 242,
+    "sold_units_by_type": {
+      "2room": 153
+    },
+    "rental_units_by_type": {
+      "2room": 89
+    }
+  },
+  "315a-ang-mo-kio-st-31": {
+    "blk_no": "315A",
+    "street": "ANG MO KIO ST 31",
+    "street_full": "ANG MO KIO STREET 31",
+    "postal": "562315",
+    "town": "ANG MO KIO",
+    "year_completed": 2005,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "4room": 117,
+      "5room": 54
+    }
+  },
+  "315b-ang-mo-kio-st-31": {
+    "blk_no": "315B",
+    "street": "ANG MO KIO ST 31",
+    "street_full": "ANG MO KIO STREET 31",
+    "postal": "563315",
+    "town": "ANG MO KIO",
+    "year_completed": 2004,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 81
+    }
+  },
+  "316a-ang-mo-kio-st-31": {
+    "blk_no": "316A",
+    "street": "ANG MO KIO ST 31",
+    "street_full": "ANG MO KIO STREET 31",
+    "postal": "562316",
+    "town": "ANG MO KIO",
+    "year_completed": 2005,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "4room": 111,
+      "5room": 54
+    }
+  },
+  "317-ang-mo-kio-st-31": {
+    "blk_no": "317",
+    "street": "ANG MO KIO ST 31",
+    "street_full": "ANG MO KIO STREET 31",
+    "postal": "560317",
+    "town": "ANG MO KIO",
+    "year_completed": 1993,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 7,
+      "5room": 84
+    }
+  },
+  "318-ang-mo-kio-ave-1": {
+    "blk_no": "318",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560318",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 198
+    }
+  },
+  "319-ang-mo-kio-ave-1": {
+    "blk_no": "319",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "3room": 168,
+      "4room": 22,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "320-ang-mo-kio-ave-1": {
+    "blk_no": "320",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "321-ang-mo-kio-ave-1": {
+    "blk_no": "321",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "322-ang-mo-kio-ave-3": {
+    "blk_no": "322",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560322",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 104,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "323-ang-mo-kio-ave-3": {
+    "blk_no": "323",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560323",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "2room": 80
+    },
+    "rental_units_by_type": {
+      "2room": 74
+    }
+  },
+  "324-ang-mo-kio-ave-3": {
+    "blk_no": "324",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560324",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "325-ang-mo-kio-ave-3": {
+    "blk_no": "325",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560325",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "326-ang-mo-kio-ave-3": {
+    "blk_no": "326",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560326",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "327-ang-mo-kio-ave-3": {
+    "blk_no": "327",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560327",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "328-ang-mo-kio-ave-3": {
+    "blk_no": "328",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560328",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "329-ang-mo-kio-ave-3": {
+    "blk_no": "329",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560329",
+    "town": "ANG MO KIO",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "330-ang-mo-kio-ave-1": {
+    "blk_no": "330",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560330",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "3room": 169,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "331-ang-mo-kio-ave-1": {
+    "blk_no": "331",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "3room": 170,
+      "4room": 22,
+      "5room": 3
+    }
+  },
+  "332-ang-mo-kio-ave-1": {
+    "blk_no": "332",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560332",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 146,
+      "4room": 20,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "333-ang-mo-kio-ave-1": {
+    "blk_no": "333",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560333",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 179,
+    "sold_units_by_type": {
+      "3room": 158,
+      "4room": 20,
+      "exec": 1
+    }
+  },
+  "334-ang-mo-kio-ave-1": {
+    "blk_no": "334",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560334",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "335-ang-mo-kio-ave-1": {
+    "blk_no": "335",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560335",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "336-ang-mo-kio-ave-1": {
+    "blk_no": "336",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "337-ang-mo-kio-ave-1": {
+    "blk_no": "337",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560337",
+    "town": "ANG MO KIO",
+    "year_completed": 1981,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "338-ang-mo-kio-ave-1": {
+    "blk_no": "338",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560338",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "339-ang-mo-kio-ave-1": {
+    "blk_no": "339",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560339",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "340-ang-mo-kio-ave-1": {
+    "blk_no": "340",
+    "street": "ANG MO KIO AVE 1",
+    "street_full": "ANG MO KIO AVENUE 1",
+    "postal": "560340",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "343-ang-mo-kio-ave-3": {
+    "blk_no": "343",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 172,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "344-ang-mo-kio-ave-3": {
+    "blk_no": "344",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560344",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "4room": 176
+    }
+  },
+  "345-ang-mo-kio-ave-3": {
+    "blk_no": "345",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560345",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 172,
+      "4room": 22,
+      "5room": 2
+    }
+  },
+  "346-ang-mo-kio-ave-3": {
+    "blk_no": "346",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560346",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 174,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "347-ang-mo-kio-ave-3": {
+    "blk_no": "347",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560347",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "348-ang-mo-kio-ave-3": {
+    "blk_no": "348",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560348",
+    "town": "ANG MO KIO",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 121,
+      "4room": 33
+    }
+  },
+  "350-ang-mo-kio-st-32": {
+    "blk_no": "350",
+    "street": "ANG MO KIO ST 32",
+    "street_full": "ANG MO KIO STREET 32",
+    "postal": "560350",
+    "town": "ANG MO KIO",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 87
+    }
+  },
+  "351-ang-mo-kio-st-32": {
+    "blk_no": "351",
+    "street": "ANG MO KIO ST 32",
+    "street_full": "ANG MO KIO STREET 32",
+    "postal": "560351",
+    "town": "ANG MO KIO",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 58
+    }
+  },
+  "352-ang-mo-kio-st-32": {
+    "blk_no": "352",
+    "street": "ANG MO KIO ST 32",
+    "street_full": "ANG MO KIO STREET 32",
+    "postal": "560352",
+    "town": "ANG MO KIO",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 48
+    }
+  },
+  "353-ang-mo-kio-st-32": {
+    "blk_no": "353",
+    "street": "ANG MO KIO ST 32",
+    "street_full": "ANG MO KIO STREET 32",
+    "postal": "560353",
+    "town": "ANG MO KIO",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 58
+    }
+  },
+  "354-ang-mo-kio-st-32": {
+    "blk_no": "354",
+    "street": "ANG MO KIO ST 32",
+    "street_full": "ANG MO KIO STREET 32",
+    "postal": "560354",
+    "town": "ANG MO KIO",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 58
+    }
+  },
+  "401-ang-mo-kio-ave-10": {
+    "blk_no": "401",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560401",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "402-ang-mo-kio-ave-10": {
+    "blk_no": "402",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560402",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "403-ang-mo-kio-ave-10": {
+    "blk_no": "403",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560403",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "404-ang-mo-kio-ave-10": {
+    "blk_no": "404",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560404",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 22,
+      "5room": 2
+    }
+  },
+  "405-ang-mo-kio-ave-10": {
+    "blk_no": "405",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560405",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 22,
+      "5room": 4
+    }
+  },
+  "406-ang-mo-kio-ave-10": {
+    "blk_no": "406",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560406",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 220,
+    "sold_units_by_type": {
+      "2room": 81
+    },
+    "rental_units_by_type": {
+      "2room": 139
+    }
+  },
+  "407-ang-mo-kio-ave-10": {
+    "blk_no": "407",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560407",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "408-ang-mo-kio-ave-10": {
+    "blk_no": "408",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560408",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "411-ang-mo-kio-ave-10": {
+    "blk_no": "411",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560411",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "412-ang-mo-kio-ave-10": {
+    "blk_no": "412",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560412",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "413-ang-mo-kio-ave-10": {
+    "blk_no": "413",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560413",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "414-ang-mo-kio-ave-10": {
+    "blk_no": "414",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560414",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "415-ang-mo-kio-ave-10": {
+    "blk_no": "415",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "4room": 176
+    }
+  },
+  "416-ang-mo-kio-ave-10": {
+    "blk_no": "416",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560416",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "3room": 158,
+      "4room": 24,
+      "5room": 1,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "417-ang-mo-kio-ave-10": {
+    "blk_no": "417",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560417",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "3room": 182,
+      "4room": 26
+    }
+  },
+  "418-ang-mo-kio-ave-10": {
+    "blk_no": "418",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560418",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 201,
+    "sold_units_by_type": {
+      "3room": 168,
+      "4room": 26,
+      "5room": 1,
+      "exec": 6
+    }
+  },
+  "419-ang-mo-kio-ave-10": {
+    "blk_no": "419",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560419",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "3room": 139,
+      "4room": 22,
+      "5room": 1,
+      "exec": 6
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "420-ang-mo-kio-ave-10": {
+    "blk_no": "420",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560420",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 264
+    }
+  },
+  "421-ang-mo-kio-ave-10": {
+    "blk_no": "421",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560421",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "3room": 111,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "422-ang-mo-kio-ave-3": {
+    "blk_no": "422",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560422",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 171,
+      "4room": 22,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "423-ang-mo-kio-ave-3": {
+    "blk_no": "423",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 20
+    }
+  },
+  "424-ang-mo-kio-ave-3": {
+    "blk_no": "424",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560424",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "3room": 152,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "425-ang-mo-kio-ave-3": {
+    "blk_no": "425",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560425",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "426-ang-mo-kio-ave-3": {
+    "blk_no": "426",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560426",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "427-ang-mo-kio-ave-3": {
+    "blk_no": "427",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560427",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "428-ang-mo-kio-ave-3": {
+    "blk_no": "428",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560428",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "429-ang-mo-kio-ave-3": {
+    "blk_no": "429",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560429",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "430-ang-mo-kio-ave-3": {
+    "blk_no": "430",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560430",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "431-ang-mo-kio-ave-10": {
+    "blk_no": "431",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560431",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "432-ang-mo-kio-ave-10": {
+    "blk_no": "432",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560432",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 22
+    }
+  },
+  "433-ang-mo-kio-ave-10": {
+    "blk_no": "433",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560433",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 105,
+      "4room": 22,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "434-ang-mo-kio-ave-10": {
+    "blk_no": "434",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560434",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 82,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "435-ang-mo-kio-ave-10": {
+    "blk_no": "435",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "436-ang-mo-kio-ave-10": {
+    "blk_no": "436",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560436",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "437-ang-mo-kio-ave-10": {
+    "blk_no": "437",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560437",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "438-ang-mo-kio-ave-10": {
+    "blk_no": "438",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560438",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "439-ang-mo-kio-ave-10": {
+    "blk_no": "439",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560439",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "440-ang-mo-kio-ave-10": {
+    "blk_no": "440",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560440",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "441-ang-mo-kio-ave-10": {
+    "blk_no": "441",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560441",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "442-ang-mo-kio-ave-10": {
+    "blk_no": "442",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560442",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 215,
+    "sold_units_by_type": {
+      "3room": 187,
+      "4room": 22,
+      "5room": 3,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "443-ang-mo-kio-ave-10": {
+    "blk_no": "443",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560443",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 168,
+      "4room": 20,
+      "5room": 5,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "444-ang-mo-kio-ave-10": {
+    "blk_no": "444",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560444",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 215,
+    "sold_units_by_type": {
+      "3room": 187,
+      "4room": 22,
+      "5room": 2,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "445-ang-mo-kio-ave-10": {
+    "blk_no": "445",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560445",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "446-ang-mo-kio-ave-10": {
+    "blk_no": "446",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560446",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 23,
+    "sold_units_by_type": {
+      "3room": 23
+    }
+  },
+  "447-ang-mo-kio-ave-10": {
+    "blk_no": "447",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560447",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 20
+    }
+  },
+  "448-ang-mo-kio-ave-10": {
+    "blk_no": "448",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560448",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 19
+    }
+  },
+  "449-ang-mo-kio-ave-10": {
+    "blk_no": "449",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560449",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 4,
+      "5room": 1
+    }
+  },
+  "450-ang-mo-kio-ave-10": {
+    "blk_no": "450",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560450",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 15
+    }
+  },
+  "451-ang-mo-kio-ave-10": {
+    "blk_no": "451",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560451",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "452-ang-mo-kio-ave-10": {
+    "blk_no": "452",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560452",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 30,
+      "exec": 1
+    }
+  },
+  "453-ang-mo-kio-ave-10": {
+    "blk_no": "453",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560453",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "455a-ang-mo-kio-st-44": {
+    "blk_no": "455A",
+    "street": "ANG MO KIO ST 44",
+    "street_full": "ANG MO KIO STREET 44",
+    "postal": "561455",
+    "town": "ANG MO KIO",
+    "year_completed": 2017,
+    "max_floor_lvl": 34,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66,
+      "5room": 62
+    }
+  },
+  "455b-ang-mo-kio-st-44": {
+    "blk_no": "455B",
+    "street": "ANG MO KIO ST 44",
+    "street_full": "ANG MO KIO STREET 44",
+    "postal": "562455",
+    "town": "ANG MO KIO",
+    "year_completed": 2017,
+    "max_floor_lvl": 34,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 128
+    }
+  },
+  "455c-ang-mo-kio-st-44": {
+    "blk_no": "455C",
+    "street": "ANG MO KIO ST 44",
+    "street_full": "ANG MO KIO STREET 44",
+    "postal": "563455",
+    "town": "ANG MO KIO",
+    "year_completed": 2017,
+    "max_floor_lvl": 33,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 124
+    }
+  },
+  "456-ang-mo-kio-ave-10": {
+    "blk_no": "456",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560456",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 174,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "457-ang-mo-kio-ave-10": {
+    "blk_no": "457",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560457",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 230,
+    "sold_units_by_type": {
+      "3room": 195,
+      "4room": 24,
+      "5room": 6,
+      "exec": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "458-ang-mo-kio-ave-10": {
+    "blk_no": "458",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560458",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "459-ang-mo-kio-ave-10": {
+    "blk_no": "459",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560459",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "460-ang-mo-kio-ave-10": {
+    "blk_no": "460",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560460",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "461-ang-mo-kio-ave-10": {
+    "blk_no": "461",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560461",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "462-ang-mo-kio-ave-10": {
+    "blk_no": "462",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560462",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 104,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "463-ang-mo-kio-ave-10": {
+    "blk_no": "463",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560463",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "3room": 224,
+      "4room": 24,
+      "5room": 3,
+      "exec": 5
+    }
+  },
+  "464-ang-mo-kio-ave-10": {
+    "blk_no": "464",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560464",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "465-ang-mo-kio-ave-10": {
+    "blk_no": "465",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560465",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "3room": 176,
+      "4room": 26,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "466-ang-mo-kio-ave-10": {
+    "blk_no": "466",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "3room": 174,
+      "4room": 26,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "467-ang-mo-kio-ave-10": {
+    "blk_no": "467",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560467",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "468-ang-mo-kio-ave-10": {
+    "blk_no": "468",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560468",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 8
+    }
+  },
+  "469-ang-mo-kio-ave-10": {
+    "blk_no": "469",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560469",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 220,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 220
+    }
+  },
+  "470-ang-mo-kio-ave-10": {
+    "blk_no": "470",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "471-ang-mo-kio-ave-10": {
+    "blk_no": "471",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560471",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "472-ang-mo-kio-ave-10": {
+    "blk_no": "472",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560472",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 144
+    }
+  },
+  "473-ang-mo-kio-ave-10": {
+    "blk_no": "473",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560473",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 142,
+      "4room": 24,
+      "exec": 1
+    }
+  },
+  "474-ang-mo-kio-ave-10": {
+    "blk_no": "474",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560474",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "3room": 134,
+      "4room": 24,
+      "5room": 1,
+      "exec": 4
+    }
+  },
+  "475-ang-mo-kio-ave-10": {
+    "blk_no": "475",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560475",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 137,
+      "4room": 24,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "476-ang-mo-kio-ave-10": {
+    "blk_no": "476",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560476",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 140,
+      "4room": 24,
+      "exec": 2
+    }
+  },
+  "501-ang-mo-kio-ave-5": {
+    "blk_no": "501",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560501",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "502-ang-mo-kio-ave-5": {
+    "blk_no": "502",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560502",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "3room": 134,
+      "4room": 20,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "503-ang-mo-kio-ave-5": {
+    "blk_no": "503",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560503",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 171,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "504-ang-mo-kio-ave-8": {
+    "blk_no": "504",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560504",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "3room": 129,
+      "4room": 20,
+      "5room": 2,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "505-ang-mo-kio-ave-8": {
+    "blk_no": "505",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560505",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 113,
+      "4room": 21,
+      "5room": 1,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 4
+    }
+  },
+  "506-ang-mo-kio-ave-8": {
+    "blk_no": "506",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560506",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 125,
+      "4room": 22,
+      "5room": 2,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "507-ang-mo-kio-ave-8": {
+    "blk_no": "507",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560507",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 125,
+      "4room": 22,
+      "5room": 2,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "508-ang-mo-kio-ave-8": {
+    "blk_no": "508",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560508",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "2room": 59
+    },
+    "rental_units_by_type": {
+      "2room": 101
+    }
+  },
+  "509-ang-mo-kio-ave-8": {
+    "blk_no": "509",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560509",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 123,
+      "4room": 22,
+      "5room": 1,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "510-ang-mo-kio-ave-8": {
+    "blk_no": "510",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560510",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "2room": 58
+    },
+    "rental_units_by_type": {
+      "2room": 102
+    }
+  },
+  "511-ang-mo-kio-ave-8": {
+    "blk_no": "511",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560511",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "512-ang-mo-kio-ave-8": {
+    "blk_no": "512",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560512",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 22,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "513-ang-mo-kio-ave-8": {
+    "blk_no": "513",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560513",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "3room": 134,
+      "4room": 20,
+      "exec": 3
+    }
+  },
+  "520-ang-mo-kio-ave-5": {
+    "blk_no": "520",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560520",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "521-ang-mo-kio-ave-5": {
+    "blk_no": "521",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560521",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "522-ang-mo-kio-ave-5": {
+    "blk_no": "522",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560522",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "523-ang-mo-kio-ave-5": {
+    "blk_no": "523",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560523",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 167,
+      "4room": 24
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "524-ang-mo-kio-ave-5": {
+    "blk_no": "524",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560524",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "3room": 169,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "529-ang-mo-kio-ave-10": {
+    "blk_no": "529",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560529",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 2,
+    "sold_units_by_type": {
+      "3room": 1,
+      "5room": 1
+    }
+  },
+  "530-ang-mo-kio-ave-10": {
+    "blk_no": "530",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560530",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "531-ang-mo-kio-ave-10": {
+    "blk_no": "531",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560531",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 2,
+    "sold_units_by_type": {
+      "3room": 1,
+      "5room": 1
+    }
+  },
+  "532-ang-mo-kio-ave-10": {
+    "blk_no": "532",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560532",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "533-ang-mo-kio-ave-5": {
+    "blk_no": "533",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560533",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "exec": 3
+    }
+  },
+  "534-ang-mo-kio-ave-10": {
+    "blk_no": "534",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560534",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 218,
+    "sold_units_by_type": {
+      "3room": 191,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "535-ang-mo-kio-ave-5": {
+    "blk_no": "535",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560535",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 22,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "536-ang-mo-kio-ave-10": {
+    "blk_no": "536",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560536",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "537-ang-mo-kio-ave-5": {
+    "blk_no": "537",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560537",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "538-ang-mo-kio-ave-5": {
+    "blk_no": "538",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560538",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 215,
+    "sold_units_by_type": {
+      "3room": 189,
+      "4room": 18,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 7
+    }
+  },
+  "539-ang-mo-kio-ave-10": {
+    "blk_no": "539",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560539",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "540-ang-mo-kio-ave-10": {
+    "blk_no": "540",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560540",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 153,
+      "4room": 33,
+      "5room": 2,
+      "exec": 4
+    }
+  },
+  "541-ang-mo-kio-ave-10": {
+    "blk_no": "541",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560541",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "3room": 165,
+      "4room": 21,
+      "5room": 3,
+      "exec": 2
+    }
+  },
+  "542-ang-mo-kio-ave-10": {
+    "blk_no": "542",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560542",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 107,
+      "4room": 22,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "543-ang-mo-kio-ave-10": {
+    "blk_no": "543",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560543",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 109
+    },
+    "rental_units_by_type": {
+      "other_room": 1
+    }
+  },
+  "544-ang-mo-kio-ave-10": {
+    "blk_no": "544",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560544",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "545-ang-mo-kio-ave-10": {
+    "blk_no": "545",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560545",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "546-ang-mo-kio-ave-10": {
+    "blk_no": "546",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560546",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 109
+    },
+    "rental_units_by_type": {
+      "other_room": 1
+    }
+  },
+  "547-ang-mo-kio-ave-10": {
+    "blk_no": "547",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560547",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "548-ang-mo-kio-ave-10": {
+    "blk_no": "548",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560548",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 4,
+      "4room": 4
+    }
+  },
+  "549-ang-mo-kio-ave-10": {
+    "blk_no": "549",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560549",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 85,
+      "4room": 30,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "550-ang-mo-kio-ave-10": {
+    "blk_no": "550",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560550",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 30,
+      "5room": 3,
+      "exec": 3
+    }
+  },
+  "551-ang-mo-kio-ave-10": {
+    "blk_no": "551",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560551",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "552-ang-mo-kio-ave-10": {
+    "blk_no": "552",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560552",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "553-ang-mo-kio-ave-10": {
+    "blk_no": "553",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560553",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "554-ang-mo-kio-ave-10": {
+    "blk_no": "554",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560554",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 4
+    }
+  },
+  "555-ang-mo-kio-ave-10": {
+    "blk_no": "555",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560555",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "556-ang-mo-kio-ave-10": {
+    "blk_no": "556",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560556",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "3room": 160,
+      "4room": 24,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "557-ang-mo-kio-ave-10": {
+    "blk_no": "557",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560557",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "3room": 157,
+      "4room": 24,
+      "5room": 2,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "558-ang-mo-kio-ave-10": {
+    "blk_no": "558",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560558",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "3room": 163,
+      "4room": 23,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1,
+      "other_room": 1
+    }
+  },
+  "559-ang-mo-kio-ave-10": {
+    "blk_no": "559",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560559",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "3room": 159,
+      "4room": 24,
+      "5room": 1,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "560-ang-mo-kio-ave-10": {
+    "blk_no": "560",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560560",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "3room": 163,
+      "4room": 24,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "561-ang-mo-kio-ave-10": {
+    "blk_no": "561",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560561",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "3room": 164,
+      "4room": 22,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "other_room": 2
+    }
+  },
+  "562-ang-mo-kio-ave-3": {
+    "blk_no": "562",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560562",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 95
+    },
+    "rental_units_by_type": {
+      "other_room": 1
+    }
+  },
+  "563-ang-mo-kio-ave-3": {
+    "blk_no": "563",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560563",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 94
+    },
+    "rental_units_by_type": {
+      "other_room": 2
+    }
+  },
+  "564-ang-mo-kio-ave-3": {
+    "blk_no": "564",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560564",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 214,
+    "sold_units_by_type": {
+      "3room": 186,
+      "4room": 23,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2,
+      "other_room": 1
+    }
+  },
+  "565-ang-mo-kio-ave-3": {
+    "blk_no": "565",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560565",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 211,
+    "sold_units_by_type": {
+      "3room": 178,
+      "4room": 23,
+      "5room": 4,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 4,
+      "other_room": 1
+    }
+  },
+  "570-ang-mo-kio-ave-3": {
+    "blk_no": "570",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560570",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "3room": 198,
+      "4room": 20,
+      "5room": 1
+    }
+  },
+  "571-ang-mo-kio-ave-3": {
+    "blk_no": "571",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560571",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 218,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 20,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "572-ang-mo-kio-ave-3": {
+    "blk_no": "572",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560572",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "573-ang-mo-kio-ave-3": {
+    "blk_no": "573",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560573",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "575-ang-mo-kio-ave-10": {
+    "blk_no": "575",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560575",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 123,
+      "4room": 26,
+      "5room": 1,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "576-ang-mo-kio-ave-10": {
+    "blk_no": "576",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560576",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 26,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "577-ang-mo-kio-ave-10": {
+    "blk_no": "577",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560577",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 26,
+      "exec": 2
+    }
+  },
+  "578-ang-mo-kio-ave-10": {
+    "blk_no": "578",
+    "street": "ANG MO KIO AVE 10",
+    "street_full": "ANG MO KIO AVENUE 10",
+    "postal": "560578",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 26,
+      "exec": 3
+    }
+  },
+  "584-ang-mo-kio-ave-3": {
+    "blk_no": "584",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560584",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "585-ang-mo-kio-ave-3": {
+    "blk_no": "585",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560585",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 22,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "586-ang-mo-kio-ave-3": {
+    "blk_no": "586",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560586",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "587-ang-mo-kio-ave-3": {
+    "blk_no": "587",
+    "street": "ANG MO KIO AVE 3",
+    "street_full": "ANG MO KIO AVENUE 3",
+    "postal": "560587",
+    "town": "ANG MO KIO",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "588a-ang-mo-kio-st-52": {
+    "blk_no": "588A",
+    "street": "ANG MO KIO ST 52",
+    "street_full": "ANG MO KIO STREET 52",
+    "postal": "561588",
+    "town": "ANG MO KIO",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 115
+    }
+  },
+  "588b-ang-mo-kio-st-52": {
+    "blk_no": "588B",
+    "street": "ANG MO KIO ST 52",
+    "street_full": "ANG MO KIO STREET 52",
+    "postal": "562588",
+    "town": "ANG MO KIO",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 115
+    }
+  },
+  "588c-ang-mo-kio-st-52": {
+    "blk_no": "588C",
+    "street": "ANG MO KIO ST 52",
+    "street_full": "ANG MO KIO STREET 52",
+    "postal": "563588",
+    "town": "ANG MO KIO",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 115
+    }
+  },
+  "588d-ang-mo-kio-st-52": {
+    "blk_no": "588D",
+    "street": "ANG MO KIO ST 52",
+    "street_full": "ANG MO KIO STREET 52",
+    "postal": "564588",
+    "town": "ANG MO KIO",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "4room": 86,
+      "5room": 57
+    }
+  },
+  "590a-ang-mo-kio-st-51": {
+    "blk_no": "590A",
+    "street": "ANG MO KIO ST 51",
+    "street_full": "ANG MO KIO STREET 51",
+    "postal": "561590",
+    "town": "ANG MO KIO",
+    "year_completed": 2017,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "2room": 59,
+      "3room": 60,
+      "4room": 90,
+      "studio_apartment": 31
+    }
+  },
+  "590b-ang-mo-kio-st-51": {
+    "blk_no": "590B",
+    "street": "ANG MO KIO ST 51",
+    "street_full": "ANG MO KIO STREET 51",
+    "postal": "562590",
+    "town": "ANG MO KIO",
+    "year_completed": 2017,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 224,
+    "sold_units_by_type": {
+      "2room": 51,
+      "3room": 56,
+      "4room": 87,
+      "studio_apartment": 30
+    }
+  },
+  "591a-ang-mo-kio-st-51": {
+    "blk_no": "591A",
+    "street": "ANG MO KIO ST 51",
+    "street_full": "ANG MO KIO STREET 51",
+    "postal": "561591",
+    "town": "ANG MO KIO",
+    "year_completed": 2017,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 248,
+    "sold_units_by_type": {
+      "3room": 62,
+      "4room": 186
+    }
+  },
+  "596a-ang-mo-kio-st-52": {
+    "blk_no": "596A",
+    "street": "ANG MO KIO ST 52",
+    "street_full": "ANG MO KIO STREET 52",
+    "postal": "561596",
+    "town": "ANG MO KIO",
+    "year_completed": 2000,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 81,
+      "5room": 54
+    }
+  },
+  "596b-ang-mo-kio-st-52": {
+    "blk_no": "596B",
+    "street": "ANG MO KIO ST 52",
+    "street_full": "ANG MO KIO STREET 52",
+    "postal": "562596",
+    "town": "ANG MO KIO",
+    "year_completed": 2000,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 81,
+      "5room": 54
+    }
+  },
+  "596c-ang-mo-kio-st-52": {
+    "blk_no": "596C",
+    "street": "ANG MO KIO ST 52",
+    "street_full": "ANG MO KIO STREET 52",
+    "postal": "563596",
+    "town": "ANG MO KIO",
+    "year_completed": 2000,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 81,
+      "5room": 54
+    }
+  },
+  "596d-ang-mo-kio-st-52": {
+    "blk_no": "596D",
+    "street": "ANG MO KIO ST 52",
+    "street_full": "ANG MO KIO STREET 52",
+    "postal": "564596",
+    "town": "ANG MO KIO",
+    "year_completed": 2001,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "4room": 108,
+      "5room": 54
+    }
+  },
+  "601-ang-mo-kio-ave-5": {
+    "blk_no": "601",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "602-ang-mo-kio-ave-5": {
+    "blk_no": "602",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560602",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 22,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "603-ang-mo-kio-ave-5": {
+    "blk_no": "603",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560603",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 20,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "604-ang-mo-kio-ave-5": {
+    "blk_no": "604",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560604",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "605-ang-mo-kio-ave-5": {
+    "blk_no": "605",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560605",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "606-ang-mo-kio-ave-5": {
+    "blk_no": "606",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560606",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "607-ang-mo-kio-ave-4": {
+    "blk_no": "607",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560607",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "3room": 160,
+      "4room": 24,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "608-ang-mo-kio-ave-5": {
+    "blk_no": "608",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560608",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 100,
+      "4room": 20,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "609-ang-mo-kio-ave-4": {
+    "blk_no": "609",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560609",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 40
+    }
+  },
+  "610-ang-mo-kio-ave-4": {
+    "blk_no": "610",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 258,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 60,
+      "5room": 2
+    }
+  },
+  "611-ang-mo-kio-ave-5": {
+    "blk_no": "611",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 24,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "612-ang-mo-kio-ave-4": {
+    "blk_no": "612",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560612",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "4room": 240
+    }
+  },
+  "613-ang-mo-kio-ave-4": {
+    "blk_no": "613",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560613",
+    "town": "ANG MO KIO",
+    "year_completed": 1995,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "614-ang-mo-kio-ave-4": {
+    "blk_no": "614",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560614",
+    "town": "ANG MO KIO",
+    "year_completed": 1995,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "615-ang-mo-kio-ave-4": {
+    "blk_no": "615",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560615",
+    "town": "ANG MO KIO",
+    "year_completed": 1995,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "616-ang-mo-kio-ave-4": {
+    "blk_no": "616",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560616",
+    "town": "ANG MO KIO",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "617-ang-mo-kio-ave-4": {
+    "blk_no": "617",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560617",
+    "town": "ANG MO KIO",
+    "year_completed": 1995,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 68
+    }
+  },
+  "618-ang-mo-kio-ave-4": {
+    "blk_no": "618",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560618",
+    "town": "ANG MO KIO",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "5room": 75
+    }
+  },
+  "619-ang-mo-kio-ave-4": {
+    "blk_no": "619",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560619",
+    "town": "ANG MO KIO",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 30
+    }
+  },
+  "620-ang-mo-kio-ave-9": {
+    "blk_no": "620",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "560620",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "621-ang-mo-kio-ave-9": {
+    "blk_no": "621",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "560621",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 82,
+      "4room": 22,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "622-ang-mo-kio-ave-9": {
+    "blk_no": "622",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "560622",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "623-ang-mo-kio-ave-9": {
+    "blk_no": "623",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "560623",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 84,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "624-ang-mo-kio-ave-4": {
+    "blk_no": "624",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560624",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "3room": 162,
+      "4room": 24,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "625-ang-mo-kio-ave-9": {
+    "blk_no": "625",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "560625",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "626-ang-mo-kio-ave-4": {
+    "blk_no": "626",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560626",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 240
+    }
+  },
+  "627-ang-mo-kio-ave-9": {
+    "blk_no": "627",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "560627",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 33
+    }
+  },
+  "629-ang-mo-kio-ave-4": {
+    "blk_no": "629",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560629",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 7
+    },
+    "rental_units_by_type": {
+      "3room": 2,
+      "other_room": 1
+    }
+  },
+  "630-ang-mo-kio-ave-4": {
+    "blk_no": "630",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560630",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 14
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "631-ang-mo-kio-ave-4": {
+    "blk_no": "631",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560631",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "3room": 179,
+      "4room": 19,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "632-ang-mo-kio-ave-4": {
+    "blk_no": "632",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560632",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 3
+    }
+  },
+  "633-ang-mo-kio-ave-6": {
+    "blk_no": "633",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "NIL",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "3room": 137,
+      "4room": 33,
+      "exec": 3
+    }
+  },
+  "634-ang-mo-kio-ave-6": {
+    "blk_no": "634",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560634",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "635-ang-mo-kio-ave-6": {
+    "blk_no": "635",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560635",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 33,
+      "exec": 2
+    }
+  },
+  "636-ang-mo-kio-ave-6": {
+    "blk_no": "636",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560636",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "637-ang-mo-kio-ave-6": {
+    "blk_no": "637",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560637",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 33,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "638-ang-mo-kio-ave-6": {
+    "blk_no": "638",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560638",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "639-ang-mo-kio-ave-6": {
+    "blk_no": "639",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560639",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 33,
+      "5room": 2
+    }
+  },
+  "640-ang-mo-kio-ave-6": {
+    "blk_no": "640",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560640",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "641-ang-mo-kio-ave-4": {
+    "blk_no": "641",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560641",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 240
+    }
+  },
+  "642-ang-mo-kio-ave-5": {
+    "blk_no": "642",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560642",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "643-ang-mo-kio-ave-5": {
+    "blk_no": "643",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560643",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "3room": 162,
+      "4room": 24,
+      "5room": 3
+    }
+  },
+  "644-ang-mo-kio-ave-4": {
+    "blk_no": "644",
+    "street": "ANG MO KIO AVE 4",
+    "street_full": "ANG MO KIO AVENUE 4",
+    "postal": "560644",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 20,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "645-ang-mo-kio-ave-6": {
+    "blk_no": "645",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560645",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 352,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 352
+    }
+  },
+  "646-ang-mo-kio-ave-6": {
+    "blk_no": "646",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560646",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 144,
+      "4room": 48
+    }
+  },
+  "647-ang-mo-kio-ave-6": {
+    "blk_no": "647",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560647",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 192
+    }
+  },
+  "648-ang-mo-kio-ave-5": {
+    "blk_no": "648",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560648",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "649-ang-mo-kio-ave-5": {
+    "blk_no": "649",
+    "street": "ANG MO KIO AVE 5",
+    "street_full": "ANG MO KIO AVENUE 5",
+    "postal": "560649",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "3room": 176,
+      "4room": 24,
+      "5room": 5,
+      "exec": 3
+    }
+  },
+  "650-ang-mo-kio-st-61": {
+    "blk_no": "650",
+    "street": "ANG MO KIO ST 61",
+    "street_full": "ANG MO KIO STREET 61",
+    "postal": "560650",
+    "town": "ANG MO KIO",
+    "year_completed": 2014,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "2room": 42,
+      "3room": 98,
+      "studio_apartment": 116
+    }
+  },
+  "651a-ang-mo-kio-ave-9": {
+    "blk_no": "651A",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "561651",
+    "town": "ANG MO KIO",
+    "year_completed": 2024,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "2room": 64,
+      "3room": 32,
+      "4room": 61
+    }
+  },
+  "651b-ang-mo-kio-ave-9": {
+    "blk_no": "651B",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "562651",
+    "town": "ANG MO KIO",
+    "year_completed": 2024,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 21,
+      "4room": 90
+    }
+  },
+  "651c-ang-mo-kio-ave-9": {
+    "blk_no": "651C",
+    "street": "ANG MO KIO AVE 9",
+    "street_full": "ANG MO KIO AVENUE 9",
+    "postal": "563651",
+    "town": "ANG MO KIO",
+    "year_completed": 2024,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 34,
+      "4room": 84
+    }
+  },
+  "700a-ang-mo-kio-ave-6": {
+    "blk_no": "700A",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "561700",
+    "town": "ANG MO KIO",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 48
+    }
+  },
+  "700b-ang-mo-kio-ave-6": {
+    "blk_no": "700B",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "562700",
+    "town": "ANG MO KIO",
+    "year_completed": 2000,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 48
+    }
+  },
+  "700c-ang-mo-kio-ave-6": {
+    "blk_no": "700C",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "563700",
+    "town": "ANG MO KIO",
+    "year_completed": 2000,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "702-ang-mo-kio-ave-8": {
+    "blk_no": "702",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560702",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "704-ang-mo-kio-ave-8": {
+    "blk_no": "704",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560704",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 19
+    }
+  },
+  "705-ang-mo-kio-ave-8": {
+    "blk_no": "705",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560705",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "709-ang-mo-kio-ave-8": {
+    "blk_no": "709",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560709",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 28
+    }
+  },
+  "710-ang-mo-kio-ave-8": {
+    "blk_no": "710",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560710",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "713-ang-mo-kio-ave-6": {
+    "blk_no": "713",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560713",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 26
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "714-ang-mo-kio-ave-6": {
+    "blk_no": "714",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560714",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "716-ang-mo-kio-ave-6": {
+    "blk_no": "716",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560716",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "720-ang-mo-kio-ave-6": {
+    "blk_no": "720",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560720",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 28
+    }
+  },
+  "721-ang-mo-kio-ave-8": {
+    "blk_no": "721",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560721",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "722-ang-mo-kio-ave-8": {
+    "blk_no": "722",
+    "street": "ANG MO KIO AVE 8",
+    "street_full": "ANG MO KIO AVENUE 8",
+    "postal": "560722",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "725-ang-mo-kio-ave-6": {
+    "blk_no": "725",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560725",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "727-ang-mo-kio-ave-6": {
+    "blk_no": "727",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560727",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "728-ang-mo-kio-ave-6": {
+    "blk_no": "728",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560728",
+    "town": "ANG MO KIO",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "3room": 38
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "729-ang-mo-kio-ave-6": {
+    "blk_no": "729",
+    "street": "ANG MO KIO AVE 6",
+    "street_full": "ANG MO KIO AVENUE 6",
+    "postal": "560729",
+    "town": "ANG MO KIO",
+    "year_completed": 1979,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  }
+}

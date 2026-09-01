@@ -1,0 +1,7838 @@
+{
+  "101a-punggol-field": {
+    "blk_no": "101A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821101",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 56
+    }
+  },
+  "101b-punggol-field": {
+    "blk_no": "101B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822101",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 92
+    }
+  },
+  "101c-punggol-field": {
+    "blk_no": "101C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823101",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "5room": 86
+    }
+  },
+  "101d-punggol-field": {
+    "blk_no": "101D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824101",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 57
+    }
+  },
+  "102a-punggol-field": {
+    "blk_no": "102A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821102",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 57
+    }
+  },
+  "102b-punggol-field": {
+    "blk_no": "102B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822102",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "5room": 86
+    }
+  },
+  "102c-punggol-field": {
+    "blk_no": "102C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823102",
+    "town": "PUNGGOL",
+    "year_completed": 2000,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 92
+    }
+  },
+  "102d-punggol-field": {
+    "blk_no": "102D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824102",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 56
+    }
+  },
+  "103a-edgefield-plains": {
+    "blk_no": "103A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821103",
+    "town": "PUNGGOL",
+    "year_completed": 2000,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "103b-edgefield-plains": {
+    "blk_no": "103B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822103",
+    "town": "PUNGGOL",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 90
+    }
+  },
+  "103c-edgefield-plains": {
+    "blk_no": "103C",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "823103",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 90
+    }
+  },
+  "104a-edgefield-plains": {
+    "blk_no": "104A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821104",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 60
+    }
+  },
+  "104b-edgefield-plains": {
+    "blk_no": "104B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822104",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 60
+    }
+  },
+  "105a-edgefield-plains": {
+    "blk_no": "105A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821105",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 57
+    }
+  },
+  "105b-edgefield-plains": {
+    "blk_no": "105B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822105",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 57
+    }
+  },
+  "105c-edgefield-plains": {
+    "blk_no": "105C",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "823105",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 57
+    }
+  },
+  "105d-edgefield-plains": {
+    "blk_no": "105D",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "824105",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 57
+    }
+  },
+  "106a-punggol-field": {
+    "blk_no": "106A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821106",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 101
+    }
+  },
+  "106b-punggol-field": {
+    "blk_no": "106B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822106",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 26
+    }
+  },
+  "106c-punggol-field": {
+    "blk_no": "106C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823106",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 44
+    }
+  },
+  "106d-punggol-field": {
+    "blk_no": "106D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824106",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "5room": 86
+    }
+  },
+  "107a-edgefield-plains": {
+    "blk_no": "107A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821107",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "5room": 86
+    }
+  },
+  "107b-edgefield-plains": {
+    "blk_no": "107B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822107",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 58
+    }
+  },
+  "107c-edgefield-plains": {
+    "blk_no": "107C",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "823107",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 58
+    }
+  },
+  "107d-edgefield-plains": {
+    "blk_no": "107D",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "824107",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "5room": 91
+    }
+  },
+  "109a-edgedale-plains": {
+    "blk_no": "109A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821109",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "5room": 86
+    }
+  },
+  "109b-edgedale-plains": {
+    "blk_no": "109B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822109",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 58
+    }
+  },
+  "109c-edgedale-plains": {
+    "blk_no": "109C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823109",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 58
+    }
+  },
+  "109d-edgedale-plains": {
+    "blk_no": "109D",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "824109",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "5room": 91
+    }
+  },
+  "110a-punggol-field": {
+    "blk_no": "110A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821110",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 101
+    }
+  },
+  "110b-punggol-field": {
+    "blk_no": "110B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822110",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 26
+    }
+  },
+  "110c-punggol-field": {
+    "blk_no": "110C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823110",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 44
+    }
+  },
+  "110d-punggol-field": {
+    "blk_no": "110D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824110",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "5room": 86
+    }
+  },
+  "111-edgefield-plains": {
+    "blk_no": "111",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820111",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 33,
+      "exec": 64
+    }
+  },
+  "112-edgefield-plains": {
+    "blk_no": "112",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820112",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 33,
+      "exec": 64
+    }
+  },
+  "114-edgefield-plains": {
+    "blk_no": "114",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820114",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 33,
+      "exec": 96
+    }
+  },
+  "115-edgefield-plains": {
+    "blk_no": "115",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820115",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "116-edgefield-plains": {
+    "blk_no": "116",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820116",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32,
+      "exec": 64
+    }
+  },
+  "117-edgefield-plains": {
+    "blk_no": "117",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820117",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32,
+      "exec": 64
+    }
+  },
+  "118-edgefield-plains": {
+    "blk_no": "118",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820118",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32,
+      "exec": 64
+    }
+  },
+  "120a-edgedale-plains": {
+    "blk_no": "120A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821120",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 80,
+      "5room": 32
+    }
+  },
+  "120b-edgedale-plains": {
+    "blk_no": "120B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822120",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 80,
+      "5room": 32
+    }
+  },
+  "121a-edgedale-plains": {
+    "blk_no": "121A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821121",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 446,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 170,
+      "2room": 276
+    }
+  },
+  "121b-edgedale-plains": {
+    "blk_no": "121B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822121",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 32
+    }
+  },
+  "122a-edgedale-plains": {
+    "blk_no": "122A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821122",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 80,
+      "5room": 32
+    }
+  },
+  "122b-edgedale-plains": {
+    "blk_no": "122B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822122",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 80,
+      "5room": 32
+    }
+  },
+  "126a-edgedale-plains": {
+    "blk_no": "126A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821126",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 96
+    }
+  },
+  "126b-edgedale-plains": {
+    "blk_no": "126B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822126",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "5room": 86
+    }
+  },
+  "126c-edgedale-plains": {
+    "blk_no": "126C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823126",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 70
+    }
+  },
+  "126d-edgedale-plains": {
+    "blk_no": "126D",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "824126",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 92
+    }
+  },
+  "128a-punggol-field-walk": {
+    "blk_no": "128A",
+    "street": "PUNGGOL FIELD WALK",
+    "street_full": "PUNGGOL FIELD WALK",
+    "postal": "821128",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 96
+    }
+  },
+  "128b-punggol-field-walk": {
+    "blk_no": "128B",
+    "street": "PUNGGOL FIELD WALK",
+    "street_full": "PUNGGOL FIELD WALK",
+    "postal": "822128",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "5room": 86
+    }
+  },
+  "128c-punggol-field-walk": {
+    "blk_no": "128C",
+    "street": "PUNGGOL FIELD WALK",
+    "street_full": "PUNGGOL FIELD WALK",
+    "postal": "823128",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 70
+    }
+  },
+  "128d-punggol-field-walk": {
+    "blk_no": "128D",
+    "street": "PUNGGOL FIELD WALK",
+    "street_full": "PUNGGOL FIELD WALK",
+    "postal": "824128",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 92
+    }
+  },
+  "130-edgedale-plains": {
+    "blk_no": "130",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "820130",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 96
+    }
+  },
+  "132-edgedale-plains": {
+    "blk_no": "132",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "820132",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 123
+    }
+  },
+  "133-edgedale-plains": {
+    "blk_no": "133",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "820133",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 103
+    }
+  },
+  "134-edgedale-plains": {
+    "blk_no": "134",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "820134",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 103
+    }
+  },
+  "135-edgedale-plains": {
+    "blk_no": "135",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "820135",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 90
+    }
+  },
+  "138-edgedale-plains": {
+    "blk_no": "138",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "820138",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 96
+    }
+  },
+  "160a-punggol-ctrl": {
+    "blk_no": "160A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821160",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 62
+    }
+  },
+  "160b-punggol-ctrl": {
+    "blk_no": "160B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822160",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 62
+    }
+  },
+  "161a-punggol-ctrl": {
+    "blk_no": "161A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821161",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 72
+    }
+  },
+  "161b-punggol-ctrl": {
+    "blk_no": "161B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822161",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 72
+    }
+  },
+  "162a-punggol-ctrl": {
+    "blk_no": "162A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821162",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 62
+    }
+  },
+  "162b-punggol-ctrl": {
+    "blk_no": "162B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822162",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 62
+    }
+  },
+  "163a-punggol-ctrl": {
+    "blk_no": "163A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821163",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 62
+    }
+  },
+  "163b-punggol-ctrl": {
+    "blk_no": "163B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822163",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 62
+    }
+  },
+  "165a-punggol-ctrl": {
+    "blk_no": "165A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821165",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 72
+    }
+  },
+  "165b-punggol-ctrl": {
+    "blk_no": "165B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822165",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 72
+    }
+  },
+  "166a-punggol-ctrl": {
+    "blk_no": "166A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821166",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 62
+    }
+  },
+  "166b-punggol-ctrl": {
+    "blk_no": "166B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822166",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 62
+    }
+  },
+  "167a-punggol-east": {
+    "blk_no": "167A",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "821167",
+    "town": "PUNGGOL",
+    "year_completed": 2007,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 85
+    }
+  },
+  "167b-punggol-east": {
+    "blk_no": "167B",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "822167",
+    "town": "PUNGGOL",
+    "year_completed": 2007,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 68
+    }
+  },
+  "167c-punggol-east": {
+    "blk_no": "167C",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "823167",
+    "town": "PUNGGOL",
+    "year_completed": 2007,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 68
+    }
+  },
+  "167d-punggol-east": {
+    "blk_no": "167D",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "824167",
+    "town": "PUNGGOL",
+    "year_completed": 2007,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 68
+    }
+  },
+  "168a-punggol-east": {
+    "blk_no": "168A",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "821168",
+    "town": "PUNGGOL",
+    "year_completed": 2007,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 68
+    }
+  },
+  "168b-punggol-east": {
+    "blk_no": "168B",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "822168",
+    "town": "PUNGGOL",
+    "year_completed": 2007,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 68
+    }
+  },
+  "168c-punggol-field": {
+    "blk_no": "168C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823168",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 67,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 16
+    }
+  },
+  "168d-punggol-field": {
+    "blk_no": "168D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 64
+    }
+  },
+  "169a-punggol-field": {
+    "blk_no": "169A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821169",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 29
+    }
+  },
+  "169b-punggol-field": {
+    "blk_no": "169B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822169",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 67,
+    "sold_units_by_type": {
+      "4room": 67
+    }
+  },
+  "169c-punggol-field": {
+    "blk_no": "169C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823169",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 64
+    }
+  },
+  "170a-punggol-field": {
+    "blk_no": "170A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821170",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 67,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 16
+    }
+  },
+  "170b-punggol-field": {
+    "blk_no": "170B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822170",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 16
+    }
+  },
+  "170c-punggol-field": {
+    "blk_no": "170C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823170",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 29
+    }
+  },
+  "171a-edgedale-plains": {
+    "blk_no": "171A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821171",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 58
+    }
+  },
+  "171b-edgedale-plains": {
+    "blk_no": "171B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822171",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "5room": 124
+    }
+  },
+  "171c-edgedale-plains": {
+    "blk_no": "171C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823171",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 102
+    }
+  },
+  "172a-edgedale-plains": {
+    "blk_no": "172A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821172",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 60
+    }
+  },
+  "172b-edgedale-plains": {
+    "blk_no": "172B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822172",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "5room": 126
+    }
+  },
+  "172c-edgedale-plains": {
+    "blk_no": "172C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823172",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 97
+    }
+  },
+  "173a-punggol-field": {
+    "blk_no": "173A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821173",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 128
+    }
+  },
+  "173b-punggol-field": {
+    "blk_no": "173B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822173",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 58
+    }
+  },
+  "173c-punggol-field": {
+    "blk_no": "173C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823173",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 58
+    }
+  },
+  "173d-punggol-field": {
+    "blk_no": "173D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824173",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 90
+    }
+  },
+  "174a-edgedale-plains": {
+    "blk_no": "174A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821174",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 92
+    }
+  },
+  "174b-edgedale-plains": {
+    "blk_no": "174B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822174",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 60
+    }
+  },
+  "174c-edgedale-plains": {
+    "blk_no": "174C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823174",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 60
+    }
+  },
+  "174d-edgedale-plains": {
+    "blk_no": "174D",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "824174",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 76
+    }
+  },
+  "175a-punggol-field": {
+    "blk_no": "175A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821175",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 76
+    }
+  },
+  "175b-punggol-field": {
+    "blk_no": "175B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822175",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 58
+    }
+  },
+  "175c-punggol-field": {
+    "blk_no": "175C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823175",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 58
+    }
+  },
+  "175d-punggol-field": {
+    "blk_no": "175D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824175",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 90
+    }
+  },
+  "176a-edgefield-plains": {
+    "blk_no": "176A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821176",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 92
+    }
+  },
+  "176b-edgefield-plains": {
+    "blk_no": "176B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822176",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 60
+    }
+  },
+  "176c-edgefield-plains": {
+    "blk_no": "176C",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "823176",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 60
+    }
+  },
+  "176d-edgefield-plains": {
+    "blk_no": "176D",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "824176",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 96
+    }
+  },
+  "178-edgefield-plains": {
+    "blk_no": "178",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820178",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 80
+    }
+  },
+  "181-edgefield-plains": {
+    "blk_no": "181",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820181",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 34,
+      "exec": 58
+    }
+  },
+  "182-edgefield-plains": {
+    "blk_no": "182",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820182",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "5room": 28,
+      "exec": 46
+    }
+  },
+  "183-edgefield-plains": {
+    "blk_no": "183",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820183",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 34,
+      "exec": 58
+    }
+  },
+  "184-edgefield-plains": {
+    "blk_no": "184",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820184",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "5room": 28,
+      "exec": 46
+    }
+  },
+  "185-edgefield-plains": {
+    "blk_no": "185",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820185",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 34,
+      "exec": 62
+    }
+  },
+  "186-punggol-ctrl": {
+    "blk_no": "186",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820186",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 32,
+      "exec": 64
+    }
+  },
+  "187-punggol-ctrl": {
+    "blk_no": "187",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820187",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "5room": 26,
+      "exec": 52
+    }
+  },
+  "188-punggol-ctrl": {
+    "blk_no": "188",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820188",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "5room": 31,
+      "exec": 64
+    }
+  },
+  "190-punggol-ctrl": {
+    "blk_no": "190",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820190",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "5room": 31,
+      "exec": 64
+    }
+  },
+  "191-punggol-ctrl": {
+    "blk_no": "191",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820191",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "5room": 26,
+      "exec": 52
+    }
+  },
+  "192-punggol-ctrl": {
+    "blk_no": "192",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820192",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 32,
+      "exec": 64
+    }
+  },
+  "193-edgefield-plains": {
+    "blk_no": "193",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "820193",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 80
+    }
+  },
+  "195a-punggol-rd": {
+    "blk_no": "195A",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "821195",
+    "town": "PUNGGOL",
+    "year_completed": 2005,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "195b-punggol-rd": {
+    "blk_no": "195B",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "822195",
+    "town": "PUNGGOL",
+    "year_completed": 2005,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "195c-punggol-rd": {
+    "blk_no": "195C",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "195d-punggol-rd": {
+    "blk_no": "195D",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "824195",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "195e-punggol-rd": {
+    "blk_no": "195E",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "825195",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "196a-punggol-field": {
+    "blk_no": "196A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821196",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 58
+    }
+  },
+  "196b-punggol-field": {
+    "blk_no": "196B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822196",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 58
+    }
+  },
+  "196c-punggol-field": {
+    "blk_no": "196C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823196",
+    "town": "PUNGGOL",
+    "year_completed": 2000,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "5room": 91
+    }
+  },
+  "196d-punggol-field": {
+    "blk_no": "196D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824196",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 40
+    }
+  },
+  "197a-punggol-field": {
+    "blk_no": "197A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821197",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "5room": 75
+    }
+  },
+  "197b-punggol-field": {
+    "blk_no": "197B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822197",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "5room": 75
+    }
+  },
+  "199a-punggol-field": {
+    "blk_no": "199A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821199",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 58
+    }
+  },
+  "199b-punggol-field": {
+    "blk_no": "199B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822199",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 58
+    }
+  },
+  "199c-punggol-field": {
+    "blk_no": "199C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823199",
+    "town": "PUNGGOL",
+    "year_completed": 2000,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "5room": 91
+    }
+  },
+  "199d-punggol-field": {
+    "blk_no": "199D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824199",
+    "town": "PUNGGOL",
+    "year_completed": 2001,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 40
+    }
+  },
+  "201a-punggol-field": {
+    "blk_no": "201A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821201",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 54
+    }
+  },
+  "201b-punggol-field": {
+    "blk_no": "201B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822201",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 54
+    }
+  },
+  "201c-punggol-field": {
+    "blk_no": "201C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823201",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 52
+    }
+  },
+  "201d-punggol-field": {
+    "blk_no": "201D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824201",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 82
+    }
+  },
+  "202a-punggol-field": {
+    "blk_no": "202A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821202",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 90
+    }
+  },
+  "202b-punggol-field": {
+    "blk_no": "202B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822202",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 60
+    }
+  },
+  "203a-punggol-field": {
+    "blk_no": "203A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821203",
+    "town": "PUNGGOL",
+    "year_completed": 2004,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 60
+    }
+  },
+  "203b-punggol-field": {
+    "blk_no": "203B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822203",
+    "town": "PUNGGOL",
+    "year_completed": 2004,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 90
+    }
+  },
+  "204a-punggol-field": {
+    "blk_no": "204A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821204",
+    "town": "PUNGGOL",
+    "year_completed": 2004,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 82
+    }
+  },
+  "204b-punggol-field": {
+    "blk_no": "204B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822204",
+    "town": "PUNGGOL",
+    "year_completed": 2004,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 52
+    }
+  },
+  "204c-punggol-field": {
+    "blk_no": "204C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823204",
+    "town": "PUNGGOL",
+    "year_completed": 2004,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 54
+    }
+  },
+  "204d-punggol-field": {
+    "blk_no": "204D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824204",
+    "town": "PUNGGOL",
+    "year_completed": 2004,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 54
+    }
+  },
+  "205a-punggol-field": {
+    "blk_no": "205A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821205",
+    "town": "PUNGGOL",
+    "year_completed": 2004,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 60
+    }
+  },
+  "206a-punggol-pl": {
+    "blk_no": "206A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821206",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 375,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 285,
+      "2room": 90
+    }
+  },
+  "207a-punggol-pl": {
+    "blk_no": "207A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821207",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 26
+    }
+  },
+  "207b-punggol-pl": {
+    "blk_no": "207B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "822207",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 41
+    }
+  },
+  "207c-punggol-pl": {
+    "blk_no": "207C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823207",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "3room": 57,
+      "4room": 30
+    }
+  },
+  "207d-punggol-pl": {
+    "blk_no": "207D",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "824207",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 42
+    }
+  },
+  "208a-punggol-pl": {
+    "blk_no": "208A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821208",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 75,
+      "4room": 15
+    }
+  },
+  "208b-punggol-pl": {
+    "blk_no": "208B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "3room": 90,
+      "4room": 15
+    }
+  },
+  "208c-punggol-pl": {
+    "blk_no": "208C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823208",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "3room": 57,
+      "4room": 24
+    }
+  },
+  "209a-punggol-pl": {
+    "blk_no": "209A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 75
+    }
+  },
+  "209b-punggol-pl": {
+    "blk_no": "209B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "822209",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 75
+    }
+  },
+  "209c-punggol-pl": {
+    "blk_no": "209C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823209",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 60
+    }
+  },
+  "210a-punggol-pl": {
+    "blk_no": "210A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821210",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 60
+    }
+  },
+  "210b-punggol-pl": {
+    "blk_no": "210B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "822210",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 60
+    }
+  },
+  "210c-punggol-pl": {
+    "blk_no": "210C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823210",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 60
+    }
+  },
+  "211a-punggol-walk": {
+    "blk_no": "211A",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 3,
+      "3room": 30,
+      "4room": 54,
+      "studio_apartment": 25
+    }
+  },
+  "211b-punggol-walk": {
+    "blk_no": "211B",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "822211",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 28,
+      "4room": 56,
+      "studio_apartment": 36
+    }
+  },
+  "211c-punggol-walk": {
+    "blk_no": "211C",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "823211",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "2room": 3,
+      "3room": 30,
+      "4room": 60,
+      "studio_apartment": 26
+    }
+  },
+  "211d-punggol-walk": {
+    "blk_no": "211D",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "824211",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 6,
+      "3room": 69,
+      "4room": 15,
+      "studio_apartment": 22
+    }
+  },
+  "212a-punggol-walk": {
+    "blk_no": "212A",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "821212",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 45,
+      "4room": 69
+    }
+  },
+  "212b-punggol-walk": {
+    "blk_no": "212B",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "822212",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 60,
+      "4room": 60
+    }
+  },
+  "213a-punggol-walk": {
+    "blk_no": "213A",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "821213",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 59
+    }
+  },
+  "213b-punggol-walk": {
+    "blk_no": "213B",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "822213",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 90
+    }
+  },
+  "213c-punggol-walk": {
+    "blk_no": "213C",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "823213",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 60
+    }
+  },
+  "217a-sumang-walk": {
+    "blk_no": "217A",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "821217",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 63
+    }
+  },
+  "217b-sumang-walk": {
+    "blk_no": "217B",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "822217",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 48
+    }
+  },
+  "217c-sumang-walk": {
+    "blk_no": "217C",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "823217",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 48
+    }
+  },
+  "217d-sumang-walk": {
+    "blk_no": "217D",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "824217",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 60
+    }
+  },
+  "220a-sumang-lane": {
+    "blk_no": "220A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821220",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "2room": 32,
+      "3room": 48,
+      "4room": 78
+    }
+  },
+  "220b-sumang-lane": {
+    "blk_no": "220B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822220",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 80
+    }
+  },
+  "220c-sumang-lane": {
+    "blk_no": "220C",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "823220",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 60,
+      "4room": 60
+    }
+  },
+  "221a-sumang-lane": {
+    "blk_no": "221A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821221",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 90,
+      "4room": 60
+    }
+  },
+  "221b-sumang-lane": {
+    "blk_no": "221B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822221",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "2room": 64,
+      "3room": 32,
+      "4room": 48
+    }
+  },
+  "222a-sumang-lane": {
+    "blk_no": "222A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821222",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "2room": 64,
+      "3room": 32,
+      "4room": 48
+    }
+  },
+  "223a-sumang-lane": {
+    "blk_no": "223A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821223",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 504,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 280,
+      "2room": 224
+    }
+  },
+  "224a-sumang-lane": {
+    "blk_no": "224A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821224",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "224b-sumang-lane": {
+    "blk_no": "224B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822224",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 80
+    }
+  },
+  "224c-sumang-lane": {
+    "blk_no": "224C",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "823224",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "2room": 32,
+      "3room": 48,
+      "4room": 78
+    }
+  },
+  "226a-sumang-lane": {
+    "blk_no": "226A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821226",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "226b-sumang-lane": {
+    "blk_no": "226B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822226",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "226c-sumang-lane": {
+    "blk_no": "226C",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "823226",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 69
+    }
+  },
+  "227a-sumang-lane": {
+    "blk_no": "227A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821227",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 35
+    }
+  },
+  "227b-sumang-lane": {
+    "blk_no": "227B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822227",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 35
+    }
+  },
+  "228a-punggol-field": {
+    "blk_no": "228A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821228",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 60
+    }
+  },
+  "228b-punggol-field": {
+    "blk_no": "228B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822228",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 93,
+      "5room": 30
+    }
+  },
+  "229a-sumang-lane": {
+    "blk_no": "229A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821229",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 60
+    }
+  },
+  "229b-sumang-lane": {
+    "blk_no": "229B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822229",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 45
+    }
+  },
+  "231a-sumang-lane": {
+    "blk_no": "231A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821231",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    }
+  },
+  "231b-sumang-lane": {
+    "blk_no": "231B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822231",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 64
+    }
+  },
+  "232a-sumang-lane": {
+    "blk_no": "232A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821232",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 64
+    }
+  },
+  "232b-sumang-lane": {
+    "blk_no": "232B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822232",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "232c-sumang-lane": {
+    "blk_no": "232C",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "823232",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "2room": 128,
+      "3room": 32,
+      "4room": 32
+    }
+  },
+  "233a-sumang-lane": {
+    "blk_no": "233A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821233",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "2room": 160,
+      "3room": 32
+    }
+  },
+  "233b-sumang-lane": {
+    "blk_no": "233B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822233",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "233c-sumang-lane": {
+    "blk_no": "233C",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "823233",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "234a-sumang-lane": {
+    "blk_no": "234A",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "821234",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 32,
+      "3room": 48,
+      "4room": 32
+    }
+  },
+  "234b-sumang-lane": {
+    "blk_no": "234B",
+    "street": "SUMANG LANE",
+    "street_full": "SUMANG LANE",
+    "postal": "822234",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "256a-sumang-walk": {
+    "blk_no": "256A",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "821256",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "2room": 48,
+      "3room": 16,
+      "4room": 64
+    }
+  },
+  "256b-sumang-walk": {
+    "blk_no": "256B",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "822256",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "2room": 48,
+      "3room": 16,
+      "4room": 64
+    }
+  },
+  "256c-sumang-walk": {
+    "blk_no": "256C",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "823256",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "2room": 32,
+      "3room": 48,
+      "4room": 62
+    }
+  },
+  "256d-sumang-walk": {
+    "blk_no": "256D",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "824256",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 64
+    }
+  },
+  "258a-punggol-field": {
+    "blk_no": "258A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821258",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 30
+    }
+  },
+  "258b-punggol-field": {
+    "blk_no": "258B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822258",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 32
+    }
+  },
+  "258c-punggol-field": {
+    "blk_no": "258C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823258",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 64
+    }
+  },
+  "259a-punggol-field": {
+    "blk_no": "259A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821259",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 30
+    }
+  },
+  "259b-punggol-field": {
+    "blk_no": "259B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822259",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 32
+    }
+  },
+  "259c-punggol-field": {
+    "blk_no": "259C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823259",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 64
+    }
+  },
+  "260a-punggol-way": {
+    "blk_no": "260A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821260",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 32
+    }
+  },
+  "260b-punggol-way": {
+    "blk_no": "260B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822260",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32
+    }
+  },
+  "260c-punggol-way": {
+    "blk_no": "260C",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "823260",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 64
+    }
+  },
+  "261a-punggol-way": {
+    "blk_no": "261A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821261",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 32
+    }
+  },
+  "261b-punggol-way": {
+    "blk_no": "261B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822261",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32
+    }
+  },
+  "261c-punggol-way": {
+    "blk_no": "261C",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "823261",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 64
+    }
+  },
+  "264a-punggol-way": {
+    "blk_no": "264A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821264",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "2room": 9,
+      "4room": 32,
+      "5room": 32,
+      "studio_apartment": 55
+    }
+  },
+  "265a-punggol-way": {
+    "blk_no": "265A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821265",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "2room": 10,
+      "4room": 32,
+      "5room": 32,
+      "studio_apartment": 54
+    }
+  },
+  "265b-punggol-way": {
+    "blk_no": "265B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822265",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32
+    }
+  },
+  "265c-punggol-way": {
+    "blk_no": "265C",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "823265",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32
+    }
+  },
+  "265d-punggol-way": {
+    "blk_no": "265D",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "824265",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32
+    }
+  },
+  "266a-punggol-way": {
+    "blk_no": "266A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821266",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 10,
+      "4room": 30,
+      "5room": 30,
+      "studio_apartment": 50
+    }
+  },
+  "266b-punggol-way": {
+    "blk_no": "266B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822266",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 64
+    }
+  },
+  "266c-punggol-way": {
+    "blk_no": "266C",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "823266",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 64
+    }
+  },
+  "266d-punggol-way": {
+    "blk_no": "266D",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "824266",
+    "town": "PUNGGOL",
+    "year_completed": 2013,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32
+    }
+  },
+  "267a-punggol-field": {
+    "blk_no": "267A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 32
+    }
+  },
+  "267b-punggol-field": {
+    "blk_no": "267B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822267",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 32
+    }
+  },
+  "267c-punggol-field": {
+    "blk_no": "267C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823267",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 13,
+      "5room": 45
+    }
+  },
+  "268a-punggol-field": {
+    "blk_no": "268A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821268",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 59,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 30
+    }
+  },
+  "268b-punggol-field": {
+    "blk_no": "268B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822268",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 2
+    }
+  },
+  "268c-punggol-field": {
+    "blk_no": "268C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823268",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 2
+    }
+  },
+  "268d-punggol-field": {
+    "blk_no": "268D",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "824268",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 17
+    }
+  },
+  "269a-punggol-field": {
+    "blk_no": "269A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821269",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 17
+    }
+  },
+  "269b-punggol-field": {
+    "blk_no": "269B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822269",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 2
+    }
+  },
+  "269c-punggol-field": {
+    "blk_no": "269C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823269",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 17
+    }
+  },
+  "270a-punggol-field": {
+    "blk_no": "270A",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "821270",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 32
+    }
+  },
+  "270b-punggol-field": {
+    "blk_no": "270B",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "822270",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 32
+    }
+  },
+  "270c-punggol-field": {
+    "blk_no": "270C",
+    "street": "PUNGGOL FIELD",
+    "street_full": "PUNGGOL FIELD",
+    "postal": "823270",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 13,
+      "5room": 45
+    }
+  },
+  "271a-punggol-walk": {
+    "blk_no": "271A",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "271b-punggol-walk": {
+    "blk_no": "271B",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "822271",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 32
+    }
+  },
+  "271c-punggol-walk": {
+    "blk_no": "271C",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "823271",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 30
+    }
+  },
+  "271d-punggol-walk": {
+    "blk_no": "271D",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "824271",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "272a-punggol-walk": {
+    "blk_no": "272A",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "821272",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 30
+    }
+  },
+  "272b-punggol-walk": {
+    "blk_no": "272B",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "822272",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 30
+    }
+  },
+  "272c-punggol-walk": {
+    "blk_no": "272C",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "823272",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 32
+    }
+  },
+  "272d-punggol-walk": {
+    "blk_no": "272D",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "824272",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "273a-punggol-pl": {
+    "blk_no": "273A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821273",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "273b-punggol-pl": {
+    "blk_no": "273B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "822273",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 47
+    }
+  },
+  "273c-punggol-pl": {
+    "blk_no": "273C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823273",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 44
+    }
+  },
+  "273d-punggol-pl": {
+    "blk_no": "273D",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "824273",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 89
+    }
+  },
+  "274a-punggol-pl": {
+    "blk_no": "274A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821274",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "274b-punggol-pl": {
+    "blk_no": "274B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 46
+    }
+  },
+  "274c-punggol-pl": {
+    "blk_no": "274C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823274",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 46
+    }
+  },
+  "274d-punggol-pl": {
+    "blk_no": "274D",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "824274",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 92
+    }
+  },
+  "288a-punggol-pl": {
+    "blk_no": "288A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821288",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 45
+    }
+  },
+  "288b-punggol-pl": {
+    "blk_no": "288B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "822288",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 60
+    }
+  },
+  "288c-punggol-pl": {
+    "blk_no": "288C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823288",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 90
+    }
+  },
+  "289a-punggol-pl": {
+    "blk_no": "289A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821289",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 90
+    }
+  },
+  "289b-punggol-pl": {
+    "blk_no": "289B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "822289",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 90
+    }
+  },
+  "289c-punggol-pl": {
+    "blk_no": "289C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823289",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 60
+    }
+  },
+  "289d-punggol-pl": {
+    "blk_no": "289D",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "824289",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 60
+    }
+  },
+  "293-punggol-ctrl": {
+    "blk_no": "293",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820293",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 88
+    }
+  },
+  "294-punggol-ctrl": {
+    "blk_no": "294",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820294",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 89
+    }
+  },
+  "295-punggol-ctrl": {
+    "blk_no": "295",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820295",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 88
+    }
+  },
+  "296-punggol-ctrl": {
+    "blk_no": "296",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820296",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 87
+    }
+  },
+  "297-punggol-ctrl": {
+    "blk_no": "297",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820297",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 60
+    }
+  },
+  "298-punggol-ctrl": {
+    "blk_no": "298",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820298",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 28
+    }
+  },
+  "299-punggol-ctrl": {
+    "blk_no": "299",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820299",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 72
+    }
+  },
+  "301a-punggol-ctrl": {
+    "blk_no": "301A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821301",
+    "town": "PUNGGOL",
+    "year_completed": 2008,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "301b-punggol-ctrl": {
+    "blk_no": "301B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822301",
+    "town": "PUNGGOL",
+    "year_completed": 2008,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 60
+    }
+  },
+  "301c-punggol-ctrl": {
+    "blk_no": "301C",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "823301",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 59,
+    "sold_units_by_type": {
+      "4room": 59
+    }
+  },
+  "301d-punggol-pl": {
+    "blk_no": "301D",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "824301",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 59,
+    "sold_units_by_type": {
+      "4room": 59
+    }
+  },
+  "302a-punggol-pl": {
+    "blk_no": "302A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "821302",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 75
+    }
+  },
+  "302b-punggol-pl": {
+    "blk_no": "302B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "822302",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 60
+    }
+  },
+  "302c-punggol-pl": {
+    "blk_no": "302C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823302",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 60
+    }
+  },
+  "302d-punggol-pl": {
+    "blk_no": "302D",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "824302",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 60
+    }
+  },
+  "303a-punggol-ctrl": {
+    "blk_no": "303A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821303",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 59,
+    "sold_units_by_type": {
+      "4room": 59
+    }
+  },
+  "303b-punggol-ctrl": {
+    "blk_no": "303B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822303",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 60
+    }
+  },
+  "303c-punggol-ctrl": {
+    "blk_no": "303C",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "823303",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 51
+    }
+  },
+  "303d-punggol-pl": {
+    "blk_no": "303D",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "824303",
+    "town": "PUNGGOL",
+    "year_completed": 2009,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 51
+    }
+  },
+  "305a-punggol-rd": {
+    "blk_no": "305A",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "821305",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 64,
+      "5room": 2
+    }
+  },
+  "305b-punggol-rd": {
+    "blk_no": "305B",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "822305",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 64,
+      "5room": 2
+    }
+  },
+  "305d-punggol-dr": {
+    "blk_no": "305D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824305",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 92,
+      "5room": 2
+    }
+  },
+  "306a-punggol-pl": {
+    "blk_no": "306A",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 96,
+      "5room": 2
+    }
+  },
+  "306b-punggol-pl": {
+    "blk_no": "306B",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "822306",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 96,
+      "5room": 2
+    }
+  },
+  "306c-punggol-pl": {
+    "blk_no": "306C",
+    "street": "PUNGGOL PL",
+    "street_full": "PUNGGOL PLACE",
+    "postal": "823306",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 96,
+      "5room": 2
+    }
+  },
+  "306d-punggol-dr": {
+    "blk_no": "306D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824306",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 92,
+      "5room": 2
+    }
+  },
+  "308a-punggol-walk": {
+    "blk_no": "308A",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 456,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 248,
+      "5room": 140
+    }
+  },
+  "308b-punggol-walk": {
+    "blk_no": "308B",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 282,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 166,
+      "5room": 82
+    }
+  },
+  "308c-punggol-walk": {
+    "blk_no": "308C",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "823308",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 334,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 174,
+      "5room": 84
+    }
+  },
+  "310a-punggol-walk": {
+    "blk_no": "310A",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "821310",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 255,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 138,
+      "5room": 85
+    }
+  },
+  "310b-punggol-walk": {
+    "blk_no": "310B",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "822310",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 287,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 170,
+      "5room": 83
+    }
+  },
+  "310c-punggol-walk": {
+    "blk_no": "310C",
+    "street": "PUNGGOL WALK",
+    "street_full": "PUNGGOL WALK",
+    "postal": "823310",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 262,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 132,
+      "5room": 78
+    }
+  },
+  "312a-sumang-link": {
+    "blk_no": "312A",
+    "street": "SUMANG LINK",
+    "street_full": "SUMANG LINK",
+    "postal": "821312",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 28
+    }
+  },
+  "312b-sumang-link": {
+    "blk_no": "312B",
+    "street": "SUMANG LINK",
+    "street_full": "SUMANG LINK",
+    "postal": "822312",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 45
+    }
+  },
+  "312c-sumang-link": {
+    "blk_no": "312C",
+    "street": "SUMANG LINK",
+    "street_full": "SUMANG LINK",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 71,
+      "5room": 43
+    }
+  },
+  "313a-sumang-link": {
+    "blk_no": "313A",
+    "street": "SUMANG LINK",
+    "street_full": "SUMANG LINK",
+    "postal": "821313",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 60,
+      "4room": 90
+    }
+  },
+  "313b-sumang-link": {
+    "blk_no": "313B",
+    "street": "SUMANG LINK",
+    "street_full": "SUMANG LINK",
+    "postal": "822313",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 44
+    }
+  },
+  "313c-sumang-link": {
+    "blk_no": "313C",
+    "street": "SUMANG LINK",
+    "street_full": "SUMANG LINK",
+    "postal": "823313",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 40
+    }
+  },
+  "314a-punggol-way": {
+    "blk_no": "314A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821314",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "314b-punggol-way": {
+    "blk_no": "314B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822314",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 100,
+      "5room": 34
+    }
+  },
+  "315a-punggol-way": {
+    "blk_no": "315A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821315",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "315b-punggol-way": {
+    "blk_no": "315B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822315",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 102,
+      "5room": 32
+    }
+  },
+  "316a-punggol-way": {
+    "blk_no": "316A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821316",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 32,
+      "5room": 36
+    }
+  },
+  "316b-punggol-way": {
+    "blk_no": "316B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822316",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 26,
+      "5room": 37
+    }
+  },
+  "316c-punggol-way": {
+    "blk_no": "316C",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "823316",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 28
+    }
+  },
+  "316d-punggol-way": {
+    "blk_no": "316D",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "824316",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 36
+    }
+  },
+  "322a-sumang-walk": {
+    "blk_no": "322A",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "821322",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 46
+    }
+  },
+  "322b-sumang-walk": {
+    "blk_no": "322B",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "822322",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 46
+    }
+  },
+  "322c-sumang-walk": {
+    "blk_no": "322C",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "823322",
+    "town": "PUNGGOL",
+    "year_completed": 2018,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 57,
+      "4room": 32,
+      "5room": 27
+    }
+  },
+  "322d-sumang-walk": {
+    "blk_no": "322D",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "824322",
+    "town": "PUNGGOL",
+    "year_completed": 2018,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 76,
+      "5room": 37
+    }
+  },
+  "323a-sumang-walk": {
+    "blk_no": "323A",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "821323",
+    "town": "PUNGGOL",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 63
+    }
+  },
+  "323b-sumang-walk": {
+    "blk_no": "323B",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "822323",
+    "town": "PUNGGOL",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 63
+    }
+  },
+  "323c-sumang-walk": {
+    "blk_no": "323C",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "823323",
+    "town": "PUNGGOL",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 48
+    }
+  },
+  "323d-sumang-walk": {
+    "blk_no": "323D",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "824323",
+    "town": "PUNGGOL",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 48
+    }
+  },
+  "325a-sumang-walk": {
+    "blk_no": "325A",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "821325",
+    "town": "PUNGGOL",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 63,
+      "4room": 34,
+      "5room": 27
+    }
+  },
+  "325b-sumang-walk": {
+    "blk_no": "325B",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "822325",
+    "town": "PUNGGOL",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 63,
+      "4room": 34,
+      "5room": 27
+    }
+  },
+  "326a-sumang-walk": {
+    "blk_no": "326A",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "821326",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 120,
+      "2room": 120
+    }
+  },
+  "326b-sumang-walk": {
+    "blk_no": "326B",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "822326",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 95,
+      "2room": 95
+    }
+  },
+  "326c-sumang-walk": {
+    "blk_no": "326C",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "823326",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "2room": 38,
+      "3room": 76
+    }
+  },
+  "327a-sumang-walk": {
+    "blk_no": "327A",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "821327",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "2room": 80,
+      "3room": 80
+    }
+  },
+  "327b-sumang-walk": {
+    "blk_no": "327B",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "822327",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "2room": 114,
+      "3room": 38
+    }
+  },
+  "327c-sumang-walk": {
+    "blk_no": "327C",
+    "street": "SUMANG WALK",
+    "street_full": "SUMANG WALK",
+    "postal": "823327",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "2room": 72,
+      "3room": 72
+    }
+  },
+  "401a-northshore-dr": {
+    "blk_no": "401A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821401",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 112,
+      "5room": 38
+    }
+  },
+  "402a-northshore-dr": {
+    "blk_no": "402A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821402",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 79
+    }
+  },
+  "402b-northshore-dr": {
+    "blk_no": "402B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822402",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 79
+    }
+  },
+  "405a-northshore-dr": {
+    "blk_no": "405A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821405",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 104,
+      "4room": 36
+    }
+  },
+  "405b-northshore-dr": {
+    "blk_no": "405B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822405",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 103,
+      "4room": 36
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "406a-northshore-dr": {
+    "blk_no": "406A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821406",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 34,
+      "5room": 44
+    }
+  },
+  "406b-northshore-dr": {
+    "blk_no": "406B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822406",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 56,
+      "5room": 22
+    }
+  },
+  "406c-northshore-dr": {
+    "blk_no": "406C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823406",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 40,
+      "4room": 65,
+      "5room": 23
+    }
+  },
+  "408a-northshore-dr": {
+    "blk_no": "408A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821408",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "2room": 130,
+      "4room": 36
+    }
+  },
+  "408b-northshore-dr": {
+    "blk_no": "408B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822408",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 104,
+      "4room": 36
+    }
+  },
+  "408c-northshore-dr": {
+    "blk_no": "408C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823408",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 104,
+      "4room": 36
+    }
+  },
+  "409a-northshore-dr": {
+    "blk_no": "409A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821409",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 33,
+      "5room": 44
+    }
+  },
+  "409b-northshore-dr": {
+    "blk_no": "409B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822409",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 58,
+      "5room": 23
+    }
+  },
+  "409c-northshore-dr": {
+    "blk_no": "409C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823409",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 58,
+      "5room": 23
+    }
+  },
+  "409d-northshore-dr": {
+    "blk_no": "409D",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "824409",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 35,
+      "5room": 46
+    }
+  },
+  "410a-northshore-dr": {
+    "blk_no": "410A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821410",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 185,
+    "sold_units_by_type": {
+      "2room": 66,
+      "3room": 48,
+      "4room": 71
+    }
+  },
+  "411a-northshore-dr": {
+    "blk_no": "411A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821411",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 66,
+      "3room": 23,
+      "4room": 23
+    }
+  },
+  "411b-northshore-dr": {
+    "blk_no": "411B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822411",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 66,
+      "3room": 23,
+      "4room": 23
+    }
+  },
+  "413a-northshore-dr": {
+    "blk_no": "413A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821413",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 26,
+      "3room": 58,
+      "4room": 28
+    }
+  },
+  "413b-northshore-dr": {
+    "blk_no": "413B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822413",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "2room": 98,
+      "3room": 19,
+      "4room": 18
+    }
+  },
+  "413c-northshore-dr": {
+    "blk_no": "413C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823413",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "2room": 26,
+      "3room": 39,
+      "4room": 44
+    }
+  },
+  "415a-northshore-dr": {
+    "blk_no": "415A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821415",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 73
+    }
+  },
+  "415b-northshore-dr": {
+    "blk_no": "415B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822415",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 35
+    }
+  },
+  "415c-northshore-dr": {
+    "blk_no": "415C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823415",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 70
+    }
+  },
+  "415d-northshore-dr": {
+    "blk_no": "415D",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "824415",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 47
+    }
+  },
+  "419a-northshore-dr": {
+    "blk_no": "419A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821419",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "2room": 24,
+      "3room": 38,
+      "4room": 43
+    }
+  },
+  "419b-northshore-dr": {
+    "blk_no": "419B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822419",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 81,
+      "3room": 19,
+      "4room": 18
+    }
+  },
+  "419c-northshore-dr": {
+    "blk_no": "419C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823419",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 81,
+      "3room": 19,
+      "4room": 18
+    }
+  },
+  "419d-northshore-dr": {
+    "blk_no": "419D",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "824419",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "2room": 26,
+      "3room": 39,
+      "4room": 44
+    }
+  },
+  "420a-northshore-dr": {
+    "blk_no": "420A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821420",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 73,
+      "5room": 47
+    }
+  },
+  "420b-northshore-dr": {
+    "blk_no": "420B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822420",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 35
+    }
+  },
+  "420c-northshore-dr": {
+    "blk_no": "420C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823420",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 35
+    }
+  },
+  "420d-northshore-dr": {
+    "blk_no": "420D",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "824420",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 147,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 72
+    }
+  },
+  "421a-northshore-dr": {
+    "blk_no": "421A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821421",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 212,
+    "sold_units_by_type": {
+      "2room": 162,
+      "3room": 50
+    }
+  },
+  "421b-northshore-dr": {
+    "blk_no": "421B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822421",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 236,
+    "sold_units_by_type": {
+      "2room": 144,
+      "4room": 92
+    }
+  },
+  "421c-northshore-dr": {
+    "blk_no": "421C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823421",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 211,
+    "sold_units_by_type": {
+      "2room": 163,
+      "3room": 48
+    }
+  },
+  "422a-northshore-dr": {
+    "blk_no": "422A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821422",
+    "town": "PUNGGOL",
+    "year_completed": 2020,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 181,
+    "sold_units_by_type": {
+      "4room": 86,
+      "5room": 95
+    }
+  },
+  "422b-northshore-dr": {
+    "blk_no": "422B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822422",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 181,
+    "sold_units_by_type": {
+      "4room": 86,
+      "5room": 95
+    }
+  },
+  "423a-northshore-cres": {
+    "blk_no": "423A",
+    "street": "NORTHSHORE CRES",
+    "street_full": "NORTHSHORE CRESCENT",
+    "postal": "821423",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "2room": 167,
+      "3room": 24,
+      "4room": 49
+    }
+  },
+  "423b-northshore-cres": {
+    "blk_no": "423B",
+    "street": "NORTHSHORE CRES",
+    "street_full": "NORTHSHORE CRESCENT",
+    "postal": "822423",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "2room": 143,
+      "3room": 48
+    }
+  },
+  "425a-northshore-cres": {
+    "blk_no": "425A",
+    "street": "NORTHSHORE CRES",
+    "street_full": "NORTHSHORE CRESCENT",
+    "postal": "821425",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 64,
+      "5room": 88
+    }
+  },
+  "425b-northshore-cres": {
+    "blk_no": "425B",
+    "street": "NORTHSHORE CRES",
+    "street_full": "NORTHSHORE CRESCENT",
+    "postal": "822425",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 94,
+      "5room": 82
+    }
+  },
+  "431b-northshore-dr": {
+    "blk_no": "431B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822431",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "2room": 103,
+      "3room": 20,
+      "4room": 21
+    }
+  },
+  "431c-northshore-dr": {
+    "blk_no": "431C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823431",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "2room": 82,
+      "3room": 30,
+      "4room": 46
+    }
+  },
+  "432a-northshore-dr": {
+    "blk_no": "432A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821432",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 20,
+      "4room": 36
+    }
+  },
+  "432b-northshore-dr": {
+    "blk_no": "432B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822432",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 60
+    }
+  },
+  "433a-northshore-dr": {
+    "blk_no": "433A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821433",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 62
+    }
+  },
+  "433b-northshore-dr": {
+    "blk_no": "433B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822433",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "2room": 82,
+      "3room": 28,
+      "4room": 46
+    }
+  },
+  "435a-northshore-dr": {
+    "blk_no": "435A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821435",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "2room": 65,
+      "4room": 77
+    }
+  },
+  "435b-northshore-dr": {
+    "blk_no": "435B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822435",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "2room": 107,
+      "3room": 18,
+      "4room": 83
+    }
+  },
+  "436a-northshore-dr": {
+    "blk_no": "436A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821436",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "4room": 107,
+      "5room": 34
+    }
+  },
+  "436b-northshore-dr": {
+    "blk_no": "436B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822436",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 55
+    }
+  },
+  "437a-northshore-dr": {
+    "blk_no": "437A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821437",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 57
+    }
+  },
+  "437b-northshore-dr": {
+    "blk_no": "437B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822437",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 183,
+    "sold_units_by_type": {
+      "4room": 99,
+      "5room": 84
+    }
+  },
+  "438a-northshore-dr": {
+    "blk_no": "438A",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "821438",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 241,
+    "sold_units_by_type": {
+      "2room": 207,
+      "3room": 34
+    }
+  },
+  "438b-northshore-dr": {
+    "blk_no": "438B",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "822438",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 273,
+    "sold_units_by_type": {
+      "2room": 227,
+      "3room": 46
+    }
+  },
+  "438c-northshore-dr": {
+    "blk_no": "438C",
+    "street": "NORTHSHORE DR",
+    "street_full": "NORTHSHORE DRIVE",
+    "postal": "823438",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 110,
+      "4room": 66
+    }
+  },
+  "442a-new-punggol-rd": {
+    "blk_no": "442A",
+    "street": "NEW PUNGGOL RD",
+    "street_full": "NEW PUNGGOL ROAD",
+    "postal": "821442",
+    "town": "PUNGGOL",
+    "year_completed": 2025,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "3room": 25,
+      "4room": 97,
+      "5room": 72
+    }
+  },
+  "442b-new-punggol-rd": {
+    "blk_no": "442B",
+    "street": "NEW PUNGGOL RD",
+    "street_full": "NEW PUNGGOL ROAD",
+    "postal": "822442",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "2room": 101,
+      "3room": 14,
+      "4room": 14
+    }
+  },
+  "443a-new-punggol-rd": {
+    "blk_no": "443A",
+    "street": "NEW PUNGGOL RD",
+    "street_full": "NEW PUNGGOL ROAD",
+    "postal": "821443",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "4room": 140,
+      "5room": 48
+    }
+  },
+  "443b-new-punggol-rd": {
+    "blk_no": "443B",
+    "street": "NEW PUNGGOL RD",
+    "street_full": "NEW PUNGGOL ROAD",
+    "postal": "822443",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "2room": 76,
+      "3room": 45,
+      "4room": 14
+    }
+  },
+  "445a-new-punggol-rd": {
+    "blk_no": "445A",
+    "street": "NEW PUNGGOL RD",
+    "street_full": "NEW PUNGGOL ROAD",
+    "postal": "821445",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 324,
+    "sold_units_by_type": {
+      "2room": 189,
+      "4room": 90,
+      "5room": 45
+    }
+  },
+  "445b-new-punggol-rd": {
+    "blk_no": "445B",
+    "street": "NEW PUNGGOL RD",
+    "street_full": "NEW PUNGGOL ROAD",
+    "postal": "822445",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 209,
+    "sold_units_by_type": {
+      "2room": 178,
+      "3room": 7,
+      "4room": 16,
+      "5room": 8
+    }
+  },
+  "446a-punggol-way": {
+    "blk_no": "446A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821446",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 40,
+      "4room": 60,
+      "5room": 40
+    }
+  },
+  "446b-punggol-way": {
+    "blk_no": "446B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822446",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 318,
+    "sold_units_by_type": {
+      "2room": 151,
+      "4room": 84,
+      "5room": 83
+    }
+  },
+  "447a-punggol-way": {
+    "blk_no": "447A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821447",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 320,
+    "sold_units_by_type": {
+      "2room": 149,
+      "4room": 86,
+      "5room": 85
+    }
+  },
+  "448a-punggol-way": {
+    "blk_no": "448A",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "821448",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "2room": 105,
+      "3room": 26,
+      "4room": 42,
+      "5room": 23
+    }
+  },
+  "448b-punggol-way": {
+    "blk_no": "448B",
+    "street": "PUNGGOL WAY",
+    "street_full": "PUNGGOL WAY",
+    "postal": "822448",
+    "town": "PUNGGOL",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 103,
+      "3room": 26,
+      "4room": 40,
+      "5room": 35
+    }
+  },
+  "601a-punggol-ctrl": {
+    "blk_no": "601A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821601",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 30,
+      "4room": 44
+    }
+  },
+  "601b-punggol-ctrl": {
+    "blk_no": "601B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822601",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 30,
+      "4room": 45
+    }
+  },
+  "601c-punggol-ctrl": {
+    "blk_no": "601C",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "823601",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 30,
+      "4room": 45
+    }
+  },
+  "601d-punggol-ctrl": {
+    "blk_no": "601D",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "824601",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 30,
+      "4room": 45
+    }
+  },
+  "602a-punggol-ctrl": {
+    "blk_no": "602A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821602",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 30,
+      "4room": 45
+    }
+  },
+  "602b-punggol-ctrl": {
+    "blk_no": "602B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822602",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 30,
+      "4room": 45
+    }
+  },
+  "602c-punggol-ctrl": {
+    "blk_no": "602C",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "823602",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 30,
+      "4room": 44
+    }
+  },
+  "603a-punggol-rd": {
+    "blk_no": "603A",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "821603",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "603b-punggol-rd": {
+    "blk_no": "603B",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "822603",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "603c-punggol-rd": {
+    "blk_no": "603C",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "823603",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 52
+    }
+  },
+  "604a-punggol-rd": {
+    "blk_no": "604A",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "821604",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "604b-punggol-rd": {
+    "blk_no": "604B",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "822604",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "604c-punggol-rd": {
+    "blk_no": "604C",
+    "street": "PUNGGOL RD",
+    "street_full": "PUNGGOL ROAD",
+    "postal": "823604",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 52
+    }
+  },
+  "612a-punggol-dr": {
+    "blk_no": "612A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821612",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "612b-punggol-dr": {
+    "blk_no": "612B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822612",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "612c-punggol-dr": {
+    "blk_no": "612C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823612",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "612d-punggol-dr": {
+    "blk_no": "612D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824612",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "613a-punggol-dr": {
+    "blk_no": "613A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821613",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "613b-punggol-dr": {
+    "blk_no": "613B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822613",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 60
+    }
+  },
+  "613c-punggol-dr": {
+    "blk_no": "613C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823613",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 64
+    }
+  },
+  "613d-punggol-dr": {
+    "blk_no": "613D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824613",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "614a-edgefield-plains": {
+    "blk_no": "614A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821614",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "614b-edgefield-plains": {
+    "blk_no": "614B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822614",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "615a-edgefield-plains": {
+    "blk_no": "615A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821615",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 95
+    }
+  },
+  "615b-edgefield-plains": {
+    "blk_no": "615B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 95
+    }
+  },
+  "615c-edgefield-plains": {
+    "blk_no": "615C",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "823615",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "617a-punggol-dr": {
+    "blk_no": "617A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821617",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "617b-punggol-dr": {
+    "blk_no": "617B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822617",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 47
+    }
+  },
+  "617c-punggol-dr": {
+    "blk_no": "617C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823617",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 46
+    }
+  },
+  "617d-punggol-dr": {
+    "blk_no": "617D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824617",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "618a-punggol-dr": {
+    "blk_no": "618A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821618",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "618b-punggol-dr": {
+    "blk_no": "618B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822618",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 47
+    }
+  },
+  "618c-punggol-dr": {
+    "blk_no": "618C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823618",
+    "town": "PUNGGOL",
+    "year_completed": 2011,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 46
+    }
+  },
+  "618d-punggol-dr": {
+    "blk_no": "618D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824618",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "619a-punggol-dr": {
+    "blk_no": "619A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821619",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 92
+    }
+  },
+  "619b-punggol-dr": {
+    "blk_no": "619B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822619",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 92
+    }
+  },
+  "619c-punggol-dr": {
+    "blk_no": "619C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823619",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 92
+    }
+  },
+  "619d-punggol-dr": {
+    "blk_no": "619D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824619",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 92
+    }
+  },
+  "621a-edgefield-walk": {
+    "blk_no": "621A",
+    "street": "EDGEFIELD WALK",
+    "street_full": "EDGEFIELD WALK",
+    "postal": "821621",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 208,
+      "2room": 48
+    }
+  },
+  "621b-edgefield-walk": {
+    "blk_no": "621B",
+    "street": "EDGEFIELD WALK",
+    "street_full": "EDGEFIELD WALK",
+    "postal": "822621",
+    "town": "PUNGGOL",
+    "year_completed": 2010,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 208,
+      "2room": 48
+    }
+  },
+  "622a-punggol-ctrl": {
+    "blk_no": "622A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821622",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 51,
+      "4room": 49
+    }
+  },
+  "622b-punggol-ctrl": {
+    "blk_no": "622B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822622",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "2room": 48,
+      "3room": 33,
+      "4room": 51
+    }
+  },
+  "622c-punggol-ctrl": {
+    "blk_no": "622C",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "2room": 49,
+      "3room": 33,
+      "4room": 50
+    }
+  },
+  "623a-punggol-ctrl": {
+    "blk_no": "623A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821623",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 51,
+      "4room": 51
+    }
+  },
+  "623b-punggol-ctrl": {
+    "blk_no": "623B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822623",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "2room": 51,
+      "3room": 34,
+      "4room": 51
+    }
+  },
+  "623c-punggol-ctrl": {
+    "blk_no": "623C",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "823623",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 49,
+      "4room": 51
+    }
+  },
+  "624a-punggol-ctrl": {
+    "blk_no": "624A",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "821624",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 102
+    }
+  },
+  "624b-punggol-ctrl": {
+    "blk_no": "624B",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "822624",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 101
+    }
+  },
+  "624c-punggol-ctrl": {
+    "blk_no": "624C",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "823624",
+    "town": "PUNGGOL",
+    "year_completed": 2012,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "2room": 51,
+      "3room": 34,
+      "4room": 50
+    }
+  },
+  "632a-punggol-dr": {
+    "blk_no": "632A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821632",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 63
+    }
+  },
+  "632b-punggol-dr": {
+    "blk_no": "632B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822632",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 63
+    }
+  },
+  "632c-punggol-dr": {
+    "blk_no": "632C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823632",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 51
+    }
+  },
+  "633a-punggol-dr": {
+    "blk_no": "633A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821633",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 63
+    }
+  },
+  "633b-punggol-dr": {
+    "blk_no": "633B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822633",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 51
+    }
+  },
+  "635a-punggol-dr": {
+    "blk_no": "635A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821635",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 63
+    }
+  },
+  "635b-punggol-dr": {
+    "blk_no": "635B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822635",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 63
+    }
+  },
+  "635c-punggol-dr": {
+    "blk_no": "635C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823635",
+    "town": "PUNGGOL",
+    "year_completed": 2007,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 51
+    }
+  },
+  "636a-punggol-dr": {
+    "blk_no": "636A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821636",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 63
+    }
+  },
+  "636b-punggol-dr": {
+    "blk_no": "636B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822636",
+    "town": "PUNGGOL",
+    "year_completed": 2006,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 51
+    }
+  },
+  "637a-punggol-dr": {
+    "blk_no": "637A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821637",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 64
+    }
+  },
+  "637b-punggol-dr": {
+    "blk_no": "637B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822637",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 58
+    }
+  },
+  "637c-punggol-dr": {
+    "blk_no": "637C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823637",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 58
+    }
+  },
+  "637d-punggol-dr": {
+    "blk_no": "637D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 63
+    }
+  },
+  "638a-punggol-dr": {
+    "blk_no": "638A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821638",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 64
+    }
+  },
+  "638b-punggol-dr": {
+    "blk_no": "638B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822638",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 61
+    }
+  },
+  "638c-punggol-dr": {
+    "blk_no": "638C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823638",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 61
+    }
+  },
+  "641a-punggol-dr": {
+    "blk_no": "641A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821641",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 64
+    }
+  },
+  "641b-punggol-dr": {
+    "blk_no": "641B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822641",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 61
+    }
+  },
+  "641c-punggol-dr": {
+    "blk_no": "641C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823641",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 61
+    }
+  },
+  "642a-punggol-dr": {
+    "blk_no": "642A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821642",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 64
+    }
+  },
+  "642b-punggol-dr": {
+    "blk_no": "642B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822642",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 58
+    }
+  },
+  "642c-punggol-dr": {
+    "blk_no": "642C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823642",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 58
+    }
+  },
+  "642d-punggol-dr": {
+    "blk_no": "642D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824642",
+    "town": "PUNGGOL",
+    "year_completed": 2002,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 63
+    }
+  },
+  "643-punggol-ctrl": {
+    "blk_no": "643",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820643",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 74
+    }
+  },
+  "645-punggol-ctrl": {
+    "blk_no": "645",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820645",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 68
+    }
+  },
+  "646-punggol-ctrl": {
+    "blk_no": "646",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820646",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 60
+    }
+  },
+  "647-punggol-ctrl": {
+    "blk_no": "647",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820647",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 70
+    }
+  },
+  "648-punggol-ctrl": {
+    "blk_no": "648",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820648",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 74
+    }
+  },
+  "649-punggol-ctrl": {
+    "blk_no": "649",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820649",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 80
+    }
+  },
+  "651-punggol-ctrl": {
+    "blk_no": "651",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820651",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 60
+    }
+  },
+  "652-punggol-ctrl": {
+    "blk_no": "652",
+    "street": "PUNGGOL CTRL",
+    "street_full": "PUNGGOL CENTRAL",
+    "postal": "820652",
+    "town": "PUNGGOL",
+    "year_completed": 2003,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 70
+    }
+  },
+  "653a-punggol-dr": {
+    "blk_no": "653A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821653",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "2room": 119,
+      "4room": 70
+    }
+  },
+  "653b-punggol-dr": {
+    "blk_no": "653B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822653",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "2room": 102,
+      "3room": 34,
+      "4room": 70
+    }
+  },
+  "653c-punggol-dr": {
+    "blk_no": "653C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823653",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "2room": 126,
+      "4room": 68
+    }
+  },
+  "654a-punggol-dr": {
+    "blk_no": "654A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821654",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 98
+    }
+  },
+  "654b-punggol-dr": {
+    "blk_no": "654B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822654",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 86
+    }
+  },
+  "654c-punggol-dr": {
+    "blk_no": "654C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823654",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "2room": 56,
+      "3room": 21,
+      "4room": 28
+    }
+  },
+  "654d-punggol-dr": {
+    "blk_no": "654D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824654",
+    "town": "PUNGGOL",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 96
+    }
+  },
+  "655a-punggol-east": {
+    "blk_no": "655A",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "821655",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 96
+    }
+  },
+  "655b-punggol-east": {
+    "blk_no": "655B",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "822655",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 161,
+    "sold_units_by_type": {
+      "2room": 119,
+      "5room": 42
+    }
+  },
+  "655c-punggol-east": {
+    "blk_no": "655C",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "823655",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 33
+    }
+  },
+  "656a-punggol-east": {
+    "blk_no": "656A",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "821656",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 119,
+      "4room": 51,
+      "5room": 34
+    }
+  },
+  "656b-punggol-east": {
+    "blk_no": "656B",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "822656",
+    "town": "PUNGGOL",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "2room": 102,
+      "3room": 34,
+      "4room": 53,
+      "5room": 17
+    }
+  },
+  "656c-punggol-east": {
+    "blk_no": "656C",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "823656",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "2room": 122,
+      "4room": 34,
+      "5room": 34
+    }
+  },
+  "657a-punggol-east": {
+    "blk_no": "657A",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "821657",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "2room": 90,
+      "3room": 30,
+      "4room": 47,
+      "5room": 15
+    }
+  },
+  "657b-punggol-east": {
+    "blk_no": "657B",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "822657",
+    "town": "PUNGGOL",
+    "year_completed": 2022,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "2room": 119,
+      "4room": 6,
+      "5room": 28
+    }
+  },
+  "658a-punggol-east": {
+    "blk_no": "658A",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "821658",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 34,
+      "5room": 26
+    }
+  },
+  "658b-punggol-east": {
+    "blk_no": "658B",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "822658",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 34
+    }
+  },
+  "658c-punggol-east": {
+    "blk_no": "658C",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "823658",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 60
+    }
+  },
+  "659a-punggol-east": {
+    "blk_no": "659A",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "821659",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 68
+    }
+  },
+  "659b-punggol-east": {
+    "blk_no": "659B",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "822659",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 50,
+      "4room": 34
+    }
+  },
+  "659c-punggol-east": {
+    "blk_no": "659C",
+    "street": "PUNGGOL EAST",
+    "street_full": "PUNGGOL EAST",
+    "postal": "823659",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "2room": 70,
+      "3room": 12,
+      "4room": 40
+    }
+  },
+  "661a-edgedale-plains": {
+    "blk_no": "661A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821661",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "3room": 50,
+      "4room": 85
+    }
+  },
+  "661b-edgedale-plains": {
+    "blk_no": "661B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822661",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 49
+    }
+  },
+  "661c-edgedale-plains": {
+    "blk_no": "661C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823661",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 76
+    }
+  },
+  "662a-edgedale-plains": {
+    "blk_no": "662A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821662",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "3room": 50,
+      "4room": 85
+    }
+  },
+  "662b-edgedale-plains": {
+    "blk_no": "662B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822662",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 70
+    }
+  },
+  "662c-edgedale-plains": {
+    "blk_no": "662C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823662",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 23,
+      "5room": 62
+    }
+  },
+  "662d-edgedale-plains": {
+    "blk_no": "662D",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "824662",
+    "town": "PUNGGOL",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 75
+    }
+  },
+  "663a-punggol-dr": {
+    "blk_no": "663A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 215,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 66,
+      "5room": 32
+    }
+  },
+  "663b-punggol-dr": {
+    "blk_no": "663B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822663",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 62
+    }
+  },
+  "663c-punggol-dr": {
+    "blk_no": "663C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823663",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 34
+    }
+  },
+  "664a-punggol-dr": {
+    "blk_no": "664A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821664",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68,
+      "5room": 34
+    }
+  },
+  "664b-punggol-dr": {
+    "blk_no": "664B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822664",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 54
+    }
+  },
+  "665a-punggol-dr": {
+    "blk_no": "665A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 32
+    }
+  },
+  "665b-punggol-dr": {
+    "blk_no": "665B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822665",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 32
+    }
+  },
+  "665c-punggol-dr": {
+    "blk_no": "665C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823665",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 96,
+      "5room": 32
+    }
+  },
+  "666a-punggol-dr": {
+    "blk_no": "666A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821666",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 32,
+      "5room": 34
+    }
+  },
+  "666b-punggol-dr": {
+    "blk_no": "666B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822666",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 66
+    }
+  },
+  "667a-punggol-dr": {
+    "blk_no": "667A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821667",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "667b-punggol-dr": {
+    "blk_no": "667B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822667",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 12,
+      "5room": 24
+    }
+  },
+  "668a-edgefield-plains": {
+    "blk_no": "668A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821668",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 28
+    }
+  },
+  "668b-edgefield-plains": {
+    "blk_no": "668B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822668",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 44
+    }
+  },
+  "669a-edgefield-plains": {
+    "blk_no": "669A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821669",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "5room": 68
+    }
+  },
+  "669b-edgefield-plains": {
+    "blk_no": "669B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822669",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 74,
+      "5room": 74
+    }
+  },
+  "670a-edgefield-plains": {
+    "blk_no": "670A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821670",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 94,
+      "4room": 32,
+      "exec": 1
+    }
+  },
+  "670b-edgefield-plains": {
+    "blk_no": "670B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822670",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 32
+    }
+  },
+  "670c-edgefield-plains": {
+    "blk_no": "670C",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "823670",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 96,
+      "4room": 32
+    }
+  },
+  "671a-edgefield-plains": {
+    "blk_no": "671A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821671",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 128
+    }
+  },
+  "671b-edgefield-plains": {
+    "blk_no": "671B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822671",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 84
+    }
+  },
+  "672a-edgefield-plains": {
+    "blk_no": "672A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "821672",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 30,
+      "3room": 90
+    }
+  },
+  "672b-edgefield-plains": {
+    "blk_no": "672B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822672",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "2room": 64,
+      "3room": 64
+    }
+  },
+  "672c-edgefield-plains": {
+    "blk_no": "672C",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "823672",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "2room": 64,
+      "3room": 32
+    }
+  },
+  "672d-edgefield-plains": {
+    "blk_no": "672D",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "824672",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 128
+    }
+  },
+  "673a-edgefield-plains": {
+    "blk_no": "673A",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 82
+    }
+  },
+  "673b-edgefield-plains": {
+    "blk_no": "673B",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "822673",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 60
+    }
+  },
+  "673c-edgefield-plains": {
+    "blk_no": "673C",
+    "street": "EDGEFIELD PLAINS",
+    "street_full": "EDGEFIELD PLAINS",
+    "postal": "823673",
+    "town": "PUNGGOL",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 124
+    }
+  },
+  "676a-punggol-dr": {
+    "blk_no": "676A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821676",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "676b-punggol-dr": {
+    "blk_no": "676B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "NIL",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 44
+    }
+  },
+  "676c-punggol-dr": {
+    "blk_no": "676C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823676",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 30
+    }
+  },
+  "676d-punggol-dr": {
+    "blk_no": "676D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824676",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 32
+    }
+  },
+  "677a-punggol-dr": {
+    "blk_no": "677A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821677",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "2room": 18,
+      "4room": 32,
+      "5room": 30,
+      "studio_apartment": 46
+    }
+  },
+  "677b-punggol-dr": {
+    "blk_no": "677B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822677",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "2room": 28,
+      "4room": 32,
+      "studio_apartment": 64
+    }
+  },
+  "677c-punggol-dr": {
+    "blk_no": "677C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823677",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 64
+    }
+  },
+  "677d-punggol-dr": {
+    "blk_no": "677D",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "824677",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 71
+    }
+  },
+  "678a-punggol-dr": {
+    "blk_no": "678A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821678",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 94
+    }
+  },
+  "678b-punggol-dr": {
+    "blk_no": "678B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822678",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 46
+    }
+  },
+  "678c-punggol-dr": {
+    "blk_no": "678C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823678",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 59
+    }
+  },
+  "679a-punggol-dr": {
+    "blk_no": "679A",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "821679",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    }
+  },
+  "679b-punggol-dr": {
+    "blk_no": "679B",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "822679",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 26
+    }
+  },
+  "679c-punggol-dr": {
+    "blk_no": "679C",
+    "street": "PUNGGOL DR",
+    "street_full": "PUNGGOL DRIVE",
+    "postal": "823679",
+    "town": "PUNGGOL",
+    "year_completed": 2015,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 33
+    }
+  },
+  "682a-edgedale-plains": {
+    "blk_no": "682A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821682",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 31,
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "682b-edgedale-plains": {
+    "blk_no": "682B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822682",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 32
+    }
+  },
+  "682c-edgedale-plains": {
+    "blk_no": "682C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823682",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 32,
+      "5room": 32
+    }
+  },
+  "683a-edgedale-plains": {
+    "blk_no": "683A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821683",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 63,
+      "4room": 64
+    }
+  },
+  "683b-edgedale-plains": {
+    "blk_no": "683B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822683",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 44
+    }
+  },
+  "683c-edgedale-plains": {
+    "blk_no": "683C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823683",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "684a-edgedale-plains": {
+    "blk_no": "684A",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "821684",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 64
+    }
+  },
+  "684b-edgedale-plains": {
+    "blk_no": "684B",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "822684",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 83
+    }
+  },
+  "684c-edgedale-plains": {
+    "blk_no": "684C",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "823684",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 62,
+      "5room": 48
+    }
+  },
+  "684d-edgedale-plains": {
+    "blk_no": "684D",
+    "street": "EDGEDALE PLAINS",
+    "street_full": "EDGEDALE PLAINS",
+    "postal": "824684",
+    "town": "PUNGGOL",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 10
+    }
+  }
+}

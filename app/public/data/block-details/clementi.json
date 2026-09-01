@@ -1,0 +1,2974 @@
+{
+  "101-clementi-st-14": {
+    "blk_no": "101",
+    "street": "CLEMENTI ST 14",
+    "street_full": "CLEMENTI STREET 14",
+    "postal": "120101",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 94
+    }
+  },
+  "102-clementi-st-14": {
+    "blk_no": "102",
+    "street": "CLEMENTI ST 14",
+    "street_full": "CLEMENTI STREET 14",
+    "postal": "120102",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "103-clementi-st-14": {
+    "blk_no": "103",
+    "street": "CLEMENTI ST 14",
+    "street_full": "CLEMENTI STREET 14",
+    "postal": "120103",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 86
+    }
+  },
+  "104-clementi-st-14": {
+    "blk_no": "104",
+    "street": "CLEMENTI ST 14",
+    "street_full": "CLEMENTI STREET 14",
+    "postal": "120104",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "105-clementi-st-12": {
+    "blk_no": "105",
+    "street": "CLEMENTI ST 12",
+    "street_full": "CLEMENTI STREET 12",
+    "postal": "NIL",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "3room": 41
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "109-clementi-st-11": {
+    "blk_no": "109",
+    "street": "CLEMENTI ST 11",
+    "street_full": "CLEMENTI STREET 11",
+    "postal": "120109",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "3room": 47
+    }
+  },
+  "110-clementi-st-13": {
+    "blk_no": "110",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120110",
+    "town": "CLEMENTI",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "111-clementi-st-13": {
+    "blk_no": "111",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120111",
+    "town": "CLEMENTI",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "112-clementi-st-13": {
+    "blk_no": "112",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120112",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "113-clementi-st-13": {
+    "blk_no": "113",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120113",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "114-clementi-st-13": {
+    "blk_no": "114",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120114",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "115-clementi-st-13": {
+    "blk_no": "115",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120115",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "exec": 98
+    }
+  },
+  "116-clementi-st-13": {
+    "blk_no": "116",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120116",
+    "town": "CLEMENTI",
+    "year_completed": 1983,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "exec": 98
+    }
+  },
+  "117-clementi-st-13": {
+    "blk_no": "117",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120117",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "118-clementi-st-13": {
+    "blk_no": "118",
+    "street": "CLEMENTI ST 13",
+    "street_full": "CLEMENTI STREET 13",
+    "postal": "120118",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "201-clementi-ave-6": {
+    "blk_no": "201",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "120201",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "exec": 88
+    }
+  },
+  "202-clementi-ave-6": {
+    "blk_no": "202",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "120202",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "203-clementi-ave-6": {
+    "blk_no": "203",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "120203",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "5room": 8
+    }
+  },
+  "204-clementi-ave-6": {
+    "blk_no": "204",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "120204",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "205-clementi-ave-6": {
+    "blk_no": "205",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "120205",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "206-clementi-ave-6": {
+    "blk_no": "206",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "120206",
+    "town": "CLEMENTI",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "exec": 85
+    }
+  },
+  "208a-clementi-ave-6": {
+    "blk_no": "208A",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "121208",
+    "town": "CLEMENTI",
+    "year_completed": 2016,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 67,
+      "4room": 72
+    }
+  },
+  "208b-clementi-ave-6": {
+    "blk_no": "208B",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "122208",
+    "town": "CLEMENTI",
+    "year_completed": 2016,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 67,
+      "4room": 72
+    }
+  },
+  "209a-clementi-ave-6": {
+    "blk_no": "209A",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "121209",
+    "town": "CLEMENTI",
+    "year_completed": 2022,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 76
+    }
+  },
+  "209b-clementi-ave-6": {
+    "blk_no": "209B",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "122209",
+    "town": "CLEMENTI",
+    "year_completed": 2023,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 76
+    }
+  },
+  "210a-clementi-ave-6": {
+    "blk_no": "210A",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "121210",
+    "town": "CLEMENTI",
+    "year_completed": 2022,
+    "max_floor_lvl": 33,
+    "total_dwelling_units": 255,
+    "sold_units_by_type": {
+      "4room": 131,
+      "5room": 124
+    }
+  },
+  "210b-clementi-ave-6": {
+    "blk_no": "210B",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "122210",
+    "town": "CLEMENTI",
+    "year_completed": 2023,
+    "max_floor_lvl": 33,
+    "total_dwelling_units": 280,
+    "sold_units_by_type": {
+      "3room": 50,
+      "4room": 168,
+      "5room": 62
+    }
+  },
+  "210c-clementi-ave-6": {
+    "blk_no": "210C",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "123210",
+    "town": "CLEMENTI",
+    "year_completed": 2023,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 115
+    }
+  },
+  "211a-clementi-ave-6": {
+    "blk_no": "211A",
+    "street": "CLEMENTI AVE 6",
+    "street_full": "CLEMENTI AVENUE 6",
+    "postal": "121211",
+    "town": "CLEMENTI",
+    "year_completed": 2023,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "3room": 98,
+      "4room": 40,
+      "5room": 49
+    }
+  },
+  "301-clementi-ave-4": {
+    "blk_no": "301",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120301",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "302-clementi-ave-4": {
+    "blk_no": "302",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120302",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "303-clementi-ave-4": {
+    "blk_no": "303",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120303",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "304-clementi-ave-4": {
+    "blk_no": "304",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120304",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 172,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "305-clementi-ave-4": {
+    "blk_no": "305",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120305",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 213,
+    "sold_units_by_type": {
+      "3room": 184,
+      "4room": 22,
+      "5room": 3,
+      "exec": 4
+    }
+  },
+  "306-clementi-ave-4": {
+    "blk_no": "306",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120306",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 172,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "307-clementi-ave-4": {
+    "blk_no": "307",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120307",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "3room": 120,
+      "4room": 22,
+      "5room": 3,
+      "exec": 3
+    }
+  },
+  "308-clementi-ave-4": {
+    "blk_no": "308",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120308",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 123,
+      "4room": 20,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "309-clementi-ave-4": {
+    "blk_no": "309",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120309",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 174,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "310-clementi-ave-4": {
+    "blk_no": "310",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120310",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "3room": 170,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "311a-clementi-ave-4": {
+    "blk_no": "311A",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "121311",
+    "town": "CLEMENTI",
+    "year_completed": 2015,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 296,
+    "sold_units_by_type": {
+      "3room": 74,
+      "4room": 185,
+      "5room": 37
+    }
+  },
+  "311b-clementi-ave-4": {
+    "blk_no": "311B",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "122311",
+    "town": "CLEMENTI",
+    "year_completed": 2015,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 296,
+    "sold_units_by_type": {
+      "3room": 74,
+      "4room": 185,
+      "5room": 37
+    }
+  },
+  "311c-clementi-ave-4": {
+    "blk_no": "311C",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "NIL",
+    "town": "CLEMENTI",
+    "year_completed": 2015,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 296,
+    "sold_units_by_type": {
+      "3room": 74,
+      "4room": 148,
+      "5room": 74
+    }
+  },
+  "312a-clementi-ave-4": {
+    "blk_no": "312A",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "121312",
+    "town": "CLEMENTI",
+    "year_completed": 2016,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "3room": 78,
+      "4room": 78,
+      "5room": 72
+    }
+  },
+  "312b-clementi-ave-4": {
+    "blk_no": "312B",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "122312",
+    "town": "CLEMENTI",
+    "year_completed": 2016,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "3room": 78,
+      "4room": 78,
+      "5room": 72
+    }
+  },
+  "312c-clementi-ave-4": {
+    "blk_no": "312C",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "123312",
+    "town": "CLEMENTI",
+    "year_completed": 2016,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "4room": 156,
+      "5room": 72
+    }
+  },
+  "315-clementi-ave-4": {
+    "blk_no": "315",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120315",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "316-clementi-ave-4": {
+    "blk_no": "316",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120316",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "317-clementi-ave-4": {
+    "blk_no": "317",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120317",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "318-clementi-ave-4": {
+    "blk_no": "318",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120318",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "319-clementi-ave-4": {
+    "blk_no": "319",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120319",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 140,
+      "5room": 2
+    }
+  },
+  "320-clementi-ave-4": {
+    "blk_no": "320",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120320",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 178,
+    "sold_units_by_type": {
+      "3room": 176,
+      "5room": 2
+    }
+  },
+  "324-clementi-ave-5": {
+    "blk_no": "324",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120324",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "325-clementi-ave-5": {
+    "blk_no": "325",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120325",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 33,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 8,
+      "5room": 1
+    }
+  },
+  "326-clementi-ave-5": {
+    "blk_no": "326",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120326",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "3room": 162,
+      "4room": 24,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "327-clementi-ave-5": {
+    "blk_no": "327",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120327",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 105,
+      "4room": 45
+    }
+  },
+  "328-clementi-ave-2": {
+    "blk_no": "328",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120328",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "3room": 31,
+      "4room": 8
+    }
+  },
+  "329-clementi-ave-2": {
+    "blk_no": "329",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120329",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {
+      "3room": 190,
+      "4room": 22,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "330-clementi-ave-2": {
+    "blk_no": "330",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120330",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 33,
+      "5room": 2
+    }
+  },
+  "331-clementi-ave-2": {
+    "blk_no": "331",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120331",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 121,
+      "4room": 33
+    }
+  },
+  "332-clementi-ave-2": {
+    "blk_no": "332",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120332",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "333-clementi-ave-2": {
+    "blk_no": "333",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120333",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "334-clementi-ave-2": {
+    "blk_no": "334",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120334",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 33,
+      "5room": 2
+    }
+  },
+  "335-clementi-ave-2": {
+    "blk_no": "335",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120335",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 33,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "336-clementi-ave-2": {
+    "blk_no": "336",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120336",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "337-clementi-ave-2": {
+    "blk_no": "337",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120337",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "338-clementi-ave-2": {
+    "blk_no": "338",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120338",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "339-clementi-ave-5": {
+    "blk_no": "339",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120339",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 174,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "340-clementi-ave-5": {
+    "blk_no": "340",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120340",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "341-clementi-ave-5": {
+    "blk_no": "341",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120341",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "342-clementi-ave-5": {
+    "blk_no": "342",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120342",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "343-clementi-ave-5": {
+    "blk_no": "343",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120343",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 127,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "344-clementi-ave-5": {
+    "blk_no": "344",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120344",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 220,
+    "sold_units_by_type": {
+      "2room": 40
+    },
+    "rental_units_by_type": {
+      "2room": 180
+    }
+  },
+  "345-clementi-ave-5": {
+    "blk_no": "345",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120345",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 119,
+      "4room": 20,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "346-clementi-ave-5": {
+    "blk_no": "346",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120346",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 174,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "347-clementi-ave-5": {
+    "blk_no": "347",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120347",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "348-clementi-ave-5": {
+    "blk_no": "348",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120348",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "349-clementi-ave-2": {
+    "blk_no": "349",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120349",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "350-clementi-ave-2": {
+    "blk_no": "350",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120350",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "351-clementi-ave-2": {
+    "blk_no": "351",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120351",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 213,
+    "sold_units_by_type": {
+      "3room": 190,
+      "4room": 18,
+      "5room": 2,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "352-clementi-ave-2": {
+    "blk_no": "352",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120352",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "3room": 58,
+      "4room": 10,
+      "exec": 1
+    }
+  },
+  "354-clementi-ave-2": {
+    "blk_no": "354",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120354",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 97,
+      "4room": 10
+    }
+  },
+  "355-clementi-ave-2": {
+    "blk_no": "355",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120355",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "356-clementi-ave-2": {
+    "blk_no": "356",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120356",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "357-clementi-ave-2": {
+    "blk_no": "357",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120357",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "358-clementi-ave-2": {
+    "blk_no": "358",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120358",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "359-clementi-ave-2": {
+    "blk_no": "359",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120359",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "362-clementi-ave-2": {
+    "blk_no": "362",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120362",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 147,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 22,
+      "5room": 2,
+      "exec": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "363-clementi-ave-2": {
+    "blk_no": "363",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120363",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 22,
+      "exec": 4
+    }
+  },
+  "364-clementi-ave-2": {
+    "blk_no": "364",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120364",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "365-clementi-ave-2": {
+    "blk_no": "365",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120365",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "366-clementi-ave-2": {
+    "blk_no": "366",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120366",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 42
+    },
+    "rental_units_by_type": {
+      "1room": 84,
+      "2room": 42
+    }
+  },
+  "367-clementi-ave-2": {
+    "blk_no": "367",
+    "street": "CLEMENTI AVE 2",
+    "street_full": "CLEMENTI AVENUE 2",
+    "postal": "120367",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 1,
+      "3room": 42
+    },
+    "rental_units_by_type": {
+      "1room": 84,
+      "2room": 41
+    }
+  },
+  "371-clementi-ave-4": {
+    "blk_no": "371",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120371",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "3room": 142,
+      "4room": 22,
+      "5room": 1,
+      "exec": 5
+    }
+  },
+  "372-clementi-ave-4": {
+    "blk_no": "372",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120372",
+    "town": "CLEMENTI",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "373-clementi-ave-4": {
+    "blk_no": "373",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120373",
+    "town": "CLEMENTI",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "374-clementi-ave-4": {
+    "blk_no": "374",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120374",
+    "town": "CLEMENTI",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 146,
+      "4room": 22,
+      "5room": 4
+    }
+  },
+  "375-clementi-ave-4": {
+    "blk_no": "375",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120375",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "376-clementi-ave-4": {
+    "blk_no": "376",
+    "street": "CLEMENTI AVE 4",
+    "street_full": "CLEMENTI AVENUE 4",
+    "postal": "120376",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "377-clementi-ave-5": {
+    "blk_no": "377",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120377",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "378-clementi-ave-5": {
+    "blk_no": "378",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120378",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 5
+    }
+  },
+  "379-clementi-ave-5": {
+    "blk_no": "379",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120379",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "380-clementi-ave-5": {
+    "blk_no": "380",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120380",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 5
+    }
+  },
+  "381-clementi-ave-5": {
+    "blk_no": "381",
+    "street": "CLEMENTI AVE 5",
+    "street_full": "CLEMENTI AVENUE 5",
+    "postal": "120381",
+    "town": "CLEMENTI",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "410-c-wealth-ave-west": {
+    "blk_no": "410",
+    "street": "C'WEALTH AVE WEST",
+    "street_full": "COMMONWEALTH AVENUE WEST",
+    "postal": "120410",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "411-c-wealth-ave-west": {
+    "blk_no": "411",
+    "street": "C'WEALTH AVE WEST",
+    "street_full": "COMMONWEALTH AVENUE WEST",
+    "postal": "120411",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "412-c-wealth-ave-west": {
+    "blk_no": "412",
+    "street": "C'WEALTH AVE WEST",
+    "street_full": "COMMONWEALTH AVENUE WEST",
+    "postal": "120412",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "413-c-wealth-ave-west": {
+    "blk_no": "413",
+    "street": "C'WEALTH AVE WEST",
+    "street_full": "COMMONWEALTH AVENUE WEST",
+    "postal": "120413",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "414-c-wealth-ave-west": {
+    "blk_no": "414",
+    "street": "C'WEALTH AVE WEST",
+    "street_full": "COMMONWEALTH AVENUE WEST",
+    "postal": "120414",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "415-c-wealth-ave-west": {
+    "blk_no": "415",
+    "street": "C'WEALTH AVE WEST",
+    "street_full": "COMMONWEALTH AVENUE WEST",
+    "postal": "120415",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "416-clementi-ave-1": {
+    "blk_no": "416",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120416",
+    "town": "CLEMENTI",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 222,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 148
+    }
+  },
+  "417-clementi-ave-1": {
+    "blk_no": "417",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120417",
+    "town": "CLEMENTI",
+    "year_completed": 2011,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "418-clementi-ave-1": {
+    "blk_no": "418",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120418",
+    "town": "CLEMENTI",
+    "year_completed": 2011,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 104,
+      "3room": 50,
+      "4room": 50
+    }
+  },
+  "419-clementi-ave-1": {
+    "blk_no": "419",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120419",
+    "town": "CLEMENTI",
+    "year_completed": 2011,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 221,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 136,
+      "2room": 85
+    }
+  },
+  "420-clementi-ave-1": {
+    "blk_no": "420",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120420",
+    "town": "CLEMENTI",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 300,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 224
+    }
+  },
+  "421-clementi-ave-1": {
+    "blk_no": "421",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120421",
+    "town": "CLEMENTI",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 300,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 224
+    }
+  },
+  "422-clementi-ave-1": {
+    "blk_no": "422",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120422",
+    "town": "CLEMENTI",
+    "year_completed": 2011,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 289,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 170,
+      "2room": 119
+    }
+  },
+  "423-clementi-ave-1": {
+    "blk_no": "423",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120423",
+    "town": "CLEMENTI",
+    "year_completed": 2011,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 104,
+      "3room": 50,
+      "4room": 50
+    }
+  },
+  "424-clementi-ave-1": {
+    "blk_no": "424",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120424",
+    "town": "CLEMENTI",
+    "year_completed": 2011,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "425-clementi-ave-1": {
+    "blk_no": "425",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "120425",
+    "town": "CLEMENTI",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 222,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 148
+    }
+  },
+  "426-clementi-ave-3": {
+    "blk_no": "426",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120426",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 125,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "427-clementi-ave-3": {
+    "blk_no": "427",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120427",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "428-clementi-ave-3": {
+    "blk_no": "428",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120428",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 129,
+      "4room": 22,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "429-clementi-ave-3": {
+    "blk_no": "429",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120429",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "430-clementi-ave-3": {
+    "blk_no": "430",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120430",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 127,
+      "4room": 22,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "431-clementi-ave-3": {
+    "blk_no": "431",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120431",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 16,
+      "5room": 1,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "432-clementi-ave-3": {
+    "blk_no": "432",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120432",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 107,
+      "4room": 22,
+      "5room": 2
+    }
+  },
+  "433-clementi-ave-3": {
+    "blk_no": "433",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120433",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 101,
+      "4room": 22,
+      "5room": 1,
+      "exec": 4
+    }
+  },
+  "434-clementi-ave-3": {
+    "blk_no": "434",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120434",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 24,
+      "exec": 2
+    }
+  },
+  "435-clementi-ave-3": {
+    "blk_no": "435",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120435",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 119,
+      "4room": 24
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "440a-clementi-ave-3": {
+    "blk_no": "440A",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "NIL",
+    "town": "CLEMENTI",
+    "year_completed": 2017,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "2room": 54,
+      "3room": 102,
+      "4room": 52
+    }
+  },
+  "440b-clementi-ave-3": {
+    "blk_no": "440B",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "122440",
+    "town": "CLEMENTI",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 72
+    }
+  },
+  "440c-clementi-ave-3": {
+    "blk_no": "440C",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "123440",
+    "town": "CLEMENTI",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 75
+    }
+  },
+  "441a-clementi-ave-3": {
+    "blk_no": "441A",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "121441",
+    "town": "CLEMENTI",
+    "year_completed": 2010,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 66
+    }
+  },
+  "441b-clementi-ave-3": {
+    "blk_no": "441B",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "122441",
+    "town": "CLEMENTI",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 192
+    }
+  },
+  "442-clementi-ave-3": {
+    "blk_no": "442",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120442",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "3room": 35,
+      "4room": 6,
+      "exec": 1
+    }
+  },
+  "443-clementi-ave-3": {
+    "blk_no": "443",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120443",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "445a-clementi-ave-3": {
+    "blk_no": "445A",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "121445",
+    "town": "CLEMENTI",
+    "year_completed": 2020,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "4room": 114,
+      "5room": 78
+    }
+  },
+  "445b-clementi-ave-3": {
+    "blk_no": "445B",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "122445",
+    "town": "CLEMENTI",
+    "year_completed": 2020,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 193,
+    "sold_units_by_type": {
+      "4room": 115,
+      "5room": 78
+    }
+  },
+  "446-clementi-ave-3": {
+    "blk_no": "446",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120446",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "449-clementi-ave-3": {
+    "blk_no": "449",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120449",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 59,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 4,
+      "exec": 3
+    }
+  },
+  "450-clementi-ave-3": {
+    "blk_no": "450",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120450",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "3room": 42
+    }
+  },
+  "454-clementi-ave-3": {
+    "blk_no": "454",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120454",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "455-clementi-ave-3": {
+    "blk_no": "455",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120455",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "456-clementi-ave-3": {
+    "blk_no": "456",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120456",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "457-clementi-ave-3": {
+    "blk_no": "457",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120457",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 94
+    }
+  },
+  "458-clementi-ave-3": {
+    "blk_no": "458",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120458",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "5room": 74
+    }
+  },
+  "459-clementi-ave-3": {
+    "blk_no": "459",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120459",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "5room": 95
+    }
+  },
+  "460-clementi-ave-3": {
+    "blk_no": "460",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120460",
+    "town": "CLEMENTI",
+    "year_completed": 2001,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "461-clementi-ave-3": {
+    "blk_no": "461",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120461",
+    "town": "CLEMENTI",
+    "year_completed": 2005,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "4room": 137,
+      "5room": 50
+    }
+  },
+  "462-clementi-ave-3": {
+    "blk_no": "462",
+    "street": "CLEMENTI AVE 3",
+    "street_full": "CLEMENTI AVENUE 3",
+    "postal": "120462",
+    "town": "CLEMENTI",
+    "year_completed": 2005,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 183,
+    "sold_units_by_type": {
+      "4room": 183
+    }
+  },
+  "464a-clementi-ave-1": {
+    "blk_no": "464A",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "121464",
+    "town": "CLEMENTI",
+    "year_completed": 2022,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 350,
+    "sold_units_by_type": {
+      "4room": 272,
+      "5room": 78
+    }
+  },
+  "464b-clementi-ave-1": {
+    "blk_no": "464B",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "122464",
+    "town": "CLEMENTI",
+    "year_completed": 2022,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 330,
+    "sold_units_by_type": {
+      "2room": 24,
+      "3room": 152,
+      "4room": 78,
+      "5room": 76
+    }
+  },
+  "465a-clementi-ave-1": {
+    "blk_no": "465A",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "121465",
+    "town": "CLEMENTI",
+    "year_completed": 2022,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 312,
+    "sold_units_by_type": {
+      "4room": 195,
+      "5room": 117
+    }
+  },
+  "466a-clementi-ave-1": {
+    "blk_no": "466A",
+    "street": "CLEMENTI AVE 1",
+    "street_full": "CLEMENTI AVENUE 1",
+    "postal": "121466",
+    "town": "CLEMENTI",
+    "year_completed": 2022,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 42
+    }
+  },
+  "501-west-coast-dr": {
+    "blk_no": "501",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "120501",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "505-west-coast-dr": {
+    "blk_no": "505",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "120505",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "506-west-coast-dr": {
+    "blk_no": "506",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "120506",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 115,
+      "4room": 33,
+      "exec": 3
+    }
+  },
+  "507-west-coast-dr": {
+    "blk_no": "507",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "120507",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 73,
+      "4room": 33,
+      "5room": 2
+    }
+  },
+  "508-west-coast-dr": {
+    "blk_no": "508",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "120508",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 39,
+      "exec": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "509-west-coast-dr": {
+    "blk_no": "509",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "NIL",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 111,
+      "4room": 39,
+      "5room": 3
+    }
+  },
+  "510-west-coast-dr": {
+    "blk_no": "510",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "120510",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "3room": 115,
+      "4room": 39,
+      "5room": 1
+    }
+  },
+  "511-west-coast-dr": {
+    "blk_no": "511",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "120511",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "512-west-coast-dr": {
+    "blk_no": "512",
+    "street": "WEST COAST DR",
+    "street_full": "WEST COAST DRIVE",
+    "postal": "120512",
+    "town": "CLEMENTI",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "601-clementi-west-st-1": {
+    "blk_no": "601",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120601",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "602-clementi-west-st-1": {
+    "blk_no": "602",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120602",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {
+      "3room": 190,
+      "4room": 22,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "603-clementi-west-st-1": {
+    "blk_no": "603",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120603",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 6
+    }
+  },
+  "604-clementi-west-st-1": {
+    "blk_no": "604",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120604",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "605-clementi-west-st-1": {
+    "blk_no": "605",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120605",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "606-clementi-west-st-1": {
+    "blk_no": "606",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120606",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "607-clementi-west-st-1": {
+    "blk_no": "607",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120607",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "608-clementi-west-st-1": {
+    "blk_no": "608",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120608",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {
+      "3room": 189,
+      "4room": 22,
+      "5room": 1,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "609-clementi-west-st-1": {
+    "blk_no": "609",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120609",
+    "town": "CLEMENTI",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "610-clementi-west-st-1": {
+    "blk_no": "610",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120610",
+    "town": "CLEMENTI",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 66
+    }
+  },
+  "611-clementi-west-st-1": {
+    "blk_no": "611",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120611",
+    "town": "CLEMENTI",
+    "year_completed": 1983,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 72
+    }
+  },
+  "612-clementi-west-st-1": {
+    "blk_no": "612",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120612",
+    "town": "CLEMENTI",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 214,
+    "sold_units_by_type": {
+      "3room": 129,
+      "4room": 85
+    }
+  },
+  "613-clementi-west-st-1": {
+    "blk_no": "613",
+    "street": "CLEMENTI WEST ST 1",
+    "street_full": "CLEMENTI WEST STREET 1",
+    "postal": "120613",
+    "town": "CLEMENTI",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 108
+    }
+  },
+  "701-west-coast-rd": {
+    "blk_no": "701",
+    "street": "WEST COAST RD",
+    "street_full": "WEST COAST ROAD",
+    "postal": "120701",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {
+      "3room": 190,
+      "4room": 22,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "702-west-coast-rd": {
+    "blk_no": "702",
+    "street": "WEST COAST RD",
+    "street_full": "WEST COAST ROAD",
+    "postal": "120702",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "3room": 166,
+      "4room": 24,
+      "5room": 1
+    }
+  },
+  "703-west-coast-rd": {
+    "blk_no": "703",
+    "street": "WEST COAST RD",
+    "street_full": "WEST COAST ROAD",
+    "postal": "120703",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "3room": 158,
+      "4room": 24,
+      "5room": 1,
+      "exec": 4
+    }
+  },
+  "704-west-coast-rd": {
+    "blk_no": "704",
+    "street": "WEST COAST RD",
+    "street_full": "WEST COAST ROAD",
+    "postal": "120704",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 258,
+    "sold_units_by_type": {
+      "3room": 228,
+      "4room": 24,
+      "5room": 1,
+      "exec": 5
+    }
+  },
+  "705-clementi-west-st-2": {
+    "blk_no": "705",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120705",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 82,
+      "4room": 22,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "706-clementi-west-st-2": {
+    "blk_no": "706",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120706",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 237,
+    "sold_units_by_type": {
+      "3room": 210,
+      "4room": 22,
+      "5room": 5
+    }
+  },
+  "707-clementi-west-st-2": {
+    "blk_no": "707",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120707",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "708-clementi-west-st-2": {
+    "blk_no": "708",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120708",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "709-clementi-west-st-2": {
+    "blk_no": "709",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120709",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "710-clementi-west-st-2": {
+    "blk_no": "710",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120710",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 147,
+    "sold_units_by_type": {
+      "3room": 125,
+      "4room": 18,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "711-clementi-west-st-2": {
+    "blk_no": "711",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120711",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 146,
+      "4room": 22,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "712-clementi-west-st-2": {
+    "blk_no": "712",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120712",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "713-clementi-west-st-2": {
+    "blk_no": "713",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120713",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "3room": 63,
+      "4room": 17,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "714-clementi-west-st-2": {
+    "blk_no": "714",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120714",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "3room": 170,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "715-clementi-west-st-2": {
+    "blk_no": "715",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120715",
+    "town": "CLEMENTI",
+    "year_completed": 1981,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "3room": 159,
+      "4room": 73,
+      "5room": 2
+    }
+  },
+  "716-clementi-west-st-2": {
+    "blk_no": "716",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120716",
+    "town": "CLEMENTI",
+    "year_completed": 1981,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 244,
+    "sold_units_by_type": {
+      "4room": 244
+    }
+  },
+  "717-clementi-west-st-2": {
+    "blk_no": "717",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120717",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "721-clementi-west-st-2": {
+    "blk_no": "721",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120721",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "722-clementi-west-st-2": {
+    "blk_no": "722",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120722",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "723-clementi-west-st-2": {
+    "blk_no": "723",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120723",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "724-clementi-west-st-2": {
+    "blk_no": "724",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120724",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "725-clementi-west-st-2": {
+    "blk_no": "725",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120725",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "727-clementi-west-st-2": {
+    "blk_no": "727",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120727",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "728-clementi-west-st-2": {
+    "blk_no": "728",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120728",
+    "town": "CLEMENTI",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 237,
+    "sold_units_by_type": {
+      "3room": 210,
+      "4room": 22,
+      "exec": 5
+    }
+  },
+  "729-clementi-west-st-2": {
+    "blk_no": "729",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120729",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "3room": 144,
+      "4room": 22,
+      "5room": 3,
+      "exec": 2
+    }
+  },
+  "730-clementi-west-st-2": {
+    "blk_no": "730",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120730",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 84,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "731-clementi-west-st-2": {
+    "blk_no": "731",
+    "street": "CLEMENTI WEST ST 2",
+    "street_full": "CLEMENTI WEST STREET 2",
+    "postal": "120731",
+    "town": "CLEMENTI",
+    "year_completed": 1979,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 125,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 18,
+      "exec": 1
+    }
+  },
+  "801a-west-coast-cres": {
+    "blk_no": "801A",
+    "street": "WEST COAST CRES",
+    "street_full": "WEST COAST CRESCENT",
+    "postal": "121801",
+    "town": "CLEMENTI",
+    "year_completed": 2023,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "2room": 20,
+      "3room": 91,
+      "4room": 59,
+      "5room": 28
+    }
+  },
+  "801b-west-coast-cres": {
+    "blk_no": "801B",
+    "street": "WEST COAST CRES",
+    "street_full": "WEST COAST CRESCENT",
+    "postal": "122801",
+    "town": "CLEMENTI",
+    "year_completed": 2023,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "2room": 20,
+      "3room": 90,
+      "4room": 59,
+      "5room": 28
+    }
+  },
+  "801c-west-coast-cres": {
+    "blk_no": "801C",
+    "street": "WEST COAST CRES",
+    "street_full": "WEST COAST CRESCENT",
+    "postal": "123801",
+    "town": "CLEMENTI",
+    "year_completed": 2023,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 302,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 124,
+      "5room": 62
+    }
+  }
+}

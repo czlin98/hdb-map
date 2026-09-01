@@ -1,0 +1,3190 @@
+{
+  "1-lor-lew-lian": {
+    "blk_no": "1",
+    "street": "LOR LEW LIAN",
+    "street_full": "LORONG LEW LIAN",
+    "postal": "531001",
+    "town": "SERANGOON",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 179,
+    "sold_units_by_type": {
+      "3room": 174,
+      "5room": 3
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "101-serangoon-nth-ave-1": {
+    "blk_no": "101",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550101",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 144
+    }
+  },
+  "102-serangoon-nth-ave-1": {
+    "blk_no": "102",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550102",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "103-serangoon-nth-ave-1": {
+    "blk_no": "103",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "NIL",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 144
+    }
+  },
+  "104-serangoon-nth-ave-1": {
+    "blk_no": "104",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550104",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "105-serangoon-nth-ave-1": {
+    "blk_no": "105",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550105",
+    "town": "SERANGOON",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "106-serangoon-nth-ave-1": {
+    "blk_no": "106",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550106",
+    "town": "SERANGOON",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 130,
+      "5room": 1
+    }
+  },
+  "107-serangoon-nth-ave-1": {
+    "blk_no": "107",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "NIL",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 111,
+      "5room": 1
+    }
+  },
+  "108-serangoon-nth-ave-1": {
+    "blk_no": "108",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550108",
+    "town": "SERANGOON",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 124,
+      "5room": 4
+    }
+  },
+  "109-serangoon-nth-ave-1": {
+    "blk_no": "109",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550109",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "110-serangoon-nth-ave-1": {
+    "blk_no": "110",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550110",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "111-serangoon-nth-ave-1": {
+    "blk_no": "111",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550111",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "112-serangoon-nth-ave-1": {
+    "blk_no": "112",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550112",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "113-serangoon-nth-ave-1": {
+    "blk_no": "113",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550113",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 16
+    }
+  },
+  "114-serangoon-nth-ave-1": {
+    "blk_no": "114",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550114",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 114
+    }
+  },
+  "115-serangoon-nth-ave-1": {
+    "blk_no": "115",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550115",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 16
+    }
+  },
+  "116-serangoon-nth-ave-1": {
+    "blk_no": "116",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550116",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 114
+    }
+  },
+  "117-serangoon-nth-ave-1": {
+    "blk_no": "117",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550117",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 78
+    }
+  },
+  "118-serangoon-nth-ave-1": {
+    "blk_no": "118",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550118",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "119-serangoon-nth-ave-1": {
+    "blk_no": "119",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550119",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "exec": 20
+    }
+  },
+  "120-serangoon-nth-ave-1": {
+    "blk_no": "120",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550120",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "121-serangoon-nth-ave-1": {
+    "blk_no": "121",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550121",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 78
+    }
+  },
+  "122-serangoon-nth-ave-1": {
+    "blk_no": "122",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550122",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 15,
+      "4room": 16
+    }
+  },
+  "123-serangoon-nth-ave-1": {
+    "blk_no": "123",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550123",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "exec": 96
+    }
+  },
+  "124-serangoon-nth-ave-1": {
+    "blk_no": "124",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550124",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "3room": 31,
+      "4room": 16
+    }
+  },
+  "125-serangoon-nth-ave-1": {
+    "blk_no": "125",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550125",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "exec": 96
+    }
+  },
+  "126-serangoon-nth-ave-1": {
+    "blk_no": "126",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550126",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "127-serangoon-nth-ave-1": {
+    "blk_no": "127",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550127",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "135-serangoon-nth-ave-2": {
+    "blk_no": "135",
+    "street": "SERANGOON NTH AVE 2",
+    "street_full": "SERANGOON NORTH AVENUE 2",
+    "postal": "550135",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 69
+    }
+  },
+  "136-serangoon-nth-ave-2": {
+    "blk_no": "136",
+    "street": "SERANGOON NTH AVE 2",
+    "street_full": "SERANGOON NORTH AVENUE 2",
+    "postal": "550136",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 12
+    }
+  },
+  "137-serangoon-nth-ave-2": {
+    "blk_no": "137",
+    "street": "SERANGOON NTH AVE 2",
+    "street_full": "SERANGOON NORTH AVENUE 2",
+    "postal": "550137",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 5,
+      "5room": 51
+    }
+  },
+  "138-serangoon-nth-ave-2": {
+    "blk_no": "138",
+    "street": "SERANGOON NTH AVE 2",
+    "street_full": "SERANGOON NORTH AVENUE 2",
+    "postal": "550138",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "exec": 22
+    }
+  },
+  "139-serangoon-nth-ave-2": {
+    "blk_no": "139",
+    "street": "SERANGOON NTH AVE 2",
+    "street_full": "SERANGOON NORTH AVENUE 2",
+    "postal": "550139",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "140-serangoon-nth-ave-2": {
+    "blk_no": "140",
+    "street": "SERANGOON NTH AVE 2",
+    "street_full": "SERANGOON NORTH AVENUE 2",
+    "postal": "550140",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 24
+    }
+  },
+  "141-serangoon-nth-ave-2": {
+    "blk_no": "141",
+    "street": "SERANGOON NTH AVE 2",
+    "street_full": "SERANGOON NORTH AVENUE 2",
+    "postal": "550141",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 24
+    }
+  },
+  "142-serangoon-nth-ave-1": {
+    "blk_no": "142",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550142",
+    "town": "SERANGOON",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "143-serangoon-nth-ave-1": {
+    "blk_no": "143",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550143",
+    "town": "SERANGOON",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 42
+    }
+  },
+  "144-serangoon-nth-ave-1": {
+    "blk_no": "144",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550144",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "145-serangoon-nth-ave-1": {
+    "blk_no": "145",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550145",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 12
+    }
+  },
+  "146-serangoon-nth-ave-1": {
+    "blk_no": "146",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550146",
+    "town": "SERANGOON",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "147-serangoon-nth-ave-1": {
+    "blk_no": "147",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550147",
+    "town": "SERANGOON",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 95,
+      "4room": 72
+    }
+  },
+  "148-serangoon-nth-ave-1": {
+    "blk_no": "148",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550148",
+    "town": "SERANGOON",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "149-serangoon-nth-ave-1": {
+    "blk_no": "149",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550149",
+    "town": "SERANGOON",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 88,
+      "studio_apartment": 62
+    }
+  },
+  "151-serangoon-nth-ave-2": {
+    "blk_no": "151",
+    "street": "SERANGOON NTH AVE 2",
+    "street_full": "SERANGOON NORTH AVENUE 2",
+    "postal": "550151",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 18,
+      "5room": 1
+    }
+  },
+  "152-serangoon-nth-ave-1": {
+    "blk_no": "152",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550152",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 10
+    }
+  },
+  "153-serangoon-nth-ave-1": {
+    "blk_no": "153",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550153",
+    "town": "SERANGOON",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 101,
+      "4room": 11
+    }
+  },
+  "154-serangoon-nth-ave-1": {
+    "blk_no": "154",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550154",
+    "town": "SERANGOON",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 67,
+      "4room": 20,
+      "5room": 1
+    }
+  },
+  "157-serangoon-nth-ave-1": {
+    "blk_no": "157",
+    "street": "SERANGOON NTH AVE 1",
+    "street_full": "SERANGOON NORTH AVENUE 1",
+    "postal": "550157",
+    "town": "SERANGOON",
+    "year_completed": 2016,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 90,
+      "2room": 105
+    }
+  },
+  "2-lor-lew-lian": {
+    "blk_no": "2",
+    "street": "LOR LEW LIAN",
+    "street_full": "LORONG LEW LIAN",
+    "postal": "531002",
+    "town": "SERANGOON",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "3room": 159,
+      "5room": 5
+    }
+  },
+  "201-serangoon-ctrl": {
+    "blk_no": "201",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550201",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 115,
+      "4room": 57
+    }
+  },
+  "202-serangoon-ctrl": {
+    "blk_no": "202",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550202",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 52
+    }
+  },
+  "203-serangoon-ctrl": {
+    "blk_no": "203",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550203",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "3room": 113,
+      "4room": 57,
+      "5room": 1
+    }
+  },
+  "204-serangoon-ctrl": {
+    "blk_no": "204",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550204",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 97,
+      "4room": 54
+    }
+  },
+  "205-serangoon-ctrl": {
+    "blk_no": "205",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550205",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 52
+    }
+  },
+  "206-serangoon-ctrl": {
+    "blk_no": "206",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550206",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 159,
+    "sold_units_by_type": {
+      "3room": 101,
+      "4room": 57,
+      "5room": 1
+    }
+  },
+  "207-serangoon-ctrl": {
+    "blk_no": "207",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550207",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 103,
+      "4room": 57
+    }
+  },
+  "208-serangoon-ctrl": {
+    "blk_no": "208",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550208",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 52
+    }
+  },
+  "209-serangoon-ctrl": {
+    "blk_no": "209",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550209",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 83,
+      "4room": 41
+    }
+  },
+  "210-serangoon-ctrl": {
+    "blk_no": "210",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550210",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "3room": 81,
+      "4room": 57
+    }
+  },
+  "211-serangoon-ave-4": {
+    "blk_no": "211",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550211",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 131
+    }
+  },
+  "212-serangoon-ave-4": {
+    "blk_no": "212",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550212",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "213-serangoon-ave-4": {
+    "blk_no": "213",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550213",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "214-serangoon-ave-4": {
+    "blk_no": "214",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550214",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 5
+    }
+  },
+  "215-serangoon-ave-4": {
+    "blk_no": "215",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550215",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 58
+    }
+  },
+  "216-serangoon-ave-4": {
+    "blk_no": "216",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550216",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "217-serangoon-ave-4": {
+    "blk_no": "217",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550217",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "218-serangoon-ave-4": {
+    "blk_no": "218",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550218",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "219-serangoon-ave-4": {
+    "blk_no": "219",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550219",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "220-serangoon-ave-4": {
+    "blk_no": "220",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550220",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "221-serangoon-ave-4": {
+    "blk_no": "221",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550221",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "3room": 99,
+      "4room": 57,
+      "5room": 1
+    }
+  },
+  "222-serangoon-ave-4": {
+    "blk_no": "222",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550222",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 97,
+      "4room": 57,
+      "5room": 2
+    }
+  },
+  "223-serangoon-ave-4": {
+    "blk_no": "223",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550223",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "3room": 101,
+      "4room": 57
+    }
+  },
+  "223a-serangoon-ave-4": {
+    "blk_no": "223A",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "551223",
+    "town": "SERANGOON",
+    "year_completed": 2011,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 247,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 182,
+      "2room": 65
+    }
+  },
+  "224-serangoon-ave-4": {
+    "blk_no": "224",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550224",
+    "town": "SERANGOON",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "225-serangoon-ave-4": {
+    "blk_no": "225",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550225",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 97,
+      "4room": 57,
+      "5room": 2
+    }
+  },
+  "226-serangoon-ave-4": {
+    "blk_no": "226",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550226",
+    "town": "SERANGOON",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "227-serangoon-ave-4": {
+    "blk_no": "227",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550227",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "3room": 77,
+      "4room": 57
+    }
+  },
+  "228-serangoon-ave-4": {
+    "blk_no": "228",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550228",
+    "town": "SERANGOON",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "229-serangoon-ave-4": {
+    "blk_no": "229",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550229",
+    "town": "SERANGOON",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "230-serangoon-ave-4": {
+    "blk_no": "230",
+    "street": "SERANGOON AVE 4",
+    "street_full": "SERANGOON AVENUE 4",
+    "postal": "550230",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "3room": 99,
+      "4room": 57,
+      "5room": 1
+    }
+  },
+  "231-serangoon-ave-3": {
+    "blk_no": "231",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550231",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "232-serangoon-ave-3": {
+    "blk_no": "232",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550232",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "232a-serangoon-ave-2": {
+    "blk_no": "232A",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "551232",
+    "town": "SERANGOON",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "233-serangoon-ave-3": {
+    "blk_no": "233",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550233",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "234-serangoon-ave-3": {
+    "blk_no": "234",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550234",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "234a-serangoon-ave-2": {
+    "blk_no": "234A",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "551234",
+    "town": "SERANGOON",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "235-serangoon-ave-3": {
+    "blk_no": "235",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550235",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "236-serangoon-ave-3": {
+    "blk_no": "236",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550236",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "236a-serangoon-ave-2": {
+    "blk_no": "236A",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "551236",
+    "town": "SERANGOON",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "237-serangoon-ave-3": {
+    "blk_no": "237",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550237",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "3room": 63,
+      "4room": 41,
+      "5room": 1
+    }
+  },
+  "238-serangoon-ave-2": {
+    "blk_no": "238",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550238",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "239-serangoon-ave-2": {
+    "blk_no": "239",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550239",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "240-serangoon-ave-2": {
+    "blk_no": "240",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550240",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "241-serangoon-ave-3": {
+    "blk_no": "241",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550241",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 48
+    }
+  },
+  "242-serangoon-ave-3": {
+    "blk_no": "242",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550242",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 32
+    }
+  },
+  "243-serangoon-ave-2": {
+    "blk_no": "243",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550243",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 48
+    }
+  },
+  "244-serangoon-ave-2": {
+    "blk_no": "244",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550244",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "245-serangoon-ave-2": {
+    "blk_no": "245",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550245",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 48
+    }
+  },
+  "246-serangoon-ave-3": {
+    "blk_no": "246",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550246",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 22
+    }
+  },
+  "253-serangoon-ctrl-dr": {
+    "blk_no": "253",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550253",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 38,
+    "sold_units_by_type": {
+      "3room": 38
+    }
+  },
+  "254-serangoon-ctrl-dr": {
+    "blk_no": "254",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550254",
+    "town": "SERANGOON",
+    "year_completed": 1987,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "3room": 56
+    }
+  },
+  "255-serangoon-ctrl-dr": {
+    "blk_no": "255",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550255",
+    "town": "SERANGOON",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 56
+    }
+  },
+  "256-serangoon-ctrl-dr": {
+    "blk_no": "256",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550256",
+    "town": "SERANGOON",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 56
+    }
+  },
+  "257-serangoon-ctrl-dr": {
+    "blk_no": "257",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550257",
+    "town": "SERANGOON",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 52
+    }
+  },
+  "258-serangoon-ctrl-dr": {
+    "blk_no": "258",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550258",
+    "town": "SERANGOON",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 52
+    }
+  },
+  "261-serangoon-ctrl-dr": {
+    "blk_no": "261",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550261",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "3room": 51
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "262-serangoon-ctrl-dr": {
+    "blk_no": "262",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550262",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "3room": 46,
+      "5room": 1
+    }
+  },
+  "263-serangoon-ctrl-dr": {
+    "blk_no": "263",
+    "street": "SERANGOON CTRL DR",
+    "street_full": "SERANGOON CENTRAL DRIVE",
+    "postal": "550263",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "3room": 67,
+      "4room": 8
+    }
+  },
+  "3-lor-lew-lian": {
+    "blk_no": "3",
+    "street": "LOR LEW LIAN",
+    "street_full": "LORONG LEW LIAN",
+    "postal": "531003",
+    "town": "SERANGOON",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "3room": 113,
+      "5room": 4
+    }
+  },
+  "301-serangoon-ave-2": {
+    "blk_no": "301",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "NIL",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 12
+    }
+  },
+  "302-serangoon-ave-2": {
+    "blk_no": "302",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550302",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 130,
+      "5room": 1
+    }
+  },
+  "303-serangoon-ave-2": {
+    "blk_no": "303",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550303",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 126,
+      "5room": 3
+    }
+  },
+  "304-serangoon-ave-2": {
+    "blk_no": "304",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550304",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 21,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 9,
+      "5room": 2
+    }
+  },
+  "305-serangoon-ave-2": {
+    "blk_no": "305",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550305",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 128,
+      "5room": 2
+    }
+  },
+  "306-serangoon-ave-2": {
+    "blk_no": "306",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550306",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 128,
+      "5room": 2
+    }
+  },
+  "307-serangoon-ave-2": {
+    "blk_no": "307",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550307",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 180
+    }
+  },
+  "308-serangoon-ave-2": {
+    "blk_no": "308",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550308",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "309-serangoon-ave-2": {
+    "blk_no": "309",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550309",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "310-serangoon-ave-2": {
+    "blk_no": "310",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550310",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "311-serangoon-ave-2": {
+    "blk_no": "311",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550311",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "312-serangoon-ave-2": {
+    "blk_no": "312",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550312",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "313-serangoon-ave-2": {
+    "blk_no": "313",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550313",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "314-serangoon-ave-2": {
+    "blk_no": "314",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550314",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "315-serangoon-ave-2": {
+    "blk_no": "315",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550315",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "316-serangoon-ave-2": {
+    "blk_no": "316",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550316",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "317-serangoon-ave-2": {
+    "blk_no": "317",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550317",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "exec": 81
+    }
+  },
+  "318-serangoon-ave-2": {
+    "blk_no": "318",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550318",
+    "town": "SERANGOON",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "exec": 81
+    }
+  },
+  "319-serangoon-ave-2": {
+    "blk_no": "319",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550319",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "321-serangoon-ave-2": {
+    "blk_no": "321",
+    "street": "SERANGOON AVE 2",
+    "street_full": "SERANGOON AVENUE 2",
+    "postal": "550321",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "322-serangoon-ave-3": {
+    "blk_no": "322",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550322",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "323-serangoon-ave-3": {
+    "blk_no": "323",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550323",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "324-serangoon-ave-3": {
+    "blk_no": "324",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550324",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "325-serangoon-ave-3": {
+    "blk_no": "325",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550325",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "326-serangoon-ave-3": {
+    "blk_no": "326",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550326",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 23,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 10
+    }
+  },
+  "327-serangoon-ave-3": {
+    "blk_no": "327",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550327",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "328-serangoon-ave-3": {
+    "blk_no": "328",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550328",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "329-serangoon-ave-3": {
+    "blk_no": "329",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550329",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "4room": 94,
+      "5room": 58
+    }
+  },
+  "330-serangoon-ave-3": {
+    "blk_no": "330",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550330",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "4room": 134
+    }
+  },
+  "331-serangoon-ave-3": {
+    "blk_no": "331",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550331",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "332-serangoon-ave-3": {
+    "blk_no": "332",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550332",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "4room": 138
+    }
+  },
+  "333-serangoon-ave-3": {
+    "blk_no": "333",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550333",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "334-serangoon-ave-3": {
+    "blk_no": "334",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550334",
+    "town": "SERANGOON",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "335-serangoon-ave-3": {
+    "blk_no": "335",
+    "street": "SERANGOON AVE 3",
+    "street_full": "SERANGOON AVENUE 3",
+    "postal": "550335",
+    "town": "SERANGOON",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "4room": 138
+    }
+  },
+  "4-lor-lew-lian": {
+    "blk_no": "4",
+    "street": "LOR LEW LIAN",
+    "street_full": "LORONG LEW LIAN",
+    "postal": "531004",
+    "town": "SERANGOON",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 128,
+      "5room": 1
+    }
+  },
+  "401-serangoon-ave-1": {
+    "blk_no": "401",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550401",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 24
+    }
+  },
+  "402-serangoon-ave-1": {
+    "blk_no": "402",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550402",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "403-serangoon-ave-1": {
+    "blk_no": "403",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550403",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 20
+    }
+  },
+  "404-serangoon-ave-1": {
+    "blk_no": "404",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550404",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 20
+    }
+  },
+  "405-serangoon-ave-1": {
+    "blk_no": "405",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550405",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 20
+    }
+  },
+  "406-serangoon-ave-1": {
+    "blk_no": "406",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550406",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "407-serangoon-ave-1": {
+    "blk_no": "407",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550407",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 12
+    }
+  },
+  "408-serangoon-ave-1": {
+    "blk_no": "408",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550408",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "409-serangoon-ctrl": {
+    "blk_no": "409",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550409",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "410-serangoon-ctrl": {
+    "blk_no": "410",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550410",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "411-serangoon-ctrl": {
+    "blk_no": "411",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550411",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 24
+    }
+  },
+  "412-serangoon-ctrl": {
+    "blk_no": "412",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550412",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 20
+    }
+  },
+  "413-serangoon-ctrl": {
+    "blk_no": "413",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550413",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 20
+    }
+  },
+  "414-serangoon-ctrl": {
+    "blk_no": "414",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550414",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 20
+    }
+  },
+  "415-serangoon-ctrl": {
+    "blk_no": "415",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550415",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 20
+    }
+  },
+  "416-serangoon-ctrl": {
+    "blk_no": "416",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550416",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 20
+    }
+  },
+  "417-serangoon-ctrl": {
+    "blk_no": "417",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550417",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "exec": 54
+    }
+  },
+  "418-serangoon-ctrl": {
+    "blk_no": "418",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550418",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "exec": 54
+    }
+  },
+  "419-serangoon-ctrl": {
+    "blk_no": "419",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550419",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "420-serangoon-ctrl": {
+    "blk_no": "420",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550420",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "421-serangoon-ctrl": {
+    "blk_no": "421",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550421",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "422-serangoon-ctrl": {
+    "blk_no": "422",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550422",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "423-serangoon-ctrl": {
+    "blk_no": "423",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550423",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "424-serangoon-ctrl": {
+    "blk_no": "424",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550424",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "425-serangoon-ave-1": {
+    "blk_no": "425",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550425",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 24
+    }
+  },
+  "426-serangoon-ave-1": {
+    "blk_no": "426",
+    "street": "SERANGOON AVE 1",
+    "street_full": "SERANGOON AVENUE 1",
+    "postal": "550426",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "427-serangoon-ctrl": {
+    "blk_no": "427",
+    "street": "SERANGOON CTRL",
+    "street_full": "SERANGOON CENTRAL",
+    "postal": "550427",
+    "town": "SERANGOON",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "5-lor-lew-lian": {
+    "blk_no": "5",
+    "street": "LOR LEW LIAN",
+    "street_full": "LORONG LEW LIAN",
+    "postal": "530005",
+    "town": "SERANGOON",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 124,
+      "5room": 3
+    }
+  },
+  "500-serangoon-nth-ave-4": {
+    "blk_no": "500",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550500",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "501-serangoon-nth-ave-4": {
+    "blk_no": "501",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550501",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "502-serangoon-nth-ave-4": {
+    "blk_no": "502",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550502",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "503-serangoon-nth-ave-4": {
+    "blk_no": "503",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550503",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "4room": 4,
+      "5room": 4
+    }
+  },
+  "504-serangoon-nth-ave-4": {
+    "blk_no": "504",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550504",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "505-serangoon-nth-ave-4": {
+    "blk_no": "505",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550505",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "506-serangoon-nth-ave-4": {
+    "blk_no": "506",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550506",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "506a-serangoon-nth-ave-4": {
+    "blk_no": "506A",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "551506",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "506b-serangoon-nth-ave-4": {
+    "blk_no": "506B",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "552506",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "507-serangoon-nth-ave-4": {
+    "blk_no": "507",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550507",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "508-serangoon-nth-ave-4": {
+    "blk_no": "508",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550508",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "509-serangoon-nth-ave-4": {
+    "blk_no": "509",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550509",
+    "town": "SERANGOON",
+    "year_completed": 1996,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 21
+    }
+  },
+  "510-serangoon-nth-ave-4": {
+    "blk_no": "510",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550510",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 36
+    }
+  },
+  "511-serangoon-nth-ave-4": {
+    "blk_no": "511",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550511",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "512-serangoon-nth-ave-4": {
+    "blk_no": "512",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550512",
+    "town": "SERANGOON",
+    "year_completed": 1996,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "514-serangoon-nth-ave-4": {
+    "blk_no": "514",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550514",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 16
+    }
+  },
+  "515-serangoon-nth-ave-4": {
+    "blk_no": "515",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550515",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 6
+    }
+  },
+  "516-serangoon-nth-ave-4": {
+    "blk_no": "516",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550516",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "517-serangoon-nth-ave-4": {
+    "blk_no": "517",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550517",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "518-serangoon-nth-ave-4": {
+    "blk_no": "518",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550518",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "519-serangoon-nth-ave-4": {
+    "blk_no": "519",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550519",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "520-serangoon-nth-ave-4": {
+    "blk_no": "520",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550520",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "521-serangoon-nth-ave-4": {
+    "blk_no": "521",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550521",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 22
+    }
+  },
+  "522-serangoon-nth-ave-4": {
+    "blk_no": "522",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550522",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 24
+    }
+  },
+  "523-serangoon-nth-ave-4": {
+    "blk_no": "523",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550523",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "524-serangoon-nth-ave-4": {
+    "blk_no": "524",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550524",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "525-serangoon-nth-ave-4": {
+    "blk_no": "525",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550525",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "526-serangoon-nth-ave-4": {
+    "blk_no": "526",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550526",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "527-serangoon-nth-ave-4": {
+    "blk_no": "527",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550527",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "528-serangoon-nth-ave-4": {
+    "blk_no": "528",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550528",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 41,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 5
+    }
+  },
+  "529-serangoon-nth-ave-4": {
+    "blk_no": "529",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550529",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "530-serangoon-nth-ave-4": {
+    "blk_no": "530",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550530",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 22
+    }
+  },
+  "531-serangoon-nth-ave-4": {
+    "blk_no": "531",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550531",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 16
+    }
+  },
+  "532-serangoon-nth-ave-4": {
+    "blk_no": "532",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550532",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 16
+    }
+  },
+  "533-serangoon-nth-ave-4": {
+    "blk_no": "533",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550533",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "534-serangoon-nth-ave-4": {
+    "blk_no": "534",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550534",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "535-serangoon-nth-ave-4": {
+    "blk_no": "535",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550535",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "535a-serangoon-nth-ave-4": {
+    "blk_no": "535A",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "551535",
+    "town": "SERANGOON",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "536-serangoon-nth-ave-4": {
+    "blk_no": "536",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550536",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 18
+    }
+  },
+  "537-serangoon-nth-ave-4": {
+    "blk_no": "537",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550537",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "exec": 88
+    }
+  },
+  "538-serangoon-nth-ave-4": {
+    "blk_no": "538",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550538",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 16
+    }
+  },
+  "539-serangoon-nth-ave-4": {
+    "blk_no": "539",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550539",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "exec": 88
+    }
+  },
+  "540-serangoon-nth-ave-4": {
+    "blk_no": "540",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550540",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "541-serangoon-nth-ave-4": {
+    "blk_no": "541",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550541",
+    "town": "SERANGOON",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "542-serangoon-nth-ave-4": {
+    "blk_no": "542",
+    "street": "SERANGOON NTH AVE 4",
+    "street_full": "SERANGOON NORTH AVENUE 4",
+    "postal": "550542",
+    "town": "SERANGOON",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "exec": 110
+    }
+  },
+  "543-serangoon-nth-ave-3": {
+    "blk_no": "543",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550543",
+    "town": "SERANGOON",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "544-serangoon-nth-ave-3": {
+    "blk_no": "544",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550544",
+    "town": "SERANGOON",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "exec": 63
+    }
+  },
+  "545-serangoon-nth-ave-3": {
+    "blk_no": "545",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550545",
+    "town": "SERANGOON",
+    "year_completed": 1996,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 48
+    }
+  },
+  "546-serangoon-nth-ave-3": {
+    "blk_no": "546",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550546",
+    "town": "SERANGOON",
+    "year_completed": 1996,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 48
+    }
+  },
+  "547-serangoon-nth-ave-3": {
+    "blk_no": "547",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550547",
+    "town": "SERANGOON",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 60
+    }
+  },
+  "548-serangoon-nth-ave-3": {
+    "blk_no": "548",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550548",
+    "town": "SERANGOON",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 60
+    }
+  },
+  "549-serangoon-nth-ave-3": {
+    "blk_no": "549",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550549",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 60
+    }
+  },
+  "550-serangoon-nth-ave-3": {
+    "blk_no": "550",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550550",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 60
+    }
+  },
+  "551-serangoon-nth-ave-3": {
+    "blk_no": "551",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550551",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 60
+    }
+  },
+  "552-serangoon-nth-ave-3": {
+    "blk_no": "552",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550552",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 60
+    }
+  },
+  "553-serangoon-nth-ave-3": {
+    "blk_no": "553",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550553",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 16
+    }
+  },
+  "554-serangoon-nth-ave-3": {
+    "blk_no": "554",
+    "street": "SERANGOON NTH AVE 3",
+    "street_full": "SERANGOON NORTH AVENUE 3",
+    "postal": "550554",
+    "town": "SERANGOON",
+    "year_completed": 1995,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 16
+    }
+  },
+  "6-lor-lew-lian": {
+    "blk_no": "6",
+    "street": "LOR LEW LIAN",
+    "street_full": "LORONG LEW LIAN",
+    "postal": "531006",
+    "town": "SERANGOON",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "7-lor-lew-lian": {
+    "blk_no": "7",
+    "street": "LOR LEW LIAN",
+    "street_full": "LORONG LEW LIAN",
+    "postal": "531007",
+    "town": "SERANGOON",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "8-lor-lew-lian": {
+    "blk_no": "8",
+    "street": "LOR LEW LIAN",
+    "street_full": "LORONG LEW LIAN",
+    "postal": "531008",
+    "town": "SERANGOON",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "2room": 77
+    },
+    "rental_units_by_type": {
+      "2room": 77
+    }
+  }
+}

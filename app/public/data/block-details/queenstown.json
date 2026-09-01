@@ -1,0 +1,3541 @@
+{
+  "1-dover-rd": {
+    "blk_no": "1",
+    "street": "DOVER RD",
+    "street_full": "DOVER ROAD",
+    "postal": "NIL",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 125,
+    "sold_units_by_type": {
+      "3room": 118,
+      "5room": 7
+    }
+  },
+  "1-ghim-moh-rd": {
+    "blk_no": "1",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270001",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 220,
+    "sold_units_by_type": {
+      "3room": 216,
+      "5room": 4
+    }
+  },
+  "1-holland-cl": {
+    "blk_no": "1",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "271001",
+    "town": "QUEENSTOWN",
+    "year_completed": 1973,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 319,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 319
+    }
+  },
+  "10-holland-ave": {
+    "blk_no": "10",
+    "street": "HOLLAND AVE",
+    "street_full": "HOLLAND AVENUE",
+    "postal": "271010",
+    "town": "QUEENSTOWN",
+    "year_completed": 1973,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 101
+    }
+  },
+  "100-c-wealth-cres": {
+    "blk_no": "100",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140100",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 61,
+      "4room": 5
+    }
+  },
+  "101-c-wealth-cres": {
+    "blk_no": "101",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140101",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 62,
+      "4room": 4
+    }
+  },
+  "102-c-wealth-cres": {
+    "blk_no": "102",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140102",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 80,
+      "4room": 5
+    }
+  },
+  "103-c-wealth-cres": {
+    "blk_no": "103",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140103",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 99
+    }
+  },
+  "104-c-wealth-cres": {
+    "blk_no": "104",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140104",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 99
+    }
+  },
+  "106-c-wealth-cres": {
+    "blk_no": "106",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140106",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 99
+    }
+  },
+  "107-c-wealth-cres": {
+    "blk_no": "107",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140107",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 99
+    }
+  },
+  "108-c-wealth-cres": {
+    "blk_no": "108",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140108",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "2room": 7,
+      "3room": 62,
+      "4room": 5
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "109-c-wealth-cres": {
+    "blk_no": "109",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140109",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 68,
+      "4room": 1
+    }
+  },
+  "11-holland-dr": {
+    "blk_no": "11",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "271011",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 371,
+    "sold_units_by_type": {
+      "3room": 280,
+      "4room": 84,
+      "5room": 7
+    }
+  },
+  "110-c-wealth-cres": {
+    "blk_no": "110",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140110",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 62,
+      "4room": 4
+    }
+  },
+  "111-c-wealth-cres": {
+    "blk_no": "111",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140111",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 66,
+      "4room": 2
+    }
+  },
+  "112-c-wealth-cres": {
+    "blk_no": "112",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140112",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 62,
+      "4room": 4
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "113-c-wealth-cres": {
+    "blk_no": "113",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140113",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "2room": 8,
+      "3room": 64,
+      "4room": 4
+    }
+  },
+  "12-dover-cl-east": {
+    "blk_no": "12",
+    "street": "DOVER CL EAST",
+    "street_full": "DOVER CLOSE EAST",
+    "postal": "130012",
+    "town": "QUEENSTOWN",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "12-holland-ave": {
+    "blk_no": "12",
+    "street": "HOLLAND AVE",
+    "street_full": "HOLLAND AVENUE",
+    "postal": "272012",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 356,
+    "sold_units_by_type": {
+      "3room": 268,
+      "4room": 80,
+      "5room": 8
+    }
+  },
+  "129-clarence-lane": {
+    "blk_no": "129",
+    "street": "CLARENCE LANE",
+    "street_full": "CLARENCE LANE",
+    "postal": "140129",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 95
+    }
+  },
+  "13-dover-cl-east": {
+    "blk_no": "13",
+    "street": "DOVER CL EAST",
+    "street_full": "DOVER CLOSE EAST",
+    "postal": "130013",
+    "town": "QUEENSTOWN",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "13-ghim-moh-rd": {
+    "blk_no": "13",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270013",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "13-holland-dr": {
+    "blk_no": "13",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "271013",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 367,
+    "sold_units_by_type": {
+      "3room": 277,
+      "4room": 84,
+      "5room": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "130-clarence-lane": {
+    "blk_no": "130",
+    "street": "CLARENCE LANE",
+    "street_full": "CLARENCE LANE",
+    "postal": "140130",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 95
+    }
+  },
+  "131-clarence-lane": {
+    "blk_no": "131",
+    "street": "CLARENCE LANE",
+    "street_full": "CLARENCE LANE",
+    "postal": "140131",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 59,
+    "sold_units_by_type": {
+      "5room": 59
+    }
+  },
+  "132-clarence-lane": {
+    "blk_no": "132",
+    "street": "CLARENCE LANE",
+    "street_full": "CLARENCE LANE",
+    "postal": "140132",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "5room": 50
+    }
+  },
+  "133-clarence-lane": {
+    "blk_no": "133",
+    "street": "CLARENCE LANE",
+    "street_full": "CLARENCE LANE",
+    "postal": "140133",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "5room": 40
+    }
+  },
+  "14-dover-cl-east": {
+    "blk_no": "14",
+    "street": "DOVER CL EAST",
+    "street_full": "DOVER CLOSE EAST",
+    "postal": "130014",
+    "town": "QUEENSTOWN",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "14-ghim-moh-rd": {
+    "blk_no": "14",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270014",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "143-mei-ling-st": {
+    "blk_no": "143",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140143",
+    "town": "QUEENSTOWN",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 36
+    }
+  },
+  "145-mei-ling-st": {
+    "blk_no": "145",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140145",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 19
+    }
+  },
+  "146-mei-ling-st": {
+    "blk_no": "146",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140146",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "147-mei-ling-st": {
+    "blk_no": "147",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140147",
+    "town": "QUEENSTOWN",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "148-mei-ling-st": {
+    "blk_no": "148",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140148",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "exec": 110
+    }
+  },
+  "149-mei-ling-st": {
+    "blk_no": "149",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140149",
+    "town": "QUEENSTOWN",
+    "year_completed": 1993,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "exec": 68
+    }
+  },
+  "15-ghim-moh-rd": {
+    "blk_no": "15",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270015",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 156
+    }
+  },
+  "150-mei-ling-st": {
+    "blk_no": "150",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "141150",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "exec": 109
+    }
+  },
+  "151-mei-ling-st": {
+    "blk_no": "151",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140151",
+    "town": "QUEENSTOWN",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 196
+    }
+  },
+  "152-mei-ling-st": {
+    "blk_no": "152",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140152",
+    "town": "QUEENSTOWN",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "3room": 79
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "153-mei-ling-st": {
+    "blk_no": "153",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140153",
+    "town": "QUEENSTOWN",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "3room": 80
+    }
+  },
+  "154-mei-ling-st": {
+    "blk_no": "154",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140154",
+    "town": "QUEENSTOWN",
+    "year_completed": 1968,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 140
+    }
+  },
+  "155-mei-ling-st": {
+    "blk_no": "155",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140155",
+    "town": "QUEENSTOWN",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 144
+    }
+  },
+  "156-mei-ling-st": {
+    "blk_no": "156",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140156",
+    "town": "QUEENSTOWN",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 144
+    }
+  },
+  "157-mei-ling-st": {
+    "blk_no": "157",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140157",
+    "town": "QUEENSTOWN",
+    "year_completed": 1969,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 140
+    }
+  },
+  "158-mei-ling-st": {
+    "blk_no": "158",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140158",
+    "town": "QUEENSTOWN",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "3room": 101,
+      "5room": 1
+    }
+  },
+  "16-ghim-moh-rd": {
+    "blk_no": "16",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270016",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 208
+    }
+  },
+  "160-mei-ling-st": {
+    "blk_no": "160",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140160",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 226,
+    "sold_units_by_type": {
+      "3room": 166,
+      "4room": 57,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "161-mei-ling-st": {
+    "blk_no": "161",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140161",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 227,
+    "sold_units_by_type": {
+      "3room": 168,
+      "4room": 57,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "162-mei-ling-st": {
+    "blk_no": "162",
+    "street": "MEI LING ST",
+    "street_full": "MEI LING STREET",
+    "postal": "140162",
+    "town": "QUEENSTOWN",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 100
+    }
+  },
+  "163-stirling-rd": {
+    "blk_no": "163",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140163",
+    "town": "QUEENSTOWN",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 96,
+      "5room": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "164-stirling-rd": {
+    "blk_no": "164",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140164",
+    "town": "QUEENSTOWN",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 101,
+      "5room": 3
+    }
+  },
+  "165-stirling-rd": {
+    "blk_no": "165",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140165",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 104,
+      "5room": 3
+    }
+  },
+  "166-stirling-rd": {
+    "blk_no": "166",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140166",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 103,
+      "5room": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "167-stirling-rd": {
+    "blk_no": "167",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140167",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 143
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "168-stirling-rd": {
+    "blk_no": "168",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141168",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 144
+    }
+  },
+  "168a-queensway": {
+    "blk_no": "168A",
+    "street": "QUEENSWAY",
+    "street_full": "QUEENSWAY",
+    "postal": "140168",
+    "town": "QUEENSTOWN",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "4room": 228
+    }
+  },
+  "169-stirling-rd": {
+    "blk_no": "169",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140169",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 199,
+    "sold_units_by_type": {
+      "3room": 198,
+      "5room": 1
+    }
+  },
+  "17-dover-cres": {
+    "blk_no": "17",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130017",
+    "town": "QUEENSTOWN",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 102,
+      "5room": 52
+    }
+  },
+  "17-ghim-moh-rd": {
+    "blk_no": "17",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270017",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 208
+    }
+  },
+  "170-stirling-rd": {
+    "blk_no": "170",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140170",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 194,
+      "5room": 3
+    }
+  },
+  "171-stirling-rd": {
+    "blk_no": "171",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140171",
+    "town": "QUEENSTOWN",
+    "year_completed": 1970,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 117
+    },
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "18-dover-cres": {
+    "blk_no": "18",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130018",
+    "town": "QUEENSTOWN",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 102,
+      "5room": 52
+    }
+  },
+  "18-ghim-moh-rd": {
+    "blk_no": "18",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270018",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "2room": 51
+    },
+    "rental_units_by_type": {
+      "2room": 157
+    }
+  },
+  "181-stirling-rd": {
+    "blk_no": "181",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140181",
+    "town": "QUEENSTOWN",
+    "year_completed": 1998,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 12
+    }
+  },
+  "182-stirling-rd": {
+    "blk_no": "182",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140182",
+    "town": "QUEENSTOWN",
+    "year_completed": 1998,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 12
+    }
+  },
+  "183-stirling-rd": {
+    "blk_no": "183",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140183",
+    "town": "QUEENSTOWN",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 39
+    }
+  },
+  "184-stirling-rd": {
+    "blk_no": "184",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140184",
+    "town": "QUEENSTOWN",
+    "year_completed": 1999,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 96
+    }
+  },
+  "18a-holland-dr": {
+    "blk_no": "18A",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "272018",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "3room": 156,
+      "4room": 78
+    }
+  },
+  "18b-holland-dr": {
+    "blk_no": "18B",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "273018",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 34,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 60,
+      "4room": 66
+    }
+  },
+  "18c-holland-dr": {
+    "blk_no": "18C",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "274018",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 117,
+      "5room": 117
+    }
+  },
+  "18d-holland-dr": {
+    "blk_no": "18D",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "275018",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 156,
+      "5room": 78
+    }
+  },
+  "19-dover-cres": {
+    "blk_no": "19",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130019",
+    "town": "QUEENSTOWN",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 102,
+      "5room": 52
+    }
+  },
+  "19-ghim-moh-rd": {
+    "blk_no": "19",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270019",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {
+      "3room": 210,
+      "5room": 6
+    }
+  },
+  "19-queen-s-cl": {
+    "blk_no": "19",
+    "street": "QUEEN'S CL",
+    "street_full": "QUEEN'S CLOSE",
+    "postal": "140019",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 31
+    }
+  },
+  "2-dover-rd": {
+    "blk_no": "2",
+    "street": "DOVER RD",
+    "street_full": "DOVER ROAD",
+    "postal": "130002",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 122,
+      "5room": 5
+    }
+  },
+  "2-ghim-moh-rd": {
+    "blk_no": "2",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270002",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "3room": 214,
+      "5room": 5
+    }
+  },
+  "2-holland-ave": {
+    "blk_no": "2",
+    "street": "HOLLAND AVE",
+    "street_full": "HOLLAND AVENUE",
+    "postal": "271002",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 368,
+    "sold_units_by_type": {
+      "3room": 274,
+      "4room": 84,
+      "5room": 10
+    }
+  },
+  "20-dover-cres": {
+    "blk_no": "20",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130020",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 164,
+      "5room": 8
+    }
+  },
+  "20-holland-dr": {
+    "blk_no": "20",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "271020",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "20-queen-s-cl": {
+    "blk_no": "20",
+    "street": "QUEEN'S CL",
+    "street_full": "QUEEN'S CLOSE",
+    "postal": "140020",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 33
+    }
+  },
+  "21-dover-cres": {
+    "blk_no": "21",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130021",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "3room": 140,
+      "5room": 8
+    }
+  },
+  "21-ghim-moh-rd": {
+    "blk_no": "21",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270021",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "3room": 186,
+      "5room": 2
+    }
+  },
+  "21-holland-dr": {
+    "blk_no": "21",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "271021",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "21-queen-s-cl": {
+    "blk_no": "21",
+    "street": "QUEEN'S CL",
+    "street_full": "QUEEN'S CLOSE",
+    "postal": "140021",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 62
+    }
+  },
+  "22-dover-cres": {
+    "blk_no": "22",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130022",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "5room": 26,
+      "exec": 39
+    }
+  },
+  "22-ghim-moh-link": {
+    "blk_no": "22",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "271022",
+    "town": "QUEENSTOWN",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 288,
+    "sold_units_by_type": {
+      "4room": 214,
+      "5room": 74
+    }
+  },
+  "22-queen-s-cl": {
+    "blk_no": "22",
+    "street": "QUEEN'S CL",
+    "street_full": "QUEEN'S CLOSE",
+    "postal": "140022",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 31
+    }
+  },
+  "23-dover-cres": {
+    "blk_no": "23",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130023",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "23-ghim-moh-link": {
+    "blk_no": "23",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "271023",
+    "town": "QUEENSTOWN",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 291,
+    "sold_units_by_type": {
+      "4room": 215,
+      "5room": 76
+    }
+  },
+  "23a-queen-s-cl": {
+    "blk_no": "23A",
+    "street": "QUEEN'S CL",
+    "street_full": "QUEEN'S CLOSE",
+    "postal": "140023",
+    "town": "QUEENSTOWN",
+    "year_completed": 1972,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 126
+    }
+  },
+  "23b-queen-s-cl": {
+    "blk_no": "23B",
+    "street": "QUEEN'S CL",
+    "street_full": "QUEEN'S CLOSE",
+    "postal": "141023",
+    "town": "QUEENSTOWN",
+    "year_completed": 1972,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "26-dover-cres": {
+    "blk_no": "26",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130026",
+    "town": "QUEENSTOWN",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "26-ghim-moh-link": {
+    "blk_no": "26",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "270026",
+    "town": "QUEENSTOWN",
+    "year_completed": 2011,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 227,
+    "sold_units_by_type": {
+      "2room": 84,
+      "3room": 143
+    }
+  },
+  "27-dover-cres": {
+    "blk_no": "27",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130027",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "27-ghim-moh-link": {
+    "blk_no": "27",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "270027",
+    "town": "QUEENSTOWN",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 280,
+    "sold_units_by_type": {
+      "2room": 86,
+      "3room": 76,
+      "4room": 117
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "28-ghim-moh-link": {
+    "blk_no": "28",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "270028",
+    "town": "QUEENSTOWN",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 308,
+    "sold_units_by_type": {
+      "4room": 233,
+      "5room": 75
+    }
+  },
+  "28a-dover-cres": {
+    "blk_no": "28A",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "131028",
+    "town": "QUEENSTOWN",
+    "year_completed": 2009,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "4room": 126,
+      "5room": 78
+    }
+  },
+  "28b-dover-cres": {
+    "blk_no": "28B",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "132028",
+    "town": "QUEENSTOWN",
+    "year_completed": 2009,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 260,
+    "sold_units_by_type": {
+      "3room": 78,
+      "4room": 182
+    }
+  },
+  "28c-dover-cres": {
+    "blk_no": "28C",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "133028",
+    "town": "QUEENSTOWN",
+    "year_completed": 2009,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 272,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 195,
+      "exec": 1
+    }
+  },
+  "28d-dover-cres": {
+    "blk_no": "28D",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "134028",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "4room": 138,
+      "5room": 68
+    }
+  },
+  "29-ghim-moh-link": {
+    "blk_no": "29",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "270029",
+    "town": "QUEENSTOWN",
+    "year_completed": 2017,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 294,
+    "sold_units_by_type": {
+      "2room": 67,
+      "3room": 37,
+      "4room": 146,
+      "studio_apartment": 44
+    }
+  },
+  "3-dover-rd": {
+    "blk_no": "3",
+    "street": "DOVER RD",
+    "street_full": "DOVER ROAD",
+    "postal": "130003",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 121,
+      "5room": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "3-ghim-moh-rd": {
+    "blk_no": "3",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270003",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "3room": 214,
+      "5room": 5
+    }
+  },
+  "3-holland-cl": {
+    "blk_no": "3",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "271003",
+    "town": "QUEENSTOWN",
+    "year_completed": 1997,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 54
+    }
+  },
+  "30-ghim-moh-link": {
+    "blk_no": "30",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "272030",
+    "town": "QUEENSTOWN",
+    "year_completed": 2017,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 295,
+    "sold_units_by_type": {
+      "2room": 57,
+      "3room": 37,
+      "4room": 147,
+      "studio_apartment": 54
+    }
+  },
+  "30-holland-cl": {
+    "blk_no": "30",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "270030",
+    "town": "QUEENSTOWN",
+    "year_completed": 1995,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 54
+    }
+  },
+  "30-margaret-dr": {
+    "blk_no": "30",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "141030",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 120,
+      "4room": 40
+    }
+  },
+  "30a-holland-cl": {
+    "blk_no": "30A",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "271030",
+    "town": "QUEENSTOWN",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 22
+    }
+  },
+  "31-ghim-moh-link": {
+    "blk_no": "31",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "271031",
+    "town": "QUEENSTOWN",
+    "year_completed": 2017,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 147,
+    "sold_units_by_type": {
+      "4room": 147
+    }
+  },
+  "31-holland-cl": {
+    "blk_no": "31",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "270031",
+    "town": "QUEENSTOWN",
+    "year_completed": 1973,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 104,
+      "5room": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "31-margaret-dr": {
+    "blk_no": "31",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "140031",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "2room": 80,
+      "3room": 44
+    }
+  },
+  "32-ghim-moh-link": {
+    "blk_no": "32",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "271032",
+    "town": "QUEENSTOWN",
+    "year_completed": 2017,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 222,
+    "sold_units_by_type": {
+      "3room": 148,
+      "4room": 74
+    }
+  },
+  "32-holland-cl": {
+    "blk_no": "32",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "270032",
+    "town": "QUEENSTOWN",
+    "year_completed": 1973,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "3room": 198,
+      "5room": 8
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "32-margaret-dr": {
+    "blk_no": "32",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "140032",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "3room": 123,
+      "4room": 40
+    }
+  },
+  "33-ghim-moh-link": {
+    "blk_no": "33",
+    "street": "GHIM MOH LINK",
+    "street_full": "GHIM MOH LINK",
+    "postal": "270033",
+    "town": "QUEENSTOWN",
+    "year_completed": 2017,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 221,
+    "sold_units_by_type": {
+      "3room": 74,
+      "4room": 147
+    }
+  },
+  "33-margaret-dr": {
+    "blk_no": "33",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "140033",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "3room": 41,
+      "4room": 82,
+      "5room": 41
+    }
+  },
+  "33-tanglin-halt-rd": {
+    "blk_no": "33",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "142033",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 29,
+      "3room": 83,
+      "other_room": 4
+    }
+  },
+  "34-margaret-dr": {
+    "blk_no": "34",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "140034",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 41,
+      "4room": 80,
+      "5room": 39
+    }
+  },
+  "34-tanglin-halt-rd": {
+    "blk_no": "34",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "142034",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 28,
+      "3room": 86,
+      "other_room": 3
+    }
+  },
+  "35-margaret-dr": {
+    "blk_no": "35",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "140035",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "2room": 104,
+      "3room": 22
+    }
+  },
+  "35-tanglin-halt-rd": {
+    "blk_no": "35",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "141035",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 30,
+      "3room": 88,
+      "other_room": 1
+    }
+  },
+  "36-margaret-dr": {
+    "blk_no": "36",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "140036",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 84,
+      "4room": 39,
+      "5room": 39
+    }
+  },
+  "36-tanglin-halt-rd": {
+    "blk_no": "36",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "141036",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 27,
+      "3room": 87,
+      "other_room": 3
+    }
+  },
+  "37-margaret-dr": {
+    "blk_no": "37",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "143037",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 42
+    }
+  },
+  "37-tanglin-halt-rd": {
+    "blk_no": "37",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "140037",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 28,
+      "3room": 88,
+      "other_room": 2
+    }
+  },
+  "38-tanglin-halt-rd": {
+    "blk_no": "38",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "140038",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 28,
+      "3room": 84,
+      "other_room": 4
+    }
+  },
+  "39a-margaret-dr": {
+    "blk_no": "39A",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "141039",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 45,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 84,
+      "5room": 42
+    }
+  },
+  "3a-holland-cl": {
+    "blk_no": "3A",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "272003",
+    "town": "QUEENSTOWN",
+    "year_completed": 1997,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 26
+    }
+  },
+  "4-dover-rd": {
+    "blk_no": "4",
+    "street": "DOVER RD",
+    "street_full": "DOVER ROAD",
+    "postal": "130004",
+    "town": "QUEENSTOWN",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 182
+    }
+  },
+  "4-ghim-moh-rd": {
+    "blk_no": "4",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270004",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 218,
+    "sold_units_by_type": {
+      "3room": 212,
+      "5room": 6
+    }
+  },
+  "4-holland-cl": {
+    "blk_no": "4",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "271004",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 374,
+    "sold_units_by_type": {
+      "3room": 286,
+      "4room": 84,
+      "5room": 4
+    }
+  },
+  "40-holland-dr": {
+    "blk_no": "40",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "270040",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 17,
+    "sold_units_by_type": {
+      "3room": 17
+    }
+  },
+  "40a-margaret-dr": {
+    "blk_no": "40A",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "141040",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 45,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 84,
+      "4room": 42,
+      "5room": 42
+    }
+  },
+  "40b-margaret-dr": {
+    "blk_no": "40B",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "142040",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 50,
+      "3room": 100
+    }
+  },
+  "41-holland-dr": {
+    "blk_no": "41",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "270041",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 24
+    }
+  },
+  "41-stirling-rd": {
+    "blk_no": "41",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140041",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "4room": 6
+    }
+  },
+  "41-tanglin-halt-rd": {
+    "blk_no": "41",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "141041",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 29,
+      "3room": 87,
+      "other_room": 2
+    }
+  },
+  "41a-margaret-dr": {
+    "blk_no": "41A",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "143041",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 186,
+    "sold_units_by_type": {
+      "2room": 93,
+      "3room": 93
+    }
+  },
+  "42-holland-dr": {
+    "blk_no": "42",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "270042",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "42-stirling-rd": {
+    "blk_no": "42",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140042",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 10,
+    "sold_units_by_type": {
+      "4room": 10
+    }
+  },
+  "42-tanglin-halt-rd": {
+    "blk_no": "42",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "141042",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 29,
+      "3room": 87,
+      "other_room": 2
+    }
+  },
+  "42a-margaret-dr": {
+    "blk_no": "42A",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "143042",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 45,
+    "total_dwelling_units": 246,
+    "sold_units_by_type": {
+      "3room": 120,
+      "4room": 84,
+      "5room": 42
+    }
+  },
+  "43-holland-dr": {
+    "blk_no": "43",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "270043",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "3room": 41,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "43-stirling-rd": {
+    "blk_no": "43",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141043",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "4room": 4
+    }
+  },
+  "43-tanglin-halt-rd": {
+    "blk_no": "43",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "142043",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 26,
+      "3room": 70,
+      "other_room": 6
+    }
+  },
+  "43a-margaret-dr": {
+    "blk_no": "43A",
+    "street": "MARGARET DR",
+    "street_full": "MARGARET DRIVE",
+    "postal": "143043",
+    "town": "QUEENSTOWN",
+    "year_completed": 2021,
+    "max_floor_lvl": 45,
+    "total_dwelling_units": 274,
+    "sold_units_by_type": {
+      "2room": 84,
+      "3room": 64,
+      "4room": 126
+    }
+  },
+  "44-stirling-rd": {
+    "blk_no": "44",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141044",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "4room": 4
+    }
+  },
+  "44-tanglin-halt-rd": {
+    "blk_no": "44",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "142044",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 29,
+      "3room": 83,
+      "other_room": 3
+    }
+  },
+  "45-holland-dr": {
+    "blk_no": "45",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "270045",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 4,
+      "5room": 2
+    }
+  },
+  "45-stirling-rd": {
+    "blk_no": "45",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140045",
+    "town": "QUEENSTOWN",
+    "year_completed": 1961,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 21,
+      "2room": 77,
+      "3room": 14
+    }
+  },
+  "46-holland-dr": {
+    "blk_no": "46",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "270046",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 19
+    }
+  },
+  "46-stirling-rd": {
+    "blk_no": "46",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140046",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "4room": 6
+    }
+  },
+  "47-holland-dr": {
+    "blk_no": "47",
+    "street": "HOLLAND DR",
+    "street_full": "HOLLAND DRIVE",
+    "postal": "270047",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 14,
+      "5room": 2
+    }
+  },
+  "47-stirling-rd": {
+    "blk_no": "47",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140047",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "4room": 6
+    }
+  },
+  "48-stirling-rd": {
+    "blk_no": "48",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141048",
+    "town": "QUEENSTOWN",
+    "year_completed": 1961,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 21,
+      "2room": 77,
+      "3room": 14
+    }
+  },
+  "48-strathmore-ave": {
+    "blk_no": "48",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "140048",
+    "town": "QUEENSTOWN",
+    "year_completed": 2005,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 195,
+      "5room": 39
+    }
+  },
+  "49-stirling-rd": {
+    "blk_no": "49",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141049",
+    "town": "QUEENSTOWN",
+    "year_completed": 1961,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 18,
+      "2room": 66,
+      "3room": 12
+    }
+  },
+  "49-strathmore-ave": {
+    "blk_no": "49",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "140049",
+    "town": "QUEENSTOWN",
+    "year_completed": 2004,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "4room": 147,
+      "5room": 29
+    }
+  },
+  "5-dover-cres": {
+    "blk_no": "5",
+    "street": "DOVER CRES",
+    "street_full": "DOVER CRESCENT",
+    "postal": "130005",
+    "town": "QUEENSTOWN",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 26,
+      "exec": 1
+    }
+  },
+  "5-ghim-moh-rd": {
+    "blk_no": "5",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270005",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 218,
+    "sold_units_by_type": {
+      "3room": 212,
+      "5room": 6
+    }
+  },
+  "5-holland-cl": {
+    "blk_no": "5",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "272005",
+    "town": "QUEENSTOWN",
+    "year_completed": 1997,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 54
+    }
+  },
+  "50-c-wealth-dr": {
+    "blk_no": "50",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "142050",
+    "town": "QUEENSTOWN",
+    "year_completed": 2013,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 278,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 133,
+      "5room": 39
+    }
+  },
+  "50-stirling-rd": {
+    "blk_no": "50",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141050",
+    "town": "QUEENSTOWN",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "50-strathmore-ave": {
+    "blk_no": "50",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "140050",
+    "town": "QUEENSTOWN",
+    "year_completed": 2004,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "4room": 147,
+      "5room": 29
+    }
+  },
+  "51-c-wealth-dr": {
+    "blk_no": "51",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "141051",
+    "town": "QUEENSTOWN",
+    "year_completed": 2013,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "2room": 19,
+      "3room": 64,
+      "4room": 28
+    }
+  },
+  "51-strathmore-ave": {
+    "blk_no": "51",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "140051",
+    "town": "QUEENSTOWN",
+    "year_completed": 2005,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "4room": 147,
+      "5room": 29
+    }
+  },
+  "52-c-wealth-dr": {
+    "blk_no": "52",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "142052",
+    "town": "QUEENSTOWN",
+    "year_completed": 2013,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "2room": 28,
+      "3room": 50,
+      "4room": 28
+    }
+  },
+  "52-stirling-rd": {
+    "blk_no": "52",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "140052",
+    "town": "QUEENSTOWN",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "52-strathmore-ave": {
+    "blk_no": "52",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "141052",
+    "town": "QUEENSTOWN",
+    "year_completed": 2005,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 156,
+      "5room": 78
+    }
+  },
+  "53-c-wealth-dr": {
+    "blk_no": "53",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "142053",
+    "town": "QUEENSTOWN",
+    "year_completed": 2013,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 279,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 134,
+      "5room": 39
+    }
+  },
+  "53-stirling-rd": {
+    "blk_no": "53",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141053",
+    "town": "QUEENSTOWN",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "53-strathmore-ave": {
+    "blk_no": "53",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "140053",
+    "town": "QUEENSTOWN",
+    "year_completed": 2019,
+    "max_floor_lvl": 43,
+    "total_dwelling_units": 247,
+    "sold_units_by_type": {
+      "2room": 42,
+      "3room": 123,
+      "4room": 82
+    }
+  },
+  "55-stirling-rd": {
+    "blk_no": "55",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "142055",
+    "town": "QUEENSTOWN",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "55-strathmore-ave": {
+    "blk_no": "55",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "140055",
+    "town": "QUEENSTOWN",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 181,
+    "sold_units_by_type": {
+      "4room": 105,
+      "5room": 76
+    }
+  },
+  "56-c-wealth-dr": {
+    "blk_no": "56",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "141056",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 30,
+      "3room": 86,
+      "other_room": 2
+    }
+  },
+  "56-stirling-rd": {
+    "blk_no": "56",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "142056",
+    "town": "QUEENSTOWN",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "56-strathmore-ave": {
+    "blk_no": "56",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "140056",
+    "town": "QUEENSTOWN",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 76
+    }
+  },
+  "57-stirling-rd": {
+    "blk_no": "57",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141057",
+    "town": "QUEENSTOWN",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "58-c-wealth-dr": {
+    "blk_no": "58",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140058",
+    "town": "QUEENSTOWN",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 29,
+      "3room": 85,
+      "other_room": 3
+    }
+  },
+  "58-stirling-rd": {
+    "blk_no": "58",
+    "street": "STIRLING RD",
+    "street_full": "STIRLING ROAD",
+    "postal": "141058",
+    "town": "QUEENSTOWN",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "58-strathmore-ave": {
+    "blk_no": "58",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "142058",
+    "town": "QUEENSTOWN",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 94,
+      "5room": 29
+    }
+  },
+  "59-c-wealth-dr": {
+    "blk_no": "59",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140059",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 28,
+      "3room": 82,
+      "other_room": 5
+    }
+  },
+  "59-strathmore-ave": {
+    "blk_no": "59",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "142059",
+    "town": "QUEENSTOWN",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "4room": 101,
+      "5room": 36
+    }
+  },
+  "6-ghim-moh-rd": {
+    "blk_no": "6",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270006",
+    "town": "QUEENSTOWN",
+    "year_completed": 1975,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 218,
+    "sold_units_by_type": {
+      "3room": 212,
+      "5room": 6
+    }
+  },
+  "6-holland-cl": {
+    "blk_no": "6",
+    "street": "HOLLAND CL",
+    "street_full": "HOLLAND CLOSE",
+    "postal": "271006",
+    "town": "QUEENSTOWN",
+    "year_completed": 1973,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 369,
+    "sold_units_by_type": {
+      "3room": 276,
+      "4room": 84,
+      "5room": 3
+    },
+    "rental_units_by_type": {
+      "3room": 6
+    }
+  },
+  "60-c-wealth-dr": {
+    "blk_no": "60",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140060",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 30,
+      "3room": 86,
+      "other_room": 2
+    }
+  },
+  "60-strathmore-ave": {
+    "blk_no": "60",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "141060",
+    "town": "QUEENSTOWN",
+    "year_completed": 1998,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "4room": 108,
+      "5room": 29
+    }
+  },
+  "61a-strathmore-ave": {
+    "blk_no": "61A",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "142061",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 20,
+      "3room": 26,
+      "4room": 78,
+      "studio_apartment": 56
+    }
+  },
+  "61b-strathmore-ave": {
+    "blk_no": "61B",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "143061",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 110
+    }
+  },
+  "61c-strathmore-ave": {
+    "blk_no": "61C",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "144061",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 110
+    }
+  },
+  "62-c-wealth-dr": {
+    "blk_no": "62",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140062",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 30,
+      "3room": 86,
+      "other_room": 1
+    }
+  },
+  "62a-strathmore-ave": {
+    "blk_no": "62A",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "142062",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 81
+    }
+  },
+  "62b-strathmore-ave": {
+    "blk_no": "62B",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "143062",
+    "town": "QUEENSTOWN",
+    "year_completed": 2010,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 20,
+      "3room": 52,
+      "4room": 52,
+      "studio_apartment": 56
+    }
+  },
+  "64-c-wealth-dr": {
+    "blk_no": "64",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140064",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 28,
+      "3room": 84,
+      "other_room": 4
+    }
+  },
+  "65-c-wealth-dr": {
+    "blk_no": "65",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140065",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 27,
+      "3room": 77,
+      "other_room": 8
+    }
+  },
+  "66-c-wealth-dr": {
+    "blk_no": "66",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140066",
+    "town": "QUEENSTOWN",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 28,
+      "3room": 86,
+      "other_room": 3
+    }
+  },
+  "7-c-wealth-ave": {
+    "blk_no": "7",
+    "street": "C'WEALTH AVE",
+    "street_full": "COMMONWEALTH AVENUE",
+    "postal": "140007",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 45
+    }
+  },
+  "7-ghim-moh-rd": {
+    "blk_no": "7",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270007",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "78-dawson-rd": {
+    "blk_no": "78",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "141078",
+    "town": "QUEENSTOWN",
+    "year_completed": 2019,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "3room": 27,
+      "4room": 72
+    }
+  },
+  "79-dawson-rd": {
+    "blk_no": "79",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "141079",
+    "town": "QUEENSTOWN",
+    "year_completed": 2019,
+    "max_floor_lvl": 39,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 38,
+      "5room": 37
+    }
+  },
+  "7a-c-wealth-ave": {
+    "blk_no": "7A",
+    "street": "C'WEALTH AVE",
+    "street_full": "COMMONWEALTH AVENUE",
+    "postal": "141007",
+    "town": "QUEENSTOWN",
+    "year_completed": 1994,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 29
+    }
+  },
+  "8-ghim-moh-rd": {
+    "blk_no": "8",
+    "street": "GHIM MOH RD",
+    "street_full": "GHIM MOH ROAD",
+    "postal": "270008",
+    "town": "QUEENSTOWN",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "8-holland-ave": {
+    "blk_no": "8",
+    "street": "HOLLAND AVE",
+    "street_full": "HOLLAND AVENUE",
+    "postal": "271008",
+    "town": "QUEENSTOWN",
+    "year_completed": 1974,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 372,
+    "sold_units_by_type": {
+      "3room": 278,
+      "4room": 84,
+      "5room": 6
+    },
+    "rental_units_by_type": {
+      "3room": 4
+    }
+  },
+  "80-strathmore-ave": {
+    "blk_no": "80",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "141080",
+    "town": "QUEENSTOWN",
+    "year_completed": 1993,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 60,
+      "exec": 2
+    }
+  },
+  "81-c-wealth-cl": {
+    "blk_no": "81",
+    "street": "C'WEALTH CL",
+    "street_full": "COMMONWEALTH CLOSE",
+    "postal": "140081",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "2room": 63,
+      "3room": 192
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "81-strathmore-ave": {
+    "blk_no": "81",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "141081",
+    "town": "QUEENSTOWN",
+    "year_completed": 1993,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 64,
+      "exec": 2
+    }
+  },
+  "82-c-wealth-cl": {
+    "blk_no": "82",
+    "street": "C'WEALTH CL",
+    "street_full": "COMMONWEALTH CLOSE",
+    "postal": "140082",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 253,
+    "sold_units_by_type": {
+      "2room": 58,
+      "3room": 188,
+      "4room": 3
+    },
+    "rental_units_by_type": {
+      "2room": 4
+    }
+  },
+  "82-strathmore-ave": {
+    "blk_no": "82",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "141082",
+    "town": "QUEENSTOWN",
+    "year_completed": 1996,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 50
+    }
+  },
+  "83-c-wealth-cl": {
+    "blk_no": "83",
+    "street": "C'WEALTH CL",
+    "street_full": "COMMONWEALTH CLOSE",
+    "postal": "140083",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 255,
+    "sold_units_by_type": {
+      "2room": 59,
+      "3room": 190,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 5
+    }
+  },
+  "83-strathmore-ave": {
+    "blk_no": "83",
+    "street": "STRATHMORE AVE",
+    "street_full": "STRATHMORE AVENUE",
+    "postal": "141083",
+    "town": "QUEENSTOWN",
+    "year_completed": 1995,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 27
+    }
+  },
+  "84-c-wealth-cl": {
+    "blk_no": "84",
+    "street": "C'WEALTH CL",
+    "street_full": "COMMONWEALTH CLOSE",
+    "postal": "140084",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "2room": 8,
+      "3room": 60,
+      "4room": 6
+    }
+  },
+  "85-c-wealth-cl": {
+    "blk_no": "85",
+    "street": "C'WEALTH CL",
+    "street_full": "COMMONWEALTH CLOSE",
+    "postal": "140085",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 90
+    }
+  },
+  "86-c-wealth-cl": {
+    "blk_no": "86",
+    "street": "C'WEALTH CL",
+    "street_full": "COMMONWEALTH CLOSE",
+    "postal": "140086",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 90
+    }
+  },
+  "86-dawson-rd": {
+    "blk_no": "86",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "141086",
+    "town": "QUEENSTOWN",
+    "year_completed": 2015,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 320,
+    "sold_units_by_type": {
+      "4room": 240,
+      "5room": 80
+    }
+  },
+  "87-c-wealth-cl": {
+    "blk_no": "87",
+    "street": "C'WEALTH CL",
+    "street_full": "COMMONWEALTH CLOSE",
+    "postal": "140087",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 86,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "87-dawson-rd": {
+    "blk_no": "87",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "141087",
+    "town": "QUEENSTOWN",
+    "year_completed": 2015,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 320,
+    "sold_units_by_type": {
+      "3room": 160,
+      "4room": 160
+    }
+  },
+  "88-c-wealth-cl": {
+    "blk_no": "88",
+    "street": "C'WEALTH CL",
+    "street_full": "COMMONWEALTH CLOSE",
+    "postal": "140088",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 84,
+      "4room": 3
+    }
+  },
+  "88-dawson-rd": {
+    "blk_no": "88",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "142088",
+    "town": "QUEENSTOWN",
+    "year_completed": 2015,
+    "max_floor_lvl": 47,
+    "total_dwelling_units": 320,
+    "sold_units_by_type": {
+      "4room": 282,
+      "5room": 38
+    }
+  },
+  "89-c-wealth-dr": {
+    "blk_no": "89",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140089",
+    "town": "QUEENSTOWN",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 84,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "89-dawson-rd": {
+    "blk_no": "89",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "142089",
+    "town": "QUEENSTOWN",
+    "year_completed": 2015,
+    "max_floor_lvl": 43,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "2room": 7,
+      "3room": 22,
+      "4room": 99,
+      "5room": 12,
+      "studio_apartment": 14
+    }
+  },
+  "89-tanglin-halt-rd": {
+    "blk_no": "89",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "141089",
+    "town": "QUEENSTOWN",
+    "year_completed": 2007,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 379,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 116,
+      "4room": 185,
+      "5room": 40,
+      "studio_apartment": 28
+    }
+  },
+  "9-holland-ave": {
+    "blk_no": "9",
+    "street": "HOLLAND AVE",
+    "street_full": "HOLLAND AVENUE",
+    "postal": "272009",
+    "town": "QUEENSTOWN",
+    "year_completed": 1973,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 371,
+    "sold_units_by_type": {
+      "3room": 277,
+      "4room": 84,
+      "5room": 7
+    },
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "90-c-wealth-dr": {
+    "blk_no": "90",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140090",
+    "town": "QUEENSTOWN",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 81,
+      "4room": 5
+    }
+  },
+  "90-dawson-rd": {
+    "blk_no": "90",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "142090",
+    "town": "QUEENSTOWN",
+    "year_completed": 2015,
+    "max_floor_lvl": 43,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 7,
+      "3room": 22,
+      "4room": 95,
+      "5room": 12,
+      "studio_apartment": 14
+    }
+  },
+  "90-tanglin-halt-rd": {
+    "blk_no": "90",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "141090",
+    "town": "QUEENSTOWN",
+    "year_completed": 2007,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 389,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 116,
+      "4room": 195,
+      "5room": 40,
+      "studio_apartment": 28
+    }
+  },
+  "91-c-wealth-dr": {
+    "blk_no": "91",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140091",
+    "town": "QUEENSTOWN",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 80,
+      "4room": 5
+    }
+  },
+  "91-dawson-rd": {
+    "blk_no": "91",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "144091",
+    "town": "QUEENSTOWN",
+    "year_completed": 2015,
+    "max_floor_lvl": 43,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 2,
+      "3room": 22,
+      "4room": 95,
+      "5room": 12,
+      "studio_apartment": 19
+    }
+  },
+  "91-tanglin-halt-rd": {
+    "blk_no": "91",
+    "street": "TANGLIN HALT RD",
+    "street_full": "TANGLIN HALT ROAD",
+    "postal": "142091",
+    "town": "QUEENSTOWN",
+    "year_completed": 2007,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 331,
+    "sold_units_by_type": {
+      "2room": 10,
+      "4room": 254,
+      "5room": 39,
+      "studio_apartment": 28
+    }
+  },
+  "92-c-wealth-dr": {
+    "blk_no": "92",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140092",
+    "town": "QUEENSTOWN",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 86,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "92-dawson-rd": {
+    "blk_no": "92",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "141092",
+    "town": "QUEENSTOWN",
+    "year_completed": 2015,
+    "max_floor_lvl": 43,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "2room": 7,
+      "3room": 22,
+      "4room": 86,
+      "5room": 25,
+      "studio_apartment": 14
+    }
+  },
+  "93-c-wealth-dr": {
+    "blk_no": "93",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140093",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 83,
+      "4room": 4
+    }
+  },
+  "93-dawson-rd": {
+    "blk_no": "93",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "142093",
+    "town": "QUEENSTOWN",
+    "year_completed": 2015,
+    "max_floor_lvl": 43,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 6,
+      "3room": 22,
+      "4room": 84,
+      "5room": 23,
+      "studio_apartment": 15
+    }
+  },
+  "94-c-wealth-dr": {
+    "blk_no": "94",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140094",
+    "town": "QUEENSTOWN",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 86,
+      "4room": 2
+    }
+  },
+  "94-dawson-rd": {
+    "blk_no": "94",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "141094",
+    "town": "QUEENSTOWN",
+    "year_completed": 2020,
+    "max_floor_lvl": 43,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 148
+    }
+  },
+  "95-c-wealth-dr": {
+    "blk_no": "95",
+    "street": "C'WEALTH DR",
+    "street_full": "COMMONWEALTH DRIVE",
+    "postal": "140095",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 82,
+      "4room": 4
+    }
+  },
+  "95-dawson-rd": {
+    "blk_no": "95",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "141095",
+    "town": "QUEENSTOWN",
+    "year_completed": 2020,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "2room": 103,
+      "3room": 152
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "96-c-wealth-cres": {
+    "blk_no": "96",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140096",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 65,
+      "4room": 3
+    }
+  },
+  "96-dawson-rd": {
+    "blk_no": "96",
+    "street": "DAWSON RD",
+    "street_full": "DAWSON ROAD",
+    "postal": "141096",
+    "town": "QUEENSTOWN",
+    "year_completed": 2020,
+    "max_floor_lvl": 43,
+    "total_dwelling_units": 284,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 74,
+      "5room": 74
+    }
+  },
+  "97-c-wealth-cres": {
+    "blk_no": "97",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140097",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 87,
+      "4room": 2
+    }
+  },
+  "98-c-wealth-cres": {
+    "blk_no": "98",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140098",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 85,
+      "4room": 3
+    }
+  },
+  "99-c-wealth-cres": {
+    "blk_no": "99",
+    "street": "C'WEALTH CRES",
+    "street_full": "COMMONWEALTH CRESCENT",
+    "postal": "140099",
+    "town": "QUEENSTOWN",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 84,
+      "4room": 3
+    }
+  }
+}

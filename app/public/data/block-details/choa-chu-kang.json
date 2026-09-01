@@ -1,0 +1,7309 @@
+{
+  "1-teck-whye-ave": {
+    "blk_no": "1",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "680001",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 48,
+      "exec": 2
+    }
+  },
+  "10-teck-whye-ave": {
+    "blk_no": "10",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "101-teck-whye-lane": {
+    "blk_no": "101",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680101",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "102-teck-whye-lane": {
+    "blk_no": "102",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680102",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 28
+    }
+  },
+  "103-teck-whye-lane": {
+    "blk_no": "103",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680103",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 28
+    }
+  },
+  "104-teck-whye-lane": {
+    "blk_no": "104",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680104",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 28
+    }
+  },
+  "105-teck-whye-lane": {
+    "blk_no": "105",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680105",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 65,
+      "4room": 66
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "106-teck-whye-lane": {
+    "blk_no": "106",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680106",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "107-teck-whye-lane": {
+    "blk_no": "107",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680107",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "exec": 54
+    }
+  },
+  "108-teck-whye-lane": {
+    "blk_no": "108",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680108",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "109-teck-whye-lane": {
+    "blk_no": "109",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680109",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "11-teck-whye-lane": {
+    "blk_no": "11",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680011",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "110-teck-whye-lane": {
+    "blk_no": "110",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680110",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "111-teck-whye-lane": {
+    "blk_no": "111",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680111",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "112-teck-whye-lane": {
+    "blk_no": "112",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680112",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 40
+    }
+  },
+  "113-teck-whye-lane": {
+    "blk_no": "113",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680113",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 71,
+      "5room": 46
+    }
+  },
+  "114-teck-whye-lane": {
+    "blk_no": "114",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680114",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "115-teck-whye-lane": {
+    "blk_no": "115",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680115",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "116-teck-whye-lane": {
+    "blk_no": "116",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680116",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 32
+    }
+  },
+  "117-teck-whye-lane": {
+    "blk_no": "117",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680117",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 32
+    }
+  },
+  "118-teck-whye-lane": {
+    "blk_no": "118",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680118",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 42
+    }
+  },
+  "119-teck-whye-lane": {
+    "blk_no": "119",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680119",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 40
+    }
+  },
+  "12-teck-whye-lane": {
+    "blk_no": "12",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680012",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "120-teck-whye-lane": {
+    "blk_no": "120",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680120",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "121-teck-whye-lane": {
+    "blk_no": "121",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680121",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "122-teck-whye-lane": {
+    "blk_no": "122",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680122",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "123-teck-whye-lane": {
+    "blk_no": "123",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680123",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 36
+    }
+  },
+  "124-teck-whye-lane": {
+    "blk_no": "124",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680124",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "13-teck-whye-lane": {
+    "blk_no": "13",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680013",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "130-choa-chu-kang-ave-1": {
+    "blk_no": "130",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "680130",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "131-choa-chu-kang-ave-1": {
+    "blk_no": "131",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "680131",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 42
+    }
+  },
+  "132-choa-chu-kang-ave-1": {
+    "blk_no": "132",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "680132",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 42
+    }
+  },
+  "133-teck-whye-lane": {
+    "blk_no": "133",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680133",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "134-teck-whye-lane": {
+    "blk_no": "134",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680134",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "135-teck-whye-lane": {
+    "blk_no": "135",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680135",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "136-teck-whye-lane": {
+    "blk_no": "136",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680136",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 9
+    }
+  },
+  "137-teck-whye-lane": {
+    "blk_no": "137",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680137",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 21
+    }
+  },
+  "14-teck-whye-lane": {
+    "blk_no": "14",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680014",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "141-teck-whye-lane": {
+    "blk_no": "141",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680141",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 33
+    }
+  },
+  "142-teck-whye-lane": {
+    "blk_no": "142",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680142",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 27
+    }
+  },
+  "144-teck-whye-lane": {
+    "blk_no": "144",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680144",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 45,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 30
+    }
+  },
+  "15-teck-whye-lane": {
+    "blk_no": "15",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680015",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "150-jln-teck-whye": {
+    "blk_no": "150",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680150",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 105
+    }
+  },
+  "151-jln-teck-whye": {
+    "blk_no": "151",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680151",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "152-jln-teck-whye": {
+    "blk_no": "152",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680152",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "153-jln-teck-whye": {
+    "blk_no": "153",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680153",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2020,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "2room": 126
+    }
+  },
+  "154-jln-teck-whye": {
+    "blk_no": "154",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680154",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 60
+    }
+  },
+  "155-jln-teck-whye": {
+    "blk_no": "155",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680155",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 60
+    }
+  },
+  "156-jln-teck-whye": {
+    "blk_no": "156",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680156",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "157-jln-teck-whye": {
+    "blk_no": "157",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680157",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "158-jln-teck-whye": {
+    "blk_no": "158",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680158",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 60
+    }
+  },
+  "159-jln-teck-whye": {
+    "blk_no": "159",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680159",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 60
+    }
+  },
+  "16-teck-whye-lane": {
+    "blk_no": "16",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680016",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 20,
+      "5room": 3
+    }
+  },
+  "160-jln-teck-whye": {
+    "blk_no": "160",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680160",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 102,
+      "5room": 34
+    }
+  },
+  "161a-jln-teck-whye": {
+    "blk_no": "161A",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "681161",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 126,
+      "3room": 42
+    }
+  },
+  "161b-jln-teck-whye": {
+    "blk_no": "161B",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "682161",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 119
+    }
+  },
+  "161c-jln-teck-whye": {
+    "blk_no": "161C",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "683161",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 287,
+    "sold_units_by_type": {
+      "2room": 126,
+      "3room": 42,
+      "4room": 119
+    }
+  },
+  "162-jln-teck-whye": {
+    "blk_no": "162",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680162",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 61
+    }
+  },
+  "163-jln-teck-whye": {
+    "blk_no": "163",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680163",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "exec": 88
+    }
+  },
+  "164-jln-teck-whye": {
+    "blk_no": "164",
+    "street": "JLN TECK WHYE",
+    "street_full": "JALAN TECK WHYE",
+    "postal": "680164",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "165a-teck-whye-cres": {
+    "blk_no": "165A",
+    "street": "TECK WHYE CRES",
+    "street_full": "TECK WHYE CRESCENT",
+    "postal": "681165",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2012,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 290,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 173,
+      "2room": 117
+    }
+  },
+  "166a-teck-whye-cres": {
+    "blk_no": "166A",
+    "street": "TECK WHYE CRES",
+    "street_full": "TECK WHYE CRESCENT",
+    "postal": "681166",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "2room": 84,
+      "3room": 65
+    }
+  },
+  "166b-teck-whye-cres": {
+    "blk_no": "166B",
+    "street": "TECK WHYE CRES",
+    "street_full": "TECK WHYE CRESCENT",
+    "postal": "682166",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "2room": 76,
+      "3room": 57
+    }
+  },
+  "17-teck-whye-lane": {
+    "blk_no": "17",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680017",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "18-teck-whye-lane": {
+    "blk_no": "18",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680018",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "5room": 77
+    }
+  },
+  "19-teck-whye-lane": {
+    "blk_no": "19",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 104,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    }
+  },
+  "2-teck-whye-ave": {
+    "blk_no": "2",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 96,
+      "4room": 72
+    }
+  },
+  "20-teck-whye-lane": {
+    "blk_no": "20",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680020",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "201-choa-chu-kang-ave-1": {
+    "blk_no": "201",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "680201",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "202-choa-chu-kang-ave-1": {
+    "blk_no": "202",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "680202",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 118
+    }
+  },
+  "203-choa-chu-kang-ave-1": {
+    "blk_no": "203",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "680203",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "204-choa-chu-kang-ave-1": {
+    "blk_no": "204",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "680204",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "205-choa-chu-kang-ctrl": {
+    "blk_no": "205",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680205",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "206-choa-chu-kang-ctrl": {
+    "blk_no": "206",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680206",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "207-choa-chu-kang-ctrl": {
+    "blk_no": "207",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680207",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "exec": 54
+    }
+  },
+  "208-choa-chu-kang-ctrl": {
+    "blk_no": "208",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680208",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "209-choa-chu-kang-ctrl": {
+    "blk_no": "209",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680209",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "210-choa-chu-kang-ctrl": {
+    "blk_no": "210",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680210",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 118
+    }
+  },
+  "211-choa-chu-kang-ctrl": {
+    "blk_no": "211",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680211",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 66
+    }
+  },
+  "212-choa-chu-kang-ctrl": {
+    "blk_no": "212",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680212",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "213-choa-chu-kang-ctrl": {
+    "blk_no": "213",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680213",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "214-choa-chu-kang-ctrl": {
+    "blk_no": "214",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680214",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "exec": 62
+    }
+  },
+  "215-choa-chu-kang-ctrl": {
+    "blk_no": "215",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680215",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "216-choa-chu-kang-ctrl": {
+    "blk_no": "216",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680216",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "217-choa-chu-kang-ctrl": {
+    "blk_no": "217",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680217",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 99
+    }
+  },
+  "218-choa-chu-kang-ctrl": {
+    "blk_no": "218",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680218",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 72
+    }
+  },
+  "219-choa-chu-kang-ctrl": {
+    "blk_no": "219",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680219",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "4room": 54
+    }
+  },
+  "220-choa-chu-kang-ctrl": {
+    "blk_no": "220",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680220",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 12
+    }
+  },
+  "221-choa-chu-kang-ctrl": {
+    "blk_no": "221",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680221",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "4room": 3,
+      "5room": 9
+    }
+  },
+  "223-choa-chu-kang-ctrl": {
+    "blk_no": "223",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680223",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 40
+    }
+  },
+  "224-choa-chu-kang-ctrl": {
+    "blk_no": "224",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680224",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 20
+    }
+  },
+  "225-choa-chu-kang-ctrl": {
+    "blk_no": "225",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680225",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 36
+    }
+  },
+  "226-choa-chu-kang-ctrl": {
+    "blk_no": "226",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680226",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 20
+    }
+  },
+  "227-choa-chu-kang-ctrl": {
+    "blk_no": "227",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680227",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 20
+    }
+  },
+  "228-choa-chu-kang-ctrl": {
+    "blk_no": "228",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680228",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "229-choa-chu-kang-ctrl": {
+    "blk_no": "229",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680229",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "230-choa-chu-kang-ctrl": {
+    "blk_no": "230",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680230",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 118
+    }
+  },
+  "231-choa-chu-kang-ctrl": {
+    "blk_no": "231",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680231",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "232-choa-chu-kang-ctrl": {
+    "blk_no": "232",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680232",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 72
+    }
+  },
+  "233-choa-chu-kang-ctrl": {
+    "blk_no": "233",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680233",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 72
+    }
+  },
+  "234-choa-chu-kang-ctrl": {
+    "blk_no": "234",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680234",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "235-choa-chu-kang-ctrl": {
+    "blk_no": "235",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680235",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "exec": 64
+    }
+  },
+  "236-choa-chu-kang-ctrl": {
+    "blk_no": "236",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680236",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "237-choa-chu-kang-ctrl": {
+    "blk_no": "237",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680237",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 118
+    }
+  },
+  "238-choa-chu-kang-ctrl": {
+    "blk_no": "238",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680238",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "239-choa-chu-kang-ctrl": {
+    "blk_no": "239",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680239",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 3
+    }
+  },
+  "248-choa-chu-kang-ave-2": {
+    "blk_no": "248",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680248",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 76
+    }
+  },
+  "249-choa-chu-kang-ave-2": {
+    "blk_no": "249",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680249",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 56
+    }
+  },
+  "25-teck-whye-lane": {
+    "blk_no": "25",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680025",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "250-choa-chu-kang-ave-2": {
+    "blk_no": "250",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680250",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 57
+    }
+  },
+  "251-choa-chu-kang-ave-2": {
+    "blk_no": "251",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680251",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 45
+    }
+  },
+  "252-choa-chu-kang-ave-2": {
+    "blk_no": "252",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680252",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 45
+    }
+  },
+  "254-choa-chu-kang-ave-2": {
+    "blk_no": "254",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680254",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 13,
+      "5room": 45
+    }
+  },
+  "26-teck-whye-lane": {
+    "blk_no": "26",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680026",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 20,
+      "5room": 1
+    }
+  },
+  "271-choa-chu-kang-ave-2": {
+    "blk_no": "271",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680271",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "exec": 64
+    }
+  },
+  "272-choa-chu-kang-ave-2": {
+    "blk_no": "272",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680272",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "exec": 51
+    }
+  },
+  "273-choa-chu-kang-ave-2": {
+    "blk_no": "273",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "274-choa-chu-kang-ave-2": {
+    "blk_no": "274",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680274",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "exec": 63
+    }
+  },
+  "275-choa-chu-kang-ave-2": {
+    "blk_no": "275",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680275",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "276-choa-chu-kang-ave-2": {
+    "blk_no": "276",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680276",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 63
+    }
+  },
+  "277-choa-chu-kang-ave-2": {
+    "blk_no": "277",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680277",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 56
+    }
+  },
+  "278-choa-chu-kang-ave-3": {
+    "blk_no": "278",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680278",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 3
+    }
+  },
+  "279-choa-chu-kang-ave-3": {
+    "blk_no": "279",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680279",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "4room": 17,
+      "5room": 3
+    }
+  },
+  "280-choa-chu-kang-ave-3": {
+    "blk_no": "280",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680280",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "281-choa-chu-kang-ave-3": {
+    "blk_no": "281",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680281",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 78
+    }
+  },
+  "282-choa-chu-kang-ave-3": {
+    "blk_no": "282",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680282",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "283-choa-chu-kang-ave-3": {
+    "blk_no": "283",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680283",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "4room": 141
+    }
+  },
+  "284-choa-chu-kang-ave-3": {
+    "blk_no": "284",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "285-choa-chu-kang-ave-3": {
+    "blk_no": "285",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680285",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 99
+    }
+  },
+  "286-choa-chu-kang-ave-3": {
+    "blk_no": "286",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 78
+    }
+  },
+  "287-choa-chu-kang-ave-2": {
+    "blk_no": "287",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "288-choa-chu-kang-ave-3": {
+    "blk_no": "288",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 119
+    }
+  },
+  "289-choa-chu-kang-ave-3": {
+    "blk_no": "289",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 99
+    }
+  },
+  "290-choa-chu-kang-ave-3": {
+    "blk_no": "290",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680290",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 78
+    }
+  },
+  "291-choa-chu-kang-ave-3": {
+    "blk_no": "291",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680291",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "292-choa-chu-kang-ave-3": {
+    "blk_no": "292",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680292",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 10,
+    "sold_units_by_type": {
+      "exec": 10
+    }
+  },
+  "293-choa-chu-kang-ave-3": {
+    "blk_no": "293",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680293",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "294-choa-chu-kang-ave-2": {
+    "blk_no": "294",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "295-choa-chu-kang-ave-2": {
+    "blk_no": "295",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "296-choa-chu-kang-ave-2": {
+    "blk_no": "296",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680296",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 16,
+      "exec": 11
+    }
+  },
+  "296a-choa-chu-kang-ave-2": {
+    "blk_no": "296A",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "681296",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 83,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 16,
+      "exec": 11
+    }
+  },
+  "296b-choa-chu-kang-ave-2": {
+    "blk_no": "296B",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "682296",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 22,
+      "exec": 22
+    }
+  },
+  "296c-choa-chu-kang-ave-2": {
+    "blk_no": "296C",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "683296",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 22,
+      "exec": 22
+    }
+  },
+  "296d-choa-chu-kang-ave-2": {
+    "blk_no": "296D",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "684296",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 34
+    }
+  },
+  "296e-choa-chu-kang-ave-2": {
+    "blk_no": "296E",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "685296",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 40
+    }
+  },
+  "297-choa-chu-kang-ave-2": {
+    "blk_no": "297",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "680297",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 26
+    }
+  },
+  "297a-choa-chu-kang-ave-2": {
+    "blk_no": "297A",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "681297",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 42,
+      "exec": 22
+    }
+  },
+  "297b-choa-chu-kang-ave-2": {
+    "blk_no": "297B",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "682297",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 24
+    }
+  },
+  "297c-choa-chu-kang-ave-2": {
+    "blk_no": "297C",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "683297",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 46
+    }
+  },
+  "297d-choa-chu-kang-ave-2": {
+    "blk_no": "297D",
+    "street": "CHOA CHU KANG AVE 2",
+    "street_full": "CHOA CHU KANG AVENUE 2",
+    "postal": "684297",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 46
+    }
+  },
+  "3-teck-whye-ave": {
+    "blk_no": "3",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "305-choa-chu-kang-ave-4": {
+    "blk_no": "305",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680305",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "5room": 52
+    }
+  },
+  "306-choa-chu-kang-ave-4": {
+    "blk_no": "306",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680306",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 37
+    }
+  },
+  "307-choa-chu-kang-ave-4": {
+    "blk_no": "307",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680307",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 46
+    }
+  },
+  "308-choa-chu-kang-ave-4": {
+    "blk_no": "308",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680308",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "4room": 2,
+      "5room": 2
+    }
+  },
+  "340-choa-chu-kang-loop": {
+    "blk_no": "340",
+    "street": "CHOA CHU KANG LOOP",
+    "street_full": "CHOA CHU KANG LOOP",
+    "postal": "680340",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 71,
+      "5room": 23
+    }
+  },
+  "341-choa-chu-kang-loop": {
+    "blk_no": "341",
+    "street": "CHOA CHU KANG LOOP",
+    "street_full": "CHOA CHU KANG LOOP",
+    "postal": "680341",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "342-choa-chu-kang-loop": {
+    "blk_no": "342",
+    "street": "CHOA CHU KANG LOOP",
+    "street_full": "CHOA CHU KANG LOOP",
+    "postal": "680342",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "343-choa-chu-kang-loop": {
+    "blk_no": "343",
+    "street": "CHOA CHU KANG LOOP",
+    "street_full": "CHOA CHU KANG LOOP",
+    "postal": "680343",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "5room": 65
+    }
+  },
+  "344-choa-chu-kang-loop": {
+    "blk_no": "344",
+    "street": "CHOA CHU KANG LOOP",
+    "street_full": "CHOA CHU KANG LOOP",
+    "postal": "680344",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "5room": 65
+    }
+  },
+  "345-choa-chu-kang-loop": {
+    "blk_no": "345",
+    "street": "CHOA CHU KANG LOOP",
+    "street_full": "CHOA CHU KANG LOOP",
+    "postal": "680345",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "5room": 65
+    }
+  },
+  "346-choa-chu-kang-loop": {
+    "blk_no": "346",
+    "street": "CHOA CHU KANG LOOP",
+    "street_full": "CHOA CHU KANG LOOP",
+    "postal": "680346",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 26
+    }
+  },
+  "350-choa-chu-kang-ctrl": {
+    "blk_no": "350",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680350",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 14,
+    "sold_units_by_type": {
+      "exec": 14
+    }
+  },
+  "351-choa-chu-kang-ctrl": {
+    "blk_no": "351",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680351",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "352-choa-chu-kang-ctrl": {
+    "blk_no": "352",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680352",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 33
+    }
+  },
+  "353-choa-chu-kang-ctrl": {
+    "blk_no": "353",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680353",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 52
+    }
+  },
+  "354-choa-chu-kang-ctrl": {
+    "blk_no": "354",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680354",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 39
+    }
+  },
+  "355-choa-chu-kang-ctrl": {
+    "blk_no": "355",
+    "street": "CHOA CHU KANG CTRL",
+    "street_full": "CHOA CHU KANG CENTRAL",
+    "postal": "680355",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 39
+    }
+  },
+  "4-teck-whye-ave": {
+    "blk_no": "4",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "680004",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "401-choa-chu-kang-ave-3": {
+    "blk_no": "401",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680401",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "402-choa-chu-kang-ave-3": {
+    "blk_no": "402",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680402",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 85
+    }
+  },
+  "403-choa-chu-kang-ave-3": {
+    "blk_no": "403",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680403",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 24
+    }
+  },
+  "404-choa-chu-kang-ave-3": {
+    "blk_no": "404",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680404",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 83,
+    "sold_units_by_type": {
+      "4room": 83
+    }
+  },
+  "405-choa-chu-kang-ave-3": {
+    "blk_no": "405",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680405",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 79
+    }
+  },
+  "406-choa-chu-kang-ave-3": {
+    "blk_no": "406",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680406",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 118
+    }
+  },
+  "407-choa-chu-kang-ave-3": {
+    "blk_no": "407",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680407",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "408-choa-chu-kang-ave-3": {
+    "blk_no": "408",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680408",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 94
+    }
+  },
+  "409-choa-chu-kang-ave-3": {
+    "blk_no": "409",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680409",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "410-choa-chu-kang-ave-3": {
+    "blk_no": "410",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680410",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 94
+    }
+  },
+  "411-choa-chu-kang-ave-3": {
+    "blk_no": "411",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680411",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "412-choa-chu-kang-ave-3": {
+    "blk_no": "412",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680412",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "4room": 129
+    }
+  },
+  "413-choa-chu-kang-ave-3": {
+    "blk_no": "413",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680413",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 116
+    }
+  },
+  "414-choa-chu-kang-ave-4": {
+    "blk_no": "414",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680414",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 22
+    }
+  },
+  "415-choa-chu-kang-ave-4": {
+    "blk_no": "415",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680415",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 6
+    }
+  },
+  "416-choa-chu-kang-ave-4": {
+    "blk_no": "416",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680416",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 42
+    }
+  },
+  "417-choa-chu-kang-ave-4": {
+    "blk_no": "417",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680417",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 26
+    }
+  },
+  "418-choa-chu-kang-ave-4": {
+    "blk_no": "418",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 22
+    }
+  },
+  "419-choa-chu-kang-ave-4": {
+    "blk_no": "419",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680419",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "420-choa-chu-kang-ave-4": {
+    "blk_no": "420",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680420",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "exec": 75
+    }
+  },
+  "421-choa-chu-kang-ave-4": {
+    "blk_no": "421",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680421",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 22
+    }
+  },
+  "422-choa-chu-kang-ave-4": {
+    "blk_no": "422",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680422",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 12
+    }
+  },
+  "423-choa-chu-kang-ave-4": {
+    "blk_no": "423",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680423",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 93,
+      "5room": 22
+    }
+  },
+  "424-choa-chu-kang-ave-4": {
+    "blk_no": "424",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680424",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 6
+    }
+  },
+  "425-choa-chu-kang-ave-4": {
+    "blk_no": "425",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680425",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 93,
+      "5room": 22
+    }
+  },
+  "426-choa-chu-kang-ave-4": {
+    "blk_no": "426",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680426",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "427-choa-chu-kang-ave-4": {
+    "blk_no": "427",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 22
+    }
+  },
+  "428-choa-chu-kang-ave-4": {
+    "blk_no": "428",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680428",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "429-choa-chu-kang-ave-4": {
+    "blk_no": "429",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680429",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 48
+    }
+  },
+  "430-choa-chu-kang-ave-4": {
+    "blk_no": "430",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680430",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "431-choa-chu-kang-ave-4": {
+    "blk_no": "431",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680431",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 35
+    }
+  },
+  "432-choa-chu-kang-ave-4": {
+    "blk_no": "432",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680432",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 31
+    }
+  },
+  "433-choa-chu-kang-ave-4": {
+    "blk_no": "433",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680433",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 31
+    }
+  },
+  "434-choa-chu-kang-ave-4": {
+    "blk_no": "434",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680434",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 50
+    }
+  },
+  "435-choa-chu-kang-ave-4": {
+    "blk_no": "435",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680435",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 29
+    }
+  },
+  "436-choa-chu-kang-ave-4": {
+    "blk_no": "436",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680436",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "437-choa-chu-kang-ave-4": {
+    "blk_no": "437",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680437",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "438-choa-chu-kang-ave-4": {
+    "blk_no": "438",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680438",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 33
+    }
+  },
+  "439-choa-chu-kang-ave-4": {
+    "blk_no": "439",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680439",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 49
+    }
+  },
+  "440-choa-chu-kang-ave-4": {
+    "blk_no": "440",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680440",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 31
+    }
+  },
+  "441-choa-chu-kang-ave-4": {
+    "blk_no": "441",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680441",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 31
+    }
+  },
+  "442-choa-chu-kang-ave-4": {
+    "blk_no": "442",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680442",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "443-choa-chu-kang-ave-4": {
+    "blk_no": "443",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680443",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "444-choa-chu-kang-ave-4": {
+    "blk_no": "444",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680444",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 50
+    }
+  },
+  "445-choa-chu-kang-ave-4": {
+    "blk_no": "445",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680445",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 14
+    }
+  },
+  "446-choa-chu-kang-ave-4": {
+    "blk_no": "446",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680446",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 56
+    }
+  },
+  "447-choa-chu-kang-ave-4": {
+    "blk_no": "447",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680447",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 52
+    }
+  },
+  "448-choa-chu-kang-ave-4": {
+    "blk_no": "448",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680448",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "exec": 77
+    }
+  },
+  "449-choa-chu-kang-ave-4": {
+    "blk_no": "449",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680449",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 15
+    }
+  },
+  "450-choa-chu-kang-ave-4": {
+    "blk_no": "450",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680450",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 14
+    }
+  },
+  "451-choa-chu-kang-ave-4": {
+    "blk_no": "451",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680451",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 73,
+      "5room": 14
+    }
+  },
+  "452-choa-chu-kang-ave-4": {
+    "blk_no": "452",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680452",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 15
+    }
+  },
+  "453-choa-chu-kang-ave-4": {
+    "blk_no": "453",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680453",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "5room": 60,
+      "exec": 60
+    }
+  },
+  "454-choa-chu-kang-ave-4": {
+    "blk_no": "454",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680454",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "5room": 60,
+      "exec": 60
+    }
+  },
+  "455-choa-chu-kang-ave-4": {
+    "blk_no": "455",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680455",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 15
+    }
+  },
+  "456-choa-chu-kang-ave-4": {
+    "blk_no": "456",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680456",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 11
+    }
+  },
+  "457-choa-chu-kang-ave-4": {
+    "blk_no": "457",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680457",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "5room": 62,
+      "exec": 61
+    }
+  },
+  "458-choa-chu-kang-ave-4": {
+    "blk_no": "458",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680458",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "5room": 62,
+      "exec": 61
+    }
+  },
+  "459-choa-chu-kang-ave-4": {
+    "blk_no": "459",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680459",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 11
+    }
+  },
+  "460-choa-chu-kang-ave-4": {
+    "blk_no": "460",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680460",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 15
+    }
+  },
+  "461-choa-chu-kang-ave-4": {
+    "blk_no": "461",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680461",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "5room": 60,
+      "exec": 60
+    }
+  },
+  "462-choa-chu-kang-ave-4": {
+    "blk_no": "462",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680462",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 15
+    }
+  },
+  "463-choa-chu-kang-ave-4": {
+    "blk_no": "463",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680463",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 13
+    }
+  },
+  "464-choa-chu-kang-ave-4": {
+    "blk_no": "464",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680464",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 28
+    }
+  },
+  "465-choa-chu-kang-ave-4": {
+    "blk_no": "465",
+    "street": "CHOA CHU KANG AVE 4",
+    "street_full": "CHOA CHU KANG AVENUE 4",
+    "postal": "680465",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 29
+    }
+  },
+  "469-choa-chu-kang-ave-3": {
+    "blk_no": "469",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680469",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 75
+    }
+  },
+  "470-choa-chu-kang-ave-3": {
+    "blk_no": "470",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680470",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 75
+    }
+  },
+  "471-choa-chu-kang-ave-3": {
+    "blk_no": "471",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680471",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 75
+    }
+  },
+  "472-choa-chu-kang-ave-3": {
+    "blk_no": "472",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680472",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 70
+    }
+  },
+  "473-choa-chu-kang-ave-3": {
+    "blk_no": "473",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680473",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 98,
+      "5room": 70
+    }
+  },
+  "474-choa-chu-kang-ave-3": {
+    "blk_no": "474",
+    "street": "CHOA CHU KANG AVE 3",
+    "street_full": "CHOA CHU KANG AVENUE 3",
+    "postal": "680474",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 70
+    }
+  },
+  "476a-choa-chu-kang-ave-5": {
+    "blk_no": "476A",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "681476",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2012,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 27,
+      "4room": 43,
+      "studio_apartment": 29
+    }
+  },
+  "476b-choa-chu-kang-ave-5": {
+    "blk_no": "476B",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "682476",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "2room": 12,
+      "3room": 30,
+      "4room": 42,
+      "studio_apartment": 31
+    }
+  },
+  "476c-choa-chu-kang-ave-5": {
+    "blk_no": "476C",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "683476",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "2room": 12,
+      "3room": 30,
+      "4room": 43,
+      "studio_apartment": 31
+    }
+  },
+  "476d-choa-chu-kang-ave-5": {
+    "blk_no": "476D",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "684476",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 7,
+      "3room": 30,
+      "4room": 43,
+      "studio_apartment": 32
+    }
+  },
+  "483-choa-chu-kang-ave-5": {
+    "blk_no": "483",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "680483",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 45
+    }
+  },
+  "484-choa-chu-kang-ave-5": {
+    "blk_no": "484",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "680484",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 45
+    }
+  },
+  "484a-choa-chu-kang-ave-5": {
+    "blk_no": "484A",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "681484",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "484b-choa-chu-kang-ave-5": {
+    "blk_no": "484B",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "682484",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 45
+    }
+  },
+  "484c-choa-chu-kang-ave-5": {
+    "blk_no": "484C",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "683484",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 44
+    }
+  },
+  "484d-choa-chu-kang-ave-5": {
+    "blk_no": "484D",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "684484",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 44
+    }
+  },
+  "485-choa-chu-kang-ave-5": {
+    "blk_no": "485",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "680485",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 44
+    }
+  },
+  "485a-choa-chu-kang-ave-5": {
+    "blk_no": "485A",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "681485",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 44
+    }
+  },
+  "485b-choa-chu-kang-ave-5": {
+    "blk_no": "485B",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "682485",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "5room": 60
+    }
+  },
+  "485c-choa-chu-kang-ave-5": {
+    "blk_no": "485C",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "683485",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "5room": 60
+    }
+  },
+  "485d-choa-chu-kang-ave-5": {
+    "blk_no": "485D",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "684485",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 45
+    }
+  },
+  "486-choa-chu-kang-ave-5": {
+    "blk_no": "486",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "680486",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 45
+    }
+  },
+  "487a-choa-chu-kang-ave-5": {
+    "blk_no": "487A",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "681487",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 84
+    }
+  },
+  "487b-choa-chu-kang-ave-5": {
+    "blk_no": "487B",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "682487",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 28
+    }
+  },
+  "487c-choa-chu-kang-ave-5": {
+    "blk_no": "487C",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "683487",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 56
+    }
+  },
+  "488a-choa-chu-kang-ave-5": {
+    "blk_no": "488A",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "681488",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "2room": 12,
+      "4room": 52,
+      "studio_apartment": 40
+    }
+  },
+  "488b-choa-chu-kang-ave-5": {
+    "blk_no": "488B",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "682488",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "2room": 15,
+      "4room": 65,
+      "studio_apartment": 37
+    }
+  },
+  "488c-choa-chu-kang-ave-5": {
+    "blk_no": "488C",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "683488",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "488d-choa-chu-kang-ave-5": {
+    "blk_no": "488D",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "684488",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 72
+    }
+  },
+  "489a-choa-chu-kang-ave-5": {
+    "blk_no": "489A",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "681489",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 52
+    }
+  },
+  "489b-choa-chu-kang-ave-5": {
+    "blk_no": "489B",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 52
+    }
+  },
+  "489c-choa-chu-kang-ave-5": {
+    "blk_no": "489C",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "683489",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 26
+    }
+  },
+  "489d-choa-chu-kang-ave-5": {
+    "blk_no": "489D",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "684489",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 52
+    }
+  },
+  "490a-choa-chu-kang-ave-5": {
+    "blk_no": "490A",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "681490",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 72
+    }
+  },
+  "490b-choa-chu-kang-ave-5": {
+    "blk_no": "490B",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "682490",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 24
+    }
+  },
+  "490c-choa-chu-kang-ave-5": {
+    "blk_no": "490C",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "683490",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 66
+    }
+  },
+  "490d-choa-chu-kang-ave-5": {
+    "blk_no": "490D",
+    "street": "CHOA CHU KANG AVE 5",
+    "street_full": "CHOA CHU KANG AVENUE 5",
+    "postal": "684490",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 72
+    }
+  },
+  "5-teck-whye-ave": {
+    "blk_no": "5",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "680005",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "501-choa-chu-kang-st-51": {
+    "blk_no": "501",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680501",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 13,
+      "5room": 65
+    }
+  },
+  "502-choa-chu-kang-st-51": {
+    "blk_no": "502",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680502",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "5room": 54
+    }
+  },
+  "503-choa-chu-kang-st-51": {
+    "blk_no": "503",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680503",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "5room": 91
+    }
+  },
+  "504-choa-chu-kang-st-51": {
+    "blk_no": "504",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680504",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 37
+    }
+  },
+  "505-choa-chu-kang-st-51": {
+    "blk_no": "505",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680505",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 39
+    }
+  },
+  "506-choa-chu-kang-st-51": {
+    "blk_no": "506",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680506",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 48
+    }
+  },
+  "507-choa-chu-kang-st-51": {
+    "blk_no": "507",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680507",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "5room": 64
+    }
+  },
+  "508-choa-chu-kang-st-51": {
+    "blk_no": "508",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680508",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "5room": 54
+    }
+  },
+  "509-choa-chu-kang-st-51": {
+    "blk_no": "509",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680509",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "5room": 54
+    }
+  },
+  "510-choa-chu-kang-st-51": {
+    "blk_no": "510",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680510",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "5room": 52
+    }
+  },
+  "511-choa-chu-kang-st-51": {
+    "blk_no": "511",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680511",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "5room": 78
+    }
+  },
+  "512-choa-chu-kang-st-51": {
+    "blk_no": "512",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680512",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "5room": 52
+    }
+  },
+  "513-choa-chu-kang-st-51": {
+    "blk_no": "513",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680513",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "5room": 52
+    }
+  },
+  "514-choa-chu-kang-st-51": {
+    "blk_no": "514",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680514",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 51
+    }
+  },
+  "515-choa-chu-kang-st-51": {
+    "blk_no": "515",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680515",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "5room": 52
+    }
+  },
+  "516-choa-chu-kang-st-51": {
+    "blk_no": "516",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680516",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 35
+    }
+  },
+  "517-choa-chu-kang-st-51": {
+    "blk_no": "517",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680517",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 35
+    }
+  },
+  "518-choa-chu-kang-st-51": {
+    "blk_no": "518",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680518",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 48
+    }
+  },
+  "523-choa-chu-kang-st-51": {
+    "blk_no": "523",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680523",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "524-choa-chu-kang-st-51": {
+    "blk_no": "524",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680524",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "525-choa-chu-kang-st-51": {
+    "blk_no": "525",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680525",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "526-choa-chu-kang-st-51": {
+    "blk_no": "526",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680526",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "527-choa-chu-kang-st-51": {
+    "blk_no": "527",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680527",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "528-choa-chu-kang-st-51": {
+    "blk_no": "528",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680528",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "529-choa-chu-kang-st-51": {
+    "blk_no": "529",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680529",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "530-choa-chu-kang-st-51": {
+    "blk_no": "530",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680530",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "531-choa-chu-kang-st-51": {
+    "blk_no": "531",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680531",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "535-choa-chu-kang-st-51": {
+    "blk_no": "535",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680535",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "2room": 78,
+      "3room": 52
+    }
+  },
+  "536-choa-chu-kang-st-51": {
+    "blk_no": "536",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680536",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 91,
+      "2room": 78
+    }
+  },
+  "537-choa-chu-kang-st-51": {
+    "blk_no": "537",
+    "street": "CHOA CHU KANG ST 51",
+    "street_full": "CHOA CHU KANG STREET 51",
+    "postal": "680537",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 91,
+      "2room": 78
+    }
+  },
+  "540-choa-chu-kang-st-52": {
+    "blk_no": "540",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680540",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 48
+    }
+  },
+  "541-choa-chu-kang-st-52": {
+    "blk_no": "541",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680541",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 45
+    }
+  },
+  "542-choa-chu-kang-st-52": {
+    "blk_no": "542",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680542",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 33
+    }
+  },
+  "543-choa-chu-kang-st-52": {
+    "blk_no": "543",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680543",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 33
+    }
+  },
+  "544-choa-chu-kang-st-52": {
+    "blk_no": "544",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680544",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 33
+    }
+  },
+  "545-choa-chu-kang-st-52": {
+    "blk_no": "545",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680545",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "546-choa-chu-kang-st-52": {
+    "blk_no": "546",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680546",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 48
+    }
+  },
+  "547-choa-chu-kang-st-52": {
+    "blk_no": "547",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680547",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "548-choa-chu-kang-st-52": {
+    "blk_no": "548",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680548",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 48
+    }
+  },
+  "549-choa-chu-kang-st-52": {
+    "blk_no": "549",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680549",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 60
+    }
+  },
+  "550-choa-chu-kang-st-52": {
+    "blk_no": "550",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680550",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 60
+    }
+  },
+  "551-choa-chu-kang-st-52": {
+    "blk_no": "551",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680551",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "552-choa-chu-kang-st-52": {
+    "blk_no": "552",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680552",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 48
+    }
+  },
+  "553-choa-chu-kang-nth-6": {
+    "blk_no": "553",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680553",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "554-choa-chu-kang-nth-6": {
+    "blk_no": "554",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680554",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "555-choa-chu-kang-nth-6": {
+    "blk_no": "555",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680555",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "exec": 68
+    }
+  },
+  "556-choa-chu-kang-nth-6": {
+    "blk_no": "556",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680556",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "557-choa-chu-kang-nth-6": {
+    "blk_no": "557",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680557",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "558-choa-chu-kang-nth-6": {
+    "blk_no": "558",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680558",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "559-choa-chu-kang-nth-6": {
+    "blk_no": "559",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680559",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "560-choa-chu-kang-nth-6": {
+    "blk_no": "560",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680560",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "561-choa-chu-kang-nth-6": {
+    "blk_no": "561",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680561",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "exec": 63
+    }
+  },
+  "562-choa-chu-kang-st-52": {
+    "blk_no": "562",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680562",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 67
+    }
+  },
+  "563-choa-chu-kang-st-52": {
+    "blk_no": "563",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680563",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 33
+    }
+  },
+  "564-choa-chu-kang-st-52": {
+    "blk_no": "564",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680564",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 33
+    }
+  },
+  "565-choa-chu-kang-st-52": {
+    "blk_no": "565",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680565",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 22
+    }
+  },
+  "566-choa-chu-kang-st-52": {
+    "blk_no": "566",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680566",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 46
+    }
+  },
+  "567-choa-chu-kang-st-52": {
+    "blk_no": "567",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680567",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 44
+    }
+  },
+  "568-choa-chu-kang-st-52": {
+    "blk_no": "568",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680568",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 44
+    }
+  },
+  "569-choa-chu-kang-st-52": {
+    "blk_no": "569",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680569",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 22
+    }
+  },
+  "570-choa-chu-kang-st-52": {
+    "blk_no": "570",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680570",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "2room": 20,
+      "3room": 24,
+      "4room": 24,
+      "studio_apartment": 40
+    }
+  },
+  "571-choa-chu-kang-st-52": {
+    "blk_no": "571",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680571",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "2room": 17,
+      "3room": 60,
+      "studio_apartment": 31
+    }
+  },
+  "572-choa-chu-kang-st-52": {
+    "blk_no": "572",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680572",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 12,
+      "4room": 48,
+      "studio_apartment": 38
+    }
+  },
+  "573-choa-chu-kang-st-52": {
+    "blk_no": "573",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680573",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "2room": 6,
+      "3room": 8,
+      "4room": 44,
+      "studio_apartment": 42
+    }
+  },
+  "574-choa-chu-kang-st-52": {
+    "blk_no": "574",
+    "street": "CHOA CHU KANG ST 52",
+    "street_full": "CHOA CHU KANG STREET 52",
+    "postal": "680574",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 24,
+      "4room": 72,
+      "studio_apartment": 57
+    }
+  },
+  "6-teck-whye-ave": {
+    "blk_no": "6",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "601-choa-chu-kang-st-62": {
+    "blk_no": "601",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680601",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "exec": 40
+    }
+  },
+  "602-choa-chu-kang-st-62": {
+    "blk_no": "602",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680602",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "603-choa-chu-kang-st-62": {
+    "blk_no": "603",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680603",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "exec": 68
+    }
+  },
+  "604-choa-chu-kang-st-62": {
+    "blk_no": "604",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680604",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "605-choa-chu-kang-st-62": {
+    "blk_no": "605",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680605",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "606-choa-chu-kang-st-62": {
+    "blk_no": "606",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680606",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "607-choa-chu-kang-st-62": {
+    "blk_no": "607",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680607",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 66
+    }
+  },
+  "608-choa-chu-kang-st-62": {
+    "blk_no": "608",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680608",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 11
+    }
+  },
+  "609-choa-chu-kang-st-62": {
+    "blk_no": "609",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680609",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 22
+    }
+  },
+  "610-choa-chu-kang-st-62": {
+    "blk_no": "610",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680610",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 44
+    }
+  },
+  "611-choa-chu-kang-st-62": {
+    "blk_no": "611",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680611",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 44
+    }
+  },
+  "612-choa-chu-kang-st-62": {
+    "blk_no": "612",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680612",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 66
+    }
+  },
+  "613-choa-chu-kang-st-62": {
+    "blk_no": "613",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680613",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 66
+    }
+  },
+  "614-choa-chu-kang-st-62": {
+    "blk_no": "614",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680614",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 44
+    }
+  },
+  "615-choa-chu-kang-st-62": {
+    "blk_no": "615",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680615",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 16
+    }
+  },
+  "616-choa-chu-kang-st-62": {
+    "blk_no": "616",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680616",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 16
+    }
+  },
+  "617-choa-chu-kang-nth-7": {
+    "blk_no": "617",
+    "street": "CHOA CHU KANG NTH 7",
+    "street_full": "CHOA CHU KANG NORTH 7",
+    "postal": "680617",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 56
+    }
+  },
+  "618-choa-chu-kang-nth-7": {
+    "blk_no": "618",
+    "street": "CHOA CHU KANG NTH 7",
+    "street_full": "CHOA CHU KANG NORTH 7",
+    "postal": "680618",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 56
+    }
+  },
+  "619-choa-chu-kang-nth-7": {
+    "blk_no": "619",
+    "street": "CHOA CHU KANG NTH 7",
+    "street_full": "CHOA CHU KANG NORTH 7",
+    "postal": "680619",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 55
+    }
+  },
+  "620-choa-chu-kang-st-62": {
+    "blk_no": "620",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680620",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 44
+    }
+  },
+  "621-choa-chu-kang-st-62": {
+    "blk_no": "621",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680621",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 29
+    }
+  },
+  "625-choa-chu-kang-st-62": {
+    "blk_no": "625",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680625",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 55
+    }
+  },
+  "626-choa-chu-kang-st-62": {
+    "blk_no": "626",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680626",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 55
+    }
+  },
+  "627-choa-chu-kang-st-62": {
+    "blk_no": "627",
+    "street": "CHOA CHU KANG ST 62",
+    "street_full": "CHOA CHU KANG STREET 62",
+    "postal": "680627",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 44
+    }
+  },
+  "631-choa-chu-kang-nth-6": {
+    "blk_no": "631",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680631",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 60,
+      "exec": 13
+    }
+  },
+  "632-choa-chu-kang-nth-6": {
+    "blk_no": "632",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680632",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "5room": 104,
+      "exec": 2
+    }
+  },
+  "633-choa-chu-kang-nth-6": {
+    "blk_no": "633",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680633",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "5room": 108,
+      "exec": 4
+    }
+  },
+  "634-choa-chu-kang-nth-6": {
+    "blk_no": "634",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680634",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 64,
+      "exec": 14
+    }
+  },
+  "635-choa-chu-kang-nth-6": {
+    "blk_no": "635",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680635",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 68,
+      "exec": 13
+    }
+  },
+  "636-choa-chu-kang-nth-6": {
+    "blk_no": "636",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680636",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 72
+    }
+  },
+  "637-choa-chu-kang-nth-6": {
+    "blk_no": "637",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680637",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 72,
+      "exec": 13
+    }
+  },
+  "638-choa-chu-kang-st-64": {
+    "blk_no": "638",
+    "street": "CHOA CHU KANG ST 64",
+    "street_full": "CHOA CHU KANG STREET 64",
+    "postal": "680638",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 44,
+      "exec": 8
+    }
+  },
+  "639-choa-chu-kang-st-64": {
+    "blk_no": "639",
+    "street": "CHOA CHU KANG ST 64",
+    "street_full": "CHOA CHU KANG STREET 64",
+    "postal": "680639",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 43,
+      "exec": 8
+    }
+  },
+  "640-choa-chu-kang-st-64": {
+    "blk_no": "640",
+    "street": "CHOA CHU KANG ST 64",
+    "street_full": "CHOA CHU KANG STREET 64",
+    "postal": "680640",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 64,
+      "exec": 72
+    }
+  },
+  "641-choa-chu-kang-st-64": {
+    "blk_no": "641",
+    "street": "CHOA CHU KANG ST 64",
+    "street_full": "CHOA CHU KANG STREET 64",
+    "postal": "680641",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 64,
+      "exec": 8
+    }
+  },
+  "642-choa-chu-kang-st-64": {
+    "blk_no": "642",
+    "street": "CHOA CHU KANG ST 64",
+    "street_full": "CHOA CHU KANG STREET 64",
+    "postal": "680642",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 52,
+      "exec": 8
+    }
+  },
+  "643-choa-chu-kang-st-64": {
+    "blk_no": "643",
+    "street": "CHOA CHU KANG ST 64",
+    "street_full": "CHOA CHU KANG STREET 64",
+    "postal": "680643",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 40,
+      "exec": 8
+    }
+  },
+  "656-choa-chu-kang-cres": {
+    "blk_no": "656",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680656",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 50,
+      "exec": 14
+    }
+  },
+  "657-choa-chu-kang-cres": {
+    "blk_no": "657",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680657",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 46,
+      "exec": 14
+    }
+  },
+  "658-choa-chu-kang-cres": {
+    "blk_no": "658",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680658",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 22,
+      "exec": 6
+    }
+  },
+  "659-choa-chu-kang-cres": {
+    "blk_no": "659",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680659",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 18,
+      "exec": 6
+    }
+  },
+  "660-choa-chu-kang-cres": {
+    "blk_no": "660",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680660",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 86,
+      "5room": 20,
+      "exec": 10
+    }
+  },
+  "661-choa-chu-kang-cres": {
+    "blk_no": "661",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680661",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 52,
+      "exec": 14
+    }
+  },
+  "662-choa-chu-kang-cres": {
+    "blk_no": "662",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680662",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "663-choa-chu-kang-cres": {
+    "blk_no": "663",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680663",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "664-choa-chu-kang-cres": {
+    "blk_no": "664",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680664",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "665-choa-chu-kang-cres": {
+    "blk_no": "665",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680665",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "666-choa-chu-kang-cres": {
+    "blk_no": "666",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680666",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "667-choa-chu-kang-cres": {
+    "blk_no": "667",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680667",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 122
+    }
+  },
+  "668-choa-chu-kang-cres": {
+    "blk_no": "668",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680668",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 123
+    }
+  },
+  "669-choa-chu-kang-cres": {
+    "blk_no": "669",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680669",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 32
+    }
+  },
+  "670-choa-chu-kang-cres": {
+    "blk_no": "670",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680670",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 32
+    }
+  },
+  "670a-choa-chu-kang-cres": {
+    "blk_no": "670A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681670",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "671-choa-chu-kang-cres": {
+    "blk_no": "671",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680671",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "5room": 31,
+      "exec": 31
+    }
+  },
+  "671a-choa-chu-kang-cres": {
+    "blk_no": "671A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681671",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "5room": 30,
+      "exec": 30
+    }
+  },
+  "672-choa-chu-kang-cres": {
+    "blk_no": "672",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680672",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 45
+    }
+  },
+  "672a-choa-chu-kang-cres": {
+    "blk_no": "672A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681672",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 28
+    }
+  },
+  "672b-choa-chu-kang-cres": {
+    "blk_no": "672B",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "682672",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 33
+    }
+  },
+  "673-choa-chu-kang-cres": {
+    "blk_no": "673",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680673",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 29
+    }
+  },
+  "673a-choa-chu-kang-cres": {
+    "blk_no": "673A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681673",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 29
+    }
+  },
+  "674-choa-chu-kang-cres": {
+    "blk_no": "674",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680674",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "5room": 21,
+      "exec": 21
+    }
+  },
+  "674a-choa-chu-kang-cres": {
+    "blk_no": "674A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681674",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 38,
+    "sold_units_by_type": {
+      "5room": 19,
+      "exec": 19
+    }
+  },
+  "675-choa-chu-kang-cres": {
+    "blk_no": "675",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680675",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 29
+    }
+  },
+  "676-choa-chu-kang-cres": {
+    "blk_no": "676",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680676",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 20
+    }
+  },
+  "676a-choa-chu-kang-cres": {
+    "blk_no": "676A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681676",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 22
+    }
+  },
+  "677-choa-chu-kang-cres": {
+    "blk_no": "677",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680677",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 60,
+      "exec": 20
+    }
+  },
+  "678-choa-chu-kang-cres": {
+    "blk_no": "678",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680678",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 60,
+      "exec": 20
+    }
+  },
+  "679-choa-chu-kang-cres": {
+    "blk_no": "679",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680679",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 60,
+      "exec": 20
+    }
+  },
+  "680-choa-chu-kang-cres": {
+    "blk_no": "680",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680680",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 44,
+      "exec": 22
+    }
+  },
+  "681-choa-chu-kang-cres": {
+    "blk_no": "681",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680681",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 44,
+      "exec": 22
+    }
+  },
+  "682-choa-chu-kang-cres": {
+    "blk_no": "682",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "680682",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 60,
+      "exec": 20
+    }
+  },
+  "683a-choa-chu-kang-cres": {
+    "blk_no": "683A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681683",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 78
+    }
+  },
+  "683b-choa-chu-kang-cres": {
+    "blk_no": "683B",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "682683",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 78
+    }
+  },
+  "683c-choa-chu-kang-cres": {
+    "blk_no": "683C",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "683683",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 48
+    }
+  },
+  "684a-choa-chu-kang-cres": {
+    "blk_no": "684A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681684",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 72
+    }
+  },
+  "684b-choa-chu-kang-cres": {
+    "blk_no": "684B",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "682684",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 50
+    }
+  },
+  "684c-choa-chu-kang-cres": {
+    "blk_no": "684C",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "683684",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 54
+    }
+  },
+  "684d-choa-chu-kang-cres": {
+    "blk_no": "684D",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "684684",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 78
+    }
+  },
+  "685a-choa-chu-kang-cres": {
+    "blk_no": "685A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681685",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 97
+    }
+  },
+  "685b-choa-chu-kang-cres": {
+    "blk_no": "685B",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "682685",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 90
+    }
+  },
+  "685c-choa-chu-kang-cres": {
+    "blk_no": "685C",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "683685",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "686a-choa-chu-kang-cres": {
+    "blk_no": "686A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681686",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 104
+    }
+  },
+  "686b-choa-chu-kang-cres": {
+    "blk_no": "686B",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "682686",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 96
+    }
+  },
+  "686c-choa-chu-kang-cres": {
+    "blk_no": "686C",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "683686",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 102
+    }
+  },
+  "686d-choa-chu-kang-cres": {
+    "blk_no": "686D",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "684686",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 90
+    }
+  },
+  "687a-choa-chu-kang-dr": {
+    "blk_no": "687A",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "681687",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 76
+    }
+  },
+  "687b-choa-chu-kang-dr": {
+    "blk_no": "687B",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "682687",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 76
+    }
+  },
+  "687c-choa-chu-kang-dr": {
+    "blk_no": "687C",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "683687",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 76
+    }
+  },
+  "687d-choa-chu-kang-dr": {
+    "blk_no": "687D",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "684687",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "5room": 115
+    }
+  },
+  "688a-choa-chu-kang-dr": {
+    "blk_no": "688A",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "681688",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "4room": 79,
+      "5room": 76
+    }
+  },
+  "688b-choa-chu-kang-dr": {
+    "blk_no": "688B",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "682688",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "4room": 79,
+      "5room": 76
+    }
+  },
+  "688c-choa-chu-kang-cres": {
+    "blk_no": "688C",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "683688",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 76
+    }
+  },
+  "689a-choa-chu-kang-dr": {
+    "blk_no": "689A",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "681689",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 76
+    }
+  },
+  "689b-choa-chu-kang-dr": {
+    "blk_no": "689B",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "682689",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 76
+    }
+  },
+  "690a-choa-chu-kang-cres": {
+    "blk_no": "690A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681690",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 92
+    }
+  },
+  "690b-choa-chu-kang-cres": {
+    "blk_no": "690B",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "682690",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "5room": 23,
+      "exec": 92
+    }
+  },
+  "690c-choa-chu-kang-cres": {
+    "blk_no": "690C",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "683690",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "5room": 115
+    }
+  },
+  "690d-choa-chu-kang-cres": {
+    "blk_no": "690D",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "684690",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 184,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 92
+    }
+  },
+  "691a-choa-chu-kang-cres": {
+    "blk_no": "691A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681691",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 92
+    }
+  },
+  "691b-choa-chu-kang-cres": {
+    "blk_no": "691B",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "682691",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2002,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 92
+    }
+  },
+  "692a-choa-chu-kang-cres": {
+    "blk_no": "692A",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "681692",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 186,
+    "sold_units_by_type": {
+      "4room": 94,
+      "5room": 92
+    }
+  },
+  "692b-choa-chu-kang-cres": {
+    "blk_no": "692B",
+    "street": "CHOA CHU KANG CRES",
+    "street_full": "CHOA CHU KANG CRESCENT",
+    "postal": "682692",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 92
+    }
+  },
+  "7-teck-whye-ave": {
+    "blk_no": "7",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "680007",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "701-choa-chu-kang-st-53": {
+    "blk_no": "701",
+    "street": "CHOA CHU KANG ST 53",
+    "street_full": "CHOA CHU KANG STREET 53",
+    "postal": "680701",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 48
+    }
+  },
+  "702-choa-chu-kang-st-53": {
+    "blk_no": "702",
+    "street": "CHOA CHU KANG ST 53",
+    "street_full": "CHOA CHU KANG STREET 53",
+    "postal": "680702",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 36
+    }
+  },
+  "703-choa-chu-kang-st-53": {
+    "blk_no": "703",
+    "street": "CHOA CHU KANG ST 53",
+    "street_full": "CHOA CHU KANG STREET 53",
+    "postal": "680703",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 36
+    }
+  },
+  "704-choa-chu-kang-st-53": {
+    "blk_no": "704",
+    "street": "CHOA CHU KANG ST 53",
+    "street_full": "CHOA CHU KANG STREET 53",
+    "postal": "680704",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 36
+    }
+  },
+  "705-choa-chu-kang-st-53": {
+    "blk_no": "705",
+    "street": "CHOA CHU KANG ST 53",
+    "street_full": "CHOA CHU KANG STREET 53",
+    "postal": "680705",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 36
+    }
+  },
+  "706-choa-chu-kang-st-53": {
+    "blk_no": "706",
+    "street": "CHOA CHU KANG ST 53",
+    "street_full": "CHOA CHU KANG STREET 53",
+    "postal": "680706",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "707-choa-chu-kang-st-53": {
+    "blk_no": "707",
+    "street": "CHOA CHU KANG ST 53",
+    "street_full": "CHOA CHU KANG STREET 53",
+    "postal": "680707",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 36
+    }
+  },
+  "708-choa-chu-kang-st-53": {
+    "blk_no": "708",
+    "street": "CHOA CHU KANG ST 53",
+    "street_full": "CHOA CHU KANG STREET 53",
+    "postal": "680708",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 24
+    }
+  },
+  "751-choa-chu-kang-nth-5": {
+    "blk_no": "751",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680751",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 60
+    }
+  },
+  "752-choa-chu-kang-nth-5": {
+    "blk_no": "752",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680752",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 60
+    }
+  },
+  "753-choa-chu-kang-nth-5": {
+    "blk_no": "753",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680753",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "exec": 40
+    }
+  },
+  "754-choa-chu-kang-nth-5": {
+    "blk_no": "754",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680754",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "755-choa-chu-kang-nth-5": {
+    "blk_no": "755",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680755",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "756-choa-chu-kang-nth-5": {
+    "blk_no": "756",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680756",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "exec": 40
+    }
+  },
+  "757-choa-chu-kang-nth-5": {
+    "blk_no": "757",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680757",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "758-choa-chu-kang-nth-5": {
+    "blk_no": "758",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680758",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "exec": 51
+    }
+  },
+  "759-choa-chu-kang-nth-5": {
+    "blk_no": "759",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680759",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "exec": 54
+    }
+  },
+  "760-choa-chu-kang-nth-5": {
+    "blk_no": "760",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680760",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 60
+    }
+  },
+  "761-choa-chu-kang-nth-5": {
+    "blk_no": "761",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680761",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 60
+    }
+  },
+  "762-choa-chu-kang-nth-5": {
+    "blk_no": "762",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680762",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    }
+  },
+  "763-choa-chu-kang-nth-5": {
+    "blk_no": "763",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680763",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    }
+  },
+  "764-choa-chu-kang-nth-5": {
+    "blk_no": "764",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680764",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "765-choa-chu-kang-nth-5": {
+    "blk_no": "765",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680765",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 67,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 16
+    }
+  },
+  "766-choa-chu-kang-nth-5": {
+    "blk_no": "766",
+    "street": "CHOA CHU KANG NTH 5",
+    "street_full": "CHOA CHU KANG NORTH 5",
+    "postal": "680766",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 26
+    }
+  },
+  "767-choa-chu-kang-st-54": {
+    "blk_no": "767",
+    "street": "CHOA CHU KANG ST 54",
+    "street_full": "CHOA CHU KANG STREET 54",
+    "postal": "680767",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 31
+    }
+  },
+  "768-choa-chu-kang-st-54": {
+    "blk_no": "768",
+    "street": "CHOA CHU KANG ST 54",
+    "street_full": "CHOA CHU KANG STREET 54",
+    "postal": "680768",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "769-choa-chu-kang-st-54": {
+    "blk_no": "769",
+    "street": "CHOA CHU KANG ST 54",
+    "street_full": "CHOA CHU KANG STREET 54",
+    "postal": "680769",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 73,
+      "5room": 37
+    }
+  },
+  "770-choa-chu-kang-st-54": {
+    "blk_no": "770",
+    "street": "CHOA CHU KANG ST 54",
+    "street_full": "CHOA CHU KANG STREET 54",
+    "postal": "680770",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 73,
+      "5room": 37
+    }
+  },
+  "771-choa-chu-kang-st-54": {
+    "blk_no": "771",
+    "street": "CHOA CHU KANG ST 54",
+    "street_full": "CHOA CHU KANG STREET 54",
+    "postal": "680771",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 31
+    }
+  },
+  "784-choa-chu-kang-dr": {
+    "blk_no": "784",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "680784",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 43,
+      "5room": 39
+    }
+  },
+  "785-choa-chu-kang-dr": {
+    "blk_no": "785",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "680785",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 44
+    }
+  },
+  "786-choa-chu-kang-dr": {
+    "blk_no": "786",
+    "street": "CHOA CHU KANG DR",
+    "street_full": "CHOA CHU KANG DRIVE",
+    "postal": "680786",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 44
+    }
+  },
+  "787-choa-chu-kang-nth-6": {
+    "blk_no": "787",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "682787",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 39
+    }
+  },
+  "788-choa-chu-kang-nth-6": {
+    "blk_no": "788",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680788",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 44
+    }
+  },
+  "789-choa-chu-kang-nth-6": {
+    "blk_no": "789",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680789",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 44
+    }
+  },
+  "790-choa-chu-kang-nth-6": {
+    "blk_no": "790",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680790",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 50
+    }
+  },
+  "791-choa-chu-kang-nth-6": {
+    "blk_no": "791",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680791",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 50
+    }
+  },
+  "792-choa-chu-kang-nth-6": {
+    "blk_no": "792",
+    "street": "CHOA CHU KANG NTH 6",
+    "street_full": "CHOA CHU KANG NORTH 6",
+    "postal": "680792",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 44
+    }
+  },
+  "8-teck-whye-ave": {
+    "blk_no": "8",
+    "street": "TECK WHYE AVE",
+    "street_full": "TECK WHYE AVENUE",
+    "postal": "680008",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "801a-keat-hong-cl": {
+    "blk_no": "801A",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "681801",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 36,
+      "4room": 24,
+      "5room": 36
+    }
+  },
+  "801b-keat-hong-cl": {
+    "blk_no": "801B",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "682801",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 36,
+      "4room": 24,
+      "5room": 36
+    }
+  },
+  "801c-keat-hong-cl": {
+    "blk_no": "801C",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "683801",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 72
+    }
+  },
+  "801d-keat-hong-cl": {
+    "blk_no": "801D",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "684801",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "802a-keat-hong-cl": {
+    "blk_no": "802A",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "681802",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 52,
+      "5room": 52
+    }
+  },
+  "802b-keat-hong-cl": {
+    "blk_no": "802B",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "682802",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 36
+    }
+  },
+  "802c-keat-hong-cl": {
+    "blk_no": "802C",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "683802",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 72
+    }
+  },
+  "803a-keat-hong-cl": {
+    "blk_no": "803A",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "681803",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 87
+    }
+  },
+  "803b-keat-hong-cl": {
+    "blk_no": "803B",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "682803",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 96
+    }
+  },
+  "803c-keat-hong-cl": {
+    "blk_no": "803C",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "683803",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 30
+    }
+  },
+  "803d-keat-hong-cl": {
+    "blk_no": "803D",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "684803",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 32
+    }
+  },
+  "804a-keat-hong-cl": {
+    "blk_no": "804A",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "681804",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 89
+    }
+  },
+  "804b-keat-hong-cl": {
+    "blk_no": "804B",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "682804",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 90
+    }
+  },
+  "805a-keat-hong-cl": {
+    "blk_no": "805A",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "681805",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 27
+    }
+  },
+  "805b-keat-hong-cl": {
+    "blk_no": "805B",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "682805",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 27
+    }
+  },
+  "805c-keat-hong-cl": {
+    "blk_no": "805C",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "683805",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 93
+    }
+  },
+  "805d-keat-hong-cl": {
+    "blk_no": "805D",
+    "street": "KEAT HONG CL",
+    "street_full": "KEAT HONG CLOSE",
+    "postal": "684805",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 108
+    }
+  },
+  "807a-choa-chu-kang-ave-1": {
+    "blk_no": "807A",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "681807",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "2room": 70,
+      "3room": 84
+    }
+  },
+  "807b-choa-chu-kang-ave-1": {
+    "blk_no": "807B",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "682807",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 30
+    }
+  },
+  "807c-choa-chu-kang-ave-1": {
+    "blk_no": "807C",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "683807",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 64
+    }
+  },
+  "808a-choa-chu-kang-ave-1": {
+    "blk_no": "808A",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "681808",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 30
+    }
+  },
+  "808b-choa-chu-kang-ave-1": {
+    "blk_no": "808B",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "682808",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 64
+    }
+  },
+  "808c-choa-chu-kang-ave-1": {
+    "blk_no": "808C",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "683808",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 64
+    }
+  },
+  "808d-choa-chu-kang-ave-1": {
+    "blk_no": "808D",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "684808",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 30
+    }
+  },
+  "809a-choa-chu-kang-ave-1": {
+    "blk_no": "809A",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "681809",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 90
+    }
+  },
+  "809b-choa-chu-kang-ave-1": {
+    "blk_no": "809B",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "682809",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 28,
+      "3room": 56,
+      "4room": 28
+    }
+  },
+  "810a-choa-chu-kang-ave-7": {
+    "blk_no": "810A",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "681810",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 72
+    }
+  },
+  "810b-choa-chu-kang-ave-7": {
+    "blk_no": "810B",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "682810",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 68
+    }
+  },
+  "811a-choa-chu-kang-ave-7": {
+    "blk_no": "811A",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "NIL",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "811b-choa-chu-kang-ave-7": {
+    "blk_no": "811B",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "682811",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "812a-choa-chu-kang-ave-7": {
+    "blk_no": "812A",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "681812",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 72
+    }
+  },
+  "812b-choa-chu-kang-ave-7": {
+    "blk_no": "812B",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "682812",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 68
+    }
+  },
+  "812c-choa-chu-kang-ave-7": {
+    "blk_no": "812C",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "683812",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 68
+    }
+  },
+  "813a-choa-chu-kang-ave-7": {
+    "blk_no": "813A",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "681813",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 510,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 210,
+      "2room": 300
+    }
+  },
+  "815a-choa-chu-kang-ave-7": {
+    "blk_no": "815A",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "681815",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 144
+    }
+  },
+  "815b-choa-chu-kang-ave-7": {
+    "blk_no": "815B",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "682815",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "4room": 95,
+      "5room": 95
+    }
+  },
+  "815c-choa-chu-kang-ave-7": {
+    "blk_no": "815C",
+    "street": "CHOA CHU KANG AVE 7",
+    "street_full": "CHOA CHU KANG AVENUE 7",
+    "postal": "683815",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "4room": 95,
+      "5room": 95
+    }
+  },
+  "816a-keat-hong-link": {
+    "blk_no": "816A",
+    "street": "KEAT HONG LINK",
+    "street_full": "KEAT HONG LINK",
+    "postal": "681816",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 84
+    }
+  },
+  "816b-keat-hong-link": {
+    "blk_no": "816B",
+    "street": "KEAT HONG LINK",
+    "street_full": "KEAT HONG LINK",
+    "postal": "682816",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 76
+    }
+  },
+  "817a-keat-hong-link": {
+    "blk_no": "817A",
+    "street": "KEAT HONG LINK",
+    "street_full": "KEAT HONG LINK",
+    "postal": "681817",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 84
+    }
+  },
+  "817b-keat-hong-link": {
+    "blk_no": "817B",
+    "street": "KEAT HONG LINK",
+    "street_full": "KEAT HONG LINK",
+    "postal": "682817",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 84
+    }
+  },
+  "817c-keat-hong-link": {
+    "blk_no": "817C",
+    "street": "KEAT HONG LINK",
+    "street_full": "KEAT HONG LINK",
+    "postal": "683817",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 82
+    }
+  },
+  "818a-choa-chu-kang-ave-1": {
+    "blk_no": "818A",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "681818",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 56
+    }
+  },
+  "818b-choa-chu-kang-ave-1": {
+    "blk_no": "818B",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "682818",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 38,
+      "4room": 114
+    }
+  },
+  "818c-choa-chu-kang-ave-1": {
+    "blk_no": "818C",
+    "street": "CHOA CHU KANG AVE 1",
+    "street_full": "CHOA CHU KANG AVENUE 1",
+    "postal": "683818",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 76
+    }
+  },
+  "819a-keat-hong-link": {
+    "blk_no": "819A",
+    "street": "KEAT HONG LINK",
+    "street_full": "KEAT HONG LINK",
+    "postal": "681819",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 203,
+    "sold_units_by_type": {
+      "2room": 81,
+      "3room": 38,
+      "4room": 84
+    }
+  },
+  "820a-keat-hong-link": {
+    "blk_no": "820A",
+    "street": "KEAT HONG LINK",
+    "street_full": "KEAT HONG LINK",
+    "postal": "681820",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 122
+    }
+  },
+  "820b-keat-hong-link": {
+    "blk_no": "820B",
+    "street": "KEAT HONG LINK",
+    "street_full": "KEAT HONG LINK",
+    "postal": "682820",
+    "town": "CHOA CHU KANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 82,
+      "3room": 38,
+      "4room": 84
+    }
+  },
+  "9-teck-whye-lane": {
+    "blk_no": "9",
+    "street": "TECK WHYE LANE",
+    "street_full": "TECK WHYE LANE",
+    "postal": "680009",
+    "town": "CHOA CHU KANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 240
+    }
+  }
+}

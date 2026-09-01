@@ -1,0 +1,801 @@
+{
+  "1-marine-ter": {
+    "blk_no": "1",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440001",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "12-marine-ter": {
+    "blk_no": "12",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440012",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "13-marine-ter": {
+    "blk_no": "13",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440013",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "14-marine-ter": {
+    "blk_no": "14",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440014",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "15-marine-ter": {
+    "blk_no": "15",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "NIL",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {
+      "2room": 10
+    },
+    "rental_units_by_type": {
+      "2room": 260
+    }
+  },
+  "16-marine-ter": {
+    "blk_no": "16",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440016",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {
+      "2room": 16
+    },
+    "rental_units_by_type": {
+      "2room": 254
+    }
+  },
+  "17-marine-ter": {
+    "blk_no": "17",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440017",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "18-marine-ter": {
+    "blk_no": "18",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440018",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "19-marine-ter": {
+    "blk_no": "19",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440019",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 54
+    }
+  },
+  "2-marine-ter": {
+    "blk_no": "2",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440002",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "20-marine-ter": {
+    "blk_no": "20",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440020",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 54,
+      "5room": 1
+    }
+  },
+  "27-marine-cres": {
+    "blk_no": "27",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440027",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "28-marine-cres": {
+    "blk_no": "28",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440028",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "29-marine-cres": {
+    "blk_no": "29",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440029",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "3-marine-ter": {
+    "blk_no": "3",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440003",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "30-marine-cres": {
+    "blk_no": "30",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440030",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 203,
+    "sold_units_by_type": {
+      "3room": 202,
+      "5room": 1
+    }
+  },
+  "31-marine-cres": {
+    "blk_no": "31",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440031",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 199,
+    "sold_units_by_type": {
+      "3room": 194,
+      "5room": 5
+    }
+  },
+  "32-marine-cres": {
+    "blk_no": "32",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440032",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 180,
+      "5room": 12
+    }
+  },
+  "33-marine-cres": {
+    "blk_no": "33",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440033",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 203,
+    "sold_units_by_type": {
+      "3room": 202,
+      "5room": 1
+    }
+  },
+  "34-marine-cres": {
+    "blk_no": "34",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440034",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 54
+    }
+  },
+  "35-marine-cres": {
+    "blk_no": "35",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440035",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 54
+    }
+  },
+  "4-marine-ter": {
+    "blk_no": "4",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "NIL",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 146,
+      "5room": 4
+    }
+  },
+  "43-marine-cres": {
+    "blk_no": "43",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440043",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "44-marine-cres": {
+    "blk_no": "44",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440044",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "45-marine-cres": {
+    "blk_no": "45",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440045",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "46-marine-cres": {
+    "blk_no": "46",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440046",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "3room": 108,
+      "5room": 1
+    }
+  },
+  "47-marine-cres": {
+    "blk_no": "47",
+    "street": "MARINE CRES",
+    "street_full": "MARINE CRESCENT",
+    "postal": "440047",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 161,
+    "sold_units_by_type": {
+      "3room": 160,
+      "5room": 1
+    }
+  },
+  "5-marine-ter": {
+    "blk_no": "5",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440005",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 147,
+    "sold_units_by_type": {
+      "3room": 140,
+      "5room": 7
+    }
+  },
+  "51-marine-ter": {
+    "blk_no": "51",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440051",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 270
+    }
+  },
+  "52-marine-ter": {
+    "blk_no": "52",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440052",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 270
+    }
+  },
+  "53-marine-ter": {
+    "blk_no": "53",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "NIL",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 270
+    }
+  },
+  "54-marine-ter": {
+    "blk_no": "54",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440054",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "55-marine-ter": {
+    "blk_no": "55",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440055",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "57-marine-ter": {
+    "blk_no": "57",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440057",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "3room": 110,
+      "5room": 1
+    }
+  },
+  "58-marine-ter": {
+    "blk_no": "58",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440058",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 108,
+      "5room": 2
+    }
+  },
+  "59-marine-ter": {
+    "blk_no": "59",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440059",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 150
+    }
+  },
+  "6-marine-ter": {
+    "blk_no": "6",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440006",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 150,
+      "5room": 2
+    }
+  },
+  "60-marine-dr": {
+    "blk_no": "60",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440060",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "61-marine-dr": {
+    "blk_no": "61",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440061",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "62-marine-dr": {
+    "blk_no": "62",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440062",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "63-marine-dr": {
+    "blk_no": "63",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440063",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "64-marine-dr": {
+    "blk_no": "64",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440064",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 170,
+      "5room": 6
+    }
+  },
+  "65-marine-dr": {
+    "blk_no": "65",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440065",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 172,
+      "5room": 4
+    }
+  },
+  "66-marine-dr": {
+    "blk_no": "66",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440066",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "3room": 180
+    }
+  },
+  "67-marine-dr": {
+    "blk_no": "67",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440067",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 177,
+    "sold_units_by_type": {
+      "3room": 174,
+      "5room": 3
+    }
+  },
+  "7-marine-ter": {
+    "blk_no": "7",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440007",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 110
+    }
+  },
+  "71-marine-dr": {
+    "blk_no": "71",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440071",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "72-marine-dr": {
+    "blk_no": "72",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440072",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "73-marine-dr": {
+    "blk_no": "73",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440073",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "74-marine-dr": {
+    "blk_no": "74",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440074",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "75-marine-dr": {
+    "blk_no": "75",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440075",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "76-marine-dr": {
+    "blk_no": "76",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440076",
+    "town": "MARINE PARADE",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "77-marine-dr": {
+    "blk_no": "77",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440077",
+    "town": "MARINE PARADE",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "78-marine-dr": {
+    "blk_no": "78",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440078",
+    "town": "MARINE PARADE",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "79-marine-dr": {
+    "blk_no": "79",
+    "street": "MARINE DR",
+    "street_full": "MARINE DRIVE",
+    "postal": "440079",
+    "town": "MARINE PARADE",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "8-marine-ter": {
+    "blk_no": "8",
+    "street": "MARINE TER",
+    "street_full": "MARINE TERRACE",
+    "postal": "440008",
+    "town": "MARINE PARADE",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 106,
+      "5room": 2
+    }
+  },
+  "80-marine-parade-ctrl": {
+    "blk_no": "80",
+    "street": "MARINE PARADE CTRL",
+    "street_full": "MARINE PARADE CENTRAL",
+    "postal": "440080",
+    "town": "MARINE PARADE",
+    "year_completed": 1976,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "81-marine-parade-ctrl": {
+    "blk_no": "81",
+    "street": "MARINE PARADE CTRL",
+    "street_full": "MARINE PARADE CENTRAL",
+    "postal": "440081",
+    "town": "MARINE PARADE",
+    "year_completed": 1976,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "83-marine-parade-ctrl": {
+    "blk_no": "83",
+    "street": "MARINE PARADE CTRL",
+    "street_full": "MARINE PARADE CENTRAL",
+    "postal": "440083",
+    "town": "MARINE PARADE",
+    "year_completed": 1976,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  }
+}

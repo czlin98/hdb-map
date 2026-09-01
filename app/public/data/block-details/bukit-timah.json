@@ -1,0 +1,371 @@
+{
+  "1-queen-s-rd": {
+    "blk_no": "1",
+    "street": "QUEEN'S RD",
+    "street_full": "QUEEN'S ROAD",
+    "postal": "260001",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "5room": 88
+    }
+  },
+  "1-toh-yi-dr": {
+    "blk_no": "1",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "NIL",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 60
+    }
+  },
+  "10-toh-yi-dr": {
+    "blk_no": "10",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590010",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 36,
+    "sold_units_by_type": {
+      "exec": 36
+    }
+  },
+  "11-toh-yi-dr": {
+    "blk_no": "11",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590011",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 46
+    }
+  },
+  "12-toh-yi-dr": {
+    "blk_no": "12",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "NIL",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "13-toh-yi-dr": {
+    "blk_no": "13",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590013",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "4room": 81,
+      "5room": 57
+    }
+  },
+  "14-toh-yi-dr": {
+    "blk_no": "14",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590014",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "15-toh-yi-dr": {
+    "blk_no": "15",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590015",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "16-toh-yi-dr": {
+    "blk_no": "16",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590016",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "17-toh-yi-dr": {
+    "blk_no": "17",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590017",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 63
+    }
+  },
+  "18-toh-yi-dr": {
+    "blk_no": "18",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590018",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 9
+    }
+  },
+  "19-toh-yi-dr": {
+    "blk_no": "19",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590019",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "2-queen-s-rd": {
+    "blk_no": "2",
+    "street": "QUEEN'S RD",
+    "street_full": "QUEEN'S ROAD",
+    "postal": "266733",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 56
+    }
+  },
+  "2-toh-yi-dr": {
+    "blk_no": "2",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590002",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "exec": 78
+    }
+  },
+  "21-toh-yi-dr": {
+    "blk_no": "21",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590021",
+    "town": "BUKIT TIMAH",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "2room": 57,
+      "studio_apartment": 75
+    }
+  },
+  "3-queen-s-rd": {
+    "blk_no": "3",
+    "street": "QUEEN'S RD",
+    "street_full": "QUEEN'S ROAD",
+    "postal": "266734",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 122
+    }
+  },
+  "3-toh-yi-dr": {
+    "blk_no": "3",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590003",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1987,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "exec": 64
+    }
+  },
+  "4-queen-s-rd": {
+    "blk_no": "4",
+    "street": "QUEEN'S RD",
+    "street_full": "QUEEN'S ROAD",
+    "postal": "260004",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 185,
+    "sold_units_by_type": {
+      "3room": 184,
+      "5room": 1
+    }
+  },
+  "4-toh-yi-dr": {
+    "blk_no": "4",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590004",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 60
+    }
+  },
+  "5-farrer-rd": {
+    "blk_no": "5",
+    "street": "FARRER RD",
+    "street_full": "FARRER ROAD",
+    "postal": "260005",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1974,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "5-toh-yi-dr": {
+    "blk_no": "5",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "NIL",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 60
+    }
+  },
+  "6-farrer-rd": {
+    "blk_no": "6",
+    "street": "FARRER RD",
+    "street_full": "FARRER ROAD",
+    "postal": "260006",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1973,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 74
+    }
+  },
+  "6-toh-yi-dr": {
+    "blk_no": "6",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590006",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1989,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "exec": 78
+    }
+  },
+  "7-toh-yi-dr": {
+    "blk_no": "7",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590007",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1989,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "8-empress-rd": {
+    "blk_no": "8",
+    "street": "EMPRESS RD",
+    "street_full": "EMPRESS ROAD",
+    "postal": "260008",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 186,
+    "sold_units_by_type": {
+      "3room": 180,
+      "5room": 6
+    }
+  },
+  "8-toh-yi-dr": {
+    "blk_no": "8",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590008",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "exec": 32
+    }
+  },
+  "9-toh-yi-dr": {
+    "blk_no": "9",
+    "street": "TOH YI DR",
+    "street_full": "TOH YI DRIVE",
+    "postal": "590009",
+    "town": "BUKIT TIMAH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  }
+}

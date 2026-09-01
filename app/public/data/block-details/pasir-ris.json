@@ -1,0 +1,5992 @@
+{
+  "1-changi-village-rd": {
+    "blk_no": "1",
+    "street": "CHANGI VILLAGE RD",
+    "street_full": "CHANGI VILLAGE ROAD",
+    "postal": "500001",
+    "town": "PASIR RIS",
+    "year_completed": 1975,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "3room": 54,
+      "5room": 1
+    }
+  },
+  "101-pasir-ris-st-12": {
+    "blk_no": "101",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510101",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "exec": 96
+    }
+  },
+  "102-pasir-ris-st-12": {
+    "blk_no": "102",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510102",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "103-pasir-ris-st-12": {
+    "blk_no": "103",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510103",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "104-pasir-ris-st-12": {
+    "blk_no": "104",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510104",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 52
+    }
+  },
+  "105-pasir-ris-st-12": {
+    "blk_no": "105",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510105",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 52
+    }
+  },
+  "106-pasir-ris-st-12": {
+    "blk_no": "106",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510106",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "107-pasir-ris-st-12": {
+    "blk_no": "107",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510107",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "108-pasir-ris-st-12": {
+    "blk_no": "108",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510108",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "109-pasir-ris-st-11": {
+    "blk_no": "109",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510109",
+    "town": "PASIR RIS",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "110-pasir-ris-st-11": {
+    "blk_no": "110",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510110",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 20
+    }
+  },
+  "111-pasir-ris-st-11": {
+    "blk_no": "111",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510111",
+    "town": "PASIR RIS",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 18,
+    "sold_units_by_type": {
+      "exec": 18
+    }
+  },
+  "112-pasir-ris-st-11": {
+    "blk_no": "112",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510112",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 20
+    }
+  },
+  "113-pasir-ris-st-11": {
+    "blk_no": "113",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510113",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 24
+    }
+  },
+  "114-pasir-ris-st-11": {
+    "blk_no": "114",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510114",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "115-pasir-ris-st-11": {
+    "blk_no": "115",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510115",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 20
+    }
+  },
+  "116-pasir-ris-st-11": {
+    "blk_no": "116",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510116",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "exec": 20
+    }
+  },
+  "117-pasir-ris-st-11": {
+    "blk_no": "117",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510117",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 20
+    }
+  },
+  "118-pasir-ris-st-11": {
+    "blk_no": "118",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510118",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "119-pasir-ris-st-11": {
+    "blk_no": "119",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510119",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 20
+    }
+  },
+  "120-pasir-ris-st-11": {
+    "blk_no": "120",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510120",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "121-pasir-ris-st-11": {
+    "blk_no": "121",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510121",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "122-pasir-ris-st-11": {
+    "blk_no": "122",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510122",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "123-pasir-ris-st-11": {
+    "blk_no": "123",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510123",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "124-pasir-ris-st-11": {
+    "blk_no": "124",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510124",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 20
+    }
+  },
+  "125-pasir-ris-st-11": {
+    "blk_no": "125",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510125",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "126-pasir-ris-st-11": {
+    "blk_no": "126",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510126",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 20
+    }
+  },
+  "127-pasir-ris-st-11": {
+    "blk_no": "127",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510127",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "128-pasir-ris-st-11": {
+    "blk_no": "128",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510128",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "129-pasir-ris-st-11": {
+    "blk_no": "129",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510129",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "130-pasir-ris-st-11": {
+    "blk_no": "130",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510130",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "exec": 32
+    }
+  },
+  "131-pasir-ris-st-11": {
+    "blk_no": "131",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510131",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "exec": 32
+    }
+  },
+  "132-pasir-ris-st-11": {
+    "blk_no": "132",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510132",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "exec": 30
+    }
+  },
+  "133-pasir-ris-st-11": {
+    "blk_no": "133",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510133",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "134-pasir-ris-st-11": {
+    "blk_no": "134",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510134",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "135-pasir-ris-st-11": {
+    "blk_no": "135",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510135",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "136-pasir-ris-st-11": {
+    "blk_no": "136",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510136",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "137-pasir-ris-st-11": {
+    "blk_no": "137",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510137",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "exec": 32
+    }
+  },
+  "138-pasir-ris-st-11": {
+    "blk_no": "138",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510138",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 38
+    }
+  },
+  "139-pasir-ris-st-11": {
+    "blk_no": "139",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510139",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 53
+    }
+  },
+  "140-pasir-ris-st-11": {
+    "blk_no": "140",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510140",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 53
+    }
+  },
+  "141-pasir-ris-st-11": {
+    "blk_no": "141",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510141",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 38
+    }
+  },
+  "142-pasir-ris-st-11": {
+    "blk_no": "142",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510142",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "2room": 21,
+      "4room": 90,
+      "5room": 18
+    }
+  },
+  "143-pasir-ris-st-11": {
+    "blk_no": "143",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510143",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 37
+    }
+  },
+  "144-pasir-ris-st-11": {
+    "blk_no": "144",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510144",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 26
+    }
+  },
+  "145-pasir-ris-st-11": {
+    "blk_no": "145",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510145",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 38
+    }
+  },
+  "146-pasir-ris-st-11": {
+    "blk_no": "146",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510146",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 47
+    }
+  },
+  "147-pasir-ris-st-13": {
+    "blk_no": "147",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510147",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 49
+    }
+  },
+  "148-pasir-ris-st-13": {
+    "blk_no": "148",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510148",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 14
+    }
+  },
+  "149-pasir-ris-st-13": {
+    "blk_no": "149",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510149",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 35
+    }
+  },
+  "150-pasir-ris-st-13": {
+    "blk_no": "150",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510150",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 36
+    }
+  },
+  "151-pasir-ris-st-13": {
+    "blk_no": "151",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510151",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 24
+    }
+  },
+  "152-pasir-ris-st-13": {
+    "blk_no": "152",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510152",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "exec": 30
+    }
+  },
+  "153-pasir-ris-st-13": {
+    "blk_no": "153",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510153",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "exec": 28
+    }
+  },
+  "154-pasir-ris-st-13": {
+    "blk_no": "154",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510154",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "exec": 28
+    }
+  },
+  "155-pasir-ris-st-13": {
+    "blk_no": "155",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510155",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "156-pasir-ris-st-13": {
+    "blk_no": "156",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510156",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "exec": 28
+    }
+  },
+  "157-pasir-ris-st-13": {
+    "blk_no": "157",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510157",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 29,
+    "sold_units_by_type": {
+      "exec": 29
+    }
+  },
+  "158-pasir-ris-st-13": {
+    "blk_no": "158",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510158",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 37,
+    "sold_units_by_type": {
+      "exec": 37
+    }
+  },
+  "159-pasir-ris-st-13": {
+    "blk_no": "159",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510159",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "exec": 28
+    }
+  },
+  "160-pasir-ris-st-13": {
+    "blk_no": "160",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510160",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "exec": 51
+    }
+  },
+  "161-pasir-ris-st-13": {
+    "blk_no": "161",
+    "street": "PASIR RIS ST 13",
+    "street_full": "PASIR RIS STREET 13",
+    "postal": "510161",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "exec": 30
+    }
+  },
+  "180-pasir-ris-st-11": {
+    "blk_no": "180",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510180",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "181-pasir-ris-st-11": {
+    "blk_no": "181",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510181",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 60
+    }
+  },
+  "182-pasir-ris-st-11": {
+    "blk_no": "182",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510182",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "5room": 55
+    }
+  },
+  "183-pasir-ris-st-11": {
+    "blk_no": "183",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510183",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "5room": 44
+    }
+  },
+  "184-pasir-ris-st-11": {
+    "blk_no": "184",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510184",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 44
+    }
+  },
+  "185-pasir-ris-st-11": {
+    "blk_no": "185",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510185",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 66
+    }
+  },
+  "186-pasir-ris-st-11": {
+    "blk_no": "186",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510186",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "5room": 71
+    }
+  },
+  "187-pasir-ris-st-11": {
+    "blk_no": "187",
+    "street": "PASIR RIS ST 11",
+    "street_full": "PASIR RIS STREET 11",
+    "postal": "510187",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "5room": 71
+    }
+  },
+  "188-pasir-ris-st-12": {
+    "blk_no": "188",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510188",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "189-pasir-ris-st-12": {
+    "blk_no": "189",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510189",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "5room": 48
+    }
+  },
+  "190-pasir-ris-st-12": {
+    "blk_no": "190",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510190",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 36
+    }
+  },
+  "191-pasir-ris-st-12": {
+    "blk_no": "191",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510191",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 36
+    }
+  },
+  "192-pasir-ris-st-12": {
+    "blk_no": "192",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510192",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "193-pasir-ris-st-12": {
+    "blk_no": "193",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510193",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "5room": 48
+    }
+  },
+  "194-pasir-ris-st-12": {
+    "blk_no": "194",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510194",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 36
+    }
+  },
+  "195-pasir-ris-st-12": {
+    "blk_no": "195",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510195",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "5room": 44
+    }
+  },
+  "196-pasir-ris-st-12": {
+    "blk_no": "196",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510196",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 44
+    }
+  },
+  "197-pasir-ris-st-12": {
+    "blk_no": "197",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510197",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 44
+    }
+  },
+  "198-pasir-ris-st-12": {
+    "blk_no": "198",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510198",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "5room": 77
+    }
+  },
+  "199-pasir-ris-st-12": {
+    "blk_no": "199",
+    "street": "PASIR RIS ST 12",
+    "street_full": "PASIR RIS STREET 12",
+    "postal": "510199",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "203-pasir-ris-st-21": {
+    "blk_no": "203",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510203",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "204-pasir-ris-st-21": {
+    "blk_no": "204",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510204",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "205-pasir-ris-st-21": {
+    "blk_no": "205",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510205",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "206-pasir-ris-st-21": {
+    "blk_no": "206",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510206",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "207-pasir-ris-st-21": {
+    "blk_no": "207",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510207",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "208-pasir-ris-st-21": {
+    "blk_no": "208",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510208",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "209-pasir-ris-st-21": {
+    "blk_no": "209",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510209",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "210-pasir-ris-st-21": {
+    "blk_no": "210",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510210",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "exec": 68
+    }
+  },
+  "211-pasir-ris-st-21": {
+    "blk_no": "211",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510211",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 66
+    }
+  },
+  "212-pasir-ris-st-21": {
+    "blk_no": "212",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510212",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 55
+    }
+  },
+  "212a-pasir-ris-st-21": {
+    "blk_no": "212A",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "511212",
+    "town": "PASIR RIS",
+    "year_completed": 2013,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 185,
+    "sold_units_by_type": {
+      "2room": 40,
+      "studio_apartment": 145
+    }
+  },
+  "213-pasir-ris-st-21": {
+    "blk_no": "213",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510213",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 33
+    }
+  },
+  "214-pasir-ris-st-21": {
+    "blk_no": "214",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510214",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 44
+    }
+  },
+  "215-pasir-ris-st-21": {
+    "blk_no": "215",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510215",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 22
+    }
+  },
+  "216-pasir-ris-st-21": {
+    "blk_no": "216",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510216",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 22
+    }
+  },
+  "217-pasir-ris-st-21": {
+    "blk_no": "217",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510217",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 57,
+    "sold_units_by_type": {
+      "exec": 57
+    }
+  },
+  "218-pasir-ris-st-21": {
+    "blk_no": "218",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510218",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "219-pasir-ris-st-21": {
+    "blk_no": "219",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510219",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "220-pasir-ris-st-21": {
+    "blk_no": "220",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510220",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "221-pasir-ris-st-21": {
+    "blk_no": "221",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510221",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "222-pasir-ris-st-21": {
+    "blk_no": "222",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510222",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "223-pasir-ris-st-21": {
+    "blk_no": "223",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510223",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "224-pasir-ris-st-21": {
+    "blk_no": "224",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510224",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "225-pasir-ris-st-21": {
+    "blk_no": "225",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510225",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "226-pasir-ris-st-21": {
+    "blk_no": "226",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510226",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 60
+    }
+  },
+  "227-pasir-ris-st-21": {
+    "blk_no": "227",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510227",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 72
+    }
+  },
+  "228-pasir-ris-st-21": {
+    "blk_no": "228",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510228",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 72
+    }
+  },
+  "229-pasir-ris-st-21": {
+    "blk_no": "229",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510229",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 60
+    }
+  },
+  "230-pasir-ris-st-21": {
+    "blk_no": "230",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510230",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 60
+    }
+  },
+  "231-pasir-ris-dr-4": {
+    "blk_no": "231",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510231",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 62
+    }
+  },
+  "232-pasir-ris-dr-4": {
+    "blk_no": "232",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510232",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 62
+    }
+  },
+  "233-pasir-ris-dr-4": {
+    "blk_no": "233",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510233",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "234-pasir-ris-dr-4": {
+    "blk_no": "234",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510234",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 72
+    }
+  },
+  "235-pasir-ris-st-21": {
+    "blk_no": "235",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510235",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "236-pasir-ris-st-21": {
+    "blk_no": "236",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510236",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "237-pasir-ris-st-21": {
+    "blk_no": "237",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510237",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "238-pasir-ris-st-21": {
+    "blk_no": "238",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510238",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "exec": 62
+    }
+  },
+  "239-pasir-ris-st-21": {
+    "blk_no": "239",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510239",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "240-pasir-ris-st-21": {
+    "blk_no": "240",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510240",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "241-pasir-ris-st-21": {
+    "blk_no": "241",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510241",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "242-pasir-ris-st-21": {
+    "blk_no": "242",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510242",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "243-pasir-ris-st-21": {
+    "blk_no": "243",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510243",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "244-pasir-ris-st-21": {
+    "blk_no": "244",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510244",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "245-pasir-ris-st-21": {
+    "blk_no": "245",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510245",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "246-pasir-ris-st-21": {
+    "blk_no": "246",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510246",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "247-pasir-ris-st-21": {
+    "blk_no": "247",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510247",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "248-pasir-ris-st-21": {
+    "blk_no": "248",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510248",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "249-pasir-ris-st-21": {
+    "blk_no": "249",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510249",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "250-pasir-ris-st-21": {
+    "blk_no": "250",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510250",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 49,
+    "sold_units_by_type": {
+      "exec": 49
+    }
+  },
+  "251-pasir-ris-st-21": {
+    "blk_no": "251",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510251",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "252-pasir-ris-st-21": {
+    "blk_no": "252",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510252",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 23,
+      "exec": 1
+    }
+  },
+  "253-pasir-ris-st-21": {
+    "blk_no": "253",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510253",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 22,
+      "exec": 3
+    }
+  },
+  "254-pasir-ris-st-21": {
+    "blk_no": "254",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510254",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 22,
+      "exec": 3
+    }
+  },
+  "255-pasir-ris-st-21": {
+    "blk_no": "255",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510255",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 23,
+      "exec": 1
+    }
+  },
+  "256-pasir-ris-st-21": {
+    "blk_no": "256",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510256",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 27,
+      "exec": 3
+    }
+  },
+  "257-pasir-ris-st-21": {
+    "blk_no": "257",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510257",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 38,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 21,
+      "exec": 3
+    }
+  },
+  "266-pasir-ris-st-21": {
+    "blk_no": "266",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510266",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 37,
+    "sold_units_by_type": {
+      "exec": 37
+    }
+  },
+  "267-pasir-ris-st-21": {
+    "blk_no": "267",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510267",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 37,
+    "sold_units_by_type": {
+      "exec": 37
+    }
+  },
+  "268-pasir-ris-st-21": {
+    "blk_no": "268",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510268",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "exec": 42
+    }
+  },
+  "269-pasir-ris-st-21": {
+    "blk_no": "269",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510269",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "exec": 42
+    }
+  },
+  "270-pasir-ris-st-21": {
+    "blk_no": "270",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510270",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "exec": 42
+    }
+  },
+  "271-pasir-ris-st-21": {
+    "blk_no": "271",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510271",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "272-pasir-ris-st-21": {
+    "blk_no": "272",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510272",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 50
+    }
+  },
+  "273-pasir-ris-st-21": {
+    "blk_no": "273",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510273",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 49
+    }
+  },
+  "274-pasir-ris-st-21": {
+    "blk_no": "274",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510274",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 24
+    }
+  },
+  "275-pasir-ris-st-21": {
+    "blk_no": "275",
+    "street": "PASIR RIS ST 21",
+    "street_full": "PASIR RIS STREET 21",
+    "postal": "510275",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 24
+    }
+  },
+  "4-changi-village-rd": {
+    "blk_no": "4",
+    "street": "CHANGI VILLAGE RD",
+    "street_full": "CHANGI VILLAGE ROAD",
+    "postal": "500004",
+    "town": "PASIR RIS",
+    "year_completed": 1975,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 36,
+    "sold_units_by_type": {
+      "3room": 35
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "405-pasir-ris-dr-6": {
+    "blk_no": "405",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510405",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 24
+    }
+  },
+  "406-pasir-ris-dr-6": {
+    "blk_no": "406",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510406",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 18
+    }
+  },
+  "407-pasir-ris-dr-6": {
+    "blk_no": "407",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510407",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 18
+    }
+  },
+  "408-pasir-ris-dr-6": {
+    "blk_no": "408",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510408",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "409-pasir-ris-dr-6": {
+    "blk_no": "409",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510409",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 20
+    }
+  },
+  "410-pasir-ris-dr-6": {
+    "blk_no": "410",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510410",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "411-pasir-ris-dr-6": {
+    "blk_no": "411",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510411",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 20
+    }
+  },
+  "412-pasir-ris-dr-6": {
+    "blk_no": "412",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510412",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "413-pasir-ris-dr-6": {
+    "blk_no": "413",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510413",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "exec": 28
+    }
+  },
+  "414-pasir-ris-dr-6": {
+    "blk_no": "414",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510414",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "415-pasir-ris-dr-6": {
+    "blk_no": "415",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510415",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "416-pasir-ris-dr-6": {
+    "blk_no": "416",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510416",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 24
+    }
+  },
+  "417-pasir-ris-dr-6": {
+    "blk_no": "417",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510417",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 24
+    }
+  },
+  "418-pasir-ris-dr-6": {
+    "blk_no": "418",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510418",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "exec": 78
+    }
+  },
+  "419-pasir-ris-dr-6": {
+    "blk_no": "419",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510419",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 20
+    }
+  },
+  "420-pasir-ris-dr-6": {
+    "blk_no": "420",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510420",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "421-pasir-ris-dr-6": {
+    "blk_no": "421",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510421",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 20
+    }
+  },
+  "422-pasir-ris-dr-6": {
+    "blk_no": "422",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510422",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "423-pasir-ris-dr-6": {
+    "blk_no": "423",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510423",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 20
+    }
+  },
+  "424-pasir-ris-dr-6": {
+    "blk_no": "424",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510424",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "425-pasir-ris-dr-6": {
+    "blk_no": "425",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510425",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 20
+    }
+  },
+  "426-pasir-ris-dr-6": {
+    "blk_no": "426",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510426",
+    "town": "PASIR RIS",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "427-pasir-ris-dr-6": {
+    "blk_no": "427",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510427",
+    "town": "PASIR RIS",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "428-pasir-ris-dr-6": {
+    "blk_no": "428",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510428",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 20
+    }
+  },
+  "429-pasir-ris-dr-6": {
+    "blk_no": "429",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510429",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "440-pasir-ris-dr-4": {
+    "blk_no": "440",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510440",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 9
+    }
+  },
+  "442-pasir-ris-dr-6": {
+    "blk_no": "442",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510442",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 3
+    }
+  },
+  "446-pasir-ris-dr-6": {
+    "blk_no": "446",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510446",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 35
+    }
+  },
+  "447-pasir-ris-dr-6": {
+    "blk_no": "447",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510447",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "448-pasir-ris-dr-6": {
+    "blk_no": "448",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510448",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "exec": 40
+    }
+  },
+  "449-pasir-ris-dr-6": {
+    "blk_no": "449",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510449",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "450-pasir-ris-dr-6": {
+    "blk_no": "450",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510450",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 74
+    }
+  },
+  "451-pasir-ris-dr-6": {
+    "blk_no": "451",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510451",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 74
+    }
+  },
+  "452-pasir-ris-dr-6": {
+    "blk_no": "452",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510452",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 66
+    }
+  },
+  "453-pasir-ris-dr-6": {
+    "blk_no": "453",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510453",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 77
+    }
+  },
+  "454-pasir-ris-dr-6": {
+    "blk_no": "454",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510454",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "exec": 40
+    }
+  },
+  "455-pasir-ris-dr-6": {
+    "blk_no": "455",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510455",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "456-pasir-ris-dr-4": {
+    "blk_no": "456",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510456",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "457-pasir-ris-dr-4": {
+    "blk_no": "457",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510457",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "458-pasir-ris-dr-4": {
+    "blk_no": "458",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510458",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 44
+    }
+  },
+  "459-pasir-ris-dr-4": {
+    "blk_no": "459",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510459",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "460-pasir-ris-dr-4": {
+    "blk_no": "460",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510460",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "exec": 66
+    }
+  },
+  "461-pasir-ris-dr-4": {
+    "blk_no": "461",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510461",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 44
+    }
+  },
+  "463-pasir-ris-st-41": {
+    "blk_no": "463",
+    "street": "PASIR RIS ST 41",
+    "street_full": "PASIR RIS STREET 41",
+    "postal": "510463",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 36,
+    "sold_units_by_type": {
+      "exec": 36
+    }
+  },
+  "464-pasir-ris-st-41": {
+    "blk_no": "464",
+    "street": "PASIR RIS ST 41",
+    "street_full": "PASIR RIS STREET 41",
+    "postal": "510464",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "465-pasir-ris-st-41": {
+    "blk_no": "465",
+    "street": "PASIR RIS ST 41",
+    "street_full": "PASIR RIS STREET 41",
+    "postal": "510465",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 36,
+    "sold_units_by_type": {
+      "exec": 36
+    }
+  },
+  "466-pasir-ris-st-41": {
+    "blk_no": "466",
+    "street": "PASIR RIS ST 41",
+    "street_full": "PASIR RIS STREET 41",
+    "postal": "510466",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "exec": 62
+    }
+  },
+  "467-pasir-ris-dr-6": {
+    "blk_no": "467",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510467",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 11
+    }
+  },
+  "468-pasir-ris-dr-6": {
+    "blk_no": "468",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510468",
+    "town": "PASIR RIS",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 11
+    }
+  },
+  "469-pasir-ris-dr-6": {
+    "blk_no": "469",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510469",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 11
+    }
+  },
+  "470-pasir-ris-dr-6": {
+    "blk_no": "470",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510470",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 67,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 11
+    }
+  },
+  "471-pasir-ris-dr-6": {
+    "blk_no": "471",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510471",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "472-pasir-ris-dr-6": {
+    "blk_no": "472",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510472",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "473-pasir-ris-dr-6": {
+    "blk_no": "473",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510473",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "474-pasir-ris-dr-6": {
+    "blk_no": "474",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510474",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 9
+    }
+  },
+  "475-pasir-ris-dr-6": {
+    "blk_no": "475",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510475",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "476-pasir-ris-dr-6": {
+    "blk_no": "476",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510476",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 81
+    }
+  },
+  "476a-pasir-ris-dr-6": {
+    "blk_no": "476A",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "511476",
+    "town": "PASIR RIS",
+    "year_completed": 2011,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 220,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 176,
+      "2room": 44
+    }
+  },
+  "477-pasir-ris-dr-6": {
+    "blk_no": "477",
+    "street": "PASIR RIS DR 6",
+    "street_full": "PASIR RIS DRIVE 6",
+    "postal": "510477",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "478-pasir-ris-dr-4": {
+    "blk_no": "478",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510478",
+    "town": "PASIR RIS",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "479-pasir-ris-dr-4": {
+    "blk_no": "479",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510479",
+    "town": "PASIR RIS",
+    "year_completed": 1990,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "480-pasir-ris-dr-4": {
+    "blk_no": "480",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510480",
+    "town": "PASIR RIS",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 66
+    }
+  },
+  "481-pasir-ris-dr-4": {
+    "blk_no": "481",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510481",
+    "town": "PASIR RIS",
+    "year_completed": 1990,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "482-pasir-ris-dr-4": {
+    "blk_no": "482",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510482",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "483-pasir-ris-dr-4": {
+    "blk_no": "483",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510483",
+    "town": "PASIR RIS",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "484-pasir-ris-dr-4": {
+    "blk_no": "484",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510484",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 24
+    }
+  },
+  "485-pasir-ris-dr-4": {
+    "blk_no": "485",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510485",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 4,
+      "5room": 12
+    }
+  },
+  "486-pasir-ris-dr-4": {
+    "blk_no": "486",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510486",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 44
+    }
+  },
+  "487-pasir-ris-dr-4": {
+    "blk_no": "487",
+    "street": "PASIR RIS DR 4",
+    "street_full": "PASIR RIS DRIVE 4",
+    "postal": "510487",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 40
+    }
+  },
+  "5-changi-village-rd": {
+    "blk_no": "5",
+    "street": "CHANGI VILLAGE RD",
+    "street_full": "CHANGI VILLAGE ROAD",
+    "postal": "500005",
+    "town": "PASIR RIS",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "3room": 74,
+      "5room": 1
+    }
+  },
+  "500-pasir-ris-st-52": {
+    "blk_no": "500",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510500",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "501-pasir-ris-st-52": {
+    "blk_no": "501",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510501",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "502-pasir-ris-st-52": {
+    "blk_no": "502",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510502",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "503-pasir-ris-st-52": {
+    "blk_no": "503",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510503",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "exec": 62
+    }
+  },
+  "504-pasir-ris-st-52": {
+    "blk_no": "504",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510504",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "exec": 82
+    }
+  },
+  "505-pasir-ris-st-52": {
+    "blk_no": "505",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510505",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "506-pasir-ris-st-52": {
+    "blk_no": "506",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510506",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "exec": 51
+    }
+  },
+  "507-pasir-ris-st-52": {
+    "blk_no": "507",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510507",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "508-pasir-ris-st-52": {
+    "blk_no": "508",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510508",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "509-pasir-ris-st-52": {
+    "blk_no": "509",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510509",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "exec": 51
+    }
+  },
+  "510-pasir-ris-st-52": {
+    "blk_no": "510",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510510",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "exec": 61
+    }
+  },
+  "511-pasir-ris-st-52": {
+    "blk_no": "511",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510511",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 52
+    }
+  },
+  "512-pasir-ris-st-52": {
+    "blk_no": "512",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510512",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 13,
+      "5room": 38
+    }
+  },
+  "513-pasir-ris-st-52": {
+    "blk_no": "513",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510513",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 34
+    }
+  },
+  "514-pasir-ris-st-52": {
+    "blk_no": "514",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510514",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 34
+    }
+  },
+  "515-pasir-ris-st-52": {
+    "blk_no": "515",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510515",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 38
+    }
+  },
+  "516-pasir-ris-st-52": {
+    "blk_no": "516",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510516",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 38
+    }
+  },
+  "517-pasir-ris-st-52": {
+    "blk_no": "517",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510517",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 46
+    }
+  },
+  "518-pasir-ris-st-52": {
+    "blk_no": "518",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510518",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 35
+    }
+  },
+  "519-pasir-ris-st-52": {
+    "blk_no": "519",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510519",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 38
+    }
+  },
+  "520-pasir-ris-st-52": {
+    "blk_no": "520",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510520",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 38
+    }
+  },
+  "521-pasir-ris-st-52": {
+    "blk_no": "521",
+    "street": "PASIR RIS ST 52",
+    "street_full": "PASIR RIS STREET 52",
+    "postal": "510521",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 38
+    }
+  },
+  "524a-pasir-ris-st-51": {
+    "blk_no": "524A",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "511524",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 23
+    }
+  },
+  "524b-pasir-ris-st-51": {
+    "blk_no": "524B",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "512524",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 23
+    }
+  },
+  "524c-pasir-ris-st-51": {
+    "blk_no": "524C",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "513524",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 22
+    }
+  },
+  "525a-pasir-ris-st-51": {
+    "blk_no": "525A",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "511525",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 12
+    }
+  },
+  "525b-pasir-ris-st-51": {
+    "blk_no": "525B",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "512525",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 22
+    }
+  },
+  "525c-pasir-ris-st-51": {
+    "blk_no": "525C",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "513525",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 35
+    }
+  },
+  "526a-pasir-ris-st-51": {
+    "blk_no": "526A",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "511526",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 72
+    }
+  },
+  "526b-pasir-ris-st-51": {
+    "blk_no": "526B",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "512526",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 57,
+    "sold_units_by_type": {
+      "4room": 57
+    }
+  },
+  "526c-pasir-ris-st-51": {
+    "blk_no": "526C",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "513526",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 53,
+    "sold_units_by_type": {
+      "4room": 53
+    }
+  },
+  "526d-pasir-ris-st-51": {
+    "blk_no": "526D",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "514526",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 35
+    }
+  },
+  "527a-pasir-ris-st-51": {
+    "blk_no": "527A",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "511527",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 64
+    }
+  },
+  "527b-pasir-ris-st-51": {
+    "blk_no": "527B",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "512527",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "2room": 59,
+      "3room": 57
+    }
+  },
+  "527c-pasir-ris-st-51": {
+    "blk_no": "527C",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "513527",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 57,
+      "3room": 55
+    }
+  },
+  "527d-pasir-ris-st-51": {
+    "blk_no": "527D",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "514527",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 57,
+      "3room": 55
+    }
+  },
+  "528a-pasir-ris-st-51": {
+    "blk_no": "528A",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "511528",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "2room": 84,
+      "3room": 57
+    }
+  },
+  "528b-pasir-ris-st-51": {
+    "blk_no": "528B",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "512528",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 23
+    }
+  },
+  "528c-pasir-ris-st-51": {
+    "blk_no": "528C",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "513528",
+    "town": "PASIR RIS",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 22
+    }
+  },
+  "530a-pasir-ris-dr-1": {
+    "blk_no": "530A",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "511530",
+    "town": "PASIR RIS",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 25,
+      "4room": 76,
+      "5room": 26
+    }
+  },
+  "530b-pasir-ris-dr-1": {
+    "blk_no": "530B",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "512530",
+    "town": "PASIR RIS",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "3room": 27,
+      "4room": 38,
+      "5room": 14
+    }
+  },
+  "530c-pasir-ris-dr-1": {
+    "blk_no": "530C",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "NIL",
+    "town": "PASIR RIS",
+    "year_completed": 2015,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 85,
+      "5room": 25
+    }
+  },
+  "530d-pasir-ris-dr-1": {
+    "blk_no": "530D",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "514530",
+    "town": "PASIR RIS",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "3room": 25,
+      "4room": 38,
+      "5room": 42
+    }
+  },
+  "531-pasir-ris-dr-1": {
+    "blk_no": "531",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510531",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "exec": 63
+    }
+  },
+  "532-pasir-ris-dr-1": {
+    "blk_no": "532",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510532",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "533-pasir-ris-dr-1": {
+    "blk_no": "533",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510533",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "534-pasir-ris-dr-1": {
+    "blk_no": "534",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510534",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "exec": 73
+    }
+  },
+  "535-pasir-ris-dr-1": {
+    "blk_no": "535",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510535",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "536-pasir-ris-dr-1": {
+    "blk_no": "536",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510536",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "537-pasir-ris-st-51": {
+    "blk_no": "537",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510537",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "exec": 64
+    }
+  },
+  "538-pasir-ris-st-51": {
+    "blk_no": "538",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510538",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "539-pasir-ris-st-51": {
+    "blk_no": "539",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510539",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "exec": 4
+    }
+  },
+  "540-pasir-ris-st-51": {
+    "blk_no": "540",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510540",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "541-pasir-ris-st-51": {
+    "blk_no": "541",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510541",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "542-pasir-ris-st-51": {
+    "blk_no": "542",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510542",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "exec": 4
+    }
+  },
+  "543-pasir-ris-st-51": {
+    "blk_no": "543",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510543",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "544-pasir-ris-st-51": {
+    "blk_no": "544",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510544",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "545-pasir-ris-st-51": {
+    "blk_no": "545",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510545",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "exec": 4
+    }
+  },
+  "546-pasir-ris-st-51": {
+    "blk_no": "546",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510546",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "547-pasir-ris-st-51": {
+    "blk_no": "547",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510547",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "exec": 78
+    }
+  },
+  "548-pasir-ris-st-51": {
+    "blk_no": "548",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510548",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "549-pasir-ris-st-51": {
+    "blk_no": "549",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510549",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "exec": 30
+    }
+  },
+  "550-pasir-ris-st-51": {
+    "blk_no": "550",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510550",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "551-pasir-ris-st-51": {
+    "blk_no": "551",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510551",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 62
+    }
+  },
+  "552-pasir-ris-st-51": {
+    "blk_no": "552",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510552",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "553-pasir-ris-st-51": {
+    "blk_no": "553",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510553",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "554-pasir-ris-st-51": {
+    "blk_no": "554",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510554",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "555-pasir-ris-st-51": {
+    "blk_no": "555",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510555",
+    "town": "PASIR RIS",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "556-pasir-ris-st-51": {
+    "blk_no": "556",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510556",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 60
+    }
+  },
+  "557-pasir-ris-st-51": {
+    "blk_no": "557",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510557",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "558-pasir-ris-st-51": {
+    "blk_no": "558",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510558",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "559-pasir-ris-st-51": {
+    "blk_no": "559",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510559",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 14
+    }
+  },
+  "560-pasir-ris-st-51": {
+    "blk_no": "560",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510560",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 14
+    }
+  },
+  "561-pasir-ris-st-51": {
+    "blk_no": "561",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510561",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 60
+    }
+  },
+  "562-pasir-ris-st-51": {
+    "blk_no": "562",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510562",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "564-pasir-ris-st-51": {
+    "blk_no": "564",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510564",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "565-pasir-ris-st-51": {
+    "blk_no": "565",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510565",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 60
+    }
+  },
+  "566-pasir-ris-st-51": {
+    "blk_no": "566",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510566",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "567-pasir-ris-st-51": {
+    "blk_no": "567",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510567",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "568-pasir-ris-st-51": {
+    "blk_no": "568",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510568",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "569-pasir-ris-st-51": {
+    "blk_no": "569",
+    "street": "PASIR RIS ST 51",
+    "street_full": "PASIR RIS STREET 51",
+    "postal": "510569",
+    "town": "PASIR RIS",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 48
+    }
+  },
+  "570-pasir-ris-st-53": {
+    "blk_no": "570",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510570",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 21
+    }
+  },
+  "571-pasir-ris-st-53": {
+    "blk_no": "571",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510571",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 25
+    }
+  },
+  "572-pasir-ris-st-53": {
+    "blk_no": "572",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510572",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 64
+    }
+  },
+  "573-pasir-ris-st-53": {
+    "blk_no": "573",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510573",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 64
+    }
+  },
+  "574-pasir-ris-st-53": {
+    "blk_no": "574",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510574",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 64
+    }
+  },
+  "575-pasir-ris-st-53": {
+    "blk_no": "575",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510575",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 55
+    }
+  },
+  "576-pasir-ris-st-53": {
+    "blk_no": "576",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510576",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "4room": 3,
+      "5room": 43
+    }
+  },
+  "577-pasir-ris-st-53": {
+    "blk_no": "577",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510577",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 59,
+    "sold_units_by_type": {
+      "4room": 3,
+      "5room": 56
+    }
+  },
+  "578-pasir-ris-st-53": {
+    "blk_no": "578",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510578",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "579-pasir-ris-st-53": {
+    "blk_no": "579",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510579",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "580-pasir-ris-st-53": {
+    "blk_no": "580",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510580",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "581-pasir-ris-st-53": {
+    "blk_no": "581",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510581",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "582-pasir-ris-st-53": {
+    "blk_no": "582",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510582",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "583-pasir-ris-st-53": {
+    "blk_no": "583",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510583",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "584-pasir-ris-st-53": {
+    "blk_no": "584",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510584",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 41,
+    "sold_units_by_type": {
+      "exec": 41
+    }
+  },
+  "585-pasir-ris-st-53": {
+    "blk_no": "585",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510585",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 45,
+    "sold_units_by_type": {
+      "exec": 45
+    }
+  },
+  "586-pasir-ris-st-53": {
+    "blk_no": "586",
+    "street": "PASIR RIS ST 53",
+    "street_full": "PASIR RIS STREET 53",
+    "postal": "510586",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "587a-pasir-ris-dr-3": {
+    "blk_no": "587A",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "511587",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 61
+    }
+  },
+  "588a-pasir-ris-dr-3": {
+    "blk_no": "588A",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "511588",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 76
+    }
+  },
+  "588b-pasir-ris-dr-3": {
+    "blk_no": "588B",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "512588",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 64,
+      "5room": 48
+    }
+  },
+  "588c-pasir-ris-dr-3": {
+    "blk_no": "588C",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "513588",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 66,
+      "5room": 45
+    }
+  },
+  "589a-pasir-ris-dr-3": {
+    "blk_no": "589A",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "511589",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 28
+    }
+  },
+  "589b-pasir-ris-dr-3": {
+    "blk_no": "589B",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "512589",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 186,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 30
+    },
+    "rental_units_by_type": {
+      "2room": 36
+    }
+  },
+  "589c-pasir-ris-dr-3": {
+    "blk_no": "589C",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "513589",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 67
+    }
+  },
+  "590a-pasir-ris-dr-3": {
+    "blk_no": "590A",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "511590",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 58,
+      "2room": 86
+    }
+  },
+  "590b-pasir-ris-dr-3": {
+    "blk_no": "590B",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "512590",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 52,
+      "3room": 26
+    },
+    "rental_units_by_type": {
+      "2room": 20
+    }
+  },
+  "590c-pasir-ris-dr-3": {
+    "blk_no": "590C",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "513590",
+    "town": "PASIR RIS",
+    "year_completed": 2025,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "2room": 40,
+      "3room": 40,
+      "4room": 27
+    }
+  },
+  "601-elias-rd": {
+    "blk_no": "601",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510601",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "602-elias-rd": {
+    "blk_no": "602",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510602",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "603-elias-rd": {
+    "blk_no": "603",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510603",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "exec": 54
+    }
+  },
+  "604-elias-rd": {
+    "blk_no": "604",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510604",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "605-elias-rd": {
+    "blk_no": "605",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510605",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "606-elias-rd": {
+    "blk_no": "606",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510606",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "607-elias-rd": {
+    "blk_no": "607",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510607",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "608-elias-rd": {
+    "blk_no": "608",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510608",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "609-elias-rd": {
+    "blk_no": "609",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510609",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "610-elias-rd": {
+    "blk_no": "610",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510610",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 63
+    }
+  },
+  "611-elias-rd": {
+    "blk_no": "611",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510611",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 48
+    }
+  },
+  "612-elias-rd": {
+    "blk_no": "612",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510612",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 58
+    }
+  },
+  "613-elias-rd": {
+    "blk_no": "613",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510613",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 58
+    }
+  },
+  "614-elias-rd": {
+    "blk_no": "614",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510614",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 58
+    }
+  },
+  "615-elias-rd": {
+    "blk_no": "615",
+    "street": "ELIAS RD",
+    "street_full": "ELIAS ROAD",
+    "postal": "510615",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 58
+    }
+  },
+  "626-pasir-ris-dr-3": {
+    "blk_no": "626",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "510626",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 24
+    }
+  },
+  "627-pasir-ris-dr-3": {
+    "blk_no": "627",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "510627",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "628-pasir-ris-dr-3": {
+    "blk_no": "628",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "510628",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "629-pasir-ris-dr-3": {
+    "blk_no": "629",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "510629",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "630-pasir-ris-dr-3": {
+    "blk_no": "630",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "510630",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "631-pasir-ris-dr-3": {
+    "blk_no": "631",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "510631",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 24
+    }
+  },
+  "632-pasir-ris-dr-3": {
+    "blk_no": "632",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "510632",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "633-pasir-ris-dr-3": {
+    "blk_no": "633",
+    "street": "PASIR RIS DR 3",
+    "street_full": "PASIR RIS DRIVE 3",
+    "postal": "510633",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 104,
+      "5room": 24
+    }
+  },
+  "634-pasir-ris-dr-1": {
+    "blk_no": "634",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510634",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 24
+    }
+  },
+  "635-pasir-ris-dr-1": {
+    "blk_no": "635",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510635",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "636-pasir-ris-dr-1": {
+    "blk_no": "636",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510636",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "637-pasir-ris-dr-1": {
+    "blk_no": "637",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510637",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "638-pasir-ris-dr-1": {
+    "blk_no": "638",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510638",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "639-pasir-ris-dr-1": {
+    "blk_no": "639",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510639",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 24
+    }
+  },
+  "640-pasir-ris-dr-1": {
+    "blk_no": "640",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510640",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 104,
+      "5room": 24
+    }
+  },
+  "641-pasir-ris-dr-1": {
+    "blk_no": "641",
+    "street": "PASIR RIS DR 1",
+    "street_full": "PASIR RIS DRIVE 1",
+    "postal": "510641",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 24
+    }
+  },
+  "642-pasir-ris-dr-10": {
+    "blk_no": "642",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510642",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "643-pasir-ris-dr-10": {
+    "blk_no": "643",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510643",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 49,
+    "sold_units_by_type": {
+      "exec": 49
+    }
+  },
+  "644-pasir-ris-dr-10": {
+    "blk_no": "644",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510644",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "645-pasir-ris-dr-10": {
+    "blk_no": "645",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510645",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "646-pasir-ris-dr-10": {
+    "blk_no": "646",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510646",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "647-pasir-ris-dr-10": {
+    "blk_no": "647",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510647",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "648-pasir-ris-dr-10": {
+    "blk_no": "648",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510648",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "649-pasir-ris-dr-10": {
+    "blk_no": "649",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510649",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "650-pasir-ris-dr-10": {
+    "blk_no": "650",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510650",
+    "town": "PASIR RIS",
+    "year_completed": 1993,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "651-pasir-ris-dr-10": {
+    "blk_no": "651",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510651",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "exec": 46
+    }
+  },
+  "700-pasir-ris-dr-10": {
+    "blk_no": "700",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510700",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "4room": 52
+    }
+  },
+  "701-pasir-ris-dr-10": {
+    "blk_no": "701",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510701",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "4room": 52
+    }
+  },
+  "702-pasir-ris-dr-10": {
+    "blk_no": "702",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510702",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "4room": 40
+    }
+  },
+  "703-pasir-ris-dr-10": {
+    "blk_no": "703",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510703",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 58
+    }
+  },
+  "704-pasir-ris-dr-10": {
+    "blk_no": "704",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510704",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "4room": 39
+    }
+  },
+  "705-pasir-ris-dr-10": {
+    "blk_no": "705",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510705",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 37,
+    "sold_units_by_type": {
+      "4room": 37
+    }
+  },
+  "706-pasir-ris-dr-10": {
+    "blk_no": "706",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510706",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 7,
+      "5room": 44
+    }
+  },
+  "707-pasir-ris-dr-10": {
+    "blk_no": "707",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510707",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 7,
+      "5room": 44
+    }
+  },
+  "708-pasir-ris-dr-10": {
+    "blk_no": "708",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510708",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 62
+    }
+  },
+  "709-pasir-ris-dr-10": {
+    "blk_no": "709",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510709",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 7,
+      "5room": 59
+    }
+  },
+  "710-pasir-ris-st-72": {
+    "blk_no": "710",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510710",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "711-pasir-ris-st-72": {
+    "blk_no": "711",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510711",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "712-pasir-ris-st-72": {
+    "blk_no": "712",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510712",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "713-pasir-ris-st-72": {
+    "blk_no": "713",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510713",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 53,
+    "sold_units_by_type": {
+      "exec": 53
+    }
+  },
+  "714-pasir-ris-st-72": {
+    "blk_no": "714",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510714",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 53,
+    "sold_units_by_type": {
+      "exec": 53
+    }
+  },
+  "715-pasir-ris-st-72": {
+    "blk_no": "715",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510715",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "716-pasir-ris-st-72": {
+    "blk_no": "716",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510716",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "717-pasir-ris-st-72": {
+    "blk_no": "717",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510717",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "718-pasir-ris-st-72": {
+    "blk_no": "718",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510718",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "4room": 40
+    }
+  },
+  "719-pasir-ris-st-72": {
+    "blk_no": "719",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510719",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 7,
+      "5room": 44
+    }
+  },
+  "720-pasir-ris-st-72": {
+    "blk_no": "720",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510720",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 7,
+      "5room": 44
+    }
+  },
+  "721-pasir-ris-st-72": {
+    "blk_no": "721",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510721",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "4room": 7,
+      "5room": 44
+    }
+  },
+  "722-pasir-ris-st-72": {
+    "blk_no": "722",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510722",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "4room": 39
+    }
+  },
+  "723-pasir-ris-st-72": {
+    "blk_no": "723",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510723",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 58
+    }
+  },
+  "724-pasir-ris-st-72": {
+    "blk_no": "724",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510724",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "4room": 7,
+      "5room": 47
+    }
+  },
+  "725-pasir-ris-st-72": {
+    "blk_no": "725",
+    "street": "PASIR RIS ST 72",
+    "street_full": "PASIR RIS STREET 72",
+    "postal": "510725",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 62
+    }
+  },
+  "736-pasir-ris-dr-10": {
+    "blk_no": "736",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510736",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 56
+    }
+  },
+  "737-pasir-ris-dr-10": {
+    "blk_no": "737",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510737",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 55
+    }
+  },
+  "738-pasir-ris-dr-10": {
+    "blk_no": "738",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510738",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 55
+    }
+  },
+  "739-pasir-ris-dr-10": {
+    "blk_no": "739",
+    "street": "PASIR RIS DR 10",
+    "street_full": "PASIR RIS DRIVE 10",
+    "postal": "510739",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 55
+    }
+  },
+  "740-pasir-ris-st-71": {
+    "blk_no": "740",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510740",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 56
+    }
+  },
+  "741-pasir-ris-st-71": {
+    "blk_no": "741",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510741",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 56
+    }
+  },
+  "742-pasir-ris-st-71": {
+    "blk_no": "742",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510742",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 57
+    }
+  },
+  "743-pasir-ris-st-71": {
+    "blk_no": "743",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510743",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 57
+    }
+  },
+  "744-pasir-ris-st-71": {
+    "blk_no": "744",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510744",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 45
+    }
+  },
+  "745-pasir-ris-st-71": {
+    "blk_no": "745",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510745",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 45
+    }
+  },
+  "746-pasir-ris-st-71": {
+    "blk_no": "746",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510746",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 30
+    }
+  },
+  "747-pasir-ris-st-71": {
+    "blk_no": "747",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510747",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 52
+    }
+  },
+  "748-pasir-ris-st-71": {
+    "blk_no": "748",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510748",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 37
+    }
+  },
+  "749-pasir-ris-st-71": {
+    "blk_no": "749",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510749",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 52
+    }
+  },
+  "750-pasir-ris-st-71": {
+    "blk_no": "750",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510750",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 37
+    }
+  },
+  "751-pasir-ris-st-71": {
+    "blk_no": "751",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510751",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 52
+    }
+  },
+  "752-pasir-ris-st-71": {
+    "blk_no": "752",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510752",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 30
+    }
+  },
+  "753-pasir-ris-st-71": {
+    "blk_no": "753",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510753",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 37
+    }
+  },
+  "754-pasir-ris-st-71": {
+    "blk_no": "754",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510754",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 37
+    }
+  },
+  "755-pasir-ris-st-71": {
+    "blk_no": "755",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510755",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 37
+    }
+  },
+  "756-pasir-ris-st-71": {
+    "blk_no": "756",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510756",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 37
+    }
+  },
+  "757-pasir-ris-st-71": {
+    "blk_no": "757",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510757",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 37
+    }
+  },
+  "758-pasir-ris-st-71": {
+    "blk_no": "758",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510758",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 37
+    }
+  },
+  "759-pasir-ris-st-71": {
+    "blk_no": "759",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510759",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 37
+    }
+  },
+  "760-pasir-ris-st-71": {
+    "blk_no": "760",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510760",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 37
+    }
+  },
+  "761-pasir-ris-st-71": {
+    "blk_no": "761",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510761",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 37
+    }
+  },
+  "762-pasir-ris-st-71": {
+    "blk_no": "762",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510762",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 36
+    }
+  },
+  "763-pasir-ris-st-71": {
+    "blk_no": "763",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510763",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 36
+    }
+  },
+  "764-pasir-ris-st-71": {
+    "blk_no": "764",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510764",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 36
+    }
+  },
+  "765-pasir-ris-st-71": {
+    "blk_no": "765",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510765",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 28
+    }
+  },
+  "766-pasir-ris-st-71": {
+    "blk_no": "766",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510766",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 39
+    }
+  },
+  "767-pasir-ris-st-71": {
+    "blk_no": "767",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510767",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 39
+    }
+  },
+  "768-pasir-ris-st-71": {
+    "blk_no": "768",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510768",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 30
+    }
+  },
+  "769-pasir-ris-st-71": {
+    "blk_no": "769",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510769",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 30
+    }
+  },
+  "770-pasir-ris-st-71": {
+    "blk_no": "770",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510770",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 30
+    }
+  },
+  "771-pasir-ris-st-71": {
+    "blk_no": "771",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510771",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 30
+    }
+  },
+  "772-pasir-ris-st-71": {
+    "blk_no": "772",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510772",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 30
+    }
+  },
+  "773-pasir-ris-st-71": {
+    "blk_no": "773",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510773",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 30
+    }
+  },
+  "774-pasir-ris-st-71": {
+    "blk_no": "774",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510774",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 30
+    }
+  },
+  "775-pasir-ris-st-71": {
+    "blk_no": "775",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510775",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 30
+    }
+  },
+  "776-pasir-ris-st-71": {
+    "blk_no": "776",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510776",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 39
+    }
+  },
+  "777-pasir-ris-st-71": {
+    "blk_no": "777",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510777",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 39
+    }
+  },
+  "778-pasir-ris-st-71": {
+    "blk_no": "778",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510778",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "779-pasir-ris-st-71": {
+    "blk_no": "779",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510779",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "780-pasir-ris-st-71": {
+    "blk_no": "780",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510780",
+    "town": "PASIR RIS",
+    "year_completed": 1994,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "781-pasir-ris-st-71": {
+    "blk_no": "781",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510781",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "782-pasir-ris-st-71": {
+    "blk_no": "782",
+    "street": "PASIR RIS ST 71",
+    "street_full": "PASIR RIS STREET 71",
+    "postal": "510782",
+    "town": "PASIR RIS",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  }
+}

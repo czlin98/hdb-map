@@ -1,0 +1,4377 @@
+{
+  "1-beach-rd": {
+    "blk_no": "1",
+    "street": "BEACH RD",
+    "street_full": "BEACH ROAD",
+    "postal": "190001",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "2room": 1,
+      "3room": 138,
+      "4room": 1,
+      "5room": 2
+    }
+  },
+  "1-kg-kayu-rd": {
+    "blk_no": "1",
+    "street": "KG KAYU RD",
+    "street_full": "KAMPONG KAYU ROAD",
+    "postal": "431001",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 1
+    }
+  },
+  "1-maude-rd": {
+    "blk_no": "1",
+    "street": "MAUDE RD",
+    "street_full": "MAUDE ROAD",
+    "postal": "200001",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 176
+    }
+  },
+  "1-st-george-s-rd": {
+    "blk_no": "1",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320001",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 154
+    }
+  },
+  "1-thomson-rd": {
+    "blk_no": "1",
+    "street": "THOMSON RD",
+    "street_full": "THOMSON ROAD",
+    "postal": "300001",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 8
+    }
+  },
+  "10-gloucester-rd": {
+    "blk_no": "10",
+    "street": "GLOUCESTER RD",
+    "street_full": "GLOUCESTER ROAD",
+    "postal": "210010",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 207,
+    "sold_units_by_type": {
+      "3room": 180,
+      "4room": 26,
+      "5room": 1
+    }
+  },
+  "10-jln-batu": {
+    "blk_no": "10",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431010",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 8,
+      "5room": 96,
+      "exec": 28
+    }
+  },
+  "10-nth-bridge-rd": {
+    "blk_no": "10",
+    "street": "NTH BRIDGE RD",
+    "street_full": "NORTH BRIDGE ROAD",
+    "postal": "190010",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 224,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 224
+    }
+  },
+  "10-st-george-s-rd": {
+    "blk_no": "10",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320010",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "4room": 12
+    }
+  },
+  "100-whampoa-dr": {
+    "blk_no": "100",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320100",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "101-ah-hood-rd": {
+    "blk_no": "101",
+    "street": "AH HOOD RD",
+    "street_full": "AH HOOD ROAD",
+    "postal": "320101",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "101-jln-rajah": {
+    "blk_no": "101",
+    "street": "JLN RAJAH",
+    "street_full": "JALAN RAJAH",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 128
+    }
+  },
+  "101-towner-rd": {
+    "blk_no": "101",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "322101",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "3room": 44
+    }
+  },
+  "101-whampoa-dr": {
+    "blk_no": "101",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "323101",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "102-jln-dusun": {
+    "blk_no": "102",
+    "street": "JLN DUSUN",
+    "street_full": "JALAN DUSUN",
+    "postal": "320102",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "102-jln-rajah": {
+    "blk_no": "102",
+    "street": "JLN RAJAH",
+    "street_full": "JALAN RAJAH",
+    "postal": "321102",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "4room": 198
+    }
+  },
+  "102-towner-rd": {
+    "blk_no": "102",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "322102",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 36,
+    "sold_units_by_type": {
+      "3room": 36
+    }
+  },
+  "103-ah-hood-rd": {
+    "blk_no": "103",
+    "street": "AH HOOD RD",
+    "street_full": "AH HOOD ROAD",
+    "postal": "320103",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "103-jln-rajah": {
+    "blk_no": "103",
+    "street": "JLN RAJAH",
+    "street_full": "JALAN RAJAH",
+    "postal": "321103",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1983,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 96
+    }
+  },
+  "103-towner-rd": {
+    "blk_no": "103",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "322103",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1982,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "104-jln-dusun": {
+    "blk_no": "104",
+    "street": "JLN DUSUN",
+    "street_full": "JALAN DUSUN",
+    "postal": "320104",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 24
+    }
+  },
+  "104-jln-rajah": {
+    "blk_no": "104",
+    "street": "JLN RAJAH",
+    "street_full": "JALAN RAJAH",
+    "postal": "321104",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1983,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 96
+    }
+  },
+  "104-towner-rd": {
+    "blk_no": "104",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "322104",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1982,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 50
+    }
+  },
+  "104-whampoa-dr": {
+    "blk_no": "104",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "323104",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 47
+    }
+  },
+  "105-jln-rajah": {
+    "blk_no": "105",
+    "street": "JLN RAJAH",
+    "street_full": "JALAN RAJAH",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1983,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "105-towner-rd": {
+    "blk_no": "105",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "321105",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 275,
+    "sold_units_by_type": {
+      "3room": 120,
+      "4room": 155
+    }
+  },
+  "106-jln-dusun": {
+    "blk_no": "106",
+    "street": "JLN DUSUN",
+    "street_full": "JALAN DUSUN",
+    "postal": "320106",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 97
+    }
+  },
+  "106-jln-rajah": {
+    "blk_no": "106",
+    "street": "JLN RAJAH",
+    "street_full": "JALAN RAJAH",
+    "postal": "321106",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1983,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "exec": 68
+    }
+  },
+  "106-towner-rd": {
+    "blk_no": "106",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "322106",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1983,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "107-jln-rajah": {
+    "blk_no": "107",
+    "street": "JLN RAJAH",
+    "street_full": "JALAN RAJAH",
+    "postal": "320107",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "107-towner-rd": {
+    "blk_no": "107",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "321107",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 295,
+    "sold_units_by_type": {
+      "3room": 140,
+      "4room": 155
+    }
+  },
+  "108-jln-rajah": {
+    "blk_no": "108",
+    "street": "JLN RAJAH",
+    "street_full": "JALAN RAJAH",
+    "postal": "320108",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1983,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "exec": 75
+    }
+  },
+  "108-mcnair-rd": {
+    "blk_no": "108",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "321108",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 104,
+      "5room": 28
+    }
+  },
+  "108b-mcnair-rd": {
+    "blk_no": "108B",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "323108",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2003,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 87
+    }
+  },
+  "108c-mcnair-rd": {
+    "blk_no": "108C",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "324108",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2003,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "109-mcnair-rd": {
+    "blk_no": "109",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320109",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 28
+    }
+  },
+  "109-whampoa-rd": {
+    "blk_no": "109",
+    "street": "WHAMPOA RD",
+    "street_full": "WHAMPOA ROAD",
+    "postal": "321109",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1996,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 26
+    }
+  },
+  "10a-bendemeer-rd": {
+    "blk_no": "10A",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "331010",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 220,
+    "sold_units_by_type": {
+      "3room": 71,
+      "4room": 149
+    }
+  },
+  "10b-bendemeer-rd": {
+    "blk_no": "10B",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "332010",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 184,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 114
+    }
+  },
+  "10c-bendemeer-rd": {
+    "blk_no": "10C",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "333010",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 220,
+    "sold_units_by_type": {
+      "3room": 71,
+      "4room": 149
+    }
+  },
+  "11-farrer-pk-rd": {
+    "blk_no": "11",
+    "street": "FARRER PK RD",
+    "street_full": "FARRER PARK ROAD",
+    "postal": "210011",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "11-jln-batu": {
+    "blk_no": "11",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431011",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 8,
+      "5room": 98,
+      "exec": 26
+    }
+  },
+  "11-st-george-s-rd": {
+    "blk_no": "11",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320011",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "11-upp-boon-keng-rd": {
+    "blk_no": "11",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380011",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 281,
+    "sold_units_by_type": {
+      "3room": 276,
+      "5room": 5
+    }
+  },
+  "110-mcnair-rd": {
+    "blk_no": "110",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320110",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "exec": 102
+    }
+  },
+  "110-whampoa-rd": {
+    "blk_no": "110",
+    "street": "WHAMPOA RD",
+    "street_full": "WHAMPOA ROAD",
+    "postal": "321110",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1996,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 38
+    }
+  },
+  "111-lor-3-geylang": {
+    "blk_no": "111",
+    "street": "LOR 3 GEYLANG",
+    "street_full": "LORONG 3 GEYLANG",
+    "postal": "381111",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 18,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 6
+    }
+  },
+  "111-mcnair-rd": {
+    "blk_no": "111",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320111",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 4,
+      "4room": 128
+    }
+  },
+  "111-whampoa-rd": {
+    "blk_no": "111",
+    "street": "WHAMPOA RD",
+    "street_full": "WHAMPOA ROAD",
+    "postal": "321111",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 35
+    }
+  },
+  "112-lor-3-geylang": {
+    "blk_no": "112",
+    "street": "LOR 3 GEYLANG",
+    "street_full": "LORONG 3 GEYLANG",
+    "postal": "381112",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1988,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "4room": 50
+    }
+  },
+  "112-mcnair-rd": {
+    "blk_no": "112",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320112",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "3room": 27,
+      "4room": 37,
+      "5room": 28
+    }
+  },
+  "112-whampoa-rd": {
+    "blk_no": "112",
+    "street": "WHAMPOA RD",
+    "street_full": "WHAMPOA ROAD",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1993,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 47
+    }
+  },
+  "113-lor-3-geylang": {
+    "blk_no": "113",
+    "street": "LOR 3 GEYLANG",
+    "street_full": "LORONG 3 GEYLANG",
+    "postal": "381113",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1989,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 86
+    }
+  },
+  "113-whampoa-rd": {
+    "blk_no": "113",
+    "street": "WHAMPOA RD",
+    "street_full": "WHAMPOA ROAD",
+    "postal": "320113",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1993,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 50
+    }
+  },
+  "113a-mcnair-rd": {
+    "blk_no": "113A",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "322113",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "4room": 198
+    }
+  },
+  "113b-mcnair-rd": {
+    "blk_no": "113B",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "323113",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 170
+    }
+  },
+  "113c-mcnair-rd": {
+    "blk_no": "113C",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "324113",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "2room": 39,
+      "3room": 27,
+      "4room": 81,
+      "studio_apartment": 42
+    }
+  },
+  "113d-mcnair-rd": {
+    "blk_no": "113D",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "325113",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {
+      "2room": 118,
+      "3room": 54,
+      "4room": 27,
+      "studio_apartment": 71
+    }
+  },
+  "114-lor-3-geylang": {
+    "blk_no": "114",
+    "street": "LOR 3 GEYLANG",
+    "street_full": "LORONG 3 GEYLANG",
+    "postal": "381114",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1988,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 25
+    }
+  },
+  "114-whampoa-rd": {
+    "blk_no": "114",
+    "street": "WHAMPOA RD",
+    "street_full": "WHAMPOA ROAD",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1994,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 35
+    }
+  },
+  "115-whampoa-rd": {
+    "blk_no": "115",
+    "street": "WHAMPOA RD",
+    "street_full": "WHAMPOA ROAD",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1993,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 80
+    }
+  },
+  "115a-jln-ayer": {
+    "blk_no": "115A",
+    "street": "JLN AYER",
+    "street_full": "JALAN AYER",
+    "postal": "382115",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2021,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 56,
+      "4room": 58
+    }
+  },
+  "115b-jln-ayer": {
+    "blk_no": "115B",
+    "street": "JLN AYER",
+    "street_full": "JALAN AYER",
+    "postal": "383115",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2021,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 100
+    }
+  },
+  "116a-jln-tenteram": {
+    "blk_no": "116A",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "321116",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "3room": 90,
+      "4room": 114
+    }
+  },
+  "116b-jln-tenteram": {
+    "blk_no": "116B",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "322116",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 84,
+      "4room": 90
+    }
+  },
+  "117a-jln-tenteram": {
+    "blk_no": "117A",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "321117",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 203,
+    "sold_units_by_type": {
+      "3room": 87,
+      "4room": 116
+    }
+  },
+  "117b-jln-tenteram": {
+    "blk_no": "117B",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "322117",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 58,
+      "4room": 116
+    }
+  },
+  "119-mcnair-rd": {
+    "blk_no": "119",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320119",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 28
+    }
+  },
+  "12-farrer-pk-rd": {
+    "blk_no": "12",
+    "street": "FARRER PK RD",
+    "street_full": "FARRER PARK ROAD",
+    "postal": "210012",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 58,
+      "4room": 116
+    }
+  },
+  "12-kg-arang-rd": {
+    "blk_no": "12",
+    "street": "KG ARANG RD",
+    "street_full": "KAMPONG ARANG ROAD",
+    "postal": "431012",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1964,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 44
+    }
+  },
+  "12-nth-bridge-rd": {
+    "blk_no": "12",
+    "street": "NTH BRIDGE RD",
+    "street_full": "NORTH BRIDGE ROAD",
+    "postal": "190012",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "12-st-george-s-rd": {
+    "blk_no": "12",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320012",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 10,
+    "sold_units_by_type": {
+      "4room": 10
+    }
+  },
+  "12-upp-boon-keng-rd": {
+    "blk_no": "12",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380012",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 130,
+      "5room": 1
+    }
+  },
+  "120-mcnair-rd": {
+    "blk_no": "120",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320120",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 4,
+      "4room": 72,
+      "5room": 28
+    }
+  },
+  "121-mcnair-rd": {
+    "blk_no": "121",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320121",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 28
+    }
+  },
+  "122-mcnair-rd": {
+    "blk_no": "122",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320122",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 72,
+      "5room": 28
+    }
+  },
+  "123-mcnair-rd": {
+    "blk_no": "123",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320123",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 42
+    }
+  },
+  "124-mcnair-rd": {
+    "blk_no": "124",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "320124",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "3room": 40,
+      "4room": 40
+    }
+  },
+  "13-farrer-pk-rd": {
+    "blk_no": "13",
+    "street": "FARRER PK RD",
+    "street_full": "FARRER PARK ROAD",
+    "postal": "210013",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 58
+    }
+  },
+  "13-st-george-s-rd": {
+    "blk_no": "13",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320013",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "13-upp-boon-keng-rd": {
+    "blk_no": "13",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380013",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 57
+    }
+  },
+  "14-kg-arang-rd": {
+    "blk_no": "14",
+    "street": "KG ARANG RD",
+    "street_full": "KAMPONG ARANG ROAD",
+    "postal": "431014",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1964,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 86,
+      "4room": 44,
+      "5room": 1
+    }
+  },
+  "14-st-george-s-rd": {
+    "blk_no": "14",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 123,
+      "4room": 22,
+      "5room": 2,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "14-upp-boon-keng-rd": {
+    "blk_no": "14",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380014",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 57
+    }
+  },
+  "141a-mcnair-rd": {
+    "blk_no": "141A",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "321141",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2026,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 233,
+    "sold_units_by_type": {
+      "4room": 233
+    }
+  },
+  "141b-mcnair-rd": {
+    "blk_no": "141B",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "322141",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2026,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {
+      "2room": 39,
+      "3room": 39,
+      "4room": 153
+    }
+  },
+  "141c-mcnair-rd": {
+    "blk_no": "141C",
+    "street": "MCNAIR RD",
+    "street_full": "MCNAIR ROAD",
+    "postal": "323141",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2026,
+    "max_floor_lvl": 34,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "2room": 97,
+      "3room": 65
+    },
+    "rental_units_by_type": {
+      "2room": 38
+    }
+  },
+  "149a-towner-rd": {
+    "blk_no": "149A",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "321149",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2024,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 201,
+    "sold_units_by_type": {
+      "4room": 201
+    }
+  },
+  "149b-towner-rd": {
+    "blk_no": "149B",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "322149",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2024,
+    "max_floor_lvl": 39,
+    "total_dwelling_units": 243,
+    "sold_units_by_type": {
+      "3room": 104,
+      "4room": 139
+    }
+  },
+  "14a-upp-boon-keng-rd": {
+    "blk_no": "14A",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "381014",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 57
+    }
+  },
+  "15-beach-rd": {
+    "blk_no": "15",
+    "street": "BEACH RD",
+    "street_full": "BEACH ROAD",
+    "postal": "189677",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "15-farrer-pk-rd": {
+    "blk_no": "15",
+    "street": "FARRER PK RD",
+    "street_full": "FARRER PARK ROAD",
+    "postal": "210015",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 58
+    }
+  },
+  "15-st-george-s-rd": {
+    "blk_no": "15",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320015",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "15-upp-boon-keng-rd": {
+    "blk_no": "15",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380015",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "4room": 210
+    }
+  },
+  "16-jln-tenteram": {
+    "blk_no": "16",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "321016",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1999,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 118,
+      "5room": 36
+    }
+  },
+  "16-st-george-s-rd": {
+    "blk_no": "16",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320016",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 16
+    }
+  },
+  "16-upp-boon-keng-rd": {
+    "blk_no": "16",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380016",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 273,
+    "sold_units_by_type": {
+      "3room": 266,
+      "5room": 7
+    }
+  },
+  "17-beach-rd": {
+    "blk_no": "17",
+    "street": "BEACH RD",
+    "street_full": "BEACH ROAD",
+    "postal": "190017",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "17-jln-tenteram": {
+    "blk_no": "17",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "321017",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1999,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "4room": 97,
+      "5room": 36
+    }
+  },
+  "17-st-george-s-rd": {
+    "blk_no": "17",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320017",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "18-jln-sultan": {
+    "blk_no": "18",
+    "street": "JLN SULTAN",
+    "street_full": "JALAN SULTAN",
+    "postal": "190018",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 150
+    }
+  },
+  "18-jln-tenteram": {
+    "blk_no": "18",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "321018",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1999,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 56
+    }
+  },
+  "18-st-george-s-rd": {
+    "blk_no": "18",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320018",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "19-jln-sultan": {
+    "blk_no": "19",
+    "street": "JLN SULTAN",
+    "street_full": "JALAN SULTAN",
+    "postal": "190019",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 150
+    }
+  },
+  "19-jln-tenteram": {
+    "blk_no": "19",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "321019",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1999,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 56
+    }
+  },
+  "19-st-george-s-rd": {
+    "blk_no": "19",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320019",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 24
+    }
+  },
+  "19-upp-boon-keng-rd": {
+    "blk_no": "19",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380019",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1975,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 360,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 360
+    }
+  },
+  "1a-kempas-rd": {
+    "blk_no": "1A",
+    "street": "KEMPAS RD",
+    "street_full": "KEMPAS ROAD",
+    "postal": "331001",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2025,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "2room": 81,
+      "3room": 27,
+      "4room": 27
+    }
+  },
+  "1b-kempas-rd": {
+    "blk_no": "1B",
+    "street": "KEMPAS RD",
+    "street_full": "KEMPAS ROAD",
+    "postal": "332001",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2025,
+    "max_floor_lvl": 37,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 134
+    }
+  },
+  "2-beach-rd": {
+    "blk_no": "2",
+    "street": "BEACH RD",
+    "street_full": "BEACH ROAD",
+    "postal": "190002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "2room": 1,
+      "3room": 134,
+      "5room": 3
+    }
+  },
+  "2-jln-batu": {
+    "blk_no": "2",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 4
+    }
+  },
+  "2-kitchener-rd": {
+    "blk_no": "2",
+    "street": "KITCHENER RD",
+    "street_full": "KITCHENER ROAD",
+    "postal": "200002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 176
+    }
+  },
+  "2-st-george-s-rd": {
+    "blk_no": "2",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "322002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 152,
+      "5room": 2
+    }
+  },
+  "20-jln-tenteram": {
+    "blk_no": "20",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "320020",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 318,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 318
+    }
+  },
+  "20-st-george-s-rd": {
+    "blk_no": "20",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "321020",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 22,
+      "5room": 3,
+      "exec": 2
+    }
+  },
+  "20a-lor-3-geylang": {
+    "blk_no": "20A",
+    "street": "LOR 3 GEYLANG",
+    "street_full": "LORONG 3 GEYLANG",
+    "postal": "382020",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2023,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 151
+    }
+  },
+  "20b-lor-3-geylang": {
+    "blk_no": "20B",
+    "street": "LOR 3 GEYLANG",
+    "street_full": "LORONG 3 GEYLANG",
+    "postal": "383020",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2023,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 172
+    }
+  },
+  "21-jln-tenteram": {
+    "blk_no": "21",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "320021",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 320,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 320
+    }
+  },
+  "21-st-george-s-rd": {
+    "blk_no": "21",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "321021",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "22-boon-keng-rd": {
+    "blk_no": "22",
+    "street": "BOON KENG RD",
+    "street_full": "BOON KENG ROAD",
+    "postal": "330022",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "4room": 198
+    }
+  },
+  "22-jln-tenteram": {
+    "blk_no": "22",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "320022",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 118
+    }
+  },
+  "22-st-george-s-rd": {
+    "blk_no": "22",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "321022",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "23-bendemeer-rd": {
+    "blk_no": "23",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330023",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 125,
+    "sold_units_by_type": {
+      "3room": 124,
+      "5room": 1
+    }
+  },
+  "23-st-george-s-rd": {
+    "blk_no": "23",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320023",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 40
+    }
+  },
+  "24-bendemeer-rd": {
+    "blk_no": "24",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330024",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 122,
+      "5room": 2
+    }
+  },
+  "25a-st-george-s-lane": {
+    "blk_no": "25A",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "321025",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2019,
+    "max_floor_lvl": 34,
+    "total_dwelling_units": 287,
+    "sold_units_by_type": {
+      "2room": 40,
+      "3room": 62,
+      "4room": 132,
+      "studio_apartment": 53
+    }
+  },
+  "26-bendemeer-rd": {
+    "blk_no": "26",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330026",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1971,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "3room": 69,
+      "4room": 23
+    }
+  },
+  "26a-st-george-s-lane": {
+    "blk_no": "26A",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "321026",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2018,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "2room": 23,
+      "3room": 62,
+      "4room": 120,
+      "studio_apartment": 35
+    }
+  },
+  "26b-st-george-s-lane": {
+    "blk_no": "26B",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "322026",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2018,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 211,
+    "sold_units_by_type": {
+      "4room": 211
+    }
+  },
+  "27-jln-bahagia": {
+    "blk_no": "27",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320027",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 2
+    }
+  },
+  "28-bendemeer-rd": {
+    "blk_no": "28",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330028",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1971,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "3room": 67,
+      "4room": 23,
+      "5room": 1
+    }
+  },
+  "28-jln-bahagia": {
+    "blk_no": "28",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320028",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "29-jln-bahagia": {
+    "blk_no": "29",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 85,
+      "5room": 32
+    }
+  },
+  "2a-kempas-rd": {
+    "blk_no": "2A",
+    "street": "KEMPAS RD",
+    "street_full": "KEMPAS ROAD",
+    "postal": "331002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2024,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "2room": 69,
+      "3room": 27,
+      "4room": 27
+    }
+  },
+  "2a-upp-boon-keng-rd": {
+    "blk_no": "2A",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "381002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2006,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "4room": 132,
+      "5room": 50
+    }
+  },
+  "2b-kempas-rd": {
+    "blk_no": "2B",
+    "street": "KEMPAS RD",
+    "street_full": "KEMPAS ROAD",
+    "postal": "332002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2024,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "3room": 33,
+      "4room": 130
+    }
+  },
+  "2b-upp-boon-keng-rd": {
+    "blk_no": "2B",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "382002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2006,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "4room": 110,
+      "5room": 54
+    }
+  },
+  "2c-upp-boon-keng-rd": {
+    "blk_no": "2C",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "383002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2006,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "4room": 137,
+      "5room": 54
+    }
+  },
+  "2d-upp-boon-keng-rd": {
+    "blk_no": "2D",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "384002",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2006,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "4room": 132,
+      "5room": 50
+    }
+  },
+  "3-beach-rd": {
+    "blk_no": "3",
+    "street": "BEACH RD",
+    "street_full": "BEACH ROAD",
+    "postal": "190003",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "2room": 1,
+      "3room": 134,
+      "5room": 3
+    }
+  },
+  "3-jln-batu": {
+    "blk_no": "3",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431003",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 5
+    }
+  },
+  "3-st-george-s-rd": {
+    "blk_no": "3",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320003",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 284,
+    "sold_units_by_type": {
+      "3room": 276,
+      "5room": 8
+    }
+  },
+  "30-bendemeer-rd": {
+    "blk_no": "30",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330030",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 125,
+    "sold_units_by_type": {
+      "3room": 124,
+      "5room": 1
+    }
+  },
+  "30-jln-bahagia": {
+    "blk_no": "30",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320030",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1986,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 56
+    }
+  },
+  "31-bendemeer-rd": {
+    "blk_no": "31",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330031",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 288,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 288
+    }
+  },
+  "32-bendemeer-rd": {
+    "blk_no": "32",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330032",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 276,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 276
+    }
+  },
+  "32-jln-bahagia": {
+    "blk_no": "32",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320032",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "33-bendemeer-rd": {
+    "blk_no": "33",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330033",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 288,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 288
+    }
+  },
+  "33-jln-bahagia": {
+    "blk_no": "33",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320033",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 2
+    }
+  },
+  "34-jln-bahagia": {
+    "blk_no": "34",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320034",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 1
+    }
+  },
+  "34-whampoa-west": {
+    "blk_no": "34",
+    "street": "WHAMPOA WEST",
+    "street_full": "WHAMPOA WEST",
+    "postal": "330034",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1971,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 475,
+    "sold_units_by_type": {
+      "3room": 462,
+      "5room": 12
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "35-jln-bahagia": {
+    "blk_no": "35",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320035",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "37-cambridge-rd": {
+    "blk_no": "37",
+    "street": "CAMBRIDGE RD",
+    "street_full": "CAMBRIDGE ROAD",
+    "postal": "210037",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 28
+    }
+  },
+  "38-cambridge-rd": {
+    "blk_no": "38",
+    "street": "CAMBRIDGE RD",
+    "street_full": "CAMBRIDGE ROAD",
+    "postal": "210038",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 28
+    }
+  },
+  "38-jln-bahagia": {
+    "blk_no": "38",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320038",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "38-upp-boon-keng-rd": {
+    "blk_no": "38",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380038",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "38a-bendemeer-rd": {
+    "blk_no": "38A",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "331038",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2010,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "4room": 120,
+      "5room": 50
+    }
+  },
+  "38b-bendemeer-rd": {
+    "blk_no": "38B",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "332038",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2010,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "3room": 65,
+      "4room": 105
+    }
+  },
+  "38c-bendemeer-rd": {
+    "blk_no": "38C",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "333038",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2010,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 69,
+      "4room": 97
+    }
+  },
+  "38d-bendemeer-rd": {
+    "blk_no": "38D",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "334038",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2010,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 61,
+      "4room": 101
+    }
+  },
+  "39-cambridge-rd": {
+    "blk_no": "39",
+    "street": "CAMBRIDGE RD",
+    "street_full": "CAMBRIDGE ROAD",
+    "postal": "210039",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 28
+    }
+  },
+  "39-jln-bahagia": {
+    "blk_no": "39",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320039",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 7,
+    "sold_units_by_type": {
+      "3room": 7
+    }
+  },
+  "39-upp-boon-keng-rd": {
+    "blk_no": "39",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "380039",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "39a-bendemeer-rd": {
+    "blk_no": "39A",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "331039",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2010,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 126
+    }
+  },
+  "3a-upp-boon-keng-rd": {
+    "blk_no": "3A",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "381003",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2006,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "4room": 127,
+      "5room": 48
+    }
+  },
+  "3b-upp-boon-keng-rd": {
+    "blk_no": "3B",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "382003",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2005,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 46
+    }
+  },
+  "3c-upp-boon-keng-rd": {
+    "blk_no": "3C",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "383003",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2006,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "4room": 125,
+      "5room": 48
+    }
+  },
+  "3d-upp-boon-keng-rd": {
+    "blk_no": "3D",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "384003",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2006,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "4room": 127,
+      "5room": 48
+    }
+  },
+  "4-beach-rd": {
+    "blk_no": "4",
+    "street": "BEACH RD",
+    "street_full": "BEACH ROAD",
+    "postal": "190004",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1968,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 336,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 336
+    }
+  },
+  "4-boon-keng-rd": {
+    "blk_no": "4",
+    "street": "BOON KENG RD",
+    "street_full": "BOON KENG ROAD",
+    "postal": "330004",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1995,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 5
+    }
+  },
+  "4-jln-batu": {
+    "blk_no": "4",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431004",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 1
+    }
+  },
+  "40-cambridge-rd": {
+    "blk_no": "40",
+    "street": "CAMBRIDGE RD",
+    "street_full": "CAMBRIDGE ROAD",
+    "postal": "210040",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 30
+    }
+  },
+  "40-jln-bahagia": {
+    "blk_no": "40",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320040",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "41-cambridge-rd": {
+    "blk_no": "41",
+    "street": "CAMBRIDGE RD",
+    "street_full": "CAMBRIDGE ROAD",
+    "postal": "210041",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 56
+    }
+  },
+  "41-jln-bahagia": {
+    "blk_no": "41",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320041",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "42-cambridge-rd": {
+    "blk_no": "42",
+    "street": "CAMBRIDGE RD",
+    "street_full": "CAMBRIDGE ROAD",
+    "postal": "210042",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 56
+    }
+  },
+  "42-jln-bahagia": {
+    "blk_no": "42",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320042",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "43-bendemeer-rd": {
+    "blk_no": "43",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330043",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 229,
+    "sold_units_by_type": {
+      "3room": 227,
+      "4room": 2
+    }
+  },
+  "43-cambridge-rd": {
+    "blk_no": "43",
+    "street": "CAMBRIDGE RD",
+    "street_full": "CAMBRIDGE ROAD",
+    "postal": "210043",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "4room": 54
+    }
+  },
+  "43-jln-bahagia": {
+    "blk_no": "43",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320043",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "44-bendemeer-rd": {
+    "blk_no": "44",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330044",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "3room": 225,
+      "4room": 3
+    }
+  },
+  "44-jln-bahagia": {
+    "blk_no": "44",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320044",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "3room": 4
+    }
+  },
+  "44-owen-rd": {
+    "blk_no": "44",
+    "street": "OWEN RD",
+    "street_full": "OWEN ROAD",
+    "postal": "210044",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 74,
+      "4room": 13
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "45-bendemeer-rd": {
+    "blk_no": "45",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330045",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1971,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 119,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "45-jln-bahagia": {
+    "blk_no": "45",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320045",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 4,
+    "sold_units_by_type": {
+      "3room": 4
+    }
+  },
+  "46-bendemeer-rd": {
+    "blk_no": "46",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330046",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1993,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "exec": 64
+    }
+  },
+  "46-jln-bahagia": {
+    "blk_no": "46",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320046",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "46-owen-rd": {
+    "blk_no": "46",
+    "street": "OWEN RD",
+    "street_full": "OWEN ROAD",
+    "postal": "210046",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 75,
+      "4room": 13
+    }
+  },
+  "461-crawford-lane": {
+    "blk_no": "461",
+    "street": "CRAWFORD LANE",
+    "street_full": "CRAWFORD LANE",
+    "postal": "190461",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 92
+    }
+  },
+  "462-crawford-lane": {
+    "blk_no": "462",
+    "street": "CRAWFORD LANE",
+    "street_full": "CRAWFORD LANE",
+    "postal": "190462",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "3room": 182,
+      "5room": 5
+    }
+  },
+  "463-crawford-lane": {
+    "blk_no": "463",
+    "street": "CRAWFORD LANE",
+    "street_full": "CRAWFORD LANE",
+    "postal": "190463",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1982,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 127,
+      "4room": 1,
+      "5room": 2
+    }
+  },
+  "466-crawford-lane": {
+    "blk_no": "466",
+    "street": "CRAWFORD LANE",
+    "street_full": "CRAWFORD LANE",
+    "postal": "190466",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1982,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "467-nth-bridge-rd": {
+    "blk_no": "467",
+    "street": "NTH BRIDGE RD",
+    "street_full": "NORTH BRIDGE ROAD",
+    "postal": "190467",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 145,
+      "5room": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "468-nth-bridge-rd": {
+    "blk_no": "468",
+    "street": "NTH BRIDGE RD",
+    "street_full": "NORTH BRIDGE ROAD",
+    "postal": "190468",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 148,
+      "5room": 4
+    }
+  },
+  "47-bendemeer-rd": {
+    "blk_no": "47",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330047",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 126,
+      "5room": 1
+    }
+  },
+  "47-jln-bahagia": {
+    "blk_no": "47",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320047",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "47-owen-rd": {
+    "blk_no": "47",
+    "street": "OWEN RD",
+    "street_full": "OWEN ROAD",
+    "postal": "210047",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 180,
+      "2room": 14
+    }
+  },
+  "48-bendemeer-rd": {
+    "blk_no": "48",
+    "street": "BENDEMEER RD",
+    "street_full": "BENDEMEER ROAD",
+    "postal": "330048",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1993,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "48-dorset-rd": {
+    "blk_no": "48",
+    "street": "DORSET RD",
+    "street_full": "DORSET ROAD",
+    "postal": "210048",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "48-jln-bahagia": {
+    "blk_no": "48",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320048",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "48a-dorset-rd": {
+    "blk_no": "48A",
+    "street": "DORSET RD",
+    "street_full": "DORSET ROAD",
+    "postal": "211048",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "49-dorset-rd": {
+    "blk_no": "49",
+    "street": "DORSET RD",
+    "street_full": "DORSET ROAD",
+    "postal": "210049",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 12,
+      "5room": 2
+    }
+  },
+  "49-jln-bahagia": {
+    "blk_no": "49",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320049",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "49-whampoa-sth": {
+    "blk_no": "49",
+    "street": "WHAMPOA STH",
+    "street_full": "WHAMPOA SOUTH",
+    "postal": "330049",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "4b-st-george-s-lane": {
+    "blk_no": "4B",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "321004",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 35
+    }
+  },
+  "4c-st-george-s-lane": {
+    "blk_no": "4C",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "322004",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1995,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 45
+    }
+  },
+  "5-beach-rd": {
+    "blk_no": "5",
+    "street": "BEACH RD",
+    "street_full": "BEACH ROAD",
+    "postal": "190005",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1968,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 336,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 336
+    }
+  },
+  "5-boon-keng-rd": {
+    "blk_no": "5",
+    "street": "BOON KENG RD",
+    "street_full": "BOON KENG ROAD",
+    "postal": "330005",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 67
+    }
+  },
+  "5-jln-batu": {
+    "blk_no": "5",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431005",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 100,
+      "4room": 10
+    }
+  },
+  "5-st-george-s-lane": {
+    "blk_no": "5",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "320005",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 77,
+      "4room": 33
+    }
+  },
+  "50-dorset-rd": {
+    "blk_no": "50",
+    "street": "DORSET RD",
+    "street_full": "DORSET ROAD",
+    "postal": "210050",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "3room": 148,
+      "4room": 22,
+      "exec": 3
+    }
+  },
+  "50-jln-bahagia": {
+    "blk_no": "50",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320050",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "51-jln-bahagia": {
+    "blk_no": "51",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320051",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "51-kent-rd": {
+    "blk_no": "51",
+    "street": "KENT RD",
+    "street_full": "KENT ROAD",
+    "postal": "210051",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "52-jln-bahagia": {
+    "blk_no": "52",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320052",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "52-kent-rd": {
+    "blk_no": "52",
+    "street": "KENT RD",
+    "street_full": "KENT ROAD",
+    "postal": "210052",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "4room": 127
+    }
+  },
+  "53-geylang-bahru": {
+    "blk_no": "53",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330053",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "53-jln-ma-mor": {
+    "blk_no": "53",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320053",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "53-kent-rd": {
+    "blk_no": "53",
+    "street": "KENT RD",
+    "street_full": "KENT ROAD",
+    "postal": "210053",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 36,
+    "sold_units_by_type": {
+      "4room": 36
+    }
+  },
+  "54-geylang-bahru": {
+    "blk_no": "54",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330054",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "54-jln-ma-mor": {
+    "blk_no": "54",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320054",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 10,
+    "sold_units_by_type": {
+      "3room": 10
+    }
+  },
+  "54-kent-rd": {
+    "blk_no": "54",
+    "street": "KENT RD",
+    "street_full": "KENT ROAD",
+    "postal": "210054",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "55-geylang-bahru": {
+    "blk_no": "55",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330055",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "55-jln-bahagia": {
+    "blk_no": "55",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320055",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "56-geylang-bahru": {
+    "blk_no": "56",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330056",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "56-jln-ma-mor": {
+    "blk_no": "56",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320056",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "57-geylang-bahru": {
+    "blk_no": "57",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330057",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 386,
+    "sold_units_by_type": {
+      "3room": 376,
+      "5room": 10
+    }
+  },
+  "57-jln-ma-mor": {
+    "blk_no": "57",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320057",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 7,
+    "sold_units_by_type": {
+      "3room": 7
+    }
+  },
+  "58-geylang-bahru": {
+    "blk_no": "58",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330058",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1998,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 40
+    }
+  },
+  "58-jln-ma-mor": {
+    "blk_no": "58",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320058",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 7,
+    "sold_units_by_type": {
+      "3room": 7
+    }
+  },
+  "59-jln-ma-mor": {
+    "blk_no": "59",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320059",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 7,
+    "sold_units_by_type": {
+      "3room": 7
+    }
+  },
+  "59a-geylang-bahru": {
+    "blk_no": "59A",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330059",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 40
+    }
+  },
+  "59b-geylang-bahru": {
+    "blk_no": "59B",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "331059",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 40
+    }
+  },
+  "59c-geylang-bahru": {
+    "blk_no": "59C",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "332059",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 40
+    }
+  },
+  "5a-upp-boon-keng-rd": {
+    "blk_no": "5A",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "381005",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2010,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "3room": 192,
+      "4room": 48
+    }
+  },
+  "6-beach-rd": {
+    "blk_no": "6",
+    "street": "BEACH RD",
+    "street_full": "BEACH ROAD",
+    "postal": "190006",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1968,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "2room": 45,
+      "3room": 1,
+      "4room": 28
+    },
+    "rental_units_by_type": {
+      "1room": 57,
+      "2room": 67
+    }
+  },
+  "6-boon-keng-rd": {
+    "blk_no": "6",
+    "street": "BOON KENG RD",
+    "street_full": "BOON KENG ROAD",
+    "postal": "330006",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 53
+    }
+  },
+  "6-jln-batu": {
+    "blk_no": "6",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431006",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 4
+    }
+  },
+  "6-st-george-s-lane": {
+    "blk_no": "6",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "320006",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "3room": 75,
+      "4room": 33,
+      "exec": 1
+    }
+  },
+  "60-geylang-bahru": {
+    "blk_no": "60",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330060",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "60-jln-bahagia": {
+    "blk_no": "60",
+    "street": "JLN BAHAGIA",
+    "street_full": "JALAN BAHAGIA",
+    "postal": "320060",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "61-geylang-bahru": {
+    "blk_no": "61",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330061",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 336,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 336
+    }
+  },
+  "61-jln-tenteram": {
+    "blk_no": "61",
+    "street": "JLN TENTERAM",
+    "street_full": "JALAN TENTERAM",
+    "postal": "320061",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 9,
+    "sold_units_by_type": {
+      "3room": 9
+    }
+  },
+  "62-geylang-bahru": {
+    "blk_no": "62",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330062",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 336,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 336
+    }
+  },
+  "62-jln-ma-mor": {
+    "blk_no": "62",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320062",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "63-jln-ma-mor": {
+    "blk_no": "63",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320063",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 8
+    }
+  },
+  "63-kallang-bahru": {
+    "blk_no": "63",
+    "street": "KALLANG BAHRU",
+    "street_full": "KALLANG BAHRU",
+    "postal": "330063",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 273,
+    "sold_units_by_type": {
+      "3room": 267,
+      "5room": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "64-jln-ma-mor": {
+    "blk_no": "64",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320064",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "64-kallang-bahru": {
+    "blk_no": "64",
+    "street": "KALLANG BAHRU",
+    "street_full": "KALLANG BAHRU",
+    "postal": "330064",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 284,
+    "sold_units_by_type": {
+      "3room": 280,
+      "5room": 4
+    }
+  },
+  "65-jln-ma-mor": {
+    "blk_no": "65",
+    "street": "JLN MA'MOR",
+    "street_full": "JALAN MA'MOR",
+    "postal": "320065",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1959,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "65-kallang-bahru": {
+    "blk_no": "65",
+    "street": "KALLANG BAHRU",
+    "street_full": "KALLANG BAHRU",
+    "postal": "330065",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 285,
+    "sold_units_by_type": {
+      "3room": 282,
+      "5room": 3
+    }
+  },
+  "66-kallang-bahru": {
+    "blk_no": "66",
+    "street": "KALLANG BAHRU",
+    "street_full": "KALLANG BAHRU",
+    "postal": "330066",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 59,
+    "sold_units_by_type": {
+      "3room": 59
+    }
+  },
+  "67-kallang-bahru": {
+    "blk_no": "67",
+    "street": "KALLANG BAHRU",
+    "street_full": "KALLANG BAHRU",
+    "postal": "330067",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 5,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "3room": 42
+    }
+  },
+  "68-geylang-bahru": {
+    "blk_no": "68",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330068",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 387,
+    "sold_units_by_type": {
+      "3room": 378,
+      "5room": 9
+    }
+  },
+  "681-race-course-rd": {
+    "blk_no": "681",
+    "street": "RACE COURSE RD",
+    "street_full": "RACE COURSE ROAD",
+    "postal": "210681",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 121
+    }
+  },
+  "682-race-course-rd": {
+    "blk_no": "682",
+    "street": "RACE COURSE RD",
+    "street_full": "RACE COURSE ROAD",
+    "postal": "210682",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 22
+    }
+  },
+  "683-tessensohn-rd": {
+    "blk_no": "683",
+    "street": "TESSENSOHN RD",
+    "street_full": "TESSENSOHN ROAD",
+    "postal": "210683",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 121
+    }
+  },
+  "684-race-course-rd": {
+    "blk_no": "684",
+    "street": "RACE COURSE RD",
+    "street_full": "RACE COURSE ROAD",
+    "postal": "210684",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1985,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 77,
+      "4room": 37,
+      "5room": 1
+    }
+  },
+  "685-race-course-rd": {
+    "blk_no": "685",
+    "street": "RACE COURSE RD",
+    "street_full": "RACE COURSE ROAD",
+    "postal": "210685",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1985,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 96,
+      "4room": 26
+    }
+  },
+  "69-moulmein-rd": {
+    "blk_no": "69",
+    "street": "MOULMEIN RD",
+    "street_full": "MOULMEIN ROAD",
+    "postal": "300069",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1972,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "7-boon-keng-rd": {
+    "blk_no": "7",
+    "street": "BOON KENG RD",
+    "street_full": "BOON KENG ROAD",
+    "postal": "330007",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 238,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 56,
+      "5room": 158
+    }
+  },
+  "7-jln-batu": {
+    "blk_no": "7",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431007",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "2room": 92,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 2
+    }
+  },
+  "7-king-george-s-ave": {
+    "blk_no": "7",
+    "street": "KING GEORGE'S AVE",
+    "street_full": "KING GEORGE'S AVENUE",
+    "postal": "201007",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 252,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 252
+    }
+  },
+  "7-nth-bridge-rd": {
+    "blk_no": "7",
+    "street": "NTH BRIDGE RD",
+    "street_full": "NORTH BRIDGE ROAD",
+    "postal": "190007",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 348,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 336,
+      "2room": 12
+    }
+  },
+  "7-st-george-s-lane": {
+    "blk_no": "7",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "320007",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "2room": 52,
+      "3room": 82,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 4
+    }
+  },
+  "72-geylang-bahru": {
+    "blk_no": "72",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330072",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 236,
+    "sold_units_by_type": {
+      "3room": 231,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "73-geylang-bahru": {
+    "blk_no": "73",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330073",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 164,
+      "5room": 2
+    }
+  },
+  "74-whampoa-dr": {
+    "blk_no": "74",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320074",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 251,
+    "sold_units_by_type": {
+      "3room": 246,
+      "5room": 5
+    }
+  },
+  "75-whampoa-dr": {
+    "blk_no": "75",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320075",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 267,
+    "sold_units_by_type": {
+      "3room": 264,
+      "5room": 3
+    }
+  },
+  "76-lor-limau": {
+    "blk_no": "76",
+    "street": "LOR LIMAU",
+    "street_full": "LORONG LIMAU",
+    "postal": "320076",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1972,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 208,
+    "sold_units_by_type": {
+      "3room": 206,
+      "5room": 2
+    }
+  },
+  "77-lor-limau": {
+    "blk_no": "77",
+    "street": "LOR LIMAU",
+    "street_full": "LORONG LIMAU",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1972,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "3room": 202,
+      "5room": 4
+    }
+  },
+  "78-lor-limau": {
+    "blk_no": "78",
+    "street": "LOR LIMAU",
+    "street_full": "LORONG LIMAU",
+    "postal": "320078",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 405,
+    "sold_units_by_type": {
+      "2room": 89,
+      "4room": 249,
+      "studio_apartment": 67
+    }
+  },
+  "8-boon-keng-rd": {
+    "blk_no": "8",
+    "street": "BOON KENG RD",
+    "street_full": "BOON KENG ROAD",
+    "postal": "330008",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 238,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 56,
+      "5room": 158
+    }
+  },
+  "8-french-rd": {
+    "blk_no": "8",
+    "street": "FRENCH RD",
+    "street_full": "FRENCH ROAD",
+    "postal": "200008",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1974,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 304,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 304
+    }
+  },
+  "8-jln-batu": {
+    "blk_no": "8",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431008",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "2room": 93,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "8-nth-bridge-rd": {
+    "blk_no": "8",
+    "street": "NTH BRIDGE RD",
+    "street_full": "NORTH BRIDGE ROAD",
+    "postal": "190008",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 348,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 336,
+      "2room": 12
+    }
+  },
+  "8-st-george-s-lane": {
+    "blk_no": "8",
+    "street": "ST. GEORGE'S LANE",
+    "street_full": "SAINT GEORGE'S LANE",
+    "postal": "320008",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "801-french-rd": {
+    "blk_no": "801",
+    "street": "FRENCH RD",
+    "street_full": "FRENCH ROAD",
+    "postal": "200801",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 86,
+      "5room": 2
+    }
+  },
+  "802-french-rd": {
+    "blk_no": "802",
+    "street": "FRENCH RD",
+    "street_full": "FRENCH ROAD",
+    "postal": "200802",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 10,
+    "sold_units_by_type": {
+      "3room": 9
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "804-king-george-s-ave": {
+    "blk_no": "804",
+    "street": "KING GEORGE'S AVE",
+    "street_full": "KING GEORGE'S AVENUE",
+    "postal": "200804",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 130,
+      "5room": 1
+    }
+  },
+  "805-king-george-s-ave": {
+    "blk_no": "805",
+    "street": "KING GEORGE'S AVE",
+    "street_full": "KING GEORGE'S AVENUE",
+    "postal": "200805",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 49
+    },
+    "rental_units_by_type": {
+      "2room": 127
+    }
+  },
+  "806-king-george-s-ave": {
+    "blk_no": "806",
+    "street": "KING GEORGE'S AVE",
+    "street_full": "KING GEORGE'S AVENUE",
+    "postal": "200806",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1982,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 125,
+      "5room": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "807-king-george-s-ave": {
+    "blk_no": "807",
+    "street": "KING GEORGE'S AVE",
+    "street_full": "KING GEORGE'S AVENUE",
+    "postal": "200807",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1980,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "811-french-rd": {
+    "blk_no": "811",
+    "street": "FRENCH RD",
+    "street_full": "FRENCH ROAD",
+    "postal": "200811",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 180
+    }
+  },
+  "813-jellicoe-rd": {
+    "blk_no": "813",
+    "street": "JELLICOE RD",
+    "street_full": "JELLICOE ROAD",
+    "postal": "200813",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 33
+    }
+  },
+  "815-jellicoe-rd": {
+    "blk_no": "815",
+    "street": "JELLICOE RD",
+    "street_full": "JELLICOE ROAD",
+    "postal": "200815",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 33
+    }
+  },
+  "816-jellicoe-rd": {
+    "blk_no": "816",
+    "street": "JELLICOE RD",
+    "street_full": "JELLICOE ROAD",
+    "postal": "200816",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 125,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 96
+    }
+  },
+  "82-whampoa-dr": {
+    "blk_no": "82",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320082",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 195,
+      "5room": 2
+    }
+  },
+  "83-whampoa-dr": {
+    "blk_no": "83",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320083",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "84-whampoa-dr": {
+    "blk_no": "84",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320084",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "85-whampoa-dr": {
+    "blk_no": "85",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 146,
+      "5room": 7
+    }
+  },
+  "86-whampoa-dr": {
+    "blk_no": "86",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320086",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 197,
+      "5room": 1
+    }
+  },
+  "8a-upp-boon-keng-rd": {
+    "blk_no": "8A",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "381008",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {
+      "3room": 81,
+      "4room": 162,
+      "5room": 27
+    }
+  },
+  "8b-upp-boon-keng-rd": {
+    "blk_no": "8B",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "382008",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 290,
+    "sold_units_by_type": {
+      "3room": 87,
+      "4room": 145,
+      "5room": 58
+    }
+  },
+  "8c-upp-boon-keng-rd": {
+    "blk_no": "8C",
+    "street": "UPP BOON KENG RD",
+    "street_full": "UPPER BOON KENG ROAD",
+    "postal": "383008",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2016,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 248,
+    "sold_units_by_type": {
+      "2room": 70,
+      "4room": 124,
+      "5room": 25,
+      "studio_apartment": 29
+    }
+  },
+  "9-boon-keng-rd": {
+    "blk_no": "9",
+    "street": "BOON KENG RD",
+    "street_full": "BOON KENG ROAD",
+    "postal": "330009",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 238,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 56,
+      "5room": 158
+    }
+  },
+  "9-gloucester-rd": {
+    "blk_no": "9",
+    "street": "GLOUCESTER RD",
+    "street_full": "GLOUCESTER ROAD",
+    "postal": "210009",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 156
+    }
+  },
+  "9-jln-batu": {
+    "blk_no": "9",
+    "street": "JLN BATU",
+    "street_full": "JALAN BATU",
+    "postal": "431009",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "2room": 111,
+      "4room": 3
+    },
+    "rental_units_by_type": {
+      "2room": 3
+    }
+  },
+  "9-nth-bridge-rd": {
+    "blk_no": "9",
+    "street": "NTH BRIDGE RD",
+    "street_full": "NORTH BRIDGE ROAD",
+    "postal": "190009",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1970,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 348,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 336,
+      "2room": 12
+    }
+  },
+  "9-st-george-s-rd": {
+    "blk_no": "9",
+    "street": "ST. GEORGE'S RD",
+    "street_full": "SAINT GEORGE'S ROAD",
+    "postal": "320009",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 77
+    }
+  },
+  "93-geylang-bahru": {
+    "blk_no": "93",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330093",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 24,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "93-whampoa-dr": {
+    "blk_no": "93",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320093",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 126,
+      "5room": 3
+    }
+  },
+  "94-geylang-bahru": {
+    "blk_no": "94",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330094",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 120,
+      "4room": 24
+    }
+  },
+  "94-whampoa-dr": {
+    "blk_no": "94",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320094",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "95-geylang-bahru": {
+    "blk_no": "95",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330095",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 24,
+      "5room": 1
+    }
+  },
+  "95-whampoa-dr": {
+    "blk_no": "95",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320095",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "96-geylang-bahru": {
+    "blk_no": "96",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330096",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 102,
+      "4room": 26,
+      "exec": 1
+    }
+  },
+  "96-whampoa-dr": {
+    "blk_no": "96",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320096",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "97-geylang-bahru": {
+    "blk_no": "97",
+    "street": "GEYLANG BAHRU",
+    "street_full": "GEYLANG BAHRU",
+    "postal": "330097",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 100,
+      "4room": 26,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "97-whampoa-dr": {
+    "blk_no": "97",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "NIL",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 177,
+    "sold_units_by_type": {
+      "3room": 174,
+      "5room": 3
+    }
+  },
+  "98-whampoa-dr": {
+    "blk_no": "98",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320098",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 331,
+    "sold_units_by_type": {
+      "3room": 322,
+      "5room": 9
+    }
+  },
+  "99-whampoa-dr": {
+    "blk_no": "99",
+    "street": "WHAMPOA DR",
+    "street_full": "WHAMPOA DRIVE",
+    "postal": "320099",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 1973,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  }
+}

@@ -1,0 +1,6133 @@
+{
+  "101-bt-batok-west-ave-6": {
+    "blk_no": "101",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650101",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 2,
+      "4room": 46,
+      "5room": 48
+    }
+  },
+  "102-bt-batok-west-ave-6": {
+    "blk_no": "102",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650102",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 2,
+      "4room": 46,
+      "5room": 48
+    }
+  },
+  "103-bt-batok-ctrl": {
+    "blk_no": "103",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650103",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 4,
+      "4room": 44,
+      "5room": 48
+    }
+  },
+  "104-bt-batok-ctrl": {
+    "blk_no": "104",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650104",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "105-bt-batok-ctrl": {
+    "blk_no": "105",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650105",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 81
+    }
+  },
+  "106-bt-batok-ctrl": {
+    "blk_no": "106",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650106",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "107-bt-batok-west-ave-6": {
+    "blk_no": "107",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650107",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 81
+    }
+  },
+  "108-bt-batok-west-ave-6": {
+    "blk_no": "108",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650108",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "109-bt-batok-west-ave-6": {
+    "blk_no": "109",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650109",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 74
+    },
+    "rental_units_by_type": {
+      "1room": 20,
+      "2room": 20,
+      "3room": 1
+    }
+  },
+  "110-bt-batok-west-ave-6": {
+    "blk_no": "110",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650110",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "111-bt-batok-west-ave-6": {
+    "blk_no": "111",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650111",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "112-bt-batok-west-ave-6": {
+    "blk_no": "112",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650112",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "113-bt-batok-west-ave-6": {
+    "blk_no": "113",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650113",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 94
+    }
+  },
+  "114-bt-batok-west-ave-6": {
+    "blk_no": "114",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650114",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "114a-bt-batok-west-ave-6": {
+    "blk_no": "114A",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "651114",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "2room": 27,
+      "3room": 80
+    }
+  },
+  "114b-bt-batok-west-ave-6": {
+    "blk_no": "114B",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "652114",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 96,
+      "3room": 54
+    }
+  },
+  "115-bt-batok-west-ave-6": {
+    "blk_no": "115",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650115",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "116-bt-batok-west-ave-6": {
+    "blk_no": "116",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650116",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "4room": 134
+    }
+  },
+  "117-bt-batok-west-ave-6": {
+    "blk_no": "117",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650117",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "118-bt-batok-west-ave-6": {
+    "blk_no": "118",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650118",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "119-bt-batok-west-ave-6": {
+    "blk_no": "119",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650119",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "120-bt-batok-ctrl": {
+    "blk_no": "120",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650120",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "121-bt-batok-ctrl": {
+    "blk_no": "121",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650121",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "122-bt-batok-ctrl": {
+    "blk_no": "122",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650122",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "123-bt-batok-ctrl": {
+    "blk_no": "123",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650123",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 24
+    }
+  },
+  "124-bt-batok-ctrl": {
+    "blk_no": "124",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650124",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 24
+    }
+  },
+  "125-bt-batok-ctrl": {
+    "blk_no": "125",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650125",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "exec": 98
+    }
+  },
+  "126-bt-batok-ctrl": {
+    "blk_no": "126",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650126",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "127-bt-batok-west-ave-6": {
+    "blk_no": "127",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650127",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "128-bt-batok-west-ave-6": {
+    "blk_no": "128",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650128",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "129-bt-batok-west-ave-6": {
+    "blk_no": "129",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650129",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "130-bt-batok-west-ave-6": {
+    "blk_no": "130",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650130",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "131-bt-batok-west-ave-6": {
+    "blk_no": "131",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650131",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "132-bt-batok-west-ave-6": {
+    "blk_no": "132",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650132",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 8
+    }
+  },
+  "133-bt-batok-west-ave-6": {
+    "blk_no": "133",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650133",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "134-bt-batok-west-ave-6": {
+    "blk_no": "134",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650134",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "3room": 86,
+      "4room": 22,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "135-bt-batok-west-ave-6": {
+    "blk_no": "135",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650135",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 94,
+      "4room": 24,
+      "exec": 1
+    }
+  },
+  "136-bt-batok-west-ave-6": {
+    "blk_no": "136",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650136",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 92,
+      "4room": 24,
+      "exec": 2
+    }
+  },
+  "137-bt-batok-west-ave-6": {
+    "blk_no": "137",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650137",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 4,
+      "4room": 12
+    }
+  },
+  "138-bt-batok-west-ave-6": {
+    "blk_no": "138",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650138",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "139-bt-batok-west-ave-6": {
+    "blk_no": "139",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650139",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "3room": 56,
+      "4room": 8
+    }
+  },
+  "140-bt-batok-st-11": {
+    "blk_no": "140",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650140",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "141-bt-batok-st-11": {
+    "blk_no": "141",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650141",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "142-bt-batok-st-11": {
+    "blk_no": "142",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650142",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "143-bt-batok-st-11": {
+    "blk_no": "143",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650143",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 8,
+      "5room": 1
+    }
+  },
+  "144-bt-batok-west-ave-6": {
+    "blk_no": "144",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650144",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "3room": 20,
+      "4room": 8,
+      "5room": 2
+    }
+  },
+  "145-bt-batok-st-11": {
+    "blk_no": "145",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650145",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 39,
+      "4room": 8
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "146-bt-batok-west-ave-6": {
+    "blk_no": "146",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650146",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 22,
+      "exec": 2
+    }
+  },
+  "147-bt-batok-west-ave-6": {
+    "blk_no": "147",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650147",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "148-bt-batok-west-ave-6": {
+    "blk_no": "148",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650148",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "149-bt-batok-west-ave-6": {
+    "blk_no": "149",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650149",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 4,
+      "4room": 12
+    }
+  },
+  "150-bt-batok-st-11": {
+    "blk_no": "150",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650150",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 28
+    }
+  },
+  "152-bt-batok-st-11": {
+    "blk_no": "152",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650152",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 26
+    }
+  },
+  "154-bt-batok-st-11": {
+    "blk_no": "154",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650154",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 13,
+    "sold_units_by_type": {
+      "3room": 13
+    }
+  },
+  "157-bt-batok-st-11": {
+    "blk_no": "157",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650157",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 17,
+    "sold_units_by_type": {
+      "3room": 17
+    }
+  },
+  "160-bt-batok-st-11": {
+    "blk_no": "160",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650160",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "161-bt-batok-st-11": {
+    "blk_no": "161",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650161",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "162-bt-batok-st-11": {
+    "blk_no": "162",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650162",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "3room": 90,
+      "4room": 54,
+      "exec": 2
+    }
+  },
+  "163-bt-batok-st-11": {
+    "blk_no": "163",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650163",
+    "town": "BUKIT BATOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "164-bt-batok-st-11": {
+    "blk_no": "164",
+    "street": "BT BATOK ST 11",
+    "street_full": "BUKIT BATOK STREET 11",
+    "postal": "650164",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 77,
+      "4room": 51,
+      "exec": 2
+    }
+  },
+  "165-bt-batok-west-ave-8": {
+    "blk_no": "165",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650165",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "166-bt-batok-west-ave-8": {
+    "blk_no": "166",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650166",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 18,
+    "sold_units_by_type": {
+      "3room": 15,
+      "4room": 3
+    }
+  },
+  "167-bt-batok-west-ave-8": {
+    "blk_no": "167",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650167",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 83,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 28,
+      "exec": 1
+    }
+  },
+  "168-bt-batok-west-ave-8": {
+    "blk_no": "168",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650168",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 83,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 28,
+      "exec": 1
+    }
+  },
+  "169-bt-batok-west-ave-8": {
+    "blk_no": "169",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650169",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "170-bt-batok-west-ave-8": {
+    "blk_no": "170",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650170",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 96
+    }
+  },
+  "171-bt-batok-west-ave-8": {
+    "blk_no": "171",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650171",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 96
+    }
+  },
+  "172-bt-batok-west-ave-8": {
+    "blk_no": "172",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650172",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 96
+    }
+  },
+  "173-bt-batok-west-ave-8": {
+    "blk_no": "173",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650173",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "174-bt-batok-west-ave-8": {
+    "blk_no": "174",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650174",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 4
+    }
+  },
+  "175-bt-batok-west-ave-8": {
+    "blk_no": "175",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650175",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 14,
+      "5room": 2
+    }
+  },
+  "176-bt-batok-west-ave-8": {
+    "blk_no": "176",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650176",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "177-bt-batok-west-ave-8": {
+    "blk_no": "177",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650177",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "3room": 59,
+      "4room": 42,
+      "exec": 2
+    }
+  },
+  "178-bt-batok-west-ave-8": {
+    "blk_no": "178",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650178",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "179-bt-batok-west-ave-8": {
+    "blk_no": "179",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650179",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 20,
+      "4room": 12
+    }
+  },
+  "180-bt-batok-west-ave-8": {
+    "blk_no": "180",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650180",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 108,
+      "4room": 18
+    }
+  },
+  "181-bt-batok-west-ave-8": {
+    "blk_no": "181",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650181",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 4
+    }
+  },
+  "182-bt-batok-west-ave-8": {
+    "blk_no": "182",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650182",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "3room": 79,
+      "4room": 22,
+      "5room": 1,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "183-bt-batok-west-ave-8": {
+    "blk_no": "183",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650183",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "184-bt-batok-west-ave-8": {
+    "blk_no": "184",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "650184",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 8
+    }
+  },
+  "185-bt-batok-west-ave-6": {
+    "blk_no": "185",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 20
+    }
+  },
+  "186-bt-batok-west-ave-6": {
+    "blk_no": "186",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650186",
+    "town": "BUKIT BATOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 20
+    }
+  },
+  "187-bt-batok-west-ave-6": {
+    "blk_no": "187",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650187",
+    "town": "BUKIT BATOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 24
+    }
+  },
+  "188-bt-batok-west-ave-6": {
+    "blk_no": "188",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 20
+    }
+  },
+  "189-bt-batok-west-ave-6": {
+    "blk_no": "189",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650189",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 46
+    }
+  },
+  "190-bt-batok-west-ave-6": {
+    "blk_no": "190",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650190",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 61
+    }
+  },
+  "191-bt-batok-west-ave-6": {
+    "blk_no": "191",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650191",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 17,
+      "5room": 82
+    }
+  },
+  "192-bt-batok-west-ave-6": {
+    "blk_no": "192",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650192",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 13,
+      "5room": 74
+    }
+  },
+  "193-bt-batok-west-ave-6": {
+    "blk_no": "193",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "650193",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 5
+    }
+  },
+  "194a-bt-batok-west-ave-6": {
+    "blk_no": "194A",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "651194",
+    "town": "BUKIT BATOK",
+    "year_completed": 2016,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 212,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 124
+    }
+  },
+  "194b-bt-batok-west-ave-6": {
+    "blk_no": "194B",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "652194",
+    "town": "BUKIT BATOK",
+    "year_completed": 2016,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 276,
+    "sold_units_by_type": {
+      "3room": 78,
+      "4room": 128,
+      "5room": 70
+    }
+  },
+  "201-bt-batok-st-21": {
+    "blk_no": "201",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650201",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 3,
+      "4room": 29,
+      "5room": 96
+    }
+  },
+  "202-bt-batok-st-21": {
+    "blk_no": "202",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650202",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 3,
+      "4room": 29,
+      "5room": 96
+    }
+  },
+  "203-bt-batok-st-21": {
+    "blk_no": "203",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650203",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 3,
+      "4room": 29,
+      "5room": 96
+    }
+  },
+  "204-bt-batok-st-21": {
+    "blk_no": "204",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650204",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "205-bt-batok-st-21": {
+    "blk_no": "205",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650205",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "206-bt-batok-st-21": {
+    "blk_no": "206",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650206",
+    "town": "BUKIT BATOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "207-bt-batok-st-21": {
+    "blk_no": "207",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650207",
+    "town": "BUKIT BATOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 46
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "208-bt-batok-st-21": {
+    "blk_no": "208",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650208",
+    "town": "BUKIT BATOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 48,
+      "exec": 1
+    }
+  },
+  "209-bt-batok-st-21": {
+    "blk_no": "209",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650209",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "210-bt-batok-st-21": {
+    "blk_no": "210",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650210",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {
+      "4room": 216
+    }
+  },
+  "210a-bt-batok-st-21": {
+    "blk_no": "210A",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "651210",
+    "town": "BUKIT BATOK",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 360,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 285,
+      "2room": 75
+    }
+  },
+  "211-bt-batok-st-21": {
+    "blk_no": "211",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650211",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "4room": 192
+    }
+  },
+  "212-bt-batok-st-21": {
+    "blk_no": "212",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650212",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 55,
+      "5room": 1
+    }
+  },
+  "213-bt-batok-st-21": {
+    "blk_no": "213",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650213",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "3room": 81,
+      "4room": 21,
+      "5room": 1
+    }
+  },
+  "214-bt-batok-st-21": {
+    "blk_no": "214",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650214",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "exec": 28
+    }
+  },
+  "215-bt-batok-st-21": {
+    "blk_no": "215",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650215",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 94,
+      "4room": 56
+    }
+  },
+  "216-bt-batok-st-21": {
+    "blk_no": "216",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650216",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "217-bt-batok-st-21": {
+    "blk_no": "217",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650217",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 22
+    }
+  },
+  "218-bt-batok-st-21": {
+    "blk_no": "218",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650218",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "exec": 28
+    }
+  },
+  "219-bt-batok-st-21": {
+    "blk_no": "219",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650219",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 55,
+      "5room": 1
+    }
+  },
+  "220-bt-batok-east-ave-3": {
+    "blk_no": "220",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650220",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 8,
+      "5room": 2
+    }
+  },
+  "221-bt-batok-east-ave-3": {
+    "blk_no": "221",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650221",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "222-bt-batok-east-ave-3": {
+    "blk_no": "222",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650222",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "exec": 20
+    }
+  },
+  "223-bt-batok-east-ave-3": {
+    "blk_no": "223",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650223",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "224-bt-batok-st-21": {
+    "blk_no": "224",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "650224",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 16,
+      "5room": 2
+    }
+  },
+  "225-bt-batok-ctrl": {
+    "blk_no": "225",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650225",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 73,
+      "4room": 55,
+      "5room": 1
+    }
+  },
+  "226-bt-batok-ctrl": {
+    "blk_no": "226",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650226",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 8,
+      "5room": 1
+    }
+  },
+  "227-bt-batok-ctrl": {
+    "blk_no": "227",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650227",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "228-bt-batok-ctrl": {
+    "blk_no": "228",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650228",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 57
+    }
+  },
+  "229-bt-batok-east-ave-3": {
+    "blk_no": "229",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650229",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 57
+    }
+  },
+  "230-bt-batok-east-ave-3": {
+    "blk_no": "230",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650230",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 94,
+      "4room": 55
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "230a-bt-batok-st-21": {
+    "blk_no": "230A",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "651230",
+    "town": "BUKIT BATOK",
+    "year_completed": 2014,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 35,
+      "studio_apartment": 145
+    }
+  },
+  "231-bt-batok-east-ave-5": {
+    "blk_no": "231",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650231",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 63
+    }
+  },
+  "232-bt-batok-east-ave-5": {
+    "blk_no": "232",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650232",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 16
+    }
+  },
+  "233-bt-batok-east-ave-5": {
+    "blk_no": "233",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650233",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 94,
+      "4room": 41,
+      "5room": 2,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "234-bt-batok-east-ave-5": {
+    "blk_no": "234",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650234",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "235-bt-batok-east-ave-5": {
+    "blk_no": "235",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650235",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 179,
+    "sold_units_by_type": {
+      "3room": 105,
+      "4room": 69,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "236-bt-batok-east-ave-5": {
+    "blk_no": "236",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650236",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 88
+    }
+  },
+  "237-bt-batok-east-ave-5": {
+    "blk_no": "237",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650237",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "238-bt-batok-east-ave-5": {
+    "blk_no": "238",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650238",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 63
+    }
+  },
+  "239-bt-batok-east-ave-5": {
+    "blk_no": "239",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650239",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "3room": 105,
+      "4room": 63,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "240-bt-batok-east-ave-5": {
+    "blk_no": "240",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650240",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 62
+    }
+  },
+  "241-bt-batok-east-ave-5": {
+    "blk_no": "241",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650241",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 63
+    }
+  },
+  "242-bt-batok-east-ave-5": {
+    "blk_no": "242",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650242",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "243-bt-batok-east-ave-5": {
+    "blk_no": "243",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650243",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 88
+    }
+  },
+  "244-bt-batok-east-ave-5": {
+    "blk_no": "244",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650244",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 67,
+      "4room": 68
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "245-bt-batok-east-ave-5": {
+    "blk_no": "245",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650245",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "246-bt-batok-east-ave-5": {
+    "blk_no": "246",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650246",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "247-bt-batok-east-ave-5": {
+    "blk_no": "247",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650247",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 65,
+      "4room": 44
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "248-bt-batok-east-ave-5": {
+    "blk_no": "248",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650248",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "249-bt-batok-east-ave-5": {
+    "blk_no": "249",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650249",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "250-bt-batok-east-ave-5": {
+    "blk_no": "250",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650250",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "251-bt-batok-east-ave-5": {
+    "blk_no": "251",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650251",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "252-bt-batok-east-ave-5": {
+    "blk_no": "252",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650252",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "253-bt-batok-east-ave-5": {
+    "blk_no": "253",
+    "street": "BT BATOK EAST AVE 5",
+    "street_full": "BUKIT BATOK EAST AVENUE 5",
+    "postal": "650253",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "254-bt-batok-east-ave-4": {
+    "blk_no": "254",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650254",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "255-bt-batok-east-ave-4": {
+    "blk_no": "255",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650255",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "256-bt-batok-east-ave-4": {
+    "blk_no": "256",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650256",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "257-bt-batok-east-ave-4": {
+    "blk_no": "257",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650257",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "258-bt-batok-east-ave-4": {
+    "blk_no": "258",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650258",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "259-bt-batok-east-ave-4": {
+    "blk_no": "259",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650259",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 46,
+      "5room": 1
+    }
+  },
+  "260-bt-batok-east-ave-4": {
+    "blk_no": "260",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650260",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 65,
+      "4room": 44
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "261-bt-batok-east-ave-4": {
+    "blk_no": "261",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650261",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "262-bt-batok-east-ave-4": {
+    "blk_no": "262",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650262",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "263-bt-batok-east-ave-4": {
+    "blk_no": "263",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650263",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "264-bt-batok-east-ave-4": {
+    "blk_no": "264",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650264",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "265-bt-batok-east-ave-4": {
+    "blk_no": "265",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650265",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 21,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "266-bt-batok-east-ave-4": {
+    "blk_no": "266",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650266",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "267-bt-batok-east-ave-4": {
+    "blk_no": "267",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650267",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 101,
+      "4room": 41,
+      "5room": 1
+    }
+  },
+  "268-bt-batok-east-ave-4": {
+    "blk_no": "268",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650268",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "269-bt-batok-east-ave-4": {
+    "blk_no": "269",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650269",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 83,
+      "4room": 41
+    }
+  },
+  "271-bt-batok-east-ave-4": {
+    "blk_no": "271",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650271",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "3room": 83,
+      "4room": 15,
+      "5room": 1
+    }
+  },
+  "272-bt-batok-east-ave-4": {
+    "blk_no": "272",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650272",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 16
+    }
+  },
+  "274-bt-batok-east-ave-4": {
+    "blk_no": "274",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650274",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 4
+    }
+  },
+  "275-bt-batok-east-ave-4": {
+    "blk_no": "275",
+    "street": "BT BATOK EAST AVE 4",
+    "street_full": "BUKIT BATOK EAST AVENUE 4",
+    "postal": "650275",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 4
+    }
+  },
+  "278-bt-batok-east-ave-3": {
+    "blk_no": "278",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650278",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 4
+    }
+  },
+  "280-bt-batok-east-ave-3": {
+    "blk_no": "280",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650280",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 16
+    }
+  },
+  "281-bt-batok-east-ave-3": {
+    "blk_no": "281",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650281",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 4,
+      "5room": 1
+    }
+  },
+  "283-bt-batok-east-ave-3": {
+    "blk_no": "283",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650283",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "3room": 85,
+      "4room": 19,
+      "5room": 2
+    }
+  },
+  "285-bt-batok-east-ave-3": {
+    "blk_no": "285",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650285",
+    "town": "BUKIT BATOK",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "5room": 62
+    }
+  },
+  "286-bt-batok-east-ave-3": {
+    "blk_no": "286",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650286",
+    "town": "BUKIT BATOK",
+    "year_completed": 1994,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "5room": 93
+    }
+  },
+  "287-bt-batok-east-ave-3": {
+    "blk_no": "287",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650287",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "exec": 77
+    }
+  },
+  "288a-bt-batok-st-25": {
+    "blk_no": "288A",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "650288",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 30,
+      "exec": 60
+    }
+  },
+  "288b-bt-batok-st-25": {
+    "blk_no": "288B",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "651288",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 30,
+      "exec": 60
+    }
+  },
+  "288c-bt-batok-st-25": {
+    "blk_no": "288C",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "288d-bt-batok-st-25": {
+    "blk_no": "288D",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "653288",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "4room": 137
+    }
+  },
+  "288e-bt-batok-st-25": {
+    "blk_no": "288E",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 135,
+      "5room": 9
+    }
+  },
+  "288f-bt-batok-st-25": {
+    "blk_no": "288F",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "655288",
+    "town": "BUKIT BATOK",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 28,
+      "exec": 56
+    }
+  },
+  "288g-bt-batok-st-25": {
+    "blk_no": "288G",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "656288",
+    "town": "BUKIT BATOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 14
+    }
+  },
+  "289a-bt-batok-st-25": {
+    "blk_no": "289A",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "650289",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 30,
+      "exec": 60
+    }
+  },
+  "289b-bt-batok-st-25": {
+    "blk_no": "289B",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "651289",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 30,
+      "exec": 60
+    }
+  },
+  "289c-bt-batok-st-25": {
+    "blk_no": "289C",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "652289",
+    "town": "BUKIT BATOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "5room": 96,
+      "exec": 16
+    }
+  },
+  "289d-bt-batok-st-25": {
+    "blk_no": "289D",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "653289",
+    "town": "BUKIT BATOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "5room": 96,
+      "exec": 16
+    }
+  },
+  "289e-bt-batok-st-25": {
+    "blk_no": "289E",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 185,
+    "sold_units_by_type": {
+      "4room": 161,
+      "5room": 24
+    }
+  },
+  "289f-bt-batok-st-25": {
+    "blk_no": "289F",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "655289",
+    "town": "BUKIT BATOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "4room": 137
+    }
+  },
+  "289g-bt-batok-st-25": {
+    "blk_no": "289G",
+    "street": "BT BATOK ST 25",
+    "street_full": "BUKIT BATOK STREET 25",
+    "postal": "656289",
+    "town": "BUKIT BATOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 147,
+      "5room": 9
+    }
+  },
+  "290a-bt-batok-st-24": {
+    "blk_no": "290A",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 36
+    }
+  },
+  "290b-bt-batok-st-24": {
+    "blk_no": "290B",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "653290",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "exec": 96
+    }
+  },
+  "290c-bt-batok-east-ave-3": {
+    "blk_no": "290C",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "650290",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "exec": 96
+    }
+  },
+  "290d-bt-batok-east-ave-3": {
+    "blk_no": "290D",
+    "street": "BT BATOK EAST AVE 3",
+    "street_full": "BUKIT BATOK EAST AVENUE 3",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 36
+    }
+  },
+  "290e-bt-batok-st-24": {
+    "blk_no": "290E",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "654290",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 33
+    }
+  },
+  "290f-bt-batok-st-24": {
+    "blk_no": "290F",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "655290",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 32
+    }
+  },
+  "290g-bt-batok-st-24": {
+    "blk_no": "290G",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "656290",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 36
+    }
+  },
+  "291a-bt-batok-st-24": {
+    "blk_no": "291A",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 36
+    }
+  },
+  "291b-bt-batok-st-24": {
+    "blk_no": "291B",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "291c-bt-batok-st-24": {
+    "blk_no": "291C",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "652291",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 33
+    }
+  },
+  "291d-bt-batok-st-24": {
+    "blk_no": "291D",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "653291",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "291e-bt-batok-st-24": {
+    "blk_no": "291E",
+    "street": "BT BATOK ST 24",
+    "street_full": "BUKIT BATOK STREET 24",
+    "postal": "654291",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 33
+    }
+  },
+  "292a-bt-batok-east-ave-6": {
+    "blk_no": "292A",
+    "street": "BT BATOK EAST AVE 6",
+    "street_full": "BUKIT BATOK EAST AVENUE 6",
+    "postal": "651292",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "2room": 100,
+      "3room": 50,
+      "4room": 50
+    }
+  },
+  "292b-bt-batok-east-ave-6": {
+    "blk_no": "292B",
+    "street": "BT BATOK EAST AVE 6",
+    "street_full": "BUKIT BATOK EAST AVENUE 6",
+    "postal": "652292",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "4room": 188,
+      "5room": 68
+    }
+  },
+  "292c-bt-batok-east-ave-6": {
+    "blk_no": "292C",
+    "street": "BT BATOK EAST AVE 6",
+    "street_full": "BUKIT BATOK EAST AVENUE 6",
+    "postal": "653292",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 78
+    }
+  },
+  "293a-bt-batok-st-21": {
+    "blk_no": "293A",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "651293",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "4room": 128,
+      "5room": 128
+    }
+  },
+  "293b-bt-batok-st-21": {
+    "blk_no": "293B",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "652293",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 78
+    }
+  },
+  "293c-bt-batok-st-21": {
+    "blk_no": "293C",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "653293",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 78
+    }
+  },
+  "293d-bt-batok-st-21": {
+    "blk_no": "293D",
+    "street": "BT BATOK ST 21",
+    "street_full": "BUKIT BATOK STREET 21",
+    "postal": "654293",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 35,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "3room": 60,
+      "4room": 196
+    }
+  },
+  "296a-bt-batok-st-22": {
+    "blk_no": "296A",
+    "street": "BT BATOK ST 22",
+    "street_full": "BUKIT BATOK STREET 22",
+    "postal": "651296",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 224,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 132
+    }
+  },
+  "296b-bt-batok-st-22": {
+    "blk_no": "296B",
+    "street": "BT BATOK ST 22",
+    "street_full": "BUKIT BATOK STREET 22",
+    "postal": "652296",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 33,
+    "total_dwelling_units": 261,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 61,
+      "5room": 64
+    }
+  },
+  "296c-bt-batok-st-22": {
+    "blk_no": "296C",
+    "street": "BT BATOK ST 22",
+    "street_full": "BUKIT BATOK STREET 22",
+    "postal": "653296",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 259,
+    "sold_units_by_type": {
+      "4room": 148,
+      "5room": 111
+    }
+  },
+  "297-bt-batok-st-22": {
+    "blk_no": "297",
+    "street": "BT BATOK ST 22",
+    "street_full": "BUKIT BATOK STREET 22",
+    "postal": "650297",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 24
+    }
+  },
+  "298-bt-batok-st-22": {
+    "blk_no": "298",
+    "street": "BT BATOK ST 22",
+    "street_full": "BUKIT BATOK STREET 22",
+    "postal": "650298",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 24
+    }
+  },
+  "299-bt-batok-st-22": {
+    "blk_no": "299",
+    "street": "BT BATOK ST 22",
+    "street_full": "BUKIT BATOK STREET 22",
+    "postal": "650299",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "exec": 78
+    }
+  },
+  "301-bt-batok-st-31": {
+    "blk_no": "301",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650301",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 31
+    }
+  },
+  "302-bt-batok-st-31": {
+    "blk_no": "302",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650302",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "303-bt-batok-st-31": {
+    "blk_no": "303",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650303",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 12
+    }
+  },
+  "304-bt-batok-st-31": {
+    "blk_no": "304",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650304",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "305-bt-batok-st-31": {
+    "blk_no": "305",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650305",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "306-bt-batok-st-31": {
+    "blk_no": "306",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650306",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "307-bt-batok-st-31": {
+    "blk_no": "307",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650307",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "308-bt-batok-st-31": {
+    "blk_no": "308",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650308",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "309-bt-batok-st-31": {
+    "blk_no": "309",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650309",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 16
+    }
+  },
+  "310-bt-batok-st-32": {
+    "blk_no": "310",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650310",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "311-bt-batok-st-32": {
+    "blk_no": "311",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650311",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "312-bt-batok-st-32": {
+    "blk_no": "312",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650312",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "313-bt-batok-st-32": {
+    "blk_no": "313",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650313",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "314-bt-batok-st-32": {
+    "blk_no": "314",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650314",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "315-bt-batok-st-32": {
+    "blk_no": "315",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650315",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 40
+    }
+  },
+  "316-bt-batok-st-32": {
+    "blk_no": "316",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650316",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "317-bt-batok-st-32": {
+    "blk_no": "317",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650317",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "318-bt-batok-st-32": {
+    "blk_no": "318",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650318",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "319-bt-batok-st-33": {
+    "blk_no": "319",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650319",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 40
+    }
+  },
+  "320-bt-batok-st-33": {
+    "blk_no": "320",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650320",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "321-bt-batok-st-33": {
+    "blk_no": "321",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650321",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "322-bt-batok-st-33": {
+    "blk_no": "322",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650322",
+    "town": "BUKIT BATOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "323-bt-batok-st-33": {
+    "blk_no": "323",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650323",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 73,
+      "4room": 38,
+      "5room": 1
+    }
+  },
+  "324-bt-batok-st-33": {
+    "blk_no": "324",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650324",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 83,
+      "4room": 41
+    }
+  },
+  "325-bt-batok-st-33": {
+    "blk_no": "325",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650325",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 56
+    }
+  },
+  "326-bt-batok-st-33": {
+    "blk_no": "326",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650326",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "327-bt-batok-st-33": {
+    "blk_no": "327",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650327",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "328-bt-batok-st-33": {
+    "blk_no": "328",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650328",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "329-bt-batok-st-33": {
+    "blk_no": "329",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650329",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 36
+    }
+  },
+  "330-bt-batok-st-33": {
+    "blk_no": "330",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650330",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "331-bt-batok-st-33": {
+    "blk_no": "331",
+    "street": "BT BATOK ST 33",
+    "street_full": "BUKIT BATOK STREET 33",
+    "postal": "650331",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 42
+    }
+  },
+  "332-bt-batok-st-32": {
+    "blk_no": "332",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650332",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 8
+    }
+  },
+  "333-bt-batok-st-32": {
+    "blk_no": "333",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650333",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 75,
+      "4room": 56
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "334-bt-batok-st-32": {
+    "blk_no": "334",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650334",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 12
+    }
+  },
+  "335-bt-batok-st-32": {
+    "blk_no": "335",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650335",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "336-bt-batok-st-32": {
+    "blk_no": "336",
+    "street": "BT BATOK ST 32",
+    "street_full": "BUKIT BATOK STREET 32",
+    "postal": "650336",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 31
+    }
+  },
+  "337-bt-batok-st-34": {
+    "blk_no": "337",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650337",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 116
+    }
+  },
+  "338-bt-batok-st-34": {
+    "blk_no": "338",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650338",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 144
+    }
+  },
+  "339-bt-batok-st-34": {
+    "blk_no": "339",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650339",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "340-bt-batok-st-34": {
+    "blk_no": "340",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650340",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 44
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "341-bt-batok-st-34": {
+    "blk_no": "341",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650341",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "342-bt-batok-st-34": {
+    "blk_no": "342",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650342",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 8,
+      "5room": 1
+    }
+  },
+  "343-bt-batok-st-34": {
+    "blk_no": "343",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650343",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "344-bt-batok-st-34": {
+    "blk_no": "344",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650344",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "exec": 22
+    }
+  },
+  "345-bt-batok-st-34": {
+    "blk_no": "345",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650345",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "346-bt-batok-st-34": {
+    "blk_no": "346",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650346",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "347-bt-batok-st-34": {
+    "blk_no": "347",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650347",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 18,
+      "4room": 9
+    }
+  },
+  "348-bt-batok-st-34": {
+    "blk_no": "348",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650348",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 44
+    }
+  },
+  "349-bt-batok-st-34": {
+    "blk_no": "349",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650349",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "350-bt-batok-st-34": {
+    "blk_no": "350",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650350",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "351-bt-batok-st-34": {
+    "blk_no": "351",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650351",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "352-bt-batok-st-34": {
+    "blk_no": "352",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650352",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "353-bt-batok-st-34": {
+    "blk_no": "353",
+    "street": "BT BATOK ST 34",
+    "street_full": "BUKIT BATOK STREET 34",
+    "postal": "650353",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "354-bt-batok-st-31": {
+    "blk_no": "354",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650354",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "355-bt-batok-st-31": {
+    "blk_no": "355",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650355",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "356-bt-batok-st-31": {
+    "blk_no": "356",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650356",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "357-bt-batok-st-31": {
+    "blk_no": "357",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650357",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "358-bt-batok-st-31": {
+    "blk_no": "358",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650358",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "359-bt-batok-st-31": {
+    "blk_no": "359",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650359",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 18,
+      "4room": 9
+    }
+  },
+  "360-bt-batok-st-31": {
+    "blk_no": "360",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650360",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "361-bt-batok-st-31": {
+    "blk_no": "361",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650361",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "362-bt-batok-st-31": {
+    "blk_no": "362",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650362",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "exec": 22
+    }
+  },
+  "363-bt-batok-st-31": {
+    "blk_no": "363",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650363",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "364-bt-batok-st-31": {
+    "blk_no": "364",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650364",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "365-bt-batok-st-31": {
+    "blk_no": "365",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650365",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "366-bt-batok-st-31": {
+    "blk_no": "366",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650366",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "367-bt-batok-st-31": {
+    "blk_no": "367",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650367",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "368-bt-batok-st-31": {
+    "blk_no": "368",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650368",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "369-bt-batok-st-31": {
+    "blk_no": "369",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650369",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 144
+    }
+  },
+  "370-bt-batok-st-31": {
+    "blk_no": "370",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650370",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "371-bt-batok-st-31": {
+    "blk_no": "371",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650371",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 10
+    }
+  },
+  "372-bt-batok-st-31": {
+    "blk_no": "372",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650372",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 45,
+    "sold_units_by_type": {
+      "3room": 31,
+      "4room": 14
+    }
+  },
+  "374-bt-batok-st-31": {
+    "blk_no": "374",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650374",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "3room": 59,
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "375-bt-batok-st-31": {
+    "blk_no": "375",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650375",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "3room": 4,
+      "4room": 4
+    }
+  },
+  "377-bt-batok-st-31": {
+    "blk_no": "377",
+    "street": "BT BATOK ST 31",
+    "street_full": "BUKIT BATOK STREET 31",
+    "postal": "650377",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 286,
+    "sold_units_by_type": {
+      "2room": 90,
+      "3room": 130,
+      "studio_apartment": 66
+    }
+  },
+  "383-bt-batok-west-ave-5": {
+    "blk_no": "383",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650383",
+    "town": "BUKIT BATOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 218,
+    "sold_units_by_type": {
+      "4room": 164,
+      "5room": 54
+    }
+  },
+  "384-bt-batok-west-ave-5": {
+    "blk_no": "384",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650384",
+    "town": "BUKIT BATOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "4room": 191,
+      "5room": 28
+    }
+  },
+  "385-bt-batok-west-ave-5": {
+    "blk_no": "385",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650385",
+    "town": "BUKIT BATOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "4room": 164,
+      "5room": 55
+    }
+  },
+  "386-bt-batok-west-ave-5": {
+    "blk_no": "386",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650386",
+    "town": "BUKIT BATOK",
+    "year_completed": 2003,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "4room": 168,
+      "5room": 24
+    }
+  },
+  "387-bt-batok-west-ave-5": {
+    "blk_no": "387",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650387",
+    "town": "BUKIT BATOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "5room": 120
+    }
+  },
+  "388-bt-batok-west-ave-5": {
+    "blk_no": "388",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650388",
+    "town": "BUKIT BATOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "5room": 108
+    }
+  },
+  "389-bt-batok-west-ave-5": {
+    "blk_no": "389",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650389",
+    "town": "BUKIT BATOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "5room": 108
+    }
+  },
+  "390-bt-batok-west-ave-5": {
+    "blk_no": "390",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650390",
+    "town": "BUKIT BATOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "5room": 120
+    }
+  },
+  "391-bt-batok-west-ave-5": {
+    "blk_no": "391",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650391",
+    "town": "BUKIT BATOK",
+    "year_completed": 2003,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "4room": 194
+    }
+  },
+  "392-bt-batok-west-ave-5": {
+    "blk_no": "392",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650392",
+    "town": "BUKIT BATOK",
+    "year_completed": 2003,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 48
+    }
+  },
+  "393-bt-batok-west-ave-5": {
+    "blk_no": "393",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650393",
+    "town": "BUKIT BATOK",
+    "year_completed": 2003,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 72
+    }
+  },
+  "394-bt-batok-west-ave-5": {
+    "blk_no": "394",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650394",
+    "town": "BUKIT BATOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 72
+    }
+  },
+  "395-bt-batok-west-ave-5": {
+    "blk_no": "395",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "650395",
+    "town": "BUKIT BATOK",
+    "year_completed": 2003,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "4room": 194
+    }
+  },
+  "402-bt-batok-west-ave-7": {
+    "blk_no": "402",
+    "street": "BT BATOK WEST AVE 7",
+    "street_full": "BUKIT BATOK WEST AVENUE 7",
+    "postal": "650402",
+    "town": "BUKIT BATOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "exec": 64
+    }
+  },
+  "403-bt-batok-west-ave-7": {
+    "blk_no": "403",
+    "street": "BT BATOK WEST AVE 7",
+    "street_full": "BUKIT BATOK WEST AVENUE 7",
+    "postal": "650403",
+    "town": "BUKIT BATOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "404-bt-batok-west-ave-7": {
+    "blk_no": "404",
+    "street": "BT BATOK WEST AVE 7",
+    "street_full": "BUKIT BATOK WEST AVENUE 7",
+    "postal": "650404",
+    "town": "BUKIT BATOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "405-bt-batok-west-ave-7": {
+    "blk_no": "405",
+    "street": "BT BATOK WEST AVE 7",
+    "street_full": "BUKIT BATOK WEST AVENUE 7",
+    "postal": "650405",
+    "town": "BUKIT BATOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "406-bt-batok-west-ave-7": {
+    "blk_no": "406",
+    "street": "BT BATOK WEST AVE 7",
+    "street_full": "BUKIT BATOK WEST AVENUE 7",
+    "postal": "650406",
+    "town": "BUKIT BATOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "407-bt-batok-west-ave-4": {
+    "blk_no": "407",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650407",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 46
+    }
+  },
+  "408-bt-batok-west-ave-4": {
+    "blk_no": "408",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650408",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 46
+    }
+  },
+  "409-bt-batok-west-ave-4": {
+    "blk_no": "409",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650409",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 46
+    }
+  },
+  "410-bt-batok-west-ave-4": {
+    "blk_no": "410",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650410",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 46
+    }
+  },
+  "411-bt-batok-west-ave-4": {
+    "blk_no": "411",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650411",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 65,
+      "4room": 66
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "412-bt-batok-west-ave-4": {
+    "blk_no": "412",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650412",
+    "town": "BUKIT BATOK",
+    "year_completed": 2016,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 224,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 80,
+      "2room": 144
+    }
+  },
+  "413-bt-batok-west-ave-4": {
+    "blk_no": "413",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650413",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 5
+    }
+  },
+  "414-bt-batok-west-ave-4": {
+    "blk_no": "414",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650414",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "415-bt-batok-west-ave-4": {
+    "blk_no": "415",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650415",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 6
+    }
+  },
+  "416-bt-batok-west-ave-4": {
+    "blk_no": "416",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650416",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "417-bt-batok-west-ave-4": {
+    "blk_no": "417",
+    "street": "BT BATOK WEST AVE 4",
+    "street_full": "BUKIT BATOK WEST AVENUE 4",
+    "postal": "650417",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "419-bt-batok-west-ave-2": {
+    "blk_no": "419",
+    "street": "BT BATOK WEST AVE 2",
+    "street_full": "BUKIT BATOK WEST AVENUE 2",
+    "postal": "650419",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 46
+    }
+  },
+  "420-bt-batok-west-ave-2": {
+    "blk_no": "420",
+    "street": "BT BATOK WEST AVE 2",
+    "street_full": "BUKIT BATOK WEST AVENUE 2",
+    "postal": "650420",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 46
+    }
+  },
+  "421-bt-batok-west-ave-2": {
+    "blk_no": "421",
+    "street": "BT BATOK WEST AVE 2",
+    "street_full": "BUKIT BATOK WEST AVENUE 2",
+    "postal": "650421",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 46
+    }
+  },
+  "422-bt-batok-west-ave-2": {
+    "blk_no": "422",
+    "street": "BT BATOK WEST AVE 2",
+    "street_full": "BUKIT BATOK WEST AVENUE 2",
+    "postal": "650422",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 67,
+      "4room": 46
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "423-bt-batok-west-ave-2": {
+    "blk_no": "423",
+    "street": "BT BATOK WEST AVE 2",
+    "street_full": "BUKIT BATOK WEST AVENUE 2",
+    "postal": "650423",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 46
+    }
+  },
+  "424-bt-batok-west-ave-2": {
+    "blk_no": "424",
+    "street": "BT BATOK WEST AVE 2",
+    "street_full": "BUKIT BATOK WEST AVENUE 2",
+    "postal": "650424",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 14,
+    "sold_units_by_type": {
+      "3room": 9,
+      "4room": 5
+    }
+  },
+  "425-bt-batok-west-ave-2": {
+    "blk_no": "425",
+    "street": "BT BATOK WEST AVE 2",
+    "street_full": "BUKIT BATOK WEST AVENUE 2",
+    "postal": "650425",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 18,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 6
+    }
+  },
+  "426-bt-batok-west-ave-2": {
+    "blk_no": "426",
+    "street": "BT BATOK WEST AVE 2",
+    "street_full": "BUKIT BATOK WEST AVENUE 2",
+    "postal": "650426",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 46
+    }
+  },
+  "431a-bt-batok-west-ave-8": {
+    "blk_no": "431A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651431",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 126,
+      "3room": 32,
+      "4room": 46
+    }
+  },
+  "431b-bt-batok-west-ave-8": {
+    "blk_no": "431B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652431",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 105
+    }
+  },
+  "432a-bt-batok-west-ave-8": {
+    "blk_no": "432A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651432",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 94
+    }
+  },
+  "432b-bt-batok-west-ave-8": {
+    "blk_no": "432B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652432",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 146,
+      "4room": 30
+    }
+  },
+  "433a-bt-batok-west-ave-8": {
+    "blk_no": "433A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651433",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 193,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 30,
+      "4room": 43
+    }
+  },
+  "433b-bt-batok-west-ave-8": {
+    "blk_no": "433B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652433",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "2room": 112,
+      "3room": 28,
+      "4room": 42
+    }
+  },
+  "433c-bt-batok-west-ave-8": {
+    "blk_no": "433C",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "653433",
+    "town": "BUKIT BATOK",
+    "year_completed": 2022,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 84
+    }
+  },
+  "435a-bt-batok-west-ave-5": {
+    "blk_no": "435A",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "651435",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 336,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 168,
+      "2room": 168
+    }
+  },
+  "435b-bt-batok-west-ave-5": {
+    "blk_no": "435B",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "652435",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "2room": 112,
+      "3room": 28,
+      "4room": 42
+    }
+  },
+  "435c-bt-batok-west-ave-5": {
+    "blk_no": "435C",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "653435",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 56
+    }
+  },
+  "436a-bt-batok-west-ave-5": {
+    "blk_no": "436A",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "651436",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "2room": 104,
+      "3room": 26,
+      "4room": 39
+    }
+  },
+  "437a-bt-batok-west-ave-5": {
+    "blk_no": "437A",
+    "street": "BT BATOK WEST AVE 5",
+    "street_full": "BUKIT BATOK WEST AVENUE 5",
+    "postal": "651437",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 52
+    }
+  },
+  "438a-bt-batok-west-ave-8": {
+    "blk_no": "438A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651438",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "2room": 98,
+      "4room": 84
+    }
+  },
+  "438b-bt-batok-west-ave-8": {
+    "blk_no": "438B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652438",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "2room": 112,
+      "3room": 28,
+      "4room": 42
+    }
+  },
+  "438c-bt-batok-west-ave-8": {
+    "blk_no": "438C",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "653438",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "2room": 104,
+      "3room": 26,
+      "4room": 39
+    }
+  },
+  "439a-bt-batok-west-ave-8": {
+    "blk_no": "439A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651439",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "2room": 98,
+      "4room": 84
+    }
+  },
+  "439b-bt-batok-west-ave-8": {
+    "blk_no": "439B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652439",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 52
+    }
+  },
+  "439c-bt-batok-west-ave-8": {
+    "blk_no": "439C",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "653439",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 52
+    }
+  },
+  "440a-bt-batok-west-ave-8": {
+    "blk_no": "440A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651440",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 45
+    }
+  },
+  "440b-bt-batok-west-ave-8": {
+    "blk_no": "440B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652440",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 56
+    }
+  },
+  "440c-bt-batok-west-ave-8": {
+    "blk_no": "440C",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "653440",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 52
+    }
+  },
+  "440d-bt-batok-west-ave-8": {
+    "blk_no": "440D",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "654440",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 52
+    }
+  },
+  "441a-bt-batok-west-ave-8": {
+    "blk_no": "441A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651441",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "2room": 82,
+      "3room": 55,
+      "4room": 28
+    }
+  },
+  "441b-bt-batok-west-ave-8": {
+    "blk_no": "441B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652441",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 26
+    }
+  },
+  "441c-bt-batok-west-ave-8": {
+    "blk_no": "441C",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "653441",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 42
+    }
+  },
+  "442a-bt-batok-west-ave-8": {
+    "blk_no": "442A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651442",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 91
+    }
+  },
+  "442b-bt-batok-west-ave-8": {
+    "blk_no": "442B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652442",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 39
+    }
+  },
+  "442c-bt-batok-west-ave-8": {
+    "blk_no": "442C",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "653442",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 39
+    }
+  },
+  "443a-bt-batok-west-ave-8": {
+    "blk_no": "443A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651443",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 91
+    }
+  },
+  "443b-bt-batok-west-ave-8": {
+    "blk_no": "443B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652443",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 26
+    }
+  },
+  "443c-bt-batok-west-ave-8": {
+    "blk_no": "443C",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "653443",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 78
+    }
+  },
+  "443d-bt-batok-west-ave-8": {
+    "blk_no": "443D",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "654443",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 65,
+      "4room": 39
+    }
+  },
+  "445a-bt-batok-west-ave-8": {
+    "blk_no": "445A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651445",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 105,
+      "5room": 63
+    }
+  },
+  "445b-bt-batok-west-ave-8": {
+    "blk_no": "445B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652445",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "2room": 100,
+      "4room": 60
+    }
+  },
+  "446a-bt-batok-west-ave-8": {
+    "blk_no": "446A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651446",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 126
+    }
+  },
+  "447a-bt-batok-west-ave-9": {
+    "blk_no": "447A",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "651447",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 432,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 208,
+      "2room": 224
+    }
+  },
+  "448a-bt-batok-west-ave-9": {
+    "blk_no": "448A",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "651448",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "2room": 114,
+      "3room": 57
+    }
+  },
+  "448b-bt-batok-west-ave-9": {
+    "blk_no": "448B",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "652448",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "2room": 108,
+      "3room": 54
+    }
+  },
+  "448c-bt-batok-west-ave-9": {
+    "blk_no": "448C",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "653448",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "2room": 68,
+      "3room": 51,
+      "4room": 68
+    }
+  },
+  "449a-bt-batok-west-ave-9": {
+    "blk_no": "449A",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "651449",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "4room": 170
+    }
+  },
+  "449b-bt-batok-west-ave-9": {
+    "blk_no": "449B",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "652449",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 180
+    }
+  },
+  "450a-bt-batok-west-ave-6": {
+    "blk_no": "450A",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "651450",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 225,
+    "sold_units_by_type": {
+      "2room": 147,
+      "3room": 78
+    }
+  },
+  "450b-bt-batok-west-ave-6": {
+    "blk_no": "450B",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "652450",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 183,
+    "sold_units_by_type": {
+      "4room": 120,
+      "5room": 63
+    }
+  },
+  "450c-bt-batok-west-ave-6": {
+    "blk_no": "450C",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "653450",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 183,
+    "sold_units_by_type": {
+      "4room": 120,
+      "5room": 63
+    }
+  },
+  "450d-bt-batok-west-ave-6": {
+    "blk_no": "450D",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "654450",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 225,
+    "sold_units_by_type": {
+      "2room": 147,
+      "3room": 78
+    }
+  },
+  "451a-bt-batok-west-ave-6": {
+    "blk_no": "451A",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "651451",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 273,
+    "sold_units_by_type": {
+      "2room": 168,
+      "3room": 105
+    }
+  },
+  "451b-bt-batok-west-ave-6": {
+    "blk_no": "451B",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "652451",
+    "town": "BUKIT BATOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "4room": 105,
+      "5room": 84
+    }
+  },
+  "452a-bt-batok-west-ave-6": {
+    "blk_no": "452A",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "651452",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "4room": 105,
+      "5room": 84
+    }
+  },
+  "453a-bt-batok-west-ave-6": {
+    "blk_no": "453A",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "651453",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 80
+    }
+  },
+  "453b-bt-batok-west-ave-6": {
+    "blk_no": "453B",
+    "street": "BT BATOK WEST AVE 6",
+    "street_full": "BUKIT BATOK WEST AVENUE 6",
+    "postal": "652453",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 80
+    }
+  },
+  "460a-bt-batok-west-ave-9": {
+    "blk_no": "460A",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "651460",
+    "town": "BUKIT BATOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "2room": 48,
+      "3room": 47,
+      "4room": 48
+    }
+  },
+  "460b-bt-batok-west-ave-9": {
+    "blk_no": "460B",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "652460",
+    "town": "BUKIT BATOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "2room": 80,
+      "3room": 32,
+      "4room": 32
+    }
+  },
+  "460c-bt-batok-west-ave-9": {
+    "blk_no": "460C",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "653460",
+    "town": "BUKIT BATOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "2room": 101,
+      "4room": 68
+    }
+  },
+  "460d-bt-batok-west-ave-9": {
+    "blk_no": "460D",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "654460",
+    "town": "BUKIT BATOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 108,
+      "4room": 72
+    }
+  },
+  "461a-bt-batok-west-ave-8": {
+    "blk_no": "461A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651461",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 89,
+      "5room": 30
+    }
+  },
+  "461b-bt-batok-west-ave-8": {
+    "blk_no": "461B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652461",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 56
+    }
+  },
+  "461c-bt-batok-west-ave-8": {
+    "blk_no": "461C",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "653461",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 84
+    }
+  },
+  "461d-bt-batok-west-ave-8": {
+    "blk_no": "461D",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "654461",
+    "town": "BUKIT BATOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 60
+    }
+  },
+  "463a-bt-batok-st-41": {
+    "blk_no": "463A",
+    "street": "BT BATOK ST 41",
+    "street_full": "BUKIT BATOK STREET 41",
+    "postal": "651463",
+    "town": "BUKIT BATOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 96
+    }
+  },
+  "463b-bt-batok-st-41": {
+    "blk_no": "463B",
+    "street": "BT BATOK ST 41",
+    "street_full": "BUKIT BATOK STREET 41",
+    "postal": "652463",
+    "town": "BUKIT BATOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 96
+    }
+  },
+  "464a-bt-batok-west-ave-8": {
+    "blk_no": "464A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651464",
+    "town": "BUKIT BATOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 90
+    }
+  },
+  "464b-bt-batok-west-ave-8": {
+    "blk_no": "464B",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "652464",
+    "town": "BUKIT BATOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "2room": 111,
+      "3room": 32,
+      "4room": 48
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "465a-bt-batok-west-ave-8": {
+    "blk_no": "465A",
+    "street": "BT BATOK WEST AVE 8",
+    "street_full": "BUKIT BATOK WEST AVENUE 8",
+    "postal": "651465",
+    "town": "BUKIT BATOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 272,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 144,
+      "2room": 128
+    }
+  },
+  "467a-bt-batok-west-ave-9": {
+    "blk_no": "467A",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "651467",
+    "town": "BUKIT BATOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 212,
+    "sold_units_by_type": {
+      "2room": 104,
+      "3room": 36,
+      "4room": 72
+    }
+  },
+  "467b-bt-batok-west-ave-9": {
+    "blk_no": "467B",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "652467",
+    "town": "BUKIT BATOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 102
+    }
+  },
+  "467c-bt-batok-west-ave-9": {
+    "blk_no": "467C",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "653467",
+    "town": "BUKIT BATOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 221,
+    "sold_units_by_type": {
+      "2room": 187,
+      "3room": 34
+    }
+  },
+  "468a-bt-batok-west-ave-9": {
+    "blk_no": "468A",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "651468",
+    "town": "BUKIT BATOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 136,
+      "3room": 34,
+      "4room": 34
+    }
+  },
+  "468b-bt-batok-west-ave-9": {
+    "blk_no": "468B",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "652468",
+    "town": "BUKIT BATOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 221,
+    "sold_units_by_type": {
+      "2room": 135,
+      "3room": 51
+    },
+    "rental_units_by_type": {
+      "1room": 14,
+      "2room": 21
+    }
+  },
+  "469a-bt-batok-west-ave-9": {
+    "blk_no": "469A",
+    "street": "BT BATOK WEST AVE 9",
+    "street_full": "BUKIT BATOK WEST AVENUE 9",
+    "postal": "NIL",
+    "town": "BUKIT BATOK",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "1room": 169
+    },
+    "rental_units_by_type": {
+      "1room": 3
+    }
+  },
+  "501-bt-batok-st-52": {
+    "blk_no": "501",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650501",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 29,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "503-bt-batok-st-52": {
+    "blk_no": "503",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650503",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 29,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "504-bt-batok-st-52": {
+    "blk_no": "504",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650504",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "3room": 108,
+      "5room": 1
+    }
+  },
+  "505-bt-batok-st-52": {
+    "blk_no": "505",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650505",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "3room": 107,
+      "5room": 2
+    }
+  },
+  "506-bt-batok-st-52": {
+    "blk_no": "506",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650506",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 110
+    }
+  },
+  "507-bt-batok-st-52": {
+    "blk_no": "507",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650507",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 110
+    }
+  },
+  "508-bt-batok-st-52": {
+    "blk_no": "508",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650508",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "509-bt-batok-st-52": {
+    "blk_no": "509",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650509",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "510-bt-batok-st-52": {
+    "blk_no": "510",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650510",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 40
+    }
+  },
+  "511-bt-batok-st-52": {
+    "blk_no": "511",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650511",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 40
+    }
+  },
+  "512-bt-batok-st-52": {
+    "blk_no": "512",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650512",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "513-bt-batok-st-52": {
+    "blk_no": "513",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650513",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 6
+    }
+  },
+  "514-bt-batok-st-52": {
+    "blk_no": "514",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650514",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "523-bt-batok-st-52": {
+    "blk_no": "523",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650523",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 128,
+      "5room": 4
+    }
+  },
+  "524-bt-batok-st-52": {
+    "blk_no": "524",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650524",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "525-bt-batok-st-52": {
+    "blk_no": "525",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650525",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "526-bt-batok-st-51": {
+    "blk_no": "526",
+    "street": "BT BATOK ST 51",
+    "street_full": "BUKIT BATOK STREET 51",
+    "postal": "650526",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "527-bt-batok-st-51": {
+    "blk_no": "527",
+    "street": "BT BATOK ST 51",
+    "street_full": "BUKIT BATOK STREET 51",
+    "postal": "650527",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "528-bt-batok-st-51": {
+    "blk_no": "528",
+    "street": "BT BATOK ST 51",
+    "street_full": "BUKIT BATOK STREET 51",
+    "postal": "650528",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 128,
+      "5room": 2
+    }
+  },
+  "530-bt-batok-st-51": {
+    "blk_no": "530",
+    "street": "BT BATOK ST 51",
+    "street_full": "BUKIT BATOK STREET 51",
+    "postal": "650530",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 16
+    }
+  },
+  "531-bt-batok-st-51": {
+    "blk_no": "531",
+    "street": "BT BATOK ST 51",
+    "street_full": "BUKIT BATOK STREET 51",
+    "postal": "650531",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "532-bt-batok-st-51": {
+    "blk_no": "532",
+    "street": "BT BATOK ST 51",
+    "street_full": "BUKIT BATOK STREET 51",
+    "postal": "650532",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    }
+  },
+  "533-bt-batok-st-51": {
+    "blk_no": "533",
+    "street": "BT BATOK ST 51",
+    "street_full": "BUKIT BATOK STREET 51",
+    "postal": "650533",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 90,
+      "5room": 10
+    }
+  },
+  "534-bt-batok-st-51": {
+    "blk_no": "534",
+    "street": "BT BATOK ST 51",
+    "street_full": "BUKIT BATOK STREET 51",
+    "postal": "650534",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 125,
+    "sold_units_by_type": {
+      "3room": 118,
+      "5room": 7
+    }
+  },
+  "535-bt-batok-st-52": {
+    "blk_no": "535",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650535",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "536-bt-batok-st-52": {
+    "blk_no": "536",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650536",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "537-bt-batok-st-52": {
+    "blk_no": "537",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650537",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "539-bt-batok-st-52": {
+    "blk_no": "539",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650539",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "540-bt-batok-st-52": {
+    "blk_no": "540",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650540",
+    "town": "BUKIT BATOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "541-bt-batok-st-52": {
+    "blk_no": "541",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650541",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 6
+    }
+  },
+  "542-bt-batok-st-52": {
+    "blk_no": "542",
+    "street": "BT BATOK ST 52",
+    "street_full": "BUKIT BATOK STREET 52",
+    "postal": "650542",
+    "town": "BUKIT BATOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "620-bt-batok-ctrl": {
+    "blk_no": "620",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650620",
+    "town": "BUKIT BATOK",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 84
+    }
+  },
+  "621-bt-batok-ctrl": {
+    "blk_no": "621",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650621",
+    "town": "BUKIT BATOK",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 84
+    }
+  },
+  "622-bt-batok-ctrl": {
+    "blk_no": "622",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650622",
+    "town": "BUKIT BATOK",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 84
+    }
+  },
+  "623-bt-batok-ctrl": {
+    "blk_no": "623",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650623",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 42
+    }
+  },
+  "624-bt-batok-ctrl": {
+    "blk_no": "624",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650624",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 21
+    }
+  },
+  "625-bt-batok-ctrl": {
+    "blk_no": "625",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650625",
+    "town": "BUKIT BATOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 28
+    }
+  },
+  "626-bt-batok-ctrl": {
+    "blk_no": "626",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650626",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 34
+    }
+  },
+  "627-bt-batok-ctrl": {
+    "blk_no": "627",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650627",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "628-bt-batok-ctrl": {
+    "blk_no": "628",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650628",
+    "town": "BUKIT BATOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "639-bt-batok-ctrl": {
+    "blk_no": "639",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650639",
+    "town": "BUKIT BATOK",
+    "year_completed": 1989,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 36
+    }
+  },
+  "642-bt-batok-ctrl": {
+    "blk_no": "642",
+    "street": "BT BATOK CTRL",
+    "street_full": "BUKIT BATOK CENTRAL",
+    "postal": "650642",
+    "town": "BUKIT BATOK",
+    "year_completed": 1989,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 28
+    }
+  }
+}

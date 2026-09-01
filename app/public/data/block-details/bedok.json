@@ -1,0 +1,7419 @@
+{
+  "1-bedok-sth-ave-1": {
+    "blk_no": "1",
+    "street": "BEDOK STH AVE 1",
+    "street_full": "BEDOK SOUTH AVENUE 1",
+    "postal": "460001",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "3room": 204,
+      "5room": 2
+    }
+  },
+  "1-chai-chee-rd": {
+    "blk_no": "1",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461001",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 92
+    }
+  },
+  "10-chai-chee-rd": {
+    "blk_no": "10",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "467010",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 28
+    }
+  },
+  "100-bedok-nth-ave-4": {
+    "blk_no": "100",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "3room": 178,
+      "4room": 26,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "101-bedok-nth-ave-4": {
+    "blk_no": "101",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460101",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 35
+    },
+    "rental_units_by_type": {
+      "2room": 133
+    }
+  },
+  "101-bedok-reservoir-rd": {
+    "blk_no": "101",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470101",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "101-lengkong-tiga": {
+    "blk_no": "101",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410101",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 10,
+    "sold_units_by_type": {
+      "exec": 10
+    }
+  },
+  "102-bedok-nth-ave-4": {
+    "blk_no": "102",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460102",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 26,
+      "5room": 2,
+      "exec": 5
+    }
+  },
+  "102-bedok-reservoir-rd": {
+    "blk_no": "102",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470102",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "102-lengkong-tiga": {
+    "blk_no": "102",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410102",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 51
+    }
+  },
+  "103-bedok-nth-ave-4": {
+    "blk_no": "103",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 26,
+      "exec": 2
+    }
+  },
+  "103-bedok-reservoir-rd": {
+    "blk_no": "103",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470103",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 66
+    }
+  },
+  "103-lengkong-tiga": {
+    "blk_no": "103",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410103",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 51
+    }
+  },
+  "104-bedok-nth-ave-4": {
+    "blk_no": "104",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460104",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 26,
+      "exec": 3
+    }
+  },
+  "104-bedok-reservoir-rd": {
+    "blk_no": "104",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470104",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "104-lengkong-tiga": {
+    "blk_no": "104",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410104",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "exec": 55
+    }
+  },
+  "105-bedok-nth-ave-4": {
+    "blk_no": "105",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 26,
+      "exec": 1
+    }
+  },
+  "105-bedok-reservoir-rd": {
+    "blk_no": "105",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470105",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "105-lengkong-tiga": {
+    "blk_no": "105",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410105",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "106-bedok-nth-ave-4": {
+    "blk_no": "106",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460106",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 34
+    },
+    "rental_units_by_type": {
+      "2room": 134
+    }
+  },
+  "106-bedok-reservoir-rd": {
+    "blk_no": "106",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470106",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "106-lengkong-tiga": {
+    "blk_no": "106",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410106",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 43,
+    "sold_units_by_type": {
+      "exec": 43
+    }
+  },
+  "107-bedok-nth-rd": {
+    "blk_no": "107",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460107",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "107-bedok-reservoir-rd": {
+    "blk_no": "107",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470107",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "107-lengkong-tiga": {
+    "blk_no": "107",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410107",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "108-bedok-nth-rd": {
+    "blk_no": "108",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460108",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "108-bedok-reservoir-rd": {
+    "blk_no": "108",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 86,
+      "4room": 66,
+      "5room": 1
+    }
+  },
+  "108-lengkong-tiga": {
+    "blk_no": "108",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410108",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "exec": 47
+    }
+  },
+  "109-bedok-nth-rd": {
+    "blk_no": "109",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460109",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 22,
+      "5room": 3,
+      "exec": 2
+    }
+  },
+  "109-bedok-reservoir-rd": {
+    "blk_no": "109",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470109",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 8
+    }
+  },
+  "109-lengkong-tiga": {
+    "blk_no": "109",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 51
+    }
+  },
+  "10b-bedok-sth-ave-2": {
+    "blk_no": "10B",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "461010",
+    "town": "BEDOK",
+    "year_completed": 1994,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "10c-bedok-sth-ave-2": {
+    "blk_no": "10C",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "462010",
+    "town": "BEDOK",
+    "year_completed": 1994,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 2,
+    "sold_units_by_type": {
+      "exec": 2
+    }
+  },
+  "10d-bedok-sth-ave-2": {
+    "blk_no": "10D",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "463010",
+    "town": "BEDOK",
+    "year_completed": 1994,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "10e-bedok-sth-ave-2": {
+    "blk_no": "10E",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "464010",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "exec": 81
+    }
+  },
+  "10f-bedok-sth-ave-2": {
+    "blk_no": "10F",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "465010",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 67,
+    "sold_units_by_type": {
+      "exec": 67
+    }
+  },
+  "11-chai-chee-rd": {
+    "blk_no": "11",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460011",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 42
+    }
+  },
+  "110-bedok-nth-rd": {
+    "blk_no": "110",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460110",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "110-bedok-reservoir-rd": {
+    "blk_no": "110",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470110",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "110-lengkong-tiga": {
+    "blk_no": "110",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410110",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 20
+    }
+  },
+  "111-bedok-nth-rd": {
+    "blk_no": "111",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460111",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 84
+    }
+  },
+  "111-bedok-reservoir-rd": {
+    "blk_no": "111",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470111",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "111-lengkong-tiga": {
+    "blk_no": "111",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410111",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 56
+    }
+  },
+  "112-bedok-nth-rd": {
+    "blk_no": "112",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460112",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 84
+    }
+  },
+  "112-bedok-reservoir-rd": {
+    "blk_no": "112",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470112",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 72
+    }
+  },
+  "112-lengkong-tiga": {
+    "blk_no": "112",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410112",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 23,
+      "5room": 74
+    }
+  },
+  "113-bedok-nth-st-2": {
+    "blk_no": "113",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460113",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 42
+    },
+    "rental_units_by_type": {
+      "2room": 126
+    }
+  },
+  "113-bedok-reservoir-rd": {
+    "blk_no": "113",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470113",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "3room": 40,
+      "4room": 39
+    }
+  },
+  "113-lengkong-tiga": {
+    "blk_no": "113",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410113",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 6
+    }
+  },
+  "114-bedok-nth-st-2": {
+    "blk_no": "114",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460114",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 40
+    },
+    "rental_units_by_type": {
+      "2room": 128
+    }
+  },
+  "114-bedok-reservoir-rd": {
+    "blk_no": "114",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470114",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "114-lengkong-tiga": {
+    "blk_no": "114",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410114",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 23,
+      "5room": 74
+    }
+  },
+  "115-bedok-nth-rd": {
+    "blk_no": "115",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460115",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 201,
+    "sold_units_by_type": {
+      "3room": 165,
+      "4room": 33,
+      "exec": 3
+    }
+  },
+  "115-bedok-reservoir-rd": {
+    "blk_no": "115",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470115",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "115-lengkong-tiga": {
+    "blk_no": "115",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410115",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 12
+    }
+  },
+  "116-bedok-nth-rd": {
+    "blk_no": "116",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460116",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 214,
+    "sold_units_by_type": {
+      "3room": 176,
+      "4room": 36,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "116-bedok-reservoir-rd": {
+    "blk_no": "116",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470116",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 48,
+      "5room": 2
+    }
+  },
+  "116-lengkong-tiga": {
+    "blk_no": "116",
+    "street": "LENGKONG TIGA",
+    "street_full": "LENGKONG TIGA",
+    "postal": "410116",
+    "town": "BEDOK",
+    "year_completed": 1988,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 23,
+      "5room": 72
+    }
+  },
+  "117-bedok-nth-rd": {
+    "blk_no": "117",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460117",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 211,
+    "sold_units_by_type": {
+      "3room": 170,
+      "4room": 36,
+      "5room": 2,
+      "exec": 3
+    }
+  },
+  "117-bedok-reservoir-rd": {
+    "blk_no": "117",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470117",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "3room": 81,
+      "4room": 16
+    }
+  },
+  "118-bedok-nth-st-2": {
+    "blk_no": "118",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460118",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 92
+    }
+  },
+  "118-bedok-reservoir-rd": {
+    "blk_no": "118",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470118",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 32
+    }
+  },
+  "119-bedok-nth-rd": {
+    "blk_no": "119",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460119",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 154
+    }
+  },
+  "119-bedok-reservoir-rd": {
+    "blk_no": "119",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470119",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 32
+    }
+  },
+  "12-bedok-sth-ave-2": {
+    "blk_no": "12",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460012",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 308,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 308
+    }
+  },
+  "120-bedok-nth-st-2": {
+    "blk_no": "120",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460120",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 92
+    }
+  },
+  "120-bedok-reservoir-rd": {
+    "blk_no": "120",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470120",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "121-bedok-nth-rd": {
+    "blk_no": "121",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460121",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 154
+    }
+  },
+  "121-bedok-reservoir-rd": {
+    "blk_no": "121",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470121",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 83,
+      "4room": 17
+    }
+  },
+  "122-bedok-nth-st-2": {
+    "blk_no": "122",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460122",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {
+      "3room": 189,
+      "4room": 20,
+      "5room": 4,
+      "exec": 3
+    }
+  },
+  "122-bedok-reservoir-rd": {
+    "blk_no": "122",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470122",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 126
+    }
+  },
+  "123-bedok-nth-st-2": {
+    "blk_no": "123",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460123",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 34,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 4
+    }
+  },
+  "123-bedok-reservoir-rd": {
+    "blk_no": "123",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470123",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "124-bedok-nth-rd": {
+    "blk_no": "124",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460124",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 121,
+      "4room": 33
+    }
+  },
+  "124-bedok-reservoir-rd": {
+    "blk_no": "124",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470124",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "125-bedok-nth-rd": {
+    "blk_no": "125",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460125",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 121,
+      "4room": 33
+    }
+  },
+  "125-bedok-reservoir-rd": {
+    "blk_no": "125",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470125",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 124
+    }
+  },
+  "126-bedok-nth-st-2": {
+    "blk_no": "126",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460126",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 39
+    }
+  },
+  "126-bedok-reservoir-rd": {
+    "blk_no": "126",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470126",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 16
+    }
+  },
+  "127-bedok-nth-st-2": {
+    "blk_no": "127",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460127",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 113,
+      "4room": 39,
+      "exec": 2
+    }
+  },
+  "127-bedok-reservoir-rd": {
+    "blk_no": "127",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470127",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 16
+    }
+  },
+  "128-bedok-nth-st-2": {
+    "blk_no": "128",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460128",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 38
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "128-bedok-reservoir-rd": {
+    "blk_no": "128",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470128",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 52
+    }
+  },
+  "129-bedok-nth-st-2": {
+    "blk_no": "129",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460129",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 113,
+      "4room": 38,
+      "5room": 2
+    }
+  },
+  "129-bedok-reservoir-rd": {
+    "blk_no": "129",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470129",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "13-bedok-sth-rd": {
+    "blk_no": "13",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460013",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 234
+    }
+  },
+  "130-bedok-nth-st-2": {
+    "blk_no": "130",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460130",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "130-bedok-reservoir-rd": {
+    "blk_no": "130",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470130",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "131-bedok-nth-ave-3": {
+    "blk_no": "131",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460131",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "131-bedok-reservoir-rd": {
+    "blk_no": "131",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470131",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "132-bedok-nth-st-2": {
+    "blk_no": "132",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460132",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "132-bedok-reservoir-rd": {
+    "blk_no": "132",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470132",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "133-bedok-nth-ave-3": {
+    "blk_no": "133",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460133",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "133-bedok-reservoir-rd": {
+    "blk_no": "133",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470133",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "134-bedok-nth-st-2": {
+    "blk_no": "134",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460134",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 121,
+      "4room": 33
+    }
+  },
+  "134-bedok-reservoir-rd": {
+    "blk_no": "134",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470134",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "135-bedok-nth-st-2": {
+    "blk_no": "135",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460135",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 119,
+      "4room": 33,
+      "exec": 1
+    }
+  },
+  "135-bedok-reservoir-rd": {
+    "blk_no": "135",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470135",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "136-bedok-nth-ave-3": {
+    "blk_no": "136",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460136",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 27,
+      "4room": 4
+    }
+  },
+  "136-bedok-reservoir-rd": {
+    "blk_no": "136",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 87,
+      "4room": 52
+    }
+  },
+  "137-bedok-nth-ave-3": {
+    "blk_no": "137",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460137",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 78
+    }
+  },
+  "137-bedok-reservoir-rd": {
+    "blk_no": "137",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470137",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "138-bedok-nth-st-2": {
+    "blk_no": "138",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460138",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 239,
+    "sold_units_by_type": {
+      "3room": 213,
+      "4room": 22,
+      "5room": 1,
+      "exec": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "138-bedok-reservoir-rd": {
+    "blk_no": "138",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470138",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "139-bedok-nth-ave-3": {
+    "blk_no": "139",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460139",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 78
+    }
+  },
+  "139-bedok-reservoir-rd": {
+    "blk_no": "139",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470139",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 36
+    }
+  },
+  "14-bedok-sth-ave-2": {
+    "blk_no": "14",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460014",
+    "town": "BEDOK",
+    "year_completed": 1994,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "5room": 95
+    }
+  },
+  "140-bedok-nth-st-2": {
+    "blk_no": "140",
+    "street": "BEDOK NTH ST 2",
+    "street_full": "BEDOK NORTH STREET 2",
+    "postal": "460140",
+    "town": "BEDOK",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "5room": 140
+    }
+  },
+  "140-bedok-reservoir-rd": {
+    "blk_no": "140",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470140",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "141-bedok-reservoir-rd": {
+    "blk_no": "141",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470141",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 42
+    }
+  },
+  "142-bedok-reservoir-rd": {
+    "blk_no": "142",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470142",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 60
+    }
+  },
+  "143-bedok-reservoir-rd": {
+    "blk_no": "143",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470143",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 47,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 16,
+      "5room": 1
+    }
+  },
+  "144-bedok-reservoir-rd": {
+    "blk_no": "144",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470144",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 16
+    }
+  },
+  "145-bedok-reservoir-rd": {
+    "blk_no": "145",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470145",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "146-bedok-reservoir-rd": {
+    "blk_no": "146",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470146",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 42
+    }
+  },
+  "147-bedok-reservoir-rd": {
+    "blk_no": "147",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470147",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 42
+    }
+  },
+  "148-bedok-reservoir-rd": {
+    "blk_no": "148",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470148",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "149-bedok-reservoir-rd": {
+    "blk_no": "149",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470149",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "15-bedok-sth-rd": {
+    "blk_no": "15",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460015",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "4room": 182
+    }
+  },
+  "150-bedok-reservoir-rd": {
+    "blk_no": "150",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470150",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 52
+    }
+  },
+  "151-bedok-reservoir-rd": {
+    "blk_no": "151",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470151",
+    "town": "BEDOK",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "3room": 53,
+      "4room": 52
+    }
+  },
+  "152a-bedok-sth-rd": {
+    "blk_no": "152A",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "461152",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "2room": 28,
+      "4room": 41,
+      "5room": 54
+    }
+  },
+  "152b-bedok-sth-rd": {
+    "blk_no": "152B",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "462152",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "2room": 45,
+      "4room": 28,
+      "5room": 30
+    }
+  },
+  "152c-bedok-sth-rd": {
+    "blk_no": "152C",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "463152",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 60
+    }
+  },
+  "153a-bedok-sth-rd": {
+    "blk_no": "153A",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "461153",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 28
+    }
+  },
+  "153b-bedok-sth-rd": {
+    "blk_no": "153B",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "462153",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 68
+    }
+  },
+  "153c-bedok-sth-rd": {
+    "blk_no": "153C",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "463153",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 34
+    }
+  },
+  "154a-bedok-sth-rd": {
+    "blk_no": "154A",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "461154",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "2room": 68,
+      "4room": 85
+    }
+  },
+  "154b-bedok-sth-rd": {
+    "blk_no": "154B",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "462154",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "2room": 68,
+      "4room": 83
+    }
+  },
+  "155-bedok-sth-ave-3": {
+    "blk_no": "155",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460155",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "156-bedok-sth-ave-3": {
+    "blk_no": "156",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460156",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "157-bedok-sth-ave-3": {
+    "blk_no": "157",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460157",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "158-bedok-sth-ave-3": {
+    "blk_no": "158",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 4
+    }
+  },
+  "159-bedok-sth-ave-3": {
+    "blk_no": "159",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460159",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "160-bedok-sth-ave-3": {
+    "blk_no": "160",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460160",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "161-bedok-sth-ave-3": {
+    "blk_no": "161",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460161",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "exec": 20
+    }
+  },
+  "162-bedok-sth-rd": {
+    "blk_no": "162",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460162",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "exec": 20
+    }
+  },
+  "163-bedok-sth-rd": {
+    "blk_no": "163",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460163",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "164-bedok-sth-rd": {
+    "blk_no": "164",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460164",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "165-bedok-sth-rd": {
+    "blk_no": "165",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460165",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "166-bedok-sth-ave-3": {
+    "blk_no": "166",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460166",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "167-bedok-sth-ave-3": {
+    "blk_no": "167",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460167",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "168-bedok-sth-ave-3": {
+    "blk_no": "168",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460168",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 5
+    }
+  },
+  "169-bedok-sth-ave-3": {
+    "blk_no": "169",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460169",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "170-bedok-sth-rd": {
+    "blk_no": "170",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "171-bedok-sth-rd": {
+    "blk_no": "171",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460171",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "172-bedok-sth-rd": {
+    "blk_no": "172",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "18-bedok-sth-rd": {
+    "blk_no": "18",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460018",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 267,
+    "sold_units_by_type": {
+      "3room": 264,
+      "5room": 3
+    }
+  },
+  "180-bedok-nth-rd": {
+    "blk_no": "180",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460180",
+    "town": "BEDOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 136,
+      "5room": 20
+    }
+  },
+  "181-bedok-nth-rd": {
+    "blk_no": "181",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460181",
+    "town": "BEDOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 80
+    }
+  },
+  "182-bedok-nth-rd": {
+    "blk_no": "182",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460182",
+    "town": "BEDOK",
+    "year_completed": 2004,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 136,
+      "5room": 20
+    }
+  },
+  "183-bedok-nth-rd": {
+    "blk_no": "183",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460183",
+    "town": "BEDOK",
+    "year_completed": 2003,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 144
+    }
+  },
+  "185-bedok-nth-rd": {
+    "blk_no": "185",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460185",
+    "town": "BEDOK",
+    "year_completed": 2003,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 144
+    }
+  },
+  "186a-bedok-nth-st-4": {
+    "blk_no": "186A",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "461186",
+    "town": "BEDOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 36
+    }
+  },
+  "186b-bedok-nth-st-4": {
+    "blk_no": "186B",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "462186",
+    "town": "BEDOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 36,
+      "4room": 90
+    }
+  },
+  "187a-bedok-nth-st-4": {
+    "blk_no": "187A",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "461187",
+    "town": "BEDOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 108,
+      "5room": 36
+    }
+  },
+  "187b-bedok-nth-st-4": {
+    "blk_no": "187B",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "462187",
+    "town": "BEDOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 108,
+      "5room": 36
+    }
+  },
+  "188a-bedok-nth-st-4": {
+    "blk_no": "188A",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "461188",
+    "town": "BEDOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 82
+    }
+  },
+  "188b-bedok-nth-st-4": {
+    "blk_no": "188B",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "462188",
+    "town": "BEDOK",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "3room": 58,
+      "4room": 26
+    }
+  },
+  "188c-bedok-nth-st-4": {
+    "blk_no": "188C",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "463188",
+    "town": "BEDOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 67,
+      "3room": 30,
+      "4room": 30,
+      "studio_apartment": 23
+    }
+  },
+  "188d-bedok-nth-st-4": {
+    "blk_no": "188D",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "464188",
+    "town": "BEDOK",
+    "year_completed": 2018,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 55,
+      "3room": 36,
+      "4room": 36,
+      "studio_apartment": 53
+    }
+  },
+  "19-bedok-sth-rd": {
+    "blk_no": "19",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460019",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "19-chai-chee-rd": {
+    "blk_no": "19",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461019",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "3room": 135,
+      "5room": 2
+    }
+  },
+  "2-bedok-sth-ave-1": {
+    "blk_no": "2",
+    "street": "BEDOK STH AVE 1",
+    "street_full": "BEDOK SOUTH AVENUE 1",
+    "postal": "460002",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 207,
+    "sold_units_by_type": {
+      "3room": 206,
+      "5room": 1
+    }
+  },
+  "2-chai-chee-rd": {
+    "blk_no": "2",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461002",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 20,
+      "5room": 56
+    }
+  },
+  "20-bedok-sth-rd": {
+    "blk_no": "20",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460020",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "20-chai-chee-rd": {
+    "blk_no": "20",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461020",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "3room": 162,
+      "5room": 2
+    }
+  },
+  "201-bedok-nth-st-1": {
+    "blk_no": "201",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460201",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 205,
+    "sold_units_by_type": {
+      "3room": 204,
+      "exec": 1
+    }
+  },
+  "202-bedok-nth-st-1": {
+    "blk_no": "202",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460202",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 218,
+    "sold_units_by_type": {
+      "3room": 214,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "203-bedok-nth-st-1": {
+    "blk_no": "203",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460203",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 23,
+    "sold_units_by_type": {
+      "3room": 23
+    }
+  },
+  "204-bedok-nth-st-1": {
+    "blk_no": "204",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460204",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "3room": 49
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "205-bedok-nth-st-1": {
+    "blk_no": "205",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460205",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "3room": 39
+    }
+  },
+  "208-new-upp-changi-rd": {
+    "blk_no": "208",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "460208",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 42,
+    "sold_units_by_type": {
+      "3room": 42
+    }
+  },
+  "21-bedok-sth-rd": {
+    "blk_no": "21",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460021",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "21-chai-chee-rd": {
+    "blk_no": "21",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461021",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "3room": 162,
+      "5room": 2
+    }
+  },
+  "210-new-upp-changi-rd": {
+    "blk_no": "210",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "460210",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 36,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 4
+    }
+  },
+  "211-new-upp-changi-rd": {
+    "blk_no": "211",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "460211",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 33,
+    "sold_units_by_type": {
+      "3room": 33
+    }
+  },
+  "213-bedok-nth-st-1": {
+    "blk_no": "213",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460213",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 134,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "214-bedok-nth-st-1": {
+    "blk_no": "214",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460214",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 114,
+      "5room": 1
+    }
+  },
+  "217-bedok-nth-st-1": {
+    "blk_no": "217",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460217",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 31
+    }
+  },
+  "218-bedok-nth-st-1": {
+    "blk_no": "218",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "3room": 53,
+      "5room": 1
+    }
+  },
+  "219a-bedok-ctrl": {
+    "blk_no": "219A",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "461219",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "3room": 47,
+      "4room": 47
+    }
+  },
+  "219b-bedok-ctrl": {
+    "blk_no": "219B",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "462219",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 31
+    }
+  },
+  "219c-bedok-ctrl": {
+    "blk_no": "219C",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "463219",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 32
+    }
+  },
+  "219d-bedok-ctrl": {
+    "blk_no": "219D",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "464219",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "3room": 33,
+      "4room": 64
+    }
+  },
+  "22-bedok-sth-ave-1": {
+    "blk_no": "22",
+    "street": "BEDOK STH AVE 1",
+    "street_full": "BEDOK SOUTH AVENUE 1",
+    "postal": "460022",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 26
+    }
+  },
+  "22-chai-chee-rd": {
+    "blk_no": "22",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461022",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 264
+    }
+  },
+  "220a-bedok-ctrl": {
+    "blk_no": "220A",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "461220",
+    "town": "BEDOK",
+    "year_completed": 2007,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "3room": 63,
+      "4room": 32
+    }
+  },
+  "220b-bedok-ctrl": {
+    "blk_no": "220B",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "462220",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 31
+    }
+  },
+  "220c-bedok-ctrl": {
+    "blk_no": "220C",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "463220",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 31
+    }
+  },
+  "221a-bedok-ctrl": {
+    "blk_no": "221A",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "461221",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 79,
+      "5room": 15
+    }
+  },
+  "221b-bedok-ctrl": {
+    "blk_no": "221B",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "462221",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 63
+    }
+  },
+  "221c-bedok-ctrl": {
+    "blk_no": "221C",
+    "street": "BEDOK CTRL",
+    "street_full": "BEDOK CENTRAL",
+    "postal": "463221",
+    "town": "BEDOK",
+    "year_completed": 2008,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "3room": 33,
+      "4room": 64
+    }
+  },
+  "222a-bedok-nth-dr": {
+    "blk_no": "222A",
+    "street": "BEDOK NTH DR",
+    "street_full": "BEDOK NORTH DRIVE",
+    "postal": "461222",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 136
+    }
+  },
+  "222b-bedok-nth-dr": {
+    "blk_no": "222B",
+    "street": "BEDOK NTH DR",
+    "street_full": "BEDOK NORTH DRIVE",
+    "postal": "462222",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "2room": 28,
+      "4room": 134
+    }
+  },
+  "222c-bedok-nth-dr": {
+    "blk_no": "222C",
+    "street": "BEDOK NTH DR",
+    "street_full": "BEDOK NORTH DRIVE",
+    "postal": "463222",
+    "town": "BEDOK",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 202,
+    "sold_units_by_type": {
+      "2room": 172,
+      "4room": 30
+    }
+  },
+  "23-bedok-sth-ave-1": {
+    "blk_no": "23",
+    "street": "BEDOK STH AVE 1",
+    "street_full": "BEDOK SOUTH AVENUE 1",
+    "postal": "460023",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 26
+    }
+  },
+  "23-chai-chee-rd": {
+    "blk_no": "23",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461023",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 264
+    }
+  },
+  "24-chai-chee-rd": {
+    "blk_no": "24",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460024",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 264
+    }
+  },
+  "24-new-upp-changi-rd": {
+    "blk_no": "24",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461024",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 26
+    }
+  },
+  "25-chai-chee-rd": {
+    "blk_no": "25",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460025",
+    "town": "BEDOK",
+    "year_completed": 1991,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 44
+    }
+  },
+  "25-new-upp-changi-rd": {
+    "blk_no": "25",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "462025",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "26-chai-chee-rd": {
+    "blk_no": "26",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460026",
+    "town": "BEDOK",
+    "year_completed": 1991,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 55
+    }
+  },
+  "26-new-upp-changi-rd": {
+    "blk_no": "26",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "462026",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "27-chai-chee-rd": {
+    "blk_no": "27",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460027",
+    "town": "BEDOK",
+    "year_completed": 1991,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 31
+    }
+  },
+  "27-new-upp-changi-rd": {
+    "blk_no": "27",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "462027",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 232,
+    "sold_units_by_type": {
+      "3room": 230,
+      "5room": 2
+    }
+  },
+  "28-new-upp-changi-rd": {
+    "blk_no": "28",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "460028",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {
+      "3room": 228,
+      "5room": 3
+    }
+  },
+  "29-chai-chee-ave": {
+    "blk_no": "29",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "460029",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "29-new-upp-changi-rd": {
+    "blk_no": "29",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "464029",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {
+      "3room": 228,
+      "5room": 3
+    }
+  },
+  "29a-chai-chee-ave": {
+    "blk_no": "29A",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461029",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "exec": 68
+    }
+  },
+  "3-bedok-sth-ave-1": {
+    "blk_no": "3",
+    "street": "BEDOK STH AVE 1",
+    "street_full": "BEDOK SOUTH AVENUE 1",
+    "postal": "460003",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "3room": 204,
+      "5room": 2
+    }
+  },
+  "30-chai-chee-ave": {
+    "blk_no": "30",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "460030",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 216
+    }
+  },
+  "30-new-upp-changi-rd": {
+    "blk_no": "30",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461030",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 230,
+    "sold_units_by_type": {
+      "3room": 226,
+      "5room": 4
+    }
+  },
+  "31-bedok-sth-ave-2": {
+    "blk_no": "31",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460031",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "31-chai-chee-ave": {
+    "blk_no": "31",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461031",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 216
+    }
+  },
+  "32-bedok-sth-ave-2": {
+    "blk_no": "32",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460032",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "32-chai-chee-ave": {
+    "blk_no": "32",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461032",
+    "town": "BEDOK",
+    "year_completed": 1973,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 257,
+    "sold_units_by_type": {
+      "3room": 254,
+      "5room": 3
+    }
+  },
+  "33-bedok-sth-ave-2": {
+    "blk_no": "33",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460033",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 249,
+    "sold_units_by_type": {
+      "3room": 218,
+      "4room": 28,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "33-chai-chee-ave": {
+    "blk_no": "33",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461033",
+    "town": "BEDOK",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "34-bedok-sth-ave-2": {
+    "blk_no": "34",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460034",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "4room": 210
+    }
+  },
+  "34-chai-chee-ave": {
+    "blk_no": "34",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461034",
+    "town": "BEDOK",
+    "year_completed": 1974,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "35-bedok-sth-ave-2": {
+    "blk_no": "35",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460035",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "4room": 210
+    }
+  },
+  "35-chai-chee-ave": {
+    "blk_no": "35",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461035",
+    "town": "BEDOK",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "36-bedok-sth-ave-2": {
+    "blk_no": "36",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460036",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "4room": 210
+    }
+  },
+  "36-chai-chee-ave": {
+    "blk_no": "36",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461036",
+    "town": "BEDOK",
+    "year_completed": 1973,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "3room": 119,
+      "5room": 2
+    }
+  },
+  "37-bedok-sth-ave-2": {
+    "blk_no": "37",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460037",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "4room": 210
+    }
+  },
+  "37-chai-chee-ave": {
+    "blk_no": "37",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461037",
+    "town": "BEDOK",
+    "year_completed": 1973,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "3room": 119,
+      "5room": 2
+    }
+  },
+  "38-bedok-sth-rd": {
+    "blk_no": "38",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460038",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 38
+    },
+    "rental_units_by_type": {
+      "2room": 138
+    }
+  },
+  "38-chai-chee-ave": {
+    "blk_no": "38",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461038",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 189
+    }
+  },
+  "39-bedok-sth-rd": {
+    "blk_no": "39",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460039",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 140,
+      "4room": 28
+    }
+  },
+  "39-chai-chee-ave": {
+    "blk_no": "39",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461039",
+    "town": "BEDOK",
+    "year_completed": 1972,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 189
+    }
+  },
+  "4-bedok-sth-ave-1": {
+    "blk_no": "4",
+    "street": "BEDOK STH AVE 1",
+    "street_full": "BEDOK SOUTH AVENUE 1",
+    "postal": "460004",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "3room": 204,
+      "5room": 2
+    }
+  },
+  "40-bedok-sth-rd": {
+    "blk_no": "40",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460040",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 138,
+      "4room": 28,
+      "5room": 1
+    }
+  },
+  "40-chai-chee-ave": {
+    "blk_no": "40",
+    "street": "CHAI CHEE AVE",
+    "street_full": "CHAI CHEE AVENUE",
+    "postal": "461040",
+    "town": "BEDOK",
+    "year_completed": 1973,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 126,
+      "5room": 2
+    }
+  },
+  "401-bedok-nth-ave-3": {
+    "blk_no": "401",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460401",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "3room": 166,
+      "4room": 24,
+      "exec": 1
+    }
+  },
+  "402-bedok-nth-ave-3": {
+    "blk_no": "402",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460402",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "3room": 166,
+      "4room": 24,
+      "exec": 1
+    }
+  },
+  "403-bedok-nth-ave-3": {
+    "blk_no": "403",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460403",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "404-bedok-nth-ave-3": {
+    "blk_no": "404",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460404",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "405-bedok-nth-ave-3": {
+    "blk_no": "405",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460405",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "406-bedok-nth-ave-3": {
+    "blk_no": "406",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460406",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "407-bedok-nth-ave-3": {
+    "blk_no": "407",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460407",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "408-bedok-nth-ave-2": {
+    "blk_no": "408",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460408",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "409-bedok-nth-ave-2": {
+    "blk_no": "409",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460409",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 20,
+      "5room": 2
+    }
+  },
+  "41-bedok-sth-rd": {
+    "blk_no": "41",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460041",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "41-chai-chee-st": {
+    "blk_no": "41",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "461041",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 129,
+      "4room": 26
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "410-bedok-nth-ave-2": {
+    "blk_no": "410",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460410",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 20,
+      "exec": 2
+    }
+  },
+  "411-bedok-nth-ave-2": {
+    "blk_no": "411",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460411",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "412-bedok-nth-ave-2": {
+    "blk_no": "412",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460412",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 14
+    }
+  },
+  "413-bedok-nth-ave-2": {
+    "blk_no": "413",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460413",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "414-bedok-nth-ave-2": {
+    "blk_no": "414",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460414",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "415-bedok-nth-ave-2": {
+    "blk_no": "415",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460415",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "416-bedok-nth-ave-2": {
+    "blk_no": "416",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460416",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 138,
+      "4room": 14,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "417-bedok-nth-ave-2": {
+    "blk_no": "417",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460417",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "418-bedok-nth-ave-2": {
+    "blk_no": "418",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460418",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "3room": 142,
+      "4room": 14,
+      "5room": 2
+    }
+  },
+  "419-bedok-nth-st-1": {
+    "blk_no": "419",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460419",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 306,
+    "sold_units_by_type": {
+      "3room": 282,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "42-bedok-sth-rd": {
+    "blk_no": "42",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460042",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "42-chai-chee-st": {
+    "blk_no": "42",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "461042",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 212,
+    "sold_units_by_type": {
+      "3room": 184,
+      "4room": 24,
+      "5room": 1,
+      "exec": 3
+    }
+  },
+  "420-bedok-nth-st-1": {
+    "blk_no": "420",
+    "street": "BEDOK NTH ST 1",
+    "street_full": "BEDOK NORTH STREET 1",
+    "postal": "460420",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 263,
+    "sold_units_by_type": {
+      "3room": 240,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "421-bedok-nth-rd": {
+    "blk_no": "421",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460421",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 156
+    }
+  },
+  "422-bedok-nth-rd": {
+    "blk_no": "422",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460422",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 156
+    }
+  },
+  "423-bedok-nth-ave-1": {
+    "blk_no": "423",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460423",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 22,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "424-bedok-nth-ave-1": {
+    "blk_no": "424",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460424",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 121,
+      "4room": 22,
+      "5room": 2,
+      "exec": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "425-bedok-nth-rd": {
+    "blk_no": "425",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460425",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "exec": 1
+    }
+  },
+  "426-bedok-nth-rd": {
+    "blk_no": "426",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460426",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "427-bedok-nth-rd": {
+    "blk_no": "427",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460427",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 154
+    }
+  },
+  "428-bedok-nth-rd": {
+    "blk_no": "428",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460428",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 154
+    }
+  },
+  "429a-bedok-nth-rd": {
+    "blk_no": "429A",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "461429",
+    "town": "BEDOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 303,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 128,
+      "2room": 175
+    }
+  },
+  "429b-bedok-nth-rd": {
+    "blk_no": "429B",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "462429",
+    "town": "BEDOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 43
+    }
+  },
+  "43-bedok-sth-rd": {
+    "blk_no": "43",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460043",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "43-chai-chee-st": {
+    "blk_no": "43",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "461043",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "4room": 176
+    }
+  },
+  "430a-bedok-nth-rd": {
+    "blk_no": "430A",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "461430",
+    "town": "BEDOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 31,
+      "4room": 108
+    }
+  },
+  "431a-bedok-nth-rd": {
+    "blk_no": "431A",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "461431",
+    "town": "BEDOK",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 31,
+      "4room": 96
+    }
+  },
+  "44-bedok-sth-rd": {
+    "blk_no": "44",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460044",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "44-chai-chee-st": {
+    "blk_no": "44",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "461044",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 205,
+    "sold_units_by_type": {
+      "3room": 175,
+      "4room": 26,
+      "5room": 2,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "45-chai-chee-st": {
+    "blk_no": "45",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "5-bedok-sth-ave-2": {
+    "blk_no": "5",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460005",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "50-chai-chee-st": {
+    "blk_no": "50",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "461050",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 263,
+    "sold_units_by_type": {
+      "3room": 218,
+      "4room": 44,
+      "5room": 1
+    }
+  },
+  "501-bedok-nth-st-3": {
+    "blk_no": "501",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460501",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 233,
+    "sold_units_by_type": {
+      "3room": 232,
+      "5room": 1
+    }
+  },
+  "502-bedok-nth-st-3": {
+    "blk_no": "502",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460502",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "3room": 234
+    }
+  },
+  "503-bedok-nth-st-3": {
+    "blk_no": "503",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460503",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {
+      "3room": 228,
+      "5room": 3
+    }
+  },
+  "504-bedok-nth-st-3": {
+    "blk_no": "504",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460504",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 232,
+    "sold_units_by_type": {
+      "3room": 230,
+      "5room": 2
+    }
+  },
+  "505-bedok-nth-ave-3": {
+    "blk_no": "505",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460505",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "506-bedok-nth-ave-3": {
+    "blk_no": "506",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460506",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "507-bedok-nth-ave-3": {
+    "blk_no": "507",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460507",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 156
+    }
+  },
+  "508-bedok-nth-ave-3": {
+    "blk_no": "508",
+    "street": "BEDOK NTH AVE 3",
+    "street_full": "BEDOK NORTH AVENUE 3",
+    "postal": "460508",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 156
+    }
+  },
+  "509-bedok-nth-st-3": {
+    "blk_no": "509",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460509",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 8
+    }
+  },
+  "509b-bedok-nth-st-3": {
+    "blk_no": "509B",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "462509",
+    "town": "BEDOK",
+    "year_completed": 2001,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "2room": 53,
+      "studio_apartment": 77
+    }
+  },
+  "51-chai-chee-st": {
+    "blk_no": "51",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "460051",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 106
+    }
+  },
+  "51-new-upp-changi-rd": {
+    "blk_no": "51",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461051",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "4room": 240
+    }
+  },
+  "510-bedok-nth-st-3": {
+    "blk_no": "510",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460510",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 6,
+      "exec": 3
+    }
+  },
+  "512-bedok-nth-ave-2": {
+    "blk_no": "512",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460512",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "513-bedok-nth-ave-2": {
+    "blk_no": "513",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460513",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "514-bedok-nth-ave-2": {
+    "blk_no": "514",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460514",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "2room": 53
+    },
+    "rental_units_by_type": {
+      "2room": 91
+    }
+  },
+  "515-bedok-nth-ave-2": {
+    "blk_no": "515",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460515",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 39,
+    "sold_units_by_type": {
+      "3room": 35,
+      "4room": 4
+    }
+  },
+  "516-bedok-nth-ave-2": {
+    "blk_no": "516",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460516",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "517-bedok-nth-ave-2": {
+    "blk_no": "517",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460517",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "518-bedok-nth-ave-2": {
+    "blk_no": "518",
+    "street": "BEDOK NTH AVE 2",
+    "street_full": "BEDOK NORTH AVENUE 2",
+    "postal": "460518",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "519-bedok-nth-ave-1": {
+    "blk_no": "519",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460519",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "3room": 170,
+      "4room": 22,
+      "exec": 3
+    }
+  },
+  "52-chai-chee-st": {
+    "blk_no": "52",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "460052",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 86
+    }
+  },
+  "52-new-upp-changi-rd": {
+    "blk_no": "52",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461052",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "520-bedok-nth-ave-1": {
+    "blk_no": "520",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460520",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 172,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "521-bedok-nth-ave-1": {
+    "blk_no": "521",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460521",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "522-bedok-nth-ave-1": {
+    "blk_no": "522",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460522",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 130,
+      "4room": 22,
+      "5room": 1
+    }
+  },
+  "523-bedok-nth-st-3": {
+    "blk_no": "523",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460523",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "524-bedok-nth-st-3": {
+    "blk_no": "524",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460524",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 168
+    }
+  },
+  "525-bedok-nth-st-3": {
+    "blk_no": "525",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460525",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 332,
+    "sold_units_by_type": {
+      "3room": 304,
+      "4room": 24,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "526-bedok-nth-st-3": {
+    "blk_no": "526",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460526",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 263,
+    "sold_units_by_type": {
+      "3room": 238,
+      "4room": 24,
+      "exec": 1
+    }
+  },
+  "527-bedok-nth-st-3": {
+    "blk_no": "527",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460527",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "3room": 23,
+      "4room": 6,
+      "5room": 1
+    }
+  },
+  "528-bedok-nth-st-3": {
+    "blk_no": "528",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460528",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 64
+    }
+  },
+  "529-bedok-nth-st-3": {
+    "blk_no": "529",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460529",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 325,
+    "sold_units_by_type": {
+      "3room": 290,
+      "4room": 24,
+      "5room": 5,
+      "exec": 6
+    }
+  },
+  "53-chai-chee-st": {
+    "blk_no": "53",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "460053",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 86
+    }
+  },
+  "53-new-upp-changi-rd": {
+    "blk_no": "53",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461053",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "530-bedok-nth-st-3": {
+    "blk_no": "530",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460530",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 260,
+    "sold_units_by_type": {
+      "3room": 232,
+      "4room": 24,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "531-bedok-nth-st-3": {
+    "blk_no": "531",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460531",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 25,
+      "4room": 6
+    }
+  },
+  "532-bedok-nth-st-3": {
+    "blk_no": "532",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460532",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 64,
+      "5room": 2
+    }
+  },
+  "533-bedok-nth-st-3": {
+    "blk_no": "533",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460533",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "3room": 224,
+      "4room": 24,
+      "5room": 4,
+      "exec": 4
+    }
+  },
+  "534-bedok-nth-st-3": {
+    "blk_no": "534",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460534",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 352,
+    "sold_units_by_type": {
+      "2room": 113,
+      "3room": 228,
+      "4room": 3,
+      "5room": 5
+    },
+    "rental_units_by_type": {
+      "2room": 3
+    }
+  },
+  "535-bedok-nth-st-3": {
+    "blk_no": "535",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460535",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "2room": 44,
+      "3room": 119,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 3
+    }
+  },
+  "536-bedok-nth-st-3": {
+    "blk_no": "536",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460536",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "3room": 125,
+      "4room": 64,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "537-bedok-nth-st-3": {
+    "blk_no": "537",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460537",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "3room": 82
+    }
+  },
+  "539-bedok-nth-st-3": {
+    "blk_no": "539",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460539",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "3room": 84
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "54-chai-chee-st": {
+    "blk_no": "54",
+    "street": "CHAI CHEE ST",
+    "street_full": "CHAI CHEE STREET",
+    "postal": "460054",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 254,
+    "sold_units_by_type": {
+      "3room": 178,
+      "4room": 75,
+      "exec": 1
+    }
+  },
+  "54-new-upp-changi-rd": {
+    "blk_no": "54",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461054",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "540-bedok-nth-st-3": {
+    "blk_no": "540",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460540",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "3room": 114,
+      "4room": 20,
+      "5room": 2,
+      "exec": 1
+    }
+  },
+  "541-bedok-nth-st-3": {
+    "blk_no": "541",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460541",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "2room": 47
+    },
+    "rental_units_by_type": {
+      "2room": 113
+    }
+  },
+  "542-bedok-nth-st-3": {
+    "blk_no": "542",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460542",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 176,
+      "4room": 20,
+      "5room": 2
+    }
+  },
+  "543-bedok-nth-st-3": {
+    "blk_no": "543",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460543",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "544-bedok-nth-st-3": {
+    "blk_no": "544",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460544",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 286,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 286
+    }
+  },
+  "545-bedok-nth-st-3": {
+    "blk_no": "545",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460545",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 218,
+    "sold_units_by_type": {
+      "3room": 193,
+      "4room": 22,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "546-bedok-nth-st-3": {
+    "blk_no": "546",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460546",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 24,
+      "5room": 1
+    }
+  },
+  "547-bedok-nth-st-3": {
+    "blk_no": "547",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460547",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "4room": 240
+    }
+  },
+  "547a-bedok-nth-ave-1": {
+    "blk_no": "547A",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "461547",
+    "town": "BEDOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "2room": 54,
+      "3room": 54
+    }
+  },
+  "547b-bedok-nth-ave-1": {
+    "blk_no": "547B",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "462547",
+    "town": "BEDOK",
+    "year_completed": 2020,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "2room": 67,
+      "3room": 40
+    }
+  },
+  "548-bedok-nth-ave-1": {
+    "blk_no": "548",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460548",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 131,
+      "4room": 22
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "549-bedok-nth-ave-1": {
+    "blk_no": "549",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460549",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 128,
+      "4room": 22,
+      "5room": 2
+    }
+  },
+  "55-chai-chee-dr": {
+    "blk_no": "55",
+    "street": "CHAI CHEE DR",
+    "street_full": "CHAI CHEE DRIVE",
+    "postal": "460055",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 321,
+    "sold_units_by_type": {
+      "3room": 258,
+      "4room": 60,
+      "exec": 3
+    }
+  },
+  "55-new-upp-changi-rd": {
+    "blk_no": "55",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461055",
+    "town": "BEDOK",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "550-bedok-nth-ave-1": {
+    "blk_no": "550",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460550",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 238,
+    "sold_units_by_type": {
+      "3room": 212,
+      "4room": 22,
+      "5room": 2,
+      "exec": 2
+    }
+  },
+  "551-bedok-nth-ave-1": {
+    "blk_no": "551",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460551",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 20
+    }
+  },
+  "552-bedok-nth-ave-1": {
+    "blk_no": "552",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460552",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "553-bedok-nth-ave-1": {
+    "blk_no": "553",
+    "street": "BEDOK NTH AVE 1",
+    "street_full": "BEDOK NORTH AVENUE 1",
+    "postal": "460553",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "554-bedok-nth-st-3": {
+    "blk_no": "554",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460554",
+    "town": "BEDOK",
+    "year_completed": 1979,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 258,
+    "sold_units_by_type": {
+      "3room": 236,
+      "4room": 20,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "556-bedok-nth-st-3": {
+    "blk_no": "556",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460556",
+    "town": "BEDOK",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 266,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 126,
+      "2room": 140
+    }
+  },
+  "557-bedok-nth-st-3": {
+    "blk_no": "557",
+    "street": "BEDOK NTH ST 3",
+    "street_full": "BEDOK NORTH STREET 3",
+    "postal": "460557",
+    "town": "BEDOK",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 280,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 154,
+      "2room": 126
+    }
+  },
+  "56-chai-chee-dr": {
+    "blk_no": "56",
+    "street": "CHAI CHEE DR",
+    "street_full": "CHAI CHEE DRIVE",
+    "postal": "460056",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "56-new-upp-changi-rd": {
+    "blk_no": "56",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461056",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "57-chai-chee-dr": {
+    "blk_no": "57",
+    "street": "CHAI CHEE DR",
+    "street_full": "CHAI CHEE DRIVE",
+    "postal": "460057",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "57-new-upp-changi-rd": {
+    "blk_no": "57",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461057",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 238,
+    "sold_units_by_type": {
+      "3room": 238
+    }
+  },
+  "58-chai-chee-dr": {
+    "blk_no": "58",
+    "street": "CHAI CHEE DR",
+    "street_full": "CHAI CHEE DRIVE",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "3room": 91,
+      "4room": 45,
+      "exec": 1
+    }
+  },
+  "59-chai-chee-rd": {
+    "blk_no": "59",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 233,
+    "sold_units_by_type": {
+      "3room": 181,
+      "4room": 51,
+      "exec": 1
+    }
+  },
+  "59-new-upp-changi-rd": {
+    "blk_no": "59",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461059",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "3room": 6
+    }
+  },
+  "6-bedok-sth-ave-2": {
+    "blk_no": "6",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460006",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "60-chai-chee-rd": {
+    "blk_no": "60",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460060",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "60-new-upp-changi-rd": {
+    "blk_no": "60",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461060",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "601-bedok-reservoir-rd": {
+    "blk_no": "601",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470601",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 112
+    }
+  },
+  "602-bedok-reservoir-rd": {
+    "blk_no": "602",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470602",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "603-bedok-reservoir-rd": {
+    "blk_no": "603",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470603",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 68
+    }
+  },
+  "604-bedok-reservoir-rd": {
+    "blk_no": "604",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470604",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 84
+    }
+  },
+  "605-bedok-reservoir-rd": {
+    "blk_no": "605",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470605",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 100
+    }
+  },
+  "606-bedok-reservoir-rd": {
+    "blk_no": "606",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470606",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 90,
+      "4room": 20,
+      "5room": 2,
+      "exec": 3
+    }
+  },
+  "607-bedok-reservoir-rd": {
+    "blk_no": "607",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470607",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "608-bedok-reservoir-rd": {
+    "blk_no": "608",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470608",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 86,
+      "4room": 30,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "609-bedok-reservoir-rd": {
+    "blk_no": "609",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470609",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 214,
+    "sold_units_by_type": {
+      "3room": 176,
+      "4room": 36,
+      "5room": 2
+    }
+  },
+  "609a-bedok-reservoir-rd": {
+    "blk_no": "609A",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "471609",
+    "town": "BEDOK",
+    "year_completed": 2014,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "2room": 38,
+      "studio_apartment": 91
+    }
+  },
+  "61-chai-chee-rd": {
+    "blk_no": "61",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460061",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "61-new-upp-changi-rd": {
+    "blk_no": "61",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461061",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "610-bedok-reservoir-rd": {
+    "blk_no": "610",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470610",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 20,
+      "4room": 8
+    }
+  },
+  "611-bedok-reservoir-rd": {
+    "blk_no": "611",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470611",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 78
+    }
+  },
+  "612-bedok-reservoir-rd": {
+    "blk_no": "612",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470612",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 68
+    }
+  },
+  "613-bedok-reservoir-rd": {
+    "blk_no": "613",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470613",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 100
+    }
+  },
+  "613a-bedok-reservoir-rd": {
+    "blk_no": "613A",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "471613",
+    "town": "BEDOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 56
+    }
+  },
+  "613b-bedok-reservoir-rd": {
+    "blk_no": "613B",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "472613",
+    "town": "BEDOK",
+    "year_completed": 1996,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 26
+    }
+  },
+  "614-bedok-reservoir-rd": {
+    "blk_no": "614",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470614",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 96,
+      "4room": 16
+    }
+  },
+  "615-bedok-reservoir-rd": {
+    "blk_no": "615",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470615",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 20,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "616-bedok-reservoir-rd": {
+    "blk_no": "616",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470616",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 176,
+      "4room": 20,
+      "exec": 2
+    }
+  },
+  "617-bedok-reservoir-rd": {
+    "blk_no": "617",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470617",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "2room": 31,
+      "3room": 63,
+      "4room": 1
+    }
+  },
+  "618-bedok-reservoir-rd": {
+    "blk_no": "618",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470618",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "2room": 30,
+      "3room": 63,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "619-bedok-reservoir-rd": {
+    "blk_no": "619",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470619",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 20,
+      "exec": 1
+    }
+  },
+  "62-chai-chee-rd": {
+    "blk_no": "62",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460062",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 70
+    }
+  },
+  "62-new-upp-changi-rd": {
+    "blk_no": "62",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461062",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "620-bedok-reservoir-rd": {
+    "blk_no": "620",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470620",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 278,
+    "sold_units_by_type": {
+      "2room": 93,
+      "3room": 177,
+      "4room": 1,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 6
+    }
+  },
+  "621-bedok-reservoir-rd": {
+    "blk_no": "621",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470621",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 84
+    }
+  },
+  "622-bedok-reservoir-rd": {
+    "blk_no": "622",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470622",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "623-bedok-reservoir-rd": {
+    "blk_no": "623",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470623",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "624-bedok-reservoir-rd": {
+    "blk_no": "624",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470624",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 8
+    }
+  },
+  "625-bedok-reservoir-rd": {
+    "blk_no": "625",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470625",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 8
+    }
+  },
+  "626-bedok-reservoir-rd": {
+    "blk_no": "626",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470626",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "627-bedok-reservoir-rd": {
+    "blk_no": "627",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470627",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "628-bedok-reservoir-rd": {
+    "blk_no": "628",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470628",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "629-bedok-reservoir-rd": {
+    "blk_no": "629",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470629",
+    "town": "BEDOK",
+    "year_completed": 1981,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "5room": 58,
+      "exec": 52
+    }
+  },
+  "63-chai-chee-rd": {
+    "blk_no": "63",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460063",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 70
+    }
+  },
+  "63-new-upp-changi-rd": {
+    "blk_no": "63",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "461063",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "631-bedok-reservoir-rd": {
+    "blk_no": "631",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470631",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 6
+    }
+  },
+  "632-bedok-reservoir-rd": {
+    "blk_no": "632",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470632",
+    "town": "BEDOK",
+    "year_completed": 1982,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 9
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "633-bedok-reservoir-rd": {
+    "blk_no": "633",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410633",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "634-bedok-reservoir-rd": {
+    "blk_no": "634",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410634",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "635-bedok-reservoir-rd": {
+    "blk_no": "635",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410635",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 53,
+    "sold_units_by_type": {
+      "exec": 53
+    }
+  },
+  "636-bedok-reservoir-rd": {
+    "blk_no": "636",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410636",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 53,
+    "sold_units_by_type": {
+      "exec": 53
+    }
+  },
+  "637-bedok-reservoir-rd": {
+    "blk_no": "637",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410637",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "638-bedok-reservoir-rd": {
+    "blk_no": "638",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410638",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "639-bedok-reservoir-rd": {
+    "blk_no": "639",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410639",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "64-new-upp-changi-rd": {
+    "blk_no": "64",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "460064",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "640-bedok-reservoir-rd": {
+    "blk_no": "640",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410640",
+    "town": "BEDOK",
+    "year_completed": 1993,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "exec": 62
+    }
+  },
+  "641-bedok-reservoir-rd": {
+    "blk_no": "641",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410641",
+    "town": "BEDOK",
+    "year_completed": 1993,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "exec": 52
+    }
+  },
+  "642-bedok-reservoir-rd": {
+    "blk_no": "642",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410642",
+    "town": "BEDOK",
+    "year_completed": 1993,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "643-bedok-reservoir-rd": {
+    "blk_no": "643",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410643",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "exec": 58
+    }
+  },
+  "644-bedok-reservoir-rd": {
+    "blk_no": "644",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "410644",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "exec": 56
+    }
+  },
+  "645-jln-tenaga": {
+    "blk_no": "645",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410645",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "646-jln-tenaga": {
+    "blk_no": "646",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410646",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 54
+    }
+  },
+  "647-jln-tenaga": {
+    "blk_no": "647",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410647",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 65
+    }
+  },
+  "648-jln-tenaga": {
+    "blk_no": "648",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410648",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 74
+    }
+  },
+  "649-jln-tenaga": {
+    "blk_no": "649",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410649",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "5room": 82
+    }
+  },
+  "65-new-upp-changi-rd": {
+    "blk_no": "65",
+    "street": "NEW UPP CHANGI RD",
+    "street_full": "NEW UPPER CHANGI ROAD",
+    "postal": "460065",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "650-jln-tenaga": {
+    "blk_no": "650",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410650",
+    "town": "BEDOK",
+    "year_completed": 1994,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 16
+    }
+  },
+  "651-jln-tenaga": {
+    "blk_no": "651",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410651",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 19
+    }
+  },
+  "652-jln-tenaga": {
+    "blk_no": "652",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410652",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "5room": 78
+    }
+  },
+  "653-jln-tenaga": {
+    "blk_no": "653",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410653",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "5room": 79
+    }
+  },
+  "654-jln-tenaga": {
+    "blk_no": "654",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410654",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 18
+    }
+  },
+  "655-jln-tenaga": {
+    "blk_no": "655",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410655",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 18
+    }
+  },
+  "656-jln-tenaga": {
+    "blk_no": "656",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410656",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 66
+    }
+  },
+  "657-jln-tenaga": {
+    "blk_no": "657",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410657",
+    "town": "BEDOK",
+    "year_completed": 1994,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 20
+    }
+  },
+  "658-jln-tenaga": {
+    "blk_no": "658",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410658",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 48
+    }
+  },
+  "659-jln-tenaga": {
+    "blk_no": "659",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410659",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 38
+    }
+  },
+  "66-bedok-sth-ave-3": {
+    "blk_no": "66",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460066",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "660-jln-tenaga": {
+    "blk_no": "660",
+    "street": "JLN TENAGA",
+    "street_full": "JALAN TENAGA",
+    "postal": "410660",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 42
+    }
+  },
+  "661-jln-damai": {
+    "blk_no": "661",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410661",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "662-jln-damai": {
+    "blk_no": "662",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410662",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "663-jln-damai": {
+    "blk_no": "663",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410663",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "664-jln-damai": {
+    "blk_no": "664",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410664",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "665-jln-damai": {
+    "blk_no": "665",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410665",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "exec": 50
+    }
+  },
+  "666-jln-damai": {
+    "blk_no": "666",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410666",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 66
+    }
+  },
+  "667-jln-damai": {
+    "blk_no": "667",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410667",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 19
+    }
+  },
+  "668-jln-damai": {
+    "blk_no": "668",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410668",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 18
+    }
+  },
+  "669-jln-damai": {
+    "blk_no": "669",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410669",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "5room": 79
+    }
+  },
+  "67-bedok-sth-ave-3": {
+    "blk_no": "67",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460067",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "670-jln-damai": {
+    "blk_no": "670",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410670",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "5room": 78
+    }
+  },
+  "671-jln-damai": {
+    "blk_no": "671",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410671",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 16
+    }
+  },
+  "672-jln-damai": {
+    "blk_no": "672",
+    "street": "JLN DAMAI",
+    "street_full": "JALAN DAMAI",
+    "postal": "410672",
+    "town": "BEDOK",
+    "year_completed": 1995,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 16
+    }
+  },
+  "68-bedok-sth-ave-3": {
+    "blk_no": "68",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460068",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "69-bedok-sth-ave-3": {
+    "blk_no": "69",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460069",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 16,
+      "5room": 3
+    }
+  },
+  "7-bedok-sth-ave-2": {
+    "blk_no": "7",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460007",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "70-bedok-sth-rd": {
+    "blk_no": "70",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460070",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 147,
+    "sold_units_by_type": {
+      "3room": 114,
+      "4room": 30,
+      "exec": 3
+    }
+  },
+  "701-bedok-reservoir-rd": {
+    "blk_no": "701",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470701",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 22
+    }
+  },
+  "702-bedok-reservoir-rd": {
+    "blk_no": "702",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470702",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "703-bedok-reservoir-rd": {
+    "blk_no": "703",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470703",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 20,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "704-bedok-reservoir-rd": {
+    "blk_no": "704",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470704",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "3room": 117,
+      "4room": 40
+    }
+  },
+  "705-bedok-nth-rd": {
+    "blk_no": "705",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "470705",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "706-bedok-nth-rd": {
+    "blk_no": "706",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "470706",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "707-bedok-nth-rd": {
+    "blk_no": "707",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "470707",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "708-bedok-nth-rd": {
+    "blk_no": "708",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "470708",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "709-bedok-reservoir-rd": {
+    "blk_no": "709",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470709",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 233,
+    "sold_units_by_type": {
+      "3room": 196,
+      "4room": 36,
+      "5room": 1
+    }
+  },
+  "71-bedok-sth-rd": {
+    "blk_no": "71",
+    "street": "BEDOK STH RD",
+    "street_full": "BEDOK SOUTH ROAD",
+    "postal": "460071",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 30,
+      "exec": 1
+    }
+  },
+  "710-bedok-reservoir-rd": {
+    "blk_no": "710",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470710",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "711-bedok-reservoir-rd": {
+    "blk_no": "711",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470711",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "712-bedok-reservoir-rd": {
+    "blk_no": "712",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470712",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 3
+    }
+  },
+  "713-bedok-reservoir-rd": {
+    "blk_no": "713",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470713",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 16,
+      "5room": 3
+    }
+  },
+  "714-bedok-reservoir-rd": {
+    "blk_no": "714",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470714",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "715-bedok-reservoir-rd": {
+    "blk_no": "715",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470715",
+    "town": "BEDOK",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "716-bedok-reservoir-rd": {
+    "blk_no": "716",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470716",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "717-bedok-reservoir-rd": {
+    "blk_no": "717",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470717",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 93
+    }
+  },
+  "718-bedok-reservoir-rd": {
+    "blk_no": "718",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470718",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "4room": 200,
+      "5room": 40
+    }
+  },
+  "719-bedok-reservoir-rd": {
+    "blk_no": "719",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470719",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "72-bedok-sth-ave-3": {
+    "blk_no": "72",
+    "street": "BEDOK STH AVE 3",
+    "street_full": "BEDOK SOUTH AVENUE 3",
+    "postal": "460072",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 84
+    }
+  },
+  "720-bedok-reservoir-rd": {
+    "blk_no": "720",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470720",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 30
+    }
+  },
+  "721-bedok-reservoir-rd": {
+    "blk_no": "721",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470721",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "exec": 86
+    }
+  },
+  "722-bedok-reservoir-rd": {
+    "blk_no": "722",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470722",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 48
+    }
+  },
+  "723-bedok-reservoir-rd": {
+    "blk_no": "723",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470723",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 30
+    }
+  },
+  "724-bedok-reservoir-rd": {
+    "blk_no": "724",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470724",
+    "town": "BEDOK",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "725-bedok-reservoir-rd": {
+    "blk_no": "725",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470725",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "exec": 96
+    }
+  },
+  "74-bedok-nth-rd": {
+    "blk_no": "74",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460074",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 207,
+    "sold_units_by_type": {
+      "3room": 205,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "740-bedok-reservoir-rd": {
+    "blk_no": "740",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470740",
+    "town": "BEDOK",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 51,
+    "sold_units_by_type": {
+      "3room": 51
+    }
+  },
+  "742-bedok-reservoir-rd": {
+    "blk_no": "742",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "NIL",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "3room": 54
+    }
+  },
+  "744-bedok-reservoir-rd": {
+    "blk_no": "744",
+    "street": "BEDOK RESERVOIR RD",
+    "street_full": "BEDOK RESERVOIR ROAD",
+    "postal": "470744",
+    "town": "BEDOK",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "3room": 54
+    }
+  },
+  "747a-bedok-reservoir-cres": {
+    "blk_no": "747A",
+    "street": "BEDOK RESERVOIR CRES",
+    "street_full": "BEDOK RESERVOIR CRESCENT",
+    "postal": "471747",
+    "town": "BEDOK",
+    "year_completed": 2014,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 27,
+      "5room": 40
+    }
+  },
+  "747b-bedok-reservoir-cres": {
+    "blk_no": "747B",
+    "street": "BEDOK RESERVOIR CRES",
+    "street_full": "BEDOK RESERVOIR CRESCENT",
+    "postal": "472747",
+    "town": "BEDOK",
+    "year_completed": 2014,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 40
+    }
+  },
+  "747c-bedok-reservoir-cres": {
+    "blk_no": "747C",
+    "street": "BEDOK RESERVOIR CRES",
+    "street_full": "BEDOK RESERVOIR CRESCENT",
+    "postal": "473747",
+    "town": "BEDOK",
+    "year_completed": 2014,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 26
+    }
+  },
+  "748a-bedok-reservoir-cres": {
+    "blk_no": "748A",
+    "street": "BEDOK RESERVOIR CRES",
+    "street_full": "BEDOK RESERVOIR CRESCENT",
+    "postal": "471748",
+    "town": "BEDOK",
+    "year_completed": 2014,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 29,
+      "5room": 28
+    }
+  },
+  "748b-bedok-reservoir-cres": {
+    "blk_no": "748B",
+    "street": "BEDOK RESERVOIR CRES",
+    "street_full": "BEDOK RESERVOIR CRESCENT",
+    "postal": "472748",
+    "town": "BEDOK",
+    "year_completed": 2014,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 29,
+      "5room": 14
+    }
+  },
+  "748c-bedok-reservoir-cres": {
+    "blk_no": "748C",
+    "street": "BEDOK RESERVOIR CRES",
+    "street_full": "BEDOK RESERVOIR CRESCENT",
+    "postal": "473748",
+    "town": "BEDOK",
+    "year_completed": 2014,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "3room": 29,
+      "4room": 29,
+      "5room": 29
+    }
+  },
+  "75-bedok-nth-rd": {
+    "blk_no": "75",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460075",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "3room": 204,
+      "5room": 2
+    }
+  },
+  "76-bedok-nth-rd": {
+    "blk_no": "76",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460076",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 207,
+    "sold_units_by_type": {
+      "3room": 206,
+      "5room": 1
+    }
+  },
+  "761-bedok-reservoir-view": {
+    "blk_no": "761",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470761",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 68
+    }
+  },
+  "762-bedok-reservoir-view": {
+    "blk_no": "762",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470762",
+    "town": "BEDOK",
+    "year_completed": 1998,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 68
+    }
+  },
+  "763-bedok-reservoir-view": {
+    "blk_no": "763",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470763",
+    "town": "BEDOK",
+    "year_completed": 1998,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "4room": 85,
+      "5room": 68
+    }
+  },
+  "764-bedok-reservoir-view": {
+    "blk_no": "764",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470764",
+    "town": "BEDOK",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 58
+    }
+  },
+  "765-bedok-reservoir-view": {
+    "blk_no": "765",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470765",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "4room": 83,
+      "5room": 68
+    }
+  },
+  "766-bedok-reservoir-view": {
+    "blk_no": "766",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470766",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 68
+    }
+  },
+  "767-bedok-reservoir-view": {
+    "blk_no": "767",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470767",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 68
+    }
+  },
+  "768-bedok-reservoir-view": {
+    "blk_no": "768",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470768",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 58
+    }
+  },
+  "769-bedok-reservoir-view": {
+    "blk_no": "769",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470769",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 72
+    }
+  },
+  "77-bedok-nth-rd": {
+    "blk_no": "77",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460077",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 206,
+    "sold_units_by_type": {
+      "3room": 204,
+      "5room": 2
+    }
+  },
+  "770-bedok-reservoir-view": {
+    "blk_no": "770",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470770",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 64
+    }
+  },
+  "771-bedok-reservoir-view": {
+    "blk_no": "771",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470771",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 64
+    }
+  },
+  "772-bedok-reservoir-view": {
+    "blk_no": "772",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470772",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 72
+    }
+  },
+  "773-bedok-reservoir-view": {
+    "blk_no": "773",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470773",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 72
+    }
+  },
+  "774-bedok-reservoir-view": {
+    "blk_no": "774",
+    "street": "BEDOK RESERVOIR VIEW",
+    "street_full": "BEDOK RESERVOIR VIEW",
+    "postal": "470774",
+    "town": "BEDOK",
+    "year_completed": 1999,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 72
+    }
+  },
+  "78-bedok-nth-rd": {
+    "blk_no": "78",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460078",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "79-bedok-nth-rd": {
+    "blk_no": "79",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460079",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "8-bedok-sth-ave-2": {
+    "blk_no": "8",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460008",
+    "town": "BEDOK",
+    "year_completed": 1975,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "80-bedok-nth-rd": {
+    "blk_no": "80",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460080",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "803-chai-chee-rd": {
+    "blk_no": "803",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460803",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "804-chai-chee-rd": {
+    "blk_no": "804",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460804",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "805-chai-chee-rd": {
+    "blk_no": "805",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "460805",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "807a-chai-chee-rd": {
+    "blk_no": "807A",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461807",
+    "town": "BEDOK",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 84
+    }
+  },
+  "807b-chai-chee-rd": {
+    "blk_no": "807B",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "462807",
+    "town": "BEDOK",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "2room": 98,
+      "3room": 14,
+      "4room": 42
+    }
+  },
+  "807c-chai-chee-rd": {
+    "blk_no": "807C",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "463807",
+    "town": "BEDOK",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 70,
+      "5room": 28
+    }
+  },
+  "808a-chai-chee-rd": {
+    "blk_no": "808A",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "461808",
+    "town": "BEDOK",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 110
+    }
+  },
+  "808b-chai-chee-rd": {
+    "blk_no": "808B",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "462808",
+    "town": "BEDOK",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "2room": 98,
+      "3room": 14,
+      "4room": 42
+    }
+  },
+  "808c-chai-chee-rd": {
+    "blk_no": "808C",
+    "street": "CHAI CHEE RD",
+    "street_full": "CHAI CHEE ROAD",
+    "postal": "463808",
+    "town": "BEDOK",
+    "year_completed": 2015,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 98
+    }
+  },
+  "81-bedok-nth-rd": {
+    "blk_no": "81",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460081",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "82-bedok-nth-rd": {
+    "blk_no": "82",
+    "street": "BEDOK NTH RD",
+    "street_full": "BEDOK NORTH ROAD",
+    "postal": "460082",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "84-bedok-nth-st-4": {
+    "blk_no": "84",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "460084",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "3room": 62,
+      "4room": 8,
+      "5room": 1
+    }
+  },
+  "86-bedok-nth-st-4": {
+    "blk_no": "86",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "460086",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 6
+    }
+  },
+  "87-bedok-nth-st-4": {
+    "blk_no": "87",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "460087",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 15,
+    "sold_units_by_type": {
+      "3room": 11,
+      "4room": 4
+    }
+  },
+  "88-bedok-nth-st-4": {
+    "blk_no": "88",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "460088",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "3room": 40,
+      "4room": 6
+    }
+  },
+  "89-bedok-nth-st-4": {
+    "blk_no": "89",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "460089",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 40,
+      "4room": 8
+    }
+  },
+  "9-bedok-sth-ave-2": {
+    "blk_no": "9",
+    "street": "BEDOK STH AVE 2",
+    "street_full": "BEDOK SOUTH AVENUE 2",
+    "postal": "460009",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 92
+    }
+  },
+  "90-bedok-nth-st-4": {
+    "blk_no": "90",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "460090",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 86
+    }
+  },
+  "91-bedok-nth-st-4": {
+    "blk_no": "91",
+    "street": "BEDOK NTH ST 4",
+    "street_full": "BEDOK NORTH STREET 4",
+    "postal": "460091",
+    "town": "BEDOK",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 86
+    }
+  },
+  "92-bedok-nth-ave-4": {
+    "blk_no": "92",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460092",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 104,
+      "4room": 26
+    }
+  },
+  "93-bedok-nth-ave-4": {
+    "blk_no": "93",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460093",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "94b-bedok-nth-ave-4": {
+    "blk_no": "94B",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "461094",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "94c-bedok-nth-ave-4": {
+    "blk_no": "94C",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "462094",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "94d-bedok-nth-ave-4": {
+    "blk_no": "94D",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "463094",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "94e-bedok-nth-ave-4": {
+    "blk_no": "94E",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "464094",
+    "town": "BEDOK",
+    "year_completed": 1992,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "5room": 85
+    }
+  },
+  "95-bedok-nth-ave-4": {
+    "blk_no": "95",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460095",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 130
+    }
+  },
+  "96-bedok-nth-ave-4": {
+    "blk_no": "96",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460096",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "97-bedok-nth-ave-4": {
+    "blk_no": "97",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460097",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "98-bedok-nth-ave-4": {
+    "blk_no": "98",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460098",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "99-bedok-nth-ave-4": {
+    "blk_no": "99",
+    "street": "BEDOK NTH AVE 4",
+    "street_full": "BEDOK NORTH AVENUE 4",
+    "postal": "460099",
+    "town": "BEDOK",
+    "year_completed": 1978,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  }
+}

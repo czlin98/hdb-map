@@ -1,0 +1,4832 @@
+{
+  "101-gangsa-rd": {
+    "blk_no": "101",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670101",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "102-gangsa-rd": {
+    "blk_no": "102",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670102",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 36
+    }
+  },
+  "103-gangsa-rd": {
+    "blk_no": "103",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670103",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 7
+    }
+  },
+  "104-gangsa-rd": {
+    "blk_no": "104",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670104",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 36
+    }
+  },
+  "105-gangsa-rd": {
+    "blk_no": "105",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670105",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 16
+    }
+  },
+  "106-gangsa-rd": {
+    "blk_no": "106",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670106",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 36
+    }
+  },
+  "107-gangsa-rd": {
+    "blk_no": "107",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670107",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "108-gangsa-rd": {
+    "blk_no": "108",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670108",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 36
+    }
+  },
+  "109-gangsa-rd": {
+    "blk_no": "109",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670109",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 7
+    }
+  },
+  "110-gangsa-rd": {
+    "blk_no": "110",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670110",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 66
+    }
+  },
+  "111-gangsa-rd": {
+    "blk_no": "111",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670111",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 66
+    }
+  },
+  "112-pending-rd": {
+    "blk_no": "112",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670112",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 7
+    }
+  },
+  "113-pending-rd": {
+    "blk_no": "113",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670113",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "114-pending-rd": {
+    "blk_no": "114",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670114",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 7,
+      "5room": 1
+    }
+  },
+  "115-pending-rd": {
+    "blk_no": "115",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670115",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "116-pending-rd": {
+    "blk_no": "116",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670116",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "117-pending-rd": {
+    "blk_no": "117",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670117",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 7
+    }
+  },
+  "118-pending-rd": {
+    "blk_no": "118",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670118",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "119-pending-rd": {
+    "blk_no": "119",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670119",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 7
+    }
+  },
+  "120-pending-rd": {
+    "blk_no": "120",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670120",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 66
+    }
+  },
+  "121-pending-rd": {
+    "blk_no": "121",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670121",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 66
+    }
+  },
+  "122-pending-rd": {
+    "blk_no": "122",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670122",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 7
+    }
+  },
+  "123-pending-rd": {
+    "blk_no": "123",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670123",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "124-pending-rd": {
+    "blk_no": "124",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670124",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "125-pending-rd": {
+    "blk_no": "125",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670125",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "126-pending-rd": {
+    "blk_no": "126",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670126",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "127-pending-rd": {
+    "blk_no": "127",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670127",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 7
+    }
+  },
+  "128-pending-rd": {
+    "blk_no": "128",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670128",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "129-pending-rd": {
+    "blk_no": "129",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670129",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "130-cashew-rd": {
+    "blk_no": "130",
+    "street": "CASHEW RD",
+    "street_full": "CASHEW ROAD",
+    "postal": "670130",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "131-cashew-rd": {
+    "blk_no": "131",
+    "street": "CASHEW RD",
+    "street_full": "CASHEW ROAD",
+    "postal": "670131",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "132-cashew-rd": {
+    "blk_no": "132",
+    "street": "CASHEW RD",
+    "street_full": "CASHEW ROAD",
+    "postal": "670132",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "133-cashew-rd": {
+    "blk_no": "133",
+    "street": "CASHEW RD",
+    "street_full": "CASHEW ROAD",
+    "postal": "670133",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "133a-cashew-rd": {
+    "blk_no": "133A",
+    "street": "CASHEW RD",
+    "street_full": "CASHEW ROAD",
+    "postal": "671133",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "134-petir-rd": {
+    "blk_no": "134",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670134",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "135-cashew-rd": {
+    "blk_no": "135",
+    "street": "CASHEW RD",
+    "street_full": "CASHEW ROAD",
+    "postal": "670135",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "136-petir-rd": {
+    "blk_no": "136",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670136",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 38,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 11
+    }
+  },
+  "137-petir-rd": {
+    "blk_no": "137",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670137",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "138-petir-rd": {
+    "blk_no": "138",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670138",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "exec": 32
+    }
+  },
+  "139-petir-rd": {
+    "blk_no": "139",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670139",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "140-petir-rd": {
+    "blk_no": "140",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670140",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 28
+    }
+  },
+  "141-petir-rd": {
+    "blk_no": "141",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670141",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 28
+    }
+  },
+  "142-petir-rd": {
+    "blk_no": "142",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670142",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "143-petir-rd": {
+    "blk_no": "143",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670143",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "144-petir-rd": {
+    "blk_no": "144",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670144",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "145-petir-rd": {
+    "blk_no": "145",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670145",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 6
+    }
+  },
+  "146-gangsa-rd": {
+    "blk_no": "146",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670146",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 28
+    }
+  },
+  "147-gangsa-rd": {
+    "blk_no": "147",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670147",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "148-gangsa-rd": {
+    "blk_no": "148",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670148",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "149-petir-rd": {
+    "blk_no": "149",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670149",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 65,
+      "4room": 44
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "150-petir-rd": {
+    "blk_no": "150",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670150",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "151-petir-rd": {
+    "blk_no": "151",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670151",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "152-gangsa-rd": {
+    "blk_no": "152",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670152",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "153-gangsa-rd": {
+    "blk_no": "153",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670153",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "5room": 88
+    }
+  },
+  "154-gangsa-rd": {
+    "blk_no": "154",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670154",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "155-gangsa-rd": {
+    "blk_no": "155",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670155",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "exec": 96
+    }
+  },
+  "163-gangsa-rd": {
+    "blk_no": "163",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670163",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "164-gangsa-rd": {
+    "blk_no": "164",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670164",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "165-gangsa-rd": {
+    "blk_no": "165",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670165",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "4room": 71,
+      "5room": 72
+    }
+  },
+  "166-gangsa-rd": {
+    "blk_no": "166",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670166",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 93,
+      "5room": 67
+    }
+  },
+  "167-petir-rd": {
+    "blk_no": "167",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670167",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "4room": 103,
+      "5room": 69
+    }
+  },
+  "168-petir-rd": {
+    "blk_no": "168",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670168",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "170-gangsa-rd": {
+    "blk_no": "170",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670170",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 42
+    }
+  },
+  "171-gangsa-rd": {
+    "blk_no": "171",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670171",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 42
+    }
+  },
+  "172-gangsa-rd": {
+    "blk_no": "172",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670172",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 42
+    }
+  },
+  "173-gangsa-rd": {
+    "blk_no": "173",
+    "street": "GANGSA RD",
+    "street_full": "GANGSA ROAD",
+    "postal": "670173",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 38
+    }
+  },
+  "174-lompang-rd": {
+    "blk_no": "174",
+    "street": "LOMPANG RD",
+    "street_full": "LOMPANG ROAD",
+    "postal": "670174",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    }
+  },
+  "175-lompang-rd": {
+    "blk_no": "175",
+    "street": "LOMPANG RD",
+    "street_full": "LOMPANG ROAD",
+    "postal": "670175",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 48
+    }
+  },
+  "176-lompang-rd": {
+    "blk_no": "176",
+    "street": "LOMPANG RD",
+    "street_full": "LOMPANG ROAD",
+    "postal": "670176",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 42
+    }
+  },
+  "177-lompang-rd": {
+    "blk_no": "177",
+    "street": "LOMPANG RD",
+    "street_full": "LOMPANG ROAD",
+    "postal": "670177",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 94
+    }
+  },
+  "178-lompang-rd": {
+    "blk_no": "178",
+    "street": "LOMPANG RD",
+    "street_full": "LOMPANG ROAD",
+    "postal": "670178",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 94
+    }
+  },
+  "179-lompang-rd": {
+    "blk_no": "179",
+    "street": "LOMPANG RD",
+    "street_full": "LOMPANG ROAD",
+    "postal": "670179",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "5room": 150
+    }
+  },
+  "180-lompang-rd": {
+    "blk_no": "180",
+    "street": "LOMPANG RD",
+    "street_full": "LOMPANG ROAD",
+    "postal": "670180",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "exec": 135
+    }
+  },
+  "181-jelebu-rd": {
+    "blk_no": "181",
+    "street": "JELEBU RD",
+    "street_full": "JELEBU ROAD",
+    "postal": "670181",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 58,
+      "exec": 56
+    }
+  },
+  "182-jelebu-rd": {
+    "blk_no": "182",
+    "street": "JELEBU RD",
+    "street_full": "JELEBU ROAD",
+    "postal": "670182",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "4room": 85,
+      "5room": 82
+    }
+  },
+  "183-jelebu-rd": {
+    "blk_no": "183",
+    "street": "JELEBU RD",
+    "street_full": "JELEBU ROAD",
+    "postal": "670183",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 82,
+      "exec": 55
+    }
+  },
+  "184-jelebu-rd": {
+    "blk_no": "184",
+    "street": "JELEBU RD",
+    "street_full": "JELEBU ROAD",
+    "postal": "670184",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 85,
+      "exec": 57
+    }
+  },
+  "185-jelebu-rd": {
+    "blk_no": "185",
+    "street": "JELEBU RD",
+    "street_full": "JELEBU ROAD",
+    "postal": "670185",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 85
+    }
+  },
+  "201-petir-rd": {
+    "blk_no": "201",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670201",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 71
+    }
+  },
+  "202-petir-rd": {
+    "blk_no": "202",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670202",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 74
+    }
+  },
+  "203-petir-rd": {
+    "blk_no": "203",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670203",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 43
+    }
+  },
+  "204-petir-rd": {
+    "blk_no": "204",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670204",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 53
+    }
+  },
+  "205-petir-rd": {
+    "blk_no": "205",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670205",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "206-petir-rd": {
+    "blk_no": "206",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670206",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "207-petir-rd": {
+    "blk_no": "207",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670207",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "208-petir-rd": {
+    "blk_no": "208",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670208",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "209-petir-rd": {
+    "blk_no": "209",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670209",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 9,
+      "5room": 7
+    }
+  },
+  "210-petir-rd": {
+    "blk_no": "210",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670210",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "211-petir-rd": {
+    "blk_no": "211",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670211",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "212-petir-rd": {
+    "blk_no": "212",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670212",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "213-petir-rd": {
+    "blk_no": "213",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670213",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 48
+    }
+  },
+  "214-petir-rd": {
+    "blk_no": "214",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670214",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "215-petir-rd": {
+    "blk_no": "215",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670215",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 7,
+      "5room": 4
+    }
+  },
+  "216-petir-rd": {
+    "blk_no": "216",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670216",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "217-petir-rd": {
+    "blk_no": "217",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670217",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "218-petir-rd": {
+    "blk_no": "218",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670218",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "219-petir-rd": {
+    "blk_no": "219",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670219",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "220-petir-rd": {
+    "blk_no": "220",
+    "street": "PETIR RD",
+    "street_full": "PETIR ROAD",
+    "postal": "670220",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "221-pending-rd": {
+    "blk_no": "221",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670221",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "222-pending-rd": {
+    "blk_no": "222",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670222",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "3room": 9,
+      "4room": 7,
+      "5room": 6
+    }
+  },
+  "223-pending-rd": {
+    "blk_no": "223",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670223",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "224-pending-rd": {
+    "blk_no": "224",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670224",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 22,
+    "sold_units_by_type": {
+      "3room": 9,
+      "4room": 7,
+      "5room": 6
+    }
+  },
+  "225-pending-rd": {
+    "blk_no": "225",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670225",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "226-pending-rd": {
+    "blk_no": "226",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670226",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "227-pending-rd": {
+    "blk_no": "227",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670227",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "228-pending-rd": {
+    "blk_no": "228",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670228",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "229-pending-rd": {
+    "blk_no": "229",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670229",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "230-pending-rd": {
+    "blk_no": "230",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670230",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "231-pending-rd": {
+    "blk_no": "231",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670231",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 7,
+      "5room": 4
+    }
+  },
+  "232-pending-rd": {
+    "blk_no": "232",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670232",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "233-pending-rd": {
+    "blk_no": "233",
+    "street": "PENDING RD",
+    "street_full": "PENDING ROAD",
+    "postal": "670233",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "234-bt-panjang-ring-rd": {
+    "blk_no": "234",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670234",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 38
+    }
+  },
+  "235-bt-panjang-ring-rd": {
+    "blk_no": "235",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670235",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 20
+    }
+  },
+  "236-bt-panjang-ring-rd": {
+    "blk_no": "236",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670236",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "237-bt-panjang-ring-rd": {
+    "blk_no": "237",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670237",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 30
+    }
+  },
+  "238-bt-panjang-ring-rd": {
+    "blk_no": "238",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670238",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 39
+    }
+  },
+  "239-bt-panjang-ring-rd": {
+    "blk_no": "239",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670239",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "240-bt-panjang-ring-rd": {
+    "blk_no": "240",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670240",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "241-bt-panjang-ring-rd": {
+    "blk_no": "241",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670241",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "242-bt-panjang-ring-rd": {
+    "blk_no": "242",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670242",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "243-bt-panjang-ring-rd": {
+    "blk_no": "243",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670243",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 34
+    }
+  },
+  "244-bt-panjang-ring-rd": {
+    "blk_no": "244",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670244",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 40
+    }
+  },
+  "245-bt-panjang-ring-rd": {
+    "blk_no": "245",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670245",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 14,
+    "sold_units_by_type": {
+      "4room": 9,
+      "5room": 5
+    }
+  },
+  "246-bangkit-rd": {
+    "blk_no": "246",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670246",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 42
+    }
+  },
+  "248-bangkit-rd": {
+    "blk_no": "248",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670248",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 42,
+      "exec": 20
+    }
+  },
+  "249-bangkit-rd": {
+    "blk_no": "249",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670249",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "250-bangkit-rd": {
+    "blk_no": "250",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670250",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "251-bangkit-rd": {
+    "blk_no": "251",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670251",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66
+    }
+  },
+  "252-bangkit-rd": {
+    "blk_no": "252",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670252",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 44
+    }
+  },
+  "253-bangkit-rd": {
+    "blk_no": "253",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670253",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42,
+      "exec": 20
+    }
+  },
+  "254-bangkit-rd": {
+    "blk_no": "254",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670254",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "255-bangkit-rd": {
+    "blk_no": "255",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670255",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "257-bangkit-rd": {
+    "blk_no": "257",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670257",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "4room": 116,
+      "5room": 18
+    }
+  },
+  "259-bt-panjang-ring-rd": {
+    "blk_no": "259",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "671259",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 17
+    }
+  },
+  "270-bangkit-rd": {
+    "blk_no": "270",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670270",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 106,
+      "5room": 48
+    }
+  },
+  "271-bangkit-rd": {
+    "blk_no": "271",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670271",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 18,
+    "sold_units_by_type": {
+      "4room": 13,
+      "5room": 5
+    }
+  },
+  "272-bangkit-rd": {
+    "blk_no": "272",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670272",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "273-bangkit-rd": {
+    "blk_no": "273",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670273",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40,
+      "exec": 12
+    }
+  },
+  "274-bangkit-rd": {
+    "blk_no": "274",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670274",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "275-bangkit-rd": {
+    "blk_no": "275",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670275",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "276-bangkit-rd": {
+    "blk_no": "276",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670276",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40,
+      "exec": 16
+    }
+  },
+  "277-bangkit-rd": {
+    "blk_no": "277",
+    "street": "BANGKIT RD",
+    "street_full": "BANGKIT ROAD",
+    "postal": "670277",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 30
+    }
+  },
+  "401-fajar-rd": {
+    "blk_no": "401",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670401",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 27
+    }
+  },
+  "402-fajar-rd": {
+    "blk_no": "402",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670402",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 86,
+      "5room": 30
+    }
+  },
+  "403-fajar-rd": {
+    "blk_no": "403",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670403",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "404-fajar-rd": {
+    "blk_no": "404",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670404",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 30
+    }
+  },
+  "405-fajar-rd": {
+    "blk_no": "405",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670405",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "406-fajar-rd": {
+    "blk_no": "406",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670406",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 57
+    }
+  },
+  "407-fajar-rd": {
+    "blk_no": "407",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670407",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "408-fajar-rd": {
+    "blk_no": "408",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670408",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "409-saujana-rd": {
+    "blk_no": "409",
+    "street": "SAUJANA RD",
+    "street_full": "SAUJANA ROAD",
+    "postal": "670409",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 77,
+      "5room": 11
+    }
+  },
+  "410-saujana-rd": {
+    "blk_no": "410",
+    "street": "SAUJANA RD",
+    "street_full": "SAUJANA ROAD",
+    "postal": "670410",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "5room": 60
+    }
+  },
+  "411-saujana-rd": {
+    "blk_no": "411",
+    "street": "SAUJANA RD",
+    "street_full": "SAUJANA ROAD",
+    "postal": "670411",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "412-saujana-rd": {
+    "blk_no": "412",
+    "street": "SAUJANA RD",
+    "street_full": "SAUJANA ROAD",
+    "postal": "670412",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "413-saujana-rd": {
+    "blk_no": "413",
+    "street": "SAUJANA RD",
+    "street_full": "SAUJANA ROAD",
+    "postal": "670413",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "414-saujana-rd": {
+    "blk_no": "414",
+    "street": "SAUJANA RD",
+    "street_full": "SAUJANA ROAD",
+    "postal": "670414",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "4room": 17,
+      "5room": 3
+    }
+  },
+  "415-saujana-rd": {
+    "blk_no": "415",
+    "street": "SAUJANA RD",
+    "street_full": "SAUJANA ROAD",
+    "postal": "670415",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "416-saujana-rd": {
+    "blk_no": "416",
+    "street": "SAUJANA RD",
+    "street_full": "SAUJANA ROAD",
+    "postal": "670416",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "417-fajar-rd": {
+    "blk_no": "417",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670417",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 18
+    }
+  },
+  "418-fajar-rd": {
+    "blk_no": "418",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670418",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 75
+    }
+  },
+  "419-fajar-rd": {
+    "blk_no": "419",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670419",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 71,
+      "5room": 55
+    }
+  },
+  "420-fajar-rd": {
+    "blk_no": "420",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670420",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 22
+    }
+  },
+  "421-fajar-rd": {
+    "blk_no": "421",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670421",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 21
+    }
+  },
+  "422-fajar-rd": {
+    "blk_no": "422",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670422",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "423-fajar-rd": {
+    "blk_no": "423",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670423",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "5room": 64
+    }
+  },
+  "424-fajar-rd": {
+    "blk_no": "424",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670424",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "425-fajar-rd": {
+    "blk_no": "425",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670425",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "5room": 64
+    }
+  },
+  "426-fajar-rd": {
+    "blk_no": "426",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670426",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "427-bt-panjang-ring-rd": {
+    "blk_no": "427",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670427",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "5room": 64
+    }
+  },
+  "428-bt-panjang-ring-rd": {
+    "blk_no": "428",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670428",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "429-bt-panjang-ring-rd": {
+    "blk_no": "429",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670429",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "5room": 64
+    }
+  },
+  "430-bt-panjang-ring-rd": {
+    "blk_no": "430",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670430",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 36
+    }
+  },
+  "431-bt-panjang-ring-rd": {
+    "blk_no": "431",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670431",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "432-bt-panjang-ring-rd": {
+    "blk_no": "432",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670432",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "433-bt-panjang-ring-rd": {
+    "blk_no": "433",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670433",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "434-bt-panjang-ring-rd": {
+    "blk_no": "434",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670434",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 36
+    }
+  },
+  "435-bt-panjang-ring-rd": {
+    "blk_no": "435",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670435",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "436-fajar-rd": {
+    "blk_no": "436",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670436",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "437-fajar-rd": {
+    "blk_no": "437",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670437",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 39
+    }
+  },
+  "438-fajar-rd": {
+    "blk_no": "438",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670438",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "439-fajar-rd": {
+    "blk_no": "439",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670439",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "440-fajar-rd": {
+    "blk_no": "440",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670440",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 48
+    }
+  },
+  "441-fajar-rd": {
+    "blk_no": "441",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670441",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 40
+    }
+  },
+  "442-fajar-rd": {
+    "blk_no": "442",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670442",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 24
+    }
+  },
+  "442b-fajar-rd": {
+    "blk_no": "442B",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "672442",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 78,
+      "4room": 26
+    }
+  },
+  "442c-fajar-rd": {
+    "blk_no": "442C",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "673442",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 32
+    }
+  },
+  "442d-fajar-rd": {
+    "blk_no": "442D",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "674442",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 64
+    }
+  },
+  "443a-fajar-rd": {
+    "blk_no": "443A",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "671443",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "443b-fajar-rd": {
+    "blk_no": "443B",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "672443",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 90
+    }
+  },
+  "443c-fajar-rd": {
+    "blk_no": "443C",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "673443",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 70
+    }
+  },
+  "443d-fajar-rd": {
+    "blk_no": "443D",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "674443",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 68
+    }
+  },
+  "447-bt-panjang-ring-rd": {
+    "blk_no": "447",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670447",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 56
+    }
+  },
+  "448-bt-panjang-ring-rd": {
+    "blk_no": "448",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670448",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 62
+    }
+  },
+  "449-bt-panjang-ring-rd": {
+    "blk_no": "449",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670449",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 66
+    }
+  },
+  "450-bt-panjang-ring-rd": {
+    "blk_no": "450",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670450",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 60
+    }
+  },
+  "451-fajar-rd": {
+    "blk_no": "451",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670451",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "5room": 26,
+      "exec": 52
+    }
+  },
+  "452-fajar-rd": {
+    "blk_no": "452",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670452",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "5room": 26,
+      "exec": 52
+    }
+  },
+  "453-fajar-rd": {
+    "blk_no": "453",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670453",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "5room": 26,
+      "exec": 52
+    }
+  },
+  "454-fajar-rd": {
+    "blk_no": "454",
+    "street": "FAJAR RD",
+    "street_full": "FAJAR ROAD",
+    "postal": "670454",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {
+      "2room": 38,
+      "3room": 108,
+      "studio_apartment": 118
+    }
+  },
+  "455-segar-rd": {
+    "blk_no": "455",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670455",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 82
+    }
+  },
+  "456-segar-rd": {
+    "blk_no": "456",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670456",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 15,
+      "4room": 75
+    }
+  },
+  "457-segar-rd": {
+    "blk_no": "457",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670457",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2011,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 15,
+      "4room": 75
+    }
+  },
+  "458-segar-rd": {
+    "blk_no": "458",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670458",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 90
+    }
+  },
+  "459-segar-rd": {
+    "blk_no": "459",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670459",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 90
+    }
+  },
+  "460-segar-rd": {
+    "blk_no": "460",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670460",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 60
+    }
+  },
+  "461-segar-rd": {
+    "blk_no": "461",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670461",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "465-segar-rd": {
+    "blk_no": "465",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670465",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 71,
+      "exec": 14
+    }
+  },
+  "466-segar-rd": {
+    "blk_no": "466",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670466",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 43,
+      "exec": 28
+    }
+  },
+  "467-segar-rd": {
+    "blk_no": "467",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670467",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 29,
+      "exec": 28
+    }
+  },
+  "468-segar-rd": {
+    "blk_no": "468",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670468",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 56,
+      "exec": 13
+    }
+  },
+  "469-segar-rd": {
+    "blk_no": "469",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670469",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 56,
+      "exec": 13
+    }
+  },
+  "470-segar-rd": {
+    "blk_no": "470",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670470",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 29,
+      "exec": 28
+    }
+  },
+  "471-segar-rd": {
+    "blk_no": "471",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670471",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 43,
+      "exec": 28
+    }
+  },
+  "472-segar-rd": {
+    "blk_no": "472",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670472",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 71,
+      "exec": 14
+    }
+  },
+  "473-segar-rd": {
+    "blk_no": "473",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670473",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 54,
+      "exec": 22
+    }
+  },
+  "474-segar-rd": {
+    "blk_no": "474",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670474",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 54,
+      "exec": 22
+    }
+  },
+  "475-segar-rd": {
+    "blk_no": "475",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670475",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 45,
+      "exec": 15
+    }
+  },
+  "476-segar-rd": {
+    "blk_no": "476",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670476",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 47
+    }
+  },
+  "477-segar-rd": {
+    "blk_no": "477",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670477",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 47
+    }
+  },
+  "478-segar-rd": {
+    "blk_no": "478",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670478",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 20,
+      "exec": 36
+    }
+  },
+  "479-segar-rd": {
+    "blk_no": "479",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670479",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 20,
+      "exec": 36
+    }
+  },
+  "480-segar-rd": {
+    "blk_no": "480",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670480",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 47
+    }
+  },
+  "481-segar-rd": {
+    "blk_no": "481",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670481",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 47
+    }
+  },
+  "482-segar-rd": {
+    "blk_no": "482",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670482",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 45,
+      "exec": 15
+    }
+  },
+  "483-segar-rd": {
+    "blk_no": "483",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670483",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 54,
+      "exec": 22
+    }
+  },
+  "484-segar-rd": {
+    "blk_no": "484",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670484",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 54,
+      "exec": 22
+    }
+  },
+  "485-segar-rd": {
+    "blk_no": "485",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670485",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 56
+    }
+  },
+  "486-segar-rd": {
+    "blk_no": "486",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670486",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 84
+    }
+  },
+  "487-segar-rd": {
+    "blk_no": "487",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 56
+    }
+  },
+  "488-segar-rd": {
+    "blk_no": "488",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "670488",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "2room": 115,
+      "3room": 23
+    }
+  },
+  "501-jelapang-rd": {
+    "blk_no": "501",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 126,
+      "5room": 54
+    }
+  },
+  "502-jelapang-rd": {
+    "blk_no": "502",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670502",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 186,
+    "sold_units_by_type": {
+      "4room": 132,
+      "5room": 54
+    }
+  },
+  "503-jelapang-rd": {
+    "blk_no": "503",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670503",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "exec": 132
+    }
+  },
+  "504-jelapang-rd": {
+    "blk_no": "504",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670504",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 58
+    }
+  },
+  "505-jelapang-rd": {
+    "blk_no": "505",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 181,
+    "sold_units_by_type": {
+      "4room": 131,
+      "5room": 50
+    }
+  },
+  "506-jelapang-rd": {
+    "blk_no": "506",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670506",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 30
+    }
+  },
+  "507-jelapang-rd": {
+    "blk_no": "507",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 60
+    }
+  },
+  "508-jelapang-rd": {
+    "blk_no": "508",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670508",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "4room": 138
+    }
+  },
+  "509-jelapang-rd": {
+    "blk_no": "509",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670509",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 84
+    }
+  },
+  "510-jelapang-rd": {
+    "blk_no": "510",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670510",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "511-jelapang-rd": {
+    "blk_no": "511",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670511",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    }
+  },
+  "512-jelapang-rd": {
+    "blk_no": "512",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670512",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 26
+    }
+  },
+  "513-jelapang-rd": {
+    "blk_no": "513",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670513",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 28,
+      "exec": 14
+    }
+  },
+  "514-jelapang-rd": {
+    "blk_no": "514",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670514",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 24
+    }
+  },
+  "515-jelapang-rd": {
+    "blk_no": "515",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670515",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 39
+    }
+  },
+  "516-jelapang-rd": {
+    "blk_no": "516",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670516",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 57
+    }
+  },
+  "517-jelapang-rd": {
+    "blk_no": "517",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670517",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 43
+    }
+  },
+  "518-jelapang-rd": {
+    "blk_no": "518",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670518",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 54
+    }
+  },
+  "519-jelapang-rd": {
+    "blk_no": "519",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670519",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 32,
+      "exec": 20
+    }
+  },
+  "520-jelapang-rd": {
+    "blk_no": "520",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670520",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 46,
+      "exec": 19
+    }
+  },
+  "521-jelapang-rd": {
+    "blk_no": "521",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670521",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 32,
+      "exec": 20
+    }
+  },
+  "522-jelapang-rd": {
+    "blk_no": "522",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 46,
+      "exec": 19
+    }
+  },
+  "523-jelapang-rd": {
+    "blk_no": "523",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670523",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 32,
+      "exec": 20
+    }
+  },
+  "524-jelapang-rd": {
+    "blk_no": "524",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670524",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 40
+    }
+  },
+  "525-jelapang-rd": {
+    "blk_no": "525",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670525",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 32,
+      "exec": 20
+    }
+  },
+  "526-jelapang-rd": {
+    "blk_no": "526",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670526",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 24
+    }
+  },
+  "527-jelapang-rd": {
+    "blk_no": "527",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670527",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 32,
+      "exec": 20
+    }
+  },
+  "528-jelapang-rd": {
+    "blk_no": "528",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670528",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "exec": 86
+    }
+  },
+  "529-jelapang-rd": {
+    "blk_no": "529",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670529",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 27,
+      "exec": 16
+    }
+  },
+  "530-jelapang-rd": {
+    "blk_no": "530",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670530",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 22,
+      "exec": 44
+    }
+  },
+  "531-jelapang-rd": {
+    "blk_no": "531",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670531",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 27,
+      "exec": 16
+    }
+  },
+  "532-jelapang-rd": {
+    "blk_no": "532",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670532",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "exec": 108
+    }
+  },
+  "533-bt-panjang-ring-rd": {
+    "blk_no": "533",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670533",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 65
+    }
+  },
+  "534-jelapang-rd": {
+    "blk_no": "534",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670534",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 61
+    }
+  },
+  "535-bt-panjang-ring-rd": {
+    "blk_no": "535",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670535",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 65
+    }
+  },
+  "536-jelapang-rd": {
+    "blk_no": "536",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670536",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 73
+    }
+  },
+  "537-bt-panjang-ring-rd": {
+    "blk_no": "537",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 65
+    }
+  },
+  "538-jelapang-rd": {
+    "blk_no": "538",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670538",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 73
+    }
+  },
+  "539-bt-panjang-ring-rd": {
+    "blk_no": "539",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670539",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 63
+    }
+  },
+  "540-jelapang-rd": {
+    "blk_no": "540",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670540",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 61
+    }
+  },
+  "541-bt-panjang-ring-rd": {
+    "blk_no": "541",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670541",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 63
+    }
+  },
+  "542-jelapang-rd": {
+    "blk_no": "542",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670542",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "exec": 94
+    }
+  },
+  "543-jelapang-rd": {
+    "blk_no": "543",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670543",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "exec": 94
+    }
+  },
+  "544-jelapang-rd": {
+    "blk_no": "544",
+    "street": "JELAPANG RD",
+    "street_full": "JELAPANG ROAD",
+    "postal": "670544",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "exec": 94
+    }
+  },
+  "545-bt-panjang-ring-rd": {
+    "blk_no": "545",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670545",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 83
+    }
+  },
+  "546a-segar-rd": {
+    "blk_no": "546A",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "546b-segar-rd": {
+    "blk_no": "546B",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "672546",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "546c-segar-rd": {
+    "blk_no": "546C",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "673546",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 80
+    }
+  },
+  "547a-segar-rd": {
+    "blk_no": "547A",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "671547",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 31
+    }
+  },
+  "547b-segar-rd": {
+    "blk_no": "547B",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "672547",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 22
+    }
+  },
+  "547c-segar-rd": {
+    "blk_no": "547C",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "673547",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 64,
+      "3room": 48
+    }
+  },
+  "547d-segar-rd": {
+    "blk_no": "547D",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "674547",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 47,
+      "3room": 64
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "548a-segar-rd": {
+    "blk_no": "548A",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "671548",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 68
+    }
+  },
+  "548b-segar-rd": {
+    "blk_no": "548B",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "672548",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 51,
+      "4room": 68
+    }
+  },
+  "549a-segar-rd": {
+    "blk_no": "549A",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "671549",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 81
+    }
+  },
+  "549b-segar-rd": {
+    "blk_no": "549B",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "672549",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 81
+    }
+  },
+  "550a-segar-rd": {
+    "blk_no": "550A",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "671550",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 85
+    }
+  },
+  "550b-segar-rd": {
+    "blk_no": "550B",
+    "street": "SEGAR RD",
+    "street_full": "SEGAR ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 51
+    }
+  },
+  "601-senja-rd": {
+    "blk_no": "601",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670601",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 73
+    }
+  },
+  "602-senja-rd": {
+    "blk_no": "602",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670602",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 78
+    }
+  },
+  "603-senja-rd": {
+    "blk_no": "603",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670603",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "4room": 94,
+      "5room": 58
+    }
+  },
+  "604-senja-rd": {
+    "blk_no": "604",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670604",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 108
+    }
+  },
+  "605-senja-rd": {
+    "blk_no": "605",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670605",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 116
+    }
+  },
+  "606-senja-rd": {
+    "blk_no": "606",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670606",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 116
+    }
+  },
+  "607-senja-rd": {
+    "blk_no": "607",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670607",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "exec": 126
+    }
+  },
+  "608-senja-rd": {
+    "blk_no": "608",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670608",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "609-bt-panjang-ring-rd": {
+    "blk_no": "609",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670609",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "4room": 91,
+      "5room": 81
+    }
+  },
+  "610-senja-rd": {
+    "blk_no": "610",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670610",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "611-bt-panjang-ring-rd": {
+    "blk_no": "611",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670611",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 80
+    }
+  },
+  "612-senja-rd": {
+    "blk_no": "612",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670612",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 43,
+      "5room": 80
+    }
+  },
+  "613-bt-panjang-ring-rd": {
+    "blk_no": "613",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670613",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 80
+    }
+  },
+  "614-senja-rd": {
+    "blk_no": "614",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670614",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 43,
+      "5room": 72
+    }
+  },
+  "615-bt-panjang-ring-rd": {
+    "blk_no": "615",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670615",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 80
+    }
+  },
+  "616-senja-rd": {
+    "blk_no": "616",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670616",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 117
+    }
+  },
+  "617-bt-panjang-ring-rd": {
+    "blk_no": "617",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670617",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "618-senja-rd": {
+    "blk_no": "618",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670618",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 117
+    }
+  },
+  "619-bt-panjang-ring-rd": {
+    "blk_no": "619",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670619",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 38
+    }
+  },
+  "620-bt-panjang-ring-rd": {
+    "blk_no": "620",
+    "street": "BT PANJANG RING RD",
+    "street_full": "BUKIT PANJANG RING ROAD",
+    "postal": "670620",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 38
+    }
+  },
+  "621-senja-rd": {
+    "blk_no": "621",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670621",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 46,
+      "5room": 76
+    }
+  },
+  "622-senja-rd": {
+    "blk_no": "622",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670622",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 76
+    }
+  },
+  "623-senja-rd": {
+    "blk_no": "623",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670623",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 76
+    }
+  },
+  "624-senja-rd": {
+    "blk_no": "624",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670624",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 76
+    }
+  },
+  "625-senja-rd": {
+    "blk_no": "625",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670625",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 125,
+      "5room": 109
+    }
+  },
+  "626-senja-rd": {
+    "blk_no": "626",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670626",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 126,
+      "5room": 108
+    }
+  },
+  "627-senja-rd": {
+    "blk_no": "627",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670627",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 126,
+      "5room": 108
+    }
+  },
+  "629-senja-rd": {
+    "blk_no": "629",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670629",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 233,
+    "sold_units_by_type": {
+      "4room": 121,
+      "5room": 112
+    }
+  },
+  "630-senja-rd": {
+    "blk_no": "630",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670630",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 122,
+      "5room": 112
+    }
+  },
+  "631-senja-rd": {
+    "blk_no": "631",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2002,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 232,
+    "sold_units_by_type": {
+      "4room": 121,
+      "5room": 111
+    }
+  },
+  "632a-senja-rd": {
+    "blk_no": "632A",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "NIL",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2011,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 109,
+      "2room": 54
+    }
+  },
+  "632b-senja-rd": {
+    "blk_no": "632B",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "672632",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2011,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 114,
+      "2room": 20
+    }
+  },
+  "633a-senja-rd": {
+    "blk_no": "633A",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "671633",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2012,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "2room": 48,
+      "3room": 47,
+      "4room": 24
+    }
+  },
+  "633b-senja-rd": {
+    "blk_no": "633B",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "672633",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2012,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 118
+    }
+  },
+  "633c-senja-rd": {
+    "blk_no": "633C",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "673633",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2012,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 118
+    }
+  },
+  "633d-senja-rd": {
+    "blk_no": "633D",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "674633",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2012,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "2room": 48,
+      "3room": 47,
+      "4room": 24
+    }
+  },
+  "634a-senja-rd": {
+    "blk_no": "634A",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "671634",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 24,
+      "4room": 44,
+      "studio_apartment": 108
+    }
+  },
+  "634b-senja-rd": {
+    "blk_no": "634B",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "672634",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "2room": 31,
+      "4room": 44,
+      "studio_apartment": 91
+    }
+  },
+  "635a-senja-rd": {
+    "blk_no": "635A",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "671635",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 34,
+    "total_dwelling_units": 221,
+    "sold_units_by_type": {
+      "4room": 95,
+      "5room": 126
+    }
+  },
+  "635b-senja-rd": {
+    "blk_no": "635B",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "672635",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 28,
+    "total_dwelling_units": 178,
+    "sold_units_by_type": {
+      "4room": 130,
+      "5room": 48
+    }
+  },
+  "636a-senja-rd": {
+    "blk_no": "636A",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "671636",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 29,
+    "total_dwelling_units": 224,
+    "sold_units_by_type": {
+      "2room": 112,
+      "3room": 112
+    }
+  },
+  "636b-senja-rd": {
+    "blk_no": "636B",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "672636",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 171,
+    "sold_units_by_type": {
+      "4room": 171
+    }
+  },
+  "636c-senja-rd": {
+    "blk_no": "636C",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "673636",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "4room": 182
+    }
+  },
+  "638a-senja-cl": {
+    "blk_no": "638A",
+    "street": "SENJA CL",
+    "street_full": "SENJA CLOSE",
+    "postal": "671638",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 33,
+    "total_dwelling_units": 230,
+    "sold_units_by_type": {
+      "4room": 106,
+      "5room": 124
+    }
+  },
+  "640a-senja-cl": {
+    "blk_no": "640A",
+    "street": "SENJA CL",
+    "street_full": "SENJA CLOSE",
+    "postal": "671640",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 38,
+    "total_dwelling_units": 418,
+    "sold_units_by_type": {
+      "2room": 202,
+      "3room": 68,
+      "4room": 148
+    }
+  },
+  "641a-senja-cl": {
+    "blk_no": "641A",
+    "street": "SENJA CL",
+    "street_full": "SENJA CLOSE",
+    "postal": "671641",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "2room": 51,
+      "3room": 17,
+      "4room": 66
+    }
+  },
+  "643a-senja-cl": {
+    "blk_no": "643A",
+    "street": "SENJA CL",
+    "street_full": "SENJA CLOSE",
+    "postal": "671643",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 21
+    }
+  },
+  "643b-senja-cl": {
+    "blk_no": "643B",
+    "street": "SENJA CL",
+    "street_full": "SENJA CLOSE",
+    "postal": "672643",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 58
+    }
+  },
+  "646a-senja-cl": {
+    "blk_no": "646A",
+    "street": "SENJA CL",
+    "street_full": "SENJA CLOSE",
+    "postal": "671646",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 202,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 101,
+      "2room": 101
+    }
+  },
+  "647a-senja-cl": {
+    "blk_no": "647A",
+    "street": "SENJA CL",
+    "street_full": "SENJA CLOSE",
+    "postal": "671647",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 304,
+    "sold_units_by_type": {
+      "2room": 234,
+      "3room": 70
+    }
+  },
+  "647b-senja-cl": {
+    "blk_no": "647B",
+    "street": "SENJA CL",
+    "street_full": "SENJA CLOSE",
+    "postal": "672647",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 269,
+    "sold_units_by_type": {
+      "2room": 166,
+      "3room": 35,
+      "4room": 68
+    }
+  },
+  "650-senja-link": {
+    "blk_no": "650",
+    "street": "SENJA LINK",
+    "street_full": "SENJA LINK",
+    "postal": "670650",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 17,
+      "5room": 49,
+      "exec": 38
+    }
+  },
+  "651-senja-link": {
+    "blk_no": "651",
+    "street": "SENJA LINK",
+    "street_full": "SENJA LINK",
+    "postal": "670651",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 48,
+      "exec": 38
+    }
+  },
+  "652-senja-link": {
+    "blk_no": "652",
+    "street": "SENJA LINK",
+    "street_full": "SENJA LINK",
+    "postal": "670652",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 48,
+      "exec": 38
+    }
+  },
+  "653-senja-link": {
+    "blk_no": "653",
+    "street": "SENJA LINK",
+    "street_full": "SENJA LINK",
+    "postal": "670653",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "5room": 36,
+      "exec": 38
+    }
+  },
+  "654-senja-rd": {
+    "blk_no": "654",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670654",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 17,
+      "5room": 47,
+      "exec": 38
+    }
+  },
+  "655-senja-rd": {
+    "blk_no": "655",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670655",
+    "town": "BUKIT PANJANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 17,
+      "5room": 47,
+      "exec": 38
+    }
+  },
+  "656-senja-rd": {
+    "blk_no": "656",
+    "street": "SENJA RD",
+    "street_full": "SENJA ROAD",
+    "postal": "670656",
+    "town": "BUKIT PANJANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "5room": 36,
+      "exec": 38
+    }
+  }
+}

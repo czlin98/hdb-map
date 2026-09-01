@@ -1,0 +1,3306 @@
+{
+  "101-bishan-st-12": {
+    "blk_no": "101",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570101",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "102-bishan-st-12": {
+    "blk_no": "102",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570102",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "103-bishan-st-12": {
+    "blk_no": "103",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570103",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "104-bishan-st-12": {
+    "blk_no": "104",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570104",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "105-bishan-st-12": {
+    "blk_no": "105",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570105",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 50
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "106-bishan-st-12": {
+    "blk_no": "106",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570106",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "107-bishan-st-12": {
+    "blk_no": "107",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570107",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "108-bishan-st-12": {
+    "blk_no": "108",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570108",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "109-bishan-st-12": {
+    "blk_no": "109",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570109",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "110-bishan-st-12": {
+    "blk_no": "110",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570110",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 50
+    }
+  },
+  "111-bishan-st-12": {
+    "blk_no": "111",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570111",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "112-bishan-st-12": {
+    "blk_no": "112",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570112",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "113-bishan-st-12": {
+    "blk_no": "113",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570113",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "114-bishan-st-12": {
+    "blk_no": "114",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570114",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "115-bishan-st-12": {
+    "blk_no": "115",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570115",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 50,
+      "5room": 1
+    }
+  },
+  "116-bishan-st-12": {
+    "blk_no": "116",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570116",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 64,
+      "4room": 46
+    }
+  },
+  "117-bishan-st-12": {
+    "blk_no": "117",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570117",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "118-bishan-st-12": {
+    "blk_no": "118",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570118",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "119-bishan-st-12": {
+    "blk_no": "119",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570119",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "120-bishan-st-12": {
+    "blk_no": "120",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570120",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 7
+    }
+  },
+  "121-bishan-st-12": {
+    "blk_no": "121",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570121",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 18,
+      "4room": 7
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "122-bishan-st-12": {
+    "blk_no": "122",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570122",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "123-bishan-st-12": {
+    "blk_no": "123",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570123",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "124-bishan-st-12": {
+    "blk_no": "124",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570124",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "125-bishan-st-12": {
+    "blk_no": "125",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570125",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "126-bishan-st-12": {
+    "blk_no": "126",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570126",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "127-bishan-st-12": {
+    "blk_no": "127",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570127",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 30
+    }
+  },
+  "128-bishan-st-12": {
+    "blk_no": "128",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570128",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "129-bishan-st-12": {
+    "blk_no": "129",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570129",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "130-bishan-st-12": {
+    "blk_no": "130",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570130",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "131-bishan-st-12": {
+    "blk_no": "131",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570131",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "132-bishan-st-12": {
+    "blk_no": "132",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570132",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 7
+    }
+  },
+  "133-bishan-st-12": {
+    "blk_no": "133",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570133",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 7
+    }
+  },
+  "134-bishan-st-12": {
+    "blk_no": "134",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570134",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "135-bishan-st-12": {
+    "blk_no": "135",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570135",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "136-bishan-st-12": {
+    "blk_no": "136",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570136",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 36
+    }
+  },
+  "137-bishan-st-12": {
+    "blk_no": "137",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570137",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "multigen": 48
+    }
+  },
+  "138-bishan-st-12": {
+    "blk_no": "138",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570138",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 53
+    }
+  },
+  "139-bishan-st-12": {
+    "blk_no": "139",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570139",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "140-bishan-st-12": {
+    "blk_no": "140",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570140",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 40
+    }
+  },
+  "141-bishan-st-12": {
+    "blk_no": "141",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570141",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 54
+    }
+  },
+  "142-bishan-st-12": {
+    "blk_no": "142",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570142",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 54
+    }
+  },
+  "143-bishan-st-12": {
+    "blk_no": "143",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570143",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "144-bishan-st-12": {
+    "blk_no": "144",
+    "street": "BISHAN ST 12",
+    "street_full": "BISHAN STREET 12",
+    "postal": "570144",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 40
+    }
+  },
+  "145-bishan-st-11": {
+    "blk_no": "145",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570145",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 41
+    }
+  },
+  "146-bishan-st-11": {
+    "blk_no": "146",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570146",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 39
+    }
+  },
+  "147-bishan-st-11": {
+    "blk_no": "147",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570147",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 28
+    }
+  },
+  "148-bishan-st-11": {
+    "blk_no": "148",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570148",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "3room": 18,
+      "4room": 18,
+      "multigen": 45
+    }
+  },
+  "149-bishan-st-11": {
+    "blk_no": "149",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570149",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 40
+    }
+  },
+  "150-bishan-st-11": {
+    "blk_no": "150",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570150",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 19
+    }
+  },
+  "150a-bishan-st-11": {
+    "blk_no": "150A",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "571150",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 19
+    }
+  },
+  "151-bishan-st-11": {
+    "blk_no": "151",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570151",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 34,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 18
+    }
+  },
+  "152-bishan-st-11": {
+    "blk_no": "152",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570152",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 17,
+    "sold_units_by_type": {
+      "3room": 9,
+      "4room": 8
+    }
+  },
+  "152b-bishan-st-11": {
+    "blk_no": "152B",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "572152",
+    "town": "BISHAN",
+    "year_completed": 2010,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 39,
+      "studio_apartment": 137
+    }
+  },
+  "153-bishan-st-13": {
+    "blk_no": "153",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570153",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 56
+    }
+  },
+  "154-bishan-st-13": {
+    "blk_no": "154",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570154",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 40
+    }
+  },
+  "155-bishan-st-13": {
+    "blk_no": "155",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570155",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 102
+    }
+  },
+  "156-bishan-st-13": {
+    "blk_no": "156",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570156",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 102
+    }
+  },
+  "156a-bishan-st-11": {
+    "blk_no": "156A",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "571156",
+    "town": "BISHAN",
+    "year_completed": 2025,
+    "max_floor_lvl": 33,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "4room": 182
+    }
+  },
+  "156b-bishan-st-11": {
+    "blk_no": "156B",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "572156",
+    "town": "BISHAN",
+    "year_completed": 2025,
+    "max_floor_lvl": 33,
+    "total_dwelling_units": 290,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 80,
+      "4room": 90
+    }
+  },
+  "157-bishan-st-13": {
+    "blk_no": "157",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570157",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 102
+    }
+  },
+  "158-bishan-st-13": {
+    "blk_no": "158",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570158",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 4,
+      "5room": 94
+    }
+  },
+  "159-bishan-st-13": {
+    "blk_no": "159",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570159",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "exec": 20
+    }
+  },
+  "160-bishan-st-13": {
+    "blk_no": "160",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570160",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "161-bishan-st-13": {
+    "blk_no": "161",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570161",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 4,
+      "5room": 94
+    }
+  },
+  "162-bishan-st-13": {
+    "blk_no": "162",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570162",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "163-bishan-st-13": {
+    "blk_no": "163",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570163",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 4,
+      "5room": 94
+    }
+  },
+  "164-bishan-st-13": {
+    "blk_no": "164",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570164",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 102
+    }
+  },
+  "165-bishan-st-13": {
+    "blk_no": "165",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570165",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 102
+    }
+  },
+  "166-bishan-st-13": {
+    "blk_no": "166",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570166",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 40
+    }
+  },
+  "167-bishan-st-13": {
+    "blk_no": "167",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570167",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 40
+    }
+  },
+  "168-bishan-st-13": {
+    "blk_no": "168",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570168",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 68,
+      "exec": 8
+    }
+  },
+  "169-bishan-st-13": {
+    "blk_no": "169",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570169",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "170-bishan-st-13": {
+    "blk_no": "170",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570170",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 48
+    }
+  },
+  "171-bishan-st-13": {
+    "blk_no": "171",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570171",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 79,
+      "4room": 40
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "172-bishan-st-13": {
+    "blk_no": "172",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570172",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 34
+    }
+  },
+  "173-bishan-st-13": {
+    "blk_no": "173",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570173",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 68,
+      "exec": 8
+    }
+  },
+  "174-bishan-st-13": {
+    "blk_no": "174",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570174",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "175-bishan-st-13": {
+    "blk_no": "175",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570175",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 40
+    }
+  },
+  "176-bishan-st-13": {
+    "blk_no": "176",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570176",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 40
+    }
+  },
+  "177-bishan-st-13": {
+    "blk_no": "177",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570177",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 64,
+      "5room": 36
+    }
+  },
+  "178-bishan-st-13": {
+    "blk_no": "178",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570178",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 71,
+      "5room": 53
+    }
+  },
+  "179-bishan-st-13": {
+    "blk_no": "179",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570179",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "180-bishan-st-13": {
+    "blk_no": "180",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570180",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 44
+    }
+  },
+  "181-bishan-st-13": {
+    "blk_no": "181",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570181",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 39
+    }
+  },
+  "182-bishan-st-13": {
+    "blk_no": "182",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570182",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 43,
+      "5room": 41
+    }
+  },
+  "183-bishan-st-13": {
+    "blk_no": "183",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570183",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 68,
+      "exec": 8
+    }
+  },
+  "184-bishan-st-13": {
+    "blk_no": "184",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570184",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 44
+    }
+  },
+  "185-bishan-st-13": {
+    "blk_no": "185",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570185",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 44
+    }
+  },
+  "186-bishan-st-13": {
+    "blk_no": "186",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570186",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "187-bishan-st-13": {
+    "blk_no": "187",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570187",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "188-bishan-st-13": {
+    "blk_no": "188",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570188",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 44
+    }
+  },
+  "189-bishan-st-13": {
+    "blk_no": "189",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570189",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 44
+    }
+  },
+  "190-bishan-st-13": {
+    "blk_no": "190",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570190",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 68,
+      "exec": 8
+    }
+  },
+  "191-bishan-st-13": {
+    "blk_no": "191",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570191",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 43,
+      "5room": 41
+    }
+  },
+  "192-bishan-st-13": {
+    "blk_no": "192",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570192",
+    "town": "BISHAN",
+    "year_completed": 1987,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "193-bishan-st-13": {
+    "blk_no": "193",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570193",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 44
+    }
+  },
+  "194-bishan-st-13": {
+    "blk_no": "194",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570194",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "195-bishan-st-13": {
+    "blk_no": "195",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570195",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 44
+    }
+  },
+  "196-bishan-st-13": {
+    "blk_no": "196",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570196",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 48
+    }
+  },
+  "197-bishan-st-13": {
+    "blk_no": "197",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "570197",
+    "town": "BISHAN",
+    "year_completed": 1986,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 33
+    }
+  },
+  "201-bishan-st-23": {
+    "blk_no": "201",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570201",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "exec": 44
+    }
+  },
+  "202-bishan-st-23": {
+    "blk_no": "202",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570202",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "exec": 6
+    }
+  },
+  "203-bishan-st-23": {
+    "blk_no": "203",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570203",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 13
+    }
+  },
+  "204-bishan-st-23": {
+    "blk_no": "204",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570204",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 19
+    }
+  },
+  "205-bishan-st-23": {
+    "blk_no": "205",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570205",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 19
+    }
+  },
+  "206-bishan-st-23": {
+    "blk_no": "206",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570206",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 13
+    }
+  },
+  "207-bishan-st-23": {
+    "blk_no": "207",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570207",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 19
+    }
+  },
+  "208-bishan-st-23": {
+    "blk_no": "208",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570208",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "209-bishan-st-23": {
+    "blk_no": "209",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570209",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 13
+    }
+  },
+  "210-bishan-st-23": {
+    "blk_no": "210",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570210",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 61,
+      "5room": 13
+    }
+  },
+  "211-bishan-st-23": {
+    "blk_no": "211",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570211",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 13
+    }
+  },
+  "212-bishan-st-23": {
+    "blk_no": "212",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570212",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "exec": 80
+    }
+  },
+  "213-bishan-st-23": {
+    "blk_no": "213",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570213",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 81,
+      "5room": 23
+    }
+  },
+  "214-bishan-st-23": {
+    "blk_no": "214",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570214",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 83,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 16
+    }
+  },
+  "215-bishan-st-23": {
+    "blk_no": "215",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570215",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 15
+    }
+  },
+  "216-bishan-st-23": {
+    "blk_no": "216",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570216",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 13
+    }
+  },
+  "217-bishan-st-23": {
+    "blk_no": "217",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570217",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 19
+    }
+  },
+  "218-bishan-st-23": {
+    "blk_no": "218",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570218",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 14,
+    "sold_units_by_type": {
+      "exec": 14
+    }
+  },
+  "219-bishan-st-23": {
+    "blk_no": "219",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570219",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "22-sin-ming-rd": {
+    "blk_no": "22",
+    "street": "SIN MING RD",
+    "street_full": "SIN MING ROAD",
+    "postal": "570022",
+    "town": "BISHAN",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 288,
+    "sold_units_by_type": {
+      "3room": 280,
+      "5room": 8
+    }
+  },
+  "220-bishan-st-23": {
+    "blk_no": "220",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570220",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 17
+    }
+  },
+  "221-bishan-st-23": {
+    "blk_no": "221",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570221",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 50
+    }
+  },
+  "222-bishan-st-23": {
+    "blk_no": "222",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570222",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 67,
+    "sold_units_by_type": {
+      "exec": 67
+    }
+  },
+  "223-bishan-st-23": {
+    "blk_no": "223",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570223",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 29,
+      "exec": 23
+    }
+  },
+  "224-bishan-st-23": {
+    "blk_no": "224",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570224",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 26,
+      "exec": 21
+    }
+  },
+  "225-bishan-st-23": {
+    "blk_no": "225",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570225",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 17
+    }
+  },
+  "226-bishan-st-23": {
+    "blk_no": "226",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570226",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 89,
+      "5room": 23
+    }
+  },
+  "227-bishan-st-23": {
+    "blk_no": "227",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570227",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 9
+    }
+  },
+  "228-bishan-st-23": {
+    "blk_no": "228",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570228",
+    "town": "BISHAN",
+    "year_completed": 1989,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 20
+    }
+  },
+  "229-bishan-st-23": {
+    "blk_no": "229",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570229",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 108,
+      "5room": 10
+    }
+  },
+  "23-sin-ming-rd": {
+    "blk_no": "23",
+    "street": "SIN MING RD",
+    "street_full": "SIN MING ROAD",
+    "postal": "570023",
+    "town": "BISHAN",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 140,
+      "5room": 2
+    }
+  },
+  "230-bishan-st-23": {
+    "blk_no": "230",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570230",
+    "town": "BISHAN",
+    "year_completed": 1989,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 60
+    }
+  },
+  "231-bishan-st-23": {
+    "blk_no": "231",
+    "street": "BISHAN ST 23",
+    "street_full": "BISHAN STREET 23",
+    "postal": "570231",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "exec": 94
+    }
+  },
+  "232-bishan-st-22": {
+    "blk_no": "232",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570232",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 7
+    }
+  },
+  "233-bishan-st-22": {
+    "blk_no": "233",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570233",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 61,
+    "sold_units_by_type": {
+      "4room": 61
+    }
+  },
+  "234-bishan-st-22": {
+    "blk_no": "234",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570234",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "4room": 43,
+      "5room": 9
+    }
+  },
+  "235-bishan-st-22": {
+    "blk_no": "235",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570235",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 18
+    }
+  },
+  "236-bishan-st-22": {
+    "blk_no": "236",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570236",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 20
+    }
+  },
+  "237-bishan-st-22": {
+    "blk_no": "237",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570237",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 33,
+      "exec": 10
+    }
+  },
+  "238-bishan-st-22": {
+    "blk_no": "238",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570238",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "239-bishan-st-22": {
+    "blk_no": "239",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570239",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 12
+    }
+  },
+  "24-sin-ming-rd": {
+    "blk_no": "24",
+    "street": "SIN MING RD",
+    "street_full": "SIN MING ROAD",
+    "postal": "570024",
+    "town": "BISHAN",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 144
+    }
+  },
+  "240-bishan-st-22": {
+    "blk_no": "240",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570240",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "241-bishan-st-22": {
+    "blk_no": "241",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570241",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 24,
+      "exec": 10
+    }
+  },
+  "242-bishan-st-22": {
+    "blk_no": "242",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570242",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 46
+    }
+  },
+  "243-bishan-st-22": {
+    "blk_no": "243",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570243",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 116
+    }
+  },
+  "244-bishan-st-22": {
+    "blk_no": "244",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570244",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 6,
+    "sold_units_by_type": {
+      "exec": 6
+    }
+  },
+  "245-bishan-st-22": {
+    "blk_no": "245",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570245",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "246-bishan-st-22": {
+    "blk_no": "246",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570246",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 10
+    }
+  },
+  "247-bishan-st-22": {
+    "blk_no": "247",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570247",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 10,
+    "sold_units_by_type": {
+      "exec": 10
+    }
+  },
+  "248-bishan-st-22": {
+    "blk_no": "248",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570248",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 72
+    }
+  },
+  "249-bishan-st-22": {
+    "blk_no": "249",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570249",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 10
+    }
+  },
+  "25-sin-ming-rd": {
+    "blk_no": "25",
+    "street": "SIN MING RD",
+    "street_full": "SIN MING ROAD",
+    "postal": "570025",
+    "town": "BISHAN",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "4room": 198
+    }
+  },
+  "250-bishan-st-22": {
+    "blk_no": "250",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570250",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 10
+    }
+  },
+  "251-bishan-st-22": {
+    "blk_no": "251",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570251",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 46
+    }
+  },
+  "252-bishan-st-22": {
+    "blk_no": "252",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570252",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 60
+    }
+  },
+  "253-bishan-st-22": {
+    "blk_no": "253",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570253",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 47
+    }
+  },
+  "254-bishan-st-22": {
+    "blk_no": "254",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570254",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 113,
+      "5room": 5
+    }
+  },
+  "255-bishan-st-22": {
+    "blk_no": "255",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570255",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 17
+    }
+  },
+  "256-bishan-st-22": {
+    "blk_no": "256",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570256",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 13
+    }
+  },
+  "257-bishan-st-22": {
+    "blk_no": "257",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570257",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    }
+  },
+  "258-bishan-st-22": {
+    "blk_no": "258",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570258",
+    "town": "BISHAN",
+    "year_completed": 1990,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "259-bishan-st-22": {
+    "blk_no": "259",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570259",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 15
+    }
+  },
+  "260-bishan-st-22": {
+    "blk_no": "260",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570260",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 15
+    }
+  },
+  "261-bishan-st-22": {
+    "blk_no": "261",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570261",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "exec": 85
+    }
+  },
+  "262-bishan-st-22": {
+    "blk_no": "262",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570262",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 13
+    }
+  },
+  "263-bishan-st-22": {
+    "blk_no": "263",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570263",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 25
+    }
+  },
+  "264-bishan-st-24": {
+    "blk_no": "264",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570264",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 17
+    }
+  },
+  "265-bishan-st-24": {
+    "blk_no": "265",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570265",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 17
+    }
+  },
+  "266-bishan-st-24": {
+    "blk_no": "266",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570266",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 15
+    }
+  },
+  "267-bishan-st-24": {
+    "blk_no": "267",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570267",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 76
+    }
+  },
+  "268-bishan-st-24": {
+    "blk_no": "268",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570268",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 11
+    }
+  },
+  "269-bishan-st-24": {
+    "blk_no": "269",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570269",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 80
+    }
+  },
+  "270-bishan-st-24": {
+    "blk_no": "270",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570270",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 8
+    }
+  },
+  "271-bishan-st-24": {
+    "blk_no": "271",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570271",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 85,
+      "5room": 8
+    }
+  },
+  "272-bishan-st-24": {
+    "blk_no": "272",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570272",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "273a-bishan-st-24": {
+    "blk_no": "273A",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "571273",
+    "town": "BISHAN",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 80
+    }
+  },
+  "273b-bishan-st-24": {
+    "blk_no": "273B",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "572273",
+    "town": "BISHAN",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 120
+    }
+  },
+  "275a-bishan-st-24": {
+    "blk_no": "275A",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "571275",
+    "town": "BISHAN",
+    "year_completed": 2011,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 120
+    }
+  },
+  "278-bishan-st-24": {
+    "blk_no": "278",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570278",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 68,
+      "exec": 8
+    }
+  },
+  "281-bishan-st-24": {
+    "blk_no": "281",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570281",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 25,
+    "sold_units_by_type": {
+      "4room": 25
+    }
+  },
+  "285-bishan-st-22": {
+    "blk_no": "285",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570285",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "4room": 68,
+      "exec": 8
+    }
+  },
+  "286-bishan-st-24": {
+    "blk_no": "286",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570286",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 84,
+      "exec": 8
+    }
+  },
+  "287-bishan-st-24": {
+    "blk_no": "287",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570287",
+    "town": "BISHAN",
+    "year_completed": 1991,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 32
+    }
+  },
+  "288-bishan-st-24": {
+    "blk_no": "288",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570288",
+    "town": "BISHAN",
+    "year_completed": 1996,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 64
+    }
+  },
+  "289-bishan-st-24": {
+    "blk_no": "289",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570289",
+    "town": "BISHAN",
+    "year_completed": 1996,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 64
+    }
+  },
+  "290-bishan-st-24": {
+    "blk_no": "290",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570290",
+    "town": "BISHAN",
+    "year_completed": 1996,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 92
+    }
+  },
+  "291-bishan-st-24": {
+    "blk_no": "291",
+    "street": "BISHAN ST 24",
+    "street_full": "BISHAN STREET 24",
+    "postal": "570291",
+    "town": "BISHAN",
+    "year_completed": 1996,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 92
+    }
+  },
+  "292-bishan-st-22": {
+    "blk_no": "292",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570292",
+    "town": "BISHAN",
+    "year_completed": 1996,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 64
+    }
+  },
+  "293-bishan-st-22": {
+    "blk_no": "293",
+    "street": "BISHAN ST 22",
+    "street_full": "BISHAN STREET 22",
+    "postal": "570293",
+    "town": "BISHAN",
+    "year_completed": 1996,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 64
+    }
+  },
+  "301-shunfu-rd": {
+    "blk_no": "301",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570301",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "302-shunfu-rd": {
+    "blk_no": "302",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570302",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "303-shunfu-rd": {
+    "blk_no": "303",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570303",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 84
+    }
+  },
+  "304-shunfu-rd": {
+    "blk_no": "304",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570304",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 92,
+      "4room": 48,
+      "5room": 2
+    }
+  },
+  "305-shunfu-rd": {
+    "blk_no": "305",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "NIL",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 48,
+      "5room": 1
+    }
+  },
+  "306-shunfu-rd": {
+    "blk_no": "306",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570306",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "307-shunfu-rd": {
+    "blk_no": "307",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570307",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 71,
+      "4room": 48
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "308-shunfu-rd": {
+    "blk_no": "308",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570308",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 48,
+      "5room": 2
+    }
+  },
+  "309-shunfu-rd": {
+    "blk_no": "309",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570309",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "3room": 142,
+      "4room": 48,
+      "5room": 1
+    }
+  },
+  "310-shunfu-rd": {
+    "blk_no": "310",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570310",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 96
+    }
+  },
+  "311-shunfu-rd": {
+    "blk_no": "311",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570311",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 16
+    }
+  },
+  "312-shunfu-rd": {
+    "blk_no": "312",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "570312",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 74
+    }
+  },
+  "313-shunfu-rd": {
+    "blk_no": "313",
+    "street": "SHUNFU RD",
+    "street_full": "SHUNFU ROAD",
+    "postal": "NIL",
+    "town": "BISHAN",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 81,
+      "4room": 81
+    }
+  },
+  "401-sin-ming-ave": {
+    "blk_no": "401",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570401",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "402-sin-ming-ave": {
+    "blk_no": "402",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570402",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "403-sin-ming-ave": {
+    "blk_no": "403",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570403",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 68
+    }
+  },
+  "404-sin-ming-ave": {
+    "blk_no": "404",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570404",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "exec": 24
+    }
+  },
+  "405-sin-ming-ave": {
+    "blk_no": "405",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570405",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "406-sin-ming-ave": {
+    "blk_no": "406",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570406",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 69
+    }
+  },
+  "407-sin-ming-ave": {
+    "blk_no": "407",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570407",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 96,
+      "4room": 48
+    }
+  },
+  "408-sin-ming-ave": {
+    "blk_no": "408",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570408",
+    "town": "BISHAN",
+    "year_completed": 1985,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "410-sin-ming-ave": {
+    "blk_no": "410",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570410",
+    "town": "BISHAN",
+    "year_completed": 2017,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 408,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 168,
+      "2room": 240
+    }
+  },
+  "441-sin-ming-ave": {
+    "blk_no": "441",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "NIL",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 18,
+      "exec": 8
+    }
+  },
+  "442-sin-ming-ave": {
+    "blk_no": "442",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570442",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 72,
+      "exec": 8
+    }
+  },
+  "443-sin-ming-ave": {
+    "blk_no": "443",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "NIL",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 14,
+      "exec": 8
+    }
+  },
+  "444-sin-ming-ave": {
+    "blk_no": "444",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570444",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "445-sin-ming-ave": {
+    "blk_no": "445",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570445",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 18,
+      "exec": 7
+    }
+  },
+  "446-bright-hill-dr": {
+    "blk_no": "446",
+    "street": "BRIGHT HILL DR",
+    "street_full": "BRIGHT HILL DRIVE",
+    "postal": "570446",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 14,
+      "exec": 6
+    }
+  },
+  "447-bright-hill-dr": {
+    "blk_no": "447",
+    "street": "BRIGHT HILL DR",
+    "street_full": "BRIGHT HILL DRIVE",
+    "postal": "570447",
+    "town": "BISHAN",
+    "year_completed": 1989,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "5room": 76,
+      "exec": 8
+    }
+  },
+  "448-bright-hill-dr": {
+    "blk_no": "448",
+    "street": "BRIGHT HILL DR",
+    "street_full": "BRIGHT HILL DRIVE",
+    "postal": "570448",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 18,
+      "exec": 8
+    }
+  },
+  "449-sin-ming-ave": {
+    "blk_no": "449",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570449",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 16,
+      "exec": 6
+    }
+  },
+  "450-sin-ming-ave": {
+    "blk_no": "450",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570450",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "5room": 84,
+      "exec": 8
+    }
+  },
+  "451-sin-ming-ave": {
+    "blk_no": "451",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570451",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 54,
+    "sold_units_by_type": {
+      "4room": 50,
+      "exec": 4
+    }
+  },
+  "452-sin-ming-ave": {
+    "blk_no": "452",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570452",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 30,
+    "sold_units_by_type": {
+      "exec": 30
+    }
+  },
+  "453-sin-ming-ave": {
+    "blk_no": "453",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570453",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "5room": 52,
+      "exec": 8
+    }
+  },
+  "454-sin-ming-ave": {
+    "blk_no": "454",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570454",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 18,
+      "exec": 8
+    }
+  },
+  "455-sin-ming-ave": {
+    "blk_no": "455",
+    "street": "SIN MING AVE",
+    "street_full": "SIN MING AVENUE",
+    "postal": "570455",
+    "town": "BISHAN",
+    "year_completed": 1988,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 9,
+      "exec": 4
+    }
+  },
+  "501-bishan-st-11": {
+    "blk_no": "501",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570501",
+    "town": "BISHAN",
+    "year_completed": 1989,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 52,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 10
+    }
+  },
+  "502-bishan-st-11": {
+    "blk_no": "502",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570502",
+    "town": "BISHAN",
+    "year_completed": 1989,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "4room": 13,
+      "5room": 7
+    }
+  },
+  "503-bishan-st-11": {
+    "blk_no": "503",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570503",
+    "town": "BISHAN",
+    "year_completed": 1989,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 5
+    }
+  },
+  "506-bishan-st-11": {
+    "blk_no": "506",
+    "street": "BISHAN ST 11",
+    "street_full": "BISHAN STREET 11",
+    "postal": "570506",
+    "town": "BISHAN",
+    "year_completed": 1989,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 14
+    }
+  },
+  "532a-bishan-st-14": {
+    "blk_no": "532A",
+    "street": "BISHAN ST 14",
+    "street_full": "BISHAN STREET 14",
+    "postal": "571532",
+    "town": "BISHAN",
+    "year_completed": 2026,
+    "max_floor_lvl": 39,
+    "total_dwelling_units": 221,
+    "sold_units_by_type": {
+      "4room": 221
+    }
+  },
+  "532b-bishan-st-14": {
+    "blk_no": "532B",
+    "street": "BISHAN ST 14",
+    "street_full": "BISHAN STREET 14",
+    "postal": "572532",
+    "town": "BISHAN",
+    "year_completed": 2026,
+    "max_floor_lvl": 33,
+    "total_dwelling_units": 244,
+    "sold_units_by_type": {
+      "4room": 244
+    }
+  },
+  "532c-bishan-st-14": {
+    "blk_no": "532C",
+    "street": "BISHAN ST 14",
+    "street_full": "BISHAN STREET 14",
+    "postal": "573532",
+    "town": "BISHAN",
+    "year_completed": 2026,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 266,
+    "sold_units_by_type": {
+      "2room": 156,
+      "3room": 54,
+      "4room": 56
+    }
+  },
+  "535a-bishan-st-13": {
+    "blk_no": "535A",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "571535",
+    "town": "BISHAN",
+    "year_completed": 2026,
+    "max_floor_lvl": 34,
+    "total_dwelling_units": 230,
+    "sold_units_by_type": {
+      "4room": 230
+    }
+  },
+  "535b-bishan-st-13": {
+    "blk_no": "535B",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "572535",
+    "town": "BISHAN",
+    "year_completed": 2026,
+    "max_floor_lvl": 39,
+    "total_dwelling_units": 301,
+    "sold_units_by_type": {
+      "4room": 301
+    }
+  },
+  "535c-bishan-st-13": {
+    "blk_no": "535C",
+    "street": "BISHAN ST 13",
+    "street_full": "BISHAN STREET 13",
+    "postal": "573535",
+    "town": "BISHAN",
+    "year_completed": 2026,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 170
+    }
+  }
+}

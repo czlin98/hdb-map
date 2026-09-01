@@ -1,0 +1,1146 @@
+{
+  "1-jln-kukoh": {
+    "blk_no": "1",
+    "street": "JLN KUKOH",
+    "street_full": "JALAN KUKOH",
+    "postal": "161001",
+    "town": "CENTRAL AREA",
+    "year_completed": 1969,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 56,
+      "3room": 14,
+      "other_room": 14
+    }
+  },
+  "1-tg-pagar-plaza": {
+    "blk_no": "1",
+    "street": "TG PAGAR PLAZA",
+    "street_full": "TANJONG PAGAR PLAZA",
+    "postal": "082001",
+    "town": "CENTRAL AREA",
+    "year_completed": 1976,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "3room": 158,
+      "5room": 5
+    }
+  },
+  "10-jln-kukoh": {
+    "blk_no": "10",
+    "street": "JLN KUKOH",
+    "street_full": "JALAN KUKOH",
+    "postal": "162010",
+    "town": "CENTRAL AREA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "2room": 72,
+      "3room": 16,
+      "4room": 4
+    }
+  },
+  "10-selegie-rd": {
+    "blk_no": "10",
+    "street": "SELEGIE RD",
+    "street_full": "SELEGIE ROAD",
+    "postal": "180010",
+    "town": "CENTRAL AREA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "3room": 48
+    }
+  },
+  "11-york-hill": {
+    "blk_no": "11",
+    "street": "YORK HILL",
+    "street_full": "YORK HILL",
+    "postal": "162011",
+    "town": "CENTRAL AREA",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 176,
+      "2room": 22
+    }
+  },
+  "12-york-hill": {
+    "blk_no": "12",
+    "street": "YORK HILL",
+    "street_full": "YORK HILL",
+    "postal": "163012",
+    "town": "CENTRAL AREA",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 176,
+      "2room": 22
+    }
+  },
+  "13-york-hill": {
+    "blk_no": "13",
+    "street": "YORK HILL",
+    "street_full": "YORK HILL",
+    "postal": "162013",
+    "town": "CENTRAL AREA",
+    "year_completed": 1969,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 160,
+      "2room": 22
+    }
+  },
+  "1a-cantonment-rd": {
+    "blk_no": "1A",
+    "street": "CANTONMENT RD",
+    "street_full": "CANTONMENT ROAD",
+    "postal": "085101",
+    "town": "CENTRAL AREA",
+    "year_completed": 2009,
+    "max_floor_lvl": 50,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {
+      "4room": 176,
+      "5room": 88
+    }
+  },
+  "1b-cantonment-rd": {
+    "blk_no": "1B",
+    "street": "CANTONMENT RD",
+    "street_full": "CANTONMENT ROAD",
+    "postal": "085201",
+    "town": "CENTRAL AREA",
+    "year_completed": 2009,
+    "max_floor_lvl": 50,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {
+      "4room": 176,
+      "5room": 88
+    }
+  },
+  "1c-cantonment-rd": {
+    "blk_no": "1C",
+    "street": "CANTONMENT RD",
+    "street_full": "CANTONMENT ROAD",
+    "postal": "085301",
+    "town": "CENTRAL AREA",
+    "year_completed": 2009,
+    "max_floor_lvl": 50,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {
+      "4room": 176,
+      "5room": 88
+    }
+  },
+  "1d-cantonment-rd": {
+    "blk_no": "1D",
+    "street": "CANTONMENT RD",
+    "street_full": "CANTONMENT ROAD",
+    "postal": "NIL",
+    "town": "CENTRAL AREA",
+    "year_completed": 2009,
+    "max_floor_lvl": 50,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {
+      "4room": 176,
+      "5room": 88
+    }
+  },
+  "1e-cantonment-rd": {
+    "blk_no": "1E",
+    "street": "CANTONMENT RD",
+    "street_full": "CANTONMENT ROAD",
+    "postal": "NIL",
+    "town": "CENTRAL AREA",
+    "year_completed": 2009,
+    "max_floor_lvl": 50,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {
+      "4room": 176,
+      "5room": 88
+    }
+  },
+  "1f-cantonment-rd": {
+    "blk_no": "1F",
+    "street": "CANTONMENT RD",
+    "street_full": "CANTONMENT ROAD",
+    "postal": "085601",
+    "town": "CENTRAL AREA",
+    "year_completed": 2009,
+    "max_floor_lvl": 50,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {
+      "4room": 176,
+      "5room": 88
+    }
+  },
+  "1g-cantonment-rd": {
+    "blk_no": "1G",
+    "street": "CANTONMENT RD",
+    "street_full": "CANTONMENT ROAD",
+    "postal": "085701",
+    "town": "CENTRAL AREA",
+    "year_completed": 2009,
+    "max_floor_lvl": 50,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {
+      "4room": 176,
+      "5room": 88
+    }
+  },
+  "2-jln-kukoh": {
+    "blk_no": "2",
+    "street": "JLN KUKOH",
+    "street_full": "JALAN KUKOH",
+    "postal": "163002",
+    "town": "CENTRAL AREA",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 264,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 264
+    }
+  },
+  "2-tg-pagar-plaza": {
+    "blk_no": "2",
+    "street": "TG PAGAR PLAZA",
+    "street_full": "TANJONG PAGAR PLAZA",
+    "postal": "082002",
+    "town": "CENTRAL AREA",
+    "year_completed": 1976,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "3room": 190,
+      "5room": 10
+    }
+  },
+  "232-bain-st": {
+    "blk_no": "232",
+    "street": "BAIN ST",
+    "street_full": "BAIN STREET",
+    "postal": "180232",
+    "town": "CENTRAL AREA",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "233-bain-st": {
+    "blk_no": "233",
+    "street": "BAIN ST",
+    "street_full": "BAIN STREET",
+    "postal": "180233",
+    "town": "CENTRAL AREA",
+    "year_completed": 1979,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "25-jln-berseh": {
+    "blk_no": "25",
+    "street": "JLN BERSEH",
+    "street_full": "JALAN BERSEH",
+    "postal": "200025",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 298,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 298
+    }
+  },
+  "26-jln-berseh": {
+    "blk_no": "26",
+    "street": "JLN BERSEH",
+    "street_full": "JALAN BERSEH",
+    "postal": "200026",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "262-waterloo-st": {
+    "blk_no": "262",
+    "street": "WATERLOO ST",
+    "street_full": "WATERLOO STREET",
+    "postal": "180262",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 78
+    }
+  },
+  "263-waterloo-st": {
+    "blk_no": "263",
+    "street": "WATERLOO ST",
+    "street_full": "WATERLOO STREET",
+    "postal": "180263",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 119,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "264-waterloo-st": {
+    "blk_no": "264",
+    "street": "WATERLOO ST",
+    "street_full": "WATERLOO STREET",
+    "postal": "180264",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 122,
+      "5room": 4
+    }
+  },
+  "269a-queen-st": {
+    "blk_no": "269A",
+    "street": "QUEEN ST",
+    "street_full": "QUEEN STREET",
+    "postal": "181269",
+    "town": "CENTRAL AREA",
+    "year_completed": 1983,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 4
+    }
+  },
+  "269b-queen-st": {
+    "blk_no": "269B",
+    "street": "QUEEN ST",
+    "street_full": "QUEEN STREET",
+    "postal": "182269",
+    "town": "CENTRAL AREA",
+    "year_completed": 1983,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "3room": 43,
+      "4room": 94,
+      "5room": 1
+    }
+  },
+  "269c-queen-st": {
+    "blk_no": "269C",
+    "street": "QUEEN ST",
+    "street_full": "QUEEN STREET",
+    "postal": "183269",
+    "town": "CENTRAL AREA",
+    "year_completed": 1983,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 4,
+      "5room": 1
+    }
+  },
+  "27-jln-berseh": {
+    "blk_no": "27",
+    "street": "JLN BERSEH",
+    "street_full": "JALAN BERSEH",
+    "postal": "200027",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "271-queen-st": {
+    "blk_no": "271",
+    "street": "QUEEN ST",
+    "street_full": "QUEEN STREET",
+    "postal": "180271",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 186,
+    "sold_units_by_type": {
+      "3room": 180,
+      "5room": 6
+    }
+  },
+  "28-kelantan-rd": {
+    "blk_no": "28",
+    "street": "KELANTAN RD",
+    "street_full": "KELANTAN ROAD",
+    "postal": "200028",
+    "town": "CENTRAL AREA",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "3room": 135,
+      "5room": 3
+    }
+  },
+  "29-kelantan-rd": {
+    "blk_no": "29",
+    "street": "KELANTAN RD",
+    "street_full": "KELANTAN ROAD",
+    "postal": "200029",
+    "town": "CENTRAL AREA",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "3room": 126,
+      "5room": 7
+    }
+  },
+  "3-jln-kukoh": {
+    "blk_no": "3",
+    "street": "JLN KUKOH",
+    "street_full": "JALAN KUKOH",
+    "postal": "161003",
+    "town": "CENTRAL AREA",
+    "year_completed": 1966,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 270,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 270
+    }
+  },
+  "3-tg-pagar-plaza": {
+    "blk_no": "3",
+    "street": "TG PAGAR PLAZA",
+    "street_full": "TANJONG PAGAR PLAZA",
+    "postal": "081003",
+    "town": "CENTRAL AREA",
+    "year_completed": 1976,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "3room": 161,
+      "5room": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "30-kelantan-rd": {
+    "blk_no": "30",
+    "street": "KELANTAN RD",
+    "street_full": "KELANTAN ROAD",
+    "postal": "200030",
+    "town": "CENTRAL AREA",
+    "year_completed": 1980,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "3room": 137,
+      "5room": 1
+    }
+  },
+  "32-new-mkt-rd": {
+    "blk_no": "32",
+    "street": "NEW MKT RD",
+    "street_full": "NEW MARKET ROAD",
+    "postal": "050032",
+    "town": "CENTRAL AREA",
+    "year_completed": 1968,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "2room": 85,
+      "3room": 38,
+      "4room": 3
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "333-kreta-ayer-rd": {
+    "blk_no": "333",
+    "street": "KRETA AYER RD",
+    "street_full": "KRETA AYER ROAD",
+    "postal": "080333",
+    "town": "CENTRAL AREA",
+    "year_completed": 1981,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 126
+    }
+  },
+  "334-kreta-ayer-rd": {
+    "blk_no": "334",
+    "street": "KRETA AYER RD",
+    "street_full": "KRETA AYER ROAD",
+    "postal": "080334",
+    "town": "CENTRAL AREA",
+    "year_completed": 1980,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "335a-smith-st": {
+    "blk_no": "335A",
+    "street": "SMITH ST",
+    "street_full": "SMITH STREET",
+    "postal": "051335",
+    "town": "CENTRAL AREA",
+    "year_completed": 1983,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 161,
+    "sold_units_by_type": {
+      "3room": 155,
+      "4room": 4,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "335b-smith-st": {
+    "blk_no": "335B",
+    "street": "SMITH ST",
+    "street_full": "SMITH STREET",
+    "postal": "052335",
+    "town": "CENTRAL AREA",
+    "year_completed": 1983,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "4room": 131
+    }
+  },
+  "34-upp-cross-st": {
+    "blk_no": "34",
+    "street": "UPP CROSS ST",
+    "street_full": "UPPER CROSS STREET",
+    "postal": "050034",
+    "town": "CENTRAL AREA",
+    "year_completed": 1974,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 314,
+    "sold_units_by_type": {
+      "3room": 308,
+      "5room": 6
+    }
+  },
+  "4-jln-minyak": {
+    "blk_no": "4",
+    "street": "JLN MINYAK",
+    "street_full": "JALAN MINYAK",
+    "postal": "163004",
+    "town": "CENTRAL AREA",
+    "year_completed": 1964,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 144,
+      "3room": 12
+    }
+  },
+  "4-sago-lane": {
+    "blk_no": "4",
+    "street": "SAGO LANE",
+    "street_full": "SAGO LANE",
+    "postal": "050004",
+    "town": "CENTRAL AREA",
+    "year_completed": 1973,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 250,
+    "sold_units_by_type": {
+      "3room": 248,
+      "5room": 2
+    }
+  },
+  "4-tg-pagar-plaza": {
+    "blk_no": "4",
+    "street": "TG PAGAR PLAZA",
+    "street_full": "TANJONG PAGAR PLAZA",
+    "postal": "081004",
+    "town": "CENTRAL AREA",
+    "year_completed": 1976,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 199,
+    "sold_units_by_type": {
+      "3room": 188,
+      "5room": 11
+    }
+  },
+  "5-banda-st": {
+    "blk_no": "5",
+    "street": "BANDA ST",
+    "street_full": "BANDA STREET",
+    "postal": "050005",
+    "town": "CENTRAL AREA",
+    "year_completed": 1973,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 430,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 430
+    }
+  },
+  "5-jln-minyak": {
+    "blk_no": "5",
+    "street": "JLN MINYAK",
+    "street_full": "JALAN MINYAK",
+    "postal": "161005",
+    "town": "CENTRAL AREA",
+    "year_completed": 1964,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 132,
+      "3room": 11
+    }
+  },
+  "5-tg-pagar-plaza": {
+    "blk_no": "5",
+    "street": "TG PAGAR PLAZA",
+    "street_full": "TANJONG PAGAR PLAZA",
+    "postal": "081005",
+    "town": "CENTRAL AREA",
+    "year_completed": 1976,
+    "max_floor_lvl": 24,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "3room": 164,
+      "5room": 2
+    }
+  },
+  "51-chin-swee-rd": {
+    "blk_no": "51",
+    "street": "CHIN SWEE RD",
+    "street_full": "CHIN SWEE ROAD",
+    "postal": "160051",
+    "town": "CENTRAL AREA",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 328,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 328
+    }
+  },
+  "52-chin-swee-rd": {
+    "blk_no": "52",
+    "street": "CHIN SWEE RD",
+    "street_full": "CHIN SWEE ROAD",
+    "postal": "160052",
+    "town": "CENTRAL AREA",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 272,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 271,
+      "2room": 1
+    }
+  },
+  "53-chin-swee-rd": {
+    "blk_no": "53",
+    "street": "CHIN SWEE RD",
+    "street_full": "CHIN SWEE ROAD",
+    "postal": "160053",
+    "town": "CENTRAL AREA",
+    "year_completed": 1973,
+    "max_floor_lvl": 26,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "532-upp-cross-st": {
+    "blk_no": "532",
+    "street": "UPP CROSS ST",
+    "street_full": "UPPER CROSS STREET",
+    "postal": "050532",
+    "town": "CENTRAL AREA",
+    "year_completed": 1980,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 116,
+      "5room": 2
+    }
+  },
+  "533-upp-cross-st": {
+    "blk_no": "533",
+    "street": "UPP CROSS ST",
+    "street_full": "UPPER CROSS STREET",
+    "postal": "050533",
+    "town": "CENTRAL AREA",
+    "year_completed": 1979,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 124,
+      "5room": 3
+    }
+  },
+  "535-upp-cross-st": {
+    "blk_no": "535",
+    "street": "UPP CROSS ST",
+    "street_full": "UPPER CROSS STREET",
+    "postal": "050535",
+    "town": "CENTRAL AREA",
+    "year_completed": 1979,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 110,
+      "5room": 5
+    }
+  },
+  "536-upp-cross-st": {
+    "blk_no": "536",
+    "street": "UPP CROSS ST",
+    "street_full": "UPPER CROSS STREET",
+    "postal": "050536",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 113,
+      "5room": 8
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "538-upp-cross-st": {
+    "blk_no": "538",
+    "street": "UPP CROSS ST",
+    "street_full": "UPPER CROSS STREET",
+    "postal": "050538",
+    "town": "CENTRAL AREA",
+    "year_completed": 1978,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 122,
+      "5room": 4
+    }
+  },
+  "6-jln-minyak": {
+    "blk_no": "6",
+    "street": "JLN MINYAK",
+    "street_full": "JALAN MINYAK",
+    "postal": "162006",
+    "town": "CENTRAL AREA",
+    "year_completed": 1964,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 144,
+      "3room": 12
+    }
+  },
+  "632-veerasamy-rd": {
+    "blk_no": "632",
+    "street": "VEERASAMY RD",
+    "street_full": "VEERASAMY ROAD",
+    "postal": "200632",
+    "town": "CENTRAL AREA",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 9,
+      "4room": 73,
+      "5room": 14
+    }
+  },
+  "633-veerasamy-rd": {
+    "blk_no": "633",
+    "street": "VEERASAMY RD",
+    "street_full": "VEERASAMY ROAD",
+    "postal": "NIL",
+    "town": "CENTRAL AREA",
+    "year_completed": 1984,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 18,
+      "exec": 4
+    }
+  },
+  "634-veerasamy-rd": {
+    "blk_no": "634",
+    "street": "VEERASAMY RD",
+    "street_full": "VEERASAMY ROAD",
+    "postal": "200634",
+    "town": "CENTRAL AREA",
+    "year_completed": 1984,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 70,
+      "5room": 14
+    }
+  },
+  "635-veerasamy-rd": {
+    "blk_no": "635",
+    "street": "VEERASAMY RD",
+    "street_full": "VEERASAMY ROAD",
+    "postal": "200635",
+    "town": "CENTRAL AREA",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "3room": 99,
+      "4room": 24
+    }
+  },
+  "636-veerasamy-rd": {
+    "blk_no": "636",
+    "street": "VEERASAMY RD",
+    "street_full": "VEERASAMY ROAD",
+    "postal": "200636",
+    "town": "CENTRAL AREA",
+    "year_completed": 1984,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 21,
+    "sold_units_by_type": {
+      "3room": 21
+    }
+  },
+  "637-veerasamy-rd": {
+    "blk_no": "637",
+    "street": "VEERASAMY RD",
+    "street_full": "VEERASAMY ROAD",
+    "postal": "200637",
+    "town": "CENTRAL AREA",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 62,
+      "4room": 44,
+      "exec": 1
+    }
+  },
+  "639-rowell-rd": {
+    "blk_no": "639",
+    "street": "ROWELL RD",
+    "street_full": "ROWELL ROAD",
+    "postal": "200639",
+    "town": "CENTRAL AREA",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 9,
+      "4room": 73,
+      "5room": 14
+    }
+  },
+  "640-rowell-rd": {
+    "blk_no": "640",
+    "street": "ROWELL RD",
+    "street_full": "ROWELL ROAD",
+    "postal": "200640",
+    "town": "CENTRAL AREA",
+    "year_completed": 1982,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 147,
+      "4room": 18,
+      "exec": 2
+    }
+  },
+  "641-rowell-rd": {
+    "blk_no": "641",
+    "street": "ROWELL RD",
+    "street_full": "ROWELL ROAD",
+    "postal": "200641",
+    "town": "CENTRAL AREA",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 9,
+      "4room": 73,
+      "5room": 14
+    }
+  },
+  "642-rowell-rd": {
+    "blk_no": "642",
+    "street": "ROWELL RD",
+    "street_full": "ROWELL ROAD",
+    "postal": "200642",
+    "town": "CENTRAL AREA",
+    "year_completed": 1982,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 14
+    }
+  },
+  "661-buffalo-rd": {
+    "blk_no": "661",
+    "street": "BUFFALO RD",
+    "street_full": "BUFFALO ROAD",
+    "postal": "210661",
+    "town": "CENTRAL AREA",
+    "year_completed": 1981,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "4room": 127
+    }
+  },
+  "662-buffalo-rd": {
+    "blk_no": "662",
+    "street": "BUFFALO RD",
+    "street_full": "BUFFALO ROAD",
+    "postal": "210662",
+    "town": "CENTRAL AREA",
+    "year_completed": 1981,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 140
+    }
+  },
+  "663-buffalo-rd": {
+    "blk_no": "663",
+    "street": "BUFFALO RD",
+    "street_full": "BUFFALO ROAD",
+    "postal": "210663",
+    "town": "CENTRAL AREA",
+    "year_completed": 1981,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "664-buffalo-rd": {
+    "blk_no": "664",
+    "street": "BUFFALO RD",
+    "street_full": "BUFFALO ROAD",
+    "postal": "210664",
+    "town": "CENTRAL AREA",
+    "year_completed": 1981,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 16
+    }
+  },
+  "668-chander-rd": {
+    "blk_no": "668",
+    "street": "CHANDER RD",
+    "street_full": "CHANDER ROAD",
+    "postal": "210668",
+    "town": "CENTRAL AREA",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 89,
+      "4room": 30
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "671a-klang-lane": {
+    "blk_no": "671A",
+    "street": "KLANG LANE",
+    "street_full": "KLANG LANE",
+    "postal": "211671",
+    "town": "CENTRAL AREA",
+    "year_completed": 2000,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 9
+    }
+  },
+  "671b-klang-lane": {
+    "blk_no": "671B",
+    "street": "KLANG LANE",
+    "street_full": "KLANG LANE",
+    "postal": "212671",
+    "town": "CENTRAL AREA",
+    "year_completed": 2000,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 9
+    }
+  },
+  "672a-klang-lane": {
+    "blk_no": "672A",
+    "street": "KLANG LANE",
+    "street_full": "KLANG LANE",
+    "postal": "211672",
+    "town": "CENTRAL AREA",
+    "year_completed": 2000,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 57
+    }
+  },
+  "672b-klang-lane": {
+    "blk_no": "672B",
+    "street": "KLANG LANE",
+    "street_full": "KLANG LANE",
+    "postal": "212672",
+    "town": "CENTRAL AREA",
+    "year_completed": 2000,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 57
+    }
+  },
+  "7-tg-pagar-plaza": {
+    "blk_no": "7",
+    "street": "TG PAGAR PLAZA",
+    "street_full": "TANJONG PAGAR PLAZA",
+    "postal": "081007",
+    "town": "CENTRAL AREA",
+    "year_completed": 1979,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "8-jln-kukoh": {
+    "blk_no": "8",
+    "street": "JLN KUKOH",
+    "street_full": "JALAN KUKOH",
+    "postal": "162008",
+    "town": "CENTRAL AREA",
+    "year_completed": 1970,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "2room": 107,
+      "3room": 28,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "8-selegie-rd": {
+    "blk_no": "8",
+    "street": "SELEGIE RD",
+    "street_full": "SELEGIE ROAD",
+    "postal": "180008",
+    "town": "CENTRAL AREA",
+    "year_completed": 1963,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "2room": 7,
+      "3room": 96,
+      "4room": 4
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "8-tg-pagar-plaza": {
+    "blk_no": "8",
+    "street": "TG PAGAR PLAZA",
+    "street_full": "TANJONG PAGAR PLAZA",
+    "postal": "080008",
+    "town": "CENTRAL AREA",
+    "year_completed": 1979,
+    "max_floor_lvl": 27,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "9-jln-kukoh": {
+    "blk_no": "9",
+    "street": "JLN KUKOH",
+    "street_full": "JALAN KUKOH",
+    "postal": "160009",
+    "town": "CENTRAL AREA",
+    "year_completed": 1970,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "2room": 59,
+      "3room": 48,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "9-selegie-rd": {
+    "blk_no": "9",
+    "street": "SELEGIE RD",
+    "street_full": "SELEGIE ROAD",
+    "postal": "180009",
+    "town": "CENTRAL AREA",
+    "year_completed": 1963,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 299,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 247,
+      "4room": 37
+    }
+  }
+}

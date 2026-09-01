@@ -1,0 +1,3981 @@
+{
+  "101a-canberra-st": {
+    "blk_no": "101A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751101",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 80
+    }
+  },
+  "101b-canberra-st": {
+    "blk_no": "101B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752101",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "2room": 150,
+      "3room": 30,
+      "4room": 60
+    }
+  },
+  "102a-canberra-st": {
+    "blk_no": "102A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751102",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "4room": 94,
+      "5room": 96
+    }
+  },
+  "102b-canberra-st": {
+    "blk_no": "102B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752102",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "2room": 180,
+      "3room": 30
+    }
+  },
+  "103a-canberra-st": {
+    "blk_no": "103A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751103",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 224,
+    "sold_units_by_type": {
+      "2room": 140,
+      "3room": 28,
+      "4room": 56
+    }
+  },
+  "103b-canberra-st": {
+    "blk_no": "103B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752103",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 224,
+    "sold_units_by_type": {
+      "2room": 140,
+      "3room": 28,
+      "4room": 56
+    }
+  },
+  "104a-canberra-st": {
+    "blk_no": "104A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751104",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 98
+    }
+  },
+  "104b-canberra-st": {
+    "blk_no": "104B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752104",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 70,
+      "3room": 28,
+      "4room": 70
+    }
+  },
+  "104c-canberra-st": {
+    "blk_no": "104C",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "753104",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 137,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 95
+    }
+  },
+  "104d-canberra-st": {
+    "blk_no": "104D",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "754104",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "2room": 70,
+      "3room": 27,
+      "4room": 70
+    }
+  },
+  "106a-canberra-st": {
+    "blk_no": "106A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751106",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 252,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 140,
+      "2room": 112
+    }
+  },
+  "106b-canberra-st": {
+    "blk_no": "106B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752106",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 252,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 140,
+      "2room": 112
+    }
+  },
+  "107a-canberra-st": {
+    "blk_no": "107A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751107",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 41,
+      "4room": 98
+    }
+  },
+  "107b-canberra-st": {
+    "blk_no": "107B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752107",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 98
+    }
+  },
+  "107c-canberra-st": {
+    "blk_no": "107C",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "753107",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 41,
+      "4room": 98
+    }
+  },
+  "108a-canberra-walk": {
+    "blk_no": "108A",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "751108",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 74
+    }
+  },
+  "108b-canberra-walk": {
+    "blk_no": "108B",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "752108",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 52
+    }
+  },
+  "108c-canberra-walk": {
+    "blk_no": "108C",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "753108",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 48
+    }
+  },
+  "109a-canberra-walk": {
+    "blk_no": "109A",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "751109",
+    "town": "SEMBAWANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 48
+    }
+  },
+  "109b-canberra-walk": {
+    "blk_no": "109B",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "752109",
+    "town": "SEMBAWANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 83,
+    "sold_units_by_type": {
+      "3room": 23,
+      "4room": 24,
+      "5room": 36
+    }
+  },
+  "109c-canberra-walk": {
+    "blk_no": "109C",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "753109",
+    "town": "SEMBAWANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 83,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 23,
+      "5room": 36
+    }
+  },
+  "109d-canberra-walk": {
+    "blk_no": "109D",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "754109",
+    "town": "SEMBAWANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 36,
+      "5room": 24
+    }
+  },
+  "115a-canberra-walk": {
+    "blk_no": "115A",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "751115",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 70,
+      "3room": 30,
+      "4room": 40
+    }
+  },
+  "115b-canberra-walk": {
+    "blk_no": "115B",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "752115",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 70,
+      "3room": 30,
+      "4room": 40
+    }
+  },
+  "115c-canberra-walk": {
+    "blk_no": "115C",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "753115",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 40,
+      "4room": 60
+    }
+  },
+  "115d-canberra-walk": {
+    "blk_no": "115D",
+    "street": "CANBERRA WALK",
+    "street_full": "CANBERRA WALK",
+    "postal": "754115",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 40,
+      "4room": 60
+    }
+  },
+  "116a-canberra-cres": {
+    "blk_no": "116A",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "751116",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "2room": 28,
+      "3room": 20,
+      "4room": 36
+    }
+  },
+  "117a-canberra-cres": {
+    "blk_no": "117A",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "751117",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "2room": 50,
+      "3room": 40,
+      "4room": 20
+    }
+  },
+  "117b-canberra-cres": {
+    "blk_no": "117B",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "752117",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "2room": 39,
+      "3room": 20,
+      "4room": 28
+    }
+  },
+  "118a-canberra-cres": {
+    "blk_no": "118A",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "751118",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "2room": 43,
+      "3room": 16,
+      "4room": 17
+    }
+  },
+  "118b-canberra-cres": {
+    "blk_no": "118B",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "752118",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "2room": 14,
+      "3room": 20,
+      "4room": 50
+    }
+  },
+  "119a-canberra-cres": {
+    "blk_no": "119A",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "751119",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 48
+    }
+  },
+  "119b-canberra-cres": {
+    "blk_no": "119B",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "752119",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 48
+    }
+  },
+  "120a-canberra-cres": {
+    "blk_no": "120A",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "751120",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 52
+    }
+  },
+  "120b-canberra-cres": {
+    "blk_no": "120B",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "752120",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 52
+    }
+  },
+  "120c-canberra-cres": {
+    "blk_no": "120C",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "753120",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 70
+    }
+  },
+  "120d-canberra-cres": {
+    "blk_no": "120D",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "754120",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 65
+    }
+  },
+  "121a-canberra-st": {
+    "blk_no": "121A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751121",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 39
+    }
+  },
+  "121b-canberra-st": {
+    "blk_no": "121B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752121",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 52
+    }
+  },
+  "121c-canberra-st": {
+    "blk_no": "121C",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "753121",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 49
+    }
+  },
+  "121d-canberra-st": {
+    "blk_no": "121D",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "754121",
+    "town": "SEMBAWANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 65,
+      "5room": 39
+    }
+  },
+  "126a-canberra-st": {
+    "blk_no": "126A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751126",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 70
+    }
+  },
+  "126b-canberra-st": {
+    "blk_no": "126B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752126",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 70
+    }
+  },
+  "126c-canberra-st": {
+    "blk_no": "126C",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "753126",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 98
+    }
+  },
+  "126d-canberra-st": {
+    "blk_no": "126D",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "754126",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 122,
+      "5room": 28
+    }
+  },
+  "128a-canberra-st": {
+    "blk_no": "128A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751128",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 72
+    }
+  },
+  "128b-canberra-st": {
+    "blk_no": "128B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752128",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 60,
+      "3room": 96,
+      "4room": 48
+    }
+  },
+  "128c-canberra-st": {
+    "blk_no": "128C",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "753128",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 72
+    }
+  },
+  "129a-canberra-st": {
+    "blk_no": "129A",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "751129",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 58
+    }
+  },
+  "129b-canberra-st": {
+    "blk_no": "129B",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "752129",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 60,
+      "3room": 96,
+      "4room": 48
+    }
+  },
+  "129c-canberra-st": {
+    "blk_no": "129C",
+    "street": "CANBERRA ST",
+    "street_full": "CANBERRA STREET",
+    "postal": "753129",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 72
+    }
+  },
+  "130a-canberra-cres": {
+    "blk_no": "130A",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "751130",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 96,
+      "3room": 36,
+      "4room": 48
+    }
+  },
+  "130b-canberra-cres": {
+    "blk_no": "130B",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "752130",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 96,
+      "3room": 36,
+      "4room": 48
+    }
+  },
+  "131a-canberra-cres": {
+    "blk_no": "131A",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "751131",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 50,
+      "3room": 22,
+      "4room": 40
+    }
+  },
+  "131b-canberra-cres": {
+    "blk_no": "131B",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "752131",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "2room": 40,
+      "3room": 10,
+      "4room": 30
+    }
+  },
+  "131c-canberra-cres": {
+    "blk_no": "131C",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "753131",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 39,
+      "4room": 30
+    }
+  },
+  "132a-canberra-cres": {
+    "blk_no": "132A",
+    "street": "CANBERRA CRES",
+    "street_full": "CANBERRA CRESCENT",
+    "postal": "751132",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "2room": 44,
+      "3room": 36,
+      "4room": 44
+    }
+  },
+  "132b-canberra-view": {
+    "blk_no": "132B",
+    "street": "CANBERRA VIEW",
+    "street_full": "CANBERRA VIEW",
+    "postal": "752132",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "2room": 44,
+      "3room": 22,
+      "4room": 44
+    }
+  },
+  "132c-canberra-view": {
+    "blk_no": "132C",
+    "street": "CANBERRA VIEW",
+    "street_full": "CANBERRA VIEW",
+    "postal": "753132",
+    "town": "SEMBAWANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "2room": 41,
+      "3room": 10,
+      "4room": 44
+    }
+  },
+  "300-canberra-rd": {
+    "blk_no": "300",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750300",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 60
+    }
+  },
+  "302-canberra-rd": {
+    "blk_no": "302",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750302",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 85
+    }
+  },
+  "303-canberra-rd": {
+    "blk_no": "303",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750303",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 27,
+      "exec": 45
+    }
+  },
+  "304-canberra-rd": {
+    "blk_no": "304",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750304",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 29,
+      "exec": 45
+    }
+  },
+  "305-canberra-rd": {
+    "blk_no": "305",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750305",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "5room": 30,
+      "exec": 45
+    }
+  },
+  "306-canberra-rd": {
+    "blk_no": "306",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750306",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 48
+    }
+  },
+  "307-canberra-rd": {
+    "blk_no": "307",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750307",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "5room": 30,
+      "exec": 45
+    }
+  },
+  "308-canberra-rd": {
+    "blk_no": "308",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750308",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 29,
+      "exec": 45
+    }
+  },
+  "309-canberra-rd": {
+    "blk_no": "309",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750309",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 27,
+      "exec": 45
+    }
+  },
+  "310-canberra-rd": {
+    "blk_no": "310",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750310",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "311-canberra-rd": {
+    "blk_no": "311",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750311",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 60
+    }
+  },
+  "312-sembawang-dr": {
+    "blk_no": "312",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750312",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 75
+    }
+  },
+  "313-sembawang-dr": {
+    "blk_no": "313",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750313",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 75
+    }
+  },
+  "314-sembawang-dr": {
+    "blk_no": "314",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750314",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 108
+    }
+  },
+  "315-sembawang-vista": {
+    "blk_no": "315",
+    "street": "SEMBAWANG VISTA",
+    "street_full": "SEMBAWANG VISTA",
+    "postal": "750315",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    }
+  },
+  "316-sembawang-vista": {
+    "blk_no": "316",
+    "street": "SEMBAWANG VISTA",
+    "street_full": "SEMBAWANG VISTA",
+    "postal": "750316",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 75
+    }
+  },
+  "317-sembawang-vista": {
+    "blk_no": "317",
+    "street": "SEMBAWANG VISTA",
+    "street_full": "SEMBAWANG VISTA",
+    "postal": "750317",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 75
+    }
+  },
+  "318-sembawang-vista": {
+    "blk_no": "318",
+    "street": "SEMBAWANG VISTA",
+    "street_full": "SEMBAWANG VISTA",
+    "postal": "750318",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 93,
+      "5room": 28
+    }
+  },
+  "319-sembawang-cl": {
+    "blk_no": "319",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750319",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 28
+    }
+  },
+  "320-sembawang-cl": {
+    "blk_no": "320",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750320",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 21
+    }
+  },
+  "321-sembawang-cl": {
+    "blk_no": "321",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750321",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 72
+    }
+  },
+  "322-sembawang-cl": {
+    "blk_no": "322",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750322",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 69
+    }
+  },
+  "323-sembawang-cl": {
+    "blk_no": "323",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750323",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 72
+    }
+  },
+  "324-sembawang-cl": {
+    "blk_no": "324",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750324",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 69
+    }
+  },
+  "325-sembawang-cres": {
+    "blk_no": "325",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "750325",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 56
+    }
+  },
+  "326-sembawang-cres": {
+    "blk_no": "326",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "750326",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 28
+    }
+  },
+  "327-sembawang-cres": {
+    "blk_no": "327",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "750327",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 58
+    }
+  },
+  "328-sembawang-cres": {
+    "blk_no": "328",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "750328",
+    "town": "SEMBAWANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 28
+    }
+  },
+  "329-sembawang-cl": {
+    "blk_no": "329",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750329",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 31,
+      "exec": 45
+    }
+  },
+  "330-sembawang-cl": {
+    "blk_no": "330",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750330",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 75
+    }
+  },
+  "331-sembawang-cl": {
+    "blk_no": "331",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750331",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 75
+    }
+  },
+  "332-sembawang-cl": {
+    "blk_no": "332",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750332",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 31,
+      "exec": 45
+    }
+  },
+  "333-sembawang-cl": {
+    "blk_no": "333",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750333",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 31,
+      "exec": 45
+    }
+  },
+  "334-sembawang-cl": {
+    "blk_no": "334",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750334",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 169,
+    "sold_units_by_type": {
+      "4room": 114,
+      "5room": 55
+    }
+  },
+  "335-sembawang-cl": {
+    "blk_no": "335",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750335",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 69
+    }
+  },
+  "336-sembawang-cres": {
+    "blk_no": "336",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "750336",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 30,
+      "exec": 45
+    }
+  },
+  "337-sembawang-cres": {
+    "blk_no": "337",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "750337",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 30,
+      "exec": 45
+    }
+  },
+  "338-sembawang-cres": {
+    "blk_no": "338",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "750338",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 30,
+      "exec": 45
+    }
+  },
+  "339a-sembawang-cl": {
+    "blk_no": "339A",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "751339",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 57,
+      "exec": 27
+    }
+  },
+  "339b-sembawang-cl": {
+    "blk_no": "339B",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "752339",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 57,
+      "exec": 28
+    }
+  },
+  "340a-sembawang-cl": {
+    "blk_no": "340A",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "751340",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 44
+    }
+  },
+  "340b-sembawang-cl": {
+    "blk_no": "340B",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "752340",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 44
+    }
+  },
+  "341-sembawang-cl": {
+    "blk_no": "341",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "750341",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "4room": 30,
+      "exec": 30
+    }
+  },
+  "341a-sembawang-cl": {
+    "blk_no": "341A",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "751341",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 57,
+      "exec": 27
+    }
+  },
+  "341b-sembawang-cl": {
+    "blk_no": "341B",
+    "street": "SEMBAWANG CL",
+    "street_full": "SEMBAWANG CLOSE",
+    "postal": "752341",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 57,
+      "exec": 28
+    }
+  },
+  "350a-canberra-rd": {
+    "blk_no": "350A",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "751350",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 52
+    }
+  },
+  "350b-canberra-rd": {
+    "blk_no": "350B",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "752350",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 52
+    }
+  },
+  "350c-canberra-rd": {
+    "blk_no": "350C",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "753350",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 52
+    }
+  },
+  "351a-canberra-rd": {
+    "blk_no": "351A",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "751351",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 52
+    }
+  },
+  "351b-canberra-rd": {
+    "blk_no": "351B",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "752351",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 53
+    }
+  },
+  "351c-canberra-rd": {
+    "blk_no": "351C",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "753351",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 52
+    }
+  },
+  "351d-canberra-rd": {
+    "blk_no": "351D",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "754351",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "exec": 78
+    }
+  },
+  "352a-canberra-rd": {
+    "blk_no": "352A",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "751352",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 53
+    }
+  },
+  "352b-canberra-rd": {
+    "blk_no": "352B",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "752352",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 53
+    }
+  },
+  "352c-canberra-rd": {
+    "blk_no": "352C",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "753352",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 65
+    }
+  },
+  "353a-admiralty-dr": {
+    "blk_no": "353A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751353",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 57
+    }
+  },
+  "353b-admiralty-dr": {
+    "blk_no": "353B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752353",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 57
+    }
+  },
+  "353c-admiralty-dr": {
+    "blk_no": "353C",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "753353",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 70
+    }
+  },
+  "354a-admiralty-dr": {
+    "blk_no": "354A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751354",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 57
+    }
+  },
+  "354b-admiralty-dr": {
+    "blk_no": "354B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752354",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 57
+    }
+  },
+  "354c-admiralty-dr": {
+    "blk_no": "354C",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "753354",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 56
+    }
+  },
+  "354d-admiralty-dr": {
+    "blk_no": "354D",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "754354",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "355a-sembawang-way": {
+    "blk_no": "355A",
+    "street": "SEMBAWANG WAY",
+    "street_full": "SEMBAWANG WAY",
+    "postal": "751355",
+    "town": "SEMBAWANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "5room": 44
+    }
+  },
+  "356a-admiralty-dr": {
+    "blk_no": "356A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751356",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 28
+    }
+  },
+  "356b-admiralty-dr": {
+    "blk_no": "356B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752356",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 55,
+      "exec": 26
+    }
+  },
+  "356c-admiralty-dr": {
+    "blk_no": "356C",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "753356",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 56,
+      "exec": 26
+    }
+  },
+  "357-admiralty-dr": {
+    "blk_no": "357",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "750357",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 29,
+      "exec": 24
+    }
+  },
+  "357a-admiralty-dr": {
+    "blk_no": "357A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751357",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 55,
+      "exec": 26
+    }
+  },
+  "357b-admiralty-dr": {
+    "blk_no": "357B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752357",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 56,
+      "exec": 26
+    }
+  },
+  "357c-admiralty-dr": {
+    "blk_no": "357C",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "753357",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 55,
+      "exec": 26
+    }
+  },
+  "359-admiralty-dr": {
+    "blk_no": "359",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "750359",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 29,
+      "exec": 24
+    }
+  },
+  "359a-admiralty-dr": {
+    "blk_no": "359A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751359",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 55,
+      "exec": 26
+    }
+  },
+  "359b-admiralty-dr": {
+    "blk_no": "359B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752359",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 55,
+      "exec": 26
+    }
+  },
+  "359c-admiralty-dr": {
+    "blk_no": "359C",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "753359",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 56,
+      "exec": 26
+    }
+  },
+  "360a-admiralty-dr": {
+    "blk_no": "360A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751360",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 28
+    }
+  },
+  "360b-admiralty-dr": {
+    "blk_no": "360B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752360",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 55,
+      "exec": 26
+    }
+  },
+  "360c-admiralty-dr": {
+    "blk_no": "360C",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "753360",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 56,
+      "exec": 26
+    }
+  },
+  "362a-sembawang-cres": {
+    "blk_no": "362A",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "751362",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 142
+    }
+  },
+  "362b-sembawang-cres": {
+    "blk_no": "362B",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "752362",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 60,
+      "3room": 30,
+      "4room": 60
+    }
+  },
+  "362c-sembawang-cres": {
+    "blk_no": "362C",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "753362",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 135
+    }
+  },
+  "363a-sembawang-cres": {
+    "blk_no": "363A",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "751363",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 179,
+    "sold_units_by_type": {
+      "2room": 135,
+      "3room": 14,
+      "4room": 30
+    }
+  },
+  "363b-sembawang-cres": {
+    "blk_no": "363B",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "752363",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 135,
+      "3room": 15,
+      "4room": 30
+    }
+  },
+  "363c-sembawang-cres": {
+    "blk_no": "363C",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "753363",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 330,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 180,
+      "2room": 150
+    }
+  },
+  "364a-sembawang-cres": {
+    "blk_no": "364A",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "751364",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 135,
+      "2room": 60
+    }
+  },
+  "364b-sembawang-cres": {
+    "blk_no": "364B",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "752364",
+    "town": "SEMBAWANG",
+    "year_completed": 2017,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 39,
+      "2room": 78
+    }
+  },
+  "365a-sembawang-cres": {
+    "blk_no": "365A",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "751365",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 90,
+      "3room": 30,
+      "4room": 30
+    }
+  },
+  "365b-sembawang-cres": {
+    "blk_no": "365B",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "752365",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "365c-sembawang-cres": {
+    "blk_no": "365C",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "753365",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 126
+    }
+  },
+  "366a-sembawang-cres": {
+    "blk_no": "366A",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "751366",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 108,
+      "3room": 30,
+      "4room": 30
+    }
+  },
+  "366b-sembawang-cres": {
+    "blk_no": "366B",
+    "street": "SEMBAWANG CRES",
+    "street_full": "SEMBAWANG CRESCENT",
+    "postal": "752366",
+    "town": "SEMBAWANG",
+    "year_completed": 2018,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 80,
+      "3room": 30,
+      "4room": 30
+    }
+  },
+  "370a-sembawang-ave": {
+    "blk_no": "370A",
+    "street": "SEMBAWANG AVE",
+    "street_full": "SEMBAWANG AVENUE",
+    "postal": "751370",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 84
+    }
+  },
+  "370b-sembawang-ave": {
+    "blk_no": "370B",
+    "street": "SEMBAWANG AVE",
+    "street_full": "SEMBAWANG AVENUE",
+    "postal": "752370",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 49,
+      "5room": 47
+    }
+  },
+  "371a-sembawang-ave": {
+    "blk_no": "371A",
+    "street": "SEMBAWANG AVE",
+    "street_full": "SEMBAWANG AVENUE",
+    "postal": "751371",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 45
+    }
+  },
+  "371b-sembawang-ave": {
+    "blk_no": "371B",
+    "street": "SEMBAWANG AVE",
+    "street_full": "SEMBAWANG AVENUE",
+    "postal": "752371",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 80,
+      "3room": 16,
+      "4room": 24
+    }
+  },
+  "372a-sembawang-ave": {
+    "blk_no": "372A",
+    "street": "SEMBAWANG AVE",
+    "street_full": "SEMBAWANG AVENUE",
+    "postal": "751372",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 36,
+      "5room": 8
+    }
+  },
+  "372b-sembawang-ave": {
+    "blk_no": "372B",
+    "street": "SEMBAWANG AVE",
+    "street_full": "SEMBAWANG AVENUE",
+    "postal": "752372",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 70,
+      "3room": 7,
+      "4room": 21
+    }
+  },
+  "373a-sembawang-ave": {
+    "blk_no": "373A",
+    "street": "SEMBAWANG AVE",
+    "street_full": "SEMBAWANG AVENUE",
+    "postal": "751373",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 50,
+    "sold_units_by_type": {
+      "2room": 35,
+      "3room": 5,
+      "4room": 10
+    }
+  },
+  "373b-sembawang-ave": {
+    "blk_no": "373B",
+    "street": "SEMBAWANG AVE",
+    "street_full": "SEMBAWANG AVENUE",
+    "postal": "752373",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "2room": 35,
+      "3room": 10,
+      "4room": 10
+    }
+  },
+  "376a-canberra-dr": {
+    "blk_no": "376A",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "761376",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 79,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 61
+    }
+  },
+  "376b-canberra-dr": {
+    "blk_no": "376B",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "762376",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 25
+    }
+  },
+  "376c-canberra-dr": {
+    "blk_no": "376C",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "763376",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "2room": 71,
+      "3room": 9,
+      "4room": 9
+    }
+  },
+  "377a-canberra-dr": {
+    "blk_no": "377A",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "761377",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "2room": 89,
+      "3room": 9,
+      "4room": 9
+    }
+  },
+  "377b-canberra-dr": {
+    "blk_no": "377B",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "762377",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "2room": 108,
+      "4room": 18
+    }
+  },
+  "377c-canberra-dr": {
+    "blk_no": "377C",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "763377",
+    "town": "SEMBAWANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "2room": 114,
+      "4room": 18
+    }
+  },
+  "378a-canberra-dr": {
+    "blk_no": "378A",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "761378",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "2room": 63,
+      "3room": 18
+    }
+  },
+  "378b-canberra-dr": {
+    "blk_no": "378B",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "762378",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "2room": 45,
+      "3room": 36
+    }
+  },
+  "378c-canberra-dr": {
+    "blk_no": "378C",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "763378",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "2room": 49,
+      "3room": 16
+    }
+  },
+  "379a-canberra-dr": {
+    "blk_no": "379A",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "761379",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 72
+    }
+  },
+  "379b-canberra-dr": {
+    "blk_no": "379B",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "762379",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "2room": 63,
+      "3room": 18,
+      "4room": 54
+    }
+  },
+  "379c-canberra-dr": {
+    "blk_no": "379C",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "763379",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "2room": 90,
+      "3room": 18,
+      "4room": 36
+    }
+  },
+  "380a-canberra-dr": {
+    "blk_no": "380A",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "761380",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 36
+    }
+  },
+  "380b-canberra-dr": {
+    "blk_no": "380B",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "762380",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 36
+    }
+  },
+  "380c-canberra-dr": {
+    "blk_no": "380C",
+    "street": "CANBERRA DR",
+    "street_full": "CANBERRA DRIVE",
+    "postal": "763380",
+    "town": "SEMBAWANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 36
+    }
+  },
+  "401-admiralty-link": {
+    "blk_no": "401",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750401",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 70
+    }
+  },
+  "402-admiralty-link": {
+    "blk_no": "402",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750402",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 70
+    }
+  },
+  "403-admiralty-link": {
+    "blk_no": "403",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750403",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 56
+    }
+  },
+  "404-admiralty-link": {
+    "blk_no": "404",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750404",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 59,
+      "5room": 56
+    }
+  },
+  "405-admiralty-link": {
+    "blk_no": "405",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750405",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "406-sembawang-dr": {
+    "blk_no": "406",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750406",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 117
+    }
+  },
+  "407-sembawang-dr": {
+    "blk_no": "407",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750407",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 52
+    }
+  },
+  "408-sembawang-dr": {
+    "blk_no": "408",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750408",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "409-sembawang-dr": {
+    "blk_no": "409",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750409",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 65
+    }
+  },
+  "410-sembawang-dr": {
+    "blk_no": "410",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750410",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 65
+    }
+  },
+  "411-sembawang-dr": {
+    "blk_no": "411",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750411",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 65
+    }
+  },
+  "412-sembawang-dr": {
+    "blk_no": "412",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750412",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 65
+    }
+  },
+  "413-sembawang-dr": {
+    "blk_no": "413",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750413",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 65
+    }
+  },
+  "414-sembawang-dr": {
+    "blk_no": "414",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750414",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 65
+    }
+  },
+  "415-sembawang-dr": {
+    "blk_no": "415",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750415",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "416-canberra-rd": {
+    "blk_no": "416",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750416",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "417-canberra-rd": {
+    "blk_no": "417",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750417",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 65
+    }
+  },
+  "418-canberra-rd": {
+    "blk_no": "418",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750418",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 65
+    }
+  },
+  "419-canberra-rd": {
+    "blk_no": "419",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750419",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 65
+    }
+  },
+  "420-canberra-rd": {
+    "blk_no": "420",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750420",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 65
+    }
+  },
+  "421-canberra-rd": {
+    "blk_no": "421",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750421",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 27,
+      "5room": 65
+    }
+  },
+  "422-canberra-rd": {
+    "blk_no": "422",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750422",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 65
+    }
+  },
+  "423-canberra-rd": {
+    "blk_no": "423",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750423",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "exec": 65
+    }
+  },
+  "424-canberra-rd": {
+    "blk_no": "424",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750424",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 39,
+      "5room": 52
+    }
+  },
+  "425-canberra-rd": {
+    "blk_no": "425",
+    "street": "CANBERRA RD",
+    "street_full": "CANBERRA ROAD",
+    "postal": "750425",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 52
+    }
+  },
+  "462-sembawang-dr": {
+    "blk_no": "462",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750462",
+    "town": "SEMBAWANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 456,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 152,
+      "2room": 304
+    }
+  },
+  "463a-sembawang-dr": {
+    "blk_no": "463A",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "751463",
+    "town": "SEMBAWANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 126,
+      "3room": 42
+    }
+  },
+  "463b-sembawang-dr": {
+    "blk_no": "463B",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "NIL",
+    "town": "SEMBAWANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 88
+    }
+  },
+  "463c-sembawang-dr": {
+    "blk_no": "463C",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "753463",
+    "town": "SEMBAWANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "466a-sembawang-dr": {
+    "blk_no": "466A",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "NIL",
+    "town": "SEMBAWANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 73,
+      "5room": 38
+    }
+  },
+  "466b-sembawang-dr": {
+    "blk_no": "466B",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "752466",
+    "town": "SEMBAWANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 55
+    }
+  },
+  "466c-sembawang-dr": {
+    "blk_no": "466C",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "753466",
+    "town": "SEMBAWANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 55
+    }
+  },
+  "466d-sembawang-dr": {
+    "blk_no": "466D",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "754466",
+    "town": "SEMBAWANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 38
+    }
+  },
+  "467-admiralty-dr": {
+    "blk_no": "467",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "750467",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 46,
+      "exec": 54
+    }
+  },
+  "467a-admiralty-dr": {
+    "blk_no": "467A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751467",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 48,
+      "exec": 54
+    }
+  },
+  "467b-admiralty-dr": {
+    "blk_no": "467B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752467",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 48,
+      "exec": 54
+    }
+  },
+  "468a-admiralty-dr": {
+    "blk_no": "468A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751468",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "5room": 24,
+      "exec": 78
+    }
+  },
+  "468b-admiralty-dr": {
+    "blk_no": "468B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752468",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "5room": 24,
+      "exec": 78
+    }
+  },
+  "468c-admiralty-dr": {
+    "blk_no": "468C",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "753468",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "5room": 24,
+      "exec": 78
+    }
+  },
+  "468d-admiralty-dr": {
+    "blk_no": "468D",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "754468",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "5room": 24,
+      "exec": 78
+    }
+  },
+  "469-admiralty-dr": {
+    "blk_no": "469",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "750469",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 80,
+      "5room": 46,
+      "exec": 54
+    }
+  },
+  "469a-admiralty-dr": {
+    "blk_no": "469A",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "751469",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 48,
+      "exec": 54
+    }
+  },
+  "469b-admiralty-dr": {
+    "blk_no": "469B",
+    "street": "ADMIRALTY DR",
+    "street_full": "ADMIRALTY DRIVE",
+    "postal": "752469",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 48,
+      "exec": 54
+    }
+  },
+  "470-sembawang-dr": {
+    "blk_no": "470",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750470",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 63
+    }
+  },
+  "471-sembawang-dr": {
+    "blk_no": "471",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750471",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "472-sembawang-dr": {
+    "blk_no": "472",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750472",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "473-sembawang-dr": {
+    "blk_no": "473",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750473",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 64
+    }
+  },
+  "474-sembawang-dr": {
+    "blk_no": "474",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750474",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 37,
+      "5room": 64
+    }
+  },
+  "475-sembawang-dr": {
+    "blk_no": "475",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750475",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 59
+    }
+  },
+  "476-sembawang-dr": {
+    "blk_no": "476",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750476",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 59
+    }
+  },
+  "477-sembawang-dr": {
+    "blk_no": "477",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750477",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 98
+    }
+  },
+  "478-sembawang-dr": {
+    "blk_no": "478",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750478",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 28
+    }
+  },
+  "479-sembawang-dr": {
+    "blk_no": "479",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750479",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 98
+    }
+  },
+  "480-sembawang-dr": {
+    "blk_no": "480",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750480",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 62
+    }
+  },
+  "481-sembawang-dr": {
+    "blk_no": "481",
+    "street": "SEMBAWANG DR",
+    "street_full": "SEMBAWANG DRIVE",
+    "postal": "750481",
+    "town": "SEMBAWANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 64
+    }
+  },
+  "482-admiralty-link": {
+    "blk_no": "482",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750482",
+    "town": "SEMBAWANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "483-admiralty-link": {
+    "blk_no": "483",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750483",
+    "town": "SEMBAWANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 120
+    }
+  },
+  "484-admiralty-link": {
+    "blk_no": "484",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750484",
+    "town": "SEMBAWANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 210,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 150
+    }
+  },
+  "485-admiralty-link": {
+    "blk_no": "485",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750485",
+    "town": "SEMBAWANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 154
+    }
+  },
+  "486-admiralty-link": {
+    "blk_no": "486",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750486",
+    "town": "SEMBAWANG",
+    "year_completed": 2002,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 59
+    }
+  },
+  "487-admiralty-link": {
+    "blk_no": "487",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "NIL",
+    "town": "SEMBAWANG",
+    "year_completed": 2009,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "488-admiralty-link": {
+    "blk_no": "488",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750488",
+    "town": "SEMBAWANG",
+    "year_completed": 2009,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 119
+    }
+  },
+  "489-admiralty-link": {
+    "blk_no": "489",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750489",
+    "town": "SEMBAWANG",
+    "year_completed": 2009,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 119
+    }
+  },
+  "490-admiralty-link": {
+    "blk_no": "490",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750490",
+    "town": "SEMBAWANG",
+    "year_completed": 2009,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 119
+    }
+  },
+  "491-admiralty-link": {
+    "blk_no": "491",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "NIL",
+    "town": "SEMBAWANG",
+    "year_completed": 2002,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 108,
+      "5room": 72
+    }
+  },
+  "492-admiralty-link": {
+    "blk_no": "492",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750492",
+    "town": "SEMBAWANG",
+    "year_completed": 2002,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 60
+    }
+  },
+  "493-admiralty-link": {
+    "blk_no": "493",
+    "street": "ADMIRALTY LINK",
+    "street_full": "ADMIRALTY LINK",
+    "postal": "750493",
+    "town": "SEMBAWANG",
+    "year_completed": 2002,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 59
+    }
+  },
+  "501a-wellington-circle": {
+    "blk_no": "501A",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "751501",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 76
+    }
+  },
+  "501b-wellington-circle": {
+    "blk_no": "501B",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "NIL",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 77
+    }
+  },
+  "501c-wellington-circle": {
+    "blk_no": "501C",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "753501",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 66
+    }
+  },
+  "501d-wellington-circle": {
+    "blk_no": "501D",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "754501",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "exec": 77
+    }
+  },
+  "502a-wellington-circle": {
+    "blk_no": "502A",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "751502",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "exec": 77
+    }
+  },
+  "503a-canberra-link": {
+    "blk_no": "503A",
+    "street": "CANBERRA LINK",
+    "street_full": "CANBERRA LINK",
+    "postal": "751503",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "503b-canberra-link": {
+    "blk_no": "503B",
+    "street": "CANBERRA LINK",
+    "street_full": "CANBERRA LINK",
+    "postal": "NIL",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 72
+    }
+  },
+  "503c-canberra-link": {
+    "blk_no": "503C",
+    "street": "CANBERRA LINK",
+    "street_full": "CANBERRA LINK",
+    "postal": "753503",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 72
+    }
+  },
+  "504a-montreal-dr": {
+    "blk_no": "504A",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "751504",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "exec": 84
+    }
+  },
+  "504b-montreal-dr": {
+    "blk_no": "504B",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "752504",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 72
+    }
+  },
+  "504c-canberra-link": {
+    "blk_no": "504C",
+    "street": "CANBERRA LINK",
+    "street_full": "CANBERRA LINK",
+    "postal": "753504",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 84
+    }
+  },
+  "504d-montreal-dr": {
+    "blk_no": "504D",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "754504",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 72
+    }
+  },
+  "506a-wellington-circle": {
+    "blk_no": "506A",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "751506",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "exec": 77
+    }
+  },
+  "507a-wellington-circle": {
+    "blk_no": "507A",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "751507",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 76
+    }
+  },
+  "507b-wellington-circle": {
+    "blk_no": "507B",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "752507",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 33,
+      "5room": 77
+    }
+  },
+  "507c-wellington-circle": {
+    "blk_no": "507C",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "753507",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 66
+    }
+  },
+  "507d-wellington-circle": {
+    "blk_no": "507D",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "754507",
+    "town": "SEMBAWANG",
+    "year_completed": 1999,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "exec": 77
+    }
+  },
+  "508a-wellington-circle": {
+    "blk_no": "508A",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "751508",
+    "town": "SEMBAWANG",
+    "year_completed": 2004,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 98
+    }
+  },
+  "508b-wellington-circle": {
+    "blk_no": "508B",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "752508",
+    "town": "SEMBAWANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "508c-wellington-circle": {
+    "blk_no": "508C",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "753508",
+    "town": "SEMBAWANG",
+    "year_completed": 2004,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 98
+    }
+  },
+  "509a-wellington-circle": {
+    "blk_no": "509A",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "751509",
+    "town": "SEMBAWANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 50,
+      "5room": 50
+    }
+  },
+  "509b-wellington-circle": {
+    "blk_no": "509B",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "752509",
+    "town": "SEMBAWANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 49
+    }
+  },
+  "510a-wellington-circle": {
+    "blk_no": "510A",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "751510",
+    "town": "SEMBAWANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "4room": 100
+    }
+  },
+  "510b-wellington-circle": {
+    "blk_no": "510B",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "752510",
+    "town": "SEMBAWANG",
+    "year_completed": 2004,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "512-wellington-circle": {
+    "blk_no": "512",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "750512",
+    "town": "SEMBAWANG",
+    "year_completed": 2009,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 78,
+      "2room": 52
+    }
+  },
+  "513-wellington-circle": {
+    "blk_no": "513",
+    "street": "WELLINGTON CIRCLE",
+    "street_full": "WELLINGTON CIRCLE",
+    "postal": "750513",
+    "town": "SEMBAWANG",
+    "year_completed": 2009,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "2room": 50
+    },
+    "rental_units_by_type": {
+      "1room": 91,
+      "2room": 15
+    }
+  },
+  "588a-montreal-dr": {
+    "blk_no": "588A",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "751588",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "5room": 105
+    }
+  },
+  "588b-montreal-dr": {
+    "blk_no": "588B",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "752588",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "exec": 96
+    }
+  },
+  "588c-montreal-dr": {
+    "blk_no": "588C",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "753588",
+    "town": "SEMBAWANG",
+    "year_completed": 2000,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "5room": 109
+    }
+  },
+  "589a-montreal-dr": {
+    "blk_no": "589A",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "751589",
+    "town": "SEMBAWANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 30
+    }
+  },
+  "589b-montreal-dr": {
+    "blk_no": "589B",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "752589",
+    "town": "SEMBAWANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 30
+    }
+  },
+  "589c-montreal-dr": {
+    "blk_no": "589C",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "753589",
+    "town": "SEMBAWANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 33
+    }
+  },
+  "589d-montreal-dr": {
+    "blk_no": "589D",
+    "street": "MONTREAL DR",
+    "street_full": "MONTREAL DRIVE",
+    "postal": "754589",
+    "town": "SEMBAWANG",
+    "year_completed": 2001,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "4room": 76,
+      "5room": 33
+    }
+  },
+  "590a-montreal-link": {
+    "blk_no": "590A",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "751590",
+    "town": "SEMBAWANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "2room": 60,
+      "3room": 54
+    }
+  },
+  "590b-montreal-link": {
+    "blk_no": "590B",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "752590",
+    "town": "SEMBAWANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "3room": 31,
+      "4room": 64
+    }
+  },
+  "590c-montreal-link": {
+    "blk_no": "590C",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "753590",
+    "town": "SEMBAWANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 103,
+    "sold_units_by_type": {
+      "3room": 15,
+      "4room": 88
+    }
+  },
+  "591a-montreal-link": {
+    "blk_no": "591A",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "751591",
+    "town": "SEMBAWANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "2room": 56,
+      "3room": 54,
+      "exec": 1
+    }
+  },
+  "592a-montreal-link": {
+    "blk_no": "592A",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "751592",
+    "town": "SEMBAWANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 53
+    }
+  },
+  "592b-montreal-link": {
+    "blk_no": "592B",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "752592",
+    "town": "SEMBAWANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "592c-montreal-link": {
+    "blk_no": "592C",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "NIL",
+    "town": "SEMBAWANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "593a-montreal-link": {
+    "blk_no": "593A",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "751593",
+    "town": "SEMBAWANG",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "3room": 30,
+      "4room": 105
+    }
+  },
+  "593b-montreal-link": {
+    "blk_no": "593B",
+    "street": "MONTREAL LINK",
+    "street_full": "MONTREAL LINK",
+    "postal": "752593",
+    "town": "SEMBAWANG",
+    "year_completed": 2014,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 105,
+      "3room": 45
+    }
+  }
+}

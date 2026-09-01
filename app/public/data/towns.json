@@ -1,0 +1,137 @@
+[
+  {
+    "town": "ANG MO KIO",
+    "town_slug": "ang-mo-kio",
+    "town_code": "AMK"
+  },
+  {
+    "town": "BUKIT BATOK",
+    "town_slug": "bukit-batok",
+    "town_code": "BB"
+  },
+  {
+    "town": "BEDOK",
+    "town_slug": "bedok",
+    "town_code": "BD"
+  },
+  {
+    "town": "BISHAN",
+    "town_slug": "bishan",
+    "town_code": "BH"
+  },
+  {
+    "town": "BUKIT MERAH",
+    "town_slug": "bukit-merah",
+    "town_code": "BM"
+  },
+  {
+    "town": "BUKIT PANJANG",
+    "town_slug": "bukit-panjang",
+    "town_code": "BP"
+  },
+  {
+    "town": "BUKIT TIMAH",
+    "town_slug": "bukit-timah",
+    "town_code": "BT"
+  },
+  {
+    "town": "CHOA CHU KANG",
+    "town_slug": "choa-chu-kang",
+    "town_code": "CCK"
+  },
+  {
+    "town": "CLEMENTI",
+    "town_slug": "clementi",
+    "town_code": "CL"
+  },
+  {
+    "town": "CENTRAL AREA",
+    "town_slug": "central-area",
+    "town_code": "CT"
+  },
+  {
+    "town": "GEYLANG",
+    "town_slug": "geylang",
+    "town_code": "GL"
+  },
+  {
+    "town": "HOUGANG",
+    "town_slug": "hougang",
+    "town_code": "HG"
+  },
+  {
+    "town": "JURONG EAST",
+    "town_slug": "jurong-east",
+    "town_code": "JE"
+  },
+  {
+    "town": "JURONG WEST",
+    "town_slug": "jurong-west",
+    "town_code": "JW"
+  },
+  {
+    "town": "KALLANG/WHAMPOA",
+    "town_slug": "kallang-whampoa",
+    "town_code": "KWN"
+  },
+  {
+    "town": "MARINE PARADE",
+    "town_slug": "marine-parade",
+    "town_code": "MP"
+  },
+  {
+    "town": "PUNGGOL",
+    "town_slug": "punggol",
+    "town_code": "PG"
+  },
+  {
+    "town": "PASIR RIS",
+    "town_slug": "pasir-ris",
+    "town_code": "PRC"
+  },
+  {
+    "town": "QUEENSTOWN",
+    "town_slug": "queenstown",
+    "town_code": "QT"
+  },
+  {
+    "town": "SEMBAWANG",
+    "town_slug": "sembawang",
+    "town_code": "SB"
+  },
+  {
+    "town": "SERANGOON",
+    "town_slug": "serangoon",
+    "town_code": "SGN"
+  },
+  {
+    "town": "SENGKANG",
+    "town_slug": "sengkang",
+    "town_code": "SK"
+  },
+  {
+    "town": "TAMPINES",
+    "town_slug": "tampines",
+    "town_code": "TAP"
+  },
+  {
+    "town": "TENGAH",
+    "town_slug": "tengah",
+    "town_code": "TG"
+  },
+  {
+    "town": "TOA PAYOH",
+    "town_slug": "toa-payoh",
+    "town_code": "TP"
+  },
+  {
+    "town": "WOODLANDS",
+    "town_slug": "woodlands",
+    "town_code": "WL"
+  },
+  {
+    "town": "YISHUN",
+    "town_slug": "yishun",
+    "town_code": "YS"
+  }
+]

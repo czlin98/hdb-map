@@ -1,0 +1,5415 @@
+{
+  "1-lor-7-toa-payoh": {
+    "blk_no": "1",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310001",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 196,
+    "sold_units_by_type": {
+      "3room": 194,
+      "5room": 2
+    }
+  },
+  "10-joo-seng-rd": {
+    "blk_no": "10",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360010",
+    "town": "TOA PAYOH",
+    "year_completed": 1982,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "10-lor-7-toa-payoh": {
+    "blk_no": "10",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310010",
+    "town": "TOA PAYOH",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 28
+    }
+  },
+  "100-lor-1-toa-payoh": {
+    "blk_no": "100",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310100",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 192
+    }
+  },
+  "101-potong-pasir-ave-1": {
+    "blk_no": "101",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350101",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "101a-bidadari-pk-dr": {
+    "blk_no": "101A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341101",
+    "town": "TOA PAYOH",
+    "year_completed": 2020,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 295,
+    "sold_units_by_type": {
+      "2room": 86,
+      "3room": 91,
+      "4room": 118
+    }
+  },
+  "101a-lor-2-toa-payoh": {
+    "blk_no": "101A",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310101",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "exec": 64
+    }
+  },
+  "101b-lor-2-toa-payoh": {
+    "blk_no": "101B",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "311101",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "102-potong-pasir-ave-1": {
+    "blk_no": "102",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350102",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 144,
+      "4room": 20,
+      "exec": 3
+    }
+  },
+  "102a-bidadari-pk-dr": {
+    "blk_no": "102A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341102",
+    "town": "TOA PAYOH",
+    "year_completed": 2020,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 205,
+    "sold_units_by_type": {
+      "2room": 66,
+      "4room": 139
+    }
+  },
+  "102b-bidadari-pk-dr": {
+    "blk_no": "102B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "342102",
+    "town": "TOA PAYOH",
+    "year_completed": 2020,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 148
+    }
+  },
+  "103-lor-1-toa-payoh": {
+    "blk_no": "103",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310103",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 159,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 159
+    }
+  },
+  "103-potong-pasir-ave-1": {
+    "blk_no": "103",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350103",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "3room": 62,
+      "exec": 1
+    }
+  },
+  "103a-bidadari-pk-dr": {
+    "blk_no": "103A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341103",
+    "town": "TOA PAYOH",
+    "year_completed": 2020,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 56,
+      "4room": 60
+    }
+  },
+  "103b-bidadari-pk-dr": {
+    "blk_no": "103B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "342103",
+    "town": "TOA PAYOH",
+    "year_completed": 2020,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 76,
+      "4room": 76
+    }
+  },
+  "104-lor-1-toa-payoh": {
+    "blk_no": "104",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310104",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 160
+    }
+  },
+  "104-potong-pasir-ave-1": {
+    "blk_no": "104",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350104",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 122,
+      "4room": 48,
+      "exec": 4
+    }
+  },
+  "104a-bidadari-pk-dr": {
+    "blk_no": "104A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341104",
+    "town": "TOA PAYOH",
+    "year_completed": 2020,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 290,
+    "sold_units_by_type": {
+      "2room": 40,
+      "3room": 94,
+      "4room": 156
+    }
+  },
+  "105-lor-1-toa-payoh": {
+    "blk_no": "105",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310105",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 160
+    }
+  },
+  "105-potong-pasir-ave-1": {
+    "blk_no": "105",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350105",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 178,
+    "sold_units_by_type": {
+      "3room": 152,
+      "4room": 26
+    }
+  },
+  "105a-bidadari-pk-dr": {
+    "blk_no": "105A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341105",
+    "town": "TOA PAYOH",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 36
+    }
+  },
+  "105b-bidadari-pk-dr": {
+    "blk_no": "105B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "342105",
+    "town": "TOA PAYOH",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 92,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 38
+    }
+  },
+  "106-lor-1-toa-payoh": {
+    "blk_no": "106",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310106",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 158,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 158
+    }
+  },
+  "106-potong-pasir-ave-1": {
+    "blk_no": "106",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350106",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 38,
+    "sold_units_by_type": {
+      "3room": 36,
+      "exec": 2
+    }
+  },
+  "106a-bidadari-pk-dr": {
+    "blk_no": "106A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341106",
+    "town": "TOA PAYOH",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 45
+    }
+  },
+  "106b-bidadari-pk-dr": {
+    "blk_no": "106B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "342106",
+    "town": "TOA PAYOH",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 32
+    }
+  },
+  "107-lor-1-toa-payoh": {
+    "blk_no": "107",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310107",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 96
+    }
+  },
+  "107-potong-pasir-ave-1": {
+    "blk_no": "107",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350107",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 65,
+      "4room": 39
+    }
+  },
+  "107a-bidadari-pk-dr": {
+    "blk_no": "107A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341107",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "3room": 78,
+      "4room": 52,
+      "5room": 15
+    }
+  },
+  "107b-bidadari-pk-dr": {
+    "blk_no": "107B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "342107",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 48
+    }
+  },
+  "108-lor-1-toa-payoh": {
+    "blk_no": "108",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310108",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 115,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "108-potong-pasir-ave-1": {
+    "blk_no": "108",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350108",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 115,
+      "4room": 26,
+      "exec": 1
+    }
+  },
+  "108a-bidadari-pk-dr": {
+    "blk_no": "108A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341108",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 96,
+      "4room": 60
+    }
+  },
+  "108b-bidadari-pk-dr": {
+    "blk_no": "108B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "342108",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 30
+    }
+  },
+  "109-lor-1-toa-payoh": {
+    "blk_no": "109",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310109",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "3room": 99
+    }
+  },
+  "109-potong-pasir-ave-1": {
+    "blk_no": "109",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350109",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "3room": 72
+    }
+  },
+  "109a-bidadari-pk-dr": {
+    "blk_no": "109A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341109",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 30
+    }
+  },
+  "109b-bidadari-pk-dr": {
+    "blk_no": "109B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "342109",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 30
+    }
+  },
+  "10b-lor-7-toa-payoh": {
+    "blk_no": "10B",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "312010",
+    "town": "TOA PAYOH",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 28
+    }
+  },
+  "11-joo-seng-rd": {
+    "blk_no": "11",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360011",
+    "town": "TOA PAYOH",
+    "year_completed": 1982,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "11-lor-8-toa-payoh": {
+    "blk_no": "11",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310011",
+    "town": "TOA PAYOH",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 94,
+      "5room": 30
+    }
+  },
+  "110-lor-1-toa-payoh": {
+    "blk_no": "110",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310110",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 115,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "110a-bidadari-pk-dr": {
+    "blk_no": "110A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "341110",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 97,
+      "5room": 43
+    }
+  },
+  "110b-bidadari-pk-dr": {
+    "blk_no": "110B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "342110",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 40
+    }
+  },
+  "111-lor-1-toa-payoh": {
+    "blk_no": "111",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310111",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 92,
+      "5room": 3
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "111a-alkaff-cres": {
+    "blk_no": "111A",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "341111",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "2room": 46,
+      "4room": 53
+    }
+  },
+  "111b-alkaff-cres": {
+    "blk_no": "111B",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "342111",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "2room": 77,
+      "4room": 37
+    }
+  },
+  "112-lor-1-toa-payoh": {
+    "blk_no": "112",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310112",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 118,
+      "5room": 1
+    }
+  },
+  "112a-alkaff-cres": {
+    "blk_no": "112A",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "341112",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 75,
+      "4room": 37
+    }
+  },
+  "112b-alkaff-cres": {
+    "blk_no": "112B",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "342112",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 15,
+      "4room": 75
+    }
+  },
+  "113-lor-1-toa-payoh": {
+    "blk_no": "113",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310113",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 118,
+      "5room": 1
+    }
+  },
+  "113-potong-pasir-ave-1": {
+    "blk_no": "113",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350113",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 92,
+      "4room": 68
+    }
+  },
+  "113a-alkaff-cres": {
+    "blk_no": "113A",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "341113",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 72
+    }
+  },
+  "113b-alkaff-cres": {
+    "blk_no": "113B",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "342113",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "3room": 43,
+      "4room": 25
+    }
+  },
+  "114-lor-1-toa-payoh": {
+    "blk_no": "114",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310114",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 118,
+      "5room": 1
+    }
+  },
+  "114-potong-pasir-ave-1": {
+    "blk_no": "114",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350114",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 136,
+    "sold_units_by_type": {
+      "3room": 92,
+      "4room": 44
+    }
+  },
+  "114a-alkaff-cres": {
+    "blk_no": "114A",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "341114",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 49,
+      "4room": 37
+    }
+  },
+  "114b-alkaff-cres": {
+    "blk_no": "114B",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "342114",
+    "town": "TOA PAYOH",
+    "year_completed": 2021,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "2room": 10,
+      "3room": 46,
+      "4room": 37
+    }
+  },
+  "115-lor-1-toa-payoh": {
+    "blk_no": "115",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310115",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "115-potong-pasir-ave-1": {
+    "blk_no": "115",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350115",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "3room": 90,
+      "4room": 44,
+      "5room": 1
+    }
+  },
+  "115a-alkaff-cres": {
+    "blk_no": "115A",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "341115",
+    "town": "TOA PAYOH",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 48
+    }
+  },
+  "115c-alkaff-cres": {
+    "blk_no": "115C",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "343115",
+    "town": "TOA PAYOH",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 48
+    }
+  },
+  "116-lor-2-toa-payoh": {
+    "blk_no": "116",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310116",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 291,
+    "sold_units_by_type": {
+      "3room": 286
+    },
+    "rental_units_by_type": {
+      "3room": 5
+    }
+  },
+  "116-potong-pasir-ave-1": {
+    "blk_no": "116",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350116",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 8
+    }
+  },
+  "117-lor-1-toa-payoh": {
+    "blk_no": "117",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310117",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 111,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "117-potong-pasir-ave-1": {
+    "blk_no": "117",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350117",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 90,
+      "4room": 66
+    }
+  },
+  "118-lor-1-toa-payoh": {
+    "blk_no": "118",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310118",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 116,
+      "5room": 2
+    }
+  },
+  "118-potong-pasir-ave-1": {
+    "blk_no": "118",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350118",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 24
+    }
+  },
+  "118a-alkaff-cres": {
+    "blk_no": "118A",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "341118",
+    "town": "TOA PAYOH",
+    "year_completed": 2019,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 339,
+    "sold_units_by_type": {
+      "3room": 102,
+      "4room": 237
+    }
+  },
+  "119-lor-1-toa-payoh": {
+    "blk_no": "119",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310119",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "3room": 114,
+      "5room": 3
+    }
+  },
+  "119-potong-pasir-ave-1": {
+    "blk_no": "119",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350119",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "3room": 92,
+      "4room": 68
+    }
+  },
+  "119a-alkaff-cres": {
+    "blk_no": "119A",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "341119",
+    "town": "TOA PAYOH",
+    "year_completed": 2024,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "4room": 104,
+      "5room": 71
+    }
+  },
+  "119b-alkaff-cres": {
+    "blk_no": "119B",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "342119",
+    "town": "TOA PAYOH",
+    "year_completed": 2024,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 30,
+      "5room": 26
+    }
+  },
+  "119c-alkaff-cres": {
+    "blk_no": "119C",
+    "street": "ALKAFF CRES",
+    "street_full": "ALKAFF CRESCENT",
+    "postal": "343119",
+    "town": "TOA PAYOH",
+    "year_completed": 2024,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 92,
+      "5room": 30
+    }
+  },
+  "12-joo-seng-rd": {
+    "blk_no": "12",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360012",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 54
+    }
+  },
+  "12-lor-7-toa-payoh": {
+    "blk_no": "12",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310012",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 176
+    }
+  },
+  "120-lor-2-toa-payoh": {
+    "blk_no": "120",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310120",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "2room": 160
+    }
+  },
+  "120-potong-pasir-ave-1": {
+    "blk_no": "120",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350120",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "3room": 85,
+      "4room": 61
+    }
+  },
+  "121-lor-2-toa-payoh": {
+    "blk_no": "121",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310121",
+    "town": "TOA PAYOH",
+    "year_completed": 1998,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 58
+    }
+  },
+  "121-potong-pasir-ave-1": {
+    "blk_no": "121",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350121",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 177,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 62,
+      "5room": 62,
+      "exec": 1
+    }
+  },
+  "122-lor-2-toa-payoh": {
+    "blk_no": "122",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310122",
+    "town": "TOA PAYOH",
+    "year_completed": 1998,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 91,
+      "5room": 77
+    }
+  },
+  "122-potong-pasir-ave-1": {
+    "blk_no": "122",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350122",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 81
+    }
+  },
+  "123-lor-1-toa-payoh": {
+    "blk_no": "123",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310123",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 128
+    }
+  },
+  "123-potong-pasir-ave-1": {
+    "blk_no": "123",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350123",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "124-lor-1-toa-payoh": {
+    "blk_no": "124",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310124",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 130,
+      "5room": 1
+    }
+  },
+  "124-potong-pasir-ave-1": {
+    "blk_no": "124",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350124",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "125-lor-1-toa-payoh": {
+    "blk_no": "125",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310125",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "3room": 163
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "125-potong-pasir-ave-1": {
+    "blk_no": "125",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350125",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "126-lor-1-toa-payoh": {
+    "blk_no": "126",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310126",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 194,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "126-potong-pasir-ave-1": {
+    "blk_no": "126",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350126",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "127-potong-pasir-ave-1": {
+    "blk_no": "127",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350127",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "128-lor-1-toa-payoh": {
+    "blk_no": "128",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310128",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 200,
+    "sold_units_by_type": {
+      "3room": 200
+    }
+  },
+  "128-potong-pasir-ave-1": {
+    "blk_no": "128",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350128",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "129-potong-pasir-ave-1": {
+    "blk_no": "129",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350129",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "13-joo-seng-rd": {
+    "blk_no": "13",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360013",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 48
+    }
+  },
+  "13-lor-7-toa-payoh": {
+    "blk_no": "13",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310013",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 176
+    }
+  },
+  "130-potong-pasir-ave-1": {
+    "blk_no": "130",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350130",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "130a-lor-1-toa-payoh": {
+    "blk_no": "130A",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "311130",
+    "town": "TOA PAYOH",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 231,
+    "sold_units_by_type": {
+      "3room": 77,
+      "4room": 154
+    }
+  },
+  "130b-lor-1-toa-payoh": {
+    "blk_no": "130B",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "312130",
+    "town": "TOA PAYOH",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "3room": 78,
+      "4room": 156
+    }
+  },
+  "131-potong-pasir-ave-1": {
+    "blk_no": "131",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350131",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "exec": 16
+    }
+  },
+  "131a-lor-1-toa-payoh": {
+    "blk_no": "131A",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "311131",
+    "town": "TOA PAYOH",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 269,
+    "sold_units_by_type": {
+      "2room": 64,
+      "3room": 78,
+      "4room": 76,
+      "studio_apartment": 51
+    }
+  },
+  "131b-lor-1-toa-payoh": {
+    "blk_no": "131B",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "312131",
+    "town": "TOA PAYOH",
+    "year_completed": 2017,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 272,
+    "sold_units_by_type": {
+      "2room": 65,
+      "3room": 78,
+      "4room": 78,
+      "studio_apartment": 51
+    }
+  },
+  "132-potong-pasir-ave-1": {
+    "blk_no": "132",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350132",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "133-potong-pasir-ave-1": {
+    "blk_no": "133",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350133",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "134-potong-pasir-ave-3": {
+    "blk_no": "134",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350134",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "3room": 46,
+      "4room": 38,
+      "5room": 5
+    }
+  },
+  "135-potong-pasir-ave-3": {
+    "blk_no": "135",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350135",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 32
+    }
+  },
+  "136-potong-pasir-ave-3": {
+    "blk_no": "136",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350136",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 35,
+      "5room": 5
+    }
+  },
+  "137-potong-pasir-ave-3": {
+    "blk_no": "137",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350137",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 35,
+      "5room": 5
+    }
+  },
+  "138-potong-pasir-ave-3": {
+    "blk_no": "138",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350138",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 32
+    }
+  },
+  "138a-lor-1a-toa-payoh": {
+    "blk_no": "138A",
+    "street": "LOR 1A TOA PAYOH",
+    "street_full": "LORONG 1A TOA PAYOH",
+    "postal": "311138",
+    "town": "TOA PAYOH",
+    "year_completed": 2012,
+    "max_floor_lvl": 42,
+    "total_dwelling_units": 246,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 63,
+      "5room": 164
+    }
+  },
+  "138b-lor-1a-toa-payoh": {
+    "blk_no": "138B",
+    "street": "LOR 1A TOA PAYOH",
+    "street_full": "LORONG 1A TOA PAYOH",
+    "postal": "312138",
+    "town": "TOA PAYOH",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 237,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 60,
+      "5room": 158
+    }
+  },
+  "138c-lor-1a-toa-payoh": {
+    "blk_no": "138C",
+    "street": "LOR 1A TOA PAYOH",
+    "street_full": "LORONG 1A TOA PAYOH",
+    "postal": "313138",
+    "town": "TOA PAYOH",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 237,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 60,
+      "5room": 158
+    }
+  },
+  "139-potong-pasir-ave-3": {
+    "blk_no": "139",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350139",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 68,
+      "5room": 8
+    }
+  },
+  "139a-lor-1a-toa-payoh": {
+    "blk_no": "139A",
+    "street": "LOR 1A TOA PAYOH",
+    "street_full": "LORONG 1A TOA PAYOH",
+    "postal": "311139",
+    "town": "TOA PAYOH",
+    "year_completed": 2012,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 237,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 60,
+      "5room": 158
+    }
+  },
+  "139b-lor-1a-toa-payoh": {
+    "blk_no": "139B",
+    "street": "LOR 1A TOA PAYOH",
+    "street_full": "LORONG 1A TOA PAYOH",
+    "postal": "312139",
+    "town": "TOA PAYOH",
+    "year_completed": 2012,
+    "max_floor_lvl": 42,
+    "total_dwelling_units": 246,
+    "sold_units_by_type": {
+      "3room": 19,
+      "4room": 63,
+      "5room": 164
+    }
+  },
+  "14-joo-seng-rd": {
+    "blk_no": "14",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360014",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 54
+    }
+  },
+  "14-lor-7-toa-payoh": {
+    "blk_no": "14",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310014",
+    "town": "TOA PAYOH",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 28
+    }
+  },
+  "140-potong-pasir-ave-3": {
+    "blk_no": "140",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350140",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 75,
+      "4room": 40,
+      "5room": 7
+    }
+  },
+  "141-lor-2-toa-payoh": {
+    "blk_no": "141",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "311141",
+    "town": "TOA PAYOH",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "4room": 115,
+      "5room": 58
+    }
+  },
+  "141-potong-pasir-ave-3": {
+    "blk_no": "141",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350141",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 32
+    }
+  },
+  "142-lor-2-toa-payoh": {
+    "blk_no": "142",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310142",
+    "town": "TOA PAYOH",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "4room": 115,
+      "5room": 58
+    }
+  },
+  "142-potong-pasir-ave-3": {
+    "blk_no": "142",
+    "street": "POTONG PASIR AVE 3",
+    "street_full": "POTONG PASIR AVENUE 3",
+    "postal": "350142",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 159,
+    "sold_units_by_type": {
+      "3room": 82,
+      "4room": 68,
+      "5room": 9
+    }
+  },
+  "143-lor-2-toa-payoh": {
+    "blk_no": "143",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310143",
+    "town": "TOA PAYOH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 183,
+    "sold_units_by_type": {
+      "4room": 107,
+      "5room": 76
+    }
+  },
+  "143-potong-pasir-ave-2": {
+    "blk_no": "143",
+    "street": "POTONG PASIR AVE 2",
+    "street_full": "POTONG PASIR AVENUE 2",
+    "postal": "350143",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 68,
+      "5room": 8
+    }
+  },
+  "144-lor-2-toa-payoh": {
+    "blk_no": "144",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310144",
+    "town": "TOA PAYOH",
+    "year_completed": 2000,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 183,
+    "sold_units_by_type": {
+      "4room": 107,
+      "5room": 76
+    }
+  },
+  "144-potong-pasir-ave-2": {
+    "blk_no": "144",
+    "street": "POTONG PASIR AVE 2",
+    "street_full": "POTONG PASIR AVENUE 2",
+    "postal": "350144",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 32,
+    "sold_units_by_type": {
+      "4room": 32
+    }
+  },
+  "145-lor-2-toa-payoh": {
+    "blk_no": "145",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310145",
+    "town": "TOA PAYOH",
+    "year_completed": 2005,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 195,
+      "5room": 39
+    }
+  },
+  "145-potong-pasir-ave-2": {
+    "blk_no": "145",
+    "street": "POTONG PASIR AVE 2",
+    "street_full": "POTONG PASIR AVENUE 2",
+    "postal": "350145",
+    "town": "TOA PAYOH",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "3room": 80,
+      "4room": 68,
+      "5room": 8
+    }
+  },
+  "146-lor-2-toa-payoh": {
+    "blk_no": "146",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310146",
+    "town": "TOA PAYOH",
+    "year_completed": 2005,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "4room": 195,
+      "5room": 39
+    }
+  },
+  "146-potong-pasir-ave-1": {
+    "blk_no": "146",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350146",
+    "town": "TOA PAYOH",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 43,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 17
+    },
+    "rental_units_by_type": {
+      "3room": 4
+    }
+  },
+  "147-lor-2-toa-payoh": {
+    "blk_no": "147",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310147",
+    "town": "TOA PAYOH",
+    "year_completed": 2004,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 229,
+    "sold_units_by_type": {
+      "4room": 156,
+      "5room": 73
+    }
+  },
+  "148-lor-1-toa-payoh": {
+    "blk_no": "148",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310148",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 180
+    }
+  },
+  "148-potong-pasir-ave-1": {
+    "blk_no": "148",
+    "street": "POTONG PASIR AVE 1",
+    "street_full": "POTONG PASIR AVENUE 1",
+    "postal": "350148",
+    "town": "TOA PAYOH",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "3room": 32,
+      "4room": 13
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "149-lor-1-toa-payoh": {
+    "blk_no": "149",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310149",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 180
+    }
+  },
+  "14a-lor-7-toa-payoh": {
+    "blk_no": "14A",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 96
+    }
+  },
+  "14b-lor-7-toa-payoh": {
+    "blk_no": "14B",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "312014",
+    "town": "TOA PAYOH",
+    "year_completed": 1996,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 28
+    }
+  },
+  "15-joo-seng-rd": {
+    "blk_no": "15",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360015",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "15-lor-7-toa-payoh": {
+    "blk_no": "15",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310015",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 257,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 257
+    }
+  },
+  "150-lor-1-toa-payoh": {
+    "blk_no": "150",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310150",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 180
+    }
+  },
+  "152-lor-2-toa-payoh": {
+    "blk_no": "152",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310152",
+    "town": "TOA PAYOH",
+    "year_completed": 2005,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 229,
+    "sold_units_by_type": {
+      "4room": 156,
+      "5room": 73
+    }
+  },
+  "153-lor-2-toa-payoh": {
+    "blk_no": "153",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310153",
+    "town": "TOA PAYOH",
+    "year_completed": 1998,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 111
+    }
+  },
+  "153a-lor-1-toa-payoh": {
+    "blk_no": "153A",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "311153",
+    "town": "TOA PAYOH",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 36
+    }
+  },
+  "154-lor-2-toa-payoh": {
+    "blk_no": "154",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310154",
+    "town": "TOA PAYOH",
+    "year_completed": 1999,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 87
+    }
+  },
+  "155-lor-1-toa-payoh": {
+    "blk_no": "155",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310155",
+    "town": "TOA PAYOH",
+    "year_completed": 1998,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "156-lor-1-toa-payoh": {
+    "blk_no": "156",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310156",
+    "town": "TOA PAYOH",
+    "year_completed": 1997,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 32
+    }
+  },
+  "157-lor-1-toa-payoh": {
+    "blk_no": "157",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310157",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 353,
+    "sold_units_by_type": {
+      "3room": 346,
+      "5room": 7
+    }
+  },
+  "158-lor-1-toa-payoh": {
+    "blk_no": "158",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 148,
+      "5room": 3
+    }
+  },
+  "159-lor-1-toa-payoh": {
+    "blk_no": "159",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 154
+    }
+  },
+  "16-joo-seng-rd": {
+    "blk_no": "16",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360016",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 17,
+      "5room": 51
+    }
+  },
+  "160-lor-1-toa-payoh": {
+    "blk_no": "160",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310160",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 50
+    },
+    "rental_units_by_type": {
+      "2room": 126
+    }
+  },
+  "161-lor-1-toa-payoh": {
+    "blk_no": "161",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310161",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 59
+    },
+    "rental_units_by_type": {
+      "2room": 117
+    }
+  },
+  "163-lor-1-toa-payoh": {
+    "blk_no": "163",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310163",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 131,
+    "sold_units_by_type": {
+      "3room": 130,
+      "5room": 1
+    }
+  },
+  "168-lor-1-toa-payoh": {
+    "blk_no": "168",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310168",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 120,
+      "5room": 2
+    }
+  },
+  "169-lor-1-toa-payoh": {
+    "blk_no": "169",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 116,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 12
+    }
+  },
+  "17-joo-seng-rd": {
+    "blk_no": "17",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360017",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "4room": 152
+    }
+  },
+  "17-lor-7-toa-payoh": {
+    "blk_no": "17",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310017",
+    "town": "TOA PAYOH",
+    "year_completed": 1970,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 320,
+    "sold_units_by_type": {
+      "3room": 320
+    }
+  },
+  "170-lor-1-toa-payoh": {
+    "blk_no": "170",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310170",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 308,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 308
+    }
+  },
+  "171-lor-1-toa-payoh": {
+    "blk_no": "171",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310171",
+    "town": "TOA PAYOH",
+    "year_completed": 1994,
+    "max_floor_lvl": 23,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 67,
+      "5room": 93
+    }
+  },
+  "172-lor-1-toa-payoh": {
+    "blk_no": "172",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310172",
+    "town": "TOA PAYOH",
+    "year_completed": 1994,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 48
+    }
+  },
+  "172a-lor-1-toa-payoh": {
+    "blk_no": "172A",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1993,
+    "max_floor_lvl": 6,
+    "total_dwelling_units": 35,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 10
+    }
+  },
+  "173-lor-1-toa-payoh": {
+    "blk_no": "173",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310173",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "3room": 217,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "174-lor-1-toa-payoh": {
+    "blk_no": "174",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310174",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 127,
+    "sold_units_by_type": {
+      "3room": 122,
+      "5room": 5
+    }
+  },
+  "175-lor-2-toa-payoh": {
+    "blk_no": "175",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310175",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "177-toa-payoh-ctrl": {
+    "blk_no": "177",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "310177",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "3room": 63,
+      "4room": 17,
+      "5room": 1
+    }
+  },
+  "178-toa-payoh-ctrl": {
+    "blk_no": "178",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "310178",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "3room": 43,
+      "4room": 1,
+      "5room": 2
+    }
+  },
+  "179-toa-payoh-ctrl": {
+    "blk_no": "179",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "310179",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "18-joo-seng-rd": {
+    "blk_no": "18",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360018",
+    "town": "TOA PAYOH",
+    "year_completed": 1983,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "18-lor-7-toa-payoh": {
+    "blk_no": "18",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310018",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "3room": 144,
+      "5room": 2
+    }
+  },
+  "183-toa-payoh-ctrl": {
+    "blk_no": "183",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "310183",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 17,
+      "5room": 1
+    }
+  },
+  "184-toa-payoh-ctrl": {
+    "blk_no": "184",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "310184",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 6
+    }
+  },
+  "185-toa-payoh-ctrl": {
+    "blk_no": "185",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "310185",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 23,
+    "sold_units_by_type": {
+      "3room": 22,
+      "5room": 1
+    }
+  },
+  "186-toa-payoh-ctrl": {
+    "blk_no": "186",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "310186",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 36,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 8
+    }
+  },
+  "19-joo-seng-rd": {
+    "blk_no": "19",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360019",
+    "town": "TOA PAYOH",
+    "year_completed": 1987,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "5room": 72
+    }
+  },
+  "191-lor-4-toa-payoh": {
+    "blk_no": "191",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310191",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "193-lor-4-toa-payoh": {
+    "blk_no": "193",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310193",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "194-kim-keat-ave": {
+    "blk_no": "194",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310194",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 199,
+    "sold_units_by_type": {
+      "3room": 194,
+      "5room": 5
+    }
+  },
+  "195-kim-keat-ave": {
+    "blk_no": "195",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 539,
+    "sold_units_by_type": {
+      "3room": 528,
+      "5room": 11
+    }
+  },
+  "196-kim-keat-ave": {
+    "blk_no": "196",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310196",
+    "town": "TOA PAYOH",
+    "year_completed": 2015,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "2room": 57,
+      "studio_apartment": 131
+    }
+  },
+  "199-toa-payoh-nth": {
+    "blk_no": "199",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 168,
+      "5room": 4
+    }
+  },
+  "2-lor-7-toa-payoh": {
+    "blk_no": "2",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310002",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 197,
+    "sold_units_by_type": {
+      "3room": 196,
+      "5room": 1
+    }
+  },
+  "2-upp-aljunied-lane": {
+    "blk_no": "2",
+    "street": "UPP ALJUNIED LANE",
+    "street_full": "UPPER ALJUNIED LANE",
+    "postal": "360002",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "3room": 92,
+      "4room": 2
+    }
+  },
+  "20-joo-seng-rd": {
+    "blk_no": "20",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360020",
+    "town": "TOA PAYOH",
+    "year_completed": 1987,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "exec": 62
+    }
+  },
+  "20-lor-7-toa-payoh": {
+    "blk_no": "20",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310020",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "3room": 144,
+      "5room": 2
+    }
+  },
+  "200-toa-payoh-nth": {
+    "blk_no": "200",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "310200",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "201-toa-payoh-nth": {
+    "blk_no": "201",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "310201",
+    "town": "TOA PAYOH",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "201a-woodleigh-link": {
+    "blk_no": "201A",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "361201",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 35
+    }
+  },
+  "201b-woodleigh-link": {
+    "blk_no": "201B",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "362201",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 75
+    }
+  },
+  "201c-woodleigh-link": {
+    "blk_no": "201C",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "363201",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "3room": 53,
+      "4room": 49
+    }
+  },
+  "202-toa-payoh-nth": {
+    "blk_no": "202",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "310202",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "4room": 152
+    }
+  },
+  "203-toa-payoh-nth": {
+    "blk_no": "203",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 166,
+      "5room": 1
+    }
+  },
+  "204-toa-payoh-nth": {
+    "blk_no": "204",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "310204",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "4room": 152
+    }
+  },
+  "205-toa-payoh-nth": {
+    "blk_no": "205",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 284,
+    "sold_units_by_type": {
+      "3room": 281,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "206-toa-payoh-nth": {
+    "blk_no": "206",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "3room": 162,
+      "5room": 1
+    }
+  },
+  "206a-woodleigh-link": {
+    "blk_no": "206A",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "361206",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "206b-woodleigh-link": {
+    "blk_no": "206B",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "362206",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "206c-woodleigh-link": {
+    "blk_no": "206C",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "363206",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 62
+    }
+  },
+  "206d-woodleigh-link": {
+    "blk_no": "206D",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "364206",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "2room": 17,
+      "3room": 29,
+      "4room": 40
+    }
+  },
+  "207-toa-payoh-nth": {
+    "blk_no": "207",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 168,
+      "5room": 4
+    }
+  },
+  "207a-woodleigh-link": {
+    "blk_no": "207A",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "361207",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "2room": 19,
+      "3room": 22,
+      "4room": 44
+    }
+  },
+  "207b-woodleigh-link": {
+    "blk_no": "207B",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "362207",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "2room": 16,
+      "3room": 13,
+      "4room": 33
+    }
+  },
+  "207c-woodleigh-link": {
+    "blk_no": "207C",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "363207",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "2room": 16,
+      "3room": 13,
+      "4room": 33
+    }
+  },
+  "207d-woodleigh-link": {
+    "blk_no": "207D",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "364207",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "2room": 62,
+      "3room": 25
+    }
+  },
+  "208-toa-payoh-nth": {
+    "blk_no": "208",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "310208",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "208a-woodleigh-link": {
+    "blk_no": "208A",
+    "street": "WOODLEIGH LINK",
+    "street_full": "WOODLEIGH LINK",
+    "postal": "361208",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 312,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 168,
+      "2room": 144
+    }
+  },
+  "209-toa-payoh-nth": {
+    "blk_no": "209",
+    "street": "TOA PAYOH NTH",
+    "street_full": "TOA PAYOH NORTH",
+    "postal": "310209",
+    "town": "TOA PAYOH",
+    "year_completed": 1973,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "21-joo-seng-rd": {
+    "blk_no": "21",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360021",
+    "town": "TOA PAYOH",
+    "year_completed": 1987,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 58,
+    "sold_units_by_type": {
+      "exec": 58
+    }
+  },
+  "211-lor-8-toa-payoh": {
+    "blk_no": "211",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310211",
+    "town": "TOA PAYOH",
+    "year_completed": 1974,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "212-lor-8-toa-payoh": {
+    "blk_no": "212",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310212",
+    "town": "TOA PAYOH",
+    "year_completed": 1974,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "212a-bidadari-pk-dr": {
+    "blk_no": "212A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "361212",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 50,
+      "5room": 26
+    }
+  },
+  "212b-bidadari-pk-dr": {
+    "blk_no": "212B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "362212",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 52
+    }
+  },
+  "212c-bidadari-pk-dr": {
+    "blk_no": "212C",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "363212",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 48
+    }
+  },
+  "212d-bidadari-pk-dr": {
+    "blk_no": "212D",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "364212",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 83,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 48
+    }
+  },
+  "213-lor-8-toa-payoh": {
+    "blk_no": "213",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310213",
+    "town": "TOA PAYOH",
+    "year_completed": 1974,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "4room": 170
+    }
+  },
+  "213a-bidadari-pk-dr": {
+    "blk_no": "213A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "361213",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "2room": 54,
+      "4room": 50
+    }
+  },
+  "213b-bidadari-pk-dr": {
+    "blk_no": "213B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "362213",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "2room": 52,
+      "3room": 28,
+      "4room": 50
+    }
+  },
+  "213c-bidadari-pk-dr": {
+    "blk_no": "213C",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "363213",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "2room": 52,
+      "3room": 28,
+      "4room": 50
+    }
+  },
+  "214-lor-8-toa-payoh": {
+    "blk_no": "214",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310214",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 170,
+    "sold_units_by_type": {
+      "4room": 170
+    }
+  },
+  "214a-bidadari-pk-dr": {
+    "blk_no": "214A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "361214",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 38
+    }
+  },
+  "214b-bidadari-pk-dr": {
+    "blk_no": "214B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "362214",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 38
+    }
+  },
+  "214c-bidadari-pk-dr": {
+    "blk_no": "214C",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "363214",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 38
+    }
+  },
+  "215-lor-8-toa-payoh": {
+    "blk_no": "215",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310215",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "215a-bidadari-pk-dr": {
+    "blk_no": "215A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "361215",
+    "town": "TOA PAYOH",
+    "year_completed": 2022,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 38
+    }
+  },
+  "215b-bidadari-pk-dr": {
+    "blk_no": "215B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "362215",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 39,
+      "4room": 67,
+      "5room": 26
+    }
+  },
+  "215c-bidadari-pk-dr": {
+    "blk_no": "215C",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "363215",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 72,
+      "5room": 22
+    }
+  },
+  "216-lor-8-toa-payoh": {
+    "blk_no": "216",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310216",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "216a-bidadari-pk-dr": {
+    "blk_no": "216A",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "361216",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 159,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 117
+    }
+  },
+  "216b-bidadari-pk-dr": {
+    "blk_no": "216B",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "362216",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 82
+    }
+  },
+  "216c-bidadari-pk-dr": {
+    "blk_no": "216C",
+    "street": "BIDADARI PK DR",
+    "street_full": "BIDADARI PARK DRIVE",
+    "postal": "363216",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 92
+    }
+  },
+  "217-lor-8-toa-payoh": {
+    "blk_no": "217",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310217",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "218-lor-8-toa-payoh": {
+    "blk_no": "218",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310218",
+    "town": "TOA PAYOH",
+    "year_completed": 1977,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "219-lor-8-toa-payoh": {
+    "blk_no": "219",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310219",
+    "town": "TOA PAYOH",
+    "year_completed": 1977,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 190,
+    "sold_units_by_type": {
+      "4room": 190
+    }
+  },
+  "220-lor-8-toa-payoh": {
+    "blk_no": "220",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310220",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "221-lor-8-toa-payoh": {
+    "blk_no": "221",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310221",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    }
+  },
+  "222-lor-8-toa-payoh": {
+    "blk_no": "222",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310222",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 266,
+    "sold_units_by_type": {
+      "4room": 266
+    }
+  },
+  "222a-mount-vernon-rd": {
+    "blk_no": "222A",
+    "street": "MOUNT VERNON RD",
+    "street_full": "MOUNT VERNON ROAD",
+    "postal": "361222",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "4room": 89,
+      "5room": 13
+    }
+  },
+  "222b-mount-vernon-rd": {
+    "blk_no": "222B",
+    "street": "MOUNT VERNON RD",
+    "street_full": "MOUNT VERNON ROAD",
+    "postal": "362222",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 64,
+      "5room": 31
+    }
+  },
+  "223-lor-8-toa-payoh": {
+    "blk_no": "223",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310223",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "223a-mount-vernon-rd": {
+    "blk_no": "223A",
+    "street": "MOUNT VERNON RD",
+    "street_full": "MOUNT VERNON ROAD",
+    "postal": "361223",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 75,
+      "5room": 10
+    }
+  },
+  "223b-mount-vernon-rd": {
+    "blk_no": "223B",
+    "street": "MOUNT VERNON RD",
+    "street_full": "MOUNT VERNON ROAD",
+    "postal": "362223",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 13
+    }
+  },
+  "223c-mount-vernon-rd": {
+    "blk_no": "223C",
+    "street": "MOUNT VERNON RD",
+    "street_full": "MOUNT VERNON ROAD",
+    "postal": "363223",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 84,
+      "5room": 14
+    }
+  },
+  "224-lor-8-toa-payoh": {
+    "blk_no": "224",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310224",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "224a-mount-vernon-rd": {
+    "blk_no": "224A",
+    "street": "MOUNT VERNON RD",
+    "street_full": "MOUNT VERNON ROAD",
+    "postal": "361224",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 15
+    }
+  },
+  "224b-mount-vernon-rd": {
+    "blk_no": "224B",
+    "street": "MOUNT VERNON RD",
+    "street_full": "MOUNT VERNON ROAD",
+    "postal": "362224",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 96,
+      "5room": 16
+    }
+  },
+  "224c-mount-vernon-rd": {
+    "blk_no": "224C",
+    "street": "MOUNT VERNON RD",
+    "street_full": "MOUNT VERNON ROAD",
+    "postal": "363224",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "225-lor-8-toa-payoh": {
+    "blk_no": "225",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 173,
+    "sold_units_by_type": {
+      "3room": 170,
+      "5room": 3
+    }
+  },
+  "226-lor-8-toa-payoh": {
+    "blk_no": "226",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310226",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "226a-bartley-walk": {
+    "blk_no": "226A",
+    "street": "BARTLEY WALK",
+    "street_full": "BARTLEY WALK",
+    "postal": "361226",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 44
+    }
+  },
+  "226b-bartley-walk": {
+    "blk_no": "226B",
+    "street": "BARTLEY WALK",
+    "street_full": "BARTLEY WALK",
+    "postal": "362226",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 23
+    }
+  },
+  "227-lor-8-toa-payoh": {
+    "blk_no": "227",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310227",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "227a-bartley-walk": {
+    "blk_no": "227A",
+    "street": "BARTLEY WALK",
+    "street_full": "BARTLEY WALK",
+    "postal": "361227",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 48
+    }
+  },
+  "227b-bartley-walk": {
+    "blk_no": "227B",
+    "street": "BARTLEY WALK",
+    "street_full": "BARTLEY WALK",
+    "postal": "362227",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "4room": 87,
+      "5room": 35
+    }
+  },
+  "227c-bartley-walk": {
+    "blk_no": "227C",
+    "street": "BARTLEY WALK",
+    "street_full": "BARTLEY WALK",
+    "postal": "363227",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 46
+    }
+  },
+  "228-lor-8-toa-payoh": {
+    "blk_no": "228",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310228",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "4room": 150
+    }
+  },
+  "229-lor-8-toa-payoh": {
+    "blk_no": "229",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310229",
+    "town": "TOA PAYOH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "23-toa-payoh-east": {
+    "blk_no": "23",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "310023",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 176
+    }
+  },
+  "230-lor-8-toa-payoh": {
+    "blk_no": "230",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310230",
+    "town": "TOA PAYOH",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "231-lor-8-toa-payoh": {
+    "blk_no": "231",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 176
+    }
+  },
+  "232-lor-8-toa-payoh": {
+    "blk_no": "232",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 171,
+      "5room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "233-lor-8-toa-payoh": {
+    "blk_no": "233",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310233",
+    "town": "TOA PAYOH",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "3room": 119,
+      "5room": 2
+    }
+  },
+  "233a-upp-aljunied-rd": {
+    "blk_no": "233A",
+    "street": "UPP ALJUNIED RD",
+    "street_full": "UPPER ALJUNIED ROAD",
+    "postal": "361233",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 95
+    }
+  },
+  "233b-upp-aljunied-rd": {
+    "blk_no": "233B",
+    "street": "UPP ALJUNIED RD",
+    "street_full": "UPPER ALJUNIED ROAD",
+    "postal": "362233",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 123,
+    "sold_units_by_type": {
+      "3room": 15,
+      "4room": 108
+    }
+  },
+  "233c-upp-aljunied-rd": {
+    "blk_no": "233C",
+    "street": "UPP ALJUNIED RD",
+    "street_full": "UPPER ALJUNIED ROAD",
+    "postal": "363233",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "3room": 45,
+      "4room": 67
+    }
+  },
+  "234-lor-8-toa-payoh": {
+    "blk_no": "234",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310234",
+    "town": "TOA PAYOH",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "3room": 114,
+      "5room": 3
+    }
+  },
+  "235-lor-8-toa-payoh": {
+    "blk_no": "235",
+    "street": "LOR 8 TOA PAYOH",
+    "street_full": "LORONG 8 TOA PAYOH",
+    "postal": "310235",
+    "town": "TOA PAYOH",
+    "year_completed": 1975,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "3room": 126,
+      "5room": 3
+    }
+  },
+  "236-lor-1-toa-payoh": {
+    "blk_no": "236",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310236",
+    "town": "TOA PAYOH",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "exec": 76
+    }
+  },
+  "237-lor-1-toa-payoh": {
+    "blk_no": "237",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310237",
+    "town": "TOA PAYOH",
+    "year_completed": 1986,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "238-lor-1-toa-payoh": {
+    "blk_no": "238",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310238",
+    "town": "TOA PAYOH",
+    "year_completed": 1986,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 84
+    }
+  },
+  "239-lor-1-toa-payoh": {
+    "blk_no": "239",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310239",
+    "town": "TOA PAYOH",
+    "year_completed": 1986,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 84
+    }
+  },
+  "240-lor-1-toa-payoh": {
+    "blk_no": "240",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310240",
+    "town": "TOA PAYOH",
+    "year_completed": 1985,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "241-kim-keat-link": {
+    "blk_no": "241",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310241",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 16
+    }
+  },
+  "242-kim-keat-link": {
+    "blk_no": "242",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310242",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 5
+    }
+  },
+  "243-kim-keat-link": {
+    "blk_no": "243",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310243",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "244-kim-keat-link": {
+    "blk_no": "244",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310244",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 28
+    }
+  },
+  "245-kim-keat-link": {
+    "blk_no": "245",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310245",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 6
+    }
+  },
+  "246-kim-keat-link": {
+    "blk_no": "246",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310246",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 68,
+      "5room": 28
+    }
+  },
+  "247-kim-keat-link": {
+    "blk_no": "247",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310247",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 40
+    }
+  },
+  "248-kim-keat-link": {
+    "blk_no": "248",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310248",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 32
+    }
+  },
+  "249-kim-keat-link": {
+    "blk_no": "249",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310249",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 16
+    }
+  },
+  "25-toa-payoh-east": {
+    "blk_no": "25",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "310025",
+    "town": "TOA PAYOH",
+    "year_completed": 1970,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 198
+    }
+  },
+  "250-kim-keat-link": {
+    "blk_no": "250",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310250",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "251-kim-keat-link": {
+    "blk_no": "251",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310251",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 16
+    }
+  },
+  "252-kim-keat-link": {
+    "blk_no": "252",
+    "street": "KIM KEAT LINK",
+    "street_full": "KIM KEAT LINK",
+    "postal": "310252",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    }
+  },
+  "253-kim-keat-ave": {
+    "blk_no": "253",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310253",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 6
+    }
+  },
+  "254-kim-keat-ave": {
+    "blk_no": "254",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310254",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "exec": 78
+    }
+  },
+  "255-kim-keat-ave": {
+    "blk_no": "255",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310255",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 28
+    }
+  },
+  "256-kim-keat-ave": {
+    "blk_no": "256",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310256",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 60
+    }
+  },
+  "257-kim-keat-ave": {
+    "blk_no": "257",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310257",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 60,
+    "sold_units_by_type": {
+      "exec": 60
+    }
+  },
+  "258-kim-keat-ave": {
+    "blk_no": "258",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310258",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    }
+  },
+  "259-kim-keat-ave": {
+    "blk_no": "259",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "310259",
+    "town": "TOA PAYOH",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 42
+    }
+  },
+  "26-toa-payoh-east": {
+    "blk_no": "26",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "310026",
+    "town": "TOA PAYOH",
+    "year_completed": 1970,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 198
+    }
+  },
+  "261-toa-payoh-east": {
+    "blk_no": "261",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "310261",
+    "town": "TOA PAYOH",
+    "year_completed": 2018,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "4room": 139
+    }
+  },
+  "262-toa-payoh-east": {
+    "blk_no": "262",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "310262",
+    "town": "TOA PAYOH",
+    "year_completed": 2018,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 70
+    }
+  },
+  "263-toa-payoh-east": {
+    "blk_no": "263",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "310263",
+    "town": "TOA PAYOH",
+    "year_completed": 2018,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 70
+    }
+  },
+  "264-toa-payoh-east": {
+    "blk_no": "264",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "310264",
+    "town": "TOA PAYOH",
+    "year_completed": 2018,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "4room": 140
+    }
+  },
+  "265a-kim-keat-ave": {
+    "blk_no": "265A",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "311265",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 217,
+    "sold_units_by_type": {
+      "3room": 44,
+      "4room": 173
+    }
+  },
+  "266a-kim-keat-ave": {
+    "blk_no": "266A",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "311266",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 163,
+    "sold_units_by_type": {
+      "4room": 163
+    }
+  },
+  "267a-kim-keat-ave": {
+    "blk_no": "267A",
+    "street": "KIM KEAT AVE",
+    "street_full": "KIM KEAT AVENUE",
+    "postal": "311267",
+    "town": "TOA PAYOH",
+    "year_completed": 2023,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "3room": 57,
+      "4room": 105
+    }
+  },
+  "268a-toa-payoh-east": {
+    "blk_no": "268A",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "311268",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 236,
+    "sold_units_by_type": {
+      "4room": 236
+    }
+  },
+  "269a-toa-payoh-east": {
+    "blk_no": "269A",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "311269",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 233,
+    "sold_units_by_type": {
+      "4room": 233
+    }
+  },
+  "27-toa-payoh-east": {
+    "blk_no": "27",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "310027",
+    "town": "TOA PAYOH",
+    "year_completed": 1970,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {
+      "3room": 198
+    }
+  },
+  "270a-toa-payoh-east": {
+    "blk_no": "270A",
+    "street": "TOA PAYOH EAST",
+    "street_full": "TOA PAYOH EAST",
+    "postal": "311270",
+    "town": "TOA PAYOH",
+    "year_completed": 2024,
+    "max_floor_lvl": 31,
+    "total_dwelling_units": 239,
+    "sold_units_by_type": {
+      "2room": 150,
+      "4room": 89
+    }
+  },
+  "3-lor-7-toa-payoh": {
+    "blk_no": "3",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310003",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "3room": 168,
+      "5room": 4
+    }
+  },
+  "3-upp-aljunied-lane": {
+    "blk_no": "3",
+    "street": "UPP ALJUNIED LANE",
+    "street_full": "UPPER ALJUNIED LANE",
+    "postal": "360003",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 80
+    },
+    "rental_units_by_type": {
+      "3room": 10
+    }
+  },
+  "34-lor-5-toa-payoh": {
+    "blk_no": "34",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310034",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 172,
+      "5room": 2
+    }
+  },
+  "35-lor-5-toa-payoh": {
+    "blk_no": "35",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310035",
+    "town": "TOA PAYOH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 72
+    }
+  },
+  "36-lor-5-toa-payoh": {
+    "blk_no": "36",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310036",
+    "town": "TOA PAYOH",
+    "year_completed": 1996,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 72
+    }
+  },
+  "37-lor-5-toa-payoh": {
+    "blk_no": "37",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310037",
+    "town": "TOA PAYOH",
+    "year_completed": 1996,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 72
+    }
+  },
+  "38-lor-5-toa-payoh": {
+    "blk_no": "38",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310038",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 213,
+    "sold_units_by_type": {
+      "3room": 205,
+      "5room": 7
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "4-lor-7-toa-payoh": {
+    "blk_no": "4",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310004",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "3room": 109,
+      "5room": 1
+    }
+  },
+  "4-upp-aljunied-lane": {
+    "blk_no": "4",
+    "street": "UPP ALJUNIED LANE",
+    "street_full": "UPPER ALJUNIED LANE",
+    "postal": "360004",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "3room": 100,
+      "4room": 1
+    }
+  },
+  "402a-lor-1-toa-payoh": {
+    "blk_no": "402A",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "311402",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "2room": 39,
+      "3room": 39,
+      "4room": 156
+    }
+  },
+  "402b-lor-1-toa-payoh": {
+    "blk_no": "402B",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "312402",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 273,
+    "sold_units_by_type": {
+      "2room": 78,
+      "3room": 39,
+      "4room": 156
+    }
+  },
+  "403a-lor-1-toa-payoh": {
+    "blk_no": "403A",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "311403",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 36,
+    "total_dwelling_units": 245,
+    "sold_units_by_type": {
+      "4room": 245
+    }
+  },
+  "403b-lor-1-toa-payoh": {
+    "blk_no": "403B",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "312403",
+    "town": "TOA PAYOH",
+    "year_completed": 2025,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 48,
+      "3room": 24,
+      "4room": 96
+    }
+  },
+  "43-lor-5-toa-payoh": {
+    "blk_no": "43",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310043",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "44-lor-5-toa-payoh": {
+    "blk_no": "44",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310044",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "45-lor-5-toa-payoh": {
+    "blk_no": "45",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310045",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 69
+    }
+  },
+  "46-lor-5-toa-payoh": {
+    "blk_no": "46",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310046",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "5room": 90
+    }
+  },
+  "47-lor-6-toa-payoh": {
+    "blk_no": "47",
+    "street": "LOR 6 TOA PAYOH",
+    "street_full": "LORONG 6 TOA PAYOH",
+    "postal": "310047",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "3room": 80
+    }
+  },
+  "48-lor-5-toa-payoh": {
+    "blk_no": "48",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310048",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "5room": 87
+    }
+  },
+  "49-lor-5-toa-payoh": {
+    "blk_no": "49",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310049",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "5room": 87
+    }
+  },
+  "5-lor-7-toa-payoh": {
+    "blk_no": "5",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310005",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 258,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 258
+    }
+  },
+  "5-upp-aljunied-lane": {
+    "blk_no": "5",
+    "street": "UPP ALJUNIED LANE",
+    "street_full": "UPPER ALJUNIED LANE",
+    "postal": "360005",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "3room": 96,
+      "4room": 3
+    }
+  },
+  "50-lor-5-toa-payoh": {
+    "blk_no": "50",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310050",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "5room": 114
+    }
+  },
+  "51-lor-6-toa-payoh": {
+    "blk_no": "51",
+    "street": "LOR 6 TOA PAYOH",
+    "street_full": "LORONG 6 TOA PAYOH",
+    "postal": "310051",
+    "town": "TOA PAYOH",
+    "year_completed": 1966,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 238,
+    "sold_units_by_type": {
+      "2room": 66,
+      "3room": 170
+    },
+    "rental_units_by_type": {
+      "2room": 2
+    }
+  },
+  "52-lor-6-toa-payoh": {
+    "blk_no": "52",
+    "street": "LOR 6 TOA PAYOH",
+    "street_full": "LORONG 6 TOA PAYOH",
+    "postal": "310052",
+    "town": "TOA PAYOH",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 333,
+    "sold_units_by_type": {
+      "2room": 78
+    },
+    "rental_units_by_type": {
+      "2room": 254,
+      "3room": 1
+    }
+  },
+  "53-lor-5-toa-payoh": {
+    "blk_no": "53",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310053",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 228,
+    "sold_units_by_type": {
+      "3room": 227
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "54-lor-5-toa-payoh": {
+    "blk_no": "54",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310054",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 59
+    },
+    "rental_units_by_type": {
+      "2room": 117
+    }
+  },
+  "55-lor-5-toa-payoh": {
+    "blk_no": "55",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 106
+    },
+    "rental_units_by_type": {
+      "2room": 70
+    }
+  },
+  "56-lor-4-toa-payoh": {
+    "blk_no": "56",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310056",
+    "town": "TOA PAYOH",
+    "year_completed": 1966,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 57,
+      "3room": 19
+    },
+    "rental_units_by_type": {
+      "2room": 63,
+      "3room": 1
+    }
+  },
+  "57-lor-5-toa-payoh": {
+    "blk_no": "57",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310057",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 118
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "58-lor-4-toa-payoh": {
+    "blk_no": "58",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310058",
+    "town": "TOA PAYOH",
+    "year_completed": 1966,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "2room": 51,
+      "3room": 17
+    },
+    "rental_units_by_type": {
+      "2room": 68,
+      "3room": 2
+    }
+  },
+  "59-lor-5-toa-payoh": {
+    "blk_no": "59",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310059",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "6-lor-7-toa-payoh": {
+    "blk_no": "6",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 96
+    }
+  },
+  "60-lor-4-toa-payoh": {
+    "blk_no": "60",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310060",
+    "town": "TOA PAYOH",
+    "year_completed": 1998,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 116
+    }
+  },
+  "61-lor-5-toa-payoh": {
+    "blk_no": "61",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310061",
+    "town": "TOA PAYOH",
+    "year_completed": 1966,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 29,
+      "3room": 90
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "62-lor-4-toa-payoh": {
+    "blk_no": "62",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310062",
+    "town": "TOA PAYOH",
+    "year_completed": 1998,
+    "max_floor_lvl": 30,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "4room": 29,
+      "5room": 116
+    }
+  },
+  "62b-lor-4-toa-payoh": {
+    "blk_no": "62B",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "312062",
+    "town": "TOA PAYOH",
+    "year_completed": 2001,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "2room": 58,
+      "studio_apartment": 97
+    }
+  },
+  "63-lor-5-toa-payoh": {
+    "blk_no": "63",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310063",
+    "town": "TOA PAYOH",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 237,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 237
+    }
+  },
+  "64-lor-5-toa-payoh": {
+    "blk_no": "64",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310064",
+    "town": "TOA PAYOH",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 239,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 239
+    }
+  },
+  "66-lor-4-toa-payoh": {
+    "blk_no": "66",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310066",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 136,
+      "4room": 4
+    }
+  },
+  "68-lor-5-toa-payoh": {
+    "blk_no": "68",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310068",
+    "town": "TOA PAYOH",
+    "year_completed": 1966,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 229,
+      "3room": 11
+    }
+  },
+  "69-lor-4-toa-payoh": {
+    "blk_no": "69",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310069",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 90
+    }
+  },
+  "7-lor-7-toa-payoh": {
+    "blk_no": "7",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310007",
+    "town": "TOA PAYOH",
+    "year_completed": 1997,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 68
+    }
+  },
+  "7-upp-aljunied-lane": {
+    "blk_no": "7",
+    "street": "UPP ALJUNIED LANE",
+    "street_full": "UPPER ALJUNIED LANE",
+    "postal": "360007",
+    "town": "TOA PAYOH",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "3room": 68,
+      "4room": 34
+    }
+  },
+  "70-lor-4-toa-payoh": {
+    "blk_no": "70",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310070",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 26,
+    "sold_units_by_type": {
+      "3room": 26
+    }
+  },
+  "71-lor-4-toa-payoh": {
+    "blk_no": "71",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310071",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 25,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 1
+    }
+  },
+  "72-lor-5-toa-payoh": {
+    "blk_no": "72",
+    "street": "LOR 5 TOA PAYOH",
+    "street_full": "LORONG 5 TOA PAYOH",
+    "postal": "310072",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "3room": 12
+    }
+  },
+  "73-lor-4-toa-payoh": {
+    "blk_no": "73",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310073",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 148,
+      "4room": 3
+    }
+  },
+  "79a-toa-payoh-ctrl": {
+    "blk_no": "79A",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "311079",
+    "town": "TOA PAYOH",
+    "year_completed": 2008,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 308,
+    "sold_units_by_type": {
+      "4room": 269,
+      "5room": 39
+    }
+  },
+  "79b-toa-payoh-ctrl": {
+    "blk_no": "79B",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "312079",
+    "town": "TOA PAYOH",
+    "year_completed": 2007,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "4room": 191
+    }
+  },
+  "79c-toa-payoh-ctrl": {
+    "blk_no": "79C",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "313079",
+    "town": "TOA PAYOH",
+    "year_completed": 2007,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 160,
+    "sold_units_by_type": {
+      "4room": 82,
+      "5room": 78
+    }
+  },
+  "79d-toa-payoh-ctrl": {
+    "blk_no": "79D",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "314079",
+    "town": "TOA PAYOH",
+    "year_completed": 2007,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 191,
+    "sold_units_by_type": {
+      "4room": 191
+    }
+  },
+  "79e-toa-payoh-ctrl": {
+    "blk_no": "79E",
+    "street": "TOA PAYOH CTRL",
+    "street_full": "TOA PAYOH CENTRAL",
+    "postal": "315079",
+    "town": "TOA PAYOH",
+    "year_completed": 2007,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 308,
+    "sold_units_by_type": {
+      "4room": 308
+    }
+  },
+  "8-joo-seng-rd": {
+    "blk_no": "8",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "360008",
+    "town": "TOA PAYOH",
+    "year_completed": 1993,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "5room": 57,
+      "exec": 12
+    }
+  },
+  "8-lor-7-toa-payoh": {
+    "blk_no": "8",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310008",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 139,
+      "5room": 5
+    }
+  },
+  "80-lor-4-toa-payoh": {
+    "blk_no": "80",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310080",
+    "town": "TOA PAYOH",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 24
+    }
+  },
+  "80a-lor-4-toa-payoh": {
+    "blk_no": "80A",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "311080",
+    "town": "TOA PAYOH",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "80b-lor-4-toa-payoh": {
+    "blk_no": "80B",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "312080",
+    "town": "TOA PAYOH",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 24
+    }
+  },
+  "81-lor-4-toa-payoh": {
+    "blk_no": "81",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310081",
+    "town": "TOA PAYOH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 23,
+      "5room": 46
+    }
+  },
+  "81a-lor-4-toa-payoh": {
+    "blk_no": "81A",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "311081",
+    "town": "TOA PAYOH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 48
+    }
+  },
+  "81b-lor-4-toa-payoh": {
+    "blk_no": "81B",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "312081",
+    "town": "TOA PAYOH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 48
+    }
+  },
+  "82-lor-4-toa-payoh": {
+    "blk_no": "82",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310082",
+    "town": "TOA PAYOH",
+    "year_completed": 1994,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 55,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 13
+    }
+  },
+  "82a-lor-4-toa-payoh": {
+    "blk_no": "82A",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "311082",
+    "town": "TOA PAYOH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "82b-lor-4-toa-payoh": {
+    "blk_no": "82B",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "312082",
+    "town": "TOA PAYOH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "83-lor-2-toa-payoh": {
+    "blk_no": "83",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310083",
+    "town": "TOA PAYOH",
+    "year_completed": 1970,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "3room": 74,
+      "5room": 3
+    }
+  },
+  "84-lor-2-toa-payoh": {
+    "blk_no": "84",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310084",
+    "town": "TOA PAYOH",
+    "year_completed": 1994,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 63,
+      "5room": 24
+    }
+  },
+  "84a-lor-2-toa-payoh": {
+    "blk_no": "84A",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "311084",
+    "town": "TOA PAYOH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 48
+    }
+  },
+  "84b-lor-2-toa-payoh": {
+    "blk_no": "84B",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "312084",
+    "town": "TOA PAYOH",
+    "year_completed": 1995,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 48
+    }
+  },
+  "85-lor-4-toa-payoh": {
+    "blk_no": "85",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310085",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 10,
+    "sold_units_by_type": {
+      "3room": 10
+    }
+  },
+  "85a-lor-4-toa-payoh": {
+    "blk_no": "85A",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "311085",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 145,
+      "5room": 6
+    }
+  },
+  "85b-lor-4-toa-payoh": {
+    "blk_no": "85B",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "312085",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "3room": 154,
+      "5room": 1
+    }
+  },
+  "85c-lor-4-toa-payoh": {
+    "blk_no": "85C",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "313085",
+    "town": "TOA PAYOH",
+    "year_completed": 1971,
+    "max_floor_lvl": 22,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 142,
+      "5room": 7
+    }
+  },
+  "86-lor-2-toa-payoh": {
+    "blk_no": "86",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310086",
+    "town": "TOA PAYOH",
+    "year_completed": 1994,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 18
+    }
+  },
+  "9-joo-seng-rd": {
+    "blk_no": "9",
+    "street": "JOO SENG RD",
+    "street_full": "JOO SENG ROAD",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 2015,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "3room": 34,
+      "4room": 112
+    }
+  },
+  "9-lor-7-toa-payoh": {
+    "blk_no": "9",
+    "street": "LOR 7 TOA PAYOH",
+    "street_full": "LORONG 7 TOA PAYOH",
+    "postal": "310009",
+    "town": "TOA PAYOH",
+    "year_completed": 1969,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 176
+    }
+  },
+  "91-lor-3-toa-payoh": {
+    "blk_no": "91",
+    "street": "LOR 3 TOA PAYOH",
+    "street_full": "LORONG 3 TOA PAYOH",
+    "postal": "310091",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 192
+    }
+  },
+  "92-lor-4-toa-payoh": {
+    "blk_no": "92",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310092",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 23,
+    "sold_units_by_type": {
+      "3room": 23
+    }
+  },
+  "94-lor-4-toa-payoh": {
+    "blk_no": "94",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310094",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 45,
+    "sold_units_by_type": {
+      "3room": 45
+    }
+  },
+  "95-lor-4-toa-payoh": {
+    "blk_no": "95",
+    "street": "LOR 4 TOA PAYOH",
+    "street_full": "LORONG 4 TOA PAYOH",
+    "postal": "310095",
+    "town": "TOA PAYOH",
+    "year_completed": 1967,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 34,
+    "sold_units_by_type": {
+      "3room": 33,
+      "4room": 1
+    }
+  },
+  "96-lor-3-toa-payoh": {
+    "blk_no": "96",
+    "street": "LOR 3 TOA PAYOH",
+    "street_full": "LORONG 3 TOA PAYOH",
+    "postal": "310096",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 192
+    }
+  },
+  "97-lor-3-toa-payoh": {
+    "blk_no": "97",
+    "street": "LOR 3 TOA PAYOH",
+    "street_full": "LORONG 3 TOA PAYOH",
+    "postal": "NIL",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "98-lor-1-toa-payoh": {
+    "blk_no": "98",
+    "street": "LOR 1 TOA PAYOH",
+    "street_full": "LORONG 1 TOA PAYOH",
+    "postal": "310098",
+    "town": "TOA PAYOH",
+    "year_completed": 1968,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 192,
+    "sold_units_by_type": {
+      "3room": 192
+    }
+  },
+  "99a-lor-2-toa-payoh": {
+    "blk_no": "99A",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "310099",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 64,
+    "sold_units_by_type": {
+      "exec": 64
+    }
+  },
+  "99b-lor-2-toa-payoh": {
+    "blk_no": "99B",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "311099",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  },
+  "99c-lor-2-toa-payoh": {
+    "blk_no": "99C",
+    "street": "LOR 2 TOA PAYOH",
+    "street_full": "LORONG 2 TOA PAYOH",
+    "postal": "312099",
+    "town": "TOA PAYOH",
+    "year_completed": 1992,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "exec": 48
+    }
+  }
+}

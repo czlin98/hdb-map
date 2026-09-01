@@ -1,0 +1,4398 @@
+{
+  "1-eunos-cres": {
+    "blk_no": "1",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400001",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 247,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 247
+    }
+  },
+  "1-haig-rd": {
+    "blk_no": "1",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430001",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 219,
+    "sold_units_by_type": {
+      "3room": 213,
+      "5room": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "1-pine-cl": {
+    "blk_no": "1",
+    "street": "PINE CL",
+    "street_full": "PINE CLOSE",
+    "postal": "390001",
+    "town": "GEYLANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 56
+    }
+  },
+  "10-dakota-cres": {
+    "blk_no": "10",
+    "street": "DAKOTA CRES",
+    "street_full": "DAKOTA CRESCENT",
+    "postal": "390010",
+    "town": "GEYLANG",
+    "year_completed": 1958,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 53,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 53
+    }
+  },
+  "10-eunos-cres": {
+    "blk_no": "10",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400010",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 180
+    }
+  },
+  "10-haig-rd": {
+    "blk_no": "10",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430010",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "3room": 132
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "10-pine-cl": {
+    "blk_no": "10",
+    "street": "PINE CL",
+    "street_full": "PINE CLOSE",
+    "postal": "391010",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "100-aljunied-cres": {
+    "blk_no": "100",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380100",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 198,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 198
+    }
+  },
+  "101-aljunied-cres": {
+    "blk_no": "101",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380101",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "102-aljunied-cres": {
+    "blk_no": "102",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380102",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 124,
+      "4room": 22,
+      "5room": 3,
+      "exec": 1
+    }
+  },
+  "103-aljunied-cres": {
+    "blk_no": "103",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380103",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 154
+    }
+  },
+  "104-aljunied-cres": {
+    "blk_no": "104",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380104",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "105-aljunied-cres": {
+    "blk_no": "105",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380105",
+    "town": "GEYLANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 76
+    }
+  },
+  "106-aljunied-cres": {
+    "blk_no": "106",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380106",
+    "town": "GEYLANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 194,
+    "sold_units_by_type": {
+      "3room": 167,
+      "4room": 22,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "107-aljunied-cres": {
+    "blk_no": "107",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380107",
+    "town": "GEYLANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "108-aljunied-cres": {
+    "blk_no": "108",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380108",
+    "town": "GEYLANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 126,
+      "4room": 22,
+      "5room": 3
+    }
+  },
+  "109-aljunied-cres": {
+    "blk_no": "109",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380109",
+    "town": "GEYLANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 195,
+    "sold_units_by_type": {
+      "2room": 59,
+      "3room": 130,
+      "4room": 3
+    },
+    "rental_units_by_type": {
+      "2room": 2,
+      "3room": 1
+    }
+  },
+  "11-eunos-cres": {
+    "blk_no": "11",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400011",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 180
+    }
+  },
+  "11-haig-rd": {
+    "blk_no": "11",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430011",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "11-pine-cl": {
+    "blk_no": "11",
+    "street": "PINE CL",
+    "street_full": "PINE CLOSE",
+    "postal": "391011",
+    "town": "GEYLANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 56
+    }
+  },
+  "110-aljunied-cres": {
+    "blk_no": "110",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380110",
+    "town": "GEYLANG",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 16,
+      "5room": 94
+    }
+  },
+  "111-aljunied-cres": {
+    "blk_no": "111",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380111",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "112-aljunied-cres": {
+    "blk_no": "112",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380112",
+    "town": "GEYLANG",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 22,
+      "5room": 1,
+      "exec": 1
+    }
+  },
+  "113-aljunied-ave-2": {
+    "blk_no": "113",
+    "street": "ALJUNIED AVE 2",
+    "street_full": "ALJUNIED AVENUE 2",
+    "postal": "380113",
+    "town": "GEYLANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "115-aljunied-ave-2": {
+    "blk_no": "115",
+    "street": "ALJUNIED AVE 2",
+    "street_full": "ALJUNIED AVENUE 2",
+    "postal": "380115",
+    "town": "GEYLANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 2
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "116-aljunied-ave-2": {
+    "blk_no": "116",
+    "street": "ALJUNIED AVE 2",
+    "street_full": "ALJUNIED AVENUE 2",
+    "postal": "380116",
+    "town": "GEYLANG",
+    "year_completed": 1978,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "119-aljunied-ave-2": {
+    "blk_no": "119",
+    "street": "ALJUNIED AVE 2",
+    "street_full": "ALJUNIED AVENUE 2",
+    "postal": "380119",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 3
+    }
+  },
+  "12-dakota-cres": {
+    "blk_no": "12",
+    "street": "DAKOTA CRES",
+    "street_full": "DAKOTA CRESCENT",
+    "postal": "390012",
+    "town": "GEYLANG",
+    "year_completed": 1958,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 9,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 9
+    }
+  },
+  "12-eunos-cres": {
+    "blk_no": "12",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400012",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 247,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 247
+    }
+  },
+  "12-haig-rd": {
+    "blk_no": "12",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430012",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {
+      "3room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "12-pine-cl": {
+    "blk_no": "12",
+    "street": "PINE CL",
+    "street_full": "PINE CLOSE",
+    "postal": "391012",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 48
+    }
+  },
+  "120-geylang-east-ctrl": {
+    "blk_no": "120",
+    "street": "GEYLANG EAST CTRL",
+    "street_full": "GEYLANG EAST CENTRAL",
+    "postal": "380120",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "120-paya-lebar-way": {
+    "blk_no": "120",
+    "street": "PAYA LEBAR WAY",
+    "street_full": "PAYA LEBAR WAY",
+    "postal": "381120",
+    "town": "GEYLANG",
+    "year_completed": 1979,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "121-paya-lebar-way": {
+    "blk_no": "121",
+    "street": "PAYA LEBAR WAY",
+    "street_full": "PAYA LEBAR WAY",
+    "postal": "381121",
+    "town": "GEYLANG",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 354,
+    "sold_units_by_type": {
+      "3room": 36,
+      "4room": 316,
+      "5room": 2
+    }
+  },
+  "122-geylang-east-ctrl": {
+    "blk_no": "122",
+    "street": "GEYLANG EAST CTRL",
+    "street_full": "GEYLANG EAST CENTRAL",
+    "postal": "380122",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "122-paya-lebar-way": {
+    "blk_no": "122",
+    "street": "PAYA LEBAR WAY",
+    "street_full": "PAYA LEBAR WAY",
+    "postal": "381122",
+    "town": "GEYLANG",
+    "year_completed": 1979,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "4room": 132
+    }
+  },
+  "123-geylang-east-ctrl": {
+    "blk_no": "123",
+    "street": "GEYLANG EAST CTRL",
+    "street_full": "GEYLANG EAST CENTRAL",
+    "postal": "380123",
+    "town": "GEYLANG",
+    "year_completed": 1982,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "123-paya-lebar-way": {
+    "blk_no": "123",
+    "street": "PAYA LEBAR WAY",
+    "street_full": "PAYA LEBAR WAY",
+    "postal": "381123",
+    "town": "GEYLANG",
+    "year_completed": 1979,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "124-geylang-east-ave-1": {
+    "blk_no": "124",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "380124",
+    "town": "GEYLANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 211,
+    "sold_units_by_type": {
+      "3room": 61,
+      "4room": 91,
+      "5room": 57,
+      "exec": 2
+    }
+  },
+  "124-paya-lebar-way": {
+    "blk_no": "124",
+    "street": "PAYA LEBAR WAY",
+    "street_full": "PAYA LEBAR WAY",
+    "postal": "381124",
+    "town": "GEYLANG",
+    "year_completed": 1979,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "125-aljunied-rd": {
+    "blk_no": "125",
+    "street": "ALJUNIED RD",
+    "street_full": "ALJUNIED ROAD",
+    "postal": "380125",
+    "town": "GEYLANG",
+    "year_completed": 1982,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "125-geylang-east-ave-1": {
+    "blk_no": "125",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "381125",
+    "town": "GEYLANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "3room": 66,
+      "4room": 66,
+      "5room": 57
+    }
+  },
+  "126-aljunied-rd": {
+    "blk_no": "126",
+    "street": "ALJUNIED RD",
+    "street_full": "ALJUNIED ROAD",
+    "postal": "380126",
+    "town": "GEYLANG",
+    "year_completed": 1982,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 76,
+    "sold_units_by_type": {
+      "5room": 76
+    }
+  },
+  "126-geylang-east-ave-1": {
+    "blk_no": "126",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "381126",
+    "town": "GEYLANG",
+    "year_completed": 1983,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "3room": 45,
+      "4room": 45
+    }
+  },
+  "127-geylang-east-ave-1": {
+    "blk_no": "127",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "380127",
+    "town": "GEYLANG",
+    "year_completed": 1982,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 48
+    }
+  },
+  "128-geylang-east-ave-1": {
+    "blk_no": "128",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "380128",
+    "town": "GEYLANG",
+    "year_completed": 1982,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 41,
+      "4room": 41,
+      "5room": 57
+    }
+  },
+  "129-geylang-east-ave-2": {
+    "blk_no": "129",
+    "street": "GEYLANG EAST AVE 2",
+    "street_full": "GEYLANG EAST AVENUE 2",
+    "postal": "380129",
+    "town": "GEYLANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "4room": 6,
+      "5room": 6
+    }
+  },
+  "13-eunos-cres": {
+    "blk_no": "13",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400013",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 78
+    }
+  },
+  "13-old-airport-rd": {
+    "blk_no": "13",
+    "street": "OLD AIRPORT RD",
+    "street_full": "OLD AIRPORT ROAD",
+    "postal": "390013",
+    "town": "GEYLANG",
+    "year_completed": 1958,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 14,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 14
+    }
+  },
+  "130-geylang-east-ave-1": {
+    "blk_no": "130",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "380130",
+    "town": "GEYLANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "exec": 85
+    }
+  },
+  "131-geylang-east-ave-1": {
+    "blk_no": "131",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "380131",
+    "town": "GEYLANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 40,
+    "sold_units_by_type": {
+      "exec": 40
+    }
+  },
+  "132-geylang-east-ave-1": {
+    "blk_no": "132",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "380132",
+    "town": "GEYLANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "exec": 93
+    }
+  },
+  "133-geylang-east-ave-1": {
+    "blk_no": "133",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "380133",
+    "town": "GEYLANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "exec": 94
+    }
+  },
+  "134-geylang-east-ave-1": {
+    "blk_no": "134",
+    "street": "GEYLANG EAST AVE 1",
+    "street_full": "GEYLANG EAST AVENUE 1",
+    "postal": "380134",
+    "town": "GEYLANG",
+    "year_completed": 1986,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 18,
+      "5room": 6
+    }
+  },
+  "14-eunos-cres": {
+    "blk_no": "14",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400014",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 78
+    }
+  },
+  "14-old-airport-rd": {
+    "blk_no": "14",
+    "street": "OLD AIRPORT RD",
+    "street_full": "OLD AIRPORT ROAD",
+    "postal": "390014",
+    "town": "GEYLANG",
+    "year_completed": 1958,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 28,
+      "3room": 28
+    }
+  },
+  "15-eunos-cres": {
+    "blk_no": "15",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400015",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 78
+    }
+  },
+  "16-dakota-cres": {
+    "blk_no": "16",
+    "street": "DAKOTA CRES",
+    "street_full": "DAKOTA CRESCENT",
+    "postal": "390016",
+    "town": "GEYLANG",
+    "year_completed": 1958,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 12
+    }
+  },
+  "16-eunos-cres": {
+    "blk_no": "16",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400016",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 150,
+      "5room": 2
+    }
+  },
+  "17-eunos-cres": {
+    "blk_no": "17",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400017",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 146,
+      "5room": 4
+    }
+  },
+  "17a-circuit-rd": {
+    "blk_no": "17A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371017",
+    "town": "GEYLANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 72
+    }
+  },
+  "17b-circuit-rd": {
+    "blk_no": "17B",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "372017",
+    "town": "GEYLANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 108
+    }
+  },
+  "18-dakota-cres": {
+    "blk_no": "18",
+    "street": "DAKOTA CRES",
+    "street_full": "DAKOTA CRESCENT",
+    "postal": "390018",
+    "town": "GEYLANG",
+    "year_completed": 1958,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 28,
+      "3room": 28
+    }
+  },
+  "18-eunos-cres": {
+    "blk_no": "18",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400018",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "3room": 144,
+      "5room": 5
+    }
+  },
+  "18a-circuit-rd": {
+    "blk_no": "18A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371018",
+    "town": "GEYLANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 52
+    }
+  },
+  "18b-circuit-rd": {
+    "blk_no": "18B",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "372018",
+    "town": "GEYLANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 68
+    }
+  },
+  "18c-circuit-rd": {
+    "blk_no": "18C",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "373018",
+    "town": "GEYLANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 72
+    }
+  },
+  "18d-circuit-rd": {
+    "blk_no": "18D",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "374018",
+    "town": "GEYLANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 107,
+    "sold_units_by_type": {
+      "3room": 53,
+      "4room": 54
+    }
+  },
+  "19-balam-rd": {
+    "blk_no": "19",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370019",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "19-eunos-cres": {
+    "blk_no": "19",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400019",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "3room": 142,
+      "5room": 6
+    }
+  },
+  "1a-eunos-cres": {
+    "blk_no": "1A",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "401001",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 2,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "2-eunos-cres": {
+    "blk_no": "2",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400002",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 247,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 247
+    }
+  },
+  "2-haig-rd": {
+    "blk_no": "2",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430002",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "20-balam-rd": {
+    "blk_no": "20",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370020",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "20-dakota-cres": {
+    "blk_no": "20",
+    "street": "DAKOTA CRES",
+    "street_full": "DAKOTA CRESCENT",
+    "postal": "390020",
+    "town": "GEYLANG",
+    "year_completed": 1958,
+    "max_floor_lvl": 7,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 56
+    }
+  },
+  "20-eunos-cres": {
+    "blk_no": "20",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400020",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "3room": 148,
+      "5room": 3
+    }
+  },
+  "21-balam-rd": {
+    "blk_no": "21",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370021",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "21-eunos-cres": {
+    "blk_no": "21",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400021",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "3room": 152,
+      "5room": 1
+    }
+  },
+  "21-haig-rd": {
+    "blk_no": "21",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430021",
+    "town": "GEYLANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 31,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 8,
+      "exec": 1
+    }
+  },
+  "21-old-airport-rd": {
+    "blk_no": "21",
+    "street": "OLD AIRPORT RD",
+    "street_full": "OLD AIRPORT ROAD",
+    "postal": "390021",
+    "town": "GEYLANG",
+    "year_completed": 1958,
+    "max_floor_lvl": 3,
+    "total_dwelling_units": 14,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 14
+    }
+  },
+  "22-balam-rd": {
+    "blk_no": "22",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370022",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "22-eunos-cres": {
+    "blk_no": "22",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400022",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 78
+    }
+  },
+  "22-haig-rd": {
+    "blk_no": "22",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430022",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 8,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 75,
+      "4room": 21
+    }
+  },
+  "23-balam-rd": {
+    "blk_no": "23",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370023",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "23-eunos-cres": {
+    "blk_no": "23",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400023",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 12,
+      "5room": 78
+    }
+  },
+  "23-haig-rd": {
+    "blk_no": "23",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430023",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "24-balam-rd": {
+    "blk_no": "24",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370024",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "24-eunos-cres": {
+    "blk_no": "24",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400024",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 146,
+      "5room": 4
+    }
+  },
+  "25-eunos-cres": {
+    "blk_no": "25",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400025",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "3room": 142,
+      "5room": 6
+    }
+  },
+  "27-balam-rd": {
+    "blk_no": "27",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370027",
+    "town": "GEYLANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 36
+    }
+  },
+  "28-balam-rd": {
+    "blk_no": "28",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370028",
+    "town": "GEYLANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 36
+    }
+  },
+  "28-cassia-cres": {
+    "blk_no": "28",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "391028",
+    "town": "GEYLANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "4room": 101,
+      "5room": 54
+    }
+  },
+  "29-balam-rd": {
+    "blk_no": "29",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370029",
+    "town": "GEYLANG",
+    "year_completed": 1995,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 36
+    }
+  },
+  "2a-eunos-cres": {
+    "blk_no": "2A",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "401002",
+    "town": "GEYLANG",
+    "year_completed": 1981,
+    "max_floor_lvl": 2,
+    "total_dwelling_units": 3,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "2a-geylang-serai": {
+    "blk_no": "2A",
+    "street": "GEYLANG SERAI",
+    "street_full": "GEYLANG SERAI",
+    "postal": "403002",
+    "town": "GEYLANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 93
+    }
+  },
+  "2b-geylang-serai": {
+    "blk_no": "2B",
+    "street": "GEYLANG SERAI",
+    "street_full": "GEYLANG SERAI",
+    "postal": "404002",
+    "town": "GEYLANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 108
+    }
+  },
+  "2c-geylang-serai": {
+    "blk_no": "2C",
+    "street": "GEYLANG SERAI",
+    "street_full": "GEYLANG SERAI",
+    "postal": "405002",
+    "town": "GEYLANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 87
+    }
+  },
+  "2d-geylang-serai": {
+    "blk_no": "2D",
+    "street": "GEYLANG SERAI",
+    "street_full": "GEYLANG SERAI",
+    "postal": "406002",
+    "town": "GEYLANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 89
+    }
+  },
+  "3-haig-rd": {
+    "blk_no": "3",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430003",
+    "town": "GEYLANG",
+    "year_completed": 1975,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "3room": 142
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "3-joo-chiat-rd": {
+    "blk_no": "3",
+    "street": "JOO CHIAT RD",
+    "street_full": "JOO CHIAT ROAD",
+    "postal": "420003",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 14,
+      "exec": 1
+    }
+  },
+  "3-pine-cl": {
+    "blk_no": "3",
+    "street": "PINE CL",
+    "street_full": "PINE CLOSE",
+    "postal": "392003",
+    "town": "GEYLANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 156,
+    "sold_units_by_type": {
+      "4room": 100,
+      "5room": 56
+    }
+  },
+  "30-balam-rd": {
+    "blk_no": "30",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370030",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "2room": 27,
+      "3room": 83,
+      "4room": 5
+    }
+  },
+  "30-cassia-cres": {
+    "blk_no": "30",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "391030",
+    "town": "GEYLANG",
+    "year_completed": 1997,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "4room": 101,
+      "5room": 54
+    }
+  },
+  "301-ubi-ave-1": {
+    "blk_no": "301",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400301",
+    "town": "GEYLANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 21
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "302-ubi-ave-1": {
+    "blk_no": "302",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400302",
+    "town": "GEYLANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "3room": 75,
+      "4room": 22
+    },
+    "rental_units_by_type": {
+      "3room": 2
+    }
+  },
+  "304-ubi-ave-1": {
+    "blk_no": "304",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400304",
+    "town": "GEYLANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 56,
+    "sold_units_by_type": {
+      "3room": 33,
+      "4room": 22
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "305-ubi-ave-1": {
+    "blk_no": "305",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400305",
+    "town": "GEYLANG",
+    "year_completed": 1987,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 10
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "31-balam-rd": {
+    "blk_no": "31",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370031",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 150
+    }
+  },
+  "31-eunos-cres": {
+    "blk_no": "31",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400031",
+    "town": "GEYLANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 157,
+    "sold_units_by_type": {
+      "2room": 11,
+      "3room": 72,
+      "4room": 68,
+      "studio_apartment": 6
+    }
+  },
+  "311-ubi-ave-1": {
+    "blk_no": "311",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400311",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "312-ubi-ave-1": {
+    "blk_no": "312",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400312",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "313-ubi-ave-1": {
+    "blk_no": "313",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400313",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "314-ubi-ave-1": {
+    "blk_no": "314",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400314",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 124
+    }
+  },
+  "315-ubi-ave-1": {
+    "blk_no": "315",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400315",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 124
+    }
+  },
+  "316-ubi-ave-1": {
+    "blk_no": "316",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400316",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "3room": 88,
+      "4room": 46,
+      "5room": 1
+    }
+  },
+  "317-ubi-ave-1": {
+    "blk_no": "317",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400317",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "318-ubi-ave-1": {
+    "blk_no": "318",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400318",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "319-ubi-ave-1": {
+    "blk_no": "319",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400319",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "32-balam-rd": {
+    "blk_no": "32",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370032",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 29,
+      "3room": 86,
+      "4room": 2
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "32-cassia-cres": {
+    "blk_no": "32",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "390032",
+    "town": "GEYLANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 54,
+      "4room": 77,
+      "5room": 1
+    }
+  },
+  "32-eunos-cres": {
+    "blk_no": "32",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400032",
+    "town": "GEYLANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 159,
+    "sold_units_by_type": {
+      "2room": 12,
+      "3room": 36,
+      "4room": 69,
+      "studio_apartment": 42
+    }
+  },
+  "320-ubi-ave-1": {
+    "blk_no": "320",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400320",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "4room": 115
+    }
+  },
+  "321-ubi-ave-1": {
+    "blk_no": "321",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400321",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "3room": 16,
+      "4room": 8
+    }
+  },
+  "322-ubi-ave-1": {
+    "blk_no": "322",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400322",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 40
+    }
+  },
+  "323-ubi-ave-1": {
+    "blk_no": "323",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400323",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "324-ubi-ave-1": {
+    "blk_no": "324",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400324",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "325-ubi-ave-1": {
+    "blk_no": "325",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400325",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 5
+    }
+  },
+  "326-ubi-ave-1": {
+    "blk_no": "326",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400326",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "327-ubi-ave-1": {
+    "blk_no": "327",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400327",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "328-ubi-ave-1": {
+    "blk_no": "328",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400328",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 8,
+      "4room": 8
+    }
+  },
+  "329-ubi-ave-1": {
+    "blk_no": "329",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400329",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 32
+    }
+  },
+  "33-balam-rd": {
+    "blk_no": "33",
+    "street": "BALAM RD",
+    "street_full": "BALAM ROAD",
+    "postal": "370033",
+    "town": "GEYLANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 20,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 47
+    }
+  },
+  "33-eunos-cres": {
+    "blk_no": "33",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400033",
+    "town": "GEYLANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 159,
+    "sold_units_by_type": {
+      "2room": 9,
+      "3room": 72,
+      "4room": 51,
+      "studio_apartment": 27
+    }
+  },
+  "330-ubi-ave-1": {
+    "blk_no": "330",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400330",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 94,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 32
+    }
+  },
+  "331-ubi-ave-1": {
+    "blk_no": "331",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400331",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 12,
+    "sold_units_by_type": {
+      "exec": 12
+    }
+  },
+  "332-ubi-ave-1": {
+    "blk_no": "332",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400332",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "333-ubi-ave-1": {
+    "blk_no": "333",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400333",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "334-ubi-ave-1": {
+    "blk_no": "334",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400334",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "exec": 70
+    }
+  },
+  "335-ubi-ave-1": {
+    "blk_no": "335",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400335",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 8,
+    "sold_units_by_type": {
+      "exec": 8
+    }
+  },
+  "336-ubi-ave-1": {
+    "blk_no": "336",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400336",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 46
+    }
+  },
+  "337-ubi-ave-1": {
+    "blk_no": "337",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400337",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 6,
+      "5room": 10
+    }
+  },
+  "338-ubi-ave-1": {
+    "blk_no": "338",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400338",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "339-ubi-ave-1": {
+    "blk_no": "339",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400339",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "34-cassia-cres": {
+    "blk_no": "34",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "390034",
+    "town": "GEYLANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "3room": 69,
+      "4room": 45
+    }
+  },
+  "34-circuit-rd": {
+    "blk_no": "34",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370034",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "34-eunos-cres": {
+    "blk_no": "34",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400034",
+    "town": "GEYLANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 35,
+      "4room": 52,
+      "5room": 17
+    }
+  },
+  "340-ubi-ave-1": {
+    "blk_no": "340",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400340",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 6,
+      "5room": 10
+    }
+  },
+  "341-ubi-ave-1": {
+    "blk_no": "341",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400341",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 124
+    }
+  },
+  "342-ubi-ave-1": {
+    "blk_no": "342",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400342",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 4
+    }
+  },
+  "343-ubi-ave-1": {
+    "blk_no": "343",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400343",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "344-ubi-ave-1": {
+    "blk_no": "344",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400344",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "4room": 124
+    }
+  },
+  "345-ubi-ave-1": {
+    "blk_no": "345",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400345",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 16
+    }
+  },
+  "346-ubi-ave-1": {
+    "blk_no": "346",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400346",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "347-ubi-ave-1": {
+    "blk_no": "347",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400347",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 96
+    }
+  },
+  "348-ubi-ave-1": {
+    "blk_no": "348",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400348",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "349-ubi-ave-1": {
+    "blk_no": "349",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400349",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 114
+    }
+  },
+  "35-circuit-rd": {
+    "blk_no": "35",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370035",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 28
+    }
+  },
+  "35-eunos-cres": {
+    "blk_no": "35",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400035",
+    "town": "GEYLANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 35,
+      "4room": 52,
+      "5room": 17
+    }
+  },
+  "350-ubi-ave-1": {
+    "blk_no": "350",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400350",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 19,
+    "sold_units_by_type": {
+      "3room": 14,
+      "4room": 5
+    }
+  },
+  "351-ubi-ave-1": {
+    "blk_no": "351",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400351",
+    "town": "GEYLANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 32
+    }
+  },
+  "352-ubi-ave-1": {
+    "blk_no": "352",
+    "street": "UBI AVE 1",
+    "street_full": "UBI AVENUE 1",
+    "postal": "400352",
+    "town": "GEYLANG",
+    "year_completed": 1988,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 62,
+      "5room": 46
+    }
+  },
+  "356a-ubi-rd-3": {
+    "blk_no": "356A",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "401356",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 99,
+    "sold_units_by_type": {
+      "4room": 99
+    }
+  },
+  "356b-ubi-rd-3": {
+    "blk_no": "356B",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "402356",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "4room": 65
+    }
+  },
+  "356c-ubi-rd-3": {
+    "blk_no": "356C",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "403356",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 104
+    }
+  },
+  "356d-ubi-rd-3": {
+    "blk_no": "356D",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "404356",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 112
+    }
+  },
+  "357a-ubi-rd-3": {
+    "blk_no": "357A",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "401357",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 87
+    }
+  },
+  "357b-ubi-rd-3": {
+    "blk_no": "357B",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "402357",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 88
+    }
+  },
+  "357c-ubi-rd-3": {
+    "blk_no": "357C",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "403357",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "4room": 86
+    }
+  },
+  "357d-ubi-rd-3": {
+    "blk_no": "357D",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "404357",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 72
+    }
+  },
+  "358a-ubi-rd-3": {
+    "blk_no": "358A",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "401358",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "358b-ubi-rd-3": {
+    "blk_no": "358B",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "402358",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 110
+    }
+  },
+  "358c-ubi-rd-3": {
+    "blk_no": "358C",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "403358",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "2room": 66,
+      "3room": 44,
+      "4room": 33
+    }
+  },
+  "358d-ubi-rd-3": {
+    "blk_no": "358D",
+    "street": "UBI RD 3",
+    "street_full": "UBI ROAD 3",
+    "postal": "404358",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "2room": 54,
+      "3room": 36,
+      "4room": 27
+    }
+  },
+  "36-cassia-cres": {
+    "blk_no": "36",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "390036",
+    "town": "GEYLANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "3room": 94,
+      "5room": 1
+    }
+  },
+  "36-circuit-rd": {
+    "blk_no": "36",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370036",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 28
+    }
+  },
+  "36-eunos-cres": {
+    "blk_no": "36",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400036",
+    "town": "GEYLANG",
+    "year_completed": 2005,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 35,
+      "4room": 52,
+      "5room": 17
+    }
+  },
+  "37-circuit-rd": {
+    "blk_no": "37",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370037",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 570,
+    "sold_units_by_type": {
+      "3room": 92,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 452,
+      "3room": 25
+    }
+  },
+  "37a-eunos-rd-2": {
+    "blk_no": "37A",
+    "street": "EUNOS RD 2",
+    "street_full": "EUNOS ROAD 2",
+    "postal": "401037",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 135,
+    "sold_units_by_type": {
+      "2room": 33,
+      "3room": 15,
+      "4room": 87
+    }
+  },
+  "37a-pine-lane": {
+    "blk_no": "37A",
+    "street": "PINE LANE",
+    "street_full": "PINE LANE",
+    "postal": "391037",
+    "town": "GEYLANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 102,
+      "3room": 66
+    }
+  },
+  "37b-eunos-rd-2": {
+    "blk_no": "37B",
+    "street": "EUNOS RD 2",
+    "street_full": "EUNOS ROAD 2",
+    "postal": "402037",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 117
+    }
+  },
+  "37c-eunos-rd-2": {
+    "blk_no": "37C",
+    "street": "EUNOS RD 2",
+    "street_full": "EUNOS ROAD 2",
+    "postal": "403037",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 126,
+    "sold_units_by_type": {
+      "4room": 126
+    }
+  },
+  "38-circuit-rd": {
+    "blk_no": "38",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370038",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "3room": 120
+    }
+  },
+  "38a-eunos-rd-2": {
+    "blk_no": "38A",
+    "street": "EUNOS RD 2",
+    "street_full": "EUNOS ROAD 2",
+    "postal": "401038",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "3room": 36,
+      "4room": 88
+    }
+  },
+  "38a-pine-lane": {
+    "blk_no": "38A",
+    "street": "PINE LANE",
+    "street_full": "PINE LANE",
+    "postal": "391038",
+    "town": "GEYLANG",
+    "year_completed": 2021,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 151,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 117
+    }
+  },
+  "38b-eunos-rd-2": {
+    "blk_no": "38B",
+    "street": "EUNOS RD 2",
+    "street_full": "EUNOS ROAD 2",
+    "postal": "402038",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "3room": 36,
+      "4room": 86
+    }
+  },
+  "38c-eunos-rd-2": {
+    "blk_no": "38C",
+    "street": "EUNOS RD 2",
+    "street_full": "EUNOS ROAD 2",
+    "postal": "403038",
+    "town": "GEYLANG",
+    "year_completed": 2023,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 74,
+      "3room": 10,
+      "4room": 34
+    }
+  },
+  "39-circuit-rd": {
+    "blk_no": "39",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370039",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 29,
+      "3room": 87,
+      "4room": 2
+    }
+  },
+  "39-jln-tiga": {
+    "blk_no": "39",
+    "street": "JLN TIGA",
+    "street_full": "JALAN TIGA",
+    "postal": "390039",
+    "town": "GEYLANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 34
+    }
+  },
+  "3a-geylang-serai": {
+    "blk_no": "3A",
+    "street": "GEYLANG SERAI",
+    "street_full": "GEYLANG SERAI",
+    "postal": "402003",
+    "town": "GEYLANG",
+    "year_completed": 2010,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 70
+    }
+  },
+  "4-haig-rd": {
+    "blk_no": "4",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430004",
+    "town": "GEYLANG",
+    "year_completed": 1975,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 136,
+      "5room": 4
+    }
+  },
+  "4-joo-chiat-rd": {
+    "blk_no": "4",
+    "street": "JOO CHIAT RD",
+    "street_full": "JOO CHIAT ROAD",
+    "postal": "420004",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 93,
+      "4room": 14,
+      "exec": 1
+    }
+  },
+  "40-circuit-rd": {
+    "blk_no": "40",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370040",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "2room": 30,
+      "3room": 84,
+      "4room": 3
+    }
+  },
+  "40-sims-dr": {
+    "blk_no": "40",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "380040",
+    "town": "GEYLANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 70,
+      "5room": 51
+    }
+  },
+  "41-circuit-rd": {
+    "blk_no": "41",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370041",
+    "town": "GEYLANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "4room": 5,
+      "5room": 39
+    }
+  },
+  "41-sims-dr": {
+    "blk_no": "41",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "380041",
+    "town": "GEYLANG",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 238,
+    "sold_units_by_type": {
+      "3room": 236,
+      "5room": 2
+    }
+  },
+  "410-eunos-rd-5": {
+    "blk_no": "410",
+    "street": "EUNOS RD 5",
+    "street_full": "EUNOS ROAD 5",
+    "postal": "400410",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 11,
+    "sold_units_by_type": {
+      "3room": 11
+    }
+  },
+  "411-eunos-rd-5": {
+    "blk_no": "411",
+    "street": "EUNOS RD 5",
+    "street_full": "EUNOS ROAD 5",
+    "postal": "400411",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 44
+    }
+  },
+  "412-eunos-rd-5": {
+    "blk_no": "412",
+    "street": "EUNOS RD 5",
+    "street_full": "EUNOS ROAD 5",
+    "postal": "400412",
+    "town": "GEYLANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 63,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 43
+    }
+  },
+  "413-eunos-rd-5": {
+    "blk_no": "413",
+    "street": "EUNOS RD 5",
+    "street_full": "EUNOS ROAD 5",
+    "postal": "400413",
+    "town": "GEYLANG",
+    "year_completed": 1990,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 58
+    }
+  },
+  "414-eunos-rd-5": {
+    "blk_no": "414",
+    "street": "EUNOS RD 5",
+    "street_full": "EUNOS ROAD 5",
+    "postal": "400414",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 27
+    }
+  },
+  "415-eunos-rd-5": {
+    "blk_no": "415",
+    "street": "EUNOS RD 5",
+    "street_full": "EUNOS ROAD 5",
+    "postal": "400415",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 44
+    }
+  },
+  "416-eunos-rd-5": {
+    "blk_no": "416",
+    "street": "EUNOS RD 5",
+    "street_full": "EUNOS ROAD 5",
+    "postal": "400416",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 27,
+    "sold_units_by_type": {
+      "3room": 27
+    }
+  },
+  "417-eunos-rd-5": {
+    "blk_no": "417",
+    "street": "EUNOS RD 5",
+    "street_full": "EUNOS ROAD 5",
+    "postal": "400417",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "4room": 72,
+      "5room": 44
+    }
+  },
+  "42-cassia-cres": {
+    "blk_no": "42",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "390042",
+    "town": "GEYLANG",
+    "year_completed": 1980,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 48,
+      "4room": 48
+    }
+  },
+  "42-circuit-rd": {
+    "blk_no": "42",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370042",
+    "town": "GEYLANG",
+    "year_completed": 1994,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 37
+    }
+  },
+  "42-sims-dr": {
+    "blk_no": "42",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "380042",
+    "town": "GEYLANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 66,
+    "sold_units_by_type": {
+      "4room": 66
+    }
+  },
+  "42a-sims-dr": {
+    "blk_no": "42A",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "381042",
+    "town": "GEYLANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 24,
+    "sold_units_by_type": {
+      "4room": 15,
+      "5room": 9
+    }
+  },
+  "43-circuit-rd": {
+    "blk_no": "43",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370043",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 28,
+      "3room": 88,
+      "4room": 2
+    }
+  },
+  "43-jln-tiga": {
+    "blk_no": "43",
+    "street": "JLN TIGA",
+    "street_full": "JALAN TIGA",
+    "postal": "390043",
+    "town": "GEYLANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 71,
+    "sold_units_by_type": {
+      "4room": 35,
+      "5room": 36
+    }
+  },
+  "43-sims-dr": {
+    "blk_no": "43",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "380043",
+    "town": "GEYLANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 20
+    }
+  },
+  "43a-sims-dr": {
+    "blk_no": "43A",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "381043",
+    "town": "GEYLANG",
+    "year_completed": 1989,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 28,
+    "sold_units_by_type": {
+      "4room": 19,
+      "5room": 9
+    }
+  },
+  "44-circuit-rd": {
+    "blk_no": "44",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370044",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "2room": 28,
+      "3room": 82,
+      "4room": 5
+    }
+  },
+  "44-sims-dr": {
+    "blk_no": "44",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "380044",
+    "town": "GEYLANG",
+    "year_completed": 1974,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 240,
+    "sold_units_by_type": {
+      "4room": 240
+    }
+  },
+  "45-circuit-rd": {
+    "blk_no": "45",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370045",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "2room": 28,
+      "3room": 88,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 2
+    }
+  },
+  "45-jln-tiga": {
+    "blk_no": "45",
+    "street": "JLN TIGA",
+    "street_full": "JALAN TIGA",
+    "postal": "390045",
+    "town": "GEYLANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 36
+    }
+  },
+  "45-sims-dr": {
+    "blk_no": "45",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "380045",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "3room": 182
+    }
+  },
+  "46-circuit-rd": {
+    "blk_no": "46",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370046",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "2room": 28,
+      "3room": 83,
+      "4room": 4
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "47-circuit-rd": {
+    "blk_no": "47",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370047",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 4
+    }
+  },
+  "47-jln-tiga": {
+    "blk_no": "47",
+    "street": "JLN TIGA",
+    "street_full": "JALAN TIGA",
+    "postal": "390047",
+    "town": "GEYLANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "4room": 74,
+      "5room": 36
+    }
+  },
+  "48-circuit-rd": {
+    "blk_no": "48",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370048",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 2
+    }
+  },
+  "49-circuit-rd": {
+    "blk_no": "49",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370049",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 2
+    }
+  },
+  "49-jln-tiga": {
+    "blk_no": "49",
+    "street": "JLN TIGA",
+    "street_full": "JALAN TIGA",
+    "postal": "390049",
+    "town": "GEYLANG",
+    "year_completed": 2003,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 108
+    }
+  },
+  "5-haig-rd": {
+    "blk_no": "5",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430005",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "5-pine-cl": {
+    "blk_no": "5",
+    "street": "PINE CL",
+    "street_full": "PINE CLOSE",
+    "postal": "391005",
+    "town": "GEYLANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 71
+    }
+  },
+  "50-circuit-rd": {
+    "blk_no": "50",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370050",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 111,
+      "4room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "50-sims-dr": {
+    "blk_no": "50",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "380050",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "51-circuit-rd": {
+    "blk_no": "51",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370051",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "2room": 26,
+      "3room": 16
+    },
+    "rental_units_by_type": {
+      "2room": 58
+    }
+  },
+  "51-sims-dr": {
+    "blk_no": "51",
+    "street": "SIMS DR",
+    "street_full": "SIMS DRIVE",
+    "postal": "380051",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "5room": 96
+    }
+  },
+  "52-cassia-cres": {
+    "blk_no": "52",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "390052",
+    "town": "GEYLANG",
+    "year_completed": 2016,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 584,
+    "sold_units_by_type": {
+      "2room": 8,
+      "3room": 52
+    },
+    "rental_units_by_type": {
+      "1room": 187,
+      "2room": 306,
+      "3room": 31
+    }
+  },
+  "52-circuit-rd": {
+    "blk_no": "52",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370052",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 22,
+      "3room": 19
+    },
+    "rental_units_by_type": {
+      "2room": 78,
+      "3room": 1
+    }
+  },
+  "52-sims-pl": {
+    "blk_no": "52",
+    "street": "SIMS PL",
+    "street_full": "SIMS PLACE",
+    "postal": "380052",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "3room": 159,
+      "5room": 4
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "53-pipit-rd": {
+    "blk_no": "53",
+    "street": "PIPIT RD",
+    "street_full": "PIPIT ROAD",
+    "postal": "370053",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "exec": 124
+    }
+  },
+  "53-sims-pl": {
+    "blk_no": "53",
+    "street": "SIMS PL",
+    "street_full": "SIMS PLACE",
+    "postal": "380053",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 151,
+      "5room": 3
+    }
+  },
+  "54-cassia-cres": {
+    "blk_no": "54",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "390054",
+    "town": "GEYLANG",
+    "year_completed": 1982,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 96
+    }
+  },
+  "54-pipit-rd": {
+    "blk_no": "54",
+    "street": "PIPIT RD",
+    "street_full": "PIPIT ROAD",
+    "postal": "370054",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 222,
+    "sold_units_by_type": {
+      "4room": 222
+    }
+  },
+  "55-pipit-rd": {
+    "blk_no": "55",
+    "street": "PIPIT RD",
+    "street_full": "PIPIT ROAD",
+    "postal": "370055",
+    "town": "GEYLANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 97,
+      "5room": 15
+    }
+  },
+  "56-cassia-cres": {
+    "blk_no": "56",
+    "street": "CASSIA CRES",
+    "street_full": "CASSIA CRESCENT",
+    "postal": "391056",
+    "town": "GEYLANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "4room": 114,
+      "5room": 54
+    }
+  },
+  "56-pipit-rd": {
+    "blk_no": "56",
+    "street": "PIPIT RD",
+    "street_full": "PIPIT ROAD",
+    "postal": "370056",
+    "town": "GEYLANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "5room": 68
+    }
+  },
+  "57-circuit-rd": {
+    "blk_no": "57",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370057",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 4
+    }
+  },
+  "58-circuit-rd": {
+    "blk_no": "58",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370058",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 116,
+    "sold_units_by_type": {
+      "3room": 112,
+      "4room": 4
+    }
+  },
+  "58-dakota-cres": {
+    "blk_no": "58",
+    "street": "DAKOTA CRES",
+    "street_full": "DAKOTA CRESCENT",
+    "postal": "390058",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 174,
+    "sold_units_by_type": {
+      "3room": 106,
+      "4room": 66,
+      "exec": 2
+    }
+  },
+  "59-circuit-rd": {
+    "blk_no": "59",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370059",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 2
+    }
+  },
+  "6-haig-rd": {
+    "blk_no": "6",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430006",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "60-circuit-rd": {
+    "blk_no": "60",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370060",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 1
+    }
+  },
+  "60-dakota-cres": {
+    "blk_no": "60",
+    "street": "DAKOTA CRES",
+    "street_full": "DAKOTA CRESCENT",
+    "postal": "390060",
+    "town": "GEYLANG",
+    "year_completed": 1982,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 162,
+    "sold_units_by_type": {
+      "4room": 28,
+      "5room": 134
+    }
+  },
+  "61-circuit-rd": {
+    "blk_no": "61",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370061",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "3room": 116,
+      "4room": 2
+    }
+  },
+  "62-circuit-rd": {
+    "blk_no": "62",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370062",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 29,
+      "3room": 87,
+      "4room": 2
+    }
+  },
+  "62-dakota-cres": {
+    "blk_no": "62",
+    "street": "DAKOTA CRES",
+    "street_full": "DAKOTA CRESCENT",
+    "postal": "390062",
+    "town": "GEYLANG",
+    "year_completed": 1984,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 32,
+      "5room": 56
+    }
+  },
+  "63-circuit-rd": {
+    "blk_no": "63",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370063",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "2room": 29,
+      "3room": 88,
+      "4room": 1
+    },
+    "rental_units_by_type": {
+      "2room": 1
+    }
+  },
+  "63-sims-pl": {
+    "blk_no": "63",
+    "street": "SIMS PL",
+    "street_full": "SIMS PLACE",
+    "postal": "380063",
+    "town": "GEYLANG",
+    "year_completed": 2015,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 337,
+    "sold_units_by_type": {
+      "2room": 87,
+      "3room": 140,
+      "exec": 1,
+      "studio_apartment": 109
+    }
+  },
+  "64-circuit-rd": {
+    "blk_no": "64",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370064",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 100,
+      "4room": 4
+    }
+  },
+  "65-circuit-rd": {
+    "blk_no": "65",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370065",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 106,
+    "sold_units_by_type": {
+      "3room": 104,
+      "4room": 2
+    }
+  },
+  "66-circuit-rd": {
+    "blk_no": "66",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370066",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "2room": 29,
+      "3room": 87,
+      "4room": 2
+    }
+  },
+  "67-circuit-rd": {
+    "blk_no": "67",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370067",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 109,
+      "4room": 5
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "68-circuit-rd": {
+    "blk_no": "68",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370068",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 36,
+      "3room": 18
+    },
+    "rental_units_by_type": {
+      "2room": 64,
+      "3room": 2
+    }
+  },
+  "69-circuit-rd": {
+    "blk_no": "69",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370069",
+    "town": "GEYLANG",
+    "year_completed": 1964,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 115,
+    "sold_units_by_type": {
+      "3room": 110,
+      "4room": 5
+    }
+  },
+  "7-haig-rd": {
+    "blk_no": "7",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430007",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 21,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "5room": 80
+    }
+  },
+  "7-pine-cl": {
+    "blk_no": "7",
+    "street": "PINE CL",
+    "street_full": "PINE CLOSE",
+    "postal": "391007",
+    "town": "GEYLANG",
+    "year_completed": 1998,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 95,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 71
+    }
+  },
+  "70-circuit-rd": {
+    "blk_no": "70",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370070",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 37,
+      "3room": 20
+    },
+    "rental_units_by_type": {
+      "2room": 63
+    }
+  },
+  "71-circuit-rd": {
+    "blk_no": "71",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370071",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "2room": 27,
+      "3room": 14
+    },
+    "rental_units_by_type": {
+      "2room": 57,
+      "3room": 2
+    }
+  },
+  "72-circuit-rd": {
+    "blk_no": "72",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370072",
+    "town": "GEYLANG",
+    "year_completed": 1965,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "2room": 36,
+      "3room": 15
+    },
+    "rental_units_by_type": {
+      "2room": 48,
+      "3room": 1
+    }
+  },
+  "75a-circuit-rd": {
+    "blk_no": "75A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371075",
+    "town": "GEYLANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 148,
+    "sold_units_by_type": {
+      "2room": 15,
+      "3room": 51,
+      "4room": 82
+    }
+  },
+  "75b-circuit-rd": {
+    "blk_no": "75B",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "372075",
+    "town": "GEYLANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 260,
+    "sold_units_by_type": {
+      "3room": 70,
+      "4room": 190
+    }
+  },
+  "76a-circuit-rd": {
+    "blk_no": "76A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371076",
+    "town": "GEYLANG",
+    "year_completed": 2024,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 222,
+    "sold_units_by_type": {
+      "2room": 94,
+      "3room": 32,
+      "4room": 64,
+      "5room": 32
+    }
+  },
+  "8-haig-rd": {
+    "blk_no": "8",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430008",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 120
+    }
+  },
+  "81-macpherson-lane": {
+    "blk_no": "81",
+    "street": "MACPHERSON LANE",
+    "street_full": "MACPHERSON LANE",
+    "postal": "360081",
+    "town": "GEYLANG",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 117,
+      "3room": 11,
+      "other_room": 2
+    }
+  },
+  "82a-circuit-rd": {
+    "blk_no": "82A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371082",
+    "town": "GEYLANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 300,
+    "sold_units_by_type": {
+      "2room": 66,
+      "3room": 60,
+      "4room": 72,
+      "studio_apartment": 102
+    }
+  },
+  "82b-circuit-rd": {
+    "blk_no": "82B",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "372082",
+    "town": "GEYLANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 234,
+    "sold_units_by_type": {
+      "3room": 72,
+      "4room": 162
+    }
+  },
+  "83-macpherson-lane": {
+    "blk_no": "83",
+    "street": "MACPHERSON LANE",
+    "street_full": "MACPHERSON LANE",
+    "postal": "360083",
+    "town": "GEYLANG",
+    "year_completed": 1968,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "2room": 13,
+      "3room": 78,
+      "other_room": 2
+    }
+  },
+  "83a-circuit-rd": {
+    "blk_no": "83A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371083",
+    "town": "GEYLANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 36,
+      "4room": 72
+    }
+  },
+  "83b-circuit-rd": {
+    "blk_no": "83B",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "372083",
+    "town": "GEYLANG",
+    "year_completed": 2019,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 36,
+      "4room": 72
+    }
+  },
+  "842-sims-ave": {
+    "blk_no": "842",
+    "street": "SIMS AVE",
+    "street_full": "SIMS AVENUE",
+    "postal": "400842",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "844-sims-ave": {
+    "blk_no": "844",
+    "street": "SIMS AVE",
+    "street_full": "SIMS AVENUE",
+    "postal": "400844",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "4room": 20
+    }
+  },
+  "846-sims-ave": {
+    "blk_no": "846",
+    "street": "SIMS AVE",
+    "street_full": "SIMS AVENUE",
+    "postal": "400846",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "exec": 72
+    }
+  },
+  "848-sims-ave": {
+    "blk_no": "848",
+    "street": "SIMS AVE",
+    "street_full": "SIMS AVENUE",
+    "postal": "400848",
+    "town": "GEYLANG",
+    "year_completed": 1985,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 20,
+    "sold_units_by_type": {
+      "4room": 20
+    }
+  },
+  "85-circuit-rd": {
+    "blk_no": "85",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370085",
+    "town": "GEYLANG",
+    "year_completed": 1969,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 100,
+    "sold_units_by_type": {
+      "3room": 100
+    }
+  },
+  "87-circuit-rd": {
+    "blk_no": "87",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "370087",
+    "town": "GEYLANG",
+    "year_completed": 1969,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "3room": 76,
+      "5room": 2
+    }
+  },
+  "88a-jln-satu": {
+    "blk_no": "88A",
+    "street": "JLN SATU",
+    "street_full": "JALAN SATU",
+    "postal": "391088",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "3room": 18,
+      "4room": 121
+    }
+  },
+  "88b-jln-satu": {
+    "blk_no": "88B",
+    "street": "JLN SATU",
+    "street_full": "JALAN SATU",
+    "postal": "392088",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "3room": 52,
+      "4room": 90
+    }
+  },
+  "88c-jln-satu": {
+    "blk_no": "88C",
+    "street": "JLN SATU",
+    "street_full": "JALAN SATU",
+    "postal": "393088",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "3room": 17,
+      "4room": 123
+    }
+  },
+  "9-eunos-cres": {
+    "blk_no": "9",
+    "street": "EUNOS CRES",
+    "street_full": "EUNOS CRESCENT",
+    "postal": "400009",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "4room": 180
+    }
+  },
+  "9-haig-rd": {
+    "blk_no": "9",
+    "street": "HAIG RD",
+    "street_full": "HAIG ROAD",
+    "postal": "430009",
+    "town": "GEYLANG",
+    "year_completed": 1976,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 138,
+      "5room": 3
+    }
+  },
+  "9-pine-cl": {
+    "blk_no": "9",
+    "street": "PINE CL",
+    "street_full": "PINE CLOSE",
+    "postal": "390009",
+    "town": "GEYLANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "4room": 55,
+      "5room": 22
+    }
+  },
+  "90-pipit-rd": {
+    "blk_no": "90",
+    "street": "PIPIT RD",
+    "street_full": "PIPIT ROAD",
+    "postal": "370090",
+    "town": "GEYLANG",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 274,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 274
+    }
+  },
+  "90a-jln-satu": {
+    "blk_no": "90A",
+    "street": "JLN SATU",
+    "street_full": "JALAN SATU",
+    "postal": "391090",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 204,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 17,
+      "4room": 153
+    }
+  },
+  "90b-jln-satu": {
+    "blk_no": "90B",
+    "street": "JLN SATU",
+    "street_full": "JALAN SATU",
+    "postal": "392090",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 187,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 17,
+      "4room": 136
+    }
+  },
+  "91-paya-lebar-way": {
+    "blk_no": "91",
+    "street": "PAYA LEBAR WAY",
+    "street_full": "PAYA LEBAR WAY",
+    "postal": "370091",
+    "town": "GEYLANG",
+    "year_completed": 1972,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 138,
+      "5room": 3
+    }
+  },
+  "91a-jln-satu": {
+    "blk_no": "91A",
+    "street": "JLN SATU",
+    "street_full": "JALAN SATU",
+    "postal": "391091",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 201,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 17,
+      "4room": 150
+    }
+  },
+  "91b-jln-satu": {
+    "blk_no": "91B",
+    "street": "JLN SATU",
+    "street_full": "JALAN SATU",
+    "postal": "392091",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 15,
+      "4room": 133
+    }
+  },
+  "92-pipit-rd": {
+    "blk_no": "92",
+    "street": "PIPIT RD",
+    "street_full": "PIPIT ROAD",
+    "postal": "370092",
+    "town": "GEYLANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 30
+    }
+  },
+  "92a-jln-satu": {
+    "blk_no": "92A",
+    "street": "JLN SATU",
+    "street_full": "JALAN SATU",
+    "postal": "391092",
+    "town": "GEYLANG",
+    "year_completed": 2022,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 30,
+      "3room": 51,
+      "4room": 99
+    }
+  },
+  "92a-pipit-rd": {
+    "blk_no": "92A",
+    "street": "PIPIT RD",
+    "street_full": "PIPIT ROAD",
+    "postal": "371092",
+    "town": "GEYLANG",
+    "year_completed": 1996,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 30
+    }
+  },
+  "93-jln-dua": {
+    "blk_no": "93",
+    "street": "JLN DUA",
+    "street_full": "JALAN DUA",
+    "postal": "390093",
+    "town": "GEYLANG",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "3room": 86,
+      "4room": 2
+    }
+  },
+  "93-paya-lebar-way": {
+    "blk_no": "93",
+    "street": "PAYA LEBAR WAY",
+    "street_full": "PAYA LEBAR WAY",
+    "postal": "370093",
+    "town": "GEYLANG",
+    "year_completed": 1972,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "3room": 141,
+      "5room": 1
+    },
+    "rental_units_by_type": {
+      "3room": 1
+    }
+  },
+  "94-pipit-rd": {
+    "blk_no": "94",
+    "street": "PIPIT RD",
+    "street_full": "PIPIT ROAD",
+    "postal": "370094",
+    "town": "GEYLANG",
+    "year_completed": 1972,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 220,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 220
+    }
+  },
+  "95-aljunied-cres": {
+    "blk_no": "95",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380095",
+    "town": "GEYLANG",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 193,
+    "sold_units_by_type": {
+      "3room": 188,
+      "5room": 5
+    }
+  },
+  "95-old-airport-rd": {
+    "blk_no": "95",
+    "street": "OLD AIRPORT RD",
+    "street_full": "OLD AIRPORT ROAD",
+    "postal": "390095",
+    "town": "GEYLANG",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "3room": 118,
+      "4room": 1
+    }
+  },
+  "95a-circuit-rd": {
+    "blk_no": "95A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371095",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 256,
+    "sold_units_by_type": {
+      "2room": 108,
+      "3room": 84,
+      "4room": 64
+    }
+  },
+  "95b-circuit-rd": {
+    "blk_no": "95B",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "372095",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 250,
+    "sold_units_by_type": {
+      "2room": 108,
+      "3room": 72,
+      "4room": 70
+    }
+  },
+  "95c-circuit-rd": {
+    "blk_no": "95C",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "373095",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "4room": 188
+    }
+  },
+  "96-aljunied-cres": {
+    "blk_no": "96",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380096",
+    "town": "GEYLANG",
+    "year_completed": 1974,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 144,
+    "sold_units_by_type": {
+      "2room": 55
+    },
+    "rental_units_by_type": {
+      "2room": 89
+    }
+  },
+  "97-aljunied-cres": {
+    "blk_no": "97",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380097",
+    "town": "GEYLANG",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 152,
+    "sold_units_by_type": {
+      "3room": 150,
+      "5room": 2
+    }
+  },
+  "97-jln-dua": {
+    "blk_no": "97",
+    "street": "JLN DUA",
+    "street_full": "JALAN DUA",
+    "postal": "390097",
+    "town": "GEYLANG",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "3room": 114,
+      "4room": 3
+    }
+  },
+  "97a-circuit-rd": {
+    "blk_no": "97A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371097",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 189,
+    "sold_units_by_type": {
+      "4room": 189
+    }
+  },
+  "97b-circuit-rd": {
+    "blk_no": "97B",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "372097",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 172,
+    "sold_units_by_type": {
+      "4room": 172
+    }
+  },
+  "98-aljunied-cres": {
+    "blk_no": "98",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380098",
+    "town": "GEYLANG",
+    "year_completed": 1974,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "3room": 146,
+      "5room": 4
+    }
+  },
+  "99-aljunied-cres": {
+    "blk_no": "99",
+    "street": "ALJUNIED CRES",
+    "street_full": "ALJUNIED CRESCENT",
+    "postal": "380099",
+    "town": "GEYLANG",
+    "year_completed": 1977,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "3room": 132,
+      "4room": 22
+    }
+  },
+  "99-old-airport-rd": {
+    "blk_no": "99",
+    "street": "OLD AIRPORT RD",
+    "street_full": "OLD AIRPORT ROAD",
+    "postal": "390099",
+    "town": "GEYLANG",
+    "year_completed": 1962,
+    "max_floor_lvl": 10,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "3room": 105
+    },
+    "rental_units_by_type": {
+      "3room": 3
+    }
+  },
+  "99a-circuit-rd": {
+    "blk_no": "99A",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "371099",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 161,
+    "sold_units_by_type": {
+      "4room": 161
+    }
+  },
+  "99b-circuit-rd": {
+    "blk_no": "99B",
+    "street": "CIRCUIT RD",
+    "street_full": "CIRCUIT ROAD",
+    "postal": "372099",
+    "town": "GEYLANG",
+    "year_completed": 2025,
+    "max_floor_lvl": 19,
+    "total_dwelling_units": 166,
+    "sold_units_by_type": {
+      "4room": 166
+    }
+  }
+}

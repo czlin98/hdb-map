@@ -1,0 +1,2039 @@
+{
+  "111a-plantation-cres": {
+    "blk_no": "111A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691111",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 109,
+    "sold_units_by_type": {
+      "4room": 57,
+      "5room": 52
+    }
+  },
+  "111b-plantation-cres": {
+    "blk_no": "111B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692111",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 181,
+    "sold_units_by_type": {
+      "2room": 129,
+      "3room": 26,
+      "4room": 26
+    }
+  },
+  "111c-plantation-cres": {
+    "blk_no": "111C",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "693111",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 81,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 60
+    }
+  },
+  "112a-plantation-cres": {
+    "blk_no": "112A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691112",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "2room": 91,
+      "3room": 26,
+      "4room": 26
+    }
+  },
+  "112b-plantation-cres": {
+    "blk_no": "112B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692112",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 182,
+    "sold_units_by_type": {
+      "2room": 130,
+      "3room": 26,
+      "4room": 26
+    }
+  },
+  "113a-plantation-cres": {
+    "blk_no": "113A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691113",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 89,
+      "3room": 26,
+      "4room": 25
+    }
+  },
+  "113b-plantation-cres": {
+    "blk_no": "113B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692113",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "2room": 104,
+      "4room": 26
+    }
+  },
+  "114a-plantation-cres": {
+    "blk_no": "114A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691114",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 74
+    }
+  },
+  "114b-plantation-cres": {
+    "blk_no": "114B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692114",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 113,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 73
+    }
+  },
+  "116a-plantation-cres": {
+    "blk_no": "116A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691116",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 176,
+    "sold_units_by_type": {
+      "2room": 74,
+      "4room": 76,
+      "5room": 26
+    }
+  },
+  "116b-plantation-cres": {
+    "blk_no": "116B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692116",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "2room": 88,
+      "4room": 22,
+      "5room": 29
+    }
+  },
+  "117a-plantation-cres": {
+    "blk_no": "117A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691117",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 75,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 51
+    }
+  },
+  "118a-plantation-cres": {
+    "blk_no": "118A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691118",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "2room": 40,
+      "3room": 39,
+      "4room": 38
+    }
+  },
+  "118b-plantation-cres": {
+    "blk_no": "118B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692118",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 45,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 24
+    }
+  },
+  "119a-plantation-cres": {
+    "blk_no": "119A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691119",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 72
+    }
+  },
+  "119b-plantation-cres": {
+    "blk_no": "119B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692119",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 38,
+      "5room": 36
+    }
+  },
+  "119c-plantation-cres": {
+    "blk_no": "119C",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "693119",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "2room": 74,
+      "3room": 21,
+      "4room": 22
+    }
+  },
+  "120a-tengah-dr": {
+    "blk_no": "120A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691120",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 50
+    }
+  },
+  "120b-tengah-dr": {
+    "blk_no": "120B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692120",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 60,
+      "4room": 38
+    }
+  },
+  "120c-tengah-dr": {
+    "blk_no": "120C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693120",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 9,
+    "total_dwelling_units": 45,
+    "sold_units_by_type": {
+      "4room": 14,
+      "5room": 31
+    }
+  },
+  "121a-tengah-dr": {
+    "blk_no": "121A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691121",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "2room": 40,
+      "3room": 20,
+      "4room": 38
+    }
+  },
+  "121b-tengah-dr": {
+    "blk_no": "121B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692121",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "4room": 49,
+      "5room": 25
+    }
+  },
+  "121c-tengah-dr": {
+    "blk_no": "121C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693121",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "2room": 74,
+      "3room": 21,
+      "4room": 22
+    }
+  },
+  "122a-tengah-dr": {
+    "blk_no": "122A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691122",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 62,
+    "sold_units_by_type": {
+      "4room": 11,
+      "5room": 51
+    }
+  },
+  "122b-tengah-dr": {
+    "blk_no": "122B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692122",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 140,
+    "sold_units_by_type": {
+      "2room": 72,
+      "3room": 18,
+      "4room": 50
+    }
+  },
+  "122c-tengah-dr": {
+    "blk_no": "122C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693122",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 73,
+    "sold_units_by_type": {
+      "4room": 25,
+      "5room": 48
+    }
+  },
+  "123a-tengah-dr": {
+    "blk_no": "123A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691123",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 46,
+    "sold_units_by_type": {
+      "4room": 20,
+      "5room": 26
+    }
+  },
+  "123b-tengah-dr": {
+    "blk_no": "123B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692123",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "2room": 40,
+      "3room": 13,
+      "4room": 46,
+      "5room": 12
+    }
+  },
+  "123c-tengah-dr": {
+    "blk_no": "123C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693123",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 91,
+    "sold_units_by_type": {
+      "4room": 69,
+      "5room": 22
+    }
+  },
+  "125a-tengah-dr": {
+    "blk_no": "125A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691125",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 168,
+    "sold_units_by_type": {
+      "2room": 91,
+      "3room": 19,
+      "4room": 36,
+      "5room": 22
+    }
+  },
+  "125b-tengah-dr": {
+    "blk_no": "125B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692125",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "2room": 89,
+      "3room": 18,
+      "4room": 35,
+      "5room": 22
+    }
+  },
+  "126a-tengah-dr": {
+    "blk_no": "126A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "NIL",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 57,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 13,
+      "5room": 34
+    }
+  },
+  "126b-tengah-dr": {
+    "blk_no": "126B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "NIL",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "2room": 18,
+      "3room": 18,
+      "4room": 39,
+      "5room": 12
+    }
+  },
+  "126c-tengah-dr": {
+    "blk_no": "126C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "NIL",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 49
+    }
+  },
+  "127a-plantation-cres": {
+    "blk_no": "127A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "NIL",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 33,
+    "sold_units_by_type": {
+      "3room": 21,
+      "4room": 12
+    }
+  },
+  "127b-plantation-cres": {
+    "blk_no": "127B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "NIL",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 72,
+    "sold_units_by_type": {
+      "4room": 21,
+      "5room": 51
+    }
+  },
+  "128a-plantation-cres": {
+    "blk_no": "128A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691128",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 125,
+    "sold_units_by_type": {
+      "2room": 74,
+      "4room": 26,
+      "5room": 25
+    }
+  },
+  "128b-plantation-cres": {
+    "blk_no": "128B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692128",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 72,
+      "4room": 24,
+      "5room": 24
+    }
+  },
+  "129a-plantation-cres": {
+    "blk_no": "129A",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "691129",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 48,
+    "sold_units_by_type": {
+      "4room": 22,
+      "5room": 26
+    }
+  },
+  "129b-plantation-cres": {
+    "blk_no": "129B",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "692129",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "2room": 42,
+      "3room": 13,
+      "4room": 47,
+      "5room": 12
+    }
+  },
+  "129c-plantation-cres": {
+    "blk_no": "129C",
+    "street": "PLANTATION CRES",
+    "street_full": "PLANTATION CRESCENT",
+    "postal": "693129",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 114,
+    "sold_units_by_type": {
+      "4room": 53,
+      "5room": 61
+    }
+  },
+  "131a-tengah-gdn-ave": {
+    "blk_no": "131A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691131",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 70,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 46
+    }
+  },
+  "131b-tengah-gdn-ave": {
+    "blk_no": "131B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692131",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "2room": 46,
+      "3room": 26,
+      "4room": 39
+    }
+  },
+  "131c-tengah-gdn-ave": {
+    "blk_no": "131C",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "693131",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "2room": 46,
+      "3room": 26,
+      "4room": 39
+    }
+  },
+  "131d-tengah-gdn-ave": {
+    "blk_no": "131D",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "694131",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "3room": 39,
+      "4room": 48
+    }
+  },
+  "132a-tengah-gdn-ave": {
+    "blk_no": "132A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691132",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "2room": 84,
+      "4room": 48
+    }
+  },
+  "132b-tengah-gdn-ave": {
+    "blk_no": "132B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692132",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 117,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 81
+    }
+  },
+  "132c-tengah-gdn-ave": {
+    "blk_no": "132C",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "693132",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "2room": 84,
+      "4room": 48
+    }
+  },
+  "133a-tengah-gdn-ave": {
+    "blk_no": "133A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691133",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 85
+    }
+  },
+  "133b-tengah-gdn-ave": {
+    "blk_no": "133B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692133",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "4room": 36,
+      "5room": 85
+    }
+  },
+  "133c-tengah-gdn-ave": {
+    "blk_no": "133C",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "693133",
+    "town": "TENGAH",
+    "year_completed": 2023,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 138,
+    "sold_units_by_type": {
+      "2room": 86,
+      "4room": 52
+    }
+  },
+  "134a-tengah-gdn-ave": {
+    "blk_no": "134A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691134",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 59
+    }
+  },
+  "134b-tengah-gdn-ave": {
+    "blk_no": "134B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692134",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "4room": 44,
+      "5room": 60
+    }
+  },
+  "134c-tengah-gdn-ave": {
+    "blk_no": "134C",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "693134",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 60
+    }
+  },
+  "134d-tengah-gdn-ave": {
+    "blk_no": "134D",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "694134",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 119,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 59
+    }
+  },
+  "135a-tengah-gdn-ave": {
+    "blk_no": "135A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691135",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 154,
+    "sold_units_by_type": {
+      "4room": 112,
+      "5room": 42
+    }
+  },
+  "135b-tengah-gdn-ave": {
+    "blk_no": "135B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692135",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "4room": 56,
+      "5room": 56
+    }
+  },
+  "216a-tengah-gdn-ave": {
+    "blk_no": "216A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691216",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 41,
+      "5room": 56
+    }
+  },
+  "216b-tengah-gdn-ave": {
+    "blk_no": "216B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692216",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 30
+    }
+  },
+  "216c-tengah-gdn-ave": {
+    "blk_no": "216C",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "693216",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 58,
+      "5room": 60
+    }
+  },
+  "216d-tengah-gdn-ave": {
+    "blk_no": "216D",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "694216",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 93,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 48
+    }
+  },
+  "217a-tengah-gdn-ave": {
+    "blk_no": "217A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691217",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 69,
+    "sold_units_by_type": {
+      "4room": 31,
+      "5room": 38
+    }
+  },
+  "217b-tengah-gdn-ave": {
+    "blk_no": "217B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692217",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 58
+    }
+  },
+  "219a-tengah-gdn-walk": {
+    "blk_no": "219A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691219",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "3room": 28,
+      "4room": 44,
+      "5room": 60
+    }
+  },
+  "220a-tengah-gdn-walk": {
+    "blk_no": "220A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691220",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "2room": 112,
+      "3room": 28,
+      "4room": 48
+    }
+  },
+  "220b-tengah-gdn-walk": {
+    "blk_no": "220B",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "692220",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 73,
+      "5room": 56
+    }
+  },
+  "221a-tengah-gdn-walk": {
+    "blk_no": "221A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691221",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 188,
+    "sold_units_by_type": {
+      "2room": 112,
+      "3room": 28,
+      "4room": 48
+    }
+  },
+  "221b-tengah-gdn-walk": {
+    "blk_no": "221B",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "692221",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 73,
+      "5room": 56
+    }
+  },
+  "222a-tengah-gdn-ave": {
+    "blk_no": "222A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691222",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 105,
+    "sold_units_by_type": {
+      "3room": 10,
+      "4room": 50,
+      "5room": 45
+    }
+  },
+  "224a-tengah-gdn-ave": {
+    "blk_no": "224A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691224",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 89,
+      "5room": 54
+    }
+  },
+  "224b-tengah-gdn-ave": {
+    "blk_no": "224B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692224",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 175,
+    "sold_units_by_type": {
+      "2room": 119,
+      "3room": 28,
+      "4room": 28
+    }
+  },
+  "225a-tengah-gdn-ave": {
+    "blk_no": "225A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691225",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 89,
+      "5room": 56
+    }
+  },
+  "225b-tengah-gdn-ave": {
+    "blk_no": "225B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692225",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 177,
+    "sold_units_by_type": {
+      "2room": 121,
+      "3room": 28,
+      "4room": 28
+    }
+  },
+  "228a-tengah-dr": {
+    "blk_no": "228A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691228",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "2room": 74,
+      "3room": 39,
+      "4room": 21,
+      "5room": 9
+    }
+  },
+  "228b-tengah-dr": {
+    "blk_no": "228B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692228",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "2room": 82,
+      "3room": 26
+    }
+  },
+  "229a-tengah-dr": {
+    "blk_no": "229A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691229",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "2room": 48,
+      "4room": 35,
+      "5room": 46
+    }
+  },
+  "229b-tengah-dr": {
+    "blk_no": "229B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692229",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 111,
+    "sold_units_by_type": {
+      "2room": 62,
+      "4room": 28,
+      "5room": 21
+    }
+  },
+  "230a-tengah-dr": {
+    "blk_no": "230A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691230",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 129,
+    "sold_units_by_type": {
+      "2room": 48,
+      "4room": 35,
+      "5room": 46
+    }
+  },
+  "230b-tengah-dr": {
+    "blk_no": "230B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692230",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 110,
+    "sold_units_by_type": {
+      "2room": 62,
+      "4room": 27,
+      "5room": 21
+    }
+  },
+  "231a-tengah-dr": {
+    "blk_no": "231A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691231",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 145,
+    "sold_units_by_type": {
+      "2room": 26,
+      "3room": 26,
+      "4room": 46,
+      "5room": 47
+    }
+  },
+  "231b-tengah-dr": {
+    "blk_no": "231B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692231",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 62,
+      "4room": 28,
+      "5room": 22
+    }
+  },
+  "235a-tengah-gdn-walk": {
+    "blk_no": "235A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691235",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 74,
+    "sold_units_by_type": {
+      "2room": 24,
+      "3room": 26,
+      "4room": 12,
+      "5room": 12
+    }
+  },
+  "235b-tengah-gdn-walk": {
+    "blk_no": "235B",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "692235",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "2room": 46,
+      "3room": 18,
+      "4room": 37,
+      "5room": 23
+    }
+  },
+  "236a-tengah-gdn-walk": {
+    "blk_no": "236A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691236",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 40,
+      "4room": 30,
+      "5room": 42
+    }
+  },
+  "236b-tengah-gdn-walk": {
+    "blk_no": "236B",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "692236",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 121,
+    "sold_units_by_type": {
+      "2room": 72,
+      "4room": 25,
+      "5room": 24
+    }
+  },
+  "237a-tengah-gdn-walk": {
+    "blk_no": "237A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691237",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 40,
+      "4room": 30,
+      "5room": 42
+    }
+  },
+  "237b-tengah-gdn-walk": {
+    "blk_no": "237B",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "692237",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 125,
+    "sold_units_by_type": {
+      "2room": 72,
+      "4room": 27,
+      "5room": 26
+    }
+  },
+  "238a-tengah-gdn-walk": {
+    "blk_no": "238A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691238",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "2room": 82,
+      "3room": 26
+    }
+  },
+  "238b-tengah-gdn-walk": {
+    "blk_no": "238B",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "692238",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "2room": 42,
+      "3room": 20,
+      "4room": 40,
+      "5room": 22
+    }
+  },
+  "241a-tengah-ctrl": {
+    "blk_no": "241A",
+    "street": "TENGAH CTRL",
+    "street_full": "TENGAH CENTRAL",
+    "postal": "691241",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 56
+    }
+  },
+  "241b-tengah-ctrl": {
+    "blk_no": "241B",
+    "street": "TENGAH CTRL",
+    "street_full": "TENGAH CENTRAL",
+    "postal": "692241",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 56
+    }
+  },
+  "241c-tengah-ctrl": {
+    "blk_no": "241C",
+    "street": "TENGAH CTRL",
+    "street_full": "TENGAH CENTRAL",
+    "postal": "693241",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 56,
+      "4room": 28,
+      "5room": 28
+    }
+  },
+  "243a-tengah-ctrl": {
+    "blk_no": "243A",
+    "street": "TENGAH CTRL",
+    "street_full": "TENGAH CENTRAL",
+    "postal": "691243",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 112,
+    "sold_units_by_type": {
+      "2room": 56,
+      "4room": 28,
+      "5room": 28
+    }
+  },
+  "243b-tengah-ctrl": {
+    "blk_no": "243B",
+    "street": "TENGAH CTRL",
+    "street_full": "TENGAH CENTRAL",
+    "postal": "692243",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 167,
+    "sold_units_by_type": {
+      "2room": 112,
+      "4room": 28,
+      "5room": 27
+    }
+  },
+  "244a-tengah-ctrl": {
+    "blk_no": "244A",
+    "street": "TENGAH CTRL",
+    "street_full": "TENGAH CENTRAL",
+    "postal": "691244",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 56
+    }
+  },
+  "244b-tengah-ctrl": {
+    "blk_no": "244B",
+    "street": "TENGAH CTRL",
+    "street_full": "TENGAH CENTRAL",
+    "postal": "692244",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "2room": 42,
+      "4room": 55
+    }
+  },
+  "300a-tengah-dr": {
+    "blk_no": "300A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691300",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "2room": 78,
+      "3room": 11
+    }
+  },
+  "300b-tengah-dr": {
+    "blk_no": "300B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692300",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "2room": 78,
+      "3room": 11
+    }
+  },
+  "300c-tengah-dr": {
+    "blk_no": "300C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693300",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "3room": 11,
+      "4room": 50,
+      "5room": 24
+    }
+  },
+  "300d-tengah-dr": {
+    "blk_no": "300D",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "694300",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 65,
+    "sold_units_by_type": {
+      "2room": 56,
+      "3room": 9
+    }
+  },
+  "301a-tengah-dr": {
+    "blk_no": "301A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691301",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 87,
+    "sold_units_by_type": {
+      "4room": 51,
+      "5room": 36
+    }
+  },
+  "301b-tengah-dr": {
+    "blk_no": "301B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692301",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 37
+    }
+  },
+  "301c-tengah-dr": {
+    "blk_no": "301C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693301",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "2room": 78,
+      "3room": 11
+    }
+  },
+  "301d-tengah-dr": {
+    "blk_no": "301D",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "694301",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "2room": 78,
+      "3room": 11
+    }
+  },
+  "302a-tengah-pk-ave": {
+    "blk_no": "302A",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "691302",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 155,
+    "sold_units_by_type": {
+      "2room": 78,
+      "4room": 39,
+      "5room": 38
+    }
+  },
+  "302b-tengah-pk-ave": {
+    "blk_no": "302B",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "692302",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 77,
+    "sold_units_by_type": {
+      "3room": 13,
+      "4room": 39,
+      "5room": 25
+    }
+  },
+  "302c-tengah-pk-ave": {
+    "blk_no": "302C",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "693302",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 44,
+    "sold_units_by_type": {
+      "2room": 34,
+      "3room": 10
+    }
+  },
+  "302d-tengah-pk-ave": {
+    "blk_no": "302D",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "694302",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 86,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 50,
+      "5room": 24
+    }
+  },
+  "306a-tengah-dr": {
+    "blk_no": "306A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691306",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 128,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 65,
+      "5room": 39
+    }
+  },
+  "306b-tengah-dr": {
+    "blk_no": "306B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692306",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 104,
+    "sold_units_by_type": {
+      "3room": 26,
+      "4room": 25,
+      "5room": 53
+    }
+  },
+  "306c-tengah-dr": {
+    "blk_no": "306C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693306",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 102,
+    "sold_units_by_type": {
+      "2room": 50,
+      "3room": 13,
+      "4room": 39
+    }
+  },
+  "307a-tengah-dr": {
+    "blk_no": "307A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691307",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 68,
+    "sold_units_by_type": {
+      "4room": 52,
+      "5room": 16
+    }
+  },
+  "307b-tengah-dr": {
+    "blk_no": "307B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692307",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "4room": 26,
+      "5room": 75
+    }
+  },
+  "307c-tengah-dr": {
+    "blk_no": "307C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693307",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 89,
+    "sold_units_by_type": {
+      "2room": 37,
+      "3room": 14,
+      "4room": 30
+    },
+    "rental_units_by_type": {
+      "2room": 8
+    }
+  },
+  "308a-tengah-pk-ave": {
+    "blk_no": "308A",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "691308",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 82,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 34
+    }
+  },
+  "308b-tengah-pk-ave": {
+    "blk_no": "308B",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "692308",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 12,
+    "total_dwelling_units": 85,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 43
+    }
+  },
+  "308c-tengah-pk-ave": {
+    "blk_no": "308C",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "693308",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 101,
+    "sold_units_by_type": {
+      "2room": 42,
+      "3room": 13,
+      "4room": 38
+    },
+    "rental_units_by_type": {
+      "2room": 8
+    }
+  },
+  "309a-tengah-pk-ave": {
+    "blk_no": "309A",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "691309",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 78,
+    "sold_units_by_type": {
+      "4room": 47,
+      "5room": 31
+    }
+  },
+  "309b-tengah-pk-ave": {
+    "blk_no": "309B",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "692309",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 34,
+      "5room": 54
+    }
+  },
+  "309c-tengah-pk-ave": {
+    "blk_no": "309C",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "693309",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 122,
+    "sold_units_by_type": {
+      "2room": 76,
+      "3room": 12,
+      "4room": 26
+    },
+    "rental_units_by_type": {
+      "2room": 8
+    }
+  },
+  "316a-tengah-rd": {
+    "blk_no": "316A",
+    "street": "TENGAH RD",
+    "street_full": "TENGAH ROAD",
+    "postal": "691316",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "316b-tengah-rd": {
+    "blk_no": "316B",
+    "street": "TENGAH RD",
+    "street_full": "TENGAH ROAD",
+    "postal": "692316",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 132,
+    "sold_units_by_type": {
+      "2room": 84,
+      "3room": 12,
+      "4room": 36
+    }
+  },
+  "316c-tengah-rd": {
+    "blk_no": "316C",
+    "street": "TENGAH RD",
+    "street_full": "TENGAH ROAD",
+    "postal": "693316",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "2room": 60,
+      "3room": 24,
+      "4room": 40
+    }
+  },
+  "317a-tengah-rd": {
+    "blk_no": "317A",
+    "street": "TENGAH RD",
+    "street_full": "TENGAH ROAD",
+    "postal": "691317",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "317b-tengah-rd": {
+    "blk_no": "317B",
+    "street": "TENGAH RD",
+    "street_full": "TENGAH ROAD",
+    "postal": "692317",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 36,
+      "5room": 36
+    }
+  },
+  "318a-tengah-pk-ave": {
+    "blk_no": "318A",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "691318",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 11,
+    "total_dwelling_units": 80,
+    "sold_units_by_type": {
+      "4room": 40,
+      "5room": 40
+    }
+  },
+  "318b-tengah-pk-ave": {
+    "blk_no": "318B",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "692318",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 36,
+      "5room": 36
+    }
+  },
+  "319a-tengah-pk-ave": {
+    "blk_no": "319A",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "691319",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 48,
+      "5room": 48
+    }
+  },
+  "319b-tengah-pk-ave": {
+    "blk_no": "319B",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "692319",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "4room": 24,
+      "5room": 60
+    }
+  },
+  "319c-tengah-pk-ave": {
+    "blk_no": "319C",
+    "street": "TENGAH PK AVE",
+    "street_full": "TENGAH PARK AVENUE",
+    "postal": "693319",
+    "town": "TENGAH",
+    "year_completed": 2024,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 124,
+    "sold_units_by_type": {
+      "2room": 60,
+      "3room": 12,
+      "4room": 52
+    }
+  },
+  "322a-tengah-dr": {
+    "blk_no": "322A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691322",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 134,
+    "sold_units_by_type": {
+      "3room": 24,
+      "4room": 110
+    }
+  },
+  "322b-tengah-dr": {
+    "blk_no": "322B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692322",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 181,
+    "sold_units_by_type": {
+      "2room": 104,
+      "3room": 13,
+      "4room": 64
+    }
+  },
+  "322c-tengah-dr": {
+    "blk_no": "322C",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "693322",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 180,
+    "sold_units_by_type": {
+      "2room": 102,
+      "3room": 13,
+      "4room": 65
+    }
+  },
+  "323a-tengah-dr": {
+    "blk_no": "323A",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "691323",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 139,
+    "sold_units_by_type": {
+      "2room": 91,
+      "3room": 11,
+      "4room": 37
+    }
+  },
+  "323b-tengah-dr": {
+    "blk_no": "323B",
+    "street": "TENGAH DR",
+    "street_full": "TENGAH DRIVE",
+    "postal": "692323",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 133,
+    "sold_units_by_type": {
+      "3room": 22,
+      "4room": 111
+    }
+  },
+  "324a-tengah-gdn-walk": {
+    "blk_no": "324A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691324",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 141,
+    "sold_units_by_type": {
+      "3room": 12,
+      "4room": 65,
+      "5room": 64
+    }
+  },
+  "324b-tengah-gdn-walk": {
+    "blk_no": "324B",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "692324",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 146,
+    "sold_units_by_type": {
+      "2room": 50,
+      "3room": 26,
+      "4room": 35,
+      "5room": 35
+    }
+  },
+  "325a-tengah-gdn-walk": {
+    "blk_no": "325A",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "691325",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 130,
+    "sold_units_by_type": {
+      "3room": 11,
+      "4room": 60,
+      "5room": 59
+    }
+  },
+  "325b-tengah-gdn-walk": {
+    "blk_no": "325B",
+    "street": "TENGAH GDN WALK",
+    "street_full": "TENGAH GARDEN WALK",
+    "postal": "692325",
+    "town": "TENGAH",
+    "year_completed": 2025,
+    "max_floor_lvl": 14,
+    "total_dwelling_units": 143,
+    "sold_units_by_type": {
+      "2room": 51,
+      "3room": 36,
+      "4room": 33,
+      "5room": 23
+    }
+  }
+}
