@@ -16,7 +16,8 @@ interface Props {
   data: IndexFeatureCollection;
   selectedId: string | null;
   onSelectBlock: (id: string, town: string) => void;
-  flyPaddingBottom?: number;
+  // Bottom padding for the fly-to so the marker clears the sheet; null = skip the fly entirely.
+  flyPaddingBottom?: number | null;
 }
 
 function highlightFilter(id: string | null): maplibregl.FilterSpecification {
@@ -128,7 +129,7 @@ export function MapView({ data, selectedId, onSelectBlock, flyPaddingBottom = 0 
     const map = mapRef.current;
     if (!map || !map.getLayer("blocks-highlight")) return;
     map.setFilter("blocks-highlight", highlightFilter(selectedId));
-    if (selectedId) {
+    if (selectedId && flyPaddingBottom !== null) {
       const f = data.features.find((ft) => ft.properties.id === selectedId);
       if (f) {
         map.flyTo({

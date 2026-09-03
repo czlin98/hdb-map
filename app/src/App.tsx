@@ -49,14 +49,24 @@ export default function App() {
     };
   }, []);
 
+  // Reopen a newly selected block at the half sheet.
+  useEffect(() => {
+    if (selectedId) setActiveSnap(SNAP_POINTS[1]);
+  }, [selectedId]);
+
   const searchRows = useMemo(() => buildSearchIndex(index), [index]);
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
 
-  // On mobile, keep the selected marker above the sheet by matching fly padding to the snap.
-  const flyPaddingBottom = useMemo(() => {
+  // On mobile, keep the selected marker above the sheet by matching fly padding to
+  // the snap. null = don't fly at all.
+  const flyPaddingBottom = useMemo<number | null>(() => {
     if (isDesktop) return 0;
-    if (activeSnap === SNAP_POINTS[0] || activeSnap === SNAP_POINTS[2]) return 140;
-    return Math.round((typeof window !== "undefined" ? window.innerHeight : 800) * 0.5);
+    if (activeSnap === SNAP_POINTS[2]) return null; // fully open, map is hidden
+    // Pad by the sheet's pixel height so it tracks SNAP_POINTS and flyTo centers the marker above.
+    const vh = typeof window !== "undefined" ? window.innerHeight : 800;
+    return typeof activeSnap === "number"
+      ? Math.round(activeSnap * vh)
+      : parseInt(activeSnap ?? "0", 10);
   }, [isDesktop, activeSnap]);
 
   return (
