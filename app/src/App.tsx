@@ -70,7 +70,7 @@ export default function App() {
       />
 
       {status !== "error" && (
-        <div className="absolute left-2 top-2 z-30 w-[min(92vw,22rem)]">
+        <div className="absolute z-30 w-[min(92vw,22rem)] top-2 left-1/2 -translate-x-1/2 md:left-2 md:translate-x-0">
           <SearchBox rows={searchRows} onSelect={(r) => select(r.id, r.town)} />
         </div>
       )}
