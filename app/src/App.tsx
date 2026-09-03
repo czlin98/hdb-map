@@ -8,7 +8,9 @@ import { SearchBox } from "./components/SearchBox";
 import { DetailsPanel } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
-const SNAP_POINTS = ["120px", 0.5, 0.95] as const;
+// Last point must be exactly 1 — the only snap where Vaul scrolls the details
+// instead of dragging the sheet.
+const SNAP_POINTS = ["120px", 0.5, 1] as const;
 
 function useIsDesktop() {
   const [desktop, setDesktop] = useState(() =>

@@ -104,6 +104,14 @@ export function DetailsPanel(props: PanelProps) {
     );
   }
 
+  // Vaul scrolls the body only at the fully-open snap (1); below it a drag moves
+  // the sheet. So scroll at the top snap; elsewhere give the drag to Vaul
+  // (touch-none) so it drags from anywhere and the browser can't hijack it.
+  const fullyOpen = props.activeSnap === props.snapPoints[props.snapPoints.length - 1];
+  const bodyScroll = fullyOpen
+    ? "overflow-y-auto overscroll-contain touch-pan-y"
+    : "overflow-hidden touch-none";
+
   return (
     <Drawer
       open
@@ -113,9 +121,9 @@ export function DetailsPanel(props: PanelProps) {
       setActiveSnapPoint={props.onSnapChange}
       onClose={props.onClose}
     >
-      <DrawerContent className="max-h-[95%]">
+      <DrawerContent className="h-dvh">
         <DrawerTitle className="sr-only">Block details</DrawerTitle>
-        <div className="overflow-y-auto">{body}</div>
+        <div className={`min-h-0 flex-1 ${bodyScroll}`}>{body}</div>
       </DrawerContent>
     </Drawer>
   );
