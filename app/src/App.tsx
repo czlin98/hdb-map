@@ -8,7 +8,7 @@ import { SearchBox } from "./components/SearchBox";
 import { DetailsPanel } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
-// Last point must be exactly 1 — the only snap where Vaul scrolls the details
+// Last point must be exactly 1, the only snap where Vaul scrolls the details
 // instead of dragging the sheet.
 const SNAP_POINTS = ["120px", 0.5, 1] as const;
 
@@ -37,9 +37,17 @@ export default function App() {
   useEffect(() => {
     let alive = true;
     Promise.all([loadIndex(), loadTowns()])
-      .then(([idx, tw]) => { if (alive) { setIndex(idx); setTowns(tw); setStatus("ready"); } })
+      .then(([idx, tw]) => {
+        if (alive) {
+          setIndex(idx);
+          setTowns(tw);
+          setStatus("ready");
+        }
+      })
       .catch(() => alive && setStatus("error"));
-    return () => { alive = false; };
+    return () => {
+      alive = false;
+    };
   }, []);
 
   const searchRows = useMemo(() => buildSearchIndex(index), [index]);

@@ -30,8 +30,7 @@ export function searchBlocks(rows: SearchRow[], query: string, limit = 20): Sear
   const matches = rows.filter((r) => tokens.every((t) => r.haystack.includes(t)));
   // Prefix hits on the first token rank above mid-string substring hits.
   matches.sort(
-    (a, b) =>
-      Number(b.haystack.startsWith(tokens[0])) - Number(a.haystack.startsWith(tokens[0])),
+    (a, b) => Number(b.haystack.startsWith(tokens[0])) - Number(a.haystack.startsWith(tokens[0])),
   );
   return matches.slice(0, limit);
 }

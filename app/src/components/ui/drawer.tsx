@@ -5,7 +5,11 @@ export const Drawer = DrawerPrimitive.Root;
 export const DrawerClose = DrawerPrimitive.Close;
 export const DrawerTitle = DrawerPrimitive.Title;
 
-export const DrawerContent = ({ className, children, ...props }: React.ComponentProps<typeof DrawerPrimitive.Content>) => (
+export const DrawerContent = ({
+  className,
+  children,
+  ...props
+}: React.ComponentProps<typeof DrawerPrimitive.Content>) => (
   <DrawerPrimitive.Portal>
     <DrawerPrimitive.Content
       className={cn("fixed inset-x-0 bottom-0 z-50 flex flex-col rounded-t-xl bg-white", className)}

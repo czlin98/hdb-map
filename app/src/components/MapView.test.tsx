@@ -43,9 +43,14 @@ vi.mock("maplibre-gl/dist/maplibre-gl.css", () => ({}));
 import { MapView } from "./MapView";
 import { sampleIndex } from "../test/fixtures";
 
-afterEach(() => { for (const k of Object.keys(handlers)) delete handlers[k]; vi.clearAllMocks(); });
+afterEach(() => {
+  for (const k of Object.keys(handlers)) delete handlers[k];
+  vi.clearAllMocks();
+});
 
-function fire(ev: string, e?: unknown) { (handlers[ev] ?? []).forEach((cb) => cb(e)); }
+function fire(ev: string, e?: unknown) {
+  (handlers[ev] ?? []).forEach((cb) => cb(e));
+}
 
 test("locks the camera to Singapore and adds both layers on load", () => {
   render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
@@ -64,13 +69,9 @@ test("creates the source with the latest data if index beats load", () => {
     type: "FeatureCollection",
     features: [],
   } as typeof sampleIndex;
-  const { rerender } = render(
-    <MapView data={empty} selectedId={null} onSelectBlock={vi.fn()} />,
-  );
+  const { rerender } = render(<MapView data={empty} selectedId={null} onSelectBlock={vi.fn()} />);
   // Index arrives before the style's "load" event fires.
-  rerender(
-    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
-  );
+  rerender(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
   fire("load");
   const call = map.addSource.mock.calls.find((c) => c[0] === "blocks");
   const sourceArg = call?.[1] as { data: typeof sampleIndex };
@@ -86,9 +87,17 @@ test("clicking a feature reports id + town", () => {
 });
 
 test("selection sets the highlight filter and flies", () => {
-  const { rerender } = render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
+  );
   fire("load");
-  rerender(<MapView data={sampleIndex} selectedId="123-ang-mo-kio-ave-3" onSelectBlock={vi.fn()} />);
-  expect(map.setFilter).toHaveBeenCalledWith("blocks-highlight", ["==", ["get", "id"], "123-ang-mo-kio-ave-3"]);
+  rerender(
+    <MapView data={sampleIndex} selectedId="123-ang-mo-kio-ave-3" onSelectBlock={vi.fn()} />,
+  );
+  expect(map.setFilter).toHaveBeenCalledWith("blocks-highlight", [
+    "==",
+    ["get", "id"],
+    "123-ang-mo-kio-ave-3",
+  ]);
   expect(map.flyTo).toHaveBeenCalled();
 });
