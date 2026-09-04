@@ -37,9 +37,17 @@ export default function App() {
   useEffect(() => {
     let alive = true;
     Promise.all([loadIndex(), loadTowns()])
-      .then(([idx, tw]) => { if (alive) { setIndex(idx); setTowns(tw); setStatus("ready"); } })
+      .then(([idx, tw]) => {
+        if (alive) {
+          setIndex(idx);
+          setTowns(tw);
+          setStatus("ready");
+        }
+      })
       .catch(() => alive && setStatus("error"));
-    return () => { alive = false; };
+    return () => {
+      alive = false;
+    };
   }, []);
 
   const searchRows = useMemo(() => buildSearchIndex(index), [index]);

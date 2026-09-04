@@ -13,7 +13,10 @@ vi.mock("./components/MapView", () => ({
   }) => (
     <div>
       {data.features.map((f: BlockFeature) => (
-        <button key={f.properties.id} onClick={() => onSelectBlock(f.properties.id, f.properties.town)}>
+        <button
+          key={f.properties.id}
+          onClick={() => onSelectBlock(f.properties.id, f.properties.town)}
+        >
           marker-{f.properties.id}
         </button>
       ))}
@@ -26,14 +29,20 @@ import type { BlockFeature, IndexFeatureCollection } from "./types/contract";
 import { sampleIndex, sampleShard, sampleTowns } from "./test/fixtures";
 import { useSelection } from "./store/selection";
 
-afterEach(() => { vi.restoreAllMocks(); useSelection.getState().clear(); });
+afterEach(() => {
+  vi.restoreAllMocks();
+  useSelection.getState().clear();
+});
 
 function stubFetch(map: Record<string, unknown>) {
-  vi.stubGlobal("fetch", vi.fn(async (url: string) => {
-    const key = Object.keys(map).find((k) => url.includes(k));
-    if (!key) return { ok: false, status: 404, json: async () => ({}) };
-    return { ok: true, status: 200, json: async () => map[key] };
-  }));
+  vi.stubGlobal(
+    "fetch",
+    vi.fn(async (url: string) => {
+      const key = Object.keys(map).find((k) => url.includes(k));
+      if (!key) return { ok: false, status: 404, json: async () => ({}) };
+      return { ok: true, status: 200, json: async () => map[key] };
+    }),
+  );
 }
 
 test("loads data, then opens details when a marker is selected", async () => {
@@ -45,7 +54,9 @@ test("loads data, then opens details when a marker is selected", async () => {
   render(<App />);
 
   await userEvent.click(await screen.findByText("marker-123-ang-mo-kio-ave-3"));
-  expect(await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3 560123/ })).toBeInTheDocument();
+  expect(
+    await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3 560123/ }),
+  ).toBeInTheDocument();
 });
 
 test("shows a fatal error card when index fails to load", async () => {

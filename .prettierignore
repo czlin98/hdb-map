@@ -1,0 +1,14 @@
+# Build output and dependencies
+app/dist
+node_modules
+
+# Generated data contract (written by the pipeline, not hand-edited)
+app/public/data
+
+# Frozen design artifacts: authoritative docs full of illustrative embedded
+# code that the formatter would mangle. Edit by hand, keep as-is.
+docs/plans
+docs/specs
+
+# Lockfiles
+app/package-lock.json

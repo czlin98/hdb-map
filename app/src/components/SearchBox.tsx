@@ -14,7 +14,11 @@ export function SearchBox({ rows, onSelect }: Props) {
   return (
     // We filter ourselves; disable cmdk's built-in filtering.
     <Command shouldFilter={false} className="w-full">
-      <CommandInput value={query} onValueChange={setQuery} placeholder="Search block, street, or postal…" />
+      <CommandInput
+        value={query}
+        onValueChange={setQuery}
+        placeholder="Search block, street, or postal…"
+      />
       <CommandList>
         {query.trim() !== "" && results.length === 0 && (
           <CommandEmpty className="px-3 py-2 text-slate-500">No matches</CommandEmpty>

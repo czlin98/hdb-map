@@ -2,7 +2,14 @@ import { orderedUnits, SOLD_FLAT_TYPES, RENTAL_FLAT_TYPES } from "./flat-types";
 
 test("sold order and labels match the reference table", () => {
   expect(SOLD_FLAT_TYPES.map((t) => t.key)).toEqual([
-    "1room", "2room", "3room", "4room", "5room", "exec", "multigen", "studio_apartment",
+    "1room",
+    "2room",
+    "3room",
+    "4room",
+    "5room",
+    "exec",
+    "multigen",
+    "studio_apartment",
   ]);
   expect(SOLD_FLAT_TYPES.find((t) => t.key === "exec")!.label).toBe("Executive");
 });

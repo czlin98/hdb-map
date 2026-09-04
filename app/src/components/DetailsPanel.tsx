@@ -13,16 +13,32 @@ export function DetailsContent({ detail }: { detail: BlockDetail }) {
         {detail.blk_no} {detail.street_full} {detail.postal}
       </h2>
       <dl className="grid grid-cols-2 gap-2 text-sm">
-        <div><dt className="text-slate-500">Town</dt><dd>{detail.town}</dd></div>
-        <div><dt className="text-slate-500">Year completed</dt><dd>{detail.year_completed}</dd></div>
-        <div><dt className="text-slate-500">Floors</dt><dd>{detail.max_floor_lvl}</dd></div>
-        <div><dt className="text-slate-500">Total units</dt><dd>{detail.total_dwelling_units}</dd></div>
+        <div>
+          <dt className="text-slate-500">Town</dt>
+          <dd>{detail.town}</dd>
+        </div>
+        <div>
+          <dt className="text-slate-500">Year completed</dt>
+          <dd>{detail.year_completed}</dd>
+        </div>
+        <div>
+          <dt className="text-slate-500">Floors</dt>
+          <dd>{detail.max_floor_lvl}</dd>
+        </div>
+        <div>
+          <dt className="text-slate-500">Total units</dt>
+          <dd>{detail.total_dwelling_units}</dd>
+        </div>
       </dl>
       {sold.length > 0 && (
         <section>
           <h3 className="font-medium">Sold</h3>
           <ul className="text-sm">
-            {sold.map((u) => <li key={u.label}>{u.label}: {u.count}</li>)}
+            {sold.map((u) => (
+              <li key={u.label}>
+                {u.label}: {u.count}
+              </li>
+            ))}
           </ul>
         </section>
       )}
@@ -30,7 +46,11 @@ export function DetailsContent({ detail }: { detail: BlockDetail }) {
         <section>
           <h3 className="font-medium">Rental</h3>
           <ul className="text-sm">
-            {rental.map((u) => <li key={u.label}>{u.label}: {u.count}</li>)}
+            {rental.map((u) => (
+              <li key={u.label}>
+                {u.label}: {u.count}
+              </li>
+            ))}
           </ul>
         </section>
       )}
@@ -43,7 +63,10 @@ export function useBlockDetail(
   town: string,
   getBlockDetail: GetBlockDetail,
 ): { status: "loading" | "ready" | "empty"; detail?: BlockDetail } {
-  const [state, setState] = useState<{ status: "loading" | "ready" | "empty"; detail?: BlockDetail }>({
+  const [state, setState] = useState<{
+    status: "loading" | "ready" | "empty";
+    detail?: BlockDetail;
+  }>({
     status: "loading",
   });
 
@@ -56,7 +79,9 @@ export function useBlockDetail(
         setState(detail ? { status: "ready", detail } : { status: "empty" });
       })
       .catch(() => alive && setState({ status: "empty" }));
-    return () => { alive = false; };
+    return () => {
+      alive = false;
+    };
   }, [id, town, getBlockDetail]);
 
   return state;
@@ -72,10 +97,19 @@ function Skeleton() {
   );
 }
 
-function Body({ id, town, getBlockDetail }: { id: string; town: string; getBlockDetail: GetBlockDetail }) {
+function Body({
+  id,
+  town,
+  getBlockDetail,
+}: {
+  id: string;
+  town: string;
+  getBlockDetail: GetBlockDetail;
+}) {
   const { status, detail } = useBlockDetail(id, town, getBlockDetail);
   if (status === "loading") return <Skeleton />;
-  if (status === "empty" || !detail) return <div className="p-4 text-slate-500">Details unavailable.</div>;
+  if (status === "empty" || !detail)
+    return <div className="p-4 text-slate-500">Details unavailable.</div>;
   return <DetailsContent detail={detail} />;
 }
 
@@ -98,7 +132,13 @@ export function DetailsPanel(props: PanelProps) {
   if (props.isDesktop) {
     return (
       <aside className="absolute right-0 top-0 z-40 h-full w-96 overflow-y-auto border-l bg-white shadow-lg">
-        <button className="absolute right-2 top-2 text-slate-500" aria-label="Close" onClick={props.onClose}>✕</button>
+        <button
+          className="absolute right-2 top-2 text-slate-500"
+          aria-label="Close"
+          onClick={props.onClose}
+        >
+          ✕
+        </button>
         {body}
       </aside>
     );

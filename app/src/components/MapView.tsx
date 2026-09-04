@@ -7,7 +7,10 @@ import type { IndexFeatureCollection } from "../types/contract";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Singapore island bounding box with a small margin.
-const SG_BOUNDS: [[number, number], [number, number]] = [[103.55, 1.13], [104.12, 1.50]];
+const SG_BOUNDS: [[number, number], [number, number]] = [
+  [103.55, 1.13],
+  [104.12, 1.5],
+];
 
 interface Props {
   data: IndexFeatureCollection;
@@ -54,7 +57,8 @@ export function MapView({ data, selectedId, onSelectBlock, flyPaddingBottom = 0 
         type: "geojson",
         data: dataRef.current,
         cluster: false,
-        attribution: "Block data © HDB/data.gov.sg (Singapore Open Data Licence); Geocoding © OneMap/SLA",
+        attribution:
+          "Block data © HDB/data.gov.sg (Singapore Open Data Licence); Geocoding © OneMap/SLA",
       });
       map.addLayer({
         id: "blocks-circles",
@@ -106,7 +110,10 @@ export function MapView({ data, selectedId, onSelectBlock, flyPaddingBottom = 0 
       onSelectRef.current(p.id, p.town);
     });
 
-    return () => { map.remove(); mapRef.current = null; };
+    return () => {
+      map.remove();
+      mapRef.current = null;
+    };
     // Mount-once: all reactive values are read through refs, so deps stay empty.
   }, []);
 
@@ -135,5 +142,11 @@ export function MapView({ data, selectedId, onSelectBlock, flyPaddingBottom = 0 
 
   // Inline position/size so the container fills its parent independent of when
   // Tailwind's utilities are applied; MapLibre measures this at creation time.
-  return <div ref={containerRef} className="absolute inset-0" style={{ position: "absolute", inset: 0 }} />;
+  return (
+    <div
+      ref={containerRef}
+      className="absolute inset-0"
+      style={{ position: "absolute", inset: 0 }}
+    />
+  );
 }

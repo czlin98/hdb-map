@@ -5,7 +5,9 @@ import { sampleShard } from "../test/fixtures";
 
 test("DetailsContent renders header, fields, and Sold/Rental groups", () => {
   render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
-  expect(screen.getByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" })).toBeInTheDocument();
+  expect(
+    screen.getByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" }),
+  ).toBeInTheDocument();
   expect(screen.getByText("1978")).toBeInTheDocument();
   expect(screen.getByText("Sold")).toBeInTheDocument();
   expect(screen.getByText(/3-Room/)).toBeInTheDocument();
