@@ -12,14 +12,14 @@ address to fly to a specific block.
 ## How it works
 
 The system is two independent halves that meet at a set of static JSON data
-files — the **data contract**. Each half depends only on the contract and can
+files, the **data contract**. Each half depends only on the contract and can
 change internally without breaking the other.
 
-- **Python data pipeline** — fetches HDB Property Information from
+- **Python data pipeline**: fetches HDB Property Information from
   [data.gov.sg](https://data.gov.sg), geocodes each block via the OneMap Search
   API, and writes generated JSON into the repo. Runs monthly in GitHub Actions;
   never at request time.
-- **React static SPA** (Vite + TypeScript) — at runtime fetches only its own
+- **React static SPA** (Vite + TypeScript): at runtime fetches only its own
   static data files from the CDN. No backend, no serverless functions, no
   third-party API calls from the browser.
 
