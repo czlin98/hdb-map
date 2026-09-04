@@ -1,4 +1,4 @@
-# HDB Map — v1 Design Spec
+# HDB Map: v1 Design Spec
 
 **Date:** 2026-08-25
 **Status:** Approved for planning
