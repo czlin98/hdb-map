@@ -7,8 +7,9 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"*.{ts,js}\" ../CLAUDE.md ../README.md",
-    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"*.{ts,js}\" ../CLAUDE.md ../README.md",
+    "_prettier": "prettier --ignore-path ../.prettierignore \"src/**/*.{ts,tsx,css}\" \"*.{ts,js}\" ../.prettierrc.json ../CLAUDE.md ../README.md",
+    "format": "npm run _prettier -- --write",
+    "format:check": "npm run _prettier -- --check",
     "test": "vitest"
   },
   "dependencies": {
