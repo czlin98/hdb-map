@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, type RefObject } from "react";
 // maplibre-gl v6 is ESM with named exports only (no default export).
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
@@ -16,14 +16,24 @@ interface Props {
   data: IndexFeatureCollection;
   selectedId: string | null;
   onSelectBlock: (id: string, town: string) => void;
-  flyPaddingBottom?: number;
+  // Bottom padding for the fly-to so the marker clears the sheet; null = skip the fly entirely.
+  flyPaddingBottom?: number | null;
+  // The search input; its bottom edge is padded past so the marker centers between
+  // the search box and the sheet. Measured at fly time to stay current.
+  topClearanceRef?: RefObject<HTMLInputElement | null>;
 }
 
 function highlightFilter(id: string | null): maplibregl.FilterSpecification {
   return ["==", ["get", "id"], id ?? ""];
 }
 
-export function MapView({ data, selectedId, onSelectBlock, flyPaddingBottom = 0 }: Props) {
+export function MapView({
+  data,
+  selectedId,
+  onSelectBlock,
+  flyPaddingBottom = 0,
+  topClearanceRef,
+}: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const onSelectRef = useRef(onSelectBlock);
@@ -128,17 +138,18 @@ export function MapView({ data, selectedId, onSelectBlock, flyPaddingBottom = 0 
     const map = mapRef.current;
     if (!map || !map.getLayer("blocks-highlight")) return;
     map.setFilter("blocks-highlight", highlightFilter(selectedId));
-    if (selectedId) {
+    if (selectedId && flyPaddingBottom !== null) {
       const f = data.features.find((ft) => ft.properties.id === selectedId);
       if (f) {
+        const top = topClearanceRef?.current?.getBoundingClientRect().bottom ?? 0;
         map.flyTo({
           center: f.geometry.coordinates,
           zoom: Math.max(map.getZoom(), 15),
-          padding: { top: 0, right: 0, left: 0, bottom: flyPaddingBottom },
+          padding: { top, right: 0, left: 0, bottom: flyPaddingBottom },
         });
       }
     }
-  }, [selectedId, data, flyPaddingBottom]);
+  }, [selectedId, data, flyPaddingBottom, topClearanceRef]);
 
   // Inline position/size so the container fills its parent independent of when
   // Tailwind's utilities are applied; MapLibre measures this at creation time.

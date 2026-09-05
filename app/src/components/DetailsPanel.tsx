@@ -2,14 +2,14 @@ import { useEffect, useState } from "react";
 import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
-import { Drawer, DrawerContent, DrawerTitle } from "./ui/drawer";
+import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
 
 export function DetailsContent({ detail }: { detail: BlockDetail }) {
   const sold = orderedUnits(detail.sold_units_by_type, SOLD_FLAT_TYPES);
   const rental = orderedUnits(detail.rental_units_by_type, RENTAL_FLAT_TYPES);
   return (
     <div className="space-y-4 p-4">
-      <h2 className="text-lg font-semibold">
+      <h2 className="border-b border-slate-200 pb-2 text-lg font-semibold">
         {detail.blk_no} {detail.street_full} {detail.postal}
       </h2>
       <dl className="grid grid-cols-2 gap-2 text-sm">
@@ -121,10 +121,13 @@ interface PanelProps {
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
+  onBeginClose: () => void;
   onClose: () => void;
 }
 
 export function DetailsPanel(props: PanelProps) {
+  // Local open state so Vaul can animate the close before the parent clears.
+  const [open, setOpen] = useState(true);
   const body = (
     <Body id={props.selectedId} town={props.selectedTown} getBlockDetail={props.getBlockDetail} />
   );
@@ -154,15 +157,27 @@ export function DetailsPanel(props: PanelProps) {
 
   return (
     <Drawer
-      open
+      open={open}
       modal={false}
       snapPoints={props.snapPoints}
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
-      onClose={props.onClose}
+      onOpenChange={(o) => {
+        setOpen(o);
+        if (!o) props.onBeginClose(); // ignore taps until the close animation ends
+      }}
+      onAnimationEnd={(isOpen) => {
+        if (!isOpen) props.onClose();
+      }}
     >
       <DrawerContent className="h-dvh">
         <DrawerTitle className="sr-only">Block details</DrawerTitle>
+        <DrawerClose
+          aria-label="Close"
+          className="absolute right-2 top-2 z-10 p-2 leading-none text-slate-500"
+        >
+          ✕
+        </DrawerClose>
         <div className={`min-h-0 flex-1 ${bodyScroll}`}>{body}</div>
       </DrawerContent>
     </Drawer>

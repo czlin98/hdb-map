@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { IndexFeatureCollection, Town } from "./types/contract";
 import { buildTownSlugMap, createGetBlockDetail, loadIndex, loadTowns } from "./lib/data";
 import { buildSearchIndex } from "./lib/search";
@@ -8,9 +8,8 @@ import { SearchBox } from "./components/SearchBox";
 import { DetailsPanel } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
-// Last point must be exactly 1, the only snap where Vaul scrolls the details
-// instead of dragging the sheet.
-const SNAP_POINTS = ["120px", 0.5, 1] as const;
+// First point peeks just the details header; middle is a half sheet; the last point is fully open.
+const SNAP_POINTS = ["88px", 0.5, 1] as const;
 
 function useIsDesktop() {
   const [desktop, setDesktop] = useState(() =>
@@ -31,8 +30,9 @@ export default function App() {
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [activeSnap, setActiveSnap] = useState<string | number | null>(SNAP_POINTS[1]);
   const isDesktop = useIsDesktop();
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
-  const { selectedId, selectedTown, select, clear } = useSelection();
+  const { selectedId, selectedTown, select, clear, beginClose } = useSelection();
 
   useEffect(() => {
     let alive = true;
@@ -50,14 +50,24 @@ export default function App() {
     };
   }, []);
 
+  // Reopen a newly selected block at the half sheet.
+  useEffect(() => {
+    if (selectedId) setActiveSnap(SNAP_POINTS[1]);
+  }, [selectedId]);
+
   const searchRows = useMemo(() => buildSearchIndex(index), [index]);
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
 
-  // On mobile, keep the selected marker above the sheet by matching fly padding to the snap.
-  const flyPaddingBottom = useMemo(() => {
+  // On mobile, keep the selected marker above the sheet by matching fly padding to
+  // the snap. null = don't fly at all.
+  const flyPaddingBottom = useMemo<number | null>(() => {
     if (isDesktop) return 0;
-    if (activeSnap === SNAP_POINTS[0] || activeSnap === SNAP_POINTS[2]) return 140;
-    return Math.round((typeof window !== "undefined" ? window.innerHeight : 800) * 0.5);
+    if (activeSnap === SNAP_POINTS[2]) return null; // fully open, map is hidden
+    // Pad by the sheet's pixel height so it tracks SNAP_POINTS and flyTo centers the marker above.
+    const vh = typeof window !== "undefined" ? window.innerHeight : 800;
+    return typeof activeSnap === "number"
+      ? Math.round(activeSnap * vh)
+      : parseInt(activeSnap ?? "0", 10);
   }, [isDesktop, activeSnap]);
 
   return (
@@ -67,11 +77,17 @@ export default function App() {
         selectedId={selectedId}
         onSelectBlock={select}
         flyPaddingBottom={flyPaddingBottom}
+        // Top clearance is for the mobile sheet layout only; desktop shows a side panel.
+        topClearanceRef={isDesktop ? undefined : searchInputRef}
       />
 
       {status !== "error" && (
-        <div className="absolute left-2 top-2 z-30 w-[min(92vw,22rem)]">
-          <SearchBox rows={searchRows} onSelect={(r) => select(r.id, r.town)} />
+        <div className="absolute z-30 w-[min(92vw,22rem)] top-2 left-1/2 -translate-x-1/2 md:left-2 md:translate-x-0">
+          <SearchBox
+            rows={searchRows}
+            onSelect={(r) => select(r.id, r.town)}
+            inputRef={searchInputRef}
+          />
         </div>
       )}
 
@@ -90,6 +106,7 @@ export default function App() {
           snapPoints={[...SNAP_POINTS]}
           activeSnap={activeSnap}
           onSnapChange={setActiveSnap}
+          onBeginClose={beginClose}
           onClose={clear}
         />
       )}
