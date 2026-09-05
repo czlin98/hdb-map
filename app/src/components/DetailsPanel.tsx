@@ -121,6 +121,7 @@ interface PanelProps {
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
+  onBeginClose: () => void;
   onClose: () => void;
 }
 
@@ -161,7 +162,10 @@ export function DetailsPanel(props: PanelProps) {
       snapPoints={props.snapPoints}
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
-      onOpenChange={setOpen}
+      onOpenChange={(o) => {
+        setOpen(o);
+        if (!o) props.onBeginClose(); // ignore taps until the close animation ends
+      }}
       onAnimationEnd={(isOpen) => {
         if (!isOpen) props.onClose();
       }}
