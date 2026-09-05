@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { IndexFeatureCollection, Town } from "./types/contract";
 import { buildTownSlugMap, createGetBlockDetail, loadIndex, loadTowns } from "./lib/data";
 import { buildSearchIndex } from "./lib/search";
@@ -30,6 +30,7 @@ export default function App() {
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [activeSnap, setActiveSnap] = useState<string | number | null>(SNAP_POINTS[1]);
   const isDesktop = useIsDesktop();
+  const searchInputRef = useRef<HTMLInputElement>(null);
 
   const { selectedId, selectedTown, select, clear } = useSelection();
 
@@ -76,11 +77,17 @@ export default function App() {
         selectedId={selectedId}
         onSelectBlock={select}
         flyPaddingBottom={flyPaddingBottom}
+        // Top clearance is for the mobile sheet layout only; desktop shows a side panel.
+        topClearanceRef={isDesktop ? undefined : searchInputRef}
       />
 
       {status !== "error" && (
         <div className="absolute z-30 w-[min(92vw,22rem)] top-2 left-1/2 -translate-x-1/2 md:left-2 md:translate-x-0">
-          <SearchBox rows={searchRows} onSelect={(r) => select(r.id, r.town)} />
+          <SearchBox
+            rows={searchRows}
+            onSelect={(r) => select(r.id, r.town)}
+            inputRef={searchInputRef}
+          />
         </div>
       )}
 

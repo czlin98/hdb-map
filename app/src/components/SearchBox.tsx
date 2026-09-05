@@ -1,13 +1,16 @@
-import { useMemo, useState } from "react";
+import { useMemo, useState, type Ref } from "react";
 import { Command, CommandEmpty, CommandInput, CommandItem, CommandList } from "./ui/command";
 import { searchBlocks, type SearchRow } from "../lib/search";
 
 interface Props {
   rows: SearchRow[];
   onSelect: (row: SearchRow) => void;
+  // Ref onto the search input; the map measures its bottom edge to pad the fly-to
+  // so a selected marker stays clear of the search box.
+  inputRef?: Ref<HTMLInputElement>;
 }
 
-export function SearchBox({ rows, onSelect }: Props) {
+export function SearchBox({ rows, onSelect, inputRef }: Props) {
   const [query, setQuery] = useState("");
   const results = useMemo(() => searchBlocks(rows, query), [rows, query]);
 
@@ -15,6 +18,7 @@ export function SearchBox({ rows, onSelect }: Props) {
     // We filter ourselves; disable cmdk's built-in filtering.
     <Command shouldFilter={false} className="w-full">
       <CommandInput
+        ref={inputRef}
         value={query}
         onValueChange={setQuery}
         placeholder="Search block, street, or postal…"
