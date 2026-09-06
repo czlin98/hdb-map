@@ -25998,8 +25998,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8555036319163,
-          1.295817407845121
+          103.8631534236979,
+          1.303425395529146
         ]
       },
       "properties": {
@@ -26007,7 +26007,7 @@
         "blk_no": "15",
         "street": "BEACH RD",
         "street_full": "BEACH ROAD",
-        "postal": "189677",
+        "postal": "190015",
         "town": "KALLANG/WHAMPOA"
       }
     },
@@ -40344,8 +40344,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8110234926278,
-          1.322800863462679
+          103.8072627575644,
+          1.317786314337136
         ]
       },
       "properties": {
@@ -40353,7 +40353,7 @@
         "blk_no": "2",
         "street": "QUEEN'S RD",
         "street_full": "QUEEN'S ROAD",
-        "postal": "266733",
+        "postal": "260002",
         "town": "BUKIT TIMAH"
       }
     },
@@ -72024,8 +72024,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8116476943622,
-          1.322877615256294
+          103.8080971817889,
+          1.318333372213133
         ]
       },
       "properties": {
@@ -72033,7 +72033,7 @@
         "blk_no": "3",
         "street": "QUEEN'S RD",
         "street_full": "QUEEN'S ROAD",
-        "postal": "266734",
+        "postal": "260003",
         "town": "BUKIT TIMAH"
       }
     },
@@ -115872,8 +115872,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          103.8710266781004,
-          1.343897691419459
+          103.896129636264,
+          1.372496067258512
         ]
       },
       "properties": {
@@ -115881,7 +115881,7 @@
         "blk_no": "464",
         "street": "UPP SERANGOON RD",
         "street_full": "UPPER SERANGOON ROAD",
-        "postal": "534794",
+        "postal": "530464",
         "town": "HOUGANG"
       }
     },
