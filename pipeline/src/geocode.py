@@ -34,6 +34,18 @@ def _valid_postal(postal: str | None) -> bool:
     return _norm(postal) not in ("", "NIL")
 
 
+def _postal_matches_block(postal: str | None, blk_no: str) -> bool:
+    # Every HDB postal code ends with its block number (2 Queen's Road is
+    # 260002, not the co-located 266733). Several buildings can share a BLK_NO
+    # and ROAD_NAME, so without this check OneMap's first match may be the wrong
+    # one. Block numbers can carry a letter suffix (216B); only the digits reach
+    # the postal, so compare on the digits alone.
+    digits = "".join(c for c in blk_no if c.isdigit())
+    if not digits:
+        return True
+    return _norm(postal).endswith(digits)
+
+
 def geocode_block(
     session: requests.Session,
     token: str,
@@ -68,6 +80,7 @@ def geocode_block(
                     _norm(r.get("BLK_NO")) == blk
                     and _norm(r.get("ROAD_NAME")) == road
                     and _valid_postal(r.get("POSTAL"))
+                    and _postal_matches_block(r.get("POSTAL"), block["blk_no"])
                 ):
                     return {
                         "ok": True,
