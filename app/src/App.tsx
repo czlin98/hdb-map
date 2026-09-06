@@ -32,7 +32,7 @@ export default function App() {
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  const { selectedId, selectedTown, select, clear, beginClose } = useSelection();
+  const { selectedId, selectedTown, open, select, requestClose, clear } = useSelection();
 
   useEffect(() => {
     let alive = true;
@@ -76,6 +76,7 @@ export default function App() {
         data={index}
         selectedId={selectedId}
         onSelectBlock={select}
+        onBackgroundClick={requestClose}
         flyPaddingBottom={flyPaddingBottom}
         // Top clearance is for the mobile sheet layout only; desktop shows a side panel.
         topClearanceRef={isDesktop ? undefined : searchInputRef}
@@ -103,10 +104,11 @@ export default function App() {
           selectedTown={selectedTown}
           getBlockDetail={getBlockDetail}
           isDesktop={isDesktop}
+          open={open}
           snapPoints={[...SNAP_POINTS]}
           activeSnap={activeSnap}
           onSnapChange={setActiveSnap}
-          onBeginClose={beginClose}
+          onRequestClose={requestClose}
           onClose={clear}
         />
       )}

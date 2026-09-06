@@ -119,16 +119,16 @@ interface PanelProps {
   selectedTown: string;
   getBlockDetail: GetBlockDetail;
   isDesktop: boolean;
+  // Whether the panel is open; false starts the slide-out (see the selection store).
+  open: boolean;
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
-  onBeginClose: () => void;
+  onRequestClose: () => void;
   onClose: () => void;
 }
 
 export function DetailsPanel(props: PanelProps) {
-  // Local open state so Vaul can animate the close before the parent clears.
-  const [open, setOpen] = useState(true);
   const body = (
     <Body id={props.selectedId} town={props.selectedTown} getBlockDetail={props.getBlockDetail} />
   );
@@ -136,20 +136,19 @@ export function DetailsPanel(props: PanelProps) {
   if (props.isDesktop) {
     return (
       <Sheet
-        open={open}
+        open={props.open}
         // Non-modal so the map stays interactive; no focus trap, scroll lock, or
         // overlay.
         modal={false}
         onOpenChange={(o) => {
-          setOpen(o);
-          if (!o) props.onBeginClose(); // ignore taps until the slide-out ends
+          if (!o) props.onRequestClose();
         }}
       >
         <SheetContent
           onOpenAutoFocus={(e) => e.preventDefault()}
           onInteractOutside={(e) => e.preventDefault()}
           onAnimationEnd={(e) => {
-            if (e.target === e.currentTarget && !open) props.onClose();
+            if (e.target === e.currentTarget && !props.open) props.onClose();
           }}
         >
           <SheetTitle className="sr-only">Block details</SheetTitle>
@@ -175,14 +174,13 @@ export function DetailsPanel(props: PanelProps) {
 
   return (
     <Drawer
-      open={open}
+      open={props.open}
       modal={false}
       snapPoints={props.snapPoints}
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
       onOpenChange={(o) => {
-        setOpen(o);
-        if (!o) props.onBeginClose(); // ignore taps until the close animation ends
+        if (!o) props.onRequestClose(); // ignore taps until the close animation ends
       }}
       onAnimationEnd={(isOpen) => {
         if (!isOpen) props.onClose();
