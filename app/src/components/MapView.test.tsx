@@ -16,9 +16,13 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
     flyTo: vi.fn(),
     getZoom: vi.fn().mockReturnValue(11),
     getCanvas: vi.fn().mockReturnValue({ style: {} }),
+    queryRenderedFeatures: vi.fn().mockReturnValue([]),
+    // Layer-scoped handlers are keyed "event:layer" so tests can fire the layer
+    // click and the general (background) click independently, as MapLibre does.
     on: vi.fn((ev: string, a: unknown, b?: unknown) => {
+      const key = typeof a === "string" ? `${ev}:${a}` : ev;
       const cb = (typeof a === "function" ? a : b) as (e?: unknown) => void;
-      (handlers[ev] ??= []).push(cb);
+      (handlers[key] ??= []).push(cb);
     }),
     remove: vi.fn(),
   };
@@ -82,8 +86,42 @@ test("clicking a feature reports id + town", () => {
   const onSelectBlock = vi.fn();
   render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={onSelectBlock} />);
   fire("load");
-  fire("click", { features: [{ properties: { id: "123-ang-mo-kio-ave-3", town: "ANG MO KIO" } }] });
+  fire("click:blocks-circles", {
+    features: [{ properties: { id: "123-ang-mo-kio-ave-3", town: "ANG MO KIO" } }],
+  });
   expect(onSelectBlock).toHaveBeenCalledWith("123-ang-mo-kio-ave-3", "ANG MO KIO");
+});
+
+test("clicking empty map fires onBackgroundClick", () => {
+  const onBackgroundClick = vi.fn();
+  map.queryRenderedFeatures.mockReturnValueOnce([]); // no marker under the point
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId="123-ang-mo-kio-ave-3"
+      onSelectBlock={vi.fn()}
+      onBackgroundClick={onBackgroundClick}
+    />,
+  );
+  fire("load");
+  fire("click", { point: { x: 5, y: 5 } });
+  expect(onBackgroundClick).toHaveBeenCalledTimes(1);
+});
+
+test("clicking on a marker does not fire onBackgroundClick", () => {
+  const onBackgroundClick = vi.fn();
+  map.queryRenderedFeatures.mockReturnValueOnce([{ properties: { id: "123-ang-mo-kio-ave-3" } }]);
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      onBackgroundClick={onBackgroundClick}
+    />,
+  );
+  fire("load");
+  fire("click", { point: { x: 5, y: 5 } });
+  expect(onBackgroundClick).not.toHaveBeenCalled();
 });
 
 test("selection sets the highlight filter and flies", () => {
