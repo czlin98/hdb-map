@@ -16,6 +16,8 @@ interface Props {
   data: IndexFeatureCollection;
   selectedId: string | null;
   onSelectBlock: (id: string, town: string) => void;
+  // Called when the map is clicked away from any marker (tap the background to close).
+  onBackgroundClick?: () => void;
   // Bottom padding for the fly-to so the marker clears the sheet; null = skip the fly entirely.
   flyPaddingBottom?: number | null;
   // The search input; its bottom edge is padded past so the marker centers between
@@ -31,6 +33,7 @@ export function MapView({
   data,
   selectedId,
   onSelectBlock,
+  onBackgroundClick,
   flyPaddingBottom = 0,
   topClearanceRef,
 }: Props) {
@@ -38,6 +41,8 @@ export function MapView({
   const mapRef = useRef<maplibregl.Map | null>(null);
   const onSelectRef = useRef(onSelectBlock);
   onSelectRef.current = onSelectBlock;
+  const onBackgroundRef = useRef(onBackgroundClick);
+  onBackgroundRef.current = onBackgroundClick;
   // Latest data, read inside the one-shot load handler so the source is
   // created with populated features even when the index resolves before
   // the style loads.
@@ -118,6 +123,14 @@ export function MapView({
       if (!f) return;
       const p = f.properties as { id: string; town: string };
       onSelectRef.current(p.id, p.town);
+    });
+    // A click that misses every marker is a background tap: close the panel.
+    // MapLibre's click doesn't fire on pan/drag or zoom, so those are exempt.
+    map.on("click", (e) => {
+      const hits = map.queryRenderedFeatures(e.point, {
+        layers: ["blocks-circles", "blocks-highlight"],
+      });
+      if (hits.length === 0) onBackgroundRef.current?.();
     });
 
     return () => {
