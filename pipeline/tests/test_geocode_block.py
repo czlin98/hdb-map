@@ -63,6 +63,41 @@ def test_gate_fails_when_all_qualifiers_have_nil_postal():
 
 
 @responses.activate
+def test_gate_requires_postal_to_match_block_number():
+    # OneMap can return several results sharing BLK_NO and ROAD_NAME, one per
+    # building at that address. A different building's result (valid postal, but
+    # not ending in the block number) must not win over the actual HDB block,
+    # whichever comes first. Every HDB postal ends with its block number, so
+    # 2 QUEEN'S ROAD is 260002, not the co-located 266733.
+    block = {"blk_no": "2", "street_full": "QUEEN'S ROAD"}
+    body = {"found": 2, "results": [
+        _result("2", "QUEEN'S ROAD", postal="266733"),
+        _result("2", "QUEEN'S ROAD", postal="260002"),
+    ]}
+    responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
+    assert geocode_block(requests.Session(), "tok", block)["postal"] == "260002"
+
+
+@responses.activate
+def test_gate_matches_block_number_ignoring_letter_suffix():
+    # Block numbers can carry a letter suffix (216B); only the digits appear in
+    # the postal, so the suffix must be stripped before comparing.
+    block = {"blk_no": "216B", "street_full": "BEDOK NORTH STREET 1"}
+    body = {"found": 1, "results": [_result("216B", "BEDOK NORTH STREET 1", postal="460216")]}
+    responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
+    assert geocode_block(requests.Session(), "tok", block)["postal"] == "460216"
+
+
+@responses.activate
+def test_gate_fails_when_no_postal_matches_block_number():
+    block = {"blk_no": "2", "street_full": "QUEEN'S ROAD"}
+    body = {"found": 1, "results": [_result("2", "QUEEN'S ROAD", postal="266733")]}
+    responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
+    out = geocode_block(requests.Session(), "tok", block)
+    assert out == {"ok": False, "reason": "no_match", "found": 1}
+
+
+@responses.activate
 def test_no_results():
     responses.add(responses.GET, config.ONEMAP_SEARCH_URL,
                   json={"found": 0, "results": []}, status=200)
