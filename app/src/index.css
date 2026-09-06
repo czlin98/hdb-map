@@ -11,3 +11,20 @@ html,
 body {
   overscroll-behavior: none;
 }
+
+/* Desktop details panel (ui/sheet.tsx) slide in/out from the right edge. */
+@keyframes sheet-in {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes sheet-out {
+  to {
+    transform: translateX(100%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-slot="sheet-content"] {
+    animation-duration: 0.01ms !important;
+  }
+}

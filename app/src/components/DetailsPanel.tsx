@@ -3,6 +3,7 @@ import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
 import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
+import { Sheet, SheetClose, SheetContent, SheetTitle } from "./ui/sheet";
 
 export function DetailsContent({ detail }: { detail: BlockDetail }) {
   const sold = orderedUnits(detail.sold_units_by_type, SOLD_FLAT_TYPES);
@@ -134,16 +135,33 @@ export function DetailsPanel(props: PanelProps) {
 
   if (props.isDesktop) {
     return (
-      <aside className="absolute right-0 top-0 z-40 h-full w-96 overflow-y-auto border-l bg-white shadow-lg">
-        <button
-          className="absolute right-2 top-2 text-slate-500"
-          aria-label="Close"
-          onClick={props.onClose}
+      <Sheet
+        open={open}
+        // Non-modal so the map stays interactive; no focus trap, scroll lock, or
+        // overlay.
+        modal={false}
+        onOpenChange={(o) => {
+          setOpen(o);
+          if (!o) props.onBeginClose(); // ignore taps until the slide-out ends
+        }}
+      >
+        <SheetContent
+          onOpenAutoFocus={(e) => e.preventDefault()}
+          onInteractOutside={(e) => e.preventDefault()}
+          onAnimationEnd={(e) => {
+            if (e.target === e.currentTarget && !open) props.onClose();
+          }}
         >
-          ✕
-        </button>
-        {body}
-      </aside>
+          <SheetTitle className="sr-only">Block details</SheetTitle>
+          <SheetClose
+            aria-label="Close"
+            className="absolute right-2 top-2 z-10 p-2 leading-none text-slate-500"
+          >
+            ✕
+          </SheetClose>
+          {body}
+        </SheetContent>
+      </Sheet>
     );
   }
 

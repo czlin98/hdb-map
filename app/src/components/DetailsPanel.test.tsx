@@ -1,7 +1,16 @@
 import { render, screen, waitFor } from "@testing-library/react";
-import { DetailsContent, useBlockDetail } from "./DetailsPanel";
+import userEvent from "@testing-library/user-event";
+import { DetailsContent, DetailsPanel, useBlockDetail } from "./DetailsPanel";
 import { renderHook } from "@testing-library/react";
 import { sampleShard } from "../test/fixtures";
+
+const panelProps = {
+  selectedId: "123-ang-mo-kio-ave-3",
+  selectedTown: "ANG MO KIO",
+  snapPoints: ["88px", 0.5, 1] as (string | number)[],
+  activeSnap: 0.5 as string | number | null,
+  onSnapChange: () => {},
+};
 
 test("DetailsContent renders header, fields, and Sold/Rental groups", () => {
   render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
@@ -32,4 +41,46 @@ test("useBlockDetail: missing record -> empty", async () => {
   const get = vi.fn().mockResolvedValue(undefined);
   const { result } = renderHook(() => useBlockDetail("nope", "ANG MO KIO", get));
   await waitFor(() => expect(result.current.status).toBe("empty"));
+});
+
+test("desktop panel renders details and Close begins the close (before clearing)", async () => {
+  const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+  const onBeginClose = vi.fn();
+  const onClose = vi.fn();
+  render(
+    <DetailsPanel
+      {...panelProps}
+      getBlockDetail={get}
+      isDesktop
+      onBeginClose={onBeginClose}
+      onClose={onClose}
+    />,
+  );
+
+  await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
+  await userEvent.click(screen.getByRole("button", { name: /close/i }));
+
+  // The close is animated: it begins the close now, and clears only once the
+  // slide-out animation ends (which jsdom does not fire), so onClose stays put.
+  expect(onBeginClose).toHaveBeenCalledTimes(1);
+  expect(onClose).not.toHaveBeenCalled();
+});
+
+test("desktop panel closes on Escape", async () => {
+  const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+  const onBeginClose = vi.fn();
+  render(
+    <DetailsPanel
+      {...panelProps}
+      getBlockDetail={get}
+      isDesktop
+      onBeginClose={onBeginClose}
+      onClose={() => {}}
+    />,
+  );
+
+  await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
+  await userEvent.keyboard("{Escape}");
+
+  expect(onBeginClose).toHaveBeenCalledTimes(1);
 });
