@@ -2,32 +2,33 @@ import { useEffect, useState } from "react";
 import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
+import { XIcon } from "lucide-react";
 import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
-import { Sheet, SheetClose, SheetContent, SheetTitle } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTitle } from "./ui/sheet";
 
 export function DetailsContent({ detail }: { detail: BlockDetail }) {
   const sold = orderedUnits(detail.sold_units_by_type, SOLD_FLAT_TYPES);
   const rental = orderedUnits(detail.rental_units_by_type, RENTAL_FLAT_TYPES);
   return (
     <div className="space-y-4 p-4">
-      <h2 className="border-b border-slate-200 pb-2 text-lg font-semibold">
+      <h2 className="border-b border-border pb-2 text-lg font-semibold">
         {detail.blk_no} {detail.street_full} {detail.postal}
       </h2>
       <dl className="grid grid-cols-2 gap-2 text-sm">
         <div>
-          <dt className="text-slate-500">Town</dt>
+          <dt className="text-muted-foreground">Town</dt>
           <dd>{detail.town}</dd>
         </div>
         <div>
-          <dt className="text-slate-500">Year completed</dt>
+          <dt className="text-muted-foreground">Year completed</dt>
           <dd>{detail.year_completed}</dd>
         </div>
         <div>
-          <dt className="text-slate-500">Floors</dt>
+          <dt className="text-muted-foreground">Floors</dt>
           <dd>{detail.max_floor_lvl}</dd>
         </div>
         <div>
-          <dt className="text-slate-500">Total units</dt>
+          <dt className="text-muted-foreground">Total units</dt>
           <dd>{detail.total_dwelling_units}</dd>
         </div>
       </dl>
@@ -91,9 +92,9 @@ export function useBlockDetail(
 function Skeleton() {
   return (
     <div className="space-y-3 p-4" aria-busy="true" aria-label="Loading block details">
-      <div className="h-6 w-3/4 animate-pulse rounded bg-slate-200" />
-      <div className="h-4 w-1/2 animate-pulse rounded bg-slate-200" />
-      <div className="h-24 w-full animate-pulse rounded bg-slate-200" />
+      <div className="h-6 w-3/4 animate-pulse rounded bg-muted" />
+      <div className="h-4 w-1/2 animate-pulse rounded bg-muted" />
+      <div className="h-24 w-full animate-pulse rounded bg-muted" />
     </div>
   );
 }
@@ -110,7 +111,7 @@ function Body({
   const { status, detail } = useBlockDetail(id, town, getBlockDetail);
   if (status === "loading") return <Skeleton />;
   if (status === "empty" || !detail)
-    return <div className="p-4 text-slate-500">Details unavailable.</div>;
+    return <div className="p-4 text-muted-foreground">Details unavailable.</div>;
   return <DetailsContent detail={detail} />;
 }
 
@@ -153,13 +154,8 @@ export function DetailsPanel(props: PanelProps) {
           }}
         >
           <SheetTitle className="sr-only">Block details</SheetTitle>
-          <SheetClose
-            aria-label="Close"
-            className="absolute right-2 top-2 z-10 p-2 leading-none text-slate-500"
-          >
-            ✕
-          </SheetClose>
-          {body}
+          {/* Scroll long content within the fixed-height sheet. */}
+          <div className="min-h-0 flex-1 overflow-y-auto">{body}</div>
         </SheetContent>
       </Sheet>
     );
@@ -188,13 +184,15 @@ export function DetailsPanel(props: PanelProps) {
         if (!isOpen) props.onClose();
       }}
     >
-      <DrawerContent className="h-dvh">
+      {/* Full-height snap points drive the height, so drop the canonical bottom
+          drawer's max-h/mt cap. */}
+      <DrawerContent className="h-dvh data-[vaul-drawer-direction=bottom]:mt-0 data-[vaul-drawer-direction=bottom]:max-h-none">
         <DrawerTitle className="sr-only">Block details</DrawerTitle>
         <DrawerClose
           aria-label="Close"
-          className="absolute right-2 top-2 z-10 p-2 leading-none text-slate-500"
+          className="text-muted-foreground absolute right-2 top-2 z-10 p-2 leading-none"
         >
-          ✕
+          <XIcon className="size-4" />
         </DrawerClose>
         <div className={`min-h-0 flex-1 ${bodyScroll}`}>{body}</div>
       </DrawerContent>

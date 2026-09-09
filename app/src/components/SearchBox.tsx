@@ -25,7 +25,7 @@ export function SearchBox({ rows, onSelect, inputRef }: Props) {
       />
       <CommandList>
         {query.trim() !== "" && results.length === 0 && (
-          <CommandEmpty className="px-3 py-2 text-slate-500">No matches</CommandEmpty>
+          <CommandEmpty className="px-3 py-2 text-muted-foreground">No matches</CommandEmpty>
         )}
         {results.map((r) => (
           <CommandItem key={r.id} value={r.id} onSelect={() => onSelect(r)}>

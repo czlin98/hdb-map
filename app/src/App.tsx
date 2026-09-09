@@ -8,8 +8,8 @@ import { SearchBox } from "./components/SearchBox";
 import { DetailsPanel } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
-// First point peeks just the details header; middle is a half sheet; the last point is fully open.
-const SNAP_POINTS = ["88px", 0.5, 1] as const;
+// First point peeks the details header; middle is a half sheet; the last point is fully open.
+const SNAP_POINTS = ["95px", 0.5, 1] as const;
 
 function useIsDesktop() {
   const [desktop, setDesktop] = useState(() =>
@@ -93,7 +93,9 @@ export default function App() {
 
       {status === "error" && (
         <div className="absolute inset-0 z-50 grid place-items-center bg-black/10">
-          <div className="rounded-lg bg-white p-6 shadow-lg">Couldn't load block data.</div>
+          <div className="rounded-lg bg-card p-6 text-card-foreground shadow-lg">
+            Couldn't load block data.
+          </div>
         </div>
       )}
 
