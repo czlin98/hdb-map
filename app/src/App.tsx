@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { IndexFeatureCollection, Town } from "./types/contract";
 import { buildTownSlugMap, createGetBlockDetail, loadIndex, loadTowns } from "./lib/data";
 import { buildSearchIndex } from "./lib/search";
@@ -51,10 +51,22 @@ export default function App() {
     };
   }, []);
 
-  // Reopen a newly selected block at the half sheet.
+  // Open (or reopen) a selected block at the half sheet. Depends on `closing` too,
+  // so a selection made mid-close (which cancels the close) also snaps back to half.
+  const suppressPeekResetUntil = useRef(0);
   useEffect(() => {
-    if (selectedId) setActiveSnap(SNAP_POINTS[1]);
-  }, [selectedId]);
+    if (!selectedId || closing) return;
+    setActiveSnap(SNAP_POINTS[1]);
+    // Vaul's closeDrawer schedules a reset to the first (peek) snap 500ms later; a
+    // cancel-and-reopen leaves that stale timer to fire and collapse the just
+    // reopened sheet. Ignore that reset (see onSnapChange) during the reopen window.
+    suppressPeekResetUntil.current = Date.now() + 700;
+  }, [selectedId, closing]);
+
+  const onSnapChange = useCallback((snap: string | number | null) => {
+    if (snap === SNAP_POINTS[0] && Date.now() < suppressPeekResetUntil.current) return;
+    setActiveSnap(snap);
+  }, []);
 
   const searchRows = useMemo(() => buildSearchIndex(index), [index]);
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
@@ -123,7 +135,7 @@ export default function App() {
           open={!closing}
           snapPoints={[...SNAP_POINTS]}
           activeSnap={activeSnap}
-          onSnapChange={setActiveSnap}
+          onSnapChange={onSnapChange}
           onBeginClose={beginClose}
           onClose={clear}
         />
