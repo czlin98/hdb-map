@@ -7,9 +7,11 @@ vi.mock("./components/MapView", () => ({
   MapView: ({
     data,
     onSelectBlock,
+    onBackgroundClick,
   }: {
     data: IndexFeatureCollection;
     onSelectBlock: (id: string, town: string) => void;
+    onBackgroundClick?: () => void;
   }) => (
     <div>
       {data.features.map((f: BlockFeature) => (
@@ -20,6 +22,7 @@ vi.mock("./components/MapView", () => ({
           marker-{f.properties.id}
         </button>
       ))}
+      <button onClick={() => onBackgroundClick?.()}>background</button>
     </div>
   ),
 }));
@@ -63,4 +66,58 @@ test("shows a fatal error card when index fails to load", async () => {
   stubFetch({ "towns.json": sampleTowns }); // index.geojson -> 404
   render(<App />);
   expect(await screen.findByText(/couldn't load block data/i)).toBeInTheDocument();
+});
+
+const dataFixtures = {
+  "index.geojson": sampleIndex,
+  "towns.json": sampleTowns,
+  "ang-mo-kio.json": sampleShard,
+};
+
+test("selecting from search reflects the address in the search box", async () => {
+  stubFetch(dataFixtures);
+  render(<App />);
+  await screen.findByText("marker-123-ang-mo-kio-ave-3"); // wait for load
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await userEvent.click(await screen.findByText("123 ANG MO KIO AVENUE 3 560123"));
+
+  expect(input).toHaveValue("123 ANG MO KIO AVENUE 3 560123");
+});
+
+test("selecting a marker opens details but leaves the search box empty", async () => {
+  stubFetch(dataFixtures);
+  render(<App />);
+
+  await userEvent.click(await screen.findByText("marker-123-ang-mo-kio-ave-3"));
+  await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3 560123/ });
+
+  expect(screen.getByPlaceholderText(/search/i)).toHaveValue("");
+});
+
+test("clicking empty map begins closing the details panel", async () => {
+  stubFetch(dataFixtures);
+  render(<App />);
+
+  await userEvent.click(await screen.findByText("marker-123-ang-mo-kio-ave-3"));
+  await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3 560123/ });
+
+  await userEvent.click(screen.getByText("background"));
+  expect(useSelection.getState().closing).toBe(true);
+});
+
+test("the search clear button empties the input and begins closing the panel", async () => {
+  stubFetch(dataFixtures);
+  render(<App />);
+  await screen.findByText("marker-123-ang-mo-kio-ave-3");
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await userEvent.click(await screen.findByText("123 ANG MO KIO AVENUE 3 560123"));
+  expect(input).toHaveValue("123 ANG MO KIO AVENUE 3 560123");
+
+  await userEvent.click(screen.getByRole("button", { name: /clear/i }));
+  expect(input).toHaveValue("");
+  expect(useSelection.getState().closing).toBe(true);
 });

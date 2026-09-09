@@ -66,6 +66,65 @@ test("desktop panel renders details and Close begins the close (before clearing)
   expect(onClose).not.toHaveBeenCalled();
 });
 
+test("mobile drawer clears the selection after the slide-out when closed via the open prop", () => {
+  vi.useFakeTimers();
+  try {
+    const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+    const onClose = vi.fn();
+    const { rerender } = render(
+      <DetailsPanel
+        {...panelProps}
+        getBlockDetail={get}
+        isDesktop={false}
+        open={true}
+        onBeginClose={() => {}}
+        onClose={onClose}
+      />,
+    );
+    // Close the way an empty-map tap or the clear button does: flip the controlled
+    // prop. Vaul won't fire its own onAnimationEnd for this, so the panel must
+    // clear itself once the slide-out finishes.
+    rerender(
+      <DetailsPanel
+        {...panelProps}
+        getBlockDetail={get}
+        isDesktop={false}
+        open={false}
+        onBeginClose={() => {}}
+        onClose={onClose}
+      />,
+    );
+    expect(onClose).not.toHaveBeenCalled(); // still animating out
+    vi.advanceTimersByTime(500);
+    expect(onClose).toHaveBeenCalledTimes(1);
+  } finally {
+    vi.useRealTimers();
+  }
+});
+
+test("mobile drawer does not clear if it reopens before the slide-out finishes", () => {
+  vi.useFakeTimers();
+  try {
+    const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+    const onClose = vi.fn();
+    const props = {
+      ...panelProps,
+      getBlockDetail: get,
+      isDesktop: false,
+      onBeginClose: () => {},
+      onClose,
+    };
+    const { rerender } = render(<DetailsPanel {...props} open={true} />);
+    rerender(<DetailsPanel {...props} open={false} />); // begin close
+    vi.advanceTimersByTime(200);
+    rerender(<DetailsPanel {...props} open={true} />); // cancel-and-reopen
+    vi.advanceTimersByTime(500);
+    expect(onClose).not.toHaveBeenCalled();
+  } finally {
+    vi.useRealTimers();
+  }
+});
+
 test("desktop panel closes on Escape", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
   const onBeginClose = vi.fn();

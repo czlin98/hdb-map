@@ -32,7 +32,8 @@ export default function App() {
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  const { selectedId, selectedTown, select, clear, beginClose } = useSelection();
+  const { selectedId, selectedTown, selectedOrigin, closing, select, clear, beginClose } =
+    useSelection();
 
   useEffect(() => {
     let alive = true;
@@ -58,6 +59,17 @@ export default function App() {
   const searchRows = useMemo(() => buildSearchIndex(index), [index]);
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
 
+  const labelById = useMemo(() => {
+    const m = new Map<string, string>();
+    for (const r of searchRows) m.set(r.id, `${r.blk_no} ${r.street_full} ${r.postal}`);
+    return m;
+  }, [searchRows]);
+
+  // The search box echoes the address only for search-origin selections, so a
+  // marker tap opens details without disturbing the search field.
+  const selectedLabel =
+    selectedId && selectedOrigin === "search" ? (labelById.get(selectedId) ?? null) : null;
+
   // On mobile, keep the selected marker above the sheet by matching fly padding to
   // the snap. null = don't fly at all.
   const flyPaddingBottom = useMemo<number | null>(() => {
@@ -75,7 +87,8 @@ export default function App() {
       <MapView
         data={index}
         selectedId={selectedId}
-        onSelectBlock={select}
+        onSelectBlock={(id, town) => select(id, town, "marker")}
+        onBackgroundClick={beginClose}
         flyPaddingBottom={flyPaddingBottom}
         // Top clearance is for the mobile sheet layout only; desktop shows a side panel.
         topClearanceRef={isDesktop ? undefined : searchInputRef}
@@ -85,7 +98,9 @@ export default function App() {
         <div className="absolute z-30 w-[min(92vw,22rem)] top-2 left-1/2 -translate-x-1/2 md:left-2 md:translate-x-0">
           <SearchBox
             rows={searchRows}
-            onSelect={(r) => select(r.id, r.town)}
+            onSelect={(r) => select(r.id, r.town, "search")}
+            selectedLabel={selectedLabel}
+            onClear={beginClose}
             inputRef={searchInputRef}
           />
         </div>
@@ -105,6 +120,7 @@ export default function App() {
           selectedTown={selectedTown}
           getBlockDetail={getBlockDetail}
           isDesktop={isDesktop}
+          open={!closing}
           snapPoints={[...SNAP_POINTS]}
           activeSnap={activeSnap}
           onSnapChange={setActiveSnap}

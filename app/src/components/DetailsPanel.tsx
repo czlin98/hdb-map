@@ -120,6 +120,11 @@ interface PanelProps {
   selectedTown: string;
   getBlockDetail: GetBlockDetail;
   isDesktop: boolean;
+  // Controlled open state (defaults open). Flipping to false animates the close;
+  // the parent clears the selection once the animation ends. Driving it here lets
+  // any dismissal (the panel's own close, an empty-map tap, the search clear
+  // button) run the same slide-out.
+  open?: boolean;
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
@@ -127,9 +132,25 @@ interface PanelProps {
   onClose: () => void;
 }
 
+// Matches Vaul's TRANSITIONS.DURATION (0.5s): how long the drawer takes to slide
+// out, after which the selection can be cleared and the panel unmounted.
+const DRAWER_ANIM_MS = 500;
+
 export function DetailsPanel(props: PanelProps) {
-  // Local open state so Vaul can animate the close before the parent clears.
-  const [open, setOpen] = useState(true);
+  const open = props.open ?? true;
+
+  // Vaul fires its onAnimationEnd only for its own gesture dismissals, not when we
+  // close by flipping the controlled `open` prop (an empty-map tap or the search
+  // clear button). So run the post-close cleanup ourselves: once closed, clear
+  // after the slide-out; a reopen (cancel-and-reopen) cancels it. The desktop
+  // Sheet uses a real DOM animationend handler instead, so skip it there.
+  const { isDesktop, onClose } = props;
+  useEffect(() => {
+    if (isDesktop || open) return;
+    const t = setTimeout(onClose, DRAWER_ANIM_MS);
+    return () => clearTimeout(t);
+  }, [isDesktop, open, onClose]);
+
   const body = (
     <Body id={props.selectedId} town={props.selectedTown} getBlockDetail={props.getBlockDetail} />
   );
@@ -142,7 +163,6 @@ export function DetailsPanel(props: PanelProps) {
         // overlay.
         modal={false}
         onOpenChange={(o) => {
-          setOpen(o);
           if (!o) props.onBeginClose(); // ignore taps until the slide-out ends
         }}
       >
@@ -177,11 +197,7 @@ export function DetailsPanel(props: PanelProps) {
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
       onOpenChange={(o) => {
-        setOpen(o);
         if (!o) props.onBeginClose(); // ignore taps until the close animation ends
-      }}
-      onAnimationEnd={(isOpen) => {
-        if (!isOpen) props.onClose();
       }}
     >
       {/* Full-height snap points drive the height, so drop the canonical bottom
