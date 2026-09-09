@@ -151,6 +151,26 @@ export function DetailsPanel(props: PanelProps) {
     return () => clearTimeout(t);
   }, [isDesktop, open, onClose]);
 
+  // Vaul's underlying Radix dialog is always modal internally, so it locks the
+  // page with `body { pointer-events: none }`. In non-modal mode Vaul unlocks it,
+  // but only on its own open/close transitions, not when we drive `open` back to
+  // true as a controlled prop (a selection made mid-close). That reopen leaves the
+  // lock on, freezing the map and search box behind the non-modal drawer. While the
+  // drawer is open the background must stay interactive, so keep the body unlocked
+  // for as long as it is open, reverting any relock Radix applies (whenever it
+  // lands, which is why an observer beats racing Radix's effect ordering).
+  useEffect(() => {
+    if (isDesktop || !open) return;
+    const { body } = document;
+    const unlock = () => {
+      if (body.style.pointerEvents === "none") body.style.pointerEvents = "auto";
+    };
+    unlock();
+    const observer = new MutationObserver(unlock);
+    observer.observe(body, { attributes: true, attributeFilter: ["style"] });
+    return () => observer.disconnect();
+  }, [isDesktop, open]);
+
   const body = (
     <Body id={props.selectedId} town={props.selectedTown} getBlockDetail={props.getBlockDetail} />
   );

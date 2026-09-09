@@ -125,6 +125,27 @@ test("mobile drawer does not clear if it reopens before the slide-out finishes",
   }
 });
 
+test("mobile drawer leaves the page interactive after a cancel-and-reopen", async () => {
+  // Regression: Vaul's Radix dialog is modal internally and locks the page with
+  // `body { pointer-events: none }`. Vaul unlocks it on its own opens, but not on a
+  // reopen driven by the controlled `open` prop (a selection made mid-close), which
+  // would freeze the map and search box behind the non-modal drawer.
+  const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+  const props = {
+    ...panelProps,
+    getBlockDetail: get,
+    isDesktop: false,
+    onBeginClose: () => {},
+    onClose: () => {},
+  };
+  const { rerender } = render(<DetailsPanel {...props} open={true} />);
+  rerender(<DetailsPanel {...props} open={false} />); // begin close
+  rerender(<DetailsPanel {...props} open={true} />); // cancel-and-reopen mid-close
+  // The lock is reverted by a MutationObserver, whose callback is a microtask.
+  await Promise.resolve();
+  expect(document.body.style.pointerEvents).not.toBe("none");
+});
+
 test("desktop panel closes on Escape", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
   const onBeginClose = vi.fn();
