@@ -154,7 +154,8 @@ export function DetailsPanel(props: PanelProps) {
           }}
         >
           <SheetTitle className="sr-only">Block details</SheetTitle>
-          {body}
+          {/* Scroll long content within the fixed-height sheet. */}
+          <div className="min-h-0 flex-1 overflow-y-auto">{body}</div>
         </SheetContent>
       </Sheet>
     );
