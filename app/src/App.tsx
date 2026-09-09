@@ -93,7 +93,9 @@ export default function App() {
 
       {status === "error" && (
         <div className="absolute inset-0 z-50 grid place-items-center bg-black/10">
-          <div className="rounded-lg bg-white p-6 shadow-lg">Couldn't load block data.</div>
+          <div className="rounded-lg bg-card p-6 text-card-foreground shadow-lg">
+            Couldn't load block data.
+          </div>
         </div>
       )}
 
