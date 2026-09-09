@@ -11,6 +11,7 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
     addLayer: vi.fn(),
     getLayer: vi.fn().mockReturnValue({}),
     getSource: vi.fn().mockReturnValue({ setData: vi.fn() }),
+    queryRenderedFeatures: vi.fn().mockReturnValue([]),
     setFilter: vi.fn(),
     resize: vi.fn(),
     flyTo: vi.fn(),
@@ -84,6 +85,41 @@ test("clicking a feature reports id + town", () => {
   fire("load");
   fire("click", { features: [{ properties: { id: "123-ang-mo-kio-ave-3", town: "ANG MO KIO" } }] });
   expect(onSelectBlock).toHaveBeenCalledWith("123-ang-mo-kio-ave-3", "ANG MO KIO");
+});
+
+test("clicking empty map (no block under the point) reports a background click", () => {
+  const onBackgroundClick = vi.fn();
+  map.queryRenderedFeatures.mockReturnValueOnce([]);
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      onBackgroundClick={onBackgroundClick}
+    />,
+  );
+  fire("load");
+  fire("click", { point: { x: 5, y: 5 } });
+  expect(onBackgroundClick).toHaveBeenCalledTimes(1);
+});
+
+test("clicking a block does not report a background click", () => {
+  const onBackgroundClick = vi.fn();
+  map.queryRenderedFeatures.mockReturnValueOnce([{ properties: { id: "123-ang-mo-kio-ave-3" } }]);
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      onBackgroundClick={onBackgroundClick}
+    />,
+  );
+  fire("load");
+  fire("click", {
+    point: { x: 5, y: 5 },
+    features: [{ properties: { id: "123-ang-mo-kio-ave-3", town: "ANG MO KIO" } }],
+  });
+  expect(onBackgroundClick).not.toHaveBeenCalled();
 });
 
 test("selection sets the highlight filter and flies", () => {

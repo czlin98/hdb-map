@@ -16,6 +16,9 @@ interface Props {
   data: IndexFeatureCollection;
   selectedId: string | null;
   onSelectBlock: (id: string, town: string) => void;
+  // Fired when the map is clicked on empty space (no block under the pointer), so
+  // the app can dismiss the details panel.
+  onBackgroundClick?: () => void;
   // Bottom padding for the fly-to so the marker clears the sheet; null = skip the fly entirely.
   flyPaddingBottom?: number | null;
   // The search input; its bottom edge is padded past so the marker centers between
@@ -31,6 +34,7 @@ export function MapView({
   data,
   selectedId,
   onSelectBlock,
+  onBackgroundClick,
   flyPaddingBottom = 0,
   topClearanceRef,
 }: Props) {
@@ -38,6 +42,8 @@ export function MapView({
   const mapRef = useRef<maplibregl.Map | null>(null);
   const onSelectRef = useRef(onSelectBlock);
   onSelectRef.current = onSelectBlock;
+  const onBackgroundClickRef = useRef(onBackgroundClick);
+  onBackgroundClickRef.current = onBackgroundClick;
   // Latest data, read inside the one-shot load handler so the source is
   // created with populated features even when the index resolves before
   // the style loads.
@@ -118,6 +124,16 @@ export function MapView({
       if (!f) return;
       const p = f.properties as { id: string; town: string };
       onSelectRef.current(p.id, p.town);
+    });
+    // Map-wide click: a click that hits no block is a background tap, which
+    // dismisses the panel. Runs alongside the layer-scoped handler above; the
+    // rendered-feature query means a marker hit never counts as background.
+    map.on("click", (e) => {
+      const cb = onBackgroundClickRef.current;
+      if (!cb || !e.point) return;
+      const layers = ["blocks-circles", "blocks-highlight"].filter((l) => map.getLayer(l));
+      if (layers.length === 0) return;
+      if (map.queryRenderedFeatures(e.point, { layers }).length === 0) cb();
     });
 
     return () => {
