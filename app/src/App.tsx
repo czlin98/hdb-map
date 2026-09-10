@@ -32,7 +32,7 @@ export default function App() {
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
 
-  const { selectedId, selectedTown, select, clear, beginClose } = useSelection();
+  const { selectedId, selectedTown, select, clear } = useSelection();
 
   useEffect(() => {
     let alive = true;
@@ -108,7 +108,6 @@ export default function App() {
           snapPoints={[...SNAP_POINTS]}
           activeSnap={activeSnap}
           onSnapChange={setActiveSnap}
-          onBeginClose={beginClose}
           onClose={clear}
         />
       )}

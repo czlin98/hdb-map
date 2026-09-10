@@ -123,7 +123,6 @@ interface PanelProps {
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
-  onBeginClose: () => void;
   onClose: () => void;
 }
 
@@ -141,10 +140,7 @@ export function DetailsPanel(props: PanelProps) {
         // Non-modal so the map stays interactive; no focus trap, scroll lock, or
         // overlay.
         modal={false}
-        onOpenChange={(o) => {
-          setOpen(o);
-          if (!o) props.onBeginClose(); // ignore taps until the slide-out ends
-        }}
+        onOpenChange={setOpen}
       >
         <SheetContent
           onOpenAutoFocus={(e) => e.preventDefault()}
@@ -176,10 +172,7 @@ export function DetailsPanel(props: PanelProps) {
       snapPoints={props.snapPoints}
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
-      onOpenChange={(o) => {
-        setOpen(o);
-        if (!o) props.onBeginClose(); // ignore taps until the close animation ends
-      }}
+      onOpenChange={setOpen}
       onAnimationEnd={(isOpen) => {
         if (!isOpen) props.onClose();
       }}
