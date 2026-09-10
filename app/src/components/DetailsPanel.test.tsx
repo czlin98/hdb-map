@@ -43,44 +43,30 @@ test("useBlockDetail: missing record -> empty", async () => {
   await waitFor(() => expect(result.current.status).toBe("empty"));
 });
 
-test("desktop panel renders details and Close begins the close (before clearing)", async () => {
+test("desktop panel renders details and dismisses on the Close control", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
-  const onBeginClose = vi.fn();
-  const onClose = vi.fn();
-  render(
-    <DetailsPanel
-      {...panelProps}
-      getBlockDetail={get}
-      isDesktop
-      onBeginClose={onBeginClose}
-      onClose={onClose}
-    />,
-  );
+  render(<DetailsPanel {...panelProps} getBlockDetail={get} isDesktop onClose={() => {}} />);
 
   await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
   await userEvent.click(screen.getByRole("button", { name: /close/i }));
 
-  // The close is animated: it begins the close now, and clears only once the
-  // slide-out animation ends (which jsdom does not fire), so onClose stays put.
-  expect(onBeginClose).toHaveBeenCalledTimes(1);
-  expect(onClose).not.toHaveBeenCalled();
+  await waitFor(() =>
+    expect(
+      screen.queryByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ }),
+    ).not.toBeInTheDocument(),
+  );
 });
 
 test("desktop panel closes on Escape", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
-  const onBeginClose = vi.fn();
-  render(
-    <DetailsPanel
-      {...panelProps}
-      getBlockDetail={get}
-      isDesktop
-      onBeginClose={onBeginClose}
-      onClose={() => {}}
-    />,
-  );
+  render(<DetailsPanel {...panelProps} getBlockDetail={get} isDesktop onClose={() => {}} />);
 
   await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
   await userEvent.keyboard("{Escape}");
 
-  expect(onBeginClose).toHaveBeenCalledTimes(1);
+  await waitFor(() =>
+    expect(
+      screen.queryByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ }),
+    ).not.toBeInTheDocument(),
+  );
 });
