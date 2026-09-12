@@ -14,6 +14,12 @@ export function SearchBox({ rows, onSelect, inputRef }: Props) {
   const [query, setQuery] = useState("");
   const results = useMemo(() => searchBlocks(rows, query), [rows, query]);
 
+  // Clear the query so the result list collapses off the map.
+  function handleSelect(row: SearchRow) {
+    onSelect(row);
+    setQuery("");
+  }
+
   return (
     // We filter ourselves; disable cmdk's built-in filtering.
     <Command shouldFilter={false} className="w-full">
@@ -21,6 +27,7 @@ export function SearchBox({ rows, onSelect, inputRef }: Props) {
         ref={inputRef}
         value={query}
         onValueChange={setQuery}
+        onClear={() => setQuery("")}
         placeholder="Search block, street, or postal…"
       />
       <CommandList>
@@ -28,7 +35,7 @@ export function SearchBox({ rows, onSelect, inputRef }: Props) {
           <CommandEmpty className="px-3 py-2 text-muted-foreground">No matches</CommandEmpty>
         )}
         {results.map((r) => (
-          <CommandItem key={r.id} value={r.id} onSelect={() => onSelect(r)}>
+          <CommandItem key={r.id} value={r.id} onSelect={() => handleSelect(r)}>
             {r.blk_no} {r.street_full} {r.postal}
           </CommandItem>
         ))}
