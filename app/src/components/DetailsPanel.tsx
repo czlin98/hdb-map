@@ -173,6 +173,9 @@ export function DetailsPanel(props: PanelProps) {
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
       onOpenChange={setOpen}
+      // repositionInputs re-fits the sheet to the search box's keyboard, which breaks
+      // its layout on mobile.
+      repositionInputs={false}
       onAnimationEnd={(isOpen) => {
         if (!isOpen) props.onClose();
       }}
