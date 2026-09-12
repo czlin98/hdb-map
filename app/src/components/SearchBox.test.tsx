@@ -24,3 +24,32 @@ test("shows empty state when nothing matches", async () => {
   await userEvent.type(screen.getByPlaceholderText(/search/i), "zzzz");
   expect(await screen.findByText(/no matches/i)).toBeInTheDocument();
 });
+
+test("selecting a result clears the query and collapses the list", async () => {
+  render(<SearchBox rows={rows} onSelect={vi.fn()} />);
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await userEvent.click(await screen.findByText("123 ANG MO KIO AVENUE 3 560123"));
+
+  expect(input).toHaveValue("");
+  expect(screen.queryByText("123 ANG MO KIO AVENUE 3 560123")).not.toBeInTheDocument();
+});
+
+test("clear button empties the query and hides results", async () => {
+  render(<SearchBox rows={rows} onSelect={vi.fn()} />);
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await screen.findByText("123 ANG MO KIO AVENUE 3 560123");
+
+  await userEvent.click(screen.getByRole("button", { name: /clear search/i }));
+
+  expect(input).toHaveValue("");
+  expect(screen.queryByText("123 ANG MO KIO AVENUE 3 560123")).not.toBeInTheDocument();
+});
+
+test("clear button is absent when the query is empty", () => {
+  render(<SearchBox rows={rows} onSelect={vi.fn()} />);
+  expect(screen.queryByRole("button", { name: /clear search/i })).not.toBeInTheDocument();
+});
