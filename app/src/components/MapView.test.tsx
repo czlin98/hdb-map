@@ -12,6 +12,7 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
     getLayer: vi.fn().mockReturnValue({}),
     getSource: vi.fn().mockReturnValue({ setData: vi.fn() }),
     setFilter: vi.fn(),
+    setPadding: vi.fn(),
     resize: vi.fn(),
     flyTo: vi.fn(),
     getZoom: vi.fn().mockReturnValue(11),
@@ -100,4 +101,22 @@ test("selection sets the highlight filter and flies", () => {
     "123-ang-mo-kio-ave-3",
   ]);
   expect(map.flyTo).toHaveBeenCalled();
+});
+
+test("resets the camera padding when the selection is cleared", () => {
+  const { rerender } = render(
+    <MapView
+      data={sampleIndex}
+      selectedId="123-ang-mo-kio-ave-3"
+      onSelectBlock={vi.fn()}
+      flyPaddingBottom={400}
+    />,
+  );
+  fire("load");
+  // Closing the sheet clears the selection; the bottom padding a prior fly-to left
+  // on the camera must be dropped so the map center isn't offset afterwards.
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} flyPaddingBottom={400} />,
+  );
+  expect(map.setPadding).toHaveBeenCalledWith({ top: 0, right: 0, left: 0, bottom: 0 });
 });

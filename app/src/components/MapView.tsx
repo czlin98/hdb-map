@@ -138,7 +138,13 @@ export function MapView({
     const map = mapRef.current;
     if (!map || !map.getLayer("blocks-highlight")) return;
     map.setFilter("blocks-highlight", highlightFilter(selectedId));
-    if (selectedId && flyPaddingBottom !== null) {
+    if (!selectedId) {
+      // flyTo padding persists on the camera, so clear it when the sheet closes,
+      // else the map stays centered in the top half and looks shifted down.
+      map.setPadding({ top: 0, right: 0, left: 0, bottom: 0 });
+      return;
+    }
+    if (flyPaddingBottom !== null) {
       const f = data.features.find((ft) => ft.properties.id === selectedId);
       if (f) {
         const top = topClearanceRef?.current?.getBoundingClientRect().bottom ?? 0;
