@@ -6,10 +6,16 @@ import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection } from "../types/contract";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
-// Singapore island bounding box with a small margin.
-const SG_BOUNDS: [[number, number], [number, number]] = [
+// Singapore island view bounds. Drives the initial fit and the zoom floor.
+const MIN_BOUNDS: [[number, number], [number, number]] = [
   [103.55, 1.13],
   [104.12, 1.5],
+];
+// Map panning bounds. Looser than MIN_BOUNDS so a narrow screen can frame the
+// full island width without being forced to a higher zoom.
+const MAX_BOUNDS: [[number, number], [number, number]] = [
+  [103.35, 0.7],
+  [104.32, 1.92],
 ];
 
 interface Props {
@@ -53,14 +59,22 @@ export function MapView({
     const map = new maplibregl.Map({
       container: containerRef.current,
       style: STYLE_URL,
-      bounds: SG_BOUNDS,
-      maxBounds: SG_BOUNDS,
-      minZoom: 10.5,
+      bounds: MIN_BOUNDS,
+      maxBounds: MAX_BOUNDS,
+      minZoom: 9,
       maxZoom: 17,
       attributionControl: false,
     });
     mapRef.current = map;
     map.addControl(new maplibregl.AttributionControl({ compact: true }));
+
+    // Set the zoom floor to whatever fits the whole island in the viewport, so narrow
+    // screens see all of it. Recomputed on resize/orientation change.
+    const fitZoomFloor = () => {
+      const cam = map.cameraForBounds(MIN_BOUNDS);
+      if (cam?.zoom != null) map.setMinZoom(cam.zoom);
+    };
+    map.on("resize", fitZoomFloor);
 
     map.on("load", () => {
       map.addSource("blocks", {
@@ -98,6 +112,7 @@ export function MapView({
       });
       // Ensure the canvas matches the (now laid-out) container height.
       map.resize();
+      fitZoomFloor();
     });
 
     const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });
