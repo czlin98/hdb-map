@@ -6,10 +6,12 @@ import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection } from "../types/contract";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
-// Singapore island view bounds. Drives the initial fit and the zoom floor.
+// Singapore island view bounds; drive the initial fit and the zoom floor.
+// Centered on the main island's landmass midpoint (103.8247, 1.3408; OSM
+// relation 1769123) so fitBounds keeps it centered.
 const MIN_BOUNDS: [[number, number], [number, number]] = [
-  [103.55, 1.13],
-  [104.12, 1.5],
+  [103.5847, 1.1608],
+  [104.0647, 1.5208],
 ];
 // Map panning bounds. Looser than MIN_BOUNDS so a narrow screen can frame the
 // full island width without being forced to a higher zoom.
@@ -112,9 +114,12 @@ export function MapView({
           "circle-stroke-color": "#ffffff",
         },
       });
-      // Ensure the canvas matches the (now laid-out) container height.
+      // The map constructor runs the fit before layout is settled, so re-frame
+      // has to be done at the final size. Otherwise the opening view stays too
+      // zoomed in and sits above the zoom floor, most visibly on mobile.
       map.resize();
       fitZoomFloor();
+      map.fitBounds(MIN_BOUNDS, { animate: false });
     });
 
     const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });
