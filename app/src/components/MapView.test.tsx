@@ -13,6 +13,8 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
     getSource: vi.fn().mockReturnValue({ setData: vi.fn() }),
     setFilter: vi.fn(),
     setPadding: vi.fn(),
+    setMinZoom: vi.fn(),
+    cameraForBounds: vi.fn().mockReturnValue({ zoom: 10.2 }),
     resize: vi.fn(),
     flyTo: vi.fn(),
     getZoom: vi.fn().mockReturnValue(11),
@@ -57,12 +59,30 @@ test("locks the camera to Singapore and adds both layers on load", () => {
   render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
   const opts = MapCtor.mock.calls[0][0] as Record<string, unknown>;
   expect(opts.maxBounds).toBeDefined();
-  expect(opts.minZoom).toBeGreaterThan(9);
 
   fire("load");
   const layerIds = map.addLayer.mock.calls.map((c) => (c[0] as { id: string }).id);
   expect(layerIds).toContain("blocks-circles");
   expect(layerIds).toContain("blocks-highlight");
+});
+
+test("fits the zoom floor to the island on load", () => {
+  map.cameraForBounds.mockReturnValue({ zoom: 10.2 });
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  expect(map.cameraForBounds).toHaveBeenCalled();
+  expect(map.setMinZoom).toHaveBeenCalledWith(10.2);
+});
+
+test("recomputes the zoom floor when the map resizes", () => {
+  map.cameraForBounds.mockReturnValue({ zoom: 10.2 });
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  map.setMinZoom.mockClear();
+  // A narrower viewport (e.g. portrait phone, rotation) needs a lower zoom to fit.
+  map.cameraForBounds.mockReturnValue({ zoom: 9.6 });
+  fire("resize");
+  expect(map.setMinZoom).toHaveBeenCalledWith(9.6);
 });
 
 test("creates the source with the latest data if index beats load", () => {
