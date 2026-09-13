@@ -6,10 +6,12 @@ import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection } from "../types/contract";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
-// Singapore island view bounds. Drives the initial fit and the zoom floor.
+// Singapore island view bounds; drive the initial fit and the zoom floor.
+// Centered on the main island's landmass midpoint (103.8247, 1.3408; OSM
+// relation 1769123) so fitBounds keeps it centered.
 const MIN_BOUNDS: [[number, number], [number, number]] = [
-  [103.55, 1.13],
-  [104.12, 1.5],
+  [103.5847, 1.1608],
+  [104.0647, 1.5208],
 ];
 // Map panning bounds. Looser than MIN_BOUNDS so a narrow screen can frame the
 // full island width without being forced to a higher zoom.
