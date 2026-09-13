@@ -83,8 +83,7 @@ export function MapView({
         type: "geojson",
         data: dataRef.current,
         cluster: false,
-        attribution:
-          "Block data © HDB/data.gov.sg (Singapore Open Data Licence); Geocoding © OneMap/SLA",
+        attribution: "© HDB, OneMap/SLA",
       });
       map.addLayer({
         id: "blocks-circles",
