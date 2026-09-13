@@ -90,7 +90,9 @@ export function MapView({
         source: "blocks",
         // filter slot (extension point): no filter in v1.
         paint: {
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 2, 16, 6],
+          // Grow toward max zoom so blocks are an easy tap target once zoomed into a
+          // neighborhood; low/mid zoom stays small to avoid clutter.
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 2, 14, 4, 16, 8, 17, 10],
           // colorBy slot (extension point): single fixed color in v1.
           "circle-color": "#2563eb",
           "circle-stroke-width": 0.5,
@@ -104,7 +106,7 @@ export function MapView({
         // Separate layer, exempt from any future filter, so search can reveal a block.
         filter: highlightFilter(selectedIdRef.current),
         paint: {
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 5, 16, 10],
+          "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 5, 14, 7, 16, 10, 17, 13],
           "circle-color": "#f59e0b",
           "circle-stroke-width": 1.5,
           "circle-stroke-color": "#ffffff",
