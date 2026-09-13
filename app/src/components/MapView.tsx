@@ -114,9 +114,12 @@ export function MapView({
           "circle-stroke-color": "#ffffff",
         },
       });
-      // Ensure the canvas matches the (now laid-out) container height.
+      // The map constructor runs the fit before layout is settled, so re-frame
+      // has to be done at the final size. Otherwise the opening view stays too
+      // zoomed in and sits above the zoom floor, most visibly on mobile.
       map.resize();
       fitZoomFloor();
+      map.fitBounds(MIN_BOUNDS, { animate: false });
     });
 
     const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });

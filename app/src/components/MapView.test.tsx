@@ -16,6 +16,7 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
     setMinZoom: vi.fn(),
     cameraForBounds: vi.fn().mockReturnValue({ zoom: 10.2 }),
     resize: vi.fn(),
+    fitBounds: vi.fn(),
     flyTo: vi.fn(),
     getZoom: vi.fn().mockReturnValue(11),
     getCanvas: vi.fn().mockReturnValue({ style: {} }),
@@ -72,6 +73,18 @@ test("fits the zoom floor to the island on load", () => {
   fire("load");
   expect(map.cameraForBounds).toHaveBeenCalled();
   expect(map.setMinZoom).toHaveBeenCalledWith(10.2);
+});
+
+test("re-fits the camera to the island on load but not on later resizes", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  // The constructor fit ran before layout settled; the load re-fit corrects it.
+  expect(map.fitBounds).toHaveBeenCalledTimes(1);
+  // A later resize recomputes only the zoom floor, so a user who has already
+  // zoomed or panned is not yanked back to the island overview.
+  map.fitBounds.mockClear();
+  fire("resize");
+  expect(map.fitBounds).not.toHaveBeenCalled();
 });
 
 test("recomputes the zoom floor when the map resizes", () => {
