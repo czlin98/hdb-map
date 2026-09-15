@@ -18,6 +18,8 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
     resize: vi.fn(),
     fitBounds: vi.fn(),
     flyTo: vi.fn(),
+    easeTo: vi.fn(),
+    getPadding: vi.fn().mockReturnValue({ top: 0, right: 0, bottom: 0, left: 0 }),
     getZoom: vi.fn().mockReturnValue(11),
     getCanvas: vi.fn().mockReturnValue({ style: {} }),
     on: vi.fn((ev: string, a: unknown, b?: unknown) => {
@@ -146,10 +148,31 @@ test("resets the camera padding when the selection is cleared", () => {
     />,
   );
   fire("load");
-  // Closing the sheet clears the selection; the bottom padding a prior fly-to left
-  // on the camera must be dropped so the map center isn't offset afterwards.
+  // A prior fly-to left bottom padding on the camera; simulate that leftover state.
+  map.getPadding.mockReturnValue({ top: 40, right: 0, bottom: 400, left: 0 });
+  // Closing the sheet clears the selection; that padding must be eased back to zero
+  // so the map center isn't offset afterwards (a glide, not an instant snap).
   rerender(
     <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} flyPaddingBottom={400} />,
   );
-  expect(map.setPadding).toHaveBeenCalledWith({ top: 0, right: 0, left: 0, bottom: 0 });
+  expect(map.easeTo).toHaveBeenCalledWith({ padding: { top: 0, right: 0, left: 0, bottom: 0 } });
+});
+
+test("skips the camera glide when clearing a selection that left no padding", () => {
+  // On desktop the fly-to uses zero padding, so a deselect has nothing to shed and
+  // must not fire a no-op easeTo (which would still emit camera move events).
+  const { rerender } = render(
+    <MapView
+      data={sampleIndex}
+      selectedId="123-ang-mo-kio-ave-3"
+      onSelectBlock={vi.fn()}
+      flyPaddingBottom={0}
+    />,
+  );
+  fire("load");
+  map.getPadding.mockReturnValue({ top: 0, right: 0, bottom: 0, left: 0 });
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} flyPaddingBottom={0} />,
+  );
+  expect(map.easeTo).not.toHaveBeenCalled();
 });

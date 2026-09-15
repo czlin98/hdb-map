@@ -160,9 +160,13 @@ export function MapView({
     if (!map || !map.getLayer("blocks-highlight")) return;
     map.setFilter("blocks-highlight", highlightFilter(selectedId));
     if (!selectedId) {
-      // flyTo padding persists on the camera, so clear it when the sheet closes,
-      // else the map stays centered in the top half and looks shifted down.
-      map.setPadding({ top: 0, right: 0, left: 0, bottom: 0 });
+      // Ease the fly-to padding back to zero when the sheet closes, so the camera
+      // glides up with it. Skip when there's no padding to clear, to avoid a
+      // redundant camera animation.
+      const p = map.getPadding();
+      if (p.top || p.right || p.bottom || p.left) {
+        map.easeTo({ padding: { top: 0, right: 0, left: 0, bottom: 0 } });
+      }
       return;
     }
     if (flyPaddingBottom !== null) {
