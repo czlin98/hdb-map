@@ -5,7 +5,7 @@ import { buildSearchIndex } from "./lib/search";
 import { useSelection } from "./store/selection";
 import { MapView } from "./components/MapView";
 import { SearchBox } from "./components/SearchBox";
-import { DetailsPanel } from "./components/DetailsPanel";
+import { DetailsPanel, type DetailsPanelHandle } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
 // First point peeks the details header; middle is a half sheet; the last point is fully open.
@@ -34,6 +34,7 @@ export default function App() {
   const [panelOpen, setPanelOpen] = useState(false);
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const panelRef = useRef<DetailsPanelHandle>(null);
 
   const { selectedId, selectedTown, select, clear } = useSelection();
 
@@ -86,7 +87,7 @@ export default function App() {
         data={index}
         selectedId={selectedId}
         onSelectBlock={openBlock}
-        onBackgroundClick={() => setPanelOpen(false)}
+        onBackgroundClick={() => panelRef.current?.close()}
         flyPaddingBottom={flyPaddingBottom}
         // Top clearance is for the mobile sheet layout only; desktop shows a side panel.
         topClearanceRef={isDesktop ? undefined : searchInputRef}
@@ -112,6 +113,7 @@ export default function App() {
 
       {status === "ready" && selectedId && selectedTown && (
         <DetailsPanel
+          ref={panelRef}
           selectedId={selectedId}
           selectedTown={selectedTown}
           getBlockDetail={getBlockDetail}

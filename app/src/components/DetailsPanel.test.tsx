@@ -1,8 +1,13 @@
-import { useState } from "react";
+import { createRef, useState } from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import type { GetBlockDetail } from "../lib/data";
-import { DetailsContent, DetailsPanel, useBlockDetail } from "./DetailsPanel";
+import {
+  DetailsContent,
+  DetailsPanel,
+  useBlockDetail,
+  type DetailsPanelHandle,
+} from "./DetailsPanel";
 import { renderHook } from "@testing-library/react";
 import { sampleShard } from "../test/fixtures";
 
@@ -81,6 +86,52 @@ test("desktop panel renders details and dismisses on the Close control", async (
       screen.queryByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ }),
     ).not.toBeInTheDocument(),
   );
+});
+
+test("imperative close() on desktop dismisses via the controlled open prop", async () => {
+  const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+  const onOpenChange = vi.fn();
+  const ref = createRef<DetailsPanelHandle>();
+  render(
+    <DetailsPanel
+      {...panelProps}
+      getBlockDetail={get}
+      isDesktop
+      open
+      onOpenChange={onOpenChange}
+      onClose={() => {}}
+      ref={ref}
+    />,
+  );
+  await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
+
+  ref.current?.close();
+  expect(onOpenChange).toHaveBeenCalledWith(false);
+});
+
+test("imperative close() on mobile dismisses via the drawer Close control", async () => {
+  // Vaul skips its close lifecycle when closed via the controlled prop, so the
+  // mobile close must click its own Close control instead (regression: the
+  // marker stayed selected because onClose never ran).
+  const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+  const ref = createRef<DetailsPanelHandle>();
+  render(
+    <DetailsPanel
+      {...panelProps}
+      getBlockDetail={get}
+      isDesktop={false}
+      open
+      onOpenChange={() => {}}
+      onClose={() => {}}
+      ref={ref}
+    />,
+  );
+  const closeBtn = await screen.findByRole("button", { name: /close/i });
+  const clicked = vi.fn();
+  closeBtn.addEventListener("click", clicked);
+
+  ref.current?.close();
+  expect(clicked).toHaveBeenCalledTimes(1);
 });
 
 test("desktop panel closes on Escape", async () => {

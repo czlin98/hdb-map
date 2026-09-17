@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useImperativeHandle, useRef, useState, type Ref } from "react";
 import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
@@ -128,9 +128,30 @@ interface PanelProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onClose: () => void;
+  ref?: Ref<DetailsPanelHandle>;
+}
+
+// Imperative close for parent-initiated dismissals (e.g. a background map tap).
+export interface DetailsPanelHandle {
+  close: () => void;
 }
 
 export function DetailsPanel(props: PanelProps) {
+  // Vaul does not fire its close callbacks when a snap-point drawer is closed via
+  // the controlled `open` prop, so onClose never runs; a parent-initiated mobile
+  // close clicks its Close control instead.
+  const { isDesktop, onOpenChange } = props;
+  const drawerCloseRef = useRef<HTMLButtonElement>(null);
+  useImperativeHandle(
+    props.ref,
+    () => ({
+      close: () => {
+        if (isDesktop) onOpenChange(false);
+        else drawerCloseRef.current?.click();
+      },
+    }),
+    [isDesktop, onOpenChange],
+  );
   const body = (
     <Body id={props.selectedId} town={props.selectedTown} getBlockDetail={props.getBlockDetail} />
   );
@@ -187,6 +208,7 @@ export function DetailsPanel(props: PanelProps) {
       <DrawerContent className="h-dvh data-[vaul-drawer-direction=bottom]:mt-0 data-[vaul-drawer-direction=bottom]:max-h-none">
         <DrawerTitle className="sr-only">Block details</DrawerTitle>
         <DrawerClose
+          ref={drawerCloseRef}
           aria-label="Close"
           className="text-muted-foreground absolute right-2 top-2 z-10 p-2 leading-none"
         >
