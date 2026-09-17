@@ -11,6 +11,7 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
     addLayer: vi.fn(),
     getLayer: vi.fn().mockReturnValue({}),
     getSource: vi.fn().mockReturnValue({ setData: vi.fn() }),
+    queryRenderedFeatures: vi.fn().mockReturnValue([]),
     setFilter: vi.fn(),
     setPadding: vi.fn(),
     setMinZoom: vi.fn(),
@@ -120,6 +121,44 @@ test("clicking a feature reports id + town", () => {
   fire("load");
   fire("click", { features: [{ properties: { id: "123-ang-mo-kio-ave-3", town: "ANG MO KIO" } }] });
   expect(onSelectBlock).toHaveBeenCalledWith("123-ang-mo-kio-ave-3", "ANG MO KIO");
+});
+
+test("tapping the map away from any block reports a background click", () => {
+  const onBackgroundClick = vi.fn();
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      onBackgroundClick={onBackgroundClick}
+    />,
+  );
+  fire("load");
+  map.queryRenderedFeatures.mockReturnValue([]);
+  fire("click", { point: { x: 10, y: 10 } });
+  expect(onBackgroundClick).toHaveBeenCalledTimes(1);
+});
+
+test("tapping a block does not report a background click", () => {
+  const onBackgroundClick = vi.fn();
+  const onSelectBlock = vi.fn();
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={onSelectBlock}
+      onBackgroundClick={onBackgroundClick}
+    />,
+  );
+  fire("load");
+  // A block sits under the tap, so the background handler must stay quiet.
+  map.queryRenderedFeatures.mockReturnValue([{ properties: { id: "123-ang-mo-kio-ave-3" } }]);
+  fire("click", {
+    point: { x: 10, y: 10 },
+    features: [{ properties: { id: "123-ang-mo-kio-ave-3", town: "ANG MO KIO" } }],
+  });
+  expect(onSelectBlock).toHaveBeenCalledWith("123-ang-mo-kio-ave-3", "ANG MO KIO");
+  expect(onBackgroundClick).not.toHaveBeenCalled();
 });
 
 test("selection sets the highlight filter and flies", () => {

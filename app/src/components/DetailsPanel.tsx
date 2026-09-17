@@ -123,12 +123,14 @@ interface PanelProps {
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
+  // Controlled by the parent so a map tap can start the close animation before
+  // the selection clears. Set false to animate out; onClose fires once done.
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
   onClose: () => void;
 }
 
 export function DetailsPanel(props: PanelProps) {
-  // Local open state so Vaul can animate the close before the parent clears.
-  const [open, setOpen] = useState(true);
   const body = (
     <Body id={props.selectedId} town={props.selectedTown} getBlockDetail={props.getBlockDetail} />
   );
@@ -136,17 +138,17 @@ export function DetailsPanel(props: PanelProps) {
   if (props.isDesktop) {
     return (
       <Sheet
-        open={open}
+        open={props.open}
         // Non-modal so the map stays interactive; no focus trap, scroll lock, or
         // overlay.
         modal={false}
-        onOpenChange={setOpen}
+        onOpenChange={props.onOpenChange}
       >
         <SheetContent
           onOpenAutoFocus={(e) => e.preventDefault()}
           onInteractOutside={(e) => e.preventDefault()}
           onAnimationEnd={(e) => {
-            if (e.target === e.currentTarget && !open) props.onClose();
+            if (e.target === e.currentTarget && !props.open) props.onClose();
           }}
         >
           <SheetTitle className="sr-only">Block details</SheetTitle>
@@ -167,12 +169,12 @@ export function DetailsPanel(props: PanelProps) {
 
   return (
     <Drawer
-      open={open}
+      open={props.open}
       modal={false}
       snapPoints={props.snapPoints}
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
-      onOpenChange={setOpen}
+      onOpenChange={props.onOpenChange}
       // repositionInputs re-fits the sheet to the search box's keyboard, which breaks
       // its layout on mobile.
       repositionInputs={false}

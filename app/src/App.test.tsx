@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, expect, test, vi } from "vitest";
 
@@ -7,9 +7,11 @@ vi.mock("./components/MapView", () => ({
   MapView: ({
     data,
     onSelectBlock,
+    onBackgroundClick,
   }: {
     data: IndexFeatureCollection;
     onSelectBlock: (id: string, town: string) => void;
+    onBackgroundClick?: () => void;
   }) => (
     <div>
       {data.features.map((f: BlockFeature) => (
@@ -20,6 +22,7 @@ vi.mock("./components/MapView", () => ({
           marker-{f.properties.id}
         </button>
       ))}
+      <button onClick={() => onBackgroundClick?.()}>map-background</button>
     </div>
   ),
 }));
@@ -57,6 +60,25 @@ test("loads data, then opens details when a marker is selected", async () => {
   expect(
     await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3 560123/ }),
   ).toBeInTheDocument();
+});
+
+test("tapping the map background dismisses an open details panel", async () => {
+  stubFetch({
+    "index.geojson": sampleIndex,
+    "towns.json": sampleTowns,
+    "ang-mo-kio.json": sampleShard,
+  });
+  render(<App />);
+
+  await userEvent.click(await screen.findByText("marker-123-ang-mo-kio-ave-3"));
+  await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3 560123/ });
+
+  await userEvent.click(screen.getByText("map-background"));
+  await waitFor(() =>
+    expect(
+      screen.queryByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ }),
+    ).not.toBeInTheDocument(),
+  );
 });
 
 test("shows a fatal error card when index fails to load", async () => {

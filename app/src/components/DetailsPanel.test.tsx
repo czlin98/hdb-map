@@ -1,5 +1,7 @@
+import { useState } from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import type { GetBlockDetail } from "../lib/data";
 import { DetailsContent, DetailsPanel, useBlockDetail } from "./DetailsPanel";
 import { renderHook } from "@testing-library/react";
 import { sampleShard } from "../test/fixtures";
@@ -11,6 +13,30 @@ const panelProps = {
   activeSnap: 0.5 as string | number | null,
   onSnapChange: () => {},
 };
+
+// The parent owns open/close (see App.tsx); mirror that here so the close
+// controls drive onOpenChange and the panel unmounts once closed.
+function ControlledPanel({
+  getBlockDetail,
+  isDesktop,
+}: {
+  getBlockDetail: GetBlockDetail;
+  isDesktop: boolean;
+}) {
+  const [open, setOpen] = useState(true);
+  const [gone, setGone] = useState(false);
+  if (gone) return null;
+  return (
+    <DetailsPanel
+      {...panelProps}
+      getBlockDetail={getBlockDetail}
+      isDesktop={isDesktop}
+      open={open}
+      onOpenChange={setOpen}
+      onClose={() => setGone(true)}
+    />
+  );
+}
 
 test("DetailsContent renders header, fields, and Sold/Rental groups", () => {
   render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
@@ -45,7 +71,7 @@ test("useBlockDetail: missing record -> empty", async () => {
 
 test("desktop panel renders details and dismisses on the Close control", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
-  render(<DetailsPanel {...panelProps} getBlockDetail={get} isDesktop onClose={() => {}} />);
+  render(<ControlledPanel getBlockDetail={get} isDesktop />);
 
   await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
   await userEvent.click(screen.getByRole("button", { name: /close/i }));
@@ -59,7 +85,7 @@ test("desktop panel renders details and dismisses on the Close control", async (
 
 test("desktop panel closes on Escape", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
-  render(<DetailsPanel {...panelProps} getBlockDetail={get} isDesktop onClose={() => {}} />);
+  render(<ControlledPanel getBlockDetail={get} isDesktop />);
 
   await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
   await userEvent.keyboard("{Escape}");
