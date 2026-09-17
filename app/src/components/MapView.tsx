@@ -145,11 +145,12 @@ export function MapView({
       const p = f.properties as { id: string; town: string };
       onSelectRef.current(p.id, p.town);
     });
-    // A tap that lands on no block is a background tap. Query the point rather
-    // than rely on event ordering with the layer handler above, so a tap can
-    // never both select a block and dismiss the panel.
+    // A background tap hits no marker and no selected marker; it dismisses the panel.
     map.on("click", (e) => {
-      const hits = map.queryRenderedFeatures(e.point, { layers: ["blocks-circles"] });
+      if (!map.getLayer("blocks-circles")) return; // ignore taps before load
+      const hits = map.queryRenderedFeatures(e.point, {
+        layers: ["blocks-circles", "blocks-highlight"],
+      });
       if (hits.length === 0) onBackgroundClickRef.current?.();
     });
 

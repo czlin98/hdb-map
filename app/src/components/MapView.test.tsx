@@ -137,6 +137,30 @@ test("tapping the map away from any block reports a background click", () => {
   map.queryRenderedFeatures.mockReturnValue([]);
   fire("click", { point: { x: 10, y: 10 } });
   expect(onBackgroundClick).toHaveBeenCalledTimes(1);
+  // The hit test must include the highlight layer, else tapping the selected
+  // marker's (larger) ring would read as background and dismiss the panel.
+  expect(map.queryRenderedFeatures).toHaveBeenCalledWith(
+    { x: 10, y: 10 },
+    { layers: ["blocks-circles", "blocks-highlight"] },
+  );
+});
+
+test("ignores clicks before the block layer has loaded", () => {
+  const onBackgroundClick = vi.fn();
+  // Simulate the pre-load window: the style's "load" hasn't added the layers.
+  map.getLayer.mockReturnValue(undefined);
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      onBackgroundClick={onBackgroundClick}
+    />,
+  );
+  fire("click", { point: { x: 5, y: 5 } });
+  expect(map.queryRenderedFeatures).not.toHaveBeenCalled();
+  expect(onBackgroundClick).not.toHaveBeenCalled();
+  map.getLayer.mockReturnValue({}); // restore for other tests
 });
 
 test("tapping a block does not report a background click", () => {
