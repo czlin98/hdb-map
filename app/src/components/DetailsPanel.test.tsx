@@ -1,6 +1,13 @@
+import { createRef, useState } from "react";
 import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { DetailsContent, DetailsPanel, useBlockDetail } from "./DetailsPanel";
+import type { GetBlockDetail } from "../lib/data";
+import {
+  DetailsContent,
+  DetailsPanel,
+  useBlockDetail,
+  type DetailsPanelHandle,
+} from "./DetailsPanel";
 import { renderHook } from "@testing-library/react";
 import { sampleShard } from "../test/fixtures";
 
@@ -11,6 +18,30 @@ const panelProps = {
   activeSnap: 0.5 as string | number | null,
   onSnapChange: () => {},
 };
+
+// The parent owns open/close (see App.tsx); mirror that here so the close
+// controls drive onOpenChange and the panel unmounts once closed.
+function ControlledPanel({
+  getBlockDetail,
+  isDesktop,
+}: {
+  getBlockDetail: GetBlockDetail;
+  isDesktop: boolean;
+}) {
+  const [open, setOpen] = useState(true);
+  const [gone, setGone] = useState(false);
+  if (gone) return null;
+  return (
+    <DetailsPanel
+      {...panelProps}
+      getBlockDetail={getBlockDetail}
+      isDesktop={isDesktop}
+      open={open}
+      onOpenChange={setOpen}
+      onClose={() => setGone(true)}
+    />
+  );
+}
 
 test("DetailsContent renders header, fields, and Sold/Rental groups", () => {
   render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
@@ -45,7 +76,7 @@ test("useBlockDetail: missing record -> empty", async () => {
 
 test("desktop panel renders details and dismisses on the Close control", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
-  render(<DetailsPanel {...panelProps} getBlockDetail={get} isDesktop onClose={() => {}} />);
+  render(<ControlledPanel getBlockDetail={get} isDesktop />);
 
   await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
   await userEvent.click(screen.getByRole("button", { name: /close/i }));
@@ -57,9 +88,55 @@ test("desktop panel renders details and dismisses on the Close control", async (
   );
 });
 
+test("imperative close() on desktop dismisses via the controlled open prop", async () => {
+  const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+  const onOpenChange = vi.fn();
+  const ref = createRef<DetailsPanelHandle>();
+  render(
+    <DetailsPanel
+      {...panelProps}
+      getBlockDetail={get}
+      isDesktop
+      open
+      onOpenChange={onOpenChange}
+      onClose={() => {}}
+      ref={ref}
+    />,
+  );
+  await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
+
+  ref.current?.close();
+  expect(onOpenChange).toHaveBeenCalledWith(false);
+});
+
+test("imperative close() on mobile dismisses via the drawer Close control", async () => {
+  // Vaul skips its close lifecycle when closed via the controlled prop, so the
+  // mobile close must click its own Close control instead (regression: the
+  // marker stayed selected because onClose never ran).
+  const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
+  const ref = createRef<DetailsPanelHandle>();
+  render(
+    <DetailsPanel
+      {...panelProps}
+      getBlockDetail={get}
+      isDesktop={false}
+      open
+      onOpenChange={() => {}}
+      onClose={() => {}}
+      ref={ref}
+    />,
+  );
+  const closeBtn = await screen.findByRole("button", { name: /close/i });
+  const clicked = vi.fn();
+  closeBtn.addEventListener("click", clicked);
+
+  ref.current?.close();
+  expect(clicked).toHaveBeenCalledTimes(1);
+});
+
 test("desktop panel closes on Escape", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
-  render(<DetailsPanel {...panelProps} getBlockDetail={get} isDesktop onClose={() => {}} />);
+  render(<ControlledPanel getBlockDetail={get} isDesktop />);
 
   await screen.findByRole("heading", { name: "123 ANG MO KIO AVENUE 3 560123" });
   await userEvent.keyboard("{Escape}");

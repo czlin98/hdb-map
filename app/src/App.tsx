@@ -5,7 +5,7 @@ import { buildSearchIndex } from "./lib/search";
 import { useSelection } from "./store/selection";
 import { MapView } from "./components/MapView";
 import { SearchBox } from "./components/SearchBox";
-import { DetailsPanel } from "./components/DetailsPanel";
+import { DetailsPanel, type DetailsPanelHandle } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
 // First point peeks the details header; middle is a half sheet; the last point is fully open.
@@ -29,10 +29,21 @@ export default function App() {
   const [towns, setTowns] = useState<Town[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [activeSnap, setActiveSnap] = useState<string | number | null>(SNAP_POINTS[1]);
+  // Panel open/close is lifted here so a background map tap can start the close
+  // animation; the panel calls onClose (clear) only once the animation ends.
+  const [panelOpen, setPanelOpen] = useState(false);
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const panelRef = useRef<DetailsPanelHandle>(null);
 
   const { selectedId, selectedTown, select, clear } = useSelection();
+
+  // Set the open flag in the same handler as the selection (not an effect) so the
+  // panel's first render already sees open=true and never flashes a close.
+  const openBlock = (id: string, town: string) => {
+    select(id, town);
+    setPanelOpen(true);
+  };
 
   useEffect(() => {
     let alive = true;
@@ -75,7 +86,8 @@ export default function App() {
       <MapView
         data={index}
         selectedId={selectedId}
-        onSelectBlock={select}
+        onSelectBlock={openBlock}
+        onBackgroundClick={() => panelRef.current?.close()}
         flyPaddingBottom={flyPaddingBottom}
         // Top clearance is for the mobile sheet layout only; desktop shows a side panel.
         topClearanceRef={isDesktop ? undefined : searchInputRef}
@@ -85,7 +97,7 @@ export default function App() {
         <div className="absolute z-30 w-[min(92vw,22rem)] top-2 left-1/2 -translate-x-1/2 md:left-2 md:translate-x-0">
           <SearchBox
             rows={searchRows}
-            onSelect={(r) => select(r.id, r.town)}
+            onSelect={(r) => openBlock(r.id, r.town)}
             inputRef={searchInputRef}
           />
         </div>
@@ -101,6 +113,7 @@ export default function App() {
 
       {status === "ready" && selectedId && selectedTown && (
         <DetailsPanel
+          ref={panelRef}
           selectedId={selectedId}
           selectedTown={selectedTown}
           getBlockDetail={getBlockDetail}
@@ -108,6 +121,8 @@ export default function App() {
           snapPoints={[...SNAP_POINTS]}
           activeSnap={activeSnap}
           onSnapChange={setActiveSnap}
+          open={panelOpen}
+          onOpenChange={setPanelOpen}
           onClose={clear}
         />
       )}

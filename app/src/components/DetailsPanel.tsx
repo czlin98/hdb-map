@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useImperativeHandle, useRef, useState, type Ref } from "react";
 import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
@@ -123,12 +123,35 @@ interface PanelProps {
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
+  // Controlled by the parent so a map tap can start the close animation before
+  // the selection clears. Set false to animate out; onClose fires once done.
+  open: boolean;
+  onOpenChange: (open: boolean) => void;
   onClose: () => void;
+  ref?: Ref<DetailsPanelHandle>;
+}
+
+// Imperative close for parent-initiated dismissals (e.g. a background map tap).
+export interface DetailsPanelHandle {
+  close: () => void;
 }
 
 export function DetailsPanel(props: PanelProps) {
-  // Local open state so Vaul can animate the close before the parent clears.
-  const [open, setOpen] = useState(true);
+  // Vaul does not fire its close callbacks when a snap-point drawer is closed via
+  // the controlled `open` prop, so onClose never runs; a parent-initiated mobile
+  // close clicks its Close control instead.
+  const { isDesktop, onOpenChange } = props;
+  const drawerCloseRef = useRef<HTMLButtonElement>(null);
+  useImperativeHandle(
+    props.ref,
+    () => ({
+      close: () => {
+        if (isDesktop) onOpenChange(false);
+        else drawerCloseRef.current?.click();
+      },
+    }),
+    [isDesktop, onOpenChange],
+  );
   const body = (
     <Body id={props.selectedId} town={props.selectedTown} getBlockDetail={props.getBlockDetail} />
   );
@@ -136,17 +159,17 @@ export function DetailsPanel(props: PanelProps) {
   if (props.isDesktop) {
     return (
       <Sheet
-        open={open}
+        open={props.open}
         // Non-modal so the map stays interactive; no focus trap, scroll lock, or
         // overlay.
         modal={false}
-        onOpenChange={setOpen}
+        onOpenChange={props.onOpenChange}
       >
         <SheetContent
           onOpenAutoFocus={(e) => e.preventDefault()}
           onInteractOutside={(e) => e.preventDefault()}
           onAnimationEnd={(e) => {
-            if (e.target === e.currentTarget && !open) props.onClose();
+            if (e.target === e.currentTarget && !props.open) props.onClose();
           }}
         >
           <SheetTitle className="sr-only">Block details</SheetTitle>
@@ -167,12 +190,12 @@ export function DetailsPanel(props: PanelProps) {
 
   return (
     <Drawer
-      open={open}
+      open={props.open}
       modal={false}
       snapPoints={props.snapPoints}
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
-      onOpenChange={setOpen}
+      onOpenChange={props.onOpenChange}
       // repositionInputs re-fits the sheet to the search box's keyboard, which breaks
       // its layout on mobile.
       repositionInputs={false}
@@ -185,6 +208,7 @@ export function DetailsPanel(props: PanelProps) {
       <DrawerContent className="h-dvh data-[vaul-drawer-direction=bottom]:mt-0 data-[vaul-drawer-direction=bottom]:max-h-none">
         <DrawerTitle className="sr-only">Block details</DrawerTitle>
         <DrawerClose
+          ref={drawerCloseRef}
           aria-label="Close"
           className="text-muted-foreground absolute right-2 top-2 z-10 p-2 leading-none"
         >

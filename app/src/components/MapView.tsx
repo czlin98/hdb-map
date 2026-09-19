@@ -24,6 +24,8 @@ interface Props {
   data: IndexFeatureCollection;
   selectedId: string | null;
   onSelectBlock: (id: string, town: string) => void;
+  // Tap on the map away from any block; used to dismiss the details panel.
+  onBackgroundClick?: () => void;
   // Bottom padding for the fly-to so the marker clears the sheet; null = skip the fly entirely.
   flyPaddingBottom?: number | null;
   // The search input; its bottom edge is padded past so the marker centers between
@@ -39,6 +41,7 @@ export function MapView({
   data,
   selectedId,
   onSelectBlock,
+  onBackgroundClick,
   flyPaddingBottom = 0,
   topClearanceRef,
 }: Props) {
@@ -46,6 +49,8 @@ export function MapView({
   const mapRef = useRef<maplibregl.Map | null>(null);
   const onSelectRef = useRef(onSelectBlock);
   onSelectRef.current = onSelectBlock;
+  const onBackgroundClickRef = useRef(onBackgroundClick);
+  onBackgroundClickRef.current = onBackgroundClick;
   // Latest data, read inside the one-shot load handler so the source is
   // created with populated features even when the index resolves before
   // the style loads.
@@ -139,6 +144,14 @@ export function MapView({
       if (!f) return;
       const p = f.properties as { id: string; town: string };
       onSelectRef.current(p.id, p.town);
+    });
+    // A background tap hits no marker and no selected marker; it dismisses the panel.
+    map.on("click", (e) => {
+      if (!map.getLayer("blocks-circles")) return; // ignore taps before load
+      const hits = map.queryRenderedFeatures(e.point, {
+        layers: ["blocks-circles", "blocks-highlight"],
+      });
+      if (hits.length === 0) onBackgroundClickRef.current?.();
     });
 
     return () => {
