@@ -126,7 +126,11 @@ export function MapView({
       map.fitBounds(MIN_BOUNDS, { animate: false });
     });
 
-    const popup = new maplibregl.Popup({ closeButton: false, closeOnClick: false });
+    const popup = new maplibregl.Popup({
+      closeButton: false,
+      closeOnClick: false,
+      className: "block-tooltip",
+    });
     map.on("mousemove", "blocks-circles", (e) => {
       if (!window.matchMedia("(hover: hover)").matches) return;
       const f = e.features?.[0];
