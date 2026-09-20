@@ -11,7 +11,7 @@ export function DetailsContent({ detail }: { detail: BlockDetail }) {
   const rental = orderedUnits(detail.rental_units_by_type, RENTAL_FLAT_TYPES);
   return (
     <div className="space-y-4 p-4">
-      <h2 className="border-b border-border pb-2 text-lg font-semibold">
+      <h2 className="border-b border-border pb-2 pr-8 text-lg font-semibold">
         {detail.blk_no} {detail.street_full} {detail.postal}
       </h2>
       <dl className="grid grid-cols-2 gap-2 text-sm">
