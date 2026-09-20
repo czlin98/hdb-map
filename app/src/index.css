@@ -131,3 +131,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* Marker hover tooltip: adjust MapLibre's default padding and round the corners. */
+.block-tooltip .maplibregl-popup-content {
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.25rem;
+}
