@@ -25,15 +25,91 @@ test("shows empty state when nothing matches", async () => {
   expect(await screen.findByText(/no matches/i)).toBeInTheDocument();
 });
 
-test("selecting a result clears the query and collapses the list", async () => {
+const AMK = "123 ANG MO KIO AVENUE 3 560123";
+const BEDOK = "1 BEDOK NORTH STREET 1 460001";
+
+test("selecting a result keeps the query but collapses the list", async () => {
   render(<SearchBox rows={rows} onSelect={vi.fn()} />);
 
   const input = screen.getByPlaceholderText(/search/i);
   await userEvent.type(input, "avenue 3");
-  await userEvent.click(await screen.findByText("123 ANG MO KIO AVENUE 3 560123"));
+  await userEvent.click(await screen.findByText(AMK));
 
-  expect(input).toHaveValue("");
-  expect(screen.queryByText("123 ANG MO KIO AVENUE 3 560123")).not.toBeInTheDocument();
+  expect(input).toHaveValue("avenue 3");
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
+});
+
+test("reopening the input shows the same results", async () => {
+  render(<SearchBox rows={rows} onSelect={vi.fn()} />);
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "1");
+  await userEvent.click(await screen.findByText(BEDOK));
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
+
+  await userEvent.click(input);
+
+  expect(screen.getByText(AMK)).toBeInTheDocument();
+  expect(screen.getByText(BEDOK)).toBeInTheDocument();
+});
+
+test("an Enter pick keeps focus; typing or arrowing reopens the list", async () => {
+  const onSelect = vi.fn();
+  render(<SearchBox rows={rows} onSelect={onSelect} />);
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await screen.findByText(AMK);
+  await userEvent.keyboard("{Enter}");
+
+  expect(onSelect).toHaveBeenCalledWith(expect.objectContaining({ id: "123-ang-mo-kio-ave-3" }));
+  expect(input).toHaveFocus();
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
+
+  await userEvent.keyboard("{ArrowDown}");
+  expect(screen.getByText(AMK)).toBeInTheDocument();
+});
+
+test("Escape and a tap outside both close the list", async () => {
+  render(
+    <>
+      <SearchBox rows={rows} onSelect={vi.fn()} />
+      <div data-testid="map" />
+    </>,
+  );
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await screen.findByText(AMK);
+  await userEvent.keyboard("{Escape}");
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
+  expect(input).toHaveValue("avenue 3");
+
+  await userEvent.click(input);
+  expect(screen.getByText(AMK)).toBeInTheDocument();
+  await userEvent.click(screen.getByTestId("map"));
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
+});
+
+test("tabbing out through the clear button closes the list", async () => {
+  render(
+    <>
+      <SearchBox rows={rows} onSelect={vi.fn()} />
+      <button>next</button>
+    </>,
+  );
+
+  await userEvent.type(screen.getByPlaceholderText(/search/i), "avenue 3");
+  await screen.findByText(AMK);
+
+  // Input to clear button stays inside the box, so the list stays.
+  await userEvent.tab();
+  expect(screen.getByRole("button", { name: /clear search/i })).toHaveFocus();
+  expect(screen.getByText(AMK)).toBeInTheDocument();
+
+  await userEvent.tab();
+  expect(screen.getByRole("button", { name: "next" })).toHaveFocus();
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
 });
 
 test("clear button empties the query and hides results", async () => {
