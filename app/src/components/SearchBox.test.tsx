@@ -70,7 +70,39 @@ test("an Enter pick keeps focus; typing or arrowing reopens the list", async () 
   expect(screen.getByText(AMK)).toBeInTheDocument();
 });
 
-test("Escape and a tap outside both close the list", async () => {
+test("Escape closes the list, drops focus, and dismisses, keeping the query", async () => {
+  const onDismiss = vi.fn();
+  render(<SearchBox rows={rows} onSelect={vi.fn()} onDismiss={onDismiss} />);
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await screen.findByText(AMK);
+  await userEvent.keyboard("{Escape}");
+
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
+  expect(input).not.toHaveFocus();
+  expect(input).toHaveValue("avenue 3");
+  expect(onDismiss).toHaveBeenCalledTimes(1);
+
+  await userEvent.click(input);
+  expect(screen.getByText(AMK)).toBeInTheDocument();
+});
+
+test("Escape dismisses even when the list is already closed", async () => {
+  const onDismiss = vi.fn();
+  render(<SearchBox rows={rows} onSelect={vi.fn()} onDismiss={onDismiss} />);
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await userEvent.keyboard("{Enter}");
+  expect(input).toHaveFocus();
+
+  await userEvent.keyboard("{Escape}");
+  expect(input).not.toHaveFocus();
+  expect(onDismiss).toHaveBeenCalledTimes(1);
+});
+
+test("a tap outside closes the list", async () => {
   render(
     <>
       <SearchBox rows={rows} onSelect={vi.fn()} />
@@ -78,15 +110,8 @@ test("Escape and a tap outside both close the list", async () => {
     </>,
   );
 
-  const input = screen.getByPlaceholderText(/search/i);
-  await userEvent.type(input, "avenue 3");
+  await userEvent.type(screen.getByPlaceholderText(/search/i), "avenue 3");
   await screen.findByText(AMK);
-  await userEvent.keyboard("{Escape}");
-  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
-  expect(input).toHaveValue("avenue 3");
-
-  await userEvent.click(input);
-  expect(screen.getByText(AMK)).toBeInTheDocument();
   await userEvent.click(screen.getByTestId("map"));
   expect(screen.queryByText(AMK)).not.toBeInTheDocument();
 });

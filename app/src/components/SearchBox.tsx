@@ -5,12 +5,14 @@ import { searchBlocks, type SearchRow } from "../lib/search";
 interface Props {
   rows: SearchRow[];
   onSelect: (row: SearchRow) => void;
+  // Escape in the box; the parent closes whatever the search opened (the details panel).
+  onDismiss?: () => void;
   // Ref onto the search input; the map measures its bottom edge to pad the fly-to
   // so a selected marker stays clear of the search box.
   inputRef?: Ref<HTMLInputElement>;
 }
 
-export function SearchBox({ rows, onSelect, inputRef }: Props) {
+export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
   const [query, setQuery] = useState("");
   // The query outlives a pick so the user can reopen the same results and browse
   // neighbouring blocks; only the list's visibility is toggled.
@@ -55,9 +57,13 @@ export function SearchBox({ rows, onSelect, inputRef }: Props) {
         // Focus alone misses a re-click on an input that kept focus after an Enter pick.
         onClick={show}
         onKeyDown={(e) => {
-          if (e.key === "Escape" && open) {
+          // One Escape backs all the way out: list, focus, and details panel. The query
+          // stays, so reopening the box restores the results.
+          if (e.key === "Escape") {
             e.preventDefault();
             setOpen(false);
+            e.currentTarget.blur();
+            onDismiss?.();
           } else if ((e.key === "ArrowDown" || e.key === "ArrowUp") && !open) {
             show();
           }
