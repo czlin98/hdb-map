@@ -98,6 +98,7 @@ export default function App() {
           <SearchBox
             rows={searchRows}
             onSelect={(r) => openBlock(r.id, r.town)}
+            onDismiss={() => panelRef.current?.close()}
             inputRef={searchInputRef}
           />
         </div>
