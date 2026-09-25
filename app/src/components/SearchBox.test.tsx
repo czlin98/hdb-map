@@ -53,6 +53,29 @@ test("reopening the input shows the same results", async () => {
   expect(screen.getByText(BEDOK)).toBeInTheDocument();
 });
 
+test("reopening highlights the first result, not the previous pick", async () => {
+  // Three rows, picking the middle: cmdk only clears a picked row's highlight when it
+  // is the last row to unmount, so this is the case that used to leave it behind.
+  const three = ["10", "11", "12"].map((blk) => ({
+    id: blk,
+    blk_no: blk,
+    street_full: "TEST STREET",
+    postal: `0000${blk}`,
+    town: "TEST",
+    haystack: `${blk} TEST STREET 0000${blk}`,
+  }));
+  render(<SearchBox rows={three} onSelect={vi.fn()} />);
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "test");
+  await userEvent.click(await screen.findByText("11 TEST STREET 000011"));
+  await userEvent.click(input);
+
+  const row = (text: string) => screen.getByText(text).closest("[cmdk-item]");
+  expect(row("10 TEST STREET 000010")).toHaveAttribute("aria-selected", "true");
+  expect(row("11 TEST STREET 000011")).toHaveAttribute("aria-selected", "false");
+});
+
 test("an Enter pick keeps focus; typing or arrowing reopens the list", async () => {
   const onSelect = vi.fn();
   render(<SearchBox rows={rows} onSelect={onSelect} />);

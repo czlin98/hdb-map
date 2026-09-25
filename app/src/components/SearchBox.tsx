@@ -17,9 +17,18 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
   // The query outlives a pick so the user can reopen the same results and browse
   // neighbouring blocks; only the list's visibility is toggled.
   const [open, setOpen] = useState(false);
+  // cmdk's highlighted row, controlled only so reopening can reset it.
+  const [active, setActive] = useState("");
   const rootRef = useRef<HTMLDivElement>(null);
   const results = useMemo(() => searchBlocks(rows, query), [rows, query]);
-  const show = () => setOpen(true);
+
+  function show() {
+    if (open) return;
+    setOpen(true);
+    // cmdk only forgets a highlight when the *last* row unmounts, so a picked row
+    // would stay highlighted on reopen. Resetting starts it on the first result.
+    setActive("");
+  }
 
   // A tap or focus landing outside the box (the map, the details panel) dismisses the
   // list. The input's blur can't do this: a tap on a result blurs it before the click
@@ -44,7 +53,13 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
 
   return (
     // We filter ourselves; disable cmdk's built-in filtering.
-    <Command ref={rootRef} shouldFilter={false} className="w-full">
+    <Command
+      ref={rootRef}
+      shouldFilter={false}
+      value={active}
+      onValueChange={setActive}
+      className="w-full"
+    >
       <CommandInput
         ref={inputRef}
         value={query}
