@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { act, render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { SearchBox } from "./SearchBox";
 import { buildSearchIndex } from "../lib/search";
@@ -91,6 +91,23 @@ test("an Enter pick keeps focus; typing or arrowing reopens the list", async () 
 
   await userEvent.keyboard("{ArrowDown}");
   expect(screen.getByText(AMK)).toBeInTheDocument();
+});
+
+test("refocusing the input without a click does not reopen the list", async () => {
+  render(<SearchBox rows={rows} onSelect={vi.fn()} />);
+
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "avenue 3");
+  await screen.findByText(AMK);
+  await userEvent.keyboard("{Enter}");
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
+
+  // Switching to another tab and back blurs and refocuses the input, with no click.
+  act(() => {
+    input.blur();
+    input.focus();
+  });
+  expect(screen.queryByText(AMK)).not.toBeInTheDocument();
 });
 
 test("Escape closes the list, drops focus, and dismisses, keeping the query", async () => {

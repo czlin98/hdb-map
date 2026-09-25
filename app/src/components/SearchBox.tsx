@@ -68,8 +68,8 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
           openList();
         }}
         onClear={() => setQuery("")}
-        onFocus={openList}
-        // Focus alone misses a re-click on an input that kept focus after an Enter pick.
+        // Open on a click or tap, not on focus: returning to the tab refocuses the
+        // input and would pop the list open over the map by itself.
         onClick={openList}
         onKeyDown={(e) => {
           // One Escape backs all the way out: list, focus, and details panel. The query
