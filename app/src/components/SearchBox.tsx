@@ -22,7 +22,7 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
   const rootRef = useRef<HTMLDivElement>(null);
   const results = useMemo(() => searchBlocks(rows, query), [rows, query]);
 
-  function show() {
+  function openList() {
     if (open) return;
     setOpen(true);
     // cmdk only forgets a highlight when the *last* row unmounts, so a picked row
@@ -65,12 +65,12 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
         value={query}
         onValueChange={(v) => {
           setQuery(v);
-          setOpen(true);
+          openList();
         }}
         onClear={() => setQuery("")}
-        onFocus={show}
+        onFocus={openList}
         // Focus alone misses a re-click on an input that kept focus after an Enter pick.
-        onClick={show}
+        onClick={openList}
         onKeyDown={(e) => {
           // One Escape backs all the way out: list, focus, and details panel. The query
           // stays, so reopening the box restores the results.
@@ -80,7 +80,7 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
             e.currentTarget.blur();
             onDismiss?.();
           } else if ((e.key === "ArrowDown" || e.key === "ArrowUp") && !open) {
-            show();
+            openList();
           }
         }}
         placeholder="Search block, street, or postal…"
