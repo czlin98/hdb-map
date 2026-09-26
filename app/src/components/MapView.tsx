@@ -47,6 +47,17 @@ function labelFilter(id: string | null): maplibregl.FilterSpecification {
   return ["!=", ["get", "id"], id ?? ""];
 }
 
+// Layers that count as touching a block: the number beside a dot belongs to it, and on touch
+// it is the bigger, more readable target.
+const DOT_LAYERS = ["blocks-highlight", "blocks-circles"];
+const BLOCK_LAYERS = [...DOT_LAYERS, "blocks-highlight-label", "blocks-labels"];
+
+// Labels render above dots, so they come first in a hit list; prefer a dot, since a label
+// can overlap another block's dot and the dot is the more precise target.
+function pickBlock(features: maplibregl.MapGeoJSONFeature[]) {
+  return features.find((f) => DOT_LAYERS.includes(f.layer.id)) ?? features[0];
+}
+
 // Label text size (px) at LABEL_MIN_ZOOM and at max zoom (17).
 const LABEL_SIZE: [number, number] = [10, 12];
 // Space between a dot's edge and its label.
@@ -220,31 +231,29 @@ export function MapView({
       closeOnClick: false,
       className: "block-tooltip",
     });
-    map.on("mousemove", "blocks-circles", (e) => {
+    map.on("mousemove", BLOCK_LAYERS, (e) => {
       if (!window.matchMedia("(hover: hover)").matches) return;
-      const f = e.features?.[0];
+      const f = pickBlock(e.features ?? []);
       if (!f) return;
       map.getCanvas().style.cursor = "pointer";
       const p = f.properties as { blk_no: string; street: string };
       popup.setLngLat(e.lngLat).setText(`${p.blk_no} ${p.street}`).addTo(map);
     });
-    map.on("mouseleave", "blocks-circles", () => {
+    map.on("mouseleave", BLOCK_LAYERS, () => {
       map.getCanvas().style.cursor = "";
       popup.remove();
     });
-    map.on("click", "blocks-circles", (e) => {
-      const f = e.features?.[0];
-      if (!f) return;
-      const p = f.properties as { id: string; town: string };
-      onSelectRef.current(p.id, p.town);
-    });
-    // A background tap hits no marker and no selected marker; it dismisses the panel.
+    // One handler for block taps and background taps, so a tap can't both select a block
+    // and dismiss the panel. A tap on no dot, ring or label dismisses it.
     map.on("click", (e) => {
       if (!map.getLayer("blocks-circles")) return; // ignore taps before load
-      const hits = map.queryRenderedFeatures(e.point, {
-        layers: ["blocks-circles", "blocks-highlight"],
-      });
-      if (hits.length === 0) onBackgroundClickRef.current?.();
+      const f = pickBlock(map.queryRenderedFeatures(e.point, { layers: BLOCK_LAYERS }));
+      if (!f) {
+        onBackgroundClickRef.current?.();
+        return;
+      }
+      const p = f.properties as { id: string; town: string };
+      onSelectRef.current(p.id, p.town);
     });
 
     return () => {
