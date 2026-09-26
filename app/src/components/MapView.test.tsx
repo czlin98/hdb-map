@@ -147,33 +147,70 @@ test("creates the source with the latest data if index beats load", () => {
   expect(sourceArg.data.features).toHaveLength(2);
 });
 
-test("clicking a feature reports id + town", () => {
-  const onSelectBlock = vi.fn();
-  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={onSelectBlock} />);
-  fire("load");
-  fire("click", { features: [{ properties: { id: "123-ang-mo-kio-ave-3", town: "ANG MO KIO" } }] });
-  expect(onSelectBlock).toHaveBeenCalledWith("123-ang-mo-kio-ave-3", "ANG MO KIO");
-});
+// A rendered feature as queryRenderedFeatures returns it: the layer it was hit on + its block.
+function hit(layer: string, id: string, town = "ANG MO KIO") {
+  return { layer: { id: layer }, properties: { id, town } };
+}
 
-test("tapping the map away from any block reports a background click", () => {
+function renderWithHandlers() {
+  const onSelectBlock = vi.fn();
   const onBackgroundClick = vi.fn();
   render(
     <MapView
       data={sampleIndex}
       selectedId={null}
-      onSelectBlock={vi.fn()}
+      onSelectBlock={onSelectBlock}
       onBackgroundClick={onBackgroundClick}
     />,
   );
   fire("load");
+  return { onSelectBlock, onBackgroundClick };
+}
+
+test("tapping a dot reports id + town, not a background click", () => {
+  const { onSelectBlock, onBackgroundClick } = renderWithHandlers();
+  map.queryRenderedFeatures.mockReturnValue([hit("blocks-circles", "123-ang-mo-kio-ave-3")]);
+  fire("click", { point: { x: 10, y: 10 } });
+  expect(onSelectBlock).toHaveBeenCalledWith("123-ang-mo-kio-ave-3", "ANG MO KIO");
+  expect(onBackgroundClick).not.toHaveBeenCalled();
+});
+
+test("tapping a block's label selects it instead of dismissing the panel", () => {
+  const { onSelectBlock, onBackgroundClick } = renderWithHandlers();
+  map.queryRenderedFeatures.mockReturnValue([hit("blocks-labels", "1-bedok-nth-st-1", "BEDOK")]);
+  fire("click", { point: { x: 10, y: 10 } });
+  expect(onSelectBlock).toHaveBeenCalledWith("1-bedok-nth-st-1", "BEDOK");
+  expect(onBackgroundClick).not.toHaveBeenCalled();
+});
+
+test("a dot wins over another block's label drawn on top of it", () => {
+  const { onSelectBlock } = renderWithHandlers();
+  // Labels render above dots, so they come first in the hit list.
+  map.queryRenderedFeatures.mockReturnValue([
+    hit("blocks-labels", "1-bedok-nth-st-1", "BEDOK"),
+    hit("blocks-circles", "123-ang-mo-kio-ave-3"),
+  ]);
+  fire("click", { point: { x: 10, y: 10 } });
+  expect(onSelectBlock).toHaveBeenCalledTimes(1);
+  expect(onSelectBlock).toHaveBeenCalledWith("123-ang-mo-kio-ave-3", "ANG MO KIO");
+});
+
+test("tapping the map away from any block reports a background click", () => {
+  const { onSelectBlock, onBackgroundClick } = renderWithHandlers();
   map.queryRenderedFeatures.mockReturnValue([]);
   fire("click", { point: { x: 10, y: 10 } });
   expect(onBackgroundClick).toHaveBeenCalledTimes(1);
-  // The hit test must include the highlight layer, else tapping the selected
-  // marker's (larger) ring would read as background and dismiss the panel.
-  expect(map.queryRenderedFeatures).toHaveBeenCalledWith(
-    { x: 10, y: 10 },
-    { layers: ["blocks-circles", "blocks-highlight"] },
+  expect(onSelectBlock).not.toHaveBeenCalled();
+  // The hit test covers the highlight ring (larger than the dot) and both label layers,
+  // else tapping them would read as background and dismiss the panel.
+  const layers = (map.queryRenderedFeatures.mock.calls[0][1] as { layers: string[] }).layers;
+  expect(layers).toEqual(
+    expect.arrayContaining([
+      "blocks-circles",
+      "blocks-highlight",
+      "blocks-labels",
+      "blocks-highlight-label",
+    ]),
   );
 });
 
@@ -195,26 +232,10 @@ test("ignores clicks before the block layer has loaded", () => {
   map.getLayer.mockReturnValue({}); // restore for other tests
 });
 
-test("tapping a block does not report a background click", () => {
-  const onBackgroundClick = vi.fn();
-  const onSelectBlock = vi.fn();
-  render(
-    <MapView
-      data={sampleIndex}
-      selectedId={null}
-      onSelectBlock={onSelectBlock}
-      onBackgroundClick={onBackgroundClick}
-    />,
-  );
-  fire("load");
-  // A block sits under the tap, so the background handler must stay quiet.
-  map.queryRenderedFeatures.mockReturnValue([{ properties: { id: "123-ang-mo-kio-ave-3" } }]);
-  fire("click", {
-    point: { x: 10, y: 10 },
-    features: [{ properties: { id: "123-ang-mo-kio-ave-3", town: "ANG MO KIO" } }],
-  });
-  expect(onSelectBlock).toHaveBeenCalledWith("123-ang-mo-kio-ave-3", "ANG MO KIO");
-  expect(onBackgroundClick).not.toHaveBeenCalled();
+test("hovering a label shows the pointer, like hovering its dot", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  const hoverLayers = map.on.mock.calls.find((c) => c[0] === "mousemove")?.[1];
+  expect(hoverLayers).toEqual(expect.arrayContaining(["blocks-circles", "blocks-labels"]));
 });
 
 test("selection sets the highlight filter and flies", () => {
@@ -230,7 +251,46 @@ test("selection sets the highlight filter and flies", () => {
     ["get", "id"],
     "123-ang-mo-kio-ave-3",
   ]);
-  expect(map.flyTo).toHaveBeenCalled();
+  // From the zoomed-out mock (11), it lands where block labels are visible.
+  expect(map.flyTo).toHaveBeenCalledWith(expect.objectContaining({ zoom: 16 }));
+});
+
+test("labels blocks with their block number once zoomed in", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  const layers = map.addLayer.mock.calls.map(
+    (c) => c[0] as { id: string; type: string; minzoom?: number; layout?: Record<string, unknown> },
+  );
+  const labels = layers.find((l) => l.id === "blocks-labels");
+  expect(labels?.type).toBe("symbol");
+  expect(labels?.minzoom).toBeGreaterThan(11);
+  expect(labels?.layout?.["text-field"]).toEqual(["get", "blk_no"]);
+  // The selected block's label must always show, so it opts out of collision.
+  const highlight = layers.find((l) => l.id === "blocks-highlight-label");
+  expect(highlight?.layout?.["text-allow-overlap"]).toBe(true);
+  // Labels sit above both circle layers, so a dot never covers a number.
+  const ids = layers.map((l) => l.id);
+  expect(ids.indexOf("blocks-labels")).toBeGreaterThan(ids.indexOf("blocks-highlight"));
+});
+
+test("selection moves the block's label to the highlight label layer", () => {
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
+  );
+  fire("load");
+  rerender(
+    <MapView data={sampleIndex} selectedId="123-ang-mo-kio-ave-3" onSelectBlock={vi.fn()} />,
+  );
+  expect(map.setFilter).toHaveBeenCalledWith("blocks-highlight-label", [
+    "==",
+    ["get", "id"],
+    "123-ang-mo-kio-ave-3",
+  ]);
+  expect(map.setFilter).toHaveBeenCalledWith("blocks-labels", [
+    "!=",
+    ["get", "id"],
+    "123-ang-mo-kio-ave-3",
+  ]);
 });
 
 test("resets the camera padding when the selection is cleared", () => {
