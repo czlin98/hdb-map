@@ -9,6 +9,17 @@ export interface SearchRow {
   haystack: string;
 }
 
+// Apostrophes are dropped so GEORGE'S matches GEORGES; other punctuation (the "." in ST.)
+// splits words. Queries and rows go through the same function so they always agree. Curly
+// and backtick apostrophes count too: iOS smart punctuation types ’ for '.
+function normalize(text: string): string {
+  return text
+    .toUpperCase()
+    .replace(/['‘’`]/g, "")
+    .replace(/[^A-Z0-9]+/g, " ")
+    .trim();
+}
+
 export function buildSearchIndex(fc: IndexFeatureCollection): SearchRow[] {
   return fc.features.map((f) => {
     const p = f.properties;
@@ -18,15 +29,17 @@ export function buildSearchIndex(fc: IndexFeatureCollection): SearchRow[] {
       street_full: p.street_full,
       postal: p.postal,
       town: p.town,
-      haystack: `${p.blk_no} ${p.street_full} ${p.postal}`.toUpperCase(),
+      // Both street forms, so typed abbreviations (NTH, C'WEALTH) match too.
+      haystack: normalize(`${p.blk_no} ${p.street_full} ${p.street} ${p.postal}`),
     };
   });
 }
 
 export function searchBlocks(rows: SearchRow[], query: string, limit = 50): SearchRow[] {
-  const q = query.trim().toUpperCase();
-  if (!q) return [];
-  const tokens = q.split(/\s+/);
+  const tokens = normalize(query).split(" ").filter(Boolean);
+  // People often type the "Blk" they see on signage; no street contains it.
+  if (tokens[0] === "BLK" || tokens[0] === "BLOCK") tokens.shift();
+  if (tokens.length === 0) return [];
   const matches = rows.filter((r) => tokens.every((t) => r.haystack.includes(t)));
   // Prefix hits on the first token rank above mid-string substring hits.
   matches.sort(

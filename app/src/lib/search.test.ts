@@ -52,3 +52,43 @@ test("caps results at 50 by default", () => {
   );
   expect(searchBlocks(many, "test")).toHaveLength(50);
 });
+
+describe("normalization", () => {
+  const rows = index(
+    feature("123", "ANG MO KIO AVE 6", "ANG MO KIO AVENUE 6", "560123"),
+    feature("1", "ST. GEORGE'S RD", "SAINT GEORGE'S ROAD", "320001"),
+    feature("2", "C'WEALTH CL", "COMMONWEALTH CLOSE", "140002"),
+    feature("3", "BEDOK NTH ST 1", "BEDOK NORTH STREET 1", "460003"),
+  );
+  const ids = (q: string) => searchBlocks(rows, q).map((r) => r.id);
+
+  test("ignores a leading BLK or BLOCK", () => {
+    expect(ids("blk 123 ang mo kio")).toEqual(["123-ang-mo-kio-ave-6"]);
+    expect(ids("Block 123")).toEqual(["123-ang-mo-kio-ave-6"]);
+  });
+
+  test("BLK on its own is an empty query", () => {
+    expect(ids("blk")).toEqual([]);
+    expect(ids(" BLK  ")).toEqual([]);
+  });
+
+  test("ignores punctuation in the query and the street", () => {
+    expect(ids("st. george's")).toEqual(["1-st-george-s-rd"]);
+    expect(ids("georges road")).toEqual(["1-st-george-s-rd"]);
+    expect(ids("c'wealth")).toEqual(["2-c-wealth-cl"]);
+  });
+
+  test("treats curly apostrophes (iOS smart punctuation) like straight ones", () => {
+    // Split at the apostrophe, "queen’s" would become QUEEN + S and rank QUEEN ST first.
+    const rows = index(
+      feature("5", "QUEEN ST", "QUEEN STREET", "180005"),
+      feature("6", "QUEEN'S RD", "QUEEN'S ROAD", "260006"),
+    );
+    expect(searchBlocks(rows, "queen’s").map((r) => r.id)).toEqual(["6-queen-s-rd"]);
+  });
+
+  test("matches the abbreviated street as well as the full one", () => {
+    expect(ids("bedok nth st")).toEqual(["3-bedok-nth-st-1"]);
+    expect(ids("commonwealth close")).toEqual(["2-c-wealth-cl"]);
+  });
+});
