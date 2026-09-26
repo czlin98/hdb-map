@@ -31,6 +31,8 @@ interface Props {
   // The search input; its bottom edge is padded past so the marker centers between
   // the search box and the sheet. Measured at fly time to stay current.
   topClearanceRef?: RefObject<HTMLInputElement | null>;
+  // Zoom +/- buttons; desktop only, since touch users pinch and the sheet needs the room.
+  showZoomButtons?: boolean;
 }
 
 function highlightFilter(id: string | null): maplibregl.FilterSpecification {
@@ -44,6 +46,7 @@ export function MapView({
   onBackgroundClick,
   flyPaddingBottom = 0,
   topClearanceRef,
+  showZoomButtons = false,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -71,8 +74,15 @@ export function MapView({
       minZoom: 9,
       maxZoom: 17,
       attributionControl: false,
+      // Keep the map north-up and flat: rotation and tilt add nothing to a map of flat
+      // markers, and an accidental twist would otherwise need a compass to undo.
+      dragRotate: false,
+      pitchWithRotate: false,
+      maxPitch: 0,
     });
     mapRef.current = map;
+    map.touchZoomRotate.disableRotation();
+    map.keyboard.disableRotation();
     map.addControl(new maplibregl.AttributionControl({ compact: true }));
 
     // Set the zoom floor to whatever fits the whole island in the viewport, so narrow
@@ -164,6 +174,19 @@ export function MapView({
     };
     // Mount-once: all reactive values are read through refs, so deps stay empty.
   }, []);
+
+  // Bottom-left stays clear of the search box (top-left) and the desktop details panel
+  // (right edge), which would otherwise cover the buttons while it's open.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !showZoomButtons) return;
+    const nav = new maplibregl.NavigationControl({ showCompass: false });
+    map.addControl(nav, "bottom-left");
+    return () => {
+      // On unmount the map is already removed, taking its controls with it.
+      if (mapRef.current) map.removeControl(nav);
+    };
+  }, [showZoomButtons]);
 
   // Keep the source data fresh (markers appear once the index has loaded).
   useEffect(() => {
