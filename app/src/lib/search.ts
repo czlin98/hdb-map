@@ -23,7 +23,7 @@ export function buildSearchIndex(fc: IndexFeatureCollection): SearchRow[] {
   });
 }
 
-export function searchBlocks(rows: SearchRow[], query: string, limit = 20): SearchRow[] {
+export function searchBlocks(rows: SearchRow[], query: string, limit = 50): SearchRow[] {
   const q = query.trim().toUpperCase();
   if (!q) return [];
   const tokens = q.split(/\s+/);
