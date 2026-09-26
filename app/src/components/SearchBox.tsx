@@ -95,6 +95,9 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
           }
         }}
         placeholder="Search block, street, or postal…"
+        // Fits the longest real query (41 chars with "blk") with room to spare. Without a
+        // cap, a long paste of common words makes every keystroke score thousands of them.
+        maxLength={50}
       />
       <CommandList ref={listRef}>
         {open && query.trim() !== "" && (

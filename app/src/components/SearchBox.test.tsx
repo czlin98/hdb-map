@@ -249,3 +249,12 @@ test("editing the query scrolls the list back to the top", async () => {
 
   expect(scrollTop).toBe(0);
 });
+
+test("caps the query at 50 characters", async () => {
+  // The longest real query ("blk 114A BUKIT BATOK WEST AVENUE 6 651114") is 41; the cap
+  // stops a long paste from making every keystroke score thousands of words.
+  render(<SearchBox rows={rows} onSelect={vi.fn()} />);
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "1 ".repeat(40));
+  expect(input).toHaveValue("1 ".repeat(25));
+});
