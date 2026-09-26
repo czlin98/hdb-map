@@ -35,8 +35,52 @@ interface Props {
   showZoomButtons?: boolean;
 }
 
+// Zoom at which block numbers appear. Any lower and a dense estate reads as a wall of text.
+const LABEL_MIN_ZOOM = 16;
+
 function highlightFilter(id: string | null): maplibregl.FilterSpecification {
   return ["==", ["get", "id"], id ?? ""];
+}
+
+// The selected block is labelled by its own layer, so drop it here to avoid a double label.
+function labelFilter(id: string | null): maplibregl.FilterSpecification {
+  return ["!=", ["get", "id"], id ?? ""];
+}
+
+// Label text size (px) at LABEL_MIN_ZOOM and at max zoom (17).
+const LABEL_SIZE: [number, number] = [10, 12];
+// Space between a dot's edge and its label.
+const LABEL_GAP_PX = 2;
+
+// Shared by both label layers; `radius` is the layer's circle radius (px) at LABEL_MIN_ZOOM
+// and at 17. The variable anchor lets MapLibre try each side of the dot and keep whichever
+// doesn't collide. The radial offset is in ems, so it is derived per zoom stop from the
+// radius: a fixed em value would drift against a dot that grows at a different rate.
+function labelLayout(radius: [number, number]) {
+  const offset = (i: 0 | 1) => (radius[i] + LABEL_GAP_PX) / LABEL_SIZE[i];
+  return {
+    "text-field": ["get", "blk_no"],
+    "text-size": [
+      "interpolate",
+      ["linear"],
+      ["zoom"],
+      LABEL_MIN_ZOOM,
+      LABEL_SIZE[0],
+      17,
+      LABEL_SIZE[1],
+    ],
+    "text-variable-anchor": ["left", "right", "top", "bottom"],
+    "text-radial-offset": [
+      "interpolate",
+      ["linear"],
+      ["zoom"],
+      LABEL_MIN_ZOOM,
+      offset(0),
+      17,
+      offset(1),
+    ],
+    "text-justify": "auto",
+  } satisfies maplibregl.SymbolLayerSpecification["layout"];
 }
 
 export function MapView({
@@ -128,6 +172,41 @@ export function MapView({
           "circle-stroke-color": "#ffffff",
         },
       });
+      // Block numbers, so a zoomed-in estate is readable without hovering (touch has no
+      // hover at all). Collision detection thins them in dense estates; the dots stay.
+      map.addLayer({
+        id: "blocks-labels",
+        type: "symbol",
+        source: "blocks",
+        minzoom: LABEL_MIN_ZOOM,
+        filter: labelFilter(selectedIdRef.current),
+        // Radii match blocks-circles at zoom 16 and 17.
+        layout: { ...labelLayout([8, 10]), "text-font": ["Noto Sans Regular"] },
+        paint: {
+          "text-color": "#1e3a8a",
+          "text-halo-color": "#ffffff",
+          "text-halo-width": 1.5,
+        },
+      });
+      map.addLayer({
+        id: "blocks-highlight-label",
+        type: "symbol",
+        source: "blocks",
+        minzoom: LABEL_MIN_ZOOM,
+        filter: highlightFilter(selectedIdRef.current),
+        // Radii match blocks-highlight at zoom 16 and 17; its larger ring needs more room.
+        layout: {
+          ...labelLayout([10, 13]),
+          "text-font": ["Noto Sans Bold"],
+          // Always shown. As the topmost layer it is placed first, so neighbours yield to it.
+          "text-allow-overlap": true,
+        },
+        paint: {
+          "text-color": "#92400e",
+          "text-halo-color": "#ffffff",
+          "text-halo-width": 1.5,
+        },
+      });
       // The map constructor runs the fit before layout is settled, so re-frame
       // has to be done at the final size. Otherwise the opening view stays too
       // zoomed in and sits above the zoom floor, most visibly on mobile.
@@ -199,6 +278,8 @@ export function MapView({
     const map = mapRef.current;
     if (!map || !map.getLayer("blocks-highlight")) return;
     map.setFilter("blocks-highlight", highlightFilter(selectedId));
+    map.setFilter("blocks-highlight-label", highlightFilter(selectedId));
+    map.setFilter("blocks-labels", labelFilter(selectedId));
     if (!selectedId) {
       // Ease the fly-to padding back to zero when the sheet closes, so the camera
       // glides up with it. Skip when there's no padding to clear, to avoid a
@@ -215,7 +296,8 @@ export function MapView({
         const top = topClearanceRef?.current?.getBoundingClientRect().bottom ?? 0;
         map.flyTo({
           center: f.geometry.coordinates,
-          zoom: Math.max(map.getZoom(), 15),
+          // Land at least where labels show, so the block and its neighbours are readable.
+          zoom: Math.max(map.getZoom(), LABEL_MIN_ZOOM),
           padding: { top, right: 0, left: 0, bottom: flyPaddingBottom },
         });
       }

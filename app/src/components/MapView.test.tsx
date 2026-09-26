@@ -230,7 +230,46 @@ test("selection sets the highlight filter and flies", () => {
     ["get", "id"],
     "123-ang-mo-kio-ave-3",
   ]);
-  expect(map.flyTo).toHaveBeenCalled();
+  // From the zoomed-out mock (11), it lands where block labels are visible.
+  expect(map.flyTo).toHaveBeenCalledWith(expect.objectContaining({ zoom: 16 }));
+});
+
+test("labels blocks with their block number once zoomed in", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  const layers = map.addLayer.mock.calls.map(
+    (c) => c[0] as { id: string; type: string; minzoom?: number; layout?: Record<string, unknown> },
+  );
+  const labels = layers.find((l) => l.id === "blocks-labels");
+  expect(labels?.type).toBe("symbol");
+  expect(labels?.minzoom).toBeGreaterThan(11);
+  expect(labels?.layout?.["text-field"]).toEqual(["get", "blk_no"]);
+  // The selected block's label must always show, so it opts out of collision.
+  const highlight = layers.find((l) => l.id === "blocks-highlight-label");
+  expect(highlight?.layout?.["text-allow-overlap"]).toBe(true);
+  // Labels sit above both circle layers, so a dot never covers a number.
+  const ids = layers.map((l) => l.id);
+  expect(ids.indexOf("blocks-labels")).toBeGreaterThan(ids.indexOf("blocks-highlight"));
+});
+
+test("selection moves the block's label to the highlight label layer", () => {
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
+  );
+  fire("load");
+  rerender(
+    <MapView data={sampleIndex} selectedId="123-ang-mo-kio-ave-3" onSelectBlock={vi.fn()} />,
+  );
+  expect(map.setFilter).toHaveBeenCalledWith("blocks-highlight-label", [
+    "==",
+    ["get", "id"],
+    "123-ang-mo-kio-ave-3",
+  ]);
+  expect(map.setFilter).toHaveBeenCalledWith("blocks-labels", [
+    "!=",
+    ["get", "id"],
+    "123-ang-mo-kio-ave-3",
+  ]);
 });
 
 test("resets the camera padding when the selection is cleared", () => {
