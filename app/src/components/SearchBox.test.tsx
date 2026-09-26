@@ -63,6 +63,7 @@ test("reopening highlights the first result, not the previous pick", async () =>
     postal: `0000${blk}`,
     town: "TEST",
     haystack: `${blk} TEST STREET 0000${blk}`,
+    words: [blk, "TEST", "STREET", `0000${blk}`],
   }));
   render(<SearchBox rows={three} onSelect={vi.fn()} />);
 

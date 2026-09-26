@@ -92,3 +92,41 @@ describe("normalization", () => {
     expect(ids("commonwealth close")).toEqual(["2-c-wealth-cl"]);
   });
 });
+
+describe("ranking", () => {
+  const ids = (rows: ReturnType<typeof index>, q: string) => searchBlocks(rows, q).map((r) => r.id);
+
+  test("an exact block number beats a longer one it prefixes", () => {
+    const rows = index(
+      feature("100", "BEDOK NTH AVE 4", "BEDOK NORTH AVENUE 4", "460100"),
+      feature("10", "BEDOK STH AVE 1", "BEDOK SOUTH AVENUE 1", "460010"),
+    );
+    expect(ids(rows, "10 bedok")).toEqual(["10-bedok-sth-ave-1", "100-bedok-nth-ave-4"]);
+  });
+
+  test("a lettered block counts as exact, then prefix, then substring", () => {
+    const rows = index(
+      feature("20", "TEST ST", "TEST STREET", "561040"),
+      feature("1045", "TEST ST", "TEST STREET", "561045"),
+      feature("104A", "TEST ST", "TEST STREET", "561104"),
+    );
+    expect(ids(rows, "104")).toEqual(["104a-test-st", "1045-test-st", "20-test-st"]);
+  });
+
+  test("only the first word can be an exact block, and a phrase beats scattered words", () => {
+    const rows = index(
+      feature("1", "HOUGANG AVE 1", "HOUGANG AVENUE 1", "530103"),
+      feature("3", "DELTA AVE", "DELTA AVENUE", "160003"),
+      feature("101", "ANG MO KIO AVE 3", "ANG MO KIO AVENUE 3", "560101"),
+    );
+    expect(ids(rows, "ave 3")).toEqual(["101-ang-mo-kio-ave-3", "3-delta-ave", "1-hougang-ave-1"]);
+  });
+
+  test("ties keep index order", () => {
+    const rows = index(
+      feature("2", "TEST ST", "TEST STREET", "000002"),
+      feature("1", "TEST ST", "TEST STREET", "000001"),
+    );
+    expect(ids(rows, "test")).toEqual(["2-test-st", "1-test-st"]);
+  });
+});
