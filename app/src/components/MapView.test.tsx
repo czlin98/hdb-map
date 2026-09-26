@@ -3,10 +3,13 @@ import { afterEach, expect, test, vi } from "vitest";
 
 // vi.mock is hoisted above the file body, so the mock's collaborators must be
 // created inside vi.hoisted() (which also hoists) to exist when the factory runs.
-const { handlers, map, MapCtor } = vi.hoisted(() => {
+const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
   const handlers: Record<string, ((e?: unknown) => void)[]> = {};
   const map = {
     addControl: vi.fn(),
+    removeControl: vi.fn(),
+    touchZoomRotate: { disableRotation: vi.fn() },
+    keyboard: { disableRotation: vi.fn() },
     addSource: vi.fn(),
     addLayer: vi.fn(),
     getLayer: vi.fn().mockReturnValue({}),
@@ -33,7 +36,8 @@ const { handlers, map, MapCtor } = vi.hoisted(() => {
   const MapCtor = vi.fn(function (_opts: Record<string, unknown>) {
     return map;
   });
-  return { handlers, map, MapCtor };
+  const NavCtor = vi.fn(function (_opts: Record<string, unknown>) {});
+  return { handlers, map, MapCtor, NavCtor };
 });
 
 // maplibre-gl v6 exposes named exports only, so mock them as named (no default).
@@ -41,6 +45,7 @@ vi.mock("maplibre-gl", () => ({
   Map: MapCtor,
   // Constructed with `new`, so the impls must be function expressions.
   AttributionControl: vi.fn(function () {}),
+  NavigationControl: NavCtor,
   Popup: vi.fn(function () {
     return { setLngLat: () => ({ setText: () => ({ addTo: vi.fn() }) }), remove: vi.fn() };
   }),
@@ -68,6 +73,33 @@ test("locks the camera to Singapore and adds both layers on load", () => {
   const layerIds = map.addLayer.mock.calls.map((c) => (c[0] as { id: string }).id);
   expect(layerIds).toContain("blocks-circles");
   expect(layerIds).toContain("blocks-highlight");
+});
+
+test("keeps the map north-up and flat", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  const opts = MapCtor.mock.calls[0][0] as Record<string, unknown>;
+  expect(opts).toMatchObject({ dragRotate: false, pitchWithRotate: false, maxPitch: 0 });
+  // A two-finger pinch would otherwise also rotate, with no compass to undo it.
+  expect(map.touchZoomRotate.disableRotation).toHaveBeenCalled();
+  expect(map.keyboard.disableRotation).toHaveBeenCalled();
+});
+
+test("adds compass-free zoom buttons only when asked", () => {
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
+  );
+  expect(NavCtor).not.toHaveBeenCalled();
+
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} showZoomButtons />,
+  );
+  expect(NavCtor).toHaveBeenCalledWith({ showCompass: false });
+  const nav = NavCtor.mock.instances[0];
+  expect(map.addControl).toHaveBeenCalledWith(nav, "bottom-left");
+
+  // Crossing to the mobile breakpoint drops them again.
+  rerender(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  expect(map.removeControl).toHaveBeenCalledWith(nav);
 });
 
 test("fits the zoom floor to the island on load", () => {

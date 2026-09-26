@@ -91,6 +91,7 @@ export default function App() {
         flyPaddingBottom={flyPaddingBottom}
         // Top clearance is for the mobile sheet layout only; desktop shows a side panel.
         topClearanceRef={isDesktop ? undefined : searchInputRef}
+        showZoomButtons={isDesktop}
       />
 
       {status !== "error" && (
