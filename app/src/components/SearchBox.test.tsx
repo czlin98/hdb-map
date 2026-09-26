@@ -195,3 +195,57 @@ test("clear button is absent when the query is empty", () => {
   render(<SearchBox rows={rows} onSelect={vi.fn()} />);
   expect(screen.queryByRole("button", { name: /clear search/i })).not.toBeInTheDocument();
 });
+
+test("editing the query scrolls to the new first result, not the old highlight", async () => {
+  // 101 X AVE 3 leads for "x ave 3" and still matches "x ave 1" (via 101), but lower
+  // down: the list used to scroll to it there before the highlight caught up.
+  const two = buildSearchIndex({
+    type: "FeatureCollection",
+    features: [
+      ["101", "X AVE 3", "X AVENUE 3", "000101"],
+      ["5", "X AVE 1", "X AVENUE 1", "000005"],
+    ].map(([blk_no, street, street_full, postal]) => ({
+      type: "Feature" as const,
+      geometry: { type: "Point" as const, coordinates: [103.8, 1.35] as [number, number] },
+      properties: { id: blk_no, blk_no, street, street_full, postal, town: "TEST" },
+    })),
+  });
+  const scrolledTo: string[] = [];
+  const original = Element.prototype.scrollIntoView;
+  Element.prototype.scrollIntoView = function (this: Element) {
+    scrolledTo.push(this.textContent ?? "");
+  };
+  try {
+    render(<SearchBox rows={two} onSelect={vi.fn()} />);
+    const input = screen.getByPlaceholderText(/search/i);
+    await userEvent.type(input, "x ave 3");
+    scrolledTo.length = 0;
+    await userEvent.type(input, "{backspace}1");
+
+    expect(screen.getAllByRole("option").map((o) => o.textContent)).toEqual([
+      "5 X AVENUE 1 000005",
+      "101 X AVENUE 3 000101",
+    ]);
+    expect(scrolledTo).not.toContain("101 X AVENUE 3 000101");
+  } finally {
+    Element.prototype.scrollIntoView = original;
+  }
+});
+
+test("editing the query scrolls the list back to the top", async () => {
+  const { container } = render(<SearchBox rows={rows} onSelect={vi.fn()} />);
+  const input = screen.getByPlaceholderText(/search/i);
+  await userEvent.type(input, "1");
+
+  // jsdom has no layout, so record assignments instead of reading a real offset.
+  const list = container.querySelector("[cmdk-list]")!;
+  let scrollTop = 120;
+  Object.defineProperty(list, "scrollTop", {
+    get: () => scrollTop,
+    set: (v: number) => (scrollTop = v),
+    configurable: true,
+  });
+  await userEvent.type(input, "2");
+
+  expect(scrollTop).toBe(0);
+});

@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState, type Ref } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, type Ref } from "react";
 import { Command, CommandEmpty, CommandInput, CommandItem, CommandList } from "./ui/command";
 import { searchBlocks, type SearchRow } from "../lib/search";
 
@@ -20,7 +20,14 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
   // cmdk's highlighted row, controlled only so reopening can reset it.
   const [active, setActive] = useState("");
   const rootRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLDivElement>(null);
   const results = useMemo(() => searchBlocks(rows, query), [rows, query]);
+
+  // New results start at the top. cmdk won't do it: the highlight is cleared on each
+  // edit (see onValueChange), so it has no row to scroll into view.
+  useLayoutEffect(() => {
+    if (listRef.current) listRef.current.scrollTop = 0;
+  }, [query]);
 
   function openList() {
     if (open) return;
@@ -65,6 +72,10 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
         value={query}
         onValueChange={(v) => {
           setQuery(v);
+          // cmdk scrolls its highlighted row into view before our controlled value moves
+          // it to the new first result. If the old row still matches but now ranks lower,
+          // the list jumps down to it; clearing it with the query leaves nothing stale.
+          setActive("");
           openList();
         }}
         onClear={() => setQuery("")}
@@ -85,7 +96,7 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
         }}
         placeholder="Search block, street, or postal…"
       />
-      <CommandList>
+      <CommandList ref={listRef}>
         {open && query.trim() !== "" && (
           <>
             {results.length === 0 && (
