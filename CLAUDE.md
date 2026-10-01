@@ -52,7 +52,7 @@ types it. **Keep these two in sync when changing any field.** Files:
 
 - `index.geojson`: one Point `Feature` per block, with lightweight properties (`id`, `blk_no`,
   `street`/`street_full`, `postal`, `town`). Loaded whole at startup; drives the map and the search
-  index.
+  index. Written compact, one block per line, coordinates rounded to 6 decimals (`export.py`).
 - `block-details/{town_slug}.json`: heavy per-block detail (unit counts, year, floors) **sharded by
   town** and keyed by block `id`. Lazy-loaded one shard at a time and cached (`createGetBlockDetail`
   in `app/src/lib/data.ts`). A shard is written for _every_ town, even empty ones.
