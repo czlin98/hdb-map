@@ -4,8 +4,11 @@ A mobile-first, interactive web map of Singapore's ~10,000 residential HDB block
 individually rendered marker (no clustering). Hover (desktop) to see a block's address, tap/click to
 open its details, and search by address to fly to a specific block.
 
-> **Status:** Planning complete, implementation not yet started. The [`docs/`](docs/) folder holds
-> the approved v1 design spec and the two task-by-task implementation plans (frontend + pipeline).
+**Live:** [hdb-map.vercel.app](https://hdb-map.vercel.app)
+
+> **Status:** v1 is live. Block data refreshes automatically on the 1st of each month. The
+> [design spec](docs/specs/hdb-map-v1-design.md) describes v1 as shipped, and lists the planned next
+> iterations (marker coloring, filters, resale prices, and more).
 
 ## How it works
 
@@ -48,11 +51,34 @@ hdb-map/
    └─ plans/            # frontend + pipeline implementation plans
 ```
 
+## Running locally
+
+**App** (Node 24), in `app/`:
+
+```sh
+npm install
+npm run dev            # Vite dev server, using the committed data in public/data/
+npm run test -- --run  # Vitest, single pass
+```
+
+**Pipeline** (Python 3.14), in `pipeline/`:
+
+```sh
+pip install -r requirements-dev.txt
+pytest                         # offline; all HTTP is mocked
+python src/run.py --limit 20   # live smoke test on the first 20 blocks
+```
+
+The live run needs a free [OneMap](https://www.onemap.gov.sg) account in the `ONEMAP_EMAIL` and
+`ONEMAP_PASSWORD` environment variables. Without `--limit` it geocodes all ~10k blocks and
+overwrites the data in `app/public/data/`. See [`CLAUDE.md`](CLAUDE.md) for the full command list.
+
 ## Documentation
 
-- [v1 Design Spec](docs/specs/hdb-map-v1-design.md)
-- [Frontend Implementation Plan](docs/plans/hdb-map-frontend.md)
-- [Data Pipeline Implementation Plan](docs/plans/hdb-map-pipeline.md)
+- [v1 Design Spec](docs/specs/hdb-map-v1-design.md): the authoritative description of v1 as shipped
+- [Frontend Implementation Plan](docs/plans/hdb-map-frontend.md) and
+  [Data Pipeline Implementation Plan](docs/plans/hdb-map-pipeline.md): the original task-by-task
+  build record, each with a "Post-implementation deltas" section for later changes
 
 ## Data & attribution
 
