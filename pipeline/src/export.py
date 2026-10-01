@@ -4,11 +4,15 @@ from pathlib import Path
 
 import config
 
+# ~11 cm. OneMap's 15-16 digits are noise that barely compresses.
+COORD_DECIMALS = 6
+
 
 def to_index_feature(rec: dict) -> dict:
+    lon, lat = round(rec["lon"], COORD_DECIMALS), round(rec["lat"], COORD_DECIMALS)
     return {
         "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [rec["lon"], rec["lat"]]},
+        "geometry": {"type": "Point", "coordinates": [lon, lat]},
         "properties": {
             "id": rec["id"],
             "blk_no": rec["blk_no"],
@@ -45,6 +49,17 @@ def _write_json(path: Path, obj) -> None:
     )
 
 
+def _write_index(path: Path, features: list[dict]) -> None:
+    # The app loads this file whole before the map works, so it is compact; one block per line
+    # (not minified to one line) keeps a monthly change to a block a one-line git diff.
+    lines = [json.dumps(f, ensure_ascii=False, separators=(",", ":")) for f in features]
+    body = "\n" + ",\n".join(lines) + "\n" if lines else ""
+    path.write_text(
+        '{"type":"FeatureCollection","features":[' + body + "]}\n",
+        encoding="utf-8",
+    )
+
+
 def write_outputs(records: list[dict], towns: list[dict], app_data_dir: Path | None = None) -> None:
     app_data_dir = Path(app_data_dir or config.APP_DATA_DIR)
 
@@ -61,8 +76,7 @@ def write_outputs(records: list[dict], towns: list[dict], app_data_dir: Path | N
     app_data_dir.mkdir(parents=True, exist_ok=True)
 
     features = [to_index_feature(r) for r in sorted(records, key=lambda r: r["id"])]
-    _write_json(app_data_dir / "index.geojson",
-                {"type": "FeatureCollection", "features": features})
+    _write_index(app_data_dir / "index.geojson", features)
 
     shard_dir = app_data_dir / "block-details"
     shard_dir.mkdir(parents=True, exist_ok=True)

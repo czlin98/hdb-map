@@ -223,7 +223,8 @@ vocabulary). The matched result's fields are captured as OneMap returns them
 - **Assert `town_slug` uniqueness** across towns, and **assert block `id`
   uniqueness** across all blocks (fail the run on any collision rather than
   silently overwriting a shard entry).
-- Write `app/public/data/index.geojson` (all blocks, light props).
+- Write `app/public/data/index.geojson` (all blocks, light props), compact
+  with one block per line and coordinates rounded to 6 decimals (§4.1).
 - Write `app/public/data/block-details/{town_slug}.json` bucketed by town, using
   `town_slug` values from `towns.json`.
 - Copy `towns.json` into `app/public/data/`.
@@ -261,12 +262,20 @@ is independently readable, an accepted and well-compressing redundancy.
 
 One FeatureCollection, all blocks, loaded once on startup.
 
-At ~10k features the file is about **4.6 MB** as written (indented JSON,
-full-precision coordinates), but its highly repetitive text compresses ~12×
-to about **390 KB gzipped over the wire**, within the sub-megabyte budget
-(§1.2). Minified output with coordinates rounded to 6 decimals (~10 cm)
-would shrink both figures further. Keeping the index light (no detail fields)
-is what protects that budget; detail lives in the shards.
+At ~10k features the file is about **2.6 MB** as written, and its highly
+repetitive text reaches the browser as about **200 KB of brotli**, within the
+sub-megabyte budget (§1.2). Two choices keep it there:
+
+- **Coordinates rounded to 6 decimals** (~11 cm).
+  OneMap returns 15-16 digits, which are noise that barely compresses;
+  rounding is most of the transfer saving.
+- **One block per line, no indentation.** Indentation is most of the raw
+  size the phone must parse. A fully minified single line would be no
+  smaller compressed, and would turn every monthly change into a whole-file
+  git diff; one line per block keeps a changed block a one-line diff.
+
+Keeping the index light (no detail fields) is what protects that budget;
+detail lives in the shards.
 
 ```jsonc
 {
