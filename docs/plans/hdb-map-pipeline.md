@@ -28,7 +28,7 @@ the spec; executors read both. This plan covers only the **pipeline half**
 
 ## Post-implementation deltas
 
-The pipeline was later revised in five ways that diverge from the task
+The pipeline was later revised in seven ways that diverge from the task
 listings below. The listings are kept as the original execution record;
 the implemented behavior is:
 
@@ -48,6 +48,19 @@ the implemented behavior is:
   `NIL`/empty) to qualify, so the gate selects the residential building over
   businesses that share a block; a block with no valid-postal result fails as
   `no_match`.
+- **Geocode gate, postal/block check (Task 5, #12):** the postal must also
+  end with the digits of `blk_no` (`_postal_matches_block`). Several
+  buildings can share a `BLK_NO` and `ROAD_NAME` with real postals (2 Queen's
+  Road returned the co-located 266733 before 260002), and every HDB postal
+  ends with its block number.
+- **Workflow (Task 10, #13):** the cron runs at `0 0 1 * *` (08:00 SGT on the
+  1st) instead of 02:00 UTC, and the data commit is labelled
+  `chore(data): monthly HDB data refresh (YYYY-MM-DD)` or `manual …` for a
+  `workflow_dispatch` run.
+
+Known gap, not yet addressed: an `api_error` is collected like any other
+failure, so a OneMap outage mid-run still writes and commits a partial
+contract. See spec §3.2 and §6.2.
 
 ---
 

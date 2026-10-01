@@ -1,7 +1,9 @@
 # HDB Map: v1 Design Spec
 
-**Date:** 2026-08-25
-**Status:** Approved for planning
+**Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1)
+**Status:** Implemented. This spec describes v1 as shipped. The plans in
+`docs/plans/` are the original execution record; each lists its later
+deviations under "Post-implementation deltas".
 **Scope:** v1 (core map + block details + search)
 
 ## 1. Overview
@@ -57,12 +59,13 @@ contract and can change internally without breaking the other.
   broken out by tenure into a **sold** (owner-occupied) group and a **rental**
   (public rental) group, each listing only types with >0 units. No facilities
   flags.
-- Search: Shadcn combobox, client-side, substring/prefix matching over block,
-  full street, and postal. On select → fly + highlight + open details.
+- Search: Shadcn combobox, client-side, ranked substring matching over block,
+  both street forms, and postal (§5.6). On select → fly + highlight + open
+  details.
 - Street names: HDB stores abbreviated forms (`ANG MO KIO AVE 3`). The pipeline
   derives a full form (`ANG MO KIO AVENUE 3`) via OneMap's canonical
-  abbreviation map. **Full** street is used for geocoding, detail display, and
-  search; the **abbreviated** form is used for the hover tooltip.
+  abbreviation map. **Full** street is used for geocoding and detail display;
+  the **abbreviated** form is used for the hover tooltip. Search matches both.
 - Data: HDB Property Information + OneMap geocoding (lat, lon, postal).
 
 **Deferred (see §7):** marker coloring, filtering, basemap selector,
@@ -97,7 +100,9 @@ hdb-map/
 ├─ .github/workflows/
 │  ├─ pipeline.yml               # monthly cron + manual; runs pipeline, commits data
 │  └─ ci.yml                     # lint / typecheck / test on PRs and main
-└─ docs/specs/
+└─ docs/
+   ├─ specs/                     # this spec
+   └─ plans/                     # frontend + pipeline implementation plans
 ```
 
 **Boundary decisions:**
@@ -153,20 +158,24 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   secrets (`ONEMAP_EMAIL`, `ONEMAP_PASSWORD`). No static token is stored. If the
   token request fails, **fail the run fast** with no commit (last good data
   stays live).
-- **Match (hard gate).** A returned result qualifies only if **all three**
+- **Match (hard gate).** A returned result qualifies only if **all four**
   hold (normalized, uppercased):
   1. `BLK_NO` == `blk_no`, exactly;
   2. `ROAD_NAME` == `street_full`, exactly;
-  3. `POSTAL` is a real postal, not `NIL` or empty.
+  3. `POSTAL` is a real postal, not `NIL` or empty;
+  4. `POSTAL` ends with the digits of `blk_no` (`216B` → ends with `216`).
 
   With several qualifiers, take the first by OneMap's ranking. A block and
   street can return several results: the residential building plus businesses
-  sharing the block, which come back with `POSTAL` = `NIL`; the postal
-  requirement selects the residential result. With **zero qualifiers the block
-  fails**: the gate never falls back to an unqualified result, choosing
-  correctness over coverage so no block gets wrong coordinates or a missing
-  postal. Any passing result is necessarily the right Singapore HDB block, so
-  no separate coordinate-bounds check is needed.
+  sharing the block, which come back with `POSTAL` = `NIL`, and sometimes
+  other buildings at the same address with a real postal (2 Queen's Road
+  returns both 260002 and the co-located 266733). Rules 3 and 4 select the
+  residential result, since every HDB postal ends with its block number.
+  With **zero qualifiers the block fails**: the gate never falls back to an
+  unqualified result, choosing correctness over coverage so no block gets
+  wrong coordinates or a missing postal. Any passing result is necessarily
+  the right Singapore HDB block, so no separate coordinate-bounds check is
+  needed.
 - **Rate limit:** OneMap allows **300 calls/min** with a token. v1 throttles
   with a plain `time.sleep()` between calls (staying under the cap) plus
   retry-with-backoff on 429/5xx. (A token-bucket limiter is a deferred
@@ -180,6 +189,11 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   one of `no_results` (OneMap returned nothing), `no_match` (results returned
   but none passed the gate), or `api_error` (request failed after retries);
   `found` is the number of results OneMap returned.
+- **Known gap:** an `api_error` is non-fatal like the other reasons, so a
+  OneMap outage partway through a run produces a contract missing every block
+  geocoded while it lasted, which the workflow then commits (see §6.2). A
+  failure-rate threshold that aborts the run before any write is the planned
+  fix.
 
 ### 3.3 transform.py
 
@@ -242,10 +256,12 @@ is independently readable, an accepted and well-compressing redundancy.
 
 One FeatureCollection, all blocks, loaded once on startup.
 
-At ~10k features the raw file is roughly **2 MB**, but its highly repetitive
-text compresses ~4–5× on the CDN to about **400–500 KB over the wire**, within
-the sub-megabyte budget (§1.2). Keeping the index light (no detail fields) is
-what protects that budget; detail lives in the shards.
+At ~10k features the file is about **4.6 MB** as written (indented JSON,
+full-precision coordinates), but its highly repetitive text compresses ~12×
+to about **390 KB gzipped over the wire**, within the sub-megabyte budget
+(§1.2). Minified output with coordinates rounded to 6 decimals (~10 cm)
+would shrink both figures further. Keeping the index light (no detail fields)
+is what protects that budget; detail lives in the shards.
 
 ```jsonc
 {
@@ -257,7 +273,7 @@ what protects that budget; detail lives in the shards.
       "properties": {
         "id": "123-ang-mo-kio-ave-3",       // stable slug of blk_no + abbreviated street; unique
         "blk_no": "123",
-        "street": "ANG MO KIO AVE 3",       // abbreviated: hover tooltip
+        "street": "ANG MO KIO AVE 3",       // abbreviated: hover tooltip + search
         "street_full": "ANG MO KIO AVENUE 3", // expanded: search only (panel reads from shard)
         "postal": "560123",
         "town": "ANG MO KIO"
@@ -380,24 +396,41 @@ alternative.)
 
 - **Basemap:** OpenFreeMap Positron (light, high marker contrast).
 - **Initial camera & bounds.** On load the map fits the whole Singapore island
-  so all of Singapore is visible at once. The view is then **locked to
-  Singapore:** `maxBounds` set to a small margin around the island's bounding
-  box so panning can't wander off-island, `minZoom` at about the island-fit
-  level, and `maxZoom` close enough to read individual blocks and no further.
+  (a bounding box centered on the main island's landmass) so all of Singapore
+  is visible at once, re-fitting once layout settles. The view is then
+  **locked to Singapore:** `maxBounds` is a looser box around the island so
+  panning can't wander off-island, `minZoom` is recomputed on every resize as
+  the zoom that fits the island (so a narrow phone can still see all of it),
+  and `maxZoom` is 17, close enough to read individual blocks and no further.
+- **North-up and flat.** Rotation and pitch are disabled for mouse, touch, and
+  keyboard: they add nothing to flat markers, and an accidental twist would
+  need a compass to undo.
+- **Zoom buttons** (desktop only) sit bottom-left, clear of the search box and
+  the side panel. Touch users pinch.
 - **Source:** GeoJSON from the index, `cluster: false`.
-- **`blocks-circles`** layer: circle marks, radius interpolated by zoom, single
+- **`blocks-circles`** layer: circle marks, radius interpolated by zoom (small
+  at low zoom, a 10 px radius at zoom 17 for an easy tap target), single
   fixed color in v1 (coloring deferred), subtle stroke for separation. 10k
   points render on the GPU without clustering.
-- **`blocks-highlight`** layer: filtered to `selectedId`, larger and distinct so
+- **`blocks-highlight`** layer: filtered to `selectedId`, larger and amber so
   the chosen block stands out.
+- **Block labels** (`blocks-labels`, `blocks-highlight-label`): from zoom 16,
+  each marker shows its `blk_no` beside it, since touch has no hover. Collision
+  detection thins labels in dense estates; the dots always stay. The selected
+  block's label is bold amber and always shown.
 - **Interactions:**
-  - `mousemove` → address tooltip (`{blk_no} {street}`, **abbreviated**);
-    `mouseleave` → hide, gated to hover-capable pointers (skipped on touch).
-  - feature tap/click → set selection → panel opens, or **swaps in place** to
-    the new block if a panel is already open.
-  - empty-map tap/drag → pans/zooms as normal; does **not** dismiss an open
-    panel.
-  - search select → set selection + `flyTo` + highlight.
+  - `mousemove` over a dot or label → address tooltip (`{blk_no} {street}`,
+    **abbreviated**); `mouseleave` → hide, gated to hover-capable pointers
+    (skipped on touch).
+  - dot or label tap/click → set selection → panel opens, or **swaps in place**
+    to the new block if a panel is already open. Where a label overlaps
+    another block's dot, the dot wins.
+  - empty-map tap → **dismisses** an open panel (the close animation runs,
+    then the selection clears). Drags pan/zoom as normal and never dismiss.
+    Block and background taps share one handler, so a tap can't both select
+    and dismiss.
+  - selection (marker or search) → `flyTo` + highlight. The fly lands at
+    zoom 16 or closer, so the block arrives with its neighbours labelled.
   - The map stays interactive (pan/zoom, marker taps) at all times, including
     while the panel is open (see §5.5).
 
@@ -413,51 +446,66 @@ alternative.)
   town's shard fetches. This happens only for the first block opened in a town,
   and is near-instant once that shard is cached in memory. Graceful empty state
   on a miss.
-- Vaul `Drawer` (bottom sheet) on mobile, docked side panel on desktop via a
-  Tailwind `md` breakpoint.
+- Vaul `Drawer` (bottom sheet) on mobile, side panel on desktop, switched in
+  JS by a 768 px media query (`useIsDesktop`, matching Tailwind's `md`).
 - **Non-modal: the map stays live behind the panel.** On mobile the Vaul
   `Drawer` runs in non-modal mode, so no dimmed overlay covers the map,
   background focus and scroll aren't trapped, and pan, zoom, and marker taps
-  pass straight through. On desktop the docked side column is inherently
-  non-modal. Panning or zooming the map, or tapping empty map, never closes the
-  panel.
+  pass straight through. On desktop the side panel is a right-hand Radix
+  `Sheet` that slides in, also non-modal (no overlay, no focus trap, and
+  clicking outside doesn't dismiss it). Panning or zooming the map never
+  closes the panel; tapping empty map does (§5.4).
 - **Snap points (mobile).** The Vaul `Drawer` is a resizable sheet with three
   rest positions:
-  - **peek:** collapsed to ~header height, showing
-    `{blk_no} {street_full} {postal}` plus a one-line summary (e.g. total
-    units), so the map dominates;
-  - **default:** ~half height, full details visible (the sheet opens here);
-  - **full:** near-full-screen, with room to scroll and for future longer
-    content.
+  - **peek:** 95 px, enough for the header
+    `{blk_no} {street_full} {postal}` even when a long address wraps to two
+    lines, so the map dominates;
+  - **default:** half height, full details visible (the sheet opens here);
+  - **full:** full-screen. Content scrolls only at this snap (a Vaul
+    constraint); below it, a drag anywhere on the sheet moves the sheet.
 
   The user drags to expand toward **full** or minimize toward **peek**. Minimize
   and close are distinct: dragging to **peek** keeps the panel open with the map
-  fully usable; only swiping **below peek** (or handle / ESC / close button)
-  dismisses. Snap points are **mobile-only**; the desktop side column is a fixed
-  column with its own scroll.
-- **Dismiss clears selection.** Closing the panel (handle / ESC / close button
-  on both platforms, or swiping below **peek** on mobile) resets `selectedId` in
-  the store, which drops the `blocks-highlight` marker and returns the map to
-  its unselected state.
+  fully usable; only swiping **below peek** (or the close button, ESC, or an
+  empty-map tap) dismisses. Snap points are **mobile-only**; the desktop side
+  panel is a fixed column with its own scroll.
+- **Dismiss clears selection.** Closing the panel (close button / ESC /
+  empty-map tap on both platforms, or swiping below **peek** on mobile) plays
+  the close animation, then resets the selection in the store, which drops the
+  `blocks-highlight` marker and eases the map padding back to zero.
 - **Swap in place on marker change.** Tapping another marker while the panel is
   open updates the selection and the panel **re-renders to that block**, with a
   fresh skeleton only when the new town's shard isn't yet cached. This is an
-  in-place content swap, not a close-and-reopen. The **current snap point is
-  preserved**, so a marker tapped while peeked stays peeked and just updates the
-  header, for comparing blocks without the sheet jumping to full.
+  in-place content swap, not a close-and-reopen. On mobile the sheet **returns
+  to the default (half) snap** for each new selection, so its details are
+  visible.
 - On mobile, `flyTo` applies bottom **map padding matched to the active snap
-  height** so the selected marker settles in the visible area **above** the
-  sheet rather than behind it (at full, centering falls back to the peek
-  offset).
+  height**, and top padding down to the search box's bottom edge, so the
+  selected marker settles in the visible band between them rather than behind
+  either. At **full** the sheet covers the map, so the fly is skipped.
 
 ### 5.6 Search (SearchBox)
 
-- Shadcn combobox, **client-side and instant**, over the in-memory index.
-- **Substring/prefix matching** (not fuzzy) across block + full street + postal
-  (e.g. "123 ang mo kio avenue 3" or a postal code). Matching the full form
-  means a user types "Avenue", not "AVE".
+- Shadcn combobox (cmdk), **client-side and instant**, over the in-memory
+  index. Centered at the top on mobile, top-left on desktop.
+- **Normalized, ranked substring matching** (not fuzzy). Query and index are
+  uppercased, apostrophes dropped (`GEORGE'S` matches `GEORGES`), and other
+  punctuation split into words. Each row's search text covers block + full
+  street + abbreviated street + postal, so "avenue", "ave", and a postal code
+  all match. A leading "blk" or "block" is ignored.
+- Every query word must appear somewhere in a row's search text, mid-word
+  included ("ave" matches inside "AVENUE"). Rows rank by match quality per
+  word: exact block number (first word only; "104" also matches 104A/104B) >
+  whole word > word prefix > mid-word, with a whole-phrase hit breaking ties
+  so "ave 3" prefers Avenue 3 over block 3. Remaining ties keep `id` order.
+  At most **50** results; the query is capped at 50 characters.
 - Each result renders as the full address, `{blk_no} {street_full} {postal}`.
-- On select → set selection → `flyTo` + highlight + open details.
+- On select → set selection → `flyTo` + highlight + open details. The query
+  stays in the box and the list collapses; it reopens with the same results on
+  a click, tap, typing, or arrow key. A clear (×) button empties it.
+- The list closes when focus or a tap lands outside the search box. ESC in the
+  search box hides the list, drops focus, and closes any open details panel,
+  but keeps the query.
 
 ### 5.7 Initial load & error states
 
@@ -470,7 +518,7 @@ their loading and failure paths are explicit:
 - **Fatal error.** If `index.geojson` **or** `towns.json` fails to load, the app
   can't function. A persistent, centered card over the map shows a plain error
   message ("Couldn't load block data."), with no retry control. Search and the
-  details panel stay disabled.
+  details panel are hidden.
 - **Shard failure is local, not fatal.** A failed
   `block-details/{town_slug}.json` fetch is confined to the panel (the §5.5
   empty state) and never triggers the global error card, since the rest of the
@@ -479,20 +527,36 @@ their loading and failure paths are explicit:
 ### 5.8 Attribution
 
 Required by the data providers' terms and shown via MapLibre's built-in
-`AttributionControl`, so all credits live in one standard control (collapsed by
-default on mobile is acceptable):
+`AttributionControl` in compact mode at every screen size (it starts expanded
+and collapses to an ⓘ toggle on the first map drag), so all credits live in
+one standard control:
 
-- **Basemap:** © OpenStreetMap contributors, plus OpenFreeMap.
-- **Block data:** HDB/data.gov.sg (Singapore Open Data Licence), attached as
-  custom attribution on the blocks source.
-- **Geocoding:** OneMap/SLA.
+- **Basemap:** "OpenFreeMap © OpenMapTiles Data from OpenStreetMap", supplied
+  automatically by the OpenFreeMap tile source.
+- **Block data and geocoding:** "© HDB, OneMap/SLA", attached as custom
+  attribution on the blocks source.
+
+**Open question:** the Singapore Open Data Licence v1.0 asks for a
+conspicuous notice naming the dataset, its access date and source, and
+linking the licence ("Contains information from {dataset} accessed on {date}
+from {source} which is made available under the terms of the Singapore Open
+Data Licence version 1.0"). Neither the current credit nor the longer one it
+replaced ("Block data © HDB/data.gov.sg (Singapore Open Data Licence);
+Geocoding © OneMap/SLA") meets that in full. The planned fix is a separate
+**About page** carrying the full notice, since the attribution control has no
+room for it. The access date has to come from the pipeline, which means a
+small addition to the data contract (§4).
 
 ### 5.9 Extension points
 
-v1 leaves two hooks in place for later work: a `colorBy` slot in the circle
-layer's paint expression, and a `filter` slot on the source. Both are unused in
-v1, so marker coloring (§7.1) and filtering (§7.2) can be added later without
-restructuring the map layers.
+v1 keeps one structural hook for later work: `blocks-highlight` (and its
+label) are separate layers from `blocks-circles`, so a future filter on
+`blocks-circles` (§7.2) can never hide a searched block. There is no explicit
+`colorBy` or `filter` slot; marker coloring (§7.1) replaces the fixed
+`circle-color` with a data-driven expression, and filtering sets a filter on
+`blocks-circles` and `blocks-labels`. `blocks-labels` already filters out the
+selected block (its label is drawn by `blocks-highlight-label`), so a future
+filter must be combined with that condition, not replace it.
 
 ## 6. Deployment & CI
 
@@ -511,19 +575,25 @@ restructuring the map layers.
 
 **`pipeline.yml`** (data refresh):
 
-- **Triggers:** **monthly cron** + `workflow_dispatch` (manual).
+- **Triggers:** **monthly cron** (08:00 SGT on the 1st) + `workflow_dispatch`
+  (manual). The data commit is labelled `chore(data): monthly …` or
+  `chore(data): manual …` accordingly.
 - **Steps:** checkout → setup Python → install → run the pipeline. The run
   fetches a fresh OneMap token from `ONEMAP_EMAIL`/`ONEMAP_PASSWORD`, geocodes
   all blocks ≤300/min, and writes `app/public/data/*` and
   `pipeline/geocode_failures.csv`.
 - **Commit only if diff**, then push. The push triggers the Vercel redeploy.
   Needs `contents: write`; a concurrency guard prevents overlapping runs.
-- **Failure = safe:** if OneMap/data.gov.sg is down, the run fails with no
-  commit and the last good data stays live.
+- **Failure = safe, with one gap:** if the OneMap token request, the
+  data.gov.sg fetch, or town decoding fails, the run stops before any write, so
+  nothing is committed and the last good data stays live. Per-block geocode
+  errors are **not** fatal (§3.2), so a OneMap outage that starts **after** the
+  token is issued still commits a partial contract. A failure-rate guard is
+  the planned fix.
 
 **`ci.yml`** (quality gate on PRs + `main`):
 
-- Frontend: `tsc` typecheck, ESLint, `vite build`, Vitest.
+- Frontend: Prettier check, `tsc` typecheck, ESLint, `vite build`, Vitest.
 - Pipeline: Ruff lint, pytest.
 
 **Secrets:** `ONEMAP_EMAIL`, `ONEMAP_PASSWORD`.
@@ -538,7 +608,8 @@ implementation cycle.
 
 ### 7.1 Marker coloring
 
-- Add a coloring selector driving the `colorBy` paint slot.
+- Add a coloring selector that swaps `blocks-circles`' fixed `circle-color`
+  for a data-driven expression (§5.9).
 - First dimensions (Property Information only): **year completed**, **number of
   floors**.
 - Later dimensions depend on deferred data: **median resale price**, **distance
@@ -565,9 +636,10 @@ implementation cycle.
   the choice per viewer via `localStorage`.
 - **Implementation note:** switching calls `map.setStyle()`, which discards all
   custom sources and layers. The selector must **re-add** the blocks source,
-  `blocks-circles`, and `blocks-highlight` (plus any active `colorBy`/`filter`)
-  on the `styledata` event after the new style loads; that
-  re-application is the real work, not the dropdown.
+  and all four block layers (circles, highlight, and both label layers), plus
+  any active coloring or filter, on the `styledata` event after the new style
+  loads; that re-application is the real work, not the dropdown. The label
+  layers also depend on the style's glyphs serving `Noto Sans Regular`/`Bold`.
 - **Couples with coloring (§7.1):** busier basemaps reduce marker-color
   legibility, so neutral styles remain preferred while a coloring mode is
   active.
