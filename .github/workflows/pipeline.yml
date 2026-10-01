@@ -41,12 +41,18 @@ jobs:
             echo "No data changes; nothing to commit."
           else
             # A manual dispatch is tagged so it stands apart from the monthly refresh.
-            DATE=$(TZ=Asia/Singapore date +%Y-%m-%d)
+            DATE=$(jq -r .data_accessed app/public/data/meta.json)
             if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
               RUN_TYPE=manual
             else
               RUN_TYPE=monthly
             fi
-            git commit -m "chore(data): $RUN_TYPE HDB data refresh ($DATE)"
+            # meta.json changes on every run, so a commit touching nothing else is a check
+            # that found the data unchanged.
+            if git diff --cached --quiet -- . ':!app/public/data/meta.json'; then
+              git commit -m "chore(data): $RUN_TYPE check, no data changes ($DATE)"
+            else
+              git commit -m "chore(data): $RUN_TYPE HDB data refresh ($DATE)"
+            fi
             git push
           fi

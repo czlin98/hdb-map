@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from export import to_detail_entry, to_index_feature, write_outputs
+from export import to_detail_entry, to_index_feature, write_meta, write_outputs
 
 TOWNS = [
     {"town": "ANG MO KIO", "town_slug": "ang-mo-kio", "town_code": "AMK"},
@@ -95,3 +95,8 @@ def test_duplicate_town_slug_raises(tmp_path):
     dupe_towns = TOWNS + [{"town": "X", "town_slug": "bedok", "town_code": "XX"}]
     with pytest.raises(ValueError, match="Duplicate town_slug"):
         write_outputs([_rec()], dupe_towns, app_data_dir=tmp_path)
+
+
+def test_write_meta_records_access_date(tmp_path):
+    write_meta("2026-10-01", app_data_dir=tmp_path)
+    assert json.loads((tmp_path / "meta.json").read_text()) == {"data_accessed": "2026-10-01"}

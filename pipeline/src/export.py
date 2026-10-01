@@ -73,3 +73,9 @@ def write_outputs(records: list[dict], towns: list[dict], app_data_dir: Path | N
         _write_json(shard_dir / f"{slug}.json", by_slug.get(slug, {}))
 
     _write_json(app_data_dir / "towns.json", towns)
+
+
+def write_meta(data_accessed: str, app_data_dir: Path | None = None) -> None:
+    app_data_dir = Path(app_data_dir or config.APP_DATA_DIR)
+    app_data_dir.mkdir(parents=True, exist_ok=True)
+    _write_json(app_data_dir / "meta.json", {"data_accessed": data_accessed})

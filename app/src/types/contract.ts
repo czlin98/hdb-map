@@ -33,6 +33,10 @@ export interface BlockDetail {
   rental_units_by_type?: FlatTypeCounts;
 }
 
+export interface DataMeta {
+  data_accessed: string; // YYYY-MM-DD, Singapore time, of the last successful pipeline run
+}
+
 export interface Town {
   town: string;
   town_slug: string;

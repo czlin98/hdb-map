@@ -3,12 +3,13 @@ import csv
 import json
 import logging
 import os
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
 
 import config
-from export import write_outputs
+from export import write_meta, write_outputs
 from fetch import fetch_blocks
 from geocode import geocode_all, get_token
 from towns import load_towns
@@ -25,6 +26,11 @@ def write_failures(failures: list[dict], path: Path | None = None) -> None:
         writer = csv.DictWriter(fh, fieldnames=["blk_no", "street_full", "reason", "found"])
         writer.writeheader()
         writer.writerows(rows)
+
+
+def today_sgt() -> str:
+    # Singapore has no DST, so a fixed offset avoids needing tzdata on Windows.
+    return datetime.now(timezone(timedelta(hours=8))).date().isoformat()
 
 
 def check_block_count(new_count: int, index_path: Path) -> None:
@@ -50,6 +56,7 @@ def run(limit: int | None = None) -> None:
     # Fail fast before any writes, so a failed run never corrupts the committed contract.
     token = get_token(session, email, password)
     towns = load_towns(config.TOWNS_PATH)
+    data_accessed = today_sgt()
     blocks = fetch_blocks(session)
     log.info("Fetched %d residential blocks", len(blocks))
     if limit is not None:
@@ -64,6 +71,7 @@ def run(limit: int | None = None) -> None:
     if limit is None:
         check_block_count(len(records), Path(config.APP_DATA_DIR) / "index.geojson")
     write_outputs(records, towns, config.APP_DATA_DIR)
+    write_meta(data_accessed, config.APP_DATA_DIR)
     write_failures(failures, config.FAILURES_PATH)
     log.info("Wrote %d blocks to index + %d shards", len(records), len(towns))
 

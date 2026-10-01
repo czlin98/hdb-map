@@ -22,6 +22,7 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "FAILURES_PATH", tmp_path / "geocode_failures.csv")
     monkeypatch.setattr(geocode.time, "sleep", lambda *_: None)
     monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
+    monkeypatch.setattr(run_module, "today_sgt", lambda: "2026-10-01")
 
     responses.add(responses.POST, config.ONEMAP_TOKEN_URL,
                   json={"access_token": "tok"}, status=200)
@@ -53,6 +54,9 @@ def test_run_end_to_end(tmp_path, monkeypatch):
         rows = list(csv.DictReader(fh))
     assert rows == [{"blk_no": "999", "street_full": "NOWHERE ROAD",
                      "reason": "no_results", "found": "0"}]
+
+    meta = json.loads((tmp_path / "data" / "meta.json").read_text())
+    assert meta == {"data_accessed": "2026-10-01"}
 
 
 def test_run_limit_caps_blocks_before_geocode(tmp_path, monkeypatch):
@@ -123,6 +127,7 @@ def _stub_stages(monkeypatch, tmp_path, n_records):
     monkeypatch.setattr(run_module, "transform", lambda s, t: [{}] * n_records)
     writes = []
     monkeypatch.setattr(run_module, "write_outputs", lambda *a, **k: writes.append("outputs"))
+    monkeypatch.setattr(run_module, "write_meta", lambda *a, **k: writes.append("meta"))
     monkeypatch.setattr(run_module, "write_failures", lambda *a, **k: writes.append("failures"))
     return writes
 
@@ -143,4 +148,4 @@ def test_run_limit_skips_block_count_check(tmp_path, monkeypatch):
 
     run_module.run(limit=20)
 
-    assert writes == ["outputs", "failures"]
+    assert writes == ["outputs", "meta", "failures"]
