@@ -58,9 +58,8 @@ the implemented behavior is:
   `chore(data): monthly HDB data refresh (YYYY-MM-DD)` or `manual …` for a
   `workflow_dispatch` run.
 
-Known gap, not yet addressed: an `api_error` is collected like any other
-failure, so a OneMap outage mid-run still writes and commits a partial
-contract. See spec §3.2 and §6.2.
+A known gap noted here (a OneMap outage mid-run committing a partial
+contract) has since been closed by the block-count guard; see spec §3.2.
 
 ---
 

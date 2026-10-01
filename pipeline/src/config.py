@@ -7,6 +7,10 @@ APP_DATA_DIR = ROOT / "app" / "public" / "data"
 TOWNS_PATH = PIPELINE_DIR / "towns.json"
 FAILURES_PATH = PIPELINE_DIR / "geocode_failures.csv"
 
+# A run may drop at most 1% of the live blocks (~108 of ~10.8k). Real monthly change is a few
+# demolitions; a OneMap outage or truncated download drops hundreds, and must not be published.
+MIN_BLOCK_RATIO = 0.99
+
 DATASETS_API_BASE = "https://api-open.data.gov.sg/v1/public/api/datasets"
 # HDB Property Information
 RESOURCE_ID = "d_17f5382f26140b1fdae0ba2ef6239d2f"
