@@ -6,8 +6,7 @@ import path from "node:path";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   resolve: { alias: { "@": path.resolve(__dirname, "src") } },
-  // Emit ES-module workers so maplibre-gl v6's `new Worker(url, {type:"module"})`
-  // matches the worker Vite bundles from `?worker&url` (see src/main.tsx).
+  // maplibre-gl v6 starts its worker with {type: "module"} (see src/main.tsx).
   worker: { format: "es" },
   test: {
     globals: true,

@@ -4,7 +4,7 @@ export interface BlockIndexProperties {
   id: string;
   blk_no: string;
   street: string; // abbreviated (tooltip)
-  street_full: string; // expanded (search)
+  street_full: string; // abbreviations expanded (search)
   postal: string;
   town: string;
 }

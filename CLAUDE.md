@@ -85,14 +85,41 @@ MapLibre GL, free, no API key.
 
 ## Code style
 
-- **Comments explain _why_, not _what_.** Keep them concise and skip comments that only restate the
-  code; match the surrounding file's density and idiom.
+- **Comments explain _why_, not _what_.** See [Code comments](#code-comments) below; match the
+  surrounding file's density and idiom.
 - **Avoid em dashes** in code comments, commit messages, Markdown, and user-facing copy. Use commas,
   colons, or parentheses instead.
-- **Line length is 100 columns.** Tooling enforces it: Prettier for TS/JS and the maintained
-  Markdown (`CLAUDE.md`, `README.md`), ruff for Python. Wrap Markdown prose at 100 too. The
-  `docs/specs` and `docs/plans` design docs are frozen artifacts full of illustrative embedded code,
-  so they are exempt from the formatter (`.prettierignore`); leave their formatting as-is.
+- **Line length is 100 columns.** Prettier wraps TS/JS code and the maintained Markdown
+  (`CLAUDE.md`, `README.md`), and ruff checks Python, comments included. Prettier never wraps or
+  flags comments, so keep TS/JS and CSS comments within 100 columns yourself. The `docs/specs` and
+  `docs/plans` design docs are frozen artifacts full of illustrative embedded code, so they are
+  exempt from the formatter (`.prettierignore`); leave their formatting as-is.
+
+### Code comments
+
+A comment earns its place only by saying something the code can't. Write one for:
+
+- **A reason:** why this approach, when a simpler-looking one would be wrong.
+- **A workaround:** name the library and the behaviour it works around.
+- **A coupling:** a constraint shared with another place; name that place.
+- **A surprise:** external data or code behaving in a way a careful reader wouldn't expect.
+- **A magic number:** where it comes from or what breaks if it changes.
+
+Don't write a comment that:
+
+- restates the code, or explains a name that should be renamed instead;
+- records what the code used to do or why it changed, which belongs in the commit message (a test
+  may name the regression it guards);
+- states a guessed reason as fact; if you can't confirm why, ask, or flag it in the PR;
+- keeps dead code or an untracked TODO; delete the code, and link a TODO to an issue.
+
+Form:
+
+- One line by default, at most three. If it needs more, simplify the code or move the detail to the
+  PR description.
+- Put a comment above the line it explains; keep trailing comments to a few words, such as a unit.
+- Docstrings and JSDoc only where the contract isn't clear from the name and signature.
+- When a change makes a comment wrong, fix or delete it in the same change.
 
 ## Git & PR conventions
 

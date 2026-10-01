@@ -29,7 +29,6 @@ test("getBlockDetail resolves slug, fetches shard once, caches", async () => {
   expect(first?.year_completed).toBe(1978);
   expect(fetchMock).toHaveBeenCalledWith("/data/block-details/ang-mo-kio.json");
 
-  // second call for the same town hits the cache, no new fetch
   await get("123-ang-mo-kio-ave-3", "ANG MO KIO");
   expect(fetchMock).toHaveBeenCalledTimes(1);
 });

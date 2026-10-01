@@ -39,9 +39,7 @@ def test_multiple_qualifiers_take_first():
 
 @responses.activate
 def test_gate_skips_nil_postal_and_takes_valid_qualifier():
-    # A block+street can return several results: the residential building plus
-    # businesses sharing the block. The businesses come back with POSTAL "NIL",
-    # so the gate must skip them and select the result with a real postal.
+    # Businesses sharing the block come back with POSTAL "NIL".
     body = {"found": 2, "results": [
         _result("123", "ANG MO KIO AVENUE 3", postal="NIL"),
         _result("123", "ANG MO KIO AVENUE 3", postal="560123"),
@@ -64,11 +62,8 @@ def test_gate_fails_when_all_qualifiers_have_nil_postal():
 
 @responses.activate
 def test_gate_requires_postal_to_match_block_number():
-    # OneMap can return several results sharing BLK_NO and ROAD_NAME, one per
-    # building at that address. A different building's result (valid postal, but
-    # not ending in the block number) must not win over the actual HDB block,
-    # whichever comes first. Every HDB postal ends with its block number, so
-    # 2 QUEEN'S ROAD is 260002, not the co-located 266733.
+    # A co-located building (valid postal, not ending in the block number) must not win,
+    # whichever comes first: 2 QUEEN'S ROAD is 260002, not 266733.
     block = {"blk_no": "2", "street_full": "QUEEN'S ROAD"}
     body = {"found": 2, "results": [
         _result("2", "QUEEN'S ROAD", postal="266733"),
@@ -80,8 +75,6 @@ def test_gate_requires_postal_to_match_block_number():
 
 @responses.activate
 def test_gate_matches_block_number_ignoring_letter_suffix():
-    # Block numbers can carry a letter suffix (216B); only the digits appear in
-    # the postal, so the suffix must be stripped before comparing.
     block = {"blk_no": "216B", "street_full": "BEDOK NORTH STREET 1"}
     body = {"found": 1, "results": [_result("216B", "BEDOK NORTH STREET 1", postal="460216")]}
     responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)

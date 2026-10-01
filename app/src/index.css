@@ -3,14 +3,13 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* App structure: full-height map shell, and lock document overscroll so iOS
-   Safari's pull-to-refresh can't hijack the map or the sheet. */
 html,
 body,
 #root {
   height: 100%;
   margin: 0;
 }
+/* Stop iOS Safari's pull-to-refresh from hijacking map and sheet drags. */
 html,
 body {
   overscroll-behavior: none;
@@ -132,7 +131,6 @@ body {
   }
 }
 
-/* Marker hover tooltip: adjust MapLibre's default padding and round the corners. */
 .block-tooltip .maplibregl-popup-content {
   padding: 8px 14px;
   border-radius: 8px;

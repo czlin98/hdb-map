@@ -1,8 +1,6 @@
-"""Stage 3: decode town, join, derive per-block records."""
-
 from config import make_id
 
-# (source column, output key): source-column display order, low to high.
+# (source column, output key). Output keys must match app/src/lib/flat-types.ts.
 FLAT_TYPES_SOLD = [
     ("1room_sold", "1room"),
     ("2room_sold", "2room"),

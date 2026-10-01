@@ -123,24 +123,22 @@ interface PanelProps {
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
-  // Controlled by the parent so a map tap can start the close animation before
-  // the selection clears. Set false to animate out; onClose fires once done.
+  // Controlled so a map tap can start the close animation before the selection clears.
+  // Set false to animate out; onClose fires once done.
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onClose: () => void;
   ref?: Ref<DetailsPanelHandle>;
 }
 
-// Imperative close for parent-initiated dismissals (e.g. a background map tap).
 export interface DetailsPanelHandle {
   close: () => void;
 }
 
 export function DetailsPanel(props: PanelProps) {
-  // Vaul does not fire its close callbacks when a snap-point drawer is closed via
-  // the controlled `open` prop, so onClose never runs; a parent-initiated mobile
-  // close clicks its Close control instead.
   const { isDesktop, onOpenChange } = props;
+  // Vaul skips its close callbacks when a snap-point drawer is closed via the `open` prop,
+  // so onClose would never run. A parent-initiated mobile close clicks DrawerClose instead.
   const drawerCloseRef = useRef<HTMLButtonElement>(null);
   useImperativeHandle(
     props.ref,
@@ -157,14 +155,9 @@ export function DetailsPanel(props: PanelProps) {
   );
 
   if (props.isDesktop) {
+    // Non-modal so the map stays interactive: no focus trap, scroll lock, or overlay.
     return (
-      <Sheet
-        open={props.open}
-        // Non-modal so the map stays interactive; no focus trap, scroll lock, or
-        // overlay.
-        modal={false}
-        onOpenChange={props.onOpenChange}
-      >
+      <Sheet open={props.open} modal={false} onOpenChange={props.onOpenChange}>
         <SheetContent
           onOpenAutoFocus={(e) => e.preventDefault()}
           onInteractOutside={(e) => e.preventDefault()}
@@ -173,16 +166,14 @@ export function DetailsPanel(props: PanelProps) {
           }}
         >
           <SheetTitle className="sr-only">Block details</SheetTitle>
-          {/* Scroll long content within the fixed-height sheet. */}
           <div className="min-h-0 flex-1 overflow-y-auto">{body}</div>
         </SheetContent>
       </Sheet>
     );
   }
 
-  // Vaul scrolls the body only at the fully-open snap (1); below it a drag moves
-  // the sheet. So scroll at the top snap; elsewhere give the drag to Vaul
-  // (touch-none) so it drags from anywhere and the browser can't hijack it.
+  // Vaul scrolls the body only at the top snap; below it a drag moves the sheet. Elsewhere,
+  // touch-none hands every drag to Vaul so the browser can't hijack it.
   const fullyOpen = props.activeSnap === props.snapPoints[props.snapPoints.length - 1];
   const bodyScroll = fullyOpen
     ? "overflow-y-auto overscroll-contain touch-pan-y"
@@ -196,15 +187,13 @@ export function DetailsPanel(props: PanelProps) {
       activeSnapPoint={props.activeSnap}
       setActiveSnapPoint={props.onSnapChange}
       onOpenChange={props.onOpenChange}
-      // repositionInputs re-fits the sheet to the search box's keyboard, which breaks
-      // its layout on mobile.
+      // Otherwise Vaul re-fits the sheet around the search box's keyboard, breaking its layout.
       repositionInputs={false}
       onAnimationEnd={(isOpen) => {
         if (!isOpen) props.onClose();
       }}
     >
-      {/* Full-height snap points drive the height, so drop the canonical bottom
-          drawer's max-h/mt cap. */}
+      {/* The snap points set the height, so lift the stock drawer's max-h/mt cap. */}
       <DrawerContent className="h-dvh data-[vaul-drawer-direction=bottom]:mt-0 data-[vaul-drawer-direction=bottom]:max-h-none">
         <DrawerTitle className="sr-only">Block details</DrawerTitle>
         <DrawerClose

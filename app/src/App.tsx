@@ -8,7 +8,7 @@ import { SearchBox } from "./components/SearchBox";
 import { DetailsPanel, type DetailsPanelHandle } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
-// First point peeks the details header; middle is a half sheet; the last point is fully open.
+// Peek at the details header, a half sheet, then fully open.
 const SNAP_POINTS = ["95px", 0.5, 1] as const;
 
 function useIsDesktop() {
@@ -29,8 +29,8 @@ export default function App() {
   const [towns, setTowns] = useState<Town[]>([]);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [activeSnap, setActiveSnap] = useState<string | number | null>(SNAP_POINTS[1]);
-  // Panel open/close is lifted here so a background map tap can start the close
-  // animation; the panel calls onClose (clear) only once the animation ends.
+  // Lifted here so a background map tap can start the close animation; the panel calls
+  // onClose (clearing the selection) only once that animation ends.
   const [panelOpen, setPanelOpen] = useState(false);
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -38,8 +38,8 @@ export default function App() {
 
   const { selectedId, selectedTown, select, clear } = useSelection();
 
-  // Set the open flag in the same handler as the selection (not an effect) so the
-  // panel's first render already sees open=true and never flashes a close.
+  // Opening in the same handler as the selection (not an effect) means the panel's first
+  // render already sees open=true and never flashes a close.
   const openBlock = (id: string, town: string) => {
     select(id, town);
     setPanelOpen(true);
@@ -61,7 +61,6 @@ export default function App() {
     };
   }, []);
 
-  // Reopen a newly selected block at the half sheet.
   useEffect(() => {
     if (selectedId) setActiveSnap(SNAP_POINTS[1]);
   }, [selectedId]);
@@ -69,12 +68,10 @@ export default function App() {
   const searchRows = useMemo(() => buildSearchIndex(index), [index]);
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
 
-  // On mobile, keep the selected marker above the sheet by matching fly padding to
-  // the snap. null = don't fly at all.
+  // On mobile, pad the fly-to by the sheet's height so the selected marker lands above it.
   const flyPaddingBottom = useMemo<number | null>(() => {
     if (isDesktop) return 0;
-    if (activeSnap === SNAP_POINTS[2]) return null; // fully open, map is hidden
-    // Pad by the sheet's pixel height so it tracks SNAP_POINTS and flyTo centers the marker above.
+    if (activeSnap === SNAP_POINTS[2]) return null; // fully open: the map is hidden
     const vh = typeof window !== "undefined" ? window.innerHeight : 800;
     return typeof activeSnap === "number"
       ? Math.round(activeSnap * vh)
@@ -89,7 +86,6 @@ export default function App() {
         onSelectBlock={openBlock}
         onBackgroundClick={() => panelRef.current?.close()}
         flyPaddingBottom={flyPaddingBottom}
-        // Top clearance is for the mobile sheet layout only; desktop shows a side panel.
         topClearanceRef={isDesktop ? undefined : searchInputRef}
         showZoomButtons={isDesktop}
       />

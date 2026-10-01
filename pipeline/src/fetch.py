@@ -1,9 +1,3 @@
-"""Stage 1: pull HDB Property Information from data.gov.sg (bulk CSV download).
-
-Uses data.gov.sg's dataset download API: initiate-download, then poll-download
-until a temporary CSV url is ready, then fetch that CSV in one request.
-"""
-
 import csv
 import io
 import time
@@ -18,7 +12,6 @@ FLAT_COLUMNS = [
     "1room_rental", "2room_rental", "3room_rental", "other_room_rental",
 ]
 
-# Transient HTTP codes worth retrying on any of the three download calls.
 _TRANSIENT = {429, 500, 502, 503, 504}
 
 
@@ -29,11 +22,7 @@ def _api_get(
     backoff: float = 1.0,
     stream: bool = False,
 ) -> requests.Response:
-    """GET a url, retrying transient errors with backoff (honoring Retry-After).
-
-    A non-transient error raises immediately; exhausting retries on a transient
-    error also raises (fail fast, no writes).
-    """
+    """GET with backoff on transient errors (honoring Retry-After); anything else raises."""
     resp = None
     for attempt in range(max_retries):
         resp = session.get(url, timeout=120, stream=stream)
@@ -54,7 +43,8 @@ def _download_url(
     poll_interval: float = 2.0,
     max_retries: int = 5,
 ) -> str:
-    """Initiate a dataset download and poll until the CSV url is ready."""
+    # data.gov.sg prepares bulk CSVs asynchronously: initiate, then poll until a temporary
+    # download url is ready.
     base = f"{DATASETS_API_BASE}/{dataset_id}"
     _api_get(session, f"{base}/initiate-download", max_retries=max_retries)
     for _ in range(poll_attempts):
@@ -79,8 +69,7 @@ def fetch_blocks(
         session, RESOURCE_ID, poll_attempts=poll_attempts, max_retries=max_retries
     )
     resp = _api_get(session, csv_url, max_retries=max_retries)
-    # utf-8-sig strips a leading BOM if data.gov.sg includes one, which would
-    # otherwise corrupt the first column name (e.g. "﻿blk_no").
+    # utf-8-sig strips a leading BOM, which would otherwise corrupt the first column name.
     text = resp.content.decode("utf-8-sig")
     records = list(csv.DictReader(io.StringIO(text)))
 

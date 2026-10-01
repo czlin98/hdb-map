@@ -40,9 +40,8 @@ function DrawerContent({
 }: React.ComponentProps<typeof DrawerPrimitive.Content>) {
   return (
     <DrawerPortal data-slot="drawer-portal">
-      {/* No <DrawerOverlay /> here: this app opens the drawer non-modal over a live
-          map, so a dimming backdrop would cover and freeze the map. DrawerOverlay is
-          still exported for any future modal drawer. */}
+      {/* No <DrawerOverlay />: the drawer opens non-modal over a live map, which a backdrop
+          would cover and freeze. */}
       <DrawerPrimitive.Content
         data-slot="drawer-content"
         className={cn(

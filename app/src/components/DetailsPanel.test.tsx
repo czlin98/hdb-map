@@ -19,8 +19,7 @@ const panelProps = {
   onSnapChange: () => {},
 };
 
-// The parent owns open/close (see App.tsx); mirror that here so the close
-// controls drive onOpenChange and the panel unmounts once closed.
+// Mirrors App, which owns open/close, so the close controls drive onOpenChange.
 function ControlledPanel({
   getBlockDetail,
   isDesktop,
@@ -110,9 +109,8 @@ test("imperative close() on desktop dismisses via the controlled open prop", asy
 });
 
 test("imperative close() on mobile dismisses via the drawer Close control", async () => {
-  // Vaul skips its close lifecycle when closed via the controlled prop, so the
-  // mobile close must click its own Close control instead (regression: the
-  // marker stayed selected because onClose never ran).
+  // Regression: closing Vaul via the controlled prop skips onClose, so the marker stayed
+  // selected. The mobile close must click its own Close control.
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
   const ref = createRef<DetailsPanelHandle>();
   render(

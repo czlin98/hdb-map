@@ -1,5 +1,3 @@
-"""Stage 2: OneMap geocoding (token, per-block gate, batch loop)."""
-
 import logging
 import time
 
@@ -29,17 +27,14 @@ def _norm(value: str | None) -> str:
 
 
 def _valid_postal(postal: str | None) -> bool:
-    # OneMap returns "NIL" for results with no postal (e.g. businesses sharing
-    # a block); such a result must not qualify.
+    # OneMap returns "NIL" for results with no postal, such as businesses sharing a block.
     return _norm(postal) not in ("", "NIL")
 
 
 def _postal_matches_block(postal: str | None, blk_no: str) -> bool:
-    # Every HDB postal code ends with its block number (2 Queen's Road is
-    # 260002, not the co-located 266733). Several buildings can share a BLK_NO
-    # and ROAD_NAME, so without this check OneMap's first match may be the wrong
-    # one. Block numbers can carry a letter suffix (216B); only the digits reach
-    # the postal, so compare on the digits alone.
+    # Several buildings can share a BLK_NO and ROAD_NAME, but every HDB postal ends with its
+    # block number (2 Queen's Road is 260002, not the co-located 266733). Only the digits of
+    # a lettered block (216B) reach the postal.
     digits = "".join(c for c in blk_no if c.isdigit())
     if not digits:
         return True
@@ -90,11 +85,9 @@ def geocode_block(
                     }
             return {"ok": False, "reason": "no_match", "found": found}
 
-        # Non-transient HTTP error: give up immediately.
         if resp is not None and resp.status_code not in _TRANSIENT:
             return {"ok": False, "reason": "api_error", "found": 0}
 
-        # Transient or connection error: back off and retry.
         time.sleep(backoff * (2 ** attempt))
 
     return {"ok": False, "reason": "api_error", "found": 0}
@@ -131,5 +124,5 @@ def geocode_all(
                 i, total, block["blk_no"], block["street_full"],
                 result["reason"], result["found"],
             )
-        time.sleep(sleep)
+        time.sleep(sleep)  # stay under OneMap's rate limit
     return successes, failures

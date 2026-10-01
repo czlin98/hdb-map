@@ -1,5 +1,3 @@
-"""Orchestrator: fetch -> geocode -> transform -> export."""
-
 import argparse
 import csv
 import logging
@@ -20,6 +18,7 @@ log = logging.getLogger("pipeline")
 
 def write_failures(failures: list[dict], path: Path | None = None) -> None:
     path = Path(path or config.FAILURES_PATH)
+    # Sorted: the CSV is committed, so a stable order keeps monthly diffs minimal.
     rows = sorted(failures, key=lambda f: (f["blk_no"], f["street_full"]))
     with path.open("w", newline="", encoding="utf-8") as fh:
         writer = csv.DictWriter(fh, fieldnames=["blk_no", "street_full", "reason", "found"])
@@ -34,7 +33,7 @@ def run(limit: int | None = None) -> None:
     password = os.environ["ONEMAP_PASSWORD"]
     session = requests.Session()
 
-    # Fail fast BEFORE any writes: token, then towns, then fetch.
+    # Fail fast before any writes, so a failed run never corrupts the committed contract.
     token = get_token(session, email, password)
     towns = load_towns(config.TOWNS_PATH)
     blocks = fetch_blocks(session)

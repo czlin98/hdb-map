@@ -35,7 +35,7 @@ def test_transform_builds_clean_record():
 def test_units_by_type_keeps_only_positive_and_drops_suffix():
     (rec,) = transform([_block()], TOWNS)
     assert rec["sold_units_by_type"] == {"3room": 40, "4room": 60}  # 5room=0 dropped
-    assert rec["rental_units_by_type"] == {"other_room": 5}  # 1room=0 dropped
+    assert rec["rental_units_by_type"] == {"other_room": 5}
 
 
 def test_missing_flat_columns_default_to_zero():

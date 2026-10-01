@@ -1,5 +1,3 @@
-"""Load the canonical town master list."""
-
 import json
 from pathlib import Path
 

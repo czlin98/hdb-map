@@ -2,7 +2,7 @@ import { render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, expect, test, vi } from "vitest";
 
-// MapView is exercised in its own test; stub it here to a clickable list so App wiring is testable.
+// MapView has its own tests; a clickable stub makes the App wiring testable.
 vi.mock("./components/MapView", () => ({
   MapView: ({
     data,

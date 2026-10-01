@@ -5,6 +5,7 @@ export interface FlatTypeDef {
   label: string;
 }
 
+// Display order. Keys must match the output keys in pipeline/src/transform.py.
 export const SOLD_FLAT_TYPES: FlatTypeDef[] = [
   { key: "1room", label: "1-Room" },
   { key: "2room", label: "2-Room" },
