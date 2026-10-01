@@ -2,7 +2,7 @@ name: pipeline
 
 on:
   schedule:
-    - cron: "0 0 1 * *"   # 00:00 UTC = 08:00 SGT on the 1st of each month (Actions cron is UTC-only)
+    - cron: "0 0 1 * *" # 08:00 SGT on the 1st (Actions cron is UTC-only)
   workflow_dispatch:
 
 concurrency:
@@ -28,7 +28,7 @@ jobs:
         env:
           ONEMAP_EMAIL: ${{ secrets.ONEMAP_EMAIL }}
           ONEMAP_PASSWORD: ${{ secrets.ONEMAP_PASSWORD }}
-          PYTHONUNBUFFERED: "1"   # stream per-address geocode logs live
+          PYTHONUNBUFFERED: "1" # stream per-block geocode logs live
         run: python src/run.py
       - name: Commit data if changed
         env:
@@ -40,8 +40,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes; nothing to commit."
           else
-            # SGT date labels the snapshot; a manual dispatch is tagged so it is
-            # distinguishable from the scheduled monthly refresh in the log.
+            # A manual dispatch is tagged so it stands apart from the monthly refresh.
             DATE=$(TZ=Asia/Singapore date +%Y-%m-%d)
             if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
               RUN_TYPE=manual

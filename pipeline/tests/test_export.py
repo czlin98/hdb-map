@@ -24,7 +24,7 @@ def _rec(**over):
 
 def test_index_feature_shape():
     f = to_index_feature(_rec())
-    assert f["geometry"]["coordinates"] == [103.84, 1.36]  # [lon, lat]
+    assert f["geometry"]["coordinates"] == [103.84, 1.36]
     assert set(f["properties"]) == {"id", "blk_no", "street", "street_full", "postal", "town"}
 
 
@@ -42,7 +42,6 @@ def test_write_outputs_creates_all_files(tmp_path):
     assert index["type"] == "FeatureCollection"
     assert len(index["features"]) == 1
 
-    # a shard exists for EVERY slug, even empty ones
     assert json.loads((tmp_path / "block-details" / "bedok.json").read_text()) == {}
     amk = json.loads((tmp_path / "block-details" / "ang-mo-kio.json").read_text())
     assert "123-ang-mo-kio-ave-3" in amk

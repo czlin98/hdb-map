@@ -1,25 +1,19 @@
-"""Shared paths, endpoints, and pure string helpers for the pipeline."""
-
 import re
 from pathlib import Path
 
-# Repo root: src -> pipeline -> repo root
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[2]  # src -> pipeline -> repo root
 PIPELINE_DIR = ROOT / "pipeline"
 APP_DATA_DIR = ROOT / "app" / "public" / "data"
 TOWNS_PATH = PIPELINE_DIR / "towns.json"
 FAILURES_PATH = PIPELINE_DIR / "geocode_failures.csv"
 
-# data.gov.sg dataset download API (bulk CSV via initiate-download + poll-download).
 DATASETS_API_BASE = "https://api-open.data.gov.sg/v1/public/api/datasets"
-# HDB Property Information dataset id on data.gov.sg (the d_-prefixed id).
-# Tests mock the download endpoints, so it isn't hit in tests.
+# HDB Property Information
 RESOURCE_ID = "d_17f5382f26140b1fdae0ba2ef6239d2f"
 
 ONEMAP_TOKEN_URL = "https://www.onemap.gov.sg/api/auth/post/getToken"
 ONEMAP_SEARCH_URL = "https://www.onemap.gov.sg/api/common/elastic/search"
 
-# OneMap's canonical abbreviation map. Whole-token match.
 STREET_ABBREVIATIONS = {
     "AVE": "AVENUE",
     "BT": "BUKIT",
@@ -50,19 +44,17 @@ STREET_ABBREVIATIONS = {
 
 
 def expand_street(street: str) -> str:
-    """Replace each whole token that is a key in STREET_ABBREVIATIONS.
+    """Expand each whole token found in STREET_ABBREVIATIONS.
 
-    Splits on whitespace; numerals and unmatched tokens pass through unchanged.
     Whole-token matching keeps ``ST`` (STREET) distinct from ``ST.`` (SAINT).
     """
     return " ".join(STREET_ABBREVIATIONS.get(tok, tok) for tok in street.split())
 
 
 def slugify(text: str) -> str:
-    """Lowercase; collapse each run of non-alphanumerics to a single hyphen."""
     return re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
 
 
 def make_id(blk_no: str, street: str) -> str:
-    """Stable block id from block number + the ABBREVIATED street."""
+    """Block id, the join key across the data contract, built from the ABBREVIATED street."""
     return slugify(f"{blk_no} {street}")

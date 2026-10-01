@@ -1,5 +1,3 @@
-"""Stage 4: write the data contract files, deterministically."""
-
 import json
 from collections import Counter
 from pathlib import Path
@@ -40,8 +38,8 @@ def to_detail_entry(rec: dict) -> dict:
 
 
 def _write_json(path: Path, obj) -> None:
-    # Fields follow their construction order above.
     path.write_text(
+        # No sort_keys: fields keep their construction order above, which is already stable.
         json.dumps(obj, indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
@@ -71,7 +69,7 @@ def write_outputs(records: list[dict], towns: list[dict], app_data_dir: Path | N
     by_slug: dict[str, dict] = {}
     for r in sorted(records, key=lambda r: r["id"]):  # id-sorted -> stable key order
         by_slug.setdefault(r["town_slug"], {})[r["id"]] = to_detail_entry(r)
-    for slug in slugs:  # a shard for EVERY town, even empty
+    for slug in slugs:  # a shard for EVERY town, even empty, so the app never 404s
         _write_json(shard_dir / f"{slug}.json", by_slug.get(slug, {}))
 
     _write_json(app_data_dir / "towns.json", towns)

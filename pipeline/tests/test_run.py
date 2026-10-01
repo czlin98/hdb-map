@@ -21,10 +21,8 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     monkeypatch.setattr(geocode.time, "sleep", lambda *_: None)
     monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
 
-    # towns: use the real canonical file.
     responses.add(responses.POST, config.ONEMAP_TOKEN_URL,
                   json={"access_token": "tok"}, status=200)
-    # data.gov.sg bulk download: initiate -> poll (url ready) -> CSV.
     responses.add(responses.GET, _INIT_URL,
                   json={"code": 0, "data": {"message": "ok"}, "errorMsg": ""}, status=201)
     responses.add(responses.GET, _POLL_URL,
@@ -77,7 +75,7 @@ def test_run_limit_caps_blocks_before_geocode(tmp_path, monkeypatch):
 
     run_module.run(limit=2)
 
-    assert seen["n"] == 2  # only the first 2 of 5 fetched blocks are geocoded
+    assert seen["n"] == 2
 
 
 def test_write_failures_sorted(tmp_path):

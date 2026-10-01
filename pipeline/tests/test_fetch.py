@@ -74,8 +74,8 @@ def test_fetch_polls_until_url_ready(monkeypatch):
     import fetch
     monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
     responses.add(responses.GET, INIT_URL, json=_init_ok(), status=201)
-    responses.add(responses.GET, POLL_URL, json=_poll(""), status=200)      # not ready
-    responses.add(responses.GET, POLL_URL, json=_poll(CSV_URL), status=200)  # ready
+    responses.add(responses.GET, POLL_URL, json=_poll(""), status=200)
+    responses.add(responses.GET, POLL_URL, json=_poll(CSV_URL), status=200)
     responses.add(responses.GET, CSV_URL, body=_csv(
         {"blk_no": "1", "street": "X RD", "residential": "Y",
          "bldg_contract_town": "AMK"}), status=200)
@@ -91,7 +91,7 @@ def test_fetch_retries_transient_then_succeeds(monkeypatch):
     monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
     responses.add(responses.GET, INIT_URL, json=_init_ok(), status=201)
     responses.add(responses.GET, POLL_URL, json=_poll(CSV_URL), status=200)
-    responses.add(responses.GET, CSV_URL, status=429)  # transient
+    responses.add(responses.GET, CSV_URL, status=429)
     responses.add(responses.GET, CSV_URL, body=_csv(
         {"blk_no": "1", "street": "X RD", "residential": "Y",
          "bldg_contract_town": "AMK"}), status=200)
