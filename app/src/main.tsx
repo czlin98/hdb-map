@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import * as maplibregl from "maplibre-gl";
-// maplibre-gl v6 computes its worker URL dynamically, which Vite/Rollup cannot
-// statically bundle (no worker asset is emitted for the build, and the dev
-// server corrupts the raw worker module). Hand it a Vite-managed worker URL,
-// bundled self-contained via `?worker&url`, before any map is created.
+// maplibre-gl v6 computes its worker URL at runtime, which Vite can't bundle (the build
+// emits no worker, and the dev server corrupts the raw module). Hand it a Vite-managed,
+// self-contained worker URL before any map is created.
 import maplibreWorkerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import App from "./App";
 import "./index.css";

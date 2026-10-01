@@ -44,8 +44,7 @@ function SheetContent({
 }) {
   return (
     <SheetPortal>
-      {/* No <SheetOverlay /> here: the details panel is non-modal so the map stays
-          interactive behind it. SheetOverlay is still exported for modal use. */}
+      {/* No <SheetOverlay />: the panel is non-modal so the map stays interactive. */}
       <SheetPrimitive.Content
         data-slot="sheet-content"
         className={cn(

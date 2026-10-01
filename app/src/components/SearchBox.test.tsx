@@ -54,8 +54,8 @@ test("reopening the input shows the same results", async () => {
 });
 
 test("reopening highlights the first result, not the previous pick", async () => {
-  // Three rows, picking the middle: cmdk only clears a picked row's highlight when it
-  // is the last row to unmount, so this is the case that used to leave it behind.
+  // Picking the middle of three rows: cmdk only clears a picked highlight when it is the
+  // last row to unmount, so this case used to leave it behind.
   const three = ["10", "11", "12"].map((blk) => ({
     id: blk,
     blk_no: blk,
@@ -103,7 +103,7 @@ test("refocusing the input without a click does not reopen the list", async () =
   await userEvent.keyboard("{Enter}");
   expect(screen.queryByText(AMK)).not.toBeInTheDocument();
 
-  // Switching to another tab and back blurs and refocuses the input, with no click.
+  // Switching tabs and back blurs and refocuses the input, with no click.
   act(() => {
     input.blur();
     input.focus();
@@ -168,7 +168,6 @@ test("tabbing out through the clear button closes the list", async () => {
   await userEvent.type(screen.getByPlaceholderText(/search/i), "avenue 3");
   await screen.findByText(AMK);
 
-  // Input to clear button stays inside the box, so the list stays.
   await userEvent.tab();
   expect(screen.getByRole("button", { name: /clear search/i })).toHaveFocus();
   expect(screen.getByText(AMK)).toBeInTheDocument();
@@ -198,7 +197,7 @@ test("clear button is absent when the query is empty", () => {
 
 test("editing the query scrolls to the new first result, not the old highlight", async () => {
   // 101 X AVE 3 leads for "x ave 3" and still matches "x ave 1" (via 101), but lower
-  // down: the list used to scroll to it there before the highlight caught up.
+  // down: the list used to scroll to it before the highlight caught up.
   const two = buildSearchIndex({
     type: "FeatureCollection",
     features: [
@@ -251,8 +250,6 @@ test("editing the query scrolls the list back to the top", async () => {
 });
 
 test("caps the query at 50 characters", async () => {
-  // The longest real query ("blk 114A BUKIT BATOK WEST AVENUE 6 651114") is 41; the cap
-  // stops a long paste from making every keystroke score thousands of words.
   render(<SearchBox rows={rows} onSelect={vi.fn()} />);
   const input = screen.getByPlaceholderText(/search/i);
   await userEvent.type(input, "1 ".repeat(40));

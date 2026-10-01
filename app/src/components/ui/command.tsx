@@ -35,7 +35,7 @@ function CommandInput({
         <button
           type="button"
           aria-label="Clear search"
-          // Keep focus on the input so the user can keep typing after clearing.
+          // Keep focus in the input so the user can keep typing after clearing.
           onMouseDown={(e) => e.preventDefault()}
           onClick={onClear}
           className="text-muted-foreground hover:text-foreground shrink-0"

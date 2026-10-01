@@ -1,8 +1,7 @@
 import { render } from "@testing-library/react";
 import { afterEach, expect, test, vi } from "vitest";
 
-// vi.mock is hoisted above the file body, so the mock's collaborators must be
-// created inside vi.hoisted() (which also hoists) to exist when the factory runs.
+// vi.mock is hoisted above the file body, so its collaborators must be hoisted too.
 const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
   const handlers: Record<string, ((e?: unknown) => void)[]> = {};
   const map = {
@@ -32,7 +31,7 @@ const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
     }),
     remove: vi.fn(),
   };
-  // A function expression (not an arrow) so `new maplibregl.Map(...)` works.
+  // A function expression, not an arrow, so it can be called with `new`.
   const MapCtor = vi.fn(function (_opts: Record<string, unknown>) {
     return map;
   });
@@ -40,10 +39,9 @@ const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
   return { handlers, map, MapCtor, NavCtor };
 });
 
-// maplibre-gl v6 exposes named exports only, so mock them as named (no default).
+// Named exports only, like maplibre-gl v6 (no default).
 vi.mock("maplibre-gl", () => ({
   Map: MapCtor,
-  // Constructed with `new`, so the impls must be function expressions.
   AttributionControl: vi.fn(function () {}),
   NavigationControl: NavCtor,
   Popup: vi.fn(function () {
@@ -97,7 +95,6 @@ test("adds compass-free zoom buttons only when asked", () => {
   const nav = NavCtor.mock.instances[0];
   expect(map.addControl).toHaveBeenCalledWith(nav, "bottom-left");
 
-  // Crossing to the mobile breakpoint drops them again.
   rerender(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
   expect(map.removeControl).toHaveBeenCalledWith(nav);
 });
@@ -113,10 +110,9 @@ test("fits the zoom floor to the island on load", () => {
 test("re-fits the camera to the island on load but not on later resizes", () => {
   render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
   fire("load");
-  // The constructor fit ran before layout settled; the load re-fit corrects it.
   expect(map.fitBounds).toHaveBeenCalledTimes(1);
-  // A later resize recomputes only the zoom floor, so a user who has already
-  // zoomed or panned is not yanked back to the island overview.
+  // A later resize must only move the zoom floor, not yank a user who has panned or zoomed
+  // back to the island overview.
   map.fitBounds.mockClear();
   fire("resize");
   expect(map.fitBounds).not.toHaveBeenCalled();
@@ -127,7 +123,6 @@ test("recomputes the zoom floor when the map resizes", () => {
   render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
   fire("load");
   map.setMinZoom.mockClear();
-  // A narrower viewport (e.g. portrait phone, rotation) needs a lower zoom to fit.
   map.cameraForBounds.mockReturnValue({ zoom: 9.6 });
   fire("resize");
   expect(map.setMinZoom).toHaveBeenCalledWith(9.6);
@@ -139,7 +134,7 @@ test("creates the source with the latest data if index beats load", () => {
     features: [],
   } as typeof sampleIndex;
   const { rerender } = render(<MapView data={empty} selectedId={null} onSelectBlock={vi.fn()} />);
-  // Index arrives before the style's "load" event fires.
+  // The index arrives before the style's load event.
   rerender(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
   fire("load");
   const call = map.addSource.mock.calls.find((c) => c[0] === "blocks");
@@ -147,7 +142,6 @@ test("creates the source with the latest data if index beats load", () => {
   expect(sourceArg.data.features).toHaveLength(2);
 });
 
-// A rendered feature as queryRenderedFeatures returns it: the layer it was hit on + its block.
 function hit(layer: string, id: string, town = "ANG MO KIO") {
   return { layer: { id: layer }, properties: { id, town } };
 }
@@ -201,8 +195,8 @@ test("tapping the map away from any block reports a background click", () => {
   fire("click", { point: { x: 10, y: 10 } });
   expect(onBackgroundClick).toHaveBeenCalledTimes(1);
   expect(onSelectBlock).not.toHaveBeenCalled();
-  // The hit test covers the highlight ring (larger than the dot) and both label layers,
-  // else tapping them would read as background and dismiss the panel.
+  // The hit test must cover the highlight ring and labels too, or tapping them would
+  // read as background and dismiss the panel.
   const layers = (map.queryRenderedFeatures.mock.calls[0][1] as { layers: string[] }).layers;
   expect(layers).toEqual(
     expect.arrayContaining([
@@ -216,7 +210,6 @@ test("tapping the map away from any block reports a background click", () => {
 
 test("ignores clicks before the block layer has loaded", () => {
   const onBackgroundClick = vi.fn();
-  // Simulate the pre-load window: the style's "load" hasn't added the layers.
   map.getLayer.mockReturnValue(undefined);
   render(
     <MapView
@@ -251,7 +244,6 @@ test("selection sets the highlight filter and flies", () => {
     ["get", "id"],
     "123-ang-mo-kio-ave-3",
   ]);
-  // From the zoomed-out mock (11), it lands where block labels are visible.
   expect(map.flyTo).toHaveBeenCalledWith(expect.objectContaining({ zoom: 16 }));
 });
 
@@ -265,10 +257,8 @@ test("labels blocks with their block number once zoomed in", () => {
   expect(labels?.type).toBe("symbol");
   expect(labels?.minzoom).toBeGreaterThan(11);
   expect(labels?.layout?.["text-field"]).toEqual(["get", "blk_no"]);
-  // The selected block's label must always show, so it opts out of collision.
   const highlight = layers.find((l) => l.id === "blocks-highlight-label");
   expect(highlight?.layout?.["text-allow-overlap"]).toBe(true);
-  // Labels sit above both circle layers, so a dot never covers a number.
   const ids = layers.map((l) => l.id);
   expect(ids.indexOf("blocks-labels")).toBeGreaterThan(ids.indexOf("blocks-highlight"));
 });
@@ -303,10 +293,8 @@ test("resets the camera padding when the selection is cleared", () => {
     />,
   );
   fire("load");
-  // A prior fly-to left bottom padding on the camera; simulate that leftover state.
+  // Leftover padding from the earlier fly-to.
   map.getPadding.mockReturnValue({ top: 40, right: 0, bottom: 400, left: 0 });
-  // Closing the sheet clears the selection; that padding must be eased back to zero
-  // so the map center isn't offset afterwards (a glide, not an instant snap).
   rerender(
     <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} flyPaddingBottom={400} />,
   );
@@ -314,8 +302,7 @@ test("resets the camera padding when the selection is cleared", () => {
 });
 
 test("skips the camera glide when clearing a selection that left no padding", () => {
-  // On desktop the fly-to uses zero padding, so a deselect has nothing to shed and
-  // must not fire a no-op easeTo (which would still emit camera move events).
+  // Desktop flies with zero padding; an easeTo that changes nothing still emits move events.
   const { rerender } = render(
     <MapView
       data={sampleIndex}

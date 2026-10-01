@@ -13,14 +13,13 @@ export default tseslint.config(
     plugins: { "react-hooks": reactHooks, "react-refresh": reactRefresh },
     rules: {
       ...reactHooks.configs.recommended.rules,
-      // Treat a leading underscore as "intentionally unused", matching TS's
-      // noUnusedLocals/noUnusedParameters convention.
+      // A leading underscore marks "intentionally unused", matching TS's noUnused* convention.
       "@typescript-eslint/no-unused-vars": [
         "error",
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_", caughtErrorsIgnorePattern: "^_" },
       ],
     },
   },
-  // Last: turn off ESLint rules that would conflict with Prettier formatting.
+  // Must stay last: turns off rules that conflict with Prettier.
   prettier,
 );
