@@ -58,6 +58,8 @@ types it. **Keep these two in sync when changing any field.** Files:
   in `app/src/lib/data.ts`). A shard is written for _every_ town, even empty ones.
 - `towns.json`: town → slug → code mapping. `towns.json` also lives at `pipeline/towns.json` as the
   pipeline's input; the app copy is generated.
+- `meta.json`: `data_accessed`, the Singapore-time date of the last successful run. Rewritten on
+  every run, so each monthly run commits even when the data is unchanged.
 
 **Block `id`** is the join key across everything: `slugify("{blk_no} {street}")` using the
 _abbreviated_ street (`make_id` in `pipeline/src/config.py`). It is the GeoJSON feature id and the
@@ -70,8 +72,10 @@ diffs stay minimal.
 token auth, town loading, and fetching all happen _before_ any file is written, and an unknown town
 code in `transform` raises rather than writing partial output, so a failed run never corrupts the
 committed contract. Geocode failures are non-fatal: they're collected and written to
-`pipeline/geocode_failures.csv` (committed alongside the data). Street abbreviations
-(`AVE`→`AVENUE`, etc.) are expanded via whole-token matching in `config.py`.
+`pipeline/geocode_failures.csv` (committed alongside the data). The block-count guard caps them: a
+full run that would write fewer than `MIN_BLOCK_RATIO` (99%) of the live blocks aborts before any
+write. Street abbreviations (`AVE`→`AVENUE`, etc.) are expanded via whole-token matching in
+`config.py`.
 
 ## Frontend internals
 

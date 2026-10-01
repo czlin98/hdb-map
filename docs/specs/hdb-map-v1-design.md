@@ -85,6 +85,7 @@ hdb-map/
 │  └─ public/data/               # ← generated; committed by the pipeline
 │     ├─ index.geojson           # light index: geometry + light props (all blocks)
 │     ├─ towns.json              # master town list (mirrored from source of truth)
+│     ├─ meta.json               # data-access date of the last successful run
 │     └─ block-details/{town_slug}.json # town-bucketed detail shards (27 files)
 ├─ pipeline/                     # Python
 │  ├─ src/
@@ -189,11 +190,14 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   one of `no_results` (OneMap returned nothing), `no_match` (results returned
   but none passed the gate), or `api_error` (request failed after retries);
   `found` is the number of results OneMap returned.
-- **Known gap:** an `api_error` is non-fatal like the other reasons, so a
-  OneMap outage partway through a run produces a contract missing every block
-  geocoded while it lasted, which the workflow then commits (see §6.2). A
-  failure-rate threshold that aborts the run before any write is the planned
-  fix.
+- **Block-count guard.** A failure of any reason is non-fatal on its own, so
+  a OneMap outage partway through a run would leave out every block geocoded
+  while it lasted. Before writing, `run.py` therefore compares the run's
+  block count with the live `index.geojson` and **aborts with no writes** if
+  it is below `MIN_BLOCK_RATIO` (99%, in `config.py`) of it. Real monthly
+  change is a few demolitions, well inside that margin; an outage or a
+  truncated data.gov.sg download is not. The guard is skipped for `--limit`
+  smoke runs and when no index exists yet.
 
 ### 3.3 transform.py
 
@@ -223,16 +227,17 @@ vocabulary). The matched result's fields are captured as OneMap returns them
 - Write `app/public/data/block-details/{town_slug}.json` bucketed by town, using
   `town_slug` values from `towns.json`.
 - Copy `towns.json` into `app/public/data/`.
+- Write `app/public/data/meta.json` with the run's data-access date (§4.6).
 - **Deterministic output:** index features and detail-shard keys are sorted
   by `id`, and each record's fields keep a fixed logical order, so an
-  unchanged month produces a zero-line diff and real changes stay legible in
-  git.
+  unchanged month changes only the date in `meta.json` and real changes stay
+  legible in git.
 
 ### 3.5 Shared config, helpers & logging
 
-- `config.py`: dataset id, endpoints, output paths, and the
-  **street-abbreviation map** (`STREET_ABBREVIATIONS`, OneMap's canonical list).
-  The full table is inlined into `config.py` in the pipeline plan
+- `config.py`: dataset id, endpoints, output paths, the block-count guard's
+  `MIN_BLOCK_RATIO`, and the **street-abbreviation map**
+  (`STREET_ABBREVIATIONS`, OneMap's canonical list). The full table is inlined into `config.py` in the pipeline plan
   ([`../plans/hdb-map-pipeline.md`](../plans/hdb-map-pipeline.md)).
 - `expand_street(street)`: splits the uppercase street on whitespace and
   replaces each **whole token** that is a key in the map, leaving numerals and
@@ -359,8 +364,19 @@ that town's shard the first time and caches it in memory, then returns
 - Every `town` in the index and detail exists in `towns.json`.
 - Both files are written with fields in a fixed logical order, and with
   index features and shard keys sorted by `id`.
-- TS types (`BlockIndexProperties`, `BlockDetail`, `FlatTypeCounts`, `Town`)
-  mirror this contract in `app/src/types`, hand-kept in v1.
+- TS types (`BlockIndexProperties`, `BlockDetail`, `FlatTypeCounts`, `Town`,
+  `DataMeta`) mirror this contract in `app/src/types`, hand-kept in v1.
+
+### 4.6 meta.json
+
+```jsonc
+{ "data_accessed": "2026-10-01" } // YYYY-MM-DD, Singapore time
+```
+
+The date the pipeline fetched the data, written on every successful run, so
+each monthly run leaves a commit even when nothing else changed. A failed run
+writes nothing, so the date always belongs to the data that is live. It is the
+"accessed on" date the licence notice needs (§5.8).
 
 ## 5. Frontend Architecture
 
@@ -544,8 +560,7 @@ Data Licence version 1.0"). Neither the current credit nor the longer one it
 replaced ("Block data © HDB/data.gov.sg (Singapore Open Data Licence);
 Geocoding © OneMap/SLA") meets that in full. The planned fix is a separate
 **About page** carrying the full notice, since the attribution control has no
-room for it. The access date has to come from the pipeline, which means a
-small addition to the data contract (§4).
+room for it. The access date comes from `meta.json` (§4.6).
 
 ### 5.9 Extension points
 
@@ -576,20 +591,21 @@ filter must be combined with that condition, not replace it.
 **`pipeline.yml`** (data refresh):
 
 - **Triggers:** **monthly cron** (08:00 SGT on the 1st) + `workflow_dispatch`
-  (manual). The data commit is labelled `chore(data): monthly …` or
-  `chore(data): manual …` accordingly.
+  (manual). The data commit is labelled `monthly` or `manual` accordingly, and
+  as `check, no data changes` when only `meta.json` changed, otherwise
+  `HDB data refresh`, e.g.
+  `chore(data): monthly check, no data changes (2026-11-01)`.
 - **Steps:** checkout → setup Python → install → run the pipeline. The run
   fetches a fresh OneMap token from `ONEMAP_EMAIL`/`ONEMAP_PASSWORD`, geocodes
   all blocks ≤300/min, and writes `app/public/data/*` and
   `pipeline/geocode_failures.csv`.
 - **Commit only if diff**, then push. The push triggers the Vercel redeploy.
   Needs `contents: write`; a concurrency guard prevents overlapping runs.
-- **Failure = safe, with one gap:** if the OneMap token request, the
-  data.gov.sg fetch, or town decoding fails, the run stops before any write, so
-  nothing is committed and the last good data stays live. Per-block geocode
-  errors are **not** fatal (§3.2), so a OneMap outage that starts **after** the
-  token is issued still commits a partial contract. A failure-rate guard is
-  the planned fix.
+- **Failure = safe:** if the OneMap token request, the data.gov.sg fetch, or
+  town decoding fails, or the block-count guard trips (§3.2), the run stops
+  before any write, so nothing is committed and the last good data stays
+  live. The failed run shows in Actions, and GitHub notifies the user who
+  created the workflow or last changed its cron schedule.
 
 **`ci.yml`** (quality gate on PRs + `main`):
 
@@ -679,7 +695,7 @@ implementation cycle.
 - **Persistent request-response cache.** v1 re-geocodes all ~10k blocks every
   run. A committed request-response cache (key = normalized `searchVal`,
   value = the captured OneMap fields) would skip already-resolved blocks so only
-  new/changed inputs are fetched, cutting a monthly run from ~33 min to near
+  new/changed inputs are fetched, cutting a monthly run from ~1.5 h to near
   instant. Deferred because full monthly geocoding is simpler and also keeps
   coordinates/postal fresh; the cache trades that freshness for speed.
 - **Token-bucket limiter.** v1 paces OneMap calls with a plain `time.sleep()`
