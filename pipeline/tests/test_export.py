@@ -100,3 +100,26 @@ def test_duplicate_town_slug_raises(tmp_path):
 def test_write_meta_records_access_date(tmp_path):
     write_meta("2026-10-01", app_data_dir=tmp_path)
     assert json.loads((tmp_path / "meta.json").read_text()) == {"data_accessed": "2026-10-01"}
+
+
+def test_index_feature_rounds_coordinates_to_six_decimals():
+    f = to_index_feature(_rec(lat=1.303671350608798, lon=103.8644786609251))
+    assert f["geometry"]["coordinates"] == [103.864479, 1.303671]
+
+
+def test_index_written_one_block_per_line(tmp_path):
+    recs = [_rec(id="9-ang-mo-kio-ave-3"), _rec(id="1-ang-mo-kio-ave-3")]
+    write_outputs(recs, TOWNS, app_data_dir=tmp_path)
+
+    lines = (tmp_path / "index.geojson").read_text().splitlines()
+    # Header, one line per block, footer: a changed block shows as one changed line in git.
+    assert len(lines) == 2 + len(recs)
+    blocks = [json.loads(line.rstrip(",")) for line in lines[1:-1]]
+    assert [b["properties"]["id"] for b in blocks] == ["1-ang-mo-kio-ave-3", "9-ang-mo-kio-ave-3"]
+    assert ": " not in lines[1] and ", " not in lines[1]
+
+
+def test_index_with_no_blocks_is_valid_geojson(tmp_path):
+    write_outputs([], TOWNS, app_data_dir=tmp_path)
+    index = json.loads((tmp_path / "index.geojson").read_text())
+    assert index == {"type": "FeatureCollection", "features": []}
