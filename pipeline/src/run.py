@@ -1,5 +1,6 @@
 import argparse
 import csv
+import json
 import logging
 import os
 from pathlib import Path
@@ -26,6 +27,19 @@ def write_failures(failures: list[dict], path: Path | None = None) -> None:
         writer.writerows(rows)
 
 
+def check_block_count(new_count: int, index_path: Path) -> None:
+    if not index_path.exists():
+        return  # first run: nothing live to protect
+    current = len(json.loads(index_path.read_text(encoding="utf-8"))["features"])
+    minimum = int(current * config.MIN_BLOCK_RATIO)
+    if new_count < minimum:
+        raise RuntimeError(
+            f"Refusing to write {new_count} blocks over the {current} live ones "
+            f"(minimum {minimum}, {config.MIN_BLOCK_RATIO:.0%}). "
+            "Compare the fetched and geocoded counts in the log above."
+        )
+
+
 def run(limit: int | None = None) -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
@@ -46,6 +60,9 @@ def run(limit: int | None = None) -> None:
     log.info("Geocoded %d, failed %d", len(successes), len(failures))
 
     records = transform(successes, towns)  # unknown town code -> raises, no writes
+    # A --limit smoke run is meant to be small, so only a full run is held to the live count.
+    if limit is None:
+        check_block_count(len(records), Path(config.APP_DATA_DIR) / "index.geojson")
     write_outputs(records, towns, config.APP_DATA_DIR)
     write_failures(failures, config.FAILURES_PATH)
     log.info("Wrote %d blocks to index + %d shards", len(records), len(towns))
