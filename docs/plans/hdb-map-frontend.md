@@ -31,6 +31,50 @@ data contract (§4 of the spec), and Task 9 commits a tiny sample
 `app/public/data/` set so the app runs before the pipeline's first real run
 overwrites it.
 
+## Post-implementation deltas
+
+The app was later revised in the ways below, which diverge from the Global
+Constraints and task listings. The listings are kept as the original
+execution record; spec §5 describes the implemented behavior in full.
+
+- **Background tap dismisses the panel (Tasks 7–9, #27).** Overrides the
+  "tapping empty map never closes it" constraint. Panel `open` state is lifted
+  into `App`, and MapView handles block and background taps in one `click`
+  handler. On mobile a parent-initiated close clicks the drawer's `DrawerClose`,
+  because Vaul skips its close callbacks when a snap-point drawer is closed via
+  the `open` prop.
+- **Snap points (Task 9).** `["95px", 0.5, 1]` instead of
+  `["120px", 0.5, 0.95]`: Vaul only scrolls sheet content at exactly `1`, and
+  95 px fits a two-line address header. Each new selection resets the sheet to
+  the half snap.
+- **Fly-to (Task 8/9).** Bottom padding is computed from the active snap's
+  actual height; top padding is the search input's bottom edge (passed as
+  `topClearanceRef`); the fly is skipped at the full snap (`flyPaddingBottom`
+  is `null`) and lands at zoom ≥ 16. On close, padding eases back to zero.
+- **Desktop panel (Task 7, #15, #17).** A right-side shadcn `Sheet` (Radix)
+  that slides in, non-modal, replacing the plain docked aside. Drawer, Sheet,
+  and Command are the stock shadcn components with the neutral token theme.
+- **Search (Task 4/6, #29, #30).** Normalized, ranked matching over both
+  street forms (see spec §5.6), cap 50 results and 50 query characters. The
+  query is kept after select; a clear button, outside-tap dismissal, and an
+  Escape that also closes the panel were added. Works around cmdk 1.1.1 keeping
+  a picked row highlighted on reopen.
+- **Map camera (Task 8, #22, #24, #31).** Tight `MIN_BOUNDS` for the island fit
+  and a responsive zoom floor (recomputed on resize), with looser `MAX_BOUNDS`
+  for panning. Rotation and pitch disabled; desktop-only zoom buttons
+  bottom-left. Markers grow to a 10 px radius at zoom 17 (#23).
+- **Block labels (Task 8, #32).** Two symbol layers show `blk_no` from zoom 16
+  and are tappable and hoverable like the dots.
+- **Extension hooks (Task 8).** No explicit `colorBy` or `filter` slot was
+  added; only the separate `blocks-highlight` layer remains as the hook (spec
+  §5.9).
+- **Attribution (Task 8, #25).** The blocks source credit is "© HDB,
+  OneMap/SLA"; the basemap credit comes from the OpenFreeMap tile source. The
+  full Singapore Open Data Licence notice is planned for a separate About page
+  (spec §5.8).
+- **Tooling.** Prettier (100 columns) and a `format:check` CI step were added
+  after Task 10.
+
 ## Global Constraints
 
 Every task's requirements implicitly include this section.
