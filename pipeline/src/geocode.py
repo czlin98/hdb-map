@@ -9,9 +9,7 @@ log = logging.getLogger("pipeline.geocode")
 
 
 def get_token(session: requests.Session, email: str, password: str) -> str:
-    resp = session.post(
-        ONEMAP_TOKEN_URL, json={"email": email, "password": password}, timeout=30
-    )
+    resp = session.post(ONEMAP_TOKEN_URL, json={"email": email, "password": password}, timeout=30)
     resp.raise_for_status()
     token = resp.json().get("access_token")
     if not token:
@@ -57,9 +55,7 @@ def geocode_block(
     headers = {"Authorization": f"Bearer {token}"}
     for attempt in range(max_retries):
         try:
-            resp = session.get(
-                ONEMAP_SEARCH_URL, params=params, headers=headers, timeout=30
-            )
+            resp = session.get(ONEMAP_SEARCH_URL, params=params, headers=headers, timeout=30)
         except requests.RequestException:
             resp = None
 
@@ -88,7 +84,7 @@ def geocode_block(
         if resp is not None and resp.status_code not in _TRANSIENT:
             return {"ok": False, "reason": "api_error", "found": 0}
 
-        time.sleep(backoff * (2 ** attempt))
+        time.sleep(backoff * (2**attempt))
 
     return {"ok": False, "reason": "api_error", "found": 0}
 
@@ -106,23 +102,31 @@ def geocode_all(
         log.info("[%d/%d] Geocoding %s %s", i, total, block["blk_no"], block["street_full"])
         result = geocode_block(session, token, block)
         if result["ok"]:
-            successes.append({
-                **block,
-                "postal": result["postal"],
-                "lat": result["lat"],
-                "lon": result["lon"],
-            })
+            successes.append(
+                {
+                    **block,
+                    "postal": result["postal"],
+                    "lat": result["lat"],
+                    "lon": result["lon"],
+                }
+            )
         else:
-            failures.append({
-                "blk_no": block["blk_no"],
-                "street_full": block["street_full"],
-                "reason": result["reason"],
-                "found": result["found"],
-            })
+            failures.append(
+                {
+                    "blk_no": block["blk_no"],
+                    "street_full": block["street_full"],
+                    "reason": result["reason"],
+                    "found": result["found"],
+                }
+            )
             log.warning(
                 "[%d/%d] FAILED %s %s: %s (found %s)",
-                i, total, block["blk_no"], block["street_full"],
-                result["reason"], result["found"],
+                i,
+                total,
+                block["blk_no"],
+                block["street_full"],
+                result["reason"],
+                result["found"],
             )
         time.sleep(sleep)  # stay under OneMap's rate limit
     return successes, failures

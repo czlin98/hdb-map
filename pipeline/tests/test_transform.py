@@ -10,12 +10,21 @@ TOWNS = [
 
 def _block(**over):
     base = {
-        "blk_no": "123", "street": "ANG MO KIO AVE 3",
-        "street_full": "ANG MO KIO AVENUE 3", "bldg_contract_town": "AMK",
-        "postal": "560123", "lat": "1.36", "lon": "103.84",
-        "year_completed": "1978", "max_floor_lvl": "12", "total_dwelling_units": "200",
-        "3room_sold": "40", "4room_sold": "60", "5room_sold": "0",
-        "1room_rental": "0", "other_room_rental": "5",
+        "blk_no": "123",
+        "street": "ANG MO KIO AVE 3",
+        "street_full": "ANG MO KIO AVENUE 3",
+        "bldg_contract_town": "AMK",
+        "postal": "560123",
+        "lat": "1.36",
+        "lon": "103.84",
+        "year_completed": "1978",
+        "max_floor_lvl": "12",
+        "total_dwelling_units": "200",
+        "3room_sold": "40",
+        "4room_sold": "60",
+        "5room_sold": "0",
+        "1room_rental": "0",
+        "other_room_rental": "5",
     }
     base.update(over)
     return base

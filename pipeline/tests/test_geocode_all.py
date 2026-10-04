@@ -32,9 +32,7 @@ def test_geocode_all_splits_successes_and_failures(monkeypatch):
     assert successes[0]["lat"] == "1.1"
     assert successes[0]["bldg_contract_town"] == "AMK"
 
-    assert failures == [
-        {"blk_no": "2", "street_full": "B ROAD", "reason": "no_match", "found": 3}
-    ]
+    assert failures == [{"blk_no": "2", "street_full": "B ROAD", "reason": "no_match", "found": 3}]
     assert calls["sleep"] == 2
 
 
@@ -54,6 +52,5 @@ def test_geocode_all_logs_each_address(monkeypatch, caplog):
     assert "[1/2]" in caplog.text and "A ROAD" in caplog.text
     assert "[2/2]" in caplog.text and "B ROAD" in caplog.text
     assert any(
-        r.levelno == logging.WARNING and "no_match" in r.getMessage()
-        for r in caplog.records
+        r.levelno == logging.WARNING and "no_match" in r.getMessage() for r in caplog.records
     )
