@@ -69,8 +69,9 @@ contract and can change internally without breaking the other.
 - Data: HDB Property Information + OneMap geocoding (lat, lon, postal).
 
 **Deferred (see §7):** marker coloring, filtering, basemap selector,
-resale prices & transactions, nearest MRT, nearby amenities, and geocode-speed
-optimizations (persistent cache, token-bucket limiter).
+resale prices & transactions, nearest MRT, nearby amenities, geocode-speed
+optimizations (persistent cache, token-bucket limiter), and an About page with
+the full data-licence notice.
 
 ## 2. Repository Layout
 
@@ -569,7 +570,7 @@ Data Licence version 1.0"). Neither the current credit nor the longer one it
 replaced ("Block data © HDB/data.gov.sg (Singapore Open Data Licence);
 Geocoding © OneMap/SLA") meets that in full. The planned fix is a separate
 **About page** carrying the full notice, since the attribution control has no
-room for it. The access date comes from `meta.json` (§4.6).
+room for it; it is deferred, with its design in §7.8.
 
 ### 5.9 Extension points
 
@@ -711,3 +712,23 @@ implementation cycle.
   (~0.2 s/call). A token-bucket rate limiter would sustain throughput closer to
   the 300/min ceiling while still respecting the cap, and centralize backoff.
 - Both are pipeline-speed optimizations with no user-facing effect.
+
+### 7.8 About page and licence notice
+
+Closes the §5.8 open question: the full Singapore Open Data Licence v1.0
+notice, which the attribution control has no room for. It builds on none of
+the iterations above and can ship at any time; until it does, v1 does not
+fully meet the licence's notice requirement.
+
+- **Form:** an overlay over the map (a Radix dialog), full-screen on mobile and
+  centered on desktop, with no separate URL or router. Closing it returns to
+  the map as it was.
+- **Content:** the licence notice ("Contains information from HDB Property
+  Information accessed on {date} from data.gov.sg which is made available
+  under the terms of the Singapore Open Data Licence version 1.0", each source
+  linked), the OneMap/SLA geocoding credit, the OpenStreetMap / OpenMapTiles /
+  OpenFreeMap basemap credit, and a link to the source code.
+- **Data:** the date is `meta.json`'s `data_accessed` (§4.6), fetched when the
+  overlay first opens rather than at startup, so it adds nothing to the first
+  load. If that fetch fails, the notice reads "accessed monthly" and the rest
+  still shows; it never triggers the global error card (§5.7).
