@@ -619,7 +619,7 @@ filter must be combined with that condition, not replace it.
 **`ci.yml`** (quality gate on PRs + `main`):
 
 - Frontend: Prettier check, `tsc` typecheck, ESLint, `vite build`, Vitest.
-- Pipeline: Ruff lint, pytest.
+- Pipeline: Ruff lint, Ruff format check, pytest.
 
 **Secrets:** `ONEMAP_EMAIL`, `ONEMAP_PASSWORD`.
 
