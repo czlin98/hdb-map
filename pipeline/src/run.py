@@ -1,4 +1,3 @@
-import argparse
 import csv
 import json
 import logging
@@ -46,7 +45,7 @@ def check_block_count(new_count: int, index_path: Path) -> None:
         )
 
 
-def run(limit: int | None = None) -> None:
+def run() -> None:
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 
     email = os.environ["ONEMAP_EMAIL"]
@@ -59,17 +58,12 @@ def run(limit: int | None = None) -> None:
     data_accessed = today_sgt()
     blocks = fetch_blocks(session)
     log.info("Fetched %d residential blocks", len(blocks))
-    if limit is not None:
-        blocks = blocks[:limit]
-        log.info("Limited to first %d blocks (--limit)", len(blocks))
 
     successes, failures = geocode_all(session, token, blocks)
     log.info("Geocoded %d, failed %d", len(successes), len(failures))
 
     records = transform(successes, towns)  # unknown town code -> raises, no writes
-    # A --limit smoke run is meant to be small, so only a full run is held to the live count.
-    if limit is None:
-        check_block_count(len(records), Path(config.APP_DATA_DIR) / "index.geojson")
+    check_block_count(len(records), Path(config.APP_DATA_DIR) / "index.geojson")
     write_outputs(records, towns, config.APP_DATA_DIR)
     write_meta(data_accessed, config.APP_DATA_DIR)
     write_failures(failures, config.FAILURES_PATH)
@@ -77,12 +71,4 @@ def run(limit: int | None = None) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run the HDB data pipeline.")
-    parser.add_argument(
-        "--limit",
-        type=int,
-        default=None,
-        help="Geocode only the first N blocks (smoke test); default: all blocks.",
-    )
-    args = parser.parse_args()
-    run(limit=args.limit)
+    run()

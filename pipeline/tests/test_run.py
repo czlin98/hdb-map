@@ -92,39 +92,6 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     assert meta == {"data_accessed": "2026-10-01"}
 
 
-def test_run_limit_caps_blocks_before_geocode(tmp_path, monkeypatch):
-    monkeypatch.setenv("ONEMAP_EMAIL", "e@x.com")
-    monkeypatch.setenv("ONEMAP_PASSWORD", "pw")
-    monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
-    monkeypatch.setattr(config, "FAILURES_PATH", tmp_path / "geocode_failures.csv")
-
-    monkeypatch.setattr(run_module, "get_token", lambda *a, **k: "tok")
-    monkeypatch.setattr(
-        run_module,
-        "fetch_blocks",
-        lambda *a, **k: [
-            {
-                "blk_no": str(i),
-                "street": "X RD",
-                "street_full": "X ROAD",
-                "bldg_contract_town": "AMK",
-            }
-            for i in range(5)
-        ],
-    )
-    seen = {}
-
-    def fake_geocode_all(session, token, blocks, **kw):
-        seen["n"] = len(blocks)
-        return [], []
-
-    monkeypatch.setattr(run_module, "geocode_all", fake_geocode_all)
-
-    run_module.run(limit=2)
-
-    assert seen["n"] == 2
-
-
 def test_write_failures_sorted(tmp_path):
     path = tmp_path / "f.csv"
     run_module.write_failures(
@@ -188,10 +155,10 @@ def test_run_writes_nothing_when_output_shrinks(tmp_path, monkeypatch):
     assert writes == []
 
 
-def test_run_limit_skips_block_count_check(tmp_path, monkeypatch):
+def test_run_writes_when_block_count_holds(tmp_path, monkeypatch):
     _write_index(tmp_path / "data", 1000)
-    writes = _stub_stages(monkeypatch, tmp_path, n_records=20)
+    writes = _stub_stages(monkeypatch, tmp_path, n_records=995)
 
-    run_module.run(limit=20)
+    run_module.run()
 
     assert writes == ["outputs", "meta", "failures"]

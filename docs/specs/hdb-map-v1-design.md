@@ -196,8 +196,8 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   block count with the live `index.geojson` and **aborts with no writes** if
   it is below `MIN_BLOCK_RATIO` (99%, in `config.py`) of it. Real monthly
   change is a few demolitions, well inside that margin; an outage or a
-  truncated data.gov.sg download is not. The guard is skipped for `--limit`
-  smoke runs and when no index exists yet.
+  truncated data.gov.sg download is not. The guard is skipped only when no
+  index exists yet.
 
 ### 3.3 transform.py
 

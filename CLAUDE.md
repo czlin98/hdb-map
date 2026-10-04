@@ -39,9 +39,9 @@ before running commands.
 - `pytest`: all tests; `pytest tests/test_transform.py` for one file; `pytest -k geocode` to filter
 - `ruff check src tests`: lint; `ruff format src tests` formats, `ruff format --check src tests`
   verifies (matches CI)
-- `python src/run.py --limit 20`: smoke-test the full pipeline against the live APIs on the first N
-  blocks. Requires `ONEMAP_EMAIL` / `ONEMAP_PASSWORD` env vars. Without `--limit` it geocodes all
-  ~10k blocks and overwrites the contract in `app/public/data/`.
+- `python src/run.py`: the full pipeline against the live APIs. Requires `ONEMAP_EMAIL` /
+  `ONEMAP_PASSWORD` env vars, geocodes all ~10k blocks (~1.5 h), and overwrites the contract in
+  `app/public/data/`. Prefer a manual dispatch of the `pipeline` workflow, which commits the result.
 
 CI (`.github/workflows/ci.yml`) runs both jobs on every PR: ruff check + ruff format check + pytest
 for the pipeline; format:check + tsc + lint + build + vitest for the frontend.

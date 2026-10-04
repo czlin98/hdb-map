@@ -65,13 +65,13 @@ npm run test -- --run  # Vitest, single pass
 
 ```sh
 pip install -r requirements-dev.txt
-pytest                         # offline; all HTTP is mocked
-python src/run.py --limit 20   # live smoke test on the first 20 blocks
+pytest   # offline; all HTTP is mocked
 ```
 
-The live run needs a free [OneMap](https://www.onemap.gov.sg) account in the `ONEMAP_EMAIL` and
-`ONEMAP_PASSWORD` environment variables. Without `--limit` it geocodes all ~10k blocks and
-overwrites the data in `app/public/data/`. See [`CLAUDE.md`](CLAUDE.md) for the full command list.
+The full data refresh runs in GitHub Actions: monthly, or on demand via **Actions → pipeline → Run
+workflow**. It geocodes all ~10k blocks (about 1.5 hours) with the free
+[OneMap](https://www.onemap.gov.sg) account stored in the `ONEMAP_EMAIL` and `ONEMAP_PASSWORD`
+repository secrets. See [`CLAUDE.md`](CLAUDE.md) for the full command list.
 
 ## Documentation
 
