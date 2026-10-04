@@ -8,8 +8,9 @@ from geocode import get_token
 
 @responses.activate
 def test_get_token_returns_access_token():
-    responses.add(responses.POST, config.ONEMAP_TOKEN_URL,
-                  json={"access_token": "tok-123"}, status=200)
+    responses.add(
+        responses.POST, config.ONEMAP_TOKEN_URL, json={"access_token": "tok-123"}, status=200
+    )
     assert get_token(requests.Session(), "e@x.com", "pw") == "tok-123"
 
 

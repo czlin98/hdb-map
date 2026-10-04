@@ -7,9 +7,18 @@ import requests
 from config import DATASETS_API_BASE, RESOURCE_ID, expand_street
 
 FLAT_COLUMNS = [
-    "1room_sold", "2room_sold", "3room_sold", "4room_sold", "5room_sold",
-    "exec_sold", "multigen_sold", "studio_apartment_sold",
-    "1room_rental", "2room_rental", "3room_rental", "other_room_rental",
+    "1room_sold",
+    "2room_sold",
+    "3room_sold",
+    "4room_sold",
+    "5room_sold",
+    "exec_sold",
+    "multigen_sold",
+    "studio_apartment_sold",
+    "1room_rental",
+    "2room_rental",
+    "3room_rental",
+    "other_room_rental",
 ]
 
 _TRANSIENT = {429, 500, 502, 503, 504}
@@ -30,7 +39,7 @@ def _api_get(
             resp.raise_for_status()
             return resp
         retry_after = resp.headers.get("Retry-After", "")
-        delay = float(retry_after) if retry_after.isdigit() else backoff * (2 ** attempt)
+        delay = float(retry_after) if retry_after.isdigit() else backoff * (2**attempt)
         time.sleep(delay)
     resp.raise_for_status()  # retries exhausted on a transient error
     return resp  # unreachable; keeps the return type honest
@@ -53,9 +62,7 @@ def _download_url(
         if url:
             return url
         time.sleep(poll_interval)
-    raise RuntimeError(
-        f"poll-download did not return a url after {poll_attempts} attempts"
-    )
+    raise RuntimeError(f"poll-download did not return a url after {poll_attempts} attempts")
 
 
 def fetch_blocks(
