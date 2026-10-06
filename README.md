@@ -2,13 +2,14 @@
 
 A mobile-first, interactive web map of Singapore's ~10,000 residential HDB blocks. Every block is an
 individually rendered marker (no clustering). Hover (desktop) to see a block's address, tap/click to
-open its details, and search by address to fly to a specific block.
+open its details, search by address to fly to a specific block, and color the blocks by year
+completed or number of floors.
 
 **Live:** [hdb-map.vercel.app](https://hdb-map.vercel.app)
 
-> **Status:** v1 is live. Block data refreshes automatically on the 1st of each month. The
-> [design spec](docs/specs/hdb-map-design.md) describes v1 as shipped, and lists the planned next
-> iterations (marker coloring, filters, resale prices, and more).
+> **Status:** v1 is live, plus marker coloring. Block data refreshes automatically on the 1st of
+> each month. The [design spec](docs/specs/hdb-map-design.md) describes the app as shipped, and
+> lists the planned next iterations (more coloring modes, filters, resale prices, and more).
 
 ## How it works
 
