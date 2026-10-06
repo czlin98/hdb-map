@@ -62,11 +62,12 @@ def run() -> None:
     successes, failures = geocode_all(session, token, blocks)
     log.info("Geocoded %d, failed %d", len(successes), len(failures))
 
-    records = transform(successes, towns)  # unknown town code -> raises, no writes
+    records, skipped = transform(successes, towns)  # unknown town code -> raises, no writes
+    log.info("Skipped %d blocks with missing values", len(skipped))
     check_block_count(len(records), Path(config.APP_DATA_DIR) / "index.geojson")
     write_outputs(records, towns, config.APP_DATA_DIR)
     write_meta(data_accessed, config.APP_DATA_DIR)
-    write_failures(failures, config.FAILURES_PATH)
+    write_failures(failures + skipped, config.FAILURES_PATH)
     log.info("Wrote %d blocks to index + %d shards", len(records), len(towns))
 
 

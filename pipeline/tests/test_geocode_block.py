@@ -1,3 +1,4 @@
+import pytest
 import requests
 import responses
 
@@ -98,6 +99,40 @@ def test_gate_fails_when_no_postal_matches_block_number():
     body = {"found": 1, "results": [_result("2", "QUEEN'S ROAD", postal="266733")]}
     responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
     out = geocode_block(requests.Session(), "tok", block)
+    assert out == {"ok": False, "reason": "no_match", "found": 1}
+
+
+@responses.activate
+def test_gate_skips_result_without_coordinates_and_takes_next_qualifier():
+    body = {
+        "found": 2,
+        "results": [
+            _result("123", "ANG MO KIO AVENUE 3", lat="", lon=""),
+            _result("123", "ANG MO KIO AVENUE 3", lat="1.37", lon="103.85"),
+        ],
+    }
+    responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
+    out = geocode_block(requests.Session(), "tok", BLOCK)
+    assert out == {"ok": True, "postal": "560123", "lat": "1.37", "lon": "103.85"}
+
+
+@pytest.mark.parametrize(
+    ("lat", "lon"),
+    [("", "103.84"), ("1.36", None), ("NIL", "103.84"), ("nan", "103.84")],
+)
+@responses.activate
+def test_no_coords_when_only_coordinates_fail_the_gate(lat, lon):
+    body = {"found": 1, "results": [_result("123", "ANG MO KIO AVENUE 3", lat=lat, lon=lon)]}
+    responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
+    out = geocode_block(requests.Session(), "tok", BLOCK)
+    assert out == {"ok": False, "reason": "no_coords", "found": 1}
+
+
+@responses.activate
+def test_no_match_when_address_fails_even_if_coordinates_are_also_missing():
+    body = {"found": 1, "results": [_result("999", "ANG MO KIO AVENUE 3", lat="", lon="")]}
+    responses.add(responses.GET, config.ONEMAP_SEARCH_URL, json=body, status=200)
+    out = geocode_block(requests.Session(), "tok", BLOCK)
     assert out == {"ok": False, "reason": "no_match", "found": 1}
 
 

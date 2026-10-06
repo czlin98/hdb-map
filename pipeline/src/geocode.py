@@ -1,4 +1,5 @@
 import logging
+import math
 import time
 
 import requests
@@ -39,6 +40,14 @@ def _postal_matches_block(postal: str | None, blk_no: str) -> bool:
     return _norm(postal).endswith(digits)
 
 
+def _valid_coord(value) -> bool:
+    # transform.py parses these with float(); a value it can't parse would crash the whole run.
+    try:
+        return math.isfinite(float(value))
+    except TypeError, ValueError:
+        return False
+
+
 def geocode_block(
     session: requests.Session,
     token: str,
@@ -66,20 +75,25 @@ def geocode_block(
             if not results:
                 return {"ok": False, "reason": "no_results", "found": found}
             blk, road = _norm(block["blk_no"]), _norm(block["street_full"])
+            address_matched = False
             for r in results:
-                if (
+                if not (
                     _norm(r.get("BLK_NO")) == blk
                     and _norm(r.get("ROAD_NAME")) == road
                     and _valid_postal(r.get("POSTAL"))
                     and _postal_matches_block(r.get("POSTAL"), block["blk_no"])
                 ):
+                    continue
+                address_matched = True
+                if _valid_coord(r.get("LATITUDE")) and _valid_coord(r.get("LONGITUDE")):
                     return {
                         "ok": True,
                         "postal": r.get("POSTAL"),
                         "lat": r.get("LATITUDE"),
                         "lon": r.get("LONGITUDE"),
                     }
-            return {"ok": False, "reason": "no_match", "found": found}
+            reason = "no_coords" if address_matched else "no_match"
+            return {"ok": False, "reason": reason, "found": found}
 
         if resp is not None and resp.status_code not in _TRANSIENT:
             return {"ok": False, "reason": "api_error", "found": 0}

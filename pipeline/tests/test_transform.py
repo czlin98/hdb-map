@@ -31,7 +31,8 @@ def _block(**over):
 
 
 def test_transform_builds_clean_record():
-    (rec,) = transform([_block()], TOWNS)
+    (rec,), skipped = transform([_block()], TOWNS)
+    assert skipped == []
     assert rec["id"] == "123-ang-mo-kio-ave-3"
     assert rec["town"] == "ANG MO KIO"
     assert rec["town_slug"] == "ang-mo-kio"
@@ -42,7 +43,7 @@ def test_transform_builds_clean_record():
 
 
 def test_units_by_type_keeps_only_positive_and_drops_suffix():
-    (rec,) = transform([_block()], TOWNS)
+    (rec,), _ = transform([_block()], TOWNS)
     assert rec["sold_units_by_type"] == {"3room": 40, "4room": 60}  # 5room=0 dropped
     assert rec["rental_units_by_type"] == {"other_room": 5}
 
@@ -50,10 +51,40 @@ def test_units_by_type_keeps_only_positive_and_drops_suffix():
 def test_missing_flat_columns_default_to_zero():
     block = _block()
     del block["3room_sold"]
-    (rec,) = transform([block], TOWNS)
+    (rec,), _ = transform([block], TOWNS)
     assert "3room" not in rec["sold_units_by_type"]
 
 
 def test_unknown_town_code_raises():
     with pytest.raises(ValueError, match="Unknown town code"):
         transform([_block(bldg_contract_town="ZZZ")], TOWNS)
+
+
+@pytest.mark.parametrize(
+    ("field", "value", "reason"),
+    [
+        ("year_completed", "", "missing_year"),
+        ("year_completed", "0", "missing_year"),
+        ("year_completed", None, "missing_year"),
+        ("max_floor_lvl", "", "missing_floors"),
+        ("max_floor_lvl", "0", "missing_floors"),
+        ("total_dwelling_units", "", "missing_units"),
+        ("total_dwelling_units", "abc", "missing_units"),
+    ],
+)
+def test_block_missing_a_required_value_is_skipped_and_recorded(field, value, reason):
+    records, skipped = transform([_block(**{field: value}), _block(blk_no="124")], TOWNS)
+    assert [r["blk_no"] for r in records] == ["124"]
+    assert skipped == [
+        {"blk_no": "123", "street_full": "ANG MO KIO AVENUE 3", "reason": reason, "found": ""}
+    ]
+
+
+def test_block_missing_several_values_names_the_first_in_order():
+    _, skipped = transform([_block(year_completed="", total_dwelling_units="")], TOWNS)
+    assert [s["reason"] for s in skipped] == ["missing_year"]
+
+
+def test_unknown_town_still_raises_when_values_are_missing():
+    with pytest.raises(ValueError, match="Unknown town code"):
+        transform([_block(bldg_contract_town="ZZZ", year_completed="")], TOWNS)

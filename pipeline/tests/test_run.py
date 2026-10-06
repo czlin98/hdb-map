@@ -52,9 +52,10 @@ def test_run_end_to_end(tmp_path, monkeypatch):
         + "\n"
         + "123,ANG MO KIO AVE 3,Y,AMK,1978,12,200,40\n"
         + "999,NOWHERE RD,Y,AMK,,,,\n"
+        + "555,ANG MO KIO AVE 3,Y,AMK,,12,200,40\n"
     )
     responses.add(responses.GET, _CSV_URL, body=_csv_body, status=200)
-    # block 123 matches; block 999 has no results -> failure
+    # Block 123 matches; 999 has no results; 555 geocodes but has no year, so transform skips it.
     responses.add(
         responses.GET,
         config.ONEMAP_SEARCH_URL,
@@ -75,6 +76,23 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     responses.add(
         responses.GET, config.ONEMAP_SEARCH_URL, json={"found": 0, "results": []}, status=200
     )
+    responses.add(
+        responses.GET,
+        config.ONEMAP_SEARCH_URL,
+        json={
+            "found": 1,
+            "results": [
+                {
+                    "BLK_NO": "555",
+                    "ROAD_NAME": "ANG MO KIO AVENUE 3",
+                    "POSTAL": "560555",
+                    "LATITUDE": "1.37",
+                    "LONGITUDE": "103.85",
+                }
+            ],
+        },
+        status=200,
+    )
 
     run_module.run()
 
@@ -85,7 +103,13 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     with (tmp_path / "geocode_failures.csv").open() as fh:
         rows = list(csv.DictReader(fh))
     assert rows == [
-        {"blk_no": "999", "street_full": "NOWHERE ROAD", "reason": "no_results", "found": "0"}
+        {
+            "blk_no": "555",
+            "street_full": "ANG MO KIO AVENUE 3",
+            "reason": "missing_year",
+            "found": "",
+        },
+        {"blk_no": "999", "street_full": "NOWHERE ROAD", "reason": "no_results", "found": "0"},
     ]
 
     meta = json.loads((tmp_path / "data" / "meta.json").read_text())
@@ -129,7 +153,7 @@ def test_check_block_count_skips_when_no_index_yet(tmp_path):
     run_module.check_block_count(0, tmp_path / "index.geojson")
 
 
-def _stub_stages(monkeypatch, tmp_path, n_records):
+def _stub_stages(monkeypatch, tmp_path, n_records, n_skipped=0):
     monkeypatch.setenv("ONEMAP_EMAIL", "e@x.com")
     monkeypatch.setenv("ONEMAP_PASSWORD", "pw")
     monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
@@ -137,7 +161,7 @@ def _stub_stages(monkeypatch, tmp_path, n_records):
     monkeypatch.setattr(run_module, "get_token", lambda *a, **k: "tok")
     monkeypatch.setattr(run_module, "fetch_blocks", lambda *a, **k: [{}] * 1000)
     monkeypatch.setattr(run_module, "geocode_all", lambda s, t, blocks, **kw: (blocks, []))
-    monkeypatch.setattr(run_module, "transform", lambda s, t: [{}] * n_records)
+    monkeypatch.setattr(run_module, "transform", lambda s, t: ([{}] * n_records, [{}] * n_skipped))
     writes = []
     monkeypatch.setattr(run_module, "write_outputs", lambda *a, **k: writes.append("outputs"))
     monkeypatch.setattr(run_module, "write_meta", lambda *a, **k: writes.append("meta"))
@@ -148,6 +172,16 @@ def _stub_stages(monkeypatch, tmp_path, n_records):
 def test_run_writes_nothing_when_output_shrinks(tmp_path, monkeypatch):
     _write_index(tmp_path / "data", 1000)
     writes = _stub_stages(monkeypatch, tmp_path, n_records=500)
+
+    with pytest.raises(RuntimeError, match="Refusing to write 500 blocks"):
+        run_module.run()
+
+    assert writes == []
+
+
+def test_run_counts_skipped_blocks_against_the_guard(tmp_path, monkeypatch):
+    _write_index(tmp_path / "data", 1000)
+    writes = _stub_stages(monkeypatch, tmp_path, n_records=500, n_skipped=500)
 
     with pytest.raises(RuntimeError, match="Refusing to write 500 blocks"):
         run_module.run()
