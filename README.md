@@ -7,7 +7,7 @@ open its details, and search by address to fly to a specific block.
 **Live:** [hdb-map.vercel.app](https://hdb-map.vercel.app)
 
 > **Status:** v1 is live. Block data refreshes automatically on the 1st of each month. The
-> [design spec](docs/specs/hdb-map-v1-design.md) describes v1 as shipped, and lists the planned next
+> [design spec](docs/specs/hdb-map-design.md) describes v1 as shipped, and lists the planned next
 > iterations (marker coloring, filters, resale prices, and more).
 
 ## How it works
@@ -75,7 +75,7 @@ repository secrets. See [`CLAUDE.md`](CLAUDE.md) for the full command list.
 
 ## Documentation
 
-- [v1 Design Spec](docs/specs/hdb-map-v1-design.md): the authoritative description of v1 as shipped
+- [Design Spec](docs/specs/hdb-map-design.md): the authoritative description of the app as shipped
 - [Frontend Implementation Plan](docs/plans/hdb-map-frontend.md) and
   [Data Pipeline Implementation Plan](docs/plans/hdb-map-pipeline.md): the original task-by-task
   build record, each with a "Post-implementation deltas" section for later changes

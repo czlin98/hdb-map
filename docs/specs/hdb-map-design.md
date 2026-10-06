@@ -1,4 +1,4 @@
-# HDB Map: v1 Design Spec
+# HDB Map: Design Spec
 
 **Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1)
 **Status:** Implemented. This spec describes v1 as shipped. The plans in

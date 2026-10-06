@@ -23,7 +23,7 @@ tests.
 4, Shadcn UI (thin wrappers over cmdk + Vaul), Zustand 5. Tests: Vitest 4 +
 Testing Library + jsdom.
 
-**Spec:** `docs/specs/hdb-map-v1-design.md`. The plan argues from
+**Spec:** `docs/specs/hdb-map-design.md`. The plan argues from
 the spec; executors read both. This plan covers the **frontend half** (`app/`).
 The **data pipeline** is a separate plan
 (`docs/plans/hdb-map-pipeline.md`); this plan depends only on the

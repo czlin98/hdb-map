@@ -139,7 +139,7 @@ Form:
 
 ## Docs
 
-`docs/specs/hdb-map-v1-design.md` (design spec) is the authoritative description of current behavior
+`docs/specs/hdb-map-design.md` (design spec) is the authoritative description of current behavior
 and its design decisions. `docs/plans/` (frontend + pipeline implementation plans) is the frozen
 record of how v1 was built; each plan's "Post-implementation deltas" section is closed.
 
