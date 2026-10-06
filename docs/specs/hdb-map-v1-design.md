@@ -96,7 +96,7 @@ hdb-map/
 │  │  ├─ export.py               # write index.geojson + detail shards + towns.json
 │  │  ├─ config.py               # dataset id, endpoints, paths
 │  │  └─ run.py                  # orchestrator
-│  ├─ geocode_failures.csv       # committed: blk_no, street_full, reason, found
+│  ├─ failed_blocks.csv          # committed: blk_no, street_full, reason, found
 │  ├─ towns.json                 # canonical master town list (source of truth)
 │  └─ tests/
 ├─ .github/workflows/
@@ -112,7 +112,7 @@ hdb-map/
 - `app/` is the Vercel root; `public/data/` ships as static assets on the same
   origin (no CORS).
 - Geocoding runs in full each month (no persistent cache in v1); only
-  `pipeline/geocode_failures.csv` is committed, as the safety net that makes the
+  `pipeline/failed_blocks.csv` is committed, as the safety net that makes the
   hard gate visible.
 - `towns.json` has its canonical copy under `pipeline/` (source of truth) and is
   copied into `app/public/data/` at build so the client fetches it as a static
@@ -188,7 +188,7 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   Actions job budget, run once a month.
 - **Failures** (no results, no gate match, or API error): the block is
   **excluded from that month's output** and retried naturally on the next
-  full run. Each run writes the failures to `pipeline/geocode_failures.csv`,
+  full run. Each run writes the failures to `pipeline/failed_blocks.csv`,
   sorted and committed, with columns `blk_no, street_full, reason, found`.
   This file is the safety net that makes the hard gate visible. `reason` is
   one of `no_results` (OneMap returned nothing), `no_match` (results returned
@@ -265,7 +265,7 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   `ANG MO KIO AVENUE 3`; `JLN BT MERAH` → `JALAN BUKIT MERAH`; `C'WEALTH CRES` →
   `COMMONWEALTH CRESCENT`. Covered by unit tests.
 - Structured logging: per-run counts (fetched, geocoded, failed), and the
-  failure list written to `pipeline/geocode_failures.csv`.
+  failure list written to `pipeline/failed_blocks.csv`.
 - Tests cover each stage with fixture data; OneMap and data.gov.sg are mocked so
   tests need no network.
 
@@ -628,7 +628,7 @@ filter must be combined with that condition, not replace it.
 - **Steps:** checkout → setup Python → install → run the pipeline. The run
   fetches a fresh OneMap token from `ONEMAP_EMAIL`/`ONEMAP_PASSWORD`, geocodes
   all blocks ≤300/min, and writes `app/public/data/*` and
-  `pipeline/geocode_failures.csv`.
+  `pipeline/failed_blocks.csv`.
 - **Commit only if diff**, then push. The push triggers the Vercel redeploy.
   Needs `contents: write`; a concurrency guard prevents overlapping runs.
 - **Failure = safe:** if the OneMap token request, the data.gov.sg fetch, or

@@ -74,8 +74,8 @@ token auth, town loading, and fetching all happen _before_ any file is written, 
 code in `transform` raises rather than writing partial output, so a failed run never corrupts the
 committed contract. Per-block problems are non-fatal instead: a geocode failure (including a match
 with unusable coordinates), or a block that `transform` skips for a missing year, floor count, or
-unit total, is left out and written to `pipeline/geocode_failures.csv` (committed alongside the
-data) with its reason. The block-count guard caps them: a full run that would write fewer than
+unit total, is left out and written to `pipeline/failed_blocks.csv` (committed alongside the data)
+with its reason. The block-count guard caps them: a full run that would write fewer than
 `MIN_BLOCK_RATIO` (99%) of the live blocks aborts before any write. Street abbreviations
 (`AVE`→`AVENUE`, etc.) are expanded via whole-token matching in `config.py`.
 

@@ -19,7 +19,7 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     monkeypatch.setenv("ONEMAP_EMAIL", "e@x.com")
     monkeypatch.setenv("ONEMAP_PASSWORD", "pw")
     monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
-    monkeypatch.setattr(config, "FAILURES_PATH", tmp_path / "geocode_failures.csv")
+    monkeypatch.setattr(config, "FAILED_BLOCKS_PATH", tmp_path / "failed_blocks.csv")
     monkeypatch.setattr(geocode.time, "sleep", lambda *_: None)
     monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
     monkeypatch.setattr(run_module, "today_sgt", lambda: "2026-10-01")
@@ -100,7 +100,7 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     assert len(index["features"]) == 1
     assert index["features"][0]["properties"]["id"] == "123-ang-mo-kio-ave-3"
 
-    with (tmp_path / "geocode_failures.csv").open() as fh:
+    with (tmp_path / "failed_blocks.csv").open() as fh:
         rows = list(csv.DictReader(fh))
     assert rows == [
         {
@@ -116,9 +116,9 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     assert meta == {"data_accessed": "2026-10-01"}
 
 
-def test_write_failures_sorted(tmp_path):
+def test_write_failed_blocks_sorted(tmp_path):
     path = tmp_path / "f.csv"
-    run_module.write_failures(
+    run_module.write_failed_blocks(
         [
             {"blk_no": "9", "street_full": "Z RD", "reason": "no_match", "found": 2},
             {"blk_no": "1", "street_full": "A RD", "reason": "no_results", "found": 0},
@@ -157,7 +157,7 @@ def _stub_stages(monkeypatch, tmp_path, n_records, n_skipped=0):
     monkeypatch.setenv("ONEMAP_EMAIL", "e@x.com")
     monkeypatch.setenv("ONEMAP_PASSWORD", "pw")
     monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
-    monkeypatch.setattr(config, "FAILURES_PATH", tmp_path / "geocode_failures.csv")
+    monkeypatch.setattr(config, "FAILED_BLOCKS_PATH", tmp_path / "failed_blocks.csv")
     monkeypatch.setattr(run_module, "get_token", lambda *a, **k: "tok")
     monkeypatch.setattr(run_module, "fetch_blocks", lambda *a, **k: [{}] * 1000)
     monkeypatch.setattr(run_module, "geocode_all", lambda s, t, blocks, **kw: (blocks, []))
@@ -165,7 +165,9 @@ def _stub_stages(monkeypatch, tmp_path, n_records, n_skipped=0):
     writes = []
     monkeypatch.setattr(run_module, "write_outputs", lambda *a, **k: writes.append("outputs"))
     monkeypatch.setattr(run_module, "write_meta", lambda *a, **k: writes.append("meta"))
-    monkeypatch.setattr(run_module, "write_failures", lambda *a, **k: writes.append("failures"))
+    monkeypatch.setattr(
+        run_module, "write_failed_blocks", lambda *a, **k: writes.append("failures")
+    )
     return writes
 
 

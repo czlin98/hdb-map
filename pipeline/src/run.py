@@ -17,8 +17,8 @@ from transform import transform
 log = logging.getLogger("pipeline")
 
 
-def write_failures(failures: list[dict], path: Path | None = None) -> None:
-    path = Path(path or config.FAILURES_PATH)
+def write_failed_blocks(failures: list[dict], path: Path | None = None) -> None:
+    path = Path(path or config.FAILED_BLOCKS_PATH)
     # Sorted: the CSV is committed, so a stable order keeps monthly diffs minimal.
     rows = sorted(failures, key=lambda f: (f["blk_no"], f["street_full"]))
     with path.open("w", newline="", encoding="utf-8") as fh:
@@ -67,7 +67,7 @@ def run() -> None:
     check_block_count(len(records), Path(config.APP_DATA_DIR) / "index.geojson")
     write_outputs(records, towns, config.APP_DATA_DIR)
     write_meta(data_accessed, config.APP_DATA_DIR)
-    write_failures(failures + skipped, config.FAILURES_PATH)
+    write_failed_blocks(failures + skipped, config.FAILED_BLOCKS_PATH)
     log.info("Wrote %d blocks to index + %d shards", len(records), len(towns))
 
 
