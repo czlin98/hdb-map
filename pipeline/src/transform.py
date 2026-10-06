@@ -35,9 +35,20 @@ def _units_by_type(block: dict, mapping: list[tuple[str, str]]) -> dict[str, int
     return out
 
 
-def transform(geocoded: list[dict], towns: list[dict]) -> list[dict]:
+# (field, failure reason), checked in this order: a block missing several is recorded once,
+# under the first. _to_int turns a blank or unreadable value into 0, so 0 means missing.
+REQUIRED_VALUES = [
+    ("year_completed", "missing_year"),
+    ("max_floor_lvl", "missing_floors"),
+    ("total_dwelling_units", "missing_units"),
+]
+
+
+def transform(geocoded: list[dict], towns: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Return (records, skipped); skipped rows match geocode failures for the failures CSV."""
     code_index = {t["town_code"]: t for t in towns}
     records: list[dict] = []
+    skipped: list[dict] = []
     for block in geocoded:
         code = block["bldg_contract_town"]
         town = code_index.get(code)
@@ -45,6 +56,18 @@ def transform(geocoded: list[dict], towns: list[dict]) -> list[dict]:
             raise ValueError(
                 f"Unknown town code {code!r} for blk {block['blk_no']} {block['street_full']}"
             )
+        values = {field: _to_int(block.get(field)) for field, _ in REQUIRED_VALUES}
+        missing = next((reason for field, reason in REQUIRED_VALUES if values[field] <= 0), None)
+        if missing:
+            skipped.append(
+                {
+                    "blk_no": block["blk_no"],
+                    "street_full": block["street_full"],
+                    "reason": missing,
+                    "found": "",
+                }
+            )
+            continue
         records.append(
             {
                 "id": make_id(block["blk_no"], block["street"]),
@@ -56,11 +79,9 @@ def transform(geocoded: list[dict], towns: list[dict]) -> list[dict]:
                 "town_slug": town["town_slug"],
                 "lat": float(block["lat"]),
                 "lon": float(block["lon"]),
-                "year_completed": _to_int(block.get("year_completed")),
-                "max_floor_lvl": _to_int(block.get("max_floor_lvl")),
-                "total_dwelling_units": _to_int(block.get("total_dwelling_units")),
+                **values,
                 "sold_units_by_type": _units_by_type(block, FLAT_TYPES_SOLD),
                 "rental_units_by_type": _units_by_type(block, FLAT_TYPES_RENTAL),
             }
         )
-    return records
+    return records, skipped

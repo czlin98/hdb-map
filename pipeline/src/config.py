@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parents[2]  # src -> pipeline -> repo root
 PIPELINE_DIR = ROOT / "pipeline"
 APP_DATA_DIR = ROOT / "app" / "public" / "data"
 TOWNS_PATH = PIPELINE_DIR / "towns.json"
-FAILURES_PATH = PIPELINE_DIR / "geocode_failures.csv"
+FAILED_BLOCKS_PATH = PIPELINE_DIR / "failed_blocks.csv"
 
 # A run may drop at most 1% of the live blocks (~108 of ~10.8k). Real monthly change is a few
 # demolitions; a OneMap outage or truncated download drops hundreds, and must not be published.

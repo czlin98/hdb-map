@@ -96,7 +96,7 @@ hdb-map/
 │  │  ├─ export.py               # write index.geojson + detail shards + towns.json
 │  │  ├─ config.py               # dataset id, endpoints, paths
 │  │  └─ run.py                  # orchestrator
-│  ├─ geocode_failures.csv       # committed: blk_no, street_full, reason, found
+│  ├─ failed_blocks.csv          # committed: blk_no, street_full, reason, found
 │  ├─ towns.json                 # canonical master town list (source of truth)
 │  └─ tests/
 ├─ .github/workflows/
@@ -112,7 +112,7 @@ hdb-map/
 - `app/` is the Vercel root; `public/data/` ships as static assets on the same
   origin (no CORS).
 - Geocoding runs in full each month (no persistent cache in v1); only
-  `pipeline/geocode_failures.csv` is committed, as the safety net that makes the
+  `pipeline/failed_blocks.csv` is committed, as the safety net that makes the
   hard gate visible.
 - `towns.json` has its canonical copy under `pipeline/` (source of truth) and is
   copied into `app/public/data/` at build so the client fetches it as a static
@@ -160,12 +160,15 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   secrets (`ONEMAP_EMAIL`, `ONEMAP_PASSWORD`). No static token is stored. If the
   token request fails, **fail the run fast** with no commit (last good data
   stays live).
-- **Match (hard gate).** A returned result qualifies only if **all four**
+- **Match (hard gate).** A returned result qualifies only if **all five**
   hold (normalized, uppercased):
   1. `BLK_NO` == `blk_no`, exactly;
   2. `ROAD_NAME` == `street_full`, exactly;
   3. `POSTAL` is a real postal, not `NIL` or empty;
-  4. `POSTAL` ends with the digits of `blk_no` (`216B` → ends with `216`).
+  4. `POSTAL` ends with the digits of `blk_no` (`216B` → ends with `216`);
+  5. `LATITUDE` and `LONGITUDE` are both present and numeric, so a result
+     with unusable coordinates fails this one block instead of crashing the
+     whole run when `transform.py` parses them.
 
   With several qualifiers, take the first by OneMap's ranking. A block and
   street can return several results: the residential building plus businesses
@@ -185,12 +188,16 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   Actions job budget, run once a month.
 - **Failures** (no results, no gate match, or API error): the block is
   **excluded from that month's output** and retried naturally on the next
-  full run. Each run writes the failures to `pipeline/geocode_failures.csv`,
+  full run. Each run writes the failures to `pipeline/failed_blocks.csv`,
   sorted and committed, with columns `blk_no, street_full, reason, found`.
   This file is the safety net that makes the hard gate visible. `reason` is
   one of `no_results` (OneMap returned nothing), `no_match` (results returned
-  but none passed the gate), or `api_error` (request failed after retries);
-  `found` is the number of results OneMap returned.
+  but none passed the gate), `no_coords` (no result passed all five rules,
+  but at least one passed rules 1 to 4, so only its coordinates were
+  unusable), or `api_error` (request failed after retries); `found` is the
+  number of results OneMap returned. The same file also records blocks that
+  transform skips for missing values (§3.3), with `found` left empty since
+  those blocks geocoded fine.
 - **Block-count guard.** A failure of any reason is non-fatal on its own, so
   a OneMap outage partway through a run would leave out every block geocoded
   while it lasted. Before writing, `run.py` therefore compares the run's
@@ -208,6 +215,16 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   no mapping here, so the run **fails** with a clear error rather than emitting
   a block with no town. This is where the raw code is validated, since after
   this step the record carries `town`/`town_slug` rather than the code.
+- **Required values:** `year_completed`, `max_floor_lvl`, and
+  `total_dwelling_units` must each be present and above zero. A block missing
+  any of them is **skipped and recorded** in the failures file (§3.2) with
+  the reason `missing_year`, `missing_floors`, or `missing_units`, instead of
+  being exported with a silent 0 that the panel would show as a real value.
+  A block missing several gets one row, naming the first missing value in
+  that order, so the file keeps one row per block.
+  Unlike an unknown town, a blank cell is a one-block data glitch, so it
+  doesn't stop the run; skipped blocks count against the block-count guard
+  (§3.2), so a broken feed still does.
 - Join Property Information and the geocode result into one clean per-block
   record.
 - Derive two units-by-flat-type maps, **sold** and **rental**. Drop the
@@ -248,7 +265,7 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   `ANG MO KIO AVENUE 3`; `JLN BT MERAH` → `JALAN BUKIT MERAH`; `C'WEALTH CRES` →
   `COMMONWEALTH CRESCENT`. Covered by unit tests.
 - Structured logging: per-run counts (fetched, geocoded, failed), and the
-  failure list written to `pipeline/geocode_failures.csv`.
+  failure list written to `pipeline/failed_blocks.csv`.
 - Tests cover each stage with fixture data; OneMap and data.gov.sg are mocked so
   tests need no network.
 
@@ -371,6 +388,9 @@ that town's shard the first time and caches it in memory, then returns
 ### 4.5 Invariants
 
 - `id` is unique and identical wherever it appears (index key ↔ detail key).
+- Every block has numeric coordinates, and a `year_completed`,
+  `max_floor_lvl`, and `total_dwelling_units` above zero; blocks without them
+  are left out of the output and recorded (§3.2, §3.3).
 - Every `town` in the index and detail exists in `towns.json`.
 - Both files are written with fields in a fixed logical order, and with
   index features and shard keys sorted by `id`.
@@ -608,7 +628,7 @@ filter must be combined with that condition, not replace it.
 - **Steps:** checkout → setup Python → install → run the pipeline. The run
   fetches a fresh OneMap token from `ONEMAP_EMAIL`/`ONEMAP_PASSWORD`, geocodes
   all blocks ≤300/min, and writes `app/public/data/*` and
-  `pipeline/geocode_failures.csv`.
+  `pipeline/failed_blocks.csv`.
 - **Commit only if diff**, then push. The push triggers the Vercel redeploy.
   Needs `contents: write`; a concurrency guard prevents overlapping runs.
 - **Failure = safe:** if the OneMap token request, the data.gov.sg fetch, or
