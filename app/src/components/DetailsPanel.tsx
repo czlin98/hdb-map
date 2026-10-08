@@ -2,11 +2,29 @@ import { useEffect, useImperativeHandle, useRef, useState, type Ref } from "reac
 import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
+import { bandIndex, COLOR_SCALES, type ScaleMode } from "../lib/coloring";
+import { useColorMode } from "../store/color";
 import { XIcon } from "lucide-react";
 import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
 import { Sheet, SheetContent, SheetTitle } from "./ui/sheet";
 
+// Shown beside the value the map is colored by. The shard mirrors the index, so the band
+// matches the block's marker; on mobile the sheet hides the legend, so this is its key there.
+function BandSwatch({ mode, value }: { mode: ScaleMode; value: number }) {
+  const scale = COLOR_SCALES[mode];
+  const band = scale.bands[bandIndex(scale, value)];
+  return (
+    <span
+      role="img"
+      aria-label={band.label}
+      className="inline-block size-3 shrink-0 rounded-full"
+      style={{ backgroundColor: band.color }}
+    />
+  );
+}
+
 export function DetailsContent({ detail }: { detail: BlockDetail }) {
+  const mode = useColorMode((s) => s.mode);
   const sold = orderedUnits(detail.sold_units_by_type, SOLD_FLAT_TYPES);
   const rental = orderedUnits(detail.rental_units_by_type, RENTAL_FLAT_TYPES);
   return (
@@ -21,11 +39,17 @@ export function DetailsContent({ detail }: { detail: BlockDetail }) {
         </div>
         <div>
           <dt className="text-muted-foreground">Year completed</dt>
-          <dd>{detail.year_completed}</dd>
+          <dd className="flex items-center gap-1.5">
+            {detail.year_completed}
+            {mode === "year" && <BandSwatch mode="year" value={detail.year_completed} />}
+          </dd>
         </div>
         <div>
           <dt className="text-muted-foreground">Floors</dt>
-          <dd>{detail.max_floor_lvl}</dd>
+          <dd className="flex items-center gap-1.5">
+            {detail.max_floor_lvl}
+            {mode === "floors" && <BandSwatch mode="floors" value={detail.max_floor_lvl} />}
+          </dd>
         </div>
         <div>
           <dt className="text-muted-foreground">Total units</dt>

@@ -1,5 +1,5 @@
 import { createRef, useState } from "react";
-import { render, screen, waitFor } from "@testing-library/react";
+import { act, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import type { GetBlockDetail } from "../lib/data";
 import {
@@ -10,6 +10,7 @@ import {
 } from "./DetailsPanel";
 import { renderHook } from "@testing-library/react";
 import { sampleShard } from "../test/fixtures";
+import { useColorMode } from "../store/color";
 
 const panelProps = {
   selectedId: "123-ang-mo-kio-ave-3",
@@ -57,6 +58,33 @@ test("DetailsContent omits the Rental group when there is no rental", () => {
   const detail = { ...sampleShard["123-ang-mo-kio-ave-3"], rental_units_by_type: undefined };
   render(<DetailsContent detail={detail} />);
   expect(screen.queryByText("Rental")).not.toBeInTheDocument();
+});
+
+afterEach(() => useColorMode.getState().setMode("none"));
+
+// The <div> holding a field's <dt> label and <dd> value.
+function field(label: string) {
+  return screen.getByText(label, { selector: "dt" }).parentElement!;
+}
+
+test("no band swatch while coloring is off", () => {
+  render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
+  expect(screen.queryByRole("img")).not.toBeInTheDocument();
+});
+
+test("year coloring puts the block's band swatch on the year row only", () => {
+  act(() => useColorMode.getState().setMode("year"));
+  render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
+  const swatch = within(field("Year completed")).getByRole("img", { name: "Before 1980" });
+  expect(swatch).toHaveStyle({ backgroundColor: "#c7e9b4" });
+  expect(within(field("Floors")).queryByRole("img")).not.toBeInTheDocument();
+});
+
+test("floors coloring puts the block's band swatch on the floors row", () => {
+  act(() => useColorMode.getState().setMode("floors"));
+  render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
+  expect(within(field("Floors")).getByRole("img", { name: "10 to 12" })).toBeInTheDocument();
+  expect(within(field("Year completed")).queryByRole("img")).not.toBeInTheDocument();
 });
 
 test("useBlockDetail: loading -> ready", async () => {
