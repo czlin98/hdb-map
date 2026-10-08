@@ -18,6 +18,8 @@ export const sampleIndex: IndexFeatureCollection = {
         street_full: "ANG MO KIO AVENUE 3",
         postal: "560123",
         town: "ANG MO KIO",
+        year_completed: 1978,
+        max_floor_lvl: 12,
       },
     },
     {
@@ -30,6 +32,8 @@ export const sampleIndex: IndexFeatureCollection = {
         street_full: "BEDOK NORTH STREET 1",
         postal: "460001",
         town: "BEDOK",
+        year_completed: 2015,
+        max_floor_lvl: 30,
       },
     },
   ],
