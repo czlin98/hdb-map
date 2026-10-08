@@ -4,6 +4,7 @@ import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection } from "../types/contract";
+import { circleColor, type ColorMode } from "../lib/coloring";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Island view: drives the initial fit and the zoom floor. Centered on the main island's
@@ -30,6 +31,7 @@ interface Props {
   topClearanceRef?: RefObject<HTMLInputElement | null>;
   // Desktop only: touch users pinch, and the mobile sheet needs the room.
   showZoomButtons?: boolean;
+  colorMode?: ColorMode;
 }
 
 // Any lower and a dense estate reads as a wall of text.
@@ -95,6 +97,7 @@ export function MapView({
   flyPaddingBottom = 0,
   topClearanceRef,
   showZoomButtons = false,
+  colorMode = "none",
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -102,10 +105,12 @@ export function MapView({
   onSelectRef.current = onSelectBlock;
   const onBackgroundClickRef = useRef(onBackgroundClick);
   onBackgroundClickRef.current = onBackgroundClick;
-  // Read by the one-shot load handler, so the source and highlight start from the latest
-  // data and selection even when either arrives before the style loads.
+  // Read by the one-shot load handler, so the source, colors, and highlight start from the
+  // latest data, mode, and selection even when any arrives before the style loads.
   const dataRef = useRef(data);
   dataRef.current = data;
+  const colorModeRef = useRef(colorMode);
+  colorModeRef.current = colorMode;
   const selectedIdRef = useRef(selectedId);
   selectedIdRef.current = selectedId;
 
@@ -151,7 +156,7 @@ export function MapView({
         paint: {
           // Small at low zoom to avoid clutter; an easy tap target once zoomed into an estate.
           "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 2, 14, 4, 16, 8, 17, 10],
-          "circle-color": "#2563eb",
+          "circle-color": circleColor(colorModeRef.current),
           "circle-stroke-width": 0.5,
           "circle-stroke-color": "#ffffff",
         },
@@ -248,18 +253,24 @@ export function MapView({
     // Mount-once: every reactive value is read through a ref.
   }, []);
 
-  // Bottom-left stays clear of the search box (top-left) and the desktop details panel
-  // (right edge).
+  // Bottom-left is the coloring legend's. MapLibre stacks a later-added bottom control on top,
+  // so this sits above the attribution ⓘ added at mount.
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !showZoomButtons) return;
     const nav = new maplibregl.NavigationControl({ showCompass: false });
-    map.addControl(nav, "bottom-left");
+    map.addControl(nav, "bottom-right");
     return () => {
       // On unmount the map is already removed, taking its controls with it.
       if (mapRef.current) map.removeControl(nav);
     };
   }, [showZoomButtons]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !map.getLayer("blocks-circles")) return;
+    map.setPaintProperty("blocks-circles", "circle-color", circleColor(colorMode));
+  }, [colorMode]);
 
   useEffect(() => {
     const src = mapRef.current?.getSource("blocks") as maplibregl.GeoJSONSource | undefined;

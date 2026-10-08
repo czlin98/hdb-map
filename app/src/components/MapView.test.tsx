@@ -15,6 +15,7 @@ const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
     getSource: vi.fn().mockReturnValue({ setData: vi.fn() }),
     queryRenderedFeatures: vi.fn().mockReturnValue([]),
     setFilter: vi.fn(),
+    setPaintProperty: vi.fn(),
     setPadding: vi.fn(),
     setMinZoom: vi.fn(),
     cameraForBounds: vi.fn().mockReturnValue({ zoom: 10.2 }),
@@ -52,6 +53,7 @@ vi.mock("maplibre-gl/dist/maplibre-gl.css", () => ({}));
 
 import { MapView } from "./MapView";
 import { sampleIndex } from "../test/fixtures";
+import { BLOCK_COLOR, circleColor } from "../lib/coloring";
 
 afterEach(() => {
   for (const k of Object.keys(handlers)) delete handlers[k];
@@ -93,7 +95,7 @@ test("adds compass-free zoom buttons only when asked", () => {
   );
   expect(NavCtor).toHaveBeenCalledWith({ showCompass: false });
   const nav = NavCtor.mock.instances[0];
-  expect(map.addControl).toHaveBeenCalledWith(nav, "bottom-left");
+  expect(map.addControl).toHaveBeenCalledWith(nav, "bottom-right");
 
   rerender(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
   expect(map.removeControl).toHaveBeenCalledWith(nav);
@@ -317,4 +319,66 @@ test("skips the camera glide when clearing a selection that left no padding", ()
     <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} flyPaddingBottom={0} />,
   );
   expect(map.easeTo).not.toHaveBeenCalled();
+});
+
+function addedLayer(id: string) {
+  const call = map.addLayer.mock.calls.find((c) => (c[0] as { id: string }).id === id);
+  return call?.[0] as { paint: Record<string, unknown> };
+}
+
+test("colors markers by the mode that is set when the map loads", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="year" />);
+  fire("load");
+  expect(addedLayer("blocks-circles").paint["circle-color"]).toEqual(circleColor("year"));
+});
+
+test("recolors markers when the mode changes", () => {
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
+  );
+  fire("load");
+  expect(addedLayer("blocks-circles").paint["circle-color"]).toBe(BLOCK_COLOR);
+
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="floors" />,
+  );
+  expect(map.setPaintProperty).toHaveBeenLastCalledWith(
+    "blocks-circles",
+    "circle-color",
+    circleColor("floors"),
+  );
+
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="none" />,
+  );
+  expect(map.setPaintProperty).toHaveBeenLastCalledWith(
+    "blocks-circles",
+    "circle-color",
+    BLOCK_COLOR,
+  );
+});
+
+test("leaves the paint alone until the block layer exists", () => {
+  map.getLayer.mockReturnValue(undefined);
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
+  );
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="year" />,
+  );
+  expect(map.setPaintProperty).not.toHaveBeenCalled();
+  map.getLayer.mockReturnValue({}); // restore for other tests
+});
+
+test("the selected block stays amber in every mode", () => {
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="year" />,
+  );
+  fire("load");
+  expect(addedLayer("blocks-highlight").paint["circle-color"]).toBe("#f59e0b");
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="floors" />,
+  );
+  const targets = map.setPaintProperty.mock.calls.map((c) => c[0]);
+  expect(targets).not.toContain("blocks-highlight");
 });
