@@ -1,4 +1,4 @@
-import { render, screen, waitFor } from "@testing-library/react";
+import { act, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, expect, test, vi } from "vitest";
 
@@ -8,12 +8,14 @@ vi.mock("./components/MapView", () => ({
     data,
     onSelectBlock,
     onBackgroundClick,
+    colorMode,
   }: {
     data: IndexFeatureCollection;
     onSelectBlock: (id: string, town: string) => void;
     onBackgroundClick?: () => void;
+    colorMode?: string;
   }) => (
-    <div>
+    <div data-testid="map" data-color-mode={colorMode}>
       {data.features.map((f: BlockFeature) => (
         <button
           key={f.properties.id}
@@ -31,10 +33,12 @@ import App from "./App";
 import type { BlockFeature, IndexFeatureCollection } from "./types/contract";
 import { sampleIndex, sampleShard, sampleTowns } from "./test/fixtures";
 import { useSelection } from "./store/selection";
+import { useColorMode } from "./store/color";
 
 afterEach(() => {
   vi.restoreAllMocks();
   useSelection.getState().clear();
+  useColorMode.getState().setMode("none");
 });
 
 function stubFetch(map: Record<string, unknown>) {
@@ -85,4 +89,64 @@ test("shows a fatal error card when index fails to load", async () => {
   stubFetch({ "towns.json": sampleTowns }); // index.geojson -> 404
   render(<App />);
   expect(await screen.findByText(/couldn't load block data/i)).toBeInTheDocument();
+});
+
+function stubLoaded() {
+  stubFetch({
+    "index.geojson": sampleIndex,
+    "towns.json": sampleTowns,
+    "ang-mo-kio.json": sampleShard,
+  });
+}
+
+async function pickColorMode(current: string, item: string) {
+  await userEvent.click(screen.getByRole("button", { name: current }));
+  await userEvent.click(screen.getByRole("menuitemradio", { name: item }));
+}
+
+test("the Color menu sits beside the search box", async () => {
+  stubLoaded();
+  render(<App />);
+  await screen.findByText("marker-123-ang-mo-kio-ave-3");
+  const search = screen.getByRole("combobox");
+  const color = screen.getByRole("button", { name: "Color" });
+  // Siblings in the top bar: the search box's wrapper and the button share a parent.
+  expect(search.closest("[data-slot=command]")!.parentElement!.parentElement).toBe(
+    color.parentElement,
+  );
+});
+
+test("picking a mode recolors the map and shows the legend", async () => {
+  stubLoaded();
+  render(<App />);
+  await screen.findByText("marker-123-ang-mo-kio-ave-3");
+  expect(screen.getByTestId("map")).toHaveAttribute("data-color-mode", "none");
+  expect(screen.queryByRole("region", { name: /legend/ })).not.toBeInTheDocument();
+
+  await pickColorMode("Color", "Year completed");
+  expect(screen.getByTestId("map")).toHaveAttribute("data-color-mode", "year");
+  expect(screen.getByRole("region", { name: "Year completed legend" })).toBeInTheDocument();
+
+  await pickColorMode("Color: Year", "No coloring");
+  expect(screen.getByTestId("map")).toHaveAttribute("data-color-mode", "none");
+  expect(screen.queryByRole("region", { name: /legend/ })).not.toBeInTheDocument();
+});
+
+test("no legend while the index is still loading", async () => {
+  vi.stubGlobal(
+    "fetch",
+    vi.fn(() => new Promise(() => {})),
+  );
+  render(<App />);
+  act(() => useColorMode.getState().setMode("year"));
+  expect(screen.queryByRole("region", { name: /legend/ })).not.toBeInTheDocument();
+});
+
+test("the error card hides the Color menu and the legend", async () => {
+  stubFetch({ "towns.json": sampleTowns }); // index.geojson -> 404
+  act(() => useColorMode.getState().setMode("year"));
+  render(<App />);
+  await screen.findByText(/couldn't load block data/i);
+  expect(screen.queryByRole("button", { name: /^Color/ })).not.toBeInTheDocument();
+  expect(screen.queryByRole("region", { name: /legend/ })).not.toBeInTheDocument();
 });
