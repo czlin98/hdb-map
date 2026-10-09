@@ -37,6 +37,7 @@ export default function App() {
   const [panelOpen, setPanelOpen] = useState(false);
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const colorButtonRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<DetailsPanelHandle>(null);
 
   const { selectedId, selectedTown, select, clear } = useSelection();
@@ -107,12 +108,18 @@ export default function App() {
               inputRef={searchInputRef}
             />
           </div>
-          <ColorControl compact={!isDesktop} />
+          <ColorControl compact={!isDesktop} triggerRef={colorButtonRef} />
         </div>
       )}
 
       {/* Stays mounted under the mobile sheet: even the peek snap is taller than the legend. */}
-      {status === "ready" && <ColorLegend features={index.features} isDesktop={isDesktop} />}
+      {status === "ready" && (
+        <ColorLegend
+          features={index.features}
+          isDesktop={isDesktop}
+          returnFocusRef={colorButtonRef}
+        />
+      )}
 
       {status === "error" && (
         <div className="absolute inset-0 z-50 grid place-items-center bg-black/10">

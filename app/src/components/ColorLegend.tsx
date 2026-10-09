@@ -1,4 +1,5 @@
-import { useMemo } from "react";
+import { useMemo, type RefObject } from "react";
+import { XIcon } from "lucide-react";
 import { COLOR_SCALES, countBands } from "../lib/coloring";
 import { cn } from "../lib/utils";
 import { useColorMode } from "../store/color";
@@ -7,10 +8,13 @@ import type { BlockFeature } from "../types/contract";
 interface Props {
   features: BlockFeature[];
   isDesktop: boolean;
+  // The legend unmounts with its own button, so focus moves here instead of being lost.
+  returnFocusRef?: RefObject<HTMLButtonElement | null>;
 }
 
-export function ColorLegend({ features, isDesktop }: Props) {
+export function ColorLegend({ features, isDesktop, returnFocusRef }: Props) {
   const mode = useColorMode((s) => s.mode);
+  const setMode = useColorMode((s) => s.setMode);
   const scale = mode === "none" ? null : COLOR_SCALES[mode];
   const counts = useMemo(() => (scale ? countBands(features, scale) : []), [features, scale]);
   if (!scale) return null;
@@ -26,14 +30,28 @@ export function ColorLegend({ features, isDesktop }: Props) {
         isDesktop ? "p-4" : "px-3 py-2",
       )}
     >
-      <p
+      {/* One color for the title and its x, so the x reads as part of the header. */}
+      <div
         className={cn(
-          "text-muted-foreground text-xs font-semibold tracking-wide uppercase",
+          "text-muted-foreground flex items-center justify-between gap-3",
           isDesktop ? "mb-3" : "mb-1.5",
         )}
       >
-        {scale.title}
-      </p>
+        <p className="text-xs font-semibold tracking-wide uppercase">{scale.title}</p>
+        {/* The ::after pads the 14px icon to a 28px tap target without growing the row: on
+            mobile the peek sheet must stay taller than the legend. */}
+        <button
+          type="button"
+          aria-label="Turn off coloring"
+          onClick={() => {
+            setMode("none");
+            returnFocusRef?.current?.focus();
+          }}
+          className="hover:text-foreground focus-visible:ring-ring relative flex shrink-0 rounded-sm outline-hidden after:absolute after:-inset-[7px] focus-visible:ring-2"
+        >
+          <XIcon className="size-3.5" />
+        </button>
+      </div>
       {isDesktop ? (
         // Highest band on top, so up reads as newer or taller.
         <ul className="min-w-48 space-y-2 text-sm">

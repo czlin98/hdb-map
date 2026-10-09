@@ -1,4 +1,5 @@
-import { act, render, screen, within } from "@testing-library/react";
+import { act, fireEvent, render, screen, within } from "@testing-library/react";
+import { createRef } from "react";
 import { beforeEach, expect, test } from "vitest";
 import { ColorLegend } from "./ColorLegend";
 import { useColorMode } from "../store/color";
@@ -64,3 +65,25 @@ test("switching mode re-titles the legend and recounts", () => {
     "Up to 90",
   ]);
 });
+
+test.each([true, false])(
+  "the x turns coloring off and hands focus on (desktop: %s)",
+  (isDesktop) => {
+    useColorMode.getState().setMode("year");
+    const returnFocusRef = createRef<HTMLButtonElement>();
+    render(
+      <>
+        <button ref={returnFocusRef}>Color</button>
+        <ColorLegend
+          features={sampleIndex.features}
+          isDesktop={isDesktop}
+          returnFocusRef={returnFocusRef}
+        />
+      </>,
+    );
+    fireEvent.click(screen.getByRole("button", { name: "Turn off coloring" }));
+    expect(useColorMode.getState().mode).toBe("none");
+    expect(screen.queryByRole("region", { name: /legend/ })).not.toBeInTheDocument();
+    expect(returnFocusRef.current).toHaveFocus();
+  },
+);

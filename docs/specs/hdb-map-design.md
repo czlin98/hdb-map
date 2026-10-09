@@ -683,7 +683,10 @@ old estates are, where the tall blocks cluster) show at a glance.
     phones. The details sheet covers it, even at its peek height, and
     uncovers it as it closes (§5.5 covers the selected block's band).
   - Not collapsible: turning coloring off removes it, and a colored map
-    without its key is hard to read.
+    without its key is hard to read. A × at the end of its title row turns
+    coloring off in one tap (the menu's "No coloring" takes two), and focus
+    moves to the Color button. It fits in the title line, so the legend
+    stays shorter than the mobile sheet's peek height.
   - Sharing the bottom edge with the credits (mobile): turning on a mode
     collapses the expanded credits to the ⓘ (§5.8), and the legend hides
     while the user has them open. Desktop is wide enough for both.

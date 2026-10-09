@@ -1,3 +1,4 @@
+import type { Ref } from "react";
 import { ChevronDownIcon, PaletteIcon } from "lucide-react";
 import { COLOR_SCALES, type ColorMode, type ScaleMode } from "../lib/coloring";
 import { useColorMode } from "../store/color";
@@ -11,7 +12,12 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 
-export function ColorControl({ compact }: { compact: boolean }) {
+interface Props {
+  compact: boolean;
+  triggerRef?: Ref<HTMLButtonElement>;
+}
+
+export function ColorControl({ compact, triggerRef }: Props) {
   const mode = useColorMode((s) => s.mode);
   const setMode = useColorMode((s) => s.setMode);
   const label = mode === "none" ? "Color" : `Color: ${COLOR_SCALES[mode].name}`;
@@ -19,6 +25,7 @@ export function ColorControl({ compact }: { compact: boolean }) {
     // Non-modal, like the details panel, so the map stays live while the menu is open.
     <DropdownMenu modal={false}>
       <DropdownMenuTrigger
+        ref={triggerRef}
         aria-label={label}
         className={cn(
           "bg-popover text-popover-foreground focus-visible:ring-ring relative inline-flex h-9 shrink-0 items-center rounded-md text-sm shadow-md outline-hidden focus-visible:ring-2",
