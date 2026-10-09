@@ -21,7 +21,7 @@ export function ColorControl({ compact }: { compact: boolean }) {
       <DropdownMenuTrigger
         aria-label={label}
         className={cn(
-          "bg-popover text-popover-foreground focus-visible:ring-ring relative inline-flex h-9 shrink-0 items-center rounded-md text-sm outline-hidden focus-visible:ring-2",
+          "bg-popover text-popover-foreground focus-visible:ring-ring relative inline-flex h-9 shrink-0 items-center rounded-md text-sm shadow-md outline-hidden focus-visible:ring-2",
           compact ? "w-9 justify-center" : "gap-2 px-3",
         )}
       >

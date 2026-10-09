@@ -672,7 +672,7 @@ old estates are, where the tall blocks cluster) show at a glance.
   box, and shown only while a mode is on.
   - Desktop: a card titled by the mode, listing the bands with the highest on
     top (so up reads as newer or taller), each with its block count.
-  - Mobile: a compact strip of swatches under the mode's title, light to
+  - Mobile: a compact ramp under the mode's title, the bands joined light to
     dark from left to right, with short labels and no counts. The title
     matters most here, since the mobile button shows only a dot. It is sized
     to its content rather than a fixed width, so it leaves room on narrow
