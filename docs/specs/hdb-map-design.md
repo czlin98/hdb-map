@@ -674,10 +674,10 @@ old estates are, where the tall blocks cluster) show at a glance.
     top (so up reads as newer or taller), each with its block count.
   - Mobile: a compact strip of swatches under the mode's title, light to
     dark from left to right, with short labels and no counts. The title
-    matters most here, since the mobile button shows only a dot. It is sized to its content rather than a
-    fixed width, so it leaves room on narrow phones. The open details sheet
-    hides it; it returns when the sheet closes (§5.5 covers the selected
-    block's band).
+    matters most here, since the mobile button shows only a dot. It is sized
+    to its content rather than a fixed width, so it leaves room on narrow
+    phones. The open details sheet hides it; it returns when the sheet closes
+    (§5.5 covers the selected block's band).
   - Not collapsible: turning coloring off removes it, and a colored map
     without its key is hard to read.
 - **Counts** are computed in the browser from the loaded index, once per mode.
