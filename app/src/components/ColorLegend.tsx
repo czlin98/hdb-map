@@ -16,10 +16,12 @@ export function ColorLegend({ features, isDesktop }: Props) {
   if (!scale) return null;
 
   return (
-    // Inset from the corner like the search box (top-2 / md:left-2).
+    // Inset from the corner like the search box (top-2 / md:left-2). index.css hides it by the
+    // color-legend class while the mobile credits are open.
     <section
       aria-label={`${scale.title} legend`}
       className={cn(
+        "color-legend",
         "bg-popover text-popover-foreground absolute bottom-2 left-2 z-20 rounded-md shadow-md",
         isDesktop ? "p-4" : "px-3 py-2",
       )}

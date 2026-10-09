@@ -93,6 +93,7 @@ export default function App() {
         topClearanceRef={isDesktop ? undefined : searchInputRef}
         showZoomButtons={isDesktop}
         colorMode={colorMode}
+        collapseCreditsOnColor={!isDesktop}
       />
 
       {status !== "error" && (

@@ -382,3 +382,38 @@ test("the selected block stays amber in every mode", () => {
   const targets = map.setPaintProperty.mock.calls.map((c) => c[0]);
   expect(targets).not.toContain("blocks-highlight");
 });
+
+// The attribution control is mocked, so stand in for the open credits MapLibre renders.
+function openCredits(container: HTMLElement) {
+  const credits = document.createElement("details");
+  credits.className = "maplibregl-ctrl-attrib maplibregl-compact maplibregl-compact-show";
+  const button = document.createElement("summary");
+  button.className = "maplibregl-ctrl-attrib-button";
+  const press = vi.fn(() => credits.classList.remove("maplibregl-compact-show"));
+  button.addEventListener("click", press);
+  credits.append(button);
+  container.firstElementChild!.append(credits);
+  return press;
+}
+
+test("collapses open credits when a mode turns on, if asked", () => {
+  const props = { data: sampleIndex, selectedId: null, onSelectBlock: vi.fn() };
+  const { container, rerender } = render(<MapView {...props} collapseCreditsOnColor />);
+  const press = openCredits(container);
+
+  rerender(<MapView {...props} collapseCreditsOnColor colorMode="none" />);
+  expect(press).not.toHaveBeenCalled();
+  rerender(<MapView {...props} colorMode="year" />);
+  expect(press).not.toHaveBeenCalled();
+  rerender(<MapView {...props} collapseCreditsOnColor colorMode="year" />);
+  expect(press).toHaveBeenCalledTimes(1);
+});
+
+test("collapses open credits when a block is selected", () => {
+  const props = { data: sampleIndex, onSelectBlock: vi.fn() };
+  const { container, rerender } = render(<MapView {...props} selectedId={null} />);
+  const press = openCredits(container);
+
+  rerender(<MapView {...props} selectedId={sampleIndex.features[0].properties.id} />);
+  expect(press).toHaveBeenCalledTimes(1);
+});

@@ -609,6 +609,10 @@ one standard control:
 - **Block data and geocoding:** "© HDB, OneMap/SLA", attached as custom
   attribution on the blocks source.
 
+They also collapse when a block is selected, since the details sheet or panel
+covers their corner, and on a phone when a coloring mode turns on, since there
+the expanded credits span the screen's width (§5.10).
+
 **Open question:** the Singapore Open Data Licence v1.0 asks for a
 conspicuous notice naming the dataset, its access date and source, and
 linking the licence ("Contains information from {dataset} accessed on {date}
@@ -680,6 +684,9 @@ old estates are, where the tall blocks cluster) show at a glance.
     (§5.5 covers the selected block's band).
   - Not collapsible: turning coloring off removes it, and a colored map
     without its key is hard to read.
+  - Sharing the bottom edge with the credits (mobile): turning on a mode
+    collapses the expanded credits to the ⓘ (§5.8), and the legend hides
+    while the user has them open. Desktop is wide enough for both.
 - **Counts** are computed in the browser from the loaded index, once per mode.
 
 ## 6. Deployment & CI

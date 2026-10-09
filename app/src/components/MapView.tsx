@@ -32,6 +32,8 @@ interface Props {
   // Desktop only: touch users pinch, and the mobile sheet needs the room.
   showZoomButtons?: boolean;
   colorMode?: ColorMode;
+  // Mobile only: the open credits span the screen, so they make way for the legend.
+  collapseCreditsOnColor?: boolean;
 }
 
 // Any lower and a dense estate reads as a wall of text.
@@ -89,6 +91,12 @@ function labelLayout(radius: [number, number]) {
   } satisfies maplibregl.SymbolLayerSpecification["layout"];
 }
 
+// MapLibre has no public way to collapse the compact credits, so press its own ⓘ button.
+function collapseOpenCredits(container: HTMLElement | null) {
+  const open = container?.querySelector(".maplibregl-compact-show");
+  open?.querySelector<HTMLElement>(".maplibregl-ctrl-attrib-button")?.click();
+}
+
 export function MapView({
   data,
   selectedId,
@@ -98,6 +106,7 @@ export function MapView({
   topClearanceRef,
   showZoomButtons = false,
   colorMode = "none",
+  collapseCreditsOnColor = false,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -271,6 +280,15 @@ export function MapView({
     if (!map || !map.getLayer("blocks-circles")) return;
     map.setPaintProperty("blocks-circles", "circle-color", circleColor(colorMode));
   }, [colorMode]);
+
+  useEffect(() => {
+    if (collapseCreditsOnColor && colorMode !== "none") collapseOpenCredits(containerRef.current);
+  }, [colorMode, collapseCreditsOnColor]);
+
+  // The details sheet or panel covers the credits' corner, so don't leave them open behind it.
+  useEffect(() => {
+    if (selectedId) collapseOpenCredits(containerRef.current);
+  }, [selectedId]);
 
   useEffect(() => {
     const src = mapRef.current?.getSource("blocks") as maplibregl.GeoJSONSource | undefined;
