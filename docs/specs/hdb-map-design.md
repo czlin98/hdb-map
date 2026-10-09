@@ -511,7 +511,7 @@ Zustand store of its own. It is not persisted (§5.10).
   breakdown as a **Sold** group and, when present, a **Rental** group. One
   source, no split between index and shard.
 - While a coloring mode is on, the row for that value (year completed or
-  floors) shows its band's color swatch. On mobile the open sheet hides the
+  floors) shows its band's color swatch. On mobile the open sheet covers the
   legend (§5.10), so the swatch is how the selected block's band stays
   readable.
 - A loading skeleton fills the **whole card, including the header**, while the
@@ -680,8 +680,8 @@ old estates are, where the tall blocks cluster) show at a glance.
     dark from left to right, with short labels and no counts. The title
     matters most here, since the mobile button shows only a dot. It is sized
     to its content rather than a fixed width, so it leaves room on narrow
-    phones. The open details sheet hides it; it returns when the sheet closes
-    (§5.5 covers the selected block's band).
+    phones. The details sheet covers it, even at its peek height, and
+    uncovers it as it closes (§5.5 covers the selected block's band).
   - Not collapsible: turning coloring off removes it, and a colored map
     without its key is hard to read.
   - Sharing the bottom edge with the credits (mobile): turning on a mode

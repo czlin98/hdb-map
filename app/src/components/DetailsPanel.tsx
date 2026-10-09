@@ -9,7 +9,7 @@ import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
 import { Sheet, SheetContent, SheetTitle } from "./ui/sheet";
 
 // Shown beside the value the map is colored by. The shard mirrors the index, so the band
-// matches the block's marker; on mobile the sheet hides the legend, so this is its key there.
+// matches the block's marker; on mobile the sheet covers the legend, so this is its key there.
 function BandSwatch({ mode, value }: { mode: ScaleMode; value: number }) {
   const scale = COLOR_SCALES[mode];
   const band = scale.bands[bandIndex(scale, value)];

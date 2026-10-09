@@ -111,10 +111,8 @@ export default function App() {
         </div>
       )}
 
-      {/* The mobile sheet would cover the legend; the panel's band swatch stands in for it. */}
-      {status === "ready" && (isDesktop || !panelOpen) && (
-        <ColorLegend features={index.features} isDesktop={isDesktop} />
-      )}
+      {/* Stays mounted under the mobile sheet: even the peek snap is taller than the legend. */}
+      {status === "ready" && <ColorLegend features={index.features} isDesktop={isDesktop} />}
 
       {status === "error" && (
         <div className="absolute inset-0 z-50 grid place-items-center bg-black/10">
