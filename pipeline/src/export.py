@@ -20,6 +20,8 @@ def to_index_feature(rec: dict) -> dict:
             "street_full": rec["street_full"],
             "postal": rec["postal"],
             "town": rec["town"],
+            "year_completed": rec["year_completed"],
+            "max_floor_lvl": rec["max_floor_lvl"],
         },
     }
 

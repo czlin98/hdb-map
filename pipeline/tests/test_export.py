@@ -34,7 +34,16 @@ def _rec(**over):
 def test_index_feature_shape():
     f = to_index_feature(_rec())
     assert f["geometry"]["coordinates"] == [103.84, 1.36]
-    assert set(f["properties"]) == {"id", "blk_no", "street", "street_full", "postal", "town"}
+    assert set(f["properties"]) == {
+        "id",
+        "blk_no",
+        "street",
+        "street_full",
+        "postal",
+        "town",
+        "year_completed",
+        "max_floor_lvl",
+    }
 
 
 def test_detail_entry_omits_empty_rental():
@@ -63,7 +72,16 @@ def test_written_fields_follow_logical_order(tmp_path):
 
     index = json.loads((tmp_path / "index.geojson").read_text())
     props = list(index["features"][0]["properties"].keys())
-    assert props == ["id", "blk_no", "street", "street_full", "postal", "town"]
+    assert props == [
+        "id",
+        "blk_no",
+        "street",
+        "street_full",
+        "postal",
+        "town",
+        "year_completed",
+        "max_floor_lvl",
+    ]
 
     amk = json.loads((tmp_path / "block-details" / "ang-mo-kio.json").read_text())
     entry = next(iter(amk.values()))
@@ -78,6 +96,31 @@ def test_written_fields_follow_logical_order(tmp_path):
         "total_dwelling_units",
         "sold_units_by_type",
     ]
+
+
+def test_written_index_coloring_values_mirror_shards(tmp_path):
+    bedok = _rec(
+        id="1-bedok-nth-st-1",
+        town="BEDOK",
+        town_slug="bedok",
+        year_completed=2015,
+        max_floor_lvl=30,
+    )
+    write_outputs([_rec(), bedok], TOWNS, app_data_dir=tmp_path)
+
+    index = json.loads((tmp_path / "index.geojson").read_text())
+    shards = {
+        t["town"]: json.loads((tmp_path / "block-details" / f"{t['town_slug']}.json").read_text())
+        for t in TOWNS
+    }
+    assert len(index["features"]) == 2
+    for f in index["features"]:
+        p = f["properties"]
+        entry = shards[p["town"]][p["id"]]
+        assert (p["year_completed"], p["max_floor_lvl"]) == (
+            entry["year_completed"],
+            entry["max_floor_lvl"],
+        )
 
 
 def test_shard_ids_written_in_sorted_order(tmp_path):

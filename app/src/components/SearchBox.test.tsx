@@ -206,7 +206,16 @@ test("editing the query scrolls to the new first result, not the old highlight",
     ].map(([blk_no, street, street_full, postal]) => ({
       type: "Feature" as const,
       geometry: { type: "Point" as const, coordinates: [103.8, 1.35] as [number, number] },
-      properties: { id: blk_no, blk_no, street, street_full, postal, town: "TEST" },
+      properties: {
+        id: blk_no,
+        blk_no,
+        street,
+        street_full,
+        postal,
+        town: "TEST",
+        year_completed: 1980,
+        max_floor_lvl: 12,
+      },
     })),
   });
   const scrolledTo: string[] = [];

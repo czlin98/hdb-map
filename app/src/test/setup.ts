@@ -16,6 +16,14 @@ if (!window.matchMedia) {
   })) as unknown as typeof window.matchMedia;
 }
 
+// floating-ui (behind Radix menus) checks `matches(":modal")` on every position update, and
+// jsdom's selector engine (nwsapi) is so slow at it that each menu open blocks for ~20 s.
+// jsdom has no top layer, so the answer is always false.
+const matches = Element.prototype.matches;
+Element.prototype.matches = function (this: Element, selector: string) {
+  return selector === ":modal" ? false : matches.call(this, selector);
+} as typeof Element.prototype.matches;
+
 // jsdom lacks ResizeObserver, which cmdk and Vaul construct on mount.
 if (!globalThis.ResizeObserver) {
   globalThis.ResizeObserver = class {

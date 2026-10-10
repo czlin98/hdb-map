@@ -137,3 +137,19 @@ body {
   font-size: 14px;
   line-height: 1.25rem;
 }
+
+/* Match the search box, Color button, and legend instead of MapLibre's flat 2px ring. The extra
+   class outranks maplibre-gl.css whatever the bundle order; forced-colors keeps MapLibre's ring. */
+@media (forced-colors: none) {
+  .maplibregl-ctrl.maplibregl-ctrl-group:not(:empty) {
+    @apply shadow-md;
+  }
+}
+
+/* Open credits span a phone's width, and the legend would cover them. 767px pairs with
+   useIsDesktop's 768px breakpoint in App.tsx. */
+@media (max-width: 767px) {
+  main:has(.maplibregl-compact-show) .color-legend {
+    visibility: hidden;
+  }
+}

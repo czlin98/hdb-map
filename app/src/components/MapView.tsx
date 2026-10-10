@@ -4,6 +4,7 @@ import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection } from "../types/contract";
+import { circleColor, COLOR_SCALES, type ColorMode } from "../lib/coloring";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Island view: drives the initial fit and the zoom floor. Centered on the main island's
@@ -30,6 +31,9 @@ interface Props {
   topClearanceRef?: RefObject<HTMLInputElement | null>;
   // Desktop only: touch users pinch, and the mobile sheet needs the room.
   showZoomButtons?: boolean;
+  colorMode?: ColorMode;
+  // Mobile only: the open credits span the screen, so they make way for the legend.
+  collapseCreditsOnColor?: boolean;
 }
 
 // Any lower and a dense estate reads as a wall of text.
@@ -87,6 +91,32 @@ function labelLayout(radius: [number, number]) {
   } satisfies maplibregl.SymbolLayerSpecification["layout"];
 }
 
+type TooltipProps = Pick<
+  IndexFeatureCollection["features"][number]["properties"],
+  "blk_no" | "street" | "year_completed" | "max_floor_lvl"
+>;
+
+// The address, followed by the colored value while a mode is on. Built from DOM nodes rather
+// than setHTML, so block data is never parsed as markup.
+function tooltipContent(p: TooltipProps, mode: ColorMode) {
+  const el = document.createElement("div");
+  el.append(`${p.blk_no} ${p.street}`);
+  if (mode !== "none") {
+    const scale = COLOR_SCALES[mode];
+    const value = document.createElement("span");
+    value.className = "text-muted-foreground";
+    value.textContent = ` · ${scale.describe(p[scale.property])}`;
+    el.append(value);
+  }
+  return el;
+}
+
+// MapLibre has no public way to collapse the compact credits, so press its own ⓘ button.
+function collapseOpenCredits(container: HTMLElement | null) {
+  const open = container?.querySelector(".maplibregl-compact-show");
+  open?.querySelector<HTMLElement>(".maplibregl-ctrl-attrib-button")?.click();
+}
+
 export function MapView({
   data,
   selectedId,
@@ -95,6 +125,8 @@ export function MapView({
   flyPaddingBottom = 0,
   topClearanceRef,
   showZoomButtons = false,
+  colorMode = "none",
+  collapseCreditsOnColor = false,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -102,10 +134,12 @@ export function MapView({
   onSelectRef.current = onSelectBlock;
   const onBackgroundClickRef = useRef(onBackgroundClick);
   onBackgroundClickRef.current = onBackgroundClick;
-  // Read by the one-shot load handler, so the source and highlight start from the latest
-  // data and selection even when either arrives before the style loads.
+  // Read by the one-shot load handler, so the source, colors, and highlight start from the
+  // latest data, mode, and selection even when any arrives before the style loads.
   const dataRef = useRef(data);
   dataRef.current = data;
+  const colorModeRef = useRef(colorMode);
+  colorModeRef.current = colorMode;
   const selectedIdRef = useRef(selectedId);
   selectedIdRef.current = selectedId;
 
@@ -151,7 +185,7 @@ export function MapView({
         paint: {
           // Small at low zoom to avoid clutter; an easy tap target once zoomed into an estate.
           "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 2, 14, 4, 16, 8, 17, 10],
-          "circle-color": "#2563eb",
+          "circle-color": circleColor(colorModeRef.current),
           "circle-stroke-width": 0.5,
           "circle-stroke-color": "#ffffff",
         },
@@ -215,14 +249,16 @@ export function MapView({
       closeButton: false,
       closeOnClick: false,
       className: "block-tooltip",
+      // MapLibre wraps popups at 240px by default; a long address plus its value runs past that.
+      maxWidth: "none",
     });
     map.on("mousemove", BLOCK_LAYERS, (e) => {
       if (!window.matchMedia("(hover: hover)").matches) return;
       const f = pickBlock(e.features ?? []);
       if (!f) return;
       map.getCanvas().style.cursor = "pointer";
-      const p = f.properties as { blk_no: string; street: string };
-      popup.setLngLat(e.lngLat).setText(`${p.blk_no} ${p.street}`).addTo(map);
+      const content = tooltipContent(f.properties as TooltipProps, colorModeRef.current);
+      popup.setLngLat(e.lngLat).setDOMContent(content).addTo(map);
     });
     map.on("mouseleave", BLOCK_LAYERS, () => {
       map.getCanvas().style.cursor = "";
@@ -248,18 +284,33 @@ export function MapView({
     // Mount-once: every reactive value is read through a ref.
   }, []);
 
-  // Bottom-left stays clear of the search box (top-left) and the desktop details panel
-  // (right edge).
+  // Bottom-left is the coloring legend's. MapLibre stacks a later-added bottom control on top,
+  // so this sits above the attribution ⓘ added at mount.
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !showZoomButtons) return;
     const nav = new maplibregl.NavigationControl({ showCompass: false });
-    map.addControl(nav, "bottom-left");
+    map.addControl(nav, "bottom-right");
     return () => {
       // On unmount the map is already removed, taking its controls with it.
       if (mapRef.current) map.removeControl(nav);
     };
   }, [showZoomButtons]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !map.getLayer("blocks-circles")) return;
+    map.setPaintProperty("blocks-circles", "circle-color", circleColor(colorMode));
+  }, [colorMode]);
+
+  useEffect(() => {
+    if (collapseCreditsOnColor && colorMode !== "none") collapseOpenCredits(containerRef.current);
+  }, [colorMode, collapseCreditsOnColor]);
+
+  // The details sheet or panel covers the credits' corner, so don't leave them open behind it.
+  useEffect(() => {
+    if (selectedId) collapseOpenCredits(containerRef.current);
+  }, [selectedId]);
 
   useEffect(() => {
     const src = mapRef.current?.getSource("blocks") as maplibregl.GeoJSONSource | undefined;

@@ -2,7 +2,7 @@ import { render } from "@testing-library/react";
 import { afterEach, expect, test, vi } from "vitest";
 
 // vi.mock is hoisted above the file body, so its collaborators must be hoisted too.
-const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
+const { handlers, map, popup, MapCtor, NavCtor } = vi.hoisted(() => {
   const handlers: Record<string, ((e?: unknown) => void)[]> = {};
   const map = {
     addControl: vi.fn(),
@@ -15,6 +15,7 @@ const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
     getSource: vi.fn().mockReturnValue({ setData: vi.fn() }),
     queryRenderedFeatures: vi.fn().mockReturnValue([]),
     setFilter: vi.fn(),
+    setPaintProperty: vi.fn(),
     setPadding: vi.fn(),
     setMinZoom: vi.fn(),
     cameraForBounds: vi.fn().mockReturnValue({ zoom: 10.2 }),
@@ -36,7 +37,13 @@ const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
     return map;
   });
   const NavCtor = vi.fn(function (_opts: Record<string, unknown>) {});
-  return { handlers, map, MapCtor, NavCtor };
+  const popup = {
+    setLngLat: vi.fn().mockReturnThis(),
+    setDOMContent: vi.fn().mockReturnThis(),
+    addTo: vi.fn(),
+    remove: vi.fn(),
+  };
+  return { handlers, map, popup, MapCtor, NavCtor };
 });
 
 // Named exports only, like maplibre-gl v6 (no default).
@@ -45,13 +52,14 @@ vi.mock("maplibre-gl", () => ({
   AttributionControl: vi.fn(function () {}),
   NavigationControl: NavCtor,
   Popup: vi.fn(function () {
-    return { setLngLat: () => ({ setText: () => ({ addTo: vi.fn() }) }), remove: vi.fn() };
+    return popup;
   }),
 }));
 vi.mock("maplibre-gl/dist/maplibre-gl.css", () => ({}));
 
 import { MapView } from "./MapView";
 import { sampleIndex } from "../test/fixtures";
+import { BLOCK_COLOR, circleColor } from "../lib/coloring";
 
 afterEach(() => {
   for (const k of Object.keys(handlers)) delete handlers[k];
@@ -93,7 +101,7 @@ test("adds compass-free zoom buttons only when asked", () => {
   );
   expect(NavCtor).toHaveBeenCalledWith({ showCompass: false });
   const nav = NavCtor.mock.instances[0];
-  expect(map.addControl).toHaveBeenCalledWith(nav, "bottom-left");
+  expect(map.addControl).toHaveBeenCalledWith(nav, "bottom-right");
 
   rerender(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
   expect(map.removeControl).toHaveBeenCalledWith(nav);
@@ -317,4 +325,124 @@ test("skips the camera glide when clearing a selection that left no padding", ()
     <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} flyPaddingBottom={0} />,
   );
   expect(map.easeTo).not.toHaveBeenCalled();
+});
+
+function addedLayer(id: string) {
+  const call = map.addLayer.mock.calls.find((c) => (c[0] as { id: string }).id === id);
+  return call?.[0] as { paint: Record<string, unknown> };
+}
+
+test("colors markers by the mode that is set when the map loads", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="year" />);
+  fire("load");
+  expect(addedLayer("blocks-circles").paint["circle-color"]).toEqual(circleColor("year"));
+});
+
+test("recolors markers when the mode changes", () => {
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
+  );
+  fire("load");
+  expect(addedLayer("blocks-circles").paint["circle-color"]).toBe(BLOCK_COLOR);
+
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="floors" />,
+  );
+  expect(map.setPaintProperty).toHaveBeenLastCalledWith(
+    "blocks-circles",
+    "circle-color",
+    circleColor("floors"),
+  );
+
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="none" />,
+  );
+  expect(map.setPaintProperty).toHaveBeenLastCalledWith(
+    "blocks-circles",
+    "circle-color",
+    BLOCK_COLOR,
+  );
+});
+
+test("leaves the paint alone until the block layer exists", () => {
+  map.getLayer.mockReturnValue(undefined);
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />,
+  );
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="year" />,
+  );
+  expect(map.setPaintProperty).not.toHaveBeenCalled();
+  map.getLayer.mockReturnValue({}); // restore for other tests
+});
+
+test("the selected block stays amber in every mode", () => {
+  const { rerender } = render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="year" />,
+  );
+  fire("load");
+  expect(addedLayer("blocks-highlight").paint["circle-color"]).toBe("#f59e0b");
+  rerender(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="floors" />,
+  );
+  const targets = map.setPaintProperty.mock.calls.map((c) => c[0]);
+  expect(targets).not.toContain("blocks-highlight");
+});
+
+// The attribution control is mocked, so stand in for the open credits MapLibre renders.
+function openCredits(container: HTMLElement) {
+  const credits = document.createElement("details");
+  credits.className = "maplibregl-ctrl-attrib maplibregl-compact maplibregl-compact-show";
+  const button = document.createElement("summary");
+  button.className = "maplibregl-ctrl-attrib-button";
+  const press = vi.fn(() => credits.classList.remove("maplibregl-compact-show"));
+  button.addEventListener("click", press);
+  credits.append(button);
+  container.firstElementChild!.append(credits);
+  return press;
+}
+
+test("collapses open credits when a mode turns on, if asked", () => {
+  const props = { data: sampleIndex, selectedId: null, onSelectBlock: vi.fn() };
+  const { container, rerender } = render(<MapView {...props} collapseCreditsOnColor />);
+  const press = openCredits(container);
+
+  rerender(<MapView {...props} collapseCreditsOnColor colorMode="none" />);
+  expect(press).not.toHaveBeenCalled();
+  rerender(<MapView {...props} colorMode="year" />);
+  expect(press).not.toHaveBeenCalled();
+  rerender(<MapView {...props} collapseCreditsOnColor colorMode="year" />);
+  expect(press).toHaveBeenCalledTimes(1);
+});
+
+test("collapses open credits when a block is selected", () => {
+  const props = { data: sampleIndex, onSelectBlock: vi.fn() };
+  const { container, rerender } = render(<MapView {...props} selectedId={null} />);
+  const press = openCredits(container);
+
+  rerender(<MapView {...props} selectedId={sampleIndex.features[0].properties.id} />);
+  expect(press).toHaveBeenCalledTimes(1);
+});
+
+// Hover a block on a hover-capable pointer and return the tooltip's parts.
+function hoverTooltip() {
+  const hover = vi.spyOn(window, "matchMedia").mockReturnValue({ matches: true } as MediaQueryList);
+  const { properties } = sampleIndex.features[0];
+  fire("mousemove", { lngLat: {}, features: [{ layer: { id: "blocks-circles" }, properties }] });
+  hover.mockRestore();
+  const content = popup.setDOMContent.mock.lastCall![0] as HTMLElement;
+  return [...content.childNodes].map((n) => n.textContent);
+}
+
+test("the tooltip shows only the address while coloring is off", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3"]);
+});
+
+test("the tooltip adds the colored value while a mode is on", () => {
+  const props = { data: sampleIndex, selectedId: null, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} colorMode="year" />);
+  expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3", " · 1978"]);
+  rerender(<MapView {...props} colorMode="floors" />);
+  expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3", " · 12 floors"]);
 });

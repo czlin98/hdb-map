@@ -1,0 +1,92 @@
+import { useMemo, type RefObject } from "react";
+import { XIcon } from "lucide-react";
+import { COLOR_SCALES, countBands } from "../lib/coloring";
+import { cn } from "../lib/utils";
+import { useColorMode } from "../store/color";
+import type { BlockFeature } from "../types/contract";
+
+interface Props {
+  features: BlockFeature[];
+  isDesktop: boolean;
+  // The legend unmounts with its own button, so focus moves here instead of being lost.
+  returnFocusRef?: RefObject<HTMLButtonElement | null>;
+}
+
+export function ColorLegend({ features, isDesktop, returnFocusRef }: Props) {
+  const mode = useColorMode((s) => s.mode);
+  const setMode = useColorMode((s) => s.setMode);
+  const scale = mode === "none" ? null : COLOR_SCALES[mode];
+  const counts = useMemo(() => (scale ? countBands(features, scale) : []), [features, scale]);
+  if (!scale) return null;
+
+  return (
+    // Inset from the corner like the search box (top-2 / md:left-2). index.css hides it by the
+    // color-legend class while the mobile credits are open.
+    <section
+      aria-label={`${scale.title} legend`}
+      className={cn(
+        "color-legend",
+        "bg-popover text-popover-foreground absolute bottom-2 left-2 z-20 rounded-md shadow-md",
+        isDesktop ? "p-4" : "px-3 py-2",
+      )}
+    >
+      {/* One color for the title and its x, so the x reads as part of the header. */}
+      <div
+        className={cn(
+          "text-muted-foreground flex items-center justify-between gap-3",
+          isDesktop ? "mb-3" : "mb-1.5",
+        )}
+      >
+        <p className="text-xs font-semibold tracking-wide uppercase">{scale.title}</p>
+        {/* The ::after pads the 14px icon to a 28px tap target without growing the row: on
+            mobile the peek sheet must stay taller than the legend. */}
+        <button
+          type="button"
+          aria-label="Turn off coloring"
+          onClick={() => {
+            setMode("none");
+            returnFocusRef?.current?.focus();
+          }}
+          className="hover:text-foreground focus-visible:ring-ring relative flex shrink-0 rounded-sm outline-hidden after:absolute after:-inset-[7px] focus-visible:ring-2"
+        >
+          <XIcon className="size-3.5" />
+        </button>
+      </div>
+      {isDesktop ? (
+        // Highest band on top, so up reads as newer or taller.
+        <ul className="min-w-48 space-y-2 text-sm">
+          {scale.bands
+            .map((band, i) => (
+              <li key={band.label} className="flex items-center gap-2.5">
+                <span
+                  aria-hidden
+                  className="size-3.5 shrink-0 rounded-full"
+                  style={{ backgroundColor: band.color }}
+                />
+                <span className="flex-1">{band.label}</span>
+                <span className="text-muted-foreground text-xs tabular-nums">
+                  {counts[i].toLocaleString()}
+                </span>
+              </li>
+            ))
+            .reverse()}
+        </ul>
+      ) : (
+        // Gapless, so the bands read as one light-to-dark ramp. Six 48px segments plus padding and
+        // insets need a 328px screen, so 320px phones get 44px.
+        <ul className="grid auto-cols-max grid-flow-col text-[11px]">
+          {scale.bands.map((band) => (
+            <li key={band.label} className="group flex flex-col items-center gap-1">
+              <span
+                aria-hidden
+                className="h-3 w-11 group-first:rounded-l-sm group-last:rounded-r-sm min-[360px]:w-12"
+                style={{ backgroundColor: band.color }}
+              />
+              <span className="text-muted-foreground leading-3 tabular-nums">{band.short}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}

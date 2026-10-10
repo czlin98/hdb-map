@@ -1,10 +1,11 @@
-# HDB Map: v1 Design Spec
+# HDB Map: Design Spec
 
-**Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1)
-**Status:** Implemented. This spec describes v1 as shipped. The plans in
-`docs/plans/` are the original execution record; each lists its later
-deviations under "Post-implementation deltas".
-**Scope:** v1 (core map + block details + search)
+**Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1; marker
+coloring added 2026-10-11)
+**Status:** Implemented. This spec describes the app as shipped. The plans in
+`docs/plans/` are the original execution record; the two v1 plans list their
+later deviations under "Post-implementation deltas".
+**Scope:** v1 (core map + block details + search), plus marker coloring (§5.10)
 
 ## 1. Overview
 
@@ -68,7 +69,10 @@ contract and can change internally without breaking the other.
   the **abbreviated** form is used for the hover tooltip. Search matches both.
 - Data: HDB Property Information + OneMap geocoding (lat, lon, postal).
 
-**Deferred (see §7):** marker coloring, filtering, basemap selector,
+**Added since v1:** marker coloring by year completed or number of floors
+(§5.10).
+
+**Deferred (see §7):** further coloring modes, filtering, basemap selector,
 resale prices & transactions, nearest MRT, nearby amenities, geocode-speed
 optimizations (persistent cache, token-bucket limiter), and an About page with
 the full data-licence notice.
@@ -241,8 +245,9 @@ vocabulary). The matched result's fields are captured as OneMap returns them
 - **Assert `town_slug` uniqueness** across towns, and **assert block `id`
   uniqueness** across all blocks (fail the run on any collision rather than
   silently overwriting a shard entry).
-- Write `app/public/data/index.geojson` (all blocks, light props), compact
-  with one block per line and coordinates rounded to 6 decimals (§4.1).
+- Write `app/public/data/index.geojson` (all blocks, light props plus the two
+  coloring values), compact with one block per line and coordinates rounded to
+  6 decimals (§4.1).
 - Write `app/public/data/block-details/{town_slug}.json` bucketed by town, using
   `town_slug` values from `towns.json`.
 - Copy `towns.json` into `app/public/data/`.
@@ -280,8 +285,8 @@ is independently readable, an accepted and well-compressing redundancy.
 
 One FeatureCollection, all blocks, loaded once on startup.
 
-At ~10k features the file is about **2.6 MB** as written, and its highly
-repetitive text reaches the browser as about **200 KB of brotli**, within the
+At ~10k features the file is about **2.9 MB** as written, and its highly
+repetitive text reaches the browser as about **220 KB of brotli**, within the
 sub-megabyte budget (§1.2). Two choices keep it there:
 
 - **Coordinates rounded to 6 decimals** (~11 cm).
@@ -292,8 +297,11 @@ sub-megabyte budget (§1.2). Two choices keep it there:
   smaller compressed, and would turn every monthly change into a whole-file
   git diff; one line per block keeps a changed block a one-line diff.
 
-Keeping the index light (no detail fields) is what protects that budget;
-detail lives in the shards.
+Keeping the index light is what protects that budget; detail lives in the
+shards. The one exception is the two numbers marker coloring needs for every
+block at once (§5.10), `year_completed` and `max_floor_lvl`. Coloring can't
+wait for lazily loaded shards, and the two short integers add only about an
+eighth to the compressed size.
 
 ```jsonc
 {
@@ -308,7 +316,9 @@ detail lives in the shards.
         "street": "ANG MO KIO AVE 3",       // abbreviated: hover tooltip + search
         "street_full": "ANG MO KIO AVENUE 3", // expanded: search only (panel reads from shard)
         "postal": "560123",
-        "town": "ANG MO KIO"
+        "town": "ANG MO KIO",
+        "year_completed": 1978,             // coloring only (§5.10); mirrors the shard
+        "max_floor_lvl": 12                 // coloring only (§5.10); mirrors the shard
       }
     }
   ]
@@ -317,8 +327,9 @@ detail lives in the shards.
 
 These props cover: marker geometry, the hover tooltip (`{blk_no} {street}`,
 abbreviated), substring search on the full address
-(`{blk_no} {street_full} {postal}`), and the `id` plus `town` that locate the
-detail shard. Those `street_full`/`postal` copies serve search only; the panel
+(`{blk_no} {street_full} {postal}`), the `id` plus `town` that locate the
+detail shard, and the two coloring values. Those `street_full`/`postal` copies
+serve search only, and the coloring values serve the map only; the panel
 reads its address fields from the **shard**, not the index. The `id` slug is
 derived from the **abbreviated** street, so it stays stable regardless of the
 abbreviation map. The client resolves the shard filename from `town` via
@@ -388,6 +399,8 @@ that town's shard the first time and caches it in memory, then returns
 ### 4.5 Invariants
 
 - `id` is unique and identical wherever it appears (index key ↔ detail key).
+- A block's `year_completed` and `max_floor_lvl` are the same in the index and
+  its shard record.
 - Every block has numeric coordinates, and a `year_completed`,
   `max_floor_lvl`, and `total_dwelling_units` above zero; blocks without them
   are left out of the output and recorded (§3.2, §3.3).
@@ -416,6 +429,8 @@ writes nothing, so the date always belongs to the data that is live. It is the
 App                     // loads index + towns.json once; hosts layout
 ├─ MapView              // MapLibre GL: basemap + markers + hover + click
 ├─ SearchBox            // Shadcn combobox over the in-memory index
+├─ ColorControl         // "Color" button beside the search box: coloring mode menu
+├─ ColorLegend          // bottom-left legend, shown while a coloring mode is on
 └─ DetailsPanel         // Drawer (mobile bottom sheet) / side panel (desktop)
 ```
 
@@ -428,6 +443,10 @@ written when the user clicks a map marker or picks a search result, and read by
 MapView (highlight/fly) and DetailsPanel (load detail). Zustand avoids context
 re-render churn on the map. (Plain Context is an acceptable no-dependency
 alternative.)
+
+The **coloring mode** (none, year, or floors) is shared state too, read by
+MapView, ColorControl, ColorLegend, and DetailsPanel, and lives in a small
+Zustand store of its own. It is not persisted (§5.10).
 
 ### 5.3 Data loading (`lib/`)
 
@@ -451,13 +470,16 @@ alternative.)
 - **North-up and flat.** Rotation and pitch are disabled for mouse, touch, and
   keyboard: they add nothing to flat markers, and an accidental twist would
   need a compass to undo.
-- **Zoom buttons** (desktop only) sit bottom-left, clear of the search box and
-  the side panel. Touch users pinch.
+- **Zoom buttons** (desktop only) sit bottom-right, stacked above the
+  attribution ⓘ, leaving the bottom-left corner to the coloring legend
+  (§5.10). Touch users pinch. The open details panel covers both controls;
+  wheel, trackpad, double-click, and keyboard zoom keep working meanwhile.
 - **Source:** GeoJSON from the index, `cluster: false`.
 - **`blocks-circles`** layer: circle marks, radius interpolated by zoom (small
-  at low zoom, a 10 px radius at zoom 17 for an easy tap target), single
-  fixed color in v1 (coloring deferred), subtle stroke for separation. 10k
-  points render on the GPU without clustering.
+  at low zoom, a 10 px radius at zoom 17 for an easy tap target), subtle
+  stroke for separation. One fixed color while coloring is off; a coloring
+  mode swaps in a data-driven color (§5.10). 10k points render on the GPU
+  without clustering.
 - **`blocks-highlight`** layer: filtered to `selectedId`, larger and amber so
   the chosen block stands out.
 - **Block labels** (`blocks-labels`, `blocks-highlight-label`): from zoom 16,
@@ -467,7 +489,10 @@ alternative.)
 - **Interactions:**
   - `mousemove` over a dot or label → address tooltip (`{blk_no} {street}`,
     **abbreviated**); `mouseleave` → hide, gated to hover-capable pointers
-    (skipped on touch).
+    (skipped on touch). While a coloring mode is on, the block's exact value
+    for that mode follows the address on the same line (§5.10): the legend
+    only shows its band. It stays on one line, with short wording, so the
+    tooltip covers as little of the map as it can.
   - dot or label tap/click → set selection → panel opens, or **swaps in place**
     to the new block if a panel is already open. Where a label overlaps
     another block's dot, the dot wins.
@@ -488,6 +513,10 @@ alternative.)
   then town, year completed, floors, total units, and the units-by-flat-type
   breakdown as a **Sold** group and, when present, a **Rental** group. One
   source, no split between index and shard.
+- While a coloring mode is on, the row for that value (year completed or
+  floors) shows its band's color swatch. On mobile the open sheet covers the
+  legend (§5.10), so the swatch is how the selected block's band stays
+  readable.
 - A loading skeleton fills the **whole card, including the header**, while the
   town's shard fetches. This happens only for the first block opened in a town,
   and is near-instant once that shard is cached in memory. Graceful empty state
@@ -533,7 +562,8 @@ alternative.)
 ### 5.6 Search (SearchBox)
 
 - Shadcn combobox (cmdk), **client-side and instant**, over the in-memory
-  index. Centered at the top on mobile, top-left on desktop.
+  index. Centered at the top on mobile, top-left on desktop, with the coloring
+  control beside it in both (§5.10); on mobile the box narrows to make room.
 - **Normalized, ranked substring matching** (not fuzzy). Query and index are
   uppercased, apostrophes dropped (`GEORGE'S` matches `GEORGES`), and other
   punctuation split into words. Each row's search text covers block + full
@@ -582,6 +612,10 @@ one standard control:
 - **Block data and geocoding:** "© HDB, OneMap/SLA", attached as custom
   attribution on the blocks source.
 
+They also collapse when a block is selected, since the details sheet or panel
+covers their corner, and on a phone when a coloring mode turns on, since there
+the expanded credits span the screen's width (§5.10).
+
 **Open question:** the Singapore Open Data Licence v1.0 asks for a
 conspicuous notice naming the dataset, its access date and source, and
 linking the licence ("Contains information from {dataset} accessed on {date}
@@ -597,11 +631,69 @@ room for it; it is deferred, with its design in §7.8.
 v1 keeps one structural hook for later work: `blocks-highlight` (and its
 label) are separate layers from `blocks-circles`, so a future filter on
 `blocks-circles` (§7.2) can never hide a searched block. There is no explicit
-`colorBy` or `filter` slot; marker coloring (§7.1) replaces the fixed
-`circle-color` with a data-driven expression, and filtering sets a filter on
-`blocks-circles` and `blocks-labels`. `blocks-labels` already filters out the
-selected block (its label is drawn by `blocks-highlight-label`), so a future
-filter must be combined with that condition, not replace it.
+`filter` slot; filtering sets a filter on `blocks-circles` and
+`blocks-labels`. `blocks-labels` already filters out the selected block (its
+label is drawn by `blocks-highlight-label`), so a future filter must be
+combined with that condition, not replace it.
+
+### 5.10 Marker coloring
+
+Colors every block by one value at a time, so island-wide patterns (where the
+old estates are, where the tall blocks cluster) show at a glance.
+
+- **Modes:** no coloring, **year completed**, or **floors**
+  (`max_floor_lvl`). Every visit starts with no coloring, and the choice is
+  not remembered between visits: picking a mode again is two taps, which
+  didn't justify the storage handling.
+- **Stepped bands, not a continuous gradient,** so each dot reads as one
+  legend entry. Six bands per mode, about as many steps as a sequential ramp
+  keeps distinguishable on small dots. The exact edges live in the code; the
+  rules behind them:
+  - **Year** uses decades, the unit people already describe estates by, so
+    each step of color is the same span of time. The old end is merged into
+    one "before 1980" band, and the newest end is split into the 2010s and
+    "2020 and later", because the newest blocks matter to more users than the
+    split between the very oldest. The open-ended top band grows with each
+    monthly refresh, so the bands need a review when the 2030s start.
+  - **Floors** has edges at the data's natural breaks. Block heights cluster
+    at a few standard values, so each common height sits at the top of its
+    band and none is split across two. The tallest towers get their own top
+    band so they stand out.
+- **Palette:** ColorBrewer sequential ramps, yellow-green-blue for year and
+  blue-purple for floors, light to dark meaning older to newer and lower to
+  taller. The hard constraint is that no band may resemble the amber selected
+  marker. Bands resembling the plain blue used while coloring is off are fine,
+  since the active mode is always shown. Known weakness: each ramp's lightest
+  band has low contrast against the Positron land color at island zoom (§7.1).
+- **Rendering:** the mode swaps the fixed `circle-color` on `blocks-circles`
+  for a step expression over the index's `year_completed` or `max_floor_lvl`
+  (§4.1). Highlight and label layers are unchanged, so the selected block
+  stays amber in every mode.
+- **Picker (ColorControl):** a "Color" button beside the search box opens a
+  menu: No coloring, Year completed, Floors. On desktop the button names the
+  active mode ("Color: Year"); on mobile it is a square icon button with a
+  small dot while a mode is on. It sits at the top, not in the legend, because
+  later modes (resale price with its own options, distance to MRT; §7.1) won't
+  fit a small card, while a menu can grow.
+- **Legend (ColorLegend):** in the bottom-left corner, inset like the search
+  box, and shown only while a mode is on.
+  - Desktop: a card titled by the mode, listing the bands with the highest on
+    top (so up reads as newer or taller), each with its block count.
+  - Mobile: a compact ramp under the mode's title, the bands joined light to
+    dark from left to right, with short labels and no counts. The title
+    matters most here, since the mobile button shows only a dot. It is sized
+    to its content rather than a fixed width, so it leaves room on narrow
+    phones. The details sheet covers it, even at its peek height, and
+    uncovers it as it closes (§5.5 covers the selected block's band).
+  - Not collapsible: turning coloring off removes it, and a colored map
+    without its key is hard to read. A × at the end of its title row turns
+    coloring off in one tap (the menu's "No coloring" takes two), and focus
+    moves to the Color button. It fits in the title line, so the legend
+    stays shorter than the mobile sheet's peek height.
+  - Sharing the bottom edge with the credits (mobile): turning on a mode
+    collapses the expanded credits to the ⓘ (§5.8), and the legend hides
+    while the user has them open. Desktop is wide enough for both.
+- **Counts** are computed in the browser from the loaded index, once per mode.
 
 ## 6. Deployment & CI
 
@@ -652,16 +744,22 @@ filter must be combined with that condition, not replace it.
 Ordered roughly by how they build on v1. Each is its own spec → plan →
 implementation cycle.
 
-### 7.1 Marker coloring
+### 7.1 Marker coloring: later modes and refinements
 
-- Add a coloring selector that swaps `blocks-circles`' fixed `circle-color`
-  for a data-driven expression (§5.9).
-- First dimensions (Property Information only): **year completed**, **number of
-  floors**.
-- Later dimensions depend on deferred data: **median resale price**, **distance
-  to MRT**.
-- A "no data" state must be visually distinct from "low value" so an uncolored
-  block never reads as cheap/near.
+Coloring by year completed and floors shipped (§5.10). Still to come:
+
+- **More modes** once their data exists: **median resale price** (§7.4) and
+  **distance to MRT** (§7.5), each a new entry in the coloring menu.
+- A **"no data" state** visually distinct from "low value", so an uncolored
+  block never reads as cheap or near. Year and floors don't need one, since
+  the pipeline guarantees every block has both (§4.5); price and MRT distance
+  will.
+- **Refinements deferred on purpose**, to revisit after real use:
+  - the palettes, starting with the low-contrast lightest band, and the band
+    edges;
+  - a collapsible legend, if the mobile strip proves to get in the way;
+  - sliding the desktop zoom buttons and ⓘ left with the open details panel,
+    so they stay visible and usable instead of being covered.
 
 ### 7.2 Filtering
 
@@ -686,7 +784,7 @@ implementation cycle.
   any active coloring or filter, on the `styledata` event after the new style
   loads; that re-application is the real work, not the dropdown. The label
   layers also depend on the style's glyphs serving `Noto Sans Regular`/`Bold`.
-- **Couples with coloring (§7.1):** busier basemaps reduce marker-color
+- **Couples with coloring (§5.10):** busier basemaps reduce marker-color
   legibility, so neutral styles remain preferred while a coloring mode is
   active.
 - **Free-tier boundary:** stays within OpenFreeMap. Satellite/aerial imagery

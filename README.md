@@ -2,13 +2,14 @@
 
 A mobile-first, interactive web map of Singapore's ~10,000 residential HDB blocks. Every block is an
 individually rendered marker (no clustering). Hover (desktop) to see a block's address, tap/click to
-open its details, and search by address to fly to a specific block.
+open its details, search by address to fly to a specific block, and color the blocks by year
+completed or number of floors.
 
 **Live:** [hdb-map.vercel.app](https://hdb-map.vercel.app)
 
-> **Status:** v1 is live. Block data refreshes automatically on the 1st of each month. The
-> [design spec](docs/specs/hdb-map-v1-design.md) describes v1 as shipped, and lists the planned next
-> iterations (marker coloring, filters, resale prices, and more).
+> **Status:** v1 is live, plus marker coloring. Block data refreshes automatically on the 1st of
+> each month. The [design spec](docs/specs/hdb-map-design.md) describes the app as shipped, and
+> lists the planned next iterations (more coloring modes, filters, resale prices, and more).
 
 ## How it works
 
@@ -47,8 +48,8 @@ hdb-map/
 ├─ pipeline/            # Python data pipeline (fetch → geocode → transform → export)
 ├─ .github/workflows/   # pipeline.yml (monthly cron) + ci.yml (lint/typecheck/test)
 └─ docs/
-   ├─ specs/            # v1 design spec
-   └─ plans/            # frontend + pipeline implementation plans
+   ├─ specs/            # design spec
+   └─ plans/            # implementation plans
 ```
 
 ## Running locally
@@ -75,10 +76,12 @@ repository secrets. See [`CLAUDE.md`](CLAUDE.md) for the full command list.
 
 ## Documentation
 
-- [v1 Design Spec](docs/specs/hdb-map-v1-design.md): the authoritative description of v1 as shipped
+- [Design Spec](docs/specs/hdb-map-design.md): the authoritative description of the app as shipped
 - [Frontend Implementation Plan](docs/plans/hdb-map-frontend.md) and
   [Data Pipeline Implementation Plan](docs/plans/hdb-map-pipeline.md): the original task-by-task
   build record, each with a "Post-implementation deltas" section for later changes
+- [Marker Coloring Implementation Plan](docs/plans/hdb-map-marker-coloring.md): the task-by-task
+  build record for marker coloring
 
 ## Data & attribution
 

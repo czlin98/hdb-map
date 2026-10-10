@@ -21,7 +21,7 @@ plan) consumes them.
 **Tech Stack:** Python 3.14, `requests` (runtime); `pytest`, `responses`, `ruff`
 (dev). GitHub Actions for the monthly cron + CI.
 
-**Spec:** `docs/specs/hdb-map-v1-design.md`. The plan argues from
+**Spec:** `docs/specs/hdb-map-design.md`. The plan argues from
 the spec; executors read both. This plan covers only the **pipeline half**
 (`pipeline/` + the pipeline portions of `.github/workflows/`). The frontend
 (`app/`) is a separate plan.

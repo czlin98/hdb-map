@@ -3,8 +3,11 @@ import type { IndexFeatureCollection, Town } from "./types/contract";
 import { buildTownSlugMap, createGetBlockDetail, loadIndex, loadTowns } from "./lib/data";
 import { buildSearchIndex } from "./lib/search";
 import { useSelection } from "./store/selection";
+import { useColorMode } from "./store/color";
 import { MapView } from "./components/MapView";
 import { SearchBox } from "./components/SearchBox";
+import { ColorControl } from "./components/ColorControl";
+import { ColorLegend } from "./components/ColorLegend";
 import { DetailsPanel, type DetailsPanelHandle } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
@@ -34,9 +37,11 @@ export default function App() {
   const [panelOpen, setPanelOpen] = useState(false);
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
+  const colorButtonRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<DetailsPanelHandle>(null);
 
   const { selectedId, selectedTown, select, clear } = useSelection();
+  const colorMode = useColorMode((s) => s.mode);
 
   // Opening in the same handler as the selection (not an effect) means the panel's first
   // render already sees open=true and never flashes a close.
@@ -88,17 +93,32 @@ export default function App() {
         flyPaddingBottom={flyPaddingBottom}
         topClearanceRef={isDesktop ? undefined : searchInputRef}
         showZoomButtons={isDesktop}
+        colorMode={colorMode}
+        collapseCreditsOnColor={!isDesktop}
       />
 
       {status !== "error" && (
-        <div className="absolute z-30 w-[min(92vw,22rem)] top-2 left-1/2 -translate-x-1/2 md:left-2 md:translate-x-0">
-          <SearchBox
-            rows={searchRows}
-            onSelect={(r) => openBlock(r.id, r.town)}
-            onDismiss={() => panelRef.current?.close()}
-            inputRef={searchInputRef}
-          />
+        <div className="absolute top-2 left-1/2 z-30 flex w-[min(92vw,22rem)] -translate-x-1/2 items-start gap-2 md:left-2 md:w-auto md:translate-x-0">
+          {/* min-w-0 lets the search shrink below its content width, so the button fits. */}
+          <div className="min-w-0 flex-1 md:w-[22rem] md:flex-none">
+            <SearchBox
+              rows={searchRows}
+              onSelect={(r) => openBlock(r.id, r.town)}
+              onDismiss={() => panelRef.current?.close()}
+              inputRef={searchInputRef}
+            />
+          </div>
+          <ColorControl compact={!isDesktop} triggerRef={colorButtonRef} />
         </div>
+      )}
+
+      {/* Stays mounted under the mobile sheet: even the peek snap is taller than the legend. */}
+      {status === "ready" && (
+        <ColorLegend
+          features={index.features}
+          isDesktop={isDesktop}
+          returnFocusRef={colorButtonRef}
+        />
       )}
 
       {status === "error" && (

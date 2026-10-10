@@ -62,7 +62,7 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
       shouldFilter={false}
       value={active}
       onValueChange={setActive}
-      className="w-full"
+      className="w-full shadow-md"
     >
       <CommandInput
         ref={inputRef}

@@ -14,7 +14,16 @@ function feature(
   return {
     type: "Feature",
     geometry: { type: "Point", coordinates: [103.8, 1.35] },
-    properties: { id, blk_no, street, street_full, postal, town: "TEST" },
+    properties: {
+      id,
+      blk_no,
+      street,
+      street_full,
+      postal,
+      town: "TEST",
+      year_completed: 1980,
+      max_floor_lvl: 12,
+    },
   };
 }
 
