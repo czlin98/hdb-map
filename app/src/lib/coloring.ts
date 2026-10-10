@@ -18,6 +18,8 @@ export interface ColorScale {
   // matching MapLibre's `step`.
   edges: number[];
   bands: Band[];
+  // The value as the hover tooltip shows it, after the address.
+  describe: (value: number) => string;
 }
 
 export const BLOCK_COLOR = "#2563eb";
@@ -38,6 +40,7 @@ export const COLOR_SCALES: Record<ScaleMode, ColorScale> = {
       { label: "2010s", short: "10s", color: "#225ea8" },
       { label: "2020 and later", short: "20s+", color: "#0c2c84" },
     ],
+    describe: (year) => `${year}`,
   },
   floors: {
     property: "max_floor_lvl",
@@ -53,6 +56,8 @@ export const COLOR_SCALES: Record<ScaleMode, ColorScale> = {
       { label: "26 to 39", short: "26–39", color: "#88419d" },
       { label: "40 and up", short: "40+", color: "#6e016b" },
     ],
+    // The unit keeps a bare count from reading as part of the block number.
+    describe: (floors) => `${floors} floors`,
   },
 };
 

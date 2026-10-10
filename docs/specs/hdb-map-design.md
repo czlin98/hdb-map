@@ -489,7 +489,10 @@ Zustand store of its own. It is not persisted (§5.10).
 - **Interactions:**
   - `mousemove` over a dot or label → address tooltip (`{blk_no} {street}`,
     **abbreviated**); `mouseleave` → hide, gated to hover-capable pointers
-    (skipped on touch).
+    (skipped on touch). While a coloring mode is on, the block's exact value
+    for that mode follows the address on the same line (§5.10): the legend
+    only shows its band. It stays on one line, with short wording, so the
+    tooltip covers as little of the map as it can.
   - dot or label tap/click → set selection → panel opens, or **swaps in place**
     to the new block if a panel is already open. Where a label overlaps
     another block's dot, the dot wins.

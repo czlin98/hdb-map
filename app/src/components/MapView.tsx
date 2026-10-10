@@ -4,7 +4,7 @@ import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection } from "../types/contract";
-import { circleColor, type ColorMode } from "../lib/coloring";
+import { circleColor, COLOR_SCALES, type ColorMode } from "../lib/coloring";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Island view: drives the initial fit and the zoom floor. Centered on the main island's
@@ -89,6 +89,26 @@ function labelLayout(radius: [number, number]) {
     ],
     "text-justify": "auto",
   } satisfies maplibregl.SymbolLayerSpecification["layout"];
+}
+
+type TooltipProps = Pick<
+  IndexFeatureCollection["features"][number]["properties"],
+  "blk_no" | "street" | "year_completed" | "max_floor_lvl"
+>;
+
+// The address, followed by the colored value while a mode is on. Built from DOM nodes rather
+// than setHTML, so block data is never parsed as markup.
+function tooltipContent(p: TooltipProps, mode: ColorMode) {
+  const el = document.createElement("div");
+  el.append(`${p.blk_no} ${p.street}`);
+  if (mode !== "none") {
+    const scale = COLOR_SCALES[mode];
+    const value = document.createElement("span");
+    value.className = "text-muted-foreground";
+    value.textContent = ` · ${scale.describe(p[scale.property])}`;
+    el.append(value);
+  }
+  return el;
 }
 
 // MapLibre has no public way to collapse the compact credits, so press its own ⓘ button.
@@ -229,14 +249,16 @@ export function MapView({
       closeButton: false,
       closeOnClick: false,
       className: "block-tooltip",
+      // MapLibre wraps popups at 240px by default; a long address plus its value runs past that.
+      maxWidth: "none",
     });
     map.on("mousemove", BLOCK_LAYERS, (e) => {
       if (!window.matchMedia("(hover: hover)").matches) return;
       const f = pickBlock(e.features ?? []);
       if (!f) return;
       map.getCanvas().style.cursor = "pointer";
-      const p = f.properties as { blk_no: string; street: string };
-      popup.setLngLat(e.lngLat).setText(`${p.blk_no} ${p.street}`).addTo(map);
+      const content = tooltipContent(f.properties as TooltipProps, colorModeRef.current);
+      popup.setLngLat(e.lngLat).setDOMContent(content).addTo(map);
     });
     map.on("mouseleave", BLOCK_LAYERS, () => {
       map.getCanvas().style.cursor = "";

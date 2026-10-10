@@ -2,7 +2,7 @@ import { render } from "@testing-library/react";
 import { afterEach, expect, test, vi } from "vitest";
 
 // vi.mock is hoisted above the file body, so its collaborators must be hoisted too.
-const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
+const { handlers, map, popup, MapCtor, NavCtor } = vi.hoisted(() => {
   const handlers: Record<string, ((e?: unknown) => void)[]> = {};
   const map = {
     addControl: vi.fn(),
@@ -37,7 +37,13 @@ const { handlers, map, MapCtor, NavCtor } = vi.hoisted(() => {
     return map;
   });
   const NavCtor = vi.fn(function (_opts: Record<string, unknown>) {});
-  return { handlers, map, MapCtor, NavCtor };
+  const popup = {
+    setLngLat: vi.fn().mockReturnThis(),
+    setDOMContent: vi.fn().mockReturnThis(),
+    addTo: vi.fn(),
+    remove: vi.fn(),
+  };
+  return { handlers, map, popup, MapCtor, NavCtor };
 });
 
 // Named exports only, like maplibre-gl v6 (no default).
@@ -46,7 +52,7 @@ vi.mock("maplibre-gl", () => ({
   AttributionControl: vi.fn(function () {}),
   NavigationControl: NavCtor,
   Popup: vi.fn(function () {
-    return { setLngLat: () => ({ setText: () => ({ addTo: vi.fn() }) }), remove: vi.fn() };
+    return popup;
   }),
 }));
 vi.mock("maplibre-gl/dist/maplibre-gl.css", () => ({}));
@@ -416,4 +422,27 @@ test("collapses open credits when a block is selected", () => {
 
   rerender(<MapView {...props} selectedId={sampleIndex.features[0].properties.id} />);
   expect(press).toHaveBeenCalledTimes(1);
+});
+
+// Hover a block on a hover-capable pointer and return the tooltip's parts.
+function hoverTooltip() {
+  const hover = vi.spyOn(window, "matchMedia").mockReturnValue({ matches: true } as MediaQueryList);
+  const { properties } = sampleIndex.features[0];
+  fire("mousemove", { lngLat: {}, features: [{ layer: { id: "blocks-circles" }, properties }] });
+  hover.mockRestore();
+  const content = popup.setDOMContent.mock.lastCall![0] as HTMLElement;
+  return [...content.childNodes].map((n) => n.textContent);
+}
+
+test("the tooltip shows only the address while coloring is off", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3"]);
+});
+
+test("the tooltip adds the colored value while a mode is on", () => {
+  const props = { data: sampleIndex, selectedId: null, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} colorMode="year" />);
+  expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3", " · 1978"]);
+  rerender(<MapView {...props} colorMode="floors" />);
+  expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3", " · 12 floors"]);
 });
