@@ -1,5 +1,9 @@
 # HDB Map: Marker Coloring Implementation Plan
 
+**Status:** Implemented. This plan is the original execution record. The final
+pass changed some details (legend, credits, hover tooltip); spec §5.10
+describes the behavior as built.
+
 **Goal:** Let the user color every block marker by year completed or by floors,
 with a "Color" menu beside the search box, a legend in the bottom-left corner,
 and the selected block's band shown in the details panel.

@@ -148,8 +148,9 @@ Form:
 ## Docs
 
 `docs/specs/hdb-map-design.md` (design spec) is the authoritative description of current behavior
-and its design decisions. `docs/plans/` (frontend + pipeline implementation plans) is the frozen
-record of how v1 was built; each plan's "Post-implementation deltas" section is closed.
+and its design decisions. `docs/plans/` holds the frozen implementation plans: frontend and pipeline
+for v1, whose "Post-implementation deltas" sections are closed, and one per later feature (marker
+coloring). Where a plan and the spec disagree, the spec is right.
 
 - **Keep the spec in sync.** When a change alters behavior the spec describes, update the spec in
   the same PR. Don't add new deltas to the plans.

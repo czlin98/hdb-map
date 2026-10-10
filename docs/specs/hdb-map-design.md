@@ -3,8 +3,8 @@
 **Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1; marker
 coloring added 2026-10-11)
 **Status:** Implemented. This spec describes the app as shipped. The plans in
-`docs/plans/` are the original execution record; each lists its later
-deviations under "Post-implementation deltas".
+`docs/plans/` are the original execution record; the two v1 plans list their
+later deviations under "Post-implementation deltas".
 **Scope:** v1 (core map + block details + search), plus marker coloring (§5.10)
 
 ## 1. Overview

@@ -48,8 +48,8 @@ hdb-map/
 ├─ pipeline/            # Python data pipeline (fetch → geocode → transform → export)
 ├─ .github/workflows/   # pipeline.yml (monthly cron) + ci.yml (lint/typecheck/test)
 └─ docs/
-   ├─ specs/            # v1 design spec
-   └─ plans/            # frontend + pipeline implementation plans
+   ├─ specs/            # design spec
+   └─ plans/            # implementation plans
 ```
 
 ## Running locally
@@ -80,6 +80,8 @@ repository secrets. See [`CLAUDE.md`](CLAUDE.md) for the full command list.
 - [Frontend Implementation Plan](docs/plans/hdb-map-frontend.md) and
   [Data Pipeline Implementation Plan](docs/plans/hdb-map-pipeline.md): the original task-by-task
   build record, each with a "Post-implementation deltas" section for later changes
+- [Marker Coloring Implementation Plan](docs/plans/hdb-map-marker-coloring.md): the task-by-task
+  build record for marker coloring
 
 ## Data & attribution
 
