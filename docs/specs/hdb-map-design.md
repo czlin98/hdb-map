@@ -1,7 +1,7 @@
 # HDB Map: Design Spec
 
 **Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1; marker
-coloring added 2026-10-07)
+coloring added 2026-10-11)
 **Status:** Implemented. This spec describes the app as shipped. The plans in
 `docs/plans/` are the original execution record; each lists its later
 deviations under "Post-implementation deltas".
