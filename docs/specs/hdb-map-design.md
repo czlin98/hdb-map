@@ -6,6 +6,7 @@ coloring added 2026-10-11)
 `docs/plans/` are the original execution record; the two v1 plans list their
 later deviations under "Post-implementation deltas".
 **Scope:** v1 (core map + block details + search), plus marker coloring (§5.10)
+and filtering (§5.11)
 
 ## 1. Overview
 
@@ -70,9 +71,10 @@ contract and can change internally without breaking the other.
 - Data: HDB Property Information + OneMap geocoding (lat, lon, postal).
 
 **Added since v1:** marker coloring by year completed or number of floors
-(§5.10).
+(§5.10), and filtering by town, year completed, and floors (§5.11).
 
-**Deferred (see §7):** further coloring modes, filtering, basemap selector,
+**Deferred (see §7):** further coloring modes, the flat-type filter, a
+collapsible sidebar, basemap selector,
 resale prices & transactions, nearest MRT, nearby amenities, geocode-speed
 optimizations (persistent cache, token-bucket limiter), and an About page with
 the full data-licence notice.
@@ -301,7 +303,8 @@ Keeping the index light is what protects that budget; detail lives in the
 shards. The one exception is the two numbers marker coloring needs for every
 block at once (§5.10), `year_completed` and `max_floor_lvl`. Coloring can't
 wait for lazily loaded shards, and the two short integers add only about an
-eighth to the compressed size.
+eighth to the compressed size. Filtering (§5.11) reads the same two values,
+plus `town`.
 
 ```jsonc
 {
@@ -317,8 +320,8 @@ eighth to the compressed size.
         "street_full": "ANG MO KIO AVENUE 3", // expanded: search only (panel reads from shard)
         "postal": "560123",
         "town": "ANG MO KIO",
-        "year_completed": 1978,             // coloring only (§5.10); mirrors the shard
-        "max_floor_lvl": 12                 // coloring only (§5.10); mirrors the shard
+        "year_completed": 1978,             // coloring + filtering (§5.10, §5.11); mirrors the shard
+        "max_floor_lvl": 12                 // coloring + filtering (§5.10, §5.11); mirrors the shard
       }
     }
   ]
@@ -329,7 +332,8 @@ These props cover: marker geometry, the hover tooltip (`{blk_no} {street}`,
 abbreviated), substring search on the full address
 (`{blk_no} {street_full} {postal}`), the `id` plus `town` that locate the
 detail shard, and the two coloring values. Those `street_full`/`postal` copies
-serve search only, and the coloring values serve the map only; the panel
+serve search only, and the coloring values serve the map, its legend, and
+the filters only; the panel
 reads its address fields from the **shard**, not the index. The `id` slug is
 derived from the **abbreviated** street, so it stays stable regardless of the
 abbreviation map. The client resolves the shard filename from `town` via
@@ -340,7 +344,7 @@ abbreviation map. The client resolves the shard filename from `town` via
 Canonical `pipeline/towns.json`, mirrored to `app/public/data/towns.json`. **27
 entries**, well under 1 KB. Single source of truth for the town, consumed by
 both the pipeline (decode, naming, validation) and the client (`town_slug`
-lookup, plus the future town filter's vocabulary). Each row is
+lookup, plus the town filter's list, §5.11). Each row is
 `{ town, town_slug, town_code }` where `town` and `town_code` are HDB's and
 `town_slug` = `town` lowercased with spaces/slashes → hyphens. The full 27-row
 table seeds `pipeline/towns.json` in the pipeline plan
@@ -429,7 +433,9 @@ writes nothing, so the date always belongs to the data that is live. It is the
 App                     // loads index + towns.json once; hosts layout
 ├─ MapView              // MapLibre GL: basemap + markers + hover + click
 ├─ SearchBox            // Shadcn combobox over the in-memory index
-├─ ColorControl         // "Color" button beside the search box: coloring mode menu
+├─ FiltersControl       // desktop: "Filters" button under the search box + its panel
+├─ ColorControl         // desktop: "Color" button beside it: coloring mode menu
+├─ MapOptionsControl    // mobile: one button beside the search box + a sheet with both
 ├─ ColorLegend          // bottom-left legend, shown while a coloring mode is on
 └─ DetailsPanel         // Drawer (mobile bottom sheet) / side panel (desktop)
 ```
@@ -447,6 +453,10 @@ alternative.)
 The **coloring mode** (none, year, or floors) is shared state too, read by
 MapView, ColorControl, ColorLegend, and DetailsPanel, and lives in a small
 Zustand store of its own. It is not persisted (§5.10).
+
+The **filters** (towns, year range, floor range) live in a third small
+store, read by MapView, the filter controls, and ColorLegend. They are not
+persisted either (§5.11).
 
 ### 5.3 Data loading (`lib/`)
 
@@ -479,7 +489,8 @@ Zustand store of its own. It is not persisted (§5.10).
   at low zoom, a 10 px radius at zoom 17 for an easy tap target), subtle
   stroke for separation. One fixed color while coloring is off; a coloring
   mode swaps in a data-driven color (§5.10). 10k points render on the GPU
-  without clustering.
+  without clustering. Active filters hide the blocks that don't match
+  (§5.11).
 - **`blocks-highlight`** layer: filtered to `selectedId`, larger and amber so
   the chosen block stands out.
 - **Block labels** (`blocks-labels`, `blocks-highlight-label`): from zoom 16,
@@ -547,7 +558,8 @@ Zustand store of its own. It is not persisted (§5.10).
 - **Dismiss clears selection.** Closing the panel (close button / ESC /
   empty-map tap on both platforms, or swiping below **peek** on mobile) plays
   the close animation, then resets the selection in the store, which drops the
-  `blocks-highlight` marker and eases the map padding back to zero.
+  `blocks-highlight` marker and eases the map padding back to zero. On
+  mobile, opening the options sheet closes the panel the same way (§5.11).
 - **Swap in place on marker change.** Tapping another marker while the panel is
   open updates the selection and the panel **re-renders to that block**, with a
   fresh skeleton only when the new town's shard isn't yet cached. This is an
@@ -562,8 +574,11 @@ Zustand store of its own. It is not persisted (§5.10).
 ### 5.6 Search (SearchBox)
 
 - Shadcn combobox (cmdk), **client-side and instant**, over the in-memory
-  index. Centered at the top on mobile, top-left on desktop, with the coloring
-  control beside it in both (§5.10); on mobile the box narrows to make room.
+  index. Centered at the top on mobile, top-left on desktop. On desktop the
+  Filters and Color buttons sit in a row beneath it; on mobile one options
+  button sits beside it and the box narrows to make room (§5.11).
+- Search ignores the filters: every block is always findable, and picking
+  one that the filters hide still opens and highlights it (§5.11).
 - **Normalized, ranked substring matching** (not fuzzy). Query and index are
   uppercased, apostrophes dropped (`GEORGE'S` matches `GEORGES`), and other
   punctuation split into words. Each row's search text covers block + full
@@ -628,13 +643,13 @@ room for it; it is deferred, with its design in §7.8.
 
 ### 5.9 Extension points
 
-v1 keeps one structural hook for later work: `blocks-highlight` (and its
-label) are separate layers from `blocks-circles`, so a future filter on
-`blocks-circles` (§7.2) can never hide a searched block. There is no explicit
-`filter` slot; filtering sets a filter on `blocks-circles` and
-`blocks-labels`. `blocks-labels` already filters out the selected block (its
-label is drawn by `blocks-highlight-label`), so a future filter must be
-combined with that condition, not replace it.
+`blocks-highlight` (and its label) are separate layers from
+`blocks-circles`, which is what lets filtering (§5.11) hide blocks without
+ever hiding the selected one. Anything else that hides markers should set
+its condition on `blocks-circles` and `blocks-labels` the same way, and
+leave the highlight layers alone. `blocks-labels` also filters out the
+selected block (its label is drawn by `blocks-highlight-label`), so a new
+condition must be combined with that one, not replace it.
 
 ### 5.10 Marker coloring
 
@@ -669,31 +684,133 @@ old estates are, where the tall blocks cluster) show at a glance.
   for a step expression over the index's `year_completed` or `max_floor_lvl`
   (§4.1). Highlight and label layers are unchanged, so the selected block
   stays amber in every mode.
-- **Picker (ColorControl):** a "Color" button beside the search box opens a
-  menu: No coloring, Year completed, Floors. On desktop the button names the
-  active mode ("Color: Year"); on mobile it is a square icon button with a
-  small dot while a mode is on. It sits at the top, not in the legend, because
-  later modes (resale price with its own options, distance to MRT; §7.1) won't
-  fit a small card, while a menu can grow.
+- **Picker:** the choices are No coloring, Year completed, and Floors.
+  - Desktop (ColorControl): a "Color" button in the row under the search
+    box, after Filters (§5.11), opens them as a menu that closes on a pick.
+    The button names the active mode ("Color: Year").
+  - Mobile: the same choices are the Color section of the options sheet
+    (§5.11). There they
+    are one compact row (None, Year, Floors) instead of a list, which leaves
+    the filters room at the sheet's half height. Picking one leaves the
+    sheet open.
+  - It sits at the top, not in the legend, because later modes (resale price
+    with its own options, distance to MRT; §7.1) won't fit a small card,
+    while a menu can grow.
 - **Legend (ColorLegend):** in the bottom-left corner, inset like the search
   box, and shown only while a mode is on.
   - Desktop: a card titled by the mode, listing the bands with the highest on
     top (so up reads as newer or taller), each with its block count.
   - Mobile: a compact ramp under the mode's title, the bands joined light to
     dark from left to right, with short labels and no counts. The title
-    matters most here, since the mobile button shows only a dot. It is sized
+    matters most here, since the mobile options button never names the mode. It is sized
     to its content rather than a fixed width, so it leaves room on narrow
     phones. The details sheet covers it, even at its peek height, and
     uncovers it as it closes (§5.5 covers the selected block's band).
   - Not collapsible: turning coloring off removes it, and a colored map
     without its key is hard to read. A × at the end of its title row turns
     coloring off in one tap (the menu's "No coloring" takes two), and focus
-    moves to the Color button. It fits in the title line, so the legend
-    stays shorter than the mobile sheet's peek height.
+    moves to the Color button (on mobile, the options button). It fits in
+    the title line, so the legend stays shorter than the mobile sheet's
+    peek height.
   - Sharing the bottom edge with the credits (mobile): turning on a mode
     collapses the expanded credits to the ⓘ (§5.8), and the legend hides
     while the user has them open. Desktop is wide enough for both.
-- **Counts** are computed in the browser from the loaded index, once per mode.
+- **Counts** are computed in the browser from the loaded index. Under a
+  filter (§5.11) they cover the visible blocks only, so they always add up
+  to what the map shows. A band with no visible blocks stays in place,
+  greyed, so the scale doesn't shift as filters change.
+
+### 5.11 Filtering
+
+Hides the blocks that don't match, so the map can show only one town's
+blocks, or only the towers above a given height. Filters combine with
+coloring (§5.10): a coloring mode colors whatever stays visible.
+
+- **Filters:** town, year completed, and floors. A block shows only if it
+  passes every filter that is on. A filter is off while nothing is ticked or
+  its range spans all the data. The flat-type filter is designed but not
+  built yet (§7.2).
+  - **Town:** a checklist of the towns in `towns.json`, each with its total
+    block count (not narrowed by the other filters), folded into one row
+    that names the current choice. Ticking
+    several shows the blocks in any of them.
+  - **Year completed** and **floors:** each a two-thumb range slider with a
+    "from" and a "to" number box. The slider sweeps a range quickly; the
+    boxes give an exact value, which a thumb can't on a phone-width track.
+    A typed value is clamped to the data's range and can't cross the other
+    end. The limits come from the loaded index, so they follow each data
+    refresh.
+  - A range, not the legend's bands (§5.10), because exact cut-offs matter
+    ("built before 1986") and a band picker can only offer the band edges.
+- **Reset:** each filter's title carries a Reset link while that filter is
+  on. It also marks the filter as on, which the number boxes can't, since
+  they always show numbers. "Clear all" resets every filter.
+- **Count:** "Showing N of M blocks", at the foot of the desktop panel and
+  in the mobile sheet's header, where it stays in view at every rest
+  position. There is no separate message when nothing matches: zero is one
+  more count, and Clear all sits with the filters.
+- **Not remembered** between visits and not part of the URL, like the
+  coloring mode (§5.10).
+- **Rendering:** one MapLibre filter expression over the index's `town`,
+  `year_completed`, and `max_floor_lvl`, set on `blocks-circles` and
+  `blocks-labels` (combined with the labels' own condition, §5.9). Nothing
+  is re-fetched. A hidden block has no tooltip and can't be tapped. The map
+  never moves when a filter changes: a camera that jumped mid-drag of a
+  slider would be disorienting.
+- **The selected block always shows.** The highlight layers are exempt from
+  the filter (§5.9). Search ignores the filters (§5.6), so picking a hidden
+  block still flies to it, highlights it, and opens its details; and a block
+  that a filter change hides while its details are open stays highlighted.
+  Either way it is hidden again once the details close.
+- **Desktop (FiltersControl):** a "Filters" button, then the Color button
+  (§5.10), in a row under the search box.
+  - A row of their own, because beside the search box the three made a bar
+    long enough for the details panel (§5.5) to cover on narrower windows,
+    and left the filter panel hanging far from the left edge, into that
+    panel's space. Under the search box each menu opens beneath its own
+    button, in a column the search box already occupies.
+  - Filters comes first so its panel sits at the left edge, and so the Color
+    button's label can change length without moving anything.
+  - The button shows the number of filters that are on.
+  - Its panel is non-modal and stays open while the map is used (pan, zoom,
+    selecting blocks), so the map can be watched while a filter is adjusted.
+    It closes from its button or ESC. The Color menu still closes on a pick.
+  - Only one of the two is open at a time: opening the Color menu closes the
+    filter panel, and the other way round, since the menu would otherwise
+    open on top of the panel.
+  - While search results are showing, their list covers the row and any open
+    filter panel; both are back once the list closes.
+  - With a coloring mode on, the panel stops above the legend, which shares
+    its column, and scrolls.
+- **Mobile (MapOptionsControl):** one options button beside the search box
+  opens a bottom sheet with a Color section (§5.10) and a Filters section.
+  - One button, because a second would squeeze the search box on a narrow
+    phone; and the filters need a sheet anyway, where the coloring choices
+    fit as one short row.
+  - The button shows the number of filters that are on, or a dot when only
+    a coloring mode is.
+  - Color comes first: it is the smaller, separate feature, and under the
+    filters it would read as one more filter and sit below the fold.
+  - The sheet is non-modal like the details sheet (§5.5): the map stays live
+    above it and updates as filters change. It covers the legend at every
+    rest position, peek included, and the coloring key is not repeated
+    inside it; closing the sheet brings the legend back.
+  - It has the details sheet's three rest positions (§5.5) and the same drag
+    gestures, so both sheets handle alike. It opens at half height. **Peek**
+    shows only its header, the title and the block count, so the map can be
+    read with the count still in view. Content scrolls only at **full**, so the Color row
+    and the three filters are laid out to fit at half height on most
+    phones; the expanded town list needs full.
+  - A slider's thumbs are exempt from the sheet's drag, so dragging one
+    moves the thumb, not the sheet.
+  - Focusing a number box raises the sheet to full, clear of the on-screen
+    keyboard.
+  - One sheet at a time: selecting a block (on the map or from search)
+    closes the options sheet and opens that block's details, and opening
+    the options sheet closes any open details, which clears the selection.
+    Filters and coloring are unaffected either way.
+  - It closes the way the details sheet does: its Done button, a swipe below
+    peek, ESC, or a tap on the map. The options button closes it too.
 
 ## 6. Deployment & CI
 
@@ -749,7 +866,9 @@ implementation cycle.
 Coloring by year completed and floors shipped (§5.10). Still to come:
 
 - **More modes** once their data exists: **median resale price** (§7.4) and
-  **distance to MRT** (§7.5), each a new entry in the coloring menu.
+  **distance to MRT** (§7.5), each a new entry in the coloring menu. The
+  mobile sheet's compact Color row (§5.10) only holds a few short choices,
+  so it needs revisiting when these arrive.
 - A **"no data" state** visually distinct from "low value", so an uncolored
   block never reads as cheap or near. Year and floors don't need one, since
   the pipeline guarantees every block has both (§4.5); price and MRT distance
@@ -761,17 +880,24 @@ Coloring by year completed and floors shipped (§5.10). Still to come:
   - sliding the desktop zoom buttons and ⓘ left with the open details panel,
     so they stay visible and usable instead of being covered.
 
-### 7.2 Filtering
+### 7.2 Filtering: flat types and later refinements
 
-- Filters hide non-matching markers via a MapLibre filter expression on the
-  `blocks-circles` layer (fast, no re-fetch); coloring recolors whatever stays
-  visible. Candidate filters: **town**, **year built (range)**, **number of
-  floors (range)**, **flat types available**.
-- **v1 structural hook:** the `blocks-highlight` layer must stay **exempt from
-  the filter expression** so search can reveal a single filtered-out block (open
-  its panel + fly to a visible highlighted marker) without touching the active
-  filters. The reveal is scoped to the selection; closing the panel re-hides the
-  block. This is why highlight is a separate layer in §5.4.
+Filtering by town, year completed, and floors shipped (§5.11). Still to come:
+
+- **Flat-type filter**, designed alongside the others and built next:
+  - Two groups of chips, **Sold** and **Rental**, with the same type names
+    and order as the details panel (§5.5). A block shows if it has any of
+    the chosen chips. The groups stay separate because rental blocks are a
+    small minority that a combined list would bury.
+  - It needs a contract change: the index gains, per block, the sold types
+    and the rental types present (§4.1). Unit counts stay in the shards.
+- **A collapsible sidebar** on desktop holding search, coloring with its
+  legend, and filters in one full-height column, in place of the floating
+  controls. Deferred as a larger redesign than filtering needed; it becomes
+  more attractive as more controls arrive (§7.3 to §7.6).
+- **The legend as a control:** hovering a band to pick it out on the map, or
+  clicking one to filter by it.
+- **Flying to the matches** when none of them are in view.
 
 ### 7.3 Basemap selector
 
