@@ -1,6 +1,7 @@
 import { useId, useRef, useState } from "react";
 import { normalizeRange, type Range } from "../lib/filtering";
-import { Button } from "./ui/button";
+import { cn } from "../lib/utils";
+import { ResetButton } from "./ResetButton";
 import { Input } from "./ui/input";
 import { Slider } from "./ui/slider";
 
@@ -52,8 +53,9 @@ export function RangeFilter({ title, limits, value, onChange, onBoxFocus }: Prop
       onKeyDown={(e) => e.key === "Enter" && commit(end)}
       onBlur={() => commit(end)}
       onFocus={onBoxFocus}
-      // Keeps the stock text-base below md: under 16px, iOS Safari zooms in on focus.
-      className="h-8 w-[4.75rem] px-2 tabular-nums"
+      // Keeps the stock text-base below md: under 16px, iOS Safari zooms in on focus. The spinner
+      // arrows are hidden: they cover the last digit, and the arrow keys still step.
+      className="h-8 w-16 [appearance:textfield] px-2 tabular-nums [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
     />
   );
 
@@ -61,24 +63,19 @@ export function RangeFilter({ title, limits, value, onChange, onBoxFocus }: Prop
     <div role="group" aria-labelledby={titleId}>
       {/* Wraps on a 320px phone, dropping the boxes below the title. */}
       <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1.5">
-        <div className="flex items-baseline gap-2">
+        <div className="flex items-center gap-2">
           <h3 id={titleId} className="text-sm font-medium">
             {title}
           </h3>
           {value && (
-            // Stock link sizing would make every title row taller than the mobile sheet allows.
-            <Button
-              variant="link"
-              className="h-auto p-0 text-xs"
-              aria-label={`Reset ${title.toLowerCase()}`}
+            <ResetButton
+              label={`Reset ${title.toLowerCase()}`}
               onClick={() => {
                 onChange(null);
                 // Not a number box: on a phone that would open the keyboard and raise the sheet.
                 sliderRef.current?.querySelector<HTMLElement>('[role="slider"]')?.focus();
               }}
-            >
-              Reset
-            </Button>
+            />
           )}
         </div>
         <div className="flex items-center gap-1.5">
@@ -91,7 +88,12 @@ export function RangeFilter({ title, limits, value, onChange, onBoxFocus }: Prop
         ref={sliderRef}
         // Inside the mobile sheet, a drag moves the thumb rather than the sheet.
         data-vaul-no-drag
-        className="mt-3"
+        // A track that shows on white, so the whole scale stays visible once a thumb moves; the
+        // range is grey while the filter is off and black once it narrows, like the reset icon.
+        className={cn(
+          "mt-3 [&_[data-slot=slider-track]]:bg-input",
+          !value && "[&_[data-slot=slider-range]]:bg-muted-foreground",
+        )}
         min={limits[0]}
         max={limits[1]}
         step={1}

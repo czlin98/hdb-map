@@ -733,7 +733,8 @@ coloring (§5.10): a coloring mode colors whatever stays visible.
   - **Town:** a checklist of the towns in `towns.json`, each with its total
     block count (not narrowed by the other filters), folded into one row
     that names the current choice. Ticking
-    several shows the blocks in any of them.
+    several shows the blocks in any of them. On desktop the open list
+    scrolls on its own, so the range filters below it stay in reach.
   - **Year completed** and **floors:** each a two-thumb range slider with a
     "from" and a "to" number box. The slider sweeps a range quickly; the
     boxes give an exact value, which a thumb can't on a phone-width track.
@@ -742,9 +743,10 @@ coloring (§5.10): a coloring mode colors whatever stays visible.
     refresh.
   - A range, not the legend's bands (§5.10), because exact cut-offs matter
     ("built before 1986") and a band picker can only offer the band edges.
-- **Reset:** each filter's title carries a Reset link while that filter is
-  on. It also marks the filter as on, which the number boxes can't, since
-  they always show numbers. "Clear all" resets every filter.
+- **Reset:** each filter's title carries a reset icon (↺) while that filter
+  is on, a small header control like the legend's × (§5.10). It also marks
+  the filter as on, which the number boxes can't, since they always show
+  numbers. "Clear all" resets every filter.
 - **Count:** "Showing N of M blocks", at the foot of the desktop panel and
   in the mobile sheet's header, where it stays in view at every rest
   position. There is no separate message when nothing matches: zero is one

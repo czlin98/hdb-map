@@ -37,12 +37,16 @@ test("the button reads Filters, with a badge counting the filters that are on", 
   renderControl();
   const button = screen.getByRole("button", { name: "Filters" });
   expect(button).toHaveTextContent(/^Filters$/);
+  expect(button.querySelectorAll("svg")).toHaveLength(2); // filter icon, chevron
 
   act(() => {
     useFilters.getState().toggleTown("BEDOK");
     useFilters.getState().setRange("year", [1980, 1999]);
   });
-  expect(screen.getByRole("button", { name: "Filters, 2 on" })).toHaveTextContent("Filters2");
+  const withBadge = screen.getByRole("button", { name: "Filters, 2 on" });
+  expect(withBadge).toHaveTextContent("Filters2");
+  // The badge takes the chevron's place, so the button keeps its width.
+  expect(withBadge.querySelectorAll("svg")).toHaveLength(1);
 });
 
 test("the button opens the panel: filter list, count at its foot", async () => {

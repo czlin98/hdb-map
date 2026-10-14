@@ -2,7 +2,7 @@ import { useId, useMemo, useRef, useState } from "react";
 import { ChevronDownIcon } from "lucide-react";
 import { cn } from "../lib/utils";
 import type { BlockFeature, Town } from "../types/contract";
-import { Button } from "./ui/button";
+import { ResetButton } from "./ResetButton";
 import { Checkbox } from "./ui/checkbox";
 
 interface Props {
@@ -44,17 +44,13 @@ export function TownFilter({ towns, features, selected, onToggle, onReset }: Pro
           Town
         </h3>
         {selected.length > 0 && (
-          <Button
-            variant="link"
-            className="h-auto p-0 text-xs"
-            aria-label="Reset town"
+          <ResetButton
+            label="Reset town"
             onClick={() => {
               onReset();
               buttonRef.current?.focus();
             }}
-          >
-            Reset
-          </Button>
+          />
         )}
         {/* Stretches to the row's end, so the empty middle of the row is part of the target. */}
         <button
@@ -76,7 +72,9 @@ export function TownFilter({ towns, features, selected, onToggle, onReset }: Pro
           />
         </button>
       </div>
-      <ul id={listId} hidden={!open} className="mt-1">
+      {/* Desktop only (md matches useIsDesktop in App.tsx): the open list scrolls on its own,
+          so the range filters below stay in reach. */}
+      <ul id={listId} hidden={!open} className="mt-1 md:max-h-52 md:overflow-y-auto md:pr-2">
         {sorted.map(({ town }) => (
           <li key={town}>
             <label className="flex cursor-pointer items-center gap-2.5 py-1 text-sm">

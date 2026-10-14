@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { beforeEach, expect, test } from "vitest";
+import { beforeEach, expect, test, vi } from "vitest";
 import { ColorControl } from "./ColorControl";
 import { useColorMode } from "../store/color";
 
@@ -60,4 +60,14 @@ test("compact button is icon-only, with a dot while a mode is on", async () => {
   await user.click(screen.getByRole("button", { name: "Color: Floors" }));
   await user.click(screen.getByRole("menuitemradio", { name: "No coloring" }));
   expect(screen.queryByTestId("color-on")).not.toBeInTheDocument();
+});
+
+test("reports the menu opening and closing", async () => {
+  const user = userEvent.setup();
+  const onOpenChange = vi.fn();
+  render(<ColorControl compact={false} onOpenChange={onOpenChange} />);
+  await user.click(screen.getByRole("button", { name: "Color" }));
+  expect(onOpenChange).toHaveBeenLastCalledWith(true);
+  await user.keyboard("{Escape}");
+  expect(onOpenChange).toHaveBeenLastCalledWith(false);
 });

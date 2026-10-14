@@ -1,4 +1,4 @@
-import { useMemo, type RefObject } from "react";
+import { useMemo, type Ref, type RefObject } from "react";
 import { XIcon } from "lucide-react";
 import { COLOR_SCALES, countBands } from "../lib/coloring";
 import { cn } from "../lib/utils";
@@ -10,9 +10,10 @@ interface Props {
   isDesktop: boolean;
   // The legend unmounts with its own button, so focus moves here instead of being lost.
   returnFocusRef?: RefObject<HTMLButtonElement | null>;
+  ref?: Ref<HTMLElement>;
 }
 
-export function ColorLegend({ features, isDesktop, returnFocusRef }: Props) {
+export function ColorLegend({ features, isDesktop, returnFocusRef, ref }: Props) {
   const mode = useColorMode((s) => s.mode);
   const setMode = useColorMode((s) => s.setMode);
   const scale = mode === "none" ? null : COLOR_SCALES[mode];
@@ -23,6 +24,7 @@ export function ColorLegend({ features, isDesktop, returnFocusRef }: Props) {
     // Inset from the corner like the search box (top-2 / md:left-2). index.css hides it by the
     // color-legend class while the mobile credits are open.
     <section
+      ref={ref}
       aria-label={`${scale.title} legend`}
       className={cn(
         "color-legend",

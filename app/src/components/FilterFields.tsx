@@ -22,9 +22,10 @@ export function FilterFields({ features, towns, onBoxFocus }: Props) {
   if (features.length === 0) return null;
 
   return (
-    <div className="space-y-5">
-      <div className="flex items-baseline justify-between gap-3">
-        <h2 className="text-xs font-semibold tracking-wide uppercase">Filters</h2>
+    <div>
+      {/* A smaller gap under the header than between filters, so it reads as theirs. */}
+      <div className="mb-3 flex items-baseline justify-between gap-3">
+        <h2 className="text-muted-foreground text-xs font-medium">Filters</h2>
         <Button
           variant="link"
           className="h-auto p-0 text-xs"
@@ -34,27 +35,29 @@ export function FilterFields({ features, towns, onBoxFocus }: Props) {
           Clear all
         </Button>
       </div>
-      <TownFilter
-        towns={towns}
-        features={features}
-        selected={filters.towns}
-        onToggle={toggleTown}
-        onReset={() => reset("towns")}
-      />
-      <RangeFilter
-        title="Year completed"
-        limits={limits.year}
-        value={filters.year}
-        onChange={(range) => setRange("year", range)}
-        onBoxFocus={onBoxFocus}
-      />
-      <RangeFilter
-        title="Floors"
-        limits={limits.floors}
-        value={filters.floors}
-        onChange={(range) => setRange("floors", range)}
-        onBoxFocus={onBoxFocus}
-      />
+      <div className="space-y-5">
+        <TownFilter
+          towns={towns}
+          features={features}
+          selected={filters.towns}
+          onToggle={toggleTown}
+          onReset={() => reset("towns")}
+        />
+        <RangeFilter
+          title="Year completed"
+          limits={limits.year}
+          value={filters.year}
+          onChange={(range) => setRange("year", range)}
+          onBoxFocus={onBoxFocus}
+        />
+        <RangeFilter
+          title="Floors"
+          limits={limits.floors}
+          value={filters.floors}
+          onChange={(range) => setRange("floors", range)}
+          onBoxFocus={onBoxFocus}
+        />
+      </div>
     </div>
   );
 }

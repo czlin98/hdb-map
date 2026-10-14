@@ -45,12 +45,16 @@ export function FiltersControl({
         >
           <ListFilterIcon className="size-4 opacity-70" />
           <span>Filters</span>
-          {count > 0 && (
-            <span className="bg-primary text-primary-foreground flex size-5 items-center justify-center rounded-full text-xs tabular-nums">
-              {count}
-            </span>
-          )}
-          <ChevronDownIcon className="size-4 opacity-50" />
+          {/* One slot for the chevron or the badge, so a filter turning on doesn't widen it. */}
+          <span className="flex size-5 items-center justify-center">
+            {count > 0 ? (
+              <span className="bg-primary text-primary-foreground flex size-5 items-center justify-center rounded-full text-xs tabular-nums">
+                {count}
+              </span>
+            ) : (
+              <ChevronDownIcon className="size-4 opacity-50" />
+            )}
+          </span>
         </Button>
       </PopoverTrigger>
       <PopoverContent

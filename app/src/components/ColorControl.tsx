@@ -16,15 +16,16 @@ import {
 interface Props {
   compact: boolean;
   triggerRef?: Ref<HTMLButtonElement>;
+  onOpenChange?: (open: boolean) => void;
 }
 
-export function ColorControl({ compact, triggerRef }: Props) {
+export function ColorControl({ compact, triggerRef, onOpenChange }: Props) {
   const mode = useColorMode((s) => s.mode);
   const setMode = useColorMode((s) => s.setMode);
   const label = mode === "none" ? "Color" : `Color: ${COLOR_SCALES[mode].name}`;
   return (
     // Non-modal, like the details panel, so the map stays live while the menu is open.
-    <DropdownMenu modal={false}>
+    <DropdownMenu modal={false} onOpenChange={onOpenChange}>
       <DropdownMenuTrigger asChild>
         <Button
           ref={triggerRef}
