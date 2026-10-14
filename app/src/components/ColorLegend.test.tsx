@@ -87,3 +87,36 @@ test.each([true, false])(
     expect(returnFocusRef.current).toHaveFocus();
   },
 );
+
+function emptyFlags(legendName: string) {
+  const legend = screen.getByRole("region", { name: legendName });
+  return within(legend)
+    .getAllByRole("listitem")
+    .map((li) => [li.textContent, li.hasAttribute("data-empty")]);
+}
+
+test("desktop greys bands with no blocks and keeps them in place", () => {
+  useColorMode.getState().setMode("year");
+  render(<ColorLegend features={sampleIndex.features} isDesktop />);
+  expect(emptyFlags("Year completed legend")).toEqual([
+    ["2020 and later0", true],
+    ["2010s1", false],
+    ["2000s0", true],
+    ["1990s0", true],
+    ["1980s0", true],
+    ["Before 19801", false],
+  ]);
+});
+
+test("mobile greys bands with no blocks and keeps them in place", () => {
+  useColorMode.getState().setMode("year");
+  render(<ColorLegend features={sampleIndex.features} isDesktop={false} />);
+  expect(emptyFlags("Year completed legend")).toEqual([
+    ["<80", false],
+    ["80s", true],
+    ["90s", true],
+    ["00s", true],
+    ["10s", false],
+    ["20s+", true],
+  ]);
+});
