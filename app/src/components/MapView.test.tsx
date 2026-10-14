@@ -60,6 +60,7 @@ vi.mock("maplibre-gl/dist/maplibre-gl.css", () => ({}));
 import { MapView } from "./MapView";
 import { sampleIndex } from "../test/fixtures";
 import { BLOCK_COLOR, circleColor } from "../lib/coloring";
+import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
 
 afterEach(() => {
   for (const k of Object.keys(handlers)) delete handlers[k];
@@ -445,4 +446,91 @@ test("the tooltip adds the colored value while a mode is on", () => {
   expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3", " · 1978"]);
   rerender(<MapView {...props} colorMode="floors" />);
   expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3", " · 12 floors"]);
+});
+
+function layerFilter(id: string) {
+  const call = map.addLayer.mock.calls.find((c) => (c[0] as { id: string }).id === id);
+  return call?.[0] as { filter?: unknown };
+}
+
+function lastSetFilter(layer: string) {
+  return map.setFilter.mock.calls.filter((c) => c[0] === layer).pop()?.[1];
+}
+
+const SELECTED = "123-ang-mo-kio-ave-3";
+const townFilters: Filters = { ...EMPTY_FILTERS, towns: ["BEDOK"] };
+const yearFilters: Filters = { ...EMPTY_FILTERS, year: [1990, 2020] };
+
+test("starts filtered when filters beat load", () => {
+  render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} filters={townFilters} />,
+  );
+  fire("load");
+  const expr = filterExpression(townFilters);
+  expect(layerFilter("blocks-circles").filter).toEqual(expr);
+  expect(layerFilter("blocks-labels").filter).toEqual(["all", ["!=", ["get", "id"], ""], expr]);
+});
+
+test("no filter key when nothing is on", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  expect(layerFilter("blocks-circles")).not.toHaveProperty("filter");
+  expect(layerFilter("blocks-labels").filter).toEqual(["!=", ["get", "id"], ""]);
+});
+
+test("refilters when filters change", () => {
+  const props = { data: sampleIndex, selectedId: null, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} />);
+  fire("load");
+
+  rerender(<MapView {...props} filters={yearFilters} />);
+  const expr = filterExpression(yearFilters);
+  expect(map.setFilter).toHaveBeenCalledWith("blocks-circles", expr);
+  expect(map.setFilter).toHaveBeenCalledWith("blocks-labels", [
+    "all",
+    ["!=", ["get", "id"], ""],
+    expr,
+  ]);
+
+  rerender(<MapView {...props} filters={EMPTY_FILTERS} />);
+  expect(lastSetFilter("blocks-circles")).toBeNull();
+  expect(lastSetFilter("blocks-labels")).toEqual(["!=", ["get", "id"], ""]);
+});
+
+test("a selection change keeps the block filter on the labels", () => {
+  const props = { data: sampleIndex, onSelectBlock: vi.fn(), filters: yearFilters };
+  const { rerender } = render(<MapView {...props} selectedId={null} />);
+  fire("load");
+  rerender(<MapView {...props} selectedId={SELECTED} />);
+  expect(lastSetFilter("blocks-labels")).toEqual([
+    "all",
+    ["!=", ["get", "id"], SELECTED],
+    filterExpression(yearFilters),
+  ]);
+});
+
+test("the highlight layers never get the block filter", () => {
+  const props = { data: sampleIndex, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} selectedId={null} filters={townFilters} />);
+  fire("load");
+  rerender(<MapView {...props} selectedId={SELECTED} filters={townFilters} />);
+  rerender(<MapView {...props} selectedId={SELECTED} filters={yearFilters} />);
+
+  expect(layerFilter("blocks-highlight").filter).toEqual(["==", ["get", "id"], ""]);
+  expect(layerFilter("blocks-highlight-label").filter).toEqual(["==", ["get", "id"], ""]);
+  const calls = map.setFilter.mock.calls.filter((c) => String(c[0]).startsWith("blocks-highlight"));
+  expect(calls).toContainEqual(["blocks-highlight", ["==", ["get", "id"], SELECTED]]);
+  for (const [, filter] of calls) expect(filter).toEqual(["==", ["get", "id"], expect.any(String)]);
+});
+
+test("a filter change doesn't move the map", () => {
+  const props = { data: sampleIndex, selectedId: SELECTED, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} />);
+  fire("load");
+  map.flyTo.mockClear();
+  map.easeTo.mockClear();
+  rerender(<MapView {...props} filters={yearFilters} />);
+  rerender(<MapView {...props} filters={townFilters} />);
+  expect(map.flyTo).not.toHaveBeenCalled();
+  expect(map.easeTo).not.toHaveBeenCalled();
 });

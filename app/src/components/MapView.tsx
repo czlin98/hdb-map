@@ -5,6 +5,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection } from "../types/contract";
 import { circleColor, COLOR_SCALES, type ColorMode } from "../lib/coloring";
+import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Island view: drives the initial fit and the zoom floor. Centered on the main island's
@@ -34,6 +35,7 @@ interface Props {
   colorMode?: ColorMode;
   // Mobile only: the open credits span the screen, so they make way for the legend.
   collapseCreditsOnColor?: boolean;
+  filters?: Filters;
 }
 
 // Any lower and a dense estate reads as a wall of text.
@@ -44,8 +46,12 @@ function highlightFilter(id: string | null): maplibregl.FilterSpecification {
 }
 
 // The selected block has its own label layer, so drop it here to avoid a double label.
-function labelFilter(id: string | null): maplibregl.FilterSpecification {
-  return ["!=", ["get", "id"], id ?? ""];
+function labelFilter(
+  id: string | null,
+  blockFilter: maplibregl.ExpressionSpecification | null,
+): maplibregl.FilterSpecification {
+  const condition: maplibregl.ExpressionSpecification = ["!=", ["get", "id"], id ?? ""];
+  return blockFilter ? ["all", condition, blockFilter] : condition;
 }
 
 // A label counts as touching its block: on touch it is the bigger, more readable target.
@@ -127,6 +133,7 @@ export function MapView({
   showZoomButtons = false,
   colorMode = "none",
   collapseCreditsOnColor = false,
+  filters = EMPTY_FILTERS,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -135,11 +142,13 @@ export function MapView({
   const onBackgroundClickRef = useRef(onBackgroundClick);
   onBackgroundClickRef.current = onBackgroundClick;
   // Read by the one-shot load handler, so the source, colors, and highlight start from the
-  // latest data, mode, and selection even when any arrives before the style loads.
+  // latest data, mode, filters, and selection even when any arrives before the style loads.
   const dataRef = useRef(data);
   dataRef.current = data;
   const colorModeRef = useRef(colorMode);
   colorModeRef.current = colorMode;
+  const filtersRef = useRef(filters);
+  filtersRef.current = filters;
   const selectedIdRef = useRef(selectedId);
   selectedIdRef.current = selectedId;
 
@@ -172,6 +181,7 @@ export function MapView({
     map.on("resize", fitZoomFloor);
 
     map.on("load", () => {
+      const blockFilter = filterExpression(filtersRef.current);
       map.addSource("blocks", {
         type: "geojson",
         data: dataRef.current,
@@ -182,6 +192,7 @@ export function MapView({
         id: "blocks-circles",
         type: "circle",
         source: "blocks",
+        ...(blockFilter && { filter: blockFilter }),
         paint: {
           // Small at low zoom to avoid clutter; an easy tap target once zoomed into an estate.
           "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 2, 14, 4, 16, 8, 17, 10],
@@ -190,7 +201,7 @@ export function MapView({
           "circle-stroke-color": "#ffffff",
         },
       });
-      // A separate layer, so a future filter on blocks-circles can't hide a searched block.
+      // A separate layer, so the block filter on blocks-circles can't hide a searched block.
       map.addLayer({
         id: "blocks-highlight",
         type: "circle",
@@ -210,7 +221,7 @@ export function MapView({
         type: "symbol",
         source: "blocks",
         minzoom: LABEL_MIN_ZOOM,
-        filter: labelFilter(selectedIdRef.current),
+        filter: labelFilter(selectedIdRef.current, blockFilter),
         // Must match the blocks-circles radius at zoom 16 and 17.
         layout: { ...labelLayout([8, 10]), "text-font": ["Noto Sans Regular"] },
         paint: {
@@ -319,10 +330,19 @@ export function MapView({
 
   useEffect(() => {
     const map = mapRef.current;
+    if (!map || !map.getLayer("blocks-circles")) return;
+    const blockFilter = filterExpression(filters);
+    map.setFilter("blocks-circles", blockFilter);
+    map.setFilter("blocks-labels", labelFilter(selectedIdRef.current, blockFilter));
+  }, [filters]);
+
+  useEffect(() => {
+    const map = mapRef.current;
     if (!map || !map.getLayer("blocks-highlight")) return;
     map.setFilter("blocks-highlight", highlightFilter(selectedId));
     map.setFilter("blocks-highlight-label", highlightFilter(selectedId));
-    map.setFilter("blocks-labels", labelFilter(selectedId));
+    // Filters are read through the ref: as a dependency, every slider step would re-fly.
+    map.setFilter("blocks-labels", labelFilter(selectedId, filterExpression(filtersRef.current)));
     if (!selectedId) {
       // Glide the fly-to padding back to zero as the sheet closes, so the map center isn't
       // left offset. Skip it when there's no padding, so no empty animation runs.

@@ -1,4 +1,4 @@
-import type { ExpressionSpecification, FilterSpecification } from "maplibre-gl";
+import type { ExpressionSpecification } from "maplibre-gl";
 import type { BlockFeature, BlockIndexProperties } from "../types/contract";
 
 export type Range = [from: number, to: number];
@@ -29,7 +29,7 @@ export function matches(p: BlockIndexProperties, f: Filters): boolean {
 }
 
 // null when nothing is on, so the caller can clear the layer filter.
-export function filterExpression(f: Filters): FilterSpecification | null {
+export function filterExpression(f: Filters): ExpressionSpecification | null {
   const parts: ExpressionSpecification[] = [];
   if (f.towns.length) parts.push(["in", ["get", "town"], ["literal", f.towns]]);
   for (const key of RANGE_KEYS) {
