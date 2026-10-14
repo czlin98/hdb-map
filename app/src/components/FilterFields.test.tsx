@@ -1,0 +1,73 @@
+import { fireEvent, render, screen } from "@testing-library/react";
+import { beforeEach, expect, test } from "vitest";
+import { BlockCount, FilterFields } from "./FilterFields";
+import { EMPTY_FILTERS } from "../lib/filtering";
+import { useFilters } from "../store/filters";
+import { sampleIndex, sampleTowns } from "../test/fixtures";
+
+beforeEach(() => useFilters.getState().clearAll());
+
+const renderFields = () =>
+  render(<FilterFields features={sampleIndex.features} towns={sampleTowns} />);
+const box = (name: string) => screen.getByRole("spinbutton", { name }) as HTMLInputElement;
+const clearAll = () => screen.getByRole("button", { name: "Clear all" });
+
+test("renders the Filters heading, then town, year completed and floors", () => {
+  renderFields();
+  expect(screen.getAllByRole("heading").map((h) => h.textContent)).toEqual([
+    "Filters",
+    "Town",
+    "Year completed",
+    "Floors",
+  ]);
+});
+
+test("the range limits come from the features", () => {
+  renderFields();
+  expect(box("Year completed, from").value).toBe("1978");
+  expect(box("Year completed, to").value).toBe("2015");
+  expect(box("Floors, from").value).toBe("12");
+  expect(box("Floors, to").value).toBe("30");
+});
+
+test("changing a control writes the store", () => {
+  renderFields();
+  fireEvent.click(screen.getByRole("button", { name: /^Town/ }));
+  fireEvent.click(screen.getByRole("checkbox", { name: /BEDOK/ }));
+  fireEvent.change(box("Year completed, to"), { target: { value: "1990" } });
+  fireEvent.keyDown(box("Year completed, to"), { key: "Enter" });
+  expect(useFilters.getState().filters).toEqual({
+    towns: ["BEDOK"],
+    year: [1978, 1990],
+    floors: null,
+  });
+});
+
+test("Clear all is enabled only while a filter is on, and empties the store", () => {
+  renderFields();
+  expect(clearAll()).toBeDisabled();
+  fireEvent.change(box("Floors, from"), { target: { value: "20" } });
+  fireEvent.keyDown(box("Floors, from"), { key: "Enter" });
+  expect(clearAll()).toBeEnabled();
+  fireEvent.click(clearAll());
+  expect(useFilters.getState().filters).toEqual(EMPTY_FILTERS);
+  expect(clearAll()).toBeDisabled();
+});
+
+// A slider whose minimum equals its maximum has no track to draw.
+test("renders nothing until the index has loaded", () => {
+  const { container } = render(<FilterFields features={[]} towns={sampleTowns} />);
+  expect(container).toBeEmptyDOMElement();
+});
+
+test("BlockCount reports the shown and total blocks in a status region", () => {
+  render(<BlockCount shown={1234} total={10796} />);
+  expect(screen.getByRole("status")).toHaveTextContent(
+    `Showing ${(1234).toLocaleString()} of ${(10796).toLocaleString()} blocks`,
+  );
+});
+
+test("BlockCount renders nothing before the index has loaded", () => {
+  const { container } = render(<BlockCount shown={0} total={0} />);
+  expect(container).toBeEmptyDOMElement();
+});
