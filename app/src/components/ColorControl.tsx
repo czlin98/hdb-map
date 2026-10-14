@@ -3,6 +3,7 @@ import { ChevronDownIcon, PaletteIcon } from "lucide-react";
 import { COLOR_SCALES, type ColorMode, type ScaleMode } from "../lib/coloring";
 import { useColorMode } from "../store/color";
 import { cn } from "../lib/utils";
+import { Button } from "./ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -24,23 +25,24 @@ export function ColorControl({ compact, triggerRef }: Props) {
   return (
     // Non-modal, like the details panel, so the map stays live while the menu is open.
     <DropdownMenu modal={false}>
-      <DropdownMenuTrigger
-        ref={triggerRef}
-        aria-label={label}
-        className={cn(
-          "bg-popover text-popover-foreground focus-visible:ring-ring relative inline-flex h-9 shrink-0 items-center rounded-md text-sm shadow-md outline-hidden focus-visible:ring-2",
-          compact ? "w-9 justify-center" : "gap-2 px-3",
-        )}
-      >
-        <PaletteIcon className="size-4 opacity-70" />
-        {!compact && <span>{label}</span>}
-        {!compact && <ChevronDownIcon className="size-4 opacity-50" />}
-        {compact && mode !== "none" && (
-          <span
-            data-testid="color-on"
-            className="ring-popover absolute top-1.5 right-1.5 size-2 rounded-full bg-blue-600 ring-2"
-          />
-        )}
+      <DropdownMenuTrigger asChild>
+        <Button
+          ref={triggerRef}
+          variant="control"
+          size={compact ? "icon" : "default"}
+          aria-label={label}
+          className={cn(compact && "justify-center")}
+        >
+          <PaletteIcon className="size-4 opacity-70" />
+          {!compact && <span>{label}</span>}
+          {!compact && <ChevronDownIcon className="size-4 opacity-50" />}
+          {compact && mode !== "none" && (
+            <span
+              data-testid="color-on"
+              className="ring-popover absolute top-1.5 right-1.5 size-2 rounded-full bg-blue-600 ring-2"
+            />
+          )}
+        </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align={compact ? "end" : "start"}>
         <DropdownMenuLabel className="text-muted-foreground text-xs">Color by</DropdownMenuLabel>

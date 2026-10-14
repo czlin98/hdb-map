@@ -15,6 +15,10 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground shadow-xs hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
+        // Not stock: the map's top-bar buttons. Overrides the base's medium weight, wide focus
+        // ring, centered content, and transition, so the Color button keeps its look.
+        control:
+          "bg-popover text-popover-foreground relative justify-start font-normal shadow-md transition-none outline-hidden focus-visible:ring-2 focus-visible:ring-ring",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
