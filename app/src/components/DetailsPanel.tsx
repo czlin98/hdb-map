@@ -3,6 +3,7 @@ import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
 import { bandIndex, COLOR_SCALES, type ScaleMode } from "../lib/coloring";
+import { sheetBodyClass } from "../lib/sheet";
 import { useColorMode } from "../store/color";
 import { XIcon } from "lucide-react";
 import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
@@ -196,12 +197,7 @@ export function DetailsPanel(props: PanelProps) {
     );
   }
 
-  // Vaul scrolls the body only at the top snap; below it a drag moves the sheet. Elsewhere,
-  // touch-none hands every drag to Vaul so the browser can't hijack it.
   const fullyOpen = props.activeSnap === props.snapPoints[props.snapPoints.length - 1];
-  const bodyScroll = fullyOpen
-    ? "overflow-y-auto overscroll-contain touch-pan-y"
-    : "overflow-hidden touch-none";
 
   return (
     <Drawer
@@ -227,7 +223,7 @@ export function DetailsPanel(props: PanelProps) {
         >
           <XIcon className="size-4" />
         </DrawerClose>
-        <div className={`min-h-0 flex-1 ${bodyScroll}`}>{body}</div>
+        <div className={`min-h-0 flex-1 ${sheetBodyClass(fullyOpen)}`}>{body}</div>
       </DrawerContent>
     </Drawer>
   );
