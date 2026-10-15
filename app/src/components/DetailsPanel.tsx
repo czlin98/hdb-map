@@ -153,6 +153,8 @@ interface PanelProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   onClose: () => void;
+  // Desktop: Escape closes the filter panel too, so the two desktop panels dismiss alike.
+  onEscape?: () => void;
   ref?: Ref<DetailsPanelHandle>;
 }
 
@@ -186,6 +188,7 @@ export function DetailsPanel(props: PanelProps) {
         <SheetContent
           onOpenAutoFocus={(e) => e.preventDefault()}
           onInteractOutside={(e) => e.preventDefault()}
+          onEscapeKeyDown={() => props.onEscape?.()}
           onAnimationEnd={(e) => {
             if (e.target === e.currentTarget && !props.open) props.onClose();
           }}

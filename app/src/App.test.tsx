@@ -167,16 +167,48 @@ test("the legend counts only the visible blocks and greys an emptied band", asyn
   expect(before1980()).toHaveAttribute("data-empty");
 });
 
-test("the filter panel stays open while the map is used", async () => {
+const detailsHeading = () => screen.queryByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ });
+
+async function openPanelAndDetails() {
   stubLoaded();
   render(<App />);
   await screen.findByText("marker-123-ang-mo-kio-ave-3");
   await userEvent.click(screen.getByRole("button", { name: "Filters" }));
   await userEvent.click(screen.getByText("marker-123-ang-mo-kio-ave-3"));
   await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3 560123/ });
+}
+
+test("a block click keeps the filter panel open beside the details", async () => {
+  await openPanelAndDetails();
   expect(filtersPanel()).toBeInTheDocument();
+});
+
+test("a click on empty map closes the filter panel and the details", async () => {
+  await openPanelAndDetails();
   await userEvent.click(screen.getByText("map-background"));
-  expect(filtersPanel()).toBeInTheDocument();
+  expect(filtersPanel()).not.toBeInTheDocument();
+  await waitFor(() => expect(detailsHeading()).not.toBeInTheDocument());
+});
+
+test("Escape closes the filter panel and the details together", async () => {
+  await openPanelAndDetails();
+  await userEvent.keyboard("{Escape}");
+  expect(filtersPanel()).not.toBeInTheDocument();
+  await waitFor(() => expect(detailsHeading()).not.toBeInTheDocument());
+});
+
+test("Escape in the search box backs out of everything, leaving focus off Filters", async () => {
+  stubLoaded();
+  render(<App />);
+  await screen.findByText("marker-123-ang-mo-kio-ave-3");
+  await userEvent.click(screen.getByRole("button", { name: "Filters" }));
+  const search = screen.getByRole("combobox");
+  await userEvent.type(search, "avenue 3");
+  await userEvent.keyboard("{Escape}");
+  expect(filtersPanel()).not.toBeInTheDocument();
+  // The search box releases focus on Escape by design; the panel's close mustn't grab it.
+  expect(search).not.toHaveFocus();
+  expect(screen.getByRole("button", { name: "Filters" })).not.toHaveFocus();
 });
 
 test("only one of the Color menu and the filter panel is open at a time", async () => {
@@ -260,7 +292,6 @@ describe("on a phone", () => {
   // An opening sheet locks the body's pointer events until the next animation frame (see
   // MapOptionsControl), before a person could tap; userEvent would click before that.
   const nextFrame = () => act(() => new Promise<void>((r) => requestAnimationFrame(() => r())));
-  const detailsHeading = () => screen.queryByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ });
 
   async function renderLoaded() {
     stubLoaded();

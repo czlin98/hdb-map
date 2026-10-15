@@ -785,9 +785,12 @@ coloring (§5.10): a coloring mode colors whatever stays visible.
   - Filters comes first so its panel sits at the left edge, and so the Color
     button's label can change length without moving anything.
   - The button shows the number of filters that are on.
-  - Its panel is non-modal and stays open while the map is used (pan, zoom,
-    selecting blocks), so the map can be watched while a filter is adjusted.
-    It closes from its button or ESC. The Color menu still closes on a pick.
+  - Its panel is non-modal and stays open through pans, zooms, and block
+    selection, so the map can be watched while a filter is adjusted and the
+    remaining blocks inspected beside it. Otherwise it dismisses like the
+    details panel (§5.5), and together with it: ESC or a tap on empty map
+    closes both, so there is no order of panels to learn. Its button closes
+    it too. The Color menu still closes on a pick.
   - Only one of the two is open at a time: opening the Color menu closes the
     filter panel, and the other way round, since the menu would otherwise
     open on top of the panel.

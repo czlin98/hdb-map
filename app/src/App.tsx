@@ -136,6 +136,7 @@ export default function App() {
         onSelectBlock={openBlock}
         onBackgroundClick={() => {
           panelRef.current?.close();
+          setFiltersOpen(false);
           setOptionsOpen(false);
         }}
         flyPaddingBottom={flyPaddingBottom}
@@ -170,6 +171,7 @@ export default function App() {
                   shown={visible.length}
                   total={index.features.length}
                   bottomInset={legendClearance}
+                  onEscape={() => panelRef.current?.close()}
                 />
                 <ColorControl
                   triggerRef={colorButtonRef}
@@ -226,6 +228,7 @@ export default function App() {
           open={panelOpen}
           onOpenChange={setPanelOpen}
           onClose={clear}
+          onEscape={() => setFiltersOpen(false)}
         />
       )}
     </main>

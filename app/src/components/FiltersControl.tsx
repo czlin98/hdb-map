@@ -16,6 +16,8 @@ interface Props {
   total: number;
   // Height kept clear at the bottom of the screen (the legend), so the panel stops above it.
   bottomInset: number;
+  // Escape closes the details panel too, so the two desktop panels dismiss alike.
+  onEscape?: () => void;
 }
 
 export function FiltersControl({
@@ -26,11 +28,14 @@ export function FiltersControl({
   shown,
   total,
   bottomInset,
+  onEscape,
 }: Props) {
   const count = useFilters((s) => activeCount(s.filters));
   // Radix refocuses the trigger on every close. When the Color menu closed the panel, that focus
-  // move would dismiss the just-opened menu, so only the panel's own button and Escape refocus.
+  // move would dismiss the just-opened menu, so only the panel's own button refocuses, and Escape
+  // when focus is inside the panel.
   const refocusOnClose = useRef(false);
+  const contentRef = useRef<HTMLDivElement>(null);
 
   return (
     <Popover open={open} onOpenChange={onOpenChange}>
@@ -58,15 +63,20 @@ export function FiltersControl({
         </Button>
       </PopoverTrigger>
       <PopoverContent
+        ref={contentRef}
         aria-label="Filters"
         align="start"
         // Keeps it under its button; without this it would flip above when space is short.
         avoidCollisions={false}
         collisionPadding={{ bottom: bottomInset + 8 }}
-        // Non-modal and deaf to outside clicks: it stays open while the map is used.
+        // Non-modal and deaf to outside clicks, so it stays open through pans, zooms, and block
+        // clicks; App closes it on a click on empty map, as it does the details panel.
         onInteractOutside={(e) => e.preventDefault()}
+        // Focus returns to Filters only from inside the panel: an Escape typed in the search box
+        // must leave focus there.
         onEscapeKeyDown={() => {
-          refocusOnClose.current = true;
+          refocusOnClose.current = !!contentRef.current?.contains(document.activeElement);
+          onEscape?.();
         }}
         onCloseAutoFocus={(e) => {
           if (!refocusOnClose.current) e.preventDefault();

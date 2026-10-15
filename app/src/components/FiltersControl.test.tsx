@@ -1,7 +1,7 @@
 import { act, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { useState } from "react";
-import { beforeEach, expect, test } from "vitest";
+import { beforeEach, expect, test, vi } from "vitest";
 import { FiltersControl } from "./FiltersControl";
 import { useFilters } from "../store/filters";
 import { sampleIndex, sampleTowns } from "../test/fixtures";
@@ -10,6 +10,7 @@ import type { BlockFeature } from "../types/contract";
 beforeEach(() => useFilters.getState().clearAll());
 
 function renderControl(features: BlockFeature[] = sampleIndex.features) {
+  const onEscape = vi.fn();
   function Harness() {
     const [open, setOpen] = useState(false);
     return (
@@ -24,11 +25,13 @@ function renderControl(features: BlockFeature[] = sampleIndex.features) {
           shown={2}
           total={2}
           bottomInset={0}
+          onEscape={onEscape}
         />
       </>
     );
   }
   render(<Harness />);
+  return { onEscape };
 }
 
 const panel = () => screen.queryByRole("dialog", { name: "Filters" });
@@ -69,12 +72,30 @@ test("a click outside leaves the panel open; Escape and the button close it", as
 
   await user.keyboard("{Escape}");
   expect(panel()).not.toBeInTheDocument();
-  expect(button).toHaveFocus();
 
   await user.click(button);
   expect(panel()).toBeInTheDocument();
   await user.click(button);
   expect(panel()).not.toBeInTheDocument();
+});
+
+test("Escape returns focus to Filters only from inside the panel, and reports itself", async () => {
+  const user = userEvent.setup();
+  const { onEscape } = renderControl();
+  const button = screen.getByRole("button", { name: "Filters" });
+  await user.click(button);
+  await user.click(screen.getByRole("button", { name: /^Town/ }));
+  await user.keyboard("{Escape}");
+  expect(button).toHaveFocus();
+  expect(onEscape).toHaveBeenCalledTimes(1);
+
+  // From outside, such as the search box, focus stays put.
+  await user.click(button);
+  const elsewhere = screen.getByRole("button", { name: "Elsewhere" });
+  await user.click(elsewhere);
+  await user.keyboard("{Escape}");
+  expect(panel()).not.toBeInTheDocument();
+  expect(elsewhere).toHaveFocus();
 });
 
 test("the button is disabled until the index has loaded", () => {
