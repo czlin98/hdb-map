@@ -52,6 +52,8 @@ test("Clear all is enabled only while a filter is on, and empties the store", ()
   fireEvent.click(clearAll());
   expect(useFilters.getState().filters).toEqual(EMPTY_FILTERS);
   expect(clearAll()).toBeDisabled();
+  // It disables itself, so focus moves on to the first filter rather than dropping to the page.
+  expect(screen.getByRole("button", { name: /^Town/ })).toHaveFocus();
 });
 
 // A slider whose minimum equals its maximum has no track to draw.

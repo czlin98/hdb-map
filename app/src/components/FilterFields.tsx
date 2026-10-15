@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useRef } from "react";
 import { activeCount, dataLimits } from "../lib/filtering";
 import { useFilters } from "../store/filters";
 import type { BlockFeature, Town } from "../types/contract";
@@ -17,6 +17,7 @@ export function FilterFields({ features, towns }: Props) {
   const filters = useFilters((s) => s.filters);
   const { toggleTown, setRange, reset, clearAll } = useFilters.getState();
   const limits = useMemo(() => dataLimits(features), [features]);
+  const listRef = useRef<HTMLDivElement>(null);
   // Before the index loads, a slider's minimum equals its maximum and it has no track to draw.
   if (features.length === 0) return null;
 
@@ -29,12 +30,17 @@ export function FilterFields({ features, towns }: Props) {
           variant="link"
           className="h-auto p-0 text-xs"
           disabled={activeCount(filters) === 0}
-          onClick={clearAll}
+          onClick={() => {
+            clearAll();
+            // Clear all disables itself, which would drop focus to the page: hand it to the first
+            // filter, the town row's button.
+            listRef.current?.querySelector<HTMLElement>("button[aria-expanded]")?.focus();
+          }}
         >
           Clear all
         </Button>
       </div>
-      <div className="space-y-5">
+      <div ref={listRef} className="space-y-5">
         <TownFilter
           towns={towns}
           features={features}
