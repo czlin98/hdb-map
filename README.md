@@ -2,14 +2,15 @@
 
 A mobile-first, interactive web map of Singapore's ~10,000 residential HDB blocks. Every block is an
 individually rendered marker (no clustering). Hover (desktop) to see a block's address, tap/click to
-open its details, search by address to fly to a specific block, and color the blocks by year
-completed or number of floors.
+open its details, search by address to fly to a specific block, color the blocks by year completed
+or number of floors, and filter them by town, year completed, and floors.
 
 **Live:** [hdb-map.vercel.app](https://hdb-map.vercel.app)
 
-> **Status:** v1 is live, plus marker coloring. Block data refreshes automatically on the 1st of
-> each month. The [design spec](docs/specs/hdb-map-design.md) describes the app as shipped, and
-> lists the planned next iterations (more coloring modes, filters, resale prices, and more).
+> **Status:** v1 is live, plus marker coloring and filtering. Block data refreshes automatically on
+> the 1st of each month. The [design spec](docs/specs/hdb-map-design.md) describes the app as
+> shipped, and lists the planned next iterations (more coloring modes, a flat-type filter, resale
+> prices, and more).
 
 ## How it works
 
@@ -80,8 +81,9 @@ repository secrets. See [`CLAUDE.md`](CLAUDE.md) for the full command list.
 - [Frontend Implementation Plan](docs/plans/hdb-map-frontend.md) and
   [Data Pipeline Implementation Plan](docs/plans/hdb-map-pipeline.md): the original task-by-task
   build record, each with a "Post-implementation deltas" section for later changes
-- [Marker Coloring Implementation Plan](docs/plans/hdb-map-marker-coloring.md): the task-by-task
-  build record for marker coloring
+- [Marker Coloring Implementation Plan](docs/plans/hdb-map-marker-coloring.md) and
+  [Filtering Implementation Plan](docs/plans/hdb-map-filtering.md): the task-by-task build records
+  for marker coloring and filtering
 
 ## Data & attribution
 

@@ -455,8 +455,10 @@ MapView, ColorControl, ColorLegend, and DetailsPanel, and lives in a small
 Zustand store of its own. It is not persisted (§5.10).
 
 The **filters** (towns, year range, floor range) live in a third small
-store, read by MapView, the filter controls, and ColorLegend. They are not
-persisted either (§5.11).
+store, read by App and the filter controls. App derives the visible blocks
+once, passes the filters to MapView, and passes the visible blocks to
+ColorLegend and the block count, so the legend counts what the map shows
+without knowing about filters. They are not persisted either (§5.11).
 
 ### 5.3 Data loading (`lib/`)
 
@@ -741,9 +743,9 @@ coloring (§5.10): a coloring mode colors whatever stays visible.
   built yet (§7.2).
   - **Town:** a checklist of the towns in `towns.json`, each with its total
     block count (not narrowed by the other filters), folded into one row
-    that names the current choice. Ticking
-    several shows the blocks in any of them. On desktop the open list
-    scrolls on its own, so the range filters below it stay in reach.
+    that names the current choice. Ticking several shows the blocks in any
+    of them. On desktop the open list scrolls on its own, so the range
+    filters below it stay in reach.
   - **Year completed** and **floors:** each a two-thumb range slider with a
     "from" and a "to" number box. The slider sweeps a range quickly; the
     boxes give an exact value, which a thumb can't on a phone-width track.

@@ -52,10 +52,10 @@ This is the interface between the two halves. `export.py` writes it and `app/src
 types it. **Keep these two in sync when changing any field.** Files:
 
 - `index.geojson`: one Point `Feature` per block, with lightweight properties (`id`, `blk_no`,
-  `street`/`street_full`, `postal`, `town`) plus the two marker-coloring values (`year_completed`,
-  `max_floor_lvl`, mirrored from the shard), since coloring needs every block at once. Loaded whole
-  at startup; drives the map and the search index. Written compact, one block per line, coordinates
-  rounded to 6 decimals (`export.py`).
+  `street`/`street_full`, `postal`, `town`) plus the two values that coloring and filtering read
+  (`year_completed`, `max_floor_lvl`, mirrored from the shard), since both need every block at once.
+  Loaded whole at startup; drives the map and the search index. Written compact, one block per line,
+  coordinates rounded to 6 decimals (`export.py`).
 - `block-details/{town_slug}.json`: heavy per-block detail (unit counts, year, floors) **sharded by
   town** and keyed by block `id`. Lazy-loaded one shard at a time and cached (`createGetBlockDetail`
   in `app/src/lib/data.ts`). A shard is written for _every_ town, even empty ones.
@@ -93,9 +93,20 @@ MapLibre GL, free, no API key.
 
 Marker coloring: `lib/coloring.ts` is the single definition of the bands (edges, labels, colors) and
 derives the MapLibre `step` expression, the band lookup, and the legend counts from it. The active
-mode lives in its own Zustand store (`store/color.ts`, not persisted). `ColorControl` (the menu
-beside the search box), `ColorLegend` (bottom-left), and the details panel's band swatch read the
-store; `MapView` gets the mode as a prop and swaps `circle-color` with `setPaintProperty`.
+mode lives in its own Zustand store (`store/color.ts`, not persisted). `ColorControl` (the desktop
+menu), `ColorModeRow` (its mobile counterpart, in the options sheet), `ColorLegend` (bottom-left),
+and the details panel's band swatch read the store; `MapView` gets the mode as a prop and swaps
+`circle-color` with `setPaintProperty`.
+
+Filtering: `lib/filtering.ts` is the single definition of a filter (the predicate, the MapLibre
+filter expression, the data limits, and the active count), and a test checks that the expression and
+the predicate agree. The filters live in `store/filters.ts` (not persisted). `App` derives the
+visible blocks once and hands them to `ColorLegend` and the block count; `MapView` gets the filters
+as a prop and sets one expression on `blocks-circles` and `blocks-labels`, leaving the highlight
+layers exempt so a searched block still shows. The filter list (`FilterFields`) sits in a non-modal
+popover on desktop (`FiltersControl`, in a row with `ColorControl` under the search box) and in a
+second Vaul sheet on mobile (`MapOptionsControl`, one button for both Color and Filters). Only one
+mobile sheet is open at a time.
 
 ## Code style
 
@@ -150,7 +161,7 @@ Form:
 `docs/specs/hdb-map-design.md` (design spec) is the authoritative description of current behavior
 and its design decisions. `docs/plans/` holds the frozen implementation plans: frontend and pipeline
 for v1, whose "Post-implementation deltas" sections are closed, and one per later feature (marker
-coloring). Where a plan and the spec disagree, the spec is right.
+coloring, filtering). Where a plan and the spec disagree, the spec is right.
 
 - **Keep the spec in sync.** When a change alters behavior the spec describes, update the spec in
   the same PR. Don't add new deltas to the plans.
