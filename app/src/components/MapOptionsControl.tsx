@@ -1,5 +1,6 @@
 import { useEffect, type Ref } from "react";
 import { SlidersHorizontalIcon } from "lucide-react";
+import { COLOR_SCALES } from "../lib/coloring";
 import { activeCount } from "../lib/filtering";
 import { sheetBodyClass } from "../lib/sheet";
 import { useColorMode } from "../store/color";
@@ -37,7 +38,15 @@ export function MapOptionsControl({
   triggerRef,
 }: Props) {
   const count = useFilters((s) => activeCount(s.filters));
-  const colorOn = useColorMode((s) => s.mode !== "none");
+  const mode = useColorMode((s) => s.mode);
+  // The badge hides the coloring dot while filters are on, so the name carries both.
+  const label = [
+    "Map options",
+    mode !== "none" && `colored by ${COLOR_SCALES[mode].name}`,
+    count > 0 && `${count} ${count === 1 ? "filter" : "filters"} on`,
+  ]
+    .filter(Boolean)
+    .join(", ");
   const full = snapPoints[snapPoints.length - 1];
 
   // Vaul leaves Radix's Dialog modal, which sets pointer-events: none on the body and freezes the
@@ -59,9 +68,7 @@ export function MapOptionsControl({
         variant="control"
         size="icon"
         className="justify-center"
-        aria-label={
-          count ? `Map options, ${count} ${count === 1 ? "filter" : "filters"} on` : "Map options"
-        }
+        aria-label={label}
         onClick={() => onOpenChange(!open)}
       >
         <SlidersHorizontalIcon className="size-4 opacity-70" />
@@ -70,7 +77,7 @@ export function MapOptionsControl({
             {count}
           </span>
         ) : (
-          colorOn && (
+          mode !== "none" && (
             <span
               data-testid="options-color-on"
               className="ring-popover absolute top-1.5 right-1.5 size-2 rounded-full bg-blue-600 ring-2"

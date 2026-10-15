@@ -147,7 +147,10 @@ test("the map follows the filter panel", async () => {
     "data-filters",
     JSON.stringify({ towns: ["BEDOK"], year: null, floors: null }),
   );
-  expect(within(filtersPanel()!).getByRole("status")).toHaveTextContent("Showing 1 of 2 blocks");
+  // The announced count waits for a pause in the changes.
+  await waitFor(() =>
+    expect(within(filtersPanel()!).getByRole("status")).toHaveTextContent("Showing 1 of 2 blocks"),
+  );
 });
 
 test("the legend counts only the visible blocks and greys an emptied band", async () => {

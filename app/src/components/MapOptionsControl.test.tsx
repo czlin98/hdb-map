@@ -42,7 +42,7 @@ test("the closed button is named Map options and toggles the sheet", async () =>
 test("it shows a dot while only a coloring mode is on", () => {
   renderControl(false);
   act(() => useColorMode.getState().setMode("year"));
-  expect(screen.getByRole("button", { name: "Map options" })).toBeInTheDocument();
+  expect(screen.getByRole("button", { name: "Map options, colored by Year" })).toBeInTheDocument();
   expect(screen.getByTestId("options-color-on")).toBeInTheDocument();
 });
 
@@ -53,7 +53,7 @@ test("with filters on it shows their count instead of the dot", () => {
     useFilters.getState().toggleTown("BEDOK");
     useFilters.getState().setRange("floors", [12, 20]);
   });
-  const button = screen.getByRole("button", { name: "Map options, 2 filters on" });
+  const button = screen.getByRole("button", { name: "Map options, colored by Year, 2 filters on" });
   expect(button).toHaveTextContent("2");
   expect(screen.queryByTestId("options-color-on")).not.toBeInTheDocument();
 });

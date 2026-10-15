@@ -1,5 +1,5 @@
-import { fireEvent, render, screen } from "@testing-library/react";
-import { beforeEach, expect, test } from "vitest";
+import { act, fireEvent, render, screen } from "@testing-library/react";
+import { beforeEach, expect, test, vi } from "vitest";
 import { BlockCount, FilterFields } from "./FilterFields";
 import { EMPTY_FILTERS } from "../lib/filtering";
 import { useFilters } from "../store/filters";
@@ -72,4 +72,19 @@ test("BlockCount reports the shown and total blocks in a status region", () => {
 test("BlockCount renders nothing before the index has loaded", () => {
   const { container } = render(<BlockCount shown={0} total={0} />);
   expect(container).toBeEmptyDOMElement();
+});
+
+test("BlockCount shows each change at once but announces only after a pause", () => {
+  vi.useFakeTimers();
+  try {
+    const { container, rerender } = render(<BlockCount shown={10} total={100} />);
+    rerender(<BlockCount shown={9} total={100} />);
+    rerender(<BlockCount shown={8} total={100} />);
+    expect(container).toHaveTextContent("Showing 8 of 100 blocks");
+    expect(screen.getByRole("status")).toHaveTextContent("Showing 10 of 100 blocks");
+    act(() => vi.advanceTimersByTime(500));
+    expect(screen.getByRole("status")).toHaveTextContent("Showing 8 of 100 blocks");
+  } finally {
+    vi.useRealTimers();
+  }
 });

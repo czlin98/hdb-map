@@ -23,11 +23,11 @@ export function ColorModeRow() {
       <h2 id={titleId} className="text-muted-foreground mb-3 text-xs font-medium">
         Color by
       </h2>
-      {/* Native radios, laid out as three segments with the checked one raised. */}
+      {/* Native radios, laid out as equal segments with the checked one raised. */}
       <div
         role="radiogroup"
         aria-labelledby={titleId}
-        className="bg-muted grid grid-cols-3 gap-1 rounded-md p-1"
+        className="bg-muted grid auto-cols-fr grid-flow-col gap-1 rounded-md p-1"
       >
         {OPTIONS.map(([value, label]) => (
           <label
