@@ -1,6 +1,6 @@
-import { act, render, screen, waitFor, within } from "@testing-library/react";
+import { act, fireEvent, render, screen, waitFor, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { afterEach, expect, test, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 
 // MapView has its own tests; a clickable stub makes the App wiring testable.
 vi.mock("./components/MapView", () => ({
@@ -240,4 +240,86 @@ test("the error card hides the Filters and Color buttons and the legend", async 
   expect(screen.queryByRole("button", { name: /^Filters/ })).not.toBeInTheDocument();
   expect(screen.queryByRole("button", { name: /^Color/ })).not.toBeInTheDocument();
   expect(screen.queryByRole("region", { name: /legend/ })).not.toBeInTheDocument();
+});
+
+describe("on a phone", () => {
+  // setup.ts reports the desktop breakpoint; these tests take the mobile path instead.
+  beforeEach(() => {
+    vi.spyOn(window, "matchMedia").mockImplementation(
+      (query: string) =>
+        ({
+          matches: false,
+          media: query,
+          addEventListener: () => {},
+          removeEventListener: () => {},
+        }) as unknown as MediaQueryList,
+    );
+  });
+
+  const optionsSheet = () => screen.queryByRole("dialog", { name: "Map options" });
+  // An opening sheet locks the body's pointer events until the next animation frame (see
+  // MapOptionsControl), before a person could tap; userEvent would click before that.
+  const nextFrame = () => act(() => new Promise<void>((r) => requestAnimationFrame(() => r())));
+  const detailsHeading = () => screen.queryByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ });
+
+  async function renderLoaded() {
+    stubLoaded();
+    render(<App />);
+    await screen.findByText("marker-123-ang-mo-kio-ave-3");
+  }
+
+  test("the options button opens the sheet, with Color above Filters", async () => {
+    await renderLoaded();
+    expect(screen.queryByRole("button", { name: /^Color/ })).not.toBeInTheDocument();
+    await userEvent.click(screen.getByRole("button", { name: "Map options" }));
+    expect(optionsSheet()).toBeInTheDocument();
+    const color = screen.getByRole("radiogroup", { name: "Color by" });
+    const filters = screen.getByRole("heading", { name: "Filters" });
+    expect(color.compareDocumentPosition(filters) & FOLLOWING).toBeTruthy();
+  });
+
+  test("selecting a marker closes the options sheet and opens its details", async () => {
+    await renderLoaded();
+    await userEvent.click(screen.getByRole("button", { name: "Map options" }));
+    await nextFrame();
+    await userEvent.click(screen.getByText("marker-123-ang-mo-kio-ave-3"));
+    expect(await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ })).toBeVisible();
+    await waitFor(() => expect(optionsSheet()).not.toBeInTheDocument());
+  });
+
+  test("the options button closes open details, clearing the selection", async () => {
+    await renderLoaded();
+    await userEvent.click(screen.getByText("marker-123-ang-mo-kio-ave-3"));
+    await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ });
+    await nextFrame();
+    // hidden: Vaul leaves Radix's dialog modal, so the app outside an open sheet is aria-hidden.
+    await userEvent.click(screen.getByRole("button", { name: "Map options", hidden: true }));
+    expect(optionsSheet()).toBeInTheDocument();
+    await waitFor(() => expect(detailsHeading()).not.toBeInTheDocument());
+    await waitFor(() => expect(useSelection.getState().selectedId).toBeNull());
+  });
+
+  test("a map background tap closes the options sheet", async () => {
+    await renderLoaded();
+    await userEvent.click(screen.getByRole("button", { name: "Map options" }));
+    await nextFrame();
+    await userEvent.click(screen.getByText("map-background"));
+    await waitFor(() => expect(optionsSheet()).not.toBeInTheDocument());
+  });
+
+  test("filters set in the sheet survive it closing", async () => {
+    await renderLoaded();
+    await userEvent.click(screen.getByRole("button", { name: "Map options" }));
+    // Bare clicks inside the sheet: userEvent's pointerdown reaches Vaul's drag handler, which
+    // calls setPointerCapture, missing from jsdom.
+    fireEvent.click(screen.getByRole("button", { name: /^Town/ }));
+    fireEvent.click(screen.getByRole("checkbox", { name: /BEDOK/ }));
+    fireEvent.click(screen.getByRole("button", { name: "Done" }));
+    await waitFor(() => expect(optionsSheet()).not.toBeInTheDocument());
+    expect(screen.getByTestId("map")).toHaveAttribute(
+      "data-filters",
+      JSON.stringify({ towns: ["BEDOK"], year: null, floors: null }),
+    );
+    expect(screen.getByRole("button", { name: "Map options, 1 filter on" })).toBeInTheDocument();
+  });
 });

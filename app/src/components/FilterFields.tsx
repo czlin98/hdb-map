@@ -11,10 +11,9 @@ interface Props {
   // filters narrow.
   features: BlockFeature[];
   towns: Town[];
-  onBoxFocus?: () => void;
 }
 
-export function FilterFields({ features, towns, onBoxFocus }: Props) {
+export function FilterFields({ features, towns }: Props) {
   const filters = useFilters((s) => s.filters);
   const { toggleTown, setRange, reset, clearAll } = useFilters.getState();
   const limits = useMemo(() => dataLimits(features), [features]);
@@ -48,14 +47,12 @@ export function FilterFields({ features, towns, onBoxFocus }: Props) {
           limits={limits.year}
           value={filters.year}
           onChange={(range) => setRange("year", range)}
-          onBoxFocus={onBoxFocus}
         />
         <RangeFilter
           title="Floors"
           limits={limits.floors}
           value={filters.floors}
           onChange={(range) => setRange("floors", range)}
-          onBoxFocus={onBoxFocus}
         />
       </div>
     </div>

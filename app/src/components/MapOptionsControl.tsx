@@ -1,4 +1,4 @@
-import type { Ref } from "react";
+import { useEffect, type Ref } from "react";
 import { SlidersHorizontalIcon } from "lucide-react";
 import { activeCount } from "../lib/filtering";
 import { sheetBodyClass } from "../lib/sheet";
@@ -13,7 +13,7 @@ import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
 interface Props {
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  // The details sheet's, so the two sheets rest and drag alike.
+  // The sheet's rest positions, top one last.
   snapPoints: (string | number)[];
   activeSnap: string | number | null;
   onSnapChange: (snap: string | number | null) => void;
@@ -39,6 +39,17 @@ export function MapOptionsControl({
   const count = useFilters((s) => activeCount(s.filters));
   const colorOn = useColorMode((s) => s.mode !== "none");
   const full = snapPoints[snapPoints.length - 1];
+
+  // Vaul leaves Radix's Dialog modal, which sets pointer-events: none on the body and freezes the
+  // map. Vaul undoes that a frame later, but only when it opens itself or mounts open; this sheet
+  // stays mounted and opens through the prop, so undo it here the same way.
+  useEffect(() => {
+    if (!open) return;
+    const frame = requestAnimationFrame(() => {
+      document.body.style.pointerEvents = "auto";
+    });
+    return () => cancelAnimationFrame(frame);
+  }, [open]);
 
   return (
     <>
@@ -95,12 +106,7 @@ export function MapOptionsControl({
             className={`min-h-0 flex-1 space-y-6 px-4 pb-4 ${sheetBodyClass(activeSnap === full)}`}
           >
             <ColorModeRow />
-            <FilterFields
-              features={features}
-              towns={towns}
-              // Raised to full, clear of the on-screen keyboard.
-              onBoxFocus={() => onSnapChange(full)}
-            />
+            <FilterFields features={features} towns={towns} />
           </div>
         </DrawerContent>
       </Drawer>

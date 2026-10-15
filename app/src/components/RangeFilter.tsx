@@ -13,11 +13,9 @@ interface Props {
   limits: Range;
   value: Range | null; // null = off
   onChange: (value: Range | null) => void;
-  // The mobile sheet rises to full, clear of the on-screen keyboard.
-  onBoxFocus?: () => void;
 }
 
-export function RangeFilter({ title, limits, value, onChange, onBoxFocus }: Props) {
+export function RangeFilter({ title, limits, value, onChange }: Props) {
   const titleId = useId();
   const sliderRef = useRef<HTMLSpanElement>(null);
   const current = value ?? limits;
@@ -52,7 +50,6 @@ export function RangeFilter({ title, limits, value, onChange, onBoxFocus }: Prop
       onChange={(e) => setDraft(end, e.target.value)}
       onKeyDown={(e) => e.key === "Enter" && commit(end)}
       onBlur={() => commit(end)}
-      onFocus={onBoxFocus}
       // Keeps the stock text-base below md: under 16px, iOS Safari zooms in on focus. The spinner
       // arrows are hidden: they cover the last digit, and the arrow keys still step.
       className="h-8 w-16 [appearance:textfield] px-2 tabular-nums [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
@@ -72,7 +69,7 @@ export function RangeFilter({ title, limits, value, onChange, onBoxFocus }: Prop
               label={`Reset ${title.toLowerCase()}`}
               onClick={() => {
                 onChange(null);
-                // Not a number box: on a phone that would open the keyboard and raise the sheet.
+                // Not a number box: on a phone that would open the keyboard.
                 sliderRef.current?.querySelector<HTMLElement>('[role="slider"]')?.focus();
               }}
             />

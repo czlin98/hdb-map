@@ -112,6 +112,6 @@ test("Reset turns the filter off and moves focus to the from thumb", () => {
   expect(onChange).toHaveBeenLastCalledWith(null);
   expect(resetLink()).not.toBeInTheDocument();
   expect(box("from").value).toBe("1960");
-  // Not a number box: on a phone that would open the keyboard and raise the sheet.
+  // Not a number box: on a phone that would open the keyboard.
   expect(thumb("from")).toHaveFocus();
 });

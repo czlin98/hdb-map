@@ -541,6 +541,15 @@ persisted either (§5.11).
   `Sheet` that slides in, also non-modal (no overlay, no focus trap, and
   clicking outside doesn't dismiss it). Panning or zooming the map never
   closes the panel; tapping empty map does (§5.4).
+  - Known weakness (both mobile sheets, this one and the options sheet of
+    §5.11): Vaul leaves Radix's dialog modal underneath, so while a sheet is
+    open the rest of the app is `aria-hidden`. A screen reader reaches only
+    the sheet, which it can still close, so nothing is out of reach, but it
+    takes an extra step: the search box and the options button come back
+    once the sheet closes. Desktop is unaffected. The same modal default
+    also locks pointer events on the page; Vaul releases that a frame later
+    for the details sheet, and the options sheet releases it itself, since
+    it opens through its `open` prop, which Vaul's release misses.
 - **Snap points (mobile).** The Vaul `Drawer` is a resizable sheet with three
   rest positions:
   - **peek:** 95 px, enough for the header
@@ -797,16 +806,21 @@ coloring (§5.10): a coloring mode colors whatever stays visible.
     above it and updates as filters change. It covers the legend at every
     rest position, peek included, and the coloring key is not repeated
     inside it; closing the sheet brings the legend back.
-  - It has the details sheet's three rest positions (§5.5) and the same drag
-    gestures, so both sheets handle alike. It opens at half height. **Peek**
-    shows only its header, the title and the block count, so the map can be
-    read with the count still in view. Content scrolls only at **full**, so the Color row
-    and the three filters are laid out to fit at half height on most
-    phones; the expanded town list needs full.
+  - It has the details sheet's drag gestures and its full rest position
+    (§5.5), but its other two rests are sized to its content rather than to
+    the screen: content scrolls only at **full**, and at half height the
+    floors filter fell below the sheet's edge on shorter phones. The middle
+    rest, where it opens, shows the Color row and the three folded filters;
+    the expanded town list needs full. **Peek** shows the header and the
+    Color row, so the coloring can be switched with most of the map in
+    view. The legend stays covered there too, so until the sheet closes the
+    colors read only from light to dark (older to newer, lower to taller).
   - A slider's thumbs are exempt from the sheet's drag, so dragging one
     moves the thumb, not the sheet.
-  - Focusing a number box raises the sheet to full, clear of the on-screen
-    keyboard.
+  - Focusing a number box leaves the sheet where it is: the browser brings
+    the box into view above the on-screen keyboard, and back when it
+    closes. Raising the sheet as well overshot it on iOS, where Safari's
+    own move adds to the sheet's.
   - One sheet at a time: selecting a block (on the map or from search)
     closes the options sheet and opens that block's details, and opening
     the options sheet closes any open details, which clears the selection.
