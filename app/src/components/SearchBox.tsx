@@ -62,7 +62,9 @@ export function SearchBox({ rows, onSelect, onDismiss, inputRef }: Props) {
       shouldFilter={false}
       value={active}
       onValueChange={setActive}
-      className="w-full shadow-md"
+      // Out of flow, so the results list overlays the row of buttons below instead of pushing
+      // it down. z-10: those positioned buttons come later in the DOM and would paint over it.
+      className="absolute inset-x-0 top-0 z-10 h-auto w-full shadow-md"
     >
       <CommandInput
         ref={inputRef}

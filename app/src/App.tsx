@@ -1,18 +1,26 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import type { IndexFeatureCollection, Town } from "./types/contract";
 import { buildTownSlugMap, createGetBlockDetail, loadIndex, loadTowns } from "./lib/data";
 import { buildSearchIndex } from "./lib/search";
+import { activeCount, matches } from "./lib/filtering";
 import { useSelection } from "./store/selection";
 import { useColorMode } from "./store/color";
+import { useFilters } from "./store/filters";
 import { MapView } from "./components/MapView";
 import { SearchBox } from "./components/SearchBox";
 import { ColorControl } from "./components/ColorControl";
 import { ColorLegend } from "./components/ColorLegend";
+import { FiltersControl } from "./components/FiltersControl";
+import { MapOptionsControl } from "./components/MapOptionsControl";
 import { DetailsPanel, type DetailsPanelHandle } from "./components/DetailsPanel";
 
 const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", features: [] };
 // Peek at the details header, a half sheet, then fully open.
 const SNAP_POINTS = ["95px", 0.5, 1] as const;
+// The options sheet's rests fit its content: peek ends just under the Color row (157px), and the
+// middle rest fits the three folded filters too (about 395px), which half height cuts off on
+// shorter phones. Revisit both when the sheet's layout changes or a filter is added.
+const OPTIONS_SNAP_POINTS = ["168px", "400px", 1] as const;
 
 function useIsDesktop() {
   const [desktop, setDesktop] = useState(() =>
@@ -35,20 +43,42 @@ export default function App() {
   // Lifted here so a background map tap can start the close animation; the panel calls
   // onClose (clearing the selection) only once that animation ends.
   const [panelOpen, setPanelOpen] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [optionsOpen, setOptionsOpen] = useState(false);
+  const [optionsSnap, setOptionsSnap] = useState<string | number | null>(OPTIONS_SNAP_POINTS[1]);
+  const [legendClearance, setLegendClearance] = useState(0);
   const isDesktop = useIsDesktop();
   const searchInputRef = useRef<HTMLInputElement>(null);
+  // The Color button on desktop, the options button on mobile: the legend's x returns focus here.
   const colorButtonRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<DetailsPanelHandle>(null);
+  const legendRef = useRef<HTMLElement>(null);
 
   const { selectedId, selectedTown, select, clear } = useSelection();
   const colorMode = useColorMode((s) => s.mode);
+  const filters = useFilters((s) => s.filters);
 
   // Opening in the same handler as the selection (not an effect) means the panel's first
   // render already sees open=true and never flashes a close.
+  // One mobile sheet at a time: a block's details replace the options sheet, and the reverse.
   const openBlock = (id: string, town: string) => {
+    setOptionsOpen(false);
     select(id, town);
     setPanelOpen(true);
   };
+  const setOptions = (open: boolean) => {
+    if (open) {
+      panelRef.current?.close();
+      setOptionsSnap(OPTIONS_SNAP_POINTS[1]);
+    }
+    setOptionsOpen(open);
+  };
+
+  // Each surface belongs to one layout, so crossing the breakpoint closes them.
+  useEffect(() => {
+    setFiltersOpen(false);
+    setOptionsOpen(false);
+  }, [isDesktop]);
 
   useEffect(() => {
     let alive = true;
@@ -71,6 +101,21 @@ export default function App() {
   }, [selectedId]);
 
   const searchRows = useMemo(() => buildSearchIndex(index), [index]);
+  // The search box and the filter controls keep the whole index; the legend and count follow this.
+  const visible = useMemo(
+    () =>
+      activeCount(filters)
+        ? index.features.filter((f) => matches(f.properties, filters))
+        : index.features,
+    [index, filters],
+  );
+
+  // The filter panel stops above the legend: the distance from the window's bottom to its top.
+  useLayoutEffect(() => {
+    const top = legendRef.current?.getBoundingClientRect().top;
+    setLegendClearance(top === undefined ? 0 : window.innerHeight - top);
+  }, [colorMode, status, isDesktop]);
+
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
 
   // On mobile, pad the fly-to by the sheet's height so the selected marker lands above it.
@@ -89,18 +134,25 @@ export default function App() {
         data={index}
         selectedId={selectedId}
         onSelectBlock={openBlock}
-        onBackgroundClick={() => panelRef.current?.close()}
+        onBackgroundClick={() => {
+          panelRef.current?.close();
+          setFiltersOpen(false);
+          setOptionsOpen(false);
+        }}
         flyPaddingBottom={flyPaddingBottom}
         topClearanceRef={isDesktop ? undefined : searchInputRef}
         showZoomButtons={isDesktop}
         colorMode={colorMode}
         collapseCreditsOnColor={!isDesktop}
+        filters={filters}
       />
 
       {status !== "error" && (
-        <div className="absolute top-2 left-1/2 z-30 flex w-[min(92vw,22rem)] -translate-x-1/2 items-start gap-2 md:left-2 md:w-auto md:translate-x-0">
-          {/* min-w-0 lets the search shrink below its content width, so the button fits. */}
-          <div className="min-w-0 flex-1 md:w-[22rem] md:flex-none">
+        // Mobile: one row, search then options. Desktop: a column, search above a row of buttons.
+        <div className="absolute top-2 left-1/2 z-30 flex w-[min(92vw,22rem)] -translate-x-1/2 items-start gap-2 md:left-2 md:w-auto md:translate-x-0 md:flex-col">
+          {/* min-w-0 lets the search shrink below its content width, so the button fits. A fixed
+              height, since the search card is out of flow. */}
+          <div className="relative h-9 min-w-0 flex-1 md:w-[22rem] md:flex-none">
             <SearchBox
               rows={searchRows}
               onSelect={(r) => openBlock(r.id, r.town)}
@@ -108,14 +160,48 @@ export default function App() {
               inputRef={searchInputRef}
             />
           </div>
-          <ColorControl compact={!isDesktop} triggerRef={colorButtonRef} />
+          <div className="flex gap-2">
+            {isDesktop ? (
+              <>
+                <FiltersControl
+                  open={filtersOpen}
+                  onOpenChange={setFiltersOpen}
+                  features={index.features}
+                  towns={towns}
+                  shown={visible.length}
+                  total={index.features.length}
+                  bottomInset={legendClearance}
+                  onEscape={() => panelRef.current?.close()}
+                />
+                <ColorControl
+                  triggerRef={colorButtonRef}
+                  // The menu closes on an outside press by itself; the panel doesn't, by design.
+                  onOpenChange={(open) => open && setFiltersOpen(false)}
+                />
+              </>
+            ) : (
+              <MapOptionsControl
+                open={optionsOpen}
+                onOpenChange={setOptions}
+                snapPoints={[...OPTIONS_SNAP_POINTS]}
+                activeSnap={optionsSnap}
+                onSnapChange={setOptionsSnap}
+                features={index.features}
+                towns={towns}
+                shown={visible.length}
+                total={index.features.length}
+                triggerRef={colorButtonRef}
+              />
+            )}
+          </div>
         </div>
       )}
 
       {/* Stays mounted under the mobile sheet: even the peek snap is taller than the legend. */}
       {status === "ready" && (
         <ColorLegend
-          features={index.features}
+          ref={legendRef}
+          features={visible}
           isDesktop={isDesktop}
           returnFocusRef={colorButtonRef}
         />
@@ -142,6 +228,7 @@ export default function App() {
           open={panelOpen}
           onOpenChange={setPanelOpen}
           onClose={clear}
+          onEscape={() => setFiltersOpen(false)}
         />
       )}
     </main>

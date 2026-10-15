@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { beforeEach, expect, test } from "vitest";
+import { beforeEach, expect, test, vi } from "vitest";
 import { ColorControl } from "./ColorControl";
 import { useColorMode } from "../store/color";
 
@@ -8,7 +8,7 @@ beforeEach(() => useColorMode.getState().setMode("none"));
 
 test("desktop button names the mode and the menu picks one", async () => {
   const user = userEvent.setup();
-  render(<ColorControl compact={false} />);
+  render(<ColorControl />);
   const button = screen.getByRole("button", { name: "Color" });
   expect(button).toHaveTextContent("Color");
 
@@ -29,7 +29,7 @@ test("desktop button names the mode and the menu picks one", async () => {
 
 test("the menu works from the keyboard", async () => {
   const user = userEvent.setup();
-  render(<ColorControl compact={false} />);
+  render(<ColorControl />);
   screen.getByRole("button", { name: "Color" }).focus();
 
   await user.keyboard("{Enter}");
@@ -45,19 +45,12 @@ test("the menu works from the keyboard", async () => {
   expect(useColorMode.getState().mode).toBe("floors");
 });
 
-test("compact button is icon-only, with a dot while a mode is on", async () => {
+test("reports the menu opening and closing", async () => {
   const user = userEvent.setup();
-  render(<ColorControl compact />);
-  const button = screen.getByRole("button", { name: "Color" });
-  expect(button).toHaveTextContent("");
-  expect(screen.queryByTestId("color-on")).not.toBeInTheDocument();
-
-  await user.click(button);
-  await user.click(screen.getByRole("menuitemradio", { name: "Floors" }));
-  expect(screen.getByRole("button", { name: "Color: Floors" })).toBeInTheDocument();
-  expect(screen.getByTestId("color-on")).toBeInTheDocument();
-
-  await user.click(screen.getByRole("button", { name: "Color: Floors" }));
-  await user.click(screen.getByRole("menuitemradio", { name: "No coloring" }));
-  expect(screen.queryByTestId("color-on")).not.toBeInTheDocument();
+  const onOpenChange = vi.fn();
+  render(<ColorControl onOpenChange={onOpenChange} />);
+  await user.click(screen.getByRole("button", { name: "Color" }));
+  expect(onOpenChange).toHaveBeenLastCalledWith(true);
+  await user.keyboard("{Escape}");
+  expect(onOpenChange).toHaveBeenLastCalledWith(false);
 });

@@ -7,8 +7,8 @@ export interface BlockIndexProperties {
   street_full: string; // abbreviations expanded (search)
   postal: string;
   town: string;
-  year_completed: number; // marker coloring; mirrors the detail shard
-  max_floor_lvl: number; // marker coloring; mirrors the detail shard
+  year_completed: number; // coloring and filtering; mirrors the detail shard
+  max_floor_lvl: number; // coloring and filtering; mirrors the detail shard
 }
 
 export interface BlockFeature {
