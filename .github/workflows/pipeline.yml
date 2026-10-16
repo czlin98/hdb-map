@@ -29,30 +29,57 @@ jobs:
           ONEMAP_EMAIL: ${{ secrets.ONEMAP_EMAIL }}
           ONEMAP_PASSWORD: ${{ secrets.ONEMAP_PASSWORD }}
           PYTHONUNBUFFERED: "1" # stream per-block geocode logs live
+          RUN_SUMMARY_PATH: ${{ runner.temp }}/summary.json
         run: python src/run.py
       - name: Commit data if changed
         env:
           EVENT_NAME: ${{ github.event_name }}
+          SUMMARY: ${{ runner.temp }}/summary.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add app/public/data pipeline/failed_blocks.csv
           if git diff --cached --quiet; then
-            echo "No data changes; nothing to commit."
-          else
-            # A manual dispatch is tagged so it stands apart from the monthly refresh.
-            DATE=$(jq -r .data_accessed app/public/data/meta.json)
-            if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
-              RUN_TYPE=manual
-            else
-              RUN_TYPE=monthly
-            fi
-            # meta.json changes on every run, so a commit touching nothing else is a check
-            # that found the data unchanged.
-            if git diff --cached --quiet -- . ':!app/public/data/meta.json'; then
-              git commit -m "chore(data): $RUN_TYPE check, no data changes ($DATE)"
-            else
-              git commit -m "chore(data): $RUN_TYPE HDB data refresh ($DATE)"
-            fi
-            git push
+            echo "No data changes; nothing to commit." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
           fi
+          # A manual dispatch is tagged so it stands apart from the monthly refresh.
+          DATE=$(jq -r .data_accessed app/public/data/meta.json)
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            RUN_TYPE=manual
+          else
+            RUN_TYPE=monthly
+          fi
+          BODY=""
+          # meta.json changes on every run, so a commit touching nothing else is a check
+          # that found the data unchanged.
+          if git diff --cached --quiet -- . ':!app/public/data/meta.json'; then
+            SUBJECT="chore(data): $RUN_TYPE check, no data changes ($DATE)"
+            echo "No data changes." >> "$GITHUB_STEP_SUMMARY"
+          # Read under bash -e, so a damaged file must fall through to the plain message instead
+          # of failing the step before the data is committed.
+          elif KIND=$(jq -er .kind "$SUMMARY" 2>/dev/null) \
+            && BODY=$(jq -er .text "$SUMMARY" 2>/dev/null); then
+            COUNTS_JQ='"+\(.added) -\(.removed) ~\(.changed)"'
+            if [ "$KIND" = "refresh" ] && COUNTS=$(jq -er "$COUNTS_JQ" "$SUMMARY" 2>/dev/null); then
+              SUBJECT="chore(data): $RUN_TYPE HDB data refresh ($DATE): $COUNTS"
+            elif [ "$KIND" = "failures" ]; then
+              SUBJECT="chore(data): $RUN_TYPE check, failed blocks changed ($DATE)"
+            else
+              SUBJECT="chore(data): $RUN_TYPE HDB data refresh ($DATE)"
+            fi
+            # A text block, so the run page shows the same lines as the commit message.
+            printf '```text\n%s\n```\n' "$BODY" >> "$GITHUB_STEP_SUMMARY"
+          else
+            # The summary never blocks a refresh: without it, commit with the plain message.
+            BODY=""
+            SUBJECT="chore(data): $RUN_TYPE HDB data refresh ($DATE)"
+            echo "Summary unavailable; see the warning in the Run pipeline step." \
+              >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -n "$BODY" ]; then
+            printf '%s\n\n%s\n' "$SUBJECT" "$BODY" | git commit -F -
+          else
+            git commit -m "$SUBJECT"
+          fi
+          git push
