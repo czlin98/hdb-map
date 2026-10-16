@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { activeCount, dataLimits } from "../lib/filtering";
 import { useFilters } from "../store/filters";
 import type { BlockFeature, Town } from "../types/contract";
+import { FlatTypeFilter } from "./FlatTypeFilter";
 import { RangeFilter } from "./RangeFilter";
 import { TownFilter } from "./TownFilter";
 import { Button } from "./ui/button";
@@ -17,7 +18,7 @@ interface Props {
 
 export function FilterFields({ features, towns }: Props) {
   const filters = useFilters((s) => s.filters);
-  const { toggleTown, setRange, reset, clearAll } = useFilters.getState();
+  const { toggleTown, toggleFlatType, setRange, reset, clearAll } = useFilters.getState();
   const limits = useMemo(() => dataLimits(features), [features]);
   const listRef = useRef<HTMLDivElement>(null);
   // Before the index loads, a slider's minimum equals its maximum and it has no track to draw.
@@ -61,6 +62,12 @@ export function FilterFields({ features, towns }: Props) {
           limits={limits.floors}
           value={filters.floors}
           onChange={(range) => setRange("floors", range)}
+        />
+        <FlatTypeFilter
+          sold={filters.soldTypes}
+          rental={filters.rentalTypes}
+          onToggle={toggleFlatType}
+          onReset={() => reset("flatTypes")}
         />
       </div>
     </div>

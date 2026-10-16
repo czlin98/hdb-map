@@ -20,6 +20,8 @@ export const sampleIndex: IndexFeatureCollection = {
         town: "ANG MO KIO",
         year_completed: 1978,
         max_floor_lvl: 12,
+        sold_types: ["3room", "4room"],
+        rental_types: ["1room"],
       },
     },
     {
@@ -34,6 +36,8 @@ export const sampleIndex: IndexFeatureCollection = {
         town: "BEDOK",
         year_completed: 2015,
         max_floor_lvl: 30,
+        sold_types: ["4room", "5room"],
+        rental_types: [],
       },
     },
   ],

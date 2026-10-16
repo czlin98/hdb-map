@@ -1,6 +1,6 @@
 from config import make_id
 
-# (source column, output key). Output keys must match app/src/lib/flat-types.ts.
+# (source column, output key), in display order. Output keys must match app/src/lib/flat-types.ts.
 FLAT_TYPES_SOLD = [
     ("1room_sold", "1room"),
     ("2room_sold", "2room"),

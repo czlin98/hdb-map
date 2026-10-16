@@ -52,8 +52,9 @@ This is the interface between the two halves. `export.py` writes it and `app/src
 types it. **Keep these two in sync when changing any field.** Files:
 
 - `index.geojson`: one Point `Feature` per block, with lightweight properties (`id`, `blk_no`,
-  `street`/`street_full`, `postal`, `town`) plus the two values that coloring and filtering read
-  (`year_completed`, `max_floor_lvl`, mirrored from the shard), since both need every block at once.
+  `street`/`street_full`, `postal`, `town`) plus the values that coloring and filtering read, since
+  both need every block at once: `year_completed` and `max_floor_lvl` (mirrored from the shard), and
+  `sold_types`/`rental_types` (the keys of the shard's unit counts, always present, possibly empty).
   Loaded whole at startup; drives the map and the search index. Written compact, one block per line,
   coordinates rounded to 6 decimals (`export.py`).
 - `block-details/{town_slug}.json`: heavy per-block detail (unit counts, year, floors) **sharded by

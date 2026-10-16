@@ -1,7 +1,8 @@
 # HDB Map: Design Spec
 
 **Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1; marker
-coloring added 2026-10-11; filtering added 2026-10-15)
+coloring added 2026-10-11; filtering added 2026-10-15; flat-type filter added
+2026-10-16)
 **Status:** Implemented. This spec describes the app as shipped. The plans in
 `docs/plans/` are the original execution record; the two v1 plans list their
 later deviations under "Post-implementation deltas".
@@ -71,13 +72,12 @@ contract and can change internally without breaking the other.
 - Data: HDB Property Information + OneMap geocoding (lat, lon, postal).
 
 **Added since v1:** marker coloring by year completed or number of floors
-(§5.10), and filtering by town, year completed, and floors (§5.11).
+(§5.10), and filtering by town, year completed, floors, and flat type (§5.11).
 
-**Deferred (see §7):** further coloring modes, the flat-type filter, a
-collapsible sidebar, basemap selector,
-resale prices & transactions, nearest MRT, nearby amenities, geocode-speed
-optimizations (persistent cache, token-bucket limiter), and an About page with
-the full data-licence notice.
+**Deferred (see §7):** further coloring modes, a collapsible sidebar,
+basemap selector, resale prices & transactions, nearest MRT, nearby
+amenities, geocode-speed optimizations (persistent cache, token-bucket
+limiter), and an About page with the full data-licence notice.
 
 ## 2. Repository Layout
 
@@ -287,8 +287,8 @@ is independently readable, an accepted and well-compressing redundancy.
 
 One FeatureCollection, all blocks, loaded once on startup.
 
-At ~10k features the file is about **2.9 MB** as written, and its highly
-repetitive text reaches the browser as about **220 KB of brotli**, within the
+At ~10k features the file is about **3.5 MB** as written, and its highly
+repetitive text reaches the browser as about **240 KB of brotli**, within the
 sub-megabyte budget (§1.2). Two choices keep it there:
 
 - **Coordinates rounded to 6 decimals** (~11 cm).
@@ -300,11 +300,19 @@ sub-megabyte budget (§1.2). Two choices keep it there:
   git diff; one line per block keeps a changed block a one-line diff.
 
 Keeping the index light is what protects that budget; detail lives in the
-shards. The one exception is the two numbers marker coloring needs for every
-block at once (§5.10), `year_completed` and `max_floor_lvl`. Coloring can't
-wait for lazily loaded shards, and the two short integers add only about an
-eighth to the compressed size. Filtering (§5.11) reads the same two values,
-plus `town`.
+shards. The exceptions are the values that coloring and filtering need for
+every block at once, since neither can wait for lazily loaded shards:
+
+- `year_completed` and `max_floor_lvl`, for marker coloring (§5.10) and the
+  range filters (§5.11). The two short integers add about an eighth to the
+  compressed size.
+- `sold_types` and `rental_types`, for the flat-type filter (§5.11): which
+  types the block has units of, as the shard's unit-count keys in the
+  details panel's order. Both are always present, empty when the block has
+  none, so the filter never has to handle a missing list. Another eighth.
+  The counts themselves stay in the shard.
+
+Filtering also reads `town`.
 
 ```jsonc
 {
@@ -321,7 +329,9 @@ plus `town`.
         "postal": "560123",
         "town": "ANG MO KIO",
         "year_completed": 1978,             // coloring + filtering (§5.10, §5.11); mirrors the shard
-        "max_floor_lvl": 12                 // coloring + filtering (§5.10, §5.11); mirrors the shard
+        "max_floor_lvl": 12,                // coloring + filtering (§5.10, §5.11); mirrors the shard
+        "sold_types": ["3room", "4room"],   // filtering (§5.11): the shard's sold_units_by_type keys
+        "rental_types": []                  // filtering: rental_units_by_type keys; [] if none
       }
     }
   ]
@@ -331,9 +341,9 @@ plus `town`.
 These props cover: marker geometry, the hover tooltip (`{blk_no} {street}`,
 abbreviated), substring search on the full address
 (`{blk_no} {street_full} {postal}`), the `id` plus `town` that locate the
-detail shard, and the two coloring values. Those `street_full`/`postal` copies
-serve search only, and the coloring values serve the map, its legend, and
-the filters only; the panel
+detail shard, and the coloring and filtering values. Those `street_full`/`postal`
+copies serve search only, and the coloring and filtering values serve the
+map, its legend, and the filters only; the panel
 reads its address fields from the **shard**, not the index. The `id` slug is
 derived from the **abbreviated** street, so it stays stable regardless of the
 abbreviation map. The client resolves the shard filename from `town` via
@@ -734,13 +744,13 @@ old estates are, where the tall blocks cluster) show at a glance.
 ### 5.11 Filtering
 
 Hides the blocks that don't match, so the map can show only one town's
-blocks, or only the towers above a given height. Filters combine with
-coloring (§5.10): a coloring mode colors whatever stays visible.
+blocks, only the towers above a given height, or only the blocks with
+rental flats. Filters combine with coloring (§5.10): a coloring mode colors
+whatever stays visible.
 
-- **Filters:** town, year completed, and floors. A block shows only if it
-  passes every filter that is on. A filter is off while nothing is ticked or
-  its range spans all the data. The flat-type filter is designed but not
-  built yet (§7.2).
+- **Filters:** town, year completed, floors, and flat types. A block shows
+  only if it passes every filter that is on. A filter is off while nothing
+  is ticked or picked, or its range spans all the data.
   - **Town:** a checklist of the towns in `towns.json`, each with its total
     block count (not narrowed by the other filters), folded into one row
     that names the current choice. Ticking several shows the blocks in any
@@ -754,6 +764,16 @@ coloring (§5.10): a coloring mode colors whatever stays visible.
     refresh.
   - A range, not the legend's bands (§5.10), because exact cut-offs matter
     ("built before 1986") and a band picker can only offer the band edges.
+  - **Flat types:** two groups of toggle chips, **Sold** and **Rental**,
+    with the same type names and order as the details panel (§5.5). A block
+    shows if it has units of any chosen type, in either group, so it is one
+    filter with one reset. The groups stay separate because rental blocks
+    are a small minority that a combined list would bury, and because a
+    block that rents out 3-Room flats may sell none.
+  - The chips carry no block counts, unlike the town list: a number beside
+    "4-Room" reads as a number of flats, not blocks. A chip that matches only a
+    handful of blocks shows up in the count line (below) the moment it is
+    picked.
 - **Reset:** each filter's title carries a reset icon (↺) while that filter
   is on, a small header control like the legend's × (§5.10). It also marks
   the filter as on, which the number boxes can't, since they always show
@@ -765,11 +785,11 @@ coloring (§5.10): a coloring mode colors whatever stays visible.
 - **Not remembered** between visits and not part of the URL, like the
   coloring mode (§5.10).
 - **Rendering:** one MapLibre filter expression over the index's `town`,
-  `year_completed`, and `max_floor_lvl`, set on `blocks-circles` and
-  `blocks-labels` (combined with the labels' own condition, §5.9). Nothing
-  is re-fetched. A hidden block has no tooltip and can't be tapped. The map
-  never moves when a filter changes: a camera that jumped mid-drag of a
-  slider would be disorienting.
+  `year_completed`, `max_floor_lvl`, `sold_types`, and `rental_types`
+  (§4.1), set on `blocks-circles` and `blocks-labels` (combined with the
+  labels' own condition, §5.9). Nothing is re-fetched. A hidden block has
+  no tooltip and can't be tapped. The map never moves when a filter
+  changes: a camera that jumped mid-drag of a slider would be disorienting.
 - **The selected block always shows.** The highlight layers are exempt from
   the filter (§5.9). Search ignores the filters (§5.6), so picking a hidden
   block still flies to it, highlights it, and opens its details; and a block
@@ -815,11 +835,13 @@ coloring (§5.10): a coloring mode colors whatever stays visible.
     (§5.5), but its other two rests are sized to its content rather than to
     the screen: content scrolls only at **full**, and at half height the
     floors filter fell below the sheet's edge on shorter phones. The middle
-    rest, where it opens, shows the Color row and the three folded filters;
-    the expanded town list needs full. **Peek** shows the header and the
-    Color row, so the coloring can be switched with most of the map in
-    view. The legend stays covered there too, so until the sheet closes the
-    colors read only from light to dark (older to newer, lower to taller).
+    rest, where it opens, shows the Color row and the town, year, and floors
+    filters, and ends just above the flat-type filter's title, rather than
+    cutting through it. The flat-type chips and the expanded town list need
+    full. **Peek** shows the header and the Color row, so the coloring can
+    be switched with most of the map in view. The legend stays covered
+    there too, so until the sheet closes the colors read only from light to
+    dark (older to newer, lower to taller).
   - A slider's thumbs are exempt from the sheet's drag, so dragging one
     moves the thumb, not the sheet.
   - Focusing a number box leaves the sheet where it is: the browser brings
@@ -901,17 +923,11 @@ Coloring by year completed and floors shipped (§5.10). Still to come:
   - sliding the desktop zoom buttons and ⓘ left with the open details panel,
     so they stay visible and usable instead of being covered.
 
-### 7.2 Filtering: flat types and later refinements
+### 7.2 Filtering: later refinements
 
-Filtering by town, year completed, and floors shipped (§5.11). Still to come:
+Filtering by town, year completed, floors, and flat type shipped (§5.11).
+Still to come:
 
-- **Flat-type filter**, designed alongside the others and built next:
-  - Two groups of chips, **Sold** and **Rental**, with the same type names
-    and order as the details panel (§5.5). A block shows if it has any of
-    the chosen chips. The groups stay separate because rental blocks are a
-    small minority that a combined list would bury.
-  - It needs a contract change: the index gains, per block, the sold types
-    and the rental types present (§4.1). Unit counts stay in the shards.
 - **A collapsible sidebar** on desktop holding search, coloring with its
   legend, and filters in one full-height column, in place of the floating
   controls. Deferred as a larger redesign than filtering needed; it becomes

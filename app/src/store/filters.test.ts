@@ -30,13 +30,33 @@ test("reset turns off only its own filter", () => {
   useFilters.getState().toggleTown("BEDOK");
   useFilters.getState().setRange("floors", [10, 20]);
   useFilters.getState().reset("towns");
-  expect(filters()).toEqual({ towns: [], year: null, floors: [10, 20] });
+  expect(filters()).toEqual({ ...EMPTY_FILTERS, floors: [10, 20] });
+  useFilters.getState().toggleFlatType("sold", "4room");
+  useFilters.getState().toggleFlatType("rental", "1room");
+  useFilters.getState().reset("floors");
+  expect(filters()).toEqual({ ...EMPTY_FILTERS, soldTypes: ["4room"], rentalTypes: ["1room"] });
+});
+
+test("toggleFlatType adds a type to its group and then removes it", () => {
+  useFilters.getState().toggleFlatType("sold", "4room");
+  useFilters.getState().toggleFlatType("rental", "4room");
+  expect(filters()).toMatchObject({ soldTypes: ["4room"], rentalTypes: ["4room"] });
+  useFilters.getState().toggleFlatType("sold", "4room");
+  expect(filters()).toMatchObject({ soldTypes: [], rentalTypes: ["4room"] });
+});
+
+test("resetting flat types clears both groups", () => {
+  useFilters.getState().toggleFlatType("sold", "4room");
+  useFilters.getState().toggleFlatType("rental", "1room");
+  useFilters.getState().reset("flatTypes");
+  expect(filters()).toEqual(EMPTY_FILTERS);
 });
 
 test("clearAll turns everything off", () => {
   useFilters.getState().toggleTown("BEDOK");
   useFilters.getState().setRange("year", [1980, 1999]);
   useFilters.getState().setRange("floors", [10, 20]);
+  useFilters.getState().toggleFlatType("sold", "4room");
   useFilters.getState().clearAll();
   expect(filters()).toEqual(EMPTY_FILTERS);
 });
@@ -47,6 +67,7 @@ test("an action that changes nothing keeps the filters reference", () => {
   const before = filters();
   useFilters.getState().reset("towns");
   useFilters.getState().reset("floors");
+  useFilters.getState().reset("flatTypes");
   useFilters.getState().setRange("floors", null);
   expect(filters()).toBe(before);
 });

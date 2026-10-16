@@ -3,7 +3,7 @@
 A mobile-first, interactive web map of Singapore's ~10,000 residential HDB blocks. Every block is an
 individually rendered marker (no clustering). Hover (desktop) to see a block's address, tap/click to
 open its details, search by address to fly to a specific block, color the blocks by year completed
-or number of floors, and filter them by town, year completed, and floors.
+or number of floors, and filter them by town, year completed, floors, and flat type.
 
 **Live:** [hdb-map.vercel.app](https://hdb-map.vercel.app)
 

@@ -19,6 +19,8 @@ function evaluate(expr: unknown, p: Record<string, unknown>): unknown {
   switch (op) {
     case "all":
       return args.every((a) => evaluate(a, p) === true);
+    case "any":
+      return args.some((a) => evaluate(a, p) === true);
     case "get":
       return p[args[0] as string];
     case "literal":
@@ -53,22 +55,51 @@ test("a year range is inclusive at both ends", () => {
 });
 
 test("filters combine with AND", () => {
-  const f: Filters = { towns: ["ANG MO KIO"], year: [2000, 2020], floors: null };
+  const f: Filters = { ...EMPTY_FILTERS, towns: ["ANG MO KIO"], year: [2000, 2020] };
   expect(matches(amk, f)).toBe(false);
+});
+
+// amk has sold 3room and 4room and rental 1room; bedok has sold 4room and 5room, no rental.
+test("a flat type passes the blocks that have it", () => {
+  expect(matches(amk, { ...EMPTY_FILTERS, soldTypes: ["3room"] })).toBe(true);
+  expect(matches(bedok, { ...EMPTY_FILTERS, soldTypes: ["3room"] })).toBe(false);
+  expect(matches(amk, { ...EMPTY_FILTERS, rentalTypes: ["1room"] })).toBe(true);
+  expect(matches(bedok, { ...EMPTY_FILTERS, rentalTypes: ["1room"] })).toBe(false);
+});
+
+test("sold and rental keep their keys apart", () => {
+  // amk sells 3-Room but rents only 1-Room.
+  expect(matches(amk, { ...EMPTY_FILTERS, rentalTypes: ["3room"] })).toBe(false);
+  expect(matches(amk, { ...EMPTY_FILTERS, soldTypes: ["1room"] })).toBe(false);
+});
+
+test("flat types combine with OR, across both groups", () => {
+  expect(matches(bedok, { ...EMPTY_FILTERS, soldTypes: ["3room", "5room"] })).toBe(true);
+  const f: Filters = { ...EMPTY_FILTERS, soldTypes: ["5room"], rentalTypes: ["1room"] };
+  expect(matches(amk, f)).toBe(true);
+  expect(matches(bedok, f)).toBe(true);
 });
 
 test("filterExpression is null when nothing is on", () => {
   expect(filterExpression(EMPTY_FILTERS)).toBeNull();
 });
 
-test("filterExpression joins town, year and floors in that order", () => {
-  expect(filterExpression({ towns: ["BEDOK"], year: [1990, 2000], floors: [10, 20] })).toEqual([
+test("filterExpression joins town, year, floors and flat types in that order", () => {
+  const f: Filters = {
+    towns: ["BEDOK"],
+    year: [1990, 2000],
+    floors: [10, 20],
+    soldTypes: ["4room"],
+    rentalTypes: ["1room"],
+  };
+  expect(filterExpression(f)).toEqual([
     "all",
     ["in", ["get", "town"], ["literal", ["BEDOK"]]],
     [">=", ["get", "year_completed"], 1990],
     ["<=", ["get", "year_completed"], 2000],
     [">=", ["get", "max_floor_lvl"], 10],
     ["<=", ["get", "max_floor_lvl"], 20],
+    ["any", ["in", "4room", ["get", "sold_types"]], ["in", "1room", ["get", "rental_types"]]],
   ]);
 });
 
@@ -83,8 +114,14 @@ test("the expression and matches agree on every block", () => {
     { ...EMPTY_FILTERS, floors: [12, 30] },
     { ...EMPTY_FILTERS, floors: [11, 29] },
     { ...EMPTY_FILTERS, floors: [13, 31] },
-    { towns: ["BEDOK"], year: [2015, 2015], floors: [30, 30] },
-    { towns: ["BEDOK"], year: [1978, 2015], floors: [12, 29] },
+    { ...EMPTY_FILTERS, soldTypes: ["3room"] },
+    { ...EMPTY_FILTERS, soldTypes: ["1room", "5room"] },
+    { ...EMPTY_FILTERS, rentalTypes: ["1room"] },
+    { ...EMPTY_FILTERS, rentalTypes: ["3room"] },
+    { ...EMPTY_FILTERS, soldTypes: ["2room"], rentalTypes: ["1room"] },
+    { ...EMPTY_FILTERS, towns: ["BEDOK"], year: [2015, 2015], floors: [30, 30] },
+    { ...EMPTY_FILTERS, towns: ["BEDOK"], year: [1978, 2015], floors: [12, 29] },
+    { towns: ["BEDOK"], year: null, floors: null, soldTypes: ["4room"], rentalTypes: ["1room"] },
   ];
   for (const f of cases) {
     const expr = filterExpression(f);
@@ -120,5 +157,13 @@ test("normalizeRange pulls a from above to down to to", () => {
 test("activeCount counts each filter once", () => {
   expect(activeCount(EMPTY_FILTERS)).toBe(0);
   expect(activeCount({ ...EMPTY_FILTERS, towns: ["BEDOK", "ANG MO KIO"] })).toBe(1);
-  expect(activeCount({ towns: ["BEDOK"], year: [1990, 2000], floors: [10, 20] })).toBe(3);
+  const all: Filters = {
+    towns: ["BEDOK"],
+    year: [1990, 2000],
+    floors: [10, 20],
+    soldTypes: ["4room", "5room"],
+    rentalTypes: ["1room"],
+  };
+  expect(activeCount(all)).toBe(4);
+  expect(activeCount({ ...EMPTY_FILTERS, rentalTypes: ["1room"] })).toBe(1);
 });

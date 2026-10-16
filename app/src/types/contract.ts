@@ -9,6 +9,9 @@ export interface BlockIndexProperties {
   town: string;
   year_completed: number; // coloring and filtering; mirrors the detail shard
   max_floor_lvl: number; // coloring and filtering; mirrors the detail shard
+  // Filtering: the keys of the shard's unit counts, in display order (lib/flat-types.ts).
+  sold_types: string[];
+  rental_types: string[]; // empty, not absent, when the shard has no rental counts
 }
 
 export interface BlockFeature {
