@@ -339,6 +339,29 @@ describe("on a phone", () => {
     await waitFor(() => expect(optionsSheet()).not.toBeInTheDocument());
   });
 
+  // Regression: Vaul's close timer, still pending from the details closing, cleared the new pick.
+  test.each([
+    ["the options button", "Map options"],
+    ["a map background tap", "map-background"],
+  ])("a block tapped right after %s closes the details stays open", async (_, closer) => {
+    await renderLoaded();
+    await userEvent.click(screen.getByText("marker-123-ang-mo-kio-ave-3"));
+    await screen.findByRole("heading", { name: /123 ANG MO KIO AVENUE 3/ });
+    await nextFrame();
+    const close =
+      closer === "Map options"
+        ? screen.getByRole("button", { name: closer, hidden: true })
+        : screen.getByText(closer);
+    await userEvent.click(close);
+    await nextFrame();
+    await userEvent.click(screen.getByText("marker-1-bedok-nth-st-1"));
+    // Past Vaul's 500 ms close timer.
+    await act(() => new Promise<void>((r) => setTimeout(r, 700)));
+    expect(useSelection.getState().selectedId).toBe("1-bedok-nth-st-1");
+    // The panel's sr-only title: no Bedok shard is stubbed, so there is no block heading to find.
+    expect(screen.getByText("Block details")).toBeInTheDocument();
+  });
+
   test("filters set in the sheet survive it closing", async () => {
     await renderLoaded();
     await userEvent.click(screen.getByRole("button", { name: "Map options" }));
