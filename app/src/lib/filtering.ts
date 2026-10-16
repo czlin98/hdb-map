@@ -27,12 +27,12 @@ export const FLAT_TYPE_FIELDS = {
   rental: { filter: "rentalTypes", property: "rental_types" },
 } as const satisfies Record<
   FlatTypeGroup,
-  { filter: keyof Filters; property: keyof BlockIndexProperties }
+  { filter: "soldTypes" | "rentalTypes"; property: "sold_types" | "rental_types" }
 >;
 
 const FLAT_TYPE_GROUPS = Object.keys(FLAT_TYPE_FIELDS) as FlatTypeGroup[];
 
-function flatTypesOn(f: Filters): boolean {
+export function flatTypesOn(f: Pick<Filters, "soldTypes" | "rentalTypes">): boolean {
   return f.soldTypes.length > 0 || f.rentalTypes.length > 0;
 }
 
@@ -50,7 +50,8 @@ export function matches(p: BlockIndexProperties, f: Filters): boolean {
     const value = p[RANGE_PROPERTY[key]];
     return !range || (value >= range[0] && value <= range[1]);
   });
-  if (!inRanges || !flatTypesOn(f)) return inRanges;
+  if (!inRanges) return false;
+  if (!flatTypesOn(f)) return true;
   return FLAT_TYPE_GROUPS.some((group) => {
     const { filter, property } = FLAT_TYPE_FIELDS[group];
     return f[filter].some((type) => p[property].includes(type));

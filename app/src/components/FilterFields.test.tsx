@@ -40,13 +40,21 @@ test("changing a control writes the store", () => {
   fireEvent.change(box("Year completed, to"), { target: { value: "1990" } });
   fireEvent.keyDown(box("Year completed, to"), { key: "Enter" });
   const rental = screen.getByRole("group", { name: "Rental" });
-  fireEvent.click(within(rental).getByRole("button", { name: "1-Room" }));
+  fireEvent.click(within(rental).getByRole("button", { name: "Rental 1-Room" }));
   expect(useFilters.getState().filters).toEqual({
     ...EMPTY_FILTERS,
     towns: ["BEDOK"],
     year: [1978, 1990],
     rentalTypes: ["1room"],
   });
+});
+
+test("the flat-type reset clears both groups in the store", () => {
+  renderFields();
+  fireEvent.click(screen.getByRole("button", { name: "Sold 4-Room" }));
+  fireEvent.click(screen.getByRole("button", { name: "Rental 1-Room" }));
+  fireEvent.click(screen.getByRole("button", { name: "Reset flat types" }));
+  expect(useFilters.getState().filters).toEqual(EMPTY_FILTERS);
 });
 
 test("Clear all is enabled only while a filter is on, and empties the store", () => {

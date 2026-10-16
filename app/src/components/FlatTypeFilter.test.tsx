@@ -32,7 +32,9 @@ function renderFilter(initial: { sold?: string[]; rental?: string[] } = {}) {
 }
 
 const chip = (group: "Sold" | "Rental", label: string) =>
-  within(screen.getByRole("group", { name: group })).getByRole("button", { name: label });
+  within(screen.getByRole("group", { name: group })).getByRole("button", {
+    name: `${group} ${label}`,
+  });
 
 test("lists the sold and rental types in the details panel's order", () => {
   renderFilter();
@@ -51,6 +53,15 @@ test("lists the sold and rental types in the details panel's order", () => {
     "Studio Apartment",
   ]);
   expect(labels("Rental")).toEqual(["1-Room", "2-Room", "3-Room", "Other"]);
+});
+
+test("each chip's name includes its group, so the shared labels stay distinct", () => {
+  renderFilter();
+  const names = screen
+    .getAllByRole("button", { pressed: false })
+    .map((b) => b.getAttribute("aria-label"));
+  expect(new Set(names).size).toBe(names.length);
+  expect(names).toContain("Rental 1-Room");
 });
 
 test("a chip toggles its own group's type", () => {

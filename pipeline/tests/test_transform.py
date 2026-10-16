@@ -48,6 +48,23 @@ def test_units_by_type_keeps_only_positive_and_drops_suffix():
     assert rec["rental_units_by_type"] == {"other_room": 5}
 
 
+def test_units_by_type_follow_display_order_not_column_order():
+    # The index's sold_types/rental_types are these dicts' keys, read as the display order.
+    block = {k: v for k, v in _block().items() if not k.endswith(("_sold", "_rental"))}
+    block.update(
+        {
+            "exec_sold": "5",
+            "4room_sold": "60",
+            "2room_sold": "10",
+            "other_room_rental": "1",
+            "1room_rental": "3",
+        }
+    )
+    (rec,), _ = transform([block], TOWNS)
+    assert list(rec["sold_units_by_type"]) == ["2room", "4room", "exec"]
+    assert list(rec["rental_units_by_type"]) == ["1room", "other_room"]
+
+
 def test_missing_flat_columns_default_to_zero():
     block = _block()
     del block["3room_sold"]

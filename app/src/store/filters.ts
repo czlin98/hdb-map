@@ -2,6 +2,7 @@ import { create } from "zustand";
 import {
   EMPTY_FILTERS,
   FLAT_TYPE_FIELDS,
+  flatTypesOn,
   type FlatTypeGroup,
   type Filters,
   type Range,
@@ -47,9 +48,7 @@ export const useFilters = create<FiltersState>((set, get) => ({
       set(({ filters }) => (filters.towns.length ? { filters: { ...filters, towns: [] } } : {}));
     } else if (key === "flatTypes") {
       set(({ filters }) =>
-        filters.soldTypes.length || filters.rentalTypes.length
-          ? { filters: { ...filters, soldTypes: [], rentalTypes: [] } }
-          : {},
+        flatTypesOn(filters) ? { filters: { ...filters, soldTypes: [], rentalTypes: [] } } : {},
       );
     } else {
       get().setRange(key, null);

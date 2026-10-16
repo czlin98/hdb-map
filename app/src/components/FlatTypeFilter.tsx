@@ -1,5 +1,5 @@
 import { useId, useRef } from "react";
-import type { FlatTypeGroup } from "../lib/filtering";
+import { flatTypesOn, type FlatTypeGroup } from "../lib/filtering";
 import { RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES, type FlatTypeDef } from "../lib/flat-types";
 import { cn } from "../lib/utils";
 import { ResetButton } from "./ResetButton";
@@ -21,7 +21,7 @@ export function FlatTypeFilter({ sold, rental, onToggle, onReset }: Props) {
         <h3 id={titleId} className="text-sm font-medium">
           Flat types
         </h3>
-        {(sold.length > 0 || rental.length > 0) && (
+        {flatTypesOn({ soldTypes: sold, rentalTypes: rental }) && (
           <ResetButton
             label="Reset flat types"
             onClick={() => {
@@ -71,6 +71,9 @@ function ChipGroup({ title, types, selected, onToggle }: ChipGroupProps) {
               key={key}
               type="button"
               aria-pressed={on}
+              // Sold and Rental share labels; a bare "1-Room" twice is ambiguous to voice control
+              // and in a screen reader's list of buttons.
+              aria-label={`${title} ${label}`}
               onClick={() => onToggle(key)}
               className={cn(
                 "focus-visible:ring-ring h-7 rounded-full border px-3 text-sm outline-hidden focus-visible:ring-2 focus-visible:ring-offset-1",

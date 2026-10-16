@@ -769,8 +769,8 @@ whatever stays visible.
     filter with one reset. The groups stay separate because rental blocks
     are a small minority that a combined list would bury, and because a
     block that rents out 3-Room flats may sell none.
-  - The chips carry no block counts, unlike the town list: on a chip, "4-Room
-    8,153" reads as a number of flats, not blocks. A chip that matches only a
+  - The chips carry no block counts, unlike the town list: a number beside
+    "4-Room" reads as a number of flats, not blocks. A chip that matches only a
     handful of blocks shows up in the count line (below) the moment it is
     picked.
 - **Reset:** each filter's title carries a reset icon (↺) while that filter
