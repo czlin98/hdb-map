@@ -23,6 +23,7 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     monkeypatch.setattr(geocode.time, "sleep", lambda *_: None)
     monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
     monkeypatch.setattr(run_module, "today_sgt", lambda: "2026-10-01")
+    monkeypatch.setenv("RUN_SUMMARY_PATH", str(tmp_path / "summary.json"))
 
     responses.add(responses.POST, config.ONEMAP_TOKEN_URL, json={"access_token": "tok"}, status=200)
     responses.add(
@@ -114,6 +115,27 @@ def test_run_end_to_end(tmp_path, monkeypatch):
 
     meta = json.loads((tmp_path / "data" / "meta.json").read_text())
     assert meta == {"data_accessed": "2026-10-01"}
+
+    summary = json.loads((tmp_path / "summary.json").read_text(encoding="utf-8"))
+    assert (summary["kind"], summary["added"]) == ("refresh", 1)
+    assert "Newly failing (2):" in summary["text"]
+
+
+def test_a_failing_summary_only_warns(tmp_path, monkeypatch, caplog):
+    def broken(*_):
+        raise ValueError("boom")
+
+    monkeypatch.setattr(run_module, "summarize", broken)
+    monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
+    monkeypatch.setattr(config, "FAILED_BLOCKS_PATH", tmp_path / "failed_blocks.csv")
+    run_module.report_summary(run_module.Snapshot(), tmp_path / "summary.json")
+    assert not (tmp_path / "summary.json").exists()
+    assert "Could not write the run summary" in caplog.text
+
+
+def test_no_summary_without_a_before_snapshot(tmp_path):
+    run_module.report_summary(None, tmp_path / "summary.json")
+    assert not (tmp_path / "summary.json").exists()
 
 
 def test_write_failed_blocks_sorted(tmp_path):
