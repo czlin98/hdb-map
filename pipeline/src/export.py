@@ -22,6 +22,9 @@ def to_index_feature(rec: dict) -> dict:
             "town": rec["town"],
             "year_completed": rec["year_completed"],
             "max_floor_lvl": rec["max_floor_lvl"],
+            # Key order is the display order: transform builds the dicts in that order.
+            "sold_types": list(rec["sold_units_by_type"]),
+            "rental_types": list(rec["rental_units_by_type"]),
         },
     }
 

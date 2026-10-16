@@ -23,6 +23,8 @@ function feature(
       town: "TEST",
       year_completed: 1980,
       max_floor_lvl: 12,
+      sold_types: [],
+      rental_types: [],
     },
   };
 }

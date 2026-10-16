@@ -43,7 +43,26 @@ def test_index_feature_shape():
         "town",
         "year_completed",
         "max_floor_lvl",
+        "sold_types",
+        "rental_types",
     }
+
+
+def test_index_flat_types_list_types_with_units_in_display_order():
+    # transform builds the unit dicts in display order and drops types with no units.
+    rec = _rec(
+        sold_units_by_type={"3room": 40, "4room": 60, "exec": 2},
+        rental_units_by_type={"1room": 5, "other_room": 1},
+    )
+    p = to_index_feature(rec)["properties"]
+    assert p["sold_types"] == ["3room", "4room", "exec"]
+    assert p["rental_types"] == ["1room", "other_room"]
+
+
+def test_index_flat_types_are_empty_lists_when_none():
+    p = to_index_feature(_rec(sold_units_by_type={}, rental_units_by_type={}))["properties"]
+    assert p["sold_types"] == []
+    assert p["rental_types"] == []
 
 
 def test_detail_entry_omits_empty_rental():
@@ -81,6 +100,8 @@ def test_written_fields_follow_logical_order(tmp_path):
         "town",
         "year_completed",
         "max_floor_lvl",
+        "sold_types",
+        "rental_types",
     ]
 
     amk = json.loads((tmp_path / "block-details" / "ang-mo-kio.json").read_text())
@@ -98,13 +119,15 @@ def test_written_fields_follow_logical_order(tmp_path):
     ]
 
 
-def test_written_index_coloring_values_mirror_shards(tmp_path):
+def test_written_index_values_mirror_shards(tmp_path):
     bedok = _rec(
         id="1-bedok-nth-st-1",
         town="BEDOK",
         town_slug="bedok",
         year_completed=2015,
         max_floor_lvl=30,
+        sold_units_by_type={"4room": 80, "5room": 20},
+        rental_units_by_type={"2room": 10},
     )
     write_outputs([_rec(), bedok], TOWNS, app_data_dir=tmp_path)
 
@@ -121,6 +144,8 @@ def test_written_index_coloring_values_mirror_shards(tmp_path):
             entry["year_completed"],
             entry["max_floor_lvl"],
         )
+        assert p["sold_types"] == list(entry["sold_units_by_type"])
+        assert p["rental_types"] == list(entry.get("rental_units_by_type", {}))
 
 
 def test_shard_ids_written_in_sorted_order(tmp_path):

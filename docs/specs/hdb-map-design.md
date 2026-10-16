@@ -287,8 +287,8 @@ is independently readable, an accepted and well-compressing redundancy.
 
 One FeatureCollection, all blocks, loaded once on startup.
 
-At ~10k features the file is about **2.9 MB** as written, and its highly
-repetitive text reaches the browser as about **220 KB of brotli**, within the
+At ~10k features the file is about **3.5 MB** as written, and its highly
+repetitive text reaches the browser as about **240 KB of brotli**, within the
 sub-megabyte budget (§1.2). Two choices keep it there:
 
 - **Coordinates rounded to 6 decimals** (~11 cm).
@@ -300,11 +300,19 @@ sub-megabyte budget (§1.2). Two choices keep it there:
   git diff; one line per block keeps a changed block a one-line diff.
 
 Keeping the index light is what protects that budget; detail lives in the
-shards. The one exception is the two numbers marker coloring needs for every
-block at once (§5.10), `year_completed` and `max_floor_lvl`. Coloring can't
-wait for lazily loaded shards, and the two short integers add only about an
-eighth to the compressed size. Filtering (§5.11) reads the same two values,
-plus `town`.
+shards. The exceptions are the values that coloring and filtering need for
+every block at once, since neither can wait for lazily loaded shards:
+
+- `year_completed` and `max_floor_lvl`, for marker coloring (§5.10) and the
+  range filters (§5.11). The two short integers add about an eighth to the
+  compressed size.
+- `sold_types` and `rental_types`, for the flat-type filter (§7.2): which
+  types the block has units of, as the shard's unit-count keys in the
+  details panel's order. Both are always present, empty when the block has
+  none, so the filter never has to handle a missing list. Another eighth.
+  The counts themselves stay in the shard.
+
+Filtering also reads `town`.
 
 ```jsonc
 {
@@ -321,7 +329,9 @@ plus `town`.
         "postal": "560123",
         "town": "ANG MO KIO",
         "year_completed": 1978,             // coloring + filtering (§5.10, §5.11); mirrors the shard
-        "max_floor_lvl": 12                 // coloring + filtering (§5.10, §5.11); mirrors the shard
+        "max_floor_lvl": 12,                // coloring + filtering (§5.10, §5.11); mirrors the shard
+        "sold_types": ["3room", "4room"],   // filtering (§7.2): the shard's sold_units_by_type keys
+        "rental_types": []                  // filtering: rental_units_by_type keys; [] if none
       }
     }
   ]
@@ -331,9 +341,9 @@ plus `town`.
 These props cover: marker geometry, the hover tooltip (`{blk_no} {street}`,
 abbreviated), substring search on the full address
 (`{blk_no} {street_full} {postal}`), the `id` plus `town` that locate the
-detail shard, and the two coloring values. Those `street_full`/`postal` copies
-serve search only, and the coloring values serve the map, its legend, and
-the filters only; the panel
+detail shard, and the coloring and filtering values. Those `street_full`/`postal`
+copies serve search only, and the coloring and filtering values serve the
+map, its legend, and the filters only; the panel
 reads its address fields from the **shard**, not the index. The `id` slug is
 derived from the **abbreviated** street, so it stays stable regardless of the
 abbreviation map. The client resolves the shard filename from `town` via
@@ -910,8 +920,8 @@ Filtering by town, year completed, and floors shipped (§5.11). Still to come:
     and order as the details panel (§5.5). A block shows if it has any of
     the chosen chips. The groups stay separate because rental blocks are a
     small minority that a combined list would bury.
-  - It needs a contract change: the index gains, per block, the sold types
-    and the rental types present (§4.1). Unit counts stay in the shards.
+  - It reads the index's per-block `sold_types` and `rental_types` (§4.1),
+    so it needs no shard. Unit counts stay in the shards.
 - **A collapsible sidebar** on desktop holding search, coloring with its
   legend, and filters in one full-height column, in place of the floating
   controls. Deferred as a larger redesign than filtering needed; it becomes
