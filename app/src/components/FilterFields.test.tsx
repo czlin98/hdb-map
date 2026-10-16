@@ -37,9 +37,9 @@ test("changing a control writes the store", () => {
   fireEvent.change(box("Year completed, to"), { target: { value: "1990" } });
   fireEvent.keyDown(box("Year completed, to"), { key: "Enter" });
   expect(useFilters.getState().filters).toEqual({
+    ...EMPTY_FILTERS,
     towns: ["BEDOK"],
     year: [1978, 1990],
-    floors: null,
   });
 });
 

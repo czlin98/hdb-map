@@ -33,6 +33,7 @@ vi.mock("./components/MapView", () => ({
 
 import App from "./App";
 import type { BlockFeature, IndexFeatureCollection } from "./types/contract";
+import { EMPTY_FILTERS } from "./lib/filtering";
 import { sampleIndex, sampleShard, sampleTowns } from "./test/fixtures";
 import { useSelection } from "./store/selection";
 import { useColorMode } from "./store/color";
@@ -138,14 +139,11 @@ test("the map follows the filter panel", async () => {
   stubLoaded();
   render(<App />);
   await screen.findByText("marker-123-ang-mo-kio-ave-3");
-  expect(screen.getByTestId("map")).toHaveAttribute(
-    "data-filters",
-    JSON.stringify({ towns: [], year: null, floors: null }),
-  );
+  expect(screen.getByTestId("map")).toHaveAttribute("data-filters", JSON.stringify(EMPTY_FILTERS));
   await tickTown(/BEDOK/);
   expect(screen.getByTestId("map")).toHaveAttribute(
     "data-filters",
-    JSON.stringify({ towns: ["BEDOK"], year: null, floors: null }),
+    JSON.stringify({ ...EMPTY_FILTERS, towns: ["BEDOK"] }),
   );
   // The announced count waits for a pause in the changes.
   await waitFor(() =>
@@ -352,7 +350,7 @@ describe("on a phone", () => {
     await waitFor(() => expect(optionsSheet()).not.toBeInTheDocument());
     expect(screen.getByTestId("map")).toHaveAttribute(
       "data-filters",
-      JSON.stringify({ towns: ["BEDOK"], year: null, floors: null }),
+      JSON.stringify({ ...EMPTY_FILTERS, towns: ["BEDOK"] }),
     );
     expect(screen.getByRole("button", { name: "Map options, 1 filter on" })).toBeInTheDocument();
   });

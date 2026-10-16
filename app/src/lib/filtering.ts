@@ -3,14 +3,38 @@ import type { BlockFeature, BlockIndexProperties } from "../types/contract";
 
 export type Range = [from: number, to: number];
 export type RangeKey = "year" | "floors";
+export type FlatTypeGroup = "sold" | "rental";
 
 export interface Filters {
   towns: string[]; // empty = any town
   year: Range | null; // null = off
   floors: Range | null;
+  // Keys from lib/flat-types.ts. One filter: a block passes with any chosen type of either group.
+  soldTypes: string[];
+  rentalTypes: string[];
 }
 
-export const EMPTY_FILTERS: Filters = { towns: [], year: null, floors: null };
+export const EMPTY_FILTERS: Filters = {
+  towns: [],
+  year: null,
+  floors: null,
+  soldTypes: [],
+  rentalTypes: [],
+};
+
+export const FLAT_TYPE_FIELDS = {
+  sold: { filter: "soldTypes", property: "sold_types" },
+  rental: { filter: "rentalTypes", property: "rental_types" },
+} as const satisfies Record<
+  FlatTypeGroup,
+  { filter: keyof Filters; property: keyof BlockIndexProperties }
+>;
+
+const FLAT_TYPE_GROUPS = Object.keys(FLAT_TYPE_FIELDS) as FlatTypeGroup[];
+
+function flatTypesOn(f: Filters): boolean {
+  return f.soldTypes.length > 0 || f.rentalTypes.length > 0;
+}
 
 export const RANGE_PROPERTY = {
   year: "year_completed",
@@ -21,10 +45,15 @@ const RANGE_KEYS = Object.keys(RANGE_PROPERTY) as RangeKey[];
 
 export function matches(p: BlockIndexProperties, f: Filters): boolean {
   if (f.towns.length && !f.towns.includes(p.town)) return false;
-  return RANGE_KEYS.every((key) => {
+  const inRanges = RANGE_KEYS.every((key) => {
     const range = f[key];
     const value = p[RANGE_PROPERTY[key]];
     return !range || (value >= range[0] && value <= range[1]);
+  });
+  if (!inRanges || !flatTypesOn(f)) return inRanges;
+  return FLAT_TYPE_GROUPS.some((group) => {
+    const { filter, property } = FLAT_TYPE_FIELDS[group];
+    return f[filter].some((type) => p[property].includes(type));
   });
 }
 
@@ -37,6 +66,13 @@ export function filterExpression(f: Filters): ExpressionSpecification | null {
     if (!range) continue;
     const value: ExpressionSpecification = ["get", RANGE_PROPERTY[key]];
     parts.push([">=", value, range[0]], ["<=", value, range[1]]);
+  }
+  if (flatTypesOn(f)) {
+    const anyType = FLAT_TYPE_GROUPS.flatMap((group) => {
+      const { filter, property } = FLAT_TYPE_FIELDS[group];
+      return f[filter].map((type): ExpressionSpecification => ["in", type, ["get", property]]);
+    });
+    parts.push(["any", ...anyType]);
   }
   return parts.length ? ["all", ...parts] : null;
 }
@@ -58,5 +94,6 @@ export function normalizeRange([from, to]: Range, [min, max]: Range): Range | nu
 }
 
 export function activeCount(f: Filters): number {
-  return (f.towns.length ? 1 : 0) + RANGE_KEYS.filter((key) => f[key]).length;
+  const lists = (f.towns.length ? 1 : 0) + (flatTypesOn(f) ? 1 : 0);
+  return lists + RANGE_KEYS.filter((key) => f[key]).length;
 }
