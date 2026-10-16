@@ -1,4 +1,4 @@
-import { act, fireEvent, render, screen } from "@testing-library/react";
+import { act, fireEvent, render, screen, within } from "@testing-library/react";
 import { beforeEach, expect, test, vi } from "vitest";
 import { BlockCount, FilterFields } from "./FilterFields";
 import { EMPTY_FILTERS } from "../lib/filtering";
@@ -12,13 +12,16 @@ const renderFields = () =>
 const box = (name: string) => screen.getByRole("spinbutton", { name }) as HTMLInputElement;
 const clearAll = () => screen.getByRole("button", { name: "Clear all" });
 
-test("renders the Filters heading, then town, year completed and floors", () => {
+test("renders the Filters heading, then town, year completed, floors and flat types", () => {
   renderFields();
   expect(screen.getAllByRole("heading").map((h) => h.textContent)).toEqual([
     "Filters",
     "Town",
     "Year completed",
     "Floors",
+    "Flat types",
+    "Sold",
+    "Rental",
   ]);
 });
 
@@ -36,10 +39,13 @@ test("changing a control writes the store", () => {
   fireEvent.click(screen.getByRole("checkbox", { name: /BEDOK/ }));
   fireEvent.change(box("Year completed, to"), { target: { value: "1990" } });
   fireEvent.keyDown(box("Year completed, to"), { key: "Enter" });
+  const rental = screen.getByRole("group", { name: "Rental" });
+  fireEvent.click(within(rental).getByRole("button", { name: "1-Room" }));
   expect(useFilters.getState().filters).toEqual({
     ...EMPTY_FILTERS,
     towns: ["BEDOK"],
     year: [1978, 1990],
+    rentalTypes: ["1room"],
   });
 });
 
