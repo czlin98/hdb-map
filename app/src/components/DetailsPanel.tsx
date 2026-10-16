@@ -167,6 +167,12 @@ export function DetailsPanel(props: PanelProps) {
   // Vaul skips its close callbacks when a snap-point drawer is closed via the `open` prop,
   // so onClose would never run. A parent-initiated mobile close clicks DrawerClose instead.
   const drawerCloseRef = useRef<HTMLButtonElement>(null);
+  // Vaul fires onAnimationEnd from an uncancelled 500 ms timer holding the closing render's
+  // props, so only a ref can tell whether a quick block pick has reopened the sheet since.
+  const openRef = useRef(props.open);
+  useEffect(() => {
+    openRef.current = props.open;
+  }, [props.open]);
   useImperativeHandle(
     props.ref,
     () => ({
@@ -213,7 +219,7 @@ export function DetailsPanel(props: PanelProps) {
       // Otherwise Vaul re-fits the sheet around the search box's keyboard, breaking its layout.
       repositionInputs={false}
       onAnimationEnd={(isOpen) => {
-        if (!isOpen) props.onClose();
+        if (!isOpen && !openRef.current) props.onClose();
       }}
     >
       {/* The snap points set the height, so lift the stock drawer's max-h/mt cap. */}
