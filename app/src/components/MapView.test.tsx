@@ -16,14 +16,12 @@ const { handlers, map, popup, MapCtor, NavCtor } = vi.hoisted(() => {
     queryRenderedFeatures: vi.fn().mockReturnValue([]),
     setFilter: vi.fn(),
     setPaintProperty: vi.fn(),
-    setPadding: vi.fn(),
     setMinZoom: vi.fn(),
     cameraForBounds: vi.fn().mockReturnValue({ zoom: 10.2 }),
     resize: vi.fn(),
     fitBounds: vi.fn(),
     flyTo: vi.fn(),
     easeTo: vi.fn(),
-    getPadding: vi.fn().mockReturnValue({ top: 0, right: 0, bottom: 0, left: 0 }),
     getZoom: vi.fn().mockReturnValue(11),
     getCanvas: vi.fn().mockReturnValue({ style: {} }),
     on: vi.fn((ev: string, a: unknown, b?: unknown) => {
@@ -292,40 +290,40 @@ test("selection moves the block's label to the highlight label layer", () => {
   ]);
 });
 
-test("resets the camera padding when the selection is cleared", () => {
-  const { rerender } = render(
+test("offsets the fly-to into the band between the search box and the sheet", () => {
+  const input = document.createElement("input");
+  input.getBoundingClientRect = () => ({ bottom: 40 }) as DOMRect;
+  render(
     <MapView
       data={sampleIndex}
       selectedId="123-ang-mo-kio-ave-3"
       onSelectBlock={vi.fn()}
-      flyPaddingBottom={400}
+      sheetHeight={400}
+      topClearanceRef={{ current: input }}
     />,
   );
   fire("load");
-  // Leftover padding from the earlier fly-to.
-  map.getPadding.mockReturnValue({ top: 40, right: 0, bottom: 400, left: 0 });
-  rerender(
-    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} flyPaddingBottom={400} />,
-  );
-  expect(map.easeTo).toHaveBeenCalledWith({ padding: { top: 0, right: 0, left: 0, bottom: 0 } });
+  const options = map.flyTo.mock.lastCall?.[0];
+  expect(options).toMatchObject({ offset: [0, -180] });
+  expect(options).not.toHaveProperty("padding");
 });
 
-test("skips the camera glide when clearing a selection that left no padding", () => {
-  // Desktop flies with zero padding; an easeTo that changes nothing still emits move events.
+test("leaves the camera alone when the selection is cleared", () => {
   const { rerender } = render(
     <MapView
       data={sampleIndex}
       selectedId="123-ang-mo-kio-ave-3"
       onSelectBlock={vi.fn()}
-      flyPaddingBottom={0}
+      sheetHeight={400}
     />,
   );
   fire("load");
-  map.getPadding.mockReturnValue({ top: 0, right: 0, bottom: 0, left: 0 });
+  map.flyTo.mockClear();
   rerender(
-    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} flyPaddingBottom={0} />,
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} sheetHeight={400} />,
   );
   expect(map.easeTo).not.toHaveBeenCalled();
+  expect(map.flyTo).not.toHaveBeenCalled();
 });
 
 function addedLayer(id: string) {

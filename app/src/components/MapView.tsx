@@ -26,8 +26,8 @@ interface Props {
   selectedId: string | null;
   onSelectBlock: (id: string, town: string) => void;
   onBackgroundClick?: () => void;
-  // Bottom padding for the fly-to so the marker clears the sheet; null skips the fly.
-  flyPaddingBottom?: number | null;
+  // The mobile sheet's height: the fly-to lands the marker above it. null skips the fly.
+  sheetHeight?: number | null;
   // The marker is centered below this input's bottom edge, measured at fly time to stay current.
   topClearanceRef?: RefObject<HTMLInputElement | null>;
   // Desktop only: touch users pinch, and the mobile sheet needs the room.
@@ -128,7 +128,7 @@ export function MapView({
   selectedId,
   onSelectBlock,
   onBackgroundClick,
-  flyPaddingBottom = 0,
+  sheetHeight = 0,
   topClearanceRef,
   showZoomButtons = false,
   colorMode = "none",
@@ -343,16 +343,8 @@ export function MapView({
     map.setFilter("blocks-highlight-label", highlightFilter(selectedId));
     // Filters are read through the ref: as a dependency, every slider step would re-fly.
     map.setFilter("blocks-labels", labelFilter(selectedId, filterExpression(filtersRef.current)));
-    if (!selectedId) {
-      // Glide the fly-to padding back to zero as the sheet closes, so the map center isn't
-      // left offset. Skip it when there's no padding, so no empty animation runs.
-      const p = map.getPadding();
-      if (p.top || p.right || p.bottom || p.left) {
-        map.easeTo({ padding: { top: 0, right: 0, left: 0, bottom: 0 } });
-      }
-      return;
-    }
-    if (flyPaddingBottom !== null) {
+    if (!selectedId) return;
+    if (sheetHeight !== null) {
       const f = data.features.find((ft) => ft.properties.id === selectedId);
       if (f) {
         const top = topClearanceRef?.current?.getBoundingClientRect().bottom ?? 0;
@@ -360,11 +352,13 @@ export function MapView({
           center: f.geometry.coordinates,
           // Land at least where labels show, so the block and its neighbours are readable.
           zoom: Math.max(map.getZoom(), LABEL_MIN_ZOOM),
-          padding: { top, right: 0, left: 0, bottom: flyPaddingBottom },
+          // An offset, not padding: padding outlives the fly, and clearing it when the sheet
+          // closes slides the whole map down.
+          offset: [0, (top - sheetHeight) / 2],
         });
       }
     }
-  }, [selectedId, data, flyPaddingBottom, topClearanceRef]);
+  }, [selectedId, data, sheetHeight, topClearanceRef]);
 
   // Inline position too: MapLibre measures the container at creation, possibly before
   // Tailwind's utilities apply.
