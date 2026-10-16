@@ -79,8 +79,10 @@ committed contract. Per-block problems are non-fatal instead: a geocode failure 
 with unusable coordinates), or a block that `transform` skips for a missing year, floor count, or
 unit total, is left out and written to `pipeline/failed_blocks.csv` (committed alongside the data)
 with its reason. The block-count guard caps them: a full run that would write fewer than
-`MIN_BLOCK_RATIO` (99%) of the live blocks aborts before any write. Street abbreviations
-(`AVE`→`AVENUE`, etc.) are expanded via whole-token matching in `config.py`.
+`MIN_BLOCK_RATIO` (99%) of the live blocks aborts before any write. After the write, `summarize.py`
+compares the data with what was there before; the workflow (which sets `RUN_SUMMARY_PATH`) puts that
+summary in the data commit's message and on the run page. A summary failure only logs a warning.
+Street abbreviations (`AVE`→`AVENUE`, etc.) are expanded via whole-token matching in `config.py`.
 
 ## Frontend internals
 

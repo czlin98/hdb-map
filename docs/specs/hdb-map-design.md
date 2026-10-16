@@ -873,10 +873,24 @@ whatever stays visible.
 **`pipeline.yml`** (data refresh):
 
 - **Triggers:** **monthly cron** (08:00 SGT on the 1st) + `workflow_dispatch`
-  (manual). The data commit is labelled `monthly` or `manual` accordingly, and
-  as `check, no data changes` when only `meta.json` changed, otherwise
-  `HDB data refresh`, e.g.
-  `chore(data): monthly check, no data changes (2026-11-01)`.
+  (manual). The data commit is labelled `monthly` or `manual` accordingly.
+- **Commit message:** names what the run found, so a refresh can be read
+  without opening the data diffs:
+  - only `meta.json` changed: `chore(data): monthly check, no data changes
+    (2026-11-01)`;
+  - blocks added, removed, or changed: `chore(data): monthly HDB data refresh
+    (2026-11-01): +21 -0 ~46`, with a summary in the body;
+  - only the failure list changed: `chore(data): monthly check, failed blocks
+    changed (2026-11-01)`, with the summary.
+- **Run summary:** the pipeline compares the data and the failure list before
+  and after its write (`summarize.py`). It lists the blocks added, the blocks
+  removed with why (gone from HDB's data, or failed this run), and each
+  changed block's fields with both values, coordinates as stored, so even a
+  small geocode shift shows. The failure list's count and its newly failing,
+  fixed, and changed entries follow. Long lists are cut short, with the full
+  count kept. The same text goes in the commit body and on the run's summary
+  page in Actions. It only describes the run, so any failure in it logs a
+  warning and the data is committed with the plain message.
 - **Steps:** checkout → setup Python → install → run the pipeline. The run
   fetches a fresh OneMap token from `ONEMAP_EMAIL`/`ONEMAP_PASSWORD`, geocodes
   all blocks ≤300/min, and writes `app/public/data/*` and
