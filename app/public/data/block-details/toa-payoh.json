@@ -2511,8 +2511,8 @@
     "max_floor_lvl": 25,
     "total_dwelling_units": 188,
     "sold_units_by_type": {
-      "2room": 57,
-      "studio_apartment": 131
+      "2room": 58,
+      "studio_apartment": 130
     }
   },
   "199-toa-payoh-nth": {
@@ -4752,8 +4752,8 @@
     "max_floor_lvl": 15,
     "total_dwelling_units": 155,
     "sold_units_by_type": {
-      "2room": 58,
-      "studio_apartment": 97
+      "2room": 59,
+      "studio_apartment": 96
     }
   },
   "63-lor-5-toa-payoh": {

@@ -2674,9 +2674,9 @@
     "max_floor_lvl": 15,
     "total_dwelling_units": 168,
     "sold_units_by_type": {
-      "2room": 32,
+      "2room": 33,
       "4room": 56,
-      "studio_apartment": 80
+      "studio_apartment": 79
     }
   },
   "317c-yishun-ave-9": {
@@ -4393,10 +4393,10 @@
     "max_floor_lvl": 13,
     "total_dwelling_units": 96,
     "sold_units_by_type": {
-      "2room": 11,
+      "2room": 12,
       "4room": 24,
       "5room": 24,
-      "studio_apartment": 37
+      "studio_apartment": 36
     }
   },
   "426d-yishun-ave-11": {
@@ -7390,8 +7390,8 @@
     "max_floor_lvl": 15,
     "total_dwelling_units": 169,
     "sold_units_by_type": {
-      "2room": 60,
-      "studio_apartment": 109
+      "2room": 61,
+      "studio_apartment": 108
     }
   },
   "702-yishun-ave-5": {

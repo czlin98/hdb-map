@@ -1284,9 +1284,9 @@
     "max_floor_lvl": 31,
     "total_dwelling_units": 206,
     "sold_units_by_type": {
-      "2room": 24,
+      "2room": 25,
       "3room": 89,
-      "studio_apartment": 93
+      "studio_apartment": 92
     }
   },
   "180c-marsiling-rd": {
@@ -7728,8 +7728,8 @@
     "max_floor_lvl": 14,
     "total_dwelling_units": 128,
     "sold_units_by_type": {
-      "2room": 30,
-      "studio_apartment": 98
+      "2room": 31,
+      "studio_apartment": 97
     }
   },
   "765-woodlands-circle": {

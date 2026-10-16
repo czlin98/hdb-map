@@ -4685,9 +4685,9 @@
     "max_floor_lvl": 15,
     "total_dwelling_units": 140,
     "sold_units_by_type": {
-      "2room": 12,
+      "2room": 13,
       "3room": 56,
-      "studio_apartment": 72
+      "studio_apartment": 71
     }
   },
   "280a-sengkang-east-ave": {
@@ -6590,9 +6590,9 @@
     "max_floor_lvl": 16,
     "total_dwelling_units": 120,
     "sold_units_by_type": {
-      "2room": 14,
+      "2room": 15,
       "4room": 30,
-      "studio_apartment": 76
+      "studio_apartment": 75
     }
   },
   "327b-anchorvale-rd": {

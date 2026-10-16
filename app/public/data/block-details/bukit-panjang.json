@@ -2743,11 +2743,11 @@
     "town": "BUKIT PANJANG",
     "year_completed": 2014,
     "max_floor_lvl": 17,
-    "total_dwelling_units": 264,
+    "total_dwelling_units": 263,
     "sold_units_by_type": {
       "2room": 38,
       "3room": 108,
-      "studio_apartment": 118
+      "studio_apartment": 117
     }
   },
   "455-segar-rd": {
@@ -4522,9 +4522,9 @@
     "max_floor_lvl": 24,
     "total_dwelling_units": 176,
     "sold_units_by_type": {
-      "2room": 24,
+      "2room": 25,
       "4room": 44,
-      "studio_apartment": 108
+      "studio_apartment": 107
     }
   },
   "634b-senja-rd": {
@@ -4535,11 +4535,11 @@
     "town": "BUKIT PANJANG",
     "year_completed": 2014,
     "max_floor_lvl": 24,
-    "total_dwelling_units": 166,
+    "total_dwelling_units": 165,
     "sold_units_by_type": {
       "2room": 31,
       "4room": 44,
-      "studio_apartment": 91
+      "studio_apartment": 90
     }
   },
   "635a-senja-rd": {

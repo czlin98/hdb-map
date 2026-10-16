@@ -3286,10 +3286,10 @@
     "max_floor_lvl": 16,
     "total_dwelling_units": 109,
     "sold_units_by_type": {
-      "2room": 10,
+      "2room": 11,
       "3room": 27,
       "4room": 43,
-      "studio_apartment": 29
+      "studio_apartment": 28
     }
   },
   "476b-choa-chu-kang-ave-5": {
@@ -3318,10 +3318,10 @@
     "max_floor_lvl": 16,
     "total_dwelling_units": 116,
     "sold_units_by_type": {
-      "2room": 12,
+      "2room": 13,
       "3room": 30,
       "4room": 43,
-      "studio_apartment": 31
+      "studio_apartment": 30
     }
   },
   "476d-choa-chu-kang-ave-5": {
@@ -3557,9 +3557,9 @@
     "max_floor_lvl": 14,
     "total_dwelling_units": 104,
     "sold_units_by_type": {
-      "2room": 12,
+      "2room": 13,
       "4room": 52,
-      "studio_apartment": 40
+      "studio_apartment": 39
     }
   },
   "488b-choa-chu-kang-ave-5": {

@@ -62,11 +62,11 @@
     "town": "QUEENSTOWN",
     "year_completed": 1964,
     "max_floor_lvl": 10,
-    "total_dwelling_units": 75,
+    "total_dwelling_units": 74,
     "sold_units_by_type": {
       "2room": 9,
-      "3room": 61,
-      "4room": 5
+      "3room": 59,
+      "4room": 6
     }
   },
   "101-c-wealth-cres": {
@@ -3280,11 +3280,11 @@
     "max_floor_lvl": 40,
     "total_dwelling_units": 389,
     "sold_units_by_type": {
-      "2room": 10,
+      "2room": 11,
       "3room": 116,
       "4room": 195,
       "5room": 40,
-      "studio_apartment": 28
+      "studio_apartment": 27
     }
   },
   "91-c-wealth-dr": {
@@ -3329,10 +3329,10 @@
     "max_floor_lvl": 40,
     "total_dwelling_units": 331,
     "sold_units_by_type": {
-      "2room": 10,
+      "2room": 11,
       "4room": 254,
       "5room": 39,
-      "studio_apartment": 28
+      "studio_apartment": 27
     }
   },
   "92-c-wealth-dr": {
@@ -3363,11 +3363,11 @@
     "max_floor_lvl": 43,
     "total_dwelling_units": 154,
     "sold_units_by_type": {
-      "2room": 7,
+      "2room": 8,
       "3room": 22,
       "4room": 86,
       "5room": 25,
-      "studio_apartment": 14
+      "studio_apartment": 13
     }
   },
   "93-c-wealth-dr": {

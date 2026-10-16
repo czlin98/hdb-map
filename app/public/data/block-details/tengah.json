@@ -823,6 +823,100 @@
       "5room": 56
     }
   },
+  "209a-tengah-gdn-ave": {
+    "blk_no": "209A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691209",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 153,
+    "sold_units_by_type": {
+      "2room": 83,
+      "3room": 14,
+      "4room": 28
+    },
+    "rental_units_by_type": {
+      "2room": 28
+    }
+  },
+  "210a-tengah-gdn-ave": {
+    "blk_no": "210A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691210",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 164,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 15,
+      "4room": 29
+    }
+  },
+  "210b-tengah-gdn-ave": {
+    "blk_no": "210B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692210",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "2room": 90,
+      "3room": 15,
+      "4room": 30
+    },
+    "rental_units_by_type": {
+      "2room": 30
+    }
+  },
+  "211a-tengah-gdn-ave": {
+    "blk_no": "211A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691211",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 97,
+    "sold_units_by_type": {
+      "4room": 45,
+      "5room": 52
+    }
+  },
+  "213a-tengah-gdn-ave": {
+    "blk_no": "213A",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "691213",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 165,
+    "sold_units_by_type": {
+      "2room": 120,
+      "3room": 15,
+      "4room": 30
+    }
+  },
+  "213b-tengah-gdn-ave": {
+    "blk_no": "213B",
+    "street": "TENGAH GDN AVE",
+    "street_full": "TENGAH GARDEN AVENUE",
+    "postal": "692213",
+    "town": "TENGAH",
+    "year_completed": 2026,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 98,
+    "sold_units_by_type": {
+      "4room": 42,
+      "5room": 56
+    }
+  },
   "216a-tengah-gdn-ave": {
     "blk_no": "216A",
     "street": "TENGAH GDN AVE",

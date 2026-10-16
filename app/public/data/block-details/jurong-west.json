@@ -624,9 +624,9 @@
     "max_floor_lvl": 20,
     "total_dwelling_units": 133,
     "sold_units_by_type": {
-      "2room": 25,
+      "2room": 26,
       "4room": 57,
-      "studio_apartment": 51
+      "studio_apartment": 50
     }
   },
   "176-boon-lay-dr": {
@@ -2381,10 +2381,10 @@
     "max_floor_lvl": 20,
     "total_dwelling_units": 133,
     "sold_units_by_type": {
-      "2room": 16,
+      "2room": 17,
       "3room": 57,
       "4room": 19,
-      "studio_apartment": 41
+      "studio_apartment": 40
     }
   },
   "339a-kang-ching-rd": {
@@ -2443,6 +2443,51 @@
     "sold_units_by_type": {
       "3room": 114,
       "4room": 19
+    }
+  },
+  "341a-kang-ching-rd": {
+    "blk_no": "341A",
+    "street": "KANG CHING RD",
+    "street_full": "KANG CHING ROAD",
+    "postal": "611341",
+    "town": "JURONG WEST",
+    "year_completed": 2026,
+    "max_floor_lvl": 18,
+    "total_dwelling_units": 150,
+    "sold_units_by_type": {
+      "2room": 67,
+      "3room": 17,
+      "4room": 66
+    }
+  },
+  "341b-kang-ching-rd": {
+    "blk_no": "341B",
+    "street": "KANG CHING RD",
+    "street_full": "KANG CHING ROAD",
+    "postal": "612341",
+    "town": "JURONG WEST",
+    "year_completed": 2026,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 142,
+    "sold_units_by_type": {
+      "2room": 80,
+      "4room": 30,
+      "5room": 32
+    }
+  },
+  "342a-kang-ching-rd": {
+    "blk_no": "342A",
+    "street": "KANG CHING RD",
+    "street_full": "KANG CHING ROAD",
+    "postal": "611342",
+    "town": "JURONG WEST",
+    "year_completed": 2026,
+    "max_floor_lvl": 17,
+    "total_dwelling_units": 149,
+    "sold_units_by_type": {
+      "2room": 63,
+      "4room": 11,
+      "5room": 75
     }
   },
   "345-kang-ching-rd": {

@@ -2240,10 +2240,10 @@
     "max_floor_lvl": 19,
     "total_dwelling_units": 180,
     "sold_units_by_type": {
-      "2room": 55,
+      "2room": 57,
       "3room": 36,
       "4room": 36,
-      "studio_apartment": 53
+      "studio_apartment": 51
     }
   },
   "19-bedok-sth-rd": {
@@ -4003,8 +4003,8 @@
     "max_floor_lvl": 15,
     "total_dwelling_units": 130,
     "sold_units_by_type": {
-      "2room": 53,
-      "studio_apartment": 77
+      "2room": 54,
+      "studio_apartment": 76
     }
   },
   "51-chai-chee-st": {
@@ -5122,8 +5122,8 @@
     "max_floor_lvl": 13,
     "total_dwelling_units": 129,
     "sold_units_by_type": {
-      "2room": 38,
-      "studio_apartment": 91
+      "2room": 39,
+      "studio_apartment": 90
     }
   },
   "61-chai-chee-rd": {

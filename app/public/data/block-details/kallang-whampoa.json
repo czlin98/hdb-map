@@ -1309,6 +1309,35 @@
       "4room": 210
     }
   },
+  "152a-towner-rd": {
+    "blk_no": "152A",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "321152",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2026,
+    "max_floor_lvl": 25,
+    "total_dwelling_units": 216,
+    "sold_units_by_type": {},
+    "rental_units_by_type": {
+      "1room": 144,
+      "2room": 72
+    }
+  },
+  "153a-towner-rd": {
+    "blk_no": "153A",
+    "street": "TOWNER RD",
+    "street_full": "TOWNER ROAD",
+    "postal": "321153",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2026,
+    "max_floor_lvl": 40,
+    "total_dwelling_units": 316,
+    "sold_units_by_type": {
+      "3room": 90,
+      "4room": 226
+    }
+  },
   "16-jln-tenteram": {
     "blk_no": "16",
     "street": "JLN TENTERAM",
@@ -3114,6 +3143,20 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    }
+  },
+  "55a-owen-rd": {
+    "blk_no": "55A",
+    "street": "OWEN RD",
+    "street_full": "OWEN ROAD",
+    "postal": "211055",
+    "town": "KALLANG/WHAMPOA",
+    "year_completed": 2026,
+    "max_floor_lvl": 32,
+    "total_dwelling_units": 430,
+    "sold_units_by_type": {
+      "2room": 154,
+      "4room": 276
     }
   },
   "56-geylang-bahru": {

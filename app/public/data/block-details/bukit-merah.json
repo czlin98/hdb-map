@@ -1064,8 +1064,8 @@
     "max_floor_lvl": 15,
     "total_dwelling_units": 130,
     "sold_units_by_type": {
-      "2room": 49,
-      "studio_apartment": 81
+      "2room": 50,
+      "studio_apartment": 80
     }
   },
   "118a-jln-membina": {
@@ -2815,10 +2815,10 @@
     "max_floor_lvl": 30,
     "total_dwelling_units": 202,
     "sold_units_by_type": {
-      "2room": 10,
+      "2room": 11,
       "3room": 42,
       "4room": 116,
-      "studio_apartment": 34
+      "studio_apartment": 33
     }
   },
   "26c-jln-membina": {
@@ -4115,10 +4115,10 @@
     "max_floor_lvl": 35,
     "total_dwelling_units": 184,
     "sold_units_by_type": {
-      "2room": 6,
+      "2room": 7,
       "3room": 68,
       "4room": 68,
-      "studio_apartment": 42
+      "studio_apartment": 41
     }
   },
   "52-lengkok-bahru": {
@@ -4284,9 +4284,9 @@
     "town": "BUKIT MERAH",
     "year_completed": 1937,
     "max_floor_lvl": 3,
-    "total_dwelling_units": 34,
+    "total_dwelling_units": 33,
     "sold_units_by_type": {
-      "3room": 10,
+      "3room": 9,
       "4room": 22,
       "5room": 2
     }
@@ -4413,10 +4413,10 @@
     "max_floor_lvl": 38,
     "total_dwelling_units": 188,
     "sold_units_by_type": {
-      "2room": 13,
+      "2room": 14,
       "3room": 74,
       "4room": 70,
-      "studio_apartment": 31
+      "studio_apartment": 30
     }
   },
   "58-lengkok-bahru": {

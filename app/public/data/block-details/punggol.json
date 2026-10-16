@@ -7576,9 +7576,9 @@
     "max_floor_lvl": 17,
     "total_dwelling_units": 124,
     "sold_units_by_type": {
-      "2room": 28,
+      "2room": 29,
       "4room": 32,
-      "studio_apartment": 64
+      "studio_apartment": 63
     }
   },
   "677c-punggol-dr": {

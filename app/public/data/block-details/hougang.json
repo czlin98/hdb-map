@@ -2519,10 +2519,10 @@
     "max_floor_lvl": 16,
     "total_dwelling_units": 126,
     "sold_units_by_type": {
-      "2room": 22,
+      "2room": 24,
       "3room": 30,
       "4room": 21,
-      "studio_apartment": 53
+      "studio_apartment": 51
     }
   },
   "365a-upp-serangoon-rd": {
@@ -2704,9 +2704,9 @@
     "max_floor_lvl": 19,
     "total_dwelling_units": 162,
     "sold_units_by_type": {
-      "2room": 27,
+      "2room": 29,
       "4room": 54,
-      "studio_apartment": 81
+      "studio_apartment": 79
     }
   },
   "377a-hougang-st-32": {
@@ -4991,8 +4991,8 @@
     "max_floor_lvl": 16,
     "total_dwelling_units": 144,
     "sold_units_by_type": {
-      "2room": 68,
-      "studio_apartment": 76
+      "2room": 69,
+      "studio_apartment": 75
     }
   },
   "582-buangkok-green": {
@@ -5005,8 +5005,8 @@
     "max_floor_lvl": 16,
     "total_dwelling_units": 148,
     "sold_units_by_type": {
-      "2room": 69,
-      "studio_apartment": 79
+      "2room": 70,
+      "studio_apartment": 78
     }
   },
   "6-hougang-ave-3": {

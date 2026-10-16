@@ -404,8 +404,8 @@
     "max_floor_lvl": 11,
     "total_dwelling_units": 149,
     "sold_units_by_type": {
-      "2room": 30,
-      "studio_apartment": 119
+      "2room": 31,
+      "studio_apartment": 118
     }
   },
   "119-simei-st-1": {
@@ -6431,9 +6431,9 @@
     "max_floor_lvl": 13,
     "total_dwelling_units": 138,
     "sold_units_by_type": {
-      "2room": 31,
+      "2room": 32,
       "3room": 46,
-      "studio_apartment": 61
+      "studio_apartment": 60
     }
   },
   "494g-tampines-st-45": {
@@ -9763,8 +9763,8 @@
     "max_floor_lvl": 15,
     "total_dwelling_units": 208,
     "sold_units_by_type": {
-      "2room": 74,
-      "studio_apartment": 134
+      "2room": 75,
+      "studio_apartment": 133
     }
   },
   "828-tampines-st-81": {
@@ -10805,9 +10805,9 @@
     "max_floor_lvl": 15,
     "total_dwelling_units": 126,
     "sold_units_by_type": {
-      "2room": 20,
+      "2room": 21,
       "3room": 42,
-      "studio_apartment": 64
+      "studio_apartment": 63
     }
   },
   "869-tampines-st-83": {

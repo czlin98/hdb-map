@@ -1791,10 +1791,10 @@
     "max_floor_lvl": 21,
     "total_dwelling_units": 230,
     "sold_units_by_type": {
-      "2room": 21,
+      "2room": 22,
       "3room": 58,
       "4room": 36,
-      "studio_apartment": 115
+      "studio_apartment": 114
     }
   },
   "308a-ang-mo-kio-ave-1": {
@@ -5523,9 +5523,9 @@
     "max_floor_lvl": 21,
     "total_dwelling_units": 256,
     "sold_units_by_type": {
-      "2room": 42,
+      "2room": 43,
       "3room": 98,
-      "studio_apartment": 116
+      "studio_apartment": 115
     }
   },
   "651a-ang-mo-kio-ave-9": {

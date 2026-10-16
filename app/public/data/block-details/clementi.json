@@ -692,10 +692,10 @@
     "town": "CLEMENTI",
     "year_completed": 1978,
     "max_floor_lvl": 10,
-    "total_dwelling_units": 142,
+    "total_dwelling_units": 141,
     "sold_units_by_type": {
-      "3room": 140,
-      "5room": 2
+      "3room": 138,
+      "5room": 3
     }
   },
   "320-clementi-ave-4": {
@@ -933,10 +933,11 @@
     "town": "CLEMENTI",
     "year_completed": 1978,
     "max_floor_lvl": 12,
-    "total_dwelling_units": 197,
+    "total_dwelling_units": 196,
     "sold_units_by_type": {
-      "3room": 174,
+      "3room": 172,
       "4room": 22,
+      "5room": 1,
       "exec": 1
     }
   },
@@ -1723,10 +1724,11 @@
     "town": "CLEMENTI",
     "year_completed": 1977,
     "max_floor_lvl": 12,
-    "total_dwelling_units": 154,
+    "total_dwelling_units": 153,
     "sold_units_by_type": {
-      "3room": 132,
-      "4room": 22
+      "3room": 130,
+      "4room": 22,
+      "exec": 1
     }
   },
   "428-clementi-ave-3": {
