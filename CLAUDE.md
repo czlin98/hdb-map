@@ -90,9 +90,9 @@ Street abbreviations (`AVE`→`AVENUE`, etc.) are expanded via whole-token match
 detail-loader with `useMemo`, and holds the loading/ready/error state. Block selection lives in a
 small Zustand store (`store/selection.ts`, `selectedId` + `selectedTown`); the town is needed to
 pick the right detail shard. Layout is mobile-first: a Vaul drawer with snap points on mobile vs. a
-side panel on desktop (`useIsDesktop`, 768px breakpoint), and map fly-to padding is adjusted to keep
-the selected marker visible above the sheet. Basemap is OpenFreeMap (Positron) vector tiles via
-MapLibre GL, free, no API key.
+side panel on desktop (`useIsDesktop`, 768px breakpoint), and the map fly-to is offset to keep the
+selected marker visible above the sheet. Basemap is OpenFreeMap (Positron) vector tiles via MapLibre
+GL, free, no API key.
 
 Marker coloring: `lib/coloring.ts` is the single definition of the bands (edges, labels, colors) and
 derives the MapLibre `step` expression, the band lookup, and the legend counts from it. The active

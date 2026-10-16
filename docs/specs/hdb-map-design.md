@@ -579,18 +579,19 @@ without knowing about filters. They are not persisted either (§5.11).
 - **Dismiss clears selection.** Closing the panel (close button / ESC /
   empty-map tap on both platforms, or swiping below **peek** on mobile) plays
   the close animation, then resets the selection in the store, which drops the
-  `blocks-highlight` marker and eases the map padding back to zero. On
-  mobile, opening the options sheet closes the panel the same way (§5.11).
+  `blocks-highlight` marker. The map itself stays still. On mobile, opening the
+  options sheet closes the panel the same way (§5.11).
 - **Swap in place on marker change.** Tapping another marker while the panel is
   open updates the selection and the panel **re-renders to that block**, with a
   fresh skeleton only when the new town's shard isn't yet cached. This is an
   in-place content swap, not a close-and-reopen. On mobile the sheet **returns
   to the default (half) snap** for each new selection, so its details are
   visible.
-- On mobile, `flyTo` applies bottom **map padding matched to the active snap
-  height**, and top padding down to the search box's bottom edge, so the
-  selected marker settles in the visible band between them rather than behind
-  either. At **full** the sheet covers the map, so the fly is skipped.
+- On mobile, `flyTo` **offsets** its target into the visible band between the
+  search box's bottom edge and the sheet at its active snap, so the selected
+  marker settles there rather than behind either. An offset, not map padding:
+  padding outlives the fly, and clearing it when the sheet closes would slide
+  the whole map. At **full** the sheet covers the map, so the fly is skipped.
 
 ### 5.6 Search (SearchBox)
 

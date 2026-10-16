@@ -118,8 +118,8 @@ export default function App() {
 
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
 
-  // On mobile, pad the fly-to by the sheet's height so the selected marker lands above it.
-  const flyPaddingBottom = useMemo<number | null>(() => {
+  // On mobile, the sheet's height at its current snap, so the selected marker lands above it.
+  const sheetHeight = useMemo<number | null>(() => {
     if (isDesktop) return 0;
     if (activeSnap === SNAP_POINTS[2]) return null; // fully open: the map is hidden
     const vh = typeof window !== "undefined" ? window.innerHeight : 800;
@@ -139,7 +139,7 @@ export default function App() {
           setFiltersOpen(false);
           setOptionsOpen(false);
         }}
-        flyPaddingBottom={flyPaddingBottom}
+        sheetHeight={sheetHeight}
         topClearanceRef={isDesktop ? undefined : searchInputRef}
         showZoomButtons={isDesktop}
         colorMode={colorMode}
