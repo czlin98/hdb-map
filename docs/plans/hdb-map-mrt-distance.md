@@ -1,0 +1,429 @@
+# HDB Map: Nearest MRT Station Implementation Plan
+
+**Status:** Planned.
+
+**Goal:** Give every block its nearest MRT or LRT station and the straight-line
+distance to that station's nearest exit; show it in the details panel, add an
+"MRT distance" coloring mode, and draw the stations on the map.
+
+**Architecture:** A new pipeline stage, `stations.py`, builds the station list
+from LTA's exit dataset (data.gov.sg) and OneMap's line codes, keeping only
+codes on open lines and failing the run if a station is left with none.
+`transform` finds each block's nearest exit; `export` writes the distance into
+the index, the station into the shard, and a new `stations.geojson`. In the
+app, the mode is one more entry in `COLOR_SCALES`, which the menu, mobile row,
+legend, tooltip, and panel swatch already read; MapView gains a station source
+and layers fed from `stations.geojson`, loaded beside the index but not
+required by it.
+
+**Spec:** `docs/specs/hdb-map-design.md` §3.6, §4.7, §5.12 (plus §1, §2,
+§3.3 to §3.5, §4.1, §4.3, §4.5, §5.2 to §5.10, §6.2, §7.1 to §7.3, §7.5,
+§7.8), committed on this branch in 6749828. The spec is the authority; this
+plan only adds the implementation choices.
+
+**Branch / PR:** all work on `feat/mrt-distance`. Code and spec ship in one
+PR. Commit per task, in Conventional Commits form with an `app` or `pipeline`
+scope, without a `Co-Authored-By` trailer.
+
+**Order:** pipeline first (Tasks 1 to 8), then the UI mocks with the user
+(Task 9), then the app (Tasks 10 to 15). The pipeline doesn't depend on any
+UI decision, and the mocks are best judged on real data.
+
+## Decisions this plan makes (not in the spec)
+
+- **OneMap results are read across every page.** The station-code entries
+  have always come first on page 1 in testing, but Orchard returns 18 results
+  over two pages, and nothing guarantees the order. Reading `totalNumPages`
+  costs a few extra calls for the big stations only.
+- **Line codes are sorted by `OPEN_LINES` order, then by number**, so an
+  interchange reads the same every month whatever order OneMap returns. A
+  code with no number (`STC`, `PTC`) sorts as 0.
+- **A code counts as open when its whole letter prefix is in `OPEN_LINES`**
+  (`re.match(r"[A-Z]+", code)`), so `STC` is never mistaken for `SE`.
+- **Exits at a merged stop keep their building:** Bukit Panjang has an
+  "Exit A" at both its MRT and its LRT station, and Choa Chu Kang an "Exit B",
+  so at a stop with exits from both, each exit name gains its prefix ("MRT
+  Exit A", "LRT Exit A"). Other stations keep LTA's name ("Exit 1").
+- **Haversine in plain Python**, block by exit. About 10.8k blocks times 613
+  exits took 6 s in a scratch run; no spatial index or NumPy needed.
+- **The station lookup reuses `fetch._api_get` and `fetch._download_url`**
+  for the exits download, and its own small retry loop for OneMap, like
+  `geocode_block`. A OneMap error after retries raises, unlike geocoding,
+  since the spec makes it fatal.
+- **`transform` takes the station list as a third argument** and returns the
+  station fields on each record; `export` only projects them.
+- **The station-count guard lives in `run.py`** beside `check_block_count`
+  and runs right after the stations stage, before geocoding, so a truncated
+  exit download fails in about a minute.
+- **Summary:** the snapshot also reads `stations.geojson`. Stations added,
+  removed, or with changed codes get their own sections. A block's changes
+  gain "MRT distance a → b" and "station A → B". A run where only stations
+  changed counts as a refresh with zero block counts; it would take a station
+  that no block is nearest to, which is unlikely enough to accept.
+- **The development backfill needs no OneMap login:** search answered
+  without a token in testing when calls were 1.2 s apart (about 8 minutes for
+  every station). The scratch script patches out the auth header and the
+  pacing; the pipeline itself always uses the run's token.
+- **Final data comes from a pipeline run on this branch** (`workflow_dispatch`
+  on `feat/mrt-distance`), which is also the end-to-end test against the live
+  APIs. Until then a scratch backfill (Task 8, not committed) adds the new
+  fields to the committed data for development and the mocks.
+- **App: stations are a prop on MapView** (`stations`), like `data`, read
+  through a ref by the load handler; a later arrival adds the source then.
+  The layer order is left to the mock (Task 9): under the blocks, station
+  names lose MapLibre's label placement to the block numbers from zoom 16,
+  and block dots cover the markers. Whatever the order, the station layers
+  stay out of the hover and tap layer list, so blocks remain the only
+  targets.
+- **App: the legend gets an optional note line** from the scale (`note` on
+  `ColorScale`), used only by the MRT mode: "Nearest MRT or LRT exit, straight
+  line" (wording from the mock).
+
+## Band proposal for the mocks
+
+Measured on the committed index against today's exits: median 507 m, 90th
+percentile 1,134 m, max 3,544 m.
+
+| Edges (m) | Blocks per band |
+| --- | --- |
+| 400, 800, 1200, 1600 | 4,085 / 4,138 / 1,689 / 597 / 308 |
+| 200, 400, 600, 800, 1000 | 1,369 / 2,716 / 2,351 / 1,787 / 1,011 / 1,583 |
+| 300, 600, 900, 1200, 1500 | 2,717 / 3,719 / 2,381 / 1,095 / 476 / 429 |
+
+The spec's "roughly 400 m" bands put three quarters of all blocks in the first
+two. **Proposal: 200 m steps to 1 km** (six bands like the other modes, about
+2.5 minutes' walk each), labels "Under 200 m" … "1 km and more", short "<200"
+… "1k+". The spec's band sentence is updated once the user picks (Task 9).
+Palette and direction (near = dark or light) are chosen in the mock.
+
+## Names and copy
+
+- Mode: menu "MRT distance", button "Color: MRT", mobile row "MRT", legend
+  title "MRT distance".
+- Tooltip value: `350 m` (after the address, like `12 floors`).
+- Panel row label and layout: from the mock (spec example
+  "Outram Park · EW16 NE3 TE17 · 350 m").
+- Credit: `© HDB, LTA, OneMap/SLA`.
+
+## File structure
+
+```
+pipeline/src/config.py               # modify: dataset id, OPEN_LINES, name overrides, ratio
+pipeline/src/fetch.py                # unchanged; stations.py imports its helpers
+pipeline/src/stations.py             # new: exits, line codes, station list, nearest station
+pipeline/src/transform.py            # modify: nearest station per block
+pipeline/src/export.py               # modify: index + shard fields, stations.geojson
+pipeline/src/run.py                  # modify: stations stage, station-count guard
+pipeline/src/summarize.py            # modify: station sections, new block fields
+pipeline/tests/test_stations.py      # new
+pipeline/tests/test_transform.py     # modify
+pipeline/tests/test_export.py        # modify
+pipeline/tests/test_run.py           # modify: mocked exits + OneMap, guard
+pipeline/tests/test_summarize.py     # modify
+app/public/data/*                    # regenerate (Task 8 backfill, then the branch run)
+app/src/types/contract.ts            # modify: station_distance, NearestStation, stations
+app/src/test/fixtures.ts             # modify: values, sampleStations
+app/src/lib/data.ts                  # modify: loadStations
+app/src/lib/coloring.ts              # modify: "mrt" scale, optional note
+app/src/components/MapView.tsx       # modify: stations prop + layers, credit, tooltip type
+app/src/components/DetailsPanel.tsx  # modify: nearest-station row + swatch
+app/src/components/ColorLegend.tsx   # modify: note line
+app/src/App.tsx                      # modify: load stations, pass to MapView
+CLAUDE.md, README.md                 # modify
+docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
+```
+
+---
+
+### Task 1: Config and the exits download
+
+**Files:** `pipeline/src/config.py`, `pipeline/src/stations.py`,
+`pipeline/tests/test_stations.py`
+
+- [ ] `config.py`:
+
+  ```python
+  # LTA MRT Station Exit (GeoJSON); LRT stations are in it too.
+  EXITS_DATASET_ID = "d_b39d3a0871985372d7e1637193335da5"
+  # Lines in service, in display order. A new line's first stations fail the run until it is
+  # added here, since a station must have at least one code (stations.py).
+  OPEN_LINES = ["NS", "EW", "CG", "NE", "CC", "DT", "TE", "BP", "STC", "SE", "SW", "PTC", "PE", "PW"]
+  # Official names that title case gets wrong.
+  STATION_NAME_OVERRIDES = {"HARBOURFRONT": "HarbourFront", "ONE-NORTH": "one-north",
+                            "MACPHERSON": "MacPherson"}
+  # One closure in ~185 stations passes; a truncated exits download doesn't.
+  MIN_STATION_RATIO = 0.99
+  ```
+
+  The lookup of every station in testing saw these prefixes plus `CR`,
+  `JS`, and `JE`, the closed ones. Confirm `STC` once the LRT-form lookup
+  (Task 2) returns Sengkang's code.
+- [ ] **Tests first:** `fetch_exits` with `responses` (initiate, poll, then a
+  small GeoJSON body): returns `{"station", "exit", "lon", "lat"}` rows with
+  the suffix stripped ("OUTRAM PARK"); "PUNGGOL LRT STATION" and "PUNGGOL MRT
+  STATION" both become "PUNGGOL"; a name without the suffix, a non-Point
+  geometry, or an empty collection raises.
+- [ ] Implement `fetch_exits(session)` with `_download_url(session,
+  config.EXITS_DATASET_ID)` and `_api_get`; suffix regex
+  `r"^(.*\S)\s+(?:MRT|LRT) STATION$"`.
+- [ ] Commit: `feat(pipeline): fetch the MRT and LRT station exits`.
+
+### Task 2: Line codes from OneMap
+
+**Files:** `pipeline/src/stations.py`, `pipeline/tests/test_stations.py`
+
+- [ ] **Tests first** (`responses` on `ONEMAP_SEARCH_URL`, sleep patched):
+  - Outram Park: three entries "(EW16)", "(NE3)", "(TE17)" among exit rows →
+    `["EW16", "NE3", "TE17"]`;
+  - Raffles Place: "(EW14 / NS26)" → both codes;
+  - Sengkang: the MRT query gives "(NE16)", the LRT query "(STC)" → both;
+  - an entry for a different station ("ORCHARD BOULEVARD MRT STATION (TE13)"
+    when looking up "ORCHARD") is ignored;
+  - page 2 is fetched when `totalNumPages` is 2;
+  - a 500 that persists past retries raises; a 429 then 200 succeeds.
+- [ ] Implement `lookup_codes(session, token, station) -> list[str]`: query
+  `f"{station} MRT STATION"` and `f"{station} LRT STATION"`, every page, with
+  the run's bearer token and `time.sleep(0.2)` between calls. Keep a result
+  only on `re.fullmatch(rf"{re.escape(station)} (?:MRT|LRT) STATION \((.+)\)",
+  r["SEARCHVAL"])`, split the group on `/`, strip.
+- [ ] Commit: `feat(pipeline): look up station line codes on OneMap`.
+
+### Task 3: The station list
+
+**Files:** `pipeline/src/stations.py`, `pipeline/tests/test_stations.py`
+
+- [ ] **Tests first** on a pure `build_stations(exits, codes_by_station)`:
+  - Ang Mo Kio with `["CR11", "NS16"]` keeps `["NS16"]`;
+  - codes are ordered by `OPEN_LINES`, then number (`["TE17", "EW16",
+    "NE3"]` → `["EW16", "NE3", "TE17"]`), duplicates dropped;
+  - a station whose codes are all closed (`["CR5"]`) or empty raises, and the
+    message lists every such station, not just the first;
+  - name: "OUTRAM PARK" → "Outram Park", "HARBOURFRONT" → "HarbourFront",
+    "ONE-NORTH" → "one-north"; `id` is `slugify(name)`;
+  - point is the mean of the exits' lon and lat; result sorted by `id`;
+  - Bukit Panjang with MRT and LRT exits both named "Exit A" gets "MRT Exit A"
+    and "LRT Exit A"; Outram Park (MRT only) keeps "Exit 1";
+  - codes `["STC", "SE5", "NE16"]` sort to `["NE16", "STC", "SE5"]`.
+- [ ] Implement `build_stations` and `fetch_stations(session, token)` (exits,
+  then one lookup per distinct station). Each station keeps its exits
+  (`[{"exit", "lon", "lat"}]`) for Task 4; export drops them. `fetch_exits`
+  keeps which suffix each exit came from, so this step can prefix the names
+  at merged stops.
+- [ ] Commit: `feat(pipeline): build the station list from exits and open lines`.
+
+### Task 4: Each block's nearest station
+
+**Files:** `pipeline/src/stations.py`, `pipeline/src/transform.py`,
+`pipeline/tests/test_stations.py`, `pipeline/tests/test_transform.py`
+
+- [ ] **Tests first:**
+  - `haversine_m` on a known pair (two points 0.001° of latitude apart,
+    about 111 m);
+  - `nearest_station(lon, lat, stations)` picks the station of the nearest
+    exit even when another station's mean point is closer; distance rounded
+    to whole metres; on an exact tie the lower `id` wins;
+  - `transform(geocoded, towns, stations)` adds `station_distance` and
+    `nearest_station` (`id, name, codes, exit, distance`) to each record.
+- [ ] Implement; update every `transform(...)` call in tests and `run.py`.
+- [ ] Commit: `feat(pipeline): find each block's nearest station`.
+
+### Task 5: Export the station fields and `stations.geojson`
+
+**Files:** `pipeline/src/export.py`, `pipeline/tests/test_export.py`
+
+- [ ] **Tests first:**
+  - index property order ends `..., sold_types, rental_types,
+    station_distance`; shard entry ends `..., rental_units_by_type (if any),
+    nearest_station` in the field order of spec §4.3;
+  - mirror test (§4.5): each index `station_distance` equals its shard's
+    `nearest_station.distance`, and that station's `id`, name, and codes
+    exist in the written `stations.geojson`;
+  - `stations.geojson`: one station per line, sorted by `id`, coordinates
+    rounded to 6 decimals, properties exactly `id, name, codes`;
+  - two stations with the same `id` raise, like duplicate block ids and town
+    slugs (a name override could make two names slug alike).
+- [ ] Implement: rename `_write_index` to `_write_feature_collection` (both
+  files share the one-per-line format); `write_stations(stations,
+  app_data_dir)`.
+- [ ] Commit: `feat(pipeline): write the nearest station and stations.geojson`.
+
+### Task 6: Run order and the station-count guard
+
+**Files:** `pipeline/src/run.py`, `pipeline/tests/test_run.py`
+
+- [ ] **Tests first:** extend the end-to-end test with mocked exits and
+  OneMap code lookups; `stations.geojson` is written, and the index has
+  `station_distance`. New: `check_station_count` allows one station of 100
+  missing, rejects two, skips with no live file; a run whose stations stage
+  raises (station without codes) writes nothing; the guard trips before any
+  geocode call (assert no geocode request was made). Existing tests: the
+  stage stubs in `_stub_stages` gain `fetch_stations` and a recorded
+  `write_stations`, so the "writes nothing" tests cover `stations.geojson`
+  and the passing one expects it among the writes.
+- [ ] Implement in `run()`: after `fetch_blocks`, `stations =
+  fetch_stations(session, token)`, log the count, `check_station_count(...)`;
+  pass `stations` to `transform`; `write_stations` with the other writes.
+- [ ] Commit: `feat(pipeline): run the stations stage before geocoding`.
+
+### Task 7: Run summary
+
+**Files:** `pipeline/src/summarize.py`, `pipeline/tests/test_summarize.py`
+
+- [ ] **Tests first:** a block whose distance changes reads "MRT distance 350
+  → 420"; a changed nearest station reads "station Bishan → Marymount";
+  "Stations added", "Stations removed", and "Station codes changed" sections
+  list names (and codes); a stations-only change is kind `refresh`; a first
+  run (no `stations.geojson`) has no station sections.
+- [ ] Implement: `SCALAR_FIELDS` gains `("station_distance", "MRT distance")`;
+  `_changes` compares `nearest_station["name"]`; `Snapshot.stations` loaded
+  from the file.
+- [ ] Commit: `feat(pipeline): report station changes in the run summary`.
+
+### Task 8: Development data (scratch backfill)
+
+- [ ] Scratch script, not committed, run from `pipeline/` without a OneMap
+  login (see the decision above): `fetch_stations`, then for every block in
+  the committed index and shards apply the Task 4 fields, writing through the
+  pipeline's own exporters, so the result matches what a run would write.
+- [ ] Check: `git diff --stat` touches the index, every shard, and adds
+  `stations.geojson`; feature count unchanged; spot-check three blocks
+  (Outram, Punggol, a Bukit Panjang LRT block) by hand on a map.
+- [ ] Measure the index's brotli size (command in the coloring plan, Task 1).
+  Expect about 30 KB more (spec §4.1); if far off, update §4.1.
+- [ ] Full pipeline checks: `pytest`, `ruff check src tests`,
+  `ruff format --check src tests`.
+- [ ] Commit: `chore(data): add nearest stations to the data (development backfill)`.
+  The branch run (Task 16) replaces it.
+
+### Task 9: UI mocks with the user
+
+Browser mocks on the dev server with real data, desktop and 390 px wide, one
+decision at a time:
+
+- [ ] **Bands:** the three edge sets above, with palette and direction
+  (near = dark vs light). Update spec §5.12's band sentence to the choice.
+- [ ] **Panel row:** wording, where it sits, line codes plain or as chips,
+  whether the exit is named, how "straight line" is said.
+- [ ] **Station markers:** style (must not resemble a block dot or the amber
+  highlight), name labels and their zoom, whether a station shows a tooltip,
+  and the layer order: check the station names still show at zoom 16 and 17
+  among the block numbers, and that no block becomes hard to tap.
+- [ ] **Mobile Color row:** four segments (None, Year, Floors, MRT) at 320 px.
+- [ ] **Legend note** wording.
+- [ ] Record the outcomes in this plan's tasks below and in the spec.
+
+### Task 10: Contract types, fixtures, data loading
+
+**Files:** `app/src/types/contract.ts`, `app/src/test/fixtures.ts`,
+`app/src/lib/data.ts`, `app/src/lib/data.test.ts`
+
+- [ ] Types: `station_distance: number` on `BlockIndexProperties`;
+  `NearestStation { id; name; codes: string[]; exit: string; distance: number }`;
+  `BlockDetail.nearest_station: NearestStation`; `StationProperties { id;
+  name; codes }`, `StationFeature`, `StationFeatureCollection`.
+- [ ] Fixtures: AMK 123 `station_distance` 350 and Bedok 1 a value in a
+  different band; `sampleShard` gets a matching `nearest_station`;
+  `sampleStations` with two stations.
+- [ ] `loadStations(url = "/data/stations.geojson")`, tested like
+  `loadTowns`.
+- [ ] `tsc`, tests: green. Commit: `feat(app): type the station data`.
+
+### Task 11: The MRT distance scale
+
+**Files:** `app/src/lib/coloring.ts`, `app/src/lib/coloring.test.ts`
+
+- [ ] `ColorMode` gains `"mrt"`; `property` union gains `"station_distance"`;
+  optional `note?: string`. The `mrt` scale uses the Task 9 edges, labels,
+  and colors; `describe: (m) => \`${m} m\``.
+- [ ] Tests: the existing expression-vs-lookup check covers the new scale
+  automatically; add `bandIndex` cases at each edge and `countBands` on the
+  fixtures.
+- [ ] Commit: `feat(app): add the MRT distance bands`.
+
+### Task 12: Legend note, menu, mobile row
+
+**Files:** `ColorLegend.tsx`, `ColorControl.test.tsx`, `ColorModeRow.test.tsx`,
+`ColorLegend.test.tsx`
+
+- [ ] ColorLegend renders `scale.note` under the title when present (both
+  layouts). Tests: the MRT legend shows the note; Year shows none; the menu
+  lists "MRT distance"; the mobile row has four options.
+- [ ] Commit: `feat(app): offer MRT distance in the color controls`.
+
+### Task 13: Details panel row
+
+**Files:** `DetailsPanel.tsx`, `DetailsPanel.test.tsx`
+
+- [ ] Tests on `DetailsContent`: the row shows the station name, codes, and
+  distance per the mock; mode `"mrt"` adds the band swatch to it, other modes
+  don't.
+- [ ] Implement per Task 9.
+- [ ] Commit: `feat(app): show the nearest station in the details panel`.
+
+### Task 14: Stations on the map
+
+**Files:** `MapView.tsx`, `MapView.test.tsx`
+
+- [ ] Tests: with `stations` before load, a `stations` source and its layers
+  are added in the order Task 9 chose; stations arriving after load add them
+  then; `null` stations add nothing and nothing throws; station layers are
+  not in the click/hover layer list; the blocks source credit reads
+  `© HDB, LTA, OneMap/SLA`; the tooltip in mode `"mrt"` ends `· 350 m`.
+- [ ] Implement per Task 9's marker decisions.
+- [ ] Commit: `feat(app): draw the stations on the map`.
+
+### Task 15: App wiring
+
+**Files:** `App.tsx`, `App.test.tsx`
+
+- [ ] Tests: stations load in parallel and reach MapView; a failed stations
+  fetch leaves the app `ready` with no error card and `stations` null; the
+  index or towns failing still shows the card.
+- [ ] Implement: a separate `loadStations().then(setStations).catch(() =>
+  {})` effect, not part of the `Promise.all`.
+- [ ] Commit: `feat(app): load the stations beside the index`.
+
+### Task 16: Branch run, docs, manual check, PR
+
+- [ ] **Merge before 1 November if possible** (see Risks). If `main` gets
+  its monthly data commit first, merge `main` in taking its data files, and
+  repeat the branch run.
+- [ ] **Branch run** (after the user confirms): dispatch `pipeline.yml` on
+  `feat/mrt-distance`; about 1.5 h. Check the log (station count, no
+  warnings), pull the bot's data commit, and read its summary: it should show
+  only the differences from the backfill, if any.
+- [ ] **CLAUDE.md:** the stations stage in the pipeline paragraph (fail-fast
+  list, `OPEN_LINES`), `stations.geojson` and the new fields in the contract
+  section, the stations layer and loader in frontend internals.
+  `npm run format:check`.
+- [ ] **README:** feature sentence and data sources (LTA).
+- [ ] **Spec:** re-read §3.6, §4.7, §5.12 and their cross-references against
+  the build; fix drift; set the header date at merge.
+- [ ] **Manual check**, desktop and ~375 px: each mode still works; MRT bands
+  match the legend; the panel row reads right for an interchange (Outram
+  Park), an LRT block (Sengkang), and a merged stop (Punggol); stations never
+  take a block tap; filters leave stations visible; a broken
+  `stations.geojson` (rename it locally) leaves the app working.
+- [ ] Full CI-equivalent locally, then push and open the PR (after the user
+  confirms): `feat(app,pipeline): show each block's nearest MRT station`.
+
+## Risks and checks
+
+- **The 1 November data run on `main`:** it rewrites the index, every shard,
+  and `meta.json` with the old code, while this branch commits regenerated
+  versions of the same files. Merged after it, the data files conflict and
+  can't sensibly be merged by hand. Merge before then, or take `main`'s data
+  and rerun the pipeline on the branch (Task 16).
+- **OneMap without a station LTA lists:** the run fails by design (no
+  override table; the user's call). The error names the station.
+- **OneMap rate limit:** quick unauthenticated calls were throttled in
+  testing; the pipeline uses the token and 0.2 s spacing, as geocoding does.
+  Watch the branch run's log.
+- **Exit coordinate churn:** LTA re-surveys exits; small distance changes may
+  appear monthly. Whole metres keeps them few.
+- **Index size:** measured in Task 8.
+- **Station layer and block taps:** checked by test (not in the hit list) and
+  by hand in dense estates near a station.
+- **Station names vs block numbers:** MapLibre places labels layer by layer,
+  so the drawing order decides which yields; checked in Task 9.
+- **Legend note on narrow phones:** checked in Task 9 at 320 px.

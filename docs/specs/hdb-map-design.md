@@ -134,8 +134,8 @@ hdb-map/
 
 Five small, independently testable stages: **fetch → stations → geocode →
 transform → export**, orchestrated by `run.py`. The stations stage (§3.6) runs
-before geocoding, so a station problem fails the run in a minute rather than
-after the hour-long geocode.
+before geocoding, so a station problem fails the run in a couple of minutes
+rather than after the hour-long geocode.
 
 ### 3.1 fetch.py
 
@@ -313,9 +313,10 @@ Steps:
 
 - **One station per name.** Exit names lose their "MRT STATION" or "LRT
   STATION" suffix, so an MRT and an LRT stop sharing a name (Punggol, Choa Chu
-  Kang, Bukit Panjang) become one station with the exits of both. LTA lists
-  some shared stops only once (Sengkang), so the code lookup searches both the
-  MRT and the LRT form of every name.
+  Kang, Bukit Panjang) become one station with the exits of both. Their exit
+  names gain "MRT" or "LRT" ("LRT Exit A"), since both buildings can have an
+  "Exit A". LTA lists some shared stops only once (Sengkang), so the code
+  lookup searches both the MRT and the LRT form of every name.
 - **Open lines only.** OneMap also gives codes for lines still being built
   (Ang Mo Kio's CR11, Jurong East's JE5). `config.py` keeps `OPEN_LINES`, the
   code prefixes of the lines in service in display order, and drops every
