@@ -69,10 +69,18 @@ UI decision, and the mocks are best judged on real data.
   and runs right after the stations stage, before geocoding, so a truncated
   exit download fails in about a minute.
 - **Summary:** the snapshot also reads `stations.geojson`. Stations added,
-  removed, or with changed codes get their own sections. A block's changes
-  gain "MRT distance a → b" and "station A → B". A run where only stations
-  changed counts as a refresh with zero block counts; it would take a station
-  that no block is nearest to, which is unlikely enough to accept.
+  removed, or with changed codes get their own sections, and one line counts
+  the exits added, removed, and moved, grouping exits by station and name so
+  a re-surveyed exit reads as moved rather than added and removed. A block's
+  changes gain "MRT distance a → b" and "station A → B". A run whose blocks
+  are unchanged but whose station data changed gets a new kind, `stations`,
+  and the workflow its own subject ("station data changed"). Without it, an
+  exit move too small to change any block's whole-metre distance would
+  commit as a plain refresh whose body says nothing changed. Kinds in order:
+  `refresh`, `stations`, `failures`, `none`.
+- **One reader for the live stations file** (`stations.load_live_stations`)
+  returns its station features only, for both the station-count guard and the
+  summary, so neither counts exits as stations.
 - **The development backfill needs no OneMap login:** search answered
   without a token in testing when calls were 1.2 s apart (about 8 minutes for
   every station). The scratch script patches out the auth header and the
@@ -100,9 +108,10 @@ UI decision, and the mocks are best judged on real data.
   the same result.
 - **App: the highlight has its own GeoJSON source** (`nearest-exit`: the exit
   point and a LineString from the block), updated with `setData` on each
-  selection and emptied on clear, drawn above the block layers but under the
-  selected block's own highlight. Like the station layers, it is not a hover
-  or tap target.
+  selection and emptied on clear, added right before `blocks-highlight`: over
+  the block dots, under the selected block and every label (the block layers
+  stack circles, highlight, labels, highlight label). Like the station layers,
+  it is not a hover or tap target.
 - **App: the legend gets an optional note line** from the scale (`note` on
   `ColorScale`), used only by the MRT mode: "Nearest MRT or LRT exit, straight
   line" (wording from the mock).
@@ -148,6 +157,7 @@ pipeline/tests/test_transform.py     # modify
 pipeline/tests/test_export.py        # modify
 pipeline/tests/test_run.py           # modify: mocked exits + OneMap, guard
 pipeline/tests/test_summarize.py     # modify
+.github/workflows/pipeline.yml       # modify: subject for the stations kind
 app/public/data/*                    # regenerate (Task 8 backfill, then the branch run)
 app/src/types/contract.ts            # modify: station_distance, NearestStation, stations
 app/src/test/fixtures.ts             # modify: values, sampleStations
@@ -236,7 +246,8 @@ docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
   - codes `["STC", "SE5", "NE16"]` sort to `["NE16", "STC", "SE5"]`.
 - [ ] Implement `build_stations` and `fetch_stations(session, token)` (exits,
   then one lookup per distinct station). Each station keeps its exits
-  (`[{"exit", "lon", "lat"}]`) for Task 4; export drops them. `fetch_exits`
+  (`[{"exit", "lon", "lat"}]`) for Task 4 and for the exit features Task 5
+  writes. `fetch_exits`
   keeps which suffix each exit came from, so this step can prefix the names
   at merged stops.
 - [ ] Commit: `feat(pipeline): build the station list from exits and open lines`.
@@ -289,7 +300,9 @@ docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
 - [ ] **Tests first:** extend the end-to-end test with mocked exits and
   OneMap code lookups; `stations.geojson` is written, and the index has
   `station_distance`. New: `check_station_count` allows one station of 100
-  missing, rejects two, skips with no live file; a run whose stations stage
+  missing, rejects two, skips with no live file, and counts only station
+  features (a live file of 100 stations and 300 exits: 99 found passes, 98
+  fails); a run whose stations stage
   raises (station without codes) writes nothing; the guard trips before any
   geocode call (assert no geocode request was made). Existing tests: the
   stage stubs in `_stub_stages` gain `fetch_stations` and a recorded
@@ -302,16 +315,23 @@ docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
 
 ### Task 7: Run summary
 
-**Files:** `pipeline/src/summarize.py`, `pipeline/tests/test_summarize.py`
+**Files:** `pipeline/src/summarize.py`, `pipeline/tests/test_summarize.py`,
+`.github/workflows/pipeline.yml`
 
 - [ ] **Tests first:** a block whose distance changes reads "MRT distance 350
   → 420"; a changed nearest station reads "station Bishan → Marymount";
   "Stations added", "Stations removed", and "Station codes changed" sections
-  list names (and codes); a stations-only change is kind `refresh`; a first
-  run (no `stations.geojson`) has no station sections.
+  list names (and codes); the exits line counts an added, a removed, and a
+  moved exit, and an exit name with two points that moves reads as one moved;
+  station or exit changes with no block change are kind `stations`; with a
+  block change too, the kind stays `refresh` and the station lines are still
+  in the body; station and failure changes together are kind `stations`; a
+  first run (no `stations.geojson`) has no station sections.
 - [ ] Implement: `SCALAR_FIELDS` gains `("station_distance", "MRT distance")`;
-  `_changes` compares `nearest_station["name"]`; `Snapshot.stations` loaded
-  from the file.
+  `_changes` compares `nearest_station["name"]`; `Snapshot.stations` and
+  `Snapshot.exits` loaded from the file; `RunSummary.kind` gains `stations`.
+- [ ] Workflow: a `stations` kind gets `chore(data): $RUN_TYPE check, station
+  data changed ($DATE)`, beside the `failures` branch.
 - [ ] Commit: `feat(pipeline): report station changes in the run summary`.
 
 ### Task 8: Development data (scratch backfill)
@@ -440,7 +460,9 @@ decision at a time:
 
 - [ ] Tests (MapView): a `nearestExit` sets the `nearest-exit` source to the
   exit point and a line from the selected block to it; `null` empties it; the
-  layers sit above the block layers and aren't hover or tap targets; the line
+  layers are added right before `blocks-highlight` (so above `blocks-circles`,
+  below the selected block and every label) and aren't hover or tap targets;
+  the line
   is dashed (or absent, if Task 9 dropped it).
 - [ ] Tests (App): selecting a block passes MapView its nearest exit once the
   shard and stations are in; a failed stations fetch or shard leaves it

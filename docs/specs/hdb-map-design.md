@@ -341,7 +341,8 @@ Steps:
 - **Station-count guard:** like the block-count guard (§3.2), the run aborts
   with no writes if it finds fewer than `MIN_STATION_RATIO` (99%) of the
   stations in the live `stations.geojson`, so a truncated download can't move
-  every block's nearest station. A single closure stays inside the margin.
+  every block's nearest station. It counts the file's station features only,
+  not its exits. A single closure stays inside the margin.
   The guard is skipped only when no `stations.geojson` exists yet.
 
 ## 4. Data Contract
@@ -746,7 +747,8 @@ their loading and failure paths are explicit:
 - **Shard failure is local, not fatal.** A failed
   `block-details/{town_slug}.json` fetch is confined to the panel (the §5.5
   empty state) and never triggers the global error card, since the rest of the
-  map stays usable.
+  map stays usable. The nearest-exit highlight reads the same shard, so it
+  stays off too.
 - **Station failure is local too.** A failed `stations.geojson` fetch leaves
   the station and exit layers and the nearest-exit highlight off the map, with
   no error card. The panel's nearest-station row comes from the shard, so it
@@ -1043,8 +1045,13 @@ out.
     (2026-11-01)`;
   - blocks added, removed, or changed: `chore(data): monthly HDB data refresh
     (2026-11-01): +21 -0 ~46`, with a summary in the body;
+  - no block changed but the station data did (a station or its codes, or an
+    exit added, removed, or moved): `chore(data): monthly check, station data
+    changed (2026-11-01)`, with the summary;
   - only the failure list changed: `chore(data): monthly check, failed blocks
     changed (2026-11-01)`, with the summary.
+
+  The first that applies wins; the body still lists every kind of change.
 - **Run summary:** the pipeline compares the data and the failure list before
   and after its write (`summarize.py`). It lists the blocks added, the blocks
   removed with why (gone from HDB's data, or failed this run), and each
@@ -1052,8 +1059,11 @@ out.
   small geocode shift shows. The failure list's count and its newly failing,
   fixed, and changed entries follow. Long lists are cut short, with the full
   count kept. The same text goes in the commit body and on the run's summary
-  page in Actions. Stations added or removed are listed as well; a block whose
-  nearest station or distance moved shows as a changed block like any other.
+  page in Actions. Stations added, removed, or with changed codes are listed
+  as well, with one line counting the exits added, removed, and moved (an exit
+  is matched by station and name, so a re-surveyed exit reads as moved). A
+  block whose nearest station or distance moved shows as a changed block like
+  any other.
   It only describes the run, so any failure in it logs a warning and the data
   is committed with the plain message.
 - **Steps:** checkout → setup Python → install → run the pipeline. The run
