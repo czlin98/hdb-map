@@ -73,8 +73,8 @@ contract and can change internally without breaking the other.
 
 **Added since v1:** marker coloring by year completed or number of floors
 (§5.10), filtering by town, year completed, floors, and flat type (§5.11),
-and each block's nearest MRT or LRT station, with the stations on the map and
-coloring by the distance to them (§5.12).
+and each block's nearest MRT or LRT station, with the stations and their exits
+on the map and coloring by the distance to them (§5.12).
 
 **Deferred (see §7):** further coloring modes, a collapsible sidebar, basemap
 selector, resale prices & transactions, filtering by MRT distance, nearby
@@ -95,7 +95,7 @@ hdb-map/
 │     ├─ index.geojson           # light index: geometry + light props (all blocks)
 │     ├─ towns.json              # master town list (mirrored from source of truth)
 │     ├─ meta.json               # data-access date of the last successful run
-│     ├─ stations.geojson        # MRT/LRT stations in service: name, line codes, point
+│     ├─ stations.geojson        # MRT/LRT stations in service (name, line codes) and exits
 │     └─ block-details/{town_slug}.json # town-bucketed detail shards (27 files)
 ├─ pipeline/                     # Python
 │  ├─ src/
@@ -301,7 +301,9 @@ serves. It takes two sources, because neither has both:
   LRT stations are in it too. It lists only stations in service, so a station
   still being built has no exits and is never anyone's nearest. LTA adds a new
   station some months after it opens; until then the blocks around it measure
-  to the next one.
+  to the next one. A few exits have more than one point, some hundreds of
+  metres apart (Bukit Panjang's Exit A), so they read as separate entrances
+  sharing a code: every point is kept, and each counts as an exit.
 - **Line codes:** OneMap Search, which names a station once per line it
   serves ("OUTRAM PARK MRT STATION (EW16)", "(NE3)", "(TE17)") or once with
   all its codes ("(TE31 / DT37)"). Only results whose name matches exactly
@@ -332,8 +334,10 @@ Steps:
   override table in `config.py` for official spellings that title case gets
   wrong (HarbourFront, one-north, MacPherson). The station `id` is the slug of
   the display name.
-- **Map point:** the mean of the station's exits, which lands in or beside the
-  station.
+- **Map point:** the mean of the station's exit points, which lands in or
+  beside the station. OneMap's own station point was rejected: it is the
+  station's postal address, often beside one exit at the station's edge (about
+  250 m from the exit mean at Marine Parade).
 - **Station-count guard:** like the block-count guard (§3.2), the run aborts
   with no writes if it finds fewer than `MIN_STATION_RATIO` (99%) of the
   stations in the live `stations.geojson`, so a truncated download can't move
@@ -492,12 +496,15 @@ that town's shard the first time and caches it in memory, then returns
 - Every `town` in the index and detail exists in `towns.json`.
 - A block's `station_distance` equals its shard's `nearest_station.distance`,
   and that station exists in `stations.geojson` with the same name and codes.
+  Its `nearest_station.exit` is the name of at least one of that station's
+  exits there.
 - Every station has at least one line code, and every code is on an open line.
+- Every exit's `station` is the `id` of a station in the same file.
 - Both files are written with fields in a fixed logical order, and with
   index features and shard keys sorted by `id`.
 - TS types (`BlockIndexProperties`, `BlockDetail`, `FlatTypeCounts`, `Town`,
-  `DataMeta`, `NearestStation`, `StationProperties`) mirror this contract in
-  `app/src/types`, hand-kept in v1.
+  `DataMeta`, `NearestStation`, `StationProperties`, `ExitProperties`) mirror
+  this contract in `app/src/types`, hand-kept in v1.
 
 ### 4.6 meta.json
 
@@ -512,21 +519,27 @@ writes nothing, so the date always belongs to the data that is live. It is the
 
 ### 4.7 stations.geojson
 
-One FeatureCollection of the stations in service (§3.6), loaded once at
-startup for the station layer (§5.12). About 190 Point features, a few KB
-compressed.
+One FeatureCollection of the stations in service and their exits (§3.6),
+loaded once at startup for the station and exit layers and the nearest-exit
+highlight (§5.12). About 190 station and 610 exit Point features, told apart
+by `kind`. One file rather than two keeps it to one fetch and one map source.
 
 ```jsonc
 {
   "type": "Feature",
   "geometry": { "type": "Point", "coordinates": [103.8392, 1.2806] }, // mean of its exits
-  "properties": { "id": "outram-park", "name": "Outram Park", "codes": ["EW16", "NE3", "TE17"] }
+  "properties": { "kind": "station", "id": "outram-park", "name": "Outram Park", "codes": ["EW16", "NE3", "TE17"] }
+}
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [103.8387, 1.2801] },
+  "properties": { "kind": "exit", "station": "outram-park", "exit": "Exit 1" } // exit as in the shard (§4.3)
 }
 ```
 
-The exits themselves aren't shipped: a block's nearest exit reaches the panel
-through its shard. Written like the index: one station per line, sorted by
-`id`, coordinates rounded to 6 decimals.
+Written like the index: one feature per line, the stations sorted by `id`,
+then the exits sorted by station, exit name, and coordinates (an exit name can
+repeat, §3.6); coordinates rounded to 6 decimals.
 
 ## 5. Frontend Architecture
 
@@ -569,10 +582,13 @@ without knowing about filters. They are not persisted either (§5.11).
   source and (2) a flat search array
   `[{id, blk_no, street_full, postal, town}]`.
 - Fetch `towns.json` once → build the `town → town_slug` map.
-- Fetch `stations.geojson` once, alongside the index, for the station layer
-  (§5.12). It isn't one of the assets the app depends on (§5.7).
+- Fetch `stations.geojson` once, alongside the index, for the station and exit
+  layers (§5.12). It isn't one of the assets the app depends on (§5.7).
 - `getBlockDetail(id, town)` lazily fetches `block-details/{town_slug}.json`,
-  caches shards in an in-memory `Map`, returns the record.
+  caches each shard's fetch in an in-memory `Map`, returns the record. The
+  fetch itself is cached, not just its result, because the details panel and
+  the nearest-exit highlight (§5.12) ask for the same shard at once. A failed
+  fetch leaves the cache, so the next selection tries again.
 
 ### 5.4 Map (MapView)
 
@@ -732,8 +748,9 @@ their loading and failure paths are explicit:
   empty state) and never triggers the global error card, since the rest of the
   map stays usable.
 - **Station failure is local too.** A failed `stations.geojson` fetch leaves
-  the station layer off the map, with no error card. The panel's
-  nearest-station row comes from the shard, so it still shows.
+  the station and exit layers and the nearest-exit highlight off the map, with
+  no error card. The panel's nearest-station row comes from the shard, so it
+  still shows.
 
 ### 5.8 Attribution
 
@@ -770,8 +787,9 @@ ever hiding the selected one. Anything else that hides markers should set
 its condition on `blocks-circles` and `blocks-labels` the same way, and
 leave the highlight layers alone. `blocks-labels` also filters out the
 selected block (its label is drawn by `blocks-highlight-label`), so a new
-condition must be combined with that one, not replace it. The station layers
-(§5.12) are separate from all of these, and nothing hides them.
+condition must be combined with that one, not replace it. The station and exit
+layers and the nearest-exit highlight (§5.12) are separate from all of these,
+and filters don't hide them.
 
 ### 5.10 Marker coloring
 
@@ -959,7 +977,8 @@ whatever stays visible.
 ### 5.12 Nearest station
 
 Shows each block's nearest MRT or LRT station and how far it is, and draws
-the stations on the map, which the Positron basemap leaves out.
+the stations and their exits on the map, which the Positron basemap leaves
+out.
 
 - **What counts:** every MRT and LRT station in service (§3.6). A shared
   MRT/LRT stop is one station, and an interchange is one station with all its
@@ -976,10 +995,26 @@ the stations on the map, which the Positron basemap leaves out.
   legend says so, and the panel names the actual station. The edges, palette,
   and which end is dark are settled with the UI mocks. There is no "no data"
   band, since every block has a nearest station.
-- **Station layer:** every station in `stations.geojson` (§4.7), with its name.
-  Stations never take a block's hover or tap, and filters don't hide them
-  (§5.9). Marker style, label zoom, and whether a station responds to hover
-  or tap are settled with the UI mocks.
+- **Station layer:** every station in `stations.geojson` (§4.7), with its name,
+  at every zoom. Stations never take a block's hover or tap, and filters don't
+  hide them (§5.9). Marker style, label zoom, and whether a station responds
+  to hover or tap are settled with the UI mocks.
+- **Exit layer:** every exit point, shown only when zoomed in close enough to
+  see the space between buildings, so the station dot stands alone further
+  out. Exits are small and plain beside the block markers. They are labelled
+  with the exit alone ("Exit A" or just "A"), never the station, only at the
+  closest zoom, and their labels give way to block numbers. Like stations,
+  they never take a block's hover or tap. The zoom levels and style are
+  settled with the UI mocks.
+- **Nearest-exit highlight:** while a block is selected, its nearest exit is
+  marked at every zoom, joined to the block by a thin dashed line, so the map
+  shows what the panel's distance measures; the dash reads as a straight
+  line, not a route. The exit comes from the shard (`nearest_station`'s
+  station and exit), so the app never searches for the nearest exit itself;
+  when that exit name has several points, the one nearest the block is
+  marked. The fly-to is unchanged, so the exit can be off screen or under the
+  mobile sheet. The line is confirmed in the UI mocks and dropped if it reads
+  as noise; the exit marker stays.
 - **Not in this iteration:** filtering by distance (§7.2), and the later
   refinements in §7.5.
 
@@ -1090,7 +1125,8 @@ Still to come:
 - **Implementation note:** switching calls `map.setStyle()`, which discards
   all custom sources and layers. The selector must **re-add** the blocks
   source, and all four block layers (circles, highlight, and both label
-  layers), plus the station source and layers (§5.12) and any active coloring
+  layers), plus the station source, the station and exit layers, the
+  nearest-exit highlight (§5.12), and any active coloring
   or filter, on the `styledata` event after the new style loads; that
   re-application is the real work, not the dropdown. The label layers also
   depend on the style's glyphs serving `Noto Sans Regular`/`Bold`.
@@ -1119,7 +1155,8 @@ Still to come:
 
 ### 7.5 Nearest station: later refinements
 
-The nearest station, its distance, and the station layer shipped (§5.12).
+The nearest station, its distance, and the station and exit layers shipped
+(§5.12).
 Still to come:
 
 - **Planned lines marked as future,** such as "CR11 (future)" at Ang Mo Kio.
@@ -1131,6 +1168,14 @@ Still to come:
   a run's time budget.
 - **Searching by station,** such as "Bishan MRT", flying to the station so
   the blocks around it are in view.
+- **Station outlines on the map,** showing where each station building sits,
+  which Positron leaves out for underground stations. LTA DataMall's station
+  layer is the likely source (needs a DataMall account key as a pipeline
+  secret); first check that it leaves out lines still being built. URA's
+  Master Plan 2025 rail station layer on data.gov.sg was checked and rejected:
+  it draws planned-line boxes into open stations (the Cross Region Line at
+  Pasir Ris, Clementi, Ang Mo Kio) with nothing to tell them apart, mixes in
+  stations not yet open, and its names need a hand-kept fix table.
 
 ### 7.6 Nearby amenities
 

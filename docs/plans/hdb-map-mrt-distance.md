@@ -4,21 +4,25 @@
 
 **Goal:** Give every block its nearest MRT or LRT station and the straight-line
 distance to that station's nearest exit; show it in the details panel, add an
-"MRT distance" coloring mode, and draw the stations on the map.
+"MRT distance" coloring mode, draw the stations and their exits on the map, and
+mark the selected block's nearest exit.
 
 **Architecture:** A new pipeline stage, `stations.py`, builds the station list
 from LTA's exit dataset (data.gov.sg) and OneMap's line codes, keeping only
 codes on open lines and failing the run if a station is left with none.
 `transform` finds each block's nearest exit; `export` writes the distance into
-the index, the station into the shard, and a new `stations.geojson`. In the
+the index, the station into the shard, and a new `stations.geojson` holding
+both the stations and their exits. In the
 app, the mode is one more entry in `COLOR_SCALES`, which the menu, mobile row,
 legend, tooltip, and panel swatch already read; MapView gains a station source
-and layers fed from `stations.geojson`, loaded beside the index but not
-required by it.
+with station and exit layers fed from `stations.geojson`, loaded beside the
+index but not required by it, plus a highlight of the selected block's nearest
+exit.
 
 **Spec:** `docs/specs/hdb-map-design.md` §3.6, §4.7, §5.12 (plus §1, §2,
 §3.3 to §3.5, §4.1, §4.3, §4.5, §5.2 to §5.10, §6.2, §7.1 to §7.3, §7.5,
-§7.8), committed on this branch in 6749828. The spec is the authority; this
+§7.8), committed on this branch in 6749828 and extended with the exit layer
+and the nearest-exit highlight. The spec is the authority; this
 plan only adds the implementation choices.
 
 **Branch / PR:** all work on `feat/mrt-distance`. Code and spec ship in one
@@ -26,7 +30,7 @@ PR. Commit per task, in Conventional Commits form with an `app` or `pipeline`
 scope, without a `Co-Authored-By` trailer.
 
 **Order:** pipeline first (Tasks 1 to 8), then the UI mocks with the user
-(Task 9), then the app (Tasks 10 to 15). The pipeline doesn't depend on any
+(Task 9), then the app (Tasks 10 to 16). The pipeline doesn't depend on any
 UI decision, and the mocks are best judged on real data.
 
 ## Decisions this plan makes (not in the spec)
@@ -44,6 +48,15 @@ UI decision, and the mocks are best judged on real data.
   "Exit A" at both its MRT and its LRT station, and Choa Chu Kang an "Exit B",
   so at a stop with exits from both, each exit name gains its prefix ("MRT
   Exit A", "LRT Exit A"). Other stations keep LTA's name ("Exit 1").
+- **Every exit point is kept, for the distance, the station's mean point,
+  and the exit layer.** 8 exits have more than one point. Most are a few
+  metres to 44 m apart, but Bukit Panjang's Exit A spans 348 m over three
+  points and HarbourFront's Exit A 249 m, so they are separate entrances:
+  averaging an exit's points into one was rejected, since it would put an
+  exit where there is no entrance. Checked 2026-10-21 against OneMap's own
+  station points: the exit mean is a median 23 m from them, 5 of 185 stations
+  over 100 m (Marine Parade 244 m), where OneMap's point is the postal address
+  at one end of the station.
 - **Haversine in plain Python**, block by exit. About 10.8k blocks times 613
   exits took 6 s in a scratch run; no spatial index or NumPy needed.
 - **The station lookup reuses `fetch._api_get` and `fetch._download_url`**
@@ -75,6 +88,21 @@ UI decision, and the mocks are best judged on real data.
   and block dots cover the markers. Whatever the order, the station layers
   stay out of the hover and tap layer list, so blocks remain the only
   targets.
+- **App: the nearest exit comes from the shard, not a search in the
+  browser.** App asks `getBlockDetail` for the selected block too, and passes
+  MapView a `nearestExit` (`{ lon, lat }` or `null`): the exit features whose
+  `station` and `exit` match the shard's `nearest_station`, the one nearest
+  the block if the name has several points (plain squared-degree comparison;
+  the candidates sit within a few hundred metres). The loader caches each
+  shard's promise instead of its result, so the panel's request and this one
+  share a fetch, and drops a rejected promise so a later selection retries.
+  Lifting the detail out of DetailsPanel was rejected as a larger change for
+  the same result.
+- **App: the highlight has its own GeoJSON source** (`nearest-exit`: the exit
+  point and a LineString from the block), updated with `setData` on each
+  selection and emptied on clear, drawn above the block layers but under the
+  selected block's own highlight. Like the station layers, it is not a hover
+  or tap target.
 - **App: the legend gets an optional note line** from the scale (`note` on
   `ColorScale`), used only by the MRT mode: "Nearest MRT or LRT exit, straight
   line" (wording from the mock).
@@ -123,12 +151,12 @@ pipeline/tests/test_summarize.py     # modify
 app/public/data/*                    # regenerate (Task 8 backfill, then the branch run)
 app/src/types/contract.ts            # modify: station_distance, NearestStation, stations
 app/src/test/fixtures.ts             # modify: values, sampleStations
-app/src/lib/data.ts                  # modify: loadStations
+app/src/lib/data.ts                  # modify: loadStations, nearestExitPoint, promise cache
 app/src/lib/coloring.ts              # modify: "mrt" scale, optional note
-app/src/components/MapView.tsx       # modify: stations prop + layers, credit, tooltip type
+app/src/components/MapView.tsx       # modify: stations + nearestExit props, layers, credit, tooltip
 app/src/components/DetailsPanel.tsx  # modify: nearest-station row + swatch
 app/src/components/ColorLegend.tsx   # modify: note line
-app/src/App.tsx                      # modify: load stations, pass to MapView
+app/src/App.tsx                      # modify: load stations, look up the nearest exit
 CLAUDE.md, README.md                 # modify
 docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
 ```
@@ -200,7 +228,9 @@ docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
     message lists every such station, not just the first;
   - name: "OUTRAM PARK" → "Outram Park", "HARBOURFRONT" → "HarbourFront",
     "ONE-NORTH" → "one-north"; `id` is `slugify(name)`;
-  - point is the mean of the exits' lon and lat; result sorted by `id`;
+  - point is the mean of the exit points' lon and lat, an exit with two
+    points counting both, and both points stay in the station's exits;
+    result sorted by `id`;
   - Bukit Panjang with MRT and LRT exits both named "Exit A" gets "MRT Exit A"
     and "LRT Exit A"; Outram Park (MRT only) keeps "Exit 1";
   - codes `["STC", "SE5", "NE16"]` sort to `["NE16", "STC", "SE5"]`.
@@ -238,14 +268,19 @@ docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
   - mirror test (§4.5): each index `station_distance` equals its shard's
     `nearest_station.distance`, and that station's `id`, name, and codes
     exist in the written `stations.geojson`;
-  - `stations.geojson`: one station per line, sorted by `id`, coordinates
-    rounded to 6 decimals, properties exactly `id, name, codes`;
+  - `stations.geojson`: one feature per line, the stations first, sorted by
+    `id`, with properties exactly `kind, id, name, codes`, then the exits,
+    sorted by station, exit, and coordinates, with properties exactly `kind,
+    station, exit`; an exit with two points writes two features; coordinates
+    rounded to 6 decimals;
+  - every shard `nearest_station.exit` names an exit of that station in the
+    file, and every exit's `station` is a station `id` there (§4.5);
   - two stations with the same `id` raise, like duplicate block ids and town
     slugs (a name override could make two names slug alike).
 - [ ] Implement: rename `_write_index` to `_write_feature_collection` (both
   files share the one-per-line format); `write_stations(stations,
   app_data_dir)`.
-- [ ] Commit: `feat(pipeline): write the nearest station and stations.geojson`.
+- [ ] Commit: `feat(pipeline): write the nearest station and the stations file`.
 
 ### Task 6: Run order and the station-count guard
 
@@ -293,7 +328,7 @@ docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
 - [ ] Full pipeline checks: `pytest`, `ruff check src tests`,
   `ruff format --check src tests`.
 - [ ] Commit: `chore(data): add nearest stations to the data (development backfill)`.
-  The branch run (Task 16) replaces it.
+  The branch run (Task 17) replaces it.
 
 ### Task 9: UI mocks with the user
 
@@ -308,6 +343,13 @@ decision at a time:
   highlight), name labels and their zoom, whether a station shows a tooltip,
   and the layer order: check the station names still show at zoom 16 and 17
   among the block numbers, and that no block becomes hard to tap.
+- [ ] **Exit markers:** style (smaller and plainer than a station or block),
+  the zoom they appear at, label zoom, and that their labels yield to block
+  numbers.
+- [ ] **Nearest-exit highlight:** the exit marker and the dashed line, on a
+  selected block near a station and on one far from it, desktop and 390 px
+  (where the sheet can cover the exit). Keep the line or drop it; check
+  Marine Parade and Holland Village, the largest gaps from OneMap's points.
 - [ ] **Mobile Color row:** four segments (None, Year, Floors, MRT) at 320 px.
 - [ ] **Legend note** wording.
 - [ ] Record the outcomes in this plan's tasks below and in the spec.
@@ -319,13 +361,21 @@ decision at a time:
 
 - [ ] Types: `station_distance: number` on `BlockIndexProperties`;
   `NearestStation { id; name; codes: string[]; exit: string; distance: number }`;
-  `BlockDetail.nearest_station: NearestStation`; `StationProperties { id;
-  name; codes }`, `StationFeature`, `StationFeatureCollection`.
+  `BlockDetail.nearest_station: NearestStation`; `StationProperties { kind:
+  "station"; id; name; codes }`, `ExitProperties { kind: "exit"; station;
+  exit }`, and a `StationFeatureCollection` whose features carry either.
 - [ ] Fixtures: AMK 123 `station_distance` 350 and Bedok 1 a value in a
   different band; `sampleShard` gets a matching `nearest_station`;
-  `sampleStations` with two stations.
+  `sampleStations` with two stations and their exits, one exit name with two
+  points.
 - [ ] `loadStations(url = "/data/stations.geojson")`, tested like
   `loadTowns`.
+- [ ] `createGetBlockDetail` caches the shard's promise. Tests: two calls for
+  the same town before the fetch settles make one request; after a failed
+  fetch the next call fetches again.
+- [ ] `nearestExitPoint(stations, nearest, blockLonLat)` returns the matching
+  exit's `{ lon, lat }`, the nearer of two same-named points, and `null` when
+  nothing matches.
 - [ ] `tsc`, tests: green. Commit: `feat(app): type the station data`.
 
 ### Task 11: The MRT distance scale
@@ -360,17 +410,18 @@ decision at a time:
 - [ ] Implement per Task 9.
 - [ ] Commit: `feat(app): show the nearest station in the details panel`.
 
-### Task 14: Stations on the map
+### Task 14: Stations and exits on the map
 
 **Files:** `MapView.tsx`, `MapView.test.tsx`
 
 - [ ] Tests: with `stations` before load, a `stations` source and its layers
   are added in the order Task 9 chose; stations arriving after load add them
-  then; `null` stations add nothing and nothing throws; station layers are
+  then; `null` stations add nothing and nothing throws; the exit layers
+  filter on `kind` and have the Task 9 `minzoom`; station and exit layers are
   not in the click/hover layer list; the blocks source credit reads
   `© HDB, LTA, OneMap/SLA`; the tooltip in mode `"mrt"` ends `· 350 m`.
 - [ ] Implement per Task 9's marker decisions.
-- [ ] Commit: `feat(app): draw the stations on the map`.
+- [ ] Commit: `feat(app): draw the stations and exits on the map`.
 
 ### Task 15: App wiring
 
@@ -383,7 +434,22 @@ decision at a time:
   {})` effect, not part of the `Promise.all`.
 - [ ] Commit: `feat(app): load the stations beside the index`.
 
-### Task 16: Branch run, docs, manual check, PR
+### Task 16: The nearest-exit highlight
+
+**Files:** `MapView.tsx`, `MapView.test.tsx`, `App.tsx`, `App.test.tsx`
+
+- [ ] Tests (MapView): a `nearestExit` sets the `nearest-exit` source to the
+  exit point and a line from the selected block to it; `null` empties it; the
+  layers sit above the block layers and aren't hover or tap targets; the line
+  is dashed (or absent, if Task 9 dropped it).
+- [ ] Tests (App): selecting a block passes MapView its nearest exit once the
+  shard and stations are in; a failed stations fetch or shard leaves it
+  `null` with the panel unaffected; clearing the selection clears it; a
+  quick second selection never shows the first block's exit.
+- [ ] Implement per Task 9.
+- [ ] Commit: `feat(app): mark the selected block's nearest exit`.
+
+### Task 17: Branch run, docs, manual check, PR
 
 - [ ] **Merge before 1 November if possible** (see Risks). If `main` gets
   its monthly data commit first, merge `main` in taking its data files, and
@@ -394,7 +460,8 @@ decision at a time:
   only the differences from the backfill, if any.
 - [ ] **CLAUDE.md:** the stations stage in the pipeline paragraph (fail-fast
   list, `OPEN_LINES`), `stations.geojson` and the new fields in the contract
-  section, the stations layer and loader in frontend internals.
+  section, the station and exit layers, the nearest-exit highlight, and the
+  loader in frontend internals.
   `npm run format:check`.
 - [ ] **README:** feature sentence and data sources (LTA).
 - [ ] **Spec:** re-read §3.6, §4.7, §5.12 and their cross-references against
@@ -402,7 +469,9 @@ decision at a time:
 - [ ] **Manual check**, desktop and ~375 px: each mode still works; MRT bands
   match the legend; the panel row reads right for an interchange (Outram
   Park), an LRT block (Sengkang), and a merged stop (Punggol); stations never
-  take a block tap; filters leave stations visible; a broken
+  take a block tap; filters leave stations visible; exits appear only
+  zoomed in; the highlight marks the right exit for a block by Bukit Panjang's
+  three-point Exit A and for one at HarbourFront; a broken
   `stations.geojson` (rename it locally) leaves the app working.
 - [ ] Full CI-equivalent locally, then push and open the PR (after the user
   confirms): `feat(app,pipeline): show each block's nearest MRT station`.
@@ -413,7 +482,7 @@ decision at a time:
   and `meta.json` with the old code, while this branch commits regenerated
   versions of the same files. Merged after it, the data files conflict and
   can't sensibly be merged by hand. Merge before then, or take `main`'s data
-  and rerun the pipeline on the branch (Task 16).
+  and rerun the pipeline on the branch (Task 17).
 - **OneMap without a station LTA lists:** the run fails by design (no
   override table; the user's call). The error names the station.
 - **OneMap rate limit:** quick unauthenticated calls were throttled in
@@ -426,4 +495,8 @@ decision at a time:
   by hand in dense estates near a station.
 - **Station names vs block numbers:** MapLibre places labels layer by layer,
   so the drawing order decides which yields; checked in Task 9.
+- **Exit labels vs block numbers:** the same placement contest as station
+  names; exit labels must lose. Checked in Task 9.
+- **Highlight under the mobile sheet:** the exit can sit under the sheet or
+  off screen, with the fly-to unchanged by design; judged in Task 9.
 - **Legend note on narrow phones:** checked in Task 9 at 320 px.
