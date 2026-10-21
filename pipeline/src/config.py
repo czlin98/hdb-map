@@ -25,6 +25,7 @@ STATION_NAME_OVERRIDES = {
     "HARBOURFRONT": "HarbourFront",
     "ONE-NORTH": "one-north",
     "MACPHERSON": "MacPherson",
+    "GARDENS BY THE BAY": "Gardens by the Bay",
 }
 # One closure in ~185 stations passes; a truncated exits download doesn't.
 MIN_STATION_RATIO = 0.99

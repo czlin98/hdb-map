@@ -5,7 +5,7 @@ from responses import matchers
 
 import config
 import stations
-from stations import fetch_exits, lookup_codes
+from stations import build_stations, fetch_exits, lookup_codes
 
 INIT_URL = f"{config.DATASETS_API_BASE}/{config.EXITS_DATASET_ID}/initiate-download"
 POLL_URL = f"{config.DATASETS_API_BASE}/{config.EXITS_DATASET_ID}/poll-download"
@@ -38,7 +38,7 @@ def test_fetch_exits_returns_rows_with_the_suffix_stripped():
     _serve(_exit("OUTRAM PARK MRT STATION", "Exit 4", 103.8395, 1.2802))
 
     assert fetch_exits(requests.Session()) == [
-        {"station": "OUTRAM PARK", "exit": "Exit 4", "lon": 103.8395, "lat": 1.2802}
+        {"station": "OUTRAM PARK", "kind": "MRT", "exit": "Exit 4", "lon": 103.8395, "lat": 1.2802}
     ]
 
 
@@ -49,7 +49,12 @@ def test_fetch_exits_merges_mrt_and_lrt_stops_of_the_same_name():
         _exit("PUNGGOL LRT STATION", "Exit B", 103.9025, 1.4049),
     )
 
-    assert [row["station"] for row in fetch_exits(requests.Session())] == ["PUNGGOL", "PUNGGOL"]
+    rows = fetch_exits(requests.Session())
+
+    assert [(row["station"], row["kind"]) for row in rows] == [
+        ("PUNGGOL", "MRT"),
+        ("PUNGGOL", "LRT"),
+    ]
 
 
 @responses.activate
@@ -181,3 +186,102 @@ def test_lookup_codes_raises_when_errors_outlast_the_retries(no_sleep):
 
     with pytest.raises(RuntimeError, match="OUTRAM PARK MRT STATION"):
         lookup_codes(requests.Session(), "tok", "OUTRAM PARK")
+
+
+def _row(station, exit_name, lon, lat, kind="MRT"):
+    return {"station": station, "kind": kind, "exit": exit_name, "lon": lon, "lat": lat}
+
+
+def _one(stations, station_id):
+    return next(s for s in stations if s["id"] == station_id)
+
+
+def test_build_stations_drops_codes_on_lines_not_yet_open():
+    result = build_stations(
+        [_row("ANG MO KIO", "Exit A", 103.85, 1.37)], {"ANG MO KIO": ["CR11", "NS16"]}
+    )
+
+    assert result[0]["codes"] == ["NS16"]
+
+
+def test_build_stations_orders_codes_by_line_then_number_without_duplicates():
+    result = build_stations(
+        [_row("OUTRAM PARK", "Exit 1", 103.84, 1.28), _row("SENGKANG", "Exit A", 103.89, 1.39)],
+        {
+            "OUTRAM PARK": ["TE17", "EW16", "NE3", "EW16"],
+            "SENGKANG": ["STC", "SE5", "NE16"],
+        },
+    )
+
+    assert _one(result, "outram-park")["codes"] == ["EW16", "NE3", "TE17"]
+    assert _one(result, "sengkang")["codes"] == ["NE16", "STC", "SE5"]
+
+
+def test_build_stations_orders_codes_on_one_line_by_number():
+    result = build_stations([_row("X", "Exit A", 103.8, 1.3)], {"X": ["DT10", "DT9"]})
+
+    assert result[0]["codes"] == ["DT9", "DT10"]
+
+
+def test_build_stations_names_every_station_left_without_an_open_code():
+    exits = [
+        _row("ANG MO KIO", "Exit A", 103.85, 1.37),
+        _row("NEW ONE", "Exit A", 103.8, 1.3),
+        _row("OTHER NEW", "Exit A", 103.81, 1.31),
+    ]
+    codes = {"ANG MO KIO": ["NS16"], "NEW ONE": ["CR5"], "OTHER NEW": []}
+
+    with pytest.raises(ValueError, match="NEW ONE.*OTHER NEW"):
+        build_stations(exits, codes)
+
+
+def test_build_stations_title_cases_names_with_official_spellings():
+    exits = [
+        _row("OUTRAM PARK", "Exit 1", 103.84, 1.28),
+        _row("HARBOURFRONT", "Exit A", 103.82, 1.26),
+        _row("ONE-NORTH", "Exit A", 103.79, 1.30),
+    ]
+    codes = {"OUTRAM PARK": ["EW16"], "HARBOURFRONT": ["NE1"], "ONE-NORTH": ["CC23"]}
+
+    result = build_stations(exits, codes)
+
+    assert [(s["id"], s["name"]) for s in result] == [
+        ("harbourfront", "HarbourFront"),
+        ("one-north", "one-north"),
+        ("outram-park", "Outram Park"),
+    ]
+
+
+def test_build_stations_places_the_station_at_the_mean_of_every_exit_point():
+    exits = [
+        _row("HARBOURFRONT", "Exit A", 103.80, 1.20),
+        _row("HARBOURFRONT", "Exit A", 103.84, 1.24),
+        _row("HARBOURFRONT", "Exit B", 103.82, 1.25),
+    ]
+
+    station = build_stations(exits, {"HARBOURFRONT": ["NE1"]})[0]
+
+    assert station["lon"] == pytest.approx(103.82)
+    assert station["lat"] == pytest.approx(1.23)
+    assert station["exits"] == [
+        {"exit": "Exit A", "lon": 103.80, "lat": 1.20},
+        {"exit": "Exit A", "lon": 103.84, "lat": 1.24},
+        {"exit": "Exit B", "lon": 103.82, "lat": 1.25},
+    ]
+
+
+def test_build_stations_prefixes_exit_names_only_at_a_merged_stop():
+    exits = [
+        _row("BUKIT PANJANG", "Exit A", 103.76, 1.38, kind="MRT"),
+        _row("BUKIT PANJANG", "Exit A", 103.77, 1.38, kind="LRT"),
+        _row("OUTRAM PARK", "Exit 1", 103.84, 1.28),
+    ]
+    codes = {"BUKIT PANJANG": ["DT1", "BP6"], "OUTRAM PARK": ["EW16"]}
+
+    result = build_stations(exits, codes)
+
+    assert [e["exit"] for e in _one(result, "bukit-panjang")["exits"]] == [
+        "LRT Exit A",
+        "MRT Exit A",
+    ]
+    assert [e["exit"] for e in _one(result, "outram-park")["exits"]] == ["Exit 1"]
