@@ -11,6 +11,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 247
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 123
     }
   },
   "1-haig-rd": {
@@ -28,6 +37,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 829
     }
   },
   "1-pine-cl": {
@@ -42,6 +61,15 @@
     "sold_units_by_type": {
       "4room": 100,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 141
     }
   },
   "10-dakota-cres": {
@@ -56,6 +84,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 53
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 138
     }
   },
   "10-eunos-cres": {
@@ -69,6 +106,15 @@
     "total_dwelling_units": 180,
     "sold_units_by_type": {
       "4room": 180
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 303
     }
   },
   "10-haig-rd": {
@@ -85,6 +131,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 419
     }
   },
   "10-pine-cl": {
@@ -99,6 +155,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 270
     }
   },
   "100-aljunied-cres": {
@@ -113,6 +178,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 198
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 530
     }
   },
   "101-aljunied-cres": {
@@ -132,6 +206,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 503
     }
   },
   "102-aljunied-cres": {
@@ -148,6 +231,15 @@
       "4room": 22,
       "5room": 3,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 439
     }
   },
   "103-aljunied-cres": {
@@ -162,6 +254,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 154
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 457
     }
   },
   "104-aljunied-cres": {
@@ -175,6 +276,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 400
     }
   },
   "105-aljunied-cres": {
@@ -189,6 +299,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 333
     }
   },
   "106-aljunied-cres": {
@@ -207,6 +326,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 289
     }
   },
   "107-aljunied-cres": {
@@ -220,6 +348,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 341
     }
   },
   "108-aljunied-cres": {
@@ -235,6 +372,15 @@
       "3room": 126,
       "4room": 22,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 435
     }
   },
   "109-aljunied-cres": {
@@ -254,6 +400,15 @@
     "rental_units_by_type": {
       "2room": 2,
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 390
     }
   },
   "11-eunos-cres": {
@@ -267,6 +422,15 @@
     "total_dwelling_units": 180,
     "sold_units_by_type": {
       "4room": 180
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 286
     }
   },
   "11-haig-rd": {
@@ -280,6 +444,16 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 495
     }
   },
   "11-pine-cl": {
@@ -294,6 +468,15 @@
     "sold_units_by_type": {
       "4room": 100,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 152
     }
   },
   "110-aljunied-cres": {
@@ -308,6 +491,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 445
     }
   },
   "111-aljunied-cres": {
@@ -324,6 +516,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 477
     }
   },
   "112-aljunied-cres": {
@@ -340,6 +541,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 526
     }
   },
   "113-aljunied-ave-2": {
@@ -354,6 +564,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 574
     }
   },
   "115-aljunied-ave-2": {
@@ -370,6 +590,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 445
     }
   },
   "116-aljunied-ave-2": {
@@ -383,6 +613,16 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 475
     }
   },
   "119-aljunied-ave-2": {
@@ -396,6 +636,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 568
     }
   },
   "12-dakota-cres": {
@@ -410,6 +659,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 9
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 167
     }
   },
   "12-eunos-cres": {
@@ -424,6 +682,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 247
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 317
     }
   },
   "12-haig-rd": {
@@ -440,6 +707,16 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 411
     }
   },
   "12-pine-cl": {
@@ -454,6 +731,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 195
     }
   },
   "120-geylang-east-ctrl": {
@@ -467,6 +753,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 318
     }
   },
   "120-paya-lebar-way": {
@@ -480,6 +775,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 435
     }
   },
   "121-paya-lebar-way": {
@@ -495,6 +799,15 @@
       "3room": 36,
       "4room": 316,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 514
     }
   },
   "122-geylang-east-ctrl": {
@@ -508,6 +821,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 308
     }
   },
   "122-paya-lebar-way": {
@@ -521,6 +843,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 453
     }
   },
   "123-geylang-east-ctrl": {
@@ -534,6 +865,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 378
     }
   },
   "123-paya-lebar-way": {
@@ -547,6 +887,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 416
     }
   },
   "124-geylang-east-ave-1": {
@@ -563,6 +912,15 @@
       "4room": 91,
       "5room": 57,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 513
     }
   },
   "124-paya-lebar-way": {
@@ -576,6 +934,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 375
     }
   },
   "125-aljunied-rd": {
@@ -589,6 +956,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 419
     }
   },
   "125-geylang-east-ave-1": {
@@ -604,6 +980,15 @@
       "3room": 66,
       "4room": 66,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 447
     }
   },
   "126-aljunied-rd": {
@@ -617,6 +1002,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 364
     }
   },
   "126-geylang-east-ave-1": {
@@ -631,6 +1025,16 @@
     "sold_units_by_type": {
       "3room": 45,
       "4room": 45
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit C",
+      "distance": 515
     }
   },
   "127-geylang-east-ave-1": {
@@ -644,6 +1048,16 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit C",
+      "distance": 443
     }
   },
   "128-geylang-east-ave-1": {
@@ -659,6 +1073,16 @@
       "3room": 41,
       "4room": 41,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit C",
+      "distance": 441
     }
   },
   "129-geylang-east-ave-2": {
@@ -673,6 +1097,16 @@
     "sold_units_by_type": {
       "4room": 6,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit C",
+      "distance": 414
     }
   },
   "13-eunos-cres": {
@@ -687,6 +1121,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 352
     }
   },
   "13-old-airport-rd": {
@@ -701,6 +1144,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 14
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 115
     }
   },
   "130-geylang-east-ave-1": {
@@ -714,6 +1166,16 @@
     "total_dwelling_units": 85,
     "sold_units_by_type": {
       "exec": 85
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit C",
+      "distance": 463
     }
   },
   "131-geylang-east-ave-1": {
@@ -727,6 +1189,15 @@
     "total_dwelling_units": 40,
     "sold_units_by_type": {
       "exec": 40
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit A",
+      "distance": 483
     }
   },
   "132-geylang-east-ave-1": {
@@ -740,6 +1211,15 @@
     "total_dwelling_units": 93,
     "sold_units_by_type": {
       "exec": 93
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit A",
+      "distance": 383
     }
   },
   "133-geylang-east-ave-1": {
@@ -753,6 +1233,15 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "exec": 94
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit A",
+      "distance": 330
     }
   },
   "134-geylang-east-ave-1": {
@@ -767,6 +1256,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit A",
+      "distance": 391
     }
   },
   "14-eunos-cres": {
@@ -781,6 +1279,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 403
     }
   },
   "14-old-airport-rd": {
@@ -796,6 +1303,15 @@
     "rental_units_by_type": {
       "2room": 28,
       "3room": 28
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 172
     }
   },
   "15-eunos-cres": {
@@ -810,6 +1326,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 482
     }
   },
   "16-dakota-cres": {
@@ -824,6 +1349,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 12
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 183
     }
   },
   "16-eunos-cres": {
@@ -838,6 +1372,15 @@
     "sold_units_by_type": {
       "3room": 150,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 409
     }
   },
   "17-eunos-cres": {
@@ -852,6 +1395,15 @@
     "sold_units_by_type": {
       "3room": 146,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 447
     }
   },
   "17a-circuit-rd": {
@@ -865,6 +1417,16 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 403
     }
   },
   "17b-circuit-rd": {
@@ -878,6 +1440,16 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 369
     }
   },
   "18-dakota-cres": {
@@ -893,6 +1465,15 @@
     "rental_units_by_type": {
       "2room": 28,
       "3room": 28
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 217
     }
   },
   "18-eunos-cres": {
@@ -907,6 +1488,15 @@
     "sold_units_by_type": {
       "3room": 144,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 485
     }
   },
   "18a-circuit-rd": {
@@ -921,6 +1511,16 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 52
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 351
     }
   },
   "18b-circuit-rd": {
@@ -935,6 +1535,16 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 327
     }
   },
   "18c-circuit-rd": {
@@ -949,6 +1559,16 @@
     "sold_units_by_type": {
       "3room": 54,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 312
     }
   },
   "18d-circuit-rd": {
@@ -963,6 +1583,16 @@
     "sold_units_by_type": {
       "3room": 53,
       "4room": 54
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 310
     }
   },
   "19-balam-rd": {
@@ -976,6 +1606,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit B",
+      "distance": 367
     }
   },
   "19-eunos-cres": {
@@ -990,6 +1629,15 @@
     "sold_units_by_type": {
       "3room": 142,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 528
     }
   },
   "1a-eunos-cres": {
@@ -1004,6 +1652,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 193
     }
   },
   "2-eunos-cres": {
@@ -1018,6 +1675,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 247
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 136
     }
   },
   "2-haig-rd": {
@@ -1031,6 +1697,16 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 751
     }
   },
   "20-balam-rd": {
@@ -1044,6 +1720,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit B",
+      "distance": 429
     }
   },
   "20-dakota-cres": {
@@ -1058,6 +1743,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 56
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 208
     }
   },
   "20-eunos-cres": {
@@ -1072,6 +1766,15 @@
     "sold_units_by_type": {
       "3room": 148,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 570
     }
   },
   "21-balam-rd": {
@@ -1085,6 +1788,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit B",
+      "distance": 405
     }
   },
   "21-eunos-cres": {
@@ -1099,6 +1811,15 @@
     "sold_units_by_type": {
       "3room": 152,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 612
     }
   },
   "21-haig-rd": {
@@ -1114,6 +1835,16 @@
       "3room": 22,
       "4room": 8,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 492
     }
   },
   "21-old-airport-rd": {
@@ -1128,6 +1859,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 14
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 215
     }
   },
   "22-balam-rd": {
@@ -1141,6 +1881,16 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 447
     }
   },
   "22-eunos-cres": {
@@ -1155,6 +1905,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 580
     }
   },
   "22-haig-rd": {
@@ -1169,6 +1928,16 @@
     "sold_units_by_type": {
       "3room": 75,
       "4room": 21
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 438
     }
   },
   "23-balam-rd": {
@@ -1182,6 +1951,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit B",
+      "distance": 446
     }
   },
   "23-eunos-cres": {
@@ -1196,6 +1974,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 530
     }
   },
   "23-haig-rd": {
@@ -1209,6 +1996,16 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 478
     }
   },
   "24-balam-rd": {
@@ -1222,6 +2019,16 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 461
     }
   },
   "24-eunos-cres": {
@@ -1236,6 +2043,15 @@
     "sold_units_by_type": {
       "3room": 146,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 470
     }
   },
   "25-eunos-cres": {
@@ -1250,6 +2066,15 @@
     "sold_units_by_type": {
       "3room": 142,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 428
     }
   },
   "27-balam-rd": {
@@ -1264,6 +2089,15 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 514
     }
   },
   "28-balam-rd": {
@@ -1278,6 +2112,15 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit B",
+      "distance": 495
     }
   },
   "28-cassia-cres": {
@@ -1292,6 +2135,15 @@
     "sold_units_by_type": {
       "4room": 101,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 265
     }
   },
   "29-balam-rd": {
@@ -1306,6 +2158,16 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 458
     }
   },
   "2a-eunos-cres": {
@@ -1320,6 +2182,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit C",
+      "distance": 75
     }
   },
   "2a-geylang-serai": {
@@ -1333,6 +2204,16 @@
     "total_dwelling_units": 93,
     "sold_units_by_type": {
       "4room": 93
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit E",
+      "distance": 522
     }
   },
   "2b-geylang-serai": {
@@ -1346,6 +2227,16 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit E",
+      "distance": 514
     }
   },
   "2c-geylang-serai": {
@@ -1359,6 +2250,15 @@
     "total_dwelling_units": 87,
     "sold_units_by_type": {
       "4room": 87
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 538
     }
   },
   "2d-geylang-serai": {
@@ -1372,6 +2272,15 @@
     "total_dwelling_units": 89,
     "sold_units_by_type": {
       "4room": 89
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 490
     }
   },
   "3-haig-rd": {
@@ -1388,6 +2297,16 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 771
     }
   },
   "3-joo-chiat-rd": {
@@ -1403,6 +2322,15 @@
       "3room": 93,
       "4room": 14,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 559
     }
   },
   "3-pine-cl": {
@@ -1417,6 +2345,15 @@
     "sold_units_by_type": {
       "4room": 100,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 60
     }
   },
   "30-balam-rd": {
@@ -1432,6 +2369,16 @@
       "2room": 27,
       "3room": 83,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 417
     }
   },
   "30-cassia-cres": {
@@ -1446,6 +2393,15 @@
     "sold_units_by_type": {
       "4room": 101,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 310
     }
   },
   "301-ubi-ave-1": {
@@ -1463,6 +2419,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 245
     }
   },
   "302-ubi-ave-1": {
@@ -1480,6 +2445,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 125
     }
   },
   "304-ubi-ave-1": {
@@ -1497,6 +2471,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 157
     }
   },
   "305-ubi-ave-1": {
@@ -1514,6 +2497,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 278
     }
   },
   "31-balam-rd": {
@@ -1528,6 +2520,15 @@
     "sold_units_by_type": {
       "3room": 26,
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit A",
+      "distance": 402
     }
   },
   "31-eunos-cres": {
@@ -1544,6 +2545,15 @@
       "3room": 72,
       "4room": 68,
       "studio_apartment": 6
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 123
     }
   },
   "311-ubi-ave-1": {
@@ -1558,6 +2568,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 381
     }
   },
   "312-ubi-ave-1": {
@@ -1572,6 +2591,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 435
     }
   },
   "313-ubi-ave-1": {
@@ -1585,6 +2613,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 458
     }
   },
   "314-ubi-ave-1": {
@@ -1598,6 +2635,15 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "4room": 124
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 424
     }
   },
   "315-ubi-ave-1": {
@@ -1611,6 +2657,15 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "4room": 124
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 395
     }
   },
   "316-ubi-ave-1": {
@@ -1626,6 +2681,15 @@
       "3room": 88,
       "4room": 46,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 329
     }
   },
   "317-ubi-ave-1": {
@@ -1640,6 +2704,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 359
     }
   },
   "318-ubi-ave-1": {
@@ -1653,6 +2726,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 413
     }
   },
   "319-ubi-ave-1": {
@@ -1666,6 +2748,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 453
     }
   },
   "32-balam-rd": {
@@ -1684,6 +2775,16 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 400
     }
   },
   "32-cassia-cres": {
@@ -1699,6 +2800,15 @@
       "3room": 54,
       "4room": 77,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 330
     }
   },
   "32-eunos-cres": {
@@ -1715,6 +2825,15 @@
       "3room": 36,
       "4room": 69,
       "studio_apartment": 42
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 159
     }
   },
   "320-ubi-ave-1": {
@@ -1728,6 +2847,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 506
     }
   },
   "321-ubi-ave-1": {
@@ -1742,6 +2870,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 563
     }
   },
   "322-ubi-ave-1": {
@@ -1756,6 +2893,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 596
     }
   },
   "323-ubi-ave-1": {
@@ -1769,6 +2915,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 546
     }
   },
   "324-ubi-ave-1": {
@@ -1782,6 +2937,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 515
     }
   },
   "325-ubi-ave-1": {
@@ -1796,6 +2960,15 @@
     "sold_units_by_type": {
       "3room": 14,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 505
     }
   },
   "326-ubi-ave-1": {
@@ -1809,6 +2982,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 535
     }
   },
   "327-ubi-ave-1": {
@@ -1822,6 +3004,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 570
     }
   },
   "328-ubi-ave-1": {
@@ -1836,6 +3027,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 609
     }
   },
   "329-ubi-ave-1": {
@@ -1850,6 +3050,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 638
     }
   },
   "33-balam-rd": {
@@ -1864,6 +3073,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 459
     }
   },
   "33-eunos-cres": {
@@ -1880,6 +3098,15 @@
       "3room": 72,
       "4room": 51,
       "studio_apartment": 27
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 209
     }
   },
   "330-ubi-ave-1": {
@@ -1894,6 +3121,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 602
     }
   },
   "331-ubi-ave-1": {
@@ -1907,6 +3143,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 551
     }
   },
   "332-ubi-ave-1": {
@@ -1920,6 +3165,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 455
     }
   },
   "333-ubi-ave-1": {
@@ -1933,6 +3187,15 @@
     "total_dwelling_units": 70,
     "sold_units_by_type": {
       "exec": 70
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 500
     }
   },
   "334-ubi-ave-1": {
@@ -1946,6 +3209,15 @@
     "total_dwelling_units": 70,
     "sold_units_by_type": {
       "exec": 70
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 532
     }
   },
   "335-ubi-ave-1": {
@@ -1959,6 +3231,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 545
     }
   },
   "336-ubi-ave-1": {
@@ -1973,6 +3254,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 518
     }
   },
   "337-ubi-ave-1": {
@@ -1987,6 +3277,15 @@
     "sold_units_by_type": {
       "4room": 6,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 477
     }
   },
   "338-ubi-ave-1": {
@@ -2000,6 +3299,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 489
     }
   },
   "339-ubi-ave-1": {
@@ -2013,6 +3321,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 455
     }
   },
   "34-cassia-cres": {
@@ -2027,6 +3344,15 @@
     "sold_units_by_type": {
       "3room": 69,
       "4room": 45
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 383
     }
   },
   "34-circuit-rd": {
@@ -2040,6 +3366,16 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 343
     }
   },
   "34-eunos-cres": {
@@ -2055,6 +3391,15 @@
       "3room": 35,
       "4room": 52,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 241
     }
   },
   "340-ubi-ave-1": {
@@ -2069,6 +3414,15 @@
     "sold_units_by_type": {
       "4room": 6,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 434
     }
   },
   "341-ubi-ave-1": {
@@ -2082,6 +3436,15 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "4room": 124
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 406
     }
   },
   "342-ubi-ave-1": {
@@ -2096,6 +3459,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 417
     }
   },
   "343-ubi-ave-1": {
@@ -2109,6 +3481,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 389
     }
   },
   "344-ubi-ave-1": {
@@ -2122,6 +3503,15 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "4room": 124
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 400
     }
   },
   "345-ubi-ave-1": {
@@ -2135,6 +3525,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit B",
+      "distance": 438
     }
   },
   "346-ubi-ave-1": {
@@ -2148,6 +3547,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 442
     }
   },
   "347-ubi-ave-1": {
@@ -2161,6 +3569,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 477
     }
   },
   "348-ubi-ave-1": {
@@ -2174,6 +3591,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 429
     }
   },
   "349-ubi-ave-1": {
@@ -2187,6 +3613,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 465
     }
   },
   "35-circuit-rd": {
@@ -2201,6 +3636,15 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 391
     }
   },
   "35-eunos-cres": {
@@ -2216,6 +3660,15 @@
       "3room": 35,
       "4room": 52,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 218
     }
   },
   "350-ubi-ave-1": {
@@ -2230,6 +3683,15 @@
     "sold_units_by_type": {
       "3room": 14,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 487
     }
   },
   "351-ubi-ave-1": {
@@ -2244,6 +3706,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 505
     }
   },
   "352-ubi-ave-1": {
@@ -2258,6 +3729,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit B",
+      "distance": 520
     }
   },
   "356a-ubi-rd-3": {
@@ -2271,6 +3751,15 @@
     "total_dwelling_units": 99,
     "sold_units_by_type": {
       "4room": 99
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 347
     }
   },
   "356b-ubi-rd-3": {
@@ -2284,6 +3773,15 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "4room": 65
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 290
     }
   },
   "356c-ubi-rd-3": {
@@ -2297,6 +3795,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 281
     }
   },
   "356d-ubi-rd-3": {
@@ -2310,6 +3817,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 327
     }
   },
   "357a-ubi-rd-3": {
@@ -2323,6 +3839,15 @@
     "total_dwelling_units": 87,
     "sold_units_by_type": {
       "4room": 87
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 237
     }
   },
   "357b-ubi-rd-3": {
@@ -2336,6 +3861,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 187
     }
   },
   "357c-ubi-rd-3": {
@@ -2349,6 +3883,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "4room": 86
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit B",
+      "distance": 140
     }
   },
   "357d-ubi-rd-3": {
@@ -2362,6 +3905,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit B",
+      "distance": 91
     }
   },
   "358a-ubi-rd-3": {
@@ -2375,6 +3927,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 231
     }
   },
   "358b-ubi-rd-3": {
@@ -2388,6 +3949,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 174
     }
   },
   "358c-ubi-rd-3": {
@@ -2403,6 +3973,15 @@
       "2room": 66,
       "3room": 44,
       "4room": 33
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 107
     }
   },
   "358d-ubi-rd-3": {
@@ -2418,6 +3997,15 @@
       "2room": 54,
       "3room": 36,
       "4room": 27
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 54
     }
   },
   "36-cassia-cres": {
@@ -2432,6 +4020,15 @@
     "sold_units_by_type": {
       "3room": 94,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 376
     }
   },
   "36-circuit-rd": {
@@ -2446,6 +4043,16 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 366
     }
   },
   "36-eunos-cres": {
@@ -2461,6 +4068,15 @@
       "3room": 35,
       "4room": 52,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 200
     }
   },
   "37-circuit-rd": {
@@ -2479,6 +4095,16 @@
     "rental_units_by_type": {
       "2room": 452,
       "3room": 25
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 324
     }
   },
   "37a-eunos-rd-2": {
@@ -2494,6 +4120,15 @@
       "2room": 33,
       "3room": 15,
       "4room": 87
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 260
     }
   },
   "37a-pine-lane": {
@@ -2508,6 +4143,15 @@
     "sold_units_by_type": {
       "2room": 102,
       "3room": 66
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 341
     }
   },
   "37b-eunos-rd-2": {
@@ -2521,6 +4165,15 @@
     "total_dwelling_units": 117,
     "sold_units_by_type": {
       "4room": 117
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 259
     }
   },
   "37c-eunos-rd-2": {
@@ -2534,6 +4187,15 @@
     "total_dwelling_units": 126,
     "sold_units_by_type": {
       "4room": 126
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 309
     }
   },
   "38-circuit-rd": {
@@ -2547,6 +4209,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 308
     }
   },
   "38a-eunos-rd-2": {
@@ -2561,6 +4232,15 @@
     "sold_units_by_type": {
       "3room": 36,
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 324
     }
   },
   "38a-pine-lane": {
@@ -2575,6 +4255,15 @@
     "sold_units_by_type": {
       "2room": 34,
       "3room": 117
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 294
     }
   },
   "38b-eunos-rd-2": {
@@ -2589,6 +4278,15 @@
     "sold_units_by_type": {
       "3room": 36,
       "4room": 86
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 287
     }
   },
   "38c-eunos-rd-2": {
@@ -2604,6 +4302,15 @@
       "2room": 74,
       "3room": 10,
       "4room": 34
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 256
     }
   },
   "39-circuit-rd": {
@@ -2619,6 +4326,15 @@
       "2room": 29,
       "3room": 87,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 240
     }
   },
   "39-jln-tiga": {
@@ -2633,6 +4349,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 285
     }
   },
   "3a-geylang-serai": {
@@ -2646,6 +4371,15 @@
     "total_dwelling_units": 70,
     "sold_units_by_type": {
       "4room": 70
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 468
     }
   },
   "4-haig-rd": {
@@ -2660,6 +4394,16 @@
     "sold_units_by_type": {
       "3room": 136,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 724
     }
   },
   "4-joo-chiat-rd": {
@@ -2675,6 +4419,15 @@
       "3room": 93,
       "4room": 14,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 614
     }
   },
   "40-circuit-rd": {
@@ -2690,6 +4443,16 @@
       "2room": 30,
       "3room": 84,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 309
     }
   },
   "40-sims-dr": {
@@ -2704,6 +4467,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit B",
+      "distance": 648
     }
   },
   "41-circuit-rd": {
@@ -2718,6 +4490,16 @@
     "sold_units_by_type": {
       "4room": 5,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 284
     }
   },
   "41-sims-dr": {
@@ -2732,6 +4514,15 @@
     "sold_units_by_type": {
       "3room": 236,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit B",
+      "distance": 631
     }
   },
   "410-eunos-rd-5": {
@@ -2745,6 +4536,15 @@
     "total_dwelling_units": 11,
     "sold_units_by_type": {
       "3room": 11
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 328
     }
   },
   "411-eunos-rd-5": {
@@ -2759,6 +4559,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 340
     }
   },
   "412-eunos-rd-5": {
@@ -2773,6 +4582,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 43
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 419
     }
   },
   "413-eunos-rd-5": {
@@ -2787,6 +4605,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 437
     }
   },
   "414-eunos-rd-5": {
@@ -2800,6 +4627,15 @@
     "total_dwelling_units": 27,
     "sold_units_by_type": {
       "3room": 27
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 511
     }
   },
   "415-eunos-rd-5": {
@@ -2814,6 +4650,16 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit E",
+      "distance": 514
     }
   },
   "416-eunos-rd-5": {
@@ -2827,6 +4673,16 @@
     "total_dwelling_units": 27,
     "sold_units_by_type": {
       "3room": 27
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit E",
+      "distance": 470
     }
   },
   "417-eunos-rd-5": {
@@ -2841,6 +4697,16 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit E",
+      "distance": 429
     }
   },
   "42-cassia-cres": {
@@ -2855,6 +4721,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 312
     }
   },
   "42-circuit-rd": {
@@ -2869,6 +4744,16 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 268
     }
   },
   "42-sims-dr": {
@@ -2882,6 +4767,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit B",
+      "distance": 653
     }
   },
   "42a-sims-dr": {
@@ -2896,6 +4790,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit B",
+      "distance": 687
     }
   },
   "43-circuit-rd": {
@@ -2911,6 +4814,15 @@
       "2room": 28,
       "3room": 88,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 200
     }
   },
   "43-jln-tiga": {
@@ -2925,6 +4837,15 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 282
     }
   },
   "43-sims-dr": {
@@ -2939,6 +4860,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 659
     }
   },
   "43a-sims-dr": {
@@ -2953,6 +4883,15 @@
     "sold_units_by_type": {
       "4room": 19,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 649
     }
   },
   "44-circuit-rd": {
@@ -2968,6 +4907,15 @@
       "2room": 28,
       "3room": 82,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 264
     }
   },
   "44-sims-dr": {
@@ -2981,6 +4929,15 @@
     "total_dwelling_units": 240,
     "sold_units_by_type": {
       "4room": 240
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 622
     }
   },
   "45-circuit-rd": {
@@ -2999,6 +4956,15 @@
     },
     "rental_units_by_type": {
       "2room": 2
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 259
     }
   },
   "45-jln-tiga": {
@@ -3013,6 +4979,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 309
     }
   },
   "45-sims-dr": {
@@ -3026,6 +5001,15 @@
     "total_dwelling_units": 182,
     "sold_units_by_type": {
       "3room": 182
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 458
     }
   },
   "46-circuit-rd": {
@@ -3044,6 +5028,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 258
     }
   },
   "47-circuit-rd": {
@@ -3058,6 +5051,15 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 230
     }
   },
   "47-jln-tiga": {
@@ -3072,6 +5074,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 336
     }
   },
   "48-circuit-rd": {
@@ -3086,6 +5097,15 @@
     "sold_units_by_type": {
       "3room": 116,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 242
     }
   },
   "49-circuit-rd": {
@@ -3100,6 +5120,15 @@
     "sold_units_by_type": {
       "3room": 116,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 255
     }
   },
   "49-jln-tiga": {
@@ -3113,6 +5142,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 297
     }
   },
   "5-haig-rd": {
@@ -3126,6 +5164,16 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 639
     }
   },
   "5-pine-cl": {
@@ -3140,6 +5188,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 71
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 34
     }
   },
   "50-circuit-rd": {
@@ -3157,6 +5214,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 268
     }
   },
   "50-sims-dr": {
@@ -3170,6 +5236,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 455
     }
   },
   "51-circuit-rd": {
@@ -3187,6 +5262,15 @@
     },
     "rental_units_by_type": {
       "2room": 58
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 292
     }
   },
   "51-sims-dr": {
@@ -3200,6 +5284,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 398
     }
   },
   "52-cassia-cres": {
@@ -3219,6 +5312,15 @@
       "1room": 187,
       "2room": 306,
       "3room": 31
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 435
     }
   },
   "52-circuit-rd": {
@@ -3237,6 +5339,15 @@
     "rental_units_by_type": {
       "2room": 78,
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 315
     }
   },
   "52-sims-pl": {
@@ -3254,6 +5365,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 232
     }
   },
   "53-pipit-rd": {
@@ -3267,6 +5387,16 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "exec": 124
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 234
     }
   },
   "53-sims-pl": {
@@ -3281,6 +5411,15 @@
     "sold_units_by_type": {
       "3room": 151,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 305
     }
   },
   "54-cassia-cres": {
@@ -3295,6 +5434,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 426
     }
   },
   "54-pipit-rd": {
@@ -3308,6 +5456,16 @@
     "total_dwelling_units": 222,
     "sold_units_by_type": {
       "4room": 222
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 173
     }
   },
   "55-pipit-rd": {
@@ -3322,6 +5480,16 @@
     "sold_units_by_type": {
       "4room": 97,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 157
     }
   },
   "56-cassia-cres": {
@@ -3336,6 +5504,15 @@
     "sold_units_by_type": {
       "4room": 114,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 392
     }
   },
   "56-pipit-rd": {
@@ -3349,6 +5526,16 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 117
     }
   },
   "57-circuit-rd": {
@@ -3363,6 +5550,16 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 202
     }
   },
   "58-circuit-rd": {
@@ -3377,6 +5574,16 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 223
     }
   },
   "58-dakota-cres": {
@@ -3392,6 +5599,15 @@
       "3room": 106,
       "4room": 66,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit A",
+      "distance": 168
     }
   },
   "59-circuit-rd": {
@@ -3406,6 +5622,16 @@
     "sold_units_by_type": {
       "3room": 116,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 189
     }
   },
   "6-haig-rd": {
@@ -3419,6 +5645,16 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 647
     }
   },
   "60-circuit-rd": {
@@ -3433,6 +5669,16 @@
     "sold_units_by_type": {
       "3room": 118,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 218
     }
   },
   "60-dakota-cres": {
@@ -3447,6 +5693,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 134
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 108
     }
   },
   "61-circuit-rd": {
@@ -3461,6 +5716,16 @@
     "sold_units_by_type": {
       "3room": 116,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 169
     }
   },
   "62-circuit-rd": {
@@ -3476,6 +5741,16 @@
       "2room": 29,
       "3room": 87,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 167
     }
   },
   "62-dakota-cres": {
@@ -3490,6 +5765,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 131
     }
   },
   "63-circuit-rd": {
@@ -3508,6 +5792,16 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 223
     }
   },
   "63-sims-pl": {
@@ -3524,6 +5818,15 @@
       "3room": 140,
       "exec": 1,
       "studio_apartment": 109
+    },
+    "nearest_station": {
+      "id": "aljunied",
+      "name": "Aljunied",
+      "codes": [
+        "EW9"
+      ],
+      "exit": "Exit B",
+      "distance": 326
     }
   },
   "64-circuit-rd": {
@@ -3538,6 +5841,16 @@
     "sold_units_by_type": {
       "3room": 100,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 185
     }
   },
   "65-circuit-rd": {
@@ -3552,6 +5865,16 @@
     "sold_units_by_type": {
       "3room": 104,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 206
     }
   },
   "66-circuit-rd": {
@@ -3567,6 +5890,16 @@
       "2room": 29,
       "3room": 87,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 111
     }
   },
   "67-circuit-rd": {
@@ -3584,6 +5917,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 86
     }
   },
   "68-circuit-rd": {
@@ -3602,6 +5945,16 @@
     "rental_units_by_type": {
       "2room": 64,
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 55
     }
   },
   "69-circuit-rd": {
@@ -3616,6 +5969,16 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 111
     }
   },
   "7-haig-rd": {
@@ -3629,6 +5992,16 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 579
     }
   },
   "7-pine-cl": {
@@ -3643,6 +6016,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 71
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 105
     }
   },
   "70-circuit-rd": {
@@ -3660,6 +6042,16 @@
     },
     "rental_units_by_type": {
       "2room": 63
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 46
     }
   },
   "71-circuit-rd": {
@@ -3678,6 +6070,16 @@
     "rental_units_by_type": {
       "2room": 57,
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 57
     }
   },
   "72-circuit-rd": {
@@ -3696,6 +6098,16 @@
     "rental_units_by_type": {
       "2room": 48,
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 87
     }
   },
   "75a-circuit-rd": {
@@ -3711,6 +6123,16 @@
       "2room": 15,
       "3room": 51,
       "4room": 82
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit C",
+      "distance": 82
     }
   },
   "75b-circuit-rd": {
@@ -3725,6 +6147,16 @@
     "sold_units_by_type": {
       "3room": 70,
       "4room": 190
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 88
     }
   },
   "76a-circuit-rd": {
@@ -3741,6 +6173,16 @@
       "3room": 32,
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 108
     }
   },
   "8-haig-rd": {
@@ -3754,6 +6196,16 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 514
     }
   },
   "81-macpherson-lane": {
@@ -3770,6 +6222,15 @@
       "2room": 117,
       "3room": 11,
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit B",
+      "distance": 346
     }
   },
   "82a-circuit-rd": {
@@ -3786,6 +6247,16 @@
       "3room": 60,
       "4room": 72,
       "studio_apartment": 102
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit C",
+      "distance": 144
     }
   },
   "82b-circuit-rd": {
@@ -3800,6 +6271,16 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 162
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 190
     }
   },
   "83-macpherson-lane": {
@@ -3816,6 +6297,15 @@
       "2room": 13,
       "3room": 78,
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit B",
+      "distance": 454
     }
   },
   "83a-circuit-rd": {
@@ -3830,6 +6320,16 @@
     "sold_units_by_type": {
       "3room": 36,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 241
     }
   },
   "83b-circuit-rd": {
@@ -3844,6 +6344,16 @@
     "sold_units_by_type": {
       "3room": 36,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit C",
+      "distance": 226
     }
   },
   "842-sims-ave": {
@@ -3857,6 +6367,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 209
     }
   },
   "844-sims-ave": {
@@ -3870,6 +6389,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "4room": 20
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 209
     }
   },
   "846-sims-ave": {
@@ -3883,6 +6411,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 239
     }
   },
   "848-sims-ave": {
@@ -3896,6 +6433,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "4room": 20
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 291
     }
   },
   "85-circuit-rd": {
@@ -3909,6 +6455,16 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "3room": 100
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 409
     }
   },
   "87-circuit-rd": {
@@ -3923,6 +6479,16 @@
     "sold_units_by_type": {
       "3room": 76,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 382
     }
   },
   "88a-jln-satu": {
@@ -3937,6 +6503,15 @@
     "sold_units_by_type": {
       "3room": 18,
       "4room": 121
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 173
     }
   },
   "88b-jln-satu": {
@@ -3951,6 +6526,15 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 224
     }
   },
   "88c-jln-satu": {
@@ -3965,6 +6549,15 @@
     "sold_units_by_type": {
       "3room": 17,
       "4room": 123
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 273
     }
   },
   "9-eunos-cres": {
@@ -3978,6 +6571,15 @@
     "total_dwelling_units": 180,
     "sold_units_by_type": {
       "4room": 180
+    },
+    "nearest_station": {
+      "id": "eunos",
+      "name": "Eunos",
+      "codes": [
+        "EW7"
+      ],
+      "exit": "Exit B",
+      "distance": 250
     }
   },
   "9-haig-rd": {
@@ -3992,6 +6594,16 @@
     "sold_units_by_type": {
       "3room": 138,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "paya-lebar",
+      "name": "Paya Lebar",
+      "codes": [
+        "EW8",
+        "CC9"
+      ],
+      "exit": "Exit F",
+      "distance": 461
     }
   },
   "9-pine-cl": {
@@ -4006,6 +6618,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit A",
+      "distance": 303
     }
   },
   "90-pipit-rd": {
@@ -4020,6 +6641,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 274
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 291
     }
   },
   "90a-jln-satu": {
@@ -4035,6 +6666,15 @@
       "2room": 34,
       "3room": 17,
       "4room": 153
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit A",
+      "distance": 243
     }
   },
   "90b-jln-satu": {
@@ -4050,6 +6690,15 @@
       "2room": 34,
       "3room": 17,
       "4room": 136
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit A",
+      "distance": 213
     }
   },
   "91-paya-lebar-way": {
@@ -4064,6 +6713,16 @@
     "sold_units_by_type": {
       "3room": 138,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 334
     }
   },
   "91a-jln-satu": {
@@ -4079,6 +6738,15 @@
       "2room": 34,
       "3room": 17,
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit A",
+      "distance": 194
     }
   },
   "91b-jln-satu": {
@@ -4094,6 +6762,15 @@
       "2room": 34,
       "3room": 15,
       "4room": 133
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit A",
+      "distance": 144
     }
   },
   "92-pipit-rd": {
@@ -4108,6 +6785,16 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 249
     }
   },
   "92a-jln-satu": {
@@ -4123,6 +6810,15 @@
       "2room": 30,
       "3room": 51,
       "4room": 99
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit A",
+      "distance": 85
     }
   },
   "92a-pipit-rd": {
@@ -4137,6 +6833,16 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 255
     }
   },
   "93-jln-dua": {
@@ -4151,6 +6857,15 @@
     "sold_units_by_type": {
       "3room": 86,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 115
     }
   },
   "93-paya-lebar-way": {
@@ -4168,6 +6883,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 271
     }
   },
   "94-pipit-rd": {
@@ -4182,6 +6907,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 220
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 217
     }
   },
   "95-aljunied-cres": {
@@ -4196,6 +6931,16 @@
     "sold_units_by_type": {
       "3room": 188,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 458
     }
   },
   "95-old-airport-rd": {
@@ -4210,6 +6955,15 @@
     "sold_units_by_type": {
       "3room": 118,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 78
     }
   },
   "95a-circuit-rd": {
@@ -4225,6 +6979,16 @@
       "2room": 108,
       "3room": 84,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 58
     }
   },
   "95b-circuit-rd": {
@@ -4240,6 +7004,16 @@
       "2room": 108,
       "3room": 72,
       "4room": 70
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 71
     }
   },
   "95c-circuit-rd": {
@@ -4253,6 +7027,16 @@
     "total_dwelling_units": 188,
     "sold_units_by_type": {
       "4room": 188
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit E",
+      "distance": 105
     }
   },
   "96-aljunied-cres": {
@@ -4269,6 +7053,16 @@
     },
     "rental_units_by_type": {
       "2room": 89
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 514
     }
   },
   "97-aljunied-cres": {
@@ -4283,6 +7077,16 @@
     "sold_units_by_type": {
       "3room": 150,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 528
     }
   },
   "97-jln-dua": {
@@ -4297,6 +7101,15 @@
     "sold_units_by_type": {
       "3room": 114,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit A",
+      "distance": 103
     }
   },
   "97a-circuit-rd": {
@@ -4310,6 +7123,16 @@
     "total_dwelling_units": 189,
     "sold_units_by_type": {
       "4room": 189
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 199
     }
   },
   "97b-circuit-rd": {
@@ -4323,6 +7146,16 @@
     "total_dwelling_units": 172,
     "sold_units_by_type": {
       "4room": 172
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 242
     }
   },
   "98-aljunied-cres": {
@@ -4337,6 +7170,16 @@
     "sold_units_by_type": {
       "3room": 146,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit D",
+      "distance": 566
     }
   },
   "99-aljunied-cres": {
@@ -4351,6 +7194,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit B",
+      "distance": 569
     }
   },
   "99-old-airport-rd": {
@@ -4367,6 +7219,15 @@
     },
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "dakota",
+      "name": "Dakota",
+      "codes": [
+        "CC8"
+      ],
+      "exit": "Exit B",
+      "distance": 62
     }
   },
   "99a-circuit-rd": {
@@ -4380,6 +7241,16 @@
     "total_dwelling_units": 161,
     "sold_units_by_type": {
       "4room": 161
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 122
     }
   },
   "99b-circuit-rd": {
@@ -4393,6 +7264,16 @@
     "total_dwelling_units": 166,
     "sold_units_by_type": {
       "4room": 166
+    },
+    "nearest_station": {
+      "id": "macpherson",
+      "name": "MacPherson",
+      "codes": [
+        "CC10",
+        "DT26"
+      ],
+      "exit": "Exit A",
+      "distance": 66
     }
   }
 }

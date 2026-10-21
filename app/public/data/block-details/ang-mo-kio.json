@@ -11,6 +11,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 306
     }
   },
   "102-ang-mo-kio-ave-3": {
@@ -25,6 +34,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 295
     }
   },
   "103-ang-mo-kio-ave-3": {
@@ -40,6 +58,15 @@
       "3room": 97,
       "4room": 33,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 4",
+      "distance": 280
     }
   },
   "104a-ang-mo-kio-st-11": {
@@ -53,6 +80,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 4",
+      "distance": 231
     }
   },
   "104b-ang-mo-kio-st-11": {
@@ -66,6 +102,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 4",
+      "distance": 187
     }
   },
   "105-ang-mo-kio-ave-4": {
@@ -79,6 +124,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 1",
+      "distance": 107
     }
   },
   "106-ang-mo-kio-ave-4": {
@@ -97,6 +151,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 4",
+      "distance": 106
     }
   },
   "107-ang-mo-kio-ave-4": {
@@ -113,6 +176,15 @@
       "4room": 18,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 4",
+      "distance": 66
     }
   },
   "108-ang-mo-kio-ave-4": {
@@ -132,6 +204,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 4",
+      "distance": 160
     }
   },
   "109-ang-mo-kio-ave-4": {
@@ -149,6 +230,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 128
     }
   },
   "110-ang-mo-kio-ave-4": {
@@ -165,6 +255,15 @@
       "4room": 33,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 81
     }
   },
   "111-ang-mo-kio-ave-4": {
@@ -179,6 +278,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 60
     }
   },
   "112-ang-mo-kio-ave-4": {
@@ -194,6 +302,15 @@
       "3room": 130,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 7",
+      "distance": 59
     }
   },
   "113-ang-mo-kio-ave-4": {
@@ -207,6 +324,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 7",
+      "distance": 58
     }
   },
   "114-ang-mo-kio-ave-4": {
@@ -222,6 +348,15 @@
       "3room": 98,
       "4room": 20,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 1",
+      "distance": 57
     }
   },
   "115-ang-mo-kio-ave-4": {
@@ -236,6 +371,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 196
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 1",
+      "distance": 45
     }
   },
   "116-ang-mo-kio-ave-4": {
@@ -252,6 +396,15 @@
     },
     "rental_units_by_type": {
       "2room": 109
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 76
     }
   },
   "117-ang-mo-kio-ave-4": {
@@ -267,6 +420,15 @@
       "3room": 119,
       "4room": 33,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 158
     }
   },
   "118-ang-mo-kio-ave-4": {
@@ -282,6 +444,15 @@
       "3room": 115,
       "4room": 33,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 1",
+      "distance": 153
     }
   },
   "119-ang-mo-kio-ave-3": {
@@ -301,6 +472,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 516
     }
   },
   "120-ang-mo-kio-ave-3": {
@@ -317,6 +497,15 @@
       "4room": 30,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 532
     }
   },
   "121-ang-mo-kio-ave-3": {
@@ -333,6 +522,15 @@
       "4room": 20,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 648
     }
   },
   "122-ang-mo-kio-ave-3": {
@@ -351,6 +549,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 664
     }
   },
   "123-ang-mo-kio-ave-6": {
@@ -365,6 +572,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 192
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 517
     }
   },
   "124-ang-mo-kio-ave-6": {
@@ -380,6 +596,15 @@
       "3room": 130,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 534
     }
   },
   "125-ang-mo-kio-ave-6": {
@@ -394,6 +619,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 160
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 558
     }
   },
   "126-ang-mo-kio-ave-3": {
@@ -410,6 +644,15 @@
       "4room": 20,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 680
     }
   },
   "127-ang-mo-kio-ave-3": {
@@ -425,6 +668,15 @@
       "3room": 138,
       "4room": 20,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 669
     }
   },
   "128-ang-mo-kio-ave-3": {
@@ -440,6 +692,15 @@
       "3room": 122,
       "4room": 18,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 663
     }
   },
   "129-ang-mo-kio-ave-3": {
@@ -456,6 +717,15 @@
       "4room": 22,
       "5room": 3,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 597
     }
   },
   "130-ang-mo-kio-ave-3": {
@@ -472,6 +742,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 571
     }
   },
   "131-ang-mo-kio-ave-3": {
@@ -485,6 +764,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 4",
+      "distance": 557
     }
   },
   "132-ang-mo-kio-ave-3": {
@@ -499,6 +787,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 534
     }
   },
   "133-ang-mo-kio-ave-3": {
@@ -514,6 +811,15 @@
       "3room": 17,
       "4room": 4,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 635
     }
   },
   "134-ang-mo-kio-ave-3": {
@@ -527,6 +833,15 @@
     "total_dwelling_units": 168,
     "sold_units_by_type": {
       "4room": 168
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 557
     }
   },
   "150-ang-mo-kio-ave-5": {
@@ -543,6 +858,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit B",
+      "distance": 620
     }
   },
   "151-ang-mo-kio-ave-5": {
@@ -558,6 +882,15 @@
       "3room": 99,
       "4room": 21,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 543
     }
   },
   "152-ang-mo-kio-ave-5": {
@@ -577,6 +910,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 462
     }
   },
   "153-ang-mo-kio-ave-5": {
@@ -593,6 +935,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 600
     }
   },
   "154-ang-mo-kio-ave-5": {
@@ -612,6 +963,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 517
     }
   },
   "155-ang-mo-kio-ave-4": {
@@ -628,6 +988,15 @@
       "4room": 20,
       "5room": 2,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 390
     }
   },
   "156-ang-mo-kio-ave-4": {
@@ -643,6 +1012,15 @@
       "3room": 130,
       "4room": 20,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 352
     }
   },
   "157-ang-mo-kio-ave-4": {
@@ -659,6 +1037,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 292
     }
   },
   "158-ang-mo-kio-ave-4": {
@@ -672,6 +1059,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 220
     }
   },
   "159-ang-mo-kio-ave-4": {
@@ -685,6 +1081,15 @@
     "total_dwelling_units": 23,
     "sold_units_by_type": {
       "3room": 23
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 301
     }
   },
   "163-ang-mo-kio-ave-4": {
@@ -698,6 +1103,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "3room": 84
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 79
     }
   },
   "170-ang-mo-kio-ave-4": {
@@ -716,6 +1130,15 @@
     },
     "rental_units_by_type": {
       "2room": 4
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 74
     }
   },
   "171-ang-mo-kio-ave-4": {
@@ -730,6 +1153,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 188
     }
   },
   "172-ang-mo-kio-ave-4": {
@@ -749,6 +1181,15 @@
     },
     "rental_units_by_type": {
       "2room": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 125
     }
   },
   "173-ang-mo-kio-ave-4": {
@@ -763,6 +1204,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 144
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 198
     }
   },
   "174-ang-mo-kio-ave-4": {
@@ -782,6 +1232,15 @@
     },
     "rental_units_by_type": {
       "2room": 2
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 166
     }
   },
   "175-ang-mo-kio-ave-4": {
@@ -795,6 +1254,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 223
     }
   },
   "176-ang-mo-kio-ave-4": {
@@ -808,6 +1276,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 256
     }
   },
   "177-ang-mo-kio-ave-4": {
@@ -821,6 +1298,15 @@
     "total_dwelling_units": 154,
     "sold_units_by_type": {
       "4room": 154
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 265
     }
   },
   "178-ang-mo-kio-ave-4": {
@@ -837,6 +1323,15 @@
       "4room": 24,
       "5room": 3,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 275
     }
   },
   "179-ang-mo-kio-ave-5": {
@@ -850,6 +1345,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 365
     }
   },
   "180-ang-mo-kio-ave-5": {
@@ -866,6 +1370,15 @@
       "4room": 16,
       "5room": 2,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 361
     }
   },
   "181-ang-mo-kio-ave-5": {
@@ -880,6 +1393,15 @@
     "sold_units_by_type": {
       "3room": 73,
       "4room": 15
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 342
     }
   },
   "182-ang-mo-kio-ave-5": {
@@ -895,6 +1417,15 @@
       "3room": 114,
       "4room": 24,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 407
     }
   },
   "201-ang-mo-kio-ave-3": {
@@ -910,6 +1441,15 @@
       "3room": 122,
       "4room": 18,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 535
     }
   },
   "202-ang-mo-kio-ave-3": {
@@ -929,6 +1469,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 548
     }
   },
   "203-ang-mo-kio-ave-3": {
@@ -943,6 +1492,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 160
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 605
     }
   },
   "204-ang-mo-kio-ave-3": {
@@ -956,6 +1514,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 645
     }
   },
   "205-ang-mo-kio-ave-1": {
@@ -969,6 +1536,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 698
     }
   },
   "206-ang-mo-kio-ave-1": {
@@ -983,6 +1559,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 160
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 735
     }
   },
   "207-ang-mo-kio-ave-1": {
@@ -996,6 +1581,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 827
     }
   },
   "208-ang-mo-kio-ave-1": {
@@ -1012,6 +1606,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 860
     }
   },
   "209-ang-mo-kio-ave-3": {
@@ -1025,6 +1628,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 675
     }
   },
   "210-ang-mo-kio-ave-3": {
@@ -1038,6 +1650,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 686
     }
   },
   "211-ang-mo-kio-ave-3": {
@@ -1053,6 +1674,15 @@
       "3room": 196,
       "4room": 18,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 573
     }
   },
   "212-ang-mo-kio-ave-3": {
@@ -1072,6 +1702,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 583
     }
   },
   "213-ang-mo-kio-ave-3": {
@@ -1091,6 +1730,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 601
     }
   },
   "214-ang-mo-kio-ave-3": {
@@ -1107,6 +1755,15 @@
       "4room": 18,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 614
     }
   },
   "215-ang-mo-kio-ave-1": {
@@ -1122,6 +1779,15 @@
       "3room": 113,
       "4room": 16,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 716
     }
   },
   "216-ang-mo-kio-ave-1": {
@@ -1136,6 +1802,15 @@
     "sold_units_by_type": {
       "3room": 126,
       "4room": 18
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 733
     }
   },
   "217-ang-mo-kio-ave-1": {
@@ -1151,6 +1826,15 @@
     "rental_units_by_type": {
       "1room": 200,
       "2room": 40
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 810
     }
   },
   "218-ang-mo-kio-ave-1": {
@@ -1167,6 +1851,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 838
     }
   },
   "219-ang-mo-kio-ave-1": {
@@ -1182,6 +1875,15 @@
       "3room": 118,
       "4room": 24,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 687
     }
   },
   "220-ang-mo-kio-ave-1": {
@@ -1198,6 +1900,15 @@
       "4room": 24,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 712
     }
   },
   "221-ang-mo-kio-ave-1": {
@@ -1212,6 +1923,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 575
     }
   },
   "222-ang-mo-kio-ave-1": {
@@ -1226,6 +1946,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 603
     }
   },
   "223-ang-mo-kio-ave-1": {
@@ -1241,6 +1970,15 @@
       "3room": 130,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 1",
+      "distance": 547
     }
   },
   "224-ang-mo-kio-ave-1": {
@@ -1255,6 +1993,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 160
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 501
     }
   },
   "225-ang-mo-kio-ave-1": {
@@ -1271,6 +2018,15 @@
       "4room": 22,
       "5room": 3,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 406
     }
   },
   "226-ang-mo-kio-ave-1": {
@@ -1284,6 +2040,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 385
     }
   },
   "226b-ang-mo-kio-ave-1": {
@@ -1297,6 +2062,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 494
     }
   },
   "226e-ang-mo-kio-ave-1": {
@@ -1310,6 +2084,15 @@
     "total_dwelling_units": 2,
     "sold_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 584
     }
   },
   "226f-ang-mo-kio-ave-1": {
@@ -1326,6 +2109,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 555
     }
   },
   "227a-ang-mo-kio-st-23": {
@@ -1340,6 +2132,15 @@
     "sold_units_by_type": {
       "2room": 156,
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 466
     }
   },
   "228a-ang-mo-kio-st-23": {
@@ -1354,6 +2155,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 122
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 425
     }
   },
   "228b-ang-mo-kio-st-23": {
@@ -1368,6 +2178,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 382
     }
   },
   "229-ang-mo-kio-ave-3": {
@@ -1381,6 +2200,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 250
     }
   },
   "230-ang-mo-kio-ave-3": {
@@ -1397,6 +2225,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 248
     }
   },
   "231-ang-mo-kio-ave-3": {
@@ -1410,6 +2247,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 261
     }
   },
   "232-ang-mo-kio-ave-3": {
@@ -1426,6 +2272,15 @@
       "4room": 20,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 275
     }
   },
   "233-ang-mo-kio-ave-3": {
@@ -1442,6 +2297,15 @@
       "4room": 20,
       "5room": 3,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 359
     }
   },
   "234-ang-mo-kio-ave-3": {
@@ -1456,6 +2320,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 400
     }
   },
   "235-ang-mo-kio-ave-3": {
@@ -1471,6 +2344,15 @@
       "3room": 130,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 441
     }
   },
   "244-ang-mo-kio-ave-3": {
@@ -1485,6 +2367,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 154
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 1",
+      "distance": 377
     }
   },
   "245-ang-mo-kio-ave-3": {
@@ -1499,6 +2390,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 154
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 397
     }
   },
   "246a-ang-mo-kio-st-21": {
@@ -1513,6 +2413,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 367
     }
   },
   "246b-ang-mo-kio-st-21": {
@@ -1527,6 +2436,15 @@
     "sold_units_by_type": {
       "4room": 156,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 1",
+      "distance": 400
     }
   },
   "253-ang-mo-kio-st-21": {
@@ -1540,6 +2458,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "5room": 110
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 243
     }
   },
   "253a-ang-mo-kio-st-21": {
@@ -1553,6 +2480,15 @@
     "total_dwelling_units": 49,
     "sold_units_by_type": {
       "5room": 49
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 249
     }
   },
   "254-ang-mo-kio-ave-4": {
@@ -1569,6 +2505,15 @@
     },
     "rental_units_by_type": {
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 196
     }
   },
   "255-ang-mo-kio-ave-4": {
@@ -1584,6 +2529,15 @@
       "3room": 130,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 189
     }
   },
   "256-ang-mo-kio-ave-4": {
@@ -1600,6 +2554,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 49
     }
   },
   "257-ang-mo-kio-ave-4": {
@@ -1614,6 +2577,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 264
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 100
     }
   },
   "258-ang-mo-kio-ave-4": {
@@ -1628,6 +2600,15 @@
     "sold_units_by_type": {
       "3room": 42,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 5",
+      "distance": 100
     }
   },
   "259-ang-mo-kio-ave-2": {
@@ -1641,6 +2622,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 1",
+      "distance": 556
     }
   },
   "260a-ang-mo-kio-st-21": {
@@ -1655,6 +2645,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 53
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 301
     }
   },
   "260b-ang-mo-kio-st-21": {
@@ -1669,6 +2668,15 @@
     "sold_units_by_type": {
       "4room": 100,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 6",
+      "distance": 346
     }
   },
   "301-ang-mo-kio-ave-3": {
@@ -1685,6 +2693,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 443
     }
   },
   "302-ang-mo-kio-ave-3": {
@@ -1699,6 +2716,15 @@
     "sold_units_by_type": {
       "3room": 176,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 486
     }
   },
   "303-ang-mo-kio-ave-1": {
@@ -1712,6 +2738,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 550
     }
   },
   "304-ang-mo-kio-ave-1": {
@@ -1725,6 +2760,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 597
     }
   },
   "305-ang-mo-kio-ave-1": {
@@ -1739,6 +2783,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 526
     }
   },
   "306-ang-mo-kio-ave-1": {
@@ -1753,6 +2806,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 575
     }
   },
   "307a-ang-mo-kio-ave-1": {
@@ -1766,6 +2828,15 @@
     "total_dwelling_units": 74,
     "sold_units_by_type": {
       "4room": 74
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 667
     }
   },
   "307b-ang-mo-kio-ave-1": {
@@ -1779,6 +2850,15 @@
     "total_dwelling_units": 74,
     "sold_units_by_type": {
       "4room": 74
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 659
     }
   },
   "307c-ang-mo-kio-ave-1": {
@@ -1795,6 +2875,15 @@
       "3room": 58,
       "4room": 36,
       "studio_apartment": 114
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 634
     }
   },
   "308a-ang-mo-kio-ave-1": {
@@ -1809,6 +2898,15 @@
     "sold_units_by_type": {
       "3room": 85,
       "4room": 87
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 732
     }
   },
   "308b-ang-mo-kio-ave-1": {
@@ -1823,6 +2921,15 @@
     "sold_units_by_type": {
       "3room": 85,
       "4room": 83
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 708
     }
   },
   "309a-ang-mo-kio-st-31": {
@@ -1837,6 +2944,15 @@
     "sold_units_by_type": {
       "4room": 103,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 665
     }
   },
   "310a-ang-mo-kio-ave-1": {
@@ -1851,6 +2967,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 798
     }
   },
   "310b-ang-mo-kio-ave-1": {
@@ -1865,6 +2990,15 @@
     "sold_units_by_type": {
       "4room": 107,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 778
     }
   },
   "310c-ang-mo-kio-ave-1": {
@@ -1879,6 +3013,15 @@
     "sold_units_by_type": {
       "3room": 85,
       "4room": 82
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 733
     }
   },
   "311-ang-mo-kio-ave-3": {
@@ -1893,6 +3036,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 318
     }
   },
   "312-ang-mo-kio-ave-3": {
@@ -1907,6 +3059,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 366
     }
   },
   "313-ang-mo-kio-ave-3": {
@@ -1923,6 +3084,15 @@
       "4room": 22,
       "5room": 3,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 314
     }
   },
   "314-ang-mo-kio-ave-3": {
@@ -1939,6 +3109,15 @@
     },
     "rental_units_by_type": {
       "2room": 89
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 360
     }
   },
   "315a-ang-mo-kio-st-31": {
@@ -1953,6 +3132,15 @@
     "sold_units_by_type": {
       "4room": 117,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 643
     }
   },
   "315b-ang-mo-kio-st-31": {
@@ -1967,6 +3155,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 637
     }
   },
   "316a-ang-mo-kio-st-31": {
@@ -1981,6 +3178,15 @@
     "sold_units_by_type": {
       "4room": 111,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 586
     }
   },
   "317-ang-mo-kio-st-31": {
@@ -1995,6 +3201,15 @@
     "sold_units_by_type": {
       "4room": 7,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 497
     }
   },
   "318-ang-mo-kio-ave-1": {
@@ -2009,6 +3224,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 198
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 471
     }
   },
   "319-ang-mo-kio-ave-1": {
@@ -2025,6 +3249,15 @@
       "4room": 22,
       "5room": 3,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 530
     }
   },
   "320-ang-mo-kio-ave-1": {
@@ -2040,6 +3273,15 @@
       "3room": 108,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 441
     }
   },
   "321-ang-mo-kio-ave-1": {
@@ -2055,6 +3297,15 @@
       "3room": 108,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 492
     }
   },
   "322-ang-mo-kio-ave-3": {
@@ -2071,6 +3322,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 214
     }
   },
   "323-ang-mo-kio-ave-3": {
@@ -2087,6 +3347,15 @@
     },
     "rental_units_by_type": {
       "2room": 74
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 249
     }
   },
   "324-ang-mo-kio-ave-3": {
@@ -2100,6 +3369,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 300
     }
   },
   "325-ang-mo-kio-ave-3": {
@@ -2113,6 +3391,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 322
     }
   },
   "326-ang-mo-kio-ave-3": {
@@ -2126,6 +3413,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 309
     }
   },
   "327-ang-mo-kio-ave-3": {
@@ -2139,6 +3435,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 373
     }
   },
   "328-ang-mo-kio-ave-3": {
@@ -2155,6 +3460,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 354
     }
   },
   "329-ang-mo-kio-ave-3": {
@@ -2169,6 +3483,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 419
     }
   },
   "330-ang-mo-kio-ave-1": {
@@ -2188,6 +3511,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 791
     }
   },
   "331-ang-mo-kio-ave-1": {
@@ -2203,6 +3535,15 @@
       "3room": 170,
       "4room": 22,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 823
     }
   },
   "332-ang-mo-kio-ave-1": {
@@ -2221,6 +3562,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 895
     }
   },
   "333-ang-mo-kio-ave-1": {
@@ -2236,6 +3586,15 @@
       "3room": 158,
       "4room": 20,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 924
     }
   },
   "334-ang-mo-kio-ave-1": {
@@ -2249,6 +3608,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 649
     }
   },
   "335-ang-mo-kio-ave-1": {
@@ -2262,6 +3630,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 700
     }
   },
   "336-ang-mo-kio-ave-1": {
@@ -2275,6 +3652,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 689
     }
   },
   "337-ang-mo-kio-ave-1": {
@@ -2288,6 +3674,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 722
     }
   },
   "338-ang-mo-kio-ave-1": {
@@ -2304,6 +3699,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 618
     }
   },
   "339-ang-mo-kio-ave-1": {
@@ -2320,6 +3724,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 487
     }
   },
   "340-ang-mo-kio-ave-1": {
@@ -2333,6 +3746,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 555
     }
   },
   "343-ang-mo-kio-ave-3": {
@@ -2348,6 +3770,15 @@
       "3room": 172,
       "4room": 22,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 120
     }
   },
   "344-ang-mo-kio-ave-3": {
@@ -2361,6 +3792,15 @@
     "total_dwelling_units": 176,
     "sold_units_by_type": {
       "4room": 176
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 163
     }
   },
   "345-ang-mo-kio-ave-3": {
@@ -2376,6 +3816,15 @@
       "3room": 172,
       "4room": 22,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 220
     }
   },
   "346-ang-mo-kio-ave-3": {
@@ -2391,6 +3840,15 @@
       "3room": 174,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 263
     }
   },
   "347-ang-mo-kio-ave-3": {
@@ -2404,6 +3862,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 249
     }
   },
   "348-ang-mo-kio-ave-3": {
@@ -2418,6 +3885,15 @@
     "sold_units_by_type": {
       "3room": 121,
       "4room": 33
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 395
     }
   },
   "350-ang-mo-kio-st-32": {
@@ -2432,6 +3908,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 640
     }
   },
   "351-ang-mo-kio-st-32": {
@@ -2446,6 +3931,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 573
     }
   },
   "352-ang-mo-kio-st-32": {
@@ -2460,6 +3954,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 570
     }
   },
   "353-ang-mo-kio-st-32": {
@@ -2474,6 +3977,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 628
     }
   },
   "354-ang-mo-kio-st-32": {
@@ -2488,6 +4000,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 663
     }
   },
   "401-ang-mo-kio-ave-10": {
@@ -2501,6 +4022,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1118
     }
   },
   "402-ang-mo-kio-ave-10": {
@@ -2514,6 +4044,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1070
     }
   },
   "403-ang-mo-kio-ave-10": {
@@ -2529,6 +4068,15 @@
       "3room": 108,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1051
     }
   },
   "404-ang-mo-kio-ave-10": {
@@ -2544,6 +4092,15 @@
       "3room": 106,
       "4room": 22,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1016
     }
   },
   "405-ang-mo-kio-ave-10": {
@@ -2559,6 +4116,15 @@
       "3room": 124,
       "4room": 22,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 977
     }
   },
   "406-ang-mo-kio-ave-10": {
@@ -2575,6 +4141,15 @@
     },
     "rental_units_by_type": {
       "2room": 139
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 938
     }
   },
   "407-ang-mo-kio-ave-10": {
@@ -2588,6 +4163,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1026
     }
   },
   "408-ang-mo-kio-ave-10": {
@@ -2601,6 +4185,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 969
     }
   },
   "411-ang-mo-kio-ave-10": {
@@ -2614,6 +4207,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 898
     }
   },
   "412-ang-mo-kio-ave-10": {
@@ -2627,6 +4229,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 862
     }
   },
   "413-ang-mo-kio-ave-10": {
@@ -2640,6 +4251,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 780
     }
   },
   "414-ang-mo-kio-ave-10": {
@@ -2653,6 +4273,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 760
     }
   },
   "415-ang-mo-kio-ave-10": {
@@ -2666,6 +4295,15 @@
     "total_dwelling_units": 176,
     "sold_units_by_type": {
       "4room": 176
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 694
     }
   },
   "416-ang-mo-kio-ave-10": {
@@ -2685,6 +4323,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 793
     }
   },
   "417-ang-mo-kio-ave-10": {
@@ -2699,6 +4346,15 @@
     "sold_units_by_type": {
       "3room": 182,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 770
     }
   },
   "418-ang-mo-kio-ave-10": {
@@ -2715,6 +4371,15 @@
       "4room": 26,
       "5room": 1,
       "exec": 6
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 679
     }
   },
   "419-ang-mo-kio-ave-10": {
@@ -2734,6 +4399,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 655
     }
   },
   "420-ang-mo-kio-ave-10": {
@@ -2748,6 +4422,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 264
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 609
     }
   },
   "421-ang-mo-kio-ave-10": {
@@ -2763,6 +4446,15 @@
       "3room": 111,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 565
     }
   },
   "422-ang-mo-kio-ave-3": {
@@ -2779,6 +4471,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 270
     }
   },
   "423-ang-mo-kio-ave-3": {
@@ -2793,6 +4494,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 204
     }
   },
   "424-ang-mo-kio-ave-3": {
@@ -2808,6 +4518,15 @@
       "3room": 152,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 136
     }
   },
   "425-ang-mo-kio-ave-3": {
@@ -2823,6 +4542,15 @@
       "3room": 130,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 190
     }
   },
   "426-ang-mo-kio-ave-3": {
@@ -2836,6 +4564,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 375
     }
   },
   "427-ang-mo-kio-ave-3": {
@@ -2849,6 +4586,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 513
     }
   },
   "428-ang-mo-kio-ave-3": {
@@ -2862,6 +4608,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 501
     }
   },
   "429-ang-mo-kio-ave-3": {
@@ -2875,6 +4630,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 389
     }
   },
   "430-ang-mo-kio-ave-3": {
@@ -2888,6 +4652,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 318
     }
   },
   "431-ang-mo-kio-ave-10": {
@@ -2901,6 +4674,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 365
     }
   },
   "432-ang-mo-kio-ave-10": {
@@ -2915,6 +4697,15 @@
     "sold_units_by_type": {
       "3room": 88,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 427
     }
   },
   "433-ang-mo-kio-ave-10": {
@@ -2933,6 +4724,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 514
     }
   },
   "434-ang-mo-kio-ave-10": {
@@ -2949,6 +4749,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 428
     }
   },
   "435-ang-mo-kio-ave-10": {
@@ -2964,6 +4773,15 @@
       "3room": 108,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 514
     }
   },
   "436-ang-mo-kio-ave-10": {
@@ -2977,6 +4795,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 513
     }
   },
   "437-ang-mo-kio-ave-10": {
@@ -2990,6 +4817,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 446
     }
   },
   "438-ang-mo-kio-ave-10": {
@@ -3003,6 +4839,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 521
     }
   },
   "439-ang-mo-kio-ave-10": {
@@ -3016,6 +4861,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 530
     }
   },
   "440-ang-mo-kio-ave-10": {
@@ -3031,6 +4885,15 @@
       "3room": 130,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 592
     }
   },
   "441-ang-mo-kio-ave-10": {
@@ -3047,6 +4910,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 604
     }
   },
   "442-ang-mo-kio-ave-10": {
@@ -3066,6 +4938,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 725
     }
   },
   "443-ang-mo-kio-ave-10": {
@@ -3085,6 +4966,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 713
     }
   },
   "444-ang-mo-kio-ave-10": {
@@ -3104,6 +4994,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 703
     }
   },
   "445-ang-mo-kio-ave-10": {
@@ -3119,6 +5018,15 @@
       "3room": 196,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 699
     }
   },
   "446-ang-mo-kio-ave-10": {
@@ -3132,6 +5040,15 @@
     "total_dwelling_units": 23,
     "sold_units_by_type": {
       "3room": 23
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 631
     }
   },
   "447-ang-mo-kio-ave-10": {
@@ -3145,6 +5062,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "3room": 20
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 706
     }
   },
   "448-ang-mo-kio-ave-10": {
@@ -3158,6 +5084,15 @@
     "total_dwelling_units": 19,
     "sold_units_by_type": {
       "3room": 19
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 752
     }
   },
   "449-ang-mo-kio-ave-10": {
@@ -3173,6 +5108,15 @@
       "3room": 22,
       "4room": 4,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 702
     }
   },
   "450-ang-mo-kio-ave-10": {
@@ -3186,6 +5130,15 @@
     "total_dwelling_units": 15,
     "sold_units_by_type": {
       "3room": 15
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 624
     }
   },
   "451-ang-mo-kio-ave-10": {
@@ -3199,6 +5152,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 626
     }
   },
   "452-ang-mo-kio-ave-10": {
@@ -3213,6 +5175,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 699
     }
   },
   "453-ang-mo-kio-ave-10": {
@@ -3226,6 +5197,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 679
     }
   },
   "455a-ang-mo-kio-st-44": {
@@ -3241,6 +5221,15 @@
       "3room": 66,
       "4room": 66,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 855
     }
   },
   "455b-ang-mo-kio-st-44": {
@@ -3255,6 +5244,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 128
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 960
     }
   },
   "455c-ang-mo-kio-st-44": {
@@ -3269,6 +5267,15 @@
     "sold_units_by_type": {
       "3room": 64,
       "4room": 124
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 895
     }
   },
   "456-ang-mo-kio-ave-10": {
@@ -3284,6 +5291,15 @@
       "3room": 174,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1003
     }
   },
   "457-ang-mo-kio-ave-10": {
@@ -3303,6 +5319,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1085
     }
   },
   "458-ang-mo-kio-ave-10": {
@@ -3316,6 +5341,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1124
     }
   },
   "459-ang-mo-kio-ave-10": {
@@ -3329,6 +5363,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1084
     }
   },
   "460-ang-mo-kio-ave-10": {
@@ -3342,6 +5385,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1078
     }
   },
   "461-ang-mo-kio-ave-10": {
@@ -3357,6 +5409,15 @@
       "3room": 108,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 858
     }
   },
   "462-ang-mo-kio-ave-10": {
@@ -3373,6 +5434,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 942
     }
   },
   "463-ang-mo-kio-ave-10": {
@@ -3389,6 +5459,15 @@
       "4room": 24,
       "5room": 3,
       "exec": 5
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 885
     }
   },
   "464-ang-mo-kio-ave-10": {
@@ -3403,6 +5482,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 834
     }
   },
   "465-ang-mo-kio-ave-10": {
@@ -3422,6 +5510,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 885
     }
   },
   "466-ang-mo-kio-ave-10": {
@@ -3438,6 +5535,15 @@
       "4room": 26,
       "5room": 1,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 890
     }
   },
   "467-ang-mo-kio-ave-10": {
@@ -3451,6 +5557,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 887
     }
   },
   "468-ang-mo-kio-ave-10": {
@@ -3465,6 +5580,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 871
     }
   },
   "469-ang-mo-kio-ave-10": {
@@ -3479,6 +5603,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 220
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 925
     }
   },
   "470-ang-mo-kio-ave-10": {
@@ -3492,6 +5625,15 @@
     "total_dwelling_units": 168,
     "sold_units_by_type": {
       "4room": 168
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 959
     }
   },
   "471-ang-mo-kio-ave-10": {
@@ -3507,6 +5649,15 @@
       "3room": 196,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1005
     }
   },
   "472-ang-mo-kio-ave-10": {
@@ -3520,6 +5671,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "4room": 144
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1149
     }
   },
   "473-ang-mo-kio-ave-10": {
@@ -3535,6 +5695,15 @@
       "3room": 142,
       "4room": 24,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1048
     }
   },
   "474-ang-mo-kio-ave-10": {
@@ -3551,6 +5720,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1167
     }
   },
   "475-ang-mo-kio-ave-10": {
@@ -3570,6 +5748,15 @@
     },
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1052
     }
   },
   "476-ang-mo-kio-ave-10": {
@@ -3585,6 +5772,15 @@
       "3room": 140,
       "4room": 24,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1183
     }
   },
   "501-ang-mo-kio-ave-5": {
@@ -3599,6 +5795,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 687
     }
   },
   "502-ang-mo-kio-ave-5": {
@@ -3615,6 +5820,15 @@
       "4room": 20,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 650
     }
   },
   "503-ang-mo-kio-ave-5": {
@@ -3634,6 +5848,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 628
     }
   },
   "504-ang-mo-kio-ave-8": {
@@ -3653,6 +5876,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 558
     }
   },
   "505-ang-mo-kio-ave-8": {
@@ -3672,6 +5904,15 @@
     },
     "rental_units_by_type": {
       "3room": 4
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 555
     }
   },
   "506-ang-mo-kio-ave-8": {
@@ -3691,6 +5932,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 512
     }
   },
   "507-ang-mo-kio-ave-8": {
@@ -3710,6 +5960,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 507
     }
   },
   "508-ang-mo-kio-ave-8": {
@@ -3726,6 +5985,15 @@
     },
     "rental_units_by_type": {
       "2room": 101
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 443
     }
   },
   "509-ang-mo-kio-ave-8": {
@@ -3745,6 +6013,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 459
     }
   },
   "510-ang-mo-kio-ave-8": {
@@ -3761,6 +6038,15 @@
     },
     "rental_units_by_type": {
       "2room": 102
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 400
     }
   },
   "511-ang-mo-kio-ave-8": {
@@ -3774,6 +6060,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 411
     }
   },
   "512-ang-mo-kio-ave-8": {
@@ -3790,6 +6085,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 313
     }
   },
   "513-ang-mo-kio-ave-8": {
@@ -3805,6 +6109,15 @@
       "3room": 134,
       "4room": 20,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 320
     }
   },
   "520-ang-mo-kio-ave-5": {
@@ -3818,6 +6131,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 418
     }
   },
   "521-ang-mo-kio-ave-5": {
@@ -3831,6 +6153,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 453
     }
   },
   "522-ang-mo-kio-ave-5": {
@@ -3844,6 +6175,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 430
     }
   },
   "523-ang-mo-kio-ave-5": {
@@ -3861,6 +6201,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 480
     }
   },
   "524-ang-mo-kio-ave-5": {
@@ -3880,6 +6229,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 528
     }
   },
   "529-ang-mo-kio-ave-10": {
@@ -3894,6 +6252,15 @@
     "sold_units_by_type": {
       "3room": 1,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 683
     }
   },
   "530-ang-mo-kio-ave-10": {
@@ -3907,6 +6274,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 684
     }
   },
   "531-ang-mo-kio-ave-10": {
@@ -3921,6 +6297,15 @@
     "sold_units_by_type": {
       "3room": 1,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 635
     }
   },
   "532-ang-mo-kio-ave-10": {
@@ -3934,6 +6319,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 687
     }
   },
   "533-ang-mo-kio-ave-5": {
@@ -3949,6 +6343,15 @@
       "3room": 126,
       "4room": 22,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 593
     }
   },
   "534-ang-mo-kio-ave-10": {
@@ -3968,6 +6371,15 @@
     },
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 670
     }
   },
   "535-ang-mo-kio-ave-5": {
@@ -3984,6 +6396,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 634
     }
   },
   "536-ang-mo-kio-ave-10": {
@@ -4000,6 +6421,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 698
     }
   },
   "537-ang-mo-kio-ave-5": {
@@ -4013,6 +6443,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 692
     }
   },
   "538-ang-mo-kio-ave-5": {
@@ -4031,6 +6470,15 @@
     },
     "rental_units_by_type": {
       "3room": 7
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 746
     }
   },
   "539-ang-mo-kio-ave-10": {
@@ -4044,6 +6492,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 785
     }
   },
   "540-ang-mo-kio-ave-10": {
@@ -4060,6 +6517,15 @@
       "4room": 33,
       "5room": 2,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 868
     }
   },
   "541-ang-mo-kio-ave-10": {
@@ -4076,6 +6542,15 @@
       "4room": 21,
       "5room": 3,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 785
     }
   },
   "542-ang-mo-kio-ave-10": {
@@ -4094,6 +6569,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 863
     }
   },
   "543-ang-mo-kio-ave-10": {
@@ -4110,6 +6594,15 @@
     },
     "rental_units_by_type": {
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 866
     }
   },
   "544-ang-mo-kio-ave-10": {
@@ -4123,6 +6616,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 867
     }
   },
   "545-ang-mo-kio-ave-10": {
@@ -4136,6 +6638,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 807
     }
   },
   "546-ang-mo-kio-ave-10": {
@@ -4152,6 +6663,15 @@
     },
     "rental_units_by_type": {
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 903
     }
   },
   "547-ang-mo-kio-ave-10": {
@@ -4165,6 +6685,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 1049
     }
   },
   "548-ang-mo-kio-ave-10": {
@@ -4179,6 +6708,15 @@
     "sold_units_by_type": {
       "3room": 4,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 871
     }
   },
   "549-ang-mo-kio-ave-10": {
@@ -4198,6 +6736,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 919
     }
   },
   "550-ang-mo-kio-ave-10": {
@@ -4214,6 +6761,15 @@
       "4room": 30,
       "5room": 3,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 1020
     }
   },
   "551-ang-mo-kio-ave-10": {
@@ -4227,6 +6783,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 1081
     }
   },
   "552-ang-mo-kio-ave-10": {
@@ -4240,6 +6805,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 822
     }
   },
   "553-ang-mo-kio-ave-10": {
@@ -4253,6 +6827,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 877
     }
   },
   "554-ang-mo-kio-ave-10": {
@@ -4267,6 +6850,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 943
     }
   },
   "555-ang-mo-kio-ave-10": {
@@ -4280,6 +6872,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 811
     }
   },
   "556-ang-mo-kio-ave-10": {
@@ -4298,6 +6899,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 899
     }
   },
   "557-ang-mo-kio-ave-10": {
@@ -4317,6 +6927,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 899
     }
   },
   "558-ang-mo-kio-ave-10": {
@@ -4337,6 +6956,15 @@
     "rental_units_by_type": {
       "3room": 1,
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1047
     }
   },
   "559-ang-mo-kio-ave-10": {
@@ -4356,6 +6984,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 896
     }
   },
   "560-ang-mo-kio-ave-10": {
@@ -4374,6 +7011,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1040
     }
   },
   "561-ang-mo-kio-ave-10": {
@@ -4392,6 +7038,15 @@
     },
     "rental_units_by_type": {
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 889
     }
   },
   "562-ang-mo-kio-ave-3": {
@@ -4408,6 +7063,15 @@
     },
     "rental_units_by_type": {
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1012
     }
   },
   "563-ang-mo-kio-ave-3": {
@@ -4424,6 +7088,15 @@
     },
     "rental_units_by_type": {
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 898
     }
   },
   "564-ang-mo-kio-ave-3": {
@@ -4444,6 +7117,15 @@
     "rental_units_by_type": {
       "3room": 2,
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 1053
     }
   },
   "565-ang-mo-kio-ave-3": {
@@ -4464,6 +7146,15 @@
     "rental_units_by_type": {
       "3room": 4,
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 939
     }
   },
   "570-ang-mo-kio-ave-3": {
@@ -4479,6 +7170,15 @@
       "3room": 198,
       "4room": 20,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 677
     }
   },
   "571-ang-mo-kio-ave-3": {
@@ -4495,6 +7195,15 @@
       "4room": 20,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 553
     }
   },
   "572-ang-mo-kio-ave-3": {
@@ -4508,6 +7217,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 676
     }
   },
   "573-ang-mo-kio-ave-3": {
@@ -4521,6 +7239,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 556
     }
   },
   "575-ang-mo-kio-ave-10": {
@@ -4540,6 +7267,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 702
     }
   },
   "576-ang-mo-kio-ave-10": {
@@ -4558,6 +7294,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 583
     }
   },
   "577-ang-mo-kio-ave-10": {
@@ -4573,6 +7318,15 @@
       "3room": 126,
       "4room": 26,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 703
     }
   },
   "578-ang-mo-kio-ave-10": {
@@ -4588,6 +7342,15 @@
       "3room": 124,
       "4room": 26,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 609
     }
   },
   "584-ang-mo-kio-ave-3": {
@@ -4604,6 +7367,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 419
     }
   },
   "585-ang-mo-kio-ave-3": {
@@ -4620,6 +7392,15 @@
       "4room": 22,
       "5room": 3,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 294
     }
   },
   "586-ang-mo-kio-ave-3": {
@@ -4634,6 +7415,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 402
     }
   },
   "587-ang-mo-kio-ave-3": {
@@ -4648,6 +7438,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit A",
+      "distance": 288
     }
   },
   "588a-ang-mo-kio-st-52": {
@@ -4662,6 +7461,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 115
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 410
     }
   },
   "588b-ang-mo-kio-st-52": {
@@ -4676,6 +7484,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 115
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 437
     }
   },
   "588c-ang-mo-kio-st-52": {
@@ -4690,6 +7507,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 115
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 479
     }
   },
   "588d-ang-mo-kio-st-52": {
@@ -4704,6 +7530,15 @@
     "sold_units_by_type": {
       "4room": 86,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 497
     }
   },
   "590a-ang-mo-kio-st-51": {
@@ -4720,6 +7555,15 @@
       "3room": 60,
       "4room": 90,
       "studio_apartment": 31
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 472
     }
   },
   "590b-ang-mo-kio-st-51": {
@@ -4736,6 +7580,15 @@
       "3room": 56,
       "4room": 87,
       "studio_apartment": 30
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 380
     }
   },
   "591a-ang-mo-kio-st-51": {
@@ -4750,6 +7603,15 @@
     "sold_units_by_type": {
       "3room": 62,
       "4room": 186
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 263
     }
   },
   "596a-ang-mo-kio-st-52": {
@@ -4764,6 +7626,15 @@
     "sold_units_by_type": {
       "4room": 81,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 310
     }
   },
   "596b-ang-mo-kio-st-52": {
@@ -4778,6 +7649,15 @@
     "sold_units_by_type": {
       "4room": 81,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 254
     }
   },
   "596c-ang-mo-kio-st-52": {
@@ -4792,6 +7672,15 @@
     "sold_units_by_type": {
       "4room": 81,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 231
     }
   },
   "596d-ang-mo-kio-st-52": {
@@ -4806,6 +7695,15 @@
     "sold_units_by_type": {
       "4room": 108,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 259
     }
   },
   "601-ang-mo-kio-ave-5": {
@@ -4821,6 +7719,15 @@
       "3room": 128,
       "4room": 22,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 378
     }
   },
   "602-ang-mo-kio-ave-5": {
@@ -4837,6 +7744,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 392
     }
   },
   "603-ang-mo-kio-ave-5": {
@@ -4853,6 +7769,15 @@
       "4room": 20,
       "5room": 1,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 420
     }
   },
   "604-ang-mo-kio-ave-5": {
@@ -4869,6 +7794,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 445
     }
   },
   "605-ang-mo-kio-ave-5": {
@@ -4884,6 +7818,15 @@
       "3room": 106,
       "4room": 22,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 450
     }
   },
   "606-ang-mo-kio-ave-5": {
@@ -4899,6 +7842,15 @@
       "3room": 108,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 483
     }
   },
   "607-ang-mo-kio-ave-4": {
@@ -4915,6 +7867,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 388
     }
   },
   "608-ang-mo-kio-ave-5": {
@@ -4931,6 +7892,15 @@
       "4room": 20,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 541
     }
   },
   "609-ang-mo-kio-ave-4": {
@@ -4945,6 +7915,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 493
     }
   },
   "610-ang-mo-kio-ave-4": {
@@ -4960,6 +7939,15 @@
       "3room": 196,
       "4room": 60,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 512
     }
   },
   "611-ang-mo-kio-ave-5": {
@@ -4976,6 +7964,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 509
     }
   },
   "612-ang-mo-kio-ave-4": {
@@ -4989,6 +7986,15 @@
     "total_dwelling_units": 240,
     "sold_units_by_type": {
       "4room": 240
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 543
     }
   },
   "613-ang-mo-kio-ave-4": {
@@ -5002,6 +8008,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 584
     }
   },
   "614-ang-mo-kio-ave-4": {
@@ -5015,6 +8030,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 531
     }
   },
   "615-ang-mo-kio-ave-4": {
@@ -5028,6 +8052,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 475
     }
   },
   "616-ang-mo-kio-ave-4": {
@@ -5041,6 +8074,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "exec": 50
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 460
     }
   },
   "617-ang-mo-kio-ave-4": {
@@ -5055,6 +8097,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 437
     }
   },
   "618-ang-mo-kio-ave-4": {
@@ -5068,6 +8119,15 @@
     "total_dwelling_units": 75,
     "sold_units_by_type": {
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 496
     }
   },
   "619-ang-mo-kio-ave-4": {
@@ -5082,6 +8142,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 2",
+      "distance": 570
     }
   },
   "620-ang-mo-kio-ave-9": {
@@ -5096,6 +8165,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 279
     }
   },
   "621-ang-mo-kio-ave-9": {
@@ -5112,6 +8190,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 376
     }
   },
   "622-ang-mo-kio-ave-9": {
@@ -5126,6 +8213,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 319
     }
   },
   "623-ang-mo-kio-ave-9": {
@@ -5141,6 +8237,15 @@
       "3room": 84,
       "4room": 22,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 406
     }
   },
   "624-ang-mo-kio-ave-4": {
@@ -5157,6 +8262,15 @@
       "4room": 24,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 375
     }
   },
   "625-ang-mo-kio-ave-9": {
@@ -5173,6 +8287,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 383
     }
   },
   "626-ang-mo-kio-ave-4": {
@@ -5187,6 +8310,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 240
+    },
+    "nearest_station": {
+      "id": "lentor",
+      "name": "Lentor",
+      "codes": [
+        "TE5"
+      ],
+      "exit": "Exit 4",
+      "distance": 405
     }
   },
   "627-ang-mo-kio-ave-9": {
@@ -5201,6 +8333,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 364
     }
   },
   "629-ang-mo-kio-ave-4": {
@@ -5219,6 +8360,15 @@
     "rental_units_by_type": {
       "3room": 2,
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 514
     }
   },
   "630-ang-mo-kio-ave-4": {
@@ -5235,6 +8385,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 428
     }
   },
   "631-ang-mo-kio-ave-4": {
@@ -5251,6 +8410,15 @@
       "4room": 19,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 510
     }
   },
   "632-ang-mo-kio-ave-4": {
@@ -5265,6 +8433,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 422
     }
   },
   "633-ang-mo-kio-ave-6": {
@@ -5280,6 +8457,15 @@
       "3room": 137,
       "4room": 33,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 279
     }
   },
   "634-ang-mo-kio-ave-6": {
@@ -5293,6 +8479,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 158
     }
   },
   "635-ang-mo-kio-ave-6": {
@@ -5308,6 +8503,15 @@
       "3room": 117,
       "4room": 33,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 284
     }
   },
   "636-ang-mo-kio-ave-6": {
@@ -5321,6 +8525,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 173
     }
   },
   "637-ang-mo-kio-ave-6": {
@@ -5339,6 +8552,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 312
     }
   },
   "638-ang-mo-kio-ave-6": {
@@ -5352,6 +8574,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit A",
+      "distance": 192
     }
   },
   "639-ang-mo-kio-ave-6": {
@@ -5367,6 +8598,15 @@
       "3room": 117,
       "4room": 33,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit A",
+      "distance": 325
     }
   },
   "640-ang-mo-kio-ave-6": {
@@ -5380,6 +8620,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit B",
+      "distance": 225
     }
   },
   "641-ang-mo-kio-ave-4": {
@@ -5394,6 +8643,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 240
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit A",
+      "distance": 605
     }
   },
   "642-ang-mo-kio-ave-5": {
@@ -5408,6 +8666,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 594
     }
   },
   "643-ang-mo-kio-ave-5": {
@@ -5423,6 +8690,15 @@
       "3room": 162,
       "4room": 24,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "mayflower",
+      "name": "Mayflower",
+      "codes": [
+        "TE6"
+      ],
+      "exit": "Exit 3",
+      "distance": 560
     }
   },
   "644-ang-mo-kio-ave-4": {
@@ -5439,6 +8715,15 @@
       "4room": 20,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit A",
+      "distance": 514
     }
   },
   "645-ang-mo-kio-ave-6": {
@@ -5453,6 +8738,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 352
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit A",
+      "distance": 391
     }
   },
   "646-ang-mo-kio-ave-6": {
@@ -5467,6 +8761,15 @@
     "sold_units_by_type": {
       "3room": 144,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit B",
+      "distance": 273
     }
   },
   "647-ang-mo-kio-ave-6": {
@@ -5481,6 +8784,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 192
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit B",
+      "distance": 327
     }
   },
   "648-ang-mo-kio-ave-5": {
@@ -5495,6 +8807,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit B",
+      "distance": 392
     }
   },
   "649-ang-mo-kio-ave-5": {
@@ -5511,6 +8832,15 @@
       "4room": 24,
       "5room": 5,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit B",
+      "distance": 440
     }
   },
   "650-ang-mo-kio-st-61": {
@@ -5526,6 +8856,15 @@
       "2room": 43,
       "3room": 98,
       "studio_apartment": 115
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit B",
+      "distance": 494
     }
   },
   "651a-ang-mo-kio-ave-9": {
@@ -5541,6 +8880,15 @@
       "2room": 64,
       "3room": 32,
       "4room": 61
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 394
     }
   },
   "651b-ang-mo-kio-ave-9": {
@@ -5556,6 +8904,15 @@
       "2room": 34,
       "3room": 21,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 318
     }
   },
   "651c-ang-mo-kio-ave-9": {
@@ -5571,6 +8928,15 @@
       "2room": 34,
       "3room": 34,
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "yio-chu-kang",
+      "name": "Yio Chu Kang",
+      "codes": [
+        "NS15"
+      ],
+      "exit": "Exit C",
+      "distance": 278
     }
   },
   "700a-ang-mo-kio-ave-6": {
@@ -5585,6 +8951,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 368
     }
   },
   "700b-ang-mo-kio-ave-6": {
@@ -5599,6 +8974,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 365
     }
   },
   "700c-ang-mo-kio-ave-6": {
@@ -5613,6 +8997,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 317
     }
   },
   "702-ang-mo-kio-ave-8": {
@@ -5626,6 +9019,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 199
     }
   },
   "704-ang-mo-kio-ave-8": {
@@ -5639,6 +9041,15 @@
     "total_dwelling_units": 19,
     "sold_units_by_type": {
       "3room": 19
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 258
     }
   },
   "705-ang-mo-kio-ave-8": {
@@ -5652,6 +9063,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 231
     }
   },
   "709-ang-mo-kio-ave-8": {
@@ -5665,6 +9085,15 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "3room": 28
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 266
     }
   },
   "710-ang-mo-kio-ave-8": {
@@ -5678,6 +9107,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit B",
+      "distance": 218
     }
   },
   "713-ang-mo-kio-ave-6": {
@@ -5694,6 +9132,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 386
     }
   },
   "714-ang-mo-kio-ave-6": {
@@ -5707,6 +9154,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 392
     }
   },
   "716-ang-mo-kio-ave-6": {
@@ -5720,6 +9176,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 448
     }
   },
   "720-ang-mo-kio-ave-6": {
@@ -5733,6 +9198,15 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "3room": 28
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 371
     }
   },
   "721-ang-mo-kio-ave-8": {
@@ -5746,6 +9220,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit D",
+      "distance": 348
     }
   },
   "722-ang-mo-kio-ave-8": {
@@ -5759,6 +9242,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit B",
+      "distance": 366
     }
   },
   "725-ang-mo-kio-ave-6": {
@@ -5772,6 +9264,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit B",
+      "distance": 456
     }
   },
   "727-ang-mo-kio-ave-6": {
@@ -5785,6 +9286,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 511
     }
   },
   "728-ang-mo-kio-ave-6": {
@@ -5801,6 +9311,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 540
     }
   },
   "729-ang-mo-kio-ave-6": {
@@ -5814,6 +9333,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit B",
+      "distance": 618
     }
   }
 }

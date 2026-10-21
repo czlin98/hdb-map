@@ -357,8 +357,8 @@ well-compressing redundancy.
 
 One FeatureCollection, all blocks, loaded once on startup.
 
-At ~10k features the file is about **3.5 MB** as written, and its highly
-repetitive text reaches the browser as about **240 KB of brotli**, within the
+At ~10k features the file is about **3.8 MB** as written, and its highly
+repetitive text reaches the browser as about **280 KB of brotli**, within the
 sub-megabyte budget (§1.2). Two choices keep it there:
 
 - **Coordinates rounded to 6 decimals** (~11 cm).

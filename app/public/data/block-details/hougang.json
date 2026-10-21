@@ -11,6 +11,15 @@
     "sold_units_by_type": {
       "3room": 200,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 679
     }
   },
   "101-hougang-ave-1": {
@@ -24,6 +33,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 867
     }
   },
   "102-hougang-ave-1": {
@@ -38,6 +56,15 @@
     "sold_units_by_type": {
       "3room": 19,
       "4room": 71
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 823
     }
   },
   "103-hougang-ave-1": {
@@ -52,6 +79,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 759
     }
   },
   "104-hougang-ave-1": {
@@ -65,6 +101,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 795
     }
   },
   "106-hougang-ave-1": {
@@ -82,6 +127,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 913
     }
   },
   "108-hougang-ave-1": {
@@ -96,6 +150,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 958
     }
   },
   "109-hougang-ave-1": {
@@ -111,6 +174,15 @@
       "3room": 103,
       "4room": 19,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 681
     }
   },
   "110-hougang-ave-1": {
@@ -127,6 +199,15 @@
       "4room": 17,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 743
     }
   },
   "111-hougang-ave-1": {
@@ -142,6 +223,15 @@
       "3room": 9,
       "4room": 9,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 658
     }
   },
   "112-hougang-ave-1": {
@@ -157,6 +247,15 @@
       "3room": 96,
       "4room": 20,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 713
     }
   },
   "113-hougang-ave-1": {
@@ -171,6 +270,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 38
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 804
     }
   },
   "114-hougang-ave-1": {
@@ -186,6 +294,15 @@
       "3room": 116,
       "4room": 32,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 883
     }
   },
   "115-hougang-ave-1": {
@@ -202,6 +319,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 851
     }
   },
   "116-hougang-ave-1": {
@@ -217,6 +343,15 @@
       "3room": 116,
       "4room": 24,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 807
     }
   },
   "117-hougang-ave-1": {
@@ -230,6 +365,15 @@
     "total_dwelling_units": 18,
     "sold_units_by_type": {
       "3room": 18
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 774
     }
   },
   "118-hougang-ave-1": {
@@ -243,6 +387,15 @@
     "total_dwelling_units": 15,
     "sold_units_by_type": {
       "3room": 15
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 765
     }
   },
   "119-hougang-ave-1": {
@@ -258,6 +411,15 @@
       "3room": 98,
       "4room": 20,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 716
     }
   },
   "120-hougang-ave-1": {
@@ -273,6 +435,15 @@
       "3room": 9,
       "4room": 9,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 663
     }
   },
   "121-hougang-ave-1": {
@@ -287,6 +458,15 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 705
     }
   },
   "122-hougang-ave-1": {
@@ -302,6 +482,15 @@
       "3room": 9,
       "4room": 9,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 694
     }
   },
   "123-hougang-ave-1": {
@@ -316,6 +505,15 @@
     "sold_units_by_type": {
       "3room": 109,
       "4room": 18
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 736
     }
   },
   "124-hougang-ave-1": {
@@ -331,6 +529,15 @@
       "3room": 117,
       "4room": 20,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 801
     }
   },
   "125-hougang-ave-1": {
@@ -345,6 +552,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 847
     }
   },
   "126-hougang-ave-1": {
@@ -360,6 +576,15 @@
       "3room": 119,
       "4room": 7,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 846
     }
   },
   "127-hougang-ave-1": {
@@ -374,6 +599,15 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 770
     }
   },
   "128-lor-ah-soo": {
@@ -387,6 +621,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 920
     }
   },
   "129-lor-ah-soo": {
@@ -402,6 +645,15 @@
       "3room": 15,
       "4room": 115,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 975
     }
   },
   "130-lor-ah-soo": {
@@ -415,6 +667,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 968
     }
   },
   "131-lor-ah-soo": {
@@ -428,6 +689,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 974
     }
   },
   "132-lor-ah-soo": {
@@ -441,6 +711,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 1010
     }
   },
   "133-lor-ah-soo": {
@@ -455,6 +734,15 @@
     "sold_units_by_type": {
       "4room": 130,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1056
     }
   },
   "134-lor-ah-soo": {
@@ -468,6 +756,15 @@
     "total_dwelling_units": 103,
     "sold_units_by_type": {
       "4room": 103
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 1056
     }
   },
   "135-lor-ah-soo": {
@@ -483,6 +780,15 @@
       "3room": 14,
       "4room": 112,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1108
     }
   },
   "136-lor-ah-soo": {
@@ -496,6 +802,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1064
     }
   },
   "137-lor-ah-soo": {
@@ -510,6 +825,15 @@
     "sold_units_by_type": {
       "4room": 124,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1037
     }
   },
   "138-lor-ah-soo": {
@@ -524,6 +848,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 899
     }
   },
   "139-lor-ah-soo": {
@@ -538,6 +871,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 831
     }
   },
   "140-lor-ah-soo": {
@@ -552,6 +894,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 801
     }
   },
   "141-lor-ah-soo": {
@@ -565,6 +916,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 737
     }
   },
   "142-lor-ah-soo": {
@@ -580,6 +940,15 @@
       "3room": 8,
       "4room": 108,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 759
     }
   },
   "143-lor-ah-soo": {
@@ -594,6 +963,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 847
     }
   },
   "144-lor-ah-soo": {
@@ -607,6 +985,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 867
     }
   },
   "145-lor-ah-soo": {
@@ -620,6 +1007,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 921
     }
   },
   "15-hougang-ave-3": {
@@ -633,6 +1029,15 @@
     "total_dwelling_units": 180,
     "sold_units_by_type": {
       "4room": 180
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 777
     }
   },
   "154-hougang-st-11": {
@@ -647,6 +1052,16 @@
     "sold_units_by_type": {
       "3room": 103,
       "4room": 41
+    },
+    "nearest_station": {
+      "id": "serangoon",
+      "name": "Serangoon",
+      "codes": [
+        "NE12",
+        "CC13"
+      ],
+      "exit": "Exit D",
+      "distance": 699
     }
   },
   "155-hougang-st-11": {
@@ -660,6 +1075,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "serangoon",
+      "name": "Serangoon",
+      "codes": [
+        "NE12",
+        "CC13"
+      ],
+      "exit": "Exit D",
+      "distance": 731
     }
   },
   "156-hougang-st-11": {
@@ -674,6 +1099,16 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "serangoon",
+      "name": "Serangoon",
+      "codes": [
+        "NE12",
+        "CC13"
+      ],
+      "exit": "Exit D",
+      "distance": 655
     }
   },
   "157-hougang-st-11": {
@@ -687,6 +1122,16 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "serangoon",
+      "name": "Serangoon",
+      "codes": [
+        "NE12",
+        "CC13"
+      ],
+      "exit": "Exit D",
+      "distance": 691
     }
   },
   "158-hougang-st-11": {
@@ -701,6 +1146,16 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "serangoon",
+      "name": "Serangoon",
+      "codes": [
+        "NE12",
+        "CC13"
+      ],
+      "exit": "Exit D",
+      "distance": 712
     }
   },
   "159-hougang-st-11": {
@@ -715,6 +1170,16 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "serangoon",
+      "name": "Serangoon",
+      "codes": [
+        "NE12",
+        "CC13"
+      ],
+      "exit": "Exit D",
+      "distance": 603
     }
   },
   "16-hougang-ave-3": {
@@ -728,6 +1193,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 695
     }
   },
   "160-hougang-st-11": {
@@ -742,6 +1216,16 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "serangoon",
+      "name": "Serangoon",
+      "codes": [
+        "NE12",
+        "CC13"
+      ],
+      "exit": "Exit D",
+      "distance": 579
     }
   },
   "161-hougang-st-11": {
@@ -756,6 +1240,16 @@
     "sold_units_by_type": {
       "4room": 115,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "serangoon",
+      "name": "Serangoon",
+      "codes": [
+        "NE12",
+        "CC13"
+      ],
+      "exit": "Exit D",
+      "distance": 568
     }
   },
   "165-hougang-ave-1": {
@@ -769,6 +1263,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1118
     }
   },
   "166-hougang-ave-1": {
@@ -783,6 +1286,15 @@
     "sold_units_by_type": {
       "4room": 93,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1030
     }
   },
   "167-hougang-ave-1": {
@@ -797,6 +1309,15 @@
     "sold_units_by_type": {
       "4room": 93,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 972
     }
   },
   "168-hougang-ave-1": {
@@ -811,6 +1332,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 988
     }
   },
   "169-hougang-ave-1": {
@@ -825,6 +1355,15 @@
     "sold_units_by_type": {
       "4room": 97,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1057
     }
   },
   "17-hougang-ave-3": {
@@ -839,6 +1378,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 722
     }
   },
   "170-hougang-ave-1": {
@@ -853,6 +1401,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1045
     }
   },
   "171-hougang-ave-1": {
@@ -867,6 +1424,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1072
     }
   },
   "172-hougang-ave-1": {
@@ -881,6 +1447,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1143
     }
   },
   "173-hougang-ave-1": {
@@ -895,6 +1470,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1164
     }
   },
   "174a-hougang-ave-1": {
@@ -910,6 +1494,15 @@
       "2room": 32,
       "3room": 70,
       "studio_apartment": 64
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1216
     }
   },
   "174b-hougang-ave-1": {
@@ -925,6 +1518,15 @@
       "2room": 24,
       "3room": 70,
       "studio_apartment": 72
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 1240
     }
   },
   "174c-hougang-ave-1": {
@@ -940,6 +1542,15 @@
     "rental_units_by_type": {
       "1room": 99,
       "2room": 110
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1245
     }
   },
   "174d-hougang-ave-1": {
@@ -955,6 +1566,15 @@
     "rental_units_by_type": {
       "1room": 99,
       "2room": 109
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1195
     }
   },
   "175a-hougang-st-13": {
@@ -969,6 +1589,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1110
     }
   },
   "175b-hougang-st-13": {
@@ -983,6 +1612,15 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1157
     }
   },
   "176a-hougang-st-13": {
@@ -997,6 +1635,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1186
     }
   },
   "176b-hougang-st-13": {
@@ -1011,6 +1658,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1141
     }
   },
   "178a-hougang-st-12": {
@@ -1026,6 +1682,15 @@
       "2room": 110,
       "3room": 11,
       "4room": 21
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1016
     }
   },
   "178b-hougang-st-12": {
@@ -1041,6 +1706,15 @@
       "2room": 110,
       "3room": 11,
       "4room": 21
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1106
     }
   },
   "178c-hougang-st-12": {
@@ -1056,6 +1730,15 @@
       "3room": 12,
       "4room": 59,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1157
     }
   },
   "179a-hougang-st-12": {
@@ -1071,6 +1754,15 @@
       "2room": 110,
       "3room": 22,
       "4room": 11
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1039
     }
   },
   "179b-hougang-st-12": {
@@ -1086,6 +1778,15 @@
       "3room": 22,
       "4room": 55,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1099
     }
   },
   "179c-hougang-st-12": {
@@ -1101,6 +1802,15 @@
       "3room": 12,
       "4room": 60,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 1178
     }
   },
   "18-hougang-ave-3": {
@@ -1114,6 +1824,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 780
     }
   },
   "181a-hougang-st-13": {
@@ -1128,6 +1847,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 975
     }
   },
   "181b-hougang-st-13": {
@@ -1142,6 +1870,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 945
     }
   },
   "182a-hougang-st-13": {
@@ -1156,6 +1893,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 926
     }
   },
   "182b-hougang-st-13": {
@@ -1170,6 +1916,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 885
     }
   },
   "19-hougang-ave-3": {
@@ -1184,6 +1939,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 717
     }
   },
   "2-hougang-ave-3": {
@@ -1201,6 +1965,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 791
     }
   },
   "20-hougang-ave-3": {
@@ -1215,6 +1988,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 724
     }
   },
   "201-hougang-st-21": {
@@ -1228,6 +2010,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 225
     }
   },
   "21-hougang-ave-3": {
@@ -1244,6 +2035,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 672
     }
   },
   "210-hougang-st-21": {
@@ -1259,6 +2059,15 @@
       "3room": 55,
       "4room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 150
     }
   },
   "211-hougang-st-21": {
@@ -1272,6 +2081,15 @@
     "total_dwelling_units": 34,
     "sold_units_by_type": {
       "3room": 34
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 256
     }
   },
   "213a-tampines-rd": {
@@ -1286,6 +2104,15 @@
     "sold_units_by_type": {
       "2room": 124,
       "4room": 62
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 164
     }
   },
   "214a-tampines-rd": {
@@ -1300,6 +2127,15 @@
     "sold_units_by_type": {
       "3room": 14,
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 102
     }
   },
   "215a-tampines-rd": {
@@ -1315,6 +2151,15 @@
       "2room": 78,
       "3room": 26,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 133
     }
   },
   "216a-tampines-rd": {
@@ -1330,6 +2175,15 @@
       "2room": 64,
       "3room": 48,
       "4room": 34
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 199
     }
   },
   "22-hougang-ave-3": {
@@ -1344,6 +2198,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 694
     }
   },
   "220-hougang-st-21": {
@@ -1357,6 +2220,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 309
     }
   },
   "221-hougang-st-21": {
@@ -1370,6 +2242,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "exec": 86
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 353
     }
   },
   "222-hougang-st-21": {
@@ -1383,6 +2264,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit A",
+      "distance": 381
     }
   },
   "23-hougang-ave-3": {
@@ -1399,6 +2289,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 624
     }
   },
   "230-hougang-ave-1": {
@@ -1413,6 +2312,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 345
     }
   },
   "231-hougang-st-21": {
@@ -1427,6 +2335,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 344
     }
   },
   "232-hougang-ave-1": {
@@ -1440,6 +2357,15 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "4room": 124
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 379
     }
   },
   "233-hougang-st-21": {
@@ -1454,6 +2380,15 @@
     "sold_units_by_type": {
       "4room": 8,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 374
     }
   },
   "234-hougang-ave-1": {
@@ -1468,6 +2403,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 423
     }
   },
   "235-hougang-st-21": {
@@ -1481,6 +2425,15 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 471
     }
   },
   "236-hougang-ave-1": {
@@ -1494,6 +2447,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 459
     }
   },
   "237-hougang-st-21": {
@@ -1507,6 +2469,15 @@
     "total_dwelling_units": 125,
     "sold_units_by_type": {
       "exec": 125
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 536
     }
   },
   "238-hougang-ave-1": {
@@ -1521,6 +2492,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 506
     }
   },
   "239-hougang-st-22": {
@@ -1535,6 +2515,15 @@
     "sold_units_by_type": {
       "4room": 121,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 718
     }
   },
   "24-hougang-ave-3": {
@@ -1550,6 +2539,15 @@
       "3room": 180,
       "4room": 26,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 524
     }
   },
   "240-hougang-st-22": {
@@ -1564,6 +2562,15 @@
     "sold_units_by_type": {
       "3room": 56,
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 704
     }
   },
   "241-hougang-st-22": {
@@ -1578,6 +2585,15 @@
     "sold_units_by_type": {
       "3room": 100,
       "4room": 58
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 811
     }
   },
   "242-hougang-st-22": {
@@ -1592,6 +2608,15 @@
     "sold_units_by_type": {
       "3room": 115,
       "4room": 67
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 802
     }
   },
   "243-hougang-st-22": {
@@ -1606,6 +2631,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 744
     }
   },
   "244-hougang-st-22": {
@@ -1620,6 +2654,15 @@
     "sold_units_by_type": {
       "3room": 91,
       "4room": 69
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 754
     }
   },
   "245-hougang-st-22": {
@@ -1634,6 +2677,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 720
     }
   },
   "246-hougang-st-22": {
@@ -1648,6 +2700,15 @@
     "sold_units_by_type": {
       "3room": 14,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 683
     }
   },
   "247-hougang-ave-3": {
@@ -1662,6 +2723,15 @@
     "sold_units_by_type": {
       "3room": 111,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 682
     }
   },
   "248-hougang-ave-3": {
@@ -1677,6 +2747,15 @@
       "3room": 113,
       "4room": 67,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 797
     }
   },
   "249-hougang-ave-3": {
@@ -1691,6 +2770,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 719
     }
   },
   "25-hougang-ave-3": {
@@ -1705,6 +2793,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 247
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 494
     }
   },
   "250-hougang-ave-3": {
@@ -1719,6 +2816,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 653
     }
   },
   "251-hougang-ave-3": {
@@ -1733,6 +2839,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 687
     }
   },
   "252-hougang-ave-3": {
@@ -1747,6 +2862,15 @@
     "sold_units_by_type": {
       "3room": 115,
       "4room": 67
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 807
     }
   },
   "253-hougang-ave-3": {
@@ -1760,6 +2884,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 752
     }
   },
   "254-hougang-ave-3": {
@@ -1774,6 +2907,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 668
     }
   },
   "301-hougang-ave-5": {
@@ -1788,6 +2930,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 316
     }
   },
   "302-hougang-ave-5": {
@@ -1802,6 +2953,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 132
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 303
     }
   },
   "303-hougang-ave-5": {
@@ -1816,6 +2976,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 354
     }
   },
   "304-hougang-ave-5": {
@@ -1831,6 +3000,15 @@
       "3room": 112,
       "4room": 66,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 436
     }
   },
   "305-hougang-ave-5": {
@@ -1846,6 +3024,15 @@
       "3room": 14,
       "4room": 8,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 428
     }
   },
   "306-hougang-ave-5": {
@@ -1860,6 +3047,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 477
     }
   },
   "307-hougang-ave-5": {
@@ -1876,6 +3072,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 487
     }
   },
   "308-hougang-ave-5": {
@@ -1891,6 +3096,15 @@
       "3room": 110,
       "4room": 66,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 528
     }
   },
   "309-hougang-ave-5": {
@@ -1906,6 +3120,15 @@
       "3room": 89,
       "4room": 23,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 537
     }
   },
   "310-hougang-ave-5": {
@@ -1920,6 +3143,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 114
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 601
     }
   },
   "311-hougang-ave-5": {
@@ -1934,6 +3166,15 @@
     "sold_units_by_type": {
       "3room": 86,
       "4room": 19
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 572
     }
   },
   "312-hougang-ave-5": {
@@ -1947,6 +3188,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 565
     }
   },
   "313-hougang-ave-5": {
@@ -1965,6 +3215,15 @@
       "1room": 24,
       "2room": 48,
       "3room": 30
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 612
     }
   },
   "314-hougang-ave-5": {
@@ -1978,6 +3237,15 @@
     "total_dwelling_units": 105,
     "sold_units_by_type": {
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 637
     }
   },
   "315-hougang-ave-5": {
@@ -1995,6 +3263,15 @@
     },
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 657
     }
   },
   "316-hougang-ave-7": {
@@ -2013,6 +3290,15 @@
       "1room": 10,
       "2room": 20,
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 758
     }
   },
   "317-hougang-ave-7": {
@@ -2027,6 +3313,15 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 705
     }
   },
   "318-hougang-ave-5": {
@@ -2041,6 +3336,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 655
     }
   },
   "319-hougang-ave-5": {
@@ -2055,6 +3359,15 @@
     "sold_units_by_type": {
       "3room": 60,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 681
     }
   },
   "320-hougang-ave-5": {
@@ -2069,6 +3382,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 760
     }
   },
   "321-hougang-ave-5": {
@@ -2083,6 +3405,15 @@
     "sold_units_by_type": {
       "3room": 100,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 735
     }
   },
   "322-hougang-ave-5": {
@@ -2097,6 +3428,15 @@
     "sold_units_by_type": {
       "3room": 91,
       "4room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 611
     }
   },
   "323-hougang-ave-5": {
@@ -2111,6 +3451,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 681
     }
   },
   "324-hougang-ave-5": {
@@ -2124,6 +3473,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 629
     }
   },
   "325-hougang-ave-7": {
@@ -2138,6 +3496,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 772
     }
   },
   "326-hougang-ave-7": {
@@ -2151,6 +3518,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 718
     }
   },
   "327-hougang-ave-5": {
@@ -2167,6 +3543,15 @@
       "4room": 45,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 447
     }
   },
   "328-hougang-ave-5": {
@@ -2182,6 +3567,15 @@
       "3room": 118,
       "4room": 72,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 510
     }
   },
   "332-hougang-ave-5": {
@@ -2195,6 +3589,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 630
     }
   },
   "333-hougang-ave-5": {
@@ -2209,6 +3612,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 691
     }
   },
   "334-hougang-ave-5": {
@@ -2222,6 +3634,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 630
     }
   },
   "335-hougang-ave-7": {
@@ -2236,6 +3657,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 711
     }
   },
   "336-hougang-ave-7": {
@@ -2249,6 +3679,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 664
     }
   },
   "337-hougang-ave-7": {
@@ -2262,6 +3701,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 647
     }
   },
   "338-hougang-ave-7": {
@@ -2275,6 +3723,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 697
     }
   },
   "339-hougang-ave-7": {
@@ -2289,6 +3746,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 658
     }
   },
   "340-hougang-ave-7": {
@@ -2303,6 +3769,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 578
     }
   },
   "341-hougang-ave-7": {
@@ -2316,6 +3791,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 646
     }
   },
   "351-hougang-ave-7": {
@@ -2330,6 +3814,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 670
     }
   },
   "352-hougang-ave-7": {
@@ -2343,6 +3836,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 681
     }
   },
   "353-hougang-ave-7": {
@@ -2356,6 +3858,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 728
     }
   },
   "354-hougang-ave-7": {
@@ -2369,6 +3880,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 720
     }
   },
   "355-hougang-ave-7": {
@@ -2383,6 +3903,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 586
     }
   },
   "356-hougang-ave-7": {
@@ -2397,6 +3926,15 @@
     "sold_units_by_type": {
       "3room": 20,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 653
     }
   },
   "357-hougang-ave-7": {
@@ -2410,6 +3948,15 @@
     "total_dwelling_units": 82,
     "sold_units_by_type": {
       "exec": 82
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 749
     }
   },
   "358-hougang-ave-5": {
@@ -2423,6 +3970,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 381
     }
   },
   "359-hougang-ave-5": {
@@ -2437,6 +3993,15 @@
     "sold_units_by_type": {
       "4room": 11,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 335
     }
   },
   "360-hougang-ave-5": {
@@ -2450,6 +4015,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 356
     }
   },
   "361-hougang-ave-5": {
@@ -2464,6 +4038,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 406
     }
   },
   "362-hougang-ave-5": {
@@ -2477,6 +4060,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 402
     }
   },
   "363-hougang-ave-5": {
@@ -2491,6 +4083,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 440
     }
   },
   "364a-upp-serangoon-rd": {
@@ -2507,6 +4108,15 @@
       "3room": 30,
       "4room": 21,
       "studio_apartment": 51
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 448
     }
   },
   "364b-upp-serangoon-rd": {
@@ -2523,6 +4133,15 @@
       "3room": 30,
       "4room": 21,
       "studio_apartment": 51
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 489
     }
   },
   "365a-upp-serangoon-rd": {
@@ -2537,6 +4156,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 573
     }
   },
   "365b-upp-serangoon-rd": {
@@ -2551,6 +4179,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 574
     }
   },
   "365c-upp-serangoon-rd": {
@@ -2565,6 +4202,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 531
     }
   },
   "365d-upp-serangoon-rd": {
@@ -2579,6 +4225,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 468
     }
   },
   "370-hougang-st-31": {
@@ -2593,6 +4248,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 623
     }
   },
   "371-hougang-st-31": {
@@ -2608,6 +4272,15 @@
       "4room": 60,
       "5room": 66,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 648
     }
   },
   "372-hougang-st-31": {
@@ -2623,6 +4296,15 @@
       "4room": 60,
       "5room": 66,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 647
     }
   },
   "373-hougang-st-31": {
@@ -2638,6 +4320,15 @@
       "4room": 60,
       "5room": 66,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 623
     }
   },
   "374-hougang-st-31": {
@@ -2651,6 +4342,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "exec": 68
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 580
     }
   },
   "375-hougang-st-31": {
@@ -2664,6 +4364,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "exec": 68
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 574
     }
   },
   "376a-hougang-st-32": {
@@ -2677,6 +4386,15 @@
     "total_dwelling_units": 79,
     "sold_units_by_type": {
       "4room": 79
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 761
     }
   },
   "376b-hougang-st-32": {
@@ -2692,6 +4410,15 @@
       "2room": 30,
       "4room": 48,
       "studio_apartment": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 701
     }
   },
   "376c-hougang-st-32": {
@@ -2707,6 +4434,15 @@
       "2room": 29,
       "4room": 54,
       "studio_apartment": 79
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 697
     }
   },
   "377a-hougang-st-32": {
@@ -2721,6 +4457,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 837
     }
   },
   "377b-hougang-st-32": {
@@ -2735,6 +4480,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 49
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 926
     }
   },
   "401-hougang-ave-10": {
@@ -2749,6 +4503,15 @@
     "sold_units_by_type": {
       "3room": 91,
       "4room": 23
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 551
     }
   },
   "402-hougang-ave-10": {
@@ -2762,6 +4525,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 498
     }
   },
   "403-hougang-ave-10": {
@@ -2776,6 +4548,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 481
     }
   },
   "404-hougang-ave-10": {
@@ -2790,6 +4571,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 381
     }
   },
   "405-hougang-ave-10": {
@@ -2803,6 +4593,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 453
     }
   },
   "406-hougang-ave-10": {
@@ -2816,6 +4615,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 404
     }
   },
   "407-hougang-ave-10": {
@@ -2829,6 +4637,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 321
     }
   },
   "408-hougang-ave-10": {
@@ -2843,6 +4660,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 289
     }
   },
   "409-hougang-ave-10": {
@@ -2857,6 +4683,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 307
     }
   },
   "410-hougang-ave-10": {
@@ -2871,6 +4706,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 287
     }
   },
   "411-hougang-ave-10": {
@@ -2884,6 +4728,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 353
     }
   },
   "412-hougang-ave-10": {
@@ -2898,6 +4751,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 406
     }
   },
   "413-hougang-ave-10": {
@@ -2911,6 +4773,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 416
     }
   },
   "414-hougang-ave-10": {
@@ -2924,6 +4795,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 470
     }
   },
   "415-hougang-ave-10": {
@@ -2938,6 +4818,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 535
     }
   },
   "416-hougang-ave-10": {
@@ -2952,6 +4841,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 555
     }
   },
   "417-hougang-ave-8": {
@@ -2966,6 +4864,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 544
     }
   },
   "418-hougang-ave-8": {
@@ -2980,6 +4887,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 525
     }
   },
   "419-hougang-ave-8": {
@@ -2994,6 +4910,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 509
     }
   },
   "420-hougang-ave-10": {
@@ -3008,6 +4933,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 476
     }
   },
   "421-hougang-ave-10": {
@@ -3022,6 +4956,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 433
     }
   },
   "422-hougang-ave-6": {
@@ -3036,6 +4979,15 @@
     "sold_units_by_type": {
       "4room": 81,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 336
     }
   },
   "423-hougang-ave-6": {
@@ -3050,6 +5002,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 262
     }
   },
   "424-hougang-ave-6": {
@@ -3064,6 +5025,15 @@
     "sold_units_by_type": {
       "4room": 93,
       "5room": 21
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 210
     }
   },
   "425-hougang-ave-6": {
@@ -3078,6 +5048,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 21
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 178
     }
   },
   "426-hougang-ave-6": {
@@ -3092,6 +5071,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 190
     }
   },
   "427-hougang-ave-6": {
@@ -3105,6 +5093,15 @@
     "total_dwelling_units": 26,
     "sold_units_by_type": {
       "exec": 26
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 281
     }
   },
   "428-hougang-ave-6": {
@@ -3118,6 +5115,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 340
     }
   },
   "429-hougang-ave-6": {
@@ -3131,6 +5137,15 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 397
     }
   },
   "430-hougang-ave-6": {
@@ -3144,6 +5159,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 377
     }
   },
   "431-hougang-ave-6": {
@@ -3157,6 +5181,15 @@
     "total_dwelling_units": 14,
     "sold_units_by_type": {
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 408
     }
   },
   "432-hougang-ave-6": {
@@ -3171,6 +5204,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 474
     }
   },
   "433-hougang-ave-8": {
@@ -3185,6 +5227,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 476
     }
   },
   "434-hougang-ave-8": {
@@ -3199,6 +5250,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 512
     }
   },
   "435-hougang-ave-8": {
@@ -3212,6 +5272,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 570
     }
   },
   "436-hougang-ave-8": {
@@ -3226,6 +5295,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 593
     }
   },
   "437-hougang-ave-8": {
@@ -3240,6 +5318,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 581
     }
   },
   "438-hougang-ave-8": {
@@ -3253,6 +5340,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 513
     }
   },
   "439-hougang-ave-8": {
@@ -3267,6 +5363,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 451
     }
   },
   "440-hougang-ave-8": {
@@ -3281,6 +5386,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 391
     }
   },
   "441-hougang-ave-8": {
@@ -3294,6 +5408,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 470
     }
   },
   "442-hougang-ave-8": {
@@ -3308,6 +5431,15 @@
     "sold_units_by_type": {
       "4room": 5,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 379
     }
   },
   "443-hougang-ave-8": {
@@ -3322,6 +5454,15 @@
     "sold_units_by_type": {
       "4room": 17,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 354
     }
   },
   "444-hougang-ave-8": {
@@ -3335,6 +5476,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 354
     }
   },
   "445-hougang-ave-8": {
@@ -3348,6 +5498,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 403
     }
   },
   "446-hougang-ave-8": {
@@ -3361,6 +5520,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 437
     }
   },
   "447-hougang-ave-10": {
@@ -3375,6 +5543,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 377
     }
   },
   "448-hougang-ave-10": {
@@ -3388,6 +5565,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 434
     }
   },
   "449-hougang-ave-10": {
@@ -3401,6 +5587,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 469
     }
   },
   "450-hougang-ave-10": {
@@ -3415,6 +5610,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 464
     }
   },
   "451-hougang-ave-10": {
@@ -3428,6 +5632,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 504
     }
   },
   "452-hougang-ave-10": {
@@ -3442,6 +5655,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 537
     }
   },
   "453-hougang-ave-10": {
@@ -3455,6 +5677,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 537
     }
   },
   "454-hougang-ave-10": {
@@ -3468,6 +5699,15 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 544
     }
   },
   "455-hougang-ave-10": {
@@ -3481,6 +5721,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 615
     }
   },
   "456-hougang-ave-10": {
@@ -3495,6 +5744,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 641
     }
   },
   "457-hougang-ave-10": {
@@ -3508,6 +5766,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 653
     }
   },
   "458-hougang-ave-10": {
@@ -3521,6 +5788,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 627
     }
   },
   "460-hougang-ave-10": {
@@ -3535,6 +5811,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 235
     }
   },
   "461-hougang-ave-10": {
@@ -3549,6 +5834,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 204
     }
   },
   "462-hougang-ave-10": {
@@ -3563,6 +5857,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 188
     }
   },
   "463-hougang-ave-10": {
@@ -3577,6 +5880,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 226
     }
   },
   "464-upp-serangoon-rd": {
@@ -3591,6 +5903,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 356
     }
   },
   "465-upp-serangoon-rd": {
@@ -3605,6 +5926,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 449
     }
   },
   "466-hougang-ave-8": {
@@ -3618,6 +5948,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 453
     }
   },
   "467-hougang-ave-8": {
@@ -3632,6 +5971,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 450
     }
   },
   "468-hougang-ave-8": {
@@ -3646,6 +5994,15 @@
     "sold_units_by_type": {
       "4room": 33,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 512
     }
   },
   "470a-upp-serangoon-cres": {
@@ -3660,6 +6017,15 @@
     "sold_units_by_type": {
       "4room": 140,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 525
     }
   },
   "470b-upp-serangoon-cres": {
@@ -3675,6 +6041,15 @@
       "3room": 50,
       "4room": 90,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 556
     }
   },
   "470c-upp-serangoon-cres": {
@@ -3689,6 +6064,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 611
     }
   },
   "471a-upp-serangoon-cres": {
@@ -3703,6 +6087,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 627
     }
   },
   "471b-upp-serangoon-cres": {
@@ -3718,6 +6111,15 @@
       "3room": 24,
       "4room": 98,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 654
     }
   },
   "473a-upp-serangoon-cres": {
@@ -3733,6 +6135,15 @@
       "3room": 34,
       "4room": 34,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 793
     }
   },
   "473b-upp-serangoon-cres": {
@@ -3747,6 +6158,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 880
     }
   },
   "473c-upp-serangoon-cres": {
@@ -3762,6 +6182,15 @@
       "3room": 34,
       "4room": 68,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 838
     }
   },
   "473d-upp-serangoon-cres": {
@@ -3776,6 +6205,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 789
     }
   },
   "475a-upp-serangoon-cres": {
@@ -3791,6 +6229,15 @@
       "3room": 34,
       "4room": 102,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 861
     }
   },
   "475b-upp-serangoon-cres": {
@@ -3806,6 +6253,15 @@
       "3room": 34,
       "4room": 34,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 886
     }
   },
   "475c-upp-serangoon-cres": {
@@ -3821,6 +6277,15 @@
       "3room": 34,
       "4room": 34,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 861
     }
   },
   "475d-upp-serangoon-cres": {
@@ -3836,6 +6301,15 @@
       "3room": 34,
       "4room": 102,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 901
     }
   },
   "476a-upp-serangoon-view": {
@@ -3850,6 +6324,15 @@
     "sold_units_by_type": {
       "3room": 108,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 804
     }
   },
   "476b-upp-serangoon-view": {
@@ -3864,6 +6347,15 @@
     "sold_units_by_type": {
       "4room": 107,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 747
     }
   },
   "476c-upp-serangoon-view": {
@@ -3878,6 +6370,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 686
     }
   },
   "477a-upp-serangoon-view": {
@@ -3892,6 +6393,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 631
     }
   },
   "477b-upp-serangoon-view": {
@@ -3906,6 +6416,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 592
     }
   },
   "477c-upp-serangoon-view": {
@@ -3920,6 +6439,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "kangkar",
+      "name": "Kangkar",
+      "codes": [
+        "SE4"
+      ],
+      "exit": "Exit B",
+      "distance": 538
     }
   },
   "501-hougang-ave-8": {
@@ -3935,6 +6463,15 @@
       "3room": 90,
       "4room": 54,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 605
     }
   },
   "502-hougang-ave-8": {
@@ -3949,6 +6486,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 569
     }
   },
   "503-hougang-ave-8": {
@@ -3963,6 +6509,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 523
     }
   },
   "504-hougang-ave-8": {
@@ -3977,6 +6532,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 453
     }
   },
   "505-hougang-ave-8": {
@@ -3991,6 +6555,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 491
     }
   },
   "506-hougang-ave-8": {
@@ -4004,6 +6577,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 489
     }
   },
   "507-hougang-ave-8": {
@@ -4017,6 +6599,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 486
     }
   },
   "508-hougang-ave-10": {
@@ -4030,6 +6621,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 475
     }
   },
   "509-hougang-ave-10": {
@@ -4043,6 +6643,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 421
     }
   },
   "510-hougang-ave-10": {
@@ -4056,6 +6665,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 393
     }
   },
   "511-hougang-ave-10": {
@@ -4070,6 +6688,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 361
     }
   },
   "512-hougang-ave-10": {
@@ -4084,6 +6711,15 @@
     "sold_units_by_type": {
       "4room": 101,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 385
     }
   },
   "513-hougang-ave-10": {
@@ -4098,6 +6734,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 257
     }
   },
   "514-hougang-ave-10": {
@@ -4112,6 +6757,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 309
     }
   },
   "515-hougang-ave-10": {
@@ -4125,6 +6779,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 328
     }
   },
   "516-hougang-ave-10": {
@@ -4138,6 +6801,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 333
     }
   },
   "517-hougang-ave-10": {
@@ -4152,6 +6824,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 259
     }
   },
   "520-hougang-ave-6": {
@@ -4166,6 +6847,15 @@
     "sold_units_by_type": {
       "3room": 40,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 238
     }
   },
   "521-hougang-ave-6": {
@@ -4180,6 +6870,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 179
     }
   },
   "522-hougang-ave-6": {
@@ -4193,6 +6892,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "exec": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 143
     }
   },
   "523-hougang-ave-6": {
@@ -4207,6 +6915,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 225
     }
   },
   "524-hougang-ave-6": {
@@ -4221,6 +6938,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 257
     }
   },
   "525-hougang-ave-6": {
@@ -4235,6 +6961,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 306
     }
   },
   "526-hougang-ave-6": {
@@ -4249,6 +6984,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 297
     }
   },
   "527-hougang-ave-6": {
@@ -4263,6 +7007,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 328
     }
   },
   "528-hougang-ave-6": {
@@ -4277,6 +7030,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 359
     }
   },
   "529-hougang-ave-6": {
@@ -4291,6 +7053,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 395
     }
   },
   "530-hougang-ave-6": {
@@ -4305,6 +7076,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 395
     }
   },
   "531-hougang-ave-6": {
@@ -4319,6 +7099,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 443
     }
   },
   "532-hougang-ave-6": {
@@ -4333,6 +7122,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 447
     }
   },
   "533-hougang-ave-6": {
@@ -4346,6 +7144,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "exec": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 411
     }
   },
   "534-hougang-st-52": {
@@ -4359,6 +7166,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 581
     }
   },
   "535-hougang-st-52": {
@@ -4372,6 +7188,15 @@
     "total_dwelling_units": 102,
     "sold_units_by_type": {
       "4room": 102
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 520
     }
   },
   "536-hougang-st-52": {
@@ -4385,6 +7210,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 625
     }
   },
   "537-hougang-st-52": {
@@ -4398,6 +7232,15 @@
     "total_dwelling_units": 69,
     "sold_units_by_type": {
       "4room": 69
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 678
     }
   },
   "538-hougang-st-52": {
@@ -4411,6 +7254,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "exec": 66
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 640
     }
   },
   "539-hougang-st-52": {
@@ -4424,6 +7276,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 620
     }
   },
   "540-hougang-ave-8": {
@@ -4438,6 +7299,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 590
     }
   },
   "541-hougang-ave-8": {
@@ -4452,6 +7322,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 597
     }
   },
   "542-hougang-ave-8": {
@@ -4466,6 +7345,15 @@
     "sold_units_by_type": {
       "4room": 81,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 535
     }
   },
   "543-hougang-ave-8": {
@@ -4479,6 +7367,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 556
     }
   },
   "544-hougang-ave-8": {
@@ -4492,6 +7389,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 498
     }
   },
   "545-hougang-ave-8": {
@@ -4505,6 +7411,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 538
     }
   },
   "546-hougang-st-51": {
@@ -4519,6 +7434,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 455
     }
   },
   "547-hougang-st-51": {
@@ -4532,6 +7456,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 399
     }
   },
   "548-hougang-st-51": {
@@ -4545,6 +7478,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 412
     }
   },
   "549-hougang-st-51": {
@@ -4559,6 +7501,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 558
     }
   },
   "550-hougang-st-51": {
@@ -4572,6 +7523,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 587
     }
   },
   "551-hougang-st-51": {
@@ -4585,6 +7545,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 554
     }
   },
   "552-hougang-st-51": {
@@ -4599,6 +7568,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 548
     }
   },
   "553-hougang-st-51": {
@@ -4613,6 +7591,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 521
     }
   },
   "554-hougang-st-51": {
@@ -4627,6 +7614,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 605
     }
   },
   "555-hougang-st-51": {
@@ -4641,6 +7637,15 @@
     "sold_units_by_type": {
       "4room": 81,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 527
     }
   },
   "556-hougang-st-51": {
@@ -4654,6 +7659,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 486
     }
   },
   "557-hougang-st-51": {
@@ -4667,6 +7681,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 451
     }
   },
   "558-hougang-st-51": {
@@ -4680,6 +7703,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "exec": 50
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 475
     }
   },
   "559-hougang-st-51": {
@@ -4693,6 +7725,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 529
     }
   },
   "560-hougang-st-51": {
@@ -4706,6 +7747,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 518
     }
   },
   "561-hougang-st-51": {
@@ -4719,6 +7769,15 @@
     "total_dwelling_units": 10,
     "sold_units_by_type": {
       "exec": 10
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 531
     }
   },
   "562-hougang-st-51": {
@@ -4732,6 +7791,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 501
     }
   },
   "563-hougang-st-51": {
@@ -4745,6 +7813,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 609
     }
   },
   "564-hougang-st-51": {
@@ -4758,6 +7835,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 598
     }
   },
   "565-hougang-st-51": {
@@ -4772,6 +7858,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 635
     }
   },
   "566-hougang-st-51": {
@@ -4786,6 +7881,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 549
     }
   },
   "567-hougang-st-51": {
@@ -4800,6 +7904,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 678
     }
   },
   "568-hougang-st-51": {
@@ -4814,6 +7927,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 710
     }
   },
   "569-hougang-st-51": {
@@ -4828,6 +7950,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 725
     }
   },
   "570-hougang-st-51": {
@@ -4842,6 +7973,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 770
     }
   },
   "571-hougang-st-51": {
@@ -4856,6 +7996,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 765
     }
   },
   "572-hougang-st-51": {
@@ -4870,6 +8019,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit B",
+      "distance": 824
     }
   },
   "573-hougang-st-51": {
@@ -4884,6 +8042,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 777
     }
   },
   "574-hougang-st-51": {
@@ -4898,6 +8065,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 816
     }
   },
   "575-hougang-st-51": {
@@ -4912,6 +8088,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 851
     }
   },
   "576-hougang-ave-4": {
@@ -4926,6 +8111,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 902
     }
   },
   "577-hougang-ave-4": {
@@ -4939,6 +8133,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "exec": 66
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 1020
     }
   },
   "578-hougang-ave-4": {
@@ -4952,6 +8155,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "exec": 66
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 981
     }
   },
   "579-hougang-ave-4": {
@@ -4965,6 +8177,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "exec": 66
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 901
     }
   },
   "580-hougang-ave-4": {
@@ -4979,6 +8200,15 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 841
     }
   },
   "581-buangkok-green": {
@@ -4993,6 +8223,15 @@
     "sold_units_by_type": {
       "2room": 69,
       "studio_apartment": 75
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 786
     }
   },
   "582-buangkok-green": {
@@ -5007,6 +8246,15 @@
     "sold_units_by_type": {
       "2room": 70,
       "studio_apartment": 78
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 761
     }
   },
   "6-hougang-ave-3": {
@@ -5020,6 +8268,15 @@
     "total_dwelling_units": 42,
     "sold_units_by_type": {
       "3room": 42
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 851
     }
   },
   "601-hougang-ave-4": {
@@ -5034,6 +8291,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 562
     }
   },
   "602-hougang-ave-4": {
@@ -5047,6 +8313,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 571
     }
   },
   "603-hougang-ave-4": {
@@ -5060,6 +8335,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 686
     }
   },
   "604-hougang-ave-4": {
@@ -5073,6 +8357,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 685
     }
   },
   "605-hougang-ave-4": {
@@ -5086,6 +8379,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 623
     }
   },
   "606-hougang-ave-4": {
@@ -5099,6 +8401,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 690
     }
   },
   "607-hougang-ave-4": {
@@ -5113,6 +8424,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 680
     }
   },
   "608-hougang-ave-4": {
@@ -5126,6 +8446,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 742
     }
   },
   "609-hougang-ave-8": {
@@ -5139,6 +8468,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 747
     }
   },
   "610-hougang-ave-8": {
@@ -5152,6 +8490,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 788
     }
   },
   "611-hougang-ave-8": {
@@ -5165,6 +8512,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 839
     }
   },
   "612-hougang-ave-8": {
@@ -5179,6 +8535,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 797
     }
   },
   "613-hougang-ave-8": {
@@ -5192,6 +8557,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 852
     }
   },
   "614-hougang-ave-8": {
@@ -5205,6 +8579,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 870
     }
   },
   "615-hougang-ave-8": {
@@ -5218,6 +8601,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 853
     }
   },
   "616-hougang-ave-8": {
@@ -5232,6 +8624,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 974
     }
   },
   "617-hougang-ave-8": {
@@ -5246,6 +8647,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 959
     }
   },
   "618-hougang-ave-8": {
@@ -5259,6 +8669,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 918
     }
   },
   "619-hougang-ave-8": {
@@ -5273,6 +8692,15 @@
     "sold_units_by_type": {
       "3room": 128,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 954
     }
   },
   "620-hougang-ave-8": {
@@ -5286,6 +8714,15 @@
     "total_dwelling_units": 121,
     "sold_units_by_type": {
       "3room": 121
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 917
     }
   },
   "621-hougang-ave-8": {
@@ -5299,6 +8736,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1007
     }
   },
   "622-hougang-ave-8": {
@@ -5312,6 +8758,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1043
     }
   },
   "623-hougang-ave-8": {
@@ -5325,6 +8780,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "3room": 132
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1088
     }
   },
   "624-hougang-ave-8": {
@@ -5339,6 +8803,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1105
     }
   },
   "625-hougang-ave-8": {
@@ -5354,6 +8827,15 @@
       "3room": 22,
       "4room": 8,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1151
     }
   },
   "626-hougang-ave-8": {
@@ -5368,6 +8850,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1104
     }
   },
   "627-hougang-ave-8": {
@@ -5382,6 +8873,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1051
     }
   },
   "628-hougang-ave-8": {
@@ -5395,6 +8895,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1141
     }
   },
   "629-hougang-ave-8": {
@@ -5409,6 +8918,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1152
     }
   },
   "630-hougang-ave-8": {
@@ -5423,6 +8941,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1192
     }
   },
   "631-hougang-ave-8": {
@@ -5437,6 +8964,15 @@
     "sold_units_by_type": {
       "3room": 111,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1173
     }
   },
   "632-hougang-ave-8": {
@@ -5451,6 +8987,15 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1240
     }
   },
   "633-hougang-ave-8": {
@@ -5464,6 +9009,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1227
     }
   },
   "634-hougang-ave-8": {
@@ -5477,6 +9031,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1301
     }
   },
   "635-hougang-ave-8": {
@@ -5490,6 +9053,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1275
     }
   },
   "636-hougang-ave-8": {
@@ -5503,6 +9075,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1309
     }
   },
   "637-hougang-ave-8": {
@@ -5516,6 +9097,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1341
     }
   },
   "638-hougang-ave-8": {
@@ -5529,6 +9119,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1362
     }
   },
   "639-hougang-ave-8": {
@@ -5542,6 +9141,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1271
     }
   },
   "640-hougang-ave-8": {
@@ -5555,6 +9163,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit B",
+      "distance": 1354
     }
   },
   "641-hougang-ave-8": {
@@ -5568,6 +9185,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1328
     }
   },
   "642-hougang-ave-8": {
@@ -5581,6 +9207,15 @@
     "total_dwelling_units": 121,
     "sold_units_by_type": {
       "3room": 121
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1338
     }
   },
   "643-hougang-ave-8": {
@@ -5594,6 +9229,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1264
     }
   },
   "644-hougang-ave-8": {
@@ -5607,6 +9251,15 @@
     "total_dwelling_units": 116,
     "sold_units_by_type": {
       "3room": 116
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1194
     }
   },
   "645-hougang-ave-8": {
@@ -5620,6 +9273,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1170
     }
   },
   "646-hougang-ave-8": {
@@ -5633,6 +9295,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1249
     }
   },
   "647-hougang-ave-8": {
@@ -5646,6 +9317,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1289
     }
   },
   "648-hougang-ave-8": {
@@ -5659,6 +9339,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1354
     }
   },
   "649-hougang-ave-8": {
@@ -5672,6 +9361,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1273
     }
   },
   "650-hougang-ave-8": {
@@ -5685,6 +9383,15 @@
     "total_dwelling_units": 148,
     "sold_units_by_type": {
       "4room": 148
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1187
     }
   },
   "651-hougang-ave-8": {
@@ -5698,6 +9405,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1208
     }
   },
   "652-hougang-ave-8": {
@@ -5711,6 +9427,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1154
     }
   },
   "653-hougang-ave-8": {
@@ -5724,6 +9449,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1195
     }
   },
   "654-hougang-ave-8": {
@@ -5737,6 +9471,15 @@
     "total_dwelling_units": 18,
     "sold_units_by_type": {
       "exec": 18
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1137
     }
   },
   "655-hougang-ave-8": {
@@ -5750,6 +9493,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1120
     }
   },
   "656-hougang-ave-8": {
@@ -5763,6 +9515,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1148
     }
   },
   "657-hougang-ave-8": {
@@ -5776,6 +9537,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1138
     }
   },
   "658-hougang-ave-8": {
@@ -5790,6 +9560,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1075
     }
   },
   "659-hougang-ave-8": {
@@ -5803,6 +9582,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 983
     }
   },
   "660-hougang-ave-8": {
@@ -5817,6 +9605,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1026
     }
   },
   "661-hougang-ave-4": {
@@ -5831,6 +9628,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1041
     }
   },
   "662-hougang-ave-4": {
@@ -5845,6 +9651,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1042
     }
   },
   "665-hougang-ave-4": {
@@ -5859,6 +9674,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 869
     }
   },
   "666-hougang-ave-4": {
@@ -5873,6 +9697,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 804
     }
   },
   "667-hougang-ave-4": {
@@ -5887,6 +9720,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 922
     }
   },
   "668-hougang-ave-8": {
@@ -5900,6 +9742,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 945
     }
   },
   "669-hougang-ave-8": {
@@ -5914,6 +9765,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 886
     }
   },
   "670-hougang-ave-8": {
@@ -5928,6 +9788,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 807
     }
   },
   "671-hougang-ave-8": {
@@ -5942,6 +9811,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 913
     }
   },
   "672-hougang-ave-8": {
@@ -5956,6 +9834,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 884
     }
   },
   "673-hougang-ave-8": {
@@ -5970,6 +9857,15 @@
     "sold_units_by_type": {
       "3room": 60,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 795
     }
   },
   "674-hougang-ave-8": {
@@ -5984,6 +9880,15 @@
     "sold_units_by_type": {
       "3room": 74,
       "4room": 74
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 815
     }
   },
   "675-hougang-ave-8": {
@@ -5997,6 +9902,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 847
     }
   },
   "676-hougang-ave-8": {
@@ -6010,6 +9924,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 864
     }
   },
   "677-hougang-ave-8": {
@@ -6025,6 +9948,15 @@
       "3room": 70,
       "4room": 48,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 858
     }
   },
   "678-hougang-ave-8": {
@@ -6039,6 +9971,15 @@
     "sold_units_by_type": {
       "3room": 75,
       "4room": 43
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 872
     }
   },
   "679-hougang-ave-8": {
@@ -6053,6 +9994,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 807
     }
   },
   "680-hougang-ave-8": {
@@ -6066,6 +10016,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 740
     }
   },
   "681-hougang-ave-8": {
@@ -6080,6 +10039,15 @@
     "sold_units_by_type": {
       "3room": 61,
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 706
     }
   },
   "682-hougang-ave-4": {
@@ -6094,6 +10062,15 @@
     "sold_units_by_type": {
       "3room": 61,
       "4room": 23
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 711
     }
   },
   "683-hougang-ave-8": {
@@ -6108,6 +10085,15 @@
     "sold_units_by_type": {
       "3room": 50,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 637
     }
   },
   "684-hougang-ave-8": {
@@ -6122,6 +10108,15 @@
     "sold_units_by_type": {
       "3room": 57,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 599
     }
   },
   "685-hougang-st-61": {
@@ -6137,6 +10132,15 @@
       "3room": 47,
       "4room": 13,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 743
     }
   },
   "686-hougang-st-61": {
@@ -6151,6 +10155,15 @@
     "sold_units_by_type": {
       "4room": 100,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 832
     }
   },
   "687-hougang-st-61": {
@@ -6165,6 +10178,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 892
     }
   },
   "688-hougang-st-61": {
@@ -6179,6 +10201,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 843
     }
   },
   "689-hougang-st-61": {
@@ -6193,6 +10224,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 842
     }
   },
   "690-hougang-st-61": {
@@ -6207,6 +10247,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 878
     }
   },
   "691-hougang-st-61": {
@@ -6221,6 +10270,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 791
     }
   },
   "692-hougang-st-61": {
@@ -6235,6 +10293,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 765
     }
   },
   "693-hougang-st-61": {
@@ -6248,6 +10315,15 @@
     "total_dwelling_units": 148,
     "sold_units_by_type": {
       "4room": 148
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 707
     }
   },
   "694-hougang-st-61": {
@@ -6262,6 +10338,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 626
     }
   },
   "695-hougang-st-61": {
@@ -6276,6 +10361,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 682
     }
   },
   "696-hougang-st-61": {
@@ -6293,6 +10387,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 661
     }
   },
   "697-hougang-st-61": {
@@ -6306,6 +10409,15 @@
     "total_dwelling_units": 148,
     "sold_units_by_type": {
       "4room": 148
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 627
     }
   },
   "698-hougang-st-61": {
@@ -6320,6 +10432,15 @@
     "sold_units_by_type": {
       "3room": 50,
       "4room": 13
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 650
     }
   },
   "698a-hougang-st-61": {
@@ -6334,6 +10455,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 606
     }
   },
   "698b-hougang-st-61": {
@@ -6347,6 +10477,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 559
     }
   },
   "698c-hougang-st-52": {
@@ -6360,6 +10499,15 @@
     "total_dwelling_units": 73,
     "sold_units_by_type": {
       "exec": 73
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 545
     }
   },
   "698d-hougang-st-52": {
@@ -6373,6 +10521,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 530
     }
   },
   "699-hougang-st-52": {
@@ -6386,6 +10543,15 @@
     "total_dwelling_units": 128,
     "sold_units_by_type": {
       "5room": 128
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 522
     }
   },
   "699a-hougang-st-52": {
@@ -6399,6 +10565,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 639
     }
   },
   "699b-hougang-st-52": {
@@ -6412,6 +10587,15 @@
     "total_dwelling_units": 75,
     "sold_units_by_type": {
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 653
     }
   },
   "699c-hougang-st-52": {
@@ -6425,6 +10609,15 @@
     "total_dwelling_units": 122,
     "sold_units_by_type": {
       "4room": 122
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 613
     }
   },
   "7-hougang-ave-3": {
@@ -6438,6 +10631,15 @@
     "total_dwelling_units": 30,
     "sold_units_by_type": {
       "3room": 30
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 884
     }
   },
   "701-hougang-ave-2": {
@@ -6452,6 +10654,15 @@
     "sold_units_by_type": {
       "3room": 47,
       "4room": 111
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 582
     }
   },
   "702-hougang-ave-2": {
@@ -6466,6 +10677,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 580
     }
   },
   "703-hougang-ave-2": {
@@ -6480,6 +10700,15 @@
     "sold_units_by_type": {
       "3room": 91,
       "4room": 23
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 617
     }
   },
   "704-hougang-ave-2": {
@@ -6494,6 +10723,15 @@
     "sold_units_by_type": {
       "3room": 47,
       "4room": 111
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 679
     }
   },
   "705-hougang-ave-2": {
@@ -6507,6 +10745,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 688
     }
   },
   "706-hougang-ave-2": {
@@ -6520,6 +10767,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 634
     }
   },
   "707-hougang-ave-2": {
@@ -6534,6 +10790,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 595
     }
   },
   "708-hougang-ave-2": {
@@ -6548,6 +10813,15 @@
     "sold_units_by_type": {
       "3room": 18,
       "4room": 94
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 540
     }
   },
   "709-hougang-ave-2": {
@@ -6562,6 +10836,15 @@
     "sold_units_by_type": {
       "3room": 18,
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 599
     }
   },
   "710-hougang-ave-2": {
@@ -6576,6 +10859,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 640
     }
   },
   "711-hougang-ave-2": {
@@ -6589,6 +10881,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 674
     }
   },
   "712-hougang-ave-2": {
@@ -6602,6 +10903,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "kovan",
+      "name": "Kovan",
+      "codes": [
+        "NE13"
+      ],
+      "exit": "Exit C",
+      "distance": 686
     }
   },
   "804-hougang-ctrl": {
@@ -6616,6 +10926,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 189
     }
   },
   "806-hougang-ctrl": {
@@ -6630,6 +10949,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 158
     }
   },
   "809-hougang-ctrl": {
@@ -6644,6 +10972,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 114
     }
   },
   "811-hougang-ctrl": {
@@ -6659,6 +10996,15 @@
       "3room": 11,
       "4room": 2,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit B",
+      "distance": 91
     }
   },
   "830-hougang-ctrl": {
@@ -6673,6 +11019,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 240
     }
   },
   "831-hougang-ctrl": {
@@ -6687,6 +11042,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 245
     }
   },
   "832-hougang-ctrl": {
@@ -6701,6 +11065,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 294
     }
   },
   "833-hougang-ctrl": {
@@ -6714,6 +11087,15 @@
     "total_dwelling_units": 57,
     "sold_units_by_type": {
       "exec": 57
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 293
     }
   },
   "834-hougang-ctrl": {
@@ -6727,6 +11109,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "exec": 63
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 290
     }
   },
   "835-hougang-ctrl": {
@@ -6741,6 +11132,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 272
     }
   },
   "836-hougang-ctrl": {
@@ -6755,6 +11155,15 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 184
     }
   },
   "837-hougang-ctrl": {
@@ -6769,6 +11178,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 143
     }
   },
   "838-hougang-ctrl": {
@@ -6783,6 +11201,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 121
     }
   },
   "850-hougang-ctrl": {
@@ -6796,6 +11223,15 @@
     "total_dwelling_units": 55,
     "sold_units_by_type": {
       "exec": 55
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 122
     }
   },
   "851-hougang-ctrl": {
@@ -6809,6 +11245,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 131
     }
   },
   "852-hougang-ctrl": {
@@ -6822,6 +11267,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 156
     }
   },
   "853-hougang-ctrl": {
@@ -6835,6 +11289,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "exec": 66
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit A",
+      "distance": 208
     }
   },
   "909-hougang-st-91": {
@@ -6849,6 +11312,15 @@
     "sold_units_by_type": {
       "4room": 107,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1233
     }
   },
   "910-hougang-st-91": {
@@ -6862,6 +11334,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1196
     }
   },
   "911-hougang-st-91": {
@@ -6875,6 +11356,15 @@
     "total_dwelling_units": 136,
     "sold_units_by_type": {
       "4room": 136
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 1120
     }
   },
   "912-hougang-st-91": {
@@ -6889,6 +11379,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "buangkok",
+      "name": "Buangkok",
+      "codes": [
+        "NE15"
+      ],
+      "exit": "Exit A",
+      "distance": 1127
     }
   },
   "913-hougang-st-91": {
@@ -6903,6 +11402,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1101
     }
   },
   "914-hougang-st-91": {
@@ -6917,6 +11425,15 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 43
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1068
     }
   },
   "915-hougang-st-91": {
@@ -6931,6 +11448,15 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 43
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1087
     }
   },
   "916-hougang-ave-9": {
@@ -6945,6 +11471,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 908
     }
   },
   "917-hougang-ave-9": {
@@ -6959,6 +11494,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 995
     }
   },
   "918-hougang-ave-9": {
@@ -6973,6 +11517,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1015
     }
   },
   "919-hougang-ave-4": {
@@ -6987,6 +11540,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 973
     }
   },
   "920-hougang-st-91": {
@@ -7001,6 +11563,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1020
     }
   },
   "921-hougang-st-91": {
@@ -7015,6 +11586,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 995
     }
   },
   "922-hougang-st-91": {
@@ -7029,6 +11609,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1051
     }
   },
   "923-hougang-ave-9": {
@@ -7043,6 +11632,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1102
     }
   },
   "924-hougang-ave-9": {
@@ -7057,6 +11655,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1186
     }
   },
   "925-hougang-st-91": {
@@ -7071,6 +11678,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1169
     }
   },
   "926-hougang-st-91": {
@@ -7085,6 +11701,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1304
     }
   },
   "927-hougang-st-91": {
@@ -7099,6 +11724,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1344
     }
   },
   "928-hougang-st-91": {
@@ -7113,6 +11747,15 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1267
     }
   },
   "929-hougang-st-91": {
@@ -7127,6 +11770,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1242
     }
   },
   "930-hougang-st-91": {
@@ -7141,6 +11793,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1246
     }
   },
   "931-hougang-st-91": {
@@ -7155,6 +11816,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1319
     }
   },
   "932a-hougang-ave-9": {
@@ -7169,6 +11839,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1188
     }
   },
   "932b-hougang-ave-9": {
@@ -7183,6 +11862,15 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1132
     }
   },
   "933a-hougang-ave-9": {
@@ -7197,6 +11885,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1176
     }
   },
   "936-hougang-st-92": {
@@ -7211,6 +11908,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1372
     }
   },
   "937-hougang-st-92": {
@@ -7225,6 +11931,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1439
     }
   },
   "938-hougang-st-92": {
@@ -7239,6 +11954,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1388
     }
   },
   "939-hougang-st-92": {
@@ -7253,6 +11977,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1380
     }
   },
   "940-hougang-st-92": {
@@ -7266,6 +11999,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "exec": 78
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1364
     }
   },
   "941-hougang-st-92": {
@@ -7280,6 +12022,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1431
     }
   },
   "942-hougang-st-92": {
@@ -7294,6 +12045,15 @@
     "sold_units_by_type": {
       "4room": 73,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1291
     }
   },
   "943-hougang-st-92": {
@@ -7308,6 +12068,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1283
     }
   },
   "944-hougang-st-92": {
@@ -7322,6 +12091,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1305
     }
   },
   "945-hougang-st-92": {
@@ -7336,6 +12114,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1240
     }
   },
   "946-hougang-st-92": {
@@ -7350,6 +12137,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1227
     }
   },
   "950-hougang-st-91": {
@@ -7364,6 +12160,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1518
     }
   },
   "951-hougang-ave-9": {
@@ -7378,6 +12183,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1584
     }
   },
   "952-hougang-ave-9": {
@@ -7392,6 +12206,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1622
     }
   },
   "953-hougang-ave-9": {
@@ -7406,6 +12229,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1662
     }
   },
   "954-hougang-ave-9": {
@@ -7420,6 +12252,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1625
     }
   },
   "955-hougang-ave-9": {
@@ -7433,6 +12274,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1596
     }
   },
   "956-hougang-st-91": {
@@ -7446,6 +12296,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1547
     }
   },
   "957-hougang-st-91": {
@@ -7459,6 +12318,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1486
     }
   },
   "958-hougang-st-91": {
@@ -7472,6 +12340,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1444
     }
   },
   "959-hougang-st-91": {
@@ -7485,6 +12362,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1516
     }
   },
   "960-hougang-ave-9": {
@@ -7498,6 +12384,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1579
     }
   },
   "961-hougang-ave-9": {
@@ -7511,6 +12406,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1508
     }
   },
   "962-hougang-ave-9": {
@@ -7524,6 +12428,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1525
     }
   },
   "963-hougang-ave-9": {
@@ -7538,6 +12451,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1617
     }
   },
   "964-hougang-ave-9": {
@@ -7552,6 +12474,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1633
     }
   },
   "965-hougang-ave-9": {
@@ -7566,6 +12497,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1495
     }
   },
   "966-hougang-ave-9": {
@@ -7579,6 +12519,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1488
     }
   },
   "967-hougang-ave-9": {
@@ -7592,6 +12541,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1469
     }
   },
   "968-hougang-ave-9": {
@@ -7605,6 +12563,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1428
     }
   },
   "969-hougang-st-91": {
@@ -7618,6 +12585,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1364
     }
   },
   "970-hougang-st-91": {
@@ -7632,6 +12608,15 @@
     "sold_units_by_type": {
       "4room": 112,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1306
     }
   },
   "971-hougang-st-91": {
@@ -7645,6 +12630,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1403
     }
   },
   "972-hougang-st-91": {
@@ -7658,6 +12652,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1419
     }
   },
   "973-hougang-st-91": {
@@ -7671,6 +12674,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1443
     }
   },
   "974-hougang-st-91": {
@@ -7684,6 +12696,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1459
     }
   },
   "975-hougang-st-91": {
@@ -7697,6 +12718,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1476
     }
   },
   "976-hougang-st-91": {
@@ -7711,6 +12741,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "hougang",
+      "name": "Hougang",
+      "codes": [
+        "NE14"
+      ],
+      "exit": "Exit C",
+      "distance": 1417
     }
   },
   "978c-buangkok-cres": {
@@ -7725,6 +12764,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1297
     }
   },
   "978d-buangkok-cres": {
@@ -7739,6 +12787,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1251
     }
   },
   "979a-buangkok-cres": {
@@ -7753,6 +12810,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1329
     }
   },
   "979b-buangkok-cres": {
@@ -7767,6 +12833,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1301
     }
   },
   "979c-buangkok-cres": {
@@ -7781,6 +12856,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1263
     }
   },
   "980a-buangkok-cres": {
@@ -7794,6 +12878,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1232
     }
   },
   "980b-buangkok-cres": {
@@ -7808,6 +12901,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1180
     }
   },
   "980c-buangkok-cres": {
@@ -7821,6 +12923,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1159
     }
   },
   "980d-buangkok-cres": {
@@ -7835,6 +12946,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1116
     }
   },
   "981a-buangkok-cres": {
@@ -7849,6 +12969,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1129
     }
   },
   "981b-buangkok-cres": {
@@ -7863,6 +12992,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1171
     }
   },
   "981c-buangkok-cres": {
@@ -7877,6 +13015,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1203
     }
   },
   "981d-buangkok-cres": {
@@ -7891,6 +13038,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1219
     }
   },
   "984a-buangkok-link": {
@@ -7904,6 +13060,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 958
     }
   },
   "984b-buangkok-link": {
@@ -7917,6 +13082,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "5room": 104
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 987
     }
   },
   "984c-buangkok-link": {
@@ -7931,6 +13105,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 910
     }
   },
   "984d-buangkok-link": {
@@ -7944,6 +13127,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "5room": 104
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 939
     }
   },
   "985a-buangkok-cres": {
@@ -7957,6 +13149,15 @@
     "total_dwelling_units": 102,
     "sold_units_by_type": {
       "4room": 102
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1104
     }
   },
   "985b-buangkok-cres": {
@@ -7970,6 +13171,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "5room": 104
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1120
     }
   },
   "986a-buangkok-cres": {
@@ -7984,6 +13194,15 @@
     "sold_units_by_type": {
       "2room": 70,
       "3room": 70
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1059
     }
   },
   "986b-buangkok-cres": {
@@ -7998,6 +13217,15 @@
     "sold_units_by_type": {
       "2room": 70,
       "3room": 70
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1005
     }
   },
   "986c-buangkok-cres": {
@@ -8013,6 +13241,15 @@
     "rental_units_by_type": {
       "1room": 150,
       "2room": 45
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 957
     }
   },
   "986d-buangkok-cres": {
@@ -8028,6 +13265,15 @@
     "rental_units_by_type": {
       "1room": 150,
       "2room": 45
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 920
     }
   },
   "987a-buangkok-green": {
@@ -8041,6 +13287,15 @@
     "total_dwelling_units": 131,
     "sold_units_by_type": {
       "4room": 131
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1333
     }
   },
   "987b-buangkok-green": {
@@ -8055,6 +13310,15 @@
     "sold_units_by_type": {
       "2room": 128,
       "3room": 80
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1383
     }
   },
   "987c-buangkok-green": {
@@ -8069,6 +13333,15 @@
     "sold_units_by_type": {
       "3room": 33,
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 1423
     }
   },
   "988a-buangkok-green": {
@@ -8082,6 +13355,15 @@
     "total_dwelling_units": 75,
     "sold_units_by_type": {
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "fernvale",
+      "name": "Fernvale",
+      "codes": [
+        "SW5"
+      ],
+      "exit": "Exit A",
+      "distance": 1416
     }
   },
   "988b-buangkok-green": {
@@ -8095,6 +13377,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "fernvale",
+      "name": "Fernvale",
+      "codes": [
+        "SW5"
+      ],
+      "exit": "Exit A",
+      "distance": 1370
     }
   },
   "988c-buangkok-green": {
@@ -8108,6 +13399,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "fernvale",
+      "name": "Fernvale",
+      "codes": [
+        "SW5"
+      ],
+      "exit": "Exit A",
+      "distance": 1324
     }
   },
   "991a-buangkok-link": {
@@ -8123,6 +13423,15 @@
       "2room": 119,
       "3room": 26,
       "4room": 43
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 683
     }
   },
   "991b-buangkok-link": {
@@ -8138,6 +13447,15 @@
       "2room": 105,
       "3room": 30,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 695
     }
   },
   "992a-buangkok-link": {
@@ -8153,6 +13471,15 @@
       "2room": 75,
       "3room": 30,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 776
     }
   },
   "992b-buangkok-link": {
@@ -8168,6 +13495,15 @@
       "2room": 18,
       "3room": 30,
       "4room": 99
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 763
     }
   },
   "993a-buangkok-link": {
@@ -8183,6 +13519,15 @@
       "2room": 84,
       "3room": 27,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 576
     }
   },
   "993b-buangkok-link": {
@@ -8197,6 +13542,15 @@
     "sold_units_by_type": {
       "2room": 126,
       "3room": 28
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 583
     }
   },
   "994a-buangkok-link": {
@@ -8212,6 +13566,15 @@
       "2room": 84,
       "3room": 28,
       "4room": 41
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 465
     }
   },
   "994b-buangkok-link": {
@@ -8227,6 +13590,15 @@
       "2room": 70,
       "3room": 14,
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 468
     }
   },
   "994c-buangkok-link": {
@@ -8240,6 +13612,15 @@
     "total_dwelling_units": 111,
     "sold_units_by_type": {
       "4room": 111
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 530
     }
   },
   "995a-buangkok-cres": {
@@ -8254,6 +13635,15 @@
     "sold_units_by_type": {
       "2room": 90,
       "3room": 30
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 493
     }
   },
   "995b-buangkok-cres": {
@@ -8268,6 +13658,15 @@
     "sold_units_by_type": {
       "2room": 90,
       "3room": 30
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 468
     }
   },
   "995c-buangkok-cres": {
@@ -8282,6 +13681,15 @@
     "sold_units_by_type": {
       "2room": 105,
       "3room": 30
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 471
     }
   },
   "996a-buangkok-cres": {
@@ -8295,6 +13703,15 @@
     "total_dwelling_units": 119,
     "sold_units_by_type": {
       "4room": 119
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 570
     }
   },
   "996b-buangkok-cres": {
@@ -8308,6 +13725,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 552
     }
   },
   "996c-buangkok-cres": {
@@ -8321,6 +13747,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 543
     }
   },
   "997a-buangkok-cres": {
@@ -8335,6 +13770,15 @@
     "sold_units_by_type": {
       "4room": 82,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 704
     }
   },
   "997b-buangkok-cres": {
@@ -8349,6 +13793,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 104
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 626
     }
   },
   "997c-buangkok-cres": {
@@ -8363,6 +13816,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 633
     }
   },
   "998a-buangkok-cres": {
@@ -8378,6 +13840,15 @@
       "2room": 102,
       "3room": 33,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 882
     }
   },
   "998b-buangkok-cres": {
@@ -8393,6 +13864,15 @@
       "2room": 96,
       "3room": 31,
       "4room": 47
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 829
     }
   },
   "999a-buangkok-cres": {
@@ -8408,6 +13888,15 @@
     "rental_units_by_type": {
       "1room": 136,
       "2room": 170
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 786
     }
   },
   "999b-buangkok-cres": {
@@ -8422,6 +13911,15 @@
     "sold_units_by_type": {
       "3room": 31,
       "4room": 95
+    },
+    "nearest_station": {
+      "id": "tongkang",
+      "name": "Tongkang",
+      "codes": [
+        "SW7"
+      ],
+      "exit": "Exit A",
+      "distance": 790
     }
   }
 }

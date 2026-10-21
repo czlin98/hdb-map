@@ -11,6 +11,15 @@
     "sold_units_by_type": {
       "3room": 204,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 589
     }
   },
   "1-chai-chee-rd": {
@@ -25,6 +34,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 800
     }
   },
   "10-chai-chee-rd": {
@@ -39,6 +57,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 623
     }
   },
   "100-bedok-nth-ave-4": {
@@ -55,6 +82,15 @@
       "4room": 26,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 663
     }
   },
   "101-bedok-nth-ave-4": {
@@ -71,6 +107,15 @@
     },
     "rental_units_by_type": {
       "2room": 133
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 544
     }
   },
   "101-bedok-reservoir-rd": {
@@ -85,6 +130,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 725
     }
   },
   "101-lengkong-tiga": {
@@ -98,6 +152,15 @@
     "total_dwelling_units": 10,
     "sold_units_by_type": {
       "exec": 10
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 499
     }
   },
   "102-bedok-nth-ave-4": {
@@ -114,6 +177,15 @@
       "4room": 26,
       "5room": 2,
       "exec": 5
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 531
     }
   },
   "102-bedok-reservoir-rd": {
@@ -128,6 +200,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 715
     }
   },
   "102-lengkong-tiga": {
@@ -142,6 +223,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 552
     }
   },
   "103-bedok-nth-ave-4": {
@@ -157,6 +247,15 @@
       "3room": 126,
       "4room": 26,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 566
     }
   },
   "103-bedok-reservoir-rd": {
@@ -171,6 +270,15 @@
     "sold_units_by_type": {
       "3room": 88,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 685
     }
   },
   "103-lengkong-tiga": {
@@ -185,6 +293,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 582
     }
   },
   "104-bedok-nth-ave-4": {
@@ -200,6 +317,15 @@
       "3room": 124,
       "4room": 26,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 501
     }
   },
   "104-bedok-reservoir-rd": {
@@ -214,6 +340,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 637
     }
   },
   "104-lengkong-tiga": {
@@ -227,6 +362,15 @@
     "total_dwelling_units": 55,
     "sold_units_by_type": {
       "exec": 55
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 605
     }
   },
   "105-bedok-nth-ave-4": {
@@ -242,6 +386,15 @@
       "3room": 128,
       "4room": 26,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 461
     }
   },
   "105-bedok-reservoir-rd": {
@@ -256,6 +409,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 642
     }
   },
   "105-lengkong-tiga": {
@@ -269,6 +431,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 588
     }
   },
   "106-bedok-nth-ave-4": {
@@ -285,6 +456,15 @@
     },
     "rental_units_by_type": {
       "2room": 134
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 463
     }
   },
   "106-bedok-reservoir-rd": {
@@ -298,6 +478,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 603
     }
   },
   "106-lengkong-tiga": {
@@ -311,6 +500,15 @@
     "total_dwelling_units": 43,
     "sold_units_by_type": {
       "exec": 43
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 543
     }
   },
   "107-bedok-nth-rd": {
@@ -325,6 +523,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 566
     }
   },
   "107-bedok-reservoir-rd": {
@@ -339,6 +546,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 562
     }
   },
   "107-lengkong-tiga": {
@@ -352,6 +568,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 520
     }
   },
   "108-bedok-nth-rd": {
@@ -366,6 +591,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 522
     }
   },
   "108-bedok-reservoir-rd": {
@@ -381,6 +615,15 @@
       "3room": 86,
       "4room": 66,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 522
     }
   },
   "108-lengkong-tiga": {
@@ -394,6 +637,15 @@
     "total_dwelling_units": 47,
     "sold_units_by_type": {
       "exec": 47
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 489
     }
   },
   "109-bedok-nth-rd": {
@@ -410,6 +662,15 @@
       "4room": 22,
       "5room": 3,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 526
     }
   },
   "109-bedok-reservoir-rd": {
@@ -424,6 +685,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 594
     }
   },
   "109-lengkong-tiga": {
@@ -438,6 +708,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 453
     }
   },
   "10b-bedok-sth-ave-2": {
@@ -451,6 +730,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 754
     }
   },
   "10c-bedok-sth-ave-2": {
@@ -464,6 +752,15 @@
     "total_dwelling_units": 2,
     "sold_units_by_type": {
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 767
     }
   },
   "10d-bedok-sth-ave-2": {
@@ -477,6 +774,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 790
     }
   },
   "10e-bedok-sth-ave-2": {
@@ -490,6 +796,15 @@
     "total_dwelling_units": 81,
     "sold_units_by_type": {
       "exec": 81
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 870
     }
   },
   "10f-bedok-sth-ave-2": {
@@ -503,6 +818,15 @@
     "total_dwelling_units": 67,
     "sold_units_by_type": {
       "exec": 67
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 846
     }
   },
   "11-chai-chee-rd": {
@@ -517,6 +841,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 593
     }
   },
   "110-bedok-nth-rd": {
@@ -533,6 +866,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 479
     }
   },
   "110-bedok-reservoir-rd": {
@@ -546,6 +888,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 547
     }
   },
   "110-lengkong-tiga": {
@@ -560,6 +911,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 359
     }
   },
   "111-bedok-nth-rd": {
@@ -574,6 +934,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 608
     }
   },
   "111-bedok-reservoir-rd": {
@@ -588,6 +957,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 578
     }
   },
   "111-lengkong-tiga": {
@@ -602,6 +980,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 369
     }
   },
   "112-bedok-nth-rd": {
@@ -616,6 +1003,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 653
     }
   },
   "112-bedok-reservoir-rd": {
@@ -630,6 +1026,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 600
     }
   },
   "112-lengkong-tiga": {
@@ -644,6 +1049,15 @@
     "sold_units_by_type": {
       "4room": 23,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 308
     }
   },
   "113-bedok-nth-st-2": {
@@ -660,6 +1074,15 @@
     },
     "rental_units_by_type": {
       "2room": 126
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 709
     }
   },
   "113-bedok-reservoir-rd": {
@@ -674,6 +1097,15 @@
     "sold_units_by_type": {
       "3room": 40,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 580
     }
   },
   "113-lengkong-tiga": {
@@ -688,6 +1120,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 279
     }
   },
   "114-bedok-nth-st-2": {
@@ -704,6 +1145,15 @@
     },
     "rental_units_by_type": {
       "2room": 128
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 721
     }
   },
   "114-bedok-reservoir-rd": {
@@ -717,6 +1167,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 491
     }
   },
   "114-lengkong-tiga": {
@@ -731,6 +1190,15 @@
     "sold_units_by_type": {
       "4room": 23,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 240
     }
   },
   "115-bedok-nth-rd": {
@@ -746,6 +1214,15 @@
       "3room": 165,
       "4room": 33,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 682
     }
   },
   "115-bedok-reservoir-rd": {
@@ -759,6 +1236,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 475
     }
   },
   "115-lengkong-tiga": {
@@ -773,6 +1259,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 275
     }
   },
   "116-bedok-nth-rd": {
@@ -789,6 +1284,15 @@
       "4room": 36,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 800
     }
   },
   "116-bedok-reservoir-rd": {
@@ -804,6 +1308,15 @@
       "3room": 68,
       "4room": 48,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 435
     }
   },
   "116-lengkong-tiga": {
@@ -818,6 +1331,15 @@
     "sold_units_by_type": {
       "4room": 23,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 215
     }
   },
   "117-bedok-nth-rd": {
@@ -834,6 +1356,15 @@
       "4room": 36,
       "5room": 2,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 860
     }
   },
   "117-bedok-reservoir-rd": {
@@ -848,6 +1379,15 @@
     "sold_units_by_type": {
       "3room": 81,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 393
     }
   },
   "118-bedok-nth-st-2": {
@@ -862,6 +1402,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 813
     }
   },
   "118-bedok-reservoir-rd": {
@@ -875,6 +1424,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 425
     }
   },
   "119-bedok-nth-rd": {
@@ -888,6 +1446,15 @@
     "total_dwelling_units": 154,
     "sold_units_by_type": {
       "4room": 154
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 853
     }
   },
   "119-bedok-reservoir-rd": {
@@ -901,6 +1468,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 430
     }
   },
   "12-bedok-sth-ave-2": {
@@ -915,6 +1491,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 308
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 877
     }
   },
   "120-bedok-nth-st-2": {
@@ -929,6 +1514,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 861
     }
   },
   "120-bedok-reservoir-rd": {
@@ -942,6 +1536,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 456
     }
   },
   "121-bedok-nth-rd": {
@@ -955,6 +1558,15 @@
     "total_dwelling_units": 154,
     "sold_units_by_type": {
       "4room": 154
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 819
     }
   },
   "121-bedok-reservoir-rd": {
@@ -969,6 +1581,15 @@
     "sold_units_by_type": {
       "3room": 83,
       "4room": 17
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 413
     }
   },
   "122-bedok-nth-st-2": {
@@ -985,6 +1606,15 @@
       "4room": 20,
       "5room": 4,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 899
     }
   },
   "122-bedok-reservoir-rd": {
@@ -998,6 +1628,15 @@
     "total_dwelling_units": 126,
     "sold_units_by_type": {
       "4room": 126
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 366
     }
   },
   "123-bedok-nth-st-2": {
@@ -1012,6 +1651,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 923
     }
   },
   "123-bedok-reservoir-rd": {
@@ -1025,6 +1673,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 321
     }
   },
   "124-bedok-nth-rd": {
@@ -1039,6 +1696,15 @@
     "sold_units_by_type": {
       "3room": 121,
       "4room": 33
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 781
     }
   },
   "124-bedok-reservoir-rd": {
@@ -1052,6 +1718,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 279
     }
   },
   "125-bedok-nth-rd": {
@@ -1066,6 +1741,15 @@
     "sold_units_by_type": {
       "3room": 121,
       "4room": 33
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 760
     }
   },
   "125-bedok-reservoir-rd": {
@@ -1079,6 +1763,15 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "4room": 124
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 234
     }
   },
   "126-bedok-nth-st-2": {
@@ -1093,6 +1786,15 @@
     "sold_units_by_type": {
       "3room": 117,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 766
     }
   },
   "126-bedok-reservoir-rd": {
@@ -1107,6 +1809,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 312
     }
   },
   "127-bedok-nth-st-2": {
@@ -1122,6 +1833,15 @@
       "3room": 113,
       "4room": 39,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 871
     }
   },
   "127-bedok-reservoir-rd": {
@@ -1136,6 +1856,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 322
     }
   },
   "128-bedok-nth-st-2": {
@@ -1153,6 +1882,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 751
     }
   },
   "128-bedok-reservoir-rd": {
@@ -1167,6 +1905,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 301
     }
   },
   "129-bedok-nth-st-2": {
@@ -1182,6 +1929,15 @@
       "3room": 113,
       "4room": 38,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 857
     }
   },
   "129-bedok-reservoir-rd": {
@@ -1196,6 +1952,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 346
     }
   },
   "13-bedok-sth-rd": {
@@ -1210,6 +1975,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 234
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 3",
+      "distance": 880
     }
   },
   "130-bedok-nth-st-2": {
@@ -1223,6 +1997,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 858
     }
   },
   "130-bedok-reservoir-rd": {
@@ -1236,6 +2019,15 @@
     "total_dwelling_units": 70,
     "sold_units_by_type": {
       "exec": 70
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 387
     }
   },
   "131-bedok-nth-ave-3": {
@@ -1249,6 +2041,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 749
     }
   },
   "131-bedok-reservoir-rd": {
@@ -1263,6 +2064,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 348
     }
   },
   "132-bedok-nth-st-2": {
@@ -1276,6 +2086,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 873
     }
   },
   "132-bedok-reservoir-rd": {
@@ -1289,6 +2108,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 379
     }
   },
   "133-bedok-nth-ave-3": {
@@ -1302,6 +2130,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 767
     }
   },
   "133-bedok-reservoir-rd": {
@@ -1315,6 +2152,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 408
     }
   },
   "134-bedok-nth-st-2": {
@@ -1329,6 +2175,15 @@
     "sold_units_by_type": {
       "3room": 121,
       "4room": 33
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 890
     }
   },
   "134-bedok-reservoir-rd": {
@@ -1342,6 +2197,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 468
     }
   },
   "135-bedok-nth-st-2": {
@@ -1357,6 +2221,15 @@
       "3room": 119,
       "4room": 33,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 908
     }
   },
   "135-bedok-reservoir-rd": {
@@ -1370,6 +2243,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 422
     }
   },
   "136-bedok-nth-ave-3": {
@@ -1384,6 +2266,15 @@
     "sold_units_by_type": {
       "3room": 27,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 753
     }
   },
   "136-bedok-reservoir-rd": {
@@ -1398,6 +2289,15 @@
     "sold_units_by_type": {
       "3room": 87,
       "4room": 52
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 483
     }
   },
   "137-bedok-nth-ave-3": {
@@ -1412,6 +2312,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 824
     }
   },
   "137-bedok-reservoir-rd": {
@@ -1425,6 +2334,15 @@
     "total_dwelling_units": 70,
     "sold_units_by_type": {
       "exec": 70
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 458
     }
   },
   "138-bedok-nth-st-2": {
@@ -1444,6 +2362,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 794
     }
   },
   "138-bedok-reservoir-rd": {
@@ -1458,6 +2385,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 433
     }
   },
   "139-bedok-nth-ave-3": {
@@ -1472,6 +2408,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 820
     }
   },
   "139-bedok-reservoir-rd": {
@@ -1486,6 +2431,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 449
     }
   },
   "14-bedok-sth-ave-2": {
@@ -1499,6 +2453,15 @@
     "total_dwelling_units": 95,
     "sold_units_by_type": {
       "5room": 95
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 793
     }
   },
   "140-bedok-nth-st-2": {
@@ -1512,6 +2475,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "5room": 140
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 774
     }
   },
   "140-bedok-reservoir-rd": {
@@ -1526,6 +2498,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 445
     }
   },
   "141-bedok-reservoir-rd": {
@@ -1540,6 +2521,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 451
     }
   },
   "142-bedok-reservoir-rd": {
@@ -1554,6 +2544,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 431
     }
   },
   "143-bedok-reservoir-rd": {
@@ -1569,6 +2568,15 @@
       "3room": 30,
       "4room": 16,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 375
     }
   },
   "144-bedok-reservoir-rd": {
@@ -1583,6 +2591,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 350
     }
   },
   "145-bedok-reservoir-rd": {
@@ -1596,6 +2613,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 324
     }
   },
   "146-bedok-reservoir-rd": {
@@ -1610,6 +2636,15 @@
     "sold_units_by_type": {
       "4room": 82,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 300
     }
   },
   "147-bedok-reservoir-rd": {
@@ -1624,6 +2659,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 268
     }
   },
   "148-bedok-reservoir-rd": {
@@ -1637,6 +2681,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 278
     }
   },
   "149-bedok-reservoir-rd": {
@@ -1650,6 +2703,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 379
     }
   },
   "15-bedok-sth-rd": {
@@ -1663,6 +2725,15 @@
     "total_dwelling_units": 182,
     "sold_units_by_type": {
       "4room": 182
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 752
     }
   },
   "150-bedok-reservoir-rd": {
@@ -1677,6 +2748,15 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 52
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 375
     }
   },
   "151-bedok-reservoir-rd": {
@@ -1691,6 +2771,15 @@
     "sold_units_by_type": {
       "3room": 53,
       "4room": 52
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit A",
+      "distance": 240
     }
   },
   "152a-bedok-sth-rd": {
@@ -1706,6 +2795,15 @@
       "2room": 28,
       "4room": 41,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 699
     }
   },
   "152b-bedok-sth-rd": {
@@ -1721,6 +2819,15 @@
       "2room": 45,
       "4room": 28,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 729
     }
   },
   "152c-bedok-sth-rd": {
@@ -1735,6 +2842,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 752
     }
   },
   "153a-bedok-sth-rd": {
@@ -1749,6 +2865,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 808
     }
   },
   "153b-bedok-sth-rd": {
@@ -1763,6 +2888,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 740
     }
   },
   "153c-bedok-sth-rd": {
@@ -1777,6 +2911,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 709
     }
   },
   "154a-bedok-sth-rd": {
@@ -1791,6 +2934,15 @@
     "sold_units_by_type": {
       "2room": 68,
       "4room": 85
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 688
     }
   },
   "154b-bedok-sth-rd": {
@@ -1805,6 +2957,15 @@
     "sold_units_by_type": {
       "2room": 68,
       "4room": 83
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 662
     }
   },
   "155-bedok-sth-ave-3": {
@@ -1818,6 +2979,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 677
     }
   },
   "156-bedok-sth-ave-3": {
@@ -1832,6 +3002,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 614
     }
   },
   "157-bedok-sth-ave-3": {
@@ -1845,6 +3024,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 671
     }
   },
   "158-bedok-sth-ave-3": {
@@ -1859,6 +3047,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 638
     }
   },
   "159-bedok-sth-ave-3": {
@@ -1872,6 +3069,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 696
     }
   },
   "160-bedok-sth-ave-3": {
@@ -1885,6 +3091,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 697
     }
   },
   "161-bedok-sth-ave-3": {
@@ -1898,6 +3113,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 746
     }
   },
   "162-bedok-sth-rd": {
@@ -1911,6 +3135,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 780
     }
   },
   "163-bedok-sth-rd": {
@@ -1924,6 +3157,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 798
     }
   },
   "164-bedok-sth-rd": {
@@ -1938,6 +3180,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 755
     }
   },
   "165-bedok-sth-rd": {
@@ -1951,6 +3202,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 729
     }
   },
   "166-bedok-sth-ave-3": {
@@ -1964,6 +3224,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 761
     }
   },
   "167-bedok-sth-ave-3": {
@@ -1977,6 +3246,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 726
     }
   },
   "168-bedok-sth-ave-3": {
@@ -1991,6 +3269,15 @@
     "sold_units_by_type": {
       "3room": 14,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 754
     }
   },
   "169-bedok-sth-ave-3": {
@@ -2004,6 +3291,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 723
     }
   },
   "170-bedok-sth-rd": {
@@ -2018,6 +3314,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 683
     }
   },
   "171-bedok-sth-rd": {
@@ -2032,6 +3337,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 664
     }
   },
   "172-bedok-sth-rd": {
@@ -2046,6 +3360,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 699
     }
   },
   "18-bedok-sth-rd": {
@@ -2060,6 +3383,15 @@
     "sold_units_by_type": {
       "3room": 264,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 693
     }
   },
   "180-bedok-nth-rd": {
@@ -2074,6 +3406,15 @@
     "sold_units_by_type": {
       "4room": 136,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 538
     }
   },
   "181-bedok-nth-rd": {
@@ -2088,6 +3429,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 497
     }
   },
   "182-bedok-nth-rd": {
@@ -2102,6 +3452,15 @@
     "sold_units_by_type": {
       "4room": 136,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 433
     }
   },
   "183-bedok-nth-rd": {
@@ -2115,6 +3474,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "4room": 144
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 436
     }
   },
   "185-bedok-nth-rd": {
@@ -2128,6 +3496,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "4room": 144
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 552
     }
   },
   "186a-bedok-nth-st-4": {
@@ -2142,6 +3519,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 680
     }
   },
   "186b-bedok-nth-st-4": {
@@ -2156,6 +3542,15 @@
     "sold_units_by_type": {
       "3room": 36,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 636
     }
   },
   "187a-bedok-nth-st-4": {
@@ -2170,6 +3565,15 @@
     "sold_units_by_type": {
       "4room": 108,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 745
     }
   },
   "187b-bedok-nth-st-4": {
@@ -2184,6 +3588,15 @@
     "sold_units_by_type": {
       "4room": 108,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 727
     }
   },
   "188a-bedok-nth-st-4": {
@@ -2198,6 +3611,15 @@
     "sold_units_by_type": {
       "3room": 22,
       "4room": 82
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 702
     }
   },
   "188b-bedok-nth-st-4": {
@@ -2212,6 +3634,15 @@
     "sold_units_by_type": {
       "3room": 58,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 722
     }
   },
   "188c-bedok-nth-st-4": {
@@ -2228,6 +3659,15 @@
       "3room": 30,
       "4room": 30,
       "studio_apartment": 23
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 761
     }
   },
   "188d-bedok-nth-st-4": {
@@ -2244,6 +3684,15 @@
       "3room": 36,
       "4room": 36,
       "studio_apartment": 51
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 776
     }
   },
   "19-bedok-sth-rd": {
@@ -2257,6 +3706,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 709
     }
   },
   "19-chai-chee-rd": {
@@ -2271,6 +3729,15 @@
     "sold_units_by_type": {
       "3room": 135,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 847
     }
   },
   "2-bedok-sth-ave-1": {
@@ -2285,6 +3752,15 @@
     "sold_units_by_type": {
       "3room": 206,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 521
     }
   },
   "2-chai-chee-rd": {
@@ -2300,6 +3776,15 @@
       "3room": 10,
       "4room": 20,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 796
     }
   },
   "20-bedok-sth-rd": {
@@ -2313,6 +3798,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 647
     }
   },
   "20-chai-chee-rd": {
@@ -2327,6 +3821,15 @@
     "sold_units_by_type": {
       "3room": 162,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 759
     }
   },
   "201-bedok-nth-st-1": {
@@ -2341,6 +3844,15 @@
     "sold_units_by_type": {
       "3room": 204,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 258
     }
   },
   "202-bedok-nth-st-1": {
@@ -2356,6 +3868,15 @@
       "3room": 214,
       "5room": 3,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 236
     }
   },
   "203-bedok-nth-st-1": {
@@ -2369,6 +3890,15 @@
     "total_dwelling_units": 23,
     "sold_units_by_type": {
       "3room": 23
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 173
     }
   },
   "204-bedok-nth-st-1": {
@@ -2385,6 +3915,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 235
     }
   },
   "205-bedok-nth-st-1": {
@@ -2398,6 +3937,15 @@
     "total_dwelling_units": 39,
     "sold_units_by_type": {
       "3room": 39
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 223
     }
   },
   "208-new-upp-changi-rd": {
@@ -2411,6 +3959,15 @@
     "total_dwelling_units": 42,
     "sold_units_by_type": {
       "3room": 42
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 223
     }
   },
   "21-bedok-sth-rd": {
@@ -2424,6 +3981,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 586
     }
   },
   "21-chai-chee-rd": {
@@ -2438,6 +4004,15 @@
     "sold_units_by_type": {
       "3room": 162,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 788
     }
   },
   "210-new-upp-changi-rd": {
@@ -2452,6 +4027,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 247
     }
   },
   "211-new-upp-changi-rd": {
@@ -2465,6 +4049,15 @@
     "total_dwelling_units": 33,
     "sold_units_by_type": {
       "3room": 33
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 290
     }
   },
   "213-bedok-nth-st-1": {
@@ -2480,6 +4073,15 @@
       "3room": 134,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 403
     }
   },
   "214-bedok-nth-st-1": {
@@ -2494,6 +4096,15 @@
     "sold_units_by_type": {
       "3room": 114,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 361
     }
   },
   "217-bedok-nth-st-1": {
@@ -2507,6 +4118,15 @@
     "total_dwelling_units": 31,
     "sold_units_by_type": {
       "3room": 31
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 552
     }
   },
   "218-bedok-nth-st-1": {
@@ -2521,6 +4141,15 @@
     "sold_units_by_type": {
       "3room": 53,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 622
     }
   },
   "219a-bedok-ctrl": {
@@ -2535,6 +4164,15 @@
     "sold_units_by_type": {
       "3room": 47,
       "4room": 47
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 417
     }
   },
   "219b-bedok-ctrl": {
@@ -2549,6 +4187,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 451
     }
   },
   "219c-bedok-ctrl": {
@@ -2563,6 +4210,15 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 433
     }
   },
   "219d-bedok-ctrl": {
@@ -2577,6 +4233,15 @@
     "sold_units_by_type": {
       "3room": 33,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 463
     }
   },
   "22-bedok-sth-ave-1": {
@@ -2591,6 +4256,15 @@
     "sold_units_by_type": {
       "3room": 130,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 388
     }
   },
   "22-chai-chee-rd": {
@@ -2605,6 +4279,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 264
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 838
     }
   },
   "220a-bedok-ctrl": {
@@ -2619,6 +4302,15 @@
     "sold_units_by_type": {
       "3room": 63,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 570
     }
   },
   "220b-bedok-ctrl": {
@@ -2633,6 +4325,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 537
     }
   },
   "220c-bedok-ctrl": {
@@ -2647,6 +4348,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 486
     }
   },
   "221a-bedok-ctrl": {
@@ -2661,6 +4371,15 @@
     "sold_units_by_type": {
       "4room": 79,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 576
     }
   },
   "221b-bedok-ctrl": {
@@ -2675,6 +4394,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 542
     }
   },
   "221c-bedok-ctrl": {
@@ -2689,6 +4417,15 @@
     "sold_units_by_type": {
       "3room": 33,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 513
     }
   },
   "222a-bedok-nth-dr": {
@@ -2702,6 +4439,15 @@
     "total_dwelling_units": 136,
     "sold_units_by_type": {
       "4room": 136
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 209
     }
   },
   "222b-bedok-nth-dr": {
@@ -2716,6 +4462,15 @@
     "sold_units_by_type": {
       "2room": 28,
       "4room": 134
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 173
     }
   },
   "222c-bedok-nth-dr": {
@@ -2730,6 +4485,15 @@
     "sold_units_by_type": {
       "2room": 172,
       "4room": 30
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 137
     }
   },
   "23-bedok-sth-ave-1": {
@@ -2744,6 +4508,15 @@
     "sold_units_by_type": {
       "3room": 130,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 360
     }
   },
   "23-chai-chee-rd": {
@@ -2758,6 +4531,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 264
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 750
     }
   },
   "24-chai-chee-rd": {
@@ -2772,6 +4554,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 264
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 749
     }
   },
   "24-new-upp-changi-rd": {
@@ -2786,6 +4577,15 @@
     "sold_units_by_type": {
       "3room": 130,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 417
     }
   },
   "25-chai-chee-rd": {
@@ -2800,6 +4600,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 556
     }
   },
   "25-new-upp-changi-rd": {
@@ -2813,6 +4622,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 476
     }
   },
   "26-chai-chee-rd": {
@@ -2827,6 +4645,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 55
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 616
     }
   },
   "26-new-upp-changi-rd": {
@@ -2840,6 +4667,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 515
     }
   },
   "27-chai-chee-rd": {
@@ -2854,6 +4690,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 632
     }
   },
   "27-new-upp-changi-rd": {
@@ -2868,6 +4713,15 @@
     "sold_units_by_type": {
       "3room": 230,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 584
     }
   },
   "28-new-upp-changi-rd": {
@@ -2882,6 +4736,15 @@
     "sold_units_by_type": {
       "3room": 228,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 595
     }
   },
   "29-chai-chee-ave": {
@@ -2895,6 +4758,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 548
     }
   },
   "29-new-upp-changi-rd": {
@@ -2909,6 +4781,15 @@
     "sold_units_by_type": {
       "3room": 228,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 742
     }
   },
   "29a-chai-chee-ave": {
@@ -2922,6 +4803,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "exec": 68
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 578
     }
   },
   "3-bedok-sth-ave-1": {
@@ -2936,6 +4826,15 @@
     "sold_units_by_type": {
       "3room": 204,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 470
     }
   },
   "30-chai-chee-ave": {
@@ -2950,6 +4849,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 216
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 480
     }
   },
   "30-new-upp-changi-rd": {
@@ -2964,6 +4872,15 @@
     "sold_units_by_type": {
       "3room": 226,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 755
     }
   },
   "31-bedok-sth-ave-2": {
@@ -2977,6 +4894,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 950
     }
   },
   "31-chai-chee-ave": {
@@ -2991,6 +4917,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 216
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 481
     }
   },
   "32-bedok-sth-ave-2": {
@@ -3004,6 +4939,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 923
     }
   },
   "32-chai-chee-ave": {
@@ -3018,6 +4962,15 @@
     "sold_units_by_type": {
       "3room": 254,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 462
     }
   },
   "33-bedok-sth-ave-2": {
@@ -3034,6 +4987,15 @@
       "4room": 28,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 866
     }
   },
   "33-chai-chee-ave": {
@@ -3047,6 +5009,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 371
     }
   },
   "34-bedok-sth-ave-2": {
@@ -3060,6 +5031,15 @@
     "total_dwelling_units": 210,
     "sold_units_by_type": {
       "4room": 210
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 3",
+      "distance": 980
     }
   },
   "34-chai-chee-ave": {
@@ -3073,6 +5053,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 313
     }
   },
   "35-bedok-sth-ave-2": {
@@ -3086,6 +5075,15 @@
     "total_dwelling_units": 210,
     "sold_units_by_type": {
       "4room": 210
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 838
     }
   },
   "35-chai-chee-ave": {
@@ -3099,6 +5097,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 351
     }
   },
   "36-bedok-sth-ave-2": {
@@ -3112,6 +5119,15 @@
     "total_dwelling_units": 210,
     "sold_units_by_type": {
       "4room": 210
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 3",
+      "distance": 932
     }
   },
   "36-chai-chee-ave": {
@@ -3126,6 +5142,15 @@
     "sold_units_by_type": {
       "3room": 119,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 458
     }
   },
   "37-bedok-sth-ave-2": {
@@ -3139,6 +5164,15 @@
     "total_dwelling_units": 210,
     "sold_units_by_type": {
       "4room": 210
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 860
     }
   },
   "37-chai-chee-ave": {
@@ -3153,6 +5187,15 @@
     "sold_units_by_type": {
       "3room": 119,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 386
     }
   },
   "38-bedok-sth-rd": {
@@ -3169,6 +5212,15 @@
     },
     "rental_units_by_type": {
       "2room": 138
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 3",
+      "distance": 830
     }
   },
   "38-chai-chee-ave": {
@@ -3183,6 +5235,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 189
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 448
     }
   },
   "39-bedok-sth-rd": {
@@ -3197,6 +5258,15 @@
     "sold_units_by_type": {
       "3room": 140,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 3",
+      "distance": 878
     }
   },
   "39-chai-chee-ave": {
@@ -3211,6 +5281,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 189
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 462
     }
   },
   "4-bedok-sth-ave-1": {
@@ -3225,6 +5304,15 @@
     "sold_units_by_type": {
       "3room": 204,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 460
     }
   },
   "40-bedok-sth-rd": {
@@ -3240,6 +5328,15 @@
       "3room": 138,
       "4room": 28,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 3",
+      "distance": 831
     }
   },
   "40-chai-chee-ave": {
@@ -3254,6 +5351,15 @@
     "sold_units_by_type": {
       "3room": 126,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 391
     }
   },
   "401-bedok-nth-ave-3": {
@@ -3269,6 +5375,15 @@
       "3room": 166,
       "4room": 24,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 602
     }
   },
   "402-bedok-nth-ave-3": {
@@ -3284,6 +5399,15 @@
       "3room": 166,
       "4room": 24,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 650
     }
   },
   "403-bedok-nth-ave-3": {
@@ -3297,6 +5421,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 736
     }
   },
   "404-bedok-nth-ave-3": {
@@ -3310,6 +5443,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 739
     }
   },
   "405-bedok-nth-ave-3": {
@@ -3323,6 +5465,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 697
     }
   },
   "406-bedok-nth-ave-3": {
@@ -3336,6 +5487,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 691
     }
   },
   "407-bedok-nth-ave-3": {
@@ -3349,6 +5509,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 645
     }
   },
   "408-bedok-nth-ave-2": {
@@ -3362,6 +5531,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 591
     }
   },
   "409-bedok-nth-ave-2": {
@@ -3377,6 +5555,15 @@
       "3room": 136,
       "4room": 20,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 560
     }
   },
   "41-bedok-sth-rd": {
@@ -3390,6 +5577,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 3",
+      "distance": 832
     }
   },
   "41-chai-chee-st": {
@@ -3407,6 +5603,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 517
     }
   },
   "410-bedok-nth-ave-2": {
@@ -3422,6 +5627,15 @@
       "3room": 136,
       "4room": 20,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 469
     }
   },
   "411-bedok-nth-ave-2": {
@@ -3435,6 +5649,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 506
     }
   },
   "412-bedok-nth-ave-2": {
@@ -3449,6 +5672,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "4room": 14
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 580
     }
   },
   "413-bedok-nth-ave-2": {
@@ -3462,6 +5694,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 689
     }
   },
   "414-bedok-nth-ave-2": {
@@ -3475,6 +5716,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 643
     }
   },
   "415-bedok-nth-ave-2": {
@@ -3488,6 +5738,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 602
     }
   },
   "416-bedok-nth-ave-2": {
@@ -3504,6 +5763,15 @@
       "4room": 14,
       "5room": 3,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 473
     }
   },
   "417-bedok-nth-ave-2": {
@@ -3517,6 +5785,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 379
     }
   },
   "418-bedok-nth-ave-2": {
@@ -3532,6 +5809,15 @@
       "3room": 142,
       "4room": 14,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 479
     }
   },
   "419-bedok-nth-st-1": {
@@ -3548,6 +5834,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 345
     }
   },
   "42-bedok-sth-rd": {
@@ -3561,6 +5856,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 822
     }
   },
   "42-chai-chee-st": {
@@ -3577,6 +5881,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 590
     }
   },
   "420-bedok-nth-st-1": {
@@ -3592,6 +5905,15 @@
       "3room": 240,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 397
     }
   },
   "421-bedok-nth-rd": {
@@ -3605,6 +5927,15 @@
     "total_dwelling_units": 156,
     "sold_units_by_type": {
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 450
     }
   },
   "422-bedok-nth-rd": {
@@ -3618,6 +5949,15 @@
     "total_dwelling_units": 156,
     "sold_units_by_type": {
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 499
     }
   },
   "423-bedok-nth-ave-1": {
@@ -3634,6 +5974,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 474
     }
   },
   "424-bedok-nth-ave-1": {
@@ -3653,6 +6002,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 522
     }
   },
   "425-bedok-nth-rd": {
@@ -3668,6 +6026,15 @@
       "3room": 130,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 571
     }
   },
   "426-bedok-nth-rd": {
@@ -3686,6 +6053,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 620
     }
   },
   "427-bedok-nth-rd": {
@@ -3699,6 +6075,15 @@
     "total_dwelling_units": 154,
     "sold_units_by_type": {
       "4room": 154
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 580
     }
   },
   "428-bedok-nth-rd": {
@@ -3712,6 +6097,15 @@
     "total_dwelling_units": 154,
     "sold_units_by_type": {
       "4room": 154
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 628
     }
   },
   "429a-bedok-nth-rd": {
@@ -3727,6 +6121,15 @@
     "rental_units_by_type": {
       "1room": 128,
       "2room": 175
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 633
     }
   },
   "429b-bedok-nth-rd": {
@@ -3741,6 +6144,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 43
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 688
     }
   },
   "43-bedok-sth-rd": {
@@ -3754,6 +6166,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 753
     }
   },
   "43-chai-chee-st": {
@@ -3767,6 +6188,15 @@
     "total_dwelling_units": 176,
     "sold_units_by_type": {
       "4room": 176
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 632
     }
   },
   "430a-bedok-nth-rd": {
@@ -3781,6 +6211,15 @@
     "sold_units_by_type": {
       "3room": 31,
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 708
     }
   },
   "431a-bedok-nth-rd": {
@@ -3795,6 +6234,15 @@
     "sold_units_by_type": {
       "3room": 31,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 641
     }
   },
   "44-bedok-sth-rd": {
@@ -3808,6 +6256,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 786
     }
   },
   "44-chai-chee-st": {
@@ -3827,6 +6284,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 689
     }
   },
   "45-chai-chee-st": {
@@ -3842,6 +6308,15 @@
       "3room": 196,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 746
     }
   },
   "5-bedok-sth-ave-2": {
@@ -3855,6 +6330,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 574
     }
   },
   "50-chai-chee-st": {
@@ -3870,6 +6354,15 @@
       "3room": 218,
       "4room": 44,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 657
     }
   },
   "501-bedok-nth-st-3": {
@@ -3884,6 +6377,15 @@
     "sold_units_by_type": {
       "3room": 232,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 557
     }
   },
   "502-bedok-nth-st-3": {
@@ -3897,6 +6399,15 @@
     "total_dwelling_units": 234,
     "sold_units_by_type": {
       "3room": 234
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 596
     }
   },
   "503-bedok-nth-st-3": {
@@ -3911,6 +6422,15 @@
     "sold_units_by_type": {
       "3room": 228,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 543
     }
   },
   "504-bedok-nth-st-3": {
@@ -3925,6 +6445,15 @@
     "sold_units_by_type": {
       "3room": 230,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 500
     }
   },
   "505-bedok-nth-ave-3": {
@@ -3938,6 +6467,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 505
     }
   },
   "506-bedok-nth-ave-3": {
@@ -3951,6 +6489,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 477
     }
   },
   "507-bedok-nth-ave-3": {
@@ -3964,6 +6511,15 @@
     "total_dwelling_units": 156,
     "sold_units_by_type": {
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 376
     }
   },
   "508-bedok-nth-ave-3": {
@@ -3977,6 +6533,15 @@
     "total_dwelling_units": 156,
     "sold_units_by_type": {
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 330
     }
   },
   "509-bedok-nth-st-3": {
@@ -3991,6 +6556,15 @@
     "sold_units_by_type": {
       "3room": 54,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 396
     }
   },
   "509b-bedok-nth-st-3": {
@@ -4005,6 +6579,15 @@
     "sold_units_by_type": {
       "2room": 54,
       "studio_apartment": 76
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 405
     }
   },
   "51-chai-chee-st": {
@@ -4019,6 +6602,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 106
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 686
     }
   },
   "51-new-upp-changi-rd": {
@@ -4032,6 +6624,15 @@
     "total_dwelling_units": 240,
     "sold_units_by_type": {
       "4room": 240
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 547
     }
   },
   "510-bedok-nth-st-3": {
@@ -4047,6 +6648,15 @@
       "3room": 66,
       "4room": 6,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 512
     }
   },
   "512-bedok-nth-ave-2": {
@@ -4060,6 +6670,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 529
     }
   },
   "513-bedok-nth-ave-2": {
@@ -4073,6 +6692,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 552
     }
   },
   "514-bedok-nth-ave-2": {
@@ -4089,6 +6717,15 @@
     },
     "rental_units_by_type": {
       "2room": 91
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 636
     }
   },
   "515-bedok-nth-ave-2": {
@@ -4103,6 +6740,15 @@
     "sold_units_by_type": {
       "3room": 35,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 595
     }
   },
   "516-bedok-nth-ave-2": {
@@ -4116,6 +6762,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 668
     }
   },
   "517-bedok-nth-ave-2": {
@@ -4129,6 +6784,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 714
     }
   },
   "518-bedok-nth-ave-2": {
@@ -4142,6 +6806,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 744
     }
   },
   "519-bedok-nth-ave-1": {
@@ -4157,6 +6830,15 @@
       "3room": 170,
       "4room": 22,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 756
     }
   },
   "52-chai-chee-st": {
@@ -4171,6 +6853,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 643
     }
   },
   "52-new-upp-changi-rd": {
@@ -4184,6 +6875,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 491
     }
   },
   "520-bedok-nth-ave-1": {
@@ -4200,6 +6900,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 710
     }
   },
   "521-bedok-nth-ave-1": {
@@ -4215,6 +6924,15 @@
       "3room": 130,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 726
     }
   },
   "522-bedok-nth-ave-1": {
@@ -4230,6 +6948,15 @@
       "3room": 130,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 772
     }
   },
   "523-bedok-nth-st-3": {
@@ -4243,6 +6970,15 @@
     "total_dwelling_units": 168,
     "sold_units_by_type": {
       "4room": 168
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 336
     }
   },
   "524-bedok-nth-st-3": {
@@ -4256,6 +6992,15 @@
     "total_dwelling_units": 168,
     "sold_units_by_type": {
       "4room": 168
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 301
     }
   },
   "525-bedok-nth-st-3": {
@@ -4272,6 +7017,15 @@
       "4room": 24,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 429
     }
   },
   "526-bedok-nth-st-3": {
@@ -4287,6 +7041,15 @@
       "3room": 238,
       "4room": 24,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 480
     }
   },
   "527-bedok-nth-st-3": {
@@ -4302,6 +7065,15 @@
       "3room": 23,
       "4room": 6,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 591
     }
   },
   "528-bedok-nth-st-3": {
@@ -4316,6 +7088,15 @@
     "sold_units_by_type": {
       "3room": 128,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 584
     }
   },
   "529-bedok-nth-st-3": {
@@ -4332,6 +7113,15 @@
       "4room": 24,
       "5room": 5,
       "exec": 6
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 742
     }
   },
   "53-chai-chee-st": {
@@ -4346,6 +7136,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 642
     }
   },
   "53-new-upp-changi-rd": {
@@ -4359,6 +7158,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 468
     }
   },
   "530-bedok-nth-st-3": {
@@ -4375,6 +7183,15 @@
       "4room": 24,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 715
     }
   },
   "531-bedok-nth-st-3": {
@@ -4389,6 +7206,15 @@
     "sold_units_by_type": {
       "3room": 25,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 792
     }
   },
   "532-bedok-nth-st-3": {
@@ -4404,6 +7230,15 @@
       "3room": 124,
       "4room": 64,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 695
     }
   },
   "533-bedok-nth-st-3": {
@@ -4420,6 +7255,15 @@
       "4room": 24,
       "5room": 4,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 572
     }
   },
   "534-bedok-nth-st-3": {
@@ -4439,6 +7283,15 @@
     },
     "rental_units_by_type": {
       "2room": 3
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 648
     }
   },
   "535-bedok-nth-st-3": {
@@ -4457,6 +7310,15 @@
     },
     "rental_units_by_type": {
       "2room": 3
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 515
     }
   },
   "536-bedok-nth-st-3": {
@@ -4475,6 +7337,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 460
     }
   },
   "537-bedok-nth-st-3": {
@@ -4488,6 +7359,15 @@
     "total_dwelling_units": 82,
     "sold_units_by_type": {
       "3room": 82
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 634
     }
   },
   "539-bedok-nth-st-3": {
@@ -4504,6 +7384,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 763
     }
   },
   "54-chai-chee-st": {
@@ -4519,6 +7408,15 @@
       "3room": 178,
       "4room": 75,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 569
     }
   },
   "54-new-upp-changi-rd": {
@@ -4532,6 +7430,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 423
     }
   },
   "540-bedok-nth-st-3": {
@@ -4548,6 +7455,15 @@
       "4room": 20,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 477
     }
   },
   "541-bedok-nth-st-3": {
@@ -4564,6 +7480,15 @@
     },
     "rental_units_by_type": {
       "2room": 113
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 535
     }
   },
   "542-bedok-nth-st-3": {
@@ -4579,6 +7504,15 @@
       "3room": 176,
       "4room": 20,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 573
     }
   },
   "543-bedok-nth-st-3": {
@@ -4592,6 +7526,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 629
     }
   },
   "544-bedok-nth-st-3": {
@@ -4606,6 +7549,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 286
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 703
     }
   },
   "545-bedok-nth-st-3": {
@@ -4624,6 +7576,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 725
     }
   },
   "546-bedok-nth-st-3": {
@@ -4639,6 +7600,15 @@
       "3room": 118,
       "4room": 24,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 816
     }
   },
   "547-bedok-nth-st-3": {
@@ -4652,6 +7622,15 @@
     "total_dwelling_units": 240,
     "sold_units_by_type": {
       "4room": 240
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 823
     }
   },
   "547a-bedok-nth-ave-1": {
@@ -4666,6 +7645,15 @@
     "sold_units_by_type": {
       "2room": 54,
       "3room": 54
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 746
     }
   },
   "547b-bedok-nth-ave-1": {
@@ -4680,6 +7668,15 @@
     "sold_units_by_type": {
       "2room": 67,
       "3room": 40
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 771
     }
   },
   "548-bedok-nth-ave-1": {
@@ -4697,6 +7694,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 843
     }
   },
   "549-bedok-nth-ave-1": {
@@ -4712,6 +7718,15 @@
       "3room": 128,
       "4room": 22,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 853
     }
   },
   "55-chai-chee-dr": {
@@ -4727,6 +7742,15 @@
       "3room": 258,
       "4room": 60,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 814
     }
   },
   "55-new-upp-changi-rd": {
@@ -4740,6 +7764,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 454
     }
   },
   "550-bedok-nth-ave-1": {
@@ -4756,6 +7789,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 807
     }
   },
   "551-bedok-nth-ave-1": {
@@ -4769,6 +7811,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "3room": 20
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 793
     }
   },
   "552-bedok-nth-ave-1": {
@@ -4783,6 +7834,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 756
     }
   },
   "553-bedok-nth-ave-1": {
@@ -4797,6 +7857,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 780
     }
   },
   "554-bedok-nth-st-3": {
@@ -4813,6 +7882,15 @@
       "4room": 20,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 668
     }
   },
   "556-bedok-nth-st-3": {
@@ -4828,6 +7906,15 @@
     "rental_units_by_type": {
       "1room": 126,
       "2room": 140
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 418
     }
   },
   "557-bedok-nth-st-3": {
@@ -4843,6 +7930,15 @@
     "rental_units_by_type": {
       "1room": 154,
       "2room": 126
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 387
     }
   },
   "56-chai-chee-dr": {
@@ -4856,6 +7952,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 876
     }
   },
   "56-new-upp-changi-rd": {
@@ -4869,6 +7974,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 563
     }
   },
   "57-chai-chee-dr": {
@@ -4883,6 +7997,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 927
     }
   },
   "57-new-upp-changi-rd": {
@@ -4896,6 +8019,15 @@
     "total_dwelling_units": 238,
     "sold_units_by_type": {
       "3room": 238
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 552
     }
   },
   "58-chai-chee-dr": {
@@ -4911,6 +8043,15 @@
       "3room": 91,
       "4room": 45,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 920
     }
   },
   "59-chai-chee-rd": {
@@ -4926,6 +8067,15 @@
       "3room": 181,
       "4room": 51,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "kembangan",
+      "name": "Kembangan",
+      "codes": [
+        "EW6"
+      ],
+      "exit": "Exit B",
+      "distance": 916
     }
   },
   "59-new-upp-changi-rd": {
@@ -4939,6 +8089,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 647
     }
   },
   "6-bedok-sth-ave-2": {
@@ -4952,6 +8111,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 634
     }
   },
   "60-chai-chee-rd": {
@@ -4966,6 +8134,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 887
     }
   },
   "60-new-upp-changi-rd": {
@@ -4979,6 +8156,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 701
     }
   },
   "601-bedok-reservoir-rd": {
@@ -4993,6 +8179,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 112
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 606
     }
   },
   "602-bedok-reservoir-rd": {
@@ -5007,6 +8202,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 676
     }
   },
   "603-bedok-reservoir-rd": {
@@ -5021,6 +8225,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 660
     }
   },
   "604-bedok-reservoir-rd": {
@@ -5035,6 +8248,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 642
     }
   },
   "605-bedok-reservoir-rd": {
@@ -5049,6 +8271,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 100
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 667
     }
   },
   "606-bedok-reservoir-rd": {
@@ -5065,6 +8296,15 @@
       "4room": 20,
       "5room": 2,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 570
     }
   },
   "607-bedok-reservoir-rd": {
@@ -5079,6 +8319,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 597
     }
   },
   "608-bedok-reservoir-rd": {
@@ -5095,6 +8344,15 @@
       "4room": 30,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 566
     }
   },
   "609-bedok-reservoir-rd": {
@@ -5110,6 +8368,15 @@
       "3room": 176,
       "4room": 36,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 496
     }
   },
   "609a-bedok-reservoir-rd": {
@@ -5124,6 +8391,15 @@
     "sold_units_by_type": {
       "2room": 39,
       "studio_apartment": 90
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 460
     }
   },
   "61-chai-chee-rd": {
@@ -5137,6 +8413,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 951
     }
   },
   "61-new-upp-changi-rd": {
@@ -5150,6 +8435,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 721
     }
   },
   "610-bedok-reservoir-rd": {
@@ -5164,6 +8458,15 @@
     "sold_units_by_type": {
       "3room": 20,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 567
     }
   },
   "611-bedok-reservoir-rd": {
@@ -5178,6 +8481,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 479
     }
   },
   "612-bedok-reservoir-rd": {
@@ -5192,6 +8504,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 371
     }
   },
   "613-bedok-reservoir-rd": {
@@ -5206,6 +8527,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 100
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 294
     }
   },
   "613a-bedok-reservoir-rd": {
@@ -5220,6 +8550,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 206
     }
   },
   "613b-bedok-reservoir-rd": {
@@ -5234,6 +8573,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 180
     }
   },
   "614-bedok-reservoir-rd": {
@@ -5248,6 +8596,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 251
     }
   },
   "615-bedok-reservoir-rd": {
@@ -5264,6 +8621,15 @@
       "4room": 20,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 324
     }
   },
   "616-bedok-reservoir-rd": {
@@ -5279,6 +8645,15 @@
       "3room": 176,
       "4room": 20,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 408
     }
   },
   "617-bedok-reservoir-rd": {
@@ -5294,6 +8669,15 @@
       "2room": 31,
       "3room": 63,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 204
     }
   },
   "618-bedok-reservoir-rd": {
@@ -5312,6 +8696,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 178
     }
   },
   "619-bedok-reservoir-rd": {
@@ -5327,6 +8720,15 @@
       "3room": 68,
       "4room": 20,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 109
     }
   },
   "62-chai-chee-rd": {
@@ -5341,6 +8743,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 903
     }
   },
   "62-new-upp-changi-rd": {
@@ -5354,6 +8765,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 752
     }
   },
   "620-bedok-reservoir-rd": {
@@ -5373,6 +8793,15 @@
     },
     "rental_units_by_type": {
       "2room": 6
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 15
     }
   },
   "621-bedok-reservoir-rd": {
@@ -5387,6 +8816,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 106
     }
   },
   "622-bedok-reservoir-rd": {
@@ -5400,6 +8838,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 109
     }
   },
   "623-bedok-reservoir-rd": {
@@ -5413,6 +8860,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 140
     }
   },
   "624-bedok-reservoir-rd": {
@@ -5427,6 +8883,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 158
     }
   },
   "625-bedok-reservoir-rd": {
@@ -5441,6 +8906,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 193
     }
   },
   "626-bedok-reservoir-rd": {
@@ -5454,6 +8928,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 237
     }
   },
   "627-bedok-reservoir-rd": {
@@ -5467,6 +8950,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 251
     }
   },
   "628-bedok-reservoir-rd": {
@@ -5481,6 +8973,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 316
     }
   },
   "629-bedok-reservoir-rd": {
@@ -5495,6 +8996,15 @@
     "sold_units_by_type": {
       "5room": 58,
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 368
     }
   },
   "63-chai-chee-rd": {
@@ -5509,6 +9019,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 901
     }
   },
   "63-new-upp-changi-rd": {
@@ -5522,6 +9041,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 735
     }
   },
   "631-bedok-reservoir-rd": {
@@ -5536,6 +9064,15 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 358
     }
   },
   "632-bedok-reservoir-rd": {
@@ -5553,6 +9090,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit C",
+      "distance": 485
     }
   },
   "633-bedok-reservoir-rd": {
@@ -5566,6 +9112,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 596
     }
   },
   "634-bedok-reservoir-rd": {
@@ -5579,6 +9134,15 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "exec": 65
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 553
     }
   },
   "635-bedok-reservoir-rd": {
@@ -5592,6 +9156,15 @@
     "total_dwelling_units": 53,
     "sold_units_by_type": {
       "exec": 53
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 562
     }
   },
   "636-bedok-reservoir-rd": {
@@ -5605,6 +9178,15 @@
     "total_dwelling_units": 53,
     "sold_units_by_type": {
       "exec": 53
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 516
     }
   },
   "637-bedok-reservoir-rd": {
@@ -5618,6 +9200,15 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "exec": 65
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 468
     }
   },
   "638-bedok-reservoir-rd": {
@@ -5631,6 +9222,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 533
     }
   },
   "639-bedok-reservoir-rd": {
@@ -5644,6 +9244,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "ubi",
+      "name": "Ubi",
+      "codes": [
+        "DT27"
+      ],
+      "exit": "Exit A",
+      "distance": 561
     }
   },
   "64-new-upp-changi-rd": {
@@ -5657,6 +9266,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 722
     }
   },
   "640-bedok-reservoir-rd": {
@@ -5670,6 +9288,15 @@
     "total_dwelling_units": 62,
     "sold_units_by_type": {
       "exec": 62
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 562
     }
   },
   "641-bedok-reservoir-rd": {
@@ -5683,6 +9310,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 559
     }
   },
   "642-bedok-reservoir-rd": {
@@ -5696,6 +9332,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "exec": 50
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 566
     }
   },
   "643-bedok-reservoir-rd": {
@@ -5709,6 +9354,15 @@
     "total_dwelling_units": 58,
     "sold_units_by_type": {
       "exec": 58
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 577
     }
   },
   "644-bedok-reservoir-rd": {
@@ -5722,6 +9376,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 612
     }
   },
   "645-jln-tenaga": {
@@ -5735,6 +9398,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 463
     }
   },
   "646-jln-tenaga": {
@@ -5749,6 +9421,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 523
     }
   },
   "647-jln-tenaga": {
@@ -5763,6 +9444,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 524
     }
   },
   "648-jln-tenaga": {
@@ -5777,6 +9467,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 497
     }
   },
   "649-jln-tenaga": {
@@ -5790,6 +9489,15 @@
     "total_dwelling_units": 82,
     "sold_units_by_type": {
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 440
     }
   },
   "65-new-upp-changi-rd": {
@@ -5803,6 +9511,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 712
     }
   },
   "650-jln-tenaga": {
@@ -5817,6 +9534,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 382
     }
   },
   "651-jln-tenaga": {
@@ -5831,6 +9557,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 19
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 362
     }
   },
   "652-jln-tenaga": {
@@ -5844,6 +9579,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 292
     }
   },
   "653-jln-tenaga": {
@@ -5857,6 +9601,15 @@
     "total_dwelling_units": 79,
     "sold_units_by_type": {
       "5room": 79
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 293
     }
   },
   "654-jln-tenaga": {
@@ -5871,6 +9624,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 326
     }
   },
   "655-jln-tenaga": {
@@ -5885,6 +9647,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 309
     }
   },
   "656-jln-tenaga": {
@@ -5899,6 +9670,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 224
     }
   },
   "657-jln-tenaga": {
@@ -5913,6 +9693,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 259
     }
   },
   "658-jln-tenaga": {
@@ -5927,6 +9716,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 330
     }
   },
   "659-jln-tenaga": {
@@ -5941,6 +9739,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 314
     }
   },
   "66-bedok-sth-ave-3": {
@@ -5954,6 +9761,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 568
     }
   },
   "660-jln-tenaga": {
@@ -5968,6 +9784,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 274
     }
   },
   "661-jln-damai": {
@@ -5981,6 +9806,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 149
     }
   },
   "662-jln-damai": {
@@ -5994,6 +9828,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 107
     }
   },
   "663-jln-damai": {
@@ -6007,6 +9850,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 52
     }
   },
   "664-jln-damai": {
@@ -6020,6 +9872,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 87
     }
   },
   "665-jln-damai": {
@@ -6033,6 +9894,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "exec": 50
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 143
     }
   },
   "666-jln-damai": {
@@ -6047,6 +9917,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 190
     }
   },
   "667-jln-damai": {
@@ -6061,6 +9940,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 19
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 135
     }
   },
   "668-jln-damai": {
@@ -6075,6 +9963,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 178
     }
   },
   "669-jln-damai": {
@@ -6088,6 +9985,15 @@
     "total_dwelling_units": 79,
     "sold_units_by_type": {
       "5room": 79
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 220
     }
   },
   "67-bedok-sth-ave-3": {
@@ -6101,6 +10007,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 625
     }
   },
   "670-jln-damai": {
@@ -6114,6 +10029,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 284
     }
   },
   "671-jln-damai": {
@@ -6128,6 +10052,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 276
     }
   },
   "672-jln-damai": {
@@ -6142,6 +10075,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "kaki-bukit",
+      "name": "Kaki Bukit",
+      "codes": [
+        "DT28"
+      ],
+      "exit": "Exit B",
+      "distance": 319
     }
   },
   "68-bedok-sth-ave-3": {
@@ -6155,6 +10097,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 586
     }
   },
   "69-bedok-sth-ave-3": {
@@ -6170,6 +10121,15 @@
       "3room": 112,
       "4room": 16,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 656
     }
   },
   "7-bedok-sth-ave-2": {
@@ -6183,6 +10143,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 663
     }
   },
   "70-bedok-sth-rd": {
@@ -6198,6 +10167,15 @@
       "3room": 114,
       "4room": 30,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 717
     }
   },
   "701-bedok-reservoir-rd": {
@@ -6212,6 +10190,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit A",
+      "distance": 295
     }
   },
   "702-bedok-reservoir-rd": {
@@ -6228,6 +10215,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit A",
+      "distance": 254
     }
   },
   "703-bedok-reservoir-rd": {
@@ -6244,6 +10240,15 @@
       "4room": 20,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit A",
+      "distance": 306
     }
   },
   "704-bedok-reservoir-rd": {
@@ -6258,6 +10263,15 @@
     "sold_units_by_type": {
       "3room": 117,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 250
     }
   },
   "705-bedok-nth-rd": {
@@ -6271,6 +10285,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit A",
+      "distance": 198
     }
   },
   "706-bedok-nth-rd": {
@@ -6284,6 +10307,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit A",
+      "distance": 161
     }
   },
   "707-bedok-nth-rd": {
@@ -6297,6 +10329,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 123
     }
   },
   "708-bedok-nth-rd": {
@@ -6310,6 +10351,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 76
     }
   },
   "709-bedok-reservoir-rd": {
@@ -6325,6 +10375,15 @@
       "3room": 196,
       "4room": 36,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 376
     }
   },
   "71-bedok-sth-rd": {
@@ -6340,6 +10399,15 @@
       "3room": 118,
       "4room": 30,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bayshore",
+      "name": "Bayshore",
+      "codes": [
+        "TE29"
+      ],
+      "exit": "Exit 4",
+      "distance": 766
     }
   },
   "710-bedok-reservoir-rd": {
@@ -6354,6 +10422,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 538
     }
   },
   "711-bedok-reservoir-rd": {
@@ -6368,6 +10445,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 537
     }
   },
   "712-bedok-reservoir-rd": {
@@ -6383,6 +10469,15 @@
       "3room": 126,
       "4room": 22,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 425
     }
   },
   "713-bedok-reservoir-rd": {
@@ -6398,6 +10493,15 @@
       "3room": 122,
       "4room": 16,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 421
     }
   },
   "714-bedok-reservoir-rd": {
@@ -6412,6 +10516,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 548
     }
   },
   "715-bedok-reservoir-rd": {
@@ -6426,6 +10539,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 562
     }
   },
   "716-bedok-reservoir-rd": {
@@ -6439,6 +10561,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 755
     }
   },
   "717-bedok-reservoir-rd": {
@@ -6453,6 +10584,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 93
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 786
     }
   },
   "718-bedok-reservoir-rd": {
@@ -6467,6 +10607,15 @@
     "sold_units_by_type": {
       "4room": 200,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 777
     }
   },
   "719-bedok-reservoir-rd": {
@@ -6480,6 +10629,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 673
     }
   },
   "72-bedok-sth-ave-3": {
@@ -6493,6 +10651,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit A",
+      "distance": 759
     }
   },
   "720-bedok-reservoir-rd": {
@@ -6507,6 +10674,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 663
     }
   },
   "721-bedok-reservoir-rd": {
@@ -6520,6 +10696,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "exec": 86
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 754
     }
   },
   "722-bedok-reservoir-rd": {
@@ -6534,6 +10719,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 521
     }
   },
   "723-bedok-reservoir-rd": {
@@ -6548,6 +10742,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 442
     }
   },
   "724-bedok-reservoir-rd": {
@@ -6561,6 +10764,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 503
     }
   },
   "725-bedok-reservoir-rd": {
@@ -6574,6 +10786,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "exec": 96
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit A",
+      "distance": 457
     }
   },
   "74-bedok-nth-rd": {
@@ -6591,6 +10812,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 393
     }
   },
   "740-bedok-reservoir-rd": {
@@ -6604,6 +10834,15 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "3room": 51
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 578
     }
   },
   "742-bedok-reservoir-rd": {
@@ -6617,6 +10856,15 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "3room": 54
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 528
     }
   },
   "744-bedok-reservoir-rd": {
@@ -6630,6 +10878,15 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "3room": 54
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 479
     }
   },
   "747a-bedok-reservoir-cres": {
@@ -6645,6 +10902,15 @@
       "3room": 14,
       "4room": 27,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 347
     }
   },
   "747b-bedok-reservoir-cres": {
@@ -6659,6 +10925,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 376
     }
   },
   "747c-bedok-reservoir-cres": {
@@ -6673,6 +10948,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 416
     }
   },
   "748a-bedok-reservoir-cres": {
@@ -6688,6 +10972,15 @@
       "3room": 29,
       "4room": 29,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 307
     }
   },
   "748b-bedok-reservoir-cres": {
@@ -6703,6 +10996,15 @@
       "3room": 30,
       "4room": 29,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 317
     }
   },
   "748c-bedok-reservoir-cres": {
@@ -6718,6 +11020,15 @@
       "3room": 29,
       "4room": 29,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "bedok-north",
+      "name": "Bedok North",
+      "codes": [
+        "DT29"
+      ],
+      "exit": "Exit B",
+      "distance": 329
     }
   },
   "75-bedok-nth-rd": {
@@ -6732,6 +11043,15 @@
     "sold_units_by_type": {
       "3room": 204,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 409
     }
   },
   "76-bedok-nth-rd": {
@@ -6746,6 +11066,15 @@
     "sold_units_by_type": {
       "3room": 206,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 429
     }
   },
   "761-bedok-reservoir-view": {
@@ -6760,6 +11089,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 74
     }
   },
   "762-bedok-reservoir-view": {
@@ -6774,6 +11112,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 101
     }
   },
   "763-bedok-reservoir-view": {
@@ -6788,6 +11135,15 @@
     "sold_units_by_type": {
       "4room": 85,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 159
     }
   },
   "764-bedok-reservoir-view": {
@@ -6801,6 +11157,15 @@
     "total_dwelling_units": 58,
     "sold_units_by_type": {
       "4room": 58
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 226
     }
   },
   "765-bedok-reservoir-view": {
@@ -6815,6 +11180,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 286
     }
   },
   "766-bedok-reservoir-view": {
@@ -6829,6 +11203,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 316
     }
   },
   "767-bedok-reservoir-view": {
@@ -6843,6 +11226,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 374
     }
   },
   "768-bedok-reservoir-view": {
@@ -6856,6 +11248,15 @@
     "total_dwelling_units": 58,
     "sold_units_by_type": {
       "4room": 58
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 438
     }
   },
   "769-bedok-reservoir-view": {
@@ -6870,6 +11271,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 499
     }
   },
   "77-bedok-nth-rd": {
@@ -6884,6 +11294,15 @@
     "sold_units_by_type": {
       "3room": 204,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 452
     }
   },
   "770-bedok-reservoir-view": {
@@ -6898,6 +11317,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 557
     }
   },
   "771-bedok-reservoir-view": {
@@ -6912,6 +11340,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 602
     }
   },
   "772-bedok-reservoir-view": {
@@ -6926,6 +11363,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 490
     }
   },
   "773-bedok-reservoir-view": {
@@ -6940,6 +11386,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 442
     }
   },
   "774-bedok-reservoir-view": {
@@ -6954,6 +11409,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 358
     }
   },
   "78-bedok-nth-rd": {
@@ -6967,6 +11431,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 542
     }
   },
   "79-bedok-nth-rd": {
@@ -6980,6 +11453,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 556
     }
   },
   "8-bedok-sth-ave-2": {
@@ -6993,6 +11475,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 726
     }
   },
   "80-bedok-nth-rd": {
@@ -7006,6 +11497,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 590
     }
   },
   "803-chai-chee-rd": {
@@ -7019,6 +11519,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 734
     }
   },
   "804-chai-chee-rd": {
@@ -7032,6 +11541,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 797
     }
   },
   "805-chai-chee-rd": {
@@ -7045,6 +11563,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit A",
+      "distance": 841
     }
   },
   "807a-chai-chee-rd": {
@@ -7059,6 +11586,15 @@
     "sold_units_by_type": {
       "3room": 42,
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 767
     }
   },
   "807b-chai-chee-rd": {
@@ -7074,6 +11610,15 @@
       "2room": 98,
       "3room": 14,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 782
     }
   },
   "807c-chai-chee-rd": {
@@ -7089,6 +11634,15 @@
       "3room": 42,
       "4room": 70,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 811
     }
   },
   "808a-chai-chee-rd": {
@@ -7103,6 +11657,15 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 691
     }
   },
   "808b-chai-chee-rd": {
@@ -7118,6 +11681,15 @@
       "2room": 98,
       "3room": 14,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 722
     }
   },
   "808c-chai-chee-rd": {
@@ -7132,6 +11704,15 @@
     "sold_units_by_type": {
       "3room": 42,
       "4room": 98
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit C",
+      "distance": 747
     }
   },
   "81-bedok-nth-rd": {
@@ -7145,6 +11726,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 613
     }
   },
   "82-bedok-nth-rd": {
@@ -7158,6 +11748,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 652
     }
   },
   "84-bedok-nth-st-4": {
@@ -7173,6 +11772,15 @@
       "3room": 62,
       "4room": 8,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 828
     }
   },
   "86-bedok-nth-st-4": {
@@ -7187,6 +11795,15 @@
     "sold_units_by_type": {
       "3room": 13,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 757
     }
   },
   "87-bedok-nth-st-4": {
@@ -7201,6 +11818,15 @@
     "sold_units_by_type": {
       "3room": 11,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 724
     }
   },
   "88-bedok-nth-st-4": {
@@ -7215,6 +11841,15 @@
     "sold_units_by_type": {
       "3room": 40,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 732
     }
   },
   "89-bedok-nth-st-4": {
@@ -7229,6 +11864,15 @@
     "sold_units_by_type": {
       "3room": 40,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 691
     }
   },
   "9-bedok-sth-ave-2": {
@@ -7242,6 +11886,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "bedok",
+      "name": "Bedok",
+      "codes": [
+        "EW5"
+      ],
+      "exit": "Exit B",
+      "distance": 812
     }
   },
   "90-bedok-nth-st-4": {
@@ -7256,6 +11909,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 815
     }
   },
   "91-bedok-nth-st-4": {
@@ -7270,6 +11932,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 852
     }
   },
   "92-bedok-nth-ave-4": {
@@ -7284,6 +11955,15 @@
     "sold_units_by_type": {
       "3room": 104,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 775
     }
   },
   "93-bedok-nth-ave-4": {
@@ -7297,6 +11977,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 813
     }
   },
   "94b-bedok-nth-ave-4": {
@@ -7310,6 +11999,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 821
     }
   },
   "94c-bedok-nth-ave-4": {
@@ -7323,6 +12021,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 806
     }
   },
   "94d-bedok-nth-ave-4": {
@@ -7336,6 +12043,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 880
     }
   },
   "94e-bedok-nth-ave-4": {
@@ -7349,6 +12065,15 @@
     "total_dwelling_units": 85,
     "sold_units_by_type": {
       "5room": 85
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 877
     }
   },
   "95-bedok-nth-ave-4": {
@@ -7362,6 +12087,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "tanah-merah",
+      "name": "Tanah Merah",
+      "codes": [
+        "EW4"
+      ],
+      "exit": "Exit B",
+      "distance": 860
     }
   },
   "96-bedok-nth-ave-4": {
@@ -7375,6 +12109,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 845
     }
   },
   "97-bedok-nth-ave-4": {
@@ -7388,6 +12131,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 823
     }
   },
   "98-bedok-nth-ave-4": {
@@ -7401,6 +12153,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 752
     }
   },
   "99-bedok-nth-ave-4": {
@@ -7414,6 +12175,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bedok-reservoir",
+      "name": "Bedok Reservoir",
+      "codes": [
+        "DT30"
+      ],
+      "exit": "Exit B",
+      "distance": 726
     }
   }
 }

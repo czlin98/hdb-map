@@ -11,6 +11,15 @@
     "sold_units_by_type": {
       "3room": 194,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 681
     }
   },
   "10-joo-seng-rd": {
@@ -24,6 +33,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit A",
+      "distance": 842
     }
   },
   "10-lor-7-toa-payoh": {
@@ -38,6 +56,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1156
     }
   },
   "100-lor-1-toa-payoh": {
@@ -51,6 +78,15 @@
     "total_dwelling_units": 192,
     "sold_units_by_type": {
       "3room": 192
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 177
     }
   },
   "101-potong-pasir-ave-1": {
@@ -64,6 +100,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 76
     }
   },
   "101a-bidadari-pk-dr": {
@@ -79,6 +124,15 @@
       "2room": 86,
       "3room": 91,
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 184
     }
   },
   "101a-lor-2-toa-payoh": {
@@ -92,6 +146,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 105
     }
   },
   "101b-lor-2-toa-payoh": {
@@ -105,6 +168,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 121
     }
   },
   "102-potong-pasir-ave-1": {
@@ -120,6 +192,15 @@
       "3room": 144,
       "4room": 20,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 100
     }
   },
   "102a-bidadari-pk-dr": {
@@ -134,6 +215,15 @@
     "sold_units_by_type": {
       "2room": 66,
       "4room": 139
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 138
     }
   },
   "102b-bidadari-pk-dr": {
@@ -148,6 +238,15 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 148
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 274
     }
   },
   "103-lor-1-toa-payoh": {
@@ -162,6 +261,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 159
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 104
     }
   },
   "103-potong-pasir-ave-1": {
@@ -176,6 +284,15 @@
     "sold_units_by_type": {
       "3room": 62,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 158
     }
   },
   "103a-bidadari-pk-dr": {
@@ -190,6 +307,15 @@
     "sold_units_by_type": {
       "3room": 56,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 334
     }
   },
   "103b-bidadari-pk-dr": {
@@ -204,6 +330,15 @@
     "sold_units_by_type": {
       "3room": 76,
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 366
     }
   },
   "104-lor-1-toa-payoh": {
@@ -218,6 +353,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 160
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 196
     }
   },
   "104-potong-pasir-ave-1": {
@@ -233,6 +377,15 @@
       "3room": 122,
       "4room": 48,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 172
     }
   },
   "104a-bidadari-pk-dr": {
@@ -248,6 +401,15 @@
       "2room": 40,
       "3room": 94,
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 355
     }
   },
   "105-lor-1-toa-payoh": {
@@ -262,6 +424,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 160
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 187
     }
   },
   "105-potong-pasir-ave-1": {
@@ -276,6 +447,15 @@
     "sold_units_by_type": {
       "3room": 152,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 183
     }
   },
   "105a-bidadari-pk-dr": {
@@ -290,6 +470,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 211
     }
   },
   "105b-bidadari-pk-dr": {
@@ -304,6 +493,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 185
     }
   },
   "106-lor-1-toa-payoh": {
@@ -318,6 +516,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 158
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 87
     }
   },
   "106-potong-pasir-ave-1": {
@@ -332,6 +539,15 @@
     "sold_units_by_type": {
       "3room": 36,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 169
     }
   },
   "106a-bidadari-pk-dr": {
@@ -346,6 +562,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 295
     }
   },
   "106b-bidadari-pk-dr": {
@@ -360,6 +585,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 262
     }
   },
   "107-lor-1-toa-payoh": {
@@ -373,6 +607,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "3room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 65
     }
   },
   "107-potong-pasir-ave-1": {
@@ -387,6 +630,15 @@
     "sold_units_by_type": {
       "3room": 65,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 221
     }
   },
   "107a-bidadari-pk-dr": {
@@ -402,6 +654,15 @@
       "3room": 78,
       "4room": 52,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 440
     }
   },
   "107b-bidadari-pk-dr": {
@@ -416,6 +677,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 391
     }
   },
   "108-lor-1-toa-payoh": {
@@ -433,6 +703,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 99
     }
   },
   "108-potong-pasir-ave-1": {
@@ -448,6 +727,15 @@
       "3room": 115,
       "4room": 26,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 243
     }
   },
   "108a-bidadari-pk-dr": {
@@ -462,6 +750,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 348
     }
   },
   "108b-bidadari-pk-dr": {
@@ -476,6 +773,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 352
     }
   },
   "109-lor-1-toa-payoh": {
@@ -489,6 +795,15 @@
     "total_dwelling_units": 99,
     "sold_units_by_type": {
       "3room": 99
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 31
     }
   },
   "109-potong-pasir-ave-1": {
@@ -502,6 +817,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "3room": 72
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 287
     }
   },
   "109a-bidadari-pk-dr": {
@@ -516,6 +840,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 380
     }
   },
   "109b-bidadari-pk-dr": {
@@ -530,6 +863,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 417
     }
   },
   "10b-lor-7-toa-payoh": {
@@ -544,6 +886,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1274
     }
   },
   "11-joo-seng-rd": {
@@ -557,6 +908,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit A",
+      "distance": 776
     }
   },
   "11-lor-8-toa-payoh": {
@@ -571,6 +931,15 @@
     "sold_units_by_type": {
       "4room": 94,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1229
     }
   },
   "110-lor-1-toa-payoh": {
@@ -588,6 +957,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 54
     }
   },
   "110a-bidadari-pk-dr": {
@@ -602,6 +980,15 @@
     "sold_units_by_type": {
       "4room": 97,
       "5room": 43
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 471
     }
   },
   "110b-bidadari-pk-dr": {
@@ -616,6 +1003,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 498
     }
   },
   "111-lor-1-toa-payoh": {
@@ -633,6 +1029,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 126
     }
   },
   "111a-alkaff-cres": {
@@ -647,6 +1052,15 @@
     "sold_units_by_type": {
       "2room": 46,
       "4room": 53
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 489
     }
   },
   "111b-alkaff-cres": {
@@ -661,6 +1075,15 @@
     "sold_units_by_type": {
       "2room": 77,
       "4room": 37
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 472
     }
   },
   "112-lor-1-toa-payoh": {
@@ -675,6 +1098,15 @@
     "sold_units_by_type": {
       "3room": 118,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 117
     }
   },
   "112a-alkaff-cres": {
@@ -689,6 +1121,15 @@
     "sold_units_by_type": {
       "2room": 75,
       "4room": 37
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 438
     }
   },
   "112b-alkaff-cres": {
@@ -703,6 +1144,15 @@
     "sold_units_by_type": {
       "3room": 15,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 410
     }
   },
   "113-lor-1-toa-payoh": {
@@ -717,6 +1167,15 @@
     "sold_units_by_type": {
       "3room": 118,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 204
     }
   },
   "113-potong-pasir-ave-1": {
@@ -731,6 +1190,15 @@
     "sold_units_by_type": {
       "3room": 92,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 698
     }
   },
   "113a-alkaff-cres": {
@@ -745,6 +1213,15 @@
     "sold_units_by_type": {
       "3room": 13,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 375
     }
   },
   "113b-alkaff-cres": {
@@ -759,6 +1236,15 @@
     "sold_units_by_type": {
       "3room": 43,
       "4room": 25
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 333
     }
   },
   "114-lor-1-toa-payoh": {
@@ -773,6 +1259,15 @@
     "sold_units_by_type": {
       "3room": 118,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 235
     }
   },
   "114-potong-pasir-ave-1": {
@@ -787,6 +1282,15 @@
     "sold_units_by_type": {
       "3room": 92,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 769
     }
   },
   "114a-alkaff-cres": {
@@ -802,6 +1306,15 @@
       "2room": 10,
       "3room": 49,
       "4room": 37
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 377
     }
   },
   "114b-alkaff-cres": {
@@ -817,6 +1330,15 @@
       "2room": 10,
       "3room": 46,
       "4room": 37
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 411
     }
   },
   "115-lor-1-toa-payoh": {
@@ -830,6 +1352,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 234
     }
   },
   "115-potong-pasir-ave-1": {
@@ -845,6 +1376,15 @@
       "3room": 90,
       "4room": 44,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 846
     }
   },
   "115a-alkaff-cres": {
@@ -859,6 +1399,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 305
     }
   },
   "115c-alkaff-cres": {
@@ -873,6 +1422,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 259
     }
   },
   "116-lor-2-toa-payoh": {
@@ -889,6 +1447,15 @@
     },
     "rental_units_by_type": {
       "3room": 5
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 42
     }
   },
   "116-potong-pasir-ave-1": {
@@ -903,6 +1470,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 836
     }
   },
   "117-lor-1-toa-payoh": {
@@ -920,6 +1496,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 137
     }
   },
   "117-potong-pasir-ave-1": {
@@ -934,6 +1519,15 @@
     "sold_units_by_type": {
       "3room": 90,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 751
     }
   },
   "118-lor-1-toa-payoh": {
@@ -948,6 +1542,15 @@
     "sold_units_by_type": {
       "3room": 116,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 213
     }
   },
   "118-potong-pasir-ave-1": {
@@ -962,6 +1565,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 762
     }
   },
   "118a-alkaff-cres": {
@@ -976,6 +1588,15 @@
     "sold_units_by_type": {
       "3room": 102,
       "4room": 237
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 387
     }
   },
   "119-lor-1-toa-payoh": {
@@ -990,6 +1611,15 @@
     "sold_units_by_type": {
       "3room": 114,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 264
     }
   },
   "119-potong-pasir-ave-1": {
@@ -1004,6 +1634,15 @@
     "sold_units_by_type": {
       "3room": 92,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 698
     }
   },
   "119a-alkaff-cres": {
@@ -1018,6 +1657,15 @@
     "sold_units_by_type": {
       "4room": 104,
       "5room": 71
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 481
     }
   },
   "119b-alkaff-cres": {
@@ -1032,6 +1680,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 415
     }
   },
   "119c-alkaff-cres": {
@@ -1046,6 +1703,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 418
     }
   },
   "12-joo-seng-rd": {
@@ -1060,6 +1726,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 726
     }
   },
   "12-lor-7-toa-payoh": {
@@ -1073,6 +1748,15 @@
     "total_dwelling_units": 176,
     "sold_units_by_type": {
       "3room": 176
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1202
     }
   },
   "120-lor-2-toa-payoh": {
@@ -1086,6 +1770,15 @@
     "total_dwelling_units": 160,
     "sold_units_by_type": {
       "2room": 160
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 202
     }
   },
   "120-potong-pasir-ave-1": {
@@ -1100,6 +1793,15 @@
     "sold_units_by_type": {
       "3room": 85,
       "4room": 61
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 687
     }
   },
   "121-lor-2-toa-payoh": {
@@ -1114,6 +1816,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 177
     }
   },
   "121-potong-pasir-ave-1": {
@@ -1130,6 +1841,15 @@
       "4room": 62,
       "5room": 62,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 499
     }
   },
   "122-lor-2-toa-payoh": {
@@ -1144,6 +1864,15 @@
     "sold_units_by_type": {
       "4room": 91,
       "5room": 77
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 105
     }
   },
   "122-potong-pasir-ave-1": {
@@ -1158,6 +1887,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 395
     }
   },
   "123-lor-1-toa-payoh": {
@@ -1171,6 +1909,15 @@
     "total_dwelling_units": 128,
     "sold_units_by_type": {
       "3room": 128
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 246
     }
   },
   "123-potong-pasir-ave-1": {
@@ -1184,6 +1931,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 444
     }
   },
   "124-lor-1-toa-payoh": {
@@ -1198,6 +1954,15 @@
     "sold_units_by_type": {
       "3room": 130,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 306
     }
   },
   "124-potong-pasir-ave-1": {
@@ -1211,6 +1976,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 482
     }
   },
   "125-lor-1-toa-payoh": {
@@ -1227,6 +2001,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 278
     }
   },
   "125-potong-pasir-ave-1": {
@@ -1240,6 +2023,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 513
     }
   },
   "126-lor-1-toa-payoh": {
@@ -1257,6 +2049,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 355
     }
   },
   "126-potong-pasir-ave-1": {
@@ -1270,6 +2071,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 480
     }
   },
   "127-potong-pasir-ave-1": {
@@ -1283,6 +2093,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 458
     }
   },
   "128-lor-1-toa-payoh": {
@@ -1296,6 +2115,15 @@
     "total_dwelling_units": 200,
     "sold_units_by_type": {
       "3room": 200
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 399
     }
   },
   "128-potong-pasir-ave-1": {
@@ -1309,6 +2137,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 418
     }
   },
   "129-potong-pasir-ave-1": {
@@ -1322,6 +2159,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 439
     }
   },
   "13-joo-seng-rd": {
@@ -1335,6 +2181,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 728
     }
   },
   "13-lor-7-toa-payoh": {
@@ -1348,6 +2203,15 @@
     "total_dwelling_units": 176,
     "sold_units_by_type": {
       "3room": 176
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1171
     }
   },
   "130-potong-pasir-ave-1": {
@@ -1361,6 +2225,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 420
     }
   },
   "130a-lor-1-toa-payoh": {
@@ -1375,6 +2248,16 @@
     "sold_units_by_type": {
       "3room": 77,
       "4room": 154
+    },
+    "nearest_station": {
+      "id": "caldecott",
+      "name": "Caldecott",
+      "codes": [
+        "CC17",
+        "TE9"
+      ],
+      "exit": "Exit 3",
+      "distance": 306
     }
   },
   "130b-lor-1-toa-payoh": {
@@ -1389,6 +2272,16 @@
     "sold_units_by_type": {
       "3room": 78,
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "caldecott",
+      "name": "Caldecott",
+      "codes": [
+        "CC17",
+        "TE9"
+      ],
+      "exit": "Exit 3",
+      "distance": 249
     }
   },
   "131-potong-pasir-ave-1": {
@@ -1402,6 +2295,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 443
     }
   },
   "131a-lor-1-toa-payoh": {
@@ -1418,6 +2320,16 @@
       "3room": 78,
       "4room": 76,
       "studio_apartment": 51
+    },
+    "nearest_station": {
+      "id": "caldecott",
+      "name": "Caldecott",
+      "codes": [
+        "CC17",
+        "TE9"
+      ],
+      "exit": "Exit 3",
+      "distance": 332
     }
   },
   "131b-lor-1-toa-payoh": {
@@ -1434,6 +2346,16 @@
       "3room": 78,
       "4room": 78,
       "studio_apartment": 51
+    },
+    "nearest_station": {
+      "id": "caldecott",
+      "name": "Caldecott",
+      "codes": [
+        "CC17",
+        "TE9"
+      ],
+      "exit": "Exit 3",
+      "distance": 270
     }
   },
   "132-potong-pasir-ave-1": {
@@ -1447,6 +2369,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 403
     }
   },
   "133-potong-pasir-ave-1": {
@@ -1460,6 +2391,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 382
     }
   },
   "134-potong-pasir-ave-3": {
@@ -1475,6 +2415,15 @@
       "3room": 46,
       "4room": 38,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 351
     }
   },
   "135-potong-pasir-ave-3": {
@@ -1488,6 +2437,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 318
     }
   },
   "136-potong-pasir-ave-3": {
@@ -1503,6 +2461,15 @@
       "3room": 42,
       "4room": 35,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 302
     }
   },
   "137-potong-pasir-ave-3": {
@@ -1518,6 +2485,15 @@
       "3room": 42,
       "4room": 35,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 366
     }
   },
   "138-potong-pasir-ave-3": {
@@ -1531,6 +2507,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 399
     }
   },
   "138a-lor-1a-toa-payoh": {
@@ -1546,6 +2531,15 @@
       "3room": 19,
       "4room": 63,
       "5room": 164
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 399
     }
   },
   "138b-lor-1a-toa-payoh": {
@@ -1561,6 +2555,15 @@
       "3room": 19,
       "4room": 60,
       "5room": 158
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 346
     }
   },
   "138c-lor-1a-toa-payoh": {
@@ -1576,6 +2579,15 @@
       "3room": 19,
       "4room": 60,
       "5room": 158
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 377
     }
   },
   "139-potong-pasir-ave-3": {
@@ -1591,6 +2603,15 @@
       "3room": 80,
       "4room": 68,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 322
     }
   },
   "139a-lor-1a-toa-payoh": {
@@ -1606,6 +2627,15 @@
       "3room": 19,
       "4room": 60,
       "5room": 158
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 432
     }
   },
   "139b-lor-1a-toa-payoh": {
@@ -1621,6 +2651,16 @@
       "3room": 19,
       "4room": 63,
       "5room": 164
+    },
+    "nearest_station": {
+      "id": "caldecott",
+      "name": "Caldecott",
+      "codes": [
+        "CC17",
+        "TE9"
+      ],
+      "exit": "Exit 3",
+      "distance": 399
     }
   },
   "14-joo-seng-rd": {
@@ -1635,6 +2675,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 688
     }
   },
   "14-lor-7-toa-payoh": {
@@ -1649,6 +2698,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1256
     }
   },
   "140-potong-pasir-ave-3": {
@@ -1664,6 +2722,15 @@
       "3room": 75,
       "4room": 40,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 263
     }
   },
   "141-lor-2-toa-payoh": {
@@ -1678,6 +2745,15 @@
     "sold_units_by_type": {
       "4room": 115,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 298
     }
   },
   "141-potong-pasir-ave-3": {
@@ -1691,6 +2767,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 219
     }
   },
   "142-lor-2-toa-payoh": {
@@ -1705,6 +2790,15 @@
     "sold_units_by_type": {
       "4room": 115,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 322
     }
   },
   "142-potong-pasir-ave-3": {
@@ -1720,6 +2814,15 @@
       "3room": 82,
       "4room": 68,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 224
     }
   },
   "143-lor-2-toa-payoh": {
@@ -1734,6 +2837,15 @@
     "sold_units_by_type": {
       "4room": 107,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 403
     }
   },
   "143-potong-pasir-ave-2": {
@@ -1749,6 +2861,15 @@
       "3room": 80,
       "4room": 68,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 311
     }
   },
   "144-lor-2-toa-payoh": {
@@ -1763,6 +2884,15 @@
     "sold_units_by_type": {
       "4room": 107,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 360
     }
   },
   "144-potong-pasir-ave-2": {
@@ -1776,6 +2906,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 384
     }
   },
   "145-lor-2-toa-payoh": {
@@ -1790,6 +2929,15 @@
     "sold_units_by_type": {
       "4room": 195,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 218
     }
   },
   "145-potong-pasir-ave-2": {
@@ -1805,6 +2953,15 @@
       "3room": 80,
       "4room": 68,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 315
     }
   },
   "146-lor-2-toa-payoh": {
@@ -1819,6 +2976,15 @@
     "sold_units_by_type": {
       "4room": 195,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 154
     }
   },
   "146-potong-pasir-ave-1": {
@@ -1836,6 +3002,15 @@
     },
     "rental_units_by_type": {
       "3room": 4
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 182
     }
   },
   "147-lor-2-toa-payoh": {
@@ -1850,6 +3025,15 @@
     "sold_units_by_type": {
       "4room": 156,
       "5room": 73
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 213
     }
   },
   "148-lor-1-toa-payoh": {
@@ -1864,6 +3048,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 180
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 359
     }
   },
   "148-potong-pasir-ave-1": {
@@ -1881,6 +3074,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 142
     }
   },
   "149-lor-1-toa-payoh": {
@@ -1895,6 +3097,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 180
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 312
     }
   },
   "14a-lor-7-toa-payoh": {
@@ -1909,6 +3120,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1245
     }
   },
   "14b-lor-7-toa-payoh": {
@@ -1923,6 +3143,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1218
     }
   },
   "15-joo-seng-rd": {
@@ -1936,6 +3165,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 750
     }
   },
   "15-lor-7-toa-payoh": {
@@ -1950,6 +3188,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 257
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1155
     }
   },
   "150-lor-1-toa-payoh": {
@@ -1964,6 +3211,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 180
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 229
     }
   },
   "152-lor-2-toa-payoh": {
@@ -1978,6 +3234,15 @@
     "sold_units_by_type": {
       "4room": 156,
       "5room": 73
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 121
     }
   },
   "153-lor-2-toa-payoh": {
@@ -1992,6 +3257,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 111
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 94
     }
   },
   "153a-lor-1-toa-payoh": {
@@ -2006,6 +3280,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 151
     }
   },
   "154-lor-2-toa-payoh": {
@@ -2020,6 +3303,15 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 39
     }
   },
   "155-lor-1-toa-payoh": {
@@ -2033,6 +3325,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 116
     }
   },
   "156-lor-1-toa-payoh": {
@@ -2047,6 +3348,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 166
     }
   },
   "157-lor-1-toa-payoh": {
@@ -2061,6 +3371,15 @@
     "sold_units_by_type": {
       "3room": 346,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 168
     }
   },
   "158-lor-1-toa-payoh": {
@@ -2075,6 +3394,15 @@
     "sold_units_by_type": {
       "3room": 148,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 259
     }
   },
   "159-lor-1-toa-payoh": {
@@ -2088,6 +3416,15 @@
     "total_dwelling_units": 154,
     "sold_units_by_type": {
       "3room": 154
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit B",
+      "distance": 281
     }
   },
   "16-joo-seng-rd": {
@@ -2102,6 +3439,15 @@
     "sold_units_by_type": {
       "4room": 17,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 642
     }
   },
   "160-lor-1-toa-payoh": {
@@ -2118,6 +3464,15 @@
     },
     "rental_units_by_type": {
       "2room": 126
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 308
     }
   },
   "161-lor-1-toa-payoh": {
@@ -2134,6 +3489,15 @@
     },
     "rental_units_by_type": {
       "2room": 117
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit B",
+      "distance": 350
     }
   },
   "163-lor-1-toa-payoh": {
@@ -2148,6 +3512,15 @@
     "sold_units_by_type": {
       "3room": 130,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 300
     }
   },
   "168-lor-1-toa-payoh": {
@@ -2162,6 +3535,15 @@
     "sold_units_by_type": {
       "3room": 120,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 383
     }
   },
   "169-lor-1-toa-payoh": {
@@ -2179,6 +3561,15 @@
     },
     "rental_units_by_type": {
       "3room": 12
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 460
     }
   },
   "17-joo-seng-rd": {
@@ -2192,6 +3583,15 @@
     "total_dwelling_units": 152,
     "sold_units_by_type": {
       "4room": 152
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 688
     }
   },
   "17-lor-7-toa-payoh": {
@@ -2205,6 +3605,15 @@
     "total_dwelling_units": 320,
     "sold_units_by_type": {
       "3room": 320
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1085
     }
   },
   "170-lor-1-toa-payoh": {
@@ -2219,6 +3628,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 308
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 480
     }
   },
   "171-lor-1-toa-payoh": {
@@ -2233,6 +3651,15 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 93
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 517
     }
   },
   "172-lor-1-toa-payoh": {
@@ -2247,6 +3674,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 504
     }
   },
   "172a-lor-1-toa-payoh": {
@@ -2261,6 +3697,15 @@
     "sold_units_by_type": {
       "4room": 25,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 562
     }
   },
   "173-lor-1-toa-payoh": {
@@ -2278,6 +3723,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 573
     }
   },
   "174-lor-1-toa-payoh": {
@@ -2292,6 +3746,15 @@
     "sold_units_by_type": {
       "3room": 122,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 588
     }
   },
   "175-lor-2-toa-payoh": {
@@ -2305,6 +3768,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 54
     }
   },
   "177-toa-payoh-ctrl": {
@@ -2320,6 +3792,15 @@
       "3room": 63,
       "4room": 17,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 198
     }
   },
   "178-toa-payoh-ctrl": {
@@ -2335,6 +3816,15 @@
       "3room": 43,
       "4room": 1,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 217
     }
   },
   "179-toa-payoh-ctrl": {
@@ -2348,6 +3838,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 313
     }
   },
   "18-joo-seng-rd": {
@@ -2361,6 +3860,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 608
     }
   },
   "18-lor-7-toa-payoh": {
@@ -2375,6 +3883,15 @@
     "sold_units_by_type": {
       "3room": 144,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1076
     }
   },
   "183-toa-payoh-ctrl": {
@@ -2390,6 +3907,15 @@
       "3room": 52,
       "4room": 17,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 167
     }
   },
   "184-toa-payoh-ctrl": {
@@ -2404,6 +3930,15 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 219
     }
   },
   "185-toa-payoh-ctrl": {
@@ -2418,6 +3953,15 @@
     "sold_units_by_type": {
       "3room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 255
     }
   },
   "186-toa-payoh-ctrl": {
@@ -2432,6 +3976,15 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 278
     }
   },
   "19-joo-seng-rd": {
@@ -2445,6 +3998,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit A",
+      "distance": 751
     }
   },
   "191-lor-4-toa-payoh": {
@@ -2458,6 +4020,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 371
     }
   },
   "193-lor-4-toa-payoh": {
@@ -2471,6 +4042,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 407
     }
   },
   "194-kim-keat-ave": {
@@ -2485,6 +4065,15 @@
     "sold_units_by_type": {
       "3room": 194,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1170
     }
   },
   "195-kim-keat-ave": {
@@ -2499,6 +4088,15 @@
     "sold_units_by_type": {
       "3room": 528,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1064
     }
   },
   "196-kim-keat-ave": {
@@ -2513,6 +4111,15 @@
     "sold_units_by_type": {
       "2room": 58,
       "studio_apartment": 130
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1077
     }
   },
   "199-toa-payoh-nth": {
@@ -2527,6 +4134,15 @@
     "sold_units_by_type": {
       "3room": 168,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 387
     }
   },
   "2-lor-7-toa-payoh": {
@@ -2541,6 +4157,15 @@
     "sold_units_by_type": {
       "3room": 196,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 713
     }
   },
   "2-upp-aljunied-lane": {
@@ -2555,6 +4180,15 @@
     "sold_units_by_type": {
       "3room": 92,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit A",
+      "distance": 858
     }
   },
   "20-joo-seng-rd": {
@@ -2568,6 +4202,15 @@
     "total_dwelling_units": 62,
     "sold_units_by_type": {
       "exec": 62
+    },
+    "nearest_station": {
+      "id": "tai-seng",
+      "name": "Tai Seng",
+      "codes": [
+        "CC11"
+      ],
+      "exit": "Exit A",
+      "distance": 726
     }
   },
   "20-lor-7-toa-payoh": {
@@ -2582,6 +4225,15 @@
     "sold_units_by_type": {
       "3room": 144,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1093
     }
   },
   "200-toa-payoh-nth": {
@@ -2595,6 +4247,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 412
     }
   },
   "201-toa-payoh-nth": {
@@ -2608,6 +4269,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 303
     }
   },
   "201a-woodleigh-link": {
@@ -2622,6 +4292,15 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 35
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 51
     }
   },
   "201b-woodleigh-link": {
@@ -2636,6 +4315,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 154
     }
   },
   "201c-woodleigh-link": {
@@ -2650,6 +4338,15 @@
     "sold_units_by_type": {
       "3room": 53,
       "4room": 49
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 111
     }
   },
   "202-toa-payoh-nth": {
@@ -2663,6 +4360,15 @@
     "total_dwelling_units": 152,
     "sold_units_by_type": {
       "4room": 152
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 257
     }
   },
   "203-toa-payoh-nth": {
@@ -2677,6 +4383,15 @@
     "sold_units_by_type": {
       "3room": 166,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 246
     }
   },
   "204-toa-payoh-nth": {
@@ -2690,6 +4405,15 @@
     "total_dwelling_units": 152,
     "sold_units_by_type": {
       "4room": 152
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 202
     }
   },
   "205-toa-payoh-nth": {
@@ -2707,6 +4431,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 191
     }
   },
   "206-toa-payoh-nth": {
@@ -2721,6 +4454,15 @@
     "sold_units_by_type": {
       "3room": 162,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 139
     }
   },
   "206a-woodleigh-link": {
@@ -2734,6 +4476,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 219
     }
   },
   "206b-woodleigh-link": {
@@ -2747,6 +4498,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 275
     }
   },
   "206c-woodleigh-link": {
@@ -2761,6 +4521,15 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 62
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 280
     }
   },
   "206d-woodleigh-link": {
@@ -2776,6 +4545,15 @@
       "2room": 17,
       "3room": 29,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 315
     }
   },
   "207-toa-payoh-nth": {
@@ -2790,6 +4568,15 @@
     "sold_units_by_type": {
       "3room": 168,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 200
     }
   },
   "207a-woodleigh-link": {
@@ -2805,6 +4592,15 @@
       "2room": 19,
       "3room": 22,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 150
     }
   },
   "207b-woodleigh-link": {
@@ -2820,6 +4616,15 @@
       "2room": 16,
       "3room": 13,
       "4room": 33
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 196
     }
   },
   "207c-woodleigh-link": {
@@ -2835,6 +4640,15 @@
       "2room": 16,
       "3room": 13,
       "4room": 33
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 242
     }
   },
   "207d-woodleigh-link": {
@@ -2849,6 +4663,15 @@
     "sold_units_by_type": {
       "2room": 62,
       "3room": 25
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 293
     }
   },
   "208-toa-payoh-nth": {
@@ -2862,6 +4685,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 164
     }
   },
   "208a-woodleigh-link": {
@@ -2877,6 +4709,15 @@
     "rental_units_by_type": {
       "1room": 168,
       "2room": 144
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 329
     }
   },
   "209-toa-payoh-nth": {
@@ -2890,6 +4731,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 200
     }
   },
   "21-joo-seng-rd": {
@@ -2903,6 +4753,15 @@
     "total_dwelling_units": 58,
     "sold_units_by_type": {
       "exec": 58
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit A",
+      "distance": 783
     }
   },
   "211-lor-8-toa-payoh": {
@@ -2917,6 +4776,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 704
     }
   },
   "212-lor-8-toa-payoh": {
@@ -2931,6 +4799,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 766
     }
   },
   "212a-bidadari-pk-dr": {
@@ -2946,6 +4823,15 @@
       "3room": 24,
       "4room": 50,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 480
     }
   },
   "212b-bidadari-pk-dr": {
@@ -2960,6 +4846,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 442
     }
   },
   "212c-bidadari-pk-dr": {
@@ -2974,6 +4869,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 379
     }
   },
   "212d-bidadari-pk-dr": {
@@ -2988,6 +4892,15 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 361
     }
   },
   "213-lor-8-toa-payoh": {
@@ -3001,6 +4914,15 @@
     "total_dwelling_units": 170,
     "sold_units_by_type": {
       "4room": 170
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 776
     }
   },
   "213a-bidadari-pk-dr": {
@@ -3015,6 +4937,15 @@
     "sold_units_by_type": {
       "2room": 54,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 458
     }
   },
   "213b-bidadari-pk-dr": {
@@ -3030,6 +4961,15 @@
       "2room": 52,
       "3room": 28,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 441
     }
   },
   "213c-bidadari-pk-dr": {
@@ -3045,6 +4985,15 @@
       "2room": 52,
       "3room": 28,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit C",
+      "distance": 497
     }
   },
   "214-lor-8-toa-payoh": {
@@ -3058,6 +5007,15 @@
     "total_dwelling_units": 170,
     "sold_units_by_type": {
       "4room": 170
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 781
     }
   },
   "214a-bidadari-pk-dr": {
@@ -3072,6 +5030,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 446
     }
   },
   "214b-bidadari-pk-dr": {
@@ -3086,6 +5053,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 364
     }
   },
   "214c-bidadari-pk-dr": {
@@ -3100,6 +5076,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 326
     }
   },
   "215-lor-8-toa-payoh": {
@@ -3113,6 +5098,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 862
     }
   },
   "215a-bidadari-pk-dr": {
@@ -3127,6 +5121,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 256
     }
   },
   "215b-bidadari-pk-dr": {
@@ -3142,6 +5145,15 @@
       "3room": 39,
       "4room": 67,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 302
     }
   },
   "215c-bidadari-pk-dr": {
@@ -3157,6 +5169,15 @@
       "3room": 24,
       "4room": 72,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 358
     }
   },
   "216-lor-8-toa-payoh": {
@@ -3170,6 +5191,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 775
     }
   },
   "216a-bidadari-pk-dr": {
@@ -3184,6 +5214,15 @@
     "sold_units_by_type": {
       "3room": 42,
       "4room": 117
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 179
     }
   },
   "216b-bidadari-pk-dr": {
@@ -3198,6 +5237,15 @@
     "sold_units_by_type": {
       "3room": 26,
       "4room": 82
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 257
     }
   },
   "216c-bidadari-pk-dr": {
@@ -3212,6 +5260,15 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 117
     }
   },
   "217-lor-8-toa-payoh": {
@@ -3225,6 +5282,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 833
     }
   },
   "218-lor-8-toa-payoh": {
@@ -3238,6 +5304,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 887
     }
   },
   "219-lor-8-toa-payoh": {
@@ -3251,6 +5326,15 @@
     "total_dwelling_units": 190,
     "sold_units_by_type": {
       "4room": 190
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 966
     }
   },
   "220-lor-8-toa-payoh": {
@@ -3264,6 +5348,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1025
     }
   },
   "221-lor-8-toa-payoh": {
@@ -3277,6 +5370,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1081
     }
   },
   "222-lor-8-toa-payoh": {
@@ -3290,6 +5392,15 @@
     "total_dwelling_units": 266,
     "sold_units_by_type": {
       "4room": 266
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 964
     }
   },
   "222a-mount-vernon-rd": {
@@ -3304,6 +5415,15 @@
     "sold_units_by_type": {
       "4room": 89,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 157
     }
   },
   "222b-mount-vernon-rd": {
@@ -3319,6 +5439,15 @@
       "3room": 48,
       "4room": 64,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 104
     }
   },
   "223-lor-8-toa-payoh": {
@@ -3332,6 +5461,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 904
     }
   },
   "223a-mount-vernon-rd": {
@@ -3346,6 +5484,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 264
     }
   },
   "223b-mount-vernon-rd": {
@@ -3360,6 +5507,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 288
     }
   },
   "223c-mount-vernon-rd": {
@@ -3374,6 +5530,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 231
     }
   },
   "224-lor-8-toa-payoh": {
@@ -3387,6 +5552,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 960
     }
   },
   "224a-mount-vernon-rd": {
@@ -3401,6 +5575,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 175
     }
   },
   "224b-mount-vernon-rd": {
@@ -3415,6 +5598,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 98
     }
   },
   "224c-mount-vernon-rd": {
@@ -3430,6 +5622,15 @@
       "3room": 48,
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 55
     }
   },
   "225-lor-8-toa-payoh": {
@@ -3444,6 +5645,15 @@
     "sold_units_by_type": {
       "3room": 170,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 951
     }
   },
   "226-lor-8-toa-payoh": {
@@ -3457,6 +5667,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1076
     }
   },
   "226a-bartley-walk": {
@@ -3471,6 +5690,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 407
     }
   },
   "226b-bartley-walk": {
@@ -3485,6 +5713,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 395
     }
   },
   "227-lor-8-toa-payoh": {
@@ -3498,6 +5735,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1178
     }
   },
   "227a-bartley-walk": {
@@ -3512,6 +5758,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 372
     }
   },
   "227b-bartley-walk": {
@@ -3526,6 +5781,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 391
     }
   },
   "227c-bartley-walk": {
@@ -3540,6 +5804,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit B",
+      "distance": 470
     }
   },
   "228-lor-8-toa-payoh": {
@@ -3553,6 +5826,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1272
     }
   },
   "229-lor-8-toa-payoh": {
@@ -3566,6 +5848,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit B",
+      "distance": 1258
     }
   },
   "23-toa-payoh-east": {
@@ -3579,6 +5870,15 @@
     "total_dwelling_units": 176,
     "sold_units_by_type": {
       "3room": 176
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1080
     }
   },
   "230-lor-8-toa-payoh": {
@@ -3592,6 +5892,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1234
     }
   },
   "231-lor-8-toa-payoh": {
@@ -3605,6 +5914,15 @@
     "total_dwelling_units": 176,
     "sold_units_by_type": {
       "3room": 176
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1169
     }
   },
   "232-lor-8-toa-payoh": {
@@ -3622,6 +5940,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1244
     }
   },
   "233-lor-8-toa-payoh": {
@@ -3636,6 +5963,15 @@
     "sold_units_by_type": {
       "3room": 119,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1254
     }
   },
   "233a-upp-aljunied-rd": {
@@ -3650,6 +5986,15 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 95
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 410
     }
   },
   "233b-upp-aljunied-rd": {
@@ -3664,6 +6009,15 @@
     "sold_units_by_type": {
       "3room": 15,
       "4room": 108
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 418
     }
   },
   "233c-upp-aljunied-rd": {
@@ -3678,6 +6032,15 @@
     "sold_units_by_type": {
       "3room": 45,
       "4room": 67
+    },
+    "nearest_station": {
+      "id": "woodleigh",
+      "name": "Woodleigh",
+      "codes": [
+        "NE11"
+      ],
+      "exit": "Exit A",
+      "distance": 480
     }
   },
   "234-lor-8-toa-payoh": {
@@ -3692,6 +6055,15 @@
     "sold_units_by_type": {
       "3room": 114,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1187
     }
   },
   "235-lor-8-toa-payoh": {
@@ -3706,6 +6078,15 @@
     "sold_units_by_type": {
       "3room": 126,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1095
     }
   },
   "236-lor-1-toa-payoh": {
@@ -3719,6 +6100,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 518
     }
   },
   "237-lor-1-toa-payoh": {
@@ -3732,6 +6122,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 543
     }
   },
   "238-lor-1-toa-payoh": {
@@ -3746,6 +6145,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 462
     }
   },
   "239-lor-1-toa-payoh": {
@@ -3760,6 +6168,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 401
     }
   },
   "240-lor-1-toa-payoh": {
@@ -3773,6 +6190,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 377
     }
   },
   "241-kim-keat-link": {
@@ -3787,6 +6213,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 919
     }
   },
   "242-kim-keat-link": {
@@ -3801,6 +6236,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 943
     }
   },
   "243-kim-keat-link": {
@@ -3815,6 +6259,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1008
     }
   },
   "244-kim-keat-link": {
@@ -3829,6 +6282,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 978
     }
   },
   "245-kim-keat-link": {
@@ -3843,6 +6305,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 998
     }
   },
   "246-kim-keat-link": {
@@ -3857,6 +6328,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 920
     }
   },
   "247-kim-keat-link": {
@@ -3871,6 +6351,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 851
     }
   },
   "248-kim-keat-link": {
@@ -3885,6 +6374,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 913
     }
   },
   "249-kim-keat-link": {
@@ -3899,6 +6397,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1000
     }
   },
   "25-toa-payoh-east": {
@@ -3912,6 +6419,15 @@
     "total_dwelling_units": 198,
     "sold_units_by_type": {
       "3room": 198
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1038
     }
   },
   "250-kim-keat-link": {
@@ -3926,6 +6442,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 993
     }
   },
   "251-kim-keat-link": {
@@ -3940,6 +6465,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1037
     }
   },
   "252-kim-keat-link": {
@@ -3954,6 +6488,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1066
     }
   },
   "253-kim-keat-ave": {
@@ -3968,6 +6511,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1127
     }
   },
   "254-kim-keat-ave": {
@@ -3981,6 +6533,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "exec": 78
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1156
     }
   },
   "255-kim-keat-ave": {
@@ -3995,6 +6556,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1119
     }
   },
   "256-kim-keat-ave": {
@@ -4009,6 +6579,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1141
     }
   },
   "257-kim-keat-ave": {
@@ -4022,6 +6601,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1062
     }
   },
   "258-kim-keat-ave": {
@@ -4036,6 +6624,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1125
     }
   },
   "259-kim-keat-ave": {
@@ -4050,6 +6647,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1106
     }
   },
   "26-toa-payoh-east": {
@@ -4063,6 +6669,15 @@
     "total_dwelling_units": 198,
     "sold_units_by_type": {
       "3room": 198
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1007
     }
   },
   "261-toa-payoh-east": {
@@ -4076,6 +6691,15 @@
     "total_dwelling_units": 139,
     "sold_units_by_type": {
       "4room": 139
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 845
     }
   },
   "262-toa-payoh-east": {
@@ -4090,6 +6714,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 70
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 882
     }
   },
   "263-toa-payoh-east": {
@@ -4104,6 +6737,15 @@
     "sold_units_by_type": {
       "3room": 70,
       "4room": 70
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 861
     }
   },
   "264-toa-payoh-east": {
@@ -4117,6 +6759,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 835
     }
   },
   "265a-kim-keat-ave": {
@@ -4131,6 +6782,15 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 173
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 994
     }
   },
   "266a-kim-keat-ave": {
@@ -4144,6 +6804,15 @@
     "total_dwelling_units": 163,
     "sold_units_by_type": {
       "4room": 163
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1079
     }
   },
   "267a-kim-keat-ave": {
@@ -4158,6 +6827,15 @@
     "sold_units_by_type": {
       "3room": 57,
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1054
     }
   },
   "268a-toa-payoh-east": {
@@ -4171,6 +6849,15 @@
     "total_dwelling_units": 236,
     "sold_units_by_type": {
       "4room": 236
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1134
     }
   },
   "269a-toa-payoh-east": {
@@ -4184,6 +6871,15 @@
     "total_dwelling_units": 233,
     "sold_units_by_type": {
       "4room": 233
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 1100
     }
   },
   "27-toa-payoh-east": {
@@ -4197,6 +6893,15 @@
     "total_dwelling_units": 198,
     "sold_units_by_type": {
       "3room": 198
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 960
     }
   },
   "270a-toa-payoh-east": {
@@ -4211,6 +6916,15 @@
     "sold_units_by_type": {
       "2room": 150,
       "4room": 89
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit A",
+      "distance": 1169
     }
   },
   "3-lor-7-toa-payoh": {
@@ -4225,6 +6939,15 @@
     "sold_units_by_type": {
       "3room": 168,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 796
     }
   },
   "3-upp-aljunied-lane": {
@@ -4241,6 +6964,15 @@
     },
     "rental_units_by_type": {
       "3room": 10
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit A",
+      "distance": 813
     }
   },
   "34-lor-5-toa-payoh": {
@@ -4255,6 +6987,15 @@
     "sold_units_by_type": {
       "3room": 172,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 764
     }
   },
   "35-lor-5-toa-payoh": {
@@ -4269,6 +7010,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 783
     }
   },
   "36-lor-5-toa-payoh": {
@@ -4283,6 +7033,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 882
     }
   },
   "37-lor-5-toa-payoh": {
@@ -4297,6 +7056,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 941
     }
   },
   "38-lor-5-toa-payoh": {
@@ -4314,6 +7082,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 859
     }
   },
   "4-lor-7-toa-payoh": {
@@ -4328,6 +7105,15 @@
     "sold_units_by_type": {
       "3room": 109,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 918
     }
   },
   "4-upp-aljunied-lane": {
@@ -4342,6 +7128,15 @@
     "sold_units_by_type": {
       "3room": 100,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit A",
+      "distance": 810
     }
   },
   "402a-lor-1-toa-payoh": {
@@ -4357,6 +7152,15 @@
       "2room": 39,
       "3room": 39,
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 340
     }
   },
   "402b-lor-1-toa-payoh": {
@@ -4372,6 +7176,16 @@
       "2room": 78,
       "3room": 39,
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "caldecott",
+      "name": "Caldecott",
+      "codes": [
+        "CC17",
+        "TE9"
+      ],
+      "exit": "Exit 2",
+      "distance": 358
     }
   },
   "403a-lor-1-toa-payoh": {
@@ -4385,6 +7199,16 @@
     "total_dwelling_units": 245,
     "sold_units_by_type": {
       "4room": 245
+    },
+    "nearest_station": {
+      "id": "caldecott",
+      "name": "Caldecott",
+      "codes": [
+        "CC17",
+        "TE9"
+      ],
+      "exit": "Exit 2",
+      "distance": 338
     }
   },
   "403b-lor-1-toa-payoh": {
@@ -4400,6 +7224,15 @@
       "2room": 48,
       "3room": 24,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit B",
+      "distance": 330
     }
   },
   "43-lor-5-toa-payoh": {
@@ -4414,6 +7247,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 831
     }
   },
   "44-lor-5-toa-payoh": {
@@ -4427,6 +7269,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 823
     }
   },
   "45-lor-5-toa-payoh": {
@@ -4441,6 +7292,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 69
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 774
     }
   },
   "46-lor-5-toa-payoh": {
@@ -4454,6 +7314,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 761
     }
   },
   "47-lor-6-toa-payoh": {
@@ -4467,6 +7336,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "3room": 80
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 844
     }
   },
   "48-lor-5-toa-payoh": {
@@ -4480,6 +7358,15 @@
     "total_dwelling_units": 87,
     "sold_units_by_type": {
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 787
     }
   },
   "49-lor-5-toa-payoh": {
@@ -4493,6 +7380,15 @@
     "total_dwelling_units": 87,
     "sold_units_by_type": {
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 730
     }
   },
   "5-lor-7-toa-payoh": {
@@ -4507,6 +7403,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 258
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 956
     }
   },
   "5-upp-aljunied-lane": {
@@ -4521,6 +7426,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "mattar",
+      "name": "Mattar",
+      "codes": [
+        "DT25"
+      ],
+      "exit": "Exit A",
+      "distance": 786
     }
   },
   "50-lor-5-toa-payoh": {
@@ -4534,6 +7448,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "5room": 114
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 713
     }
   },
   "51-lor-6-toa-payoh": {
@@ -4551,6 +7474,15 @@
     },
     "rental_units_by_type": {
       "2room": 2
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 648
     }
   },
   "52-lor-6-toa-payoh": {
@@ -4568,6 +7500,15 @@
     "rental_units_by_type": {
       "2room": 254,
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 622
     }
   },
   "53-lor-5-toa-payoh": {
@@ -4584,6 +7525,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 490
     }
   },
   "54-lor-5-toa-payoh": {
@@ -4600,6 +7550,15 @@
     },
     "rental_units_by_type": {
       "2room": 117
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 493
     }
   },
   "55-lor-5-toa-payoh": {
@@ -4616,6 +7575,15 @@
     },
     "rental_units_by_type": {
       "2room": 70
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 557
     }
   },
   "56-lor-4-toa-payoh": {
@@ -4634,6 +7602,15 @@
     "rental_units_by_type": {
       "2room": 63,
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 521
     }
   },
   "57-lor-5-toa-payoh": {
@@ -4650,6 +7627,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 604
     }
   },
   "58-lor-4-toa-payoh": {
@@ -4668,6 +7654,15 @@
     "rental_units_by_type": {
       "2room": 68,
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 549
     }
   },
   "59-lor-5-toa-payoh": {
@@ -4681,6 +7676,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 649
     }
   },
   "6-lor-7-toa-payoh": {
@@ -4695,6 +7699,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1109
     }
   },
   "60-lor-4-toa-payoh": {
@@ -4709,6 +7722,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 532
     }
   },
   "61-lor-5-toa-payoh": {
@@ -4726,6 +7748,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 657
     }
   },
   "62-lor-4-toa-payoh": {
@@ -4740,6 +7771,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 592
     }
   },
   "62b-lor-4-toa-payoh": {
@@ -4754,6 +7794,15 @@
     "sold_units_by_type": {
       "2room": 59,
       "studio_apartment": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 542
     }
   },
   "63-lor-5-toa-payoh": {
@@ -4768,6 +7817,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 237
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 630
     }
   },
   "64-lor-5-toa-payoh": {
@@ -4782,6 +7840,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 239
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 672
     }
   },
   "66-lor-4-toa-payoh": {
@@ -4796,6 +7863,15 @@
     "sold_units_by_type": {
       "3room": 136,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 538
     }
   },
   "68-lor-5-toa-payoh": {
@@ -4811,6 +7887,15 @@
     "rental_units_by_type": {
       "2room": 229,
       "3room": 11
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 643
     }
   },
   "69-lor-4-toa-payoh": {
@@ -4824,6 +7909,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "3room": 90
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 589
     }
   },
   "7-lor-7-toa-payoh": {
@@ -4838,6 +7932,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1133
     }
   },
   "7-upp-aljunied-lane": {
@@ -4852,6 +7955,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 34
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 855
     }
   },
   "70-lor-4-toa-payoh": {
@@ -4865,6 +7977,15 @@
     "total_dwelling_units": 26,
     "sold_units_by_type": {
       "3room": 26
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 562
     }
   },
   "71-lor-4-toa-payoh": {
@@ -4879,6 +8000,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 537
     }
   },
   "72-lor-5-toa-payoh": {
@@ -4892,6 +8022,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "3room": 12
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 511
     }
   },
   "73-lor-4-toa-payoh": {
@@ -4906,6 +8045,15 @@
     "sold_units_by_type": {
       "3room": 148,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 493
     }
   },
   "79a-toa-payoh-ctrl": {
@@ -4920,6 +8068,15 @@
     "sold_units_by_type": {
       "4room": 269,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 173
     }
   },
   "79b-toa-payoh-ctrl": {
@@ -4933,6 +8090,15 @@
     "total_dwelling_units": 191,
     "sold_units_by_type": {
       "4room": 191
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 198
     }
   },
   "79c-toa-payoh-ctrl": {
@@ -4947,6 +8113,15 @@
     "sold_units_by_type": {
       "4room": 82,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 232
     }
   },
   "79d-toa-payoh-ctrl": {
@@ -4960,6 +8135,15 @@
     "total_dwelling_units": 191,
     "sold_units_by_type": {
       "4room": 191
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 275
     }
   },
   "79e-toa-payoh-ctrl": {
@@ -4973,6 +8157,15 @@
     "total_dwelling_units": 308,
     "sold_units_by_type": {
       "4room": 308
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 338
     }
   },
   "8-joo-seng-rd": {
@@ -4987,6 +8180,15 @@
     "sold_units_by_type": {
       "5room": 57,
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 802
     }
   },
   "8-lor-7-toa-payoh": {
@@ -5001,6 +8203,15 @@
     "sold_units_by_type": {
       "3room": 139,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1066
     }
   },
   "80-lor-4-toa-payoh": {
@@ -5015,6 +8226,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 285
     }
   },
   "80a-lor-4-toa-payoh": {
@@ -5029,6 +8249,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 333
     }
   },
   "80b-lor-4-toa-payoh": {
@@ -5043,6 +8272,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 383
     }
   },
   "81-lor-4-toa-payoh": {
@@ -5057,6 +8295,15 @@
     "sold_units_by_type": {
       "4room": 23,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 437
     }
   },
   "81a-lor-4-toa-payoh": {
@@ -5071,6 +8318,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 426
     }
   },
   "81b-lor-4-toa-payoh": {
@@ -5085,6 +8341,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 429
     }
   },
   "82-lor-4-toa-payoh": {
@@ -5099,6 +8364,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 362
     }
   },
   "82a-lor-4-toa-payoh": {
@@ -5113,6 +8387,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 378
     }
   },
   "82b-lor-4-toa-payoh": {
@@ -5127,6 +8410,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 338
     }
   },
   "83-lor-2-toa-payoh": {
@@ -5141,6 +8433,15 @@
     "sold_units_by_type": {
       "3room": 74,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 320
     }
   },
   "84-lor-2-toa-payoh": {
@@ -5155,6 +8456,15 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 250
     }
   },
   "84a-lor-2-toa-payoh": {
@@ -5169,6 +8479,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 238
     }
   },
   "84b-lor-2-toa-payoh": {
@@ -5183,6 +8502,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 278
     }
   },
   "85-lor-4-toa-payoh": {
@@ -5196,6 +8524,15 @@
     "total_dwelling_units": 10,
     "sold_units_by_type": {
       "3room": 10
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 386
     }
   },
   "85a-lor-4-toa-payoh": {
@@ -5210,6 +8547,15 @@
     "sold_units_by_type": {
       "3room": 145,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 433
     }
   },
   "85b-lor-4-toa-payoh": {
@@ -5224,6 +8570,15 @@
     "sold_units_by_type": {
       "3room": 154,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit C",
+      "distance": 387
     }
   },
   "85c-lor-4-toa-payoh": {
@@ -5238,6 +8593,15 @@
     "sold_units_by_type": {
       "3room": 142,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 351
     }
   },
   "86-lor-2-toa-payoh": {
@@ -5252,6 +8616,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit D",
+      "distance": 303
     }
   },
   "9-joo-seng-rd": {
@@ -5266,6 +8639,15 @@
     "sold_units_by_type": {
       "3room": 34,
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "bartley",
+      "name": "Bartley",
+      "codes": [
+        "CC12"
+      ],
+      "exit": "Exit A",
+      "distance": 824
     }
   },
   "9-lor-7-toa-payoh": {
@@ -5279,6 +8661,15 @@
     "total_dwelling_units": 176,
     "sold_units_by_type": {
       "3room": 176
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 1208
     }
   },
   "91-lor-3-toa-payoh": {
@@ -5292,6 +8683,15 @@
     "total_dwelling_units": 192,
     "sold_units_by_type": {
       "3room": 192
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 301
     }
   },
   "92-lor-4-toa-payoh": {
@@ -5305,6 +8705,15 @@
     "total_dwelling_units": 23,
     "sold_units_by_type": {
       "3room": 23
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 366
     }
   },
   "94-lor-4-toa-payoh": {
@@ -5318,6 +8727,15 @@
     "total_dwelling_units": 45,
     "sold_units_by_type": {
       "3room": 45
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 306
     }
   },
   "95-lor-4-toa-payoh": {
@@ -5332,6 +8750,15 @@
     "sold_units_by_type": {
       "3room": 33,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 263
     }
   },
   "96-lor-3-toa-payoh": {
@@ -5345,6 +8772,15 @@
     "total_dwelling_units": 192,
     "sold_units_by_type": {
       "3room": 192
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 251
     }
   },
   "97-lor-3-toa-payoh": {
@@ -5358,6 +8794,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 230
     }
   },
   "98-lor-1-toa-payoh": {
@@ -5371,6 +8816,15 @@
     "total_dwelling_units": 192,
     "sold_units_by_type": {
       "3room": 192
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 196
     }
   },
   "99a-lor-2-toa-payoh": {
@@ -5384,6 +8838,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 219
     }
   },
   "99b-lor-2-toa-payoh": {
@@ -5397,6 +8860,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 215
     }
   },
   "99c-lor-2-toa-payoh": {
@@ -5410,6 +8882,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 184
     }
   }
 }

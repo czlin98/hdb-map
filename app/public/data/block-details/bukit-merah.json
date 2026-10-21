@@ -10,6 +10,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "great-world",
+      "name": "Great World",
+      "codes": [
+        "TE15"
+      ],
+      "exit": "Exit 2",
+      "distance": 458
     }
   },
   "1-everton-pk": {
@@ -24,6 +33,17 @@
     "sold_units_by_type": {
       "3room": 62,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 176
     }
   },
   "1-jln-bt-merah": {
@@ -40,6 +60,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 896
     }
   },
   "1-telok-blangah-cres": {
@@ -54,6 +83,15 @@
     "sold_units_by_type": {
       "3room": 146,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 1107
     }
   },
   "10-jln-bt-ho-swee": {
@@ -70,6 +108,15 @@
     },
     "rental_units_by_type": {
       "2room": 70
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 108
     }
   },
   "10-jln-rumah-tinggi": {
@@ -84,6 +131,15 @@
     "sold_units_by_type": {
       "3room": 20,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 715
     }
   },
   "10-telok-blangah-cres": {
@@ -98,6 +154,15 @@
     "sold_units_by_type": {
       "3room": 65,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1201
     }
   },
   "101-bt-purmei-rd": {
@@ -115,6 +180,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 450
     }
   },
   "101-henderson-cres": {
@@ -128,6 +202,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 505
     }
   },
   "101-spottiswoode-pk-rd": {
@@ -141,6 +224,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 167
     }
   },
   "102-bt-purmei-rd": {
@@ -155,6 +247,15 @@
     "sold_units_by_type": {
       "3room": 93,
       "4room": 54
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 362
     }
   },
   "102-henderson-cres": {
@@ -168,6 +269,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 491
     }
   },
   "102-spottiswoode-pk-rd": {
@@ -181,6 +291,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 114
     }
   },
   "102a-depot-rd": {
@@ -195,6 +314,15 @@
     "sold_units_by_type": {
       "2room": 45,
       "studio_apartment": 69
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 1089
     }
   },
   "103-bt-purmei-rd": {
@@ -210,6 +338,15 @@
       "3room": 68,
       "4room": 50,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 490
     }
   },
   "103-henderson-cres": {
@@ -223,6 +360,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 460
     }
   },
   "103-spottiswoode-pk-rd": {
@@ -237,6 +383,15 @@
     "sold_units_by_type": {
       "5room": 92,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 130
     }
   },
   "103a-depot-rd": {
@@ -250,6 +405,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 1045
     }
   },
   "103b-depot-rd": {
@@ -264,6 +428,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 1051
     }
   },
   "104-bt-purmei-rd": {
@@ -278,6 +451,15 @@
     "sold_units_by_type": {
       "3room": 88,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 490
     }
   },
   "104-henderson-cres": {
@@ -291,6 +473,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 477
     }
   },
   "104-jln-bt-merah": {
@@ -305,6 +496,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 216
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 597
     }
   },
   "104-spottiswoode-pk-rd": {
@@ -319,6 +519,15 @@
     "sold_units_by_type": {
       "5room": 92,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 146
     }
   },
   "104a-depot-rd": {
@@ -333,6 +542,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1116
     }
   },
   "104b-depot-rd": {
@@ -347,6 +565,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1114
     }
   },
   "105-bt-purmei-rd": {
@@ -361,6 +588,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 588
     }
   },
   "105-henderson-cres": {
@@ -375,6 +611,15 @@
     "sold_units_by_type": {
       "3room": 264,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 574
     }
   },
   "105-jln-bt-merah": {
@@ -390,6 +635,15 @@
     "rental_units_by_type": {
       "1room": 306,
       "2room": 18
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 614
     }
   },
   "105-spottiswoode-pk-rd": {
@@ -404,6 +658,15 @@
     "sold_units_by_type": {
       "5room": 92,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 169
     }
   },
   "105a-depot-rd": {
@@ -418,6 +681,15 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 1113
     }
   },
   "106-bt-purmei-rd": {
@@ -432,6 +704,15 @@
     "sold_units_by_type": {
       "3room": 51,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 521
     }
   },
   "106-henderson-cres": {
@@ -445,6 +726,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 559
     }
   },
   "106-jln-bt-merah": {
@@ -460,6 +750,15 @@
     "rental_units_by_type": {
       "1room": 312,
       "2room": 18
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 672
     }
   },
   "106-spottiswoode-pk-rd": {
@@ -474,6 +773,15 @@
     "sold_units_by_type": {
       "5room": 92,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 217
     }
   },
   "106a-depot-rd": {
@@ -488,6 +796,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1107
     }
   },
   "106b-depot-rd": {
@@ -502,6 +819,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1108
     }
   },
   "107-bt-purmei-rd": {
@@ -516,6 +842,15 @@
     "sold_units_by_type": {
       "3room": 84,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 636
     }
   },
   "107-jln-bt-merah": {
@@ -530,6 +865,15 @@
     "sold_units_by_type": {
       "3room": 218,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 704
     }
   },
   "107-spottiswoode-pk-rd": {
@@ -544,6 +888,15 @@
     "sold_units_by_type": {
       "5room": 92,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 121
     }
   },
   "108-bt-purmei-rd": {
@@ -558,6 +911,15 @@
     "sold_units_by_type": {
       "3room": 55,
       "4room": 121
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 569
     }
   },
   "108-jln-bt-merah": {
@@ -573,6 +935,15 @@
       "3room": 94,
       "4room": 74,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 747
     }
   },
   "109-bt-purmei-rd": {
@@ -588,6 +959,15 @@
       "3room": 99,
       "4room": 61,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 610
     }
   },
   "109-jln-bt-merah": {
@@ -601,6 +981,15 @@
     "total_dwelling_units": 118,
     "sold_units_by_type": {
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 711
     }
   },
   "109-spottiswoode-pk-rd": {
@@ -615,6 +1004,15 @@
     "sold_units_by_type": {
       "5room": 88,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 80
     }
   },
   "109a-depot-rd": {
@@ -629,6 +1027,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1139
     }
   },
   "109b-depot-rd": {
@@ -643,6 +1050,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1145
     }
   },
   "10a-boon-tiong-rd": {
@@ -657,6 +1073,15 @@
     "sold_units_by_type": {
       "3room": 76,
       "4room": 152
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 237
     }
   },
   "10b-boon-tiong-rd": {
@@ -673,6 +1098,15 @@
       "3room": 28,
       "4room": 84,
       "studio_apartment": 32
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 190
     }
   },
   "11-cantonment-cl": {
@@ -688,6 +1122,15 @@
       "3room": 29,
       "4room": 87,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 158
     }
   },
   "11-jln-bt-merah": {
@@ -701,6 +1144,15 @@
     "total_dwelling_units": 21,
     "sold_units_by_type": {
       "3room": 21
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 902
     }
   },
   "110-bt-purmei-rd": {
@@ -716,6 +1168,15 @@
       "3room": 53,
       "4room": 121,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 461
     }
   },
   "110-jln-bt-merah": {
@@ -731,6 +1192,15 @@
     "rental_units_by_type": {
       "2room": 147,
       "3room": 20
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 669
     }
   },
   "110-spottiswoode-pk-rd": {
@@ -745,6 +1215,15 @@
     "sold_units_by_type": {
       "5room": 88,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 48
     }
   },
   "110a-depot-rd": {
@@ -759,6 +1238,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1193
     }
   },
   "111-bt-purmei-rd": {
@@ -773,6 +1261,15 @@
     "sold_units_by_type": {
       "4room": 114,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 504
     }
   },
   "111-jln-bt-merah": {
@@ -789,6 +1286,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 611
     }
   },
   "111a-depot-rd": {
@@ -803,6 +1309,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1164
     }
   },
   "111b-depot-rd": {
@@ -817,6 +1332,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1172
     }
   },
   "112-bt-purmei-rd": {
@@ -831,6 +1355,15 @@
     "sold_units_by_type": {
       "3room": 99,
       "4room": 73
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 604
     }
   },
   "112a-depot-rd": {
@@ -845,6 +1378,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 41
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1211
     }
   },
   "112b-depot-rd": {
@@ -859,6 +1401,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 41
+    },
+    "nearest_station": {
+      "id": "labrador-park",
+      "name": "Labrador Park",
+      "codes": [
+        "CC27"
+      ],
+      "exit": "Exit A",
+      "distance": 1210
     }
   },
   "113-bt-purmei-rd": {
@@ -872,6 +1423,15 @@
     "total_dwelling_units": 160,
     "sold_units_by_type": {
       "4room": 160
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 557
     }
   },
   "113-depot-rd": {
@@ -885,6 +1445,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "labrador-park",
+      "name": "Labrador Park",
+      "codes": [
+        "CC27"
+      ],
+      "exit": "Exit A",
+      "distance": 1172
     }
   },
   "113-jln-bt-merah": {
@@ -899,6 +1468,15 @@
     "sold_units_by_type": {
       "2room": 1,
       "3room": 119
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 626
     }
   },
   "114-bt-purmei-rd": {
@@ -913,6 +1491,15 @@
     "sold_units_by_type": {
       "4room": 132,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 653
     }
   },
   "114-depot-rd": {
@@ -926,6 +1513,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "labrador-park",
+      "name": "Labrador Park",
+      "codes": [
+        "CC27"
+      ],
+      "exit": "Exit A",
+      "distance": 1184
     }
   },
   "115-bt-merah-ctrl": {
@@ -939,6 +1535,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 643
     }
   },
   "115-bt-purmei-rd": {
@@ -953,6 +1558,15 @@
     "sold_units_by_type": {
       "4room": 136,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 612
     }
   },
   "115-jln-bt-merah": {
@@ -968,6 +1582,15 @@
     "rental_units_by_type": {
       "2room": 136,
       "3room": 18
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 523
     }
   },
   "116-bt-merah-ctrl": {
@@ -981,6 +1604,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 647
     }
   },
   "116-bt-merah-view": {
@@ -995,6 +1627,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 611
     }
   },
   "116-jln-bt-merah": {
@@ -1010,6 +1651,15 @@
     "rental_units_by_type": {
       "2room": 136,
       "3room": 18
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 485
     }
   },
   "117-bt-merah-ctrl": {
@@ -1023,6 +1673,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 660
     }
   },
   "117-bt-merah-view": {
@@ -1037,6 +1696,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 280
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 588
     }
   },
   "117-jln-bt-merah": {
@@ -1052,6 +1720,15 @@
     "rental_units_by_type": {
       "2room": 136,
       "3room": 18
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 451
     }
   },
   "118-bt-merah-view": {
@@ -1066,6 +1743,15 @@
     "sold_units_by_type": {
       "2room": 50,
       "studio_apartment": 80
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 685
     }
   },
   "118a-jln-membina": {
@@ -1079,6 +1765,15 @@
     "total_dwelling_units": 172,
     "sold_units_by_type": {
       "4room": 172
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 505
     }
   },
   "118b-jln-membina": {
@@ -1093,6 +1788,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 85
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 455
     }
   },
   "118c-jln-membina": {
@@ -1107,6 +1811,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 85
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 406
     }
   },
   "118d-jln-membina": {
@@ -1120,6 +1833,15 @@
     "total_dwelling_units": 172,
     "sold_units_by_type": {
       "4room": 172
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 345
     }
   },
   "119-bt-merah-lane-1": {
@@ -1134,6 +1856,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 938
     }
   },
   "119-bt-merah-view": {
@@ -1148,6 +1879,15 @@
     "sold_units_by_type": {
       "3room": 292,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 728
     }
   },
   "119b-kim-tian-rd": {
@@ -1162,6 +1902,15 @@
     "sold_units_by_type": {
       "4room": 128,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 513
     }
   },
   "119c-kim-tian-rd": {
@@ -1176,6 +1925,15 @@
     "sold_units_by_type": {
       "4room": 128,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 481
     }
   },
   "119d-kim-tian-rd": {
@@ -1190,6 +1948,15 @@
     "sold_units_by_type": {
       "4room": 128,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 436
     }
   },
   "12-cantonment-cl": {
@@ -1205,6 +1972,15 @@
       "3room": 29,
       "4room": 87,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 199
     }
   },
   "12-jln-bt-merah": {
@@ -1219,6 +1995,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 753
     }
   },
   "12-taman-ho-swee": {
@@ -1237,6 +2022,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 125
     }
   },
   "12-telok-blangah-cres": {
@@ -1254,6 +2048,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 1247
     }
   },
   "120-bt-merah-view": {
@@ -1267,6 +2071,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 589
     }
   },
   "120-kim-tian-pl": {
@@ -1281,6 +2094,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 331
     }
   },
   "120a-kim-tian-pl": {
@@ -1295,6 +2117,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 295
     }
   },
   "121-bt-merah-lane-1": {
@@ -1309,6 +2140,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 859
     }
   },
   "121-bt-merah-view": {
@@ -1323,6 +2163,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 224
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 552
     }
   },
   "121-kim-tian-pl": {
@@ -1337,6 +2186,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 379
     }
   },
   "121a-kim-tian-pl": {
@@ -1351,6 +2209,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 370
     }
   },
   "122-bt-merah-lane-1": {
@@ -1364,6 +2231,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "3room": 20
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 894
     }
   },
   "122-kim-tian-rd": {
@@ -1377,6 +2253,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 338
     }
   },
   "123-bt-merah-view": {
@@ -1391,6 +2276,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 320
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 458
     }
   },
   "123-kim-tian-rd": {
@@ -1405,6 +2299,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 305
     }
   },
   "124-bt-merah-lane-1": {
@@ -1419,6 +2322,15 @@
     "sold_units_by_type": {
       "3room": 15,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 982
     }
   },
   "124-kim-tian-pl": {
@@ -1433,6 +2345,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 288
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 248
     }
   },
   "124a-bt-merah-view": {
@@ -1447,6 +2368,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 478
     }
   },
   "124b-bt-merah-view": {
@@ -1461,6 +2391,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 436
     }
   },
   "125-bt-merah-lane-1": {
@@ -1475,6 +2414,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 990
     }
   },
   "125-bt-merah-view": {
@@ -1489,6 +2437,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 362
     }
   },
   "125-kim-tian-rd": {
@@ -1503,6 +2460,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 268
     }
   },
   "126-bt-merah-view": {
@@ -1516,6 +2482,15 @@
     "total_dwelling_units": 116,
     "sold_units_by_type": {
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 373
     }
   },
   "126a-kim-tian-rd": {
@@ -1530,6 +2505,15 @@
     "sold_units_by_type": {
       "4room": 136,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 426
     }
   },
   "126c-kim-tian-rd": {
@@ -1544,6 +2528,15 @@
     "sold_units_by_type": {
       "3room": 78,
       "4room": 136
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 462
     }
   },
   "127-bt-merah-lane-1": {
@@ -1557,6 +2550,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 1039
     }
   },
   "127a-kim-tian-rd": {
@@ -1572,6 +2574,15 @@
       "2room": 69,
       "3room": 72,
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 510
     }
   },
   "127c-kim-tian-rd": {
@@ -1588,6 +2599,15 @@
       "3room": 76,
       "4room": 72,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 580
     }
   },
   "127d-kim-tian-rd": {
@@ -1602,6 +2622,15 @@
     "sold_units_by_type": {
       "4room": 192,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 611
     }
   },
   "128-bt-merah-view": {
@@ -1619,6 +2648,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 534
     }
   },
   "128-kim-tian-rd": {
@@ -1632,6 +2670,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 524
     }
   },
   "129-bt-merah-view": {
@@ -1646,6 +2693,15 @@
     "sold_units_by_type": {
       "3room": 290,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 428
     }
   },
   "129-kim-tian-rd": {
@@ -1659,6 +2715,15 @@
     "total_dwelling_units": 113,
     "sold_units_by_type": {
       "4room": 113
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 553
     }
   },
   "13-cantonment-cl": {
@@ -1674,6 +2739,15 @@
       "3room": 29,
       "4room": 87,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 251
     }
   },
   "13-jln-bt-merah": {
@@ -1688,6 +2762,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 736
     }
   },
   "13-telok-blangah-cres": {
@@ -1702,6 +2785,15 @@
     "sold_units_by_type": {
       "3room": 168,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1113
     }
   },
   "130-bt-merah-view": {
@@ -1716,6 +2808,15 @@
     "sold_units_by_type": {
       "3room": 282,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 320
     }
   },
   "130-kim-tian-rd": {
@@ -1730,6 +2831,15 @@
     "sold_units_by_type": {
       "3room": 106,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 648
     }
   },
   "131-jln-bt-merah": {
@@ -1744,6 +2854,15 @@
     "sold_units_by_type": {
       "3room": 137,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 633
     }
   },
   "131b-kim-tian-rd": {
@@ -1758,6 +2877,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 83
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 560
     }
   },
   "131c-kim-tian-rd": {
@@ -1772,6 +2900,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 639
     }
   },
   "132-jln-bt-merah": {
@@ -1789,6 +2926,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 794
     }
   },
   "133-jln-bt-merah": {
@@ -1802,6 +2948,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "3room": 112
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 692
     }
   },
   "134-jln-bt-merah": {
@@ -1816,6 +2971,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 775
     }
   },
   "135-jln-bt-merah": {
@@ -1830,6 +2994,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 796
     }
   },
   "136-jln-bt-merah": {
@@ -1844,6 +3017,15 @@
     "sold_units_by_type": {
       "3room": 86,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 833
     }
   },
   "137-jln-bt-merah": {
@@ -1861,6 +3043,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 846
     }
   },
   "138-jln-bt-merah": {
@@ -1878,6 +3069,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 820
     }
   },
   "139-jln-bt-merah": {
@@ -1892,6 +3092,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 743
     }
   },
   "14-jln-bt-merah": {
@@ -1906,6 +3115,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 729
     }
   },
   "14-taman-ho-swee": {
@@ -1920,6 +3138,15 @@
     "sold_units_by_type": {
       "2room": 9,
       "3room": 72
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 3",
+      "distance": 167
     }
   },
   "14-telok-blangah-cres": {
@@ -1934,6 +3161,15 @@
     "sold_units_by_type": {
       "4room": 25,
       "5room": 49
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1179
     }
   },
   "140-jln-bt-merah": {
@@ -1947,6 +3183,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 3",
+      "distance": 820
     }
   },
   "141-jln-bt-merah": {
@@ -1963,6 +3208,15 @@
       "4room": 19,
       "5room": 2,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 3",
+      "distance": 738
     }
   },
   "142-jln-bt-merah": {
@@ -1977,6 +3231,15 @@
     "sold_units_by_type": {
       "3room": 120,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 739
     }
   },
   "143-jln-bt-merah": {
@@ -1990,6 +3253,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 3",
+      "distance": 770
     }
   },
   "144-jln-bt-merah": {
@@ -2004,6 +3276,15 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 20
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 3",
+      "distance": 718
     }
   },
   "145-jln-bt-merah": {
@@ -2019,6 +3300,15 @@
       "3room": 62,
       "4room": 16,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 3",
+      "distance": 709
     }
   },
   "146-jln-bt-merah": {
@@ -2035,6 +3325,15 @@
       "4room": 45,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 736
     }
   },
   "147-silat-ave": {
@@ -2049,6 +3348,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 673
     }
   },
   "148-silat-ave": {
@@ -2065,6 +3373,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 3",
+      "distance": 660
     }
   },
   "149-silat-ave": {
@@ -2081,6 +3398,15 @@
       "4room": 33,
       "5room": 3,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 634
     }
   },
   "14a-telok-blangah-cres": {
@@ -2095,6 +3421,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1129
     }
   },
   "15-telok-blangah-cres": {
@@ -2109,6 +3444,15 @@
     "sold_units_by_type": {
       "3room": 168,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1190
     }
   },
   "150-silat-ave": {
@@ -2123,6 +3467,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 2",
+      "distance": 630
     }
   },
   "16-cantonment-cl": {
@@ -2138,6 +3491,15 @@
       "3room": 29,
       "4room": 87,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 199
     }
   },
   "16-taman-ho-swee": {
@@ -2153,6 +3515,15 @@
       "2room": 9,
       "3room": 66,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 3",
+      "distance": 216
     }
   },
   "16-telok-blangah-cres": {
@@ -2167,6 +3538,15 @@
     "sold_units_by_type": {
       "3room": 174,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1052
     }
   },
   "161-bt-merah-ctrl": {
@@ -2185,6 +3565,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 617
     }
   },
   "164-bt-merah-ctrl": {
@@ -2198,6 +3587,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 664
     }
   },
   "165-bt-merah-ctrl": {
@@ -2212,6 +3610,15 @@
     "sold_units_by_type": {
       "3room": 3,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 703
     }
   },
   "17-cantonment-cl": {
@@ -2226,6 +3633,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 152
     }
   },
   "17-seng-poh-rd": {
@@ -2240,6 +3656,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 168
     }
   },
   "17-telok-blangah-cres": {
@@ -2254,6 +3679,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1065
     }
   },
   "17-tiong-bahru-rd": {
@@ -2268,6 +3702,15 @@
     "sold_units_by_type": {
       "3room": 20,
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 143
     }
   },
   "17a-telok-blangah-cres": {
@@ -2282,6 +3725,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1107
     }
   },
   "18-cantonment-cl": {
@@ -2297,6 +3749,15 @@
       "3room": 29,
       "4room": 87,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 107
     }
   },
   "18-taman-ho-swee": {
@@ -2315,6 +3776,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 3",
+      "distance": 273
     }
   },
   "18-telok-blangah-cres": {
@@ -2329,6 +3799,15 @@
     "sold_units_by_type": {
       "3room": 166,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1004
     }
   },
   "18-tiong-bahru-rd": {
@@ -2342,6 +3821,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 168
     }
   },
   "19-cantonment-cl": {
@@ -2356,6 +3844,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 63
     }
   },
   "19-jln-membina": {
@@ -2370,6 +3867,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 82
     }
   },
   "19-lim-liak-st": {
@@ -2383,6 +3889,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 189
     }
   },
   "19-telok-blangah-cres": {
@@ -2397,6 +3912,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 364
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1041
     }
   },
   "2-delta-ave": {
@@ -2410,6 +3934,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "great-world",
+      "name": "Great World",
+      "codes": [
+        "TE15"
+      ],
+      "exit": "Exit 2",
+      "distance": 527
     }
   },
   "2-everton-pk": {
@@ -2424,6 +3957,17 @@
     "sold_units_by_type": {
       "3room": 60,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 172
     }
   },
   "2-jln-bt-ho-swee": {
@@ -2440,6 +3984,15 @@
     },
     "rental_units_by_type": {
       "2room": 45
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 184
     }
   },
   "2-jln-bt-merah": {
@@ -2457,6 +4010,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 850
     }
   },
   "20-jln-klinik": {
@@ -2472,6 +4034,15 @@
       "2room": 29,
       "3room": 83,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 260
     }
   },
   "20-jln-membina": {
@@ -2486,6 +4057,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 120
     }
   },
   "20-telok-blangah-cres": {
@@ -2500,6 +4080,15 @@
     "sold_units_by_type": {
       "3room": 170,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 1120
     }
   },
   "20-tiong-bahru-rd": {
@@ -2513,6 +4102,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 200
     }
   },
   "21-jln-membina": {
@@ -2526,6 +4124,15 @@
     "total_dwelling_units": 196,
     "sold_units_by_type": {
       "4room": 196
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 154
     }
   },
   "21-lim-liak-st": {
@@ -2539,6 +4146,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 224
     }
   },
   "21-telok-blangah-cres": {
@@ -2553,6 +4169,16 @@
     "sold_units_by_type": {
       "3room": 148,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 1179
     }
   },
   "22-havelock-rd": {
@@ -2569,6 +4195,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 303
     }
   },
   "22-jln-membina": {
@@ -2583,6 +4218,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 114
     }
   },
   "22-telok-blangah-cres": {
@@ -2597,6 +4241,16 @@
     "sold_units_by_type": {
       "3room": 142,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 1175
     }
   },
   "22-tiong-bahru-rd": {
@@ -2610,6 +4264,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 242
     }
   },
   "23-jln-membina": {
@@ -2624,6 +4287,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 113
     }
   },
   "23-lim-liak-st": {
@@ -2637,6 +4309,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 257
     }
   },
   "23-telok-blangah-cres": {
@@ -2650,6 +4331,16 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 1120
     }
   },
   "24-beo-cres": {
@@ -2665,6 +4356,15 @@
       "2room": 30,
       "3room": 88,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 263
     }
   },
   "24-telok-blangah-cres": {
@@ -2678,6 +4378,16 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 1045
     }
   },
   "24-tiong-bahru-rd": {
@@ -2691,6 +4401,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 282
     }
   },
   "25-lim-liak-st": {
@@ -2704,6 +4423,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 299
     }
   },
   "25-telok-blangah-cres": {
@@ -2717,6 +4445,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 1157
     }
   },
   "25a-jln-membina": {
@@ -2731,6 +4469,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 270
     }
   },
   "25b-jln-membina": {
@@ -2745,6 +4492,15 @@
     "sold_units_by_type": {
       "4room": 196,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 297
     }
   },
   "26-jln-klinik": {
@@ -2762,6 +4518,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 228
     }
   },
   "26-telok-blangah-cres": {
@@ -2775,6 +4540,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 1199
     }
   },
   "26-tiong-bahru-rd": {
@@ -2788,6 +4562,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 328
     }
   },
   "26a-jln-membina": {
@@ -2803,6 +4586,15 @@
       "2room": 7,
       "3room": 110,
       "studio_apartment": 31
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 317
     }
   },
   "26b-jln-membina": {
@@ -2819,6 +4611,15 @@
       "3room": 42,
       "4room": 116,
       "studio_apartment": 33
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 335
     }
   },
   "26c-jln-membina": {
@@ -2833,6 +4634,15 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 388
     }
   },
   "26d-jln-membina": {
@@ -2847,6 +4657,15 @@
     "sold_units_by_type": {
       "3room": 86,
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 453
     }
   },
   "27-lim-liak-st": {
@@ -2861,6 +4680,15 @@
     "sold_units_by_type": {
       "3room": 14,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 340
     }
   },
   "27-telok-blangah-way": {
@@ -2874,6 +4702,16 @@
     "total_dwelling_units": 156,
     "sold_units_by_type": {
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 944
     }
   },
   "27a-jln-membina": {
@@ -2887,6 +4725,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 479
     }
   },
   "27b-jln-membina": {
@@ -2901,6 +4748,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 395
     }
   },
   "28-hoy-fatt-rd": {
@@ -2919,6 +4775,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 817
     }
   },
   "28-jln-bt-merah": {
@@ -2938,6 +4803,15 @@
     "rental_units_by_type": {
       "2room": 1,
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 871
     }
   },
   "28-jln-klinik": {
@@ -2956,6 +4830,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 188
     }
   },
   "28-telok-blangah-rise": {
@@ -2970,6 +4853,16 @@
     "sold_units_by_type": {
       "3room": 140,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 883
     }
   },
   "28-tiong-bahru-rd": {
@@ -2983,6 +4876,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "3room": 12
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 330
     }
   },
   "29-lim-liak-st": {
@@ -2996,6 +4898,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 341
     }
   },
   "29-telok-blangah-rise": {
@@ -3010,6 +4921,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 154
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 857
     }
   },
   "2a-boon-tiong-rd": {
@@ -3023,6 +4944,15 @@
     "total_dwelling_units": 106,
     "sold_units_by_type": {
       "4room": 106
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 59
     }
   },
   "2c-boon-tiong-rd": {
@@ -3036,6 +4966,15 @@
     "total_dwelling_units": 116,
     "sold_units_by_type": {
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 73
     }
   },
   "3-delta-ave": {
@@ -3049,6 +4988,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 594
     }
   },
   "3-everton-pk": {
@@ -3063,6 +5011,17 @@
     "sold_units_by_type": {
       "3room": 62,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 6",
+      "distance": 205
     }
   },
   "3-jln-bt-merah": {
@@ -3077,6 +5036,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 520
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 796
     }
   },
   "3-telok-blangah-cres": {
@@ -3091,6 +5059,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 231
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 1192
     }
   },
   "30-jln-klinik": {
@@ -3109,6 +5086,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 165
     }
   },
   "30-telok-blangah-rise": {
@@ -3123,6 +5109,16 @@
     "sold_units_by_type": {
       "3room": 108,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 776
     }
   },
   "31-telok-blangah-rise": {
@@ -3140,6 +5136,16 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit A",
+      "distance": 711
     }
   },
   "32-jln-bt-ho-swee": {
@@ -3158,6 +5164,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 156
     }
   },
   "32-telok-blangah-rise": {
@@ -3172,6 +5187,16 @@
     "sold_units_by_type": {
       "3room": 132,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 796
     }
   },
   "33-lim-liak-st": {
@@ -3186,6 +5211,15 @@
     "sold_units_by_type": {
       "3room": 22,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 294
     }
   },
   "33-telok-blangah-way": {
@@ -3200,6 +5234,15 @@
     "sold_units_by_type": {
       "3room": 162,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "keppel",
+      "name": "Keppel",
+      "codes": [
+        "CC30"
+      ],
+      "exit": "Exit 2",
+      "distance": 930
     }
   },
   "34-jln-bt-ho-swee": {
@@ -3215,6 +5258,15 @@
       "2room": 18,
       "3room": 78,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 196
     }
   },
   "34-kim-cheng-st": {
@@ -3228,6 +5280,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 311
     }
   },
   "34-telok-blangah-way": {
@@ -3241,6 +5302,16 @@
     "total_dwelling_units": 156,
     "sold_units_by_type": {
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 847
     }
   },
   "35-jln-rumah-tinggi": {
@@ -3255,6 +5326,15 @@
     "sold_units_by_type": {
       "4room": 11,
       "5room": 105
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 763
     }
   },
   "35-lim-liak-st": {
@@ -3269,6 +5349,15 @@
     "sold_units_by_type": {
       "3room": 14,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 342
     }
   },
   "35-telok-blangah-rise": {
@@ -3282,6 +5371,16 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "3room": 28
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 787
     }
   },
   "36-beo-cres": {
@@ -3297,6 +5396,15 @@
       "2room": 17,
       "3room": 73,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 218
     }
   },
   "36-jln-rumah-tinggi": {
@@ -3311,6 +5419,15 @@
     "sold_units_by_type": {
       "4room": 11,
       "5room": 105
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 701
     }
   },
   "36-moh-guan-ter": {
@@ -3324,6 +5441,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 356
     }
   },
   "37-jln-rumah-tinggi": {
@@ -3338,6 +5464,15 @@
     "sold_units_by_type": {
       "3room": 194,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 651
     }
   },
   "37-lim-liak-st": {
@@ -3351,6 +5486,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 362
     }
   },
   "37-telok-blangah-rise": {
@@ -3364,6 +5508,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 762
     }
   },
   "38-beo-cres": {
@@ -3379,6 +5533,15 @@
       "2room": 17,
       "3room": 79,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 245
     }
   },
   "38-jln-rumah-tinggi": {
@@ -3392,6 +5555,15 @@
     "total_dwelling_units": 105,
     "sold_units_by_type": {
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 733
     }
   },
   "38-kim-pong-rd": {
@@ -3405,6 +5577,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 373
     }
   },
   "38-telok-blangah-rise": {
@@ -3418,6 +5599,16 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "3room": 28
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 712
     }
   },
   "39-jln-rumah-tinggi": {
@@ -3431,6 +5622,15 @@
     "total_dwelling_units": 105,
     "sold_units_by_type": {
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 756
     }
   },
   "39-telok-blangah-rise": {
@@ -3444,6 +5644,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 653
     }
   },
   "4-delta-ave": {
@@ -3457,6 +5667,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 617
     }
   },
   "4-everton-pk": {
@@ -3471,6 +5690,17 @@
     "sold_units_by_type": {
       "3room": 58,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 237
     }
   },
   "4-jln-bt-ho-swee": {
@@ -3488,6 +5718,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 256
     }
   },
   "4-telok-blangah-cres": {
@@ -3502,6 +5741,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 231
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 1191
     }
   },
   "40-beo-cres": {
@@ -3517,6 +5765,15 @@
       "2room": 18,
       "3room": 76,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 300
     }
   },
   "40-jln-rumah-tinggi": {
@@ -3530,6 +5787,15 @@
     "total_dwelling_units": 105,
     "sold_units_by_type": {
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 723
     }
   },
   "40-telok-blangah-rise": {
@@ -3543,6 +5809,16 @@
     "total_dwelling_units": 168,
     "sold_units_by_type": {
       "4room": 168
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 711
     }
   },
   "41-kim-cheng-st": {
@@ -3556,6 +5832,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 328
     }
   },
   "41-telok-blangah-rise": {
@@ -3570,6 +5855,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 182
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 636
     }
   },
   "42-beo-cres": {
@@ -3584,6 +5879,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 126
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 313
     }
   },
   "42-kim-cheng-st": {
@@ -3597,6 +5901,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 350
     }
   },
   "42-telok-blangah-rise": {
@@ -3611,6 +5924,16 @@
     "sold_units_by_type": {
       "3room": 148,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 568
     }
   },
   "43-lengkok-bahru": {
@@ -3625,6 +5948,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 718
     }
   },
   "43-moh-guan-ter": {
@@ -3640,6 +5972,15 @@
       "2room": 6,
       "3room": 8,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 371
     }
   },
   "43-telok-blangah-rise": {
@@ -3657,6 +5998,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "harbourfront",
+      "name": "HarbourFront",
+      "codes": [
+        "NE1",
+        "CC29"
+      ],
+      "exit": "Exit D",
+      "distance": 530
     }
   },
   "44-beo-cres": {
@@ -3671,6 +6022,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 126
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 303
     }
   },
   "44-lengkok-bahru": {
@@ -3684,6 +6044,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 651
     }
   },
   "44-moh-guan-ter": {
@@ -3698,6 +6067,15 @@
     "sold_units_by_type": {
       "2room": 8,
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 390
     }
   },
   "44-telok-blangah-dr": {
@@ -3712,6 +6090,15 @@
     "sold_units_by_type": {
       "3room": 234,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 135
     }
   },
   "45-kim-cheng-st": {
@@ -3725,6 +6112,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 368
     }
   },
   "45-lengkok-bahru": {
@@ -3738,6 +6134,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 566
     }
   },
   "45-telok-blangah-dr": {
@@ -3755,6 +6160,15 @@
     },
     "rental_units_by_type": {
       "2room": 93
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 121
     }
   },
   "46-jln-bt-ho-swee": {
@@ -3769,6 +6183,15 @@
     "sold_units_by_type": {
       "3room": 102,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 262
     }
   },
   "46-lengkok-bahru": {
@@ -3783,6 +6206,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 541
     }
   },
   "46-seng-poh-rd": {
@@ -3796,6 +6228,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 393
     }
   },
   "46-telok-blangah-dr": {
@@ -3809,6 +6250,15 @@
     "total_dwelling_units": 19,
     "sold_units_by_type": {
       "3room": 19
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 108
     }
   },
   "47-lengkok-bahru": {
@@ -3823,6 +6273,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 625
     }
   },
   "47-moh-guan-ter": {
@@ -3837,6 +6296,15 @@
     "sold_units_by_type": {
       "2room": 8,
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 407
     }
   },
   "47-telok-blangah-dr": {
@@ -3854,6 +6322,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 149
     }
   },
   "48-lengkok-bahru": {
@@ -3868,6 +6345,15 @@
     "sold_units_by_type": {
       "4room": 81,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 710
     }
   },
   "48-lower-delta-rd": {
@@ -3884,6 +6370,15 @@
     },
     "rental_units_by_type": {
       "2room": 271
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 372
     }
   },
   "48-moh-guan-ter": {
@@ -3898,6 +6393,15 @@
     "sold_units_by_type": {
       "2room": 8,
       "3room": 7
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 425
     }
   },
   "48-telok-blangah-dr": {
@@ -3911,6 +6415,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 196
     }
   },
   "49-hoy-fatt-rd": {
@@ -3925,6 +6438,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 623
     }
   },
   "49-kim-pong-rd": {
@@ -3938,6 +6460,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 407
     }
   },
   "49-telok-blangah-dr": {
@@ -3951,6 +6482,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 210
     }
   },
   "4a-boon-tiong-rd": {
@@ -3964,6 +6504,15 @@
     "total_dwelling_units": 116,
     "sold_units_by_type": {
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 117
     }
   },
   "4b-boon-tiong-rd": {
@@ -3978,6 +6527,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 176
     }
   },
   "5-delta-ave": {
@@ -3991,6 +6549,15 @@
     "total_dwelling_units": 168,
     "sold_units_by_type": {
       "4room": 168
+    },
+    "nearest_station": {
+      "id": "great-world",
+      "name": "Great World",
+      "codes": [
+        "TE15"
+      ],
+      "exit": "Exit 2",
+      "distance": 563
     }
   },
   "5-everton-pk": {
@@ -4005,6 +6572,17 @@
     "sold_units_by_type": {
       "3room": 60,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 252
     }
   },
   "5-telok-blangah-cres": {
@@ -4019,6 +6597,15 @@
     "sold_units_by_type": {
       "3room": 136,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1165
     }
   },
   "50-havelock-rd": {
@@ -4035,6 +6622,15 @@
     },
     "rental_units_by_type": {
       "2room": 68
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 388
     }
   },
   "50-hoy-fatt-rd": {
@@ -4049,6 +6645,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 639
     }
   },
   "50-moh-guan-ter": {
@@ -4063,6 +6668,15 @@
     "sold_units_by_type": {
       "3room": 18,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 422
     }
   },
   "50-telok-blangah-dr": {
@@ -4076,6 +6690,15 @@
     "total_dwelling_units": 168,
     "sold_units_by_type": {
       "4room": 168
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 265
     }
   },
   "51-lengkok-bahru": {
@@ -4090,6 +6713,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 560
     }
   },
   "51-telok-blangah-dr": {
@@ -4103,6 +6735,15 @@
     "total_dwelling_units": 168,
     "sold_units_by_type": {
       "4room": 168
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 312
     }
   },
   "52-havelock-rd": {
@@ -4119,6 +6760,15 @@
       "3room": 68,
       "4room": 68,
       "studio_apartment": 41
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 367
     }
   },
   "52-lengkok-bahru": {
@@ -4133,6 +6783,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 417
     }
   },
   "52-telok-blangah-dr": {
@@ -4146,6 +6805,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 379
     }
   },
   "53-havelock-rd": {
@@ -4160,6 +6828,15 @@
     "sold_units_by_type": {
       "4room": 117,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 367
     }
   },
   "53-lengkok-bahru": {
@@ -4174,6 +6851,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 398
     }
   },
   "53-telok-blangah-dr": {
@@ -4187,6 +6873,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 433
     }
   },
   "54-havelock-rd": {
@@ -4201,6 +6896,15 @@
     "sold_units_by_type": {
       "3room": 70,
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 380
     }
   },
   "54-lengkok-bahru": {
@@ -4215,6 +6919,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 370
     }
   },
   "54-telok-blangah-dr": {
@@ -4230,6 +6943,15 @@
       "3room": 116,
       "4room": 24,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 393
     }
   },
   "55-havelock-rd": {
@@ -4244,6 +6966,15 @@
     "sold_units_by_type": {
       "3room": 70,
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 456
     }
   },
   "55-lengkok-bahru": {
@@ -4259,6 +6990,15 @@
     "rental_units_by_type": {
       "2room": 360,
       "3room": 60
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 449
     }
   },
   "55-telok-blangah-dr": {
@@ -4274,6 +7014,15 @@
       "3room": 128,
       "4room": 22,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 440
     }
   },
   "55-tiong-bahru-rd": {
@@ -4289,6 +7038,15 @@
       "3room": 9,
       "4room": 22,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 254
     }
   },
   "56-eng-hoon-st": {
@@ -4303,6 +7061,15 @@
     "sold_units_by_type": {
       "3room": 17,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 271
     }
   },
   "56-havelock-rd": {
@@ -4317,6 +7084,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 448
     }
   },
   "56-lengkok-bahru": {
@@ -4331,6 +7107,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 176
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 363
     }
   },
   "56-telok-blangah-hts": {
@@ -4344,6 +7129,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 484
     }
   },
   "57-eng-hoon-st": {
@@ -4358,6 +7152,15 @@
     "sold_units_by_type": {
       "3room": 13,
       "4room": 14
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 212
     }
   },
   "57-havelock-rd": {
@@ -4374,6 +7177,15 @@
       "3room": 68,
       "4room": 68,
       "studio_apartment": 37
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 433
     }
   },
   "57-lengkok-bahru": {
@@ -4388,6 +7200,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 176
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 342
     }
   },
   "57-telok-blangah-hts": {
@@ -4401,6 +7222,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 529
     }
   },
   "58-havelock-rd": {
@@ -4417,6 +7247,15 @@
       "3room": 74,
       "4room": 70,
       "studio_apartment": 30
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 418
     }
   },
   "58-lengkok-bahru": {
@@ -4431,6 +7270,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 176
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 317
     }
   },
   "58-seng-poh-rd": {
@@ -4446,6 +7294,15 @@
       "4room": 8,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 248
     }
   },
   "58-telok-blangah-hts": {
@@ -4459,6 +7316,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 610
     }
   },
   "59-eng-hoon-st": {
@@ -4473,6 +7339,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 34
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 285
     }
   },
   "59-lengkok-bahru": {
@@ -4487,6 +7362,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 176
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 301
     }
   },
   "59-telok-blangah-hts": {
@@ -4500,6 +7384,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 659
     }
   },
   "6-everton-pk": {
@@ -4514,6 +7407,17 @@
     "sold_units_by_type": {
       "3room": 62,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 6",
+      "distance": 266
     }
   },
   "6-jln-bt-ho-swee": {
@@ -4531,6 +7435,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 241
     }
   },
   "6-kim-tian-rd": {
@@ -4545,6 +7458,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 200
     }
   },
   "6-telok-blangah-cres": {
@@ -4559,6 +7481,15 @@
     "sold_units_by_type": {
       "3room": 132,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 1260
     }
   },
   "60-telok-blangah-hts": {
@@ -4575,6 +7506,15 @@
       "4room": 20,
       "5room": 2,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 647
     }
   },
   "61-lengkok-bahru": {
@@ -4589,6 +7529,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 144
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 359
     }
   },
   "61-telok-blangah-hts": {
@@ -4605,6 +7554,15 @@
       "4room": 19,
       "5room": 3,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 602
     }
   },
   "62-telok-blangah-hts": {
@@ -4621,6 +7579,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 521
     }
   },
   "63-telok-blangah-hts": {
@@ -4637,6 +7604,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 472
     }
   },
   "63a-lengkok-bahru": {
@@ -4651,6 +7627,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 180
     }
   },
   "63b-lengkok-bahru": {
@@ -4665,6 +7650,15 @@
     "sold_units_by_type": {
       "4room": 112,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 189
     }
   },
   "64-telok-blangah-dr": {
@@ -4681,6 +7675,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 427
     }
   },
   "64-tiong-poh-rd": {
@@ -4696,6 +7699,15 @@
       "2room": 2,
       "3room": 15,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 330
     }
   },
   "65-telok-blangah-dr": {
@@ -4710,6 +7722,15 @@
     "sold_units_by_type": {
       "3room": 124,
       "4room": 20
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 376
     }
   },
   "65-tiong-poh-rd": {
@@ -4725,6 +7746,15 @@
       "2room": 2,
       "3room": 14,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 378
     }
   },
   "66-eng-watt-st": {
@@ -4739,6 +7769,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 30
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 341
     }
   },
   "66-telok-blangah-dr": {
@@ -4752,6 +7791,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 380
     }
   },
   "67-telok-blangah-dr": {
@@ -4765,6 +7813,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 436
     }
   },
   "68-redhill-cl": {
@@ -4779,6 +7836,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 298
     }
   },
   "68-telok-blangah-hts": {
@@ -4792,6 +7858,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 494
     }
   },
   "69-redhill-cl": {
@@ -4806,6 +7881,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 271
     }
   },
   "69-telok-blangah-hts": {
@@ -4819,6 +7903,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 543
     }
   },
   "6a-boon-tiong-rd": {
@@ -4833,6 +7926,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 239
     }
   },
   "6b-boon-tiong-rd": {
@@ -4847,6 +7949,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 300
     }
   },
   "7-everton-pk": {
@@ -4860,6 +7971,17 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 6",
+      "distance": 237
     }
   },
   "7-jln-bt-merah": {
@@ -4873,6 +7995,15 @@
     "total_dwelling_units": 35,
     "sold_units_by_type": {
       "3room": 35
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 798
     }
   },
   "7-kim-tian-pl": {
@@ -4886,6 +8017,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 253
     }
   },
   "7-telok-blangah-cres": {
@@ -4903,6 +8043,15 @@
     },
     "rental_units_by_type": {
       "1room": 7
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1180
     }
   },
   "70-redhill-cl": {
@@ -4917,6 +8066,15 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 296
     }
   },
   "70a-telok-blangah-hts": {
@@ -4931,6 +8089,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 122
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 650
     }
   },
   "70b-telok-blangah-hts": {
@@ -4945,6 +8112,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 122
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 674
     }
   },
   "70c-telok-blangah-hts": {
@@ -4958,6 +8134,15 @@
     "total_dwelling_units": 152,
     "sold_units_by_type": {
       "4room": 152
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 597
     }
   },
   "71-redhill-rd": {
@@ -4973,6 +8158,15 @@
     "rental_units_by_type": {
       "1room": 136,
       "2room": 36
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 234
     }
   },
   "71-seng-poh-rd": {
@@ -4988,6 +8182,15 @@
       "2room": 2,
       "3room": 6,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 308
     }
   },
   "72-redhill-rd": {
@@ -5003,6 +8206,15 @@
     "rental_units_by_type": {
       "1room": 145,
       "2room": 36
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 229
     }
   },
   "72-seng-poh-rd": {
@@ -5018,6 +8230,15 @@
       "2room": 2,
       "3room": 15,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 376
     }
   },
   "72-telok-blangah-hts": {
@@ -5031,6 +8252,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 601
     }
   },
   "73-eng-watt-st": {
@@ -5045,6 +8275,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 34
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 399
     }
   },
   "73-telok-blangah-hts": {
@@ -5058,6 +8297,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 563
     }
   },
   "73a-redhill-rd": {
@@ -5072,6 +8320,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 161
     }
   },
   "74-telok-blangah-hts": {
@@ -5085,6 +8342,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 530
     }
   },
   "74-tiong-poh-rd": {
@@ -5100,6 +8366,15 @@
       "2room": 2,
       "3room": 15,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 434
     }
   },
   "74a-redhill-rd": {
@@ -5114,6 +8389,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 177
     }
   },
   "75-telok-blangah-dr": {
@@ -5130,6 +8414,15 @@
       "4room": 24,
       "5room": 3,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 483
     }
   },
   "75-tiong-poh-rd": {
@@ -5145,6 +8438,15 @@
       "2room": 2,
       "3room": 15,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 491
     }
   },
   "75a-redhill-rd": {
@@ -5159,6 +8461,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 241
     }
   },
   "75b-redhill-rd": {
@@ -5173,6 +8484,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 159
     }
   },
   "75c-redhill-rd": {
@@ -5187,6 +8507,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 89
     }
   },
   "76-guan-chuan-st": {
@@ -5201,6 +8530,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 34
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 465
     }
   },
   "76-telok-blangah-dr": {
@@ -5217,6 +8555,15 @@
     },
     "rental_units_by_type": {
       "2room": 149
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 427
     }
   },
   "76a-redhill-rd": {
@@ -5231,6 +8578,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 74
     }
   },
   "77-indus-rd": {
@@ -5244,6 +8600,15 @@
     "total_dwelling_units": 160,
     "sold_units_by_type": {
       "3room": 160
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 537
     }
   },
   "77-seng-poh-rd": {
@@ -5259,6 +8624,15 @@
       "2room": 2,
       "3room": 15,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 440
     }
   },
   "77-telok-blangah-dr": {
@@ -5275,6 +8649,15 @@
       "4room": 24,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 377
     }
   },
   "77a-redhill-rd": {
@@ -5289,6 +8672,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 119
     }
   },
   "78-guan-chuan-st": {
@@ -5303,6 +8695,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 487
     }
   },
   "78-indus-rd": {
@@ -5316,6 +8717,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "3room": 144
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 548
     }
   },
   "78-moh-guan-ter": {
@@ -5331,6 +8741,15 @@
       "2room": 6,
       "3room": 29,
       "4room": 35
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 451
     }
   },
   "78-redhill-lane": {
@@ -5345,6 +8764,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 144
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 181
     }
   },
   "78-yong-siak-st": {
@@ -5359,6 +8787,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 500
     }
   },
   "79-chay-yan-st": {
@@ -5374,6 +8811,15 @@
       "2room": 14,
       "3room": 15,
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 554
     }
   },
   "79-indus-rd": {
@@ -5388,6 +8834,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 520
+    },
+    "nearest_station": {
+      "id": "great-world",
+      "name": "Great World",
+      "codes": [
+        "TE15"
+      ],
+      "exit": "Exit 2",
+      "distance": 481
     }
   },
   "8-cantonment-cl": {
@@ -5403,6 +8858,15 @@
       "3room": 29,
       "4room": 87,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 248
     }
   },
   "8-jln-bt-ho-swee": {
@@ -5416,6 +8880,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "3room": 72
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 2",
+      "distance": 176
     }
   },
   "8-jln-rumah-tinggi": {
@@ -5430,6 +8903,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 658
     }
   },
   "8-kim-tian-pl": {
@@ -5443,6 +8925,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 305
     }
   },
   "8-telok-blangah-cres": {
@@ -5457,6 +8948,15 @@
     "sold_units_by_type": {
       "3room": 65,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 1228
     }
   },
   "80-chay-yan-st": {
@@ -5472,6 +8972,15 @@
       "2room": 14,
       "3room": 15,
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 511
     }
   },
   "80-redhill-lane": {
@@ -5486,6 +8995,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 4
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 253
     }
   },
   "80a-telok-blangah-st-31": {
@@ -5499,6 +9017,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 493
     }
   },
   "80b-telok-blangah-st-31": {
@@ -5514,6 +9041,15 @@
       "2room": 18,
       "3room": 30,
       "studio_apartment": 72
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 459
     }
   },
   "80c-telok-blangah-st-31": {
@@ -5529,6 +9065,15 @@
       "3room": 68,
       "4room": 70,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 427
     }
   },
   "81-redhill-lane": {
@@ -5543,6 +9088,15 @@
     "sold_units_by_type": {
       "4room": 5,
       "5room": 100
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 315
     }
   },
   "81-tiong-poh-rd": {
@@ -5558,6 +9112,15 @@
       "3room": 17,
       "4room": 21,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 466
     }
   },
   "82-redhill-lane": {
@@ -5572,6 +9135,15 @@
     "sold_units_by_type": {
       "4room": 5,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 338
     }
   },
   "82-tiong-poh-rd": {
@@ -5587,6 +9159,15 @@
       "2room": 6,
       "3room": 17,
       "4room": 35
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 383
     }
   },
   "83-redhill-lane": {
@@ -5601,6 +9182,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 379
     }
   },
   "84-telok-blangah-hts": {
@@ -5614,6 +9204,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 682
     }
   },
   "85-telok-blangah-hts": {
@@ -5628,6 +9227,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 734
     }
   },
   "86-redhill-cl": {
@@ -5641,6 +9249,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "3room": 144
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 326
     }
   },
   "86-telok-blangah-hts": {
@@ -5655,6 +9272,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 688
     }
   },
   "87-redhill-cl": {
@@ -5668,6 +9294,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "5room": 114
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 432
     }
   },
   "87-telok-blangah-hts": {
@@ -5682,6 +9317,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 710
     }
   },
   "87-zion-rd": {
@@ -5695,6 +9339,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 4",
+      "distance": 165
     }
   },
   "88-redhill-cl": {
@@ -5708,6 +9361,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 431
     }
   },
   "88-telok-blangah-hts": {
@@ -5722,6 +9384,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 761
     }
   },
   "89-redhill-cl": {
@@ -5736,6 +9407,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 264
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 481
     }
   },
   "8a-boon-tiong-rd": {
@@ -5750,6 +9430,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 293
     }
   },
   "8b-boon-tiong-rd": {
@@ -5764,6 +9453,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 320
     }
   },
   "9-cantonment-cl": {
@@ -5779,6 +9477,15 @@
       "3room": 29,
       "4room": 87,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 201
     }
   },
   "9-jln-rumah-tinggi": {
@@ -5793,6 +9500,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 644
     }
   },
   "90-redhill-cl": {
@@ -5807,6 +9523,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 264
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 525
     }
   },
   "90a-telok-blangah-st-31": {
@@ -5821,6 +9546,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 174
+    },
+    "nearest_station": {
+      "id": "labrador-park",
+      "name": "Labrador Park",
+      "codes": [
+        "CC27"
+      ],
+      "exit": "Exit A",
+      "distance": 818
     }
   },
   "90b-telok-blangah-st-31": {
@@ -5834,6 +9568,15 @@
     "total_dwelling_units": 116,
     "sold_units_by_type": {
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "labrador-park",
+      "name": "Labrador Park",
+      "codes": [
+        "CC27"
+      ],
+      "exit": "Exit A",
+      "distance": 767
     }
   },
   "91a-telok-blangah-st-31": {
@@ -5848,6 +9591,15 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 728
     }
   },
   "92a-telok-blangah-st-31": {
@@ -5863,6 +9615,15 @@
       "2room": 49,
       "3room": 58,
       "studio_apartment": 67
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 698
     }
   },
   "92b-telok-blangah-st-31": {
@@ -5879,6 +9640,15 @@
       "3room": 56,
       "4room": 116,
       "studio_apartment": 26
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 640
     }
   },
   "93a-telok-blangah-st-31": {
@@ -5893,6 +9663,15 @@
     "sold_units_by_type": {
       "3room": 56,
       "4room": 172
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 586
     }
   },
   "93b-telok-blangah-st-31": {
@@ -5908,6 +9687,15 @@
       "3room": 52,
       "4room": 228,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "telok-blangah",
+      "name": "Telok Blangah",
+      "codes": [
+        "CC28"
+      ],
+      "exit": "Exit A",
+      "distance": 557
     }
   },
   "94-havelock-rd": {
@@ -5921,6 +9709,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 3",
+      "distance": 72
     }
   },
   "95-havelock-rd": {
@@ -5934,6 +9731,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 3",
+      "distance": 71
     }
   },
   "95a-henderson-rd": {
@@ -5952,6 +9758,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 572
     }
   },
   "95b-henderson-rd": {
@@ -5967,6 +9782,15 @@
       "2room": 78,
       "3room": 104,
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 554
     }
   },
   "95c-henderson-rd": {
@@ -5982,6 +9806,15 @@
       "3room": 49,
       "4room": 135,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit A",
+      "distance": 579
     }
   },
   "96a-henderson-rd": {
@@ -5997,6 +9830,15 @@
       "3room": 49,
       "4room": 90,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 548
     }
   },
   "96b-henderson-rd": {
@@ -6011,6 +9853,15 @@
     "sold_units_by_type": {
       "3room": 91,
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit B",
+      "distance": 476
     }
   },
   "9a-boon-tiong-rd": {
@@ -6025,6 +9876,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 139
     }
   },
   "9b-boon-tiong-rd": {
@@ -6039,6 +9899,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "tiong-bahru",
+      "name": "Tiong Bahru",
+      "codes": [
+        "EW17"
+      ],
+      "exit": "Exit B",
+      "distance": 167
     }
   }
 }

@@ -12,6 +12,15 @@
       "3room": 2,
       "4room": 46,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 309
     }
   },
   "102-bt-batok-west-ave-6": {
@@ -27,6 +36,15 @@
       "3room": 2,
       "4room": 46,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 211
     }
   },
   "103-bt-batok-ctrl": {
@@ -42,6 +60,15 @@
       "3room": 4,
       "4room": 44,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 122
     }
   },
   "104-bt-batok-ctrl": {
@@ -55,6 +82,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 217
     }
   },
   "105-bt-batok-ctrl": {
@@ -68,6 +104,15 @@
     "total_dwelling_units": 81,
     "sold_units_by_type": {
       "4room": 81
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 219
     }
   },
   "106-bt-batok-ctrl": {
@@ -81,6 +126,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 216
     }
   },
   "107-bt-batok-west-ave-6": {
@@ -94,6 +148,15 @@
     "total_dwelling_units": 81,
     "sold_units_by_type": {
       "4room": 81
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 287
     }
   },
   "108-bt-batok-west-ave-6": {
@@ -107,6 +170,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 310
     }
   },
   "109-bt-batok-west-ave-6": {
@@ -125,6 +197,15 @@
       "1room": 20,
       "2room": 20,
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 363
     }
   },
   "110-bt-batok-west-ave-6": {
@@ -138,6 +219,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 381
     }
   },
   "111-bt-batok-west-ave-6": {
@@ -151,6 +241,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 347
     }
   },
   "112-bt-batok-west-ave-6": {
@@ -164,6 +263,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 456
     }
   },
   "113-bt-batok-west-ave-6": {
@@ -177,6 +285,15 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "4room": 94
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 441
     }
   },
   "114-bt-batok-west-ave-6": {
@@ -190,6 +307,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 348
     }
   },
   "114a-bt-batok-west-ave-6": {
@@ -204,6 +330,15 @@
     "sold_units_by_type": {
       "2room": 27,
       "3room": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 404
     }
   },
   "114b-bt-batok-west-ave-6": {
@@ -218,6 +353,15 @@
     "sold_units_by_type": {
       "2room": 96,
       "3room": 54
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 438
     }
   },
   "115-bt-batok-west-ave-6": {
@@ -231,6 +375,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 297
     }
   },
   "116-bt-batok-west-ave-6": {
@@ -244,6 +397,15 @@
     "total_dwelling_units": 134,
     "sold_units_by_type": {
       "4room": 134
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 333
     }
   },
   "117-bt-batok-west-ave-6": {
@@ -257,6 +419,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 280
     }
   },
   "118-bt-batok-west-ave-6": {
@@ -270,6 +441,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 341
     }
   },
   "119-bt-batok-west-ave-6": {
@@ -283,6 +463,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 341
     }
   },
   "120-bt-batok-ctrl": {
@@ -296,6 +485,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 285
     }
   },
   "121-bt-batok-ctrl": {
@@ -309,6 +507,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 305
     }
   },
   "122-bt-batok-ctrl": {
@@ -322,6 +529,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 420
     }
   },
   "123-bt-batok-ctrl": {
@@ -335,6 +551,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 329
     }
   },
   "124-bt-batok-ctrl": {
@@ -348,6 +573,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 339
     }
   },
   "125-bt-batok-ctrl": {
@@ -361,6 +595,15 @@
     "total_dwelling_units": 98,
     "sold_units_by_type": {
       "exec": 98
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 366
     }
   },
   "126-bt-batok-ctrl": {
@@ -375,6 +618,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 431
     }
   },
   "127-bt-batok-west-ave-6": {
@@ -389,6 +641,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 485
     }
   },
   "128-bt-batok-west-ave-6": {
@@ -403,6 +664,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 521
     }
   },
   "129-bt-batok-west-ave-6": {
@@ -417,6 +687,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 466
     }
   },
   "130-bt-batok-west-ave-6": {
@@ -431,6 +710,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 467
     }
   },
   "131-bt-batok-west-ave-6": {
@@ -445,6 +733,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 410
     }
   },
   "132-bt-batok-west-ave-6": {
@@ -459,6 +756,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 462
     }
   },
   "133-bt-batok-west-ave-6": {
@@ -473,6 +779,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 582
     }
   },
   "134-bt-batok-west-ave-6": {
@@ -489,6 +804,15 @@
       "4room": 22,
       "5room": 2,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 623
     }
   },
   "135-bt-batok-west-ave-6": {
@@ -504,6 +828,15 @@
       "3room": 94,
       "4room": 24,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 575
     }
   },
   "136-bt-batok-west-ave-6": {
@@ -519,6 +852,15 @@
       "3room": 92,
       "4room": 24,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 549
     }
   },
   "137-bt-batok-west-ave-6": {
@@ -533,6 +875,15 @@
     "sold_units_by_type": {
       "3room": 4,
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 519
     }
   },
   "138-bt-batok-west-ave-6": {
@@ -548,6 +899,15 @@
       "3room": 108,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 564
     }
   },
   "139-bt-batok-west-ave-6": {
@@ -562,6 +922,15 @@
     "sold_units_by_type": {
       "3room": 56,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 627
     }
   },
   "140-bt-batok-st-11": {
@@ -575,6 +944,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 641
     }
   },
   "141-bt-batok-st-11": {
@@ -588,6 +966,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 695
     }
   },
   "142-bt-batok-st-11": {
@@ -601,6 +988,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 718
     }
   },
   "143-bt-batok-st-11": {
@@ -616,6 +1012,15 @@
       "3room": 22,
       "4room": 8,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 619
     }
   },
   "144-bt-batok-west-ave-6": {
@@ -631,6 +1036,15 @@
       "3room": 20,
       "4room": 8,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 572
     }
   },
   "145-bt-batok-st-11": {
@@ -648,6 +1062,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 624
     }
   },
   "146-bt-batok-west-ave-6": {
@@ -663,6 +1086,15 @@
       "3room": 106,
       "4room": 22,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 577
     }
   },
   "147-bt-batok-west-ave-6": {
@@ -677,6 +1109,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 627
     }
   },
   "148-bt-batok-west-ave-6": {
@@ -692,6 +1133,15 @@
       "3room": 108,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 593
     }
   },
   "149-bt-batok-west-ave-6": {
@@ -706,6 +1156,15 @@
     "sold_units_by_type": {
       "3room": 4,
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 540
     }
   },
   "150-bt-batok-st-11": {
@@ -719,6 +1178,15 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "3room": 28
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 607
     }
   },
   "152-bt-batok-st-11": {
@@ -732,6 +1200,15 @@
     "total_dwelling_units": 26,
     "sold_units_by_type": {
       "3room": 26
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 541
     }
   },
   "154-bt-batok-st-11": {
@@ -745,6 +1222,15 @@
     "total_dwelling_units": 13,
     "sold_units_by_type": {
       "3room": 13
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 576
     }
   },
   "157-bt-batok-st-11": {
@@ -758,6 +1244,15 @@
     "total_dwelling_units": 17,
     "sold_units_by_type": {
       "3room": 17
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 633
     }
   },
   "160-bt-batok-st-11": {
@@ -772,6 +1267,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 789
     }
   },
   "161-bt-batok-st-11": {
@@ -786,6 +1290,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 786
     }
   },
   "162-bt-batok-st-11": {
@@ -801,6 +1314,15 @@
       "3room": 90,
       "4room": 54,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 808
     }
   },
   "163-bt-batok-st-11": {
@@ -815,6 +1337,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 719
     }
   },
   "164-bt-batok-st-11": {
@@ -830,6 +1361,15 @@
       "3room": 77,
       "4room": 51,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 703
     }
   },
   "165-bt-batok-west-ave-8": {
@@ -843,6 +1383,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 803
     }
   },
   "166-bt-batok-west-ave-8": {
@@ -857,6 +1406,15 @@
     "sold_units_by_type": {
       "3room": 15,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 713
     }
   },
   "167-bt-batok-west-ave-8": {
@@ -872,6 +1430,15 @@
       "3room": 54,
       "4room": 28,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 780
     }
   },
   "168-bt-batok-west-ave-8": {
@@ -887,6 +1454,15 @@
       "3room": 54,
       "4room": 28,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 880
     }
   },
   "169-bt-batok-west-ave-8": {
@@ -901,6 +1477,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 934
     }
   },
   "170-bt-batok-west-ave-8": {
@@ -915,6 +1500,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit C",
+      "distance": 930
     }
   },
   "171-bt-batok-west-ave-8": {
@@ -929,6 +1523,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit C",
+      "distance": 912
     }
   },
   "172-bt-batok-west-ave-8": {
@@ -943,6 +1546,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit C",
+      "distance": 910
     }
   },
   "173-bt-batok-west-ave-8": {
@@ -957,6 +1569,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 957
     }
   },
   "174-bt-batok-west-ave-8": {
@@ -971,6 +1592,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 948
     }
   },
   "175-bt-batok-west-ave-8": {
@@ -986,6 +1616,15 @@
       "3room": 108,
       "4room": 14,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 894
     }
   },
   "176-bt-batok-west-ave-8": {
@@ -1000,6 +1639,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 897
     }
   },
   "177-bt-batok-west-ave-8": {
@@ -1015,6 +1663,15 @@
       "3room": 59,
       "4room": 42,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 851
     }
   },
   "178-bt-batok-west-ave-8": {
@@ -1029,6 +1686,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 770
     }
   },
   "179-bt-batok-west-ave-8": {
@@ -1043,6 +1709,15 @@
     "sold_units_by_type": {
       "3room": 20,
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 820
     }
   },
   "180-bt-batok-west-ave-8": {
@@ -1057,6 +1732,15 @@
     "sold_units_by_type": {
       "3room": 108,
       "4room": 18
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 766
     }
   },
   "181-bt-batok-west-ave-8": {
@@ -1071,6 +1755,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 704
     }
   },
   "182-bt-batok-west-ave-8": {
@@ -1090,6 +1783,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 668
     }
   },
   "183-bt-batok-west-ave-8": {
@@ -1103,6 +1805,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 679
     }
   },
   "184-bt-batok-west-ave-8": {
@@ -1117,6 +1828,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 636
     }
   },
   "185-bt-batok-west-ave-6": {
@@ -1131,6 +1851,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 489
     }
   },
   "186-bt-batok-west-ave-6": {
@@ -1145,6 +1874,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 595
     }
   },
   "187-bt-batok-west-ave-6": {
@@ -1159,6 +1897,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 543
     }
   },
   "188-bt-batok-west-ave-6": {
@@ -1173,6 +1920,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 419
     }
   },
   "189-bt-batok-west-ave-6": {
@@ -1187,6 +1943,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 424
     }
   },
   "190-bt-batok-west-ave-6": {
@@ -1201,6 +1966,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 479
     }
   },
   "191-bt-batok-west-ave-6": {
@@ -1215,6 +1989,15 @@
     "sold_units_by_type": {
       "4room": 17,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 528
     }
   },
   "192-bt-batok-west-ave-6": {
@@ -1229,6 +2012,15 @@
     "sold_units_by_type": {
       "4room": 13,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 574
     }
   },
   "193-bt-batok-west-ave-6": {
@@ -1243,6 +2035,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 586
     }
   },
   "194a-bt-batok-west-ave-6": {
@@ -1257,6 +2058,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 124
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 576
     }
   },
   "194b-bt-batok-west-ave-6": {
@@ -1272,6 +2082,15 @@
       "3room": 78,
       "4room": 128,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 597
     }
   },
   "201-bt-batok-st-21": {
@@ -1287,6 +2106,15 @@
       "3room": 3,
       "4room": 29,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 313
     }
   },
   "202-bt-batok-st-21": {
@@ -1302,6 +2130,15 @@
       "3room": 3,
       "4room": 29,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 214
     }
   },
   "203-bt-batok-st-21": {
@@ -1317,6 +2154,15 @@
       "3room": 3,
       "4room": 29,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 120
     }
   },
   "204-bt-batok-st-21": {
@@ -1330,6 +2176,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 127
     }
   },
   "205-bt-batok-st-21": {
@@ -1344,6 +2199,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 177
     }
   },
   "206-bt-batok-st-21": {
@@ -1358,6 +2222,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 195
     }
   },
   "207-bt-batok-st-21": {
@@ -1375,6 +2248,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 242
     }
   },
   "208-bt-batok-st-21": {
@@ -1390,6 +2272,15 @@
       "3room": 70,
       "4room": 48,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 280
     }
   },
   "209-bt-batok-st-21": {
@@ -1403,6 +2294,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 327
     }
   },
   "210-bt-batok-st-21": {
@@ -1416,6 +2316,15 @@
     "total_dwelling_units": 216,
     "sold_units_by_type": {
       "4room": 216
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 338
     }
   },
   "210a-bt-batok-st-21": {
@@ -1431,6 +2340,15 @@
     "rental_units_by_type": {
       "1room": 285,
       "2room": 75
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 382
     }
   },
   "211-bt-batok-st-21": {
@@ -1444,6 +2362,15 @@
     "total_dwelling_units": 192,
     "sold_units_by_type": {
       "4room": 192
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 301
     }
   },
   "212-bt-batok-st-21": {
@@ -1459,6 +2386,15 @@
       "3room": 93,
       "4room": 55,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 352
     }
   },
   "213-bt-batok-st-21": {
@@ -1474,6 +2410,15 @@
       "3room": 81,
       "4room": 21,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 403
     }
   },
   "214-bt-batok-st-21": {
@@ -1487,6 +2432,15 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 403
     }
   },
   "215-bt-batok-st-21": {
@@ -1501,6 +2455,15 @@
     "sold_units_by_type": {
       "3room": 94,
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 477
     }
   },
   "216-bt-batok-st-21": {
@@ -1515,6 +2478,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 484
     }
   },
   "217-bt-batok-st-21": {
@@ -1529,6 +2501,15 @@
     "sold_units_by_type": {
       "3room": 106,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 609
     }
   },
   "218-bt-batok-st-21": {
@@ -1542,6 +2523,15 @@
     "total_dwelling_units": 28,
     "sold_units_by_type": {
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 528
     }
   },
   "219-bt-batok-st-21": {
@@ -1557,6 +2547,15 @@
       "3room": 93,
       "4room": 55,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 613
     }
   },
   "220-bt-batok-east-ave-3": {
@@ -1572,6 +2571,15 @@
       "3room": 12,
       "4room": 8,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 572
     }
   },
   "221-bt-batok-east-ave-3": {
@@ -1585,6 +2593,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 468
     }
   },
   "222-bt-batok-east-ave-3": {
@@ -1598,6 +2615,15 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 487
     }
   },
   "223-bt-batok-east-ave-3": {
@@ -1611,6 +2637,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 414
     }
   },
   "224-bt-batok-st-21": {
@@ -1626,6 +2661,15 @@
       "3room": 28,
       "4room": 16,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 346
     }
   },
   "225-bt-batok-ctrl": {
@@ -1641,6 +2685,15 @@
       "3room": 73,
       "4room": 55,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 313
     }
   },
   "226-bt-batok-ctrl": {
@@ -1656,6 +2709,15 @@
       "3room": 22,
       "4room": 8,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 367
     }
   },
   "227-bt-batok-ctrl": {
@@ -1670,6 +2732,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 414
     }
   },
   "228-bt-batok-ctrl": {
@@ -1684,6 +2755,15 @@
     "sold_units_by_type": {
       "3room": 93,
       "4room": 57
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 436
     }
   },
   "229-bt-batok-east-ave-3": {
@@ -1698,6 +2778,15 @@
     "sold_units_by_type": {
       "3room": 93,
       "4room": 57
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 542
     }
   },
   "230-bt-batok-east-ave-3": {
@@ -1715,6 +2804,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 592
     }
   },
   "230a-bt-batok-st-21": {
@@ -1729,6 +2827,15 @@
     "sold_units_by_type": {
       "2room": 36,
       "studio_apartment": 144
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 681
     }
   },
   "231-bt-batok-east-ave-5": {
@@ -1743,6 +2850,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 508
     }
   },
   "232-bt-batok-east-ave-5": {
@@ -1757,6 +2873,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 553
     }
   },
   "233-bt-batok-east-ave-5": {
@@ -1776,6 +2901,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 579
     }
   },
   "234-bt-batok-east-ave-5": {
@@ -1790,6 +2924,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 608
     }
   },
   "235-bt-batok-east-ave-5": {
@@ -1808,6 +2951,15 @@
     },
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 713
     }
   },
   "236-bt-batok-east-ave-5": {
@@ -1822,6 +2974,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 666
     }
   },
   "237-bt-batok-east-ave-5": {
@@ -1836,6 +2997,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 593
     }
   },
   "238-bt-batok-east-ave-5": {
@@ -1850,6 +3020,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 530
     }
   },
   "239-bt-batok-east-ave-5": {
@@ -1868,6 +3047,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 575
     }
   },
   "240-bt-batok-east-ave-5": {
@@ -1882,6 +3070,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 62
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 479
     }
   },
   "241-bt-batok-east-ave-5": {
@@ -1896,6 +3093,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 529
     }
   },
   "242-bt-batok-east-ave-5": {
@@ -1910,6 +3116,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 713
     }
   },
   "243-bt-batok-east-ave-5": {
@@ -1924,6 +3139,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 718
     }
   },
   "244-bt-batok-east-ave-5": {
@@ -1941,6 +3165,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 809
     }
   },
   "245-bt-batok-east-ave-5": {
@@ -1955,6 +3188,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 818
     }
   },
   "246-bt-batok-east-ave-5": {
@@ -1969,6 +3211,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 850
     }
   },
   "247-bt-batok-east-ave-5": {
@@ -1986,6 +3237,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 780
     }
   },
   "248-bt-batok-east-ave-5": {
@@ -2000,6 +3260,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 741
     }
   },
   "249-bt-batok-east-ave-5": {
@@ -2014,6 +3283,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 742
     }
   },
   "250-bt-batok-east-ave-5": {
@@ -2028,6 +3306,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 807
     }
   },
   "251-bt-batok-east-ave-5": {
@@ -2042,6 +3329,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 852
     }
   },
   "252-bt-batok-east-ave-5": {
@@ -2056,6 +3352,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 814
     }
   },
   "253-bt-batok-east-ave-5": {
@@ -2070,6 +3375,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 852
     }
   },
   "254-bt-batok-east-ave-4": {
@@ -2084,6 +3398,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 909
     }
   },
   "255-bt-batok-east-ave-4": {
@@ -2098,6 +3421,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 946
     }
   },
   "256-bt-batok-east-ave-4": {
@@ -2112,6 +3444,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 945
     }
   },
   "257-bt-batok-east-ave-4": {
@@ -2126,6 +3467,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 908
     }
   },
   "258-bt-batok-east-ave-4": {
@@ -2140,6 +3490,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1007
     }
   },
   "259-bt-batok-east-ave-4": {
@@ -2155,6 +3514,15 @@
       "3room": 88,
       "4room": 46,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "hume",
+      "name": "Hume",
+      "codes": [
+        "DT4"
+      ],
+      "exit": "Exit 2",
+      "distance": 1082
     }
   },
   "260-bt-batok-east-ave-4": {
@@ -2172,6 +3540,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1017
     }
   },
   "261-bt-batok-east-ave-4": {
@@ -2186,6 +3563,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 988
     }
   },
   "262-bt-batok-east-ave-4": {
@@ -2200,6 +3586,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1047
     }
   },
   "263-bt-batok-east-ave-4": {
@@ -2214,6 +3609,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1017
     }
   },
   "264-bt-batok-east-ave-4": {
@@ -2228,6 +3632,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1009
     }
   },
   "265-bt-batok-east-ave-4": {
@@ -2246,6 +3659,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1100
     }
   },
   "266-bt-batok-east-ave-4": {
@@ -2259,6 +3681,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1117
     }
   },
   "267-bt-batok-east-ave-4": {
@@ -2274,6 +3705,15 @@
       "3room": 101,
       "4room": 41,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1106
     }
   },
   "268-bt-batok-east-ave-4": {
@@ -2287,6 +3727,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1025
     }
   },
   "269-bt-batok-east-ave-4": {
@@ -2301,6 +3750,15 @@
     "sold_units_by_type": {
       "3room": 83,
       "4room": 41
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1057
     }
   },
   "271-bt-batok-east-ave-4": {
@@ -2316,6 +3774,15 @@
       "3room": 83,
       "4room": 15,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 1003
     }
   },
   "272-bt-batok-east-ave-4": {
@@ -2330,6 +3797,15 @@
     "sold_units_by_type": {
       "3room": 93,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 881
     }
   },
   "274-bt-batok-east-ave-4": {
@@ -2344,6 +3820,15 @@
     "sold_units_by_type": {
       "3room": 22,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 906
     }
   },
   "275-bt-batok-east-ave-4": {
@@ -2358,6 +3843,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 941
     }
   },
   "278-bt-batok-east-ave-3": {
@@ -2372,6 +3866,15 @@
     "sold_units_by_type": {
       "3room": 22,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 888
     }
   },
   "280-bt-batok-east-ave-3": {
@@ -2386,6 +3889,15 @@
     "sold_units_by_type": {
       "3room": 93,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 812
     }
   },
   "281-bt-batok-east-ave-3": {
@@ -2401,6 +3913,15 @@
       "3room": 10,
       "4room": 4,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 879
     }
   },
   "283-bt-batok-east-ave-3": {
@@ -2416,6 +3937,15 @@
       "3room": 85,
       "4room": 19,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 888
     }
   },
   "285-bt-batok-east-ave-3": {
@@ -2429,6 +3959,15 @@
     "total_dwelling_units": 62,
     "sold_units_by_type": {
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 948
     }
   },
   "286-bt-batok-east-ave-3": {
@@ -2442,6 +3981,15 @@
     "total_dwelling_units": 93,
     "sold_units_by_type": {
       "5room": 93
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 990
     }
   },
   "287-bt-batok-east-ave-3": {
@@ -2455,6 +4003,15 @@
     "total_dwelling_units": 77,
     "sold_units_by_type": {
       "exec": 77
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 987
     }
   },
   "288a-bt-batok-st-25": {
@@ -2469,6 +4026,15 @@
     "sold_units_by_type": {
       "5room": 30,
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1270
     }
   },
   "288b-bt-batok-st-25": {
@@ -2483,6 +4049,15 @@
     "sold_units_by_type": {
       "5room": 30,
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1234
     }
   },
   "288c-bt-batok-st-25": {
@@ -2496,6 +4071,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1175
     }
   },
   "288d-bt-batok-st-25": {
@@ -2509,6 +4093,15 @@
     "total_dwelling_units": 137,
     "sold_units_by_type": {
       "4room": 137
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1110
     }
   },
   "288e-bt-batok-st-25": {
@@ -2523,6 +4116,15 @@
     "sold_units_by_type": {
       "4room": 135,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1085
     }
   },
   "288f-bt-batok-st-25": {
@@ -2537,6 +4139,15 @@
     "sold_units_by_type": {
       "5room": 28,
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1043
     }
   },
   "288g-bt-batok-st-25": {
@@ -2551,6 +4162,15 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1179
     }
   },
   "289a-bt-batok-st-25": {
@@ -2565,6 +4185,15 @@
     "sold_units_by_type": {
       "5room": 30,
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1296
     }
   },
   "289b-bt-batok-st-25": {
@@ -2579,6 +4208,15 @@
     "sold_units_by_type": {
       "5room": 30,
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1329
     }
   },
   "289c-bt-batok-st-25": {
@@ -2593,6 +4231,15 @@
     "sold_units_by_type": {
       "5room": 96,
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1285
     }
   },
   "289d-bt-batok-st-25": {
@@ -2607,6 +4254,15 @@
     "sold_units_by_type": {
       "5room": 96,
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1225
     }
   },
   "289e-bt-batok-st-25": {
@@ -2621,6 +4277,15 @@
     "sold_units_by_type": {
       "4room": 161,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1204
     }
   },
   "289f-bt-batok-st-25": {
@@ -2634,6 +4299,15 @@
     "total_dwelling_units": 137,
     "sold_units_by_type": {
       "4room": 137
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1142
     }
   },
   "289g-bt-batok-st-25": {
@@ -2648,6 +4322,15 @@
     "sold_units_by_type": {
       "4room": 147,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1096
     }
   },
   "290a-bt-batok-st-24": {
@@ -2662,6 +4345,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1009
     }
   },
   "290b-bt-batok-st-24": {
@@ -2675,6 +4367,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "exec": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 987
     }
   },
   "290c-bt-batok-east-ave-3": {
@@ -2688,6 +4389,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "exec": 96
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1006
     }
   },
   "290d-bt-batok-east-ave-3": {
@@ -2702,6 +4412,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1003
     }
   },
   "290e-bt-batok-st-24": {
@@ -2716,6 +4435,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1057
     }
   },
   "290f-bt-batok-st-24": {
@@ -2730,6 +4458,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1082
     }
   },
   "290g-bt-batok-st-24": {
@@ -2744,6 +4481,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 1046
     }
   },
   "291a-bt-batok-st-24": {
@@ -2758,6 +4504,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 931
     }
   },
   "291b-bt-batok-st-24": {
@@ -2772,6 +4527,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 950
     }
   },
   "291c-bt-batok-st-24": {
@@ -2786,6 +4550,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 901
     }
   },
   "291d-bt-batok-st-24": {
@@ -2800,6 +4573,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 884
     }
   },
   "291e-bt-batok-st-24": {
@@ -2814,6 +4596,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 837
     }
   },
   "292a-bt-batok-east-ave-6": {
@@ -2829,6 +4620,15 @@
       "2room": 100,
       "3room": 50,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 734
     }
   },
   "292b-bt-batok-east-ave-6": {
@@ -2843,6 +4643,15 @@
     "sold_units_by_type": {
       "4room": 188,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 673
     }
   },
   "292c-bt-batok-east-ave-6": {
@@ -2857,6 +4666,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 629
     }
   },
   "293a-bt-batok-st-21": {
@@ -2871,6 +4689,15 @@
     "sold_units_by_type": {
       "4room": 128,
       "5room": 128
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 650
     }
   },
   "293b-bt-batok-st-21": {
@@ -2885,6 +4712,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 613
     }
   },
   "293c-bt-batok-st-21": {
@@ -2899,6 +4735,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 718
     }
   },
   "293d-bt-batok-st-21": {
@@ -2913,6 +4758,15 @@
     "sold_units_by_type": {
       "3room": 60,
       "4room": 196
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 768
     }
   },
   "296a-bt-batok-st-22": {
@@ -2927,6 +4781,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 132
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 566
     }
   },
   "296b-bt-batok-st-22": {
@@ -2942,6 +4805,15 @@
       "3room": 136,
       "4room": 61,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 559
     }
   },
   "296c-bt-batok-st-22": {
@@ -2956,6 +4828,15 @@
     "sold_units_by_type": {
       "4room": 148,
       "5room": 111
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 534
     }
   },
   "297-bt-batok-st-22": {
@@ -2970,6 +4851,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 421
     }
   },
   "298-bt-batok-st-22": {
@@ -2984,6 +4874,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 458
     }
   },
   "299-bt-batok-st-22": {
@@ -2997,6 +4896,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "exec": 78
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 514
     }
   },
   "301-bt-batok-st-31": {
@@ -3011,6 +4919,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 416
     }
   },
   "302-bt-batok-st-31": {
@@ -3025,6 +4942,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 426
     }
   },
   "303-bt-batok-st-31": {
@@ -3039,6 +4965,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 469
     }
   },
   "304-bt-batok-st-31": {
@@ -3053,6 +4988,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 456
     }
   },
   "305-bt-batok-st-31": {
@@ -3067,6 +5011,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 442
     }
   },
   "306-bt-batok-st-31": {
@@ -3081,6 +5034,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 476
     }
   },
   "307-bt-batok-st-31": {
@@ -3095,6 +5057,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 413
     }
   },
   "308-bt-batok-st-31": {
@@ -3109,6 +5080,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 407
     }
   },
   "309-bt-batok-st-31": {
@@ -3123,6 +5103,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 340
     }
   },
   "310-bt-batok-st-32": {
@@ -3137,6 +5126,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 328
     }
   },
   "311-bt-batok-st-32": {
@@ -3151,6 +5149,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 393
     }
   },
   "312-bt-batok-st-32": {
@@ -3165,6 +5172,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 496
     }
   },
   "313-bt-batok-st-32": {
@@ -3179,6 +5195,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 458
     }
   },
   "314-bt-batok-st-32": {
@@ -3193,6 +5218,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 547
     }
   },
   "315-bt-batok-st-32": {
@@ -3207,6 +5241,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 586
     }
   },
   "316-bt-batok-st-32": {
@@ -3221,6 +5264,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 569
     }
   },
   "317-bt-batok-st-32": {
@@ -3235,6 +5287,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 487
     }
   },
   "318-bt-batok-st-32": {
@@ -3249,6 +5310,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 537
     }
   },
   "319-bt-batok-st-33": {
@@ -3263,6 +5333,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 634
     }
   },
   "320-bt-batok-st-33": {
@@ -3277,6 +5356,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 584
     }
   },
   "321-bt-batok-st-33": {
@@ -3291,6 +5379,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 509
     }
   },
   "322-bt-batok-st-33": {
@@ -3305,6 +5402,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 531
     }
   },
   "323-bt-batok-st-33": {
@@ -3320,6 +5426,15 @@
       "3room": 73,
       "4room": 38,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 460
     }
   },
   "324-bt-batok-st-33": {
@@ -3334,6 +5449,15 @@
     "sold_units_by_type": {
       "3room": 83,
       "4room": 41
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 571
     }
   },
   "325-bt-batok-st-33": {
@@ -3348,6 +5472,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 619
     }
   },
   "326-bt-batok-st-33": {
@@ -3361,6 +5494,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 556
     }
   },
   "327-bt-batok-st-33": {
@@ -3375,6 +5517,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 602
     }
   },
   "328-bt-batok-st-33": {
@@ -3389,6 +5540,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 627
     }
   },
   "329-bt-batok-st-33": {
@@ -3403,6 +5563,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 658
     }
   },
   "330-bt-batok-st-33": {
@@ -3416,6 +5585,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 600
     }
   },
   "331-bt-batok-st-33": {
@@ -3430,6 +5608,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 678
     }
   },
   "332-bt-batok-st-32": {
@@ -3444,6 +5631,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 648
     }
   },
   "333-bt-batok-st-32": {
@@ -3461,6 +5657,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 713
     }
   },
   "334-bt-batok-st-32": {
@@ -3475,6 +5680,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 749
     }
   },
   "335-bt-batok-st-32": {
@@ -3489,6 +5703,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 725
     }
   },
   "336-bt-batok-st-32": {
@@ -3503,6 +5726,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 742
     }
   },
   "337-bt-batok-st-34": {
@@ -3516,6 +5748,15 @@
     "total_dwelling_units": 116,
     "sold_units_by_type": {
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 545
     }
   },
   "338-bt-batok-st-34": {
@@ -3529,6 +5770,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "4room": 144
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 486
     }
   },
   "339-bt-batok-st-34": {
@@ -3543,6 +5793,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 452
     }
   },
   "340-bt-batok-st-34": {
@@ -3560,6 +5819,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 504
     }
   },
   "341-bt-batok-st-34": {
@@ -3574,6 +5842,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 499
     }
   },
   "342-bt-batok-st-34": {
@@ -3589,6 +5866,15 @@
       "3room": 22,
       "4room": 8,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 524
     }
   },
   "343-bt-batok-st-34": {
@@ -3603,6 +5889,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 462
     }
   },
   "344-bt-batok-st-34": {
@@ -3616,6 +5911,15 @@
     "total_dwelling_units": 22,
     "sold_units_by_type": {
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 432
     }
   },
   "345-bt-batok-st-34": {
@@ -3630,6 +5934,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 414
     }
   },
   "346-bt-batok-st-34": {
@@ -3644,6 +5957,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 385
     }
   },
   "347-bt-batok-st-34": {
@@ -3658,6 +5980,15 @@
     "sold_units_by_type": {
       "3room": 18,
       "4room": 9
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 341
     }
   },
   "348-bt-batok-st-34": {
@@ -3672,6 +6003,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 349
     }
   },
   "349-bt-batok-st-34": {
@@ -3685,6 +6025,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 408
     }
   },
   "350-bt-batok-st-34": {
@@ -3698,6 +6047,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 389
     }
   },
   "351-bt-batok-st-34": {
@@ -3711,6 +6069,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 399
     }
   },
   "352-bt-batok-st-34": {
@@ -3724,6 +6091,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 377
     }
   },
   "353-bt-batok-st-34": {
@@ -3737,6 +6113,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 363
     }
   },
   "354-bt-batok-st-31": {
@@ -3750,6 +6135,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "exec": 90
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 339
     }
   },
   "355-bt-batok-st-31": {
@@ -3763,6 +6157,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 318
     }
   },
   "356-bt-batok-st-31": {
@@ -3776,6 +6179,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 317
     }
   },
   "357-bt-batok-st-31": {
@@ -3789,6 +6201,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 288
     }
   },
   "358-bt-batok-st-31": {
@@ -3802,6 +6223,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 270
     }
   },
   "359-bt-batok-st-31": {
@@ -3816,6 +6246,15 @@
     "sold_units_by_type": {
       "3room": 18,
       "4room": 9
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 241
     }
   },
   "360-bt-batok-st-31": {
@@ -3830,6 +6269,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 246
     }
   },
   "361-bt-batok-st-31": {
@@ -3844,6 +6292,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 195
     }
   },
   "362-bt-batok-st-31": {
@@ -3857,6 +6314,15 @@
     "total_dwelling_units": 22,
     "sold_units_by_type": {
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 285
     }
   },
   "363-bt-batok-st-31": {
@@ -3871,6 +6337,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 333
     }
   },
   "364-bt-batok-st-31": {
@@ -3885,6 +6360,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 321
     }
   },
   "365-bt-batok-st-31": {
@@ -3898,6 +6382,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 397
     }
   },
   "366-bt-batok-st-31": {
@@ -3911,6 +6404,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 344
     }
   },
   "367-bt-batok-st-31": {
@@ -3925,6 +6427,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 267
     }
   },
   "368-bt-batok-st-31": {
@@ -3939,6 +6450,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 166
     }
   },
   "369-bt-batok-st-31": {
@@ -3952,6 +6472,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "4room": 144
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 127
     }
   },
   "370-bt-batok-st-31": {
@@ -3965,6 +6494,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 287
     }
   },
   "371-bt-batok-st-31": {
@@ -3979,6 +6517,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 10
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 117
     }
   },
   "372-bt-batok-st-31": {
@@ -3993,6 +6540,15 @@
     "sold_units_by_type": {
       "3room": 31,
       "4room": 14
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 72
     }
   },
   "374-bt-batok-st-31": {
@@ -4008,6 +6564,15 @@
       "3room": 59,
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 163
     }
   },
   "375-bt-batok-st-31": {
@@ -4022,6 +6587,15 @@
     "sold_units_by_type": {
       "3room": 4,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 196
     }
   },
   "377-bt-batok-st-31": {
@@ -4037,6 +6611,15 @@
       "2room": 90,
       "3room": 130,
       "studio_apartment": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 165
     }
   },
   "383-bt-batok-west-ave-5": {
@@ -4051,6 +6634,15 @@
     "sold_units_by_type": {
       "4room": 164,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 338
     }
   },
   "384-bt-batok-west-ave-5": {
@@ -4065,6 +6657,15 @@
     "sold_units_by_type": {
       "4room": 191,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 405
     }
   },
   "385-bt-batok-west-ave-5": {
@@ -4079,6 +6680,15 @@
     "sold_units_by_type": {
       "4room": 164,
       "5room": 55
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 466
     }
   },
   "386-bt-batok-west-ave-5": {
@@ -4093,6 +6703,15 @@
     "sold_units_by_type": {
       "4room": 168,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 520
     }
   },
   "387-bt-batok-west-ave-5": {
@@ -4106,6 +6725,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "5room": 120
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 622
     }
   },
   "388-bt-batok-west-ave-5": {
@@ -4119,6 +6747,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "5room": 108
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 618
     }
   },
   "389-bt-batok-west-ave-5": {
@@ -4132,6 +6769,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "5room": 108
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 673
     }
   },
   "390-bt-batok-west-ave-5": {
@@ -4145,6 +6791,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "5room": 120
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 676
     }
   },
   "391-bt-batok-west-ave-5": {
@@ -4158,6 +6813,15 @@
     "total_dwelling_units": 194,
     "sold_units_by_type": {
       "4room": 194
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 734
     }
   },
   "392-bt-batok-west-ave-5": {
@@ -4172,6 +6836,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 746
     }
   },
   "393-bt-batok-west-ave-5": {
@@ -4186,6 +6859,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 810
     }
   },
   "394-bt-batok-west-ave-5": {
@@ -4200,6 +6882,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 797
     }
   },
   "395-bt-batok-west-ave-5": {
@@ -4213,6 +6904,15 @@
     "total_dwelling_units": 194,
     "sold_units_by_type": {
       "4room": 194
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 781
     }
   },
   "402-bt-batok-west-ave-7": {
@@ -4226,6 +6926,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1041
     }
   },
   "403-bt-batok-west-ave-7": {
@@ -4239,6 +6948,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1019
     }
   },
   "404-bt-batok-west-ave-7": {
@@ -4252,6 +6970,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1025
     }
   },
   "405-bt-batok-west-ave-7": {
@@ -4265,6 +6992,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 1023
     }
   },
   "406-bt-batok-west-ave-7": {
@@ -4278,6 +7014,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 945
     }
   },
   "407-bt-batok-west-ave-4": {
@@ -4292,6 +7037,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 920
     }
   },
   "408-bt-batok-west-ave-4": {
@@ -4306,6 +7060,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 985
     }
   },
   "409-bt-batok-west-ave-4": {
@@ -4320,6 +7083,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 892
     }
   },
   "410-bt-batok-west-ave-4": {
@@ -4334,6 +7106,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 959
     }
   },
   "411-bt-batok-west-ave-4": {
@@ -4351,6 +7132,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 847
     }
   },
   "412-bt-batok-west-ave-4": {
@@ -4366,6 +7156,15 @@
     "rental_units_by_type": {
       "1room": 80,
       "2room": 144
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit D",
+      "distance": 831
     }
   },
   "413-bt-batok-west-ave-4": {
@@ -4380,6 +7179,15 @@
     "sold_units_by_type": {
       "3room": 19,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 759
     }
   },
   "414-bt-batok-west-ave-4": {
@@ -4394,6 +7202,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 812
     }
   },
   "415-bt-batok-west-ave-4": {
@@ -4408,6 +7225,15 @@
     "sold_units_by_type": {
       "3room": 10,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 736
     }
   },
   "416-bt-batok-west-ave-4": {
@@ -4422,6 +7248,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 788
     }
   },
   "417-bt-batok-west-ave-4": {
@@ -4436,6 +7271,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 717
     }
   },
   "419-bt-batok-west-ave-2": {
@@ -4450,6 +7294,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 693
     }
   },
   "420-bt-batok-west-ave-2": {
@@ -4464,6 +7317,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 767
     }
   },
   "421-bt-batok-west-ave-2": {
@@ -4478,6 +7340,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 846
     }
   },
   "422-bt-batok-west-ave-2": {
@@ -4495,6 +7366,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 747
     }
   },
   "423-bt-batok-west-ave-2": {
@@ -4509,6 +7389,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 828
     }
   },
   "424-bt-batok-west-ave-2": {
@@ -4523,6 +7412,15 @@
     "sold_units_by_type": {
       "3room": 9,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 755
     }
   },
   "425-bt-batok-west-ave-2": {
@@ -4537,6 +7435,15 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 785
     }
   },
   "426-bt-batok-west-ave-2": {
@@ -4551,6 +7458,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 813
     }
   },
   "431a-bt-batok-west-ave-8": {
@@ -4566,6 +7482,15 @@
       "2room": 126,
       "3room": 32,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1009
     }
   },
   "431b-bt-batok-west-ave-8": {
@@ -4580,6 +7505,15 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1039
     }
   },
   "432a-bt-batok-west-ave-8": {
@@ -4594,6 +7528,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 981
     }
   },
   "432b-bt-batok-west-ave-8": {
@@ -4608,6 +7551,15 @@
     "sold_units_by_type": {
       "2room": 146,
       "4room": 30
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1062
     }
   },
   "433a-bt-batok-west-ave-8": {
@@ -4623,6 +7575,15 @@
       "2room": 120,
       "3room": 30,
       "4room": 43
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1086
     }
   },
   "433b-bt-batok-west-ave-8": {
@@ -4638,6 +7599,15 @@
       "2room": 112,
       "3room": 28,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1109
     }
   },
   "433c-bt-batok-west-ave-8": {
@@ -4652,6 +7622,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1156
     }
   },
   "435a-bt-batok-west-ave-5": {
@@ -4667,6 +7646,15 @@
     "rental_units_by_type": {
       "1room": 168,
       "2room": 168
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1247
     }
   },
   "435b-bt-batok-west-ave-5": {
@@ -4682,6 +7670,15 @@
       "2room": 112,
       "3room": 28,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1259
     }
   },
   "435c-bt-batok-west-ave-5": {
@@ -4696,6 +7693,15 @@
     "sold_units_by_type": {
       "4room": 82,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1334
     }
   },
   "436a-bt-batok-west-ave-5": {
@@ -4711,6 +7717,15 @@
       "2room": 104,
       "3room": 26,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1306
     }
   },
   "437a-bt-batok-west-ave-5": {
@@ -4725,6 +7740,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1394
     }
   },
   "438a-bt-batok-west-ave-8": {
@@ -4739,6 +7763,15 @@
     "sold_units_by_type": {
       "2room": 98,
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1222
     }
   },
   "438b-bt-batok-west-ave-8": {
@@ -4754,6 +7787,15 @@
       "2room": 112,
       "3room": 28,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1257
     }
   },
   "438c-bt-batok-west-ave-8": {
@@ -4769,6 +7811,15 @@
       "2room": 104,
       "3room": 26,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1377
     }
   },
   "439a-bt-batok-west-ave-8": {
@@ -4783,6 +7834,15 @@
     "sold_units_by_type": {
       "2room": 98,
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1291
     }
   },
   "439b-bt-batok-west-ave-8": {
@@ -4797,6 +7857,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1392
     }
   },
   "439c-bt-batok-west-ave-8": {
@@ -4811,6 +7880,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1439
     }
   },
   "440a-bt-batok-west-ave-8": {
@@ -4825,6 +7903,15 @@
     "sold_units_by_type": {
       "2room": 120,
       "3room": 45
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1377
     }
   },
   "440b-bt-batok-west-ave-8": {
@@ -4839,6 +7926,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1424
     }
   },
   "440c-bt-batok-west-ave-8": {
@@ -4853,6 +7949,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1458
     }
   },
   "440d-bt-batok-west-ave-8": {
@@ -4867,6 +7972,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1510
     }
   },
   "441a-bt-batok-west-ave-8": {
@@ -4882,6 +7996,15 @@
       "2room": 82,
       "3room": 55,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1403
     }
   },
   "441b-bt-batok-west-ave-8": {
@@ -4896,6 +8019,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1440
     }
   },
   "441c-bt-batok-west-ave-8": {
@@ -4910,6 +8042,15 @@
     "sold_units_by_type": {
       "3room": 70,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1402
     }
   },
   "442a-bt-batok-west-ave-8": {
@@ -4924,6 +8065,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 91
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1468
     }
   },
   "442b-bt-batok-west-ave-8": {
@@ -4938,6 +8088,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1522
     }
   },
   "442c-bt-batok-west-ave-8": {
@@ -4952,6 +8111,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1544
     }
   },
   "443a-bt-batok-west-ave-8": {
@@ -4966,6 +8134,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 91
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1546
     }
   },
   "443b-bt-batok-west-ave-8": {
@@ -4980,6 +8157,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1516
     }
   },
   "443c-bt-batok-west-ave-8": {
@@ -4994,6 +8180,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1487
     }
   },
   "443d-bt-batok-west-ave-8": {
@@ -5008,6 +8203,15 @@
     "sold_units_by_type": {
       "3room": 65,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1555
     }
   },
   "445a-bt-batok-west-ave-8": {
@@ -5022,6 +8226,15 @@
     "sold_units_by_type": {
       "4room": 105,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1135
     }
   },
   "445b-bt-batok-west-ave-8": {
@@ -5036,6 +8249,15 @@
     "sold_units_by_type": {
       "2room": 100,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1190
     }
   },
   "446a-bt-batok-west-ave-8": {
@@ -5050,6 +8272,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 126
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1125
     }
   },
   "447a-bt-batok-west-ave-9": {
@@ -5065,6 +8296,15 @@
     "rental_units_by_type": {
       "1room": 208,
       "2room": 224
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1118
     }
   },
   "448a-bt-batok-west-ave-9": {
@@ -5079,6 +8319,15 @@
     "sold_units_by_type": {
       "2room": 114,
       "3room": 57
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1085
     }
   },
   "448b-bt-batok-west-ave-9": {
@@ -5093,6 +8342,15 @@
     "sold_units_by_type": {
       "2room": 108,
       "3room": 54
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1060
     }
   },
   "448c-bt-batok-west-ave-9": {
@@ -5108,6 +8366,15 @@
       "2room": 68,
       "3room": 51,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 999
     }
   },
   "449a-bt-batok-west-ave-9": {
@@ -5121,6 +8388,15 @@
     "total_dwelling_units": 170,
     "sold_units_by_type": {
       "4room": 170
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 953
     }
   },
   "449b-bt-batok-west-ave-9": {
@@ -5134,6 +8410,15 @@
     "total_dwelling_units": 180,
     "sold_units_by_type": {
       "4room": 180
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 978
     }
   },
   "450a-bt-batok-west-ave-6": {
@@ -5148,6 +8433,15 @@
     "sold_units_by_type": {
       "2room": 147,
       "3room": 78
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 686
     }
   },
   "450b-bt-batok-west-ave-6": {
@@ -5162,6 +8456,15 @@
     "sold_units_by_type": {
       "4room": 120,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 675
     }
   },
   "450c-bt-batok-west-ave-6": {
@@ -5176,6 +8479,15 @@
     "sold_units_by_type": {
       "4room": 120,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 712
     }
   },
   "450d-bt-batok-west-ave-6": {
@@ -5190,6 +8502,15 @@
     "sold_units_by_type": {
       "2room": 147,
       "3room": 78
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 734
     }
   },
   "451a-bt-batok-west-ave-6": {
@@ -5204,6 +8525,15 @@
     "sold_units_by_type": {
       "2room": 168,
       "3room": 105
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 855
     }
   },
   "451b-bt-batok-west-ave-6": {
@@ -5218,6 +8548,15 @@
     "sold_units_by_type": {
       "4room": 105,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 779
     }
   },
   "452a-bt-batok-west-ave-6": {
@@ -5232,6 +8571,15 @@
     "sold_units_by_type": {
       "4room": 105,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 867
     }
   },
   "453a-bt-batok-west-ave-6": {
@@ -5246,6 +8594,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 876
     }
   },
   "453b-bt-batok-west-ave-6": {
@@ -5260,6 +8617,15 @@
     "sold_units_by_type": {
       "4room": 83,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 820
     }
   },
   "460a-bt-batok-west-ave-9": {
@@ -5275,6 +8641,15 @@
       "2room": 48,
       "3room": 47,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1270
     }
   },
   "460b-bt-batok-west-ave-9": {
@@ -5290,6 +8665,15 @@
       "2room": 80,
       "3room": 32,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1255
     }
   },
   "460c-bt-batok-west-ave-9": {
@@ -5304,6 +8688,15 @@
     "sold_units_by_type": {
       "2room": 101,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1217
     }
   },
   "460d-bt-batok-west-ave-9": {
@@ -5318,6 +8711,15 @@
     "sold_units_by_type": {
       "2room": 108,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit D",
+      "distance": 1144
     }
   },
   "461a-bt-batok-west-ave-8": {
@@ -5332,6 +8734,15 @@
     "sold_units_by_type": {
       "4room": 89,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1243
     }
   },
   "461b-bt-batok-west-ave-8": {
@@ -5346,6 +8757,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1239
     }
   },
   "461c-bt-batok-west-ave-8": {
@@ -5360,6 +8780,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1172
     }
   },
   "461d-bt-batok-west-ave-8": {
@@ -5374,6 +8803,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1181
     }
   },
   "463a-bt-batok-st-41": {
@@ -5388,6 +8826,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1102
     }
   },
   "463b-bt-batok-st-41": {
@@ -5402,6 +8849,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1071
     }
   },
   "464a-bt-batok-west-ave-8": {
@@ -5416,6 +8872,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1125
     }
   },
   "464b-bt-batok-west-ave-8": {
@@ -5434,6 +8899,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1076
     }
   },
   "465a-bt-batok-west-ave-8": {
@@ -5449,6 +8923,15 @@
     "rental_units_by_type": {
       "1room": 144,
       "2room": 128
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1025
     }
   },
   "467a-bt-batok-west-ave-9": {
@@ -5464,6 +8947,15 @@
       "2room": 104,
       "3room": 36,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 919
     }
   },
   "467b-bt-batok-west-ave-9": {
@@ -5478,6 +8970,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1006
     }
   },
   "467c-bt-batok-west-ave-9": {
@@ -5492,6 +8993,15 @@
     "sold_units_by_type": {
       "2room": 187,
       "3room": 34
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1072
     }
   },
   "468a-bt-batok-west-ave-9": {
@@ -5507,6 +9017,15 @@
       "2room": 136,
       "3room": 34,
       "4room": 34
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1042
     }
   },
   "468b-bt-batok-west-ave-9": {
@@ -5525,6 +9044,15 @@
     "rental_units_by_type": {
       "1room": 14,
       "2room": 21
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 983
     }
   },
   "469a-bt-batok-west-ave-9": {
@@ -5541,6 +9069,15 @@
     },
     "rental_units_by_type": {
       "1room": 3
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1079
     }
   },
   "470a-bt-batok-west-ave-5": {
@@ -5555,6 +9092,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 845
     }
   },
   "470b-bt-batok-west-ave-5": {
@@ -5569,6 +9115,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 863
     }
   },
   "470c-bt-batok-west-ave-5": {
@@ -5584,6 +9139,15 @@
       "3room": 27,
       "4room": 29,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 851
     }
   },
   "470d-bt-batok-west-ave-5": {
@@ -5598,6 +9162,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 821
     }
   },
   "471a-bt-batok-west-ave-5": {
@@ -5613,6 +9186,15 @@
       "2room": 81,
       "3room": 26,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 918
     }
   },
   "471b-bt-batok-west-ave-5": {
@@ -5628,6 +9210,15 @@
       "2room": 82,
       "3room": 28,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 965
     }
   },
   "471c-bt-batok-west-ave-5": {
@@ -5642,6 +9233,15 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 73
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 926
     }
   },
   "472a-bt-batok-west-ave-5": {
@@ -5656,6 +9256,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 946
     }
   },
   "472b-bt-batok-west-ave-5": {
@@ -5670,6 +9279,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 909
     }
   },
   "501-bt-batok-st-52": {
@@ -5688,6 +9306,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 598
     }
   },
   "503-bt-batok-st-52": {
@@ -5706,6 +9333,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 464
     }
   },
   "504-bt-batok-st-52": {
@@ -5720,6 +9356,15 @@
     "sold_units_by_type": {
       "3room": 108,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 618
     }
   },
   "505-bt-batok-st-52": {
@@ -5734,6 +9379,15 @@
     "sold_units_by_type": {
       "3room": 107,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 488
     }
   },
   "506-bt-batok-st-52": {
@@ -5747,6 +9401,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "3room": 110
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 601
     }
   },
   "507-bt-batok-st-52": {
@@ -5760,6 +9423,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "3room": 110
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 535
     }
   },
   "508-bt-batok-st-52": {
@@ -5774,6 +9446,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 597
     }
   },
   "509-bt-batok-st-52": {
@@ -5788,6 +9469,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 575
     }
   },
   "510-bt-batok-st-52": {
@@ -5802,6 +9492,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 645
     }
   },
   "511-bt-batok-st-52": {
@@ -5816,6 +9515,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 551
     }
   },
   "512-bt-batok-st-52": {
@@ -5829,6 +9537,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "exec": 90
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 530
     }
   },
   "513-bt-batok-st-52": {
@@ -5843,6 +9560,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 517
     }
   },
   "514-bt-batok-st-52": {
@@ -5857,6 +9583,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 473
     }
   },
   "523-bt-batok-st-52": {
@@ -5871,6 +9606,15 @@
     "sold_units_by_type": {
       "3room": 128,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 223
     }
   },
   "524-bt-batok-st-52": {
@@ -5884,6 +9628,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 175
     }
   },
   "525-bt-batok-st-52": {
@@ -5898,6 +9651,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 177
     }
   },
   "526-bt-batok-st-51": {
@@ -5911,6 +9673,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 199
     }
   },
   "527-bt-batok-st-51": {
@@ -5925,6 +9696,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 190
     }
   },
   "528-bt-batok-st-51": {
@@ -5939,6 +9719,15 @@
     "sold_units_by_type": {
       "3room": 128,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 253
     }
   },
   "530-bt-batok-st-51": {
@@ -5953,6 +9742,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 301
     }
   },
   "531-bt-batok-st-51": {
@@ -5967,6 +9765,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 326
     }
   },
   "532-bt-batok-st-51": {
@@ -5981,6 +9788,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 379
     }
   },
   "533-bt-batok-st-51": {
@@ -5995,6 +9811,15 @@
     "sold_units_by_type": {
       "3room": 90,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 404
     }
   },
   "534-bt-batok-st-51": {
@@ -6009,6 +9834,15 @@
     "sold_units_by_type": {
       "3room": 118,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 362
     }
   },
   "535-bt-batok-st-52": {
@@ -6022,6 +9856,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 455
     }
   },
   "536-bt-batok-st-52": {
@@ -6036,6 +9879,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 368
     }
   },
   "537-bt-batok-st-52": {
@@ -6050,6 +9902,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 420
     }
   },
   "539-bt-batok-st-52": {
@@ -6064,6 +9925,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 457
     }
   },
   "540-bt-batok-st-52": {
@@ -6078,6 +9948,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 485
     }
   },
   "541-bt-batok-st-52": {
@@ -6092,6 +9971,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit B",
+      "distance": 523
     }
   },
   "542-bt-batok-st-52": {
@@ -6105,6 +9993,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "exec": 90
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 502
     }
   },
   "620-bt-batok-ctrl": {
@@ -6119,6 +10016,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 153
     }
   },
   "621-bt-batok-ctrl": {
@@ -6133,6 +10039,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 177
     }
   },
   "622-bt-batok-ctrl": {
@@ -6147,6 +10062,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 194
     }
   },
   "623-bt-batok-ctrl": {
@@ -6161,6 +10085,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 152
     }
   },
   "624-bt-batok-ctrl": {
@@ -6175,6 +10108,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 21
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 204
     }
   },
   "625-bt-batok-ctrl": {
@@ -6189,6 +10131,15 @@
     "sold_units_by_type": {
       "4room": 49,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 245
     }
   },
   "626-bt-batok-ctrl": {
@@ -6203,6 +10154,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 258
     }
   },
   "627-bt-batok-ctrl": {
@@ -6216,6 +10176,15 @@
     "total_dwelling_units": 55,
     "sold_units_by_type": {
       "exec": 55
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 263
     }
   },
   "628-bt-batok-ctrl": {
@@ -6229,6 +10198,15 @@
     "total_dwelling_units": 55,
     "sold_units_by_type": {
       "exec": 55
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 212
     }
   },
   "639-bt-batok-ctrl": {
@@ -6243,6 +10221,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit A",
+      "distance": 232
     }
   },
   "642-bt-batok-ctrl": {
@@ -6257,6 +10244,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit B",
+      "distance": 201
     }
   }
 }
