@@ -1,12 +1,13 @@
 import { act, fireEvent, render, screen, within } from "@testing-library/react";
 import { createRef } from "react";
-import { beforeEach, expect, test } from "vitest";
+import { afterEach, beforeEach, expect, test, vi } from "vitest";
 import { ColorLegend } from "./ColorLegend";
 import { useColorMode } from "../store/color";
 import { sampleIndex } from "../test/fixtures";
 import type { BlockFeature } from "../types/contract";
 
 beforeEach(() => useColorMode.getState().setMode("none"));
+afterEach(() => vi.restoreAllMocks());
 
 function rows(legendName: string) {
   const legend = screen.getByRole("region", { name: legendName });
@@ -119,4 +120,90 @@ test("mobile greys bands with no blocks and keeps them in place", () => {
     ["10s", false],
     ["20s+", true],
   ]);
+});
+
+const NOTE = "Straight-line distance to the nearest MRT or LRT exit";
+
+// The test setup's matchMedia reports no hover (a touch screen); this reports a mouse.
+function withMouse() {
+  const original = window.matchMedia;
+  vi.spyOn(window, "matchMedia").mockImplementation((query: string) =>
+    query === "(hover: hover)"
+      ? ({ ...original(query), matches: true } as MediaQueryList)
+      : original(query),
+  );
+}
+
+test.each([true, false])(
+  "only a scale with a note gets the info button (desktop: %s)",
+  (isDesktop) => {
+    useColorMode.getState().setMode("year");
+    render(<ColorLegend features={sampleIndex.features} isDesktop={isDesktop} />);
+    expect(screen.queryByRole("button", { name: /^About/ })).not.toBeInTheDocument();
+    act(() => useColorMode.getState().setMode("mrt"));
+    expect(screen.getByRole("button", { name: "About MRT distance" })).toBeInTheDocument();
+    expect(screen.queryByText(NOTE)).not.toBeInTheDocument();
+  },
+);
+
+test("desktop lists the MRT bands nearest first, so the darkest is on top", () => {
+  useColorMode.getState().setMode("mrt");
+  render(<ColorLegend features={sampleIndex.features} isDesktop />);
+  expect(rows("MRT distance legend")).toEqual([
+    "Under 200 m0",
+    "200 to 400 m1",
+    "400 to 600 m0",
+    "600 to 800 m0",
+    "800 m to 1 km1",
+    "1 km and more0",
+  ]);
+});
+
+test("mobile shows the MRT bands' short labels", () => {
+  useColorMode.getState().setMode("mrt");
+  render(<ColorLegend features={sampleIndex.features} isDesktop={false} />);
+  expect(rows("MRT distance legend")).toEqual(["<200", "<400", "<600", "<800", "<1k", "1k+"]);
+});
+
+test("with a mouse, focus and hover show the note and a click leaves it open", () => {
+  withMouse();
+  useColorMode.getState().setMode("mrt");
+  render(<ColorLegend features={sampleIndex.features} isDesktop />);
+  const info = screen.getByRole("button", { name: "About MRT distance" });
+
+  act(() => info.focus());
+  expect(screen.getByText(NOTE)).toBeInTheDocument();
+  expect(info).toHaveFocus();
+  act(() => info.blur());
+  expect(screen.queryByText(NOTE)).not.toBeInTheDocument();
+
+  fireEvent.pointerEnter(info);
+  expect(screen.getByText(NOTE)).toBeInTheDocument();
+  fireEvent.click(info);
+  expect(screen.getByText(NOTE)).toBeInTheDocument();
+  fireEvent.pointerLeave(info);
+  expect(screen.queryByText(NOTE)).not.toBeInTheDocument();
+});
+
+test("on touch, a tap toggles the note and focus does not open it", () => {
+  useColorMode.getState().setMode("mrt");
+  render(<ColorLegend features={sampleIndex.features} isDesktop={false} />);
+  const info = screen.getByRole("button", { name: "About MRT distance" });
+
+  act(() => info.focus());
+  expect(screen.queryByText(NOTE)).not.toBeInTheDocument();
+  fireEvent.click(info);
+  expect(screen.getByText(NOTE)).toBeInTheDocument();
+  fireEvent.click(info);
+  expect(screen.queryByText(NOTE)).not.toBeInTheDocument();
+});
+
+test("Escape closes the note", () => {
+  withMouse();
+  useColorMode.getState().setMode("mrt");
+  render(<ColorLegend features={sampleIndex.features} isDesktop />);
+  const info = screen.getByRole("button", { name: "About MRT distance" });
+  act(() => info.focus());
+  fireEvent.keyDown(document.activeElement!, { key: "Escape" });
+  expect(screen.queryByText(NOTE)).not.toBeInTheDocument();
 });

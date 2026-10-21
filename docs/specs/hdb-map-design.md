@@ -840,10 +840,13 @@ old estates are, where the tall blocks cluster) show at a glance.
     with its own options; §7.1) won't fit a small card, while a menu can grow.
 - **Legend (ColorLegend):** in the bottom-left corner, inset like the search
   box, and shown only while a mode is on.
-  - Desktop: a card titled by the mode, listing the bands with the highest on
-    top (so up reads as newer or taller), each with its block count.
-  - Mobile: a compact ramp under the mode's title, the bands joined light to
-    dark from left to right, with short labels and no counts. The title
+  - Desktop: a card titled by the mode, listing the bands with the darkest on
+    top, each with its block count. For year and floors that is the highest
+    (up reads as newer or taller); for MRT distance it is the nearest, the band
+    people look for first.
+  - Mobile: a compact ramp under the mode's title, the bands joined in value
+    order from left to right (light to dark, or dark to light for MRT
+    distance), with short labels and no counts. The title
     matters most here, since the mobile options button never names the mode. It is sized
     to its content rather than a fixed width, so it leaves room on narrow
     phones. The details sheet covers it, even at its peek height, and

@@ -464,8 +464,10 @@ decision at a time:
   optional `note?: string`. The `mrt` scale uses the Task 9 edges, labels,
   and colors; `describe: (m) => \`${m} m\``. Edges 200, 400, 600, 800, 1000;
   colors near to far `#005a32 #238443 #41ab5d #78c679 #addd8e #d9f0a3`;
-  labels "Under 200 m", "200 to 400 m", ... "1 km and more", short "<200" ...
-  "1k+".
+  labels "Under 200 m", "200 to 400 m", ... "1 km and more"; short labels are
+  upper bounds, "<200", "<400", "<600", "<800", "<1k", "1k+" (Task 12: ranges
+  like "200–400" crowded the 44 px mobile segments, and km ranges were
+  rejected too).
 - [ ] Tests: the existing expression-vs-lookup check covers the new scale
   automatically; add `bandIndex` cases at each edge and `countBands` on the
   fixtures.

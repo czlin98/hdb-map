@@ -22,6 +22,9 @@ export interface ColorScale {
   describe: (value: number) => string;
   // Shown from an info button beside the legend title.
   note?: string;
+  // The desktop legend puts the darkest band on top: the highest by default, the lowest when the
+  // ramp runs the other way.
+  lowestOnTop?: boolean;
 }
 
 export const BLOCK_COLOR = "#2563eb";
@@ -69,14 +72,15 @@ export const COLOR_SCALES: Record<ScaleMode, ColorScale> = {
     // ColorBrewer YlGn, the 7-class ramp minus its lightest step, reversed so near reads as more.
     bands: [
       { label: "Under 200 m", short: "<200", color: "#005a32" },
-      { label: "200 to 400 m", short: "200–400", color: "#238443" },
-      { label: "400 to 600 m", short: "400–600", color: "#41ab5d" },
-      { label: "600 to 800 m", short: "600–800", color: "#78c679" },
-      { label: "800 m to 1 km", short: "800–1k", color: "#addd8e" },
+      { label: "200 to 400 m", short: "<400", color: "#238443" },
+      { label: "400 to 600 m", short: "<600", color: "#41ab5d" },
+      { label: "600 to 800 m", short: "<800", color: "#78c679" },
+      { label: "800 m to 1 km", short: "<1k", color: "#addd8e" },
       { label: "1 km and more", short: "1k+", color: "#d9f0a3" },
     ],
     describe: (metres) => `${metres} m`,
     note: "Straight-line distance to the nearest MRT or LRT exit",
+    lowestOnTop: true,
   },
 };
 
