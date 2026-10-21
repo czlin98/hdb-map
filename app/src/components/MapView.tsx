@@ -4,7 +4,7 @@ import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection } from "../types/contract";
-import { circleColor, COLOR_SCALES, type ColorMode } from "../lib/coloring";
+import { circleColor, COLOR_SCALES, type ColorMode, type ColorScale } from "../lib/coloring";
 import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
@@ -99,7 +99,7 @@ function labelLayout(radius: [number, number]) {
 
 type TooltipProps = Pick<
   IndexFeatureCollection["features"][number]["properties"],
-  "blk_no" | "street" | "year_completed" | "max_floor_lvl"
+  "blk_no" | "street" | ColorScale["property"]
 >;
 
 // The address, followed by the colored value while a mode is on. Built from DOM nodes rather

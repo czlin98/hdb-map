@@ -15,7 +15,12 @@ test("desktop button names the mode and the menu picks one", async () => {
   await user.click(button);
   expect(screen.getByText("Color by")).toBeInTheDocument();
   const items = screen.getAllByRole("menuitemradio");
-  expect(items.map((i) => i.textContent)).toEqual(["No coloring", "Year completed", "Floors"]);
+  expect(items.map((i) => i.textContent)).toEqual([
+    "No coloring",
+    "Year completed",
+    "Floors",
+    "MRT distance",
+  ]);
   expect(screen.getByRole("menuitemradio", { name: "No coloring" })).toHaveAttribute(
     "aria-checked",
     "true",

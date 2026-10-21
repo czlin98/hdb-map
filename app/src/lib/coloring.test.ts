@@ -41,6 +41,14 @@ test("a value on an edge belongs to the higher band", () => {
   expect(bandIndex(floors, 10)).toBe(1);
   expect(bandIndex(floors, 39)).toBe(4);
   expect(bandIndex(floors, 40)).toBe(5);
+  const { mrt } = COLOR_SCALES;
+  expect(bandIndex(mrt, 0)).toBe(0);
+  expect(bandIndex(mrt, 199)).toBe(0);
+  expect(bandIndex(mrt, 200)).toBe(1);
+  expect(bandIndex(mrt, 600)).toBe(3);
+  expect(bandIndex(mrt, 999)).toBe(4);
+  expect(bandIndex(mrt, 1000)).toBe(5);
+  expect(bandIndex(mrt, 2500)).toBe(5);
 });
 
 test("no coloring uses the plain block color", () => {
@@ -65,6 +73,7 @@ test("a mode becomes a step expression over its index property", () => {
     bands[5].color,
   ]);
   expect((circleColor("floors") as unknown[])[1]).toEqual(["get", "max_floor_lvl"]);
+  expect((circleColor("mrt") as unknown[])[1]).toEqual(["get", "station_distance"]);
 });
 
 test("the map's expression and the band lookup agree", () => {
@@ -85,4 +94,11 @@ test("counts blocks per band over the given features", () => {
   expect(counts).toEqual([1, 0, 0, 0, 1, 0]);
   expect(counts.reduce((a, b) => a + b, 0)).toBe(sampleIndex.features.length);
   expect(countBands(sampleIndex.features, COLOR_SCALES.floors)).toEqual([0, 1, 0, 0, 1, 0]);
+  expect(countBands(sampleIndex.features, COLOR_SCALES.mrt)).toEqual([0, 1, 0, 0, 1, 0]);
+});
+
+test("the MRT scale describes metres and carries the legend note", () => {
+  expect(COLOR_SCALES.mrt.describe(350)).toBe("350 m");
+  expect(COLOR_SCALES.mrt.note).toMatch(/straight-line/i);
+  expect(COLOR_SCALES.year.note).toBeUndefined();
 });
