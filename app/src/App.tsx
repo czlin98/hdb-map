@@ -1,6 +1,12 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
-import type { IndexFeatureCollection, Town } from "./types/contract";
-import { buildTownSlugMap, createGetBlockDetail, loadIndex, loadTowns } from "./lib/data";
+import type { IndexFeatureCollection, StationFeatureCollection, Town } from "./types/contract";
+import {
+  buildTownSlugMap,
+  createGetBlockDetail,
+  loadIndex,
+  loadStations,
+  loadTowns,
+} from "./lib/data";
 import { buildSearchIndex } from "./lib/search";
 import { activeCount, matches } from "./lib/filtering";
 import { useSelection } from "./store/selection";
@@ -38,6 +44,7 @@ function useIsDesktop() {
 export default function App() {
   const [index, setIndex] = useState<IndexFeatureCollection>(EMPTY_INDEX);
   const [towns, setTowns] = useState<Town[]>([]);
+  const [stations, setStations] = useState<StationFeatureCollection | null>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [activeSnap, setActiveSnap] = useState<string | number | null>(SNAP_POINTS[1]);
   // Lifted here so a background map tap can start the close animation; the panel calls
@@ -96,6 +103,18 @@ export default function App() {
     };
   }, []);
 
+  // Not part of the Promise.all: the blocks are the app, so a missing stations file only loses the
+  // stations, with no error card.
+  useEffect(() => {
+    let alive = true;
+    loadStations()
+      .then((s) => alive && setStations(s))
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, []);
+
   useEffect(() => {
     if (selectedId) setActiveSnap(SNAP_POINTS[1]);
   }, [selectedId]);
@@ -145,6 +164,7 @@ export default function App() {
         colorMode={colorMode}
         collapseCreditsOnColor={!isDesktop}
         filters={filters}
+        stations={stations}
       />
 
       {status !== "error" && (
