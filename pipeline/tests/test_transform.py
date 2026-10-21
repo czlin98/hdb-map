@@ -1,10 +1,22 @@
 import pytest
 
+from stations import haversine_m
 from transform import transform
 
 TOWNS = [
     {"town": "ANG MO KIO", "town_slug": "ang-mo-kio", "town_code": "AMK"},
     {"town": "KALLANG/WHAMPOA", "town_slug": "kallang-whampoa", "town_code": "KWN"},
+]
+
+STATIONS = [
+    {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": ["NS16"],
+        "lon": 103.85,
+        "lat": 1.37,
+        "exits": [{"exit": "Exit A", "lon": 103.849, "lat": 1.369}],
+    }
 ]
 
 
@@ -31,7 +43,7 @@ def _block(**over):
 
 
 def test_transform_builds_clean_record():
-    (rec,), skipped = transform([_block()], TOWNS)
+    (rec,), skipped = transform([_block()], TOWNS, STATIONS)
     assert skipped == []
     assert rec["id"] == "123-ang-mo-kio-ave-3"
     assert rec["town"] == "ANG MO KIO"
@@ -43,7 +55,7 @@ def test_transform_builds_clean_record():
 
 
 def test_units_by_type_keeps_only_positive_and_drops_suffix():
-    (rec,), _ = transform([_block()], TOWNS)
+    (rec,), _ = transform([_block()], TOWNS, STATIONS)
     assert rec["sold_units_by_type"] == {"3room": 40, "4room": 60}  # 5room=0 dropped
     assert rec["rental_units_by_type"] == {"other_room": 5}
 
@@ -60,7 +72,7 @@ def test_units_by_type_follow_display_order_not_column_order():
             "1room_rental": "3",
         }
     )
-    (rec,), _ = transform([block], TOWNS)
+    (rec,), _ = transform([block], TOWNS, STATIONS)
     assert list(rec["sold_units_by_type"]) == ["2room", "4room", "exec"]
     assert list(rec["rental_units_by_type"]) == ["1room", "other_room"]
 
@@ -68,13 +80,13 @@ def test_units_by_type_follow_display_order_not_column_order():
 def test_missing_flat_columns_default_to_zero():
     block = _block()
     del block["3room_sold"]
-    (rec,), _ = transform([block], TOWNS)
+    (rec,), _ = transform([block], TOWNS, STATIONS)
     assert "3room" not in rec["sold_units_by_type"]
 
 
 def test_unknown_town_code_raises():
     with pytest.raises(ValueError, match="Unknown town code"):
-        transform([_block(bldg_contract_town="ZZZ")], TOWNS)
+        transform([_block(bldg_contract_town="ZZZ")], TOWNS, STATIONS)
 
 
 @pytest.mark.parametrize(
@@ -90,7 +102,7 @@ def test_unknown_town_code_raises():
     ],
 )
 def test_block_missing_a_required_value_is_skipped_and_recorded(field, value, reason):
-    records, skipped = transform([_block(**{field: value}), _block(blk_no="124")], TOWNS)
+    records, skipped = transform([_block(**{field: value}), _block(blk_no="124")], TOWNS, STATIONS)
     assert [r["blk_no"] for r in records] == ["124"]
     assert skipped == [
         {"blk_no": "123", "street_full": "ANG MO KIO AVENUE 3", "reason": reason, "found": ""}
@@ -98,10 +110,23 @@ def test_block_missing_a_required_value_is_skipped_and_recorded(field, value, re
 
 
 def test_block_missing_several_values_names_the_first_in_order():
-    _, skipped = transform([_block(year_completed="", total_dwelling_units="")], TOWNS)
+    _, skipped = transform([_block(year_completed="", total_dwelling_units="")], TOWNS, STATIONS)
     assert [s["reason"] for s in skipped] == ["missing_year"]
 
 
 def test_unknown_town_still_raises_when_values_are_missing():
     with pytest.raises(ValueError, match="Unknown town code"):
-        transform([_block(bldg_contract_town="ZZZ", year_completed="")], TOWNS)
+        transform([_block(bldg_contract_town="ZZZ", year_completed="")], TOWNS, STATIONS)
+
+
+def test_transform_adds_the_nearest_station():
+    (rec,), _ = transform([_block()], TOWNS, STATIONS)
+    distance = round(haversine_m(103.84, 1.36, 103.849, 1.369))
+    assert rec["station_distance"] == distance
+    assert rec["nearest_station"] == {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": ["NS16"],
+        "exit": "Exit A",
+        "distance": distance,
+    }

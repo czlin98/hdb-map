@@ -3,15 +3,44 @@ import json
 
 import pytest
 import responses
+from responses import matchers
 
 import config
 import fetch
 import geocode
 import run as run_module
+import stations
 
 _INIT_URL = f"{config.DATASETS_API_BASE}/{config.RESOURCE_ID}/initiate-download"
 _POLL_URL = f"{config.DATASETS_API_BASE}/{config.RESOURCE_ID}/poll-download"
 _CSV_URL = "https://download.example.com/hdb.csv"
+_EXITS_BASE = f"{config.DATASETS_API_BASE}/{config.EXITS_DATASET_ID}"
+_EXITS_URL = "https://download.example.com/exits.geojson"
+
+
+def _mock_stations():
+    # Register before the geocode mocks: those match any query, and responses serves the first
+    # registered match, so the station lookups must find their own first.
+    responses.add(responses.GET, f"{_EXITS_BASE}/initiate-download", json={}, status=201)
+    responses.add(responses.GET, f"{_EXITS_BASE}/poll-download", json={"data": {"url": _EXITS_URL}})
+    exit_a = {
+        "type": "Feature",
+        "geometry": {"type": "Point", "coordinates": [103.849, 1.369]},
+        "properties": {"STATION_NA": "ANG MO KIO MRT STATION", "EXIT_CODE": "Exit A"},
+    }
+    responses.add(
+        responses.GET, _EXITS_URL, json={"type": "FeatureCollection", "features": [exit_a]}
+    )
+    for query, results in [
+        ("ANG MO KIO MRT STATION", [{"SEARCHVAL": "ANG MO KIO MRT STATION (NS16)"}]),
+        ("ANG MO KIO LRT STATION", []),
+    ]:
+        responses.add(
+            responses.GET,
+            config.ONEMAP_SEARCH_URL,
+            match=[matchers.query_param_matcher({"searchVal": query}, strict_match=False)],
+            json={"found": len(results), "totalNumPages": 1, "results": results},
+        )
 
 
 @responses.activate
@@ -22,6 +51,7 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     monkeypatch.setattr(config, "FAILED_BLOCKS_PATH", tmp_path / "failed_blocks.csv")
     monkeypatch.setattr(geocode.time, "sleep", lambda *_: None)
     monkeypatch.setattr(fetch.time, "sleep", lambda *_: None)
+    monkeypatch.setattr(stations.time, "sleep", lambda *_: None)
     monkeypatch.setattr(run_module, "today_sgt", lambda: "2026-10-01")
     monkeypatch.setenv("RUN_SUMMARY_PATH", str(tmp_path / "summary.json"))
 
@@ -56,6 +86,7 @@ def test_run_end_to_end(tmp_path, monkeypatch):
         + "555,ANG MO KIO AVE 3,Y,AMK,,12,200,40\n"
     )
     responses.add(responses.GET, _CSV_URL, body=_csv_body, status=200)
+    _mock_stations()
     # Block 123 matches; 999 has no results; 555 geocodes but has no year, so transform skips it.
     responses.add(
         responses.GET,
@@ -183,7 +214,8 @@ def _stub_stages(monkeypatch, tmp_path, n_records, n_skipped=0):
     monkeypatch.setattr(run_module, "get_token", lambda *a, **k: "tok")
     monkeypatch.setattr(run_module, "fetch_blocks", lambda *a, **k: [{}] * 1000)
     monkeypatch.setattr(run_module, "geocode_all", lambda s, t, blocks, **kw: (blocks, []))
-    monkeypatch.setattr(run_module, "transform", lambda s, t: ([{}] * n_records, [{}] * n_skipped))
+    monkeypatch.setattr(run_module, "fetch_stations", lambda *a, **k: [])
+    monkeypatch.setattr(run_module, "transform", lambda *a: ([{}] * n_records, [{}] * n_skipped))
     writes = []
     monkeypatch.setattr(run_module, "write_outputs", lambda *a, **k: writes.append("outputs"))
     monkeypatch.setattr(run_module, "write_meta", lambda *a, **k: writes.append("meta"))

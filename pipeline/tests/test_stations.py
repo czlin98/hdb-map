@@ -5,7 +5,7 @@ from responses import matchers
 
 import config
 import stations
-from stations import build_stations, fetch_exits, lookup_codes
+from stations import build_stations, fetch_exits, haversine_m, lookup_codes, nearest_station
 
 INIT_URL = f"{config.DATASETS_API_BASE}/{config.EXITS_DATASET_ID}/initiate-download"
 POLL_URL = f"{config.DATASETS_API_BASE}/{config.EXITS_DATASET_ID}/poll-download"
@@ -285,3 +285,42 @@ def test_build_stations_prefixes_exit_names_only_at_a_merged_stop():
         "MRT Exit A",
     ]
     assert [e["exit"] for e in _one(result, "outram-park")["exits"]] == ["Exit 1"]
+
+
+def _station(station_id, lon, lat, exits):
+    return {
+        "id": station_id,
+        "name": station_id.title(),
+        "codes": ["NS1"],
+        "lon": lon,
+        "lat": lat,
+        "exits": [{"exit": name, "lon": x, "lat": y} for name, x, y in exits],
+    }
+
+
+def test_haversine_m_measures_a_thousandth_of_a_degree_of_latitude():
+    assert haversine_m(103.8, 1.3, 103.8, 1.301) == pytest.approx(111.2, abs=0.1)
+
+
+def test_nearest_station_goes_by_the_nearest_exit_not_the_station_point():
+    # "far" has its point beside the block but its only exit 300 m away; "near" the reverse.
+    far = _station("far", 103.8001, 1.3, [("Exit A", 103.8027, 1.3)])
+    near = _station("near", 103.805, 1.3, [("Exit 1", 103.8, 1.3015)])
+
+    result = nearest_station(103.8, 1.3, [far, near])
+
+    assert result == {
+        "id": "near",
+        "name": "Near",
+        "codes": ["NS1"],
+        "exit": "Exit 1",
+        "distance": round(haversine_m(103.8, 1.3, 103.8, 1.3015)),
+    }
+    assert isinstance(result["distance"], int)
+
+
+def test_nearest_station_breaks_an_exact_tie_by_the_lower_id():
+    a = _station("a", 103.8, 1.3, [("Exit A", 103.8, 1.301)])
+    b = _station("b", 103.8, 1.3, [("Exit B", 103.8, 1.299)])
+
+    assert nearest_station(103.8, 1.3, [b, a])["id"] == "a"

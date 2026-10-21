@@ -1,3 +1,4 @@
+import math
 import re
 import time
 
@@ -155,3 +156,30 @@ def fetch_stations(session: requests.Session, token: str) -> list[dict]:
     exits = fetch_exits(session)
     names = sorted({row["station"] for row in exits})
     return build_stations(exits, {name: lookup_codes(session, token, name) for name in names})
+
+
+def haversine_m(lon1: float, lat1: float, lon2: float, lat2: float) -> float:
+    """Straight-line (great-circle) distance in metres."""
+    phi1, phi2 = math.radians(lat1), math.radians(lat2)
+    dphi, dlam = phi2 - phi1, math.radians(lon2 - lon1)
+    a = math.sin(dphi / 2) ** 2 + math.cos(phi1) * math.cos(phi2) * math.sin(dlam / 2) ** 2
+    return 2 * 6_371_000 * math.asin(math.sqrt(a))
+
+
+def nearest_station(lon: float, lat: float, stations: list[dict]) -> dict:
+    """The station of the exit nearest the point, with that exit and its distance."""
+    best = None
+    # Sorted, with a strict comparison below, so an exact tie goes to the lower id.
+    for station in sorted(stations, key=lambda s: s["id"]):
+        for exit_ in station["exits"]:
+            distance = haversine_m(lon, lat, exit_["lon"], exit_["lat"])
+            if best is None or distance < best[0]:
+                best = (distance, station, exit_["exit"])
+    distance, station, exit_name = best
+    return {
+        "id": station["id"],
+        "name": station["name"],
+        "codes": station["codes"],
+        "exit": exit_name,
+        "distance": round(distance),
+    }

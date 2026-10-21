@@ -11,6 +11,7 @@ import config
 from export import write_meta, write_outputs
 from fetch import fetch_blocks
 from geocode import geocode_all, get_token
+from stations import fetch_stations
 from summarize import Snapshot, load_snapshot, summarize, write_summary
 from towns import load_towns
 from transform import transform
@@ -77,11 +78,14 @@ def run() -> None:
     data_accessed = today_sgt()
     blocks = fetch_blocks(session)
     log.info("Fetched %d residential blocks", len(blocks))
+    stations = fetch_stations(session, token)
+    log.info("Found %d stations", len(stations))
 
     successes, failures = geocode_all(session, token, blocks)
     log.info("Geocoded %d, failed %d", len(successes), len(failures))
 
-    records, skipped = transform(successes, towns)  # unknown town code -> raises, no writes
+    # An unknown town code raises here, before any write.
+    records, skipped = transform(successes, towns, stations)
     log.info("Skipped %d blocks with missing values", len(skipped))
     check_block_count(len(records), Path(config.APP_DATA_DIR) / "index.geojson")
 
