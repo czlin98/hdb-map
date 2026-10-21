@@ -131,9 +131,6 @@ function tooltipContent(p: TooltipProps, mode: ColorMode) {
 
 const CHIP_IMAGE_PREFIX = "chips-";
 
-// Stations sit above the block dots but below the nearest-exit highlight and the selected
-// block; exits, plainer, sit under every block. Symbol layers higher in the stack are placed first, so station names win over
-// block numbers, and block numbers over exit names.
 const IS_EXIT: maplibregl.ExpressionSpecification = ["==", ["get", "kind"], "exit"];
 
 // The highlighted exit has its own bold label, so drop its plain one. Matching on the name
@@ -227,6 +224,9 @@ function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
   );
 }
 
+// Stations sit above the block dots but below the nearest-exit highlight and the selected
+// block; exits, plainer, sit under every block. Symbol layers higher in the stack are placed
+// first, so station names win over block numbers, and block numbers over exit names.
 function addStationLayers(
   map: maplibregl.Map,
   stations: StationFeatureCollection,

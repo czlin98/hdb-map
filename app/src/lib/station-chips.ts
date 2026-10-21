@@ -8,8 +8,11 @@ const GAP = 2;
 const RADIUS = 2.5;
 const FONT_PX = 8;
 
-/** The chips for one station side by side, or null where there is no canvas (tests). */
+/** The chips for one station side by side, or null with no codes or no canvas (tests). */
 export function drawStationChips(codes: string[], pixelRatio: number): ImageData | null {
+  // A zero-width canvas would make getImageData throw. The pipeline fails a station with no
+  // codes, so this only keeps the other stations drawing if one slips through.
+  if (codes.length === 0) return null;
   const ctx = document.createElement("canvas").getContext("2d");
   if (!ctx) return null;
   const font = `600 ${FONT_PX}px ${getComputedStyle(document.body).fontFamily}`;
