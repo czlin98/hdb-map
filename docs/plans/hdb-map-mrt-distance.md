@@ -510,7 +510,10 @@ decision at a time:
   filter on `kind` and have the Task 9 `minzoom`; station and exit layers are
   not in the click/hover layer list; the blocks source credit reads
   `© HDB, LTA, OneMap/SLA`; the tooltip in mode `"mrt"` ends `· 350 m`.
-- [ ] Implement per Task 9's marker decisions.
+- [ ] Implement per Task 9's marker decisions, with one change: each station
+  gets one chip-strip image (`chips-{id}`, drawn in `lib/station-chips.ts`)
+  instead of one image per code picked by a `match` on the code count, so the
+  label is a plain `format` of the name and that image.
 - [ ] Commit: `feat(app): draw the stations and exits on the map`.
 
 ### Task 15: App wiring

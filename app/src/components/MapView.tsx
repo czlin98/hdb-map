@@ -3,9 +3,10 @@ import { useEffect, useRef, type RefObject } from "react";
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { FeatureCollection } from "geojson";
-import type { IndexFeatureCollection } from "../types/contract";
+import type { IndexFeatureCollection, StationFeatureCollection } from "../types/contract";
 import { circleColor, COLOR_SCALES, type ColorMode, type ColorScale } from "../lib/coloring";
 import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
+import { drawStationChips } from "../lib/station-chips";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Island view: drives the initial fit and the zoom floor. Centered on the main island's
@@ -36,6 +37,8 @@ interface Props {
   // Mobile only: the open credits span the screen, so they make way for the legend.
   collapseCreditsOnColor?: boolean;
   filters?: Filters;
+  // Optional: the map works without it, so a failed load only loses the stations.
+  stations?: StationFeatureCollection | null;
 }
 
 // Any lower and a dense estate reads as a wall of text.
@@ -117,6 +120,104 @@ function tooltipContent(p: TooltipProps, mode: ColorMode) {
   return el;
 }
 
+const CHIP_IMAGE_PREFIX = "chips-";
+
+// Stations sit above the block dots but below the selected block; exits, plainer, sit under
+// every block. Symbol layers higher in the stack are placed first, so station names win over
+// block numbers, and block numbers over exit names.
+function addStationLayers(map: maplibregl.Map, stations: StationFeatureCollection) {
+  for (const f of stations.features) {
+    const p = f.properties;
+    if (p.kind !== "station") continue;
+    const chips = drawStationChips(p.codes, window.devicePixelRatio);
+    if (chips)
+      map.addImage(CHIP_IMAGE_PREFIX + p.id, chips, { pixelRatio: window.devicePixelRatio });
+  }
+  map.addSource("stations", { type: "geojson", data: stations as unknown as FeatureCollection });
+  const isExit: maplibregl.FilterSpecification = ["==", ["get", "kind"], "exit"];
+  const isStation: maplibregl.FilterSpecification = ["==", ["get", "kind"], "station"];
+  map.addLayer(
+    {
+      id: "exits",
+      type: "circle",
+      source: "stations",
+      filter: isExit,
+      minzoom: LABEL_MIN_ZOOM,
+      paint: {
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 15, 2.5, 17, 4],
+        "circle-color": "#6b7280",
+        "circle-stroke-width": 1,
+        "circle-stroke-color": "#ffffff",
+      },
+    },
+    "blocks-circles",
+  );
+  map.addLayer(
+    {
+      id: "exits-labels",
+      type: "symbol",
+      source: "stations",
+      filter: isExit,
+      minzoom: LABEL_MIN_ZOOM,
+      layout: {
+        "text-field": ["get", "exit"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10,
+        "text-variable-anchor": ["left", "right", "top", "bottom"],
+        "text-radial-offset": 0.6,
+        "text-justify": "auto",
+      },
+      paint: { "text-color": "#4b5563", "text-halo-color": "#ffffff", "text-halo-width": 1.5 },
+    },
+    "blocks-labels",
+  );
+  // From zoom 12: hidden only at the island view, where 185 rings would bury the blocks.
+  map.addLayer(
+    {
+      id: "stations-circles",
+      type: "circle",
+      source: "stations",
+      filter: isStation,
+      minzoom: 12,
+      paint: {
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 3, 14, 5, 17, 8],
+        "circle-color": "#ffffff",
+        "circle-stroke-width": 2,
+        "circle-stroke-color": "#374151",
+      },
+    },
+    "blocks-highlight",
+  );
+  map.addLayer(
+    {
+      id: "stations-labels",
+      type: "symbol",
+      source: "stations",
+      filter: isStation,
+      minzoom: 13,
+      layout: {
+        "text-field": [
+          "format",
+          ["get", "name"],
+          {},
+          "\n",
+          {},
+          ["image", ["concat", CHIP_IMAGE_PREFIX, ["get", "id"]]],
+          {},
+        ],
+        "text-font": ["Noto Sans Bold"],
+        "text-size": ["interpolate", ["linear"], ["zoom"], 13, 11, 17, 14],
+        "text-variable-anchor": ["top", "bottom", "left", "right"],
+        "text-radial-offset": 0.8,
+        "text-padding": 2,
+        "text-justify": "auto",
+      },
+      paint: { "text-color": "#111827", "text-halo-color": "#ffffff", "text-halo-width": 2 },
+    },
+    "blocks-highlight-label",
+  );
+}
+
 // MapLibre has no public way to collapse the compact credits, so press its own ⓘ button.
 function collapseOpenCredits(container: HTMLElement | null) {
   const open = container?.querySelector(".maplibregl-compact-show");
@@ -134,6 +235,7 @@ export function MapView({
   colorMode = "none",
   collapseCreditsOnColor = false,
   filters = EMPTY_FILTERS,
+  stations = null,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -151,6 +253,8 @@ export function MapView({
   filtersRef.current = filters;
   const selectedIdRef = useRef(selectedId);
   selectedIdRef.current = selectedId;
+  const stationsRef = useRef(stations);
+  stationsRef.current = stations;
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -186,7 +290,7 @@ export function MapView({
         type: "geojson",
         data: dataRef.current,
         cluster: false,
-        attribution: "© HDB, OneMap/SLA",
+        attribution: "© HDB, LTA, OneMap/SLA",
       });
       map.addLayer({
         id: "blocks-circles",
@@ -249,6 +353,7 @@ export function MapView({
           "text-halo-width": 1.5,
         },
       });
+      if (stationsRef.current) addStationLayers(map, stationsRef.current);
       // The constructor's fit ran before layout settled, leaving the opening view too zoomed
       // in (most visibly on mobile), so re-frame at the final size.
       map.resize();
@@ -322,6 +427,13 @@ export function MapView({
   useEffect(() => {
     if (selectedId) collapseOpenCredits(containerRef.current);
   }, [selectedId]);
+
+  // Stations that arrive after load. Loaded once per visit, so they are never replaced.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !stations || !map.getLayer("blocks-circles") || map.getSource("stations")) return;
+    addStationLayers(map, stations);
+  }, [stations]);
 
   useEffect(() => {
     const src = mapRef.current?.getSource("blocks") as maplibregl.GeoJSONSource | undefined;
