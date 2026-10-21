@@ -70,7 +70,8 @@ def _search_page(
             return resp.json()
         if resp is not None and resp.status_code not in _TRANSIENT:
             break
-        time.sleep(backoff * (2**attempt))
+        if attempt < max_retries - 1:
+            time.sleep(backoff * (2**attempt))
     status = resp.status_code if resp is not None else "no response"
     # Fatal, unlike a block's geocode: a station's codes can't be partly right.
     raise RuntimeError(f"OneMap search for {query!r} page {page} failed: {status}")

@@ -27,7 +27,7 @@ STATION_NAME_OVERRIDES = {
     "MACPHERSON": "MacPherson",
     "GARDENS BY THE BAY": "Gardens by the Bay",
 }
-# One closure in ~185 stations passes; a truncated exits download doesn't.
+# Up to 1% of ~185 stations may go (one or two closures); a truncated exits download can't.
 MIN_STATION_RATIO = 0.99
 
 ONEMAP_TOKEN_URL = "https://www.onemap.gov.sg/api/auth/post/getToken"

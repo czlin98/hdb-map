@@ -324,3 +324,16 @@ def test_nearest_station_breaks_an_exact_tie_by_the_lower_id():
     b = _station("b", 103.8, 1.3, [("Exit B", 103.8, 1.299)])
 
     assert nearest_station(103.8, 1.3, [b, a])["id"] == "a"
+
+
+@responses.activate
+def test_lookup_codes_does_not_wait_after_the_last_attempt(monkeypatch):
+    waits = []
+    monkeypatch.setattr(stations.time, "sleep", waits.append)
+    for _ in range(3):
+        _onemap("OUTRAM PARK MRT STATION", status=500)
+
+    with pytest.raises(RuntimeError):
+        lookup_codes(requests.Session(), "tok", "OUTRAM PARK")
+
+    assert waits == [1.0, 2.0]
