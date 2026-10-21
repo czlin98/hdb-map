@@ -8,10 +8,10 @@ from pathlib import Path
 import requests
 
 import config
-from export import write_meta, write_outputs
+from export import write_meta, write_outputs, write_stations
 from fetch import fetch_blocks
 from geocode import geocode_all, get_token
-from stations import fetch_stations
+from stations import fetch_stations, load_live_stations
 from summarize import Snapshot, load_snapshot, summarize, write_summary
 from towns import load_towns
 from transform import transform
@@ -44,6 +44,19 @@ def check_block_count(new_count: int, index_path: Path) -> None:
             f"Refusing to write {new_count} blocks over the {current} live ones "
             f"(minimum {minimum}, {config.MIN_BLOCK_RATIO:.0%}). "
             "Compare the fetched and geocoded counts in the log above."
+        )
+
+
+def check_station_count(new_count: int, stations_path: Path) -> None:
+    current = len(load_live_stations(stations_path))
+    if not current:
+        return  # first run: nothing live to protect
+    minimum = int(current * config.MIN_STATION_RATIO)
+    if new_count < minimum:
+        raise RuntimeError(
+            f"Refusing to write {new_count} stations over the {current} live ones "
+            f"(minimum {minimum}, {config.MIN_STATION_RATIO:.0%}). "
+            "Check the exits download in the log above."
         )
 
 
@@ -80,6 +93,8 @@ def run() -> None:
     log.info("Fetched %d residential blocks", len(blocks))
     stations = fetch_stations(session, token)
     log.info("Found %d stations", len(stations))
+    # Before the hour-long geocode, so a truncated exits download fails in a couple of minutes.
+    check_station_count(len(stations), Path(config.APP_DATA_DIR) / "stations.geojson")
 
     successes, failures = geocode_all(session, token, blocks)
     log.info("Geocoded %d, failed %d", len(successes), len(failures))
@@ -99,6 +114,7 @@ def run() -> None:
             log.warning("Could not read the data before this run", exc_info=True)
 
     write_outputs(records, towns, config.APP_DATA_DIR)
+    write_stations(stations, config.APP_DATA_DIR)
     write_meta(data_accessed, config.APP_DATA_DIR)
     write_failed_blocks(failures + skipped, config.FAILED_BLOCKS_PATH)
     log.info("Wrote %d blocks to index + %d shards", len(records), len(towns))

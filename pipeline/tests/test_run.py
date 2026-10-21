@@ -131,6 +131,13 @@ def test_run_end_to_end(tmp_path, monkeypatch):
     index = json.loads((tmp_path / "data" / "index.geojson").read_text())
     assert len(index["features"]) == 1
     assert index["features"][0]["properties"]["id"] == "123-ang-mo-kio-ave-3"
+    assert index["features"][0]["properties"]["station_distance"] > 0
+
+    station_file = json.loads((tmp_path / "data" / "stations.geojson").read_text())
+    assert [f["properties"] for f in station_file["features"]] == [
+        {"kind": "station", "id": "ang-mo-kio", "name": "Ang Mo Kio", "codes": ["NS16"]},
+        {"kind": "exit", "station": "ang-mo-kio", "exit": "Exit A"},
+    ]
 
     with (tmp_path / "failed_blocks.csv").open() as fh:
         rows = list(csv.DictReader(fh))
@@ -206,49 +213,111 @@ def test_check_block_count_skips_when_no_index_yet(tmp_path):
     run_module.check_block_count(0, tmp_path / "index.geojson")
 
 
-def _stub_stages(monkeypatch, tmp_path, n_records, n_skipped=0):
+def _write_stations_file(data_dir, n_stations, n_exits=0):
+    data_dir.mkdir(parents=True, exist_ok=True)
+    features = [
+        {"type": "Feature", "properties": {"kind": "station", "id": str(i)}}
+        for i in range(n_stations)
+    ]
+    features += [{"type": "Feature", "properties": {"kind": "exit", "station": "0"}}] * n_exits
+    (data_dir / "stations.geojson").write_text(
+        json.dumps({"type": "FeatureCollection", "features": features})
+    )
+
+
+def test_check_station_count_allows_one_station_in_a_hundred_to_go(tmp_path):
+    _write_stations_file(tmp_path, 100)
+    run_module.check_station_count(99, tmp_path / "stations.geojson")
+
+
+def test_check_station_count_rejects_two_in_a_hundred(tmp_path):
+    _write_stations_file(tmp_path, 100)
+    with pytest.raises(RuntimeError, match="98 stations"):
+        run_module.check_station_count(98, tmp_path / "stations.geojson")
+
+
+def test_check_station_count_counts_only_the_station_features(tmp_path):
+    _write_stations_file(tmp_path, 100, n_exits=300)
+    run_module.check_station_count(99, tmp_path / "stations.geojson")
+    with pytest.raises(RuntimeError, match="98 stations over the 100 live ones"):
+        run_module.check_station_count(98, tmp_path / "stations.geojson")
+
+
+def test_check_station_count_skips_when_no_stations_file_yet(tmp_path):
+    run_module.check_station_count(0, tmp_path / "stations.geojson")
+
+
+def _stub_stages(monkeypatch, tmp_path, n_records, n_skipped=0, n_stations=100):
     monkeypatch.setenv("ONEMAP_EMAIL", "e@x.com")
     monkeypatch.setenv("ONEMAP_PASSWORD", "pw")
     monkeypatch.setattr(config, "APP_DATA_DIR", tmp_path / "data")
     monkeypatch.setattr(config, "FAILED_BLOCKS_PATH", tmp_path / "failed_blocks.csv")
     monkeypatch.setattr(run_module, "get_token", lambda *a, **k: "tok")
     monkeypatch.setattr(run_module, "fetch_blocks", lambda *a, **k: [{}] * 1000)
-    monkeypatch.setattr(run_module, "geocode_all", lambda s, t, blocks, **kw: (blocks, []))
-    monkeypatch.setattr(run_module, "fetch_stations", lambda *a, **k: [])
+    calls = []
+
+    def geocode_all(session, token, blocks, **kw):
+        calls.append("geocode")
+        return blocks, []
+
+    monkeypatch.setattr(run_module, "geocode_all", geocode_all)
+    monkeypatch.setattr(run_module, "fetch_stations", lambda *a, **k: [{}] * n_stations)
     monkeypatch.setattr(run_module, "transform", lambda *a: ([{}] * n_records, [{}] * n_skipped))
-    writes = []
-    monkeypatch.setattr(run_module, "write_outputs", lambda *a, **k: writes.append("outputs"))
-    monkeypatch.setattr(run_module, "write_meta", lambda *a, **k: writes.append("meta"))
-    monkeypatch.setattr(
-        run_module, "write_failed_blocks", lambda *a, **k: writes.append("failures")
-    )
-    return writes
+    monkeypatch.setattr(run_module, "write_outputs", lambda *a, **k: calls.append("outputs"))
+    monkeypatch.setattr(run_module, "write_stations", lambda *a, **k: calls.append("stations"))
+    monkeypatch.setattr(run_module, "write_meta", lambda *a, **k: calls.append("meta"))
+    monkeypatch.setattr(run_module, "write_failed_blocks", lambda *a, **k: calls.append("failures"))
+    return calls
 
 
 def test_run_writes_nothing_when_output_shrinks(tmp_path, monkeypatch):
     _write_index(tmp_path / "data", 1000)
-    writes = _stub_stages(monkeypatch, tmp_path, n_records=500)
+    calls = _stub_stages(monkeypatch, tmp_path, n_records=500)
 
     with pytest.raises(RuntimeError, match="Refusing to write 500 blocks"):
         run_module.run()
 
-    assert writes == []
+    assert calls == ["geocode"]
 
 
 def test_run_counts_skipped_blocks_against_the_guard(tmp_path, monkeypatch):
     _write_index(tmp_path / "data", 1000)
-    writes = _stub_stages(monkeypatch, tmp_path, n_records=500, n_skipped=500)
+    calls = _stub_stages(monkeypatch, tmp_path, n_records=500, n_skipped=500)
 
     with pytest.raises(RuntimeError, match="Refusing to write 500 blocks"):
         run_module.run()
 
-    assert writes == []
+    assert calls == ["geocode"]
 
 
 def test_run_writes_when_block_count_holds(tmp_path, monkeypatch):
     _write_index(tmp_path / "data", 1000)
-    writes = _stub_stages(monkeypatch, tmp_path, n_records=995)
+    calls = _stub_stages(monkeypatch, tmp_path, n_records=995)
 
     run_module.run()
 
-    assert writes == ["outputs", "meta", "failures"]
+    assert calls == ["geocode", "outputs", "stations", "meta", "failures"]
+
+
+def test_run_writes_nothing_when_the_stations_stage_fails(tmp_path, monkeypatch):
+    calls = _stub_stages(monkeypatch, tmp_path, n_records=995)
+
+    def no_codes(*_a, **_k):
+        raise ValueError("stations with no code on an open line: NEW ONE")
+
+    monkeypatch.setattr(run_module, "fetch_stations", no_codes)
+
+    with pytest.raises(ValueError, match="NEW ONE"):
+        run_module.run()
+
+    assert calls == []
+
+
+def test_station_guard_trips_before_geocoding(tmp_path, monkeypatch):
+    _write_stations_file(tmp_path / "data", 100)
+    calls = _stub_stages(monkeypatch, tmp_path, n_records=995, n_stations=50)
+
+    with pytest.raises(RuntimeError, match="50 stations"):
+        run_module.run()
+
+    assert calls == []

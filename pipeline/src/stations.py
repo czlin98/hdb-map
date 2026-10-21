@@ -1,6 +1,8 @@
+import json
 import math
 import re
 import time
+from pathlib import Path
 
 import requests
 
@@ -92,6 +94,14 @@ def lookup_codes(session: requests.Session, token: str, station: str) -> list[st
             page += 1
             time.sleep(0.2)
     return list(dict.fromkeys(codes))
+
+
+def load_live_stations(path: Path) -> list[dict]:
+    """The station features of a written stations.geojson, leaving out its exits; [] if none."""
+    if not path.exists():
+        return []
+    features = json.loads(path.read_text(encoding="utf-8"))["features"]
+    return [f for f in features if f["properties"]["kind"] == "station"]
 
 
 def _code_order(code: str) -> tuple[int, int]:
