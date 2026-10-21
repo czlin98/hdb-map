@@ -112,9 +112,9 @@ UI decision, and the mocks are best judged on real data.
   the block dots, under the selected block and every label (the block layers
   stack circles, highlight, labels, highlight label). Like the station layers,
   it is not a hover or tap target.
-- **App: the legend gets an optional note line** from the scale (`note` on
-  `ColorScale`), used only by the MRT mode: "Nearest MRT or LRT exit, straight
-  line" (wording from the mock).
+- **App: the legend gets an optional note** from the scale (`note` on
+  `ColorScale`), used only by the MRT mode: "Straight-line distance to the nearest MRT or LRT exit" (Task 9). It shows in a
+  popover from an info button beside the legend title, not as a line.
 
 ## Band proposal for the mocks
 
@@ -138,8 +138,8 @@ Palette and direction (near = dark or light) are chosen in the mock.
 - Mode: menu "MRT distance", button "Color: MRT", mobile row "MRT", legend
   title "MRT distance".
 - Tooltip value: `350 m` (after the address, like `12 floors`).
-- Panel row label and layout: from the mock (spec example
-  "Outram Park · EW16 NE3 TE17 · 350 m").
+- Panel row: label "Nearest MRT"; "Outram Park" + chips `EW16` `NE3` `TE17`
+  + "· Exit 5"; then "350 m" (Task 9).
 - Credit: `© HDB, LTA, OneMap/SLA`.
 
 ## File structure
@@ -355,23 +355,81 @@ docs/specs/hdb-map-design.md         # mock outcomes, header date at merge
 Browser mocks on the dev server with real data, desktop and 390 px wide, one
 decision at a time:
 
-- [ ] **Bands:** the three edge sets above, with palette and direction
+- [x] **Bands:** the three edge sets above, with palette and direction
   (near = dark vs light). Update spec §5.12's band sentence to the choice.
-- [ ] **Panel row:** wording, where it sits, line codes plain or as chips,
-  whether the exit is named, how "straight line" is said.
-- [ ] **Station markers:** style (must not resemble a block dot or the amber
+  Chosen: 200 m steps to 1 km, near = dark, ColorBrewer YlGn (7-class minus
+  its lightest step). Greens and PuRd were mocked and not chosen.
+- [x] **Panel row:** wording, where it sits, line codes plain or as chips,
+  whether the exit is named, how "straight line" is said. Chosen: label
+  "Nearest MRT" below the grid, above Sold; line 1 "Outram Park" +
+  line-colored chips + "· Exit 5"; line 2 "176 m" + swatch in MRT mode,
+  right after the value as for Year and Floors. No "straight line" in the
+  panel (user); the legend note keeps it. Rejected: one plain line (spec
+  example), grey chips, distance-first grid cells, "176 m to Exit 5" (the
+  swatch would split the phrase), a small grey "to Exit 5" line, "Outram
+  Park, Exit 5" before the chips. Fits one line at 320 px for the longest
+  real cases (Outram Park 3 chips, Bukit Panjang "LRT Exit B").
+- [x] **Station markers:** style (must not resemble a block dot or the amber
   highlight), name labels and their zoom, whether a station shows a tooltip,
   and the layer order: check the station names still show at zoom 16 and 17
   among the block numbers, and that no block becomes hard to tap.
-- [ ] **Exit markers:** style (smaller and plainer than a station or block),
+  Chosen: circle, fill `#ffffff`, stroke `#374151` 2 px, radius interpolate
+  11: 3, 14: 5, 17: 8; layer `minzoom` 12 (hidden at the island view, which
+  fits at about 10.3 on a laptop and 10.9 at 1920 px). Labels `minzoom` 13:
+  Noto Sans Bold, size 13: 11 to 17: 14, `#111827`, white halo 2, variable
+  anchor top/bottom/left/right, radial offset 0.8, text-padding 2; text is a
+  `format` of the name, a newline, and one inline image chip per code
+  (`match` on codes length 1/2/3). Chips are canvas images added with
+  `addImage` per code after the stations load: 600 weight 8 px text, 11 px
+  tall, 5 px horizontal padding, radius 2.5, `pixelRatio` = device pixel
+  ratio, `LINE_COLORS` fill, dark text on CC/CE. Layer order: station circles
+  right before `blocks-highlight`, station labels right before
+  `blocks-highlight-label`. No tooltip, no tap. Checked: names and chips at
+  zoom 13 in the city centre (all fit but a few at the densest core),
+  Tampines at 14/15, Ang Mo Kio at 16.5 among block numbers. Rejected:
+  filled dark dot (looks like a block), red ring (loud, reads as NS line),
+  line-colored rings (clash with block colors, interchanges show no line),
+  colored code text (less legible), hover/tap popup (phones miss it; would
+  make stations tap targets), chips only from zoom 15.
+- [x] **Exit markers:** style (smaller and plainer than a station or block),
   the zoom they appear at, label zoom, and that their labels yield to block
-  numbers.
-- [ ] **Nearest-exit highlight:** the exit marker and the dashed line, on a
+  numbers. Chosen: circle, fill `#6b7280`, stroke `#ffffff` 1 px, radius
+  interpolate 15: 2.5, 17: 4, `minzoom` 16, added before `blocks-circles`.
+  Labels `minzoom` 16, full exit name (user chose full over "A"), Noto Sans
+  Regular 10, `#4b5563`, white halo 1.5, variable anchor left/right/top/
+  bottom, radial offset 0.6, added before `blocks-labels` so block numbers
+  and station labels win. Known and accepted (user): next to a station a few
+  exit labels hide at zoom 16 (they show from 16.5); the basemap rail line can
+  cross a label (thicker halo declined). Rejected: hollow ring, short labels,
+  markers from 15 without labels.
+- [x] **Nearest-exit highlight:** the exit marker and the dashed line, on a
   selected block near a station and on one far from it, desktop and 390 px
   (where the sheet can cover the exit). Keep the line or drop it; check
   Marine Parade and Holland Village, the largest gaps from OneMap's points.
-- [ ] **Mobile Color row:** four segments (None, Year, Floors, MRT) at 320 px.
-- [ ] **Legend note** wording.
+  Chosen: line KEPT (`#92400e`, width 1.5, dasharray [2, 2]); exit circle
+  radius 5, fill `#ffffff`, stroke `#d97706` 2.5; label = the exit name,
+  Noto Sans Bold 11, `#92400e`, white halo 2, variable anchor, radial offset
+  0.9, `text-allow-overlap` true. Line and circle right before
+  `blocks-highlight`; label right before `blocks-highlight-label`. The
+  regular `exits-labels` filter excludes the highlighted exit (match on
+  station and exit). Checked 1 Everton Park (176 m, on screen) and 207A
+  Punggol Pl (463 m: exit off screen at the fly-to, the line points to it),
+  desktop and 390 px. Marine Parade / Holland Village not checked (exit
+  points, not the station dot, drive this).
+- [x] **Mobile Color row:** four segments (None, Year, Floors, MRT) at 320 px.
+  Fits: 67 px each, no overflow. No change needed.
+- [x] **Legend note** wording. Chosen (user): "Straight-line distance to the nearest MRT or LRT exit", in a Radix Popover
+  from a lucide `InfoIcon` (size-3.5, aria-label "About MRT distance") right
+  after the legend title, both layouts. Desktop (`(hover: hover)`): opens on
+  hover and on keyboard focus, closes on leave/blur; a click does nothing
+  extra (user: hover only). Touch: tap opens, tap elsewhere closes. Content
+  `side="top" align="start"`, `w-max max-w-[calc(100vw-1rem)] px-3 py-2
+  text-xs text-balance`: the box fits its text on one line (a fixed
+  max-w-64 broke after "MRT" and left empty space), wrapping into even lines
+  only if the screen is too narrow. The trigger gets the x button's ::after
+  tap padding. Rejected: the note as a visible line
+  under the title (costs a mobile legend line); "Straight line to the
+  nearest exit" (drops LRT); "as the crow flies" (longer).
 - [ ] Record the outcomes in this plan's tasks below and in the spec.
 
 ### Task 10: Contract types, fixtures, data loading
@@ -404,7 +462,10 @@ decision at a time:
 
 - [ ] `ColorMode` gains `"mrt"`; `property` union gains `"station_distance"`;
   optional `note?: string`. The `mrt` scale uses the Task 9 edges, labels,
-  and colors; `describe: (m) => \`${m} m\``.
+  and colors; `describe: (m) => \`${m} m\``. Edges 200, 400, 600, 800, 1000;
+  colors near to far `#005a32 #238443 #41ab5d #78c679 #addd8e #d9f0a3`;
+  labels "Under 200 m", "200 to 400 m", ... "1 km and more", short "<200" ...
+  "1k+".
 - [ ] Tests: the existing expression-vs-lookup check covers the new scale
   automatically; add `bandIndex` cases at each edge and `countBands` on the
   fixtures.
@@ -415,18 +476,25 @@ decision at a time:
 **Files:** `ColorLegend.tsx`, `ColorControl.test.tsx`, `ColorModeRow.test.tsx`,
 `ColorLegend.test.tsx`
 
-- [ ] ColorLegend renders `scale.note` under the title when present (both
-  layouts). Tests: the MRT legend shows the note; Year shows none; the menu
-  lists "MRT distance"; the mobile row has four options.
+- [ ] ColorLegend renders an info button beside the title when `scale.note`
+  is present (both layouts), showing the note in a popover on hover or focus
+  (desktop) or tap (touch) (Task 9). Tests: the MRT legend has the button and
+  focusing it shows the note; Year has none; the menu lists "MRT distance";
+  the mobile row has four options.
 - [ ] Commit: `feat(app): offer MRT distance in the color controls`.
 
 ### Task 13: Details panel row
 
 **Files:** `DetailsPanel.tsx`, `DetailsPanel.test.tsx`
 
-- [ ] Tests on `DetailsContent`: the row shows the station name, codes, and
-  distance per the mock; mode `"mrt"` adds the band swatch to it, other modes
-  don't.
+- [ ] Tests on `DetailsContent`: the "Nearest MRT" row shows the station
+  name, one chip per code, "· Exit 5", and "176 m"; mode `"mrt"` adds the band
+  swatch to it, other modes don't; an unknown prefix gets the LRT grey.
+- [ ] Line colors (`LINE_COLORS` by code prefix, in `lib/` beside the scale):
+  NS `#d42e12`; EW, CG `#009645`; NE `#9900aa`; CC `#fa9e0d`; DT `#005ec4`;
+  TE `#9d5b25`; LRT (BP, STC, SE, SW, PTC, PE, PW) `#748477`. White chip text.
+  Comment the coupling with `OPEN_LINES` in `pipeline/src/config.py`.
+  White on CC orange is only about 2:1 contrast: use dark text on light chips.
 - [ ] Implement per Task 9.
 - [ ] Commit: `feat(app): show the nearest station in the details panel`.
 
@@ -460,10 +528,11 @@ decision at a time:
 
 - [ ] Tests (MapView): a `nearestExit` sets the `nearest-exit` source to the
   exit point and a line from the selected block to it; `null` empties it; the
-  layers are added right before `blocks-highlight` (so above `blocks-circles`,
-  below the selected block and every label) and aren't hover or tap targets;
-  the line
-  is dashed (or absent, if Task 9 dropped it).
+  line and circle are added right before `blocks-highlight` (above
+  `blocks-circles`, below the selected block), the exit label right before
+  `blocks-highlight-label`; none is a hover or tap target; the line is
+  dashed; `exits-labels` excludes the highlighted exit and gets its plain
+  filter back on clear.
 - [ ] Tests (App): selecting a block passes MapView its nearest exit once the
   shard and stations are in; a failed stations fetch or shard leaves it
   `null` with the panel unaffected; clearing the selection clears it; a
@@ -521,4 +590,5 @@ decision at a time:
   names; exit labels must lose. Checked in Task 9.
 - **Highlight under the mobile sheet:** the exit can sit under the sheet or
   off screen, with the fly-to unchanged by design; judged in Task 9.
-- **Legend note on narrow phones:** checked in Task 9 at 320 px.
+- **Legend note on narrow phones:** checked in Task 9 at 320 px (popover
+  from the info button).

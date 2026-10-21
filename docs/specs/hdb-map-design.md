@@ -242,7 +242,7 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   station, with the distance in whole metres; ties go to the lower station
   `id`, so the output stays deterministic. A straight line, not a walking
   route: routing would add about 10k OneMap calls to every run, and the app
-  labels the distance as straight-line (§5.12).
+  says the distance is straight-line (§5.12).
 - Join Property Information and the geocode result into one clean per-block
   record.
 - Derive two units-by-flat-type maps, **sold** and **rental**. Drop the
@@ -984,39 +984,69 @@ out.
 
 - **What counts:** every MRT and LRT station in service (§3.6). A shared
   MRT/LRT stop is one station, and an interchange is one station with all its
-  lines. The distance runs to the station's nearest exit in a straight line,
-  and the app says "straight line" wherever it gives the distance, so it isn't
-  read as a walk.
-- **Details panel (§5.5):** a row naming the nearest station, its line codes,
-  and the distance, such as "Outram Park · EW16 NE3 TE17 · 350 m". It reads
-  from the shard, so it needs no extra fetch. Wording and layout are settled
-  with the UI mocks.
-- **Coloring mode (§5.10):** "MRT distance", in bands of roughly 400 m, about
-  five minutes' walk each. "MRT" stands for the whole network, LRT included,
-  as it does in common use and in LTA's own "MRT Station Exit" data; the
-  legend says so, and the panel names the actual station. The edges, palette,
-  and which end is dark are settled with the UI mocks. There is no "no data"
-  band, since every block has a nearest station.
-- **Station layer:** every station in `stations.geojson` (§4.7), with its name,
-  at every zoom. Stations never take a block's hover or tap, and filters don't
-  hide them (§5.9). Marker style, label zoom, and whether a station responds
-  to hover or tap are settled with the UI mocks.
+  lines. The distance runs to the station's nearest exit in a straight line.
+  The MRT legend's info button says so ("Straight-line distance to the nearest MRT or LRT exit"), so the distance isn't read
+  as a walk, and the nearest-exit highlight's dashed line shows it; the panel
+  row leaves it out to stay short. The note sits behind an info button beside
+  the legend title (hover or click on desktop, tap on touch) rather than on
+  its own line, which keeps the mobile legend short.
+- **Details panel (§5.5):** a "Nearest MRT" row below the Town, Year, Floors,
+  and Units grid: the station name, a chip per line code, and the exit
+  ("Outram Park EW16 NE3 TE17 · Exit 5"), then the distance alone on a second
+  line ("350 m"), with the band swatch right after it in MRT mode, as for
+  Year and Floors. The chips sit beside the name as on the station signs. The
+  chips take each line's official color (the LRT lines share grey), since
+  riders know the lines by color from the station signs. The colors live in
+  a small table in the app, so a newly opened line needs a color there as
+  well as its prefix in the pipeline's open-line list. Naming the exit says
+  where the distance is measured to. The row reads from the shard, so it
+  needs no extra fetch.
+- **Coloring mode (§5.10):** "MRT distance", in 200 m bands up to 1 km, about
+  two and a half minutes' walk each, with the nearest blocks darkest on
+  ColorBrewer's YlGn ramp (green, apart from Year's blues, Floors' purples,
+  and the amber highlight). Half the blocks are within about 500 m, so wider
+  bands would color most of the map the same; near-dark keeps the other
+  modes' reading of dark as more. "MRT" stands for the whole network, LRT
+  included, as it does in common use and in LTA's own "MRT Station Exit" data;
+  the legend's note says so, and the panel names the actual station. There is no
+  "no data" band, since every block has a nearest station.
+- **Station layer:** every station in `stations.geojson` (§4.7), as a white
+  circle with a dark ring, the usual transit-map symbol, which stays apart
+  from the filled block dots and the amber highlight under every coloring
+  mode. Rings in line colors were tried and dropped: Downtown blue vanished
+  among the default blue blocks, East-West green among the MRT-distance
+  greens, and an interchange showed none of its lines. The markers are hidden
+  at the whole-island view, where they crowded the estates, and appear one
+  step closer in. A step further in, each station gets its name and, under
+  it, a small chip per line in the line's color, the same colors as the
+  details panel (§5.5), so the map shows which lines stop where without any
+  interaction. A map label can't put a background behind part of its text,
+  so the app draws each chip as a small image when the map loads and embeds
+  it in the label. The labels sit above the block numbers and win where
+  they collide. Stations never take a block's hover or tap (no tooltip
+  either), and filters don't hide them (§5.9).
 - **Exit layer:** every exit point, shown only when zoomed in close enough to
   see the space between buildings, so the station dot stands alone further
-  out. Exits are small and plain beside the block markers. They are labelled
-  with the exit alone ("Exit A" or just "A"), never the station, only at the
-  closest zoom, and their labels give way to block numbers. Like stations,
-  they never take a block's hover or tap. The zoom levels and style are
-  settled with the UI mocks.
+  out. An exit is a small solid grey dot under the block dots: a hollow ring
+  read as a miniature station. The marker and its label ("Exit A",
+  "LRT Exit B", as the panel words it; never the station) appear together,
+  since unlabelled specks only added noise. Exit labels give way to block
+  numbers and to the station's label, so beside a station the odd exit label
+  is hidden until the next zoom step; forcing them all on would draw labels
+  over each other. Where LTA lists one exit at several entrances, each point
+  shows. Like stations, exits never take a block's hover or tap.
 - **Nearest-exit highlight:** while a block is selected, its nearest exit is
   marked at every zoom, joined to the block by a thin dashed line, so the map
   shows what the panel's distance measures; the dash reads as a straight
   line, not a route. The exit comes from the shard (`nearest_station`'s
   station and exit), so the app never searches for the nearest exit itself;
   when that exit name has several points, the one nearest the block is
-  marked. The fly-to is unchanged, so the exit can be off screen or under the
-  mobile sheet. The line is confirmed in the UI mocks and dropped if it reads
-  as noise; the exit marker stays.
+  marked. The exit gets an amber ring and its name in bold amber, matching
+  the selected block, and its usual grey label is hidden so the name doesn't
+  show twice; the name always shows, even where it would collide. The
+  fly-to is unchanged, so the exit can be off screen or under the mobile
+  sheet; the line is then the cue that points to it, which is why it was
+  kept.
 - **Not in this iteration:** filtering by distance (§7.2), and the later
   refinements in §7.5.
 
