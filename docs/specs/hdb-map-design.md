@@ -547,7 +547,7 @@ repeat, §3.6); coordinates rounded to 6 decimals.
 ### 5.1 Component tree
 
 ```
-App                     // loads index + towns.json once; hosts layout
+App                     // loads index + towns.json (+ stations.geojson) once; hosts layout
 ├─ MapView              // MapLibre GL: basemap + markers + hover + click
 ├─ SearchBox            // Shadcn combobox over the in-memory index
 ├─ FiltersControl       // desktop: "Filters" button under the search box + its panel
@@ -621,6 +621,8 @@ without knowing about filters. They are not persisted either (§5.11).
   each marker shows its `blk_no` beside it, since touch has no hover. Collision
   detection thins labels in dense estates; the dots always stay. The selected
   block's label is bold amber and always shown.
+- **Stations, exits, and the nearest-exit highlight** (§5.12): their own
+  sources and layers, drawn among the block layers; none takes a hover or tap.
 - **Interactions:**
   - `mousemove` over a dot or label → address tooltip (`{blk_no} {street}`,
     **abbreviated**); `mouseleave` → hide, gated to hover-capable pointers
@@ -988,11 +990,12 @@ out.
 - **What counts:** every MRT and LRT station in service (§3.6). A shared
   MRT/LRT stop is one station, and an interchange is one station with all its
   lines. The distance runs to the station's nearest exit in a straight line.
-  The MRT legend's info button says so ("Straight-line distance to the nearest MRT or LRT exit"), so the distance isn't read
-  as a walk, and the nearest-exit highlight's dashed line shows it; the panel
-  row leaves it out to stay short. The note sits behind an info button beside
-  the legend title (hover or keyboard focus on desktop, tap on touch) rather than on
-  its own line, which keeps the mobile legend short.
+  The MRT legend's info button says so ("Straight-line distance to the
+  nearest MRT or LRT exit"), so the distance isn't read as a walk, and the
+  nearest-exit highlight's dashed line shows it; the panel row leaves it out
+  to stay short. The note sits behind an info button beside the legend title
+  (hover or keyboard focus on desktop, tap on touch) rather than on its own
+  line, which keeps the mobile legend short.
 - **Details panel (§5.5):** a "Nearest MRT" row below the Town, Year, Floors,
   and Units grid: the station name, a chip per line code, and the exit
   ("Outram Park EW16 NE3 TE17 · Exit 5"), then the distance alone on a second
@@ -1024,8 +1027,8 @@ out.
   it, a small chip per line in the line's color, the same colors as the
   details panel (§5.5), so the map shows which lines stop where without any
   interaction. A map label can't put a background behind part of its text,
-  so the app draws each chip as a small image when the map loads and embeds
-  it in the label. The labels sit above the block numbers and win where
+  so the app draws each station's chips as one small image when the stations
+  load and embeds it in the label. The labels sit above the block numbers and win where
   they collide. Stations never take a block's hover or tap (no tooltip
   either), and filters don't hide them (§5.9).
 - **Exit layer:** every exit point, shown only when zoomed in close enough to
@@ -1048,9 +1051,9 @@ out.
   the selected block, and its usual grey label is hidden so the name doesn't
   show twice; the name always shows, even where it would collide. The
   highlight draws above the stations and every block but the selected one,
-  whichever loads first. The fly-to is unchanged, so the exit can be off screen or under the mobile
-  sheet; the line is then the cue that points to it, which is why it was
-  kept.
+  whichever loads first. The fly-to is unchanged, so the exit can be off
+  screen or under the mobile sheet; the line is then the cue that points to
+  it, which is why it was kept.
 - **Not in this iteration:** filtering by distance (§7.2), and the later
   refinements in §7.5.
 

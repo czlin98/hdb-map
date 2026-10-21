@@ -2,15 +2,17 @@
 
 A mobile-first, interactive web map of Singapore's ~10,000 residential HDB blocks. Every block is an
 individually rendered marker (no clustering). Hover (desktop) to see a block's address, tap/click to
-open its details, search by address to fly to a specific block, color the blocks by year completed
-or number of floors, and filter them by town, year completed, floors, and flat type.
+open its details, search by address to fly to a specific block, color the blocks by year completed,
+number of floors, or distance to the nearest MRT, and filter them by town, year completed, floors,
+and flat type. Each block's details name its nearest MRT or LRT station and exit, and the map shows
+the stations, their exits, and a line from the selected block to its nearest exit.
 
 **Live:** [hdb-map.vercel.app](https://hdb-map.vercel.app)
 
-> **Status:** v1 is live, plus marker coloring and filtering. Block data refreshes automatically on
-> the 1st of each month. The [design spec](docs/specs/hdb-map-design.md) describes the app as
-> shipped, and lists the planned next iterations (more coloring modes, a flat-type filter, resale
-> prices, and more).
+> **Status:** v1 is live, plus marker coloring, filtering, and the nearest MRT station. Block data
+> refreshes automatically on the 1st of each month. The [design spec](docs/specs/hdb-map-design.md)
+> describes the app as shipped, and lists the planned next iterations (more coloring modes, a
+> flat-type filter, resale prices, and more).
 
 ## How it works
 
@@ -19,8 +21,9 @@ contract**. Each half depends only on the contract and can change internally wit
 other.
 
 - **Python data pipeline**: fetches HDB Property Information from
-  [data.gov.sg](https://data.gov.sg), geocodes each block via the OneMap Search API, and writes
-  generated JSON into the repo. Runs monthly in GitHub Actions; never at request time.
+  [data.gov.sg](https://data.gov.sg), geocodes each block via the OneMap Search API, finds each
+  block's nearest MRT or LRT station from LTA's station exits, and writes generated JSON into the
+  repo. Runs monthly in GitHub Actions; never at request time.
 - **React static SPA** (Vite + TypeScript): at runtime fetches only its own static data files from
   the CDN. No backend, no serverless functions, no third-party API calls from the browser.
 
@@ -81,17 +84,19 @@ repository secrets. See [`CLAUDE.md`](CLAUDE.md) for the full command list.
 - [Frontend Implementation Plan](docs/plans/hdb-map-frontend.md) and
   [Data Pipeline Implementation Plan](docs/plans/hdb-map-pipeline.md): the original task-by-task
   build record, each with a "Post-implementation deltas" section for later changes
-- [Marker Coloring Implementation Plan](docs/plans/hdb-map-marker-coloring.md) and
-  [Filtering Implementation Plan](docs/plans/hdb-map-filtering.md): the task-by-task build records
-  for marker coloring and filtering
+- [Marker Coloring Implementation Plan](docs/plans/hdb-map-marker-coloring.md),
+  [Filtering Implementation Plan](docs/plans/hdb-map-filtering.md), and
+  [Nearest MRT Station Implementation Plan](docs/plans/hdb-map-mrt-distance.md): the task-by-task
+  build records for marker coloring, filtering, and the nearest MRT station
 
 ## Data & attribution
 
 - **Basemap:** © OpenStreetMap contributors, via OpenFreeMap.
 - **Block data:** HDB / data.gov.sg, under the Singapore Open Data Licence.
-- **Geocoding:** OneMap / SLA.
+- **Geocoding and station line codes:** OneMap / SLA.
+- **MRT and LRT station exits:** LTA / data.gov.sg, under the Singapore Open Data Licence.
 
 ## License
 
-Code is licensed under the [MIT License](LICENSE). HDB/OneMap data is subject to its providers'
-respective terms (see above).
+Code is licensed under the [MIT License](LICENSE). HDB, LTA, and OneMap data is subject to its
+providers' respective terms (see above).
