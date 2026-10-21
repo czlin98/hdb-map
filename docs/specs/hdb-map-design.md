@@ -1047,7 +1047,8 @@ out.
   marked. The exit gets an amber ring and its name in bold amber, matching
   the selected block, and its usual grey label is hidden so the name doesn't
   show twice; the name always shows, even where it would collide. The
-  fly-to is unchanged, so the exit can be off screen or under the mobile
+  highlight draws above the stations and every block but the selected one,
+  whichever loads first. The fly-to is unchanged, so the exit can be off screen or under the mobile
   sheet; the line is then the cue that points to it, which is why it was
   kept.
 - **Not in this iteration:** filtering by distance (§7.2), and the later

@@ -542,7 +542,14 @@ decision at a time:
   shard and stations are in; a failed stations fetch or shard leaves it
   `null` with the panel unaffected; clearing the selection clears it; a
   quick second selection never shows the first block's exit.
-- [ ] Implement per Task 9.
+- [ ] Implement per Task 9. Built: the highlight layers are added on load
+  with an empty source, and the station layers go in right before them
+  (`stations-circles` before `nearest-exit-line`, `stations-labels` before
+  `nearest-exit-label`), so the stack is the same whether the stations
+  arrive before or after load. App keeps each exit tagged with its block id,
+  so a late result for an earlier selection is never shown. Hiding the plain
+  label matches on station and name, so a second entrance with the same name
+  loses its plain label too.
 - [ ] Commit: `feat(app): mark the selected block's nearest exit`.
 
 ### Task 17: Branch run, docs, manual check, PR
