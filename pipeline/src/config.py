@@ -15,6 +15,20 @@ DATASETS_API_BASE = "https://api-open.data.gov.sg/v1/public/api/datasets"
 # HDB Property Information
 RESOURCE_ID = "d_17f5382f26140b1fdae0ba2ef6239d2f"
 
+# LTA MRT Station Exit (GeoJSON); LRT stations are in it too.
+EXITS_DATASET_ID = "d_b39d3a0871985372d7e1637193335da5"
+# Lines in service, in display order. A new line's first stations fail the run until it is added
+# here, since a station must have at least one code (stations.py).
+OPEN_LINES = ["NS", "EW", "CG", "NE", "CC", "DT", "TE", "BP", "STC", "SE", "SW", "PTC", "PE", "PW"]
+# Official names that title case gets wrong.
+STATION_NAME_OVERRIDES = {
+    "HARBOURFRONT": "HarbourFront",
+    "ONE-NORTH": "one-north",
+    "MACPHERSON": "MacPherson",
+}
+# One closure in ~185 stations passes; a truncated exits download doesn't.
+MIN_STATION_RATIO = 0.99
+
 ONEMAP_TOKEN_URL = "https://www.onemap.gov.sg/api/auth/post/getToken"
 ONEMAP_SEARCH_URL = "https://www.onemap.gov.sg/api/common/elastic/search"
 
