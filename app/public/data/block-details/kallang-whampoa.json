@@ -403,7 +403,7 @@
         "NS19"
       ],
       "exit": "Exit B",
-      "distance": 572
+      "distance": 573
     }
   },
   "103-jln-rajah": {
@@ -4843,7 +4843,7 @@
         "TE24"
       ],
       "exit": "Exit 2",
-      "distance": 373
+      "distance": 372
     }
   },
   "5-st-george-s-lane": {
@@ -5635,7 +5635,7 @@
         "NE9"
       ],
       "exit": "Exit A",
-      "distance": 977
+      "distance": 978
     }
   },
   "62-geylang-bahru": {
@@ -5999,7 +5999,7 @@
         "NE8"
       ],
       "exit": "Exit B",
-      "distance": 235
+      "distance": 236
     }
   },
   "69-moulmein-rd": {

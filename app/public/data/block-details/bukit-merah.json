@@ -436,7 +436,7 @@
         "EW18"
       ],
       "exit": "Exit A",
-      "distance": 1051
+      "distance": 1052
     }
   },
   "104-bt-purmei-rd": {
@@ -3191,7 +3191,7 @@
         "CC30"
       ],
       "exit": "Exit 3",
-      "distance": 820
+      "distance": 821
     }
   },
   "141-jln-bt-merah": {
@@ -3664,7 +3664,7 @@
         "TE16"
       ],
       "exit": "Exit 1",
-      "distance": 168
+      "distance": 167
     }
   },
   "17-telok-blangah-cres": {
@@ -4688,7 +4688,7 @@
         "TE16"
       ],
       "exit": "Exit 2",
-      "distance": 340
+      "distance": 339
     }
   },
   "27-telok-blangah-way": {
@@ -9347,7 +9347,7 @@
         "TE16"
       ],
       "exit": "Exit 4",
-      "distance": 165
+      "distance": 164
     }
   },
   "88-redhill-cl": {

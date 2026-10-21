@@ -433,7 +433,7 @@
         "BP3"
       ],
       "exit": "Exit A",
-      "distance": 289
+      "distance": 290
     }
   },
   "117-teck-whye-lane": {
@@ -1111,7 +1111,7 @@
         "BP5"
       ],
       "exit": "Exit A",
-      "distance": 182
+      "distance": 181
     }
   },
   "157-jln-teck-whye": {
@@ -1527,7 +1527,7 @@
         "BP3"
       ],
       "exit": "Exit A",
-      "distance": 483
+      "distance": 482
     }
   },
   "20-teck-whye-lane": {
@@ -1549,7 +1549,7 @@
         "BP4"
       ],
       "exit": "Exit A",
-      "distance": 255
+      "distance": 254
     }
   },
   "201-choa-chu-kang-ave-1": {
@@ -3078,7 +3078,7 @@
         "BP2"
       ],
       "exit": "Exit A",
-      "distance": 635
+      "distance": 636
     }
   },
   "293-choa-chu-kang-ave-3": {
@@ -4296,7 +4296,7 @@
         "BP2"
       ],
       "exit": "Exit A",
-      "distance": 433
+      "distance": 434
     }
   },
   "421-choa-chu-kang-ave-4": {
@@ -4319,7 +4319,7 @@
         "BP2"
       ],
       "exit": "Exit A",
-      "distance": 510
+      "distance": 511
     }
   },
   "422-choa-chu-kang-ave-4": {
@@ -4528,7 +4528,7 @@
         "BP1"
       ],
       "exit": "MRT Exit D",
-      "distance": 373
+      "distance": 372
     }
   },
   "431-choa-chu-kang-ave-4": {
@@ -5647,7 +5647,7 @@
         "BP2"
       ],
       "exit": "Exit A",
-      "distance": 1005
+      "distance": 1006
     }
   },
   "484b-choa-chu-kang-ave-5": {
@@ -6849,7 +6849,7 @@
         "NS5"
       ],
       "exit": "Exit D",
-      "distance": 789
+      "distance": 788
     }
   },
   "535-choa-chu-kang-st-51": {
@@ -7060,7 +7060,7 @@
         "NS5"
       ],
       "exit": "Exit D",
-      "distance": 589
+      "distance": 590
     }
   },
   "546-choa-chu-kang-st-52": {
@@ -7750,7 +7750,7 @@
         "BP4"
       ],
       "exit": "Exit A",
-      "distance": 559
+      "distance": 558
     }
   },
   "601-choa-chu-kang-st-62": {
@@ -8480,7 +8480,7 @@
         "NS5"
       ],
       "exit": "Exit B",
-      "distance": 120
+      "distance": 119
     }
   },
   "639-choa-chu-kang-st-64": {
@@ -8809,7 +8809,7 @@
         "NS5"
       ],
       "exit": "Exit B",
-      "distance": 583
+      "distance": 584
     }
   },
   "665-choa-chu-kang-cres": {
@@ -9035,7 +9035,7 @@
         "NS5"
       ],
       "exit": "Exit B",
-      "distance": 455
+      "distance": 454
     }
   },
   "672a-choa-chu-kang-cres": {
@@ -10026,7 +10026,7 @@
         "NS5"
       ],
       "exit": "Exit B",
-      "distance": 575
+      "distance": 574
     }
   },
   "691b-choa-chu-kang-cres": {
@@ -10506,7 +10506,7 @@
         "NS5"
       ],
       "exit": "Exit C",
-      "distance": 427
+      "distance": 428
     }
   },
   "760-choa-chu-kang-nth-5": {
@@ -11864,7 +11864,7 @@
         "BP3"
       ],
       "exit": "Exit A",
-      "distance": 310
+      "distance": 311
     }
   },
   "816a-keat-hong-link": {

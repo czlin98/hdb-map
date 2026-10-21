@@ -432,7 +432,7 @@
         "BP8"
       ],
       "exit": "Exit A",
-      "distance": 256
+      "distance": 255
     }
   },
   "120-pending-rd": {
@@ -2405,7 +2405,7 @@
         "BP8"
       ],
       "exit": "Exit A",
-      "distance": 149
+      "distance": 150
     }
   },
   "228-pending-rd": {
@@ -2427,7 +2427,7 @@
         "BP8"
       ],
       "exit": "Exit A",
-      "distance": 113
+      "distance": 114
     }
   },
   "229-pending-rd": {
@@ -2954,7 +2954,7 @@
         "BP9"
       ],
       "exit": "Exit A",
-      "distance": 163
+      "distance": 164
     }
   },
   "253-bangkit-rd": {
@@ -3000,7 +3000,7 @@
         "BP9"
       ],
       "exit": "Exit A",
-      "distance": 144
+      "distance": 143
     }
   },
   "255-bangkit-rd": {
@@ -3276,7 +3276,7 @@
         "BP7"
       ],
       "exit": "Exit A",
-      "distance": 392
+      "distance": 393
     }
   },
   "402-fajar-rd": {
@@ -4595,7 +4595,7 @@
         "BP11"
       ],
       "exit": "Exit A",
-      "distance": 118
+      "distance": 119
     }
   },
   "457-segar-rd": {
@@ -5900,7 +5900,7 @@
         "BP12"
       ],
       "exit": "Exit A",
-      "distance": 85
+      "distance": 84
     }
   },
   "528-jelapang-rd": {
@@ -6795,7 +6795,7 @@
         "BP13"
       ],
       "exit": "Exit A",
-      "distance": 107
+      "distance": 106
     }
   },
   "609-bt-panjang-ring-rd": {
@@ -7113,7 +7113,7 @@
         "BP13"
       ],
       "exit": "Exit A",
-      "distance": 355
+      "distance": 354
     }
   },
   "623-senja-rd": {

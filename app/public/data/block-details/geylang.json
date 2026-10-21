@@ -19,7 +19,7 @@
         "EW7"
       ],
       "exit": "Exit B",
-      "distance": 123
+      "distance": 122
     }
   },
   "1-haig-rd": {
@@ -690,7 +690,7 @@
         "EW7"
       ],
       "exit": "Exit C",
-      "distance": 317
+      "distance": 316
     }
   },
   "12-haig-rd": {
@@ -988,7 +988,7 @@
         "EW9"
       ],
       "exit": "Exit B",
-      "distance": 447
+      "distance": 446
     }
   },
   "126-aljunied-rd": {
@@ -4613,7 +4613,7 @@
         "EW7"
       ],
       "exit": "Exit B",
-      "distance": 437
+      "distance": 438
     }
   },
   "414-eunos-rd-5": {
@@ -4891,7 +4891,7 @@
         "EW9"
       ],
       "exit": "Exit B",
-      "distance": 649
+      "distance": 650
     }
   },
   "44-circuit-rd": {
@@ -5128,7 +5128,7 @@
         "DT25"
       ],
       "exit": "Exit B",
-      "distance": 255
+      "distance": 254
     }
   },
   "49-jln-tiga": {
@@ -5874,7 +5874,7 @@
         "DT26"
       ],
       "exit": "Exit E",
-      "distance": 206
+      "distance": 207
     }
   },
   "66-circuit-rd": {
@@ -6534,7 +6534,7 @@
         "CC8"
       ],
       "exit": "Exit B",
-      "distance": 224
+      "distance": 223
     }
   },
   "88c-jln-satu": {

@@ -231,7 +231,7 @@
         "NE13"
       ],
       "exit": "Exit C",
-      "distance": 658
+      "distance": 659
     }
   },
   "112-hougang-ave-1": {
@@ -764,7 +764,7 @@
         "NE13"
       ],
       "exit": "Exit A",
-      "distance": 1056
+      "distance": 1057
     }
   },
   "135-lor-ah-soo": {
@@ -1037,7 +1037,7 @@
         "NE13"
       ],
       "exit": "Exit C",
-      "distance": 777
+      "distance": 776
     }
   },
   "154-hougang-st-11": {
@@ -1294,7 +1294,7 @@
         "NE13"
       ],
       "exit": "Exit C",
-      "distance": 1030
+      "distance": 1031
     }
   },
   "167-hougang-ave-1": {
@@ -4164,7 +4164,7 @@
         "NE14"
       ],
       "exit": "Exit B",
-      "distance": 573
+      "distance": 574
     }
   },
   "365b-upp-serangoon-rd": {
@@ -6332,7 +6332,7 @@
         "SE4"
       ],
       "exit": "Exit B",
-      "distance": 804
+      "distance": 803
     }
   },
   "476b-upp-serangoon-view": {
@@ -6673,7 +6673,7 @@
         "NE14"
       ],
       "exit": "Exit C",
-      "distance": 393
+      "distance": 394
     }
   },
   "511-hougang-ave-10": {
@@ -7622,7 +7622,7 @@
         "NE15"
       ],
       "exit": "Exit B",
-      "distance": 605
+      "distance": 604
     }
   },
   "555-hougang-st-51": {
@@ -8972,7 +8972,7 @@
         "NE14"
       ],
       "exit": "Exit C",
-      "distance": 1173
+      "distance": 1174
     }
   },
   "632-hougang-ave-8": {
@@ -9479,7 +9479,7 @@
         "NE14"
       ],
       "exit": "Exit C",
-      "distance": 1137
+      "distance": 1138
     }
   },
   "655-hougang-ave-8": {
@@ -9501,7 +9501,7 @@
         "NE14"
       ],
       "exit": "Exit C",
-      "distance": 1120
+      "distance": 1121
     }
   },
   "656-hougang-ave-8": {
@@ -9956,7 +9956,7 @@
         "NE14"
       ],
       "exit": "Exit C",
-      "distance": 858
+      "distance": 859
     }
   },
   "678-hougang-ave-8": {
@@ -11755,7 +11755,7 @@
         "NE14"
       ],
       "exit": "Exit C",
-      "distance": 1267
+      "distance": 1266
     }
   },
   "929-hougang-st-91": {
@@ -12392,7 +12392,7 @@
         "SW7"
       ],
       "exit": "Exit A",
-      "distance": 1579
+      "distance": 1580
     }
   },
   "961-hougang-ave-9": {
@@ -13135,7 +13135,7 @@
         "SW7"
       ],
       "exit": "Exit A",
-      "distance": 939
+      "distance": 940
     }
   },
   "985a-buangkok-cres": {

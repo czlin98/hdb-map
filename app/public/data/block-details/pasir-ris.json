@@ -788,7 +788,7 @@
         "DT33"
       ],
       "exit": "Exit D",
-      "distance": 912
+      "distance": 913
     }
   },
   "135-pasir-ris-st-11": {
@@ -1177,7 +1177,7 @@
         "DT33"
       ],
       "exit": "Exit D",
-      "distance": 1011
+      "distance": 1012
     }
   },
   "152-pasir-ris-st-13": {
@@ -1375,7 +1375,7 @@
         "DT33"
       ],
       "exit": "Exit D",
-      "distance": 1096
+      "distance": 1095
     }
   },
   "161-pasir-ris-st-13": {
@@ -1779,7 +1779,7 @@
         "DT33"
       ],
       "exit": "Exit D",
-      "distance": 1142
+      "distance": 1141
     }
   },
   "197-pasir-ris-st-12": {
@@ -2699,7 +2699,7 @@
         "EW1"
       ],
       "exit": "Exit A",
-      "distance": 1563
+      "distance": 1562
     }
   },
   "240-pasir-ris-st-21": {
@@ -3356,7 +3356,7 @@
         "CG2"
       ],
       "exit": "Exit B",
-      "distance": 3544
+      "distance": 3545
     }
   },
   "405-pasir-ris-dr-6": {
@@ -3652,7 +3652,7 @@
         "EW1"
       ],
       "exit": "Exit A",
-      "distance": 688
+      "distance": 687
     }
   },
   "418-pasir-ris-dr-6": {
@@ -4367,7 +4367,7 @@
         "EW1"
       ],
       "exit": "Exit A",
-      "distance": 1003
+      "distance": 1004
     }
   },
   "465-pasir-ris-st-41": {
@@ -5610,7 +5610,7 @@
         "EW1"
       ],
       "exit": "Exit B",
-      "distance": 602
+      "distance": 603
     }
   },
   "526c-pasir-ris-st-51": {
@@ -5863,7 +5863,7 @@
         "EW1"
       ],
       "exit": "Exit A",
-      "distance": 129
+      "distance": 130
     }
   },
   "530c-pasir-ris-dr-1": {
@@ -6736,7 +6736,7 @@
         "EW1"
       ],
       "exit": "Exit A",
-      "distance": 458
+      "distance": 457
     }
   },
   "569-pasir-ris-st-51": {
@@ -8856,7 +8856,7 @@
         "EW1"
       ],
       "exit": "Exit B",
-      "distance": 1690
+      "distance": 1691
     }
   },
   "725-pasir-ris-st-72": {

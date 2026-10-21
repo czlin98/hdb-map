@@ -140,7 +140,7 @@
         "TE16"
       ],
       "exit": "Exit 1",
-      "distance": 479
+      "distance": 480
     }
   },
   "13-york-hill": {
@@ -1217,7 +1217,7 @@
         "DT19"
       ],
       "exit": "Exit F",
-      "distance": 92
+      "distance": 91
     }
   },
   "536-upp-cross-st": {
@@ -1505,7 +1505,7 @@
         "DT22"
       ],
       "exit": "Exit B",
-      "distance": 299
+      "distance": 300
     }
   },
   "642-rowell-rd": {

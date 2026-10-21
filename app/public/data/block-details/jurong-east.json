@@ -346,7 +346,7 @@
         "EW25"
       ],
       "exit": "Exit C",
-      "distance": 307
+      "distance": 306
     }
   },
   "116-jurong-east-st-13": {
@@ -1044,7 +1044,7 @@
         "EW25"
       ],
       "exit": "Exit C",
-      "distance": 276
+      "distance": 275
     }
   },
   "223-jurong-east-st-21": {
@@ -2761,7 +2761,7 @@
         "EW24"
       ],
       "exit": "Exit A",
-      "distance": 634
+      "distance": 633
     }
   },
   "286c-toh-guan-rd": {
@@ -4133,7 +4133,7 @@
         "EW25"
       ],
       "exit": "Exit A",
-      "distance": 793
+      "distance": 792
     }
   },
   "34-teban-gdns-rd": {
@@ -4453,7 +4453,7 @@
         "EW25"
       ],
       "exit": "Exit A",
-      "distance": 653
+      "distance": 654
     }
   },
   "372-jurong-east-st-32": {
@@ -4524,7 +4524,7 @@
         "EW25"
       ],
       "exit": "Exit A",
-      "distance": 798
+      "distance": 799
     }
   },
   "38-teban-gdns-rd": {

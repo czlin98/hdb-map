@@ -232,7 +232,7 @@
         "CC15"
       ],
       "exit": "Exit C",
-      "distance": 353
+      "distance": 354
     }
   },
   "111-bishan-st-12": {
@@ -917,7 +917,7 @@
         "CC15"
       ],
       "exit": "Exit D",
-      "distance": 702
+      "distance": 703
     }
   },
   "140-bishan-st-12": {
@@ -1920,7 +1920,7 @@
         "CC15"
       ],
       "exit": "Exit D",
-      "distance": 516
+      "distance": 515
     }
   },
   "178-bishan-st-13": {
@@ -2112,7 +2112,7 @@
         "CC15"
       ],
       "exit": "Exit D",
-      "distance": 291
+      "distance": 290
     }
   },
   "186-bishan-st-13": {
@@ -4245,7 +4245,7 @@
         "CC15"
       ],
       "exit": "Exit B",
-      "distance": 825
+      "distance": 826
     }
   },
   "278-bishan-st-24": {
@@ -5486,7 +5486,7 @@
         "CC15"
       ],
       "exit": "Exit D",
-      "distance": 350
+      "distance": 349
     }
   },
   "532b-bishan-st-14": {

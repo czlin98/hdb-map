@@ -580,7 +580,7 @@
         "NS16"
       ],
       "exit": "Exit C",
-      "distance": 517
+      "distance": 518
     }
   },
   "124-ang-mo-kio-ave-6": {
@@ -652,7 +652,7 @@
         "NS16"
       ],
       "exit": "Exit C",
-      "distance": 680
+      "distance": 679
     }
   },
   "127-ang-mo-kio-ave-3": {
@@ -795,7 +795,7 @@
         "TE6"
       ],
       "exit": "Exit 3",
-      "distance": 534
+      "distance": 533
     }
   },
   "133-ang-mo-kio-ave-3": {
@@ -1111,7 +1111,7 @@
         "TE6"
       ],
       "exit": "Exit 3",
-      "distance": 79
+      "distance": 80
     }
   },
   "170-ang-mo-kio-ave-4": {
@@ -1240,7 +1240,7 @@
         "TE6"
       ],
       "exit": "Exit 2",
-      "distance": 166
+      "distance": 167
     }
   },
   "175-ang-mo-kio-ave-4": {
@@ -1636,7 +1636,7 @@
         "NS16"
       ],
       "exit": "Exit C",
-      "distance": 675
+      "distance": 676
     }
   },
   "210-ang-mo-kio-ave-3": {
@@ -2070,7 +2070,7 @@
         "TE6"
       ],
       "exit": "Exit 5",
-      "distance": 494
+      "distance": 493
     }
   },
   "226e-ang-mo-kio-ave-1": {
@@ -3421,7 +3421,7 @@
         "NS16"
       ],
       "exit": "Exit C",
-      "distance": 309
+      "distance": 308
     }
   },
   "327-ang-mo-kio-ave-3": {
@@ -5543,7 +5543,7 @@
         "NS16"
       ],
       "exit": "Exit A",
-      "distance": 890
+      "distance": 889
     }
   },
   "467-ang-mo-kio-ave-10": {
@@ -6550,7 +6550,7 @@
         "NS16"
       ],
       "exit": "Exit D",
-      "distance": 785
+      "distance": 786
     }
   },
   "542-ang-mo-kio-ave-10": {
@@ -6907,7 +6907,7 @@
         "NS16"
       ],
       "exit": "Exit D",
-      "distance": 899
+      "distance": 900
     }
   },
   "557-ang-mo-kio-ave-10": {
@@ -7900,7 +7900,7 @@
         "TE6"
       ],
       "exit": "Exit 2",
-      "distance": 541
+      "distance": 542
     }
   },
   "609-ang-mo-kio-ave-4": {

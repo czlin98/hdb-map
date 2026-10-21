@@ -448,7 +448,7 @@
         "CC23"
       ],
       "exit": "Exit B",
-      "distance": 567
+      "distance": 566
     }
   },
   "12-holland-ave": {
@@ -2505,7 +2505,7 @@
         "CC21"
       ],
       "exit": "Exit C",
-      "distance": 343
+      "distance": 344
     }
   },
   "30-margaret-dr": {
@@ -2936,7 +2936,7 @@
         "EW19"
       ],
       "exit": "Exit C",
-      "distance": 254
+      "distance": 253
     }
   },
   "37-tanglin-halt-rd": {
@@ -3056,7 +3056,7 @@
         "CC23"
       ],
       "exit": "Exit B",
-      "distance": 619
+      "distance": 618
     }
   },
   "4-ghim-moh-rd": {
@@ -4160,7 +4160,7 @@
         "EW19"
       ],
       "exit": "Exit D",
-      "distance": 200
+      "distance": 199
     }
   },
   "56-strathmore-ave": {
@@ -5458,7 +5458,7 @@
         "EW20"
       ],
       "exit": "Exit B",
-      "distance": 412
+      "distance": 411
     }
   },
   "92-dawson-rd": {

@@ -1083,7 +1083,7 @@
         "SE3"
       ],
       "exit": "Exit A",
-      "distance": 364
+      "distance": 363
     }
   },
   "124b-rivervale-dr": {
@@ -1105,7 +1105,7 @@
         "SE3"
       ],
       "exit": "Exit A",
-      "distance": 254
+      "distance": 255
     }
   },
   "124c-rivervale-dr": {
@@ -1333,7 +1333,7 @@
         "SE3"
       ],
       "exit": "Exit A",
-      "distance": 207
+      "distance": 208
     }
   },
   "134-rivervale-st": {
@@ -2103,7 +2103,7 @@
         "SE2"
       ],
       "exit": "Exit B",
-      "distance": 249
+      "distance": 248
     }
   },
   "162c-rivervale-cres": {
@@ -2172,7 +2172,7 @@
         "SE3"
       ],
       "exit": "Exit A",
-      "distance": 373
+      "distance": 374
     }
   },
   "163c-rivervale-cres": {
@@ -3540,7 +3540,7 @@
         "SE1"
       ],
       "exit": "Exit B",
-      "distance": 250
+      "distance": 249
     }
   },
   "193-rivervale-dr": {
@@ -4047,7 +4047,7 @@
         "STC"
       ],
       "exit": "Exit C",
-      "distance": 342
+      "distance": 341
     }
   },
   "204b-compassvale-dr": {
@@ -4410,7 +4410,7 @@
         "SE5"
       ],
       "exit": "Exit A",
-      "distance": 170
+      "distance": 171
     }
   },
   "209a-compassvale-lane": {
@@ -6580,7 +6580,7 @@
         "SW1"
       ],
       "exit": "Exit B",
-      "distance": 211
+      "distance": 210
     }
   },
   "262c-compassvale-st": {
@@ -6845,7 +6845,7 @@
         "SE5"
       ],
       "exit": "Exit B",
-      "distance": 254
+      "distance": 255
     }
   },
   "265e-compassvale-bow": {
@@ -7743,7 +7743,7 @@
         "NE15"
       ],
       "exit": "Exit A",
-      "distance": 220
+      "distance": 219
     }
   },
   "279a-sengkang-east-ave": {
@@ -8044,7 +8044,7 @@
         "SW1"
       ],
       "exit": "Exit B",
-      "distance": 352
+      "distance": 351
     }
   },
   "287a-compassvale-cres": {
@@ -9293,7 +9293,7 @@
         "SW7"
       ],
       "exit": "Exit B",
-      "distance": 141
+      "distance": 140
     }
   },
   "306a-anchorvale-link": {
@@ -9590,7 +9590,7 @@
         "SW7"
       ],
       "exit": "Exit B",
-      "distance": 194
+      "distance": 195
     }
   },
   "309d-anchorvale-rd": {
@@ -10027,7 +10027,7 @@
         "SW7"
       ],
       "exit": "Exit B",
-      "distance": 398
+      "distance": 399
     }
   },
   "315c-anchorvale-rd": {
@@ -10096,7 +10096,7 @@
         "SW2"
       ],
       "exit": "Exit B",
-      "distance": 478
+      "distance": 477
     }
   },
   "316c-anchorvale-link": {
@@ -13101,7 +13101,7 @@
         "SW6"
       ],
       "exit": "Exit A",
-      "distance": 112
+      "distance": 113
     }
   },
   "418c-fernvale-link": {
@@ -13814,7 +13814,7 @@
         "SW5"
       ],
       "exit": "Exit A",
-      "distance": 241
+      "distance": 242
     }
   },
   "443b-fernvale-rd": {

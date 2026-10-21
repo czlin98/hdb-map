@@ -279,7 +279,7 @@
         "NS12"
       ],
       "exit": "Exit E",
-      "distance": 635
+      "distance": 634
     }
   },
   "107a-canberra-st": {
@@ -1048,7 +1048,7 @@
         "NS12"
       ],
       "exit": "Exit E",
-      "distance": 637
+      "distance": 638
     }
   },
   "128a-canberra-st": {
@@ -1496,7 +1496,7 @@
         "NS11"
       ],
       "exit": "Exit D",
-      "distance": 417
+      "distance": 416
     }
   },
   "306-canberra-rd": {
@@ -2678,7 +2678,7 @@
         "NS11"
       ],
       "exit": "Exit C",
-      "distance": 169
+      "distance": 168
     }
   },
   "353b-admiralty-dr": {
@@ -3877,7 +3877,7 @@
         "NS12"
       ],
       "exit": "Exit C",
-      "distance": 139
+      "distance": 138
     }
   },
   "379a-canberra-dr": {
@@ -4313,7 +4313,7 @@
         "NS11"
       ],
       "exit": "Exit C",
-      "distance": 353
+      "distance": 354
     }
   },
   "414-sembawang-dr": {
@@ -4403,7 +4403,7 @@
         "NS11"
       ],
       "exit": "Exit C",
-      "distance": 317
+      "distance": 318
     }
   },
   "418-canberra-rd": {
@@ -4472,7 +4472,7 @@
         "NS11"
       ],
       "exit": "Exit C",
-      "distance": 404
+      "distance": 403
     }
   },
   "421-canberra-rd": {
@@ -4911,7 +4911,7 @@
         "NS11"
       ],
       "exit": "Exit C",
-      "distance": 557
+      "distance": 558
     }
   },
   "468d-admiralty-dr": {
@@ -5413,7 +5413,7 @@
         "NS11"
       ],
       "exit": "Exit C",
-      "distance": 808
+      "distance": 807
     }
   },
   "488-admiralty-link": {
@@ -6206,7 +6206,7 @@
         "NS11"
       ],
       "exit": "Exit D",
-      "distance": 495
+      "distance": 496
     }
   },
   "589a-montreal-dr": {

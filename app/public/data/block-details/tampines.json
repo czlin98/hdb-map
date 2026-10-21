@@ -1249,7 +1249,7 @@
         "DT31"
       ],
       "exit": "Exit B",
-      "distance": 631
+      "distance": 632
     }
   },
   "140-tampines-st-12": {
@@ -1601,7 +1601,7 @@
         "EW3"
       ],
       "exit": "Exit A",
-      "distance": 467
+      "distance": 466
     }
   },
   "148-tampines-ave-5": {
@@ -2019,7 +2019,7 @@
         "DT32"
       ],
       "exit": "Exit C",
-      "distance": 292
+      "distance": 291
     }
   },
   "160-simei-rd": {
@@ -3657,7 +3657,7 @@
         "DT33"
       ],
       "exit": "Exit A",
-      "distance": 473
+      "distance": 472
     }
   },
   "230h-tampines-st-21": {
@@ -5399,7 +5399,7 @@
         "DT33"
       ],
       "exit": "Exit B",
-      "distance": 721
+      "distance": 720
     }
   },
   "288-tampines-st-22": {
@@ -5943,7 +5943,7 @@
         "DT33"
       ],
       "exit": "Exit C",
-      "distance": 316
+      "distance": 315
     }
   },
   "312-tampines-st-33": {
@@ -7508,7 +7508,7 @@
         "DT33"
       ],
       "exit": "Exit C",
-      "distance": 391
+      "distance": 392
     }
   },
   "387-tampines-st-32": {
@@ -7807,7 +7807,7 @@
         "DT32"
       ],
       "exit": "Exit B",
-      "distance": 650
+      "distance": 649
     }
   },
   "401-tampines-st-41": {
@@ -7903,7 +7903,7 @@
         "DT32"
       ],
       "exit": "Exit E",
-      "distance": 284
+      "distance": 285
     }
   },
   "405-tampines-st-41": {
@@ -12592,7 +12592,7 @@
         "DT32"
       ],
       "exit": "Exit E",
-      "distance": 883
+      "distance": 882
     }
   },
   "606d-tampines-st-61": {
@@ -13322,7 +13322,7 @@
         "DT32"
       ],
       "exit": "Exit E",
-      "distance": 599
+      "distance": 598
     }
   },
   "624a-tampines-ave-12": {
@@ -14537,7 +14537,7 @@
         "EW1"
       ],
       "exit": "Exit B",
-      "distance": 1725
+      "distance": 1726
     }
   },
   "663a-tampines-st-64": {
@@ -15230,7 +15230,7 @@
         "DT32"
       ],
       "exit": "Exit E",
-      "distance": 952
+      "distance": 951
     }
   },
   "724-tampines-st-71": {
@@ -15867,7 +15867,7 @@
         "DT31"
       ],
       "exit": "Exit A",
-      "distance": 257
+      "distance": 258
     }
   },
   "809-tampines-ave-4": {
@@ -16187,7 +16187,7 @@
         "DT31"
       ],
       "exit": "Exit A",
-      "distance": 520
+      "distance": 521
     }
   },
   "824-tampines-st-81": {
@@ -16414,7 +16414,7 @@
         "DT31"
       ],
       "exit": "Exit A",
-      "distance": 587
+      "distance": 586
     }
   },
   "833-tampines-st-83": {
@@ -16780,7 +16780,7 @@
         "DT32"
       ],
       "exit": "Exit F",
-      "distance": 659
+      "distance": 660
     }
   },
   "842h-tampines-st-82": {
@@ -17016,7 +17016,7 @@
         "DT32"
       ],
       "exit": "Exit F",
-      "distance": 868
+      "distance": 869
     }
   },
   "852-tampines-st-82": {
@@ -17467,7 +17467,7 @@
         "DT32"
       ],
       "exit": "Exit F",
-      "distance": 514
+      "distance": 515
     }
   },
   "859a-tampines-ave-5": {
@@ -17564,7 +17564,7 @@
         "DT32"
       ],
       "exit": "Exit E",
-      "distance": 564
+      "distance": 565
     }
   },
   "860a-tampines-ave-5": {
@@ -18045,7 +18045,7 @@
         "DT32"
       ],
       "exit": "Exit E",
-      "distance": 1084
+      "distance": 1083
     }
   },
   "868c-tampines-ave-8": {
@@ -18214,7 +18214,7 @@
         "DT32"
       ],
       "exit": "Exit F",
-      "distance": 1107
+      "distance": 1106
     }
   },
   "871a-tampines-st-84": {
@@ -18543,7 +18543,7 @@
         "DT31"
       ],
       "exit": "Exit A",
-      "distance": 1262
+      "distance": 1261
     }
   },
   "876-tampines-st-84": {
@@ -19431,7 +19431,7 @@
         "DT31"
       ],
       "exit": "Exit A",
-      "distance": 677
+      "distance": 678
     }
   },
   "896-tampines-st-81": {
@@ -20463,7 +20463,7 @@
         "DT32"
       ],
       "exit": "Exit F",
-      "distance": 402
+      "distance": 403
     }
   },
   "946-tampines-ave-4": {

@@ -134,7 +134,7 @@
         "NS2"
       ],
       "exit": "Exit D",
-      "distance": 216
+      "distance": 215
     }
   },
   "107-bt-batok-west-ave-6": {
@@ -649,7 +649,7 @@
         "NS2"
       ],
       "exit": "Exit C",
-      "distance": 485
+      "distance": 486
     }
   },
   "128-bt-batok-west-ave-6": {
@@ -2579,7 +2579,7 @@
         "NS2"
       ],
       "exit": "Exit B",
-      "distance": 572
+      "distance": 573
     }
   },
   "221-bt-batok-east-ave-3": {
@@ -4882,7 +4882,7 @@
         "NS2"
       ],
       "exit": "Exit D",
-      "distance": 458
+      "distance": 457
     }
   },
   "299-bt-batok-st-22": {
@@ -5042,7 +5042,7 @@
         "NS3"
       ],
       "exit": "Exit C",
-      "distance": 476
+      "distance": 475
     }
   },
   "307-bt-batok-st-31": {
@@ -5318,7 +5318,7 @@
         "NS3"
       ],
       "exit": "Exit C",
-      "distance": 537
+      "distance": 536
     }
   },
   "319-bt-batok-st-33": {
@@ -5850,7 +5850,7 @@
         "NS3"
       ],
       "exit": "Exit D",
-      "distance": 499
+      "distance": 498
     }
   },
   "342-bt-batok-st-34": {
@@ -9523,7 +9523,7 @@
         "NS2"
       ],
       "exit": "Exit A",
-      "distance": 551
+      "distance": 552
     }
   },
   "512-bt-batok-st-52": {
@@ -10116,7 +10116,7 @@
         "NS2"
       ],
       "exit": "Exit C",
-      "distance": 204
+      "distance": 205
     }
   },
   "625-bt-batok-ctrl": {
@@ -10206,7 +10206,7 @@
         "NS2"
       ],
       "exit": "Exit A",
-      "distance": 212
+      "distance": 213
     }
   },
   "639-bt-batok-ctrl": {

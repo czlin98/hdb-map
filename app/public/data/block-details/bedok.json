@@ -645,7 +645,7 @@
         "EW6"
       ],
       "exit": "Exit B",
-      "distance": 489
+      "distance": 488
     }
   },
   "109-bedok-nth-rd": {
@@ -1316,7 +1316,7 @@
         "DT28"
       ],
       "exit": "Exit B",
-      "distance": 435
+      "distance": 436
     }
   },
   "116-lengkong-tiga": {
@@ -1364,7 +1364,7 @@
         "DT30"
       ],
       "exit": "Exit B",
-      "distance": 860
+      "distance": 861
     }
   },
   "117-bedok-reservoir-rd": {
@@ -2049,7 +2049,7 @@
         "EW5"
       ],
       "exit": "Exit B",
-      "distance": 749
+      "distance": 750
     }
   },
   "131-bedok-reservoir-rd": {
@@ -2183,7 +2183,7 @@
         "EW5"
       ],
       "exit": "Exit B",
-      "distance": 890
+      "distance": 891
     }
   },
   "134-bedok-reservoir-rd": {
@@ -3299,7 +3299,7 @@
         "EW4"
       ],
       "exit": "Exit A",
-      "distance": 723
+      "distance": 724
     }
   },
   "170-bedok-sth-rd": {
@@ -4425,7 +4425,7 @@
         "EW5"
       ],
       "exit": "Exit B",
-      "distance": 513
+      "distance": 514
     }
   },
   "222a-bedok-nth-dr": {
@@ -5195,7 +5195,7 @@
         "EW5"
       ],
       "exit": "Exit C",
-      "distance": 386
+      "distance": 387
     }
   },
   "38-bedok-sth-rd": {
@@ -5935,7 +5935,7 @@
         "EW5"
       ],
       "exit": "Exit B",
-      "distance": 450
+      "distance": 451
     }
   },
   "422-bedok-nth-rd": {
@@ -6956,7 +6956,7 @@
         "EW5"
       ],
       "exit": "Exit B",
-      "distance": 772
+      "distance": 771
     }
   },
   "523-bedok-nth-st-3": {
@@ -8376,7 +8376,7 @@
         "DT28"
       ],
       "exit": "Exit B",
-      "distance": 496
+      "distance": 495
     }
   },
   "609a-bedok-reservoir-rd": {
@@ -8489,7 +8489,7 @@
         "DT29"
       ],
       "exit": "Exit C",
-      "distance": 479
+      "distance": 480
     }
   },
   "612-bedok-reservoir-rd": {
@@ -8914,7 +8914,7 @@
         "DT29"
       ],
       "exit": "Exit C",
-      "distance": 193
+      "distance": 194
     }
   },
   "626-bedok-reservoir-rd": {
@@ -9587,7 +9587,7 @@
         "DT28"
       ],
       "exit": "Exit B",
-      "distance": 292
+      "distance": 293
     }
   },
   "653-jln-tenaga": {
@@ -10659,7 +10659,7 @@
         "EW4"
       ],
       "exit": "Exit A",
-      "distance": 759
+      "distance": 760
     }
   },
   "720-bedok-reservoir-rd": {
@@ -11642,7 +11642,7 @@
         "EW5"
       ],
       "exit": "Exit C",
-      "distance": 811
+      "distance": 812
     }
   },
   "808a-chai-chee-rd": {

@@ -769,7 +769,7 @@
         "NE13"
       ],
       "exit": "Exit B",
-      "distance": 1416
+      "distance": 1415
     }
   },
   "141-serangoon-nth-ave-2": {
@@ -1476,7 +1476,7 @@
         "CC13"
       ],
       "exit": "Exit E",
-      "distance": 785
+      "distance": 786
     }
   },
   "216-serangoon-ave-4": {
@@ -2067,7 +2067,7 @@
         "CC13"
       ],
       "exit": "Exit F",
-      "distance": 390
+      "distance": 391
     }
   },
   "237-serangoon-ave-3": {
@@ -3230,7 +3230,7 @@
         "CC13"
       ],
       "exit": "Exit F",
-      "distance": 199
+      "distance": 200
     }
   },
   "332-serangoon-ave-3": {
@@ -3849,7 +3849,7 @@
         "CC13"
       ],
       "exit": "Exit D",
-      "distance": 155
+      "distance": 154
     }
   },
   "422-serangoon-ctrl": {
@@ -3919,7 +3919,7 @@
         "CC13"
       ],
       "exit": "Exit A",
-      "distance": 235
+      "distance": 234
     }
   },
   "425-serangoon-ave-1": {
@@ -4015,7 +4015,7 @@
         "CC13"
       ],
       "exit": "Exit D",
-      "distance": 281
+      "distance": 280
     }
   },
   "500-serangoon-nth-ave-4": {

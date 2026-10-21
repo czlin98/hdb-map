@@ -1164,7 +1164,7 @@
         "PE3"
       ],
       "exit": "Exit A",
-      "distance": 30
+      "distance": 29
     }
   },
   "128b-punggol-field-walk": {
@@ -3139,7 +3139,7 @@
         "PE1"
       ],
       "exit": "Exit A",
-      "distance": 250
+      "distance": 249
     }
   },
   "201c-punggol-field": {
@@ -5157,7 +5157,7 @@
         "PW7"
       ],
       "exit": "Exit B",
-      "distance": 140
+      "distance": 139
     }
   },
   "265c-punggol-way": {
@@ -5389,7 +5389,7 @@
         "PW7"
       ],
       "exit": "Exit A",
-      "distance": 108
+      "distance": 109
     }
   },
   "268b-punggol-field": {
@@ -5951,7 +5951,7 @@
         "PTC"
       ],
       "exit": "LRT Exit C",
-      "distance": 117
+      "distance": 116
     }
   },
   "274d-punggol-pl": {
@@ -6070,7 +6070,7 @@
         "PTC"
       ],
       "exit": "LRT Exit C",
-      "distance": 309
+      "distance": 308
     }
   },
   "289b-punggol-pl": {
@@ -7805,7 +7805,7 @@
         "PW4"
       ],
       "exit": "Exit B",
-      "distance": 125
+      "distance": 126
     }
   },
   "408b-northshore-dr": {
@@ -8114,7 +8114,7 @@
         "PW4"
       ],
       "exit": "Exit A",
-      "distance": 283
+      "distance": 282
     }
   },
   "415b-northshore-dr": {
@@ -8206,7 +8206,7 @@
         "PW4"
       ],
       "exit": "Exit A",
-      "distance": 206
+      "distance": 207
     }
   },
   "419b-northshore-dr": {
@@ -9475,7 +9475,7 @@
         "PE7"
       ],
       "exit": "Exit B",
-      "distance": 203
+      "distance": 202
     }
   },
   "604c-punggol-rd": {
@@ -10290,7 +10290,7 @@
         "PE6"
       ],
       "exit": "Exit B",
-      "distance": 190
+      "distance": 191
     }
   },
   "624c-punggol-ctrl": {
@@ -10925,7 +10925,7 @@
         "PE5"
       ],
       "exit": "Exit B",
-      "distance": 162
+      "distance": 163
     }
   },
   "647-punggol-ctrl": {
@@ -11790,7 +11790,7 @@
         "PE5"
       ],
       "exit": "Exit B",
-      "distance": 111
+      "distance": 110
     }
   },
   "664b-punggol-dr": {
@@ -12001,7 +12001,7 @@
         "PE6"
       ],
       "exit": "Exit A",
-      "distance": 281
+      "distance": 280
     }
   },
   "668b-edgefield-plains": {
@@ -12184,7 +12184,7 @@
         "PE7"
       ],
       "exit": "Exit A",
-      "distance": 338
+      "distance": 339
     }
   },
   "672a-edgefield-plains": {

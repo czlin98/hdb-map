@@ -1368,7 +1368,7 @@
         "NS13"
       ],
       "exit": "Exit B",
-      "distance": 311
+      "distance": 310
     }
   },
   "159-yishun-st-11": {
@@ -2159,7 +2159,7 @@
         "NS13"
       ],
       "exit": "Exit E",
-      "distance": 454
+      "distance": 453
     }
   },
   "222-yishun-st-21": {
@@ -2278,7 +2278,7 @@
         "NS13"
       ],
       "exit": "Exit E",
-      "distance": 533
+      "distance": 532
     }
   },
   "227-yishun-st-21": {
@@ -4685,7 +4685,7 @@
         "NS13"
       ],
       "exit": "Exit E",
-      "distance": 778
+      "distance": 779
     }
   },
   "330-yishun-ring-rd": {
@@ -6680,7 +6680,7 @@
         "NS13"
       ],
       "exit": "Exit E",
-      "distance": 1337
+      "distance": 1338
     }
   },
   "403-yishun-ave-6": {
@@ -6904,7 +6904,7 @@
         "NS13"
       ],
       "exit": "Exit E",
-      "distance": 1340
+      "distance": 1339
     }
   },
   "413-yishun-ring-rd": {
@@ -7411,7 +7411,7 @@
         "NS14"
       ],
       "exit": "Exit D",
-      "distance": 1574
+      "distance": 1575
     }
   },
   "431b-yishun-ave-1": {
@@ -8094,7 +8094,7 @@
         "NS14"
       ],
       "exit": "Exit D",
-      "distance": 1499
+      "distance": 1498
     }
   },
   "461a-yishun-ave-6": {
@@ -9814,7 +9814,7 @@
         "NS14"
       ],
       "exit": "Exit D",
-      "distance": 1080
+      "distance": 1079
     }
   },
   "512a-yishun-st-51": {
@@ -11874,7 +11874,7 @@
         "NS14"
       ],
       "exit": "Exit D",
-      "distance": 1087
+      "distance": 1088
     }
   },
   "675c-yishun-ave-4": {
@@ -12423,7 +12423,7 @@
         "NS13"
       ],
       "exit": "Exit D",
-      "distance": 833
+      "distance": 834
     }
   },
   "715-yishun-st-71": {
@@ -13439,7 +13439,7 @@
         "NS13"
       ],
       "exit": "Exit D",
-      "distance": 348
+      "distance": 349
     }
   },
   "759-yishun-st-72": {
@@ -13662,7 +13662,7 @@
         "NS13"
       ],
       "exit": "Exit D",
-      "distance": 537
+      "distance": 538
     }
   },
   "769-yishun-ave-3": {
@@ -13844,7 +13844,7 @@
         "NS14"
       ],
       "exit": "Exit D",
-      "distance": 527
+      "distance": 528
     }
   },
   "777-yishun-ave-2": {
@@ -13889,7 +13889,7 @@
         "NS14"
       ],
       "exit": "Exit D",
-      "distance": 486
+      "distance": 487
     }
   },
   "779-yishun-ave-2": {
@@ -15103,7 +15103,7 @@
         "NS14"
       ],
       "exit": "Exit A",
-      "distance": 326
+      "distance": 325
     }
   },
   "833-yishun-st-81": {
@@ -15354,7 +15354,7 @@
         "NS14"
       ],
       "exit": "Exit A",
-      "distance": 194
+      "distance": 193
     }
   },
   "848-yishun-st-81": {
