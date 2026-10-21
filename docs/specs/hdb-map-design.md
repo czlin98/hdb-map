@@ -991,7 +991,7 @@ out.
   The MRT legend's info button says so ("Straight-line distance to the nearest MRT or LRT exit"), so the distance isn't read
   as a walk, and the nearest-exit highlight's dashed line shows it; the panel
   row leaves it out to stay short. The note sits behind an info button beside
-  the legend title (hover or click on desktop, tap on touch) rather than on
+  the legend title (hover or keyboard focus on desktop, tap on touch) rather than on
   its own line, which keeps the mobile legend short.
 - **Details panel (§5.5):** a "Nearest MRT" row below the Town, Year, Floors,
   and Units grid: the station name, a chip per line code, and the exit
