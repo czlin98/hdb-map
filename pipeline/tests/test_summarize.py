@@ -113,7 +113,14 @@ def test_only_failure_changes_is_kind_failures():
 
 
 def test_load_snapshot_reads_what_export_writes(tmp_path):
-    rec = {**_block(), "id": "123-amk", "town_slug": "ang-mo-kio"}
+    station = {"id": "a", "name": "A", "codes": ["NS1"], "exit": "Exit A", "distance": 350}
+    rec = {
+        **_block(),
+        "id": "123-amk",
+        "town_slug": "ang-mo-kio",
+        "station_distance": 350,
+        "nearest_station": station,
+    }
     write_outputs([rec], TOWNS, app_data_dir=tmp_path)
     failed = tmp_path / "failed.csv"
     with failed.open("w", newline="", encoding="utf-8") as fh:
