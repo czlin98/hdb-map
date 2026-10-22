@@ -11,6 +11,15 @@
     "sold_units_by_type": {
       "3room": 118,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "one-north",
+      "name": "one-north",
+      "codes": [
+        "CC23"
+      ],
+      "exit": "Exit A",
+      "distance": 561
     }
   },
   "1-ghim-moh-rd": {
@@ -25,6 +34,16 @@
     "sold_units_by_type": {
       "3room": 216,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 737
     }
   },
   "1-holland-cl": {
@@ -39,6 +58,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 319
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 198
     }
   },
   "10-holland-ave": {
@@ -52,6 +80,15 @@
     "total_dwelling_units": 101,
     "sold_units_by_type": {
       "4room": 101
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 329
     }
   },
   "100-c-wealth-cres": {
@@ -67,6 +104,15 @@
       "2room": 9,
       "3room": 59,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 656
     }
   },
   "101-c-wealth-cres": {
@@ -82,6 +128,15 @@
       "2room": 10,
       "3room": 62,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit A",
+      "distance": 631
     }
   },
   "102-c-wealth-cres": {
@@ -97,6 +152,15 @@
       "2room": 10,
       "3room": 80,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit A",
+      "distance": 626
     }
   },
   "103-c-wealth-cres": {
@@ -111,6 +175,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 99
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit A",
+      "distance": 554
     }
   },
   "104-c-wealth-cres": {
@@ -125,6 +198,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 99
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit A",
+      "distance": 560
     }
   },
   "106-c-wealth-cres": {
@@ -139,6 +221,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 99
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit A",
+      "distance": 508
     }
   },
   "107-c-wealth-cres": {
@@ -153,6 +244,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 99
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 507
     }
   },
   "108-c-wealth-cres": {
@@ -171,6 +271,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 511
     }
   },
   "109-c-wealth-cres": {
@@ -186,6 +295,15 @@
       "2room": 10,
       "3room": 68,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 509
     }
   },
   "11-holland-dr": {
@@ -201,6 +319,15 @@
       "3room": 280,
       "4room": 84,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 263
     }
   },
   "110-c-wealth-cres": {
@@ -216,6 +343,15 @@
       "2room": 10,
       "3room": 62,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 455
     }
   },
   "111-c-wealth-cres": {
@@ -231,6 +367,15 @@
       "2room": 10,
       "3room": 66,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 403
     }
   },
   "112-c-wealth-cres": {
@@ -249,6 +394,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 430
     }
   },
   "113-c-wealth-cres": {
@@ -264,6 +418,15 @@
       "2room": 8,
       "3room": 64,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 444
     }
   },
   "12-dover-cl-east": {
@@ -277,6 +440,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "one-north",
+      "name": "one-north",
+      "codes": [
+        "CC23"
+      ],
+      "exit": "Exit B",
+      "distance": 566
     }
   },
   "12-holland-ave": {
@@ -292,6 +464,15 @@
       "3room": 268,
       "4room": 80,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 180
     }
   },
   "129-clarence-lane": {
@@ -305,6 +486,15 @@
     "total_dwelling_units": 95,
     "sold_units_by_type": {
       "4room": 95
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 500
     }
   },
   "13-dover-cl-east": {
@@ -318,6 +508,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit C",
+      "distance": 531
     }
   },
   "13-ghim-moh-rd": {
@@ -331,6 +531,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 306
     }
   },
   "13-holland-dr": {
@@ -349,6 +559,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 321
     }
   },
   "130-clarence-lane": {
@@ -362,6 +581,15 @@
     "total_dwelling_units": 95,
     "sold_units_by_type": {
       "4room": 95
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 443
     }
   },
   "131-clarence-lane": {
@@ -375,6 +603,15 @@
     "total_dwelling_units": 59,
     "sold_units_by_type": {
       "5room": 59
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 397
     }
   },
   "132-clarence-lane": {
@@ -388,6 +625,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 398
     }
   },
   "133-clarence-lane": {
@@ -401,6 +647,15 @@
     "total_dwelling_units": 40,
     "sold_units_by_type": {
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "redhill",
+      "name": "Redhill",
+      "codes": [
+        "EW18"
+      ],
+      "exit": "Exit A",
+      "distance": 422
     }
   },
   "14-dover-cl-east": {
@@ -414,6 +669,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 573
     }
   },
   "14-ghim-moh-rd": {
@@ -427,6 +692,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 224
     }
   },
   "143-mei-ling-st": {
@@ -441,6 +716,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 164
     }
   },
   "145-mei-ling-st": {
@@ -455,6 +739,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 19
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 137
     }
   },
   "146-mei-ling-st": {
@@ -468,6 +761,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 196
     }
   },
   "147-mei-ling-st": {
@@ -481,6 +783,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 134
     }
   },
   "148-mei-ling-st": {
@@ -494,6 +805,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "exec": 110
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 165
     }
   },
   "149-mei-ling-st": {
@@ -507,6 +827,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "exec": 68
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 118
     }
   },
   "15-ghim-moh-rd": {
@@ -520,6 +849,16 @@
     "total_dwelling_units": 156,
     "sold_units_by_type": {
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 304
     }
   },
   "150-mei-ling-st": {
@@ -533,6 +872,15 @@
     "total_dwelling_units": 109,
     "sold_units_by_type": {
       "exec": 109
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 206
     }
   },
   "151-mei-ling-st": {
@@ -547,6 +895,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 196
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 287
     }
   },
   "152-mei-ling-st": {
@@ -563,6 +920,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 362
     }
   },
   "153-mei-ling-st": {
@@ -576,6 +942,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "3room": 80
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 315
     }
   },
   "154-mei-ling-st": {
@@ -589,6 +964,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "3room": 140
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 277
     }
   },
   "155-mei-ling-st": {
@@ -603,6 +987,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 144
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 210
     }
   },
   "156-mei-ling-st": {
@@ -617,6 +1010,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 144
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 242
     }
   },
   "157-mei-ling-st": {
@@ -630,6 +1032,15 @@
     "total_dwelling_units": 140,
     "sold_units_by_type": {
       "3room": 140
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 300
     }
   },
   "158-mei-ling-st": {
@@ -644,6 +1055,15 @@
     "sold_units_by_type": {
       "3room": 101,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 411
     }
   },
   "16-ghim-moh-rd": {
@@ -658,6 +1078,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 208
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 351
     }
   },
   "160-mei-ling-st": {
@@ -676,6 +1106,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 323
     }
   },
   "161-mei-ling-st": {
@@ -694,6 +1133,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 423
     }
   },
   "162-mei-ling-st": {
@@ -707,6 +1155,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "3room": 100
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 431
     }
   },
   "163-stirling-rd": {
@@ -724,6 +1181,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 475
     }
   },
   "164-stirling-rd": {
@@ -738,6 +1204,15 @@
     "sold_units_by_type": {
       "3room": 101,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 508
     }
   },
   "165-stirling-rd": {
@@ -752,6 +1227,15 @@
     "sold_units_by_type": {
       "3room": 104,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 612
     }
   },
   "166-stirling-rd": {
@@ -769,6 +1253,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 580
     }
   },
   "167-stirling-rd": {
@@ -785,6 +1278,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 615
     }
   },
   "168-stirling-rd": {
@@ -798,6 +1300,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "3room": 144
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 576
     }
   },
   "168a-queensway": {
@@ -811,6 +1322,15 @@
     "total_dwelling_units": 228,
     "sold_units_by_type": {
       "4room": 228
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 632
     }
   },
   "169-stirling-rd": {
@@ -825,6 +1345,15 @@
     "sold_units_by_type": {
       "3room": 198,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 545
     }
   },
   "17-dover-cres": {
@@ -839,6 +1368,15 @@
     "sold_units_by_type": {
       "4room": 102,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 659
     }
   },
   "17-ghim-moh-rd": {
@@ -853,6 +1391,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 208
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 442
     }
   },
   "170-stirling-rd": {
@@ -867,6 +1415,15 @@
     "sold_units_by_type": {
       "3room": 194,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 505
     }
   },
   "171-stirling-rd": {
@@ -883,6 +1440,15 @@
     },
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 469
     }
   },
   "18-dover-cres": {
@@ -897,6 +1463,15 @@
     "sold_units_by_type": {
       "4room": 102,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 645
     }
   },
   "18-ghim-moh-rd": {
@@ -913,6 +1488,16 @@
     },
     "rental_units_by_type": {
       "2room": 157
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 490
     }
   },
   "181-stirling-rd": {
@@ -927,6 +1512,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit A",
+      "distance": 71
     }
   },
   "182-stirling-rd": {
@@ -941,6 +1535,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 59
     }
   },
   "183-stirling-rd": {
@@ -955,6 +1558,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 78
     }
   },
   "184-stirling-rd": {
@@ -969,6 +1581,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 116
     }
   },
   "18a-holland-dr": {
@@ -983,6 +1604,15 @@
     "sold_units_by_type": {
       "3room": 156,
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit B",
+      "distance": 432
     }
   },
   "18b-holland-dr": {
@@ -997,6 +1627,16 @@
     "sold_units_by_type": {
       "3room": 60,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 427
     }
   },
   "18c-holland-dr": {
@@ -1011,6 +1651,16 @@
     "sold_units_by_type": {
       "4room": 117,
       "5room": 117
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 364
     }
   },
   "18d-holland-dr": {
@@ -1025,6 +1675,15 @@
     "sold_units_by_type": {
       "4room": 156,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 360
     }
   },
   "19-dover-cres": {
@@ -1039,6 +1698,15 @@
     "sold_units_by_type": {
       "4room": 102,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 714
     }
   },
   "19-ghim-moh-rd": {
@@ -1053,6 +1721,16 @@
     "sold_units_by_type": {
       "3room": 210,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 518
     }
   },
   "19-queen-s-cl": {
@@ -1067,6 +1745,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 677
     }
   },
   "2-dover-rd": {
@@ -1081,6 +1768,15 @@
     "sold_units_by_type": {
       "3room": 122,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "one-north",
+      "name": "one-north",
+      "codes": [
+        "CC23"
+      ],
+      "exit": "Exit A",
+      "distance": 635
     }
   },
   "2-ghim-moh-rd": {
@@ -1095,6 +1791,16 @@
     "sold_units_by_type": {
       "3room": 214,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 684
     }
   },
   "2-holland-ave": {
@@ -1110,6 +1816,15 @@
       "3room": 274,
       "4room": 84,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 153
     }
   },
   "20-dover-cres": {
@@ -1124,6 +1839,16 @@
     "sold_units_by_type": {
       "3room": 164,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 773
     }
   },
   "20-holland-dr": {
@@ -1137,6 +1862,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 389
     }
   },
   "20-queen-s-cl": {
@@ -1151,6 +1885,15 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 684
     }
   },
   "21-dover-cres": {
@@ -1165,6 +1908,16 @@
     "sold_units_by_type": {
       "3room": 140,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 647
     }
   },
   "21-ghim-moh-rd": {
@@ -1179,6 +1932,16 @@
     "sold_units_by_type": {
       "3room": 186,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 376
     }
   },
   "21-holland-dr": {
@@ -1192,6 +1955,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 376
     }
   },
   "21-queen-s-cl": {
@@ -1206,6 +1978,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 662
     }
   },
   "22-dover-cres": {
@@ -1220,6 +2001,15 @@
     "sold_units_by_type": {
       "5room": 26,
       "exec": 39
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 760
     }
   },
   "22-ghim-moh-link": {
@@ -1234,6 +2024,16 @@
     "sold_units_by_type": {
       "4room": 214,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 596
     }
   },
   "22-queen-s-cl": {
@@ -1248,6 +2048,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 683
     }
   },
   "23-dover-cres": {
@@ -1261,6 +2070,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 739
     }
   },
   "23-ghim-moh-link": {
@@ -1275,6 +2093,16 @@
     "sold_units_by_type": {
       "4room": 215,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 481
     }
   },
   "23a-queen-s-cl": {
@@ -1288,6 +2116,15 @@
     "total_dwelling_units": 126,
     "sold_units_by_type": {
       "3room": 126
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 652
     }
   },
   "23b-queen-s-cl": {
@@ -1301,6 +2138,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 625
     }
   },
   "26-dover-cres": {
@@ -1314,6 +2160,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 711
     }
   },
   "26-ghim-moh-link": {
@@ -1328,6 +2183,16 @@
     "sold_units_by_type": {
       "2room": 84,
       "3room": 143
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 558
     }
   },
   "27-dover-cres": {
@@ -1341,6 +2206,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 746
     }
   },
   "27-ghim-moh-link": {
@@ -1359,6 +2233,16 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 603
     }
   },
   "28-ghim-moh-link": {
@@ -1373,6 +2257,16 @@
     "sold_units_by_type": {
       "4room": 233,
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 652
     }
   },
   "28a-dover-cres": {
@@ -1387,6 +2281,15 @@
     "sold_units_by_type": {
       "4room": 126,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "one-north",
+      "name": "one-north",
+      "codes": [
+        "CC23"
+      ],
+      "exit": "Exit B",
+      "distance": 815
     }
   },
   "28b-dover-cres": {
@@ -1401,6 +2304,15 @@
     "sold_units_by_type": {
       "3room": 78,
       "4room": 182
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 773
     }
   },
   "28c-dover-cres": {
@@ -1416,6 +2328,15 @@
       "3room": 76,
       "4room": 195,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 779
     }
   },
   "28d-dover-cres": {
@@ -1430,6 +2351,15 @@
     "sold_units_by_type": {
       "4room": 138,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit A",
+      "distance": 752
     }
   },
   "29-ghim-moh-link": {
@@ -1446,6 +2376,15 @@
       "3room": 37,
       "4room": 146,
       "studio_apartment": 44
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit B",
+      "distance": 705
     }
   },
   "3-dover-rd": {
@@ -1463,6 +2402,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "one-north",
+      "name": "one-north",
+      "codes": [
+        "CC23"
+      ],
+      "exit": "Exit B",
+      "distance": 716
     }
   },
   "3-ghim-moh-rd": {
@@ -1477,6 +2425,16 @@
     "sold_units_by_type": {
       "3room": 214,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 635
     }
   },
   "3-holland-cl": {
@@ -1491,6 +2449,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 295
     }
   },
   "30-ghim-moh-link": {
@@ -1507,6 +2474,15 @@
       "3room": 37,
       "4room": 147,
       "studio_apartment": 54
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit B",
+      "distance": 677
     }
   },
   "30-holland-cl": {
@@ -1521,6 +2497,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 344
     }
   },
   "30-margaret-dr": {
@@ -1535,6 +2520,15 @@
     "sold_units_by_type": {
       "3room": 120,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 407
     }
   },
   "30a-holland-cl": {
@@ -1549,6 +2543,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 394
     }
   },
   "31-ghim-moh-link": {
@@ -1562,6 +2565,15 @@
     "total_dwelling_units": 147,
     "sold_units_by_type": {
       "4room": 147
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit B",
+      "distance": 660
     }
   },
   "31-holland-cl": {
@@ -1579,6 +2591,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 441
     }
   },
   "31-margaret-dr": {
@@ -1593,6 +2614,15 @@
     "sold_units_by_type": {
       "2room": 80,
       "3room": 44
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 360
     }
   },
   "32-ghim-moh-link": {
@@ -1607,6 +2637,15 @@
     "sold_units_by_type": {
       "3room": 148,
       "4room": 74
+    },
+    "nearest_station": {
+      "id": "dover",
+      "name": "Dover",
+      "codes": [
+        "EW22"
+      ],
+      "exit": "Exit B",
+      "distance": 695
     }
   },
   "32-holland-cl": {
@@ -1624,6 +2663,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 403
     }
   },
   "32-margaret-dr": {
@@ -1638,6 +2686,15 @@
     "sold_units_by_type": {
       "3room": 123,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 333
     }
   },
   "33-ghim-moh-link": {
@@ -1652,6 +2709,16 @@
     "sold_units_by_type": {
       "3room": 74,
       "4room": 147
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 694
     }
   },
   "33-margaret-dr": {
@@ -1667,6 +2734,15 @@
       "3room": 41,
       "4room": 82,
       "5room": 41
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 335
     }
   },
   "33-tanglin-halt-rd": {
@@ -1683,6 +2759,15 @@
       "2room": 29,
       "3room": 83,
       "other_room": 4
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 607
     }
   },
   "34-margaret-dr": {
@@ -1698,6 +2783,15 @@
       "3room": 41,
       "4room": 80,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 296
     }
   },
   "34-tanglin-halt-rd": {
@@ -1714,6 +2808,15 @@
       "2room": 28,
       "3room": 86,
       "other_room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 580
     }
   },
   "35-margaret-dr": {
@@ -1728,6 +2831,15 @@
     "sold_units_by_type": {
       "2room": 104,
       "3room": 22
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 242
     }
   },
   "35-tanglin-halt-rd": {
@@ -1744,6 +2856,15 @@
       "2room": 30,
       "3room": 88,
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 555
     }
   },
   "36-margaret-dr": {
@@ -1759,6 +2880,15 @@
       "3room": 84,
       "4room": 39,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 226
     }
   },
   "36-tanglin-halt-rd": {
@@ -1775,6 +2905,15 @@
       "2room": 27,
       "3room": 87,
       "other_room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 528
     }
   },
   "37-margaret-dr": {
@@ -1789,6 +2928,15 @@
     "sold_units_by_type": {
       "3room": 116,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 253
     }
   },
   "37-tanglin-halt-rd": {
@@ -1805,6 +2953,15 @@
       "2room": 28,
       "3room": 88,
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 478
     }
   },
   "38-tanglin-halt-rd": {
@@ -1821,6 +2978,15 @@
       "2room": 28,
       "3room": 84,
       "other_room": 4
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 501
     }
   },
   "39a-margaret-dr": {
@@ -1836,6 +3002,15 @@
       "3room": 42,
       "4room": 84,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 224
     }
   },
   "3a-holland-cl": {
@@ -1850,6 +3025,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 247
     }
   },
   "4-dover-rd": {
@@ -1864,6 +3048,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 182
+    },
+    "nearest_station": {
+      "id": "one-north",
+      "name": "one-north",
+      "codes": [
+        "CC23"
+      ],
+      "exit": "Exit B",
+      "distance": 618
     }
   },
   "4-ghim-moh-rd": {
@@ -1878,6 +3071,16 @@
     "sold_units_by_type": {
       "3room": 212,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 701
     }
   },
   "4-holland-cl": {
@@ -1893,6 +3096,15 @@
       "3room": 286,
       "4room": 84,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 305
     }
   },
   "40-holland-dr": {
@@ -1906,6 +3118,16 @@
     "total_dwelling_units": 17,
     "sold_units_by_type": {
       "3room": 17
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit D",
+      "distance": 302
     }
   },
   "40a-margaret-dr": {
@@ -1921,6 +3143,15 @@
       "3room": 84,
       "4room": 42,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 181
     }
   },
   "40b-margaret-dr": {
@@ -1935,6 +3166,15 @@
     "sold_units_by_type": {
       "2room": 50,
       "3room": 100
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 168
     }
   },
   "41-holland-dr": {
@@ -1948,6 +3188,16 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "3room": 24
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit B",
+      "distance": 316
     }
   },
   "41-stirling-rd": {
@@ -1961,6 +3211,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 518
     }
   },
   "41-tanglin-halt-rd": {
@@ -1977,6 +3236,15 @@
       "2room": 29,
       "3room": 87,
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 421
     }
   },
   "41a-margaret-dr": {
@@ -1991,6 +3259,15 @@
     "sold_units_by_type": {
       "2room": 93,
       "3room": 93
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 212
     }
   },
   "42-holland-dr": {
@@ -2004,6 +3281,16 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit B",
+      "distance": 268
     }
   },
   "42-stirling-rd": {
@@ -2017,6 +3304,15 @@
     "total_dwelling_units": 10,
     "sold_units_by_type": {
       "4room": 10
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 483
     }
   },
   "42-tanglin-halt-rd": {
@@ -2033,6 +3329,15 @@
       "2room": 29,
       "3room": 87,
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 394
     }
   },
   "42a-margaret-dr": {
@@ -2048,6 +3353,15 @@
       "3room": 120,
       "4room": 84,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 245
     }
   },
   "43-holland-dr": {
@@ -2065,6 +3379,16 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit B",
+      "distance": 251
     }
   },
   "43-stirling-rd": {
@@ -2078,6 +3402,15 @@
     "total_dwelling_units": 4,
     "sold_units_by_type": {
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 441
     }
   },
   "43-tanglin-halt-rd": {
@@ -2094,6 +3427,15 @@
       "2room": 26,
       "3room": 70,
       "other_room": 6
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 367
     }
   },
   "43a-margaret-dr": {
@@ -2109,6 +3451,15 @@
       "2room": 84,
       "3room": 64,
       "4room": 126
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit C",
+      "distance": 159
     }
   },
   "44-stirling-rd": {
@@ -2122,6 +3473,15 @@
     "total_dwelling_units": 4,
     "sold_units_by_type": {
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 414
     }
   },
   "44-tanglin-halt-rd": {
@@ -2138,6 +3498,15 @@
       "2room": 29,
       "3room": 83,
       "other_room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 341
     }
   },
   "45-holland-dr": {
@@ -2152,6 +3521,16 @@
     "sold_units_by_type": {
       "3room": 4,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit B",
+      "distance": 299
     }
   },
   "45-stirling-rd": {
@@ -2168,6 +3547,15 @@
       "1room": 21,
       "2room": 77,
       "3room": 14
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 353
     }
   },
   "46-holland-dr": {
@@ -2181,6 +3569,16 @@
     "total_dwelling_units": 19,
     "sold_units_by_type": {
       "3room": 19
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit B",
+      "distance": 288
     }
   },
   "46-stirling-rd": {
@@ -2194,6 +3592,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 508
     }
   },
   "47-holland-dr": {
@@ -2208,6 +3615,16 @@
     "sold_units_by_type": {
       "3room": 14,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit B",
+      "distance": 243
     }
   },
   "47-stirling-rd": {
@@ -2221,6 +3638,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 497
     }
   },
   "48-stirling-rd": {
@@ -2237,6 +3663,15 @@
       "1room": 21,
       "2room": 77,
       "3room": 14
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 509
     }
   },
   "48-strathmore-ave": {
@@ -2251,6 +3686,15 @@
     "sold_units_by_type": {
       "4room": 195,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 174
     }
   },
   "49-stirling-rd": {
@@ -2267,6 +3711,15 @@
       "1room": 18,
       "2room": 66,
       "3room": 12
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 430
     }
   },
   "49-strathmore-ave": {
@@ -2281,6 +3734,15 @@
     "sold_units_by_type": {
       "4room": 147,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 214
     }
   },
   "5-dover-cres": {
@@ -2296,6 +3758,15 @@
       "3room": 128,
       "4room": 26,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "one-north",
+      "name": "one-north",
+      "codes": [
+        "CC23"
+      ],
+      "exit": "Exit B",
+      "distance": 718
     }
   },
   "5-ghim-moh-rd": {
@@ -2310,6 +3781,16 @@
     "sold_units_by_type": {
       "3room": 212,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 644
     }
   },
   "5-holland-cl": {
@@ -2324,6 +3805,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 343
     }
   },
   "50-c-wealth-dr": {
@@ -2339,6 +3829,15 @@
       "3room": 106,
       "4room": 133,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit A",
+      "distance": 193
     }
   },
   "50-stirling-rd": {
@@ -2352,6 +3851,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 272
     }
   },
   "50-strathmore-ave": {
@@ -2366,6 +3874,15 @@
     "sold_units_by_type": {
       "4room": 147,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 274
     }
   },
   "51-c-wealth-dr": {
@@ -2381,6 +3898,15 @@
       "2room": 19,
       "3room": 64,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit A",
+      "distance": 129
     }
   },
   "51-strathmore-ave": {
@@ -2395,6 +3921,15 @@
     "sold_units_by_type": {
       "4room": 147,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 297
     }
   },
   "52-c-wealth-dr": {
@@ -2410,6 +3945,15 @@
       "2room": 28,
       "3room": 50,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit A",
+      "distance": 115
     }
   },
   "52-stirling-rd": {
@@ -2423,6 +3967,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 257
     }
   },
   "52-strathmore-ave": {
@@ -2437,6 +3990,15 @@
     "sold_units_by_type": {
       "4room": 156,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 244
     }
   },
   "53-c-wealth-dr": {
@@ -2452,6 +4014,15 @@
       "3room": 106,
       "4room": 134,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit A",
+      "distance": 166
     }
   },
   "53-stirling-rd": {
@@ -2465,6 +4036,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 251
     }
   },
   "53-strathmore-ave": {
@@ -2480,6 +4060,15 @@
       "2room": 42,
       "3room": 123,
       "4room": 82
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 293
     }
   },
   "55-stirling-rd": {
@@ -2493,6 +4082,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 199
     }
   },
   "55-strathmore-ave": {
@@ -2507,6 +4105,15 @@
     "sold_units_by_type": {
       "4room": 105,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 352
     }
   },
   "56-c-wealth-dr": {
@@ -2523,6 +4130,15 @@
       "2room": 30,
       "3room": 86,
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 531
     }
   },
   "56-stirling-rd": {
@@ -2536,6 +4152,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 199
     }
   },
   "56-strathmore-ave": {
@@ -2550,6 +4175,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 409
     }
   },
   "57-stirling-rd": {
@@ -2563,6 +4197,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 157
     }
   },
   "58-c-wealth-dr": {
@@ -2579,6 +4222,15 @@
       "2room": 29,
       "3room": 85,
       "other_room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 505
     }
   },
   "58-stirling-rd": {
@@ -2592,6 +4244,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit D",
+      "distance": 139
     }
   },
   "58-strathmore-ave": {
@@ -2606,6 +4267,15 @@
     "sold_units_by_type": {
       "4room": 94,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 517
     }
   },
   "59-c-wealth-dr": {
@@ -2622,6 +4292,15 @@
       "2room": 28,
       "3room": 82,
       "other_room": 5
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 480
     }
   },
   "59-strathmore-ave": {
@@ -2636,6 +4315,15 @@
     "sold_units_by_type": {
       "4room": 101,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 564
     }
   },
   "6-ghim-moh-rd": {
@@ -2650,6 +4338,16 @@
     "sold_units_by_type": {
       "3room": 212,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 598
     }
   },
   "6-holland-cl": {
@@ -2668,6 +4366,15 @@
     },
     "rental_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 403
     }
   },
   "60-c-wealth-dr": {
@@ -2684,6 +4391,15 @@
       "2room": 30,
       "3room": 86,
       "other_room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 456
     }
   },
   "60-strathmore-ave": {
@@ -2698,6 +4414,15 @@
     "sold_units_by_type": {
       "4room": 108,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 635
     }
   },
   "61a-strathmore-ave": {
@@ -2714,6 +4439,15 @@
       "3room": 26,
       "4room": 78,
       "studio_apartment": 56
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 588
     }
   },
   "61b-strathmore-ave": {
@@ -2728,6 +4462,15 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 631
     }
   },
   "61c-strathmore-ave": {
@@ -2742,6 +4485,15 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 636
     }
   },
   "62-c-wealth-dr": {
@@ -2758,6 +4510,15 @@
       "2room": 30,
       "3room": 86,
       "other_room": 1
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 431
     }
   },
   "62a-strathmore-ave": {
@@ -2772,6 +4533,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 569
     }
   },
   "62b-strathmore-ave": {
@@ -2788,6 +4558,15 @@
       "3room": 52,
       "4room": 52,
       "studio_apartment": 56
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 519
     }
   },
   "64-c-wealth-dr": {
@@ -2804,6 +4583,15 @@
       "2room": 28,
       "3room": 84,
       "other_room": 4
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 343
     }
   },
   "65-c-wealth-dr": {
@@ -2820,6 +4608,15 @@
       "2room": 27,
       "3room": 77,
       "other_room": 8
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 347
     }
   },
   "66-c-wealth-dr": {
@@ -2836,6 +4633,15 @@
       "2room": 28,
       "3room": 86,
       "other_room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 400
     }
   },
   "7-c-wealth-ave": {
@@ -2850,6 +4656,16 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit D",
+      "distance": 427
     }
   },
   "7-ghim-moh-rd": {
@@ -2863,6 +4679,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 569
     }
   },
   "78-dawson-rd": {
@@ -2877,6 +4703,15 @@
     "sold_units_by_type": {
       "3room": 27,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 424
     }
   },
   "79-dawson-rd": {
@@ -2892,6 +4727,15 @@
       "3room": 68,
       "4room": 38,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 447
     }
   },
   "7a-c-wealth-ave": {
@@ -2906,6 +4750,16 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit D",
+      "distance": 445
     }
   },
   "8-ghim-moh-rd": {
@@ -2919,6 +4773,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit A",
+      "distance": 478
     }
   },
   "8-holland-ave": {
@@ -2937,6 +4801,16 @@
     },
     "rental_units_by_type": {
       "3room": 4
+    },
+    "nearest_station": {
+      "id": "buona-vista",
+      "name": "Buona Vista",
+      "codes": [
+        "EW21",
+        "CC22"
+      ],
+      "exit": "Exit D",
+      "distance": 367
     }
   },
   "80-strathmore-ave": {
@@ -2952,6 +4826,15 @@
       "4room": 19,
       "5room": 60,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 377
     }
   },
   "81-c-wealth-cl": {
@@ -2969,6 +4852,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit C",
+      "distance": 261
     }
   },
   "81-strathmore-ave": {
@@ -2984,6 +4876,15 @@
       "4room": 19,
       "5room": 64,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 331
     }
   },
   "82-c-wealth-cl": {
@@ -3002,6 +4903,15 @@
     },
     "rental_units_by_type": {
       "2room": 4
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit C",
+      "distance": 299
     }
   },
   "82-strathmore-ave": {
@@ -3016,6 +4926,15 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 272
     }
   },
   "83-c-wealth-cl": {
@@ -3034,6 +4953,15 @@
     },
     "rental_units_by_type": {
       "2room": 5
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 339
     }
   },
   "83-strathmore-ave": {
@@ -3048,6 +4976,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 220
     }
   },
   "84-c-wealth-cl": {
@@ -3063,6 +5000,15 @@
       "2room": 8,
       "3room": 60,
       "4room": 6
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 184
     }
   },
   "85-c-wealth-cl": {
@@ -3077,6 +5023,15 @@
     "sold_units_by_type": {
       "2room": 10,
       "3room": 90
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 204
     }
   },
   "86-c-wealth-cl": {
@@ -3091,6 +5046,15 @@
     "sold_units_by_type": {
       "2room": 10,
       "3room": 90
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 231
     }
   },
   "86-dawson-rd": {
@@ -3105,6 +5069,15 @@
     "sold_units_by_type": {
       "4room": 240,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 460
     }
   },
   "87-c-wealth-cl": {
@@ -3123,6 +5096,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 253
     }
   },
   "87-dawson-rd": {
@@ -3137,6 +5119,15 @@
     "sold_units_by_type": {
       "3room": 160,
       "4room": 160
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 414
     }
   },
   "88-c-wealth-cl": {
@@ -3152,6 +5143,15 @@
       "2room": 10,
       "3room": 84,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 268
     }
   },
   "88-dawson-rd": {
@@ -3166,6 +5166,15 @@
     "sold_units_by_type": {
       "4room": 282,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 366
     }
   },
   "89-c-wealth-dr": {
@@ -3184,6 +5193,15 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 324
     }
   },
   "89-dawson-rd": {
@@ -3201,6 +5219,15 @@
       "4room": 99,
       "5room": 12,
       "studio_apartment": 14
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 621
     }
   },
   "89-tanglin-halt-rd": {
@@ -3218,6 +5245,15 @@
       "4room": 185,
       "5room": 40,
       "studio_apartment": 28
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 93
     }
   },
   "9-holland-ave": {
@@ -3236,6 +5272,15 @@
     },
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "holland-village",
+      "name": "Holland Village",
+      "codes": [
+        "CC21"
+      ],
+      "exit": "Exit C",
+      "distance": 380
     }
   },
   "90-c-wealth-dr": {
@@ -3251,6 +5296,15 @@
       "2room": 9,
       "3room": 81,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 347
     }
   },
   "90-dawson-rd": {
@@ -3268,6 +5322,15 @@
       "4room": 95,
       "5room": 12,
       "studio_apartment": 14
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 664
     }
   },
   "90-tanglin-halt-rd": {
@@ -3285,6 +5348,15 @@
       "4room": 195,
       "5room": 40,
       "studio_apartment": 27
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 169
     }
   },
   "91-c-wealth-dr": {
@@ -3300,6 +5372,15 @@
       "2room": 10,
       "3room": 80,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 395
     }
   },
   "91-dawson-rd": {
@@ -3317,6 +5398,15 @@
       "4room": 95,
       "5room": 12,
       "studio_apartment": 19
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 706
     }
   },
   "91-tanglin-halt-rd": {
@@ -3333,6 +5423,15 @@
       "4room": 254,
       "5room": 39,
       "studio_apartment": 27
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit D",
+      "distance": 163
     }
   },
   "92-c-wealth-dr": {
@@ -3351,6 +5450,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 411
     }
   },
   "92-dawson-rd": {
@@ -3368,6 +5476,15 @@
       "4room": 86,
       "5room": 25,
       "studio_apartment": 13
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 545
     }
   },
   "93-c-wealth-dr": {
@@ -3383,6 +5500,15 @@
       "2room": 9,
       "3room": 83,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 357
     }
   },
   "93-dawson-rd": {
@@ -3400,6 +5526,15 @@
       "4room": 84,
       "5room": 23,
       "studio_apartment": 15
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 614
     }
   },
   "94-c-wealth-dr": {
@@ -3415,6 +5550,15 @@
       "2room": 10,
       "3room": 86,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 434
     }
   },
   "94-dawson-rd": {
@@ -3429,6 +5573,15 @@
     "sold_units_by_type": {
       "3room": 122,
       "4room": 148
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 586
     }
   },
   "95-c-wealth-dr": {
@@ -3444,6 +5597,15 @@
       "2room": 10,
       "3room": 82,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 444
     }
   },
   "95-dawson-rd": {
@@ -3461,6 +5623,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 659
     }
   },
   "96-c-wealth-cres": {
@@ -3476,6 +5647,15 @@
       "2room": 9,
       "3room": 65,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 517
     }
   },
   "96-dawson-rd": {
@@ -3491,6 +5671,15 @@
       "3room": 136,
       "4room": 74,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "queenstown",
+      "name": "Queenstown",
+      "codes": [
+        "EW19"
+      ],
+      "exit": "Exit B",
+      "distance": 726
     }
   },
   "97-c-wealth-cres": {
@@ -3506,6 +5695,15 @@
       "2room": 9,
       "3room": 87,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 538
     }
   },
   "98-c-wealth-cres": {
@@ -3521,6 +5719,15 @@
       "2room": 9,
       "3room": 85,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 589
     }
   },
   "99-c-wealth-cres": {
@@ -3536,6 +5743,15 @@
       "2room": 10,
       "3room": 84,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "commonwealth",
+      "name": "Commonwealth",
+      "codes": [
+        "EW20"
+      ],
+      "exit": "Exit B",
+      "distance": 623
     }
   }
 }

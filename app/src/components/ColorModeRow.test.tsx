@@ -6,12 +6,12 @@ import { useColorMode } from "../store/color";
 
 beforeEach(() => useColorMode.getState().setMode("none"));
 
-test("a Color by radio group with None, Year and Floors, the current mode checked", () => {
+test("a Color by radio group with None, Year, Floors and MRT, the current mode checked", () => {
   useColorMode.getState().setMode("year");
   render(<ColorModeRow />);
   const group = screen.getByRole("radiogroup", { name: "Color by" });
   const radios = within(group).getAllByRole("radio") as HTMLInputElement[];
-  expect(radios.map((r) => r.labels![0].textContent)).toEqual(["None", "Year", "Floors"]);
+  expect(radios.map((r) => r.labels![0].textContent)).toEqual(["None", "Year", "Floors", "MRT"]);
   expect(screen.getByRole("radio", { name: "Year" })).toBeChecked();
 });
 

@@ -2,12 +2,12 @@
 
 **Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1; marker
 coloring added 2026-10-11; filtering added 2026-10-15; flat-type filter added
-2026-10-16)
+2026-10-16; nearest MRT/LRT station added 2026-10-20)
 **Status:** Implemented. This spec describes the app as shipped. The plans in
 `docs/plans/` are the original execution record; the two v1 plans list their
 later deviations under "Post-implementation deltas".
-**Scope:** v1 (core map + block details + search), plus marker coloring (§5.10)
-and filtering (§5.11)
+**Scope:** v1 (core map + block details + search), plus marker coloring (§5.10),
+filtering (§5.11), and the nearest MRT/LRT station (§5.12)
 
 ## 1. Overview
 
@@ -19,9 +19,9 @@ search by address to fly to a specific block.
 The system is two independent halves that meet at a set of static data files:
 
 - A **Python data pipeline** that fetches HDB Property Information from
-  data.gov.sg, geocodes each block via the OneMap Search API, and writes
-  generated JSON into the repo. It runs monthly in GitHub Actions and never runs
-  at request time.
+  data.gov.sg, geocodes each block via the OneMap Search API, finds each
+  block's nearest MRT or LRT station, and writes generated JSON into the repo.
+  It runs monthly in GitHub Actions and never runs at request time.
 - A **React static SPA** (Vite + TypeScript) that, at runtime, fetches only its
   own static data files from the Vercel CDN. No backend, no serverless
   functions, no third-party API calls from the browser.
@@ -72,10 +72,12 @@ contract and can change internally without breaking the other.
 - Data: HDB Property Information + OneMap geocoding (lat, lon, postal).
 
 **Added since v1:** marker coloring by year completed or number of floors
-(§5.10), and filtering by town, year completed, floors, and flat type (§5.11).
+(§5.10), filtering by town, year completed, floors, and flat type (§5.11),
+and each block's nearest MRT or LRT station, with the stations and their exits
+on the map and coloring by the distance to them (§5.12).
 
-**Deferred (see §7):** further coloring modes, a collapsible sidebar,
-basemap selector, resale prices & transactions, nearest MRT, nearby
+**Deferred (see §7):** further coloring modes, a collapsible sidebar, basemap
+selector, resale prices & transactions, filtering by MRT distance, nearby
 amenities, geocode-speed optimizations (persistent cache, token-bucket
 limiter), and an About page with the full data-licence notice.
 
@@ -93,14 +95,16 @@ hdb-map/
 │     ├─ index.geojson           # light index: geometry + light props (all blocks)
 │     ├─ towns.json              # master town list (mirrored from source of truth)
 │     ├─ meta.json               # data-access date of the last successful run
+│     ├─ stations.geojson        # MRT/LRT stations in service (name, line codes) and exits
 │     └─ block-details/{town_slug}.json # town-bucketed detail shards (27 files)
 ├─ pipeline/                     # Python
 │  ├─ src/
 │  │  ├─ fetch.py                # pull Property Information from data.gov.sg
+│  │  ├─ stations.py             # station exits (data.gov.sg) + line codes (OneMap)
 │  │  ├─ geocode.py              # OneMap geocoding + hard match gate
 │  │  ├─ transform.py            # join + derive per-block records
 │  │  ├─ export.py               # write index.geojson + detail shards + towns.json
-│  │  ├─ config.py               # dataset id, endpoints, paths
+│  │  ├─ config.py               # dataset ids, endpoints, paths, open lines
 │  │  └─ run.py                  # orchestrator
 │  ├─ failed_blocks.csv          # committed: blk_no, street_full, reason, found
 │  ├─ towns.json                 # canonical master town list (source of truth)
@@ -128,8 +132,10 @@ hdb-map/
 
 ## 3. Data Pipeline
 
-Four small, independently testable stages: **fetch → geocode → transform →
-export**, orchestrated by `run.py`.
+Five small, independently testable stages: **fetch → stations → geocode →
+transform → export**, orchestrated by `run.py`. The stations stage (§3.6) runs
+before geocoding, so a station problem fails the run in a couple of minutes
+rather than after the hour-long geocode.
 
 ### 3.1 fetch.py
 
@@ -231,6 +237,12 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   Unlike an unknown town, a blank cell is a one-block data glitch, so it
   doesn't stop the run; skipped blocks count against the block-count guard
   (§3.2), so a broken feed still does.
+- **Nearest station:** the straight-line distance from the block to every
+  station exit (§3.6). The nearest exit's station becomes the block's nearest
+  station, with the distance in whole metres; ties go to the lower station
+  `id`, so the output stays deterministic. A straight line, not a walking
+  route: routing would add about 10k OneMap calls to every run, and the app
+  says the distance is straight-line (§5.12).
 - Join Property Information and the geocode result into one clean per-block
   record.
 - Derive two units-by-flat-type maps, **sold** and **rental**. Drop the
@@ -247,13 +259,14 @@ vocabulary). The matched result's fields are captured as OneMap returns them
 - **Assert `town_slug` uniqueness** across towns, and **assert block `id`
   uniqueness** across all blocks (fail the run on any collision rather than
   silently overwriting a shard entry).
-- Write `app/public/data/index.geojson` (all blocks, light props plus the two
-  coloring values), compact with one block per line and coordinates rounded to
-  6 decimals (§4.1).
+- Write `app/public/data/index.geojson` (all blocks, light props plus the
+  values coloring and filtering read), compact with one block per line and
+  coordinates rounded to 6 decimals (§4.1).
 - Write `app/public/data/block-details/{town_slug}.json` bucketed by town, using
   `town_slug` values from `towns.json`.
 - Copy `towns.json` into `app/public/data/`.
 - Write `app/public/data/meta.json` with the run's data-access date (§4.6).
+- Write `app/public/data/stations.geojson` (§4.7).
 - **Deterministic output:** index features and detail-shard keys are sorted
   by `id`, and each record's fields keep a fixed logical order, so an
   unchanged month changes only the date in `meta.json` and real changes stay
@@ -261,8 +274,9 @@ vocabulary). The matched result's fields are captured as OneMap returns them
 
 ### 3.5 Shared config, helpers & logging
 
-- `config.py`: dataset id, endpoints, output paths, the block-count guard's
-  `MIN_BLOCK_RATIO`, and the **street-abbreviation map**
+- `config.py`: dataset ids, endpoints, output paths, the block- and
+  station-count guards' `MIN_BLOCK_RATIO` and `MIN_STATION_RATIO`, the open
+  lines and station-name overrides (§3.6), and the **street-abbreviation map**
   (`STREET_ABBREVIATIONS`, OneMap's canonical list). The full table is inlined into `config.py` in the pipeline plan
   ([`../plans/hdb-map-pipeline.md`](../plans/hdb-map-pipeline.md)).
 - `expand_street(street)`: splits the uppercase street on whitespace and
@@ -276,19 +290,75 @@ vocabulary). The matched result's fields are captured as OneMap returns them
 - Tests cover each stage with fixture data; OneMap and data.gov.sg are mocked so
   tests need no network.
 
+### 3.6 stations.py
+
+Finds the stations every block is measured against, and the lines each one
+serves. It takes two sources, because neither has both:
+
+- **Exits:** LTA's MRT Station Exit dataset on data.gov.sg, a GeoJSON file
+  fetched the same way as the blocks (§3.1). One point per exit, named by
+  station and exit ("OUTRAM PARK MRT STATION", "Exit 1"), with no line codes.
+  LRT stations are in it too. It lists only stations in service, so a station
+  still being built has no exits and is never anyone's nearest. LTA adds a new
+  station some months after it opens; until then the blocks around it measure
+  to the next one. A few exits have more than one point, some hundreds of
+  metres apart (Bukit Panjang's Exit A), so they read as separate entrances
+  sharing a code: every point is kept, and each counts as an exit.
+- **Line codes:** OneMap Search, which names a station once per line it
+  serves ("OUTRAM PARK MRT STATION (EW16)", "(NE3)", "(TE17)") or once with
+  all its codes ("(TE31 / DT37)"). Only results whose name matches exactly
+  count. The lookups use the run's token and are paced like geocoding
+  (§3.2). The official station-code list on data.gov.sg was last updated in
+  2024 and lacks whole lines, so it isn't used.
+
+Steps:
+
+- **One station per name.** Exit names lose their "MRT STATION" or "LRT
+  STATION" suffix, so an MRT and an LRT stop sharing a name (Punggol, Choa Chu
+  Kang, Bukit Panjang) become one station with the exits of both. Their exit
+  names gain "MRT" or "LRT" ("LRT Exit A"), since both buildings can have an
+  "Exit A". LTA lists some shared stops only once (Sengkang), so the code
+  lookup searches both the MRT and the LRT form of every name.
+- **Open lines only.** OneMap also gives codes for lines still being built
+  (Ang Mo Kio's CR11, Jurong East's JE5). `config.py` keeps `OPEN_LINES`, the
+  code prefixes of the lines in service in display order, and drops every
+  other code. Showing planned codes was rejected: nothing would mark them as
+  not yet open, and OneMap's are patchy (Ang Mo Kio has its Cross Island Line
+  code, Pasir Ris doesn't).
+- **Every station must have a code.** A station left with none fails the run
+  before any write. This is how a new line announces itself: its first
+  stations reach LTA's data with only unlisted codes, and the run fails until
+  their prefix joins `OPEN_LINES`, a one-line change. A OneMap error during
+  the lookup fails the run too, since the codes can't be partly right.
+- **Name and id:** the display name is title case ("Outram Park"), with an
+  override table in `config.py` for official spellings that title case gets
+  wrong (HarbourFront, one-north, MacPherson). The station `id` is the slug of
+  the display name.
+- **Map point:** the mean of the station's exit points, which lands in or
+  beside the station. OneMap's own station point was rejected: it is the
+  station's postal address, often beside one exit at the station's edge (about
+  250 m from the exit mean at Marine Parade).
+- **Station-count guard:** like the block-count guard (§3.2), the run aborts
+  with no writes if it finds fewer than `MIN_STATION_RATIO` (99%) of the
+  stations in the live `stations.geojson`, so a truncated download can't move
+  every block's nearest station. It counts the file's station features only,
+  not its exits. A single closure stays inside the margin.
+  The guard is skipped only when no `stations.geojson` exists yet.
+
 ## 4. Data Contract
 
-Two artifact types plus the town master list. The **index** carries what the
-map, tooltip, and search need; **detail shards** carry what the panel shows.
-Detail shards are **self-contained** (they repeat the address fields) so a shard
-is independently readable, an accepted and well-compressing redundancy.
+Two artifact types plus the town master list and the station list. The
+**index** carries what the map, tooltip, and search need; **detail shards**
+carry what the panel shows. Detail shards are **self-contained** (they repeat
+the address fields) so a shard is independently readable, an accepted and
+well-compressing redundancy.
 
 ### 4.1 index.geojson
 
 One FeatureCollection, all blocks, loaded once on startup.
 
-At ~10k features the file is about **3.5 MB** as written, and its highly
-repetitive text reaches the browser as about **240 KB of brotli**, within the
+At ~10k features the file is about **3.8 MB** as written, and its highly
+repetitive text reaches the browser as about **280 KB of brotli**, within the
 sub-megabyte budget (§1.2). Two choices keep it there:
 
 - **Coordinates rounded to 6 decimals** (~11 cm).
@@ -311,6 +381,10 @@ every block at once, since neither can wait for lazily loaded shards:
   details panel's order. Both are always present, empty when the block has
   none, so the filter never has to handle a missing list. Another eighth.
   The counts themselves stay in the shard.
+- `station_distance`, for the MRT-distance coloring (§5.12): straight-line
+  metres to the nearest station's nearest exit. A short integer like the
+  coloring values, so about another eighth. The station itself stays in the
+  shard.
 
 Filtering also reads `town`.
 
@@ -331,7 +405,8 @@ Filtering also reads `town`.
         "year_completed": 1978,             // coloring + filtering (§5.10, §5.11); mirrors the shard
         "max_floor_lvl": 12,                // coloring + filtering (§5.10, §5.11); mirrors the shard
         "sold_types": ["3room", "4room"],   // filtering (§5.11): the shard's sold_units_by_type keys
-        "rental_types": []                  // filtering: rental_units_by_type keys; [] if none
+        "rental_types": [],                 // filtering: rental_units_by_type keys; [] if none
+        "station_distance": 350             // coloring (§5.12): metres; mirrors the shard
       }
     }
   ]
@@ -393,7 +468,8 @@ Self-contained (repeats address fields).
     "max_floor_lvl": 12,
     "total_dwelling_units": 200,
     "sold_units_by_type": { "3room": 40, "4room": 60, "5room": 20, "exec": 20 },   // only >0; keys/labels/order per the flat-type table in the plans (e.g. exec → "Executive")
-    "rental_units_by_type": { "1room": 40, "2room": 20 }                           // public rental; only >0; omitted/{} when none
+    "rental_units_by_type": { "1room": 40, "2room": 20 },                          // public rental; only >0; omitted/{} when none
+    "nearest_station": { "id": "ang-mo-kio", "name": "Ang Mo Kio", "codes": ["NS16"], "exit": "Exit A", "distance": 350 } // open lines only (§3.6); distance mirrors the index
   }
 }
 ```
@@ -419,10 +495,17 @@ that town's shard the first time and caches it in memory, then returns
   `max_floor_lvl`, and `total_dwelling_units` above zero; blocks without them
   are left out of the output and recorded (§3.2, §3.3).
 - Every `town` in the index and detail exists in `towns.json`.
+- A block's `station_distance` equals its shard's `nearest_station.distance`,
+  and that station exists in `stations.geojson` with the same name and codes.
+  Its `nearest_station.exit` is the name of at least one of that station's
+  exits there.
+- Every station has at least one line code, and every code is on an open line.
+- Every exit's `station` is the `id` of a station in the same file.
 - Both files are written with fields in a fixed logical order, and with
   index features and shard keys sorted by `id`.
 - TS types (`BlockIndexProperties`, `BlockDetail`, `FlatTypeCounts`, `Town`,
-  `DataMeta`) mirror this contract in `app/src/types`, hand-kept in v1.
+  `DataMeta`, `NearestStation`, `StationProperties`, `ExitProperties`) mirror
+  this contract in `app/src/types`, hand-kept in v1.
 
 ### 4.6 meta.json
 
@@ -435,12 +518,36 @@ each monthly run leaves a commit even when nothing else changed. A failed run
 writes nothing, so the date always belongs to the data that is live. It is the
 "accessed on" date the licence notice needs (§5.8).
 
+### 4.7 stations.geojson
+
+One FeatureCollection of the stations in service and their exits (§3.6),
+loaded once at startup for the station and exit layers and the nearest-exit
+highlight (§5.12). About 190 station and 610 exit Point features, told apart
+by `kind`. One file rather than two keeps it to one fetch and one map source.
+
+```jsonc
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [103.8392, 1.2806] }, // mean of its exits
+  "properties": { "kind": "station", "id": "outram-park", "name": "Outram Park", "codes": ["EW16", "NE3", "TE17"] }
+}
+{
+  "type": "Feature",
+  "geometry": { "type": "Point", "coordinates": [103.8387, 1.2801] },
+  "properties": { "kind": "exit", "station": "outram-park", "exit": "Exit 1" } // exit as in the shard (§4.3)
+}
+```
+
+Written like the index: one feature per line, the stations sorted by `id`,
+then the exits sorted by station, exit name, and coordinates (an exit name can
+repeat, §3.6); coordinates rounded to 6 decimals.
+
 ## 5. Frontend Architecture
 
 ### 5.1 Component tree
 
 ```
-App                     // loads index + towns.json once; hosts layout
+App                     // loads index + towns.json (+ stations.geojson) once; hosts layout
 ├─ MapView              // MapLibre GL: basemap + markers + hover + click
 ├─ SearchBox            // Shadcn combobox over the in-memory index
 ├─ FiltersControl       // desktop: "Filters" button under the search box + its panel
@@ -460,9 +567,9 @@ MapView (highlight/fly) and DetailsPanel (load detail). Zustand avoids context
 re-render churn on the map. (Plain Context is an acceptable no-dependency
 alternative.)
 
-The **coloring mode** (none, year, or floors) is shared state too, read by
-MapView, ColorControl, ColorLegend, and DetailsPanel, and lives in a small
-Zustand store of its own. It is not persisted (§5.10).
+The **coloring mode** (none, year, floors, or MRT distance) is shared
+state too, read by MapView, ColorControl, ColorLegend, and DetailsPanel, and
+lives in a small Zustand store of its own. It is not persisted (§5.10).
 
 The **filters** (towns, year range, floor range) live in a third small
 store, read by App and the filter controls. App derives the visible blocks
@@ -476,8 +583,13 @@ without knowing about filters. They are not persisted either (§5.11).
   source and (2) a flat search array
   `[{id, blk_no, street_full, postal, town}]`.
 - Fetch `towns.json` once → build the `town → town_slug` map.
+- Fetch `stations.geojson` once, alongside the index, for the station and exit
+  layers (§5.12). It isn't one of the assets the app depends on (§5.7).
 - `getBlockDetail(id, town)` lazily fetches `block-details/{town_slug}.json`,
-  caches shards in an in-memory `Map`, returns the record.
+  caches each shard's fetch in an in-memory `Map`, returns the record. The
+  fetch itself is cached, not just its result, because the details panel and
+  the nearest-exit highlight (§5.12) ask for the same shard at once. A failed
+  fetch leaves the cache, so the next selection tries again.
 
 ### 5.4 Map (MapView)
 
@@ -509,6 +621,8 @@ without knowing about filters. They are not persisted either (§5.11).
   each marker shows its `blk_no` beside it, since touch has no hover. Collision
   detection thins labels in dense estates; the dots always stay. The selected
   block's label is bold amber and always shown.
+- **Stations, exits, and the nearest-exit highlight** (§5.12): their own
+  sources and layers, drawn among the block layers; none takes a hover or tap.
 - **Interactions:**
   - `mousemove` over a dot or label → address tooltip (`{blk_no} {street}`,
     **abbreviated**); `mouseleave` → hide, gated to hover-capable pointers
@@ -533,13 +647,13 @@ without knowing about filters. They are not persisted either (§5.11).
 - Reads the selection (`selectedId` + `selectedTown`), calls
   `await getBlockDetail(id, town)`, and renders the **entire panel** from the
   shard record: the header (full address `{blk_no} {street_full} {postal}`),
-  then town, year completed, floors, total units, and the units-by-flat-type
-  breakdown as a **Sold** group and, when present, a **Rental** group. One
-  source, no split between index and shard.
-- While a coloring mode is on, the row for that value (year completed or
-  floors) shows its band's color swatch. On mobile the open sheet covers the
-  legend (§5.10), so the swatch is how the selected block's band stays
-  readable.
+  then town, year completed, floors, total units, the nearest station
+  (§5.12), and the units-by-flat-type breakdown as a **Sold** group and, when
+  present, a **Rental** group. One source, no split between index and shard.
+- While a coloring mode is on, the row for that value (year completed, floors,
+  or nearest station) shows its band's color swatch. On mobile the open sheet
+  covers the legend (§5.10), so the swatch is how the selected block's band
+  stays readable.
 - A loading skeleton fills the **whole card, including the header**, while the
   town's shard fetches. This happens only for the first block opened in a town,
   and is near-instant once that shard is cached in memory. Graceful empty state
@@ -635,7 +749,12 @@ their loading and failure paths are explicit:
 - **Shard failure is local, not fatal.** A failed
   `block-details/{town_slug}.json` fetch is confined to the panel (the §5.5
   empty state) and never triggers the global error card, since the rest of the
-  map stays usable.
+  map stays usable. The nearest-exit highlight reads the same shard, so it
+  stays off too.
+- **Station failure is local too.** A failed `stations.geojson` fetch leaves
+  the station and exit layers and the nearest-exit highlight off the map, with
+  no error card. The panel's nearest-station row comes from the shard, so it
+  still shows.
 
 ### 5.8 Attribution
 
@@ -646,8 +765,9 @@ one standard control:
 
 - **Basemap:** "OpenFreeMap © OpenMapTiles Data from OpenStreetMap", supplied
   automatically by the OpenFreeMap tile source.
-- **Block data and geocoding:** "© HDB, OneMap/SLA", attached as custom
-  attribution on the blocks source.
+- **Block and station data, geocoding, and line codes:** "© HDB, LTA,
+  OneMap/SLA", attached as custom attribution on the blocks source. LTA
+  supplies the station exits (§3.6).
 
 They also collapse when a block is selected, since the details sheet or panel
 covers their corner, and on a phone when a coloring mode turns on, since there
@@ -671,17 +791,19 @@ ever hiding the selected one. Anything else that hides markers should set
 its condition on `blocks-circles` and `blocks-labels` the same way, and
 leave the highlight layers alone. `blocks-labels` also filters out the
 selected block (its label is drawn by `blocks-highlight-label`), so a new
-condition must be combined with that one, not replace it.
+condition must be combined with that one, not replace it. The station and exit
+layers and the nearest-exit highlight (§5.12) are separate from all of these,
+and filters don't hide them.
 
 ### 5.10 Marker coloring
 
 Colors every block by one value at a time, so island-wide patterns (where the
 old estates are, where the tall blocks cluster) show at a glance.
 
-- **Modes:** no coloring, **year completed**, or **floors**
-  (`max_floor_lvl`). Every visit starts with no coloring, and the choice is
-  not remembered between visits: picking a mode again is two taps, which
-  didn't justify the storage handling.
+- **Modes:** no coloring, **year completed**, **floors** (`max_floor_lvl`), or
+  **MRT distance** (`station_distance`, §5.12). Every visit starts with no
+  coloring, and the choice is not remembered between visits: picking a mode
+  again is two taps, which didn't justify the storage handling.
 - **Stepped bands, not a continuous gradient,** so each dot reads as one
   legend entry. Six bands per mode, about as many steps as a sequential ramp
   keeps distinguishable on small dots. The exact edges live in the code; the
@@ -703,27 +825,30 @@ old estates are, where the tall blocks cluster) show at a glance.
   since the active mode is always shown. Known weakness: each ramp's lightest
   band has low contrast against the Positron land color at island zoom (§7.1).
 - **Rendering:** the mode swaps the fixed `circle-color` on `blocks-circles`
-  for a step expression over the index's `year_completed` or `max_floor_lvl`
-  (§4.1). Highlight and label layers are unchanged, so the selected block
-  stays amber in every mode.
-- **Picker:** the choices are No coloring, Year completed, and Floors.
+  for a step expression over the mode's value in the index (§4.1). Highlight
+  and label layers are unchanged, so the selected block stays amber in every
+  mode.
+- **Picker:** the choices are No coloring, Year completed, Floors, and MRT
+  distance.
   - Desktop (ColorControl): a "Color" button in the row under the search
     box, after Filters (§5.11), opens them as a menu that closes on a pick.
     The button names the active mode ("Color: Year").
   - Mobile: the same choices are the Color section of the options sheet
     (§5.11). There they
-    are one compact row (None, Year, Floors) instead of a list, which leaves
+    are one compact row of short labels instead of a list, which leaves
     the filters room at the sheet's half height. Picking one leaves the
     sheet open.
   - It sits at the top, not in the legend, because later modes (resale price
-    with its own options, distance to MRT; §7.1) won't fit a small card,
-    while a menu can grow.
+    with its own options; §7.1) won't fit a small card, while a menu can grow.
 - **Legend (ColorLegend):** in the bottom-left corner, inset like the search
   box, and shown only while a mode is on.
-  - Desktop: a card titled by the mode, listing the bands with the highest on
-    top (so up reads as newer or taller), each with its block count.
-  - Mobile: a compact ramp under the mode's title, the bands joined light to
-    dark from left to right, with short labels and no counts. The title
+  - Desktop: a card titled by the mode, listing the bands with the darkest on
+    top, each with its block count. For year and floors that is the highest
+    (up reads as newer or taller); for MRT distance it is the nearest, the band
+    people look for first.
+  - Mobile: a compact ramp under the mode's title, the bands joined in value
+    order from left to right (light to dark, or dark to light for MRT
+    distance), with short labels and no counts. The title
     matters most here, since the mobile options button never names the mode. It is sized
     to its content rather than a fixed width, so it leaves room on narrow
     phones. The details sheet covers it, even at its peek height, and
@@ -856,6 +981,91 @@ whatever stays visible.
   - It closes the way the details sheet does: its Done button, a swipe below
     peek, ESC, or a tap on the map. The options button closes it too.
 
+### 5.12 Nearest station
+
+Shows each block's nearest MRT or LRT station and how far it is, and draws
+the stations and their exits on the map, which the Positron basemap leaves
+out.
+
+- **What counts:** every MRT and LRT station in service (§3.6). A shared
+  MRT/LRT stop is one station, and an interchange is one station with all its
+  lines. The distance runs to the station's nearest exit in a straight line.
+  The MRT legend's info button says so ("Straight-line distance to the
+  nearest MRT or LRT exit"), so the distance isn't read as a walk, and the
+  nearest-exit highlight's dashed line shows it; the panel row leaves it out
+  to stay short. The note sits behind an info button beside the legend title
+  (hover or keyboard focus on desktop, tap on touch) rather than on its own
+  line, which keeps the mobile legend short.
+- **Details panel (§5.5):** a "Nearest MRT" row below the Town, Year, Floors,
+  and Units grid: the station name, a chip per line code, and the exit
+  ("Outram Park EW16 NE3 TE17 · Exit 5"), then the distance alone on a second
+  line ("350 m"), with the band swatch right after it in MRT mode, as for
+  Year and Floors. From 1 km the distance shows in km to one decimal
+  ("3.5 km"), here and in the hover tooltip: a straight line from one
+  geocoded point isn't good to the metre, and at that range the metres only
+  add noise. The chips sit beside
+  the name as on the station signs. The
+  chips take each line's official color (the LRT lines share grey), since
+  riders know the lines by color from the station signs. The colors live in
+  a small table in the app, so a newly opened line needs a color there as
+  well as its prefix in the pipeline's open-line list. Naming the exit says
+  where the distance is measured to. The row reads from the shard, so it
+  needs no extra fetch.
+- **Coloring mode (§5.10):** "MRT distance", in 200 m bands up to 1 km, about
+  two and a half minutes' walk each, with the nearest blocks darkest on
+  ColorBrewer's YlGn ramp (green, apart from Year's blues, Floors' purples,
+  and the amber highlight). Half the blocks are within about 500 m, so wider
+  bands would color most of the map the same; near-dark keeps the other
+  modes' reading of dark as more. "MRT" stands for the whole network, LRT
+  included, as it does in common use and in LTA's own "MRT Station Exit" data;
+  the legend's note says so, and the panel names the actual station. There is no
+  "no data" band, since every block has a nearest station.
+- **Station layer:** every station in `stations.geojson` (§4.7), as a white
+  circle with a dark ring, the usual transit-map symbol, which stays apart
+  from the filled block dots and the amber highlight under every coloring
+  mode. Rings in line colors were tried and dropped: Downtown blue vanished
+  among the default blue blocks, East-West green among the MRT-distance
+  greens, and an interchange showed none of its lines. The markers are hidden
+  at the whole-island view, where they crowded the estates, and appear one
+  step closer in. A step further in, each station gets its name and, under
+  it, a small chip per line in the line's color, the same colors as the
+  details panel (§5.5), so the map shows which lines stop where without any
+  interaction. A map label can't put a background behind part of its text,
+  so the app draws each station's chips as one small image when the stations
+  load and embeds it in the label. The labels sit above the block numbers and win where
+  they collide. A station served only by the LRT gets its name one step later
+  than the MRT stations: the LRT loops put a stop every few hundred metres,
+  and their names crowded out the MRT names at the estate view. A station
+  shared with an MRT line counts as MRT. On a phone that later step shows
+  only a few streets, so LRT names come late there; a per-device threshold
+  is a possible follow-up. Stations never take a block's hover or tap (no tooltip
+  either), and filters don't hide them (§5.9).
+- **Exit layer:** every exit point, shown only when zoomed in close enough to
+  see the space between buildings, so the station dot stands alone further
+  out. An exit is a small solid grey dot under the block dots: a hollow ring
+  read as a miniature station. The marker and its label ("Exit A",
+  "LRT Exit B", as the panel words it; never the station) appear together,
+  since unlabelled specks only added noise. Exit labels give way to block
+  numbers and to the station's label, so beside a station the odd exit label
+  is hidden until the next zoom step; forcing them all on would draw labels
+  over each other. Where LTA lists one exit at several entrances, each point
+  shows. Like stations, exits never take a block's hover or tap.
+- **Nearest-exit highlight:** while a block is selected, its nearest exit is
+  marked at every zoom, joined to the block by a thin dashed line, so the map
+  shows what the panel's distance measures; the dash reads as a straight
+  line, not a route. The exit comes from the shard (`nearest_station`'s
+  station and exit), so the app never searches for the nearest exit itself;
+  when that exit name has several points, the one nearest the block is
+  marked. The exit gets an amber ring and its name in bold amber, matching
+  the selected block, and its usual grey label is hidden so the name doesn't
+  show twice; the name always shows, even where it would collide. The
+  highlight draws above the stations and every block but the selected one,
+  whichever loads first. The fly-to is unchanged, so the exit can be off
+  screen or under the mobile sheet; the line is then the cue that points to
+  it, which is why it was kept.
+- **Not in this iteration:** filtering by distance (§7.2), and the later
+  refinements in §7.5.
+
 ## 6. Deployment & CI
 
 ### 6.1 Vercel
@@ -881,8 +1091,13 @@ whatever stays visible.
     (2026-11-01)`;
   - blocks added, removed, or changed: `chore(data): monthly HDB data refresh
     (2026-11-01): +21 -0 ~46`, with a summary in the body;
+  - no block changed but the station data did (a station or its codes, or an
+    exit added, removed, or moved): `chore(data): monthly check, station data
+    changed (2026-11-01)`, with the summary;
   - only the failure list changed: `chore(data): monthly check, failed blocks
     changed (2026-11-01)`, with the summary.
+
+  The first that applies wins; the body still lists every kind of change.
 - **Run summary:** the pipeline compares the data and the failure list before
   and after its write (`summarize.py`). It lists the blocks added, the blocks
   removed with why (gone from HDB's data, or failed this run), and each
@@ -890,19 +1105,25 @@ whatever stays visible.
   small geocode shift shows. The failure list's count and its newly failing,
   fixed, and changed entries follow. Long lists are cut short, with the full
   count kept. The same text goes in the commit body and on the run's summary
-  page in Actions. It only describes the run, so any failure in it logs a
-  warning and the data is committed with the plain message.
+  page in Actions. Stations added, removed, or with changed codes are listed
+  as well, with one line counting the exits added, removed, and moved (an exit
+  is matched by station and name, so a re-surveyed exit reads as moved). A
+  block whose nearest station or distance moved shows as a changed block like
+  any other.
+  It only describes the run, so any failure in it logs a warning and the data
+  is committed with the plain message.
 - **Steps:** checkout → setup Python → install → run the pipeline. The run
   fetches a fresh OneMap token from `ONEMAP_EMAIL`/`ONEMAP_PASSWORD`, geocodes
   all blocks ≤300/min, and writes `app/public/data/*` and
   `pipeline/failed_blocks.csv`.
 - **Commit only if diff**, then push. The push triggers the Vercel redeploy.
   Needs `contents: write`; a concurrency guard prevents overlapping runs.
-- **Failure = safe:** if the OneMap token request, the data.gov.sg fetch, or
-  town decoding fails, or the block-count guard trips (§3.2), the run stops
-  before any write, so nothing is committed and the last good data stays
-  live. The failed run shows in Actions, and GitHub notifies the user who
-  created the workflow or last changed its cron schedule.
+- **Failure = safe:** if the OneMap token request, a data.gov.sg fetch, the
+  station lookup (a station with no open-line code, or a OneMap error), or
+  town decoding fails, or the block- or station-count guard trips (§3.2,
+  §3.6), the run stops before any write, so nothing is committed and the last
+  good data stays live. The failed run shows in Actions, and GitHub notifies
+  the user who created the workflow or last changed its cron schedule.
 
 **`ci.yml`** (quality gate on PRs + `main`):
 
@@ -923,14 +1144,13 @@ implementation cycle.
 
 Coloring by year completed and floors shipped (§5.10). Still to come:
 
-- **More modes** once their data exists: **median resale price** (§7.4) and
-  **distance to MRT** (§7.5), each a new entry in the coloring menu. The
-  mobile sheet's compact Color row (§5.10) only holds a few short choices,
-  so it needs revisiting when these arrive.
+- **More modes** once their data exists, starting with **median resale
+  price** (§7.4), a new entry in the coloring menu. The mobile sheet's
+  compact Color row (§5.10) only holds a few short choices, so it needs
+  revisiting when they arrive.
 - A **"no data" state** visually distinct from "low value", so an uncolored
-  block never reads as cheap or near. Year and floors don't need one, since
-  the pipeline guarantees every block has both (§4.5); price and MRT distance
-  will.
+  block never reads as cheap or near. Year, floors, and MRT distance don't
+  need one, since every block has all three (§4.5); price will.
 - **Refinements deferred on purpose**, to revisit after real use:
   - the palettes, starting with the low-contrast lightest band, and the band
     edges;
@@ -950,18 +1170,22 @@ Still to come:
 - **The legend as a control:** hovering a band to pick it out on the map, or
   clicking one to filter by it.
 - **Flying to the matches** when none of them are in view.
+- **Filtering by MRT distance** (§5.12): a range like year and floors,
+  over the index's `station_distance`. The planned follow-up to §5.12.
 
 ### 7.3 Basemap selector
 
 - A control to switch the basemap among OpenFreeMap's free, no-key styles
   (Positron default, plus Liberty/Bright for more geographic context); persist
   the choice per viewer via `localStorage`.
-- **Implementation note:** switching calls `map.setStyle()`, which discards all
-  custom sources and layers. The selector must **re-add** the blocks source,
-  and all four block layers (circles, highlight, and both label layers), plus
-  any active coloring or filter, on the `styledata` event after the new style
-  loads; that re-application is the real work, not the dropdown. The label
-  layers also depend on the style's glyphs serving `Noto Sans Regular`/`Bold`.
+- **Implementation note:** switching calls `map.setStyle()`, which discards
+  all custom sources and layers. The selector must **re-add** the blocks
+  source, and all four block layers (circles, highlight, and both label
+  layers), plus the station source, the station and exit layers, the
+  nearest-exit highlight (§5.12), and any active coloring
+  or filter, on the `styledata` event after the new style loads; that
+  re-application is the real work, not the dropdown. The label layers also
+  depend on the style's glyphs serving `Noto Sans Regular`/`Bold`.
 - **Couples with coloring (§5.10):** busier basemaps reduce marker-color
   legibility, so neutral styles remain preferred while a coloring mode is
   active.
@@ -985,11 +1209,29 @@ Still to come:
   path (Vercel Blob / R2, still free tier) is the escape hatch if committed data
   ever strains git.
 
-### 7.5 Nearest MRT + distance
+### 7.5 Nearest station: later refinements
 
-- Requires MRT station location data (OneMap / LTA DataMall) and a
-  nearest-station distance computation in the pipeline.
-- Powers MRT-distance coloring (§7.1).
+The nearest station, its distance, and the station and exit layers shipped
+(§5.12).
+Still to come:
+
+- **Planned lines marked as future,** such as "CR11 (future)" at Ang Mo Kio.
+  It needs a complete list of planned interchanges of its own, since OneMap's
+  planned codes are patchy (§3.6).
+- **The nearest station on each line,** for someone who needs one line in
+  particular rather than any station.
+- **Walking distance,** if a free routing source can cover every block within
+  a run's time budget.
+- **Searching by station,** such as "Bishan MRT", flying to the station so
+  the blocks around it are in view.
+- **Station outlines on the map,** showing where each station building sits,
+  which Positron leaves out for underground stations. LTA DataMall's station
+  layer is the likely source (needs a DataMall account key as a pipeline
+  secret); first check that it leaves out lines still being built. URA's
+  Master Plan 2025 rail station layer on data.gov.sg was checked and rejected:
+  it draws planned-line boxes into open stations (the Cross Region Line at
+  Pasir Ris, Clementi, Ang Mo Kio) with nothing to tell them apart, mixes in
+  stations not yet open, and its names need a hand-kept fix table.
 
 ### 7.6 Nearby amenities
 
@@ -1022,7 +1264,8 @@ fully meet the licence's notice requirement.
 - **Content:** the licence notice ("Contains information from HDB Property
   Information accessed on {date} from data.gov.sg which is made available
   under the terms of the Singapore Open Data Licence version 1.0", each source
-  linked), the OneMap/SLA geocoding credit, the OpenStreetMap / OpenMapTiles /
+  linked), the same notice for LTA's MRT Station Exit dataset (§3.6), the
+  OneMap/SLA geocoding and line-code credit, the OpenStreetMap / OpenMapTiles /
   OpenFreeMap basemap credit, and a link to the source code.
 - **Data:** the date is `meta.json`'s `data_accessed` (§4.6), fetched when the
   overlay first opens rather than at startup, so it adds nothing to the first

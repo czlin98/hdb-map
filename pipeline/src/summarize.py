@@ -3,6 +3,8 @@ import json
 from dataclasses import dataclass, field
 from pathlib import Path
 
+from stations import load_live_stations
+
 # Per section, so a large refresh keeps the commit message readable; the count line stays exact.
 LIST_LIMIT = 30
 
@@ -14,6 +16,7 @@ SCALAR_FIELDS = [
     ("year_completed", "year"),
     ("max_floor_lvl", "floors"),
     ("total_dwelling_units", "total units"),
+    ("station_distance", "MRT distance"),
 ]
 UNIT_FIELDS = [("sold_units_by_type", "sold"), ("rental_units_by_type", "rental")]
 
@@ -22,11 +25,17 @@ UNIT_FIELDS = [("sold_units_by_type", "sold"), ("rental_units_by_type", "rental"
 class Snapshot:
     blocks: dict[str, dict] = field(default_factory=dict)
     failures: dict[tuple[str, str], dict] = field(default_factory=dict)
+    # id -> {name, codes}
+    stations: dict[str, dict] = field(default_factory=dict)
+    # (station id, exit name) -> sorted points: an exit name can have several (stations.py).
+    exits: dict[tuple[str, str], list[tuple[float, float]]] = field(default_factory=dict)
 
 
 @dataclass
 class RunSummary:
-    kind: str  # "refresh" (blocks differ), "failures" (only the failure list does), or "none"
+    # "refresh" (blocks differ), "stations" (only station data, maybe failures too), "failures"
+    # (only the failure list), or "none"; the first that applies.
+    kind: str
     added: int
     removed: int
     changed: int
@@ -45,6 +54,18 @@ def load_snapshot(app_data_dir: Path, failed_path: Path) -> Snapshot:
         for block_id, entry in json.loads(shard.read_text(encoding="utf-8")).items():
             if block_id in snap.blocks:
                 snap.blocks[block_id].update(entry)
+    stations_path = Path(app_data_dir) / "stations.geojson"
+    for f in load_live_stations(stations_path):
+        props = f["properties"]
+        snap.stations[props["id"]] = {"name": props["name"], "codes": props["codes"]}
+    if stations_path.exists():
+        for f in json.loads(stations_path.read_text(encoding="utf-8"))["features"]:
+            props = f["properties"]
+            if props["kind"] == "exit":
+                key = (props["station"], props["exit"])
+                snap.exits.setdefault(key, []).append(tuple(f["geometry"]["coordinates"]))
+        for points in snap.exits.values():
+            points.sort()
     if Path(failed_path).exists():
         with Path(failed_path).open(newline="", encoding="utf-8") as fh:
             for row in csv.DictReader(fh):
@@ -69,6 +90,10 @@ def _changes(old: dict, new: dict) -> list[str]:
                 out.append(
                     f"{label} {flat_type} {before.get(flat_type, 0)} → {after.get(flat_type, 0)}"
                 )
+    old_station = (old.get("nearest_station") or {}).get("name")
+    new_station = (new.get("nearest_station") or {}).get("name")
+    if old_station != new_station:
+        out.append(f"station {old_station} → {new_station}")
     if (old["lon"], old["lat"]) != (new["lon"], new["lat"]):
         out.append(f"lon/lat {old['lon']}, {old['lat']} → {new['lon']}, {new['lat']}")
     return out
@@ -100,6 +125,40 @@ def _removal(block: dict, failures: dict[tuple[str, str], dict]) -> str:
     return f"{_label(block)}: {reason}"
 
 
+def _station_lines(before: Snapshot, after: Snapshot) -> list[str]:
+    if not before.stations:
+        return []  # first run with stations: every one would read as added
+    added = sorted(after.stations.keys() - before.stations.keys())
+    removed = sorted(before.stations.keys() - after.stations.keys())
+    recoded = sorted(
+        i
+        for i in before.stations.keys() & after.stations.keys()
+        if before.stations[i]["codes"] != after.stations[i]["codes"]
+    )
+
+    def named(station: dict) -> str:
+        return f"{station['name']} ({' '.join(station['codes'])})"
+
+    lines = _section("Stations added", [named(after.stations[i]) for i in added])
+    lines += _section("Stations removed", [named(before.stations[i]) for i in removed])
+    lines += _section(
+        "Station codes changed",
+        [
+            f"{after.stations[i]['name']}: {' '.join(before.stations[i]['codes'])} → "
+            f"{' '.join(after.stations[i]['codes'])}"
+            for i in recoded
+        ],
+    )
+    exits_added = len(after.exits.keys() - before.exits.keys())
+    exits_removed = len(before.exits.keys() - after.exits.keys())
+    exits_moved = sum(
+        1 for k in before.exits.keys() & after.exits.keys() if before.exits[k] != after.exits[k]
+    )
+    if exits_added or exits_removed or exits_moved:
+        lines += ["", f"Exits: +{exits_added} added, {exits_removed} removed, {exits_moved} moved"]
+    return lines
+
+
 def summarize(before: Snapshot, after: Snapshot) -> RunSummary:
     added = sorted(after.blocks.keys() - before.blocks.keys())
     removed = sorted(before.blocks.keys() - after.blocks.keys())
@@ -117,9 +176,12 @@ def summarize(before: Snapshot, after: Snapshot) -> RunSummary:
         if before.failures[key] != after.failures[key]
     )
     failures_differ = bool(newly_failing or fixed or failure_changed)
+    station_lines = _station_lines(before, after)
 
     if added or removed or changed:
         kind = "refresh"
+    elif station_lines:
+        kind = "stations"
     elif failures_differ:
         kind = "failures"
     else:
@@ -134,6 +196,7 @@ def summarize(before: Snapshot, after: Snapshot) -> RunSummary:
     lines += _section(
         "Changed", [f"{_label(after.blocks[i])}: {'; '.join(c)}" for i, c in changed.items()]
     )
+    lines += station_lines
 
     if failures_differ:
         lines += ["", f"Failed blocks: {len(after.failures)} (was {len(before.failures)})"]

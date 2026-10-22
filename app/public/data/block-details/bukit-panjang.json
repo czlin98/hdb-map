@@ -10,6 +10,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 188
     }
   },
   "102-gangsa-rd": {
@@ -24,6 +33,15 @@
     "sold_units_by_type": {
       "3room": 54,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 226
     }
   },
   "103-gangsa-rd": {
@@ -38,6 +56,15 @@
     "sold_units_by_type": {
       "3room": 19,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 227
     }
   },
   "104-gangsa-rd": {
@@ -52,6 +79,15 @@
     "sold_units_by_type": {
       "3room": 54,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 187
     }
   },
   "105-gangsa-rd": {
@@ -66,6 +102,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 134
     }
   },
   "106-gangsa-rd": {
@@ -80,6 +125,15 @@
     "sold_units_by_type": {
       "3room": 54,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 76
     }
   },
   "107-gangsa-rd": {
@@ -93,6 +147,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 43
     }
   },
   "108-gangsa-rd": {
@@ -107,6 +170,15 @@
     "sold_units_by_type": {
       "3room": 54,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 48
     }
   },
   "109-gangsa-rd": {
@@ -121,6 +193,15 @@
     "sold_units_by_type": {
       "3room": 19,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 109
     }
   },
   "110-gangsa-rd": {
@@ -135,6 +216,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 152
     }
   },
   "111-gangsa-rd": {
@@ -149,6 +239,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 186
     }
   },
   "112-pending-rd": {
@@ -163,6 +262,15 @@
     "sold_units_by_type": {
       "3room": 19,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 242
     }
   },
   "113-pending-rd": {
@@ -177,6 +285,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 298
     }
   },
   "114-pending-rd": {
@@ -192,6 +309,15 @@
       "3room": 19,
       "4room": 7,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 240
     }
   },
   "115-pending-rd": {
@@ -206,6 +332,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 272
     }
   },
   "116-pending-rd": {
@@ -220,6 +355,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 208
     }
   },
   "117-pending-rd": {
@@ -234,6 +378,15 @@
     "sold_units_by_type": {
       "3room": 19,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 136
     }
   },
   "118-pending-rd": {
@@ -248,6 +401,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 206
     }
   },
   "119-pending-rd": {
@@ -262,6 +424,15 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 255
     }
   },
   "120-pending-rd": {
@@ -276,6 +447,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 226
     }
   },
   "121-pending-rd": {
@@ -290,6 +470,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 192
     }
   },
   "122-pending-rd": {
@@ -304,6 +493,15 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 212
     }
   },
   "123-pending-rd": {
@@ -318,6 +516,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 159
     }
   },
   "124-pending-rd": {
@@ -331,6 +538,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 80
     }
   },
   "125-pending-rd": {
@@ -345,6 +561,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 136
     }
   },
   "126-pending-rd": {
@@ -359,6 +584,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 157
     }
   },
   "127-pending-rd": {
@@ -373,6 +607,15 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 228
     }
   },
   "128-pending-rd": {
@@ -387,6 +630,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 177
     }
   },
   "129-pending-rd": {
@@ -400,6 +652,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 129
     }
   },
   "130-cashew-rd": {
@@ -413,6 +674,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 254
     }
   },
   "131-cashew-rd": {
@@ -427,6 +697,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 198
     }
   },
   "132-cashew-rd": {
@@ -441,6 +720,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 236
     }
   },
   "133-cashew-rd": {
@@ -454,6 +742,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 279
     }
   },
   "133a-cashew-rd": {
@@ -467,6 +764,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 211
     }
   },
   "134-petir-rd": {
@@ -480,6 +786,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 302
     }
   },
   "135-cashew-rd": {
@@ -493,6 +808,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "exec": 90
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 369
     }
   },
   "136-petir-rd": {
@@ -507,6 +831,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 342
     }
   },
   "137-petir-rd": {
@@ -521,6 +854,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 249
     }
   },
   "138-petir-rd": {
@@ -534,6 +876,15 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "exec": 32
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 254
     }
   },
   "139-petir-rd": {
@@ -548,6 +899,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 214
     }
   },
   "140-petir-rd": {
@@ -562,6 +922,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 278
     }
   },
   "141-petir-rd": {
@@ -576,6 +945,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 244
     }
   },
   "142-petir-rd": {
@@ -590,6 +968,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 183
     }
   },
   "143-petir-rd": {
@@ -604,6 +991,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 149
     }
   },
   "144-petir-rd": {
@@ -617,6 +1013,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 216
     }
   },
   "145-petir-rd": {
@@ -631,6 +1036,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 178
     }
   },
   "146-gangsa-rd": {
@@ -645,6 +1059,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 240
     }
   },
   "147-gangsa-rd": {
@@ -658,6 +1081,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 228
     }
   },
   "148-gangsa-rd": {
@@ -672,6 +1104,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 199
     }
   },
   "149-petir-rd": {
@@ -689,6 +1130,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 96
     }
   },
   "150-petir-rd": {
@@ -703,6 +1153,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 63
     }
   },
   "151-petir-rd": {
@@ -716,6 +1175,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 87
     }
   },
   "152-gangsa-rd": {
@@ -729,6 +1197,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 282
     }
   },
   "153-gangsa-rd": {
@@ -742,6 +1219,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 325
     }
   },
   "154-gangsa-rd": {
@@ -755,6 +1241,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 362
     }
   },
   "155-gangsa-rd": {
@@ -768,6 +1263,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "exec": 96
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 321
     }
   },
   "163-gangsa-rd": {
@@ -782,6 +1286,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "LRT Exit B",
+      "distance": 227
     }
   },
   "164-gangsa-rd": {
@@ -796,6 +1310,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "LRT Exit B",
+      "distance": 245
     }
   },
   "165-gangsa-rd": {
@@ -810,6 +1334,15 @@
     "sold_units_by_type": {
       "4room": 71,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 204
     }
   },
   "166-gangsa-rd": {
@@ -824,6 +1357,15 @@
     "sold_units_by_type": {
       "4room": 93,
       "5room": 67
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 156
     }
   },
   "167-petir-rd": {
@@ -838,6 +1380,15 @@
     "sold_units_by_type": {
       "4room": 103,
       "5room": 69
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 188
     }
   },
   "168-petir-rd": {
@@ -852,6 +1403,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 137
     }
   },
   "170-gangsa-rd": {
@@ -866,6 +1427,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 132
     }
   },
   "171-gangsa-rd": {
@@ -880,6 +1450,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 159
     }
   },
   "172-gangsa-rd": {
@@ -894,6 +1473,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 205
     }
   },
   "173-gangsa-rd": {
@@ -908,6 +1496,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 259
     }
   },
   "174-lompang-rd": {
@@ -922,6 +1519,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 296
     }
   },
   "175-lompang-rd": {
@@ -936,6 +1542,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 260
     }
   },
   "176-lompang-rd": {
@@ -950,6 +1565,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 209
     }
   },
   "177-lompang-rd": {
@@ -964,6 +1588,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 348
     }
   },
   "178-lompang-rd": {
@@ -978,6 +1611,16 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 301
     }
   },
   "179-lompang-rd": {
@@ -991,6 +1634,16 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "5room": 150
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 287
     }
   },
   "180-lompang-rd": {
@@ -1004,6 +1657,16 @@
     "total_dwelling_units": 135,
     "sold_units_by_type": {
       "exec": 135
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 193
     }
   },
   "181-jelebu-rd": {
@@ -1019,6 +1682,16 @@
       "4room": 58,
       "5room": 58,
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 120
     }
   },
   "182-jelebu-rd": {
@@ -1033,6 +1706,16 @@
     "sold_units_by_type": {
       "4room": 85,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 190
     }
   },
   "183-jelebu-rd": {
@@ -1048,6 +1731,16 @@
       "4room": 28,
       "5room": 82,
       "exec": 55
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 164
     }
   },
   "184-jelebu-rd": {
@@ -1063,6 +1756,16 @@
       "4room": 29,
       "5room": 85,
       "exec": 57
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 97
     }
   },
   "185-jelebu-rd": {
@@ -1077,6 +1780,16 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 85
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 57
     }
   },
   "201-petir-rd": {
@@ -1091,6 +1804,15 @@
     "sold_units_by_type": {
       "4room": 19,
       "5room": 71
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 658
     }
   },
   "202-petir-rd": {
@@ -1105,6 +1827,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 601
     }
   },
   "203-petir-rd": {
@@ -1119,6 +1850,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 43
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 591
     }
   },
   "204-petir-rd": {
@@ -1133,6 +1873,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 53
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 520
     }
   },
   "205-petir-rd": {
@@ -1147,6 +1896,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 430
     }
   },
   "206-petir-rd": {
@@ -1161,6 +1919,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 421
     }
   },
   "207-petir-rd": {
@@ -1174,6 +1941,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 486
     }
   },
   "208-petir-rd": {
@@ -1187,6 +1963,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 485
     }
   },
   "209-petir-rd": {
@@ -1201,6 +1986,15 @@
     "sold_units_by_type": {
       "4room": 9,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 555
     }
   },
   "210-petir-rd": {
@@ -1214,6 +2008,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 596
     }
   },
   "211-petir-rd": {
@@ -1227,6 +2030,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 565
     }
   },
   "212-petir-rd": {
@@ -1241,6 +2053,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 532
     }
   },
   "213-petir-rd": {
@@ -1255,6 +2076,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 506
     }
   },
   "214-petir-rd": {
@@ -1269,6 +2099,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 420
     }
   },
   "215-petir-rd": {
@@ -1284,6 +2123,15 @@
       "3room": 13,
       "4room": 7,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 357
     }
   },
   "216-petir-rd": {
@@ -1298,6 +2146,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 414
     }
   },
   "217-petir-rd": {
@@ -1311,6 +2168,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 291
     }
   },
   "218-petir-rd": {
@@ -1324,6 +2190,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 325
     }
   },
   "219-petir-rd": {
@@ -1338,6 +2213,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 283
     }
   },
   "220-petir-rd": {
@@ -1352,6 +2236,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 261
     }
   },
   "221-pending-rd": {
@@ -1366,6 +2259,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 258
     }
   },
   "222-pending-rd": {
@@ -1381,6 +2283,15 @@
       "3room": 9,
       "4room": 7,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 330
     }
   },
   "223-pending-rd": {
@@ -1395,6 +2306,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 261
     }
   },
   "224-pending-rd": {
@@ -1410,6 +2330,15 @@
       "3room": 9,
       "4room": 7,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 191
     }
   },
   "225-pending-rd": {
@@ -1423,6 +2352,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 159
     }
   },
   "226-pending-rd": {
@@ -1436,6 +2374,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 165
     }
   },
   "227-pending-rd": {
@@ -1450,6 +2397,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 150
     }
   },
   "228-pending-rd": {
@@ -1463,6 +2419,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 114
     }
   },
   "229-pending-rd": {
@@ -1477,6 +2442,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 121
     }
   },
   "230-pending-rd": {
@@ -1491,6 +2465,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 99
     }
   },
   "231-pending-rd": {
@@ -1506,6 +2489,15 @@
       "3room": 13,
       "4room": 7,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 165
     }
   },
   "232-pending-rd": {
@@ -1520,6 +2512,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 121
     }
   },
   "233-pending-rd": {
@@ -1533,6 +2534,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 47
     }
   },
   "234-bt-panjang-ring-rd": {
@@ -1547,6 +2557,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 172
     }
   },
   "235-bt-panjang-ring-rd": {
@@ -1561,6 +2580,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 211
     }
   },
   "236-bt-panjang-ring-rd": {
@@ -1574,6 +2602,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 179
     }
   },
   "237-bt-panjang-ring-rd": {
@@ -1588,6 +2625,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 259
     }
   },
   "238-bt-panjang-ring-rd": {
@@ -1602,6 +2648,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 214
     }
   },
   "239-bt-panjang-ring-rd": {
@@ -1615,6 +2670,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 166
     }
   },
   "240-bt-panjang-ring-rd": {
@@ -1628,6 +2692,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 162
     }
   },
   "241-bt-panjang-ring-rd": {
@@ -1642,6 +2715,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 81
     }
   },
   "242-bt-panjang-ring-rd": {
@@ -1656,6 +2738,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 88
     }
   },
   "243-bt-panjang-ring-rd": {
@@ -1670,6 +2761,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 162
     }
   },
   "244-bt-panjang-ring-rd": {
@@ -1684,6 +2784,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 146
     }
   },
   "245-bt-panjang-ring-rd": {
@@ -1698,6 +2807,15 @@
     "sold_units_by_type": {
       "4room": 9,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 91
     }
   },
   "246-bangkit-rd": {
@@ -1712,6 +2830,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 184
     }
   },
   "248-bangkit-rd": {
@@ -1727,6 +2854,15 @@
       "4room": 66,
       "5room": 42,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 254
     }
   },
   "249-bangkit-rd": {
@@ -1741,6 +2877,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 207
     }
   },
   "250-bangkit-rd": {
@@ -1755,6 +2900,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 152
     }
   },
   "251-bangkit-rd": {
@@ -1769,6 +2923,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 183
     }
   },
   "252-bangkit-rd": {
@@ -1783,6 +2946,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 164
     }
   },
   "253-bangkit-rd": {
@@ -1798,6 +2970,15 @@
       "4room": 54,
       "5room": 42,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 250
     }
   },
   "254-bangkit-rd": {
@@ -1811,6 +2992,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 143
     }
   },
   "255-bangkit-rd": {
@@ -1825,6 +3015,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 59
     }
   },
   "257-bangkit-rd": {
@@ -1839,6 +3038,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 165
     }
   },
   "259-bt-panjang-ring-rd": {
@@ -1853,6 +3061,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 235
     }
   },
   "270-bangkit-rd": {
@@ -1867,6 +3084,15 @@
     "sold_units_by_type": {
       "4room": 106,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 321
     }
   },
   "271-bangkit-rd": {
@@ -1881,6 +3107,15 @@
     "sold_units_by_type": {
       "4room": 13,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 314
     }
   },
   "272-bangkit-rd": {
@@ -1895,6 +3130,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 328
     }
   },
   "273-bangkit-rd": {
@@ -1910,6 +3154,15 @@
       "4room": 48,
       "5room": 40,
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 398
     }
   },
   "274-bangkit-rd": {
@@ -1923,6 +3176,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 389
     }
   },
   "275-bangkit-rd": {
@@ -1936,6 +3198,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 393
     }
   },
   "276-bangkit-rd": {
@@ -1951,6 +3222,15 @@
       "4room": 48,
       "5room": 40,
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 486
     }
   },
   "277-bangkit-rd": {
@@ -1965,6 +3245,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "pending",
+      "name": "Pending",
+      "codes": [
+        "BP8"
+      ],
+      "exit": "Exit A",
+      "distance": 410
     }
   },
   "401-fajar-rd": {
@@ -1979,6 +3268,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 393
     }
   },
   "402-fajar-rd": {
@@ -1993,6 +3291,15 @@
     "sold_units_by_type": {
       "4room": 86,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 333
     }
   },
   "403-fajar-rd": {
@@ -2006,6 +3313,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 406
     }
   },
   "404-fajar-rd": {
@@ -2020,6 +3336,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 348
     }
   },
   "405-fajar-rd": {
@@ -2034,6 +3359,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "petir",
+      "name": "Petir",
+      "codes": [
+        "BP7"
+      ],
+      "exit": "Exit A",
+      "distance": 409
     }
   },
   "406-fajar-rd": {
@@ -2048,6 +3382,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 451
     }
   },
   "407-fajar-rd": {
@@ -2061,6 +3404,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 427
     }
   },
   "408-fajar-rd": {
@@ -2074,6 +3426,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 358
     }
   },
   "409-saujana-rd": {
@@ -2088,6 +3449,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 409
     }
   },
   "410-saujana-rd": {
@@ -2101,6 +3471,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 433
     }
   },
   "411-saujana-rd": {
@@ -2114,6 +3493,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 377
     }
   },
   "412-saujana-rd": {
@@ -2127,6 +3515,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 319
     }
   },
   "413-saujana-rd": {
@@ -2141,6 +3538,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 318
     }
   },
   "414-saujana-rd": {
@@ -2155,6 +3561,15 @@
     "sold_units_by_type": {
       "4room": 17,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 264
     }
   },
   "415-saujana-rd": {
@@ -2169,6 +3584,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 230
     }
   },
   "416-saujana-rd": {
@@ -2182,6 +3606,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 284
     }
   },
   "417-fajar-rd": {
@@ -2196,6 +3629,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 293
     }
   },
   "418-fajar-rd": {
@@ -2210,6 +3652,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 202
     }
   },
   "419-fajar-rd": {
@@ -2224,6 +3675,15 @@
     "sold_units_by_type": {
       "4room": 71,
       "5room": 55
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 131
     }
   },
   "420-fajar-rd": {
@@ -2238,6 +3698,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 130
     }
   },
   "421-fajar-rd": {
@@ -2252,6 +3721,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 21
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 71
     }
   },
   "422-fajar-rd": {
@@ -2265,6 +3743,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 126
     }
   },
   "423-fajar-rd": {
@@ -2278,6 +3765,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 193
     }
   },
   "424-fajar-rd": {
@@ -2292,6 +3788,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 219
     }
   },
   "425-fajar-rd": {
@@ -2305,6 +3810,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 203
     }
   },
   "426-fajar-rd": {
@@ -2318,6 +3832,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 177
     }
   },
   "427-bt-panjang-ring-rd": {
@@ -2331,6 +3854,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 166
     }
   },
   "428-bt-panjang-ring-rd": {
@@ -2345,6 +3877,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 129
     }
   },
   "429-bt-panjang-ring-rd": {
@@ -2358,6 +3899,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 133
     }
   },
   "430-bt-panjang-ring-rd": {
@@ -2372,6 +3922,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 180
     }
   },
   "431-bt-panjang-ring-rd": {
@@ -2385,6 +3944,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 175
     }
   },
   "432-bt-panjang-ring-rd": {
@@ -2399,6 +3967,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 205
     }
   },
   "433-bt-panjang-ring-rd": {
@@ -2412,6 +3989,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 153
     }
   },
   "434-bt-panjang-ring-rd": {
@@ -2426,6 +4012,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 112
     }
   },
   "435-bt-panjang-ring-rd": {
@@ -2439,6 +4034,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "4room": 132
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 183
     }
   },
   "436-fajar-rd": {
@@ -2453,6 +4057,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 249
     }
   },
   "437-fajar-rd": {
@@ -2467,6 +4080,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 251
     }
   },
   "438-fajar-rd": {
@@ -2481,6 +4103,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 192
     }
   },
   "439-fajar-rd": {
@@ -2495,6 +4126,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 160
     }
   },
   "440-fajar-rd": {
@@ -2509,6 +4149,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 109
     }
   },
   "441-fajar-rd": {
@@ -2523,6 +4172,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 139
     }
   },
   "442-fajar-rd": {
@@ -2537,6 +4195,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 254
     }
   },
   "442b-fajar-rd": {
@@ -2551,6 +4218,15 @@
     "sold_units_by_type": {
       "3room": 78,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 222
     }
   },
   "442c-fajar-rd": {
@@ -2565,6 +4241,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 258
     }
   },
   "442d-fajar-rd": {
@@ -2579,6 +4264,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 228
     }
   },
   "443a-fajar-rd": {
@@ -2593,6 +4287,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 348
     }
   },
   "443b-fajar-rd": {
@@ -2607,6 +4310,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 357
     }
   },
   "443c-fajar-rd": {
@@ -2621,6 +4333,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 328
     }
   },
   "443d-fajar-rd": {
@@ -2635,6 +4356,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "bangkit",
+      "name": "Bangkit",
+      "codes": [
+        "BP9"
+      ],
+      "exit": "Exit A",
+      "distance": 232
     }
   },
   "447-bt-panjang-ring-rd": {
@@ -2649,6 +4379,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 176
     }
   },
   "448-bt-panjang-ring-rd": {
@@ -2663,6 +4402,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 180
     }
   },
   "449-bt-panjang-ring-rd": {
@@ -2677,6 +4425,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 193
     }
   },
   "450-bt-panjang-ring-rd": {
@@ -2691,6 +4448,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 195
     }
   },
   "451-fajar-rd": {
@@ -2705,6 +4471,15 @@
     "sold_units_by_type": {
       "5room": 26,
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 185
     }
   },
   "452-fajar-rd": {
@@ -2719,6 +4494,15 @@
     "sold_units_by_type": {
       "5room": 26,
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 199
     }
   },
   "453-fajar-rd": {
@@ -2733,6 +4517,15 @@
     "sold_units_by_type": {
       "5room": 26,
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 154
     }
   },
   "454-fajar-rd": {
@@ -2748,6 +4541,15 @@
       "2room": 38,
       "3room": 108,
       "studio_apartment": 117
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 96
     }
   },
   "455-segar-rd": {
@@ -2762,6 +4564,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 82
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 167
     }
   },
   "456-segar-rd": {
@@ -2776,6 +4587,15 @@
     "sold_units_by_type": {
       "3room": 15,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 119
     }
   },
   "457-segar-rd": {
@@ -2790,6 +4610,15 @@
     "sold_units_by_type": {
       "3room": 15,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 148
     }
   },
   "458-segar-rd": {
@@ -2804,6 +4633,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 186
     }
   },
   "459-segar-rd": {
@@ -2818,6 +4656,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 257
     }
   },
   "460-segar-rd": {
@@ -2832,6 +4679,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 304
     }
   },
   "461-segar-rd": {
@@ -2845,6 +4701,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 228
     }
   },
   "465-segar-rd": {
@@ -2860,6 +4725,15 @@
       "4room": 31,
       "5room": 71,
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 381
     }
   },
   "466-segar-rd": {
@@ -2875,6 +4749,15 @@
       "4room": 44,
       "5room": 43,
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 401
     }
   },
   "467-segar-rd": {
@@ -2890,6 +4773,15 @@
       "4room": 44,
       "5room": 29,
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 445
     }
   },
   "468-segar-rd": {
@@ -2905,6 +4797,15 @@
       "4room": 30,
       "5room": 56,
       "exec": 13
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 452
     }
   },
   "469-segar-rd": {
@@ -2920,6 +4821,15 @@
       "4room": 30,
       "5room": 56,
       "exec": 13
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 431
     }
   },
   "470-segar-rd": {
@@ -2935,6 +4845,15 @@
       "4room": 44,
       "5room": 29,
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 434
     }
   },
   "471-segar-rd": {
@@ -2950,6 +4869,15 @@
       "4room": 44,
       "5room": 43,
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 391
     }
   },
   "472-segar-rd": {
@@ -2965,6 +4893,15 @@
       "4room": 31,
       "5room": 71,
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 352
     }
   },
   "473-segar-rd": {
@@ -2980,6 +4917,15 @@
       "4room": 15,
       "5room": 54,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 308
     }
   },
   "474-segar-rd": {
@@ -2995,6 +4941,15 @@
       "4room": 15,
       "5room": 54,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 343
     }
   },
   "475-segar-rd": {
@@ -3009,6 +4964,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "exec": 15
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 380
     }
   },
   "476-segar-rd": {
@@ -3023,6 +4987,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 407
     }
   },
   "477-segar-rd": {
@@ -3037,6 +5010,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 436
     }
   },
   "478-segar-rd": {
@@ -3052,6 +5034,15 @@
       "4room": 14,
       "5room": 20,
       "exec": 36
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 430
     }
   },
   "479-segar-rd": {
@@ -3067,6 +5058,15 @@
       "4room": 14,
       "5room": 20,
       "exec": 36
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 420
     }
   },
   "480-segar-rd": {
@@ -3081,6 +5081,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 391
     }
   },
   "481-segar-rd": {
@@ -3095,6 +5104,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 363
     }
   },
   "482-segar-rd": {
@@ -3109,6 +5127,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "exec": 15
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 354
     }
   },
   "483-segar-rd": {
@@ -3124,6 +5151,15 @@
       "4room": 15,
       "5room": 54,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 321
     }
   },
   "484-segar-rd": {
@@ -3139,6 +5175,15 @@
       "4room": 15,
       "5room": 54,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 283
     }
   },
   "485-segar-rd": {
@@ -3153,6 +5198,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 233
     }
   },
   "486-segar-rd": {
@@ -3167,6 +5221,15 @@
     "sold_units_by_type": {
       "3room": 42,
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 293
     }
   },
   "487-segar-rd": {
@@ -3181,6 +5244,15 @@
     "sold_units_by_type": {
       "3room": 42,
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 242
     }
   },
   "488-segar-rd": {
@@ -3195,6 +5267,15 @@
     "sold_units_by_type": {
       "2room": 115,
       "3room": 23
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 293
     }
   },
   "501-jelapang-rd": {
@@ -3209,6 +5290,15 @@
     "sold_units_by_type": {
       "4room": 126,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 436
     }
   },
   "502-jelapang-rd": {
@@ -3223,6 +5313,15 @@
     "sold_units_by_type": {
       "4room": 132,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 416
     }
   },
   "503-jelapang-rd": {
@@ -3236,6 +5335,15 @@
     "total_dwelling_units": 132,
     "sold_units_by_type": {
       "exec": 132
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 353
     }
   },
   "504-jelapang-rd": {
@@ -3250,6 +5358,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 343
     }
   },
   "505-jelapang-rd": {
@@ -3264,6 +5381,15 @@
     "sold_units_by_type": {
       "4room": 131,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "fajar",
+      "name": "Fajar",
+      "codes": [
+        "BP10"
+      ],
+      "exit": "Exit A",
+      "distance": 333
     }
   },
   "506-jelapang-rd": {
@@ -3278,6 +5404,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 167
     }
   },
   "507-jelapang-rd": {
@@ -3292,6 +5427,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 210
     }
   },
   "508-jelapang-rd": {
@@ -3305,6 +5449,15 @@
     "total_dwelling_units": 138,
     "sold_units_by_type": {
       "4room": 138
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 175
     }
   },
   "509-jelapang-rd": {
@@ -3318,6 +5471,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 139
     }
   },
   "510-jelapang-rd": {
@@ -3331,6 +5493,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 54
     }
   },
   "511-jelapang-rd": {
@@ -3345,6 +5516,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 108
     }
   },
   "512-jelapang-rd": {
@@ -3359,6 +5539,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 139
     }
   },
   "513-jelapang-rd": {
@@ -3374,6 +5563,15 @@
       "4room": 24,
       "5room": 28,
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 189
     }
   },
   "514-jelapang-rd": {
@@ -3388,6 +5586,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 226
     }
   },
   "515-jelapang-rd": {
@@ -3402,6 +5609,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 242
     }
   },
   "516-jelapang-rd": {
@@ -3416,6 +5632,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 268
     }
   },
   "517-jelapang-rd": {
@@ -3430,6 +5655,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 43
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 262
     }
   },
   "518-jelapang-rd": {
@@ -3444,6 +5678,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 251
     }
   },
   "519-jelapang-rd": {
@@ -3459,6 +5702,15 @@
       "4room": 49,
       "5room": 32,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 206
     }
   },
   "520-jelapang-rd": {
@@ -3474,6 +5726,15 @@
       "4room": 46,
       "5room": 46,
       "exec": 19
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 208
     }
   },
   "521-jelapang-rd": {
@@ -3489,6 +5750,15 @@
       "4room": 49,
       "5room": 32,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 158
     }
   },
   "522-jelapang-rd": {
@@ -3504,6 +5774,15 @@
       "4room": 35,
       "5room": 46,
       "exec": 19
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 175
     }
   },
   "523-jelapang-rd": {
@@ -3519,6 +5798,15 @@
       "4room": 49,
       "5room": 32,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 115
     }
   },
   "524-jelapang-rd": {
@@ -3533,6 +5821,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 153
     }
   },
   "525-jelapang-rd": {
@@ -3548,6 +5845,15 @@
       "4room": 49,
       "5room": 32,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 85
     }
   },
   "526-jelapang-rd": {
@@ -3562,6 +5868,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 164
     }
   },
   "527-jelapang-rd": {
@@ -3577,6 +5892,15 @@
       "4room": 49,
       "5room": 32,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 84
     }
   },
   "528-jelapang-rd": {
@@ -3590,6 +5914,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "exec": 86
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 250
     }
   },
   "529-jelapang-rd": {
@@ -3605,6 +5938,15 @@
       "4room": 36,
       "5room": 27,
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 101
     }
   },
   "530-jelapang-rd": {
@@ -3620,6 +5962,15 @@
       "4room": 54,
       "5room": 22,
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 245
     }
   },
   "531-jelapang-rd": {
@@ -3635,6 +5986,15 @@
       "4room": 36,
       "5room": 27,
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 151
     }
   },
   "532-jelapang-rd": {
@@ -3648,6 +6008,15 @@
     "total_dwelling_units": 108,
     "sold_units_by_type": {
       "exec": 108
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 202
     }
   },
   "533-bt-panjang-ring-rd": {
@@ -3662,6 +6031,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 232
     }
   },
   "534-jelapang-rd": {
@@ -3676,6 +6054,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 271
     }
   },
   "535-bt-panjang-ring-rd": {
@@ -3690,6 +6077,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 205
     }
   },
   "536-jelapang-rd": {
@@ -3704,6 +6100,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 73
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 219
     }
   },
   "537-bt-panjang-ring-rd": {
@@ -3718,6 +6123,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 130
     }
   },
   "538-jelapang-rd": {
@@ -3732,6 +6146,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 73
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 188
     }
   },
   "539-bt-panjang-ring-rd": {
@@ -3746,6 +6169,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 103
     }
   },
   "540-jelapang-rd": {
@@ -3760,6 +6192,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 150
     }
   },
   "541-bt-panjang-ring-rd": {
@@ -3774,6 +6215,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 137
     }
   },
   "542-jelapang-rd": {
@@ -3787,6 +6237,15 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "exec": 94
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 181
     }
   },
   "543-jelapang-rd": {
@@ -3800,6 +6259,15 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "exec": 94
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 196
     }
   },
   "544-jelapang-rd": {
@@ -3813,6 +6281,15 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "exec": 94
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 209
     }
   },
   "545-bt-panjang-ring-rd": {
@@ -3827,6 +6304,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 83
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 193
     }
   },
   "546a-segar-rd": {
@@ -3841,6 +6327,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 132
     }
   },
   "546b-segar-rd": {
@@ -3855,6 +6350,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 122
     }
   },
   "546c-segar-rd": {
@@ -3869,6 +6373,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 132
     }
   },
   "547a-segar-rd": {
@@ -3883,6 +6396,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 72
     }
   },
   "547b-segar-rd": {
@@ -3897,6 +6419,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 72
     }
   },
   "547c-segar-rd": {
@@ -3911,6 +6442,15 @@
     "sold_units_by_type": {
       "2room": 64,
       "3room": 48
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 107
     }
   },
   "547d-segar-rd": {
@@ -3928,6 +6468,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 129
     }
   },
   "548a-segar-rd": {
@@ -3942,6 +6491,15 @@
     "sold_units_by_type": {
       "3room": 34,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 180
     }
   },
   "548b-segar-rd": {
@@ -3956,6 +6514,15 @@
     "sold_units_by_type": {
       "3room": 51,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 202
     }
   },
   "549a-segar-rd": {
@@ -3970,6 +6537,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 238
     }
   },
   "549b-segar-rd": {
@@ -3984,6 +6560,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 276
     }
   },
   "550a-segar-rd": {
@@ -3998,6 +6583,15 @@
     "sold_units_by_type": {
       "3room": 34,
       "4room": 85
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 275
     }
   },
   "550b-segar-rd": {
@@ -4012,6 +6606,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "segar",
+      "name": "Segar",
+      "codes": [
+        "BP11"
+      ],
+      "exit": "Exit A",
+      "distance": 295
     }
   },
   "601-senja-rd": {
@@ -4025,6 +6628,15 @@
     "total_dwelling_units": 73,
     "sold_units_by_type": {
       "4room": 73
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 108
     }
   },
   "602-senja-rd": {
@@ -4038,6 +6650,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 168
     }
   },
   "603-senja-rd": {
@@ -4052,6 +6673,15 @@
     "sold_units_by_type": {
       "4room": 94,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 150
     }
   },
   "604-senja-rd": {
@@ -4066,6 +6696,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 108
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 212
     }
   },
   "605-senja-rd": {
@@ -4080,6 +6719,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 200
     }
   },
   "606-senja-rd": {
@@ -4094,6 +6743,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 116
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 195
     }
   },
   "607-senja-rd": {
@@ -4107,6 +6765,15 @@
     "total_dwelling_units": 126,
     "sold_units_by_type": {
       "exec": 126
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 98
     }
   },
   "608-senja-rd": {
@@ -4120,6 +6787,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 106
     }
   },
   "609-bt-panjang-ring-rd": {
@@ -4134,6 +6810,15 @@
     "sold_units_by_type": {
       "4room": 91,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 35
     }
   },
   "610-senja-rd": {
@@ -4147,6 +6832,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 134
     }
   },
   "611-bt-panjang-ring-rd": {
@@ -4161,6 +6855,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 122
     }
   },
   "612-senja-rd": {
@@ -4175,6 +6878,15 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 192
     }
   },
   "613-bt-panjang-ring-rd": {
@@ -4189,6 +6901,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 169
     }
   },
   "614-senja-rd": {
@@ -4203,6 +6924,15 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 247
     }
   },
   "615-bt-panjang-ring-rd": {
@@ -4217,6 +6947,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 253
     }
   },
   "616-senja-rd": {
@@ -4230,6 +6969,15 @@
     "total_dwelling_units": 117,
     "sold_units_by_type": {
       "4room": 117
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 251
     }
   },
   "617-bt-panjang-ring-rd": {
@@ -4243,6 +6991,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 244
     }
   },
   "618-senja-rd": {
@@ -4256,6 +7013,15 @@
     "total_dwelling_units": 117,
     "sold_units_by_type": {
       "4room": 117
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 290
     }
   },
   "619-bt-panjang-ring-rd": {
@@ -4270,6 +7036,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 276
     }
   },
   "620-bt-panjang-ring-rd": {
@@ -4284,6 +7059,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 338
     }
   },
   "621-senja-rd": {
@@ -4298,6 +7082,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 222
     }
   },
   "622-senja-rd": {
@@ -4312,6 +7105,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 354
     }
   },
   "623-senja-rd": {
@@ -4326,6 +7128,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 283
     }
   },
   "624-senja-rd": {
@@ -4340,6 +7151,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 322
     }
   },
   "625-senja-rd": {
@@ -4354,6 +7174,15 @@
     "sold_units_by_type": {
       "4room": 125,
       "5room": 109
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 377
     }
   },
   "626-senja-rd": {
@@ -4368,6 +7197,15 @@
     "sold_units_by_type": {
       "4room": 126,
       "5room": 108
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 397
     }
   },
   "627-senja-rd": {
@@ -4382,6 +7220,15 @@
     "sold_units_by_type": {
       "4room": 126,
       "5room": 108
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 441
     }
   },
   "629-senja-rd": {
@@ -4396,6 +7243,15 @@
     "sold_units_by_type": {
       "4room": 121,
       "5room": 112
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 529
     }
   },
   "630-senja-rd": {
@@ -4410,6 +7266,15 @@
     "sold_units_by_type": {
       "4room": 122,
       "5room": 112
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 511
     }
   },
   "631-senja-rd": {
@@ -4424,6 +7289,15 @@
     "sold_units_by_type": {
       "4room": 121,
       "5room": 111
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 476
     }
   },
   "632a-senja-rd": {
@@ -4439,6 +7313,16 @@
     "rental_units_by_type": {
       "1room": 109,
       "2room": 54
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 548
     }
   },
   "632b-senja-rd": {
@@ -4454,6 +7338,15 @@
     "rental_units_by_type": {
       "1room": 114,
       "2room": 20
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 401
     }
   },
   "633a-senja-rd": {
@@ -4469,6 +7362,15 @@
       "2room": 48,
       "3room": 47,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 536
     }
   },
   "633b-senja-rd": {
@@ -4482,6 +7384,15 @@
     "total_dwelling_units": 118,
     "sold_units_by_type": {
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 493
     }
   },
   "633c-senja-rd": {
@@ -4495,6 +7406,15 @@
     "total_dwelling_units": 118,
     "sold_units_by_type": {
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 403
     }
   },
   "633d-senja-rd": {
@@ -4510,6 +7430,15 @@
       "2room": 48,
       "3room": 47,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 359
     }
   },
   "634a-senja-rd": {
@@ -4525,6 +7454,16 @@
       "2room": 25,
       "4room": 44,
       "studio_apartment": 107
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 604
     }
   },
   "634b-senja-rd": {
@@ -4540,6 +7479,15 @@
       "2room": 31,
       "4room": 44,
       "studio_apartment": 90
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 572
     }
   },
   "635a-senja-rd": {
@@ -4554,6 +7502,16 @@
     "sold_units_by_type": {
       "4room": 95,
       "5room": 126
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 699
     }
   },
   "635b-senja-rd": {
@@ -4568,6 +7526,15 @@
     "sold_units_by_type": {
       "4room": 130,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 660
     }
   },
   "636a-senja-rd": {
@@ -4582,6 +7549,15 @@
     "sold_units_by_type": {
       "2room": 112,
       "3room": 112
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 616
     }
   },
   "636b-senja-rd": {
@@ -4595,6 +7571,15 @@
     "total_dwelling_units": 171,
     "sold_units_by_type": {
       "4room": 171
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 690
     }
   },
   "636c-senja-rd": {
@@ -4608,6 +7593,15 @@
     "total_dwelling_units": 182,
     "sold_units_by_type": {
       "4room": 182
+    },
+    "nearest_station": {
+      "id": "senja",
+      "name": "Senja",
+      "codes": [
+        "BP13"
+      ],
+      "exit": "Exit A",
+      "distance": 620
     }
   },
   "638a-senja-cl": {
@@ -4622,6 +7616,15 @@
     "sold_units_by_type": {
       "4room": 106,
       "5room": 124
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 442
     }
   },
   "640a-senja-cl": {
@@ -4637,6 +7640,15 @@
       "2room": 202,
       "3room": 68,
       "4room": 148
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 371
     }
   },
   "641a-senja-cl": {
@@ -4652,6 +7664,15 @@
       "2room": 51,
       "3room": 17,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 330
     }
   },
   "643a-senja-cl": {
@@ -4666,6 +7687,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 21
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 276
     }
   },
   "643b-senja-cl": {
@@ -4680,6 +7710,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 263
     }
   },
   "646a-senja-cl": {
@@ -4695,6 +7734,15 @@
     "rental_units_by_type": {
       "1room": 101,
       "2room": 101
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 282
     }
   },
   "647a-senja-cl": {
@@ -4709,6 +7757,15 @@
     "sold_units_by_type": {
       "2room": 234,
       "3room": 70
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 235
     }
   },
   "647b-senja-cl": {
@@ -4724,6 +7781,15 @@
       "2room": 166,
       "3room": 35,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 219
     }
   },
   "650-senja-link": {
@@ -4739,6 +7805,15 @@
       "4room": 17,
       "5room": 49,
       "exec": 38
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 152
     }
   },
   "651-senja-link": {
@@ -4754,6 +7829,15 @@
       "4room": 18,
       "5room": 48,
       "exec": 38
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 116
     }
   },
   "652-senja-link": {
@@ -4769,6 +7853,15 @@
       "4room": 18,
       "5room": 48,
       "exec": 38
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 115
     }
   },
   "653-senja-link": {
@@ -4783,6 +7876,15 @@
     "sold_units_by_type": {
       "5room": 36,
       "exec": 38
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 82
     }
   },
   "654-senja-rd": {
@@ -4798,6 +7900,15 @@
       "4room": 17,
       "5room": 47,
       "exec": 38
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 122
     }
   },
   "655-senja-rd": {
@@ -4813,6 +7924,15 @@
       "4room": 17,
       "5room": 47,
       "exec": 38
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 65
     }
   },
   "656-senja-rd": {
@@ -4827,6 +7947,15 @@
     "sold_units_by_type": {
       "5room": 36,
       "exec": 38
+    },
+    "nearest_station": {
+      "id": "jelapang",
+      "name": "Jelapang",
+      "codes": [
+        "BP12"
+      ],
+      "exit": "Exit A",
+      "distance": 87
     }
   }
 }

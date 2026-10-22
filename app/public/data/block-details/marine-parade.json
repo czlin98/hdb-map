@@ -10,6 +10,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 6",
+      "distance": 310
     }
   },
   "12-marine-ter": {
@@ -23,6 +32,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 213
     }
   },
   "13-marine-ter": {
@@ -36,6 +54,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 268
     }
   },
   "14-marine-ter": {
@@ -49,6 +76,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 327
     }
   },
   "15-marine-ter": {
@@ -65,6 +101,15 @@
     },
     "rental_units_by_type": {
       "2room": 260
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 126
     }
   },
   "16-marine-ter": {
@@ -81,6 +126,15 @@
     },
     "rental_units_by_type": {
       "2room": 254
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 180
     }
   },
   "17-marine-ter": {
@@ -94,6 +148,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 247
     }
   },
   "18-marine-ter": {
@@ -107,6 +170,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 310
     }
   },
   "19-marine-ter": {
@@ -121,6 +193,15 @@
     "sold_units_by_type": {
       "3room": 54,
       "4room": 54
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 209
     }
   },
   "2-marine-ter": {
@@ -134,6 +215,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 6",
+      "distance": 319
     }
   },
   "20-marine-ter": {
@@ -149,6 +239,15 @@
       "3room": 52,
       "4room": 54,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 298
     }
   },
   "27-marine-cres": {
@@ -162,6 +261,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 198
     }
   },
   "28-marine-cres": {
@@ -175,6 +283,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 262
     }
   },
   "29-marine-cres": {
@@ -188,6 +305,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 327
     }
   },
   "3-marine-ter": {
@@ -201,6 +327,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 6",
+      "distance": 340
     }
   },
   "30-marine-cres": {
@@ -215,6 +350,15 @@
     "sold_units_by_type": {
       "3room": 202,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 5",
+      "distance": 275
     }
   },
   "31-marine-cres": {
@@ -229,6 +373,15 @@
     "sold_units_by_type": {
       "3room": 194,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 307
     }
   },
   "32-marine-cres": {
@@ -243,6 +396,15 @@
     "sold_units_by_type": {
       "3room": 180,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 332
     }
   },
   "33-marine-cres": {
@@ -257,6 +419,15 @@
     "sold_units_by_type": {
       "3room": 202,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 369
     }
   },
   "34-marine-cres": {
@@ -271,6 +442,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 54
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 221
     }
   },
   "35-marine-cres": {
@@ -285,6 +465,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 54
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 281
     }
   },
   "4-marine-ter": {
@@ -299,6 +488,15 @@
     "sold_units_by_type": {
       "3room": 146,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 6",
+      "distance": 235
     }
   },
   "43-marine-cres": {
@@ -312,6 +510,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 40
     }
   },
   "44-marine-cres": {
@@ -325,6 +532,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 119
     }
   },
   "45-marine-cres": {
@@ -338,6 +554,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 164
     }
   },
   "46-marine-cres": {
@@ -352,6 +577,15 @@
     "sold_units_by_type": {
       "3room": 108,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 101
     }
   },
   "47-marine-cres": {
@@ -366,6 +600,15 @@
     "sold_units_by_type": {
       "3room": 160,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 81
     }
   },
   "5-marine-ter": {
@@ -380,6 +623,15 @@
     "sold_units_by_type": {
       "3room": 140,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 6",
+      "distance": 280
     }
   },
   "51-marine-ter": {
@@ -394,6 +646,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 270
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 6",
+      "distance": 115
     }
   },
   "52-marine-ter": {
@@ -408,6 +669,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 270
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 152
     }
   },
   "53-marine-ter": {
@@ -422,6 +692,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 270
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 205
     }
   },
   "54-marine-ter": {
@@ -435,6 +714,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 122
     }
   },
   "55-marine-ter": {
@@ -448,6 +736,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "4room": 150
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 93
     }
   },
   "57-marine-ter": {
@@ -462,6 +759,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 50
     }
   },
   "58-marine-ter": {
@@ -476,6 +782,15 @@
     "sold_units_by_type": {
       "3room": 108,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 2",
+      "distance": 93
     }
   },
   "59-marine-ter": {
@@ -489,6 +804,15 @@
     "total_dwelling_units": 150,
     "sold_units_by_type": {
       "3room": 150
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 70
     }
   },
   "6-marine-ter": {
@@ -503,6 +827,15 @@
     "sold_units_by_type": {
       "3room": 150,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 332
     }
   },
   "60-marine-dr": {
@@ -516,6 +849,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 132
     }
   },
   "61-marine-dr": {
@@ -529,6 +871,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 172
     }
   },
   "62-marine-dr": {
@@ -542,6 +893,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 228
     }
   },
   "63-marine-dr": {
@@ -555,6 +915,15 @@
     "total_dwelling_units": 130,
     "sold_units_by_type": {
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 267
     }
   },
   "64-marine-dr": {
@@ -569,6 +938,15 @@
     "sold_units_by_type": {
       "3room": 170,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 307
     }
   },
   "65-marine-dr": {
@@ -583,6 +961,15 @@
     "sold_units_by_type": {
       "3room": 172,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 238
     }
   },
   "66-marine-dr": {
@@ -596,6 +983,15 @@
     "total_dwelling_units": 180,
     "sold_units_by_type": {
       "3room": 180
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 5",
+      "distance": 199
     }
   },
   "67-marine-dr": {
@@ -610,6 +1006,15 @@
     "sold_units_by_type": {
       "3room": 174,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 5",
+      "distance": 137
     }
   },
   "7-marine-ter": {
@@ -623,6 +1028,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "3room": 110
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 6",
+      "distance": 332
     }
   },
   "71-marine-dr": {
@@ -636,6 +1050,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 5",
+      "distance": 118
     }
   },
   "72-marine-dr": {
@@ -649,6 +1072,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 64
     }
   },
   "73-marine-dr": {
@@ -662,6 +1094,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 84
     }
   },
   "74-marine-dr": {
@@ -675,6 +1116,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 92
     }
   },
   "75-marine-dr": {
@@ -688,6 +1138,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 110
     }
   },
   "76-marine-dr": {
@@ -701,6 +1160,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 152
     }
   },
   "77-marine-dr": {
@@ -714,6 +1182,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 269
     }
   },
   "78-marine-dr": {
@@ -727,6 +1204,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 1",
+      "distance": 284
     }
   },
   "79-marine-dr": {
@@ -740,6 +1226,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 1",
+      "distance": 220
     }
   },
   "8-marine-ter": {
@@ -754,6 +1249,15 @@
     "sold_units_by_type": {
       "3room": 106,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "marine-terrace",
+      "name": "Marine Terrace",
+      "codes": [
+        "TE27"
+      ],
+      "exit": "Exit 1",
+      "distance": 255
     }
   },
   "80-marine-parade-ctrl": {
@@ -767,6 +1271,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 6",
+      "distance": 202
     }
   },
   "81-marine-parade-ctrl": {
@@ -783,6 +1296,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 1",
+      "distance": 143
     }
   },
   "83-marine-parade-ctrl": {
@@ -796,6 +1318,15 @@
     "total_dwelling_units": 3,
     "sold_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "marine-parade",
+      "name": "Marine Parade",
+      "codes": [
+        "TE26"
+      ],
+      "exit": "Exit 1",
+      "distance": 55
     }
   }
 }

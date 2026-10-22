@@ -9,10 +9,9 @@ COORD_DECIMALS = 6
 
 
 def to_index_feature(rec: dict) -> dict:
-    lon, lat = round(rec["lon"], COORD_DECIMALS), round(rec["lat"], COORD_DECIMALS)
     return {
         "type": "Feature",
-        "geometry": {"type": "Point", "coordinates": [lon, lat]},
+        "geometry": _point(rec["lon"], rec["lat"]),
         "properties": {
             "id": rec["id"],
             "blk_no": rec["blk_no"],
@@ -25,6 +24,7 @@ def to_index_feature(rec: dict) -> dict:
             # Key order is the display order: transform builds the dicts in that order.
             "sold_types": list(rec["sold_units_by_type"]),
             "rental_types": list(rec["rental_units_by_type"]),
+            "station_distance": rec["station_distance"],
         },
     }
 
@@ -43,6 +43,7 @@ def to_detail_entry(rec: dict) -> dict:
     }
     if rec["rental_units_by_type"]:
         entry["rental_units_by_type"] = rec["rental_units_by_type"]
+    entry["nearest_station"] = rec["nearest_station"]
     return entry
 
 
@@ -54,9 +55,16 @@ def _write_json(path: Path, obj) -> None:
     )
 
 
-def _write_index(path: Path, features: list[dict]) -> None:
-    # The app loads this file whole before the map works, so it is compact; one block per line
-    # (not minified to one line) keeps a monthly change to a block a one-line git diff.
+def _point(lon: float, lat: float) -> dict:
+    return {
+        "type": "Point",
+        "coordinates": [round(lon, COORD_DECIMALS), round(lat, COORD_DECIMALS)],
+    }
+
+
+def _write_feature_collection(path: Path, features: list[dict]) -> None:
+    # The app loads these files whole at startup, so they are compact; one feature per line
+    # (not minified to one line) keeps a monthly change to one feature a one-line git diff.
     lines = [json.dumps(f, ensure_ascii=False, separators=(",", ":")) for f in features]
     body = "\n" + ",\n".join(lines) + "\n" if lines else ""
     path.write_text(
@@ -81,7 +89,7 @@ def write_outputs(records: list[dict], towns: list[dict], app_data_dir: Path | N
     app_data_dir.mkdir(parents=True, exist_ok=True)
 
     features = [to_index_feature(r) for r in sorted(records, key=lambda r: r["id"])]
-    _write_index(app_data_dir / "index.geojson", features)
+    _write_feature_collection(app_data_dir / "index.geojson", features)
 
     shard_dir = app_data_dir / "block-details"
     shard_dir.mkdir(parents=True, exist_ok=True)
@@ -92,6 +100,37 @@ def write_outputs(records: list[dict], towns: list[dict], app_data_dir: Path | N
         _write_json(shard_dir / f"{slug}.json", by_slug.get(slug, {}))
 
     _write_json(app_data_dir / "towns.json", towns)
+
+
+def write_stations(stations: list[dict], app_data_dir: Path | None = None) -> None:
+    app_data_dir = Path(app_data_dir or config.APP_DATA_DIR)
+
+    ordered = sorted(stations, key=lambda s: s["id"])
+    features = [
+        {
+            "type": "Feature",
+            "geometry": _point(s["lon"], s["lat"]),
+            "properties": {
+                "kind": "station",
+                "id": s["id"],
+                "name": s["name"],
+                "codes": s["codes"],
+            },
+        }
+        for s in ordered
+    ]
+    exits = []
+    for s in ordered:
+        for e in s["exits"]:
+            point = _point(e["lon"], e["lat"])
+            # An exit name can repeat at separate entrances, so the coordinates finish the order.
+            key = (s["id"], e["exit"], point["coordinates"])
+            exits.append((key, point, {"kind": "exit", "station": s["id"], "exit": e["exit"]}))
+    exits.sort(key=lambda x: x[0])
+    features += [{"type": "Feature", "geometry": g, "properties": p} for _, g, p in exits]
+
+    app_data_dir.mkdir(parents=True, exist_ok=True)
+    _write_feature_collection(app_data_dir / "stations.geojson", features)
 
 
 def write_meta(data_accessed: str, app_data_dir: Path | None = None) -> None:

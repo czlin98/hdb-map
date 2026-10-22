@@ -3,9 +3,11 @@ import { useEffect, useRef, type RefObject } from "react";
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { FeatureCollection } from "geojson";
-import type { IndexFeatureCollection } from "../types/contract";
-import { circleColor, COLOR_SCALES, type ColorMode } from "../lib/coloring";
+import type { IndexFeatureCollection, StationFeatureCollection } from "../types/contract";
+import { circleColor, COLOR_SCALES, type ColorMode, type ColorScale } from "../lib/coloring";
 import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
+import { drawStationChips } from "../lib/station-chips";
+import { isLrtOnly } from "../lib/lines";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Island view: drives the initial fit and the zoom floor. Centered on the main island's
@@ -36,6 +38,17 @@ interface Props {
   // Mobile only: the open credits span the screen, so they make way for the legend.
   collapseCreditsOnColor?: boolean;
   filters?: Filters;
+  // Optional: the map works without it, so a failed load only loses the stations.
+  stations?: StationFeatureCollection | null;
+  // The selected block's nearest exit, marked and joined to the block by a dashed line.
+  nearestExit?: NearestExit | null;
+}
+
+export interface NearestExit {
+  lon: number;
+  lat: number;
+  station: string; // station id
+  exit: string;
 }
 
 // Any lower and a dense estate reads as a wall of text.
@@ -99,7 +112,7 @@ function labelLayout(radius: [number, number]) {
 
 type TooltipProps = Pick<
   IndexFeatureCollection["features"][number]["properties"],
-  "blk_no" | "street" | "year_completed" | "max_floor_lvl"
+  "blk_no" | "street" | ColorScale["property"]
 >;
 
 // The address, followed by the colored value while a mode is on. Built from DOM nodes rather
@@ -115,6 +128,210 @@ function tooltipContent(p: TooltipProps, mode: ColorMode) {
     el.append(value);
   }
   return el;
+}
+
+const CHIP_IMAGE_PREFIX = "chips-";
+
+const IS_EXIT: maplibregl.ExpressionSpecification = ["==", ["get", "kind"], "exit"];
+
+// The highlighted exit has its own bold label, so drop its plain one. Matching on the name
+// also drops the label of any other entrance that shares it.
+function exitLabelFilter(nearest: NearestExit | null): maplibregl.FilterSpecification {
+  if (!nearest) return IS_EXIT;
+  return [
+    "all",
+    IS_EXIT,
+    [
+      "!",
+      ["all", ["==", ["get", "station"], nearest.station], ["==", ["get", "exit"], nearest.exit]],
+    ],
+  ];
+}
+
+function nearestExitData(
+  nearest: NearestExit | null,
+  block: [number, number] | undefined,
+): FeatureCollection {
+  if (!nearest) return { type: "FeatureCollection", features: [] };
+  const point = [nearest.lon, nearest.lat];
+  return {
+    type: "FeatureCollection",
+    features: [
+      ...(block
+        ? [
+            {
+              type: "Feature" as const,
+              geometry: { type: "LineString" as const, coordinates: [block, point] },
+              properties: {},
+            },
+          ]
+        : []),
+      {
+        type: "Feature",
+        geometry: { type: "Point", coordinates: point },
+        properties: { exit: nearest.exit },
+      },
+    ],
+  };
+}
+
+// Under the selected block, above every other marker. The label is always shown, like the
+// selected block's.
+function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
+  map.addSource("nearest-exit", { type: "geojson", data });
+  map.addLayer(
+    {
+      id: "nearest-exit-line",
+      type: "line",
+      source: "nearest-exit",
+      filter: ["==", ["geometry-type"], "LineString"],
+      paint: { "line-color": "#92400e", "line-width": 1.5, "line-dasharray": [2, 2] },
+    },
+    "blocks-highlight",
+  );
+  map.addLayer(
+    {
+      id: "nearest-exit-circle",
+      type: "circle",
+      source: "nearest-exit",
+      filter: ["==", ["geometry-type"], "Point"],
+      paint: {
+        "circle-radius": 5,
+        "circle-color": "#ffffff",
+        "circle-stroke-width": 2.5,
+        "circle-stroke-color": "#d97706",
+      },
+    },
+    "blocks-highlight",
+  );
+  map.addLayer(
+    {
+      id: "nearest-exit-label",
+      type: "symbol",
+      source: "nearest-exit",
+      filter: ["==", ["geometry-type"], "Point"],
+      layout: {
+        "text-field": ["get", "exit"],
+        "text-font": ["Noto Sans Bold"],
+        "text-size": 11,
+        "text-variable-anchor": ["left", "right", "top", "bottom"],
+        "text-radial-offset": 0.9,
+        "text-justify": "auto",
+        "text-allow-overlap": true,
+      },
+      paint: { "text-color": "#92400e", "text-halo-color": "#ffffff", "text-halo-width": 2 },
+    },
+    "blocks-highlight-label",
+  );
+}
+
+// Stations sit above the block dots but below the nearest-exit highlight and the selected
+// block; exits, plainer, sit under every block. Symbol layers higher in the stack are placed
+// first, so station names win over block numbers, and block numbers over exit names.
+function addStationLayers(
+  map: maplibregl.Map,
+  stations: StationFeatureCollection,
+  nearest: NearestExit | null,
+) {
+  const lrtIds: string[] = [];
+  for (const f of stations.features) {
+    const p = f.properties;
+    if (p.kind !== "station") continue;
+    if (isLrtOnly(p.codes)) lrtIds.push(p.id);
+    const chips = drawStationChips(p.codes, window.devicePixelRatio);
+    if (chips)
+      map.addImage(CHIP_IMAGE_PREFIX + p.id, chips, { pixelRatio: window.devicePixelRatio });
+  }
+  map.addSource("stations", { type: "geojson", data: stations as unknown as FeatureCollection });
+  const isStation: maplibregl.FilterSpecification = ["==", ["get", "kind"], "station"];
+  map.addLayer(
+    {
+      id: "exits",
+      type: "circle",
+      source: "stations",
+      filter: IS_EXIT,
+      minzoom: LABEL_MIN_ZOOM,
+      paint: {
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 15, 2.5, 17, 4],
+        "circle-color": "#6b7280",
+        "circle-stroke-width": 1,
+        "circle-stroke-color": "#ffffff",
+      },
+    },
+    "blocks-circles",
+  );
+  map.addLayer(
+    {
+      id: "exits-labels",
+      type: "symbol",
+      source: "stations",
+      filter: exitLabelFilter(nearest),
+      minzoom: LABEL_MIN_ZOOM,
+      layout: {
+        "text-field": ["get", "exit"],
+        "text-font": ["Noto Sans Regular"],
+        "text-size": 10,
+        "text-variable-anchor": ["left", "right", "top", "bottom"],
+        "text-radial-offset": 0.6,
+        "text-justify": "auto",
+      },
+      paint: { "text-color": "#4b5563", "text-halo-color": "#ffffff", "text-halo-width": 1.5 },
+    },
+    "blocks-labels",
+  );
+  // From zoom 12: hidden only at the island view, where 185 rings would bury the blocks.
+  map.addLayer(
+    {
+      id: "stations-circles",
+      type: "circle",
+      source: "stations",
+      filter: isStation,
+      minzoom: 12,
+      paint: {
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 3, 14, 5, 17, 8],
+        "circle-color": "#ffffff",
+        "circle-stroke-width": 2,
+        "circle-stroke-color": "#374151",
+      },
+    },
+    "nearest-exit-line",
+  );
+  // LRT loops put a stop every few hundred metres, so their names wait a step to keep the MRT
+  // names readable. A station shared with an MRT line counts as MRT.
+  const isLrt: maplibregl.ExpressionSpecification = ["in", ["get", "id"], ["literal", lrtIds]];
+  const labelLayers: [string, maplibregl.FilterSpecification, number][] = [
+    ["stations-labels", ["all", isStation, ["!", isLrt]], 13],
+    ["stations-labels-lrt", ["all", isStation, isLrt], 14],
+  ];
+  for (const [id, filter, minzoom] of labelLayers)
+    map.addLayer(
+      {
+        id,
+        type: "symbol",
+        source: "stations",
+        filter,
+        minzoom,
+        layout: {
+          "text-field": [
+            "format",
+            ["get", "name"],
+            {},
+            "\n",
+            {},
+            ["image", ["concat", CHIP_IMAGE_PREFIX, ["get", "id"]]],
+            {},
+          ],
+          "text-font": ["Noto Sans Bold"],
+          "text-size": ["interpolate", ["linear"], ["zoom"], 13, 11, 17, 14],
+          "text-variable-anchor": ["top", "bottom", "left", "right"],
+          "text-radial-offset": 0.8,
+          "text-padding": 2,
+          "text-justify": "auto",
+        },
+        paint: { "text-color": "#111827", "text-halo-color": "#ffffff", "text-halo-width": 2 },
+      },
+      "nearest-exit-label",
+    );
 }
 
 // MapLibre has no public way to collapse the compact credits, so press its own ⓘ button.
@@ -134,6 +351,8 @@ export function MapView({
   colorMode = "none",
   collapseCreditsOnColor = false,
   filters = EMPTY_FILTERS,
+  stations = null,
+  nearestExit = null,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -151,6 +370,10 @@ export function MapView({
   filtersRef.current = filters;
   const selectedIdRef = useRef(selectedId);
   selectedIdRef.current = selectedId;
+  const stationsRef = useRef(stations);
+  stationsRef.current = stations;
+  const nearestExitRef = useRef(nearestExit);
+  nearestExitRef.current = nearestExit;
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -186,7 +409,7 @@ export function MapView({
         type: "geojson",
         data: dataRef.current,
         cluster: false,
-        attribution: "© HDB, OneMap/SLA",
+        attribution: "© HDB, LTA, OneMap/SLA",
       });
       map.addLayer({
         id: "blocks-circles",
@@ -249,6 +472,14 @@ export function MapView({
           "text-halo-width": 1.5,
         },
       });
+      const selected = dataRef.current.features.find(
+        (f) => f.properties.id === selectedIdRef.current,
+      );
+      addNearestExitLayers(
+        map,
+        nearestExitData(nearestExitRef.current, selected?.geometry.coordinates),
+      );
+      if (stationsRef.current) addStationLayers(map, stationsRef.current, nearestExitRef.current);
       // The constructor's fit ran before layout settled, leaving the opening view too zoomed
       // in (most visibly on mobile), so re-frame at the final size.
       map.resize();
@@ -322,6 +553,22 @@ export function MapView({
   useEffect(() => {
     if (selectedId) collapseOpenCredits(containerRef.current);
   }, [selectedId]);
+
+  // Stations that arrive after load. Loaded once per visit, so they are never replaced.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !stations || !map.getLayer("blocks-circles") || map.getSource("stations")) return;
+    addStationLayers(map, stations, nearestExitRef.current);
+  }, [stations]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    const src = map?.getSource("nearest-exit") as maplibregl.GeoJSONSource | undefined;
+    if (!map || !src) return;
+    const selected = data.features.find((f) => f.properties.id === selectedId);
+    src.setData(nearestExitData(nearestExit, selected?.geometry.coordinates));
+    if (map.getLayer("exits-labels")) map.setFilter("exits-labels", exitLabelFilter(nearestExit));
+  }, [nearestExit, selectedId, data]);
 
   useEffect(() => {
     const src = mapRef.current?.getSource("blocks") as maplibregl.GeoJSONSource | undefined;

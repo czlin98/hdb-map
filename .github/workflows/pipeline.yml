@@ -63,6 +63,8 @@ jobs:
             COUNTS_JQ='"+\(.added) -\(.removed) ~\(.changed)"'
             if [ "$KIND" = "refresh" ] && COUNTS=$(jq -er "$COUNTS_JQ" "$SUMMARY" 2>/dev/null); then
               SUBJECT="chore(data): $RUN_TYPE HDB data refresh ($DATE): $COUNTS"
+            elif [ "$KIND" = "stations" ]; then
+              SUBJECT="chore(data): $RUN_TYPE check, station data changed ($DATE)"
             elif [ "$KIND" = "failures" ]; then
               SUBJECT="chore(data): $RUN_TYPE check, failed blocks changed ($DATE)"
             else

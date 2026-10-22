@@ -12,6 +12,15 @@
       "3room": 68,
       "4room": 48,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 531
     }
   },
   "10-teck-whye-ave": {
@@ -27,6 +36,15 @@
       "3room": 130,
       "4room": 22,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 396
     }
   },
   "101-teck-whye-lane": {
@@ -40,6 +58,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "exec": 66
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 154
     }
   },
   "102-teck-whye-lane": {
@@ -54,6 +81,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 86
     }
   },
   "103-teck-whye-lane": {
@@ -68,6 +104,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 70
     }
   },
   "104-teck-whye-lane": {
@@ -82,6 +127,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 121
     }
   },
   "105-teck-whye-lane": {
@@ -99,6 +153,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 152
     }
   },
   "106-teck-whye-lane": {
@@ -113,6 +176,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 184
     }
   },
   "107-teck-whye-lane": {
@@ -126,6 +198,15 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "exec": 54
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 168
     }
   },
   "108-teck-whye-lane": {
@@ -139,6 +220,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 219
     }
   },
   "109-teck-whye-lane": {
@@ -152,6 +242,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 303
     }
   },
   "11-teck-whye-lane": {
@@ -165,6 +264,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 378
     }
   },
   "110-teck-whye-lane": {
@@ -179,6 +287,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 259
     }
   },
   "111-teck-whye-lane": {
@@ -193,6 +310,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 241
     }
   },
   "112-teck-whye-lane": {
@@ -207,6 +333,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 235
     }
   },
   "113-teck-whye-lane": {
@@ -221,6 +356,15 @@
     "sold_units_by_type": {
       "4room": 71,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 197
     }
   },
   "114-teck-whye-lane": {
@@ -235,6 +379,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 165
     }
   },
   "115-teck-whye-lane": {
@@ -249,6 +402,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 224
     }
   },
   "116-teck-whye-lane": {
@@ -263,6 +425,15 @@
     "sold_units_by_type": {
       "4room": 49,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 290
     }
   },
   "117-teck-whye-lane": {
@@ -277,6 +448,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 259
     }
   },
   "118-teck-whye-lane": {
@@ -291,6 +471,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 222
     }
   },
   "119-teck-whye-lane": {
@@ -305,6 +494,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 155
     }
   },
   "12-teck-whye-lane": {
@@ -318,6 +516,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 302
     }
   },
   "120-teck-whye-lane": {
@@ -331,6 +538,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 131
     }
   },
   "121-teck-whye-lane": {
@@ -345,6 +561,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 100
     }
   },
   "122-teck-whye-lane": {
@@ -359,6 +584,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 45
     }
   },
   "123-teck-whye-lane": {
@@ -373,6 +607,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 85
     }
   },
   "124-teck-whye-lane": {
@@ -387,6 +630,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 188
     }
   },
   "13-teck-whye-lane": {
@@ -400,6 +652,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 270
     }
   },
   "130-choa-chu-kang-ave-1": {
@@ -414,6 +675,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 336
     }
   },
   "131-choa-chu-kang-ave-1": {
@@ -428,6 +698,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 388
     }
   },
   "132-choa-chu-kang-ave-1": {
@@ -442,6 +721,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 337
     }
   },
   "133-teck-whye-lane": {
@@ -455,6 +743,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 337
     }
   },
   "134-teck-whye-lane": {
@@ -468,6 +765,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "exec": 56
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 278
     }
   },
   "135-teck-whye-lane": {
@@ -482,6 +788,15 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 340
     }
   },
   "136-teck-whye-lane": {
@@ -496,6 +811,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 318
     }
   },
   "137-teck-whye-lane": {
@@ -510,6 +834,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 21
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 403
     }
   },
   "14-teck-whye-lane": {
@@ -523,6 +856,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 287
     }
   },
   "141-teck-whye-lane": {
@@ -537,6 +879,15 @@
     "sold_units_by_type": {
       "4room": 33,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 431
     }
   },
   "142-teck-whye-lane": {
@@ -551,6 +902,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 398
     }
   },
   "144-teck-whye-lane": {
@@ -565,6 +925,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 447
     }
   },
   "15-teck-whye-lane": {
@@ -578,6 +947,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 303
     }
   },
   "150-jln-teck-whye": {
@@ -591,6 +969,15 @@
     "total_dwelling_units": 105,
     "sold_units_by_type": {
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 205
     }
   },
   "151-jln-teck-whye": {
@@ -604,6 +991,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 114
     }
   },
   "152-jln-teck-whye": {
@@ -617,6 +1013,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 34
     }
   },
   "153-jln-teck-whye": {
@@ -630,6 +1035,15 @@
     "total_dwelling_units": 126,
     "sold_units_by_type": {
       "2room": 126
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 69
     }
   },
   "154-jln-teck-whye": {
@@ -644,6 +1058,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 128
     }
   },
   "155-jln-teck-whye": {
@@ -658,6 +1081,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 126
     }
   },
   "156-jln-teck-whye": {
@@ -671,6 +1103,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 181
     }
   },
   "157-jln-teck-whye": {
@@ -684,6 +1125,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 175
     }
   },
   "158-jln-teck-whye": {
@@ -698,6 +1148,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 210
     }
   },
   "159-jln-teck-whye": {
@@ -712,6 +1171,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 267
     }
   },
   "16-teck-whye-lane": {
@@ -727,6 +1195,15 @@
       "3room": 118,
       "4room": 20,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 227
     }
   },
   "160-jln-teck-whye": {
@@ -741,6 +1218,15 @@
     "sold_units_by_type": {
       "4room": 102,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 315
     }
   },
   "161a-jln-teck-whye": {
@@ -755,6 +1241,16 @@
     "sold_units_by_type": {
       "2room": 126,
       "3room": 42
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 124
     }
   },
   "161b-jln-teck-whye": {
@@ -768,6 +1264,15 @@
     "total_dwelling_units": 119,
     "sold_units_by_type": {
       "4room": 119
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 140
     }
   },
   "161c-jln-teck-whye": {
@@ -783,6 +1288,16 @@
       "2room": 126,
       "3room": 42,
       "4room": 119
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 141
     }
   },
   "162-jln-teck-whye": {
@@ -797,6 +1312,16 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "bukit-panjang",
+      "name": "Bukit Panjang",
+      "codes": [
+        "DT1",
+        "BP6"
+      ],
+      "exit": "MRT Exit A",
+      "distance": 213
     }
   },
   "163-jln-teck-whye": {
@@ -810,6 +1335,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "exec": 88
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 295
     }
   },
   "164-jln-teck-whye": {
@@ -823,6 +1357,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "exec": 90
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 352
     }
   },
   "165a-teck-whye-cres": {
@@ -838,6 +1381,15 @@
     "rental_units_by_type": {
       "1room": 173,
       "2room": 117
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 673
     }
   },
   "166a-teck-whye-cres": {
@@ -852,6 +1404,15 @@
     "sold_units_by_type": {
       "2room": 84,
       "3room": 65
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 683
     }
   },
   "166b-teck-whye-cres": {
@@ -866,6 +1427,15 @@
     "sold_units_by_type": {
       "2room": 76,
       "3room": 57
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 698
     }
   },
   "17-teck-whye-lane": {
@@ -879,6 +1449,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 293
     }
   },
   "18-teck-whye-lane": {
@@ -892,6 +1471,15 @@
     "total_dwelling_units": 77,
     "sold_units_by_type": {
       "5room": 77
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 195
     }
   },
   "19-teck-whye-lane": {
@@ -908,6 +1496,15 @@
       "4room": 22,
       "5room": 1,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 329
     }
   },
   "2-teck-whye-ave": {
@@ -922,6 +1519,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 482
     }
   },
   "20-teck-whye-lane": {
@@ -935,6 +1541,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 254
     }
   },
   "201-choa-chu-kang-ave-1": {
@@ -948,6 +1563,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 410
     }
   },
   "202-choa-chu-kang-ave-1": {
@@ -961,6 +1585,15 @@
     "total_dwelling_units": 118,
     "sold_units_by_type": {
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 376
     }
   },
   "203-choa-chu-kang-ave-1": {
@@ -974,6 +1607,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "exec": 50
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 320
     }
   },
   "204-choa-chu-kang-ave-1": {
@@ -987,6 +1629,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 259
     }
   },
   "205-choa-chu-kang-ctrl": {
@@ -1001,6 +1652,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 284
     }
   },
   "206-choa-chu-kang-ctrl": {
@@ -1015,6 +1675,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 264
     }
   },
   "207-choa-chu-kang-ctrl": {
@@ -1028,6 +1697,15 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "exec": 54
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 303
     }
   },
   "208-choa-chu-kang-ctrl": {
@@ -1041,6 +1719,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 353
     }
   },
   "209-choa-chu-kang-ctrl": {
@@ -1054,6 +1741,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 427
     }
   },
   "210-choa-chu-kang-ctrl": {
@@ -1067,6 +1763,15 @@
     "total_dwelling_units": 118,
     "sold_units_by_type": {
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 400
     }
   },
   "211-choa-chu-kang-ctrl": {
@@ -1080,6 +1785,15 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 359
     }
   },
   "212-choa-chu-kang-ctrl": {
@@ -1094,6 +1808,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 346
     }
   },
   "213-choa-chu-kang-ctrl": {
@@ -1108,6 +1831,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 312
     }
   },
   "214-choa-chu-kang-ctrl": {
@@ -1121,6 +1853,16 @@
     "total_dwelling_units": 62,
     "sold_units_by_type": {
       "exec": 62
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 323
     }
   },
   "215-choa-chu-kang-ctrl": {
@@ -1134,6 +1876,16 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 350
     }
   },
   "216-choa-chu-kang-ctrl": {
@@ -1147,6 +1899,16 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 339
     }
   },
   "217-choa-chu-kang-ctrl": {
@@ -1160,6 +1922,16 @@
     "total_dwelling_units": 99,
     "sold_units_by_type": {
       "4room": 99
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 275
     }
   },
   "218-choa-chu-kang-ctrl": {
@@ -1173,6 +1945,16 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 248
     }
   },
   "219-choa-chu-kang-ctrl": {
@@ -1186,6 +1968,15 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "4room": 54
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 246
     }
   },
   "220-choa-chu-kang-ctrl": {
@@ -1200,6 +1991,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 187
     }
   },
   "221-choa-chu-kang-ctrl": {
@@ -1214,6 +2014,15 @@
     "sold_units_by_type": {
       "4room": 3,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 213
     }
   },
   "223-choa-chu-kang-ctrl": {
@@ -1228,6 +2037,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 144
     }
   },
   "224-choa-chu-kang-ctrl": {
@@ -1242,6 +2060,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 70
     }
   },
   "225-choa-chu-kang-ctrl": {
@@ -1256,6 +2083,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 89
     }
   },
   "226-choa-chu-kang-ctrl": {
@@ -1270,6 +2106,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 96
     }
   },
   "227-choa-chu-kang-ctrl": {
@@ -1284,6 +2129,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 136
     }
   },
   "228-choa-chu-kang-ctrl": {
@@ -1298,6 +2152,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 170
     }
   },
   "229-choa-chu-kang-ctrl": {
@@ -1312,6 +2175,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 146
     }
   },
   "230-choa-chu-kang-ctrl": {
@@ -1325,6 +2197,15 @@
     "total_dwelling_units": 118,
     "sold_units_by_type": {
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 121
     }
   },
   "231-choa-chu-kang-ctrl": {
@@ -1338,6 +2219,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 116
     }
   },
   "232-choa-chu-kang-ctrl": {
@@ -1351,6 +2241,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 224
     }
   },
   "233-choa-chu-kang-ctrl": {
@@ -1364,6 +2263,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 244
     }
   },
   "234-choa-chu-kang-ctrl": {
@@ -1378,6 +2286,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 228
     }
   },
   "235-choa-chu-kang-ctrl": {
@@ -1391,6 +2308,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 153
     }
   },
   "236-choa-chu-kang-ctrl": {
@@ -1405,6 +2331,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 188
     }
   },
   "237-choa-chu-kang-ctrl": {
@@ -1418,6 +2353,15 @@
     "total_dwelling_units": 118,
     "sold_units_by_type": {
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 151
     }
   },
   "238-choa-chu-kang-ctrl": {
@@ -1431,6 +2375,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 136
     }
   },
   "239-choa-chu-kang-ctrl": {
@@ -1445,6 +2398,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 216
     }
   },
   "248-choa-chu-kang-ave-2": {
@@ -1459,6 +2421,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 172
     }
   },
   "249-choa-chu-kang-ave-2": {
@@ -1473,6 +2444,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 91
     }
   },
   "25-teck-whye-lane": {
@@ -1486,6 +2466,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 219
     }
   },
   "250-choa-chu-kang-ave-2": {
@@ -1500,6 +2489,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 116
     }
   },
   "251-choa-chu-kang-ave-2": {
@@ -1514,6 +2512,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 233
     }
   },
   "252-choa-chu-kang-ave-2": {
@@ -1528,6 +2535,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 254
     }
   },
   "254-choa-chu-kang-ave-2": {
@@ -1542,6 +2558,15 @@
     "sold_units_by_type": {
       "4room": 13,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 269
     }
   },
   "26-teck-whye-lane": {
@@ -1557,6 +2582,15 @@
       "3room": 122,
       "4room": 20,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 243
     }
   },
   "271-choa-chu-kang-ave-2": {
@@ -1570,6 +2604,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 338
     }
   },
   "272-choa-chu-kang-ave-2": {
@@ -1583,6 +2626,15 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "exec": 51
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 300
     }
   },
   "273-choa-chu-kang-ave-2": {
@@ -1596,6 +2648,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 254
     }
   },
   "274-choa-chu-kang-ave-2": {
@@ -1609,6 +2670,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "exec": 63
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 270
     }
   },
   "275-choa-chu-kang-ave-2": {
@@ -1622,6 +2692,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 340
     }
   },
   "276-choa-chu-kang-ave-2": {
@@ -1636,6 +2715,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 120
     }
   },
   "277-choa-chu-kang-ave-2": {
@@ -1650,6 +2738,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 74
     }
   },
   "278-choa-chu-kang-ave-3": {
@@ -1664,6 +2761,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 184
     }
   },
   "279-choa-chu-kang-ave-3": {
@@ -1678,6 +2784,15 @@
     "sold_units_by_type": {
       "4room": 17,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 190
     }
   },
   "280-choa-chu-kang-ave-3": {
@@ -1691,6 +2806,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 247
     }
   },
   "281-choa-chu-kang-ave-3": {
@@ -1704,6 +2828,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 278
     }
   },
   "282-choa-chu-kang-ave-3": {
@@ -1717,6 +2850,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "exec": 84
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 210
     }
   },
   "283-choa-chu-kang-ave-3": {
@@ -1730,6 +2872,15 @@
     "total_dwelling_units": 141,
     "sold_units_by_type": {
       "4room": 141
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 257
     }
   },
   "284-choa-chu-kang-ave-3": {
@@ -1743,6 +2894,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 337
     }
   },
   "285-choa-chu-kang-ave-3": {
@@ -1756,6 +2916,15 @@
     "total_dwelling_units": 99,
     "sold_units_by_type": {
       "4room": 99
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 358
     }
   },
   "286-choa-chu-kang-ave-3": {
@@ -1769,6 +2938,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 405
     }
   },
   "287-choa-chu-kang-ave-2": {
@@ -1782,6 +2960,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 422
     }
   },
   "288-choa-chu-kang-ave-3": {
@@ -1795,6 +2982,15 @@
     "total_dwelling_units": 119,
     "sold_units_by_type": {
       "4room": 119
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 479
     }
   },
   "289-choa-chu-kang-ave-3": {
@@ -1808,6 +3004,15 @@
     "total_dwelling_units": 99,
     "sold_units_by_type": {
       "4room": 99
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 493
     }
   },
   "290-choa-chu-kang-ave-3": {
@@ -1821,6 +3026,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 546
     }
   },
   "291-choa-chu-kang-ave-3": {
@@ -1834,6 +3048,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 616
     }
   },
   "292-choa-chu-kang-ave-3": {
@@ -1847,6 +3070,15 @@
     "total_dwelling_units": 10,
     "sold_units_by_type": {
       "exec": 10
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 636
     }
   },
   "293-choa-chu-kang-ave-3": {
@@ -1860,6 +3092,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 590
     }
   },
   "294-choa-chu-kang-ave-2": {
@@ -1873,6 +3114,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 497
     }
   },
   "295-choa-chu-kang-ave-2": {
@@ -1886,6 +3136,15 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 518
     }
   },
   "296-choa-chu-kang-ave-2": {
@@ -1901,6 +3160,15 @@
       "4room": 57,
       "5room": 16,
       "exec": 11
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 581
     }
   },
   "296a-choa-chu-kang-ave-2": {
@@ -1916,6 +3184,15 @@
       "4room": 56,
       "5room": 16,
       "exec": 11
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 582
     }
   },
   "296b-choa-chu-kang-ave-2": {
@@ -1931,6 +3208,15 @@
       "4room": 22,
       "5room": 22,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 555
     }
   },
   "296c-choa-chu-kang-ave-2": {
@@ -1946,6 +3232,15 @@
       "4room": 22,
       "5room": 22,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 519
     }
   },
   "296d-choa-chu-kang-ave-2": {
@@ -1960,6 +3255,15 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 469
     }
   },
   "296e-choa-chu-kang-ave-2": {
@@ -1974,6 +3278,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 442
     }
   },
   "297-choa-chu-kang-ave-2": {
@@ -1988,6 +3301,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 505
     }
   },
   "297a-choa-chu-kang-ave-2": {
@@ -2002,6 +3324,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 488
     }
   },
   "297b-choa-chu-kang-ave-2": {
@@ -2016,6 +3347,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 398
     }
   },
   "297c-choa-chu-kang-ave-2": {
@@ -2030,6 +3370,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 359
     }
   },
   "297d-choa-chu-kang-ave-2": {
@@ -2044,6 +3393,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 336
     }
   },
   "3-teck-whye-ave": {
@@ -2058,6 +3416,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 578
     }
   },
   "305-choa-chu-kang-ave-4": {
@@ -2071,6 +3438,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 175
     }
   },
   "306-choa-chu-kang-ave-4": {
@@ -2085,6 +3462,16 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 144
     }
   },
   "307-choa-chu-kang-ave-4": {
@@ -2099,6 +3486,16 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 157
     }
   },
   "308-choa-chu-kang-ave-4": {
@@ -2113,6 +3510,16 @@
     "sold_units_by_type": {
       "4room": 2,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 150
     }
   },
   "340-choa-chu-kang-loop": {
@@ -2127,6 +3534,16 @@
     "sold_units_by_type": {
       "4room": 71,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 127
     }
   },
   "341-choa-chu-kang-loop": {
@@ -2140,6 +3557,16 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "exec": 65
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "LRT Exit E",
+      "distance": 184
     }
   },
   "342-choa-chu-kang-loop": {
@@ -2153,6 +3580,16 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "exec": 65
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 229
     }
   },
   "343-choa-chu-kang-loop": {
@@ -2166,6 +3603,16 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 189
     }
   },
   "344-choa-chu-kang-loop": {
@@ -2179,6 +3626,16 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 163
     }
   },
   "345-choa-chu-kang-loop": {
@@ -2192,6 +3649,16 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 202
     }
   },
   "346-choa-chu-kang-loop": {
@@ -2206,6 +3673,16 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 122
     }
   },
   "350-choa-chu-kang-ctrl": {
@@ -2219,6 +3696,16 @@
     "total_dwelling_units": 14,
     "sold_units_by_type": {
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 163
     }
   },
   "351-choa-chu-kang-ctrl": {
@@ -2232,6 +3719,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 197
     }
   },
   "352-choa-chu-kang-ctrl": {
@@ -2246,6 +3743,16 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 244
     }
   },
   "353-choa-chu-kang-ctrl": {
@@ -2260,6 +3767,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 277
     }
   },
   "354-choa-chu-kang-ctrl": {
@@ -2274,6 +3790,16 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 240
     }
   },
   "355-choa-chu-kang-ctrl": {
@@ -2288,6 +3814,16 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 181
     }
   },
   "4-teck-whye-ave": {
@@ -2302,6 +3838,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 555
     }
   },
   "401-choa-chu-kang-ave-3": {
@@ -2315,6 +3860,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 598
     }
   },
   "402-choa-chu-kang-ave-3": {
@@ -2328,6 +3882,15 @@
     "total_dwelling_units": 85,
     "sold_units_by_type": {
       "4room": 85
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 642
     }
   },
   "403-choa-chu-kang-ave-3": {
@@ -2341,6 +3904,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 697
     }
   },
   "404-choa-chu-kang-ave-3": {
@@ -2354,6 +3926,15 @@
     "total_dwelling_units": 83,
     "sold_units_by_type": {
       "4room": 83
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 691
     }
   },
   "405-choa-chu-kang-ave-3": {
@@ -2367,6 +3948,15 @@
     "total_dwelling_units": 79,
     "sold_units_by_type": {
       "4room": 79
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 628
     }
   },
   "406-choa-chu-kang-ave-3": {
@@ -2380,6 +3970,15 @@
     "total_dwelling_units": 118,
     "sold_units_by_type": {
       "4room": 118
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 544
     }
   },
   "407-choa-chu-kang-ave-3": {
@@ -2393,6 +3992,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 475
     }
   },
   "408-choa-chu-kang-ave-3": {
@@ -2406,6 +4014,15 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "4room": 94
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 517
     }
   },
   "409-choa-chu-kang-ave-3": {
@@ -2419,6 +4036,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 370
     }
   },
   "410-choa-chu-kang-ave-3": {
@@ -2432,6 +4058,15 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "4room": 94
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 400
     }
   },
   "411-choa-chu-kang-ave-3": {
@@ -2445,6 +4080,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 435
     }
   },
   "412-choa-chu-kang-ave-3": {
@@ -2458,6 +4102,15 @@
     "total_dwelling_units": 129,
     "sold_units_by_type": {
       "4room": 129
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 345
     }
   },
   "413-choa-chu-kang-ave-3": {
@@ -2471,6 +4124,15 @@
     "total_dwelling_units": 116,
     "sold_units_by_type": {
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 303
     }
   },
   "414-choa-chu-kang-ave-4": {
@@ -2485,6 +4147,16 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 366
     }
   },
   "415-choa-chu-kang-ave-4": {
@@ -2499,6 +4171,16 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 305
     }
   },
   "416-choa-chu-kang-ave-4": {
@@ -2513,6 +4195,16 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 300
     }
   },
   "417-choa-chu-kang-ave-4": {
@@ -2527,6 +4219,16 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 369
     }
   },
   "418-choa-chu-kang-ave-4": {
@@ -2541,6 +4243,16 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 426
     }
   },
   "419-choa-chu-kang-ave-4": {
@@ -2554,6 +4266,15 @@
     "total_dwelling_units": 65,
     "sold_units_by_type": {
       "exec": 65
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 432
     }
   },
   "420-choa-chu-kang-ave-4": {
@@ -2567,6 +4288,15 @@
     "total_dwelling_units": 75,
     "sold_units_by_type": {
       "exec": 75
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 434
     }
   },
   "421-choa-chu-kang-ave-4": {
@@ -2581,6 +4311,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 511
     }
   },
   "422-choa-chu-kang-ave-4": {
@@ -2595,6 +4334,16 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 469
     }
   },
   "423-choa-chu-kang-ave-4": {
@@ -2609,6 +4358,16 @@
     "sold_units_by_type": {
       "4room": 93,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 544
     }
   },
   "424-choa-chu-kang-ave-4": {
@@ -2623,6 +4382,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 548
     }
   },
   "425-choa-chu-kang-ave-4": {
@@ -2637,6 +4405,15 @@
     "sold_units_by_type": {
       "4room": 93,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 633
     }
   },
   "426-choa-chu-kang-ave-4": {
@@ -2650,6 +4427,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 653
     }
   },
   "427-choa-chu-kang-ave-4": {
@@ -2664,6 +4450,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 597
     }
   },
   "428-choa-chu-kang-ave-4": {
@@ -2677,6 +4472,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 577
     }
   },
   "429-choa-chu-kang-ave-4": {
@@ -2691,6 +4495,16 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 524
     }
   },
   "430-choa-chu-kang-ave-4": {
@@ -2705,6 +4519,16 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 372
     }
   },
   "431-choa-chu-kang-ave-4": {
@@ -2719,6 +4543,16 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 299
     }
   },
   "432-choa-chu-kang-ave-4": {
@@ -2733,6 +4567,16 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 266
     }
   },
   "433-choa-chu-kang-ave-4": {
@@ -2747,6 +4591,16 @@
     "sold_units_by_type": {
       "4room": 49,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 264
     }
   },
   "434-choa-chu-kang-ave-4": {
@@ -2761,6 +4615,16 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 351
     }
   },
   "435-choa-chu-kang-ave-4": {
@@ -2775,6 +4639,16 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 341
     }
   },
   "436-choa-chu-kang-ave-4": {
@@ -2788,6 +4662,16 @@
     "total_dwelling_units": 66,
     "sold_units_by_type": {
       "exec": 66
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 425
     }
   },
   "437-choa-chu-kang-ave-4": {
@@ -2801,6 +4685,16 @@
     "total_dwelling_units": 70,
     "sold_units_by_type": {
       "exec": 70
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 410
     }
   },
   "438-choa-chu-kang-ave-4": {
@@ -2815,6 +4709,16 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 487
     }
   },
   "439-choa-chu-kang-ave-4": {
@@ -2829,6 +4733,16 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 49
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 514
     }
   },
   "440-choa-chu-kang-ave-4": {
@@ -2843,6 +4757,16 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 569
     }
   },
   "441-choa-chu-kang-ave-4": {
@@ -2857,6 +4781,16 @@
     "sold_units_by_type": {
       "4room": 49,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 550
     }
   },
   "442-choa-chu-kang-ave-4": {
@@ -2870,6 +4804,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 822
     }
   },
   "443-choa-chu-kang-ave-4": {
@@ -2883,6 +4826,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 848
     }
   },
   "444-choa-chu-kang-ave-4": {
@@ -2897,6 +4849,16 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 848
     }
   },
   "445-choa-chu-kang-ave-4": {
@@ -2911,6 +4873,16 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 923
     }
   },
   "446-choa-chu-kang-ave-4": {
@@ -2925,6 +4897,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 914
     }
   },
   "447-choa-chu-kang-ave-4": {
@@ -2939,6 +4920,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 841
     }
   },
   "448-choa-chu-kang-ave-4": {
@@ -2952,6 +4942,15 @@
     "total_dwelling_units": 77,
     "sold_units_by_type": {
       "exec": 77
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 862
     }
   },
   "449-choa-chu-kang-ave-4": {
@@ -2966,6 +4965,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 992
     }
   },
   "450-choa-chu-kang-ave-4": {
@@ -2980,6 +4988,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1007
     }
   },
   "451-choa-chu-kang-ave-4": {
@@ -2994,6 +5011,15 @@
     "sold_units_by_type": {
       "4room": 73,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1051
     }
   },
   "452-choa-chu-kang-ave-4": {
@@ -3008,6 +5034,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1086
     }
   },
   "453-choa-chu-kang-ave-4": {
@@ -3022,6 +5057,15 @@
     "sold_units_by_type": {
       "5room": 60,
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1134
     }
   },
   "454-choa-chu-kang-ave-4": {
@@ -3036,6 +5080,15 @@
     "sold_units_by_type": {
       "5room": 60,
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1129
     }
   },
   "455-choa-chu-kang-ave-4": {
@@ -3050,6 +5103,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1107
     }
   },
   "456-choa-chu-kang-ave-4": {
@@ -3064,6 +5126,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1108
     }
   },
   "457-choa-chu-kang-ave-4": {
@@ -3078,6 +5149,15 @@
     "sold_units_by_type": {
       "5room": 62,
       "exec": 61
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1008
     }
   },
   "458-choa-chu-kang-ave-4": {
@@ -3092,6 +5172,15 @@
     "sold_units_by_type": {
       "5room": 62,
       "exec": 61
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1041
     }
   },
   "459-choa-chu-kang-ave-4": {
@@ -3106,6 +5195,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1134
     }
   },
   "460-choa-chu-kang-ave-4": {
@@ -3120,6 +5218,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1155
     }
   },
   "461-choa-chu-kang-ave-4": {
@@ -3134,6 +5241,15 @@
     "sold_units_by_type": {
       "5room": 60,
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1197
     }
   },
   "462-choa-chu-kang-ave-4": {
@@ -3148,6 +5264,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1141
     }
   },
   "463-choa-chu-kang-ave-4": {
@@ -3162,6 +5287,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1128
     }
   },
   "464-choa-chu-kang-ave-4": {
@@ -3176,6 +5310,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1095
     }
   },
   "465-choa-chu-kang-ave-4": {
@@ -3190,6 +5333,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1009
     }
   },
   "469-choa-chu-kang-ave-3": {
@@ -3204,6 +5356,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 903
     }
   },
   "470-choa-chu-kang-ave-3": {
@@ -3218,6 +5379,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 920
     }
   },
   "471-choa-chu-kang-ave-3": {
@@ -3232,6 +5402,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 907
     }
   },
   "472-choa-chu-kang-ave-3": {
@@ -3246,6 +5425,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 851
     }
   },
   "473-choa-chu-kang-ave-3": {
@@ -3260,6 +5448,15 @@
     "sold_units_by_type": {
       "4room": 98,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 780
     }
   },
   "474-choa-chu-kang-ave-3": {
@@ -3274,6 +5471,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 762
     }
   },
   "476a-choa-chu-kang-ave-5": {
@@ -3290,6 +5496,15 @@
       "3room": 27,
       "4room": 43,
       "studio_apartment": 28
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 893
     }
   },
   "476b-choa-chu-kang-ave-5": {
@@ -3306,6 +5521,15 @@
       "3room": 30,
       "4room": 42,
       "studio_apartment": 31
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 911
     }
   },
   "476c-choa-chu-kang-ave-5": {
@@ -3322,6 +5546,15 @@
       "3room": 30,
       "4room": 43,
       "studio_apartment": 30
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 865
     }
   },
   "476d-choa-chu-kang-ave-5": {
@@ -3338,6 +5571,15 @@
       "3room": 30,
       "4room": 43,
       "studio_apartment": 32
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 816
     }
   },
   "483-choa-chu-kang-ave-5": {
@@ -3352,6 +5594,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 956
     }
   },
   "484-choa-chu-kang-ave-5": {
@@ -3366,6 +5617,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 983
     }
   },
   "484a-choa-chu-kang-ave-5": {
@@ -3379,6 +5639,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1006
     }
   },
   "484b-choa-chu-kang-ave-5": {
@@ -3393,6 +5662,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1075
     }
   },
   "484c-choa-chu-kang-ave-5": {
@@ -3407,6 +5685,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1061
     }
   },
   "484d-choa-chu-kang-ave-5": {
@@ -3421,6 +5708,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1027
     }
   },
   "485-choa-chu-kang-ave-5": {
@@ -3435,6 +5731,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 1009
     }
   },
   "485a-choa-chu-kang-ave-5": {
@@ -3449,6 +5754,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 981
     }
   },
   "485b-choa-chu-kang-ave-5": {
@@ -3462,6 +5776,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 968
     }
   },
   "485c-choa-chu-kang-ave-5": {
@@ -3475,6 +5798,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 917
     }
   },
   "485d-choa-chu-kang-ave-5": {
@@ -3489,6 +5821,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 888
     }
   },
   "486-choa-chu-kang-ave-5": {
@@ -3503,6 +5844,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 925
     }
   },
   "487a-choa-chu-kang-ave-5": {
@@ -3517,6 +5867,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 829
     }
   },
   "487b-choa-chu-kang-ave-5": {
@@ -3531,6 +5890,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 869
     }
   },
   "487c-choa-chu-kang-ave-5": {
@@ -3545,6 +5913,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 786
     }
   },
   "488a-choa-chu-kang-ave-5": {
@@ -3560,6 +5937,15 @@
       "2room": 13,
       "4room": 52,
       "studio_apartment": 39
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 771
     }
   },
   "488b-choa-chu-kang-ave-5": {
@@ -3575,6 +5961,15 @@
       "2room": 15,
       "4room": 65,
       "studio_apartment": 37
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 745
     }
   },
   "488c-choa-chu-kang-ave-5": {
@@ -3589,6 +5984,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 706
     }
   },
   "488d-choa-chu-kang-ave-5": {
@@ -3603,6 +6007,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 670
     }
   },
   "489a-choa-chu-kang-ave-5": {
@@ -3617,6 +6030,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 744
     }
   },
   "489b-choa-chu-kang-ave-5": {
@@ -3631,6 +6053,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 797
     }
   },
   "489c-choa-chu-kang-ave-5": {
@@ -3645,6 +6076,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 756
     }
   },
   "489d-choa-chu-kang-ave-5": {
@@ -3659,6 +6099,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 732
     }
   },
   "490a-choa-chu-kang-ave-5": {
@@ -3673,6 +6122,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 701
     }
   },
   "490b-choa-chu-kang-ave-5": {
@@ -3687,6 +6145,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 669
     }
   },
   "490c-choa-chu-kang-ave-5": {
@@ -3701,6 +6168,15 @@
     "sold_units_by_type": {
       "3room": 22,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 630
     }
   },
   "490d-choa-chu-kang-ave-5": {
@@ -3715,6 +6191,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 632
     }
   },
   "5-teck-whye-ave": {
@@ -3729,6 +6214,15 @@
     "sold_units_by_type": {
       "3room": 72,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 618
     }
   },
   "501-choa-chu-kang-st-51": {
@@ -3743,6 +6237,16 @@
     "sold_units_by_type": {
       "4room": 13,
       "5room": 65
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 446
     }
   },
   "502-choa-chu-kang-st-51": {
@@ -3756,6 +6260,16 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 390
     }
   },
   "503-choa-chu-kang-st-51": {
@@ -3769,6 +6283,16 @@
     "total_dwelling_units": 91,
     "sold_units_by_type": {
       "5room": 91
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 358
     }
   },
   "504-choa-chu-kang-st-51": {
@@ -3783,6 +6307,16 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 422
     }
   },
   "505-choa-chu-kang-st-51": {
@@ -3797,6 +6331,16 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 440
     }
   },
   "506-choa-chu-kang-st-51": {
@@ -3811,6 +6355,16 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 433
     }
   },
   "507-choa-chu-kang-st-51": {
@@ -3824,6 +6378,16 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 499
     }
   },
   "508-choa-chu-kang-st-51": {
@@ -3837,6 +6401,16 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 412
     }
   },
   "509-choa-chu-kang-st-51": {
@@ -3850,6 +6424,16 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 370
     }
   },
   "510-choa-chu-kang-st-51": {
@@ -3863,6 +6447,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 403
     }
   },
   "511-choa-chu-kang-st-51": {
@@ -3876,6 +6470,16 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 549
     }
   },
   "512-choa-chu-kang-st-51": {
@@ -3889,6 +6493,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 556
     }
   },
   "513-choa-chu-kang-st-51": {
@@ -3902,6 +6516,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 491
     }
   },
   "514-choa-chu-kang-st-51": {
@@ -3916,6 +6540,16 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 527
     }
   },
   "515-choa-chu-kang-st-51": {
@@ -3929,6 +6563,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 503
     }
   },
   "516-choa-chu-kang-st-51": {
@@ -3943,6 +6587,16 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 588
     }
   },
   "517-choa-chu-kang-st-51": {
@@ -3957,6 +6611,16 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 615
     }
   },
   "518-choa-chu-kang-st-51": {
@@ -3971,6 +6635,16 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 593
     }
   },
   "523-choa-chu-kang-st-51": {
@@ -3984,6 +6658,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 751
     }
   },
   "524-choa-chu-kang-st-51": {
@@ -3997,6 +6681,16 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 737
     }
   },
   "525-choa-chu-kang-st-51": {
@@ -4010,6 +6704,16 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 711
     }
   },
   "526-choa-chu-kang-st-51": {
@@ -4023,6 +6727,16 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 679
     }
   },
   "527-choa-chu-kang-st-51": {
@@ -4036,6 +6750,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 755
     }
   },
   "528-choa-chu-kang-st-51": {
@@ -4049,6 +6773,16 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 803
     }
   },
   "529-choa-chu-kang-st-51": {
@@ -4062,6 +6796,16 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "exec": 50
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit D",
+      "distance": 757
     }
   },
   "530-choa-chu-kang-st-51": {
@@ -4075,6 +6819,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 777
     }
   },
   "531-choa-chu-kang-st-51": {
@@ -4088,6 +6841,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 788
     }
   },
   "535-choa-chu-kang-st-51": {
@@ -4102,6 +6864,16 @@
     "sold_units_by_type": {
       "2room": 78,
       "3room": 52
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit C",
+      "distance": 627
     }
   },
   "536-choa-chu-kang-st-51": {
@@ -4117,6 +6889,16 @@
     "rental_units_by_type": {
       "1room": 91,
       "2room": 78
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit C",
+      "distance": 678
     }
   },
   "537-choa-chu-kang-st-51": {
@@ -4132,6 +6914,15 @@
     "rental_units_by_type": {
       "1room": 91,
       "2room": 78
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 656
     }
   },
   "540-choa-chu-kang-st-52": {
@@ -4146,6 +6937,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 610
     }
   },
   "541-choa-chu-kang-st-52": {
@@ -4160,6 +6960,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 583
     }
   },
   "542-choa-chu-kang-st-52": {
@@ -4174,6 +6983,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 478
     }
   },
   "543-choa-chu-kang-st-52": {
@@ -4188,6 +7006,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 505
     }
   },
   "544-choa-chu-kang-st-52": {
@@ -4202,6 +7029,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 543
     }
   },
   "545-choa-chu-kang-st-52": {
@@ -4216,6 +7052,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 590
     }
   },
   "546-choa-chu-kang-st-52": {
@@ -4230,6 +7075,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 638
     }
   },
   "547-choa-chu-kang-st-52": {
@@ -4244,6 +7098,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 677
     }
   },
   "548-choa-chu-kang-st-52": {
@@ -4258,6 +7121,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 719
     }
   },
   "549-choa-chu-kang-st-52": {
@@ -4272,6 +7144,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 649
     }
   },
   "550-choa-chu-kang-st-52": {
@@ -4286,6 +7167,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 611
     }
   },
   "551-choa-chu-kang-st-52": {
@@ -4300,6 +7190,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 559
     }
   },
   "552-choa-chu-kang-st-52": {
@@ -4314,6 +7213,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 576
     }
   },
   "553-choa-chu-kang-nth-6": {
@@ -4327,6 +7235,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 429
     }
   },
   "554-choa-chu-kang-nth-6": {
@@ -4340,6 +7257,15 @@
     "total_dwelling_units": 55,
     "sold_units_by_type": {
       "exec": 55
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 460
     }
   },
   "555-choa-chu-kang-nth-6": {
@@ -4353,6 +7279,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "exec": 68
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 397
     }
   },
   "556-choa-chu-kang-nth-6": {
@@ -4366,6 +7301,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 405
     }
   },
   "557-choa-chu-kang-nth-6": {
@@ -4379,6 +7323,15 @@
     "total_dwelling_units": 55,
     "sold_units_by_type": {
       "exec": 55
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 362
     }
   },
   "558-choa-chu-kang-nth-6": {
@@ -4392,6 +7345,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 329
     }
   },
   "559-choa-chu-kang-nth-6": {
@@ -4405,6 +7367,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 302
     }
   },
   "560-choa-chu-kang-nth-6": {
@@ -4418,6 +7389,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 282
     }
   },
   "561-choa-chu-kang-nth-6": {
@@ -4431,6 +7411,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "exec": 63
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 262
     }
   },
   "562-choa-chu-kang-st-52": {
@@ -4445,6 +7434,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 67
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 162
     }
   },
   "563-choa-chu-kang-st-52": {
@@ -4459,6 +7457,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 236
     }
   },
   "564-choa-chu-kang-st-52": {
@@ -4473,6 +7480,15 @@
     "sold_units_by_type": {
       "4room": 11,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 280
     }
   },
   "565-choa-chu-kang-st-52": {
@@ -4487,6 +7503,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 331
     }
   },
   "566-choa-chu-kang-st-52": {
@@ -4501,6 +7526,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 323
     }
   },
   "567-choa-chu-kang-st-52": {
@@ -4515,6 +7549,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 270
     }
   },
   "568-choa-chu-kang-st-52": {
@@ -4529,6 +7572,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 195
     }
   },
   "569-choa-chu-kang-st-52": {
@@ -4543,6 +7595,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 155
     }
   },
   "570-choa-chu-kang-st-52": {
@@ -4559,6 +7620,15 @@
       "3room": 24,
       "4room": 24,
       "studio_apartment": 40
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 451
     }
   },
   "571-choa-chu-kang-st-52": {
@@ -4574,6 +7644,15 @@
       "2room": 17,
       "3room": 60,
       "studio_apartment": 31
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 439
     }
   },
   "572-choa-chu-kang-st-52": {
@@ -4590,6 +7669,15 @@
       "3room": 12,
       "4room": 48,
       "studio_apartment": 38
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 435
     }
   },
   "573-choa-chu-kang-st-52": {
@@ -4606,6 +7694,15 @@
       "3room": 8,
       "4room": 44,
       "studio_apartment": 42
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 363
     }
   },
   "574-choa-chu-kang-st-52": {
@@ -4622,6 +7719,15 @@
       "3room": 24,
       "4room": 72,
       "studio_apartment": 57
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 384
     }
   },
   "6-teck-whye-ave": {
@@ -4636,6 +7742,15 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 558
     }
   },
   "601-choa-chu-kang-st-62": {
@@ -4649,6 +7764,15 @@
     "total_dwelling_units": 40,
     "sold_units_by_type": {
       "exec": 40
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 246
     }
   },
   "602-choa-chu-kang-st-62": {
@@ -4662,6 +7786,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 290
     }
   },
   "603-choa-chu-kang-st-62": {
@@ -4675,6 +7808,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "exec": 68
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 313
     }
   },
   "604-choa-chu-kang-st-62": {
@@ -4688,6 +7830,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit A",
+      "distance": 286
     }
   },
   "605-choa-chu-kang-st-62": {
@@ -4701,6 +7852,15 @@
     "total_dwelling_units": 52,
     "sold_units_by_type": {
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit D",
+      "distance": 406
     }
   },
   "606-choa-chu-kang-st-62": {
@@ -4714,6 +7874,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit A",
+      "distance": 385
     }
   },
   "607-choa-chu-kang-st-62": {
@@ -4728,6 +7897,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 365
     }
   },
   "608-choa-chu-kang-st-62": {
@@ -4742,6 +7920,15 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit A",
+      "distance": 297
     }
   },
   "609-choa-chu-kang-st-62": {
@@ -4756,6 +7943,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 321
     }
   },
   "610-choa-chu-kang-st-62": {
@@ -4770,6 +7966,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 422
     }
   },
   "611-choa-chu-kang-st-62": {
@@ -4784,6 +7989,15 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 428
     }
   },
   "612-choa-chu-kang-st-62": {
@@ -4798,6 +8012,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 395
     }
   },
   "613-choa-chu-kang-st-62": {
@@ -4812,6 +8035,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 433
     }
   },
   "614-choa-chu-kang-st-62": {
@@ -4826,6 +8058,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 496
     }
   },
   "615-choa-chu-kang-st-62": {
@@ -4840,6 +8081,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 416
     }
   },
   "616-choa-chu-kang-st-62": {
@@ -4854,6 +8104,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 337
     }
   },
   "617-choa-chu-kang-nth-7": {
@@ -4868,6 +8127,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 289
     }
   },
   "618-choa-chu-kang-nth-7": {
@@ -4882,6 +8150,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 257
     }
   },
   "619-choa-chu-kang-nth-7": {
@@ -4896,6 +8173,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 55
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 245
     }
   },
   "620-choa-chu-kang-st-62": {
@@ -4910,6 +8196,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 170
     }
   },
   "621-choa-chu-kang-st-62": {
@@ -4924,6 +8219,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 121
     }
   },
   "625-choa-chu-kang-st-62": {
@@ -4938,6 +8242,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 55
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 157
     }
   },
   "626-choa-chu-kang-st-62": {
@@ -4952,6 +8265,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 55
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 164
     }
   },
   "627-choa-chu-kang-st-62": {
@@ -4966,6 +8288,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit A",
+      "distance": 127
     }
   },
   "631-choa-chu-kang-nth-6": {
@@ -4980,6 +8311,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "exec": 13
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 87
     }
   },
   "632-choa-chu-kang-nth-6": {
@@ -4994,6 +8334,15 @@
     "sold_units_by_type": {
       "5room": 104,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 132
     }
   },
   "633-choa-chu-kang-nth-6": {
@@ -5008,6 +8357,15 @@
     "sold_units_by_type": {
       "5room": 108,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 206
     }
   },
   "634-choa-chu-kang-nth-6": {
@@ -5022,6 +8380,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 259
     }
   },
   "635-choa-chu-kang-nth-6": {
@@ -5036,6 +8403,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "exec": 13
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 245
     }
   },
   "636-choa-chu-kang-nth-6": {
@@ -5049,6 +8425,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 170
     }
   },
   "637-choa-chu-kang-nth-6": {
@@ -5063,6 +8448,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "exec": 13
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 89
     }
   },
   "638-choa-chu-kang-st-64": {
@@ -5078,6 +8472,15 @@
       "4room": 36,
       "5room": 44,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 119
     }
   },
   "639-choa-chu-kang-st-64": {
@@ -5093,6 +8496,15 @@
       "4room": 36,
       "5room": 43,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 187
     }
   },
   "640-choa-chu-kang-st-64": {
@@ -5107,6 +8519,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 257
     }
   },
   "641-choa-chu-kang-st-64": {
@@ -5122,6 +8543,15 @@
       "4room": 56,
       "5room": 64,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 278
     }
   },
   "642-choa-chu-kang-st-64": {
@@ -5137,6 +8567,15 @@
       "4room": 44,
       "5room": 52,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 211
     }
   },
   "643-choa-chu-kang-st-64": {
@@ -5152,6 +8591,15 @@
       "4room": 32,
       "5room": 40,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 152
     }
   },
   "656-choa-chu-kang-cres": {
@@ -5167,6 +8615,15 @@
       "4room": 56,
       "5room": 50,
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 416
     }
   },
   "657-choa-chu-kang-cres": {
@@ -5182,6 +8639,15 @@
       "4room": 54,
       "5room": 46,
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 387
     }
   },
   "658-choa-chu-kang-cres": {
@@ -5197,6 +8663,15 @@
       "4room": 80,
       "5room": 22,
       "exec": 6
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 368
     }
   },
   "659-choa-chu-kang-cres": {
@@ -5212,6 +8687,15 @@
       "4room": 84,
       "5room": 18,
       "exec": 6
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 421
     }
   },
   "660-choa-chu-kang-cres": {
@@ -5227,6 +8711,15 @@
       "4room": 86,
       "5room": 20,
       "exec": 10
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 433
     }
   },
   "661-choa-chu-kang-cres": {
@@ -5242,6 +8735,15 @@
       "4room": 56,
       "5room": 52,
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 473
     }
   },
   "662-choa-chu-kang-cres": {
@@ -5255,6 +8757,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 540
     }
   },
   "663-choa-chu-kang-cres": {
@@ -5268,6 +8779,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 581
     }
   },
   "664-choa-chu-kang-cres": {
@@ -5281,6 +8801,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 584
     }
   },
   "665-choa-chu-kang-cres": {
@@ -5294,6 +8823,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 533
     }
   },
   "666-choa-chu-kang-cres": {
@@ -5307,6 +8845,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 565
     }
   },
   "667-choa-chu-kang-cres": {
@@ -5320,6 +8867,15 @@
     "total_dwelling_units": 122,
     "sold_units_by_type": {
       "4room": 122
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 564
     }
   },
   "668-choa-chu-kang-cres": {
@@ -5333,6 +8889,15 @@
     "total_dwelling_units": 123,
     "sold_units_by_type": {
       "4room": 123
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 474
     }
   },
   "669-choa-chu-kang-cres": {
@@ -5347,6 +8912,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 550
     }
   },
   "670-choa-chu-kang-cres": {
@@ -5361,6 +8935,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 548
     }
   },
   "670a-choa-chu-kang-cres": {
@@ -5375,6 +8958,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 513
     }
   },
   "671-choa-chu-kang-cres": {
@@ -5389,6 +8981,15 @@
     "sold_units_by_type": {
       "5room": 31,
       "exec": 31
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 505
     }
   },
   "671a-choa-chu-kang-cres": {
@@ -5403,6 +9004,15 @@
     "sold_units_by_type": {
       "5room": 30,
       "exec": 30
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 453
     }
   },
   "672-choa-chu-kang-cres": {
@@ -5417,6 +9027,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 454
     }
   },
   "672a-choa-chu-kang-cres": {
@@ -5431,6 +9050,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 425
     }
   },
   "672b-choa-chu-kang-cres": {
@@ -5445,6 +9073,15 @@
     "sold_units_by_type": {
       "4room": 11,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 434
     }
   },
   "673-choa-chu-kang-cres": {
@@ -5459,6 +9096,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 373
     }
   },
   "673a-choa-chu-kang-cres": {
@@ -5473,6 +9119,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 328
     }
   },
   "674-choa-chu-kang-cres": {
@@ -5487,6 +9142,15 @@
     "sold_units_by_type": {
       "5room": 21,
       "exec": 21
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 389
     }
   },
   "674a-choa-chu-kang-cres": {
@@ -5501,6 +9165,15 @@
     "sold_units_by_type": {
       "5room": 19,
       "exec": 19
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 407
     }
   },
   "675-choa-chu-kang-cres": {
@@ -5515,6 +9188,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 394
     }
   },
   "676-choa-chu-kang-cres": {
@@ -5529,6 +9211,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 446
     }
   },
   "676a-choa-chu-kang-cres": {
@@ -5543,6 +9234,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 443
     }
   },
   "677-choa-chu-kang-cres": {
@@ -5558,6 +9258,15 @@
       "4room": 66,
       "5room": 60,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 434
     }
   },
   "678-choa-chu-kang-cres": {
@@ -5573,6 +9282,15 @@
       "4room": 66,
       "5room": 60,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 542
     }
   },
   "679-choa-chu-kang-cres": {
@@ -5588,6 +9306,15 @@
       "4room": 65,
       "5room": 60,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 584
     }
   },
   "680-choa-chu-kang-cres": {
@@ -5603,6 +9330,15 @@
       "4room": 84,
       "5room": 44,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 635
     }
   },
   "681-choa-chu-kang-cres": {
@@ -5618,6 +9354,15 @@
       "4room": 84,
       "5room": 44,
       "exec": 22
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 586
     }
   },
   "682-choa-chu-kang-cres": {
@@ -5633,6 +9378,15 @@
       "4room": 65,
       "5room": 60,
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 544
     }
   },
   "683a-choa-chu-kang-cres": {
@@ -5647,6 +9401,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 675
     }
   },
   "683b-choa-chu-kang-cres": {
@@ -5661,6 +9424,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 645
     }
   },
   "683c-choa-chu-kang-cres": {
@@ -5675,6 +9447,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 744
     }
   },
   "684a-choa-chu-kang-cres": {
@@ -5689,6 +9470,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 663
     }
   },
   "684b-choa-chu-kang-cres": {
@@ -5703,6 +9493,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 649
     }
   },
   "684c-choa-chu-kang-cres": {
@@ -5717,6 +9516,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 720
     }
   },
   "684d-choa-chu-kang-cres": {
@@ -5731,6 +9539,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 737
     }
   },
   "685a-choa-chu-kang-cres": {
@@ -5745,6 +9562,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 97
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 636
     }
   },
   "685b-choa-chu-kang-cres": {
@@ -5759,6 +9585,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 626
     }
   },
   "685c-choa-chu-kang-cres": {
@@ -5772,6 +9607,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 622
     }
   },
   "686a-choa-chu-kang-cres": {
@@ -5786,6 +9630,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 104
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 705
     }
   },
   "686b-choa-chu-kang-cres": {
@@ -5800,6 +9653,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 745
     }
   },
   "686c-choa-chu-kang-cres": {
@@ -5813,6 +9675,15 @@
     "total_dwelling_units": 102,
     "sold_units_by_type": {
       "4room": 102
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 759
     }
   },
   "686d-choa-chu-kang-cres": {
@@ -5827,6 +9698,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 682
     }
   },
   "687a-choa-chu-kang-dr": {
@@ -5841,6 +9721,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 783
     }
   },
   "687b-choa-chu-kang-dr": {
@@ -5855,6 +9744,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 797
     }
   },
   "687c-choa-chu-kang-dr": {
@@ -5869,6 +9767,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 759
     }
   },
   "687d-choa-chu-kang-dr": {
@@ -5882,6 +9789,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "5room": 115
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 783
     }
   },
   "688a-choa-chu-kang-dr": {
@@ -5896,6 +9812,15 @@
     "sold_units_by_type": {
       "4room": 79,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 748
     }
   },
   "688b-choa-chu-kang-dr": {
@@ -5910,6 +9835,15 @@
     "sold_units_by_type": {
       "4room": 79,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 684
     }
   },
   "688c-choa-chu-kang-cres": {
@@ -5924,6 +9858,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 700
     }
   },
   "689a-choa-chu-kang-dr": {
@@ -5938,6 +9881,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 640
     }
   },
   "689b-choa-chu-kang-dr": {
@@ -5952,6 +9904,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 626
     }
   },
   "690a-choa-chu-kang-cres": {
@@ -5966,6 +9927,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 702
     }
   },
   "690b-choa-chu-kang-cres": {
@@ -5980,6 +9950,15 @@
     "sold_units_by_type": {
       "5room": 23,
       "exec": 92
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 761
     }
   },
   "690c-choa-chu-kang-cres": {
@@ -5993,6 +9972,15 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "5room": 115
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 722
     }
   },
   "690d-choa-chu-kang-cres": {
@@ -6007,6 +9995,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 698
     }
   },
   "691a-choa-chu-kang-cres": {
@@ -6021,6 +10018,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 574
     }
   },
   "691b-choa-chu-kang-cres": {
@@ -6035,6 +10041,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 616
     }
   },
   "692a-choa-chu-kang-cres": {
@@ -6049,6 +10064,15 @@
     "sold_units_by_type": {
       "4room": 94,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 499
     }
   },
   "692b-choa-chu-kang-cres": {
@@ -6063,6 +10087,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit B",
+      "distance": 535
     }
   },
   "7-teck-whye-ave": {
@@ -6076,6 +10109,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 523
     }
   },
   "701-choa-chu-kang-st-53": {
@@ -6090,6 +10132,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 610
     }
   },
   "702-choa-chu-kang-st-53": {
@@ -6104,6 +10155,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 612
     }
   },
   "703-choa-chu-kang-st-53": {
@@ -6118,6 +10178,16 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit C",
+      "distance": 640
     }
   },
   "704-choa-chu-kang-st-53": {
@@ -6132,6 +10202,16 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit C",
+      "distance": 542
     }
   },
   "705-choa-chu-kang-st-53": {
@@ -6146,6 +10226,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit C",
+      "distance": 545
     }
   },
   "706-choa-chu-kang-st-53": {
@@ -6160,6 +10250,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit C",
+      "distance": 577
     }
   },
   "707-choa-chu-kang-st-53": {
@@ -6174,6 +10274,16 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "choa-chu-kang",
+      "name": "Choa Chu Kang",
+      "codes": [
+        "NS4",
+        "BP1"
+      ],
+      "exit": "MRT Exit C",
+      "distance": 617
     }
   },
   "708-choa-chu-kang-st-53": {
@@ -6188,6 +10298,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 598
     }
   },
   "751-choa-chu-kang-nth-5": {
@@ -6202,6 +10321,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 507
     }
   },
   "752-choa-chu-kang-nth-5": {
@@ -6216,6 +10344,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 526
     }
   },
   "753-choa-chu-kang-nth-5": {
@@ -6229,6 +10366,15 @@
     "total_dwelling_units": 40,
     "sold_units_by_type": {
       "exec": 40
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 521
     }
   },
   "754-choa-chu-kang-nth-5": {
@@ -6242,6 +10388,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 531
     }
   },
   "755-choa-chu-kang-nth-5": {
@@ -6255,6 +10410,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "exec": 48
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 540
     }
   },
   "756-choa-chu-kang-nth-5": {
@@ -6268,6 +10432,15 @@
     "total_dwelling_units": 40,
     "sold_units_by_type": {
       "exec": 40
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 538
     }
   },
   "757-choa-chu-kang-nth-5": {
@@ -6281,6 +10454,15 @@
     "total_dwelling_units": 46,
     "sold_units_by_type": {
       "exec": 46
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 492
     }
   },
   "758-choa-chu-kang-nth-5": {
@@ -6294,6 +10476,15 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "exec": 51
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 450
     }
   },
   "759-choa-chu-kang-nth-5": {
@@ -6307,6 +10498,15 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "exec": 54
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 428
     }
   },
   "760-choa-chu-kang-nth-5": {
@@ -6321,6 +10521,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 442
     }
   },
   "761-choa-chu-kang-nth-5": {
@@ -6335,6 +10544,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 439
     }
   },
   "762-choa-chu-kang-nth-5": {
@@ -6349,6 +10567,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 529
     }
   },
   "763-choa-chu-kang-nth-5": {
@@ -6363,6 +10590,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 478
     }
   },
   "764-choa-chu-kang-nth-5": {
@@ -6376,6 +10612,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "exec": 50
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 465
     }
   },
   "765-choa-chu-kang-nth-5": {
@@ -6390,6 +10635,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 541
     }
   },
   "766-choa-chu-kang-nth-5": {
@@ -6404,6 +10658,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 455
     }
   },
   "767-choa-chu-kang-st-54": {
@@ -6418,6 +10681,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 416
     }
   },
   "768-choa-chu-kang-st-54": {
@@ -6431,6 +10703,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "exec": 50
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 426
     }
   },
   "769-choa-chu-kang-st-54": {
@@ -6445,6 +10726,15 @@
     "sold_units_by_type": {
       "4room": 73,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 464
     }
   },
   "770-choa-chu-kang-st-54": {
@@ -6459,6 +10749,15 @@
     "sold_units_by_type": {
       "4room": 73,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 404
     }
   },
   "771-choa-chu-kang-st-54": {
@@ -6473,6 +10772,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 369
     }
   },
   "784-choa-chu-kang-dr": {
@@ -6487,6 +10795,15 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 256
     }
   },
   "785-choa-chu-kang-dr": {
@@ -6501,6 +10818,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 248
     }
   },
   "786-choa-chu-kang-dr": {
@@ -6515,6 +10841,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 236
     }
   },
   "787-choa-chu-kang-nth-6": {
@@ -6529,6 +10864,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 136
     }
   },
   "788-choa-chu-kang-nth-6": {
@@ -6543,6 +10887,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 165
     }
   },
   "789-choa-chu-kang-nth-6": {
@@ -6557,6 +10910,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 230
     }
   },
   "790-choa-chu-kang-nth-6": {
@@ -6571,6 +10933,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 282
     }
   },
   "791-choa-chu-kang-nth-6": {
@@ -6585,6 +10956,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 326
     }
   },
   "792-choa-chu-kang-nth-6": {
@@ -6599,6 +10979,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "yew-tee",
+      "name": "Yew Tee",
+      "codes": [
+        "NS5"
+      ],
+      "exit": "Exit C",
+      "distance": 285
     }
   },
   "8-teck-whye-ave": {
@@ -6612,6 +11001,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "codes": [
+        "BP5"
+      ],
+      "exit": "Exit A",
+      "distance": 459
     }
   },
   "801a-keat-hong-cl": {
@@ -6627,6 +11025,15 @@
       "3room": 36,
       "4room": 24,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 541
     }
   },
   "801b-keat-hong-cl": {
@@ -6642,6 +11049,15 @@
       "3room": 36,
       "4room": 24,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 560
     }
   },
   "801c-keat-hong-cl": {
@@ -6656,6 +11072,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 622
     }
   },
   "801d-keat-hong-cl": {
@@ -6670,6 +11095,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 620
     }
   },
   "802a-keat-hong-cl": {
@@ -6685,6 +11119,15 @@
       "3room": 26,
       "4room": 52,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 670
     }
   },
   "802b-keat-hong-cl": {
@@ -6699,6 +11142,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 669
     }
   },
   "802c-keat-hong-cl": {
@@ -6713,6 +11165,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 674
     }
   },
   "803a-keat-hong-cl": {
@@ -6727,6 +11188,15 @@
     "sold_units_by_type": {
       "3room": 26,
       "4room": 87
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 756
     }
   },
   "803b-keat-hong-cl": {
@@ -6741,6 +11211,15 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 748
     }
   },
   "803c-keat-hong-cl": {
@@ -6755,6 +11234,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 780
     }
   },
   "803d-keat-hong-cl": {
@@ -6769,6 +11257,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 823
     }
   },
   "804a-keat-hong-cl": {
@@ -6783,6 +11280,15 @@
     "sold_units_by_type": {
       "3room": 26,
       "4room": 89
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 815
     }
   },
   "804b-keat-hong-cl": {
@@ -6797,6 +11303,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 877
     }
   },
   "805a-keat-hong-cl": {
@@ -6811,6 +11326,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 872
     }
   },
   "805b-keat-hong-cl": {
@@ -6825,6 +11349,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 869
     }
   },
   "805c-keat-hong-cl": {
@@ -6839,6 +11372,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 93
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 864
     }
   },
   "805d-keat-hong-cl": {
@@ -6853,6 +11395,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 108
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 837
     }
   },
   "807a-choa-chu-kang-ave-1": {
@@ -6867,6 +11418,15 @@
     "sold_units_by_type": {
       "2room": 70,
       "3room": 84
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 503
     }
   },
   "807b-choa-chu-kang-ave-1": {
@@ -6881,6 +11441,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 475
     }
   },
   "807c-choa-chu-kang-ave-1": {
@@ -6895,6 +11464,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 457
     }
   },
   "808a-choa-chu-kang-ave-1": {
@@ -6909,6 +11487,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 539
     }
   },
   "808b-choa-chu-kang-ave-1": {
@@ -6923,6 +11510,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 479
     }
   },
   "808c-choa-chu-kang-ave-1": {
@@ -6937,6 +11533,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 510
     }
   },
   "808d-choa-chu-kang-ave-1": {
@@ -6951,6 +11556,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 582
     }
   },
   "809a-choa-chu-kang-ave-1": {
@@ -6965,6 +11579,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 568
     }
   },
   "809b-choa-chu-kang-ave-1": {
@@ -6980,6 +11603,15 @@
       "2room": 28,
       "3room": 56,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "south-view",
+      "name": "South View",
+      "codes": [
+        "BP2"
+      ],
+      "exit": "Exit A",
+      "distance": 618
     }
   },
   "810a-choa-chu-kang-ave-7": {
@@ -6994,6 +11626,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 544
     }
   },
   "810b-choa-chu-kang-ave-7": {
@@ -7008,6 +11649,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 631
     }
   },
   "811a-choa-chu-kang-ave-7": {
@@ -7022,6 +11672,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 641
     }
   },
   "811b-choa-chu-kang-ave-7": {
@@ -7036,6 +11695,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 732
     }
   },
   "812a-choa-chu-kang-ave-7": {
@@ -7050,6 +11718,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 626
     }
   },
   "812b-choa-chu-kang-ave-7": {
@@ -7064,6 +11741,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 694
     }
   },
   "812c-choa-chu-kang-ave-7": {
@@ -7078,6 +11764,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 733
     }
   },
   "813a-choa-chu-kang-ave-7": {
@@ -7093,6 +11788,15 @@
     "rental_units_by_type": {
       "1room": 210,
       "2room": 300
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 684
     }
   },
   "815a-choa-chu-kang-ave-7": {
@@ -7106,6 +11810,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "4room": 144
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 370
     }
   },
   "815b-choa-chu-kang-ave-7": {
@@ -7120,6 +11833,15 @@
     "sold_units_by_type": {
       "4room": 95,
       "5room": 95
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 273
     }
   },
   "815c-choa-chu-kang-ave-7": {
@@ -7134,6 +11856,15 @@
     "sold_units_by_type": {
       "4room": 95,
       "5room": 95
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 311
     }
   },
   "816a-keat-hong-link": {
@@ -7148,6 +11879,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 274
     }
   },
   "816b-keat-hong-link": {
@@ -7162,6 +11902,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 283
     }
   },
   "817a-keat-hong-link": {
@@ -7176,6 +11925,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 220
     }
   },
   "817b-keat-hong-link": {
@@ -7190,6 +11948,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 161
     }
   },
   "817c-keat-hong-link": {
@@ -7204,6 +11971,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 103
     }
   },
   "818a-choa-chu-kang-ave-1": {
@@ -7218,6 +11994,15 @@
     "sold_units_by_type": {
       "3room": 76,
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 124
     }
   },
   "818b-choa-chu-kang-ave-1": {
@@ -7232,6 +12017,15 @@
     "sold_units_by_type": {
       "3room": 38,
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 170
     }
   },
   "818c-choa-chu-kang-ave-1": {
@@ -7246,6 +12040,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 228
     }
   },
   "819a-keat-hong-link": {
@@ -7261,6 +12064,15 @@
       "2room": 81,
       "3room": 38,
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 329
     }
   },
   "820a-keat-hong-link": {
@@ -7275,6 +12087,15 @@
     "sold_units_by_type": {
       "3room": 42,
       "4room": 122
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 377
     }
   },
   "820b-keat-hong-link": {
@@ -7290,6 +12111,15 @@
       "2room": 82,
       "3room": 38,
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "keat-hong",
+      "name": "Keat Hong",
+      "codes": [
+        "BP3"
+      ],
+      "exit": "Exit A",
+      "distance": 425
     }
   },
   "9-teck-whye-lane": {
@@ -7304,6 +12134,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 240
+    },
+    "nearest_station": {
+      "id": "teck-whye",
+      "name": "Teck Whye",
+      "codes": [
+        "BP4"
+      ],
+      "exit": "Exit A",
+      "distance": 388
     }
   }
 }

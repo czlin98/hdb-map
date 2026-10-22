@@ -13,6 +13,15 @@
       "3room": 138,
       "4room": 1,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "nicoll-highway",
+      "name": "Nicoll Highway",
+      "codes": [
+        "CC5"
+      ],
+      "exit": "Exit A",
+      "distance": 404
     }
   },
   "1-kg-kayu-rd": {
@@ -27,6 +36,15 @@
     "sold_units_by_type": {
       "3room": 106,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 283
     }
   },
   "1-maude-rd": {
@@ -41,6 +59,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 176
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 409
     }
   },
   "1-st-george-s-rd": {
@@ -54,6 +81,15 @@
     "total_dwelling_units": 154,
     "sold_units_by_type": {
       "4room": 154
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 367
     }
   },
   "1-thomson-rd": {
@@ -68,6 +104,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "novena",
+      "name": "Novena",
+      "codes": [
+        "NS20"
+      ],
+      "exit": "Exit A",
+      "distance": 540
     }
   },
   "10-gloucester-rd": {
@@ -83,6 +128,15 @@
       "3room": 180,
       "4room": 26,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 184
     }
   },
   "10-jln-batu": {
@@ -98,6 +152,15 @@
       "4room": 8,
       "5room": 96,
       "exec": 28
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 447
     }
   },
   "10-nth-bridge-rd": {
@@ -112,6 +175,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 224
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 189
     }
   },
   "10-st-george-s-rd": {
@@ -125,6 +197,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 457
     }
   },
   "100-whampoa-dr": {
@@ -138,6 +219,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 775
     }
   },
   "101-ah-hood-rd": {
@@ -151,6 +241,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit B",
+      "distance": 646
     }
   },
   "101-jln-rajah": {
@@ -164,6 +263,15 @@
     "total_dwelling_units": 128,
     "sold_units_by_type": {
       "4room": 128
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 523
     }
   },
   "101-towner-rd": {
@@ -177,6 +285,15 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "3room": 44
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 89
     }
   },
   "101-whampoa-dr": {
@@ -190,6 +307,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 772
     }
   },
   "102-jln-dusun": {
@@ -203,6 +329,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit B",
+      "distance": 620
     }
   },
   "102-jln-rajah": {
@@ -216,6 +351,15 @@
     "total_dwelling_units": 198,
     "sold_units_by_type": {
       "4room": 198
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 626
     }
   },
   "102-towner-rd": {
@@ -229,6 +373,15 @@
     "total_dwelling_units": 36,
     "sold_units_by_type": {
       "3room": 36
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 77
     }
   },
   "103-ah-hood-rd": {
@@ -242,6 +395,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit B",
+      "distance": 573
     }
   },
   "103-jln-rajah": {
@@ -256,6 +418,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 793
     }
   },
   "103-towner-rd": {
@@ -270,6 +441,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 61
     }
   },
   "104-jln-dusun": {
@@ -283,6 +463,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit B",
+      "distance": 577
     }
   },
   "104-jln-rajah": {
@@ -297,6 +486,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 798
     }
   },
   "104-towner-rd": {
@@ -311,6 +509,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 66
     }
   },
   "104-whampoa-dr": {
@@ -325,6 +532,15 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 822
     }
   },
   "105-jln-rajah": {
@@ -338,6 +554,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 849
     }
   },
   "105-towner-rd": {
@@ -352,6 +577,15 @@
     "sold_units_by_type": {
       "3room": 120,
       "4room": 155
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 80
     }
   },
   "106-jln-dusun": {
@@ -365,6 +599,15 @@
     "total_dwelling_units": 97,
     "sold_units_by_type": {
       "4room": 97
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit B",
+      "distance": 520
     }
   },
   "106-jln-rajah": {
@@ -378,6 +621,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "exec": 68
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 888
     }
   },
   "106-towner-rd": {
@@ -392,6 +644,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 116
     }
   },
   "107-jln-rajah": {
@@ -406,6 +667,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 952
     }
   },
   "107-towner-rd": {
@@ -420,6 +690,15 @@
     "sold_units_by_type": {
       "3room": 140,
       "4room": 155
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 124
     }
   },
   "108-jln-rajah": {
@@ -433,6 +712,15 @@
     "total_dwelling_units": 75,
     "sold_units_by_type": {
       "exec": 75
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 996
     }
   },
   "108-mcnair-rd": {
@@ -448,6 +736,15 @@
       "3room": 8,
       "4room": 104,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 289
     }
   },
   "108b-mcnair-rd": {
@@ -462,6 +759,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 278
     }
   },
   "108c-mcnair-rd": {
@@ -476,6 +782,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 229
     }
   },
   "109-mcnair-rd": {
@@ -490,6 +805,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 304
     }
   },
   "109-whampoa-rd": {
@@ -504,6 +828,15 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1014
     }
   },
   "10a-bendemeer-rd": {
@@ -518,6 +851,15 @@
     "sold_units_by_type": {
       "3room": 71,
       "4room": 149
+    },
+    "nearest_station": {
+      "id": "bendemeer",
+      "name": "Bendemeer",
+      "codes": [
+        "DT23"
+      ],
+      "exit": "Exit A",
+      "distance": 312
     }
   },
   "10b-bendemeer-rd": {
@@ -532,6 +874,15 @@
     "sold_units_by_type": {
       "3room": 70,
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 275
     }
   },
   "10c-bendemeer-rd": {
@@ -546,6 +897,15 @@
     "sold_units_by_type": {
       "3room": 71,
       "4room": 149
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 231
     }
   },
   "11-farrer-pk-rd": {
@@ -560,6 +920,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit E",
+      "distance": 81
     }
   },
   "11-jln-batu": {
@@ -575,6 +944,15 @@
       "4room": 8,
       "5room": 98,
       "exec": 26
+    },
+    "nearest_station": {
+      "id": "katong-park",
+      "name": "Katong Park",
+      "codes": [
+        "TE24"
+      ],
+      "exit": "Exit 2",
+      "distance": 461
     }
   },
   "11-st-george-s-rd": {
@@ -588,6 +966,15 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 367
     }
   },
   "11-upp-boon-keng-rd": {
@@ -602,6 +989,15 @@
     "sold_units_by_type": {
       "3room": 276,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 283
     }
   },
   "110-mcnair-rd": {
@@ -615,6 +1011,15 @@
     "total_dwelling_units": 102,
     "sold_units_by_type": {
       "exec": 102
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 347
     }
   },
   "110-whampoa-rd": {
@@ -629,6 +1034,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 973
     }
   },
   "111-lor-3-geylang": {
@@ -643,6 +1057,15 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit A",
+      "distance": 242
     }
   },
   "111-mcnair-rd": {
@@ -657,6 +1080,15 @@
     "sold_units_by_type": {
       "3room": 4,
       "4room": 128
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 383
     }
   },
   "111-whampoa-rd": {
@@ -671,6 +1103,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 932
     }
   },
   "112-lor-3-geylang": {
@@ -684,6 +1125,15 @@
     "total_dwelling_units": 50,
     "sold_units_by_type": {
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit A",
+      "distance": 237
     }
   },
   "112-mcnair-rd": {
@@ -699,6 +1149,15 @@
       "3room": 27,
       "4room": 37,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 298
     }
   },
   "112-whampoa-rd": {
@@ -713,6 +1172,15 @@
     "sold_units_by_type": {
       "4room": 49,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 830
     }
   },
   "113-lor-3-geylang": {
@@ -726,6 +1194,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "4room": 86
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit A",
+      "distance": 238
     }
   },
   "113-whampoa-rd": {
@@ -740,6 +1217,15 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 798
     }
   },
   "113a-mcnair-rd": {
@@ -753,6 +1239,15 @@
     "total_dwelling_units": 198,
     "sold_units_by_type": {
       "4room": 198
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 206
     }
   },
   "113b-mcnair-rd": {
@@ -767,6 +1262,15 @@
     "sold_units_by_type": {
       "3room": 34,
       "4room": 170
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 158
     }
   },
   "113c-mcnair-rd": {
@@ -783,6 +1287,15 @@
       "3room": 27,
       "4room": 81,
       "studio_apartment": 42
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 156
     }
   },
   "113d-mcnair-rd": {
@@ -799,6 +1312,15 @@
       "3room": 54,
       "4room": 27,
       "studio_apartment": 71
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 193
     }
   },
   "114-lor-3-geylang": {
@@ -813,6 +1335,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 25
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit A",
+      "distance": 256
     }
   },
   "114-whampoa-rd": {
@@ -827,6 +1358,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 738
     }
   },
   "115-whampoa-rd": {
@@ -841,6 +1381,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 826
     }
   },
   "115a-jln-ayer": {
@@ -855,6 +1404,15 @@
     "sold_units_by_type": {
       "3room": 56,
       "4room": 58
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit A",
+      "distance": 107
     }
   },
   "115b-jln-ayer": {
@@ -869,6 +1427,15 @@
     "sold_units_by_type": {
       "3room": 29,
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit A",
+      "distance": 153
     }
   },
   "116a-jln-tenteram": {
@@ -883,6 +1450,15 @@
     "sold_units_by_type": {
       "3room": 90,
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 779
     }
   },
   "116b-jln-tenteram": {
@@ -897,6 +1473,15 @@
     "sold_units_by_type": {
       "3room": 84,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 831
     }
   },
   "117a-jln-tenteram": {
@@ -911,6 +1496,15 @@
     "sold_units_by_type": {
       "3room": 87,
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "potong-pasir",
+      "name": "Potong Pasir",
+      "codes": [
+        "NE10"
+      ],
+      "exit": "Exit C",
+      "distance": 898
     }
   },
   "117b-jln-tenteram": {
@@ -925,6 +1519,15 @@
     "sold_units_by_type": {
       "3room": 58,
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 899
     }
   },
   "119-mcnair-rd": {
@@ -939,6 +1542,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 471
     }
   },
   "12-farrer-pk-rd": {
@@ -953,6 +1565,15 @@
     "sold_units_by_type": {
       "3room": 58,
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit E",
+      "distance": 113
     }
   },
   "12-kg-arang-rd": {
@@ -967,6 +1588,15 @@
     "sold_units_by_type": {
       "3room": 88,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "katong-park",
+      "name": "Katong Park",
+      "codes": [
+        "TE24"
+      ],
+      "exit": "Exit 2",
+      "distance": 312
     }
   },
   "12-nth-bridge-rd": {
@@ -980,6 +1610,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 319
     }
   },
   "12-st-george-s-rd": {
@@ -993,6 +1632,15 @@
     "total_dwelling_units": 10,
     "sold_units_by_type": {
       "4room": 10
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 350
     }
   },
   "12-upp-boon-keng-rd": {
@@ -1007,6 +1655,15 @@
     "sold_units_by_type": {
       "3room": 130,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 321
     }
   },
   "120-mcnair-rd": {
@@ -1022,6 +1679,15 @@
       "3room": 4,
       "4room": 72,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 443
     }
   },
   "121-mcnair-rd": {
@@ -1036,6 +1702,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 499
     }
   },
   "122-mcnair-rd": {
@@ -1051,6 +1726,15 @@
       "3room": 8,
       "4room": 72,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 442
     }
   },
   "123-mcnair-rd": {
@@ -1065,6 +1749,15 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 42
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 488
     }
   },
   "124-mcnair-rd": {
@@ -1079,6 +1772,15 @@
     "sold_units_by_type": {
       "3room": 40,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 519
     }
   },
   "13-farrer-pk-rd": {
@@ -1093,6 +1795,15 @@
     "sold_units_by_type": {
       "4room": 116,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit E",
+      "distance": 143
     }
   },
   "13-st-george-s-rd": {
@@ -1106,6 +1817,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 374
     }
   },
   "13-upp-boon-keng-rd": {
@@ -1120,6 +1840,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 325
     }
   },
   "14-kg-arang-rd": {
@@ -1135,6 +1864,15 @@
       "3room": 86,
       "4room": 44,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "katong-park",
+      "name": "Katong Park",
+      "codes": [
+        "TE24"
+      ],
+      "exit": "Exit 2",
+      "distance": 219
     }
   },
   "14-st-george-s-rd": {
@@ -1154,6 +1892,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 408
     }
   },
   "14-upp-boon-keng-rd": {
@@ -1168,6 +1915,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 391
     }
   },
   "141a-mcnair-rd": {
@@ -1181,6 +1937,15 @@
     "total_dwelling_units": 233,
     "sold_units_by_type": {
       "4room": 233
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 372
     }
   },
   "141b-mcnair-rd": {
@@ -1196,6 +1961,15 @@
       "2room": 39,
       "3room": 39,
       "4room": 153
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 315
     }
   },
   "141c-mcnair-rd": {
@@ -1213,6 +1987,15 @@
     },
     "rental_units_by_type": {
       "2room": 38
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 361
     }
   },
   "149a-towner-rd": {
@@ -1226,6 +2009,15 @@
     "total_dwelling_units": 201,
     "sold_units_by_type": {
       "4room": 201
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 146
     }
   },
   "149b-towner-rd": {
@@ -1240,6 +2032,15 @@
     "sold_units_by_type": {
       "3room": 104,
       "4room": 139
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 91
     }
   },
   "14a-upp-boon-keng-rd": {
@@ -1254,6 +2055,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 400
     }
   },
   "15-beach-rd": {
@@ -1267,6 +2077,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "nicoll-highway",
+      "name": "Nicoll Highway",
+      "codes": [
+        "CC5"
+      ],
+      "exit": "Exit A",
+      "distance": 364
     }
   },
   "15-farrer-pk-rd": {
@@ -1281,6 +2100,15 @@
     "sold_units_by_type": {
       "3room": 116,
       "4room": 58
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit E",
+      "distance": 144
     }
   },
   "15-st-george-s-rd": {
@@ -1294,6 +2122,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 488
     }
   },
   "15-upp-boon-keng-rd": {
@@ -1307,6 +2144,15 @@
     "total_dwelling_units": 210,
     "sold_units_by_type": {
       "4room": 210
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 456
     }
   },
   "152a-towner-rd": {
@@ -1322,6 +2168,15 @@
     "rental_units_by_type": {
       "1room": 144,
       "2room": 72
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 520
     }
   },
   "153a-towner-rd": {
@@ -1336,6 +2191,15 @@
     "sold_units_by_type": {
       "3room": 90,
       "4room": 226
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 516
     }
   },
   "16-jln-tenteram": {
@@ -1350,6 +2214,15 @@
     "sold_units_by_type": {
       "4room": 118,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 918
     }
   },
   "16-st-george-s-rd": {
@@ -1364,6 +2237,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 481
     }
   },
   "16-upp-boon-keng-rd": {
@@ -1378,6 +2260,15 @@
     "sold_units_by_type": {
       "3room": 266,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 406
     }
   },
   "17-beach-rd": {
@@ -1391,6 +2282,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 391
     }
   },
   "17-jln-tenteram": {
@@ -1405,6 +2305,15 @@
     "sold_units_by_type": {
       "4room": 97,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 921
     }
   },
   "17-st-george-s-rd": {
@@ -1418,6 +2327,15 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 434
     }
   },
   "18-jln-sultan": {
@@ -1432,6 +2350,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 150
+    },
+    "nearest_station": {
+      "id": "nicoll-highway",
+      "name": "Nicoll Highway",
+      "codes": [
+        "CC5"
+      ],
+      "exit": "Exit A",
+      "distance": 359
     }
   },
   "18-jln-tenteram": {
@@ -1446,6 +2373,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 873
     }
   },
   "18-st-george-s-rd": {
@@ -1459,6 +2395,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 464
     }
   },
   "19-jln-sultan": {
@@ -1473,6 +2418,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 150
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 393
     }
   },
   "19-jln-tenteram": {
@@ -1487,6 +2441,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 854
     }
   },
   "19-st-george-s-rd": {
@@ -1500,6 +2463,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 498
     }
   },
   "19-upp-boon-keng-rd": {
@@ -1514,6 +2486,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 360
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 427
     }
   },
   "1a-kempas-rd": {
@@ -1529,6 +2510,15 @@
       "2room": 81,
       "3room": 27,
       "4room": 27
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 243
     }
   },
   "1b-kempas-rd": {
@@ -1543,6 +2533,15 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 134
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 196
     }
   },
   "2-beach-rd": {
@@ -1558,6 +2557,15 @@
       "2room": 1,
       "3room": 134,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 407
     }
   },
   "2-jln-batu": {
@@ -1572,6 +2580,15 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 330
     }
   },
   "2-kitchener-rd": {
@@ -1586,6 +2603,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 176
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 387
     }
   },
   "2-st-george-s-rd": {
@@ -1600,6 +2626,15 @@
     "sold_units_by_type": {
       "3room": 152,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 380
     }
   },
   "20-jln-tenteram": {
@@ -1614,6 +2649,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 318
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 761
     }
   },
   "20-st-george-s-rd": {
@@ -1630,6 +2674,15 @@
       "4room": 22,
       "5room": 3,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 537
     }
   },
   "20a-lor-3-geylang": {
@@ -1644,6 +2697,15 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 151
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 392
     }
   },
   "20b-lor-3-geylang": {
@@ -1658,6 +2720,15 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 172
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 408
     }
   },
   "21-jln-tenteram": {
@@ -1672,6 +2743,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 320
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 690
     }
   },
   "21-st-george-s-rd": {
@@ -1685,6 +2765,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 526
     }
   },
   "22-boon-keng-rd": {
@@ -1698,6 +2787,15 @@
     "total_dwelling_units": 198,
     "sold_units_by_type": {
       "4room": 198
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 83
     }
   },
   "22-jln-tenteram": {
@@ -1712,6 +2810,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 118
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 734
     }
   },
   "22-st-george-s-rd": {
@@ -1725,6 +2832,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 576
     }
   },
   "23-bendemeer-rd": {
@@ -1739,6 +2855,15 @@
     "sold_units_by_type": {
       "3room": 124,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 196
     }
   },
   "23-st-george-s-rd": {
@@ -1753,6 +2878,15 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 570
     }
   },
   "24-bendemeer-rd": {
@@ -1767,6 +2901,15 @@
     "sold_units_by_type": {
       "3room": 122,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 83
     }
   },
   "25a-st-george-s-lane": {
@@ -1783,6 +2926,15 @@
       "3room": 62,
       "4room": 132,
       "studio_apartment": 53
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 196
     }
   },
   "26-bendemeer-rd": {
@@ -1797,6 +2949,15 @@
     "sold_units_by_type": {
       "3room": 69,
       "4room": 23
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 153
     }
   },
   "26a-st-george-s-lane": {
@@ -1813,6 +2974,15 @@
       "3room": 62,
       "4room": 120,
       "studio_apartment": 35
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 274
     }
   },
   "26b-st-george-s-lane": {
@@ -1826,6 +2996,15 @@
     "total_dwelling_units": 211,
     "sold_units_by_type": {
       "4room": 211
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 220
     }
   },
   "27-jln-bahagia": {
@@ -1840,6 +3019,15 @@
     "sold_units_by_type": {
       "3room": 116,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 714
     }
   },
   "28-bendemeer-rd": {
@@ -1855,6 +3043,15 @@
       "3room": 67,
       "4room": 23,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 159
     }
   },
   "28-jln-bahagia": {
@@ -1872,6 +3069,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 698
     }
   },
   "29-jln-bahagia": {
@@ -1886,6 +3092,15 @@
     "sold_units_by_type": {
       "4room": 85,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 640
     }
   },
   "2a-kempas-rd": {
@@ -1901,6 +3116,15 @@
       "2room": 69,
       "3room": 27,
       "4room": 27
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 93
     }
   },
   "2a-upp-boon-keng-rd": {
@@ -1915,6 +3139,15 @@
     "sold_units_by_type": {
       "4room": 132,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 220
     }
   },
   "2b-kempas-rd": {
@@ -1929,6 +3162,15 @@
     "sold_units_by_type": {
       "3room": 33,
       "4room": 130
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 46
     }
   },
   "2b-upp-boon-keng-rd": {
@@ -1943,6 +3185,15 @@
     "sold_units_by_type": {
       "4room": 110,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 204
     }
   },
   "2c-upp-boon-keng-rd": {
@@ -1957,6 +3208,15 @@
     "sold_units_by_type": {
       "4room": 137,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 151
     }
   },
   "2d-upp-boon-keng-rd": {
@@ -1971,6 +3231,15 @@
     "sold_units_by_type": {
       "4room": 132,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 169
     }
   },
   "3-beach-rd": {
@@ -1986,6 +3255,15 @@
       "2room": 1,
       "3room": 134,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 409
     }
   },
   "3-jln-batu": {
@@ -2000,6 +3278,15 @@
     "sold_units_by_type": {
       "3room": 110,
       "4room": 5
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 360
     }
   },
   "3-st-george-s-rd": {
@@ -2014,6 +3301,15 @@
     "sold_units_by_type": {
       "3room": 276,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 279
     }
   },
   "30-bendemeer-rd": {
@@ -2028,6 +3324,15 @@
     "sold_units_by_type": {
       "3room": 124,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 239
     }
   },
   "30-jln-bahagia": {
@@ -2042,6 +3347,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 731
     }
   },
   "31-bendemeer-rd": {
@@ -2056,6 +3370,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 288
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 201
     }
   },
   "32-bendemeer-rd": {
@@ -2070,6 +3393,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 276
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 176
     }
   },
   "32-jln-bahagia": {
@@ -2087,6 +3419,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 770
     }
   },
   "33-bendemeer-rd": {
@@ -2101,6 +3442,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 288
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 107
     }
   },
   "33-jln-bahagia": {
@@ -2115,6 +3465,15 @@
     "sold_units_by_type": {
       "3room": 116,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 800
     }
   },
   "34-jln-bahagia": {
@@ -2129,6 +3488,15 @@
     "sold_units_by_type": {
       "3room": 118,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 870
     }
   },
   "34-whampoa-west": {
@@ -2146,6 +3514,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 209
     }
   },
   "35-jln-bahagia": {
@@ -2159,6 +3536,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "3room": 120
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 857
     }
   },
   "37-cambridge-rd": {
@@ -2173,6 +3559,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 634
     }
   },
   "38-cambridge-rd": {
@@ -2187,6 +3582,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 645
     }
   },
   "38-jln-bahagia": {
@@ -2200,6 +3604,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 939
     }
   },
   "38-upp-boon-keng-rd": {
@@ -2213,6 +3626,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit B",
+      "distance": 435
     }
   },
   "38a-bendemeer-rd": {
@@ -2227,6 +3649,15 @@
     "sold_units_by_type": {
       "4room": 120,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 540
     }
   },
   "38b-bendemeer-rd": {
@@ -2241,6 +3672,15 @@
     "sold_units_by_type": {
       "3room": 65,
       "4room": 105
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 541
     }
   },
   "38c-bendemeer-rd": {
@@ -2255,6 +3695,15 @@
     "sold_units_by_type": {
       "3room": 69,
       "4room": 97
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 532
     }
   },
   "38d-bendemeer-rd": {
@@ -2269,6 +3718,15 @@
     "sold_units_by_type": {
       "3room": 61,
       "4room": 101
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 532
     }
   },
   "39-cambridge-rd": {
@@ -2283,6 +3741,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 661
     }
   },
   "39-jln-bahagia": {
@@ -2296,6 +3763,15 @@
     "total_dwelling_units": 7,
     "sold_units_by_type": {
       "3room": 7
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 990
     }
   },
   "39-upp-boon-keng-rd": {
@@ -2309,6 +3785,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit B",
+      "distance": 379
     }
   },
   "39a-bendemeer-rd": {
@@ -2323,6 +3808,15 @@
     "sold_units_by_type": {
       "3room": 22,
       "4room": 126
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 507
     }
   },
   "3a-upp-boon-keng-rd": {
@@ -2337,6 +3831,15 @@
     "sold_units_by_type": {
       "4room": 127,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 244
     }
   },
   "3b-upp-boon-keng-rd": {
@@ -2351,6 +3854,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 312
     }
   },
   "3c-upp-boon-keng-rd": {
@@ -2365,6 +3877,15 @@
     "sold_units_by_type": {
       "4room": 125,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 279
     }
   },
   "3d-upp-boon-keng-rd": {
@@ -2379,6 +3900,15 @@
     "sold_units_by_type": {
       "4room": 127,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 219
     }
   },
   "4-beach-rd": {
@@ -2393,6 +3923,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 336
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 365
     }
   },
   "4-boon-keng-rd": {
@@ -2407,6 +3946,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 267
     }
   },
   "4-jln-batu": {
@@ -2421,6 +3969,15 @@
     "sold_units_by_type": {
       "3room": 118,
       "4room": 1
+    },
+    "nearest_station": {
+      "id": "katong-park",
+      "name": "Katong Park",
+      "codes": [
+        "TE24"
+      ],
+      "exit": "Exit 2",
+      "distance": 404
     }
   },
   "40-cambridge-rd": {
@@ -2435,6 +3992,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 657
     }
   },
   "40-jln-bahagia": {
@@ -2448,6 +4014,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 992
     }
   },
   "41-cambridge-rd": {
@@ -2461,6 +4036,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 483
     }
   },
   "41-jln-bahagia": {
@@ -2474,6 +4058,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 944
     }
   },
   "42-cambridge-rd": {
@@ -2487,6 +4080,15 @@
     "total_dwelling_units": 56,
     "sold_units_by_type": {
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 530
     }
   },
   "42-jln-bahagia": {
@@ -2500,6 +4102,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 932
     }
   },
   "43-bendemeer-rd": {
@@ -2514,6 +4125,15 @@
     "sold_units_by_type": {
       "3room": 227,
       "4room": 2
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit B",
+      "distance": 485
     }
   },
   "43-cambridge-rd": {
@@ -2527,6 +4147,15 @@
     "total_dwelling_units": 54,
     "sold_units_by_type": {
       "4room": 54
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 509
     }
   },
   "43-jln-bahagia": {
@@ -2540,6 +4169,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 917
     }
   },
   "44-bendemeer-rd": {
@@ -2554,6 +4192,15 @@
     "sold_units_by_type": {
       "3room": 225,
       "4room": 3
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 554
     }
   },
   "44-jln-bahagia": {
@@ -2567,6 +4214,15 @@
     "total_dwelling_units": 4,
     "sold_units_by_type": {
       "3room": 4
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 941
     }
   },
   "44-owen-rd": {
@@ -2584,6 +4240,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 446
     }
   },
   "45-bendemeer-rd": {
@@ -2601,6 +4266,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 573
     }
   },
   "45-jln-bahagia": {
@@ -2614,6 +4288,15 @@
     "total_dwelling_units": 4,
     "sold_units_by_type": {
       "3room": 4
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 950
     }
   },
   "46-bendemeer-rd": {
@@ -2627,6 +4310,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 592
     }
   },
   "46-jln-bahagia": {
@@ -2640,6 +4332,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 981
     }
   },
   "46-owen-rd": {
@@ -2654,6 +4355,15 @@
     "sold_units_by_type": {
       "3room": 75,
       "4room": 13
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 384
     }
   },
   "461-crawford-lane": {
@@ -2667,6 +4377,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 333
     }
   },
   "462-crawford-lane": {
@@ -2681,6 +4400,15 @@
     "sold_units_by_type": {
       "3room": 182,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 377
     }
   },
   "463-crawford-lane": {
@@ -2696,6 +4424,15 @@
       "3room": 127,
       "4room": 1,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 266
     }
   },
   "466-crawford-lane": {
@@ -2709,6 +4446,15 @@
     "total_dwelling_units": 104,
     "sold_units_by_type": {
       "4room": 104
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 237
     }
   },
   "467-nth-bridge-rd": {
@@ -2726,6 +4472,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 217
     }
   },
   "468-nth-bridge-rd": {
@@ -2740,6 +4495,15 @@
     "sold_units_by_type": {
       "3room": 148,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 199
     }
   },
   "47-bendemeer-rd": {
@@ -2754,6 +4518,15 @@
     "sold_units_by_type": {
       "3room": 126,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 565
     }
   },
   "47-jln-bahagia": {
@@ -2767,6 +4540,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 969
     }
   },
   "47-owen-rd": {
@@ -2782,6 +4564,15 @@
     "rental_units_by_type": {
       "1room": 180,
       "2room": 14
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 414
     }
   },
   "48-bendemeer-rd": {
@@ -2795,6 +4586,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 606
     }
   },
   "48-dorset-rd": {
@@ -2808,6 +4608,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 328
     }
   },
   "48-jln-bahagia": {
@@ -2821,6 +4630,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 995
     }
   },
   "48a-dorset-rd": {
@@ -2834,6 +4652,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 309
     }
   },
   "49-dorset-rd": {
@@ -2849,6 +4676,15 @@
       "3room": 128,
       "4room": 12,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit E",
+      "distance": 302
     }
   },
   "49-jln-bahagia": {
@@ -2862,6 +4698,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1015
     }
   },
   "49-whampoa-sth": {
@@ -2875,6 +4720,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 662
     }
   },
   "4b-st-george-s-lane": {
@@ -2889,6 +4743,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 284
     }
   },
   "4c-st-george-s-lane": {
@@ -2903,6 +4766,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 244
     }
   },
   "5-beach-rd": {
@@ -2917,6 +4789,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 336
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 371
     }
   },
   "5-boon-keng-rd": {
@@ -2931,6 +4812,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 67
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 183
     }
   },
   "5-jln-batu": {
@@ -2945,6 +4835,15 @@
     "sold_units_by_type": {
       "3room": 100,
       "4room": 10
+    },
+    "nearest_station": {
+      "id": "katong-park",
+      "name": "Katong Park",
+      "codes": [
+        "TE24"
+      ],
+      "exit": "Exit 2",
+      "distance": 372
     }
   },
   "5-st-george-s-lane": {
@@ -2959,6 +4858,15 @@
     "sold_units_by_type": {
       "3room": 77,
       "4room": 33
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 397
     }
   },
   "50-dorset-rd": {
@@ -2974,6 +4882,15 @@
       "3room": 148,
       "4room": 22,
       "exec": 3
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit E",
+      "distance": 240
     }
   },
   "50-jln-bahagia": {
@@ -2987,6 +4904,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1027
     }
   },
   "51-jln-bahagia": {
@@ -3000,6 +4926,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1043
     }
   },
   "51-kent-rd": {
@@ -3013,6 +4948,15 @@
     "total_dwelling_units": 100,
     "sold_units_by_type": {
       "4room": 100
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 522
     }
   },
   "52-jln-bahagia": {
@@ -3026,6 +4970,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1043
     }
   },
   "52-kent-rd": {
@@ -3039,6 +4992,15 @@
     "total_dwelling_units": 127,
     "sold_units_by_type": {
       "4room": 127
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 429
     }
   },
   "53-geylang-bahru": {
@@ -3052,6 +5014,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 487
     }
   },
   "53-jln-ma-mor": {
@@ -3065,6 +5036,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1036
     }
   },
   "53-kent-rd": {
@@ -3078,6 +5058,15 @@
     "total_dwelling_units": 36,
     "sold_units_by_type": {
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 445
     }
   },
   "54-geylang-bahru": {
@@ -3091,6 +5080,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 485
     }
   },
   "54-jln-ma-mor": {
@@ -3104,6 +5102,15 @@
     "total_dwelling_units": 10,
     "sold_units_by_type": {
       "3room": 10
+    },
+    "nearest_station": {
+      "id": "toa-payoh",
+      "name": "Toa Payoh",
+      "codes": [
+        "NS19"
+      ],
+      "exit": "Exit A",
+      "distance": 1056
     }
   },
   "54-kent-rd": {
@@ -3117,6 +5124,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 461
     }
   },
   "55-geylang-bahru": {
@@ -3130,6 +5146,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 433
     }
   },
   "55-jln-bahagia": {
@@ -3143,6 +5168,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1033
     }
   },
   "55a-owen-rd": {
@@ -3157,6 +5191,15 @@
     "sold_units_by_type": {
       "2room": 154,
       "4room": 276
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 566
     }
   },
   "56-geylang-bahru": {
@@ -3170,6 +5213,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 430
     }
   },
   "56-jln-ma-mor": {
@@ -3183,6 +5235,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1045
     }
   },
   "57-geylang-bahru": {
@@ -3197,6 +5258,15 @@
     "sold_units_by_type": {
       "3room": 376,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 346
     }
   },
   "57-jln-ma-mor": {
@@ -3210,6 +5280,15 @@
     "total_dwelling_units": 7,
     "sold_units_by_type": {
       "3room": 7
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1064
     }
   },
   "58-geylang-bahru": {
@@ -3224,6 +5303,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 439
     }
   },
   "58-jln-ma-mor": {
@@ -3237,6 +5325,15 @@
     "total_dwelling_units": 7,
     "sold_units_by_type": {
       "3room": 7
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1037
     }
   },
   "59-jln-ma-mor": {
@@ -3250,6 +5347,15 @@
     "total_dwelling_units": 7,
     "sold_units_by_type": {
       "3room": 7
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1014
     }
   },
   "59a-geylang-bahru": {
@@ -3264,6 +5370,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 389
     }
   },
   "59b-geylang-bahru": {
@@ -3278,6 +5393,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 401
     }
   },
   "59c-geylang-bahru": {
@@ -3292,6 +5416,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 347
     }
   },
   "5a-upp-boon-keng-rd": {
@@ -3306,6 +5439,15 @@
     "sold_units_by_type": {
       "3room": 192,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 269
     }
   },
   "6-beach-rd": {
@@ -3325,6 +5467,15 @@
     "rental_units_by_type": {
       "1room": 57,
       "2room": 67
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 385
     }
   },
   "6-boon-keng-rd": {
@@ -3339,6 +5490,15 @@
     "sold_units_by_type": {
       "4room": 49,
       "5room": 53
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 94
     }
   },
   "6-jln-batu": {
@@ -3353,6 +5513,15 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "katong-park",
+      "name": "Katong Park",
+      "codes": [
+        "TE24"
+      ],
+      "exit": "Exit 2",
+      "distance": 344
     }
   },
   "6-st-george-s-lane": {
@@ -3368,6 +5537,15 @@
       "3room": 75,
       "4room": 33,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 458
     }
   },
   "60-geylang-bahru": {
@@ -3382,6 +5560,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 299
     }
   },
   "60-jln-bahagia": {
@@ -3395,6 +5582,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1000
     }
   },
   "61-geylang-bahru": {
@@ -3409,6 +5605,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 336
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 268
     }
   },
   "61-jln-tenteram": {
@@ -3422,6 +5627,15 @@
     "total_dwelling_units": 9,
     "sold_units_by_type": {
       "3room": 9
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 978
     }
   },
   "62-geylang-bahru": {
@@ -3436,6 +5650,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 336
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 345
     }
   },
   "62-jln-ma-mor": {
@@ -3449,6 +5672,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 993
     }
   },
   "63-jln-ma-mor": {
@@ -3462,6 +5694,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "3room": 8
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1041
     }
   },
   "63-kallang-bahru": {
@@ -3479,6 +5720,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 365
     }
   },
   "64-jln-ma-mor": {
@@ -3492,6 +5742,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 1021
     }
   },
   "64-kallang-bahru": {
@@ -3506,6 +5765,15 @@
     "sold_units_by_type": {
       "3room": 280,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 381
     }
   },
   "65-jln-ma-mor": {
@@ -3519,6 +5787,15 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "3room": 6
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 982
     }
   },
   "65-kallang-bahru": {
@@ -3533,6 +5810,15 @@
     "sold_units_by_type": {
       "3room": 282,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 411
     }
   },
   "66-kallang-bahru": {
@@ -3546,6 +5832,15 @@
     "total_dwelling_units": 59,
     "sold_units_by_type": {
       "3room": 59
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 208
     }
   },
   "67-kallang-bahru": {
@@ -3559,6 +5854,15 @@
     "total_dwelling_units": 42,
     "sold_units_by_type": {
       "3room": 42
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 247
     }
   },
   "68-geylang-bahru": {
@@ -3573,6 +5877,15 @@
     "sold_units_by_type": {
       "3room": 378,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 195
     }
   },
   "681-race-course-rd": {
@@ -3586,6 +5899,15 @@
     "total_dwelling_units": 121,
     "sold_units_by_type": {
       "4room": 121
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 60
     }
   },
   "682-race-course-rd": {
@@ -3600,6 +5922,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 128
     }
   },
   "683-tessensohn-rd": {
@@ -3613,6 +5944,15 @@
     "total_dwelling_units": 121,
     "sold_units_by_type": {
       "4room": 121
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 173
     }
   },
   "684-race-course-rd": {
@@ -3628,6 +5968,15 @@
       "3room": 77,
       "4room": 37,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 227
     }
   },
   "685-race-course-rd": {
@@ -3642,6 +5991,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 236
     }
   },
   "69-moulmein-rd": {
@@ -3655,6 +6013,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "novena",
+      "name": "Novena",
+      "codes": [
+        "NS20"
+      ],
+      "exit": "Exit A",
+      "distance": 722
     }
   },
   "7-boon-keng-rd": {
@@ -3670,6 +6037,15 @@
       "3room": 24,
       "4room": 56,
       "5room": 158
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 173
     }
   },
   "7-jln-batu": {
@@ -3687,6 +6063,15 @@
     },
     "rental_units_by_type": {
       "2room": 2
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 411
     }
   },
   "7-king-george-s-ave": {
@@ -3701,6 +6086,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 252
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 288
     }
   },
   "7-nth-bridge-rd": {
@@ -3716,6 +6110,15 @@
     "rental_units_by_type": {
       "1room": 336,
       "2room": 12
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 324
     }
   },
   "7-st-george-s-lane": {
@@ -3734,6 +6137,15 @@
     },
     "rental_units_by_type": {
       "2room": 4
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 483
     }
   },
   "72-geylang-bahru": {
@@ -3751,6 +6163,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 15
     }
   },
   "73-geylang-bahru": {
@@ -3765,6 +6186,15 @@
     "sold_units_by_type": {
       "3room": 164,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 161
     }
   },
   "74-whampoa-dr": {
@@ -3779,6 +6209,15 @@
     "sold_units_by_type": {
       "3room": 246,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 661
     }
   },
   "75-whampoa-dr": {
@@ -3793,6 +6232,15 @@
     "sold_units_by_type": {
       "3room": 264,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 605
     }
   },
   "76-lor-limau": {
@@ -3807,6 +6255,15 @@
     "sold_units_by_type": {
       "3room": 206,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 976
     }
   },
   "77-lor-limau": {
@@ -3821,6 +6278,15 @@
     "sold_units_by_type": {
       "3room": 202,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 927
     }
   },
   "78-lor-limau": {
@@ -3836,6 +6302,15 @@
       "2room": 89,
       "4room": 249,
       "studio_apartment": 67
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 849
     }
   },
   "8-boon-keng-rd": {
@@ -3851,6 +6326,15 @@
       "3room": 24,
       "4room": 56,
       "5room": 158
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 188
     }
   },
   "8-french-rd": {
@@ -3865,6 +6349,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 304
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 218
     }
   },
   "8-jln-batu": {
@@ -3882,6 +6375,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 379
     }
   },
   "8-nth-bridge-rd": {
@@ -3897,6 +6399,15 @@
     "rental_units_by_type": {
       "1room": 336,
       "2room": 12
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 306
     }
   },
   "8-st-george-s-lane": {
@@ -3912,6 +6423,15 @@
       "3room": 108,
       "4room": 22,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 426
     }
   },
   "801-french-rd": {
@@ -3926,6 +6446,15 @@
     "sold_units_by_type": {
       "3room": 86,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 244
     }
   },
   "802-french-rd": {
@@ -3942,6 +6471,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 265
     }
   },
   "804-king-george-s-ave": {
@@ -3956,6 +6494,15 @@
     "sold_units_by_type": {
       "3room": 130,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 209
     }
   },
   "805-king-george-s-ave": {
@@ -3972,6 +6519,15 @@
     },
     "rental_units_by_type": {
       "2room": 127
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 208
     }
   },
   "806-king-george-s-ave": {
@@ -3989,6 +6545,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 195
     }
   },
   "807-king-george-s-ave": {
@@ -4002,6 +6567,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 229
     }
   },
   "811-french-rd": {
@@ -4016,6 +6590,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 180
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 152
     }
   },
   "813-jellicoe-rd": {
@@ -4030,6 +6613,15 @@
     "sold_units_by_type": {
       "4room": 82,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 70
     }
   },
   "815-jellicoe-rd": {
@@ -4044,6 +6636,15 @@
     "sold_units_by_type": {
       "4room": 82,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 129
     }
   },
   "816-jellicoe-rd": {
@@ -4058,6 +6659,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit B",
+      "distance": 173
     }
   },
   "82-whampoa-dr": {
@@ -4072,6 +6682,15 @@
     "sold_units_by_type": {
       "3room": 195,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 698
     }
   },
   "83-whampoa-dr": {
@@ -4085,6 +6704,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 629
     }
   },
   "84-whampoa-dr": {
@@ -4098,6 +6726,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 604
     }
   },
   "85-whampoa-dr": {
@@ -4112,6 +6749,15 @@
     "sold_units_by_type": {
       "3room": 146,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 636
     }
   },
   "86-whampoa-dr": {
@@ -4126,6 +6772,15 @@
     "sold_units_by_type": {
       "3room": 197,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 711
     }
   },
   "8a-upp-boon-keng-rd": {
@@ -4141,6 +6796,15 @@
       "3room": 81,
       "4room": 162,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 241
     }
   },
   "8b-upp-boon-keng-rd": {
@@ -4156,6 +6820,15 @@
       "3room": 87,
       "4room": 145,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 198
     }
   },
   "8c-upp-boon-keng-rd": {
@@ -4172,6 +6845,15 @@
       "4room": 124,
       "5room": 25,
       "studio_apartment": 29
+    },
+    "nearest_station": {
+      "id": "kallang",
+      "name": "Kallang",
+      "codes": [
+        "EW10"
+      ],
+      "exit": "Exit B",
+      "distance": 176
     }
   },
   "9-boon-keng-rd": {
@@ -4187,6 +6869,15 @@
       "3room": 24,
       "4room": 56,
       "5room": 158
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit C",
+      "distance": 215
     }
   },
   "9-gloucester-rd": {
@@ -4200,6 +6891,15 @@
     "total_dwelling_units": 156,
     "sold_units_by_type": {
       "4room": 156
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit D",
+      "distance": 190
     }
   },
   "9-jln-batu": {
@@ -4217,6 +6917,15 @@
     },
     "rental_units_by_type": {
       "2room": 3
+    },
+    "nearest_station": {
+      "id": "mountbatten",
+      "name": "Mountbatten",
+      "codes": [
+        "CC7"
+      ],
+      "exit": "Exit B",
+      "distance": 359
     }
   },
   "9-nth-bridge-rd": {
@@ -4232,6 +6941,15 @@
     "rental_units_by_type": {
       "1room": 336,
       "2room": 12
+    },
+    "nearest_station": {
+      "id": "lavender",
+      "name": "Lavender",
+      "codes": [
+        "EW11"
+      ],
+      "exit": "Exit A",
+      "distance": 282
     }
   },
   "9-st-george-s-rd": {
@@ -4245,6 +6963,15 @@
     "total_dwelling_units": 77,
     "sold_units_by_type": {
       "4room": 77
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 435
     }
   },
   "93-geylang-bahru": {
@@ -4261,6 +6988,15 @@
       "4room": 24,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 70
     }
   },
   "93-whampoa-dr": {
@@ -4275,6 +7011,15 @@
     "sold_units_by_type": {
       "3room": 126,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 783
     }
   },
   "94-geylang-bahru": {
@@ -4289,6 +7034,15 @@
     "sold_units_by_type": {
       "3room": 120,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 124
     }
   },
   "94-whampoa-dr": {
@@ -4302,6 +7056,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 672
     }
   },
   "95-geylang-bahru": {
@@ -4317,6 +7080,15 @@
       "3room": 118,
       "4room": 24,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 169
     }
   },
   "95-whampoa-dr": {
@@ -4330,6 +7102,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 634
     }
   },
   "96-geylang-bahru": {
@@ -4345,6 +7126,15 @@
       "3room": 102,
       "4room": 26,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 236
     }
   },
   "96-whampoa-dr": {
@@ -4358,6 +7148,15 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 669
     }
   },
   "97-geylang-bahru": {
@@ -4374,6 +7173,15 @@
       "4room": 26,
       "5room": 1,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "geylang-bahru",
+      "name": "Geylang Bahru",
+      "codes": [
+        "DT24"
+      ],
+      "exit": "Exit A",
+      "distance": 284
     }
   },
   "97-whampoa-dr": {
@@ -4388,6 +7196,15 @@
     "sold_units_by_type": {
       "3room": 174,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 740
     }
   },
   "98-whampoa-dr": {
@@ -4402,6 +7219,15 @@
     "sold_units_by_type": {
       "3room": 322,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "boon-keng",
+      "name": "Boon Keng",
+      "codes": [
+        "NE9"
+      ],
+      "exit": "Exit A",
+      "distance": 833
     }
   },
   "99-whampoa-dr": {
@@ -4415,6 +7241,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit B",
+      "distance": 815
     }
   }
 }

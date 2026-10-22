@@ -12,6 +12,7 @@ export interface BlockIndexProperties {
   // Filtering: the keys of the shard's unit counts, in display order (lib/flat-types.ts).
   sold_types: string[];
   rental_types: string[]; // empty, not absent, when the shard has no rental counts
+  station_distance: number; // whole metres; coloring; mirrors the shard's nearest_station
 }
 
 export interface BlockFeature {
@@ -36,6 +37,39 @@ export interface BlockDetail {
   total_dwelling_units: number;
   sold_units_by_type: FlatTypeCounts;
   rental_units_by_type?: FlatTypeCounts;
+  nearest_station: NearestStation;
+}
+
+export interface NearestStation {
+  id: string;
+  name: string;
+  codes: string[]; // open-line codes, e.g. ["NS24", "NE6", "CC1"]
+  exit: string; // the nearest exit's name; pairs with id to find it in stations.geojson
+  distance: number; // whole metres, straight line to that exit
+}
+
+export interface StationProperties {
+  kind: "station";
+  id: string;
+  name: string;
+  codes: string[];
+}
+
+export interface ExitProperties {
+  kind: "exit";
+  station: string; // the station's id
+  exit: string; // not unique within a station: an exit can have several entrances
+}
+
+export interface StationFeature {
+  type: "Feature";
+  geometry: { type: "Point"; coordinates: [number, number] }; // [lon, lat]
+  properties: StationProperties | ExitProperties;
+}
+
+export interface StationFeatureCollection {
+  type: "FeatureCollection";
+  features: StationFeature[];
 }
 
 export interface DataMeta {

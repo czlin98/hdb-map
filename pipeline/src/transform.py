@@ -1,4 +1,5 @@
 from config import make_id
+from stations import nearest_station
 
 # (source column, output key), in display order. Output keys must match app/src/lib/flat-types.ts.
 FLAT_TYPES_SOLD = [
@@ -44,7 +45,9 @@ REQUIRED_VALUES = [
 ]
 
 
-def transform(geocoded: list[dict], towns: list[dict]) -> tuple[list[dict], list[dict]]:
+def transform(
+    geocoded: list[dict], towns: list[dict], stations: list[dict]
+) -> tuple[list[dict], list[dict]]:
     """Return (records, skipped); skipped rows match geocode failures for the failures CSV."""
     code_index = {t["town_code"]: t for t in towns}
     records: list[dict] = []
@@ -68,6 +71,8 @@ def transform(geocoded: list[dict], towns: list[dict]) -> tuple[list[dict], list
                 }
             )
             continue
+        lat, lon = float(block["lat"]), float(block["lon"])
+        station = nearest_station(lon, lat, stations)
         records.append(
             {
                 "id": make_id(block["blk_no"], block["street"]),
@@ -77,11 +82,13 @@ def transform(geocoded: list[dict], towns: list[dict]) -> tuple[list[dict], list
                 "postal": block["postal"],
                 "town": town["town"],
                 "town_slug": town["town_slug"],
-                "lat": float(block["lat"]),
-                "lon": float(block["lon"]),
+                "lat": lat,
+                "lon": lon,
                 **values,
                 "sold_units_by_type": _units_by_type(block, FLAT_TYPES_SOLD),
                 "rental_units_by_type": _units_by_type(block, FLAT_TYPES_RENTAL),
+                "station_distance": station["distance"],
+                "nearest_station": station,
             }
         )
     return records, skipped

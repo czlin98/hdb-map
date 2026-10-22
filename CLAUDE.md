@@ -11,8 +11,9 @@ JSON files, the data contract** (`app/public/data/`). Each half depends only on 
 change internally without breaking the other:
 
 - **`pipeline/`**: Python. Fetches HDB Property Information from data.gov.sg, geocodes each block
-  via the OneMap API, and _writes_ the contract JSON into `app/public/data/`. Runs monthly in GitHub
-  Actions, never at request time.
+  via the OneMap API, finds each block's nearest MRT or LRT station from LTA's station exits, and
+  _writes_ the contract JSON into `app/public/data/`. Runs monthly in GitHub Actions, never at
+  request time.
 - **`app/`**: React 19 + Vite + TypeScript static SPA. At runtime _reads_ only those static files
   from the CDN. No backend, no serverless functions, no third-party API calls from the browser.
 
@@ -54,12 +55,18 @@ types it. **Keep these two in sync when changing any field.** Files:
 - `index.geojson`: one Point `Feature` per block, with lightweight properties (`id`, `blk_no`,
   `street`/`street_full`, `postal`, `town`) plus the values that coloring and filtering read, since
   both need every block at once: `year_completed` and `max_floor_lvl` (mirrored from the shard), and
-  `sold_types`/`rental_types` (the keys of the shard's unit counts, always present, possibly empty).
-  Loaded whole at startup; drives the map and the search index. Written compact, one block per line,
+  `sold_types`/`rental_types` (the keys of the shard's unit counts, always present, possibly empty),
+  and `station_distance` (whole metres to the nearest station exit, mirrored from the shard). Loaded
+  whole at startup; drives the map and the search index. Written compact, one block per line,
   coordinates rounded to 6 decimals (`export.py`).
-- `block-details/{town_slug}.json`: heavy per-block detail (unit counts, year, floors) **sharded by
-  town** and keyed by block `id`. Lazy-loaded one shard at a time and cached (`createGetBlockDetail`
-  in `app/src/lib/data.ts`). A shard is written for _every_ town, even empty ones.
+- `block-details/{town_slug}.json`: heavy per-block detail (unit counts, year, floors, and
+  `nearest_station`: id, name, line codes, exit, distance) **sharded by town** and keyed by block
+  `id`. Lazy-loaded one shard at a time and cached (`createGetBlockDetail` in
+  `app/src/lib/data.ts`). A shard is written for _every_ town, even empty ones.
+- `stations.geojson`: one Point per station (`kind: "station"`: id, name, line codes; placed at the
+  mean of its exits) and one per exit point (`kind: "exit"`: station id, exit name). An exit name
+  can have several points, one per entrance. Loaded at startup beside the index but not required by
+  it.
 - `towns.json`: town → slug → code mapping. `towns.json` also lives at `pipeline/towns.json` as the
   pipeline's input; the app copy is generated.
 - `meta.json`: `data_accessed`, the Singapore-time date of the last successful run. Rewritten on
@@ -72,17 +79,24 @@ diffs stay minimal.
 
 ## Pipeline internals
 
-`run.py` orchestrates four stages: `fetch → geocode → transform → export`. It is **fail-fast**:
-token auth, town loading, and fetching all happen _before_ any file is written, and an unknown town
-code in `transform` raises rather than writing partial output, so a failed run never corrupts the
-committed contract. Per-block problems are non-fatal instead: a geocode failure (including a match
-with unusable coordinates), or a block that `transform` skips for a missing year, floor count, or
-unit total, is left out and written to `pipeline/failed_blocks.csv` (committed alongside the data)
-with its reason. The block-count guard caps them: a full run that would write fewer than
-`MIN_BLOCK_RATIO` (99%) of the live blocks aborts before any write. After the write, `summarize.py`
-compares the data with what was there before; the workflow (which sets `RUN_SUMMARY_PATH`) puts that
-summary in the data commit's message and on the run page. A summary failure only logs a warning.
-Street abbreviations (`AVE`→`AVENUE`, etc.) are expanded via whole-token matching in `config.py`.
+`run.py` orchestrates five stages: `fetch → stations → geocode → transform → export`. It is
+**fail-fast**: token auth, town loading, fetching, and the stations stage all happen _before_ any
+file is written, and an unknown town code in `transform` raises rather than writing partial output,
+so a failed run never corrupts the committed contract. Per-block problems are non-fatal instead: a
+geocode failure (including a match with unusable coordinates), or a block that `transform` skips for
+a missing year, floor count, or unit total, is left out and written to `pipeline/failed_blocks.csv`
+(committed alongside the data) with its reason. The block-count guard caps them: a full run that
+would write fewer than `MIN_BLOCK_RATIO` (99%) of the live blocks aborts before any write. After the
+write, `summarize.py` compares the data with what was there before; the workflow (which sets
+`RUN_SUMMARY_PATH`) puts that summary in the data commit's message and on the run page. A summary
+failure only logs a warning. Street abbreviations (`AVE`→`AVENUE`, etc.) are expanded via
+whole-token matching in `config.py`.
+
+The stations stage (`stations.py`) reads LTA's exit dataset from data.gov.sg, merges shared MRT/LRT
+stops into one station, and looks up each station's line codes on OneMap, keeping only codes whose
+prefix is in `OPEN_LINES` (`config.py`). A station left with no code fails the run, and a station
+guard like the block guard (`MIN_STATION_RATIO`) runs before geocoding. `transform` gives each block
+its nearest exit by straight-line (haversine) distance.
 
 ## Frontend internals
 
@@ -94,12 +108,21 @@ side panel on desktop (`useIsDesktop`, 768px breakpoint), and the map fly-to is 
 selected marker visible above the sheet. Basemap is OpenFreeMap (Positron) vector tiles via MapLibre
 GL, free, no API key.
 
+Stations: `App` loads `stations.geojson` in its own effect, outside the index's `Promise.all`, so a
+failed load only loses the stations. `MapView` adds a `stations` source with station and exit layers
+(station chips are canvas images from `lib/station-chips.ts`, colored by `lib/lines.ts`, which must
+stay in step with `OPEN_LINES`), and a `nearest-exit` source for the selected block's highlight.
+`App` finds that exit from the shard (`nearestExitPoint` in `lib/data.ts`); the detail loader caches
+each shard's promise, so the panel and the highlight share one request. None of the station layers
+are hover or tap targets.
+
 Marker coloring: `lib/coloring.ts` is the single definition of the bands (edges, labels, colors) and
 derives the MapLibre `step` expression, the band lookup, and the legend counts from it. The active
 mode lives in its own Zustand store (`store/color.ts`, not persisted). `ColorControl` (the desktop
 menu), `ColorModeRow` (its mobile counterpart, in the options sheet), `ColorLegend` (bottom-left),
 and the details panel's band swatch read the store; `MapView` gets the mode as a prop and swaps
-`circle-color` with `setPaintProperty`.
+`circle-color` with `setPaintProperty`. A scale can carry a legend `note` (shown from an info
+button) and `lowestOnTop` (MRT distance, whose nearest band is darkest).
 
 Filtering: `lib/filtering.ts` is the single definition of a filter (the predicate, the MapLibre
 filter expression, the data limits, and the active count), and a test checks that the expression and

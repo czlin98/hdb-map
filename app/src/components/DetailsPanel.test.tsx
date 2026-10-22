@@ -87,6 +87,47 @@ test("floors coloring puts the block's band swatch on the floors row", () => {
   expect(within(field("Year completed")).queryByRole("img")).not.toBeInTheDocument();
 });
 
+test("the Nearest MRT row names the station, a chip per line, the exit and the distance", () => {
+  const amk = sampleShard["123-ang-mo-kio-ave-3"];
+  const detail = {
+    ...amk,
+    nearest_station: {
+      id: "outram-park",
+      name: "Outram Park",
+      codes: ["EW16", "NE3", "TE17"],
+      exit: "Exit 5",
+      distance: 176,
+    },
+  };
+  render(<DetailsContent detail={detail} />);
+  const row = field("Nearest MRT");
+  const [line1, line2] = within(row).getAllByRole("definition");
+  expect([...line1.children].map((c) => c.textContent)).toEqual([
+    "EW16",
+    "NE3",
+    "TE17",
+    "· Exit 5",
+  ]);
+  expect(line1).toHaveTextContent(/^Outram Park/);
+  expect(within(line1).getByText("NE3")).toHaveStyle({ backgroundColor: "#9900aa" });
+  expect(line2).toHaveTextContent("176 m");
+});
+
+test("MRT coloring puts the band swatch after the distance only", () => {
+  act(() => useColorMode.getState().setMode("mrt"));
+  render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
+  const swatch = within(field("Nearest MRT")).getByRole("img", { name: "200 to 400 m" });
+  expect(swatch).toHaveStyle({ backgroundColor: "#238443" });
+  expect(within(field("Year completed")).queryByRole("img")).not.toBeInTheDocument();
+  expect(within(field("Floors")).queryByRole("img")).not.toBeInTheDocument();
+});
+
+test("other modes leave the Nearest MRT row without a swatch", () => {
+  act(() => useColorMode.getState().setMode("year"));
+  render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
+  expect(within(field("Nearest MRT")).queryByRole("img")).not.toBeInTheDocument();
+});
+
 test("useBlockDetail: loading -> ready", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
   const { result } = renderHook(() => useBlockDetail("123-ang-mo-kio-ave-3", "ANG MO KIO", get));

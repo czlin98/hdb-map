@@ -10,14 +10,24 @@ vi.mock("./components/MapView", () => ({
     onBackgroundClick,
     colorMode,
     filters,
+    stations,
+    nearestExit,
   }: {
     data: IndexFeatureCollection;
     onSelectBlock: (id: string, town: string) => void;
     onBackgroundClick?: () => void;
     colorMode?: string;
     filters?: unknown;
+    stations?: { features: unknown[] } | null;
+    nearestExit?: unknown;
   }) => (
-    <div data-testid="map" data-color-mode={colorMode} data-filters={JSON.stringify(filters)}>
+    <div
+      data-testid="map"
+      data-color-mode={colorMode}
+      data-filters={JSON.stringify(filters)}
+      data-stations={stations ? stations.features.length : "none"}
+      data-nearest-exit={JSON.stringify(nearestExit ?? null)}
+    >
       {data.features.map((f: BlockFeature) => (
         <button
           key={f.properties.id}
@@ -34,7 +44,7 @@ vi.mock("./components/MapView", () => ({
 import App from "./App";
 import type { BlockFeature, IndexFeatureCollection } from "./types/contract";
 import { EMPTY_FILTERS } from "./lib/filtering";
-import { sampleIndex, sampleShard, sampleTowns } from "./test/fixtures";
+import { sampleIndex, sampleShard, sampleStations, sampleTowns } from "./test/fixtures";
 import { useSelection } from "./store/selection";
 import { useColorMode } from "./store/color";
 import { useFilters } from "./store/filters";
@@ -94,6 +104,122 @@ test("shows a fatal error card when index fails to load", async () => {
   stubFetch({ "towns.json": sampleTowns }); // index.geojson -> 404
   render(<App />);
   expect(await screen.findByText(/couldn't load block data/i)).toBeInTheDocument();
+});
+
+test("loads the stations beside the index and hands them to the map", async () => {
+  stubFetch({
+    "index.geojson": sampleIndex,
+    "towns.json": sampleTowns,
+    "stations.geojson": sampleStations,
+  });
+  render(<App />);
+  // Requested on mount with the index, not after it.
+  const urls = (fetch as unknown as { mock: { calls: string[][] } }).mock.calls.map((c) => c[0]);
+  expect(urls).toEqual(expect.arrayContaining(["/data/index.geojson", "/data/stations.geojson"]));
+  await waitFor(() => expect(screen.getByTestId("map")).toHaveAttribute("data-stations", "7"));
+});
+
+test("a failed stations load leaves the app working, with no error card", async () => {
+  stubFetch({ "index.geojson": sampleIndex, "towns.json": sampleTowns }); // stations -> 404
+  render(<App />);
+  expect(await screen.findByText("marker-123-ang-mo-kio-ave-3")).toBeInTheDocument();
+  expect(screen.getByTestId("map")).toHaveAttribute("data-stations", "none");
+  expect(screen.queryByText(/couldn't load block data/i)).not.toBeInTheDocument();
+});
+
+test.each(["index.geojson", "towns.json"])(
+  "a failed %s still shows the error card when the stations load",
+  async (missing) => {
+    const files: Record<string, unknown> = {
+      "index.geojson": sampleIndex,
+      "towns.json": sampleTowns,
+      "stations.geojson": sampleStations,
+    };
+    delete files[missing];
+    stubFetch(files);
+    render(<App />);
+    expect(await screen.findByText(/couldn't load block data/i)).toBeInTheDocument();
+  },
+);
+
+describe("the nearest-exit highlight", () => {
+  const AMK = "marker-123-ang-mo-kio-ave-3";
+  const amkExit = { lon: 103.8488, lat: 1.3693, station: "ang-mo-kio", exit: "Exit A" };
+  const bedokShard = {
+    "1-bedok-nth-st-1": {
+      ...sampleShard["123-ang-mo-kio-ave-3"],
+      blk_no: "1",
+      street: "BEDOK NTH ST 1",
+      street_full: "BEDOK NORTH STREET 1",
+      postal: "460001",
+      town: "BEDOK",
+      nearest_station: {
+        id: "bedok",
+        name: "Bedok",
+        codes: ["EW5"],
+        exit: "Exit B",
+        distance: 820,
+      },
+    },
+  };
+  const bedokExit = { lon: 103.9302, lat: 1.3242, station: "bedok", exit: "Exit B" };
+  const shownExit = () => JSON.parse(screen.getByTestId("map").dataset.nearestExit!);
+
+  test("selecting a block hands the map its nearest exit; clearing takes it away", async () => {
+    stubFetch({
+      "index.geojson": sampleIndex,
+      "towns.json": sampleTowns,
+      "stations.geojson": sampleStations,
+      "ang-mo-kio.json": sampleShard,
+    });
+    render(<App />);
+    expect(shownExit()).toBeNull();
+    await userEvent.click(await screen.findByText(AMK));
+    await waitFor(() => expect(shownExit()).toEqual(amkExit));
+
+    act(() => useSelection.getState().clear());
+    expect(shownExit()).toBeNull();
+  });
+
+  test.each([
+    ["stations", { "ang-mo-kio.json": sampleShard }, /123 ANG MO KIO AVENUE 3 560123/],
+    ["shard", { "stations.geojson": sampleStations }, /Details unavailable/],
+  ])("a failed %s load leaves it empty and the panel unaffected", async (_, files, panel) => {
+    stubFetch({ "index.geojson": sampleIndex, "towns.json": sampleTowns, ...files });
+    render(<App />);
+    await userEvent.click(await screen.findByText(AMK));
+    // The panel shows what it would without the highlight.
+    expect(await screen.findByText(panel)).toBeInTheDocument();
+    expect(shownExit()).toBeNull();
+  });
+
+  test("a quick second selection never shows the first block's exit", async () => {
+    let releaseAmk!: () => void;
+    const amkShard = new Promise<void>((r) => (releaseAmk = r));
+    const files: Record<string, unknown> = {
+      "index.geojson": sampleIndex,
+      "towns.json": sampleTowns,
+      "stations.geojson": sampleStations,
+      "ang-mo-kio.json": sampleShard,
+      "bedok.json": bedokShard,
+    };
+    vi.stubGlobal(
+      "fetch",
+      vi.fn(async (url: string) => {
+        if (url.includes("ang-mo-kio.json")) await amkShard;
+        const key = Object.keys(files).find((k) => url.includes(k))!;
+        return { ok: true, status: 200, json: async () => files[key] };
+      }),
+    );
+    render(<App />);
+    await waitFor(() => expect(screen.getByTestId("map")).toHaveAttribute("data-stations", "7"));
+    await userEvent.click(await screen.findByText(AMK));
+    await userEvent.click(screen.getByText("marker-1-bedok-nth-st-1"));
+    await waitFor(() => expect(shownExit()).toEqual(bedokExit));
+
+    await act(async () => releaseAmk());
+    expect(shownExit()).toEqual(bedokExit);
+  });
 });
 
 function stubLoaded() {

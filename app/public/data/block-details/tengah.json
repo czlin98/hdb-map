@@ -11,6 +11,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1499
     }
   },
   "111b-plantation-cres": {
@@ -26,6 +35,15 @@
       "2room": 129,
       "3room": 26,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1463
     }
   },
   "111c-plantation-cres": {
@@ -40,6 +58,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1445
     }
   },
   "112a-plantation-cres": {
@@ -55,6 +82,15 @@
       "2room": 91,
       "3room": 26,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1362
     }
   },
   "112b-plantation-cres": {
@@ -70,6 +106,15 @@
       "2room": 130,
       "3room": 26,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1407
     }
   },
   "113a-plantation-cres": {
@@ -85,6 +130,15 @@
       "2room": 89,
       "3room": 26,
       "4room": 25
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1292
     }
   },
   "113b-plantation-cres": {
@@ -99,6 +153,15 @@
     "sold_units_by_type": {
       "2room": 104,
       "4room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1322
     }
   },
   "114a-plantation-cres": {
@@ -113,6 +176,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1355
     }
   },
   "114b-plantation-cres": {
@@ -127,6 +199,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 73
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1387
     }
   },
   "116a-plantation-cres": {
@@ -142,6 +223,15 @@
       "2room": 74,
       "4room": 76,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1583
     }
   },
   "116b-plantation-cres": {
@@ -157,6 +247,15 @@
       "2room": 88,
       "4room": 22,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1605
     }
   },
   "117a-plantation-cres": {
@@ -171,6 +270,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1540
     }
   },
   "118a-plantation-cres": {
@@ -186,6 +294,15 @@
       "2room": 40,
       "3room": 39,
       "4room": 38
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1512
     }
   },
   "118b-plantation-cres": {
@@ -200,6 +317,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1594
     }
   },
   "119a-plantation-cres": {
@@ -214,6 +340,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1626
     }
   },
   "119b-plantation-cres": {
@@ -228,6 +363,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1679
     }
   },
   "119c-plantation-cres": {
@@ -243,6 +387,15 @@
       "2room": 74,
       "3room": 21,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1698
     }
   },
   "120a-tengah-dr": {
@@ -257,6 +410,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1657
     }
   },
   "120b-tengah-dr": {
@@ -271,6 +433,15 @@
     "sold_units_by_type": {
       "2room": 60,
       "4room": 38
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1625
     }
   },
   "120c-tengah-dr": {
@@ -285,6 +456,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1656
     }
   },
   "121a-tengah-dr": {
@@ -300,6 +480,15 @@
       "2room": 40,
       "3room": 20,
       "4room": 38
+    },
+    "nearest_station": {
+      "id": "bukit-batok",
+      "name": "Bukit Batok",
+      "codes": [
+        "NS2"
+      ],
+      "exit": "Exit C",
+      "distance": 1688
     }
   },
   "121b-tengah-dr": {
@@ -314,6 +503,15 @@
     "sold_units_by_type": {
       "4room": 49,
       "5room": 25
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1705
     }
   },
   "121c-tengah-dr": {
@@ -329,6 +527,15 @@
       "2room": 74,
       "3room": 21,
       "4room": 22
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1745
     }
   },
   "122a-tengah-dr": {
@@ -343,6 +550,15 @@
     "sold_units_by_type": {
       "4room": 11,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1730
     }
   },
   "122b-tengah-dr": {
@@ -358,6 +574,15 @@
       "2room": 72,
       "3room": 18,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1723
     }
   },
   "122c-tengah-dr": {
@@ -372,6 +597,15 @@
     "sold_units_by_type": {
       "4room": 25,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1707
     }
   },
   "123a-tengah-dr": {
@@ -386,6 +620,15 @@
     "sold_units_by_type": {
       "4room": 20,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1866
     }
   },
   "123b-tengah-dr": {
@@ -402,6 +645,15 @@
       "3room": 13,
       "4room": 46,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1889
     }
   },
   "123c-tengah-dr": {
@@ -416,6 +668,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1885
     }
   },
   "125a-tengah-dr": {
@@ -432,6 +693,15 @@
       "3room": 19,
       "4room": 36,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1854
     }
   },
   "125b-tengah-dr": {
@@ -448,6 +718,15 @@
       "3room": 18,
       "4room": 35,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1800
     }
   },
   "126a-tengah-dr": {
@@ -463,6 +742,15 @@
       "3room": 10,
       "4room": 13,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1749
     }
   },
   "126b-tengah-dr": {
@@ -479,6 +767,15 @@
       "3room": 18,
       "4room": 39,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1788
     }
   },
   "126c-tengah-dr": {
@@ -493,6 +790,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 49
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1805
     }
   },
   "127a-plantation-cres": {
@@ -507,6 +813,15 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 12
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1730
     }
   },
   "127b-plantation-cres": {
@@ -521,6 +836,15 @@
     "sold_units_by_type": {
       "4room": 21,
       "5room": 51
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1793
     }
   },
   "128a-plantation-cres": {
@@ -536,6 +860,15 @@
       "2room": 74,
       "4room": 26,
       "5room": 25
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1733
     }
   },
   "128b-plantation-cres": {
@@ -551,6 +884,15 @@
       "2room": 72,
       "4room": 24,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1759
     }
   },
   "129a-plantation-cres": {
@@ -565,6 +907,15 @@
     "sold_units_by_type": {
       "4room": 22,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1823
     }
   },
   "129b-plantation-cres": {
@@ -581,6 +932,15 @@
       "3room": 13,
       "4room": 47,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1856
     }
   },
   "129c-plantation-cres": {
@@ -595,6 +955,15 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1788
     }
   },
   "131a-tengah-gdn-ave": {
@@ -609,6 +978,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1580
     }
   },
   "131b-tengah-gdn-ave": {
@@ -624,6 +1002,15 @@
       "2room": 46,
       "3room": 26,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1548
     }
   },
   "131c-tengah-gdn-ave": {
@@ -639,6 +1026,15 @@
       "2room": 46,
       "3room": 26,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1506
     }
   },
   "131d-tengah-gdn-ave": {
@@ -653,6 +1049,15 @@
     "sold_units_by_type": {
       "3room": 39,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1458
     }
   },
   "132a-tengah-gdn-ave": {
@@ -667,6 +1072,15 @@
     "sold_units_by_type": {
       "2room": 84,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1615
     }
   },
   "132b-tengah-gdn-ave": {
@@ -681,6 +1095,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 81
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1675
     }
   },
   "132c-tengah-gdn-ave": {
@@ -695,6 +1118,15 @@
     "sold_units_by_type": {
       "2room": 84,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1563
     }
   },
   "133a-tengah-gdn-ave": {
@@ -709,6 +1141,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 85
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1609
     }
   },
   "133b-tengah-gdn-ave": {
@@ -723,6 +1164,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 85
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1549
     }
   },
   "133c-tengah-gdn-ave": {
@@ -737,6 +1187,15 @@
     "sold_units_by_type": {
       "2room": 86,
       "4room": 52
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1490
     }
   },
   "134a-tengah-gdn-ave": {
@@ -751,6 +1210,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 59
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1462
     }
   },
   "134b-tengah-gdn-ave": {
@@ -765,6 +1233,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1425
     }
   },
   "134c-tengah-gdn-ave": {
@@ -779,6 +1256,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1386
     }
   },
   "134d-tengah-gdn-ave": {
@@ -793,6 +1279,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 59
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1427
     }
   },
   "135a-tengah-gdn-ave": {
@@ -807,6 +1302,15 @@
     "sold_units_by_type": {
       "4room": 112,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1332
     }
   },
   "135b-tengah-gdn-ave": {
@@ -821,6 +1325,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1395
     }
   },
   "209a-tengah-gdn-ave": {
@@ -839,6 +1352,15 @@
     },
     "rental_units_by_type": {
       "2room": 28
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1688
     }
   },
   "210a-tengah-gdn-ave": {
@@ -854,6 +1376,15 @@
       "2room": 120,
       "3room": 15,
       "4room": 29
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1622
     }
   },
   "210b-tengah-gdn-ave": {
@@ -872,6 +1403,15 @@
     },
     "rental_units_by_type": {
       "2room": 30
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1576
     }
   },
   "211a-tengah-gdn-ave": {
@@ -886,6 +1426,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1560
     }
   },
   "213a-tengah-gdn-ave": {
@@ -901,6 +1450,15 @@
       "2room": 120,
       "3room": 15,
       "4room": 30
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1589
     }
   },
   "213b-tengah-gdn-ave": {
@@ -915,6 +1473,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1662
     }
   },
   "216a-tengah-gdn-ave": {
@@ -929,6 +1496,15 @@
     "sold_units_by_type": {
       "4room": 41,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1577
     }
   },
   "216b-tengah-gdn-ave": {
@@ -943,6 +1519,15 @@
     "sold_units_by_type": {
       "4room": 90,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1552
     }
   },
   "216c-tengah-gdn-ave": {
@@ -957,6 +1542,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1512
     }
   },
   "216d-tengah-gdn-ave": {
@@ -971,6 +1565,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1528
     }
   },
   "217a-tengah-gdn-ave": {
@@ -985,6 +1588,15 @@
     "sold_units_by_type": {
       "4room": 31,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1436
     }
   },
   "217b-tengah-gdn-ave": {
@@ -999,6 +1611,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1421
     }
   },
   "219a-tengah-gdn-walk": {
@@ -1014,6 +1635,15 @@
       "3room": 28,
       "4room": 44,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1850
     }
   },
   "220a-tengah-gdn-walk": {
@@ -1029,6 +1659,15 @@
       "2room": 112,
       "3room": 28,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1860
     }
   },
   "220b-tengah-gdn-walk": {
@@ -1044,6 +1683,15 @@
       "3room": 12,
       "4room": 73,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1801
     }
   },
   "221a-tengah-gdn-walk": {
@@ -1059,6 +1707,15 @@
       "2room": 112,
       "3room": 28,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1769
     }
   },
   "221b-tengah-gdn-walk": {
@@ -1074,6 +1731,15 @@
       "3room": 12,
       "4room": 73,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1738
     }
   },
   "222a-tengah-gdn-ave": {
@@ -1089,6 +1755,15 @@
       "3room": 10,
       "4room": 50,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1704
     }
   },
   "224a-tengah-gdn-ave": {
@@ -1104,6 +1779,15 @@
       "3room": 22,
       "4room": 89,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1680
     }
   },
   "224b-tengah-gdn-ave": {
@@ -1119,6 +1803,15 @@
       "2room": 119,
       "3room": 28,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1759
     }
   },
   "225a-tengah-gdn-ave": {
@@ -1134,6 +1827,15 @@
       "3room": 22,
       "4room": 89,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1745
     }
   },
   "225b-tengah-gdn-ave": {
@@ -1149,6 +1851,15 @@
       "2room": 121,
       "3room": 28,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1824
     }
   },
   "228a-tengah-dr": {
@@ -1165,6 +1876,15 @@
       "3room": 39,
       "4room": 21,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 2024
     }
   },
   "228b-tengah-dr": {
@@ -1179,6 +1899,15 @@
     "sold_units_by_type": {
       "2room": 82,
       "3room": 26
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1962
     }
   },
   "229a-tengah-dr": {
@@ -1194,6 +1923,15 @@
       "2room": 48,
       "4room": 35,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 2003
     }
   },
   "229b-tengah-dr": {
@@ -1209,6 +1947,15 @@
       "2room": 62,
       "4room": 28,
       "5room": 21
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 2007
     }
   },
   "230a-tengah-dr": {
@@ -1224,6 +1971,15 @@
       "2room": 48,
       "4room": 35,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1944
     }
   },
   "230b-tengah-dr": {
@@ -1239,6 +1995,15 @@
       "2room": 62,
       "4room": 27,
       "5room": 21
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1950
     }
   },
   "231a-tengah-dr": {
@@ -1255,6 +2020,15 @@
       "3room": 26,
       "4room": 46,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1899
     }
   },
   "231b-tengah-dr": {
@@ -1270,6 +2044,15 @@
       "2room": 62,
       "4room": 28,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1893
     }
   },
   "235a-tengah-gdn-walk": {
@@ -1286,6 +2069,15 @@
       "3room": 26,
       "4room": 12,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1995
     }
   },
   "235b-tengah-gdn-walk": {
@@ -1302,6 +2094,15 @@
       "3room": 18,
       "4room": 37,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 1982
     }
   },
   "236a-tengah-gdn-walk": {
@@ -1317,6 +2118,15 @@
       "2room": 40,
       "4room": 30,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 2050
     }
   },
   "236b-tengah-gdn-walk": {
@@ -1332,6 +2142,15 @@
       "2room": 72,
       "4room": 25,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 2048
     }
   },
   "237a-tengah-gdn-walk": {
@@ -1347,6 +2166,15 @@
       "2room": 40,
       "4room": 30,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 2096
     }
   },
   "237b-tengah-gdn-walk": {
@@ -1362,6 +2190,15 @@
       "2room": 72,
       "4room": 27,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 2095
     }
   },
   "238a-tengah-gdn-walk": {
@@ -1376,6 +2213,15 @@
     "sold_units_by_type": {
       "2room": 82,
       "3room": 26
+    },
+    "nearest_station": {
+      "id": "chinese-garden",
+      "name": "Chinese Garden",
+      "codes": [
+        "EW25"
+      ],
+      "exit": "Exit A",
+      "distance": 2159
     }
   },
   "238b-tengah-gdn-walk": {
@@ -1392,6 +2238,15 @@
       "3room": 20,
       "4room": 40,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 2117
     }
   },
   "241a-tengah-ctrl": {
@@ -1406,6 +2261,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1992
     }
   },
   "241b-tengah-ctrl": {
@@ -1420,6 +2284,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1957
     }
   },
   "241c-tengah-ctrl": {
@@ -1435,6 +2308,15 @@
       "2room": 56,
       "4room": 28,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1977
     }
   },
   "243a-tengah-ctrl": {
@@ -1450,6 +2332,15 @@
       "2room": 56,
       "4room": 28,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1923
     }
   },
   "243b-tengah-ctrl": {
@@ -1465,6 +2356,15 @@
       "2room": 112,
       "4room": 28,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 1898
     }
   },
   "244a-tengah-ctrl": {
@@ -1479,6 +2379,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 2017
     }
   },
   "244b-tengah-ctrl": {
@@ -1493,6 +2402,15 @@
     "sold_units_by_type": {
       "2room": 42,
       "4room": 55
+    },
+    "nearest_station": {
+      "id": "lakeside",
+      "name": "Lakeside",
+      "codes": [
+        "EW26"
+      ],
+      "exit": "Exit C",
+      "distance": 2003
     }
   },
   "300a-tengah-dr": {
@@ -1507,6 +2425,15 @@
     "sold_units_by_type": {
       "2room": 78,
       "3room": 11
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1601
     }
   },
   "300b-tengah-dr": {
@@ -1521,6 +2448,15 @@
     "sold_units_by_type": {
       "2room": 78,
       "3room": 11
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1623
     }
   },
   "300c-tengah-dr": {
@@ -1536,6 +2472,15 @@
       "3room": 11,
       "4room": 50,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1576
     }
   },
   "300d-tengah-dr": {
@@ -1550,6 +2495,15 @@
     "sold_units_by_type": {
       "2room": 56,
       "3room": 9
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1526
     }
   },
   "301a-tengah-dr": {
@@ -1564,6 +2518,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1582
     }
   },
   "301b-tengah-dr": {
@@ -1578,6 +2541,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1490
     }
   },
   "301c-tengah-dr": {
@@ -1592,6 +2564,15 @@
     "sold_units_by_type": {
       "2room": 78,
       "3room": 11
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1470
     }
   },
   "301d-tengah-dr": {
@@ -1606,6 +2587,15 @@
     "sold_units_by_type": {
       "2room": 78,
       "3room": 11
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1455
     }
   },
   "302a-tengah-pk-ave": {
@@ -1621,6 +2611,15 @@
       "2room": 78,
       "4room": 39,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1400
     }
   },
   "302b-tengah-pk-ave": {
@@ -1636,6 +2635,15 @@
       "3room": 13,
       "4room": 39,
       "5room": 25
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1455
     }
   },
   "302c-tengah-pk-ave": {
@@ -1650,6 +2658,15 @@
     "sold_units_by_type": {
       "2room": 34,
       "3room": 10
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1515
     }
   },
   "302d-tengah-pk-ave": {
@@ -1665,6 +2682,15 @@
       "3room": 12,
       "4room": 50,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1499
     }
   },
   "306a-tengah-dr": {
@@ -1680,6 +2706,15 @@
       "3room": 24,
       "4room": 65,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1804
     }
   },
   "306b-tengah-dr": {
@@ -1695,6 +2730,15 @@
       "3room": 26,
       "4room": 25,
       "5room": 53
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1766
     }
   },
   "306c-tengah-dr": {
@@ -1710,6 +2754,15 @@
       "2room": 50,
       "3room": 13,
       "4room": 39
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1714
     }
   },
   "307a-tengah-dr": {
@@ -1724,6 +2777,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1753
     }
   },
   "307b-tengah-dr": {
@@ -1738,6 +2800,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1701
     }
   },
   "307c-tengah-dr": {
@@ -1756,6 +2827,15 @@
     },
     "rental_units_by_type": {
       "2room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1635
     }
   },
   "308a-tengah-pk-ave": {
@@ -1770,6 +2850,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1538
     }
   },
   "308b-tengah-pk-ave": {
@@ -1784,6 +2873,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 43
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1569
     }
   },
   "308c-tengah-pk-ave": {
@@ -1802,6 +2900,15 @@
     },
     "rental_units_by_type": {
       "2room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1637
     }
   },
   "309a-tengah-pk-ave": {
@@ -1816,6 +2923,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 31
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1617
     }
   },
   "309b-tengah-pk-ave": {
@@ -1830,6 +2946,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1685
     }
   },
   "309c-tengah-pk-ave": {
@@ -1848,6 +2973,15 @@
     },
     "rental_units_by_type": {
       "2room": 8
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1708
     }
   },
   "316a-tengah-rd": {
@@ -1862,6 +2996,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1475
     }
   },
   "316b-tengah-rd": {
@@ -1877,6 +3020,15 @@
       "2room": 84,
       "3room": 12,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1396
     }
   },
   "316c-tengah-rd": {
@@ -1892,6 +3044,15 @@
       "2room": 60,
       "3room": 24,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1436
     }
   },
   "317a-tengah-rd": {
@@ -1906,6 +3067,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1545
     }
   },
   "317b-tengah-rd": {
@@ -1921,6 +3091,15 @@
       "3room": 24,
       "4room": 36,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1566
     }
   },
   "318a-tengah-pk-ave": {
@@ -1935,6 +3114,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1616
     }
   },
   "318b-tengah-pk-ave": {
@@ -1950,6 +3138,15 @@
       "3room": 24,
       "4room": 36,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1590
     }
   },
   "319a-tengah-pk-ave": {
@@ -1964,6 +3161,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1555
     }
   },
   "319b-tengah-pk-ave": {
@@ -1978,6 +3184,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1480
     }
   },
   "319c-tengah-pk-ave": {
@@ -1993,6 +3208,15 @@
       "2room": 60,
       "3room": 12,
       "4room": 52
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1454
     }
   },
   "322a-tengah-dr": {
@@ -2007,6 +3231,15 @@
     "sold_units_by_type": {
       "3room": 24,
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1971
     }
   },
   "322b-tengah-dr": {
@@ -2022,6 +3255,15 @@
       "2room": 104,
       "3room": 13,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1905
     }
   },
   "322c-tengah-dr": {
@@ -2037,6 +3279,15 @@
       "2room": 102,
       "3room": 13,
       "4room": 65
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1865
     }
   },
   "323a-tengah-dr": {
@@ -2052,6 +3303,15 @@
       "2room": 91,
       "3room": 11,
       "4room": 37
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1930
     }
   },
   "323b-tengah-dr": {
@@ -2066,6 +3326,15 @@
     "sold_units_by_type": {
       "3room": 22,
       "4room": 111
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 1969
     }
   },
   "324a-tengah-gdn-walk": {
@@ -2081,6 +3350,15 @@
       "3room": 12,
       "4room": 65,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 2167
     }
   },
   "324b-tengah-gdn-walk": {
@@ -2097,6 +3375,15 @@
       "3room": 26,
       "4room": 35,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 2072
     }
   },
   "325a-tengah-gdn-walk": {
@@ -2112,6 +3399,15 @@
       "3room": 11,
       "4room": 60,
       "5room": 59
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 2158
     }
   },
   "325b-tengah-gdn-walk": {
@@ -2128,6 +3424,15 @@
       "3room": 36,
       "4room": 33,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "bukit-gombak",
+      "name": "Bukit Gombak",
+      "codes": [
+        "NS3"
+      ],
+      "exit": "Exit C",
+      "distance": 2069
     }
   }
 }

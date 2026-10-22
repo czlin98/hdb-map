@@ -2,17 +2,26 @@ import { render } from "@testing-library/react";
 import { afterEach, expect, test, vi } from "vitest";
 
 // vi.mock is hoisted above the file body, so its collaborators must be hoisted too.
-const { handlers, map, popup, MapCtor, NavCtor } = vi.hoisted(() => {
+const { handlers, sources, sourceObjects, map, popup, MapCtor, NavCtor } = vi.hoisted(() => {
   const handlers: Record<string, ((e?: unknown) => void)[]> = {};
+  // The stations source exists only once added; the others are always answered. One object
+  // per id, so a test can read what was set on it.
+  const sources = new Set<string>();
+  const sourceObjects: Record<string, { setData: ReturnType<typeof vi.fn> }> = {};
   const map = {
     addControl: vi.fn(),
     removeControl: vi.fn(),
     touchZoomRotate: { disableRotation: vi.fn() },
     keyboard: { disableRotation: vi.fn() },
-    addSource: vi.fn(),
-    addLayer: vi.fn(),
+    addSource: vi.fn((id: string, _spec?: unknown) => sources.add(id)),
+    addImage: vi.fn(),
+    addLayer: vi.fn((_spec: unknown, _before?: string) => {}),
     getLayer: vi.fn().mockReturnValue({}),
-    getSource: vi.fn().mockReturnValue({ setData: vi.fn() }),
+    getSource: vi.fn((id: string) =>
+      id !== "stations" || sources.has(id)
+        ? (sourceObjects[id] ??= { setData: vi.fn() })
+        : undefined,
+    ),
     queryRenderedFeatures: vi.fn().mockReturnValue([]),
     setFilter: vi.fn(),
     setPaintProperty: vi.fn(),
@@ -41,7 +50,7 @@ const { handlers, map, popup, MapCtor, NavCtor } = vi.hoisted(() => {
     addTo: vi.fn(),
     remove: vi.fn(),
   };
-  return { handlers, map, popup, MapCtor, NavCtor };
+  return { handlers, sources, sourceObjects, map, popup, MapCtor, NavCtor };
 });
 
 // Named exports only, like maplibre-gl v6 (no default).
@@ -54,14 +63,21 @@ vi.mock("maplibre-gl", () => ({
   }),
 }));
 vi.mock("maplibre-gl/dist/maplibre-gl.css", () => ({}));
+// jsdom has no canvas.
+vi.mock("../lib/station-chips", () => ({
+  drawStationChips: vi.fn((codes: string[]) => ({ codes })),
+}));
 
 import { MapView } from "./MapView";
-import { sampleIndex } from "../test/fixtures";
+import { sampleIndex, sampleStations } from "../test/fixtures";
 import { BLOCK_COLOR, circleColor } from "../lib/coloring";
 import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
+import type { StationFeature } from "../types/contract";
 
 afterEach(() => {
   for (const k of Object.keys(handlers)) delete handlers[k];
+  sources.clear();
+  for (const k of Object.keys(sourceObjects)) delete sourceObjects[k];
   vi.clearAllMocks();
 });
 
@@ -531,4 +547,223 @@ test("a filter change doesn't move the map", () => {
   rerender(<MapView {...props} filters={townFilters} />);
   expect(map.flyTo).not.toHaveBeenCalled();
   expect(map.easeTo).not.toHaveBeenCalled();
+});
+
+function layerAdded(id: string) {
+  const call = map.addLayer.mock.calls.find((c) => (c[0] as { id: string }).id === id);
+  return call && { spec: call[0] as Record<string, unknown>, before: call[1] as string };
+}
+
+const STATION_LAYERS = [
+  "exits",
+  "exits-labels",
+  "stations-circles",
+  "stations-labels",
+  "stations-labels-lrt",
+];
+const HIGHLIGHT_LAYERS = ["nearest-exit-line", "nearest-exit-circle", "nearest-exit-label"];
+
+test("stations that beat load are drawn on load, each layer in its place among the blocks", () => {
+  map.getLayer.mockReturnValue(undefined);
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      stations={sampleStations}
+    />,
+  );
+  expect(map.addSource).not.toHaveBeenCalled();
+  map.getLayer.mockReturnValue({});
+  fire("load");
+  expect(map.addSource).toHaveBeenCalledWith("stations", expect.anything());
+  expect(STATION_LAYERS.map((id) => layerAdded(id)?.before)).toEqual([
+    "blocks-circles",
+    "blocks-labels",
+    "nearest-exit-line",
+    "nearest-exit-label",
+    "nearest-exit-label",
+  ]);
+  // One chip image per station, named for the label's image lookup.
+  expect(map.addImage.mock.calls.map((c) => c[0])).toEqual(["chips-ang-mo-kio", "chips-bedok"]);
+});
+
+test("stations that arrive after load are drawn then, once", () => {
+  const props = { data: sampleIndex, selectedId: null, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} />);
+  fire("load");
+  expect(layerAdded("stations-circles")).toBeUndefined();
+  rerender(<MapView {...props} stations={sampleStations} />);
+  expect(layerAdded("stations-circles")).toBeDefined();
+  rerender(<MapView {...props} stations={sampleStations} colorMode="year" />);
+  expect(map.addSource.mock.calls.filter((c) => c[0] === "stations")).toHaveLength(1);
+});
+
+test("no stations draws none and throws nothing", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} stations={null} />);
+  fire("load");
+  for (const id of STATION_LAYERS) expect(layerAdded(id)).toBeUndefined();
+  expect(map.addImage).not.toHaveBeenCalled();
+});
+
+test("exits and stations filter on kind, exits only once zoomed in", () => {
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      stations={sampleStations}
+    />,
+  );
+  fire("load");
+  for (const id of ["exits", "exits-labels"]) {
+    expect(layerAdded(id)?.spec).toMatchObject({
+      filter: ["==", ["get", "kind"], "exit"],
+      minzoom: 16,
+    });
+  }
+  expect(layerAdded("stations-circles")?.spec.filter).toEqual(["==", ["get", "kind"], "station"]);
+  // Below the block labels' zoom, so a station is findable from the estate view.
+  expect(layerAdded("stations-circles")?.spec.minzoom).toBeLessThan(16);
+});
+
+test("LRT-only stations get their names a zoom step after MRT stations", () => {
+  const lrt = (id: string, codes: string[]): StationFeature => ({
+    type: "Feature",
+    geometry: { type: "Point", coordinates: [103.9, 1.39] },
+    properties: { kind: "station", id, name: id, codes },
+  });
+  const stations = {
+    ...sampleStations,
+    features: [
+      ...sampleStations.features,
+      lrt("ranggung", ["SE5"]),
+      lrt("sengkang", ["NE16", "STC"]),
+    ],
+  };
+  render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} stations={stations} />,
+  );
+  fire("load");
+  const isLrt = ["in", ["get", "id"], ["literal", ["ranggung"]]];
+  const isStation = ["==", ["get", "kind"], "station"];
+  expect(layerAdded("stations-labels")?.spec).toMatchObject({
+    filter: ["all", isStation, ["!", isLrt]],
+    minzoom: 13,
+  });
+  expect(layerAdded("stations-labels-lrt")?.spec).toMatchObject({
+    filter: ["all", isStation, isLrt],
+    minzoom: 14,
+  });
+});
+
+test("stations, exits and the exit highlight are neither hover nor tap targets", () => {
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      stations={sampleStations}
+    />,
+  );
+  fire("load");
+  const layerLists = map.on.mock.calls
+    .filter((c) => Array.isArray(c[1]))
+    .map((c) => c[1] as string[]);
+  fire("click", { point: { x: 0, y: 0 } });
+  const queried = map.queryRenderedFeatures.mock.calls.map(
+    (c) => (c[1] as { layers: string[] }).layers,
+  );
+  for (const layers of [...layerLists, ...queried]) {
+    for (const id of [...STATION_LAYERS, ...HIGHLIGHT_LAYERS]) expect(layers).not.toContain(id);
+  }
+});
+
+test("the blocks source credits LTA beside HDB and OneMap", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  const call = map.addSource.mock.calls.find((c) => c[0] === "blocks");
+  expect((call?.[1] as { attribution: string }).attribution).toBe("© HDB, LTA, OneMap/SLA");
+});
+
+test("the tooltip ends with the distance in MRT mode", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} colorMode="mrt" />);
+  expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3", " · 350 m"]);
+});
+
+const AMK_EXIT_A = { lon: 103.8488, lat: 1.3693, station: "ang-mo-kio", exit: "Exit A" };
+const AMK_BLOCK = sampleIndex.features[0].geometry.coordinates;
+
+function lastExitData() {
+  return sourceObjects["nearest-exit"]?.setData.mock.lastCall?.[0] as {
+    features: { geometry: { type: string; coordinates: unknown }; properties: unknown }[];
+  };
+}
+
+test("the exit highlight sits under the selected block, its label under the block's", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  expect(HIGHLIGHT_LAYERS.map((id) => layerAdded(id)?.before)).toEqual([
+    "blocks-highlight",
+    "blocks-highlight",
+    "blocks-highlight-label",
+  ]);
+  expect(layerAdded("nearest-exit-line")?.spec.paint).toMatchObject({
+    "line-dasharray": [2, 2],
+  });
+});
+
+test("a nearest exit draws its point and a line from the selected block", () => {
+  const props = { data: sampleIndex, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} selectedId={null} />);
+  fire("load");
+  rerender(<MapView {...props} selectedId={SELECTED} nearestExit={AMK_EXIT_A} />);
+  const point = [AMK_EXIT_A.lon, AMK_EXIT_A.lat];
+  expect(lastExitData().features).toEqual([
+    {
+      type: "Feature",
+      geometry: { type: "LineString", coordinates: [AMK_BLOCK, point] },
+      properties: {},
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: point },
+      properties: { exit: "Exit A" },
+    },
+  ]);
+
+  rerender(<MapView {...props} selectedId={null} nearestExit={null} />);
+  expect(lastExitData().features).toEqual([]);
+});
+
+test("an exit known before load is drawn on load", () => {
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={SELECTED}
+      onSelectBlock={vi.fn()}
+      nearestExit={AMK_EXIT_A}
+    />,
+  );
+  map.addSource.mockClear();
+  fire("load");
+  const call = map.addSource.mock.calls.find((c) => c[0] === "nearest-exit");
+  expect((call?.[1] as { data: { features: unknown[] } }).data.features).toHaveLength(2);
+});
+
+test("the plain exit labels drop the highlighted exit and get it back on clear", () => {
+  const props = { data: sampleIndex, onSelectBlock: vi.fn(), stations: sampleStations };
+  const { rerender } = render(<MapView {...props} selectedId={null} />);
+  fire("load");
+  expect(layerAdded("exits-labels")?.spec.filter).toEqual(["==", ["get", "kind"], "exit"]);
+
+  rerender(<MapView {...props} selectedId={SELECTED} nearestExit={AMK_EXIT_A} />);
+  expect(lastSetFilter("exits-labels")).toEqual([
+    "all",
+    ["==", ["get", "kind"], "exit"],
+    ["!", ["all", ["==", ["get", "station"], "ang-mo-kio"], ["==", ["get", "exit"], "Exit A"]]],
+  ]);
+
+  rerender(<MapView {...props} selectedId={null} nearestExit={null} />);
+  expect(lastSetFilter("exits-labels")).toEqual(["==", ["get", "kind"], "exit"]);
 });

@@ -2,7 +2,8 @@ import { useEffect, useImperativeHandle, useRef, useState, type Ref } from "reac
 import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
-import { bandIndex, COLOR_SCALES, type ScaleMode } from "../lib/coloring";
+import { bandIndex, COLOR_SCALES, formatDistance, type ScaleMode } from "../lib/coloring";
+import { lineChipColors } from "../lib/lines";
 import { sheetBodyClass } from "../lib/sheet";
 import { useColorMode } from "../store/color";
 import { XIcon } from "lucide-react";
@@ -21,6 +22,38 @@ function BandSwatch({ mode, value }: { mode: ScaleMode; value: number }) {
       className="inline-block size-3 shrink-0 rounded-full"
       style={{ backgroundColor: band.color }}
     />
+  );
+}
+
+// The chips follow the name, as on the station signs.
+function NearestStationRow({
+  station,
+  showBand,
+}: {
+  station: BlockDetail["nearest_station"];
+  showBand: boolean;
+}) {
+  return (
+    <dl className="text-sm">
+      <dt className="text-muted-foreground">Nearest MRT</dt>
+      <dd className="flex flex-wrap items-center gap-x-1.5 gap-y-1">
+        {station.name}
+        {station.codes.map((code) => (
+          <span
+            key={code}
+            className="rounded-sm px-1 text-[10px] leading-4 font-semibold"
+            style={lineChipColors(code)}
+          >
+            {code}
+          </span>
+        ))}
+        <span>· {station.exit}</span>
+      </dd>
+      <dd className="flex items-center gap-1.5">
+        {formatDistance(station.distance)}
+        {showBand && <BandSwatch mode="mrt" value={station.distance} />}
+      </dd>
+    </dl>
   );
 }
 
@@ -57,6 +90,7 @@ export function DetailsContent({ detail }: { detail: BlockDetail }) {
           <dd>{detail.total_dwelling_units}</dd>
         </div>
       </dl>
+      <NearestStationRow station={detail.nearest_station} showBand={mode === "mrt"} />
       {sold.length > 0 && (
         <section>
           <h3 className="font-medium">Sold</h3>

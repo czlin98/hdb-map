@@ -3,7 +3,7 @@ import json
 
 import pytest
 
-from export import write_outputs
+from export import write_outputs, write_stations
 from summarize import LIST_LIMIT, Snapshot, load_snapshot, summarize, write_summary
 
 TOWNS = [
@@ -31,11 +31,27 @@ def _block(blk_no="123", **over):
     return base
 
 
-def _snap(*blocks, failures=()):
+def _snap(*blocks, failures=(), stations=None, exits=None):
     return Snapshot(
         blocks={f"{b['blk_no']}-amk": b for b in blocks},
         failures={(f["blk_no"], f["street_full"]): f for f in failures},
+        stations=stations or {},
+        exits=exits or {},
     )
+
+
+def _nearest(name="Bishan", distance=350):
+    return {
+        "id": name.lower(),
+        "name": name,
+        "codes": ["NS17"],
+        "exit": "Exit A",
+        "distance": distance,
+    }
+
+
+AMK = {"ang-mo-kio": {"name": "Ang Mo Kio", "codes": ["NS16"]}}
+AMK_EXITS = {("ang-mo-kio", "Exit A"): [(103.849, 1.369)]}
 
 
 def _failure(blk_no, reason="no_match", found="", street_full="ANG MO KIO AVENUE 3"):
@@ -113,7 +129,14 @@ def test_only_failure_changes_is_kind_failures():
 
 
 def test_load_snapshot_reads_what_export_writes(tmp_path):
-    rec = {**_block(), "id": "123-amk", "town_slug": "ang-mo-kio"}
+    station = {"id": "a", "name": "A", "codes": ["NS1"], "exit": "Exit A", "distance": 350}
+    rec = {
+        **_block(),
+        "id": "123-amk",
+        "town_slug": "ang-mo-kio",
+        "station_distance": 350,
+        "nearest_station": station,
+    }
     write_outputs([rec], TOWNS, app_data_dir=tmp_path)
     failed = tmp_path / "failed.csv"
     with failed.open("w", newline="", encoding="utf-8") as fh:
@@ -142,3 +165,119 @@ def test_write_summary_is_json_the_workflow_can_read(tmp_path, kind):
     data = json.loads(path.read_text(encoding="utf-8"))
     assert data["kind"] == kind
     assert set(data) == {"kind", "added", "removed", "changed", "text"}
+
+
+def test_a_changed_distance_and_station_are_named_with_both_values():
+    before = _block(station_distance=350, nearest_station=_nearest("Bishan", 350))
+    after = _block(station_distance=420, nearest_station=_nearest("Marymount", 420))
+    s = summarize(_snap(before), _snap(after))
+    assert s.changed == 1
+    assert "(ANG MO KIO): MRT distance 350 → 420; station Bishan → Marymount" in s.text
+
+
+def test_station_sections_list_names_and_codes():
+    before = {
+        **AMK,
+        "bishan": {"name": "Bishan", "codes": ["NS17"]},
+        "old": {"name": "Old", "codes": ["EW1"]},
+    }
+    after = {
+        **AMK,
+        "bishan": {"name": "Bishan", "codes": ["NS17", "CC15"]},
+        "new": {"name": "New", "codes": ["TE30", "CR2"]},
+    }
+    s = summarize(
+        _snap(_block(), stations=before, exits=AMK_EXITS),
+        _snap(_block(), stations=after, exits=AMK_EXITS),
+    )
+    assert "Stations added (1):\n- New (TE30 CR2)" in s.text
+    assert "Stations removed (1):\n- Old (EW1)" in s.text
+    assert "Station codes changed (1):\n- Bishan: NS17 → NS17 CC15" in s.text
+
+
+def test_the_exits_line_counts_added_removed_and_moved_exits():
+    before = {
+        ("ang-mo-kio", "Exit A"): [(103.849, 1.369)],
+        ("ang-mo-kio", "Exit B"): [(103.85, 1.37)],
+        ("ang-mo-kio", "Exit C"): [(103.851, 1.371)],
+    }
+    after = {
+        ("ang-mo-kio", "Exit A"): [(103.849, 1.369)],
+        ("ang-mo-kio", "Exit B"): [(103.8501, 1.37)],
+        ("ang-mo-kio", "Exit D"): [(103.852, 1.372)],
+    }
+    s = summarize(
+        _snap(_block(), stations=AMK, exits=before), _snap(_block(), stations=AMK, exits=after)
+    )
+    assert "Exits: +1 added, 1 removed, 1 moved" in s.text
+
+
+def test_an_exit_with_two_points_that_moves_counts_once():
+    before = {("ang-mo-kio", "Exit A"): [(103.849, 1.369), (103.84, 1.36)]}
+    after = {("ang-mo-kio", "Exit A"): [(103.8491, 1.369), (103.84, 1.3601)]}
+    s = summarize(
+        _snap(_block(), stations=AMK, exits=before), _snap(_block(), stations=AMK, exits=after)
+    )
+    assert "Exits: +0 added, 0 removed, 1 moved" in s.text
+
+
+def test_unchanged_exits_add_no_line():
+    s = summarize(
+        _snap(_block(), stations=AMK, exits=AMK_EXITS),
+        _snap(_block(), stations=AMK, exits=AMK_EXITS),
+    )
+    assert s.kind == "none"
+    assert "Exits" not in s.text
+
+
+def test_station_changes_without_a_block_change_are_kind_stations():
+    moved = {("ang-mo-kio", "Exit A"): [(103.8491, 1.369)]}
+    s = summarize(
+        _snap(_block(), stations=AMK, exits=AMK_EXITS), _snap(_block(), stations=AMK, exits=moved)
+    )
+    assert s.kind == "stations"
+
+
+def test_a_block_change_keeps_kind_refresh_and_still_lists_stations():
+    after_stations = {**AMK, "new": {"name": "New", "codes": ["TE30"]}}
+    s = summarize(
+        _snap(_block(), stations=AMK, exits=AMK_EXITS),
+        _snap(_block(), _block("124"), stations=after_stations, exits=AMK_EXITS),
+    )
+    assert s.kind == "refresh"
+    assert "Stations added (1):\n- New (TE30)" in s.text
+
+
+def test_station_and_failure_changes_together_are_kind_stations():
+    after_stations = {**AMK, "new": {"name": "New", "codes": ["TE30"]}}
+    s = summarize(
+        _snap(_block(), stations=AMK, exits=AMK_EXITS),
+        _snap(_block(), failures=[_failure("9")], stations=after_stations, exits=AMK_EXITS),
+    )
+    assert s.kind == "stations"
+    assert "Newly failing (1):" in s.text
+
+
+def test_a_first_run_without_stations_before_has_no_station_sections():
+    s = summarize(_snap(_block()), _snap(_block(), stations=AMK, exits=AMK_EXITS))
+    assert s.kind == "none"
+    assert "Station" not in s.text and "Exits" not in s.text
+
+
+def test_load_snapshot_reads_the_stations_file(tmp_path):
+    station = {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": ["NS16"],
+        "lon": 103.85,
+        "lat": 1.37,
+        "exits": [
+            {"exit": "Exit A", "lon": 103.849, "lat": 1.369},
+            {"exit": "Exit A", "lon": 103.84, "lat": 1.36},
+        ],
+    }
+    write_stations([station], app_data_dir=tmp_path)
+
+    snap = load_snapshot(tmp_path, tmp_path / "failed.csv")
+    assert snap.stations == AMK
+    assert snap.exits == {("ang-mo-kio", "Exit A"): [(103.84, 1.36), (103.849, 1.369)]}

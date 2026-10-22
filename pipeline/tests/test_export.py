@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from export import to_detail_entry, to_index_feature, write_meta, write_outputs
+from export import to_detail_entry, to_index_feature, write_meta, write_outputs, write_stations
 
 TOWNS = [
     {"town": "ANG MO KIO", "town_slug": "ang-mo-kio", "town_code": "AMK"},
@@ -26,9 +26,33 @@ def _rec(**over):
         "total_dwelling_units": 200,
         "sold_units_by_type": {"3room": 40},
         "rental_units_by_type": {},
+        "station_distance": 350,
+        "nearest_station": {
+            "id": "ang-mo-kio",
+            "name": "Ang Mo Kio",
+            "codes": ["NS16"],
+            "exit": "Exit A",
+            "distance": 350,
+        },
     }
     base.update(over)
     return base
+
+
+def _station(station_id="ang-mo-kio", name="Ang Mo Kio", codes=("NS16",), exits=None):
+    exits = exits or [("Exit A", 103.849, 1.369)]
+    return {
+        "id": station_id,
+        "name": name,
+        "codes": list(codes),
+        "lon": sum(x for _, x, _ in exits) / len(exits),
+        "lat": sum(y for _, _, y in exits) / len(exits),
+        "exits": [{"exit": e, "lon": x, "lat": y} for e, x, y in exits],
+    }
+
+
+def _features(path):
+    return json.loads(path.read_text())["features"]
 
 
 def test_index_feature_shape():
@@ -45,6 +69,7 @@ def test_index_feature_shape():
         "max_floor_lvl",
         "sold_types",
         "rental_types",
+        "station_distance",
     }
 
 
@@ -102,6 +127,7 @@ def test_written_fields_follow_logical_order(tmp_path):
         "max_floor_lvl",
         "sold_types",
         "rental_types",
+        "station_distance",
     ]
 
     amk = json.loads((tmp_path / "block-details" / "ang-mo-kio.json").read_text())
@@ -116,6 +142,7 @@ def test_written_fields_follow_logical_order(tmp_path):
         "max_floor_lvl",
         "total_dwelling_units",
         "sold_units_by_type",
+        "nearest_station",
     ]
 
 
@@ -146,6 +173,7 @@ def test_written_index_values_mirror_shards(tmp_path):
         )
         assert p["sold_types"] == list(entry["sold_units_by_type"])
         assert p["rental_types"] == list(entry.get("rental_units_by_type", {}))
+        assert p["station_distance"] == entry["nearest_station"]["distance"]
 
 
 def test_shard_ids_written_in_sorted_order(tmp_path):
@@ -208,3 +236,78 @@ def test_index_with_no_blocks_is_valid_geojson(tmp_path):
     write_outputs([], TOWNS, app_data_dir=tmp_path)
     index = json.loads((tmp_path / "index.geojson").read_text())
     assert index == {"type": "FeatureCollection", "features": []}
+
+
+def test_detail_entry_puts_the_nearest_station_after_the_units():
+    entry = to_detail_entry(_rec(rental_units_by_type={"1room": 5}))
+    assert list(entry)[-2:] == ["rental_units_by_type", "nearest_station"]
+    assert entry["nearest_station"] == _rec()["nearest_station"]
+
+
+def test_write_stations_writes_stations_then_exits(tmp_path):
+    outram = _station(
+        "outram-park",
+        "Outram Park",
+        ["EW16", "NE3", "TE17"],
+        [("Exit 1", 103.8387, 1.2801), ("Exit 1", 103.8381, 1.2805), ("Exit 2", 103.84, 1.28)],
+    )
+    write_stations([outram, _station()], app_data_dir=tmp_path)
+
+    features = _features(tmp_path / "stations.geojson")
+    assert [f["properties"] for f in features] == [
+        {"kind": "station", "id": "ang-mo-kio", "name": "Ang Mo Kio", "codes": ["NS16"]},
+        {
+            "kind": "station",
+            "id": "outram-park",
+            "name": "Outram Park",
+            "codes": ["EW16", "NE3", "TE17"],
+        },
+        {"kind": "exit", "station": "ang-mo-kio", "exit": "Exit A"},
+        {"kind": "exit", "station": "outram-park", "exit": "Exit 1"},
+        {"kind": "exit", "station": "outram-park", "exit": "Exit 1"},
+        {"kind": "exit", "station": "outram-park", "exit": "Exit 2"},
+    ]
+    # An exit with two points writes both, sorted by coordinates.
+    assert [f["geometry"]["coordinates"] for f in features[3:5]] == [
+        [103.8381, 1.2805],
+        [103.8387, 1.2801],
+    ]
+
+
+def test_write_stations_rounds_coordinates_to_six_decimals(tmp_path):
+    station = _station(exits=[("Exit A", 103.8644786609251, 1.303671350608798)])
+    write_stations([station], app_data_dir=tmp_path)
+
+    features = _features(tmp_path / "stations.geojson")
+    assert [f["geometry"]["coordinates"] for f in features] == [[103.864479, 1.303671]] * 2
+
+
+def test_stations_written_one_feature_per_line(tmp_path):
+    write_stations([_station()], app_data_dir=tmp_path)
+
+    lines = (tmp_path / "stations.geojson").read_text().splitlines()
+    assert len(lines) == 2 + 2  # header, station, exit, footer
+
+
+def test_shard_stations_and_exits_exist_in_the_stations_file(tmp_path):
+    write_outputs([_rec()], TOWNS, app_data_dir=tmp_path)
+    write_stations([_station()], app_data_dir=tmp_path)
+
+    features = _features(tmp_path / "stations.geojson")
+    stations = {
+        f["properties"]["id"]: f["properties"]
+        for f in features
+        if f["properties"]["kind"] == "station"
+    }
+    exits = {
+        (f["properties"]["station"], f["properties"]["exit"])
+        for f in features
+        if f["properties"]["kind"] == "exit"
+    }
+    assert {station for station, _ in exits} <= set(stations)
+    amk = json.loads((tmp_path / "block-details" / "ang-mo-kio.json").read_text())
+    for entry in amk.values():
+        nearest = entry["nearest_station"]
+        station = stations[nearest["id"]]
+        assert (station["name"], station["codes"]) == (nearest["name"], nearest["codes"])
+        assert (nearest["id"], nearest["exit"]) in exits

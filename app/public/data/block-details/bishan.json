@@ -11,6 +11,15 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 475
     }
   },
   "102-bishan-st-12": {
@@ -25,6 +34,15 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 485
     }
   },
   "103-bishan-st-12": {
@@ -39,6 +57,15 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 537
     }
   },
   "104-bishan-st-12": {
@@ -53,6 +80,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit A",
+      "distance": 542
     }
   },
   "105-bishan-st-12": {
@@ -70,6 +106,16 @@
     },
     "rental_units_by_type": {
       "3room": 2
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit C",
+      "distance": 530
     }
   },
   "106-bishan-st-12": {
@@ -83,6 +129,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit C",
+      "distance": 500
     }
   },
   "107-bishan-st-12": {
@@ -96,6 +152,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit C",
+      "distance": 464
     }
   },
   "108-bishan-st-12": {
@@ -110,6 +176,16 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit C",
+      "distance": 440
     }
   },
   "109-bishan-st-12": {
@@ -123,6 +199,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit C",
+      "distance": 427
     }
   },
   "110-bishan-st-12": {
@@ -137,6 +223,16 @@
     "sold_units_by_type": {
       "3room": 66,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit C",
+      "distance": 354
     }
   },
   "111-bishan-st-12": {
@@ -150,6 +246,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 391
     }
   },
   "112-bishan-st-12": {
@@ -163,6 +269,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 427
     }
   },
   "113-bishan-st-12": {
@@ -176,6 +292,16 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 376
     }
   },
   "114-bishan-st-12": {
@@ -189,6 +315,16 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 343
     }
   },
   "115-bishan-st-12": {
@@ -204,6 +340,16 @@
       "3room": 64,
       "4room": 50,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 300
     }
   },
   "116-bishan-st-12": {
@@ -218,6 +364,16 @@
     "sold_units_by_type": {
       "3room": 64,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 329
     }
   },
   "117-bishan-st-12": {
@@ -232,6 +388,16 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 438
     }
   },
   "118-bishan-st-12": {
@@ -246,6 +412,16 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 477
     }
   },
   "119-bishan-st-12": {
@@ -259,6 +435,16 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 413
     }
   },
   "120-bishan-st-12": {
@@ -273,6 +459,16 @@
     "sold_units_by_type": {
       "3room": 19,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 429
     }
   },
   "121-bishan-st-12": {
@@ -290,6 +486,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 440
     }
   },
   "122-bishan-st-12": {
@@ -303,6 +509,16 @@
     "total_dwelling_units": 114,
     "sold_units_by_type": {
       "4room": 114
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 473
     }
   },
   "123-bishan-st-12": {
@@ -316,6 +532,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 509
     }
   },
   "124-bishan-st-12": {
@@ -330,6 +556,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 523
     }
   },
   "125-bishan-st-12": {
@@ -344,6 +580,16 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 463
     }
   },
   "126-bishan-st-12": {
@@ -358,6 +604,16 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 571
     }
   },
   "127-bishan-st-12": {
@@ -372,6 +628,16 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 578
     }
   },
   "128-bishan-st-12": {
@@ -386,6 +652,16 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 553
     }
   },
   "129-bishan-st-12": {
@@ -400,6 +676,16 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 591
     }
   },
   "130-bishan-st-12": {
@@ -413,6 +699,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 579
     }
   },
   "131-bishan-st-12": {
@@ -426,6 +722,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 615
     }
   },
   "132-bishan-st-12": {
@@ -440,6 +746,16 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 619
     }
   },
   "133-bishan-st-12": {
@@ -454,6 +770,16 @@
     "sold_units_by_type": {
       "3room": 21,
       "4room": 7
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 644
     }
   },
   "134-bishan-st-12": {
@@ -467,6 +793,16 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "exec": 60
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 661
     }
   },
   "135-bishan-st-12": {
@@ -481,6 +817,15 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 608
     }
   },
   "136-bishan-st-12": {
@@ -495,6 +840,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 614
     }
   },
   "137-bishan-st-12": {
@@ -508,6 +862,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "multigen": 48
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 641
     }
   },
   "138-bishan-st-12": {
@@ -522,6 +885,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 53
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 698
     }
   },
   "139-bishan-st-12": {
@@ -536,6 +908,16 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 703
     }
   },
   "140-bishan-st-12": {
@@ -550,6 +932,16 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 767
     }
   },
   "141-bishan-st-12": {
@@ -564,6 +956,16 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 744
     }
   },
   "142-bishan-st-12": {
@@ -578,6 +980,16 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 715
     }
   },
   "143-bishan-st-12": {
@@ -592,6 +1004,16 @@
     "sold_units_by_type": {
       "4room": 10,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 679
     }
   },
   "144-bishan-st-12": {
@@ -606,6 +1028,16 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 666
     }
   },
   "145-bishan-st-11": {
@@ -620,6 +1052,16 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 41
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 822
     }
   },
   "146-bishan-st-11": {
@@ -634,6 +1076,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 837
     }
   },
   "147-bishan-st-11": {
@@ -648,6 +1099,15 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 924
     }
   },
   "148-bishan-st-11": {
@@ -663,6 +1123,15 @@
       "3room": 18,
       "4room": 18,
       "multigen": 45
+    },
+    "nearest_station": {
+      "id": "braddell",
+      "name": "Braddell",
+      "codes": [
+        "NS18"
+      ],
+      "exit": "Exit C",
+      "distance": 905
     }
   },
   "149-bishan-st-11": {
@@ -677,6 +1146,16 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 960
     }
   },
   "150-bishan-st-11": {
@@ -691,6 +1170,16 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 19
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 915
     }
   },
   "150a-bishan-st-11": {
@@ -705,6 +1194,16 @@
     "sold_units_by_type": {
       "3room": 8,
       "4room": 19
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 949
     }
   },
   "151-bishan-st-11": {
@@ -719,6 +1218,16 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 18
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 891
     }
   },
   "152-bishan-st-11": {
@@ -733,6 +1242,16 @@
     "sold_units_by_type": {
       "3room": 9,
       "4room": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 777
     }
   },
   "152b-bishan-st-11": {
@@ -747,6 +1266,16 @@
     "sold_units_by_type": {
       "2room": 41,
       "studio_apartment": 135
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 769
     }
   },
   "153-bishan-st-13": {
@@ -761,6 +1290,16 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 774
     }
   },
   "154-bishan-st-13": {
@@ -775,6 +1314,16 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 729
     }
   },
   "155-bishan-st-13": {
@@ -789,6 +1338,16 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 831
     }
   },
   "156-bishan-st-13": {
@@ -803,6 +1362,16 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 953
     }
   },
   "156a-bishan-st-11": {
@@ -816,6 +1385,16 @@
     "total_dwelling_units": 182,
     "sold_units_by_type": {
       "4room": 182
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 999
     }
   },
   "156b-bishan-st-11": {
@@ -831,6 +1410,15 @@
       "2room": 120,
       "3room": 80,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "lorong-chuan",
+      "name": "Lorong Chuan",
+      "codes": [
+        "CC14"
+      ],
+      "exit": "Exit B",
+      "distance": 1059
     }
   },
   "157-bishan-st-13": {
@@ -845,6 +1433,16 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 910
     }
   },
   "158-bishan-st-13": {
@@ -859,6 +1457,16 @@
     "sold_units_by_type": {
       "4room": 4,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 836
     }
   },
   "159-bishan-st-13": {
@@ -872,6 +1480,16 @@
     "total_dwelling_units": 20,
     "sold_units_by_type": {
       "exec": 20
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 779
     }
   },
   "160-bishan-st-13": {
@@ -885,6 +1503,16 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 824
     }
   },
   "161-bishan-st-13": {
@@ -899,6 +1527,16 @@
     "sold_units_by_type": {
       "4room": 4,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 790
     }
   },
   "162-bishan-st-13": {
@@ -912,6 +1550,16 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 747
     }
   },
   "163-bishan-st-13": {
@@ -926,6 +1574,16 @@
     "sold_units_by_type": {
       "4room": 4,
       "5room": 94
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 755
     }
   },
   "164-bishan-st-13": {
@@ -940,6 +1598,16 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 716
     }
   },
   "165-bishan-st-13": {
@@ -954,6 +1622,16 @@
     "sold_units_by_type": {
       "4room": 12,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 697
     }
   },
   "166-bishan-st-13": {
@@ -968,6 +1646,16 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 609
     }
   },
   "167-bishan-st-13": {
@@ -982,6 +1670,16 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 670
     }
   },
   "168-bishan-st-13": {
@@ -996,6 +1694,16 @@
     "sold_units_by_type": {
       "5room": 68,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 605
     }
   },
   "169-bishan-st-13": {
@@ -1009,6 +1717,16 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 637
     }
   },
   "170-bishan-st-13": {
@@ -1023,6 +1741,16 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 638
     }
   },
   "171-bishan-st-13": {
@@ -1040,6 +1768,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 614
     }
   },
   "172-bishan-st-13": {
@@ -1054,6 +1792,16 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 544
     }
   },
   "173-bishan-st-13": {
@@ -1068,6 +1816,16 @@
     "sold_units_by_type": {
       "5room": 68,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 582
     }
   },
   "174-bishan-st-13": {
@@ -1081,6 +1839,16 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 553
     }
   },
   "175-bishan-st-13": {
@@ -1095,6 +1863,16 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 457
     }
   },
   "176-bishan-st-13": {
@@ -1109,6 +1887,16 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 524
     }
   },
   "177-bishan-st-13": {
@@ -1123,6 +1911,16 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 515
     }
   },
   "178-bishan-st-13": {
@@ -1137,6 +1935,16 @@
     "sold_units_by_type": {
       "4room": 71,
       "5room": 53
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 402
     }
   },
   "179-bishan-st-13": {
@@ -1151,6 +1959,16 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 327
     }
   },
   "180-bishan-st-13": {
@@ -1165,6 +1983,16 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 375
     }
   },
   "181-bishan-st-13": {
@@ -1179,6 +2007,16 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 39
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 366
     }
   },
   "182-bishan-st-13": {
@@ -1193,6 +2031,16 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 41
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 330
     }
   },
   "183-bishan-st-13": {
@@ -1207,6 +2055,16 @@
     "sold_units_by_type": {
       "5room": 68,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 261
     }
   },
   "184-bishan-st-13": {
@@ -1221,6 +2079,16 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 282
     }
   },
   "185-bishan-st-13": {
@@ -1235,6 +2103,16 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 290
     }
   },
   "186-bishan-st-13": {
@@ -1248,6 +2126,16 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 325
     }
   },
   "187-bishan-st-13": {
@@ -1261,6 +2149,16 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 224
     }
   },
   "188-bishan-st-13": {
@@ -1275,6 +2173,16 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 214
     }
   },
   "189-bishan-st-13": {
@@ -1289,6 +2197,16 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 204
     }
   },
   "190-bishan-st-13": {
@@ -1303,6 +2221,16 @@
     "sold_units_by_type": {
       "5room": 68,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 212
     }
   },
   "191-bishan-st-13": {
@@ -1317,6 +2245,16 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 41
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 142
     }
   },
   "192-bishan-st-13": {
@@ -1331,6 +2269,16 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 262
     }
   },
   "193-bishan-st-13": {
@@ -1345,6 +2293,16 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 279
     }
   },
   "194-bishan-st-13": {
@@ -1359,6 +2317,16 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 335
     }
   },
   "195-bishan-st-13": {
@@ -1373,6 +2341,16 @@
     "sold_units_by_type": {
       "3room": 44,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 309
     }
   },
   "196-bishan-st-13": {
@@ -1387,6 +2365,16 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 340
     }
   },
   "197-bishan-st-13": {
@@ -1401,6 +2389,16 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 224
     }
   },
   "201-bishan-st-23": {
@@ -1414,6 +2412,16 @@
     "total_dwelling_units": 44,
     "sold_units_by_type": {
       "exec": 44
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 470
     }
   },
   "202-bishan-st-23": {
@@ -1427,6 +2435,16 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "exec": 6
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 464
     }
   },
   "203-bishan-st-23": {
@@ -1441,6 +2459,16 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 398
     }
   },
   "204-bishan-st-23": {
@@ -1455,6 +2483,16 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 19
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 431
     }
   },
   "205-bishan-st-23": {
@@ -1469,6 +2507,16 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 19
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 477
     }
   },
   "206-bishan-st-23": {
@@ -1483,6 +2531,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 516
     }
   },
   "207-bishan-st-23": {
@@ -1497,6 +2555,16 @@
     "sold_units_by_type": {
       "4room": 53,
       "5room": 19
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 398
     }
   },
   "208-bishan-st-23": {
@@ -1510,6 +2578,16 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "exec": 16
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 430
     }
   },
   "209-bishan-st-23": {
@@ -1524,6 +2602,16 @@
     "sold_units_by_type": {
       "4room": 52,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 499
     }
   },
   "210-bishan-st-23": {
@@ -1538,6 +2626,16 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 532
     }
   },
   "211-bishan-st-23": {
@@ -1552,6 +2650,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 571
     }
   },
   "212-bishan-st-23": {
@@ -1565,6 +2673,16 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 579
     }
   },
   "213-bishan-st-23": {
@@ -1579,6 +2697,16 @@
     "sold_units_by_type": {
       "4room": 81,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 680
     }
   },
   "214-bishan-st-23": {
@@ -1593,6 +2721,16 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 717
     }
   },
   "215-bishan-st-23": {
@@ -1607,6 +2745,16 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 672
     }
   },
   "216-bishan-st-23": {
@@ -1621,6 +2769,16 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 599
     }
   },
   "217-bishan-st-23": {
@@ -1635,6 +2793,16 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 19
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 640
     }
   },
   "218-bishan-st-23": {
@@ -1648,6 +2816,16 @@
     "total_dwelling_units": 14,
     "sold_units_by_type": {
       "exec": 14
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 648
     }
   },
   "219-bishan-st-23": {
@@ -1661,6 +2839,16 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "exec": 72
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 711
     }
   },
   "22-sin-ming-rd": {
@@ -1675,6 +2863,15 @@
     "sold_units_by_type": {
       "3room": 280,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 3",
+      "distance": 701
     }
   },
   "220-bishan-st-23": {
@@ -1689,6 +2886,16 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 715
     }
   },
   "221-bishan-st-23": {
@@ -1703,6 +2910,16 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 50
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 757
     }
   },
   "222-bishan-st-23": {
@@ -1716,6 +2933,16 @@
     "total_dwelling_units": 67,
     "sold_units_by_type": {
       "exec": 67
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 775
     }
   },
   "223-bishan-st-23": {
@@ -1731,6 +2958,16 @@
       "4room": 40,
       "5room": 29,
       "exec": 23
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 820
     }
   },
   "224-bishan-st-23": {
@@ -1746,6 +2983,16 @@
       "4room": 53,
       "5room": 26,
       "exec": 21
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 879
     }
   },
   "225-bishan-st-23": {
@@ -1760,6 +3007,16 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 838
     }
   },
   "226-bishan-st-23": {
@@ -1774,6 +3031,16 @@
     "sold_units_by_type": {
       "4room": 89,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 842
     }
   },
   "227-bishan-st-23": {
@@ -1788,6 +3055,16 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 790
     }
   },
   "228-bishan-st-23": {
@@ -1802,6 +3079,16 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 785
     }
   },
   "229-bishan-st-23": {
@@ -1816,6 +3103,16 @@
     "sold_units_by_type": {
       "4room": 108,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 773
     }
   },
   "23-sin-ming-rd": {
@@ -1830,6 +3127,15 @@
     "sold_units_by_type": {
       "3room": 140,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 3",
+      "distance": 212
     }
   },
   "230-bishan-st-23": {
@@ -1843,6 +3149,16 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 827
     }
   },
   "231-bishan-st-23": {
@@ -1856,6 +3172,16 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "exec": 94
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 745
     }
   },
   "232-bishan-st-22": {
@@ -1870,6 +3196,16 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 857
     }
   },
   "233-bishan-st-22": {
@@ -1883,6 +3219,16 @@
     "total_dwelling_units": 61,
     "sold_units_by_type": {
       "4room": 61
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 888
     }
   },
   "234-bishan-st-22": {
@@ -1897,6 +3243,16 @@
     "sold_units_by_type": {
       "4room": 43,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 849
     }
   },
   "235-bishan-st-22": {
@@ -1911,6 +3267,16 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 18
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 851
     }
   },
   "236-bishan-st-22": {
@@ -1925,6 +3291,16 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 20
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 895
     }
   },
   "237-bishan-st-22": {
@@ -1940,6 +3316,16 @@
       "4room": 42,
       "5room": 33,
       "exec": 10
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 938
     }
   },
   "238-bishan-st-22": {
@@ -1953,6 +3339,16 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 1050
     }
   },
   "239-bishan-st-22": {
@@ -1967,6 +3363,16 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 12
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 1113
     }
   },
   "24-sin-ming-rd": {
@@ -1980,6 +3386,15 @@
     "total_dwelling_units": 144,
     "sold_units_by_type": {
       "3room": 144
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 3",
+      "distance": 292
     }
   },
   "240-bishan-st-22": {
@@ -1993,6 +3408,15 @@
     "total_dwelling_units": 8,
     "sold_units_by_type": {
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1062
     }
   },
   "241-bishan-st-22": {
@@ -2008,6 +3432,15 @@
       "4room": 66,
       "5room": 24,
       "exec": 10
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1050
     }
   },
   "242-bishan-st-22": {
@@ -2022,6 +3455,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1028
     }
   },
   "243-bishan-st-22": {
@@ -2035,6 +3477,15 @@
     "total_dwelling_units": 116,
     "sold_units_by_type": {
       "4room": 116
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1066
     }
   },
   "244-bishan-st-22": {
@@ -2048,6 +3499,16 @@
     "total_dwelling_units": 6,
     "sold_units_by_type": {
       "exec": 6
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 1128
     }
   },
   "245-bishan-st-22": {
@@ -2061,6 +3522,16 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "exec": 76
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 1139
     }
   },
   "246-bishan-st-22": {
@@ -2075,6 +3546,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1132
     }
   },
   "247-bishan-st-22": {
@@ -2088,6 +3568,15 @@
     "total_dwelling_units": 10,
     "sold_units_by_type": {
       "exec": 10
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1098
     }
   },
   "248-bishan-st-22": {
@@ -2101,6 +3590,15 @@
     "total_dwelling_units": 72,
     "sold_units_by_type": {
       "4room": 72
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1106
     }
   },
   "249-bishan-st-22": {
@@ -2115,6 +3613,15 @@
     "sold_units_by_type": {
       "4room": 70,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1102
     }
   },
   "25-sin-ming-rd": {
@@ -2128,6 +3635,15 @@
     "total_dwelling_units": 198,
     "sold_units_by_type": {
       "4room": 198
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 3",
+      "distance": 415
     }
   },
   "250-bishan-st-22": {
@@ -2142,6 +3658,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1058
     }
   },
   "251-bishan-st-22": {
@@ -2156,6 +3681,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1016
     }
   },
   "252-bishan-st-22": {
@@ -2169,6 +3703,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1031
     }
   },
   "253-bishan-st-22": {
@@ -2183,6 +3726,15 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "ang-mo-kio",
+      "name": "Ang Mo Kio",
+      "codes": [
+        "NS16"
+      ],
+      "exit": "Exit C",
+      "distance": 1059
     }
   },
   "254-bishan-st-22": {
@@ -2197,6 +3749,15 @@
     "sold_units_by_type": {
       "4room": 113,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1066
     }
   },
   "255-bishan-st-22": {
@@ -2211,6 +3772,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1042
     }
   },
   "256-bishan-st-22": {
@@ -2225,6 +3795,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1043
     }
   },
   "257-bishan-st-22": {
@@ -2238,6 +3817,16 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "exec": 90
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 1123
     }
   },
   "258-bishan-st-22": {
@@ -2251,6 +3840,15 @@
     "total_dwelling_units": 12,
     "sold_units_by_type": {
       "exec": 12
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1091
     }
   },
   "259-bishan-st-22": {
@@ -2265,6 +3863,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1039
     }
   },
   "260-bishan-st-22": {
@@ -2279,6 +3886,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1047
     }
   },
   "261-bishan-st-22": {
@@ -2292,6 +3908,16 @@
     "total_dwelling_units": 85,
     "sold_units_by_type": {
       "exec": 85
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 1041
     }
   },
   "262-bishan-st-22": {
@@ -2306,6 +3932,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 13
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 1108
     }
   },
   "263-bishan-st-22": {
@@ -2320,6 +3955,16 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 25
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 1079
     }
   },
   "264-bishan-st-24": {
@@ -2334,6 +3979,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 3",
+      "distance": 1033
     }
   },
   "265-bishan-st-24": {
@@ -2348,6 +4002,15 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 3",
+      "distance": 1019
     }
   },
   "266-bishan-st-24": {
@@ -2362,6 +4025,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 3",
+      "distance": 1000
     }
   },
   "267-bishan-st-24": {
@@ -2375,6 +4047,16 @@
     "total_dwelling_units": 76,
     "sold_units_by_type": {
       "4room": 76
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 953
     }
   },
   "268-bishan-st-24": {
@@ -2389,6 +4071,15 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 3",
+      "distance": 992
     }
   },
   "269-bishan-st-24": {
@@ -2402,6 +4093,16 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 901
     }
   },
   "270-bishan-st-24": {
@@ -2416,6 +4117,16 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 947
     }
   },
   "271-bishan-st-24": {
@@ -2430,6 +4141,16 @@
     "sold_units_by_type": {
       "4room": 85,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 908
     }
   },
   "272-bishan-st-24": {
@@ -2443,6 +4164,16 @@
     "total_dwelling_units": 110,
     "sold_units_by_type": {
       "4room": 110
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 843
     }
   },
   "273a-bishan-st-24": {
@@ -2457,6 +4188,16 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 764
     }
   },
   "273b-bishan-st-24": {
@@ -2471,6 +4212,16 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 120
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 775
     }
   },
   "275a-bishan-st-24": {
@@ -2485,6 +4236,16 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 120
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 826
     }
   },
   "278-bishan-st-24": {
@@ -2499,6 +4260,16 @@
     "sold_units_by_type": {
       "4room": 68,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 884
     }
   },
   "281-bishan-st-24": {
@@ -2512,6 +4283,16 @@
     "total_dwelling_units": 25,
     "sold_units_by_type": {
       "4room": 25
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 803
     }
   },
   "285-bishan-st-22": {
@@ -2526,6 +4307,16 @@
     "sold_units_by_type": {
       "4room": 68,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 997
     }
   },
   "286-bishan-st-24": {
@@ -2540,6 +4331,16 @@
     "sold_units_by_type": {
       "4room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 956
     }
   },
   "287-bishan-st-24": {
@@ -2553,6 +4354,16 @@
     "total_dwelling_units": 32,
     "sold_units_by_type": {
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 896
     }
   },
   "288-bishan-st-24": {
@@ -2567,6 +4378,16 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 740
     }
   },
   "289-bishan-st-24": {
@@ -2581,6 +4402,16 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 727
     }
   },
   "290-bishan-st-24": {
@@ -2595,6 +4426,16 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 680
     }
   },
   "291-bishan-st-24": {
@@ -2609,6 +4450,16 @@
     "sold_units_by_type": {
       "4room": 65,
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 643
     }
   },
   "292-bishan-st-22": {
@@ -2623,6 +4474,16 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 624
     }
   },
   "293-bishan-st-22": {
@@ -2637,6 +4498,16 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit B",
+      "distance": 639
     }
   },
   "301-shunfu-rd": {
@@ -2650,6 +4521,15 @@
     "total_dwelling_units": 70,
     "sold_units_by_type": {
       "exec": 70
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 94
     }
   },
   "302-shunfu-rd": {
@@ -2664,6 +4544,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 42
     }
   },
   "303-shunfu-rd": {
@@ -2678,6 +4567,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 111
     }
   },
   "304-shunfu-rd": {
@@ -2693,6 +4591,15 @@
       "3room": 92,
       "4room": 48,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 180
     }
   },
   "305-shunfu-rd": {
@@ -2708,6 +4615,15 @@
       "3room": 70,
       "4room": 48,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 132
     }
   },
   "306-shunfu-rd": {
@@ -2722,6 +4638,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 148
     }
   },
   "307-shunfu-rd": {
@@ -2739,6 +4664,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 170
     }
   },
   "308-shunfu-rd": {
@@ -2754,6 +4688,15 @@
       "3room": 116,
       "4room": 48,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 225
     }
   },
   "309-shunfu-rd": {
@@ -2769,6 +4712,15 @@
       "3room": 142,
       "4room": 48,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 272
     }
   },
   "310-shunfu-rd": {
@@ -2783,6 +4735,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 213
     }
   },
   "311-shunfu-rd": {
@@ -2797,6 +4758,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 16
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 213
     }
   },
   "312-shunfu-rd": {
@@ -2811,6 +4781,15 @@
     "sold_units_by_type": {
       "4room": 16,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 251
     }
   },
   "313-shunfu-rd": {
@@ -2825,6 +4804,15 @@
     "sold_units_by_type": {
       "3room": 81,
       "4room": 81
+    },
+    "nearest_station": {
+      "id": "marymount",
+      "name": "Marymount",
+      "codes": [
+        "CC16"
+      ],
+      "exit": "Exit A",
+      "distance": 350
     }
   },
   "401-sin-ming-ave": {
@@ -2838,6 +4826,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 94
     }
   },
   "402-sin-ming-ave": {
@@ -2851,6 +4848,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 3",
+      "distance": 78
     }
   },
   "403-sin-ming-ave": {
@@ -2865,6 +4871,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 47
     }
   },
   "404-sin-ming-ave": {
@@ -2878,6 +4893,15 @@
     "total_dwelling_units": 24,
     "sold_units_by_type": {
       "exec": 24
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 109
     }
   },
   "405-sin-ming-ave": {
@@ -2891,6 +4915,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 145
     }
   },
   "406-sin-ming-ave": {
@@ -2905,6 +4938,15 @@
     "sold_units_by_type": {
       "3room": 93,
       "4room": 69
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 75
     }
   },
   "407-sin-ming-ave": {
@@ -2919,6 +4961,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 81
     }
   },
   "408-sin-ming-ave": {
@@ -2932,6 +4983,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 148
     }
   },
   "410-sin-ming-ave": {
@@ -2947,6 +5007,15 @@
     "rental_units_by_type": {
       "1room": 168,
       "2room": 240
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 2",
+      "distance": 226
     }
   },
   "441-sin-ming-ave": {
@@ -2962,6 +5031,15 @@
       "4room": 74,
       "5room": 18,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 3",
+      "distance": 352
     }
   },
   "442-sin-ming-ave": {
@@ -2976,6 +5054,15 @@
     "sold_units_by_type": {
       "5room": 72,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 3",
+      "distance": 328
     }
   },
   "443-sin-ming-ave": {
@@ -2991,6 +5078,15 @@
       "4room": 58,
       "5room": 14,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 3",
+      "distance": 363
     }
   },
   "444-sin-ming-ave": {
@@ -3005,6 +5101,15 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 316
     }
   },
   "445-sin-ming-ave": {
@@ -3020,6 +5125,15 @@
       "4room": 65,
       "5room": 18,
       "exec": 7
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 331
     }
   },
   "446-bright-hill-dr": {
@@ -3035,6 +5149,15 @@
       "4room": 44,
       "5room": 14,
       "exec": 6
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 243
     }
   },
   "447-bright-hill-dr": {
@@ -3049,6 +5172,15 @@
     "sold_units_by_type": {
       "5room": 76,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 277
     }
   },
   "448-bright-hill-dr": {
@@ -3064,6 +5196,15 @@
       "4room": 74,
       "5room": 18,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 300
     }
   },
   "449-sin-ming-ave": {
@@ -3079,6 +5220,15 @@
       "4room": 58,
       "5room": 16,
       "exec": 6
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 285
     }
   },
   "450-sin-ming-ave": {
@@ -3093,6 +5243,15 @@
     "sold_units_by_type": {
       "5room": 84,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 332
     }
   },
   "451-sin-ming-ave": {
@@ -3107,6 +5266,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 366
     }
   },
   "452-sin-ming-ave": {
@@ -3120,6 +5288,15 @@
     "total_dwelling_units": 30,
     "sold_units_by_type": {
       "exec": 30
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 392
     }
   },
   "453-sin-ming-ave": {
@@ -3134,6 +5311,15 @@
     "sold_units_by_type": {
       "5room": 52,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 426
     }
   },
   "454-sin-ming-ave": {
@@ -3149,6 +5335,15 @@
       "4room": 74,
       "5room": 18,
       "exec": 8
+    },
+    "nearest_station": {
+      "id": "bright-hill",
+      "name": "Bright Hill",
+      "codes": [
+        "TE7"
+      ],
+      "exit": "Exit 3",
+      "distance": 397
     }
   },
   "455-sin-ming-ave": {
@@ -3164,6 +5359,15 @@
       "4room": 74,
       "5room": 9,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "upper-thomson",
+      "name": "Upper Thomson",
+      "codes": [
+        "TE8"
+      ],
+      "exit": "Exit 2",
+      "distance": 358
     }
   },
   "501-bishan-st-11": {
@@ -3178,6 +5382,16 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 255
     }
   },
   "502-bishan-st-11": {
@@ -3192,6 +5406,16 @@
     "sold_units_by_type": {
       "4room": 13,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 223
     }
   },
   "503-bishan-st-11": {
@@ -3206,6 +5430,16 @@
     "sold_units_by_type": {
       "4room": 35,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit C",
+      "distance": 174
     }
   },
   "506-bishan-st-11": {
@@ -3220,6 +5454,16 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit A",
+      "distance": 183
     }
   },
   "532a-bishan-st-14": {
@@ -3233,6 +5477,16 @@
     "total_dwelling_units": 221,
     "sold_units_by_type": {
       "4room": 221
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 349
     }
   },
   "532b-bishan-st-14": {
@@ -3246,6 +5500,16 @@
     "total_dwelling_units": 244,
     "sold_units_by_type": {
       "4room": 244
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 328
     }
   },
   "532c-bishan-st-14": {
@@ -3261,6 +5525,16 @@
       "2room": 156,
       "3room": 54,
       "4room": 56
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 339
     }
   },
   "535a-bishan-st-13": {
@@ -3274,6 +5548,16 @@
     "total_dwelling_units": 230,
     "sold_units_by_type": {
       "4room": 230
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 330
     }
   },
   "535b-bishan-st-13": {
@@ -3287,6 +5571,16 @@
     "total_dwelling_units": 301,
     "sold_units_by_type": {
       "4room": 301
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 386
     }
   },
   "535c-bishan-st-13": {
@@ -3301,6 +5595,16 @@
     "sold_units_by_type": {
       "3room": 70,
       "4room": 170
+    },
+    "nearest_station": {
+      "id": "bishan",
+      "name": "Bishan",
+      "codes": [
+        "NS17",
+        "CC15"
+      ],
+      "exit": "Exit D",
+      "distance": 441
     }
   }
 }

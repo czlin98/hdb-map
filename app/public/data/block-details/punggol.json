@@ -11,6 +11,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 131
     }
   },
   "101b-punggol-field": {
@@ -24,6 +33,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 153
     }
   },
   "101c-punggol-field": {
@@ -37,6 +55,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 135
     }
   },
   "101d-punggol-field": {
@@ -51,6 +78,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 75
     }
   },
   "102a-punggol-field": {
@@ -65,6 +101,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 36
     }
   },
   "102b-punggol-field": {
@@ -78,6 +123,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 51
     }
   },
   "102c-punggol-field": {
@@ -91,6 +145,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 117
     }
   },
   "102d-punggol-field": {
@@ -105,6 +168,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 56
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 104
     }
   },
   "103a-edgefield-plains": {
@@ -118,6 +190,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 162
     }
   },
   "103b-edgefield-plains": {
@@ -131,6 +212,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 208
     }
   },
   "103c-edgefield-plains": {
@@ -144,6 +234,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 258
     }
   },
   "104a-edgefield-plains": {
@@ -158,6 +257,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 276
     }
   },
   "104b-edgefield-plains": {
@@ -172,6 +280,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 288
     }
   },
   "105a-edgefield-plains": {
@@ -186,6 +303,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 244
     }
   },
   "105b-edgefield-plains": {
@@ -200,6 +326,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 213
     }
   },
   "105c-edgefield-plains": {
@@ -214,6 +349,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 166
     }
   },
   "105d-edgefield-plains": {
@@ -228,6 +372,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 230
     }
   },
   "106a-punggol-field": {
@@ -242,6 +395,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 101
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 70
     }
   },
   "106b-punggol-field": {
@@ -256,6 +418,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 102
     }
   },
   "106c-punggol-field": {
@@ -270,6 +441,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 148
     }
   },
   "106d-punggol-field": {
@@ -283,6 +463,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 177
     }
   },
   "107a-edgefield-plains": {
@@ -296,6 +485,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 227
     }
   },
   "107b-edgefield-plains": {
@@ -310,6 +508,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 183
     }
   },
   "107c-edgefield-plains": {
@@ -324,6 +531,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 152
     }
   },
   "107d-edgefield-plains": {
@@ -337,6 +553,15 @@
     "total_dwelling_units": 91,
     "sold_units_by_type": {
       "5room": 91
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 117
     }
   },
   "109a-edgedale-plains": {
@@ -350,6 +575,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 240
     }
   },
   "109b-edgedale-plains": {
@@ -364,6 +598,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 206
     }
   },
   "109c-edgedale-plains": {
@@ -378,6 +621,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 171
     }
   },
   "109d-edgedale-plains": {
@@ -391,6 +643,15 @@
     "total_dwelling_units": 91,
     "sold_units_by_type": {
       "5room": 91
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 129
     }
   },
   "110a-punggol-field": {
@@ -405,6 +666,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 101
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 71
     }
   },
   "110b-punggol-field": {
@@ -419,6 +689,15 @@
     "sold_units_by_type": {
       "4room": 56,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 135
     }
   },
   "110c-punggol-field": {
@@ -433,6 +712,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 186
     }
   },
   "110d-punggol-field": {
@@ -446,6 +734,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 232
     }
   },
   "111-edgefield-plains": {
@@ -461,6 +758,15 @@
       "4room": 34,
       "5room": 33,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 259
     }
   },
   "112-edgefield-plains": {
@@ -476,6 +782,15 @@
       "4room": 34,
       "5room": 33,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 214
     }
   },
   "114-edgefield-plains": {
@@ -491,6 +806,15 @@
       "4room": 34,
       "5room": 33,
       "exec": 96
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 185
     }
   },
   "115-edgefield-plains": {
@@ -504,6 +828,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "exec": 80
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 257
     }
   },
   "116-edgefield-plains": {
@@ -519,6 +852,15 @@
       "4room": 32,
       "5room": 32,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 268
     }
   },
   "117-edgefield-plains": {
@@ -534,6 +876,15 @@
       "4room": 32,
       "5room": 32,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 279
     }
   },
   "118-edgefield-plains": {
@@ -549,6 +900,15 @@
       "4room": 32,
       "5room": 32,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 318
     }
   },
   "120a-edgedale-plains": {
@@ -564,6 +924,15 @@
       "3room": 32,
       "4room": 80,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 266
     }
   },
   "120b-edgedale-plains": {
@@ -579,6 +948,15 @@
       "3room": 32,
       "4room": 80,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 256
     }
   },
   "121a-edgedale-plains": {
@@ -594,6 +972,15 @@
     "rental_units_by_type": {
       "1room": 170,
       "2room": 276
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 300
     }
   },
   "121b-edgedale-plains": {
@@ -608,6 +995,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "rumbia",
+      "name": "Rumbia",
+      "codes": [
+        "SE2"
+      ],
+      "exit": "Exit B",
+      "distance": 376
     }
   },
   "122a-edgedale-plains": {
@@ -623,6 +1019,15 @@
       "3room": 32,
       "4room": 80,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 353
     }
   },
   "122b-edgedale-plains": {
@@ -638,6 +1043,15 @@
       "3room": 32,
       "4room": 80,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 290
     }
   },
   "126a-edgedale-plains": {
@@ -652,6 +1066,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 151
     }
   },
   "126b-edgedale-plains": {
@@ -665,6 +1088,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 189
     }
   },
   "126c-edgedale-plains": {
@@ -679,6 +1111,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 223
     }
   },
   "126d-edgedale-plains": {
@@ -692,6 +1133,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 186
     }
   },
   "128a-punggol-field-walk": {
@@ -706,6 +1156,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 29
     }
   },
   "128b-punggol-field-walk": {
@@ -719,6 +1178,15 @@
     "total_dwelling_units": 86,
     "sold_units_by_type": {
       "5room": 86
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 82
     }
   },
   "128c-punggol-field-walk": {
@@ -733,6 +1201,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 127
     }
   },
   "128d-punggol-field-walk": {
@@ -746,6 +1223,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 111
     }
   },
   "130-edgedale-plains": {
@@ -760,6 +1246,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 294
     }
   },
   "132-edgedale-plains": {
@@ -774,6 +1269,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 123
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 228
     }
   },
   "133-edgedale-plains": {
@@ -788,6 +1292,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 103
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 245
     }
   },
   "134-edgedale-plains": {
@@ -802,6 +1315,15 @@
     "sold_units_by_type": {
       "4room": 68,
       "5room": 103
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 313
     }
   },
   "135-edgedale-plains": {
@@ -816,6 +1338,15 @@
     "sold_units_by_type": {
       "4room": 66,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 342
     }
   },
   "138-edgedale-plains": {
@@ -830,6 +1361,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 333
     }
   },
   "160a-punggol-ctrl": {
@@ -844,6 +1384,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 87
     }
   },
   "160b-punggol-ctrl": {
@@ -858,6 +1407,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 74
     }
   },
   "161a-punggol-ctrl": {
@@ -872,6 +1430,15 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 173
     }
   },
   "161b-punggol-ctrl": {
@@ -886,6 +1453,15 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 147
     }
   },
   "162a-punggol-ctrl": {
@@ -900,6 +1476,15 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 275
     }
   },
   "162b-punggol-ctrl": {
@@ -914,6 +1499,15 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 246
     }
   },
   "163a-punggol-ctrl": {
@@ -928,6 +1522,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 227
     }
   },
   "163b-punggol-ctrl": {
@@ -942,6 +1545,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 219
     }
   },
   "165a-punggol-ctrl": {
@@ -956,6 +1568,15 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 140
     }
   },
   "165b-punggol-ctrl": {
@@ -970,6 +1591,15 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 175
     }
   },
   "166a-punggol-ctrl": {
@@ -984,6 +1614,15 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 48
     }
   },
   "166b-punggol-ctrl": {
@@ -998,6 +1637,15 @@
     "sold_units_by_type": {
       "4room": 37,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 78
     }
   },
   "167a-punggol-east": {
@@ -1011,6 +1659,15 @@
     "total_dwelling_units": 85,
     "sold_units_by_type": {
       "4room": 85
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 117
     }
   },
   "167b-punggol-east": {
@@ -1024,6 +1681,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 113
     }
   },
   "167c-punggol-east": {
@@ -1037,6 +1703,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 133
     }
   },
   "167d-punggol-east": {
@@ -1050,6 +1725,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 156
     }
   },
   "168a-punggol-east": {
@@ -1063,6 +1747,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 183
     }
   },
   "168b-punggol-east": {
@@ -1076,6 +1769,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 153
     }
   },
   "168c-punggol-field": {
@@ -1090,6 +1792,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 119
     }
   },
   "168d-punggol-field": {
@@ -1103,6 +1814,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 146
     }
   },
   "169a-punggol-field": {
@@ -1117,6 +1837,15 @@
     "sold_units_by_type": {
       "4room": 33,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 193
     }
   },
   "169b-punggol-field": {
@@ -1130,6 +1859,15 @@
     "total_dwelling_units": 67,
     "sold_units_by_type": {
       "4room": 67
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 165
     }
   },
   "169c-punggol-field": {
@@ -1143,6 +1881,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 173
     }
   },
   "170a-punggol-field": {
@@ -1157,6 +1904,15 @@
     "sold_units_by_type": {
       "4room": 51,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 163
     }
   },
   "170b-punggol-field": {
@@ -1171,6 +1927,15 @@
     "sold_units_by_type": {
       "4room": 50,
       "5room": 16
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 193
     }
   },
   "170c-punggol-field": {
@@ -1185,6 +1950,15 @@
     "sold_units_by_type": {
       "4room": 33,
       "5room": 29
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit A",
+      "distance": 220
     }
   },
   "171a-edgedale-plains": {
@@ -1199,6 +1973,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 87
     }
   },
   "171b-edgedale-plains": {
@@ -1212,6 +1995,15 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "5room": 124
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 112
     }
   },
   "171c-edgedale-plains": {
@@ -1226,6 +2018,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 102
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 121
     }
   },
   "172a-edgedale-plains": {
@@ -1240,6 +2041,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 208
     }
   },
   "172b-edgedale-plains": {
@@ -1253,6 +2063,15 @@
     "total_dwelling_units": 126,
     "sold_units_by_type": {
       "5room": 126
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 219
     }
   },
   "172c-edgedale-plains": {
@@ -1267,6 +2086,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 97
+    },
+    "nearest_station": {
+      "id": "coral-edge",
+      "name": "Coral Edge",
+      "codes": [
+        "PE3"
+      ],
+      "exit": "Exit B",
+      "distance": 166
     }
   },
   "173a-punggol-field": {
@@ -1281,6 +2109,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 128
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 55
     }
   },
   "173b-punggol-field": {
@@ -1295,6 +2132,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 123
     }
   },
   "173c-punggol-field": {
@@ -1309,6 +2155,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 186
     }
   },
   "173d-punggol-field": {
@@ -1322,6 +2177,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 214
     }
   },
   "174a-edgedale-plains": {
@@ -1335,6 +2199,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 260
     }
   },
   "174b-edgedale-plains": {
@@ -1349,6 +2222,15 @@
     "sold_units_by_type": {
       "4room": 25,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 205
     }
   },
   "174c-edgedale-plains": {
@@ -1363,6 +2245,15 @@
     "sold_units_by_type": {
       "4room": 25,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit A",
+      "distance": 165
     }
   },
   "174d-edgedale-plains": {
@@ -1377,6 +2268,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 141
     }
   },
   "175a-punggol-field": {
@@ -1391,6 +2291,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 33
     }
   },
   "175b-punggol-field": {
@@ -1405,6 +2314,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 76
     }
   },
   "175c-punggol-field": {
@@ -1419,6 +2337,15 @@
     "sold_units_by_type": {
       "4room": 24,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 138
     }
   },
   "175d-punggol-field": {
@@ -1432,6 +2359,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 194
     }
   },
   "176a-edgefield-plains": {
@@ -1445,6 +2381,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "5room": 92
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 205
     }
   },
   "176b-edgefield-plains": {
@@ -1459,6 +2404,15 @@
     "sold_units_by_type": {
       "4room": 25,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 165
     }
   },
   "176c-edgefield-plains": {
@@ -1473,6 +2427,15 @@
     "sold_units_by_type": {
       "4room": 25,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 133
     }
   },
   "176d-edgefield-plains": {
@@ -1487,6 +2450,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 96
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 112
     }
   },
   "178-edgefield-plains": {
@@ -1501,6 +2473,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 251
     }
   },
   "181-edgefield-plains": {
@@ -1515,6 +2496,15 @@
     "sold_units_by_type": {
       "5room": 34,
       "exec": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 225
     }
   },
   "182-edgefield-plains": {
@@ -1529,6 +2519,15 @@
     "sold_units_by_type": {
       "5room": 28,
       "exec": 46
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 206
     }
   },
   "183-edgefield-plains": {
@@ -1543,6 +2542,15 @@
     "sold_units_by_type": {
       "5room": 34,
       "exec": 58
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 217
     }
   },
   "184-edgefield-plains": {
@@ -1557,6 +2565,15 @@
     "sold_units_by_type": {
       "5room": 28,
       "exec": 46
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 210
     }
   },
   "185-edgefield-plains": {
@@ -1571,6 +2588,15 @@
     "sold_units_by_type": {
       "5room": 34,
       "exec": 62
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 179
     }
   },
   "186-punggol-ctrl": {
@@ -1585,6 +2611,15 @@
     "sold_units_by_type": {
       "5room": 32,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 295
     }
   },
   "187-punggol-ctrl": {
@@ -1599,6 +2634,15 @@
     "sold_units_by_type": {
       "5room": 26,
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 288
     }
   },
   "188-punggol-ctrl": {
@@ -1613,6 +2657,15 @@
     "sold_units_by_type": {
       "5room": 31,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 274
     }
   },
   "190-punggol-ctrl": {
@@ -1627,6 +2680,15 @@
     "sold_units_by_type": {
       "5room": 31,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 270
     }
   },
   "191-punggol-ctrl": {
@@ -1641,6 +2703,15 @@
     "sold_units_by_type": {
       "5room": 26,
       "exec": 52
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 283
     }
   },
   "192-punggol-ctrl": {
@@ -1655,6 +2726,15 @@
     "sold_units_by_type": {
       "5room": 32,
       "exec": 64
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 303
     }
   },
   "193-edgefield-plains": {
@@ -1669,6 +2749,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "meridian",
+      "name": "Meridian",
+      "codes": [
+        "PE2"
+      ],
+      "exit": "Exit B",
+      "distance": 317
     }
   },
   "195a-punggol-rd": {
@@ -1682,6 +2771,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 232
     }
   },
   "195b-punggol-rd": {
@@ -1695,6 +2793,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 233
     }
   },
   "195c-punggol-rd": {
@@ -1708,6 +2815,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 212
     }
   },
   "195d-punggol-rd": {
@@ -1721,6 +2837,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 251
     }
   },
   "195e-punggol-rd": {
@@ -1734,6 +2859,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 291
     }
   },
   "196a-punggol-field": {
@@ -1748,6 +2882,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 64
     }
   },
   "196b-punggol-field": {
@@ -1762,6 +2905,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 96
     }
   },
   "196c-punggol-field": {
@@ -1775,6 +2927,15 @@
     "total_dwelling_units": 91,
     "sold_units_by_type": {
       "5room": 91
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 147
     }
   },
   "196d-punggol-field": {
@@ -1789,6 +2950,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 124
     }
   },
   "197a-punggol-field": {
@@ -1802,6 +2972,15 @@
     "total_dwelling_units": 75,
     "sold_units_by_type": {
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 91
     }
   },
   "197b-punggol-field": {
@@ -1815,6 +2994,15 @@
     "total_dwelling_units": 75,
     "sold_units_by_type": {
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 106
     }
   },
   "199a-punggol-field": {
@@ -1829,6 +3017,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 56
     }
   },
   "199b-punggol-field": {
@@ -1843,6 +3040,15 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 88
     }
   },
   "199c-punggol-field": {
@@ -1856,6 +3062,15 @@
     "total_dwelling_units": 91,
     "sold_units_by_type": {
       "5room": 91
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 151
     }
   },
   "199d-punggol-field": {
@@ -1870,6 +3085,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 128
     }
   },
   "201a-punggol-field": {
@@ -1884,6 +3108,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 287
     }
   },
   "201b-punggol-field": {
@@ -1898,6 +3131,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 249
     }
   },
   "201c-punggol-field": {
@@ -1912,6 +3154,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 247
     }
   },
   "201d-punggol-field": {
@@ -1926,6 +3177,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 290
     }
   },
   "202a-punggol-field": {
@@ -1940,6 +3200,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 170
     }
   },
   "202b-punggol-field": {
@@ -1954,6 +3223,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 184
     }
   },
   "203a-punggol-field": {
@@ -1968,6 +3246,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 239
     }
   },
   "203b-punggol-field": {
@@ -1982,6 +3269,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 298
     }
   },
   "204a-punggol-field": {
@@ -1996,6 +3292,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 338
     }
   },
   "204b-punggol-field": {
@@ -2010,6 +3315,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 52
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 306
     }
   },
   "204c-punggol-field": {
@@ -2024,6 +3338,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 340
     }
   },
   "204d-punggol-field": {
@@ -2038,6 +3361,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 386
     }
   },
   "205a-punggol-field": {
@@ -2052,6 +3384,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 430
     }
   },
   "206a-punggol-pl": {
@@ -2067,6 +3408,15 @@
     "rental_units_by_type": {
       "1room": 285,
       "2room": 90
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit A",
+      "distance": 493
     }
   },
   "207a-punggol-pl": {
@@ -2081,6 +3431,16 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 463
     }
   },
   "207b-punggol-pl": {
@@ -2095,6 +3455,16 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 41
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 468
     }
   },
   "207c-punggol-pl": {
@@ -2109,6 +3479,16 @@
     "sold_units_by_type": {
       "3room": 57,
       "4room": 30
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 451
     }
   },
   "207d-punggol-pl": {
@@ -2123,6 +3503,16 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 404
     }
   },
   "208a-punggol-pl": {
@@ -2137,6 +3527,16 @@
     "sold_units_by_type": {
       "3room": 75,
       "4room": 15
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 350
     }
   },
   "208b-punggol-pl": {
@@ -2151,6 +3551,16 @@
     "sold_units_by_type": {
       "3room": 90,
       "4room": 15
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 345
     }
   },
   "208c-punggol-pl": {
@@ -2165,6 +3575,16 @@
     "sold_units_by_type": {
       "3room": 57,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 389
     }
   },
   "209a-punggol-pl": {
@@ -2179,6 +3599,16 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 531
     }
   },
   "209b-punggol-pl": {
@@ -2193,6 +3623,16 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 525
     }
   },
   "209c-punggol-pl": {
@@ -2207,6 +3647,15 @@
     "sold_units_by_type": {
       "2room": 120,
       "3room": 60
+    },
+    "nearest_station": {
+      "id": "compassvale",
+      "name": "Compassvale",
+      "codes": [
+        "SE1"
+      ],
+      "exit": "Exit B",
+      "distance": 531
     }
   },
   "210a-punggol-pl": {
@@ -2221,6 +3670,16 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 508
     }
   },
   "210b-punggol-pl": {
@@ -2235,6 +3694,16 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 509
     }
   },
   "210c-punggol-pl": {
@@ -2249,6 +3718,16 @@
     "sold_units_by_type": {
       "2room": 120,
       "3room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 572
     }
   },
   "211a-punggol-walk": {
@@ -2265,6 +3744,16 @@
       "3room": 30,
       "4room": 54,
       "studio_apartment": 25
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 362
     }
   },
   "211b-punggol-walk": {
@@ -2281,6 +3770,16 @@
       "3room": 28,
       "4room": 56,
       "studio_apartment": 36
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 419
     }
   },
   "211c-punggol-walk": {
@@ -2297,6 +3796,16 @@
       "3room": 30,
       "4room": 60,
       "studio_apartment": 26
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 476
     }
   },
   "211d-punggol-walk": {
@@ -2313,6 +3822,16 @@
       "3room": 69,
       "4room": 15,
       "studio_apartment": 22
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 485
     }
   },
   "212a-punggol-walk": {
@@ -2327,6 +3846,16 @@
     "sold_units_by_type": {
       "3room": 45,
       "4room": 69
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 588
     }
   },
   "212b-punggol-walk": {
@@ -2341,6 +3870,16 @@
     "sold_units_by_type": {
       "3room": 60,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 517
     }
   },
   "213a-punggol-walk": {
@@ -2355,6 +3894,15 @@
     "sold_units_by_type": {
       "4room": 55,
       "5room": 59
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 536
     }
   },
   "213b-punggol-walk": {
@@ -2369,6 +3917,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 90
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 504
     }
   },
   "213c-punggol-walk": {
@@ -2383,6 +3940,16 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 534
     }
   },
   "217a-sumang-walk": {
@@ -2397,6 +3964,15 @@
     "sold_units_by_type": {
       "4room": 61,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 317
     }
   },
   "217b-sumang-walk": {
@@ -2411,6 +3987,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 372
     }
   },
   "217c-sumang-walk": {
@@ -2425,6 +4010,15 @@
     "sold_units_by_type": {
       "4room": 80,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 341
     }
   },
   "217d-sumang-walk": {
@@ -2439,6 +4033,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 343
     }
   },
   "220a-sumang-lane": {
@@ -2454,6 +4057,15 @@
       "2room": 32,
       "3room": 48,
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 471
     }
   },
   "220b-sumang-lane": {
@@ -2468,6 +4080,15 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 429
     }
   },
   "220c-sumang-lane": {
@@ -2482,6 +4103,15 @@
     "sold_units_by_type": {
       "3room": 60,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 395
     }
   },
   "221a-sumang-lane": {
@@ -2496,6 +4126,15 @@
     "sold_units_by_type": {
       "3room": 90,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 473
     }
   },
   "221b-sumang-lane": {
@@ -2511,6 +4150,15 @@
       "2room": 64,
       "3room": 32,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 495
     }
   },
   "222a-sumang-lane": {
@@ -2526,6 +4174,15 @@
       "2room": 64,
       "3room": 32,
       "4room": 48
+    },
+    "nearest_station": {
+      "id": "cheng-lim",
+      "name": "Cheng Lim",
+      "codes": [
+        "SW1"
+      ],
+      "exit": "Exit A",
+      "distance": 529
     }
   },
   "223a-sumang-lane": {
@@ -2541,6 +4198,15 @@
     "rental_units_by_type": {
       "1room": 280,
       "2room": 224
+    },
+    "nearest_station": {
+      "id": "cheng-lim",
+      "name": "Cheng Lim",
+      "codes": [
+        "SW1"
+      ],
+      "exit": "Exit A",
+      "distance": 552
     }
   },
   "224a-sumang-lane": {
@@ -2555,6 +4221,15 @@
     "sold_units_by_type": {
       "3room": 68,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 580
     }
   },
   "224b-sumang-lane": {
@@ -2569,6 +4244,15 @@
     "sold_units_by_type": {
       "3room": 80,
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 539
     }
   },
   "224c-sumang-lane": {
@@ -2584,6 +4268,15 @@
       "2room": 32,
       "3room": 48,
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 506
     }
   },
   "226a-sumang-lane": {
@@ -2598,6 +4291,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 505
     }
   },
   "226b-sumang-lane": {
@@ -2612,6 +4314,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 460
     }
   },
   "226c-sumang-lane": {
@@ -2626,6 +4337,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 69
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 431
     }
   },
   "227a-sumang-lane": {
@@ -2640,6 +4360,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 480
     }
   },
   "227b-sumang-lane": {
@@ -2654,6 +4383,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 405
     }
   },
   "228a-punggol-field": {
@@ -2668,6 +4406,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 535
     }
   },
   "228b-punggol-field": {
@@ -2682,6 +4429,15 @@
     "sold_units_by_type": {
       "4room": 93,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 624
     }
   },
   "229a-sumang-lane": {
@@ -2696,6 +4452,15 @@
     "sold_units_by_type": {
       "4room": 62,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 594
     }
   },
   "229b-sumang-lane": {
@@ -2710,6 +4475,15 @@
     "sold_units_by_type": {
       "4room": 92,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 628
     }
   },
   "231a-sumang-lane": {
@@ -2724,6 +4498,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 606
     }
   },
   "231b-sumang-lane": {
@@ -2738,6 +4521,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 594
     }
   },
   "232a-sumang-lane": {
@@ -2752,6 +4544,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 583
     }
   },
   "232b-sumang-lane": {
@@ -2766,6 +4567,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 583
     }
   },
   "232c-sumang-lane": {
@@ -2781,6 +4591,15 @@
       "2room": 128,
       "3room": 32,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 543
     }
   },
   "233a-sumang-lane": {
@@ -2795,6 +4614,15 @@
     "sold_units_by_type": {
       "2room": 160,
       "3room": 32
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 497
     }
   },
   "233b-sumang-lane": {
@@ -2809,6 +4637,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 536
     }
   },
   "233c-sumang-lane": {
@@ -2823,6 +4660,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 536
     }
   },
   "234a-sumang-lane": {
@@ -2838,6 +4684,15 @@
       "2room": 32,
       "3room": 48,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 568
     }
   },
   "234b-sumang-lane": {
@@ -2852,6 +4707,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "farmway",
+      "name": "Farmway",
+      "codes": [
+        "SW2"
+      ],
+      "exit": "Exit A",
+      "distance": 558
     }
   },
   "256a-sumang-walk": {
@@ -2867,6 +4731,15 @@
       "2room": 48,
       "3room": 16,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 190
     }
   },
   "256b-sumang-walk": {
@@ -2882,6 +4755,15 @@
       "2room": 48,
       "3room": 16,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 149
     }
   },
   "256c-sumang-walk": {
@@ -2897,6 +4779,15 @@
       "2room": 32,
       "3room": 48,
       "4room": 62
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 132
     }
   },
   "256d-sumang-walk": {
@@ -2911,6 +4802,15 @@
     "sold_units_by_type": {
       "3room": 64,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 114
     }
   },
   "258a-punggol-field": {
@@ -2925,6 +4825,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 178
     }
   },
   "258b-punggol-field": {
@@ -2939,6 +4848,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 161
     }
   },
   "258c-punggol-field": {
@@ -2953,6 +4871,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 122
     }
   },
   "259a-punggol-field": {
@@ -2967,6 +4894,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 211
     }
   },
   "259b-punggol-field": {
@@ -2981,6 +4917,15 @@
     "sold_units_by_type": {
       "3room": 64,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 236
     }
   },
   "259c-punggol-field": {
@@ -2995,6 +4940,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 161
     }
   },
   "260a-punggol-way": {
@@ -3009,6 +4963,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 52
     }
   },
   "260b-punggol-way": {
@@ -3023,6 +4986,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 77
     }
   },
   "260c-punggol-way": {
@@ -3036,6 +5008,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 73
     }
   },
   "261a-punggol-way": {
@@ -3050,6 +5031,15 @@
     "sold_units_by_type": {
       "3room": 88,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 105
     }
   },
   "261b-punggol-way": {
@@ -3064,6 +5054,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 125
     }
   },
   "261c-punggol-way": {
@@ -3077,6 +5076,15 @@
     "total_dwelling_units": 64,
     "sold_units_by_type": {
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 92
     }
   },
   "264a-punggol-way": {
@@ -3093,6 +5101,15 @@
       "4room": 32,
       "5room": 32,
       "studio_apartment": 55
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 150
     }
   },
   "265a-punggol-way": {
@@ -3109,6 +5126,15 @@
       "4room": 32,
       "5room": 32,
       "studio_apartment": 54
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 153
     }
   },
   "265b-punggol-way": {
@@ -3123,6 +5149,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 139
     }
   },
   "265c-punggol-way": {
@@ -3137,6 +5172,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 126
     }
   },
   "265d-punggol-way": {
@@ -3151,6 +5195,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 110
     }
   },
   "266a-punggol-way": {
@@ -3167,6 +5220,15 @@
       "4room": 30,
       "5room": 30,
       "studio_apartment": 50
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 101
     }
   },
   "266b-punggol-way": {
@@ -3181,6 +5243,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 68
     }
   },
   "266c-punggol-way": {
@@ -3195,6 +5266,15 @@
     "sold_units_by_type": {
       "3room": 48,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 45
     }
   },
   "266d-punggol-way": {
@@ -3209,6 +5289,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 78
     }
   },
   "267a-punggol-field": {
@@ -3223,6 +5312,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 73
     }
   },
   "267b-punggol-field": {
@@ -3237,6 +5335,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 107
     }
   },
   "267c-punggol-field": {
@@ -3251,6 +5358,15 @@
     "sold_units_by_type": {
       "4room": 13,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 147
     }
   },
   "268a-punggol-field": {
@@ -3265,6 +5381,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 109
     }
   },
   "268b-punggol-field": {
@@ -3279,6 +5404,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 140
     }
   },
   "268c-punggol-field": {
@@ -3293,6 +5427,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit A",
+      "distance": 199
     }
   },
   "268d-punggol-field": {
@@ -3307,6 +5450,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 239
     }
   },
   "269a-punggol-field": {
@@ -3321,6 +5473,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 291
     }
   },
   "269b-punggol-field": {
@@ -3335,6 +5496,15 @@
     "sold_units_by_type": {
       "4room": 87,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 244
     }
   },
   "269c-punggol-field": {
@@ -3349,6 +5519,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 217
     }
   },
   "270a-punggol-field": {
@@ -3363,6 +5542,16 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 265
     }
   },
   "270b-punggol-field": {
@@ -3377,6 +5566,15 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 220
     }
   },
   "270c-punggol-field": {
@@ -3391,6 +5589,15 @@
     "sold_units_by_type": {
       "4room": 13,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "soo-teck",
+      "name": "Soo Teck",
+      "codes": [
+        "PW7"
+      ],
+      "exit": "Exit B",
+      "distance": 191
     }
   },
   "271a-punggol-walk": {
@@ -3404,6 +5611,16 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 182
     }
   },
   "271b-punggol-walk": {
@@ -3418,6 +5635,16 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 139
     }
   },
   "271c-punggol-walk": {
@@ -3432,6 +5659,16 @@
     "sold_units_by_type": {
       "4room": 88,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 101
     }
   },
   "271d-punggol-walk": {
@@ -3445,6 +5682,16 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 144
     }
   },
   "272a-punggol-walk": {
@@ -3459,6 +5706,16 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 191
     }
   },
   "272b-punggol-walk": {
@@ -3473,6 +5730,16 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 215
     }
   },
   "272c-punggol-walk": {
@@ -3487,6 +5754,16 @@
     "sold_units_by_type": {
       "4room": 57,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 261
     }
   },
   "272d-punggol-walk": {
@@ -3500,6 +5777,16 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit D",
+      "distance": 241
     }
   },
   "273a-punggol-pl": {
@@ -3513,6 +5800,16 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 224
     }
   },
   "273b-punggol-pl": {
@@ -3527,6 +5824,16 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 263
     }
   },
   "273c-punggol-pl": {
@@ -3541,6 +5848,16 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 242
     }
   },
   "273d-punggol-pl": {
@@ -3554,6 +5871,16 @@
     "total_dwelling_units": 89,
     "sold_units_by_type": {
       "4room": 89
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 218
     }
   },
   "274a-punggol-pl": {
@@ -3567,6 +5894,16 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 176
     }
   },
   "274b-punggol-pl": {
@@ -3581,6 +5918,16 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 133
     }
   },
   "274c-punggol-pl": {
@@ -3595,6 +5942,16 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 116
     }
   },
   "274d-punggol-pl": {
@@ -3608,6 +5965,16 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 149
     }
   },
   "288a-punggol-pl": {
@@ -3622,6 +5989,16 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 237
     }
   },
   "288b-punggol-pl": {
@@ -3636,6 +6013,16 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 223
     }
   },
   "288c-punggol-pl": {
@@ -3650,6 +6037,16 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 252
     }
   },
   "289a-punggol-pl": {
@@ -3664,6 +6061,16 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 308
     }
   },
   "289b-punggol-pl": {
@@ -3678,6 +6085,16 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 347
     }
   },
   "289c-punggol-pl": {
@@ -3692,6 +6109,16 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 343
     }
   },
   "289d-punggol-pl": {
@@ -3706,6 +6133,16 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 297
     }
   },
   "293-punggol-ctrl": {
@@ -3720,6 +6157,16 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 343
     }
   },
   "294-punggol-ctrl": {
@@ -3734,6 +6181,16 @@
     "sold_units_by_type": {
       "4room": 28,
       "5room": 89
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "LRT Exit C",
+      "distance": 340
     }
   },
   "295-punggol-ctrl": {
@@ -3748,6 +6205,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 320
     }
   },
   "296-punggol-ctrl": {
@@ -3762,6 +6228,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 87
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 274
     }
   },
   "297-punggol-ctrl": {
@@ -3776,6 +6251,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 331
     }
   },
   "298-punggol-ctrl": {
@@ -3790,6 +6274,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 374
     }
   },
   "299-punggol-ctrl": {
@@ -3804,6 +6297,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "cove",
+      "name": "Cove",
+      "codes": [
+        "PE1"
+      ],
+      "exit": "Exit B",
+      "distance": 391
     }
   },
   "301a-punggol-ctrl": {
@@ -3817,6 +6319,15 @@
     "total_dwelling_units": 80,
     "sold_units_by_type": {
       "4room": 80
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 287
     }
   },
   "301b-punggol-ctrl": {
@@ -3830,6 +6341,15 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 314
     }
   },
   "301c-punggol-ctrl": {
@@ -3843,6 +6363,15 @@
     "total_dwelling_units": 59,
     "sold_units_by_type": {
       "4room": 59
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 336
     }
   },
   "301d-punggol-pl": {
@@ -3856,6 +6385,16 @@
     "total_dwelling_units": 59,
     "sold_units_by_type": {
       "4room": 59
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 325
     }
   },
   "302a-punggol-pl": {
@@ -3869,6 +6408,16 @@
     "total_dwelling_units": 75,
     "sold_units_by_type": {
       "4room": 75
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 222
     }
   },
   "302b-punggol-pl": {
@@ -3882,6 +6431,16 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 259
     }
   },
   "302c-punggol-pl": {
@@ -3895,6 +6454,16 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 268
     }
   },
   "302d-punggol-pl": {
@@ -3908,6 +6477,16 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 297
     }
   },
   "303a-punggol-ctrl": {
@@ -3921,6 +6500,15 @@
     "total_dwelling_units": 59,
     "sold_units_by_type": {
       "4room": 59
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 347
     }
   },
   "303b-punggol-ctrl": {
@@ -3934,6 +6522,16 @@
     "total_dwelling_units": 60,
     "sold_units_by_type": {
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 355
     }
   },
   "303c-punggol-ctrl": {
@@ -3947,6 +6545,16 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 326
     }
   },
   "303d-punggol-pl": {
@@ -3960,6 +6568,16 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 289
     }
   },
   "305a-punggol-rd": {
@@ -3975,6 +6593,15 @@
       "3room": 14,
       "4room": 64,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 212
     }
   },
   "305b-punggol-rd": {
@@ -3990,6 +6617,15 @@
       "3room": 14,
       "4room": 64,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 265
     }
   },
   "305d-punggol-dr": {
@@ -4005,6 +6641,15 @@
       "3room": 14,
       "4room": 92,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 221
     }
   },
   "306a-punggol-pl": {
@@ -4020,6 +6665,16 @@
       "3room": 14,
       "4room": 96,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "punggol",
+      "name": "Punggol",
+      "codes": [
+        "NE17",
+        "PTC"
+      ],
+      "exit": "MRT Exit B",
+      "distance": 327
     }
   },
   "306b-punggol-pl": {
@@ -4035,6 +6690,15 @@
       "3room": 14,
       "4room": 96,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 326
     }
   },
   "306c-punggol-pl": {
@@ -4050,6 +6714,15 @@
       "3room": 14,
       "4room": 96,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 332
     }
   },
   "306d-punggol-dr": {
@@ -4065,6 +6738,15 @@
       "3room": 14,
       "4room": 92,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 268
     }
   },
   "308a-punggol-walk": {
@@ -4080,6 +6762,15 @@
       "3room": 68,
       "4room": 248,
       "5room": 140
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit B",
+      "distance": 252
     }
   },
   "308b-punggol-walk": {
@@ -4095,6 +6786,15 @@
       "3room": 34,
       "4room": 166,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit B",
+      "distance": 122
     }
   },
   "308c-punggol-walk": {
@@ -4110,6 +6810,15 @@
       "3room": 76,
       "4room": 174,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit B",
+      "distance": 64
     }
   },
   "310a-punggol-walk": {
@@ -4125,6 +6834,15 @@
       "3room": 32,
       "4room": 138,
       "5room": 85
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit B",
+      "distance": 287
     }
   },
   "310b-punggol-walk": {
@@ -4140,6 +6858,15 @@
       "3room": 34,
       "4room": 170,
       "5room": 83
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit B",
+      "distance": 246
     }
   },
   "310c-punggol-walk": {
@@ -4155,6 +6882,15 @@
       "3room": 52,
       "4room": 132,
       "5room": 78
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit B",
+      "distance": 186
     }
   },
   "312a-sumang-link": {
@@ -4169,6 +6905,15 @@
     "sold_units_by_type": {
       "3room": 112,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 111
     }
   },
   "312b-sumang-link": {
@@ -4183,6 +6928,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit B",
+      "distance": 63
     }
   },
   "312c-sumang-link": {
@@ -4197,6 +6951,15 @@
     "sold_units_by_type": {
       "4room": 71,
       "5room": 43
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit B",
+      "distance": 133
     }
   },
   "313a-sumang-link": {
@@ -4211,6 +6974,15 @@
     "sold_units_by_type": {
       "3room": 60,
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit B",
+      "distance": 281
     }
   },
   "313b-sumang-link": {
@@ -4225,6 +6997,15 @@
     "sold_units_by_type": {
       "4room": 45,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit B",
+      "distance": 258
     }
   },
   "313c-sumang-link": {
@@ -4239,6 +7020,15 @@
     "sold_units_by_type": {
       "4room": 59,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit B",
+      "distance": 182
     }
   },
   "314a-punggol-way": {
@@ -4254,6 +7044,15 @@
       "3room": 64,
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 37
     }
   },
   "314b-punggol-way": {
@@ -4269,6 +7068,15 @@
       "3room": 32,
       "4room": 100,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 119
     }
   },
   "315a-punggol-way": {
@@ -4284,6 +7092,15 @@
       "3room": 64,
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 143
     }
   },
   "315b-punggol-way": {
@@ -4299,6 +7116,15 @@
       "3room": 34,
       "4room": 102,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 220
     }
   },
   "316a-punggol-way": {
@@ -4314,6 +7140,15 @@
       "3room": 34,
       "4room": 32,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 60
     }
   },
   "316b-punggol-way": {
@@ -4329,6 +7164,15 @@
       "3room": 14,
       "4room": 26,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 79
     }
   },
   "316c-punggol-way": {
@@ -4343,6 +7187,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 161
     }
   },
   "316d-punggol-way": {
@@ -4357,6 +7210,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 36
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 176
     }
   },
   "322a-sumang-walk": {
@@ -4371,6 +7233,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 341
     }
   },
   "322b-sumang-walk": {
@@ -4385,6 +7256,15 @@
     "sold_units_by_type": {
       "4room": 38,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 326
     }
   },
   "322c-sumang-walk": {
@@ -4400,6 +7280,15 @@
       "3room": 57,
       "4room": 32,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 309
     }
   },
   "322d-sumang-walk": {
@@ -4415,6 +7304,15 @@
       "3room": 19,
       "4room": 76,
       "5room": 37
+    },
+    "nearest_station": {
+      "id": "sumang",
+      "name": "Sumang",
+      "codes": [
+        "PW6"
+      ],
+      "exit": "Exit A",
+      "distance": 286
     }
   },
   "323a-sumang-walk": {
@@ -4429,6 +7327,15 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 216
     }
   },
   "323b-sumang-walk": {
@@ -4443,6 +7350,15 @@
     "sold_units_by_type": {
       "4room": 63,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 259
     }
   },
   "323c-sumang-walk": {
@@ -4457,6 +7373,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 292
     }
   },
   "323d-sumang-walk": {
@@ -4471,6 +7396,15 @@
     "sold_units_by_type": {
       "4room": 42,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 295
     }
   },
   "325a-sumang-walk": {
@@ -4486,6 +7420,15 @@
       "3room": 63,
       "4room": 34,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 297
     }
   },
   "325b-sumang-walk": {
@@ -4501,6 +7444,15 @@
       "3room": 63,
       "4room": 34,
       "5room": 27
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 282
     }
   },
   "326a-sumang-walk": {
@@ -4516,6 +7468,15 @@
     "rental_units_by_type": {
       "1room": 120,
       "2room": 120
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 159
     }
   },
   "326b-sumang-walk": {
@@ -4531,6 +7492,15 @@
     "rental_units_by_type": {
       "1room": 95,
       "2room": 95
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 100
     }
   },
   "326c-sumang-walk": {
@@ -4545,6 +7515,15 @@
     "sold_units_by_type": {
       "2room": 38,
       "3room": 76
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit B",
+      "distance": 68
     }
   },
   "327a-sumang-walk": {
@@ -4559,6 +7538,15 @@
     "sold_units_by_type": {
       "2room": 80,
       "3room": 80
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 128
     }
   },
   "327b-sumang-walk": {
@@ -4573,6 +7561,15 @@
     "sold_units_by_type": {
       "2room": 114,
       "3room": 38
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 77
     }
   },
   "327c-sumang-walk": {
@@ -4587,6 +7584,15 @@
     "sold_units_by_type": {
       "2room": 72,
       "3room": 72
+    },
+    "nearest_station": {
+      "id": "nibong",
+      "name": "Nibong",
+      "codes": [
+        "PW5"
+      ],
+      "exit": "Exit A",
+      "distance": 35
     }
   },
   "401a-northshore-dr": {
@@ -4601,6 +7607,15 @@
     "sold_units_by_type": {
       "4room": 112,
       "5room": 38
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 202
     }
   },
   "402a-northshore-dr": {
@@ -4615,6 +7630,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 79
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 146
     }
   },
   "402b-northshore-dr": {
@@ -4629,6 +7653,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 79
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 184
     }
   },
   "405a-northshore-dr": {
@@ -4643,6 +7676,15 @@
     "sold_units_by_type": {
       "2room": 104,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 73
     }
   },
   "405b-northshore-dr": {
@@ -4660,6 +7702,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 25
     }
   },
   "406a-northshore-dr": {
@@ -4675,6 +7726,15 @@
       "3room": 12,
       "4room": 34,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 110
     }
   },
   "406b-northshore-dr": {
@@ -4690,6 +7750,15 @@
       "3room": 12,
       "4room": 56,
       "5room": 22
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 106
     }
   },
   "406c-northshore-dr": {
@@ -4705,6 +7774,15 @@
       "3room": 40,
       "4room": 65,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 108
     }
   },
   "408a-northshore-dr": {
@@ -4719,6 +7797,15 @@
     "sold_units_by_type": {
       "2room": 130,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 126
     }
   },
   "408b-northshore-dr": {
@@ -4733,6 +7820,15 @@
     "sold_units_by_type": {
       "2room": 104,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 172
     }
   },
   "408c-northshore-dr": {
@@ -4747,6 +7843,15 @@
     "sold_units_by_type": {
       "2room": 104,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 226
     }
   },
   "409a-northshore-dr": {
@@ -4762,6 +7867,15 @@
       "3room": 12,
       "4room": 33,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 147
     }
   },
   "409b-northshore-dr": {
@@ -4777,6 +7891,15 @@
       "3room": 12,
       "4room": 58,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 189
     }
   },
   "409c-northshore-dr": {
@@ -4792,6 +7915,15 @@
       "3room": 12,
       "4room": 58,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 213
     }
   },
   "409d-northshore-dr": {
@@ -4807,6 +7939,15 @@
       "3room": 12,
       "4room": 35,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 248
     }
   },
   "410a-northshore-dr": {
@@ -4822,6 +7963,15 @@
       "2room": 66,
       "3room": 48,
       "4room": 71
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 146
     }
   },
   "411a-northshore-dr": {
@@ -4837,6 +7987,15 @@
       "2room": 66,
       "3room": 23,
       "4room": 23
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 195
     }
   },
   "411b-northshore-dr": {
@@ -4852,6 +8011,15 @@
       "2room": 66,
       "3room": 23,
       "4room": 23
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 161
     }
   },
   "413a-northshore-dr": {
@@ -4867,6 +8035,15 @@
       "2room": 26,
       "3room": 58,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 197
     }
   },
   "413b-northshore-dr": {
@@ -4882,6 +8059,15 @@
       "2room": 98,
       "3room": 19,
       "4room": 18
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 181
     }
   },
   "413c-northshore-dr": {
@@ -4897,6 +8083,15 @@
       "2room": 26,
       "3room": 39,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 170
     }
   },
   "415a-northshore-dr": {
@@ -4911,6 +8106,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 73
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 282
     }
   },
   "415b-northshore-dr": {
@@ -4925,6 +8129,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 255
     }
   },
   "415c-northshore-dr": {
@@ -4938,6 +8151,15 @@
     "total_dwelling_units": 70,
     "sold_units_by_type": {
       "4room": 70
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 251
     }
   },
   "415d-northshore-dr": {
@@ -4952,6 +8174,15 @@
     "sold_units_by_type": {
       "4room": 77,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 248
     }
   },
   "419a-northshore-dr": {
@@ -4967,6 +8198,15 @@
       "2room": 24,
       "3room": 38,
       "4room": 43
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 207
     }
   },
   "419b-northshore-dr": {
@@ -4982,6 +8222,15 @@
       "2room": 81,
       "3room": 19,
       "4room": 18
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 237
     }
   },
   "419c-northshore-dr": {
@@ -4997,6 +8246,15 @@
       "2room": 81,
       "3room": 19,
       "4room": 18
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 267
     }
   },
   "419d-northshore-dr": {
@@ -5012,6 +8270,15 @@
       "2room": 26,
       "3room": 39,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 307
     }
   },
   "420a-northshore-dr": {
@@ -5026,6 +8293,15 @@
     "sold_units_by_type": {
       "4room": 73,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit A",
+      "distance": 288
     }
   },
   "420b-northshore-dr": {
@@ -5040,6 +8316,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 310
     }
   },
   "420c-northshore-dr": {
@@ -5054,6 +8339,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 336
     }
   },
   "420d-northshore-dr": {
@@ -5068,6 +8362,15 @@
     "sold_units_by_type": {
       "4room": 75,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 366
     }
   },
   "421a-northshore-dr": {
@@ -5082,6 +8385,15 @@
     "sold_units_by_type": {
       "2room": 162,
       "3room": 50
+    },
+    "nearest_station": {
+      "id": "samudera",
+      "name": "Samudera",
+      "codes": [
+        "PW4"
+      ],
+      "exit": "Exit B",
+      "distance": 392
     }
   },
   "421b-northshore-dr": {
@@ -5096,6 +8408,15 @@
     "sold_units_by_type": {
       "2room": 144,
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 350
     }
   },
   "421c-northshore-dr": {
@@ -5110,6 +8431,15 @@
     "sold_units_by_type": {
       "2room": 163,
       "3room": 48
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 306
     }
   },
   "422a-northshore-dr": {
@@ -5124,6 +8454,15 @@
     "sold_units_by_type": {
       "4room": 86,
       "5room": 95
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 437
     }
   },
   "422b-northshore-dr": {
@@ -5138,6 +8477,15 @@
     "sold_units_by_type": {
       "4room": 86,
       "5room": 95
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 368
     }
   },
   "423a-northshore-cres": {
@@ -5153,6 +8501,15 @@
       "2room": 167,
       "3room": 24,
       "4room": 49
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 263
     }
   },
   "423b-northshore-cres": {
@@ -5167,6 +8524,15 @@
     "sold_units_by_type": {
       "2room": 143,
       "3room": 48
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 242
     }
   },
   "425a-northshore-cres": {
@@ -5182,6 +8548,15 @@
       "3room": 21,
       "4room": 64,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 309
     }
   },
   "425b-northshore-cres": {
@@ -5197,6 +8572,15 @@
       "3room": 21,
       "4room": 94,
       "5room": 82
+    },
+    "nearest_station": {
+      "id": "punggol-point",
+      "name": "Punggol Point",
+      "codes": [
+        "PW3"
+      ],
+      "exit": "Exit A",
+      "distance": 289
     }
   },
   "431b-northshore-dr": {
@@ -5212,6 +8596,15 @@
       "2room": 103,
       "3room": 20,
       "4room": 21
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 283
     }
   },
   "431c-northshore-dr": {
@@ -5227,6 +8620,15 @@
       "2room": 82,
       "3room": 30,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 281
     }
   },
   "432a-northshore-dr": {
@@ -5242,6 +8644,15 @@
       "2room": 120,
       "3room": 20,
       "4room": 36
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 237
     }
   },
   "432b-northshore-dr": {
@@ -5256,6 +8667,15 @@
     "sold_units_by_type": {
       "4room": 100,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 187
     }
   },
   "433a-northshore-dr": {
@@ -5270,6 +8690,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 176
     }
   },
   "433b-northshore-dr": {
@@ -5285,6 +8714,15 @@
       "2room": 82,
       "3room": 28,
       "4room": 46
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 201
     }
   },
   "435a-northshore-dr": {
@@ -5299,6 +8737,15 @@
     "sold_units_by_type": {
       "2room": 65,
       "4room": 77
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 370
     }
   },
   "435b-northshore-dr": {
@@ -5314,6 +8761,15 @@
       "2room": 107,
       "3room": 18,
       "4room": 83
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 405
     }
   },
   "436a-northshore-dr": {
@@ -5328,6 +8784,15 @@
     "sold_units_by_type": {
       "4room": 107,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 475
     }
   },
   "436b-northshore-dr": {
@@ -5342,6 +8807,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 55
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 555
     }
   },
   "437a-northshore-dr": {
@@ -5356,6 +8830,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 551
     }
   },
   "437b-northshore-dr": {
@@ -5370,6 +8853,15 @@
     "sold_units_by_type": {
       "4room": 99,
       "5room": 84
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 508
     }
   },
   "438a-northshore-dr": {
@@ -5384,6 +8876,15 @@
     "sold_units_by_type": {
       "2room": 207,
       "3room": 34
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 465
     }
   },
   "438b-northshore-dr": {
@@ -5398,6 +8899,15 @@
     "sold_units_by_type": {
       "2room": 227,
       "3room": 46
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 411
     }
   },
   "438c-northshore-dr": {
@@ -5412,6 +8922,15 @@
     "sold_units_by_type": {
       "2room": 110,
       "4room": 66
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 365
     }
   },
   "442a-new-punggol-rd": {
@@ -5427,6 +8946,15 @@
       "3room": 25,
       "4room": 97,
       "5room": 72
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 559
     }
   },
   "442b-new-punggol-rd": {
@@ -5442,6 +8970,15 @@
       "2room": 101,
       "3room": 14,
       "4room": 14
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 502
     }
   },
   "443a-new-punggol-rd": {
@@ -5456,6 +8993,15 @@
     "sold_units_by_type": {
       "4room": 140,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 442
     }
   },
   "443b-new-punggol-rd": {
@@ -5471,6 +9017,15 @@
       "2room": 76,
       "3room": 45,
       "4room": 14
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 497
     }
   },
   "445a-new-punggol-rd": {
@@ -5486,6 +9041,15 @@
       "2room": 189,
       "4room": 90,
       "5room": 45
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 374
     }
   },
   "445b-new-punggol-rd": {
@@ -5502,6 +9066,15 @@
       "3room": 7,
       "4room": 16,
       "5room": 8
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 472
     }
   },
   "446a-punggol-way": {
@@ -5517,6 +9090,15 @@
       "3room": 40,
       "4room": 60,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 232
     }
   },
   "446b-punggol-way": {
@@ -5532,6 +9114,15 @@
       "2room": 151,
       "4room": 84,
       "5room": 83
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 268
     }
   },
   "447a-punggol-way": {
@@ -5547,6 +9138,15 @@
       "2room": 149,
       "4room": 86,
       "5room": 85
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 312
     }
   },
   "448a-punggol-way": {
@@ -5563,6 +9163,15 @@
       "3room": 26,
       "4room": 42,
       "5room": 23
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 354
     }
   },
   "448b-punggol-way": {
@@ -5579,6 +9188,15 @@
       "3room": 26,
       "4room": 40,
       "5room": 35
+    },
+    "nearest_station": {
+      "id": "punggol-coast",
+      "name": "Punggol Coast",
+      "codes": [
+        "NE18"
+      ],
+      "exit": "Exit 2",
+      "distance": 354
     }
   },
   "601a-punggol-ctrl": {
@@ -5594,6 +9212,15 @@
       "2room": 15,
       "3room": 30,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 309
     }
   },
   "601b-punggol-ctrl": {
@@ -5609,6 +9236,15 @@
       "2room": 15,
       "3room": 30,
       "4room": 45
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 334
     }
   },
   "601c-punggol-ctrl": {
@@ -5624,6 +9260,15 @@
       "2room": 15,
       "3room": 30,
       "4room": 45
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 269
     }
   },
   "601d-punggol-ctrl": {
@@ -5639,6 +9284,15 @@
       "2room": 15,
       "3room": 30,
       "4room": 45
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 247
     }
   },
   "602a-punggol-ctrl": {
@@ -5654,6 +9308,15 @@
       "2room": 15,
       "3room": 30,
       "4room": 45
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 241
     }
   },
   "602b-punggol-ctrl": {
@@ -5669,6 +9332,15 @@
       "2room": 15,
       "3room": 30,
       "4room": 45
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 298
     }
   },
   "602c-punggol-ctrl": {
@@ -5684,6 +9356,15 @@
       "2room": 15,
       "3room": 30,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 301
     }
   },
   "603a-punggol-rd": {
@@ -5697,6 +9378,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 169
     }
   },
   "603b-punggol-rd": {
@@ -5710,6 +9400,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 214
     }
   },
   "603c-punggol-rd": {
@@ -5724,6 +9423,15 @@
     "sold_units_by_type": {
       "3room": 26,
       "4room": 52
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 203
     }
   },
   "604a-punggol-rd": {
@@ -5737,6 +9445,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 157
     }
   },
   "604b-punggol-rd": {
@@ -5750,6 +9467,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 202
     }
   },
   "604c-punggol-rd": {
@@ -5764,6 +9490,15 @@
     "sold_units_by_type": {
       "3room": 26,
       "4room": 52
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 195
     }
   },
   "612a-punggol-dr": {
@@ -5777,6 +9512,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 113
     }
   },
   "612b-punggol-dr": {
@@ -5790,6 +9534,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 52
     }
   },
   "612c-punggol-dr": {
@@ -5803,6 +9556,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 95
     }
   },
   "612d-punggol-dr": {
@@ -5816,6 +9578,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 116
     }
   },
   "613a-punggol-dr": {
@@ -5829,6 +9600,15 @@
     "total_dwelling_units": 90,
     "sold_units_by_type": {
       "4room": 90
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 109
     }
   },
   "613b-punggol-dr": {
@@ -5843,6 +9623,15 @@
     "sold_units_by_type": {
       "3room": 30,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 93
     }
   },
   "613c-punggol-dr": {
@@ -5857,6 +9646,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 118
     }
   },
   "613d-punggol-dr": {
@@ -5870,6 +9668,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 140
     }
   },
   "614a-edgefield-plains": {
@@ -5883,6 +9690,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 178
     }
   },
   "614b-edgefield-plains": {
@@ -5896,6 +9712,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 287
     }
   },
   "615a-edgefield-plains": {
@@ -5909,6 +9734,15 @@
     "total_dwelling_units": 95,
     "sold_units_by_type": {
       "4room": 95
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 167
     }
   },
   "615b-edgefield-plains": {
@@ -5922,6 +9756,15 @@
     "total_dwelling_units": 95,
     "sold_units_by_type": {
       "4room": 95
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 202
     }
   },
   "615c-edgefield-plains": {
@@ -5935,6 +9778,15 @@
     "total_dwelling_units": 112,
     "sold_units_by_type": {
       "4room": 112
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit B",
+      "distance": 238
     }
   },
   "617a-punggol-dr": {
@@ -5948,6 +9800,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 95
     }
   },
   "617b-punggol-dr": {
@@ -5962,6 +9823,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 68
     }
   },
   "617c-punggol-dr": {
@@ -5976,6 +9846,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 37
     }
   },
   "617d-punggol-dr": {
@@ -5989,6 +9868,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 55
     }
   },
   "618a-punggol-dr": {
@@ -6002,6 +9890,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 113
     }
   },
   "618b-punggol-dr": {
@@ -6016,6 +9913,15 @@
     "sold_units_by_type": {
       "4room": 14,
       "5room": 47
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 100
     }
   },
   "618c-punggol-dr": {
@@ -6030,6 +9936,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 114
     }
   },
   "618d-punggol-dr": {
@@ -6043,6 +9958,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 146
     }
   },
   "619a-punggol-dr": {
@@ -6056,6 +9980,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 136
     }
   },
   "619b-punggol-dr": {
@@ -6069,6 +10002,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 183
     }
   },
   "619c-punggol-dr": {
@@ -6082,6 +10024,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 217
     }
   },
   "619d-punggol-dr": {
@@ -6095,6 +10046,15 @@
     "total_dwelling_units": 92,
     "sold_units_by_type": {
       "4room": 92
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 179
     }
   },
   "621a-edgefield-walk": {
@@ -6110,6 +10070,15 @@
     "rental_units_by_type": {
       "1room": 208,
       "2room": 48
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 339
     }
   },
   "621b-edgefield-walk": {
@@ -6125,6 +10094,15 @@
     "rental_units_by_type": {
       "1room": 208,
       "2room": 48
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 306
     }
   },
   "622a-punggol-ctrl": {
@@ -6140,6 +10118,15 @@
       "2room": 34,
       "3room": 51,
       "4room": 49
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 308
     }
   },
   "622b-punggol-ctrl": {
@@ -6155,6 +10142,15 @@
       "2room": 48,
       "3room": 33,
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 314
     }
   },
   "622c-punggol-ctrl": {
@@ -6170,6 +10166,15 @@
       "2room": 49,
       "3room": 33,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 256
     }
   },
   "623a-punggol-ctrl": {
@@ -6185,6 +10190,15 @@
       "2room": 34,
       "3room": 51,
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 265
     }
   },
   "623b-punggol-ctrl": {
@@ -6200,6 +10214,15 @@
       "2room": 51,
       "3room": 34,
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 322
     }
   },
   "623c-punggol-ctrl": {
@@ -6215,6 +10238,15 @@
       "2room": 34,
       "3room": 49,
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 310
     }
   },
   "624a-punggol-ctrl": {
@@ -6228,6 +10260,15 @@
     "total_dwelling_units": 102,
     "sold_units_by_type": {
       "4room": 102
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 207
     }
   },
   "624b-punggol-ctrl": {
@@ -6241,6 +10282,15 @@
     "total_dwelling_units": 101,
     "sold_units_by_type": {
       "4room": 101
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 191
     }
   },
   "624c-punggol-ctrl": {
@@ -6256,6 +10306,15 @@
       "2room": 51,
       "3room": 34,
       "4room": 50
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 199
     }
   },
   "632a-punggol-dr": {
@@ -6269,6 +10328,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 170
     }
   },
   "632b-punggol-dr": {
@@ -6282,6 +10350,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 146
     }
   },
   "632c-punggol-dr": {
@@ -6295,6 +10372,15 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 125
     }
   },
   "633a-punggol-dr": {
@@ -6308,6 +10394,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 95
     }
   },
   "633b-punggol-dr": {
@@ -6321,6 +10416,15 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 121
     }
   },
   "635a-punggol-dr": {
@@ -6334,6 +10438,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 171
     }
   },
   "635b-punggol-dr": {
@@ -6347,6 +10460,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 199
     }
   },
   "635c-punggol-dr": {
@@ -6360,6 +10482,15 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 227
     }
   },
   "636a-punggol-dr": {
@@ -6373,6 +10504,15 @@
     "total_dwelling_units": 63,
     "sold_units_by_type": {
       "4room": 63
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 245
     }
   },
   "636b-punggol-dr": {
@@ -6386,6 +10526,15 @@
     "total_dwelling_units": 51,
     "sold_units_by_type": {
       "4room": 51
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 219
     }
   },
   "637a-punggol-dr": {
@@ -6400,6 +10549,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 199
     }
   },
   "637b-punggol-dr": {
@@ -6414,6 +10572,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 163
     }
   },
   "637c-punggol-dr": {
@@ -6428,6 +10595,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 169
     }
   },
   "637d-punggol-dr": {
@@ -6442,6 +10618,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 123
     }
   },
   "638a-punggol-dr": {
@@ -6456,6 +10641,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 172
     }
   },
   "638b-punggol-dr": {
@@ -6470,6 +10664,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 139
     }
   },
   "638c-punggol-dr": {
@@ -6484,6 +10687,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 112
     }
   },
   "641a-punggol-dr": {
@@ -6498,6 +10710,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 109
     }
   },
   "641b-punggol-dr": {
@@ -6512,6 +10733,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 70
     }
   },
   "641c-punggol-dr": {
@@ -6526,6 +10756,15 @@
     "sold_units_by_type": {
       "4room": 15,
       "5room": 61
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 55
     }
   },
   "642a-punggol-dr": {
@@ -6540,6 +10779,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 141
     }
   },
   "642b-punggol-dr": {
@@ -6554,6 +10802,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 129
     }
   },
   "642c-punggol-dr": {
@@ -6568,6 +10825,15 @@
     "sold_units_by_type": {
       "4room": 30,
       "5room": 58
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 97
     }
   },
   "642d-punggol-dr": {
@@ -6582,6 +10848,15 @@
     "sold_units_by_type": {
       "4room": 29,
       "5room": 63
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 101
     }
   },
   "643-punggol-ctrl": {
@@ -6596,6 +10871,15 @@
     "sold_units_by_type": {
       "4room": 19,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 239
     }
   },
   "645-punggol-ctrl": {
@@ -6610,6 +10894,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 184
     }
   },
   "646-punggol-ctrl": {
@@ -6624,6 +10917,15 @@
     "sold_units_by_type": {
       "4room": 31,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 163
     }
   },
   "647-punggol-ctrl": {
@@ -6638,6 +10940,15 @@
     "sold_units_by_type": {
       "4room": 33,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 191
     }
   },
   "648-punggol-ctrl": {
@@ -6652,6 +10963,15 @@
     "sold_units_by_type": {
       "4room": 19,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 243
     }
   },
   "649-punggol-ctrl": {
@@ -6666,6 +10986,15 @@
     "sold_units_by_type": {
       "4room": 19,
       "5room": 80
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 300
     }
   },
   "651-punggol-ctrl": {
@@ -6680,6 +11009,15 @@
     "sold_units_by_type": {
       "4room": 31,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 263
     }
   },
   "652-punggol-ctrl": {
@@ -6694,6 +11032,15 @@
     "sold_units_by_type": {
       "4room": 33,
       "5room": 70
+    },
+    "nearest_station": {
+      "id": "riviera",
+      "name": "Riviera",
+      "codes": [
+        "PE4"
+      ],
+      "exit": "Exit B",
+      "distance": 267
     }
   },
   "653a-punggol-dr": {
@@ -6708,6 +11055,15 @@
     "sold_units_by_type": {
       "2room": 119,
       "4room": 70
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 352
     }
   },
   "653b-punggol-dr": {
@@ -6723,6 +11079,15 @@
       "2room": 102,
       "3room": 34,
       "4room": 70
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 397
     }
   },
   "653c-punggol-dr": {
@@ -6737,6 +11102,15 @@
     "sold_units_by_type": {
       "2room": 126,
       "4room": 68
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 480
     }
   },
   "654a-punggol-dr": {
@@ -6751,6 +11125,15 @@
     "sold_units_by_type": {
       "3room": 14,
       "4room": 98
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 560
     }
   },
   "654b-punggol-dr": {
@@ -6765,6 +11148,15 @@
     "sold_units_by_type": {
       "3room": 10,
       "4room": 86
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 539
     }
   },
   "654c-punggol-dr": {
@@ -6780,6 +11172,15 @@
       "2room": 56,
       "3room": 21,
       "4room": 28
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 448
     }
   },
   "654d-punggol-dr": {
@@ -6794,6 +11195,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 364
     }
   },
   "655a-punggol-east": {
@@ -6808,6 +11218,15 @@
     "sold_units_by_type": {
       "3room": 16,
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 411
     }
   },
   "655b-punggol-east": {
@@ -6822,6 +11241,15 @@
     "sold_units_by_type": {
       "2room": 119,
       "5room": 42
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 512
     }
   },
   "655c-punggol-east": {
@@ -6836,6 +11264,15 @@
     "sold_units_by_type": {
       "4room": 54,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 603
     }
   },
   "656a-punggol-east": {
@@ -6851,6 +11288,15 @@
       "2room": 119,
       "4room": 51,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 477
     }
   },
   "656b-punggol-east": {
@@ -6867,6 +11313,15 @@
       "3room": 34,
       "4room": 53,
       "5room": 17
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 518
     }
   },
   "656c-punggol-east": {
@@ -6882,6 +11337,15 @@
       "2room": 122,
       "4room": 34,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 567
     }
   },
   "657a-punggol-east": {
@@ -6898,6 +11362,15 @@
       "3room": 30,
       "4room": 47,
       "5room": 15
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 621
     }
   },
   "657b-punggol-east": {
@@ -6913,6 +11386,15 @@
       "2room": 119,
       "4room": 6,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 672
     }
   },
   "658a-punggol-east": {
@@ -6928,6 +11410,15 @@
       "3room": 34,
       "4room": 34,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 366
     }
   },
   "658b-punggol-east": {
@@ -6942,6 +11433,15 @@
     "sold_units_by_type": {
       "4room": 18,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 295
     }
   },
   "658c-punggol-east": {
@@ -6956,6 +11456,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 60
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 264
     }
   },
   "659a-punggol-east": {
@@ -6970,6 +11479,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 372
     }
   },
   "659b-punggol-east": {
@@ -6985,6 +11503,15 @@
       "2room": 34,
       "3room": 50,
       "4room": 34
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 324
     }
   },
   "659c-punggol-east": {
@@ -7000,6 +11527,15 @@
       "2room": 70,
       "3room": 12,
       "4room": 40
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 343
     }
   },
   "661a-edgedale-plains": {
@@ -7014,6 +11550,15 @@
     "sold_units_by_type": {
       "3room": 50,
       "4room": 85
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 366
     }
   },
   "661b-edgedale-plains": {
@@ -7028,6 +11573,15 @@
     "sold_units_by_type": {
       "4room": 67,
       "5room": 49
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 300
     }
   },
   "661c-edgedale-plains": {
@@ -7042,6 +11596,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 76
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 279
     }
   },
   "662a-edgedale-plains": {
@@ -7056,6 +11619,15 @@
     "sold_units_by_type": {
       "3room": 50,
       "4room": 85
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 326
     }
   },
   "662b-edgedale-plains": {
@@ -7070,6 +11642,15 @@
     "sold_units_by_type": {
       "3room": 52,
       "4room": 70
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 333
     }
   },
   "662c-edgedale-plains": {
@@ -7084,6 +11665,15 @@
     "sold_units_by_type": {
       "4room": 23,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 295
     }
   },
   "662d-edgedale-plains": {
@@ -7098,6 +11688,15 @@
     "sold_units_by_type": {
       "4room": 47,
       "5room": 75
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 274
     }
   },
   "663a-punggol-dr": {
@@ -7113,6 +11712,15 @@
       "3room": 117,
       "4room": 66,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 91
     }
   },
   "663b-punggol-dr": {
@@ -7127,6 +11735,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 62
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 151
     }
   },
   "663c-punggol-dr": {
@@ -7141,6 +11758,15 @@
     "sold_units_by_type": {
       "4room": 58,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 152
     }
   },
   "664a-punggol-dr": {
@@ -7156,6 +11782,15 @@
       "3room": 68,
       "4room": 68,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 110
     }
   },
   "664b-punggol-dr": {
@@ -7170,6 +11805,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 54
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit B",
+      "distance": 165
     }
   },
   "665a-punggol-dr": {
@@ -7184,6 +11828,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 92
     }
   },
   "665b-punggol-dr": {
@@ -7198,6 +11851,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 154
     }
   },
   "665c-punggol-dr": {
@@ -7213,6 +11875,15 @@
       "3room": 32,
       "4room": 96,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 201
     }
   },
   "666a-punggol-dr": {
@@ -7228,6 +11899,15 @@
       "3room": 32,
       "4room": 32,
       "5room": 34
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 241
     }
   },
   "666b-punggol-dr": {
@@ -7242,6 +11922,15 @@
     "sold_units_by_type": {
       "4room": 34,
       "5room": 66
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 253
     }
   },
   "667a-punggol-dr": {
@@ -7257,6 +11946,15 @@
       "3room": 24,
       "4room": 48,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 146
     }
   },
   "667b-punggol-dr": {
@@ -7272,6 +11970,15 @@
       "3room": 12,
       "4room": 12,
       "5room": 24
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit B",
+      "distance": 240
     }
   },
   "668a-edgefield-plains": {
@@ -7286,6 +11993,15 @@
     "sold_units_by_type": {
       "4room": 84,
       "5room": 28
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 280
     }
   },
   "668b-edgefield-plains": {
@@ -7300,6 +12016,15 @@
     "sold_units_by_type": {
       "4room": 44,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 256
     }
   },
   "669a-edgefield-plains": {
@@ -7313,6 +12038,15 @@
     "total_dwelling_units": 68,
     "sold_units_by_type": {
       "5room": 68
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 305
     }
   },
   "669b-edgefield-plains": {
@@ -7328,6 +12062,15 @@
       "3room": 32,
       "4room": 74,
       "5room": 74
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 272
     }
   },
   "670a-edgefield-plains": {
@@ -7343,6 +12086,15 @@
       "3room": 94,
       "4room": 32,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 322
     }
   },
   "670b-edgefield-plains": {
@@ -7357,6 +12109,15 @@
     "sold_units_by_type": {
       "4room": 96,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 321
     }
   },
   "670c-edgefield-plains": {
@@ -7371,6 +12132,15 @@
     "sold_units_by_type": {
       "3room": 96,
       "4room": 32
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 346
     }
   },
   "671a-edgefield-plains": {
@@ -7384,6 +12154,15 @@
     "total_dwelling_units": 128,
     "sold_units_by_type": {
       "4room": 128
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 369
     }
   },
   "671b-edgefield-plains": {
@@ -7397,6 +12176,15 @@
     "total_dwelling_units": 84,
     "sold_units_by_type": {
       "4room": 84
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 339
     }
   },
   "672a-edgefield-plains": {
@@ -7411,6 +12199,15 @@
     "sold_units_by_type": {
       "2room": 30,
       "3room": 90
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 434
     }
   },
   "672b-edgefield-plains": {
@@ -7425,6 +12222,15 @@
     "sold_units_by_type": {
       "2room": 64,
       "3room": 64
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 420
     }
   },
   "672c-edgefield-plains": {
@@ -7439,6 +12245,15 @@
     "sold_units_by_type": {
       "2room": 64,
       "3room": 32
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 359
     }
   },
   "672d-edgefield-plains": {
@@ -7452,6 +12267,15 @@
     "total_dwelling_units": 128,
     "sold_units_by_type": {
       "4room": 128
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 349
     }
   },
   "673a-edgefield-plains": {
@@ -7466,6 +12290,15 @@
     "sold_units_by_type": {
       "3room": 34,
       "4room": 82
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 350
     }
   },
   "673b-edgefield-plains": {
@@ -7480,6 +12313,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 60
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 313
     }
   },
   "673c-edgefield-plains": {
@@ -7493,6 +12335,15 @@
     "total_dwelling_units": 124,
     "sold_units_by_type": {
       "4room": 124
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 294
     }
   },
   "676a-punggol-dr": {
@@ -7506,6 +12357,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 130
     }
   },
   "676b-punggol-dr": {
@@ -7520,6 +12380,15 @@
     "sold_units_by_type": {
       "4room": 72,
       "5room": 44
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 164
     }
   },
   "676c-punggol-dr": {
@@ -7534,6 +12403,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 200
     }
   },
   "676d-punggol-dr": {
@@ -7548,6 +12426,15 @@
     "sold_units_by_type": {
       "4room": 46,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 240
     }
   },
   "677a-punggol-dr": {
@@ -7564,6 +12451,15 @@
       "4room": 32,
       "5room": 30,
       "studio_apartment": 46
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 46
     }
   },
   "677b-punggol-dr": {
@@ -7579,6 +12475,15 @@
       "2room": 29,
       "4room": 32,
       "studio_apartment": 63
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 80
     }
   },
   "677c-punggol-dr": {
@@ -7593,6 +12498,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 114
     }
   },
   "677d-punggol-dr": {
@@ -7607,6 +12521,15 @@
     "sold_units_by_type": {
       "4room": 39,
       "5room": 71
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 166
     }
   },
   "678a-punggol-dr": {
@@ -7620,6 +12543,15 @@
     "total_dwelling_units": 94,
     "sold_units_by_type": {
       "4room": 94
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 43
     }
   },
   "678b-punggol-dr": {
@@ -7634,6 +12566,15 @@
     "sold_units_by_type": {
       "4room": 78,
       "5room": 46
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 53
     }
   },
   "678c-punggol-dr": {
@@ -7648,6 +12589,15 @@
     "sold_units_by_type": {
       "4room": 27,
       "5room": 59
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 122
     }
   },
   "679a-punggol-dr": {
@@ -7662,6 +12612,15 @@
     "sold_units_by_type": {
       "4room": 60,
       "5room": 30
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 89
     }
   },
   "679b-punggol-dr": {
@@ -7676,6 +12635,15 @@
     "sold_units_by_type": {
       "4room": 26,
       "5room": 26
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 120
     }
   },
   "679c-punggol-dr": {
@@ -7690,6 +12658,15 @@
     "sold_units_by_type": {
       "4room": 33,
       "5room": 33
+    },
+    "nearest_station": {
+      "id": "damai",
+      "name": "Damai",
+      "codes": [
+        "PE7"
+      ],
+      "exit": "Exit A",
+      "distance": 126
     }
   },
   "682a-edgedale-plains": {
@@ -7705,6 +12682,15 @@
       "3room": 31,
       "4room": 64,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 416
     }
   },
   "682b-edgedale-plains": {
@@ -7719,6 +12705,15 @@
     "sold_units_by_type": {
       "4room": 48,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 381
     }
   },
   "682c-edgedale-plains": {
@@ -7734,6 +12729,15 @@
       "3room": 32,
       "4room": 32,
       "5room": 32
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 343
     }
   },
   "683a-edgedale-plains": {
@@ -7748,6 +12752,15 @@
     "sold_units_by_type": {
       "3room": 63,
       "4room": 64
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 360
     }
   },
   "683b-edgedale-plains": {
@@ -7762,6 +12775,15 @@
     "sold_units_by_type": {
       "3room": 32,
       "4room": 44
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 357
     }
   },
   "683c-edgedale-plains": {
@@ -7776,6 +12798,15 @@
     "sold_units_by_type": {
       "4room": 40,
       "5room": 40
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 283
     }
   },
   "684a-edgedale-plains": {
@@ -7790,6 +12821,15 @@
     "sold_units_by_type": {
       "4room": 64,
       "5room": 64
+    },
+    "nearest_station": {
+      "id": "kadaloor",
+      "name": "Kadaloor",
+      "codes": [
+        "PE5"
+      ],
+      "exit": "Exit A",
+      "distance": 337
     }
   },
   "684b-edgedale-plains": {
@@ -7804,6 +12844,15 @@
     "sold_units_by_type": {
       "4room": 32,
       "5room": 83
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 269
     }
   },
   "684c-edgedale-plains": {
@@ -7819,6 +12868,15 @@
       "3room": 32,
       "4room": 62,
       "5room": 48
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 260
     }
   },
   "684d-edgedale-plains": {
@@ -7833,6 +12891,15 @@
     "sold_units_by_type": {
       "4room": 76,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "oasis",
+      "name": "Oasis",
+      "codes": [
+        "PE6"
+      ],
+      "exit": "Exit A",
+      "distance": 205
     }
   }
 }

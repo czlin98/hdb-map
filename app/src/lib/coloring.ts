@@ -1,8 +1,16 @@
 import type { ExpressionSpecification } from "maplibre-gl";
 import type { BlockFeature } from "../types/contract";
 
-export type ColorMode = "none" | "year" | "floors";
+export type ColorMode = "none" | "year" | "floors" | "mrt";
 export type ScaleMode = Exclude<ColorMode, "none">;
+
+// A straight line from one geocoded point is good to tens of metres at best, so from 1 km
+// whole metres would claim precision it doesn't have. Rounding via tenths of a km avoids
+// toFixed's binary halves (1450 -> "1.4").
+export function formatDistance(metres: number): string {
+  if (metres < 1000) return `${metres} m`;
+  return `${(Math.round(metres / 100) / 10).toFixed(1)} km`;
+}
 
 export interface Band {
   label: string;
@@ -11,7 +19,7 @@ export interface Band {
 }
 
 export interface ColorScale {
-  property: "year_completed" | "max_floor_lvl";
+  property: "year_completed" | "max_floor_lvl" | "station_distance";
   name: string;
   title: string;
   // Lower bound of every band after the first. A value on an edge belongs to the higher band,
@@ -20,6 +28,11 @@ export interface ColorScale {
   bands: Band[];
   // The value as the hover tooltip shows it, after the address.
   describe: (value: number) => string;
+  // Shown from an info button beside the legend title.
+  note?: string;
+  // The desktop legend puts the darkest band on top: the highest by default, the lowest when the
+  // ramp runs the other way.
+  lowestOnTop?: boolean;
 }
 
 export const BLOCK_COLOR = "#2563eb";
@@ -58,6 +71,24 @@ export const COLOR_SCALES: Record<ScaleMode, ColorScale> = {
     ],
     // The unit keeps a bare count from reading as part of the block number.
     describe: (floors) => `${floors} floors`,
+  },
+  mrt: {
+    property: "station_distance",
+    name: "MRT",
+    title: "MRT distance",
+    edges: [200, 400, 600, 800, 1000],
+    // ColorBrewer YlGn, the 7-class ramp minus its lightest step, reversed so near reads as more.
+    bands: [
+      { label: "Under 200 m", short: "<200", color: "#005a32" },
+      { label: "200 to 400 m", short: "<400", color: "#238443" },
+      { label: "400 to 600 m", short: "<600", color: "#41ab5d" },
+      { label: "600 to 800 m", short: "<800", color: "#78c679" },
+      { label: "800 m to 1 km", short: "<1k", color: "#addd8e" },
+      { label: "1 km and more", short: "1k+", color: "#d9f0a3" },
+    ],
+    describe: formatDistance,
+    note: "Straight-line distance to the nearest MRT or LRT exit",
+    lowestOnTop: true,
   },
 };
 

@@ -217,6 +217,7 @@ test("editing the query scrolls to the new first result, not the old highlight",
         max_floor_lvl: 12,
         sold_types: [],
         rental_types: [],
+        station_distance: 500,
       },
     })),
   });

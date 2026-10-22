@@ -13,6 +13,16 @@
       "2room": 56,
       "3room": 14,
       "other_room": 14
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit D",
+      "distance": 504
     }
   },
   "1-tg-pagar-plaza": {
@@ -27,6 +37,15 @@
     "sold_units_by_type": {
       "3room": 158,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "codes": [
+        "EW15"
+      ],
+      "exit": "Exit A",
+      "distance": 279
     }
   },
   "10-jln-kukoh": {
@@ -42,6 +61,16 @@
       "2room": 72,
       "3room": 16,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit C",
+      "distance": 488
     }
   },
   "10-selegie-rd": {
@@ -55,6 +84,15 @@
     "total_dwelling_units": 48,
     "sold_units_by_type": {
       "3room": 48
+    },
+    "nearest_station": {
+      "id": "rochor",
+      "name": "Rochor",
+      "codes": [
+        "DT13"
+      ],
+      "exit": "Exit A",
+      "distance": 207
     }
   },
   "11-york-hill": {
@@ -70,6 +108,15 @@
     "rental_units_by_type": {
       "1room": 176,
       "2room": 22
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 470
     }
   },
   "12-york-hill": {
@@ -85,6 +132,15 @@
     "rental_units_by_type": {
       "1room": 176,
       "2room": 22
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 480
     }
   },
   "13-york-hill": {
@@ -100,6 +156,17 @@
     "rental_units_by_type": {
       "1room": 160,
       "2room": 22
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 8",
+      "distance": 470
     }
   },
   "1a-cantonment-rd": {
@@ -114,6 +181,17 @@
     "sold_units_by_type": {
       "4room": 176,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 200
     }
   },
   "1b-cantonment-rd": {
@@ -128,6 +206,17 @@
     "sold_units_by_type": {
       "4room": 176,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 242
     }
   },
   "1c-cantonment-rd": {
@@ -142,6 +231,17 @@
     "sold_units_by_type": {
       "4room": 176,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 288
     }
   },
   "1d-cantonment-rd": {
@@ -156,6 +256,17 @@
     "sold_units_by_type": {
       "4room": 176,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 312
     }
   },
   "1e-cantonment-rd": {
@@ -170,6 +281,17 @@
     "sold_units_by_type": {
       "4room": 176,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 314
     }
   },
   "1f-cantonment-rd": {
@@ -184,6 +306,17 @@
     "sold_units_by_type": {
       "4room": 176,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "outram-park",
+      "name": "Outram Park",
+      "codes": [
+        "EW16",
+        "NE3",
+        "TE17"
+      ],
+      "exit": "Exit 5",
+      "distance": 376
     }
   },
   "1g-cantonment-rd": {
@@ -198,6 +331,15 @@
     "sold_units_by_type": {
       "4room": 176,
       "5room": 88
+    },
+    "nearest_station": {
+      "id": "cantonment",
+      "name": "Cantonment",
+      "codes": [
+        "CC31"
+      ],
+      "exit": "Exit 3",
+      "distance": 374
     }
   },
   "2-jln-kukoh": {
@@ -212,6 +354,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 264
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit D",
+      "distance": 556
     }
   },
   "2-tg-pagar-plaza": {
@@ -226,6 +378,15 @@
     "sold_units_by_type": {
       "3room": 190,
       "5room": 10
+    },
+    "nearest_station": {
+      "id": "tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "codes": [
+        "EW15"
+      ],
+      "exit": "Exit A",
+      "distance": 280
     }
   },
   "232-bain-st": {
@@ -239,6 +400,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bras-basah",
+      "name": "Bras Basah",
+      "codes": [
+        "CC2"
+      ],
+      "exit": "Exit A",
+      "distance": 225
     }
   },
   "233-bain-st": {
@@ -252,6 +422,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "bras-basah",
+      "name": "Bras Basah",
+      "codes": [
+        "CC2"
+      ],
+      "exit": "Exit A",
+      "distance": 287
     }
   },
   "25-jln-berseh": {
@@ -266,6 +445,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 298
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 341
     }
   },
   "26-jln-berseh": {
@@ -279,6 +467,15 @@
     "total_dwelling_units": 120,
     "sold_units_by_type": {
       "4room": 120
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 292
     }
   },
   "262-waterloo-st": {
@@ -292,6 +489,15 @@
     "total_dwelling_units": 78,
     "sold_units_by_type": {
       "4room": 78
+    },
+    "nearest_station": {
+      "id": "bencoolen",
+      "name": "Bencoolen",
+      "codes": [
+        "DT21"
+      ],
+      "exit": "Exit A",
+      "distance": 134
     }
   },
   "263-waterloo-st": {
@@ -309,6 +515,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "bencoolen",
+      "name": "Bencoolen",
+      "codes": [
+        "DT21"
+      ],
+      "exit": "Exit A",
+      "distance": 171
     }
   },
   "264-waterloo-st": {
@@ -323,6 +538,15 @@
     "sold_units_by_type": {
       "3room": 122,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "bencoolen",
+      "name": "Bencoolen",
+      "codes": [
+        "DT21"
+      ],
+      "exit": "Exit A",
+      "distance": 162
     }
   },
   "269a-queen-st": {
@@ -337,6 +561,16 @@
     "sold_units_by_type": {
       "3room": 28,
       "4room": 4
+    },
+    "nearest_station": {
+      "id": "bugis",
+      "name": "Bugis",
+      "codes": [
+        "EW12",
+        "DT14"
+      ],
+      "exit": "Exit C",
+      "distance": 215
     }
   },
   "269b-queen-st": {
@@ -352,6 +586,16 @@
       "3room": 43,
       "4room": 94,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bugis",
+      "name": "Bugis",
+      "codes": [
+        "EW12",
+        "DT14"
+      ],
+      "exit": "Exit C",
+      "distance": 250
     }
   },
   "269c-queen-st": {
@@ -367,6 +611,16 @@
       "3room": 26,
       "4room": 4,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "bugis",
+      "name": "Bugis",
+      "codes": [
+        "EW12",
+        "DT14"
+      ],
+      "exit": "Exit C",
+      "distance": 250
     }
   },
   "27-jln-berseh": {
@@ -381,6 +635,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "3room": 3
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 311
     }
   },
   "271-queen-st": {
@@ -395,6 +658,16 @@
     "sold_units_by_type": {
       "3room": 180,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "bugis",
+      "name": "Bugis",
+      "codes": [
+        "EW12",
+        "DT14"
+      ],
+      "exit": "Exit C",
+      "distance": 215
     }
   },
   "28-kelantan-rd": {
@@ -409,6 +682,15 @@
     "sold_units_by_type": {
       "3room": 135,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 251
     }
   },
   "29-kelantan-rd": {
@@ -423,6 +705,15 @@
     "sold_units_by_type": {
       "3room": 126,
       "5room": 7
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 211
     }
   },
   "3-jln-kukoh": {
@@ -437,6 +728,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 270
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit C",
+      "distance": 546
     }
   },
   "3-tg-pagar-plaza": {
@@ -454,6 +755,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "codes": [
+        "EW15"
+      ],
+      "exit": "Exit A",
+      "distance": 281
     }
   },
   "30-kelantan-rd": {
@@ -468,6 +778,15 @@
     "sold_units_by_type": {
       "3room": 137,
       "5room": 1
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 182
     }
   },
   "32-new-mkt-rd": {
@@ -486,6 +805,16 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit C",
+      "distance": 33
     }
   },
   "333-kreta-ayer-rd": {
@@ -500,6 +829,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "2room": 126
+    },
+    "nearest_station": {
+      "id": "maxwell",
+      "name": "Maxwell",
+      "codes": [
+        "TE18"
+      ],
+      "exit": "Exit 3",
+      "distance": 80
     }
   },
   "334-kreta-ayer-rd": {
@@ -513,6 +851,15 @@
     "total_dwelling_units": 88,
     "sold_units_by_type": {
       "4room": 88
+    },
+    "nearest_station": {
+      "id": "maxwell",
+      "name": "Maxwell",
+      "codes": [
+        "TE18"
+      ],
+      "exit": "Exit 3",
+      "distance": 170
     }
   },
   "335a-smith-st": {
@@ -531,6 +878,15 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "maxwell",
+      "name": "Maxwell",
+      "codes": [
+        "TE18"
+      ],
+      "exit": "Exit 1",
+      "distance": 190
     }
   },
   "335b-smith-st": {
@@ -544,6 +900,16 @@
     "total_dwelling_units": 131,
     "sold_units_by_type": {
       "4room": 131
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit A",
+      "distance": 155
     }
   },
   "34-upp-cross-st": {
@@ -558,6 +924,16 @@
     "sold_units_by_type": {
       "3room": 308,
       "5room": 6
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit D",
+      "distance": 160
     }
   },
   "4-jln-minyak": {
@@ -573,6 +949,15 @@
     "rental_units_by_type": {
       "2room": 144,
       "3room": 12
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 5",
+      "distance": 554
     }
   },
   "4-sago-lane": {
@@ -587,6 +972,15 @@
     "sold_units_by_type": {
       "3room": 248,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "maxwell",
+      "name": "Maxwell",
+      "codes": [
+        "TE18"
+      ],
+      "exit": "Exit 1",
+      "distance": 164
     }
   },
   "4-tg-pagar-plaza": {
@@ -601,6 +995,15 @@
     "sold_units_by_type": {
       "3room": 188,
       "5room": 11
+    },
+    "nearest_station": {
+      "id": "tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "codes": [
+        "EW15"
+      ],
+      "exit": "Exit A",
+      "distance": 239
     }
   },
   "5-banda-st": {
@@ -615,6 +1018,15 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 430
+    },
+    "nearest_station": {
+      "id": "maxwell",
+      "name": "Maxwell",
+      "codes": [
+        "TE18"
+      ],
+      "exit": "Exit 1",
+      "distance": 83
     }
   },
   "5-jln-minyak": {
@@ -630,6 +1042,15 @@
     "rental_units_by_type": {
       "2room": 132,
       "3room": 11
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 489
     }
   },
   "5-tg-pagar-plaza": {
@@ -644,6 +1065,15 @@
     "sold_units_by_type": {
       "3room": 164,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "codes": [
+        "EW15"
+      ],
+      "exit": "Exit A",
+      "distance": 204
     }
   },
   "51-chin-swee-rd": {
@@ -658,6 +1088,16 @@
     "sold_units_by_type": {},
     "rental_units_by_type": {
       "1room": 328
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit D",
+      "distance": 274
     }
   },
   "52-chin-swee-rd": {
@@ -673,6 +1113,16 @@
     "rental_units_by_type": {
       "1room": 271,
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit D",
+      "distance": 281
     }
   },
   "53-chin-swee-rd": {
@@ -686,6 +1136,16 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit D",
+      "distance": 333
     }
   },
   "532-upp-cross-st": {
@@ -700,6 +1160,16 @@
     "sold_units_by_type": {
       "3room": 116,
       "5room": 2
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit F",
+      "distance": 59
     }
   },
   "533-upp-cross-st": {
@@ -714,6 +1184,16 @@
     "sold_units_by_type": {
       "3room": 124,
       "5room": 3
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit F",
+      "distance": 34
     }
   },
   "535-upp-cross-st": {
@@ -728,6 +1208,16 @@
     "sold_units_by_type": {
       "3room": 110,
       "5room": 5
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit F",
+      "distance": 91
     }
   },
   "536-upp-cross-st": {
@@ -745,6 +1235,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit F",
+      "distance": 78
     }
   },
   "538-upp-cross-st": {
@@ -759,6 +1259,16 @@
     "sold_units_by_type": {
       "3room": 122,
       "5room": 4
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit F",
+      "distance": 110
     }
   },
   "6-jln-minyak": {
@@ -774,6 +1284,15 @@
     "rental_units_by_type": {
       "2room": 144,
       "3room": 12
+    },
+    "nearest_station": {
+      "id": "havelock",
+      "name": "Havelock",
+      "codes": [
+        "TE16"
+      ],
+      "exit": "Exit 1",
+      "distance": 410
     }
   },
   "632-veerasamy-rd": {
@@ -789,6 +1308,15 @@
       "3room": 9,
       "4room": 73,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 106
     }
   },
   "633-veerasamy-rd": {
@@ -804,6 +1332,15 @@
       "3room": 118,
       "4room": 18,
       "exec": 4
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 43
     }
   },
   "634-veerasamy-rd": {
@@ -819,6 +1356,15 @@
       "3room": 12,
       "4room": 70,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 68
     }
   },
   "635-veerasamy-rd": {
@@ -833,6 +1379,15 @@
     "sold_units_by_type": {
       "3room": 99,
       "4room": 24
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 125
     }
   },
   "636-veerasamy-rd": {
@@ -846,6 +1401,15 @@
     "total_dwelling_units": 21,
     "sold_units_by_type": {
       "3room": 21
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 95
     }
   },
   "637-veerasamy-rd": {
@@ -861,6 +1425,15 @@
       "3room": 62,
       "4room": 44,
       "exec": 1
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 176
     }
   },
   "639-rowell-rd": {
@@ -876,6 +1449,15 @@
       "3room": 9,
       "4room": 73,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 254
     }
   },
   "640-rowell-rd": {
@@ -891,6 +1473,15 @@
       "3room": 147,
       "4room": 18,
       "exec": 2
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 227
     }
   },
   "641-rowell-rd": {
@@ -906,6 +1497,15 @@
       "3room": 9,
       "4room": 73,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 300
     }
   },
   "642-rowell-rd": {
@@ -920,6 +1520,15 @@
     "sold_units_by_type": {
       "4room": 74,
       "5room": 14
+    },
+    "nearest_station": {
+      "id": "jalan-besar",
+      "name": "Jalan Besar",
+      "codes": [
+        "DT22"
+      ],
+      "exit": "Exit B",
+      "distance": 292
     }
   },
   "661-buffalo-rd": {
@@ -933,6 +1542,16 @@
     "total_dwelling_units": 127,
     "sold_units_by_type": {
       "4room": 127
+    },
+    "nearest_station": {
+      "id": "little-india",
+      "name": "Little India",
+      "codes": [
+        "NE7",
+        "DT12"
+      ],
+      "exit": "Exit C",
+      "distance": 62
     }
   },
   "662-buffalo-rd": {
@@ -947,6 +1566,16 @@
     "sold_units_by_type": {
       "3room": 12,
       "4room": 140
+    },
+    "nearest_station": {
+      "id": "little-india",
+      "name": "Little India",
+      "codes": [
+        "NE7",
+        "DT12"
+      ],
+      "exit": "Exit C",
+      "distance": 30
     }
   },
   "663-buffalo-rd": {
@@ -960,6 +1589,16 @@
     "total_dwelling_units": 115,
     "sold_units_by_type": {
       "4room": 115
+    },
+    "nearest_station": {
+      "id": "little-india",
+      "name": "Little India",
+      "codes": [
+        "NE7",
+        "DT12"
+      ],
+      "exit": "Exit C",
+      "distance": 148
     }
   },
   "664-buffalo-rd": {
@@ -973,6 +1612,16 @@
     "total_dwelling_units": 16,
     "sold_units_by_type": {
       "3room": 16
+    },
+    "nearest_station": {
+      "id": "little-india",
+      "name": "Little India",
+      "codes": [
+        "NE7",
+        "DT12"
+      ],
+      "exit": "Exit C",
+      "distance": 158
     }
   },
   "668-chander-rd": {
@@ -990,6 +1639,16 @@
     },
     "rental_units_by_type": {
       "3room": 1
+    },
+    "nearest_station": {
+      "id": "little-india",
+      "name": "Little India",
+      "codes": [
+        "NE7",
+        "DT12"
+      ],
+      "exit": "Exit E",
+      "distance": 130
     }
   },
   "671a-klang-lane": {
@@ -1004,6 +1663,16 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "little-india",
+      "name": "Little India",
+      "codes": [
+        "NE7",
+        "DT12"
+      ],
+      "exit": "Exit E",
+      "distance": 248
     }
   },
   "671b-klang-lane": {
@@ -1018,6 +1687,15 @@
     "sold_units_by_type": {
       "4room": 69,
       "5room": 9
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit F",
+      "distance": 261
     }
   },
   "672a-klang-lane": {
@@ -1032,6 +1710,16 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "little-india",
+      "name": "Little India",
+      "codes": [
+        "NE7",
+        "DT12"
+      ],
+      "exit": "Exit E",
+      "distance": 274
     }
   },
   "672b-klang-lane": {
@@ -1046,6 +1734,15 @@
     "sold_units_by_type": {
       "4room": 36,
       "5room": 57
+    },
+    "nearest_station": {
+      "id": "farrer-park",
+      "name": "Farrer Park",
+      "codes": [
+        "NE8"
+      ],
+      "exit": "Exit F",
+      "distance": 268
     }
   },
   "7-tg-pagar-plaza": {
@@ -1059,6 +1756,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "codes": [
+        "EW15"
+      ],
+      "exit": "Exit A",
+      "distance": 207
     }
   },
   "8-jln-kukoh": {
@@ -1077,6 +1783,16 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit C",
+      "distance": 483
     }
   },
   "8-selegie-rd": {
@@ -1095,6 +1811,15 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "rochor",
+      "name": "Rochor",
+      "codes": [
+        "DT13"
+      ],
+      "exit": "Exit A",
+      "distance": 210
     }
   },
   "8-tg-pagar-plaza": {
@@ -1108,6 +1833,15 @@
     "total_dwelling_units": 96,
     "sold_units_by_type": {
       "4room": 96
+    },
+    "nearest_station": {
+      "id": "tanjong-pagar",
+      "name": "Tanjong Pagar",
+      "codes": [
+        "EW15"
+      ],
+      "exit": "Exit A",
+      "distance": 234
     }
   },
   "9-jln-kukoh": {
@@ -1126,6 +1860,16 @@
     },
     "rental_units_by_type": {
       "2room": 1
+    },
+    "nearest_station": {
+      "id": "chinatown",
+      "name": "Chinatown",
+      "codes": [
+        "NE4",
+        "DT19"
+      ],
+      "exit": "Exit C",
+      "distance": 552
     }
   },
   "9-selegie-rd": {
@@ -1141,6 +1885,15 @@
       "2room": 15,
       "3room": 247,
       "4room": 37
+    },
+    "nearest_station": {
+      "id": "rochor",
+      "name": "Rochor",
+      "codes": [
+        "DT13"
+      ],
+      "exit": "Exit A",
+      "distance": 185
     }
   }
 }

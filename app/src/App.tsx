@@ -1,12 +1,19 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
-import type { IndexFeatureCollection, Town } from "./types/contract";
-import { buildTownSlugMap, createGetBlockDetail, loadIndex, loadTowns } from "./lib/data";
+import type { IndexFeatureCollection, StationFeatureCollection, Town } from "./types/contract";
+import {
+  buildTownSlugMap,
+  createGetBlockDetail,
+  loadIndex,
+  loadStations,
+  loadTowns,
+  nearestExitPoint,
+} from "./lib/data";
 import { buildSearchIndex } from "./lib/search";
 import { activeCount, matches } from "./lib/filtering";
 import { useSelection } from "./store/selection";
 import { useColorMode } from "./store/color";
 import { useFilters } from "./store/filters";
-import { MapView } from "./components/MapView";
+import { MapView, type NearestExit } from "./components/MapView";
 import { SearchBox } from "./components/SearchBox";
 import { ColorControl } from "./components/ColorControl";
 import { ColorLegend } from "./components/ColorLegend";
@@ -38,6 +45,9 @@ function useIsDesktop() {
 export default function App() {
   const [index, setIndex] = useState<IndexFeatureCollection>(EMPTY_INDEX);
   const [towns, setTowns] = useState<Town[]>([]);
+  const [stations, setStations] = useState<StationFeatureCollection | null>(null);
+  // Tagged with its block, so a result that lands after the selection moved on is never shown.
+  const [exitFor, setExitFor] = useState<{ id: string; exit: NearestExit | null } | null>(null);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [activeSnap, setActiveSnap] = useState<string | number | null>(SNAP_POINTS[1]);
   // Lifted here so a background map tap can start the close animation; the panel calls
@@ -96,6 +106,18 @@ export default function App() {
     };
   }, []);
 
+  // Not part of the Promise.all: the blocks are the app, so a missing stations file only loses the
+  // stations, with no error card.
+  useEffect(() => {
+    let alive = true;
+    loadStations()
+      .then((s) => alive && setStations(s))
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, []);
+
   useEffect(() => {
     if (selectedId) setActiveSnap(SNAP_POINTS[1]);
   }, [selectedId]);
@@ -117,6 +139,29 @@ export default function App() {
   }, [colorMode, status, isDesktop]);
 
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
+
+  // The shard request is shared with the details panel through the loader's cache.
+  useEffect(() => {
+    if (!selectedId || !selectedTown || !stations) return;
+    let alive = true;
+    getBlockDetail(selectedId, selectedTown)
+      .then((detail) => {
+        const block = index.features.find((f) => f.properties.id === selectedId);
+        if (!alive || !detail || !block) return;
+        const near = detail.nearest_station;
+        const point = nearestExitPoint(stations, near, block.geometry.coordinates);
+        setExitFor({
+          id: selectedId,
+          exit: point && { ...point, station: near.id, exit: near.exit },
+        });
+      })
+      // The panel reports a failed shard; the map just goes without the highlight.
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, [selectedId, selectedTown, stations, getBlockDetail, index]);
+  const nearestExit = exitFor && exitFor.id === selectedId ? exitFor.exit : null;
 
   // On mobile, the sheet's height at its current snap, so the selected marker lands above it.
   const sheetHeight = useMemo<number | null>(() => {
@@ -145,6 +190,8 @@ export default function App() {
         colorMode={colorMode}
         collapseCreditsOnColor={!isDesktop}
         filters={filters}
+        stations={stations}
+        nearestExit={nearestExit}
       />
 
       {status !== "error" && (
