@@ -15,16 +15,27 @@
     "rental_units_by_type": {
       "3room": 2
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 156
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 156
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 910
+      }
+    ]
   },
   "101-serangoon-nth-ave-1": {
     "blk_no": "101",
@@ -38,15 +49,17 @@
     "sold_units_by_type": {
       "4room": 144
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1998
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1998
+      }
+    ]
   },
   "102-serangoon-nth-ave-1": {
     "blk_no": "102",
@@ -61,15 +74,17 @@
       "3room": 16,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1916
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1916
+      }
+    ]
   },
   "103-serangoon-nth-ave-1": {
     "blk_no": "103",
@@ -83,15 +98,17 @@
     "sold_units_by_type": {
       "4room": 144
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1979
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1979
+      }
+    ]
   },
   "104-serangoon-nth-ave-1": {
     "blk_no": "104",
@@ -106,15 +123,17 @@
       "3room": 16,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1904
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1904
+      }
+    ]
   },
   "105-serangoon-nth-ave-1": {
     "blk_no": "105",
@@ -128,15 +147,17 @@
     "sold_units_by_type": {
       "3room": 120
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1955
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1955
+      }
+    ]
   },
   "106-serangoon-nth-ave-1": {
     "blk_no": "106",
@@ -151,15 +172,17 @@
       "3room": 130,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1903
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1903
+      }
+    ]
   },
   "107-serangoon-nth-ave-1": {
     "blk_no": "107",
@@ -174,15 +197,17 @@
       "3room": 111,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1933
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1933
+      }
+    ]
   },
   "108-serangoon-nth-ave-1": {
     "blk_no": "108",
@@ -197,15 +222,17 @@
       "3room": 124,
       "5room": 4
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1845
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1845
+      }
+    ]
   },
   "109-serangoon-nth-ave-1": {
     "blk_no": "109",
@@ -219,15 +246,17 @@
     "sold_units_by_type": {
       "4room": 168
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1877
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1877
+      }
+    ]
   },
   "110-serangoon-nth-ave-1": {
     "blk_no": "110",
@@ -242,15 +271,17 @@
       "3room": 16,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1793
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1793
+      }
+    ]
   },
   "111-serangoon-nth-ave-1": {
     "blk_no": "111",
@@ -264,15 +295,17 @@
     "sold_units_by_type": {
       "4room": 168
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1845
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1845
+      }
+    ]
   },
   "112-serangoon-nth-ave-1": {
     "blk_no": "112",
@@ -287,15 +320,17 @@
       "3room": 16,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1764
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1764
+      }
+    ]
   },
   "113-serangoon-nth-ave-1": {
     "blk_no": "113",
@@ -310,15 +345,17 @@
       "3room": 32,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1839
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1839
+      }
+    ]
   },
   "114-serangoon-nth-ave-1": {
     "blk_no": "114",
@@ -333,15 +370,17 @@
       "4room": 30,
       "5room": 114
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1751
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1751
+      }
+    ]
   },
   "115-serangoon-nth-ave-1": {
     "blk_no": "115",
@@ -356,15 +395,17 @@
       "3room": 32,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1791
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1791
+      }
+    ]
   },
   "116-serangoon-nth-ave-1": {
     "blk_no": "116",
@@ -379,15 +420,17 @@
       "4room": 30,
       "5room": 114
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1718
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1718
+      }
+    ]
   },
   "117-serangoon-nth-ave-1": {
     "blk_no": "117",
@@ -402,15 +445,17 @@
       "4room": 18,
       "5room": 78
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1755
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1755
+      }
+    ]
   },
   "118-serangoon-nth-ave-1": {
     "blk_no": "118",
@@ -424,15 +469,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1728
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1728
+      }
+    ]
   },
   "119-serangoon-nth-ave-1": {
     "blk_no": "119",
@@ -446,15 +493,17 @@
     "sold_units_by_type": {
       "exec": 20
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1666
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1666
+      }
+    ]
   },
   "120-serangoon-nth-ave-1": {
     "blk_no": "120",
@@ -468,15 +517,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1695
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1695
+      }
+    ]
   },
   "121-serangoon-nth-ave-1": {
     "blk_no": "121",
@@ -491,15 +542,17 @@
       "4room": 18,
       "5room": 78
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1656
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1656
+      }
+    ]
   },
   "122-serangoon-nth-ave-1": {
     "blk_no": "122",
@@ -514,15 +567,17 @@
       "3room": 15,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1635
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1635
+      }
+    ]
   },
   "123-serangoon-nth-ave-1": {
     "blk_no": "123",
@@ -536,15 +591,17 @@
     "sold_units_by_type": {
       "exec": 96
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1532
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1532
+      }
+    ]
   },
   "124-serangoon-nth-ave-1": {
     "blk_no": "124",
@@ -559,15 +616,17 @@
       "3room": 31,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1604
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1604
+      }
+    ]
   },
   "125-serangoon-nth-ave-1": {
     "blk_no": "125",
@@ -581,15 +640,17 @@
     "sold_units_by_type": {
       "exec": 96
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1549
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1549
+      }
+    ]
   },
   "126-serangoon-nth-ave-1": {
     "blk_no": "126",
@@ -603,15 +664,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1552
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1552
+      }
+    ]
   },
   "127-serangoon-nth-ave-1": {
     "blk_no": "127",
@@ -625,15 +688,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1535
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1535
+      }
+    ]
   },
   "135-serangoon-nth-ave-2": {
     "blk_no": "135",
@@ -648,15 +713,17 @@
       "4room": 11,
       "5room": 69
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1348
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1348
+      }
+    ]
   },
   "136-serangoon-nth-ave-2": {
     "blk_no": "136",
@@ -671,15 +738,17 @@
       "4room": 60,
       "5room": 12
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1393
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1393
+      }
+    ]
   },
   "137-serangoon-nth-ave-2": {
     "blk_no": "137",
@@ -694,15 +763,17 @@
       "4room": 5,
       "5room": 51
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1369
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1369
+      }
+    ]
   },
   "138-serangoon-nth-ave-2": {
     "blk_no": "138",
@@ -716,15 +787,17 @@
     "sold_units_by_type": {
       "exec": 22
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1355
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1355
+      }
+    ]
   },
   "139-serangoon-nth-ave-2": {
     "blk_no": "139",
@@ -739,15 +812,17 @@
       "4room": 60,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1407
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1407
+      }
+    ]
   },
   "140-serangoon-nth-ave-2": {
     "blk_no": "140",
@@ -762,15 +837,17 @@
       "4room": 84,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1415
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1415
+      }
+    ]
   },
   "141-serangoon-nth-ave-2": {
     "blk_no": "141",
@@ -785,15 +862,17 @@
       "4room": 96,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1468
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1468
+      }
+    ]
   },
   "142-serangoon-nth-ave-1": {
     "blk_no": "142",
@@ -807,15 +886,17 @@
     "sold_units_by_type": {
       "exec": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1462
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1462
+      }
+    ]
   },
   "143-serangoon-nth-ave-1": {
     "blk_no": "143",
@@ -830,15 +911,17 @@
       "4room": 78,
       "5room": 42
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1525
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1525
+      }
+    ]
   },
   "144-serangoon-nth-ave-1": {
     "blk_no": "144",
@@ -852,15 +935,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1541
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1541
+      }
+    ]
   },
   "145-serangoon-nth-ave-1": {
     "blk_no": "145",
@@ -875,15 +960,17 @@
       "4room": 28,
       "5room": 12
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1603
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1603
+      }
+    ]
   },
   "146-serangoon-nth-ave-1": {
     "blk_no": "146",
@@ -897,15 +984,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1576
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1576
+      }
+    ]
   },
   "147-serangoon-nth-ave-1": {
     "blk_no": "147",
@@ -920,15 +1009,17 @@
       "3room": 95,
       "4room": 72
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1621
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1621
+      }
+    ]
   },
   "148-serangoon-nth-ave-1": {
     "blk_no": "148",
@@ -942,15 +1033,17 @@
     "sold_units_by_type": {
       "exec": 48
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1520
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1520
+      }
+    ]
   },
   "149-serangoon-nth-ave-1": {
     "blk_no": "149",
@@ -965,15 +1058,17 @@
       "2room": 88,
       "studio_apartment": 62
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1430
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1430
+      }
+    ]
   },
   "151-serangoon-nth-ave-2": {
     "blk_no": "151",
@@ -989,15 +1084,17 @@
       "4room": 18,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1585
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1585
+      }
+    ]
   },
   "152-serangoon-nth-ave-1": {
     "blk_no": "152",
@@ -1012,15 +1109,17 @@
       "3room": 48,
       "4room": 10
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1685
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1685
+      }
+    ]
   },
   "153-serangoon-nth-ave-1": {
     "blk_no": "153",
@@ -1035,15 +1134,17 @@
       "3room": 101,
       "4room": 11
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 1754
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 1754
+      }
+    ]
   },
   "154-serangoon-nth-ave-1": {
     "blk_no": "154",
@@ -1059,15 +1160,17 @@
       "4room": 20,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1698
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1698
+      }
+    ]
   },
   "157-serangoon-nth-ave-1": {
     "blk_no": "157",
@@ -1083,15 +1186,17 @@
       "1room": 90,
       "2room": 105
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit A",
-      "distance": 2104
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit A",
+        "distance": 2104
+      }
+    ]
   },
   "2-lor-lew-lian": {
     "blk_no": "2",
@@ -1106,16 +1211,27 @@
       "3room": 159,
       "5room": 5
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 170
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 170
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 868
+      }
+    ]
   },
   "201-serangoon-ctrl": {
     "blk_no": "201",
@@ -1130,16 +1246,27 @@
       "3room": 115,
       "4room": 57
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit C",
-      "distance": 44
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit C",
+        "distance": 44
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 964
+      }
+    ]
   },
   "202-serangoon-ctrl": {
     "blk_no": "202",
@@ -1154,16 +1281,27 @@
       "4room": 50,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit C",
-      "distance": 112
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit C",
+        "distance": 112
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 980
+      }
+    ]
   },
   "203-serangoon-ctrl": {
     "blk_no": "203",
@@ -1179,16 +1317,27 @@
       "4room": 57,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 146
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 146
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 931
+      }
+    ]
   },
   "204-serangoon-ctrl": {
     "blk_no": "204",
@@ -1203,16 +1352,27 @@
       "3room": 97,
       "4room": 54
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 185
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 185
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 936
+      }
+    ]
   },
   "205-serangoon-ctrl": {
     "blk_no": "205",
@@ -1227,16 +1387,27 @@
       "4room": 50,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 227
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 227
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 958
+      }
+    ]
   },
   "206-serangoon-ctrl": {
     "blk_no": "206",
@@ -1252,16 +1423,27 @@
       "4room": 57,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 300
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 300
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 967
+      }
+    ]
   },
   "207-serangoon-ctrl": {
     "blk_no": "207",
@@ -1276,16 +1458,27 @@
       "3room": 103,
       "4room": 57
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 339
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 339
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 970
+      }
+    ]
   },
   "208-serangoon-ctrl": {
     "blk_no": "208",
@@ -1300,16 +1493,18 @@
       "4room": 50,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 377
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 377
+      }
+    ]
   },
   "209-serangoon-ctrl": {
     "blk_no": "209",
@@ -1324,16 +1519,18 @@
       "3room": 83,
       "4room": 41
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 431
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 431
+      }
+    ]
   },
   "210-serangoon-ctrl": {
     "blk_no": "210",
@@ -1348,16 +1545,18 @@
       "3room": 81,
       "4room": 57
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 464
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 464
+      }
+    ]
   },
   "211-serangoon-ave-4": {
     "blk_no": "211",
@@ -1372,16 +1571,18 @@
       "3room": 19,
       "4room": 131
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 612
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 612
+      }
+    ]
   },
   "212-serangoon-ave-4": {
     "blk_no": "212",
@@ -1396,16 +1597,18 @@
       "4room": 12,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 665
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 665
+      }
+    ]
   },
   "213-serangoon-ave-4": {
     "blk_no": "213",
@@ -1420,16 +1623,18 @@
       "4room": 12,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 707
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 707
+      }
+    ]
   },
   "214-serangoon-ave-4": {
     "blk_no": "214",
@@ -1444,16 +1649,18 @@
       "3room": 22,
       "4room": 5
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 728
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 728
+      }
+    ]
   },
   "215-serangoon-ave-4": {
     "blk_no": "215",
@@ -1468,16 +1675,18 @@
       "3room": 76,
       "4room": 58
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 786
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 786
+      }
+    ]
   },
   "216-serangoon-ave-4": {
     "blk_no": "216",
@@ -1492,16 +1701,18 @@
       "4room": 12,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 749
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 749
+      }
+    ]
   },
   "217-serangoon-ave-4": {
     "blk_no": "217",
@@ -1516,16 +1727,18 @@
       "3room": 66,
       "4room": 66
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 747
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 747
+      }
+    ]
   },
   "218-serangoon-ave-4": {
     "blk_no": "218",
@@ -1540,16 +1753,18 @@
       "3room": 66,
       "4room": 66
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 789
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 789
+      }
+    ]
   },
   "219-serangoon-ave-4": {
     "blk_no": "219",
@@ -1564,16 +1779,18 @@
       "3room": 66,
       "4room": 66
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 828
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 828
+      }
+    ]
   },
   "220-serangoon-ave-4": {
     "blk_no": "220",
@@ -1588,16 +1805,18 @@
       "3room": 66,
       "4room": 66
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 871
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 871
+      }
+    ]
   },
   "221-serangoon-ave-4": {
     "blk_no": "221",
@@ -1613,16 +1832,18 @@
       "4room": 57,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 912
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 912
+      }
+    ]
   },
   "222-serangoon-ave-4": {
     "blk_no": "222",
@@ -1638,16 +1859,18 @@
       "4room": 57,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 832
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 832
+      }
+    ]
   },
   "223-serangoon-ave-4": {
     "blk_no": "223",
@@ -1662,16 +1885,27 @@
       "3room": 101,
       "4room": 57
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 741
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 741
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 928
+      }
+    ]
   },
   "223a-serangoon-ave-4": {
     "blk_no": "223A",
@@ -1687,16 +1921,27 @@
       "1room": 182,
       "2room": 65
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 767
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 767
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 992
+      }
+    ]
   },
   "224-serangoon-ave-4": {
     "blk_no": "224",
@@ -1710,16 +1955,27 @@
     "sold_units_by_type": {
       "4room": 120
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 699
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 699
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 917
+      }
+    ]
   },
   "225-serangoon-ave-4": {
     "blk_no": "225",
@@ -1735,16 +1991,27 @@
       "4room": 57,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 660
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 660
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 824
+      }
+    ]
   },
   "226-serangoon-ave-4": {
     "blk_no": "226",
@@ -1758,16 +2025,27 @@
     "sold_units_by_type": {
       "4room": 120
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 656
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 656
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 890
+      }
+    ]
   },
   "227-serangoon-ave-4": {
     "blk_no": "227",
@@ -1782,16 +2060,27 @@
       "3room": 77,
       "4room": 57
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 615
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 615
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 887
+      }
+    ]
   },
   "228-serangoon-ave-4": {
     "blk_no": "228",
@@ -1805,16 +2094,27 @@
     "sold_units_by_type": {
       "4room": 120
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 617
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 617
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 806
+      }
+    ]
   },
   "229-serangoon-ave-4": {
     "blk_no": "229",
@@ -1828,16 +2128,27 @@
     "sold_units_by_type": {
       "4room": 120
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 575
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 575
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 780
+      }
+    ]
   },
   "230-serangoon-ave-4": {
     "blk_no": "230",
@@ -1853,16 +2164,27 @@
       "4room": 57,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 594
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 594
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 720
+      }
+    ]
   },
   "231-serangoon-ave-3": {
     "blk_no": "231",
@@ -1876,15 +2198,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 551
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 551
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 568
+      }
+    ]
   },
   "232-serangoon-ave-3": {
     "blk_no": "232",
@@ -1898,16 +2232,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 519
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 519
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 560
+      }
+    ]
   },
   "232a-serangoon-ave-2": {
     "blk_no": "232A",
@@ -1921,16 +2266,27 @@
     "sold_units_by_type": {
       "exec": 90
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 489
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 489
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 509
+      }
+    ]
   },
   "233-serangoon-ave-3": {
     "blk_no": "233",
@@ -1944,16 +2300,27 @@
     "sold_units_by_type": {
       "4room": 100
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 532
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 532
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 622
+      }
+    ]
   },
   "234-serangoon-ave-3": {
     "blk_no": "234",
@@ -1967,16 +2334,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 478
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 478
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 633
+      }
+    ]
   },
   "234a-serangoon-ave-2": {
     "blk_no": "234A",
@@ -1990,16 +2368,27 @@
     "sold_units_by_type": {
       "exec": 90
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 450
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 450
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 568
+      }
+    ]
   },
   "235-serangoon-ave-3": {
     "blk_no": "235",
@@ -2013,16 +2402,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 493
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 493
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 690
+      }
+    ]
   },
   "236-serangoon-ave-3": {
     "blk_no": "236",
@@ -2036,16 +2436,27 @@
     "sold_units_by_type": {
       "4room": 100
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 408
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 408
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 626
+      }
+    ]
   },
   "236a-serangoon-ave-2": {
     "blk_no": "236A",
@@ -2059,16 +2470,27 @@
     "sold_units_by_type": {
       "exec": 90
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 391
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 391
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 577
+      }
+    ]
   },
   "237-serangoon-ave-3": {
     "blk_no": "237",
@@ -2084,16 +2506,27 @@
       "4room": 41,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 350
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 350
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 636
+      }
+    ]
   },
   "238-serangoon-ave-2": {
     "blk_no": "238",
@@ -2107,16 +2540,27 @@
     "sold_units_by_type": {
       "4room": 100
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 396
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 396
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 511
+      }
+    ]
   },
   "239-serangoon-ave-2": {
     "blk_no": "239",
@@ -2130,16 +2574,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 395
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 395
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 461
+      }
+    ]
   },
   "240-serangoon-ave-2": {
     "blk_no": "240",
@@ -2153,16 +2608,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 341
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 341
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 537
+      }
+    ]
   },
   "241-serangoon-ave-3": {
     "blk_no": "241",
@@ -2177,16 +2643,27 @@
       "3room": 76,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 254
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 254
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 611
+      }
+    ]
   },
   "242-serangoon-ave-3": {
     "blk_no": "242",
@@ -2201,16 +2678,27 @@
       "4room": 58,
       "5room": 32
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 274
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 274
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 549
+      }
+    ]
   },
   "243-serangoon-ave-2": {
     "blk_no": "243",
@@ -2225,16 +2713,27 @@
       "3room": 48,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 363
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 363
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 463
+      }
+    ]
   },
   "244-serangoon-ave-2": {
     "blk_no": "244",
@@ -2249,16 +2748,27 @@
       "3room": 8,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 346
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 346
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 440
+      }
+    ]
   },
   "245-serangoon-ave-2": {
     "blk_no": "245",
@@ -2273,16 +2783,27 @@
       "3room": 48,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 302
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 302
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 485
+      }
+    ]
   },
   "246-serangoon-ave-3": {
     "blk_no": "246",
@@ -2297,16 +2818,27 @@
       "4room": 66,
       "5room": 22
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 226
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 226
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 528
+      }
+    ]
   },
   "253-serangoon-ctrl-dr": {
     "blk_no": "253",
@@ -2320,16 +2852,27 @@
     "sold_units_by_type": {
       "3room": 38
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 350
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 350
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 719
+      }
+    ]
   },
   "254-serangoon-ctrl-dr": {
     "blk_no": "254",
@@ -2343,16 +2886,27 @@
     "sold_units_by_type": {
       "3room": 56
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 347
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 347
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 757
+      }
+    ]
   },
   "255-serangoon-ctrl-dr": {
     "blk_no": "255",
@@ -2367,16 +2921,27 @@
       "4room": 56,
       "5room": 56
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 462
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 462
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 773
+      }
+    ]
   },
   "256-serangoon-ctrl-dr": {
     "blk_no": "256",
@@ -2391,16 +2956,27 @@
       "4room": 56,
       "5room": 56
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 462
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 462
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 831
+      }
+    ]
   },
   "257-serangoon-ctrl-dr": {
     "blk_no": "257",
@@ -2415,16 +2991,27 @@
       "4room": 50,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 469
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 469
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 889
+      }
+    ]
   },
   "258-serangoon-ctrl-dr": {
     "blk_no": "258",
@@ -2439,16 +3026,27 @@
       "4room": 50,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 484
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 484
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 959
+      }
+    ]
   },
   "261-serangoon-ctrl-dr": {
     "blk_no": "261",
@@ -2465,16 +3063,27 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit E",
-      "distance": 362
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit E",
+        "distance": 362
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 892
+      }
+    ]
   },
   "262-serangoon-ctrl-dr": {
     "blk_no": "262",
@@ -2489,16 +3098,27 @@
       "3room": 46,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 262
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 262
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 815
+      }
+    ]
   },
   "263-serangoon-ctrl-dr": {
     "blk_no": "263",
@@ -2513,16 +3133,27 @@
       "3room": 67,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 329
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 329
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 824
+      }
+    ]
   },
   "3-lor-lew-lian": {
     "blk_no": "3",
@@ -2537,16 +3168,27 @@
       "3room": 113,
       "5room": 4
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 211
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 211
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 835
+      }
+    ]
   },
   "301-serangoon-ave-2": {
     "blk_no": "301",
@@ -2561,15 +3203,27 @@
       "3room": 8,
       "4room": 12
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 379
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 379
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 459
+      }
+    ]
   },
   "302-serangoon-ave-2": {
     "blk_no": "302",
@@ -2584,15 +3238,27 @@
       "3room": 130,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 311
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 311
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 541
+      }
+    ]
   },
   "303-serangoon-ave-2": {
     "blk_no": "303",
@@ -2607,15 +3273,27 @@
       "3room": 126,
       "5room": 3
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 328
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 328
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 565
+      }
+    ]
   },
   "304-serangoon-ave-2": {
     "blk_no": "304",
@@ -2631,15 +3309,27 @@
       "4room": 9,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 411
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 411
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 518
+      }
+    ]
   },
   "305-serangoon-ave-2": {
     "blk_no": "305",
@@ -2654,15 +3344,27 @@
       "3room": 128,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 350
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 350
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 594
+      }
+    ]
   },
   "306-serangoon-ave-2": {
     "blk_no": "306",
@@ -2677,15 +3379,27 @@
       "3room": 128,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 373
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 373
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 621
+      }
+    ]
   },
   "307-serangoon-ave-2": {
     "blk_no": "307",
@@ -2699,15 +3413,27 @@
     "sold_units_by_type": {
       "4room": 180
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 427
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 427
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 636
+      }
+    ]
   },
   "308-serangoon-ave-2": {
     "blk_no": "308",
@@ -2721,15 +3447,27 @@
     "sold_units_by_type": {
       "4room": 80
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 325
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 325
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 707
+      }
+    ]
   },
   "309-serangoon-ave-2": {
     "blk_no": "309",
@@ -2743,15 +3481,27 @@
     "sold_units_by_type": {
       "4room": 80
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 265
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 265
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 762
+      }
+    ]
   },
   "310-serangoon-ave-2": {
     "blk_no": "310",
@@ -2766,15 +3516,27 @@
       "4room": 12,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 258
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 258
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 703
+      }
+    ]
   },
   "311-serangoon-ave-2": {
     "blk_no": "311",
@@ -2789,15 +3551,27 @@
       "3room": 16,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 301
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 301
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 650
+      }
+    ]
   },
   "312-serangoon-ave-2": {
     "blk_no": "312",
@@ -2812,15 +3586,27 @@
       "4room": 12,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 227
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 227
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 680
+      }
+    ]
   },
   "313-serangoon-ave-2": {
     "blk_no": "313",
@@ -2835,15 +3621,27 @@
       "3room": 8,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 203
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 203
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 735
+      }
+    ]
   },
   "314-serangoon-ave-2": {
     "blk_no": "314",
@@ -2858,15 +3656,27 @@
       "3room": 8,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 177
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 177
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 695
+      }
+    ]
   },
   "315-serangoon-ave-2": {
     "blk_no": "315",
@@ -2880,15 +3690,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 202
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 202
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 648
+      }
+    ]
   },
   "316-serangoon-ave-2": {
     "blk_no": "316",
@@ -2902,15 +3724,27 @@
     "sold_units_by_type": {
       "exec": 8
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 245
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 245
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 599
+      }
+    ]
   },
   "317-serangoon-ave-2": {
     "blk_no": "317",
@@ -2924,15 +3758,27 @@
     "sold_units_by_type": {
       "exec": 81
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 194
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 194
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 610
+      }
+    ]
   },
   "318-serangoon-ave-2": {
     "blk_no": "318",
@@ -2946,15 +3792,27 @@
     "sold_units_by_type": {
       "exec": 81
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 293
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 293
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 521
+      }
+    ]
   },
   "319-serangoon-ave-2": {
     "blk_no": "319",
@@ -2968,15 +3826,27 @@
     "sold_units_by_type": {
       "exec": 70
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 366
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 366
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 417
+      }
+    ]
   },
   "321-serangoon-ave-2": {
     "blk_no": "321",
@@ -2990,15 +3860,27 @@
     "sold_units_by_type": {
       "exec": 90
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 316
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 316
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 410
+      }
+    ]
   },
   "322-serangoon-ave-3": {
     "blk_no": "322",
@@ -3012,16 +3894,27 @@
     "sold_units_by_type": {
       "exec": 70
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 323
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 323
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 416
+      }
+    ]
   },
   "323-serangoon-ave-3": {
     "blk_no": "323",
@@ -3036,16 +3929,27 @@
       "3room": 68,
       "4room": 68
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 228
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 228
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 498
+      }
+    ]
   },
   "324-serangoon-ave-3": {
     "blk_no": "324",
@@ -3059,16 +3963,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 292
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 292
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 435
+      }
+    ]
   },
   "325-serangoon-ave-3": {
     "blk_no": "325",
@@ -3082,16 +3997,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 308
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 308
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 420
+      }
+    ]
   },
   "326-serangoon-ave-3": {
     "blk_no": "326",
@@ -3106,16 +4032,27 @@
       "3room": 13,
       "4room": 10
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 281
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 281
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 468
+      }
+    ]
   },
   "327-serangoon-ave-3": {
     "blk_no": "327",
@@ -3129,16 +4066,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 328
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 328
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 409
+      }
+    ]
   },
   "328-serangoon-ave-3": {
     "blk_no": "328",
@@ -3152,16 +4100,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 352
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 352
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 401
+      }
+    ]
   },
   "329-serangoon-ave-3": {
     "blk_no": "329",
@@ -3176,15 +4135,27 @@
       "4room": 94,
       "5room": 58
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit A",
-      "distance": 402
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 402
+      },
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 404
+      }
+    ]
   },
   "330-serangoon-ave-3": {
     "blk_no": "330",
@@ -3198,16 +4169,27 @@
     "sold_units_by_type": {
       "4room": 134
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 238
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 238
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 541
+      }
+    ]
   },
   "331-serangoon-ave-3": {
     "blk_no": "331",
@@ -3222,16 +4204,27 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 200
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 200
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 620
+      }
+    ]
   },
   "332-serangoon-ave-3": {
     "blk_no": "332",
@@ -3245,16 +4238,27 @@
     "sold_units_by_type": {
       "4room": 138
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 141
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 141
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 586
+      }
+    ]
   },
   "333-serangoon-ave-3": {
     "blk_no": "333",
@@ -3269,16 +4273,27 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 123
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 123
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 621
+      }
+    ]
   },
   "334-serangoon-ave-3": {
     "blk_no": "334",
@@ -3293,16 +4308,27 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 104
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 104
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 669
+      }
+    ]
   },
   "335-serangoon-ave-3": {
     "blk_no": "335",
@@ -3316,16 +4342,27 @@
     "sold_units_by_type": {
       "4room": 138
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit F",
-      "distance": 173
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit F",
+        "distance": 173
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 717
+      }
+    ]
   },
   "4-lor-lew-lian": {
     "blk_no": "4",
@@ -3340,16 +4377,27 @@
       "3room": 128,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 244
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 244
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 799
+      }
+    ]
   },
   "401-serangoon-ave-1": {
     "blk_no": "401",
@@ -3364,16 +4412,36 @@
       "4room": 96,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 367
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 367
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 705
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 750
+      }
+    ]
   },
   "402-serangoon-ave-1": {
     "blk_no": "402",
@@ -3388,16 +4456,36 @@
       "4room": 60,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 335
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 335
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 754
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 783
+      }
+    ]
   },
   "403-serangoon-ave-1": {
     "blk_no": "403",
@@ -3412,16 +4500,36 @@
       "4room": 60,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 371
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 371
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 753
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 786
+      }
+    ]
   },
   "404-serangoon-ave-1": {
     "blk_no": "404",
@@ -3436,16 +4544,36 @@
       "4room": 40,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 312
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 312
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 820
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 820
+      }
+    ]
   },
   "405-serangoon-ave-1": {
     "blk_no": "405",
@@ -3460,16 +4588,36 @@
       "4room": 40,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 235
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 235
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 824
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 894
+      }
+    ]
   },
   "406-serangoon-ave-1": {
     "blk_no": "406",
@@ -3483,16 +4631,36 @@
     "sold_units_by_type": {
       "exec": 8
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 223
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 223
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 791
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 896
+      }
+    ]
   },
   "407-serangoon-ave-1": {
     "blk_no": "407",
@@ -3507,16 +4675,36 @@
       "4room": 72,
       "5room": 12
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 278
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 278
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 777
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 841
+      }
+    ]
   },
   "408-serangoon-ave-1": {
     "blk_no": "408",
@@ -3531,16 +4719,36 @@
       "4room": 48,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 255
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 255
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 736
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 863
+      }
+    ]
   },
   "409-serangoon-ctrl": {
     "blk_no": "409",
@@ -3555,16 +4763,36 @@
       "4room": 72,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 157
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 157
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 718
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 994
+      }
+    ]
   },
   "410-serangoon-ctrl": {
     "blk_no": "410",
@@ -3579,16 +4807,36 @@
       "4room": 48,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 190
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 190
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 737
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 933
+      }
+    ]
   },
   "411-serangoon-ctrl": {
     "blk_no": "411",
@@ -3603,16 +4851,27 @@
       "4room": 84,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 114
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 114
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 780
+      }
+    ]
   },
   "412-serangoon-ctrl": {
     "blk_no": "412",
@@ -3627,16 +4886,36 @@
       "4room": 60,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 136
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 136
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 836
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit A",
+        "distance": 984
+      }
+    ]
   },
   "413-serangoon-ctrl": {
     "blk_no": "413",
@@ -3651,16 +4930,27 @@
       "4room": 60,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 39
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 39
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 843
+      }
+    ]
   },
   "414-serangoon-ctrl": {
     "blk_no": "414",
@@ -3675,16 +4965,27 @@
       "4room": 40,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 90
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 90
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 774
+      }
+    ]
   },
   "415-serangoon-ctrl": {
     "blk_no": "415",
@@ -3699,16 +5000,27 @@
       "4room": 40,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 23
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 23
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 855
+      }
+    ]
   },
   "416-serangoon-ctrl": {
     "blk_no": "416",
@@ -3723,16 +5035,27 @@
       "4room": 40,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 65
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 65
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 873
+      }
+    ]
   },
   "417-serangoon-ctrl": {
     "blk_no": "417",
@@ -3746,16 +5069,27 @@
     "sold_units_by_type": {
       "exec": 54
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 82
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 82
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 834
+      }
+    ]
   },
   "418-serangoon-ctrl": {
     "blk_no": "418",
@@ -3769,16 +5103,27 @@
     "sold_units_by_type": {
       "exec": 54
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 109
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 109
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 797
+      }
+    ]
   },
   "419-serangoon-ctrl": {
     "blk_no": "419",
@@ -3793,16 +5138,27 @@
       "4room": 72,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 188
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 188
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 719
+      }
+    ]
   },
   "420-serangoon-ctrl": {
     "blk_no": "420",
@@ -3817,16 +5173,27 @@
       "4room": 72,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 122
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 122
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 756
+      }
+    ]
   },
   "421-serangoon-ctrl": {
     "blk_no": "421",
@@ -3841,16 +5208,27 @@
       "4room": 72,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 154
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 154
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 722
+      }
+    ]
   },
   "422-serangoon-ctrl": {
     "blk_no": "422",
@@ -3865,16 +5243,27 @@
       "4room": 72,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 220
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 220
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 677
+      }
+    ]
   },
   "423-serangoon-ctrl": {
     "blk_no": "423",
@@ -3888,16 +5277,27 @@
     "sold_units_by_type": {
       "exec": 60
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 211
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 211
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 666
+      }
+    ]
   },
   "424-serangoon-ctrl": {
     "blk_no": "424",
@@ -3911,16 +5311,27 @@
     "sold_units_by_type": {
       "exec": 60
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 234
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 234
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 635
+      }
+    ]
   },
   "425-serangoon-ave-1": {
     "blk_no": "425",
@@ -3935,16 +5346,27 @@
       "4room": 84,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 322
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 322
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 575
+      }
+    ]
   },
   "426-serangoon-ave-1": {
     "blk_no": "426",
@@ -3959,16 +5381,27 @@
       "4room": 72,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 296
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 296
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 575
+      }
+    ]
   },
   "427-serangoon-ctrl": {
     "blk_no": "427",
@@ -3983,16 +5416,36 @@
       "4room": 72,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit A",
-      "distance": 233
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit A",
+        "distance": 233
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 630
+      },
+      {
+        "id": "woodleigh",
+        "name": "Woodleigh",
+        "codes": [
+          "NE11"
+        ],
+        "exit": "Exit C",
+        "distance": 994
+      }
+    ]
   },
   "5-lor-lew-lian": {
     "blk_no": "5",
@@ -4007,16 +5460,27 @@
       "3room": 124,
       "5room": 3
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 280
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 280
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 762
+      }
+    ]
   },
   "500-serangoon-nth-ave-4": {
     "blk_no": "500",
@@ -4030,15 +5494,17 @@
     "sold_units_by_type": {
       "5room": 76
     },
-    "nearest_station": {
-      "id": "hougang",
-      "name": "Hougang",
-      "codes": [
-        "NE14"
-      ],
-      "exit": "Exit C",
-      "distance": 1824
-    }
+    "nearest_stations": [
+      {
+        "id": "hougang",
+        "name": "Hougang",
+        "codes": [
+          "NE14"
+        ],
+        "exit": "Exit C",
+        "distance": 1824
+      }
+    ]
   },
   "501-serangoon-nth-ave-4": {
     "blk_no": "501",
@@ -4052,15 +5518,17 @@
     "sold_units_by_type": {
       "5room": 76
     },
-    "nearest_station": {
-      "id": "hougang",
-      "name": "Hougang",
-      "codes": [
-        "NE14"
-      ],
-      "exit": "Exit C",
-      "distance": 1779
-    }
+    "nearest_stations": [
+      {
+        "id": "hougang",
+        "name": "Hougang",
+        "codes": [
+          "NE14"
+        ],
+        "exit": "Exit C",
+        "distance": 1779
+      }
+    ]
   },
   "502-serangoon-nth-ave-4": {
     "blk_no": "502",
@@ -4074,15 +5542,17 @@
     "sold_units_by_type": {
       "5room": 76
     },
-    "nearest_station": {
-      "id": "hougang",
-      "name": "Hougang",
-      "codes": [
-        "NE14"
-      ],
-      "exit": "Exit C",
-      "distance": 1744
-    }
+    "nearest_stations": [
+      {
+        "id": "hougang",
+        "name": "Hougang",
+        "codes": [
+          "NE14"
+        ],
+        "exit": "Exit C",
+        "distance": 1744
+      }
+    ]
   },
   "503-serangoon-nth-ave-4": {
     "blk_no": "503",
@@ -4097,15 +5567,17 @@
       "4room": 4,
       "5room": 4
     },
-    "nearest_station": {
-      "id": "hougang",
-      "name": "Hougang",
-      "codes": [
-        "NE14"
-      ],
-      "exit": "Exit C",
-      "distance": 1729
-    }
+    "nearest_stations": [
+      {
+        "id": "hougang",
+        "name": "Hougang",
+        "codes": [
+          "NE14"
+        ],
+        "exit": "Exit C",
+        "distance": 1729
+      }
+    ]
   },
   "504-serangoon-nth-ave-4": {
     "blk_no": "504",
@@ -4119,15 +5591,17 @@
     "sold_units_by_type": {
       "5room": 76
     },
-    "nearest_station": {
-      "id": "hougang",
-      "name": "Hougang",
-      "codes": [
-        "NE14"
-      ],
-      "exit": "Exit C",
-      "distance": 1752
-    }
+    "nearest_stations": [
+      {
+        "id": "hougang",
+        "name": "Hougang",
+        "codes": [
+          "NE14"
+        ],
+        "exit": "Exit C",
+        "distance": 1752
+      }
+    ]
   },
   "505-serangoon-nth-ave-4": {
     "blk_no": "505",
@@ -4141,15 +5615,17 @@
     "sold_units_by_type": {
       "5room": 76
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1726
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1726
+      }
+    ]
   },
   "506-serangoon-nth-ave-4": {
     "blk_no": "506",
@@ -4163,15 +5639,17 @@
     "sold_units_by_type": {
       "exec": 70
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1684
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1684
+      }
+    ]
   },
   "506a-serangoon-nth-ave-4": {
     "blk_no": "506A",
@@ -4185,15 +5663,17 @@
     "sold_units_by_type": {
       "exec": 70
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1735
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1735
+      }
+    ]
   },
   "506b-serangoon-nth-ave-4": {
     "blk_no": "506B",
@@ -4207,15 +5687,17 @@
     "sold_units_by_type": {
       "exec": 70
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1686
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1686
+      }
+    ]
   },
   "507-serangoon-nth-ave-4": {
     "blk_no": "507",
@@ -4230,15 +5712,17 @@
       "4room": 40,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1677
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1677
+      }
+    ]
   },
   "508-serangoon-nth-ave-4": {
     "blk_no": "508",
@@ -4253,15 +5737,17 @@
       "4room": 70,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1633
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1633
+      }
+    ]
   },
   "509-serangoon-nth-ave-4": {
     "blk_no": "509",
@@ -4276,15 +5762,17 @@
       "4room": 66,
       "5room": 21
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1605
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1605
+      }
+    ]
   },
   "510-serangoon-nth-ave-4": {
     "blk_no": "510",
@@ -4299,15 +5787,17 @@
       "4room": 58,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1524
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1524
+      }
+    ]
   },
   "511-serangoon-nth-ave-4": {
     "blk_no": "511",
@@ -4322,15 +5812,17 @@
       "4room": 40,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1586
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1586
+      }
+    ]
   },
   "512-serangoon-nth-ave-4": {
     "blk_no": "512",
@@ -4345,15 +5837,17 @@
       "4room": 40,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1640
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1640
+      }
+    ]
   },
   "514-serangoon-nth-ave-4": {
     "blk_no": "514",
@@ -4368,15 +5862,17 @@
       "4room": 64,
       "5room": 16
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1652
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1652
+      }
+    ]
   },
   "515-serangoon-nth-ave-4": {
     "blk_no": "515",
@@ -4391,15 +5887,17 @@
       "4room": 14,
       "5room": 6
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1721
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1721
+      }
+    ]
   },
   "516-serangoon-nth-ave-4": {
     "blk_no": "516",
@@ -4413,15 +5911,17 @@
     "sold_units_by_type": {
       "exec": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1765
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1765
+      }
+    ]
   },
   "517-serangoon-nth-ave-4": {
     "blk_no": "517",
@@ -4436,15 +5936,17 @@
       "4room": 70,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1711
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1711
+      }
+    ]
   },
   "518-serangoon-nth-ave-4": {
     "blk_no": "518",
@@ -4459,15 +5961,17 @@
       "4room": 70,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1735
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1735
+      }
+    ]
   },
   "519-serangoon-nth-ave-4": {
     "blk_no": "519",
@@ -4481,15 +5985,17 @@
     "sold_units_by_type": {
       "exec": 72
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1728
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1728
+      }
+    ]
   },
   "520-serangoon-nth-ave-4": {
     "blk_no": "520",
@@ -4503,15 +6009,17 @@
     "sold_units_by_type": {
       "exec": 72
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1796
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1796
+      }
+    ]
   },
   "521-serangoon-nth-ave-4": {
     "blk_no": "521",
@@ -4526,15 +6034,17 @@
       "4room": 55,
       "5room": 22
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1941
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1941
+      }
+    ]
   },
   "522-serangoon-nth-ave-4": {
     "blk_no": "522",
@@ -4549,15 +6059,17 @@
       "4room": 56,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1869
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1869
+      }
+    ]
   },
   "523-serangoon-nth-ave-4": {
     "blk_no": "523",
@@ -4572,15 +6084,17 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1940
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1940
+      }
+    ]
   },
   "524-serangoon-nth-ave-4": {
     "blk_no": "524",
@@ -4595,15 +6109,17 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1915
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1915
+      }
+    ]
   },
   "525-serangoon-nth-ave-4": {
     "blk_no": "525",
@@ -4617,15 +6133,17 @@
     "sold_units_by_type": {
       "exec": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1881
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1881
+      }
+    ]
   },
   "526-serangoon-nth-ave-4": {
     "blk_no": "526",
@@ -4639,15 +6157,17 @@
     "sold_units_by_type": {
       "exec": 84
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1848
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1848
+      }
+    ]
   },
   "527-serangoon-nth-ave-4": {
     "blk_no": "527",
@@ -4661,15 +6181,17 @@
     "sold_units_by_type": {
       "exec": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1803
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1803
+      }
+    ]
   },
   "528-serangoon-nth-ave-4": {
     "blk_no": "528",
@@ -4684,15 +6206,17 @@
       "4room": 36,
       "5room": 5
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1870
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1870
+      }
+    ]
   },
   "529-serangoon-nth-ave-4": {
     "blk_no": "529",
@@ -4707,15 +6231,17 @@
       "4room": 48,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1982
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1982
+      }
+    ]
   },
   "530-serangoon-nth-ave-4": {
     "blk_no": "530",
@@ -4730,15 +6256,17 @@
       "4room": 55,
       "5room": 22
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 2002
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 2002
+      }
+    ]
   },
   "531-serangoon-nth-ave-4": {
     "blk_no": "531",
@@ -4753,15 +6281,17 @@
       "4room": 56,
       "5room": 16
     },
-    "nearest_station": {
-      "id": "hougang",
-      "name": "Hougang",
-      "codes": [
-        "NE14"
-      ],
-      "exit": "Exit C",
-      "distance": 1897
-    }
+    "nearest_stations": [
+      {
+        "id": "hougang",
+        "name": "Hougang",
+        "codes": [
+          "NE14"
+        ],
+        "exit": "Exit C",
+        "distance": 1897
+      }
+    ]
   },
   "532-serangoon-nth-ave-4": {
     "blk_no": "532",
@@ -4776,15 +6306,17 @@
       "4room": 64,
       "5room": 16
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 1937
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 1937
+      }
+    ]
   },
   "533-serangoon-nth-ave-4": {
     "blk_no": "533",
@@ -4799,15 +6331,17 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "hougang",
-      "name": "Hougang",
-      "codes": [
-        "NE14"
-      ],
-      "exit": "Exit C",
-      "distance": 1950
-    }
+    "nearest_stations": [
+      {
+        "id": "hougang",
+        "name": "Hougang",
+        "codes": [
+          "NE14"
+        ],
+        "exit": "Exit C",
+        "distance": 1950
+      }
+    ]
   },
   "534-serangoon-nth-ave-4": {
     "blk_no": "534",
@@ -4822,15 +6356,17 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1923
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1923
+      }
+    ]
   },
   "535-serangoon-nth-ave-4": {
     "blk_no": "535",
@@ -4844,15 +6380,17 @@
     "sold_units_by_type": {
       "exec": 80
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1927
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1927
+      }
+    ]
   },
   "535a-serangoon-nth-ave-4": {
     "blk_no": "535A",
@@ -4867,15 +6405,17 @@
       "4room": 48,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1868
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1868
+      }
+    ]
   },
   "536-serangoon-nth-ave-4": {
     "blk_no": "536",
@@ -4890,15 +6430,17 @@
       "4room": 63,
       "5room": 18
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1854
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1854
+      }
+    ]
   },
   "537-serangoon-nth-ave-4": {
     "blk_no": "537",
@@ -4912,15 +6454,17 @@
     "sold_units_by_type": {
       "exec": 88
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 2000
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 2000
+      }
+    ]
   },
   "538-serangoon-nth-ave-4": {
     "blk_no": "538",
@@ -4935,15 +6479,17 @@
       "4room": 64,
       "5room": 16
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 1947
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 1947
+      }
+    ]
   },
   "539-serangoon-nth-ave-4": {
     "blk_no": "539",
@@ -4957,15 +6503,17 @@
     "sold_units_by_type": {
       "exec": 88
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 1965
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 1965
+      }
+    ]
   },
   "540-serangoon-nth-ave-4": {
     "blk_no": "540",
@@ -4980,15 +6528,17 @@
       "4room": 70,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 1993
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 1993
+      }
+    ]
   },
   "541-serangoon-nth-ave-4": {
     "blk_no": "541",
@@ -5003,15 +6553,17 @@
       "4room": 70,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 2028
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 2028
+      }
+    ]
   },
   "542-serangoon-nth-ave-4": {
     "blk_no": "542",
@@ -5025,15 +6577,17 @@
     "sold_units_by_type": {
       "exec": 110
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 2067
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 2067
+      }
+    ]
   },
   "543-serangoon-nth-ave-3": {
     "blk_no": "543",
@@ -5047,15 +6601,17 @@
     "sold_units_by_type": {
       "exec": 70
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 2052
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 2052
+      }
+    ]
   },
   "544-serangoon-nth-ave-3": {
     "blk_no": "544",
@@ -5069,15 +6625,17 @@
     "sold_units_by_type": {
       "exec": 63
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 2061
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 2061
+      }
+    ]
   },
   "545-serangoon-nth-ave-3": {
     "blk_no": "545",
@@ -5092,15 +6650,17 @@
       "4room": 87,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 1990
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 1990
+      }
+    ]
   },
   "546-serangoon-nth-ave-3": {
     "blk_no": "546",
@@ -5115,15 +6675,17 @@
       "4room": 60,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 2044
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 2044
+      }
+    ]
   },
   "547-serangoon-nth-ave-3": {
     "blk_no": "547",
@@ -5138,15 +6700,17 @@
       "4room": 60,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "fernvale",
-      "name": "Fernvale",
-      "codes": [
-        "SW5"
-      ],
-      "exit": "Exit A",
-      "distance": 2140
-    }
+    "nearest_stations": [
+      {
+        "id": "fernvale",
+        "name": "Fernvale",
+        "codes": [
+          "SW5"
+        ],
+        "exit": "Exit A",
+        "distance": 2140
+      }
+    ]
   },
   "548-serangoon-nth-ave-3": {
     "blk_no": "548",
@@ -5161,15 +6725,17 @@
       "4room": 75,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 2124
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 2124
+      }
+    ]
   },
   "549-serangoon-nth-ave-3": {
     "blk_no": "549",
@@ -5184,15 +6750,17 @@
       "4room": 30,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 2054
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 2054
+      }
+    ]
   },
   "550-serangoon-nth-ave-3": {
     "blk_no": "550",
@@ -5207,15 +6775,17 @@
       "4room": 33,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 2097
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 2097
+      }
+    ]
   },
   "551-serangoon-nth-ave-3": {
     "blk_no": "551",
@@ -5230,15 +6800,17 @@
       "4room": 48,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 2050
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 2050
+      }
+    ]
   },
   "552-serangoon-nth-ave-3": {
     "blk_no": "552",
@@ -5253,15 +6825,17 @@
       "4room": 30,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 2012
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 2012
+      }
+    ]
   },
   "553-serangoon-nth-ave-3": {
     "blk_no": "553",
@@ -5276,15 +6850,17 @@
       "4room": 40,
       "5room": 16
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 1971
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 1971
+      }
+    ]
   },
   "554-serangoon-nth-ave-3": {
     "blk_no": "554",
@@ -5299,15 +6875,17 @@
       "4room": 40,
       "5room": 16
     },
-    "nearest_station": {
-      "id": "kovan",
-      "name": "Kovan",
-      "codes": [
-        "NE13"
-      ],
-      "exit": "Exit B",
-      "distance": 2061
-    }
+    "nearest_stations": [
+      {
+        "id": "kovan",
+        "name": "Kovan",
+        "codes": [
+          "NE13"
+        ],
+        "exit": "Exit B",
+        "distance": 2061
+      }
+    ]
   },
   "6-lor-lew-lian": {
     "blk_no": "6",
@@ -5321,16 +6899,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 338
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 338
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 683
+      }
+    ]
   },
   "7-lor-lew-lian": {
     "blk_no": "7",
@@ -5344,16 +6933,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 310
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 310
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 664
+      }
+    ]
   },
   "8-lor-lew-lian": {
     "blk_no": "8",
@@ -5370,15 +6970,26 @@
     "rental_units_by_type": {
       "2room": 77
     },
-    "nearest_station": {
-      "id": "serangoon",
-      "name": "Serangoon",
-      "codes": [
-        "NE12",
-        "CC13"
-      ],
-      "exit": "Exit D",
-      "distance": 288
-    }
+    "nearest_stations": [
+      {
+        "id": "serangoon",
+        "name": "Serangoon",
+        "codes": [
+          "NE12",
+          "CC13"
+        ],
+        "exit": "Exit D",
+        "distance": 288
+      },
+      {
+        "id": "bartley",
+        "name": "Bartley",
+        "codes": [
+          "CC12"
+        ],
+        "exit": "Exit B",
+        "distance": 649
+      }
+    ]
   }
 }

@@ -11,15 +11,26 @@
     "sold_units_by_type": {
       "5room": 88
     },
-    "nearest_station": {
-      "id": "farrer-road",
-      "name": "Farrer Road",
-      "codes": [
-        "CC20"
-      ],
-      "exit": "Exit B",
-      "distance": 75
-    }
+    "nearest_stations": [
+      {
+        "id": "farrer-road",
+        "name": "Farrer Road",
+        "codes": [
+          "CC20"
+        ],
+        "exit": "Exit B",
+        "distance": 75
+      },
+      {
+        "id": "tan-kah-kee",
+        "name": "Tan Kah Kee",
+        "codes": [
+          "DT8"
+        ],
+        "exit": "Exit A",
+        "distance": 904
+      }
+    ]
   },
   "1-toh-yi-dr": {
     "blk_no": "1",
@@ -34,15 +45,17 @@
       "4room": 72,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 129
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 129
+      }
+    ]
   },
   "10-toh-yi-dr": {
     "blk_no": "10",
@@ -56,15 +69,17 @@
     "sold_units_by_type": {
       "exec": 36
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 397
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 397
+      }
+    ]
   },
   "11-toh-yi-dr": {
     "blk_no": "11",
@@ -79,15 +94,17 @@
       "4room": 69,
       "5room": 46
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 414
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 414
+      }
+    ]
   },
   "12-toh-yi-dr": {
     "blk_no": "12",
@@ -102,15 +119,17 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 384
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 384
+      }
+    ]
   },
   "13-toh-yi-dr": {
     "blk_no": "13",
@@ -125,15 +144,17 @@
       "4room": 81,
       "5room": 57
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 394
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 394
+      }
+    ]
   },
   "14-toh-yi-dr": {
     "blk_no": "14",
@@ -148,15 +169,17 @@
       "4room": 54,
       "5room": 42
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 369
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 369
+      }
+    ]
   },
   "15-toh-yi-dr": {
     "blk_no": "15",
@@ -170,15 +193,17 @@
     "sold_units_by_type": {
       "exec": 16
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 419
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 419
+      }
+    ]
   },
   "16-toh-yi-dr": {
     "blk_no": "16",
@@ -193,15 +218,17 @@
       "4room": 54,
       "5room": 42
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 357
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 357
+      }
+    ]
   },
   "17-toh-yi-dr": {
     "blk_no": "17",
@@ -216,15 +243,17 @@
       "4room": 75,
       "5room": 63
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 357
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 357
+      }
+    ]
   },
   "18-toh-yi-dr": {
     "blk_no": "18",
@@ -239,15 +268,17 @@
       "3room": 13,
       "4room": 9
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 292
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 292
+      }
+    ]
   },
   "19-toh-yi-dr": {
     "blk_no": "19",
@@ -262,15 +293,17 @@
       "3room": 8,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 207
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 207
+      }
+    ]
   },
   "2-queen-s-rd": {
     "blk_no": "2",
@@ -285,15 +318,26 @@
       "3room": 10,
       "4room": 56
     },
-    "nearest_station": {
-      "id": "farrer-road",
-      "name": "Farrer Road",
-      "codes": [
-        "CC20"
-      ],
-      "exit": "Exit B",
-      "distance": 30
-    }
+    "nearest_stations": [
+      {
+        "id": "farrer-road",
+        "name": "Farrer Road",
+        "codes": [
+          "CC20"
+        ],
+        "exit": "Exit B",
+        "distance": 30
+      },
+      {
+        "id": "tan-kah-kee",
+        "name": "Tan Kah Kee",
+        "codes": [
+          "DT8"
+        ],
+        "exit": "Exit A",
+        "distance": 841
+      }
+    ]
   },
   "2-toh-yi-dr": {
     "blk_no": "2",
@@ -307,15 +351,26 @@
     "sold_units_by_type": {
       "exec": 78
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 101
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 101
+      },
+      {
+        "id": "king-albert-park",
+        "name": "King Albert Park",
+        "codes": [
+          "DT6"
+        ],
+        "exit": "Exit A",
+        "distance": 946
+      }
+    ]
   },
   "21-toh-yi-dr": {
     "blk_no": "21",
@@ -330,15 +385,17 @@
       "2room": 57,
       "studio_apartment": 75
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 467
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 467
+      }
+    ]
   },
   "3-queen-s-rd": {
     "blk_no": "3",
@@ -353,15 +410,36 @@
       "3room": 28,
       "4room": 122
     },
-    "nearest_station": {
-      "id": "farrer-road",
-      "name": "Farrer Road",
-      "codes": [
-        "CC20"
-      ],
-      "exit": "Exit A",
-      "distance": 95
-    }
+    "nearest_stations": [
+      {
+        "id": "farrer-road",
+        "name": "Farrer Road",
+        "codes": [
+          "CC20"
+        ],
+        "exit": "Exit A",
+        "distance": 95
+      },
+      {
+        "id": "tan-kah-kee",
+        "name": "Tan Kah Kee",
+        "codes": [
+          "DT8"
+        ],
+        "exit": "Exit A",
+        "distance": 779
+      },
+      {
+        "id": "botanic-gardens",
+        "name": "Botanic Gardens",
+        "codes": [
+          "CC19",
+          "DT9"
+        ],
+        "exit": "Exit A",
+        "distance": 896
+      }
+    ]
   },
   "3-toh-yi-dr": {
     "blk_no": "3",
@@ -375,15 +453,26 @@
     "sold_units_by_type": {
       "exec": 64
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 146
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 146
+      },
+      {
+        "id": "king-albert-park",
+        "name": "King Albert Park",
+        "codes": [
+          "DT6"
+        ],
+        "exit": "Exit A",
+        "distance": 936
+      }
+    ]
   },
   "4-queen-s-rd": {
     "blk_no": "4",
@@ -398,15 +487,36 @@
       "3room": 184,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "farrer-road",
-      "name": "Farrer Road",
-      "codes": [
-        "CC20"
-      ],
-      "exit": "Exit A",
-      "distance": 149
-    }
+    "nearest_stations": [
+      {
+        "id": "farrer-road",
+        "name": "Farrer Road",
+        "codes": [
+          "CC20"
+        ],
+        "exit": "Exit A",
+        "distance": 149
+      },
+      {
+        "id": "tan-kah-kee",
+        "name": "Tan Kah Kee",
+        "codes": [
+          "DT8"
+        ],
+        "exit": "Exit A",
+        "distance": 723
+      },
+      {
+        "id": "botanic-gardens",
+        "name": "Botanic Gardens",
+        "codes": [
+          "CC19",
+          "DT9"
+        ],
+        "exit": "Exit A",
+        "distance": 872
+      }
+    ]
   },
   "4-toh-yi-dr": {
     "blk_no": "4",
@@ -421,15 +531,26 @@
       "4room": 72,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 210
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 210
+      },
+      {
+        "id": "king-albert-park",
+        "name": "King Albert Park",
+        "codes": [
+          "DT6"
+        ],
+        "exit": "Exit A",
+        "distance": 997
+      }
+    ]
   },
   "5-farrer-rd": {
     "blk_no": "5",
@@ -443,15 +564,26 @@
     "sold_units_by_type": {
       "5room": 76
     },
-    "nearest_station": {
-      "id": "farrer-road",
-      "name": "Farrer Road",
-      "codes": [
-        "CC20"
-      ],
-      "exit": "Exit B",
-      "distance": 111
-    }
+    "nearest_stations": [
+      {
+        "id": "farrer-road",
+        "name": "Farrer Road",
+        "codes": [
+          "CC20"
+        ],
+        "exit": "Exit B",
+        "distance": 111
+      },
+      {
+        "id": "tan-kah-kee",
+        "name": "Tan Kah Kee",
+        "codes": [
+          "DT8"
+        ],
+        "exit": "Exit A",
+        "distance": 977
+      }
+    ]
   },
   "5-toh-yi-dr": {
     "blk_no": "5",
@@ -466,15 +598,26 @@
       "4room": 72,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 242
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 242
+      },
+      {
+        "id": "king-albert-park",
+        "name": "King Albert Park",
+        "codes": [
+          "DT6"
+        ],
+        "exit": "Exit A",
+        "distance": 991
+      }
+    ]
   },
   "6-farrer-rd": {
     "blk_no": "6",
@@ -489,15 +632,36 @@
       "3room": 16,
       "4room": 74
     },
-    "nearest_station": {
-      "id": "farrer-road",
-      "name": "Farrer Road",
-      "codes": [
-        "CC20"
-      ],
-      "exit": "Exit A",
-      "distance": 22
-    }
+    "nearest_stations": [
+      {
+        "id": "farrer-road",
+        "name": "Farrer Road",
+        "codes": [
+          "CC20"
+        ],
+        "exit": "Exit A",
+        "distance": 22
+      },
+      {
+        "id": "tan-kah-kee",
+        "name": "Tan Kah Kee",
+        "codes": [
+          "DT8"
+        ],
+        "exit": "Exit A",
+        "distance": 891
+      },
+      {
+        "id": "botanic-gardens",
+        "name": "Botanic Gardens",
+        "codes": [
+          "CC19",
+          "DT9"
+        ],
+        "exit": "Exit A",
+        "distance": 963
+      }
+    ]
   },
   "6-toh-yi-dr": {
     "blk_no": "6",
@@ -511,15 +675,26 @@
     "sold_units_by_type": {
       "exec": 78
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 255
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 255
+      },
+      {
+        "id": "king-albert-park",
+        "name": "King Albert Park",
+        "codes": [
+          "DT6"
+        ],
+        "exit": "Exit A",
+        "distance": 913
+      }
+    ]
   },
   "7-toh-yi-dr": {
     "blk_no": "7",
@@ -533,15 +708,26 @@
     "sold_units_by_type": {
       "exec": 76
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 301
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 301
+      },
+      {
+        "id": "king-albert-park",
+        "name": "King Albert Park",
+        "codes": [
+          "DT6"
+        ],
+        "exit": "Exit A",
+        "distance": 911
+      }
+    ]
   },
   "8-empress-rd": {
     "blk_no": "8",
@@ -556,15 +742,17 @@
       "3room": 180,
       "5room": 6
     },
-    "nearest_station": {
-      "id": "farrer-road",
-      "name": "Farrer Road",
-      "codes": [
-        "CC20"
-      ],
-      "exit": "Exit B",
-      "distance": 257
-    }
+    "nearest_stations": [
+      {
+        "id": "farrer-road",
+        "name": "Farrer Road",
+        "codes": [
+          "CC20"
+        ],
+        "exit": "Exit B",
+        "distance": 257
+      }
+    ]
   },
   "8-toh-yi-dr": {
     "blk_no": "8",
@@ -578,15 +766,17 @@
     "sold_units_by_type": {
       "exec": 32
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 297
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 297
+      }
+    ]
   },
   "9-toh-yi-dr": {
     "blk_no": "9",
@@ -601,14 +791,16 @@
       "4room": 54,
       "5room": 42
     },
-    "nearest_station": {
-      "id": "beauty-world",
-      "name": "Beauty World",
-      "codes": [
-        "DT5"
-      ],
-      "exit": "Exit C",
-      "distance": 309
-    }
+    "nearest_stations": [
+      {
+        "id": "beauty-world",
+        "name": "Beauty World",
+        "codes": [
+          "DT5"
+        ],
+        "exit": "Exit C",
+        "distance": 309
+      }
+    ]
   }
 }

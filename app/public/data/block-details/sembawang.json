@@ -12,15 +12,17 @@
       "4room": 84,
       "5room": 80
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 908
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 908
+      }
+    ]
   },
   "101b-canberra-st": {
     "blk_no": "101B",
@@ -36,15 +38,17 @@
       "3room": 30,
       "4room": 60
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 912
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 912
+      }
+    ]
   },
   "102a-canberra-st": {
     "blk_no": "102A",
@@ -59,15 +63,17 @@
       "4room": 94,
       "5room": 96
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 893
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 893
+      }
+    ]
   },
   "102b-canberra-st": {
     "blk_no": "102B",
@@ -82,15 +88,17 @@
       "2room": 180,
       "3room": 30
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 872
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 872
+      }
+    ]
   },
   "103a-canberra-st": {
     "blk_no": "103A",
@@ -106,15 +114,17 @@
       "3room": 28,
       "4room": 56
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 830
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 830
+      }
+    ]
   },
   "103b-canberra-st": {
     "blk_no": "103B",
@@ -130,15 +140,17 @@
       "3room": 28,
       "4room": 56
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 794
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 794
+      }
+    ]
   },
   "104a-canberra-st": {
     "blk_no": "104A",
@@ -153,15 +165,17 @@
       "3room": 42,
       "4room": 98
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 807
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 807
+      }
+    ]
   },
   "104b-canberra-st": {
     "blk_no": "104B",
@@ -177,15 +191,17 @@
       "3room": 28,
       "4room": 70
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 745
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 745
+      }
+    ]
   },
   "104c-canberra-st": {
     "blk_no": "104C",
@@ -200,15 +216,17 @@
       "3room": 42,
       "4room": 95
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 721
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 721
+      }
+    ]
   },
   "104d-canberra-st": {
     "blk_no": "104D",
@@ -224,15 +242,17 @@
       "3room": 27,
       "4room": 70
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 761
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 761
+      }
+    ]
   },
   "106a-canberra-st": {
     "blk_no": "106A",
@@ -248,15 +268,17 @@
       "1room": 140,
       "2room": 112
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 671
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 671
+      }
+    ]
   },
   "106b-canberra-st": {
     "blk_no": "106B",
@@ -272,15 +294,17 @@
       "1room": 140,
       "2room": 112
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 634
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 634
+      }
+    ]
   },
   "107a-canberra-st": {
     "blk_no": "107A",
@@ -295,15 +319,17 @@
       "3room": 41,
       "4room": 98
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 796
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 796
+      }
+    ]
   },
   "107b-canberra-st": {
     "blk_no": "107B",
@@ -318,15 +344,17 @@
       "3room": 42,
       "4room": 98
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 757
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 757
+      }
+    ]
   },
   "107c-canberra-st": {
     "blk_no": "107C",
@@ -341,15 +369,17 @@
       "3room": 41,
       "4room": 98
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 722
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 722
+      }
+    ]
   },
   "108a-canberra-walk": {
     "blk_no": "108A",
@@ -364,15 +394,17 @@
       "4room": 38,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 499
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 499
+      }
+    ]
   },
   "108b-canberra-walk": {
     "blk_no": "108B",
@@ -387,15 +419,17 @@
       "4room": 65,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 569
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 569
+      }
+    ]
   },
   "108c-canberra-walk": {
     "blk_no": "108C",
@@ -410,15 +444,17 @@
       "4room": 60,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 485
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 485
+      }
+    ]
   },
   "109a-canberra-walk": {
     "blk_no": "109A",
@@ -433,15 +469,17 @@
       "3room": 24,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 493
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 493
+      }
+    ]
   },
   "109b-canberra-walk": {
     "blk_no": "109B",
@@ -457,15 +495,17 @@
       "4room": 24,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 468
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 468
+      }
+    ]
   },
   "109c-canberra-walk": {
     "blk_no": "109C",
@@ -481,15 +521,26 @@
       "4room": 23,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 523
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 523
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 995
+      }
+    ]
   },
   "109d-canberra-walk": {
     "blk_no": "109D",
@@ -505,15 +556,17 @@
       "4room": 36,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 602
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 602
+      }
+    ]
   },
   "115a-canberra-walk": {
     "blk_no": "115A",
@@ -529,15 +582,17 @@
       "3room": 30,
       "4room": 40
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 335
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 335
+      }
+    ]
   },
   "115b-canberra-walk": {
     "blk_no": "115B",
@@ -553,15 +608,17 @@
       "3room": 30,
       "4room": 40
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 298
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 298
+      }
+    ]
   },
   "115c-canberra-walk": {
     "blk_no": "115C",
@@ -576,15 +633,17 @@
       "3room": 40,
       "4room": 60
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 274
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 274
+      }
+    ]
   },
   "115d-canberra-walk": {
     "blk_no": "115D",
@@ -599,15 +658,17 @@
       "3room": 40,
       "4room": 60
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 221
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 221
+      }
+    ]
   },
   "116a-canberra-cres": {
     "blk_no": "116A",
@@ -623,15 +684,17 @@
       "3room": 20,
       "4room": 36
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 202
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 202
+      }
+    ]
   },
   "117a-canberra-cres": {
     "blk_no": "117A",
@@ -647,15 +710,17 @@
       "3room": 40,
       "4room": 20
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 186
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 186
+      }
+    ]
   },
   "117b-canberra-cres": {
     "blk_no": "117B",
@@ -671,15 +736,17 @@
       "3room": 20,
       "4room": 28
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 147
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 147
+      }
+    ]
   },
   "118a-canberra-cres": {
     "blk_no": "118A",
@@ -695,15 +762,17 @@
       "3room": 16,
       "4room": 17
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 113
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 113
+      }
+    ]
   },
   "118b-canberra-cres": {
     "blk_no": "118B",
@@ -719,15 +788,17 @@
       "3room": 20,
       "4room": 50
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 156
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 156
+      }
+    ]
   },
   "119a-canberra-cres": {
     "blk_no": "119A",
@@ -742,15 +813,17 @@
       "4room": 70,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 322
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 322
+      }
+    ]
   },
   "119b-canberra-cres": {
     "blk_no": "119B",
@@ -765,15 +838,17 @@
       "4room": 72,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 380
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 380
+      }
+    ]
   },
   "120a-canberra-cres": {
     "blk_no": "120A",
@@ -788,15 +863,17 @@
       "4room": 78,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 398
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 398
+      }
+    ]
   },
   "120b-canberra-cres": {
     "blk_no": "120B",
@@ -811,15 +888,17 @@
       "4room": 78,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 444
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 444
+      }
+    ]
   },
   "120c-canberra-cres": {
     "blk_no": "120C",
@@ -834,15 +913,17 @@
       "4room": 42,
       "5room": 70
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 519
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 519
+      }
+    ]
   },
   "120d-canberra-cres": {
     "blk_no": "120D",
@@ -857,15 +938,17 @@
       "4room": 39,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 459
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 459
+      }
+    ]
   },
   "121a-canberra-st": {
     "blk_no": "121A",
@@ -880,15 +963,17 @@
       "4room": 65,
       "5room": 39
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 614
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 614
+      }
+    ]
   },
   "121b-canberra-st": {
     "blk_no": "121B",
@@ -903,15 +988,17 @@
       "4room": 38,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 674
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 674
+      }
+    ]
   },
   "121c-canberra-st": {
     "blk_no": "121C",
@@ -926,15 +1013,17 @@
       "4room": 25,
       "5room": 49
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 674
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 674
+      }
+    ]
   },
   "121d-canberra-st": {
     "blk_no": "121D",
@@ -949,15 +1038,17 @@
       "4room": 65,
       "5room": 39
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 597
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 597
+      }
+    ]
   },
   "126a-canberra-st": {
     "blk_no": "126A",
@@ -972,15 +1063,17 @@
       "4room": 70,
       "5room": 70
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 581
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 581
+      }
+    ]
   },
   "126b-canberra-st": {
     "blk_no": "126B",
@@ -995,15 +1088,17 @@
       "4room": 70,
       "5room": 70
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 619
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 619
+      }
+    ]
   },
   "126c-canberra-st": {
     "blk_no": "126C",
@@ -1018,15 +1113,17 @@
       "4room": 42,
       "5room": 98
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 627
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 627
+      }
+    ]
   },
   "126d-canberra-st": {
     "blk_no": "126D",
@@ -1041,15 +1138,17 @@
       "4room": 122,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 638
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 638
+      }
+    ]
   },
   "128a-canberra-st": {
     "blk_no": "128A",
@@ -1064,15 +1163,17 @@
       "4room": 48,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 446
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 446
+      }
+    ]
   },
   "128b-canberra-st": {
     "blk_no": "128B",
@@ -1088,15 +1189,17 @@
       "3room": 96,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 473
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 473
+      }
+    ]
   },
   "128c-canberra-st": {
     "blk_no": "128C",
@@ -1111,15 +1214,17 @@
       "4room": 48,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 449
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 449
+      }
+    ]
   },
   "129a-canberra-st": {
     "blk_no": "129A",
@@ -1134,15 +1239,17 @@
       "4room": 48,
       "5room": 58
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 351
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 351
+      }
+    ]
   },
   "129b-canberra-st": {
     "blk_no": "129B",
@@ -1158,15 +1265,17 @@
       "3room": 96,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 365
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 365
+      }
+    ]
   },
   "129c-canberra-st": {
     "blk_no": "129C",
@@ -1181,15 +1290,17 @@
       "4room": 34,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 357
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 357
+      }
+    ]
   },
   "130a-canberra-cres": {
     "blk_no": "130A",
@@ -1205,15 +1316,17 @@
       "3room": 36,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 257
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 257
+      }
+    ]
   },
   "130b-canberra-cres": {
     "blk_no": "130B",
@@ -1229,15 +1342,17 @@
       "3room": 36,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 252
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 252
+      }
+    ]
   },
   "131a-canberra-cres": {
     "blk_no": "131A",
@@ -1253,15 +1368,17 @@
       "3room": 22,
       "4room": 40
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 114
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 114
+      }
+    ]
   },
   "131b-canberra-cres": {
     "blk_no": "131B",
@@ -1277,15 +1394,17 @@
       "3room": 10,
       "4room": 30
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 129
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 129
+      }
+    ]
   },
   "131c-canberra-cres": {
     "blk_no": "131C",
@@ -1301,15 +1420,17 @@
       "3room": 39,
       "4room": 30
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 94
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 94
+      }
+    ]
   },
   "132a-canberra-cres": {
     "blk_no": "132A",
@@ -1325,15 +1446,17 @@
       "3room": 36,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 133
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 133
+      }
+    ]
   },
   "132b-canberra-view": {
     "blk_no": "132B",
@@ -1349,15 +1472,17 @@
       "3room": 22,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 172
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 172
+      }
+    ]
   },
   "132c-canberra-view": {
     "blk_no": "132C",
@@ -1373,15 +1498,17 @@
       "3room": 10,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit E",
-      "distance": 114
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit E",
+        "distance": 114
+      }
+    ]
   },
   "300-canberra-rd": {
     "blk_no": "300",
@@ -1396,15 +1523,26 @@
       "4room": 47,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 440
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 440
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 753
+      }
+    ]
   },
   "302-canberra-rd": {
     "blk_no": "302",
@@ -1418,15 +1556,26 @@
     "sold_units_by_type": {
       "4room": 85
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 527
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 527
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 707
+      }
+    ]
   },
   "303-canberra-rd": {
     "blk_no": "303",
@@ -1442,15 +1591,26 @@
       "5room": 27,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 523
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 523
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 769
+      }
+    ]
   },
   "304-canberra-rd": {
     "blk_no": "304",
@@ -1466,15 +1626,26 @@
       "5room": 29,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 471
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 471
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 798
+      }
+    ]
   },
   "305-canberra-rd": {
     "blk_no": "305",
@@ -1489,15 +1660,26 @@
       "5room": 30,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 416
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 416
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 832
+      }
+    ]
   },
   "306-canberra-rd": {
     "blk_no": "306",
@@ -1512,15 +1694,26 @@
       "4room": 69,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 425
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 425
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 797
+      }
+    ]
   },
   "307-canberra-rd": {
     "blk_no": "307",
@@ -1535,15 +1728,26 @@
       "5room": 30,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 362
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 362
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 886
+      }
+    ]
   },
   "308-canberra-rd": {
     "blk_no": "308",
@@ -1559,15 +1763,26 @@
       "5room": 29,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 325
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 325
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 892
+      }
+    ]
   },
   "309-canberra-rd": {
     "blk_no": "309",
@@ -1583,15 +1798,26 @@
       "5room": 27,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 274
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 274
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 928
+      }
+    ]
   },
   "310-canberra-rd": {
     "blk_no": "310",
@@ -1605,15 +1831,26 @@
     "sold_units_by_type": {
       "exec": 84
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 283
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 283
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 887
+      }
+    ]
   },
   "311-canberra-rd": {
     "blk_no": "311",
@@ -1628,15 +1865,26 @@
       "4room": 47,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 375
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 375
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 809
+      }
+    ]
   },
   "312-sembawang-dr": {
     "blk_no": "312",
@@ -1651,15 +1899,26 @@
       "4room": 60,
       "5room": 75
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit A",
-      "distance": 492
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit A",
+        "distance": 492
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 923
+      }
+    ]
   },
   "313-sembawang-dr": {
     "blk_no": "313",
@@ -1674,15 +1933,26 @@
       "4room": 30,
       "5room": 75
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 516
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 516
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 846
+      }
+    ]
   },
   "314-sembawang-dr": {
     "blk_no": "314",
@@ -1696,15 +1966,26 @@
     "sold_units_by_type": {
       "4room": 108
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit A",
-      "distance": 584
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit A",
+        "distance": 584
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 897
+      }
+    ]
   },
   "315-sembawang-vista": {
     "blk_no": "315",
@@ -1719,15 +2000,17 @@
       "4room": 60,
       "5room": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit A",
-      "distance": 226
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit A",
+        "distance": 226
+      }
+    ]
   },
   "316-sembawang-vista": {
     "blk_no": "316",
@@ -1742,15 +2025,26 @@
       "4room": 45,
       "5room": 75
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit A",
-      "distance": 288
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit A",
+        "distance": 288
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 989
+      }
+    ]
   },
   "317-sembawang-vista": {
     "blk_no": "317",
@@ -1765,15 +2059,17 @@
       "4room": 75,
       "5room": 75
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 323
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 323
+      }
+    ]
   },
   "318-sembawang-vista": {
     "blk_no": "318",
@@ -1788,15 +2084,17 @@
       "4room": 93,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 283
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 283
+      }
+    ]
   },
   "319-sembawang-cl": {
     "blk_no": "319",
@@ -1811,15 +2109,17 @@
       "4room": 58,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 286
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 286
+      }
+    ]
   },
   "320-sembawang-cl": {
     "blk_no": "320",
@@ -1834,15 +2134,17 @@
       "4room": 58,
       "5room": 21
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 279
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 279
+      }
+    ]
   },
   "321-sembawang-cl": {
     "blk_no": "321",
@@ -1857,15 +2159,17 @@
       "4room": 28,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 330
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 330
+      }
+    ]
   },
   "322-sembawang-cl": {
     "blk_no": "322",
@@ -1880,15 +2184,17 @@
       "4room": 42,
       "5room": 69
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 394
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 394
+      }
+    ]
   },
   "323-sembawang-cl": {
     "blk_no": "323",
@@ -1903,15 +2209,17 @@
       "4room": 28,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 451
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 451
+      }
+    ]
   },
   "324-sembawang-cl": {
     "blk_no": "324",
@@ -1926,15 +2234,17 @@
       "4room": 42,
       "5room": 69
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 514
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 514
+      }
+    ]
   },
   "325-sembawang-cres": {
     "blk_no": "325",
@@ -1949,15 +2259,17 @@
       "4room": 42,
       "5room": 56
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 489
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 489
+      }
+    ]
   },
   "326-sembawang-cres": {
     "blk_no": "326",
@@ -1972,15 +2284,17 @@
       "4room": 56,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 435
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 435
+      }
+    ]
   },
   "327-sembawang-cres": {
     "blk_no": "327",
@@ -1995,15 +2309,17 @@
       "4room": 59,
       "5room": 58
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 356
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 356
+      }
+    ]
   },
   "328-sembawang-cres": {
     "blk_no": "328",
@@ -2018,15 +2334,17 @@
       "4room": 59,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 373
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 373
+      }
+    ]
   },
   "329-sembawang-cl": {
     "blk_no": "329",
@@ -2042,15 +2360,17 @@
       "5room": 31,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 358
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 358
+      }
+    ]
   },
   "330-sembawang-cl": {
     "blk_no": "330",
@@ -2065,15 +2385,17 @@
       "4room": 75,
       "5room": 75
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 310
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 310
+      }
+    ]
   },
   "331-sembawang-cl": {
     "blk_no": "331",
@@ -2088,15 +2410,17 @@
       "4room": 75,
       "5room": 75
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 374
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 374
+      }
+    ]
   },
   "332-sembawang-cl": {
     "blk_no": "332",
@@ -2112,15 +2436,17 @@
       "5room": 31,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 382
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 382
+      }
+    ]
   },
   "333-sembawang-cl": {
     "blk_no": "333",
@@ -2136,15 +2462,17 @@
       "5room": 31,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 424
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 424
+      }
+    ]
   },
   "334-sembawang-cl": {
     "blk_no": "334",
@@ -2159,15 +2487,17 @@
       "4room": 114,
       "5room": 55
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 469
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 469
+      }
+    ]
   },
   "335-sembawang-cl": {
     "blk_no": "335",
@@ -2182,15 +2512,17 @@
       "4room": 48,
       "5room": 69
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 560
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 560
+      }
+    ]
   },
   "336-sembawang-cres": {
     "blk_no": "336",
@@ -2206,15 +2538,17 @@
       "5room": 30,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 510
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 510
+      }
+    ]
   },
   "337-sembawang-cres": {
     "blk_no": "337",
@@ -2230,15 +2564,17 @@
       "5room": 30,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 544
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 544
+      }
+    ]
   },
   "338-sembawang-cres": {
     "blk_no": "338",
@@ -2254,15 +2590,17 @@
       "5room": 30,
       "exec": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 598
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 598
+      }
+    ]
   },
   "339a-sembawang-cl": {
     "blk_no": "339A",
@@ -2278,15 +2616,17 @@
       "5room": 57,
       "exec": 27
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 228
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 228
+      }
+    ]
   },
   "339b-sembawang-cl": {
     "blk_no": "339B",
@@ -2302,15 +2642,17 @@
       "5room": 57,
       "exec": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 262
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 262
+      }
+    ]
   },
   "340a-sembawang-cl": {
     "blk_no": "340A",
@@ -2325,15 +2667,17 @@
       "4room": 47,
       "5room": 44
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 252
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 252
+      }
+    ]
   },
   "340b-sembawang-cl": {
     "blk_no": "340B",
@@ -2348,15 +2692,17 @@
       "4room": 47,
       "5room": 44
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 245
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 245
+      }
+    ]
   },
   "341-sembawang-cl": {
     "blk_no": "341",
@@ -2371,15 +2717,17 @@
       "4room": 30,
       "exec": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 226
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 226
+      }
+    ]
   },
   "341a-sembawang-cl": {
     "blk_no": "341A",
@@ -2395,15 +2743,17 @@
       "5room": 57,
       "exec": 27
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 187
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 187
+      }
+    ]
   },
   "341b-sembawang-cl": {
     "blk_no": "341B",
@@ -2419,15 +2769,17 @@
       "5room": 57,
       "exec": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 167
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 167
+      }
+    ]
   },
   "350a-canberra-rd": {
     "blk_no": "350A",
@@ -2442,15 +2794,17 @@
       "4room": 26,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 181
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 181
+      }
+    ]
   },
   "350b-canberra-rd": {
     "blk_no": "350B",
@@ -2465,15 +2819,17 @@
       "4room": 26,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 134
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 134
+      }
+    ]
   },
   "350c-canberra-rd": {
     "blk_no": "350C",
@@ -2488,15 +2844,17 @@
       "4room": 26,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 113
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 113
+      }
+    ]
   },
   "351a-canberra-rd": {
     "blk_no": "351A",
@@ -2511,15 +2869,17 @@
       "4room": 26,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 146
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 146
+      }
+    ]
   },
   "351b-canberra-rd": {
     "blk_no": "351B",
@@ -2534,15 +2894,17 @@
       "4room": 27,
       "5room": 53
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 191
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 191
+      }
+    ]
   },
   "351c-canberra-rd": {
     "blk_no": "351C",
@@ -2557,15 +2919,17 @@
       "4room": 26,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 242
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 242
+      }
+    ]
   },
   "351d-canberra-rd": {
     "blk_no": "351D",
@@ -2579,15 +2943,17 @@
     "sold_units_by_type": {
       "exec": 78
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 233
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 233
+      }
+    ]
   },
   "352a-canberra-rd": {
     "blk_no": "352A",
@@ -2602,15 +2968,17 @@
       "4room": 27,
       "5room": 53
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 167
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 167
+      }
+    ]
   },
   "352b-canberra-rd": {
     "blk_no": "352B",
@@ -2625,15 +2993,17 @@
       "4room": 27,
       "5room": 53
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 127
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 127
+      }
+    ]
   },
   "352c-canberra-rd": {
     "blk_no": "352C",
@@ -2648,15 +3018,17 @@
       "4room": 26,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 76
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 76
+      }
+    ]
   },
   "353a-admiralty-dr": {
     "blk_no": "353A",
@@ -2671,15 +3043,17 @@
       "4room": 29,
       "5room": 57
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 168
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 168
+      }
+    ]
   },
   "353b-admiralty-dr": {
     "blk_no": "353B",
@@ -2694,15 +3068,17 @@
       "4room": 29,
       "5room": 57
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 123
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 123
+      }
+    ]
   },
   "353c-admiralty-dr": {
     "blk_no": "353C",
@@ -2717,15 +3093,17 @@
       "4room": 28,
       "5room": 70
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 75
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 75
+      }
+    ]
   },
   "354a-admiralty-dr": {
     "blk_no": "354A",
@@ -2740,15 +3118,17 @@
       "4room": 29,
       "5room": 57
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 140
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 140
+      }
+    ]
   },
   "354b-admiralty-dr": {
     "blk_no": "354B",
@@ -2763,15 +3143,17 @@
       "4room": 29,
       "5room": 57
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 183
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 183
+      }
+    ]
   },
   "354c-admiralty-dr": {
     "blk_no": "354C",
@@ -2786,15 +3168,17 @@
       "4room": 28,
       "5room": 56
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 236
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 236
+      }
+    ]
   },
   "354d-admiralty-dr": {
     "blk_no": "354D",
@@ -2808,15 +3192,17 @@
     "sold_units_by_type": {
       "exec": 84
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 219
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 219
+      }
+    ]
   },
   "355a-sembawang-way": {
     "blk_no": "355A",
@@ -2830,15 +3216,17 @@
     "sold_units_by_type": {
       "5room": 44
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 98
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 98
+      }
+    ]
   },
   "356a-admiralty-dr": {
     "blk_no": "356A",
@@ -2853,15 +3241,17 @@
       "4room": 57,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 325
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 325
+      }
+    ]
   },
   "356b-admiralty-dr": {
     "blk_no": "356B",
@@ -2877,15 +3267,17 @@
       "5room": 55,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 265
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 265
+      }
+    ]
   },
   "356c-admiralty-dr": {
     "blk_no": "356C",
@@ -2901,15 +3293,17 @@
       "5room": 56,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 219
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 219
+      }
+    ]
   },
   "357-admiralty-dr": {
     "blk_no": "357",
@@ -2925,15 +3319,17 @@
       "5room": 29,
       "exec": 24
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 382
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 382
+      }
+    ]
   },
   "357a-admiralty-dr": {
     "blk_no": "357A",
@@ -2949,15 +3345,17 @@
       "5room": 55,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 322
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 322
+      }
+    ]
   },
   "357b-admiralty-dr": {
     "blk_no": "357B",
@@ -2973,15 +3371,17 @@
       "5room": 56,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 297
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 297
+      }
+    ]
   },
   "357c-admiralty-dr": {
     "blk_no": "357C",
@@ -2997,15 +3397,17 @@
       "5room": 55,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 251
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 251
+      }
+    ]
   },
   "359-admiralty-dr": {
     "blk_no": "359",
@@ -3021,15 +3423,17 @@
       "5room": 29,
       "exec": 24
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 437
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 437
+      }
+    ]
   },
   "359a-admiralty-dr": {
     "blk_no": "359A",
@@ -3045,15 +3449,17 @@
       "5room": 55,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 472
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 472
+      }
+    ]
   },
   "359b-admiralty-dr": {
     "blk_no": "359B",
@@ -3069,15 +3475,17 @@
       "5room": 55,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 522
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 522
+      }
+    ]
   },
   "359c-admiralty-dr": {
     "blk_no": "359C",
@@ -3093,15 +3501,17 @@
       "5room": 56,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 561
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 561
+      }
+    ]
   },
   "360a-admiralty-dr": {
     "blk_no": "360A",
@@ -3116,15 +3526,17 @@
       "4room": 57,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 435
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 435
+      }
+    ]
   },
   "360b-admiralty-dr": {
     "blk_no": "360B",
@@ -3140,15 +3552,17 @@
       "5room": 55,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 505
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 505
+      }
+    ]
   },
   "360c-admiralty-dr": {
     "blk_no": "360C",
@@ -3164,15 +3578,17 @@
       "5room": 56,
       "exec": 26
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 566
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 566
+      }
+    ]
   },
   "362a-sembawang-cres": {
     "blk_no": "362A",
@@ -3187,15 +3603,17 @@
       "3room": 32,
       "4room": 142
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 666
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 666
+      }
+    ]
   },
   "362b-sembawang-cres": {
     "blk_no": "362B",
@@ -3211,15 +3629,17 @@
       "3room": 30,
       "4room": 60
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 736
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 736
+      }
+    ]
   },
   "362c-sembawang-cres": {
     "blk_no": "362C",
@@ -3234,15 +3654,17 @@
       "3room": 30,
       "4room": 135
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 766
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 766
+      }
+    ]
   },
   "363a-sembawang-cres": {
     "blk_no": "363A",
@@ -3258,15 +3680,17 @@
       "3room": 14,
       "4room": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 699
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 699
+      }
+    ]
   },
   "363b-sembawang-cres": {
     "blk_no": "363B",
@@ -3282,15 +3706,17 @@
       "3room": 15,
       "4room": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 761
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 761
+      }
+    ]
   },
   "363c-sembawang-cres": {
     "blk_no": "363C",
@@ -3306,15 +3732,17 @@
       "1room": 180,
       "2room": 150
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 842
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 842
+      }
+    ]
   },
   "364a-sembawang-cres": {
     "blk_no": "364A",
@@ -3330,15 +3758,17 @@
       "1room": 135,
       "2room": 60
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 665
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 665
+      }
+    ]
   },
   "364b-sembawang-cres": {
     "blk_no": "364B",
@@ -3354,15 +3784,17 @@
       "1room": 39,
       "2room": 78
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 710
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 710
+      }
+    ]
   },
   "365a-sembawang-cres": {
     "blk_no": "365A",
@@ -3378,15 +3810,17 @@
       "3room": 30,
       "4room": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 608
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 608
+      }
+    ]
   },
   "365b-sembawang-cres": {
     "blk_no": "365B",
@@ -3400,15 +3834,17 @@
     "sold_units_by_type": {
       "4room": 90
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 599
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 599
+      }
+    ]
   },
   "365c-sembawang-cres": {
     "blk_no": "365C",
@@ -3423,15 +3859,17 @@
       "3room": 26,
       "4room": 126
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 674
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 674
+      }
+    ]
   },
   "366a-sembawang-cres": {
     "blk_no": "366A",
@@ -3447,15 +3885,17 @@
       "3room": 30,
       "4room": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 681
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 681
+      }
+    ]
   },
   "366b-sembawang-cres": {
     "blk_no": "366B",
@@ -3471,15 +3911,17 @@
       "3room": 30,
       "4room": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 687
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 687
+      }
+    ]
   },
   "370a-sembawang-ave": {
     "blk_no": "370A",
@@ -3494,15 +3936,26 @@
       "4room": 48,
       "5room": 84
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit A",
-      "distance": 665
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit A",
+        "distance": 665
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 829
+      }
+    ]
   },
   "370b-sembawang-ave": {
     "blk_no": "370B",
@@ -3518,15 +3971,26 @@
       "4room": 49,
       "5room": 47
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 650
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 650
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 721
+      }
+    ]
   },
   "371a-sembawang-ave": {
     "blk_no": "371A",
@@ -3541,15 +4005,26 @@
       "4room": 40,
       "5room": 45
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit A",
-      "distance": 723
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit A",
+        "distance": 723
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 800
+      }
+    ]
   },
   "371b-sembawang-ave": {
     "blk_no": "371B",
@@ -3565,15 +4040,26 @@
       "3room": 16,
       "4room": 24
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 680
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 680
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 682
+      }
+    ]
   },
   "372a-sembawang-ave": {
     "blk_no": "372A",
@@ -3589,15 +4075,26 @@
       "4room": 36,
       "5room": 8
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 752
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 752
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 755
+      }
+    ]
   },
   "372b-sembawang-ave": {
     "blk_no": "372B",
@@ -3613,15 +4110,26 @@
       "3room": 7,
       "4room": 21
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 677
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 677
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 738
+      }
+    ]
   },
   "373a-sembawang-ave": {
     "blk_no": "373A",
@@ -3637,15 +4145,26 @@
       "3room": 5,
       "4room": 10
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 746
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 746
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 793
+      }
+    ]
   },
   "373b-sembawang-ave": {
     "blk_no": "373B",
@@ -3661,15 +4180,26 @@
       "3room": 10,
       "4room": 10
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 670
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 670
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 791
+      }
+    ]
   },
   "376a-canberra-dr": {
     "blk_no": "376A",
@@ -3684,15 +4214,26 @@
       "4room": 18,
       "5room": 61
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 155
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 155
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 999
+      }
+    ]
   },
   "376b-canberra-dr": {
     "blk_no": "376B",
@@ -3707,15 +4248,17 @@
       "4room": 45,
       "5room": 25
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 109
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 109
+      }
+    ]
   },
   "376c-canberra-dr": {
     "blk_no": "376C",
@@ -3731,15 +4274,17 @@
       "3room": 9,
       "4room": 9
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 80
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 80
+      }
+    ]
   },
   "377a-canberra-dr": {
     "blk_no": "377A",
@@ -3755,15 +4300,17 @@
       "3room": 9,
       "4room": 9
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 54
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 54
+      }
+    ]
   },
   "377b-canberra-dr": {
     "blk_no": "377B",
@@ -3778,15 +4325,17 @@
       "2room": 108,
       "4room": 18
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit D",
-      "distance": 83
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 83
+      }
+    ]
   },
   "377c-canberra-dr": {
     "blk_no": "377C",
@@ -3801,15 +4350,17 @@
       "2room": 114,
       "4room": 18
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 88
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 88
+      }
+    ]
   },
   "378a-canberra-dr": {
     "blk_no": "378A",
@@ -3824,15 +4375,17 @@
       "2room": 63,
       "3room": 18
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 195
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 195
+      }
+    ]
   },
   "378b-canberra-dr": {
     "blk_no": "378B",
@@ -3847,15 +4400,17 @@
       "2room": 45,
       "3room": 36
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 156
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 156
+      }
+    ]
   },
   "378c-canberra-dr": {
     "blk_no": "378C",
@@ -3870,15 +4425,17 @@
       "2room": 49,
       "3room": 16
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 138
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 138
+      }
+    ]
   },
   "379a-canberra-dr": {
     "blk_no": "379A",
@@ -3893,15 +4450,17 @@
       "4room": 18,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 179
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 179
+      }
+    ]
   },
   "379b-canberra-dr": {
     "blk_no": "379B",
@@ -3917,15 +4476,17 @@
       "3room": 18,
       "4room": 54
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 125
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 125
+      }
+    ]
   },
   "379c-canberra-dr": {
     "blk_no": "379C",
@@ -3941,15 +4502,17 @@
       "3room": 18,
       "4room": 36
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 87
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 87
+      }
+    ]
   },
   "380a-canberra-dr": {
     "blk_no": "380A",
@@ -3964,15 +4527,17 @@
       "4room": 54,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 306
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 306
+      }
+    ]
   },
   "380b-canberra-dr": {
     "blk_no": "380B",
@@ -3987,15 +4552,17 @@
       "4room": 52,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 264
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 264
+      }
+    ]
   },
   "380c-canberra-dr": {
     "blk_no": "380C",
@@ -4010,15 +4577,17 @@
       "4room": 54,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit C",
-      "distance": 225
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit C",
+        "distance": 225
+      }
+    ]
   },
   "401-admiralty-link": {
     "blk_no": "401",
@@ -4033,15 +4602,17 @@
       "4room": 28,
       "5room": 70
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 718
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 718
+      }
+    ]
   },
   "402-admiralty-link": {
     "blk_no": "402",
@@ -4056,15 +4627,17 @@
       "4room": 28,
       "5room": 70
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 688
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 688
+      }
+    ]
   },
   "403-admiralty-link": {
     "blk_no": "403",
@@ -4079,15 +4652,17 @@
       "4room": 28,
       "5room": 56
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 666
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 666
+      }
+    ]
   },
   "404-admiralty-link": {
     "blk_no": "404",
@@ -4102,15 +4677,17 @@
       "4room": 59,
       "5room": 56
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 612
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 612
+      }
+    ]
   },
   "405-admiralty-link": {
     "blk_no": "405",
@@ -4124,15 +4701,17 @@
     "sold_units_by_type": {
       "4room": 112
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 612
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 612
+      }
+    ]
   },
   "406-sembawang-dr": {
     "blk_no": "406",
@@ -4146,15 +4725,17 @@
     "sold_units_by_type": {
       "4room": 117
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 521
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 521
+      }
+    ]
   },
   "407-sembawang-dr": {
     "blk_no": "407",
@@ -4169,15 +4750,17 @@
       "4room": 56,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 566
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 566
+      }
+    ]
   },
   "408-sembawang-dr": {
     "blk_no": "408",
@@ -4191,15 +4774,17 @@
     "sold_units_by_type": {
       "exec": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 529
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 529
+      }
+    ]
   },
   "409-sembawang-dr": {
     "blk_no": "409",
@@ -4214,15 +4799,17 @@
       "4room": 28,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 491
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 491
+      }
+    ]
   },
   "410-sembawang-dr": {
     "blk_no": "410",
@@ -4237,15 +4824,17 @@
       "4room": 27,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 449
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 449
+      }
+    ]
   },
   "411-sembawang-dr": {
     "blk_no": "411",
@@ -4260,15 +4849,17 @@
       "4room": 27,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 394
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 394
+      }
+    ]
   },
   "412-sembawang-dr": {
     "blk_no": "412",
@@ -4283,15 +4874,17 @@
       "4room": 28,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 352
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 352
+      }
+    ]
   },
   "413-sembawang-dr": {
     "blk_no": "413",
@@ -4306,15 +4899,17 @@
       "4room": 26,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 354
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 354
+      }
+    ]
   },
   "414-sembawang-dr": {
     "blk_no": "414",
@@ -4329,15 +4924,17 @@
       "4room": 26,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 308
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 308
+      }
+    ]
   },
   "415-sembawang-dr": {
     "blk_no": "415",
@@ -4351,15 +4948,17 @@
     "sold_units_by_type": {
       "exec": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 305
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 305
+      }
+    ]
   },
   "416-canberra-rd": {
     "blk_no": "416",
@@ -4373,15 +4972,17 @@
     "sold_units_by_type": {
       "exec": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 317
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 317
+      }
+    ]
   },
   "417-canberra-rd": {
     "blk_no": "417",
@@ -4396,15 +4997,17 @@
       "4room": 26,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 318
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 318
+      }
+    ]
   },
   "418-canberra-rd": {
     "blk_no": "418",
@@ -4419,15 +5022,17 @@
       "4room": 26,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 360
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 360
+      }
+    ]
   },
   "419-canberra-rd": {
     "blk_no": "419",
@@ -4442,15 +5047,17 @@
       "4room": 28,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 351
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 351
+      }
+    ]
   },
   "420-canberra-rd": {
     "blk_no": "420",
@@ -4465,15 +5072,17 @@
       "4room": 27,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 403
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 403
+      }
+    ]
   },
   "421-canberra-rd": {
     "blk_no": "421",
@@ -4488,15 +5097,17 @@
       "4room": 27,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 448
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 448
+      }
+    ]
   },
   "422-canberra-rd": {
     "blk_no": "422",
@@ -4511,15 +5122,17 @@
       "4room": 28,
       "5room": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 498
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 498
+      }
+    ]
   },
   "423-canberra-rd": {
     "blk_no": "423",
@@ -4533,15 +5146,17 @@
     "sold_units_by_type": {
       "exec": 65
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 541
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 541
+      }
+    ]
   },
   "424-canberra-rd": {
     "blk_no": "424",
@@ -4556,15 +5171,17 @@
       "4room": 39,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 532
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 532
+      }
+    ]
   },
   "425-canberra-rd": {
     "blk_no": "425",
@@ -4579,15 +5196,17 @@
       "4room": 56,
       "5room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 593
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 593
+      }
+    ]
   },
   "462-sembawang-dr": {
     "blk_no": "462",
@@ -4603,15 +5222,17 @@
       "1room": 152,
       "2room": 304
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 867
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 867
+      }
+    ]
   },
   "463a-sembawang-dr": {
     "blk_no": "463A",
@@ -4626,15 +5247,17 @@
       "2room": 126,
       "3room": 42
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 957
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 957
+      }
+    ]
   },
   "463b-sembawang-dr": {
     "blk_no": "463B",
@@ -4649,15 +5272,17 @@
       "3room": 44,
       "4room": 88
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 996
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 996
+      }
+    ]
   },
   "463c-sembawang-dr": {
     "blk_no": "463C",
@@ -4671,15 +5296,17 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 994
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 994
+      }
+    ]
   },
   "466a-sembawang-dr": {
     "blk_no": "466A",
@@ -4694,15 +5321,17 @@
       "4room": 73,
       "5room": 38
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 960
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 960
+      }
+    ]
   },
   "466b-sembawang-dr": {
     "blk_no": "466B",
@@ -4717,15 +5346,17 @@
       "4room": 56,
       "5room": 55
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 976
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 976
+      }
+    ]
   },
   "466c-sembawang-dr": {
     "blk_no": "466C",
@@ -4740,15 +5371,17 @@
       "4room": 56,
       "5room": 55
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 1048
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 1048
+      }
+    ]
   },
   "466d-sembawang-dr": {
     "blk_no": "466D",
@@ -4763,15 +5396,17 @@
       "4room": 76,
       "5room": 38
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 1024
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 1024
+      }
+    ]
   },
   "467-admiralty-dr": {
     "blk_no": "467",
@@ -4787,15 +5422,17 @@
       "5room": 46,
       "exec": 54
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 684
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 684
+      }
+    ]
   },
   "467a-admiralty-dr": {
     "blk_no": "467A",
@@ -4811,15 +5448,17 @@
       "5room": 48,
       "exec": 54
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 722
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 722
+      }
+    ]
   },
   "467b-admiralty-dr": {
     "blk_no": "467B",
@@ -4835,15 +5474,17 @@
       "5room": 48,
       "exec": 54
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 716
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 716
+      }
+    ]
   },
   "468a-admiralty-dr": {
     "blk_no": "468A",
@@ -4858,15 +5499,17 @@
       "5room": 24,
       "exec": 78
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 687
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 687
+      }
+    ]
   },
   "468b-admiralty-dr": {
     "blk_no": "468B",
@@ -4881,15 +5524,17 @@
       "5room": 24,
       "exec": 78
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 635
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 635
+      }
+    ]
   },
   "468c-admiralty-dr": {
     "blk_no": "468C",
@@ -4904,15 +5549,17 @@
       "5room": 24,
       "exec": 78
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 558
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 558
+      }
+    ]
   },
   "468d-admiralty-dr": {
     "blk_no": "468D",
@@ -4927,15 +5574,17 @@
       "5room": 24,
       "exec": 78
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 638
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 638
+      }
+    ]
   },
   "469-admiralty-dr": {
     "blk_no": "469",
@@ -4951,15 +5600,17 @@
       "5room": 46,
       "exec": 54
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 640
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 640
+      }
+    ]
   },
   "469a-admiralty-dr": {
     "blk_no": "469A",
@@ -4975,15 +5626,17 @@
       "5room": 48,
       "exec": 54
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 682
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 682
+      }
+    ]
   },
   "469b-admiralty-dr": {
     "blk_no": "469B",
@@ -4999,15 +5652,17 @@
       "5room": 48,
       "exec": 54
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit B",
-      "distance": 718
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit B",
+        "distance": 718
+      }
+    ]
   },
   "470-sembawang-dr": {
     "blk_no": "470",
@@ -5022,15 +5677,17 @@
       "4room": 51,
       "5room": 63
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 578
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 578
+      }
+    ]
   },
   "471-sembawang-dr": {
     "blk_no": "471",
@@ -5044,15 +5701,17 @@
     "sold_units_by_type": {
       "exec": 84
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 531
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 531
+      }
+    ]
   },
   "472-sembawang-dr": {
     "blk_no": "472",
@@ -5066,15 +5725,17 @@
     "sold_units_by_type": {
       "exec": 84
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 475
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 475
+      }
+    ]
   },
   "473-sembawang-dr": {
     "blk_no": "473",
@@ -5089,15 +5750,17 @@
       "4room": 38,
       "5room": 64
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 434
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 434
+      }
+    ]
   },
   "474-sembawang-dr": {
     "blk_no": "474",
@@ -5112,15 +5775,17 @@
       "4room": 37,
       "5room": 64
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 397
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 397
+      }
+    ]
   },
   "475-sembawang-dr": {
     "blk_no": "475",
@@ -5135,15 +5800,17 @@
       "4room": 38,
       "5room": 59
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 355
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 355
+      }
+    ]
   },
   "476-sembawang-dr": {
     "blk_no": "476",
@@ -5158,15 +5825,17 @@
       "4room": 38,
       "5room": 59
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 412
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 412
+      }
+    ]
   },
   "477-sembawang-dr": {
     "blk_no": "477",
@@ -5180,15 +5849,17 @@
     "sold_units_by_type": {
       "4room": 98
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 483
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 483
+      }
+    ]
   },
   "478-sembawang-dr": {
     "blk_no": "478",
@@ -5203,15 +5874,17 @@
       "4room": 82,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 516
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 516
+      }
+    ]
   },
   "479-sembawang-dr": {
     "blk_no": "479",
@@ -5225,15 +5898,17 @@
     "sold_units_by_type": {
       "4room": 98
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 571
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 571
+      }
+    ]
   },
   "480-sembawang-dr": {
     "blk_no": "480",
@@ -5248,15 +5923,17 @@
       "4room": 36,
       "5room": 62
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 612
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 612
+      }
+    ]
   },
   "481-sembawang-dr": {
     "blk_no": "481",
@@ -5271,15 +5948,17 @@
       "4room": 51,
       "5room": 64
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 670
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 670
+      }
+    ]
   },
   "482-admiralty-link": {
     "blk_no": "482",
@@ -5293,15 +5972,17 @@
     "sold_units_by_type": {
       "4room": 150
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 846
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 846
+      }
+    ]
   },
   "483-admiralty-link": {
     "blk_no": "483",
@@ -5316,15 +5997,17 @@
       "4room": 30,
       "5room": 120
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 895
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 895
+      }
+    ]
   },
   "484-admiralty-link": {
     "blk_no": "484",
@@ -5339,15 +6022,17 @@
       "4room": 60,
       "5room": 150
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 1010
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 1010
+      }
+    ]
   },
   "485-admiralty-link": {
     "blk_no": "485",
@@ -5361,15 +6046,17 @@
     "sold_units_by_type": {
       "4room": 154
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 917
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 917
+      }
+    ]
   },
   "486-admiralty-link": {
     "blk_no": "486",
@@ -5384,15 +6071,17 @@
       "4room": 82,
       "5room": 59
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 865
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 865
+      }
+    ]
   },
   "487-admiralty-link": {
     "blk_no": "487",
@@ -5406,15 +6095,17 @@
     "sold_units_by_type": {
       "4room": 114
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 807
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 807
+      }
+    ]
   },
   "488-admiralty-link": {
     "blk_no": "488",
@@ -5428,15 +6119,17 @@
     "sold_units_by_type": {
       "4room": 119
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 754
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 754
+      }
+    ]
   },
   "489-admiralty-link": {
     "blk_no": "489",
@@ -5450,15 +6143,17 @@
     "sold_units_by_type": {
       "4room": 119
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 722
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 722
+      }
+    ]
   },
   "490-admiralty-link": {
     "blk_no": "490",
@@ -5472,15 +6167,17 @@
     "sold_units_by_type": {
       "4room": 119
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 738
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 738
+      }
+    ]
   },
   "491-admiralty-link": {
     "blk_no": "491",
@@ -5495,15 +6192,17 @@
       "4room": 108,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 806
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 806
+      }
+    ]
   },
   "492-admiralty-link": {
     "blk_no": "492",
@@ -5518,15 +6217,17 @@
       "4room": 56,
       "5room": 60
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 863
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 863
+      }
+    ]
   },
   "493-admiralty-link": {
     "blk_no": "493",
@@ -5541,15 +6242,17 @@
       "4room": 82,
       "5room": 59
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 887
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 887
+      }
+    ]
   },
   "501a-wellington-circle": {
     "blk_no": "501A",
@@ -5564,15 +6267,17 @@
       "4room": 44,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 312
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 312
+      }
+    ]
   },
   "501b-wellington-circle": {
     "blk_no": "501B",
@@ -5587,15 +6292,17 @@
       "4room": 33,
       "5room": 77
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 378
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 378
+      }
+    ]
   },
   "501c-wellington-circle": {
     "blk_no": "501C",
@@ -5610,15 +6317,17 @@
       "4room": 47,
       "5room": 66
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 341
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 341
+      }
+    ]
   },
   "501d-wellington-circle": {
     "blk_no": "501D",
@@ -5632,15 +6341,17 @@
     "sold_units_by_type": {
       "exec": 77
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 327
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 327
+      }
+    ]
   },
   "502a-wellington-circle": {
     "blk_no": "502A",
@@ -5654,15 +6365,17 @@
     "sold_units_by_type": {
       "exec": 77
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 250
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 250
+      }
+    ]
   },
   "503a-canberra-link": {
     "blk_no": "503A",
@@ -5676,15 +6389,17 @@
     "sold_units_by_type": {
       "exec": 84
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 231
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 231
+      }
+    ]
   },
   "503b-canberra-link": {
     "blk_no": "503B",
@@ -5699,15 +6414,17 @@
       "4room": 48,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 247
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 247
+      }
+    ]
   },
   "503c-canberra-link": {
     "blk_no": "503C",
@@ -5722,15 +6439,17 @@
       "4room": 48,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 334
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 334
+      }
+    ]
   },
   "504a-montreal-dr": {
     "blk_no": "504A",
@@ -5744,15 +6463,17 @@
     "sold_units_by_type": {
       "exec": 84
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 490
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 490
+      }
+    ]
   },
   "504b-montreal-dr": {
     "blk_no": "504B",
@@ -5767,15 +6488,17 @@
       "4room": 51,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 391
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 391
+      }
+    ]
   },
   "504c-canberra-link": {
     "blk_no": "504C",
@@ -5790,15 +6513,26 @@
       "4room": 36,
       "5room": 84
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 379
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 379
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 968
+      }
+    ]
   },
   "504d-montreal-dr": {
     "blk_no": "504D",
@@ -5813,15 +6547,26 @@
       "4room": 48,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 423
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 423
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 977
+      }
+    ]
   },
   "506a-wellington-circle": {
     "blk_no": "506A",
@@ -5835,15 +6580,17 @@
     "sold_units_by_type": {
       "exec": 77
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 520
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 520
+      }
+    ]
   },
   "507a-wellington-circle": {
     "blk_no": "507A",
@@ -5858,15 +6605,17 @@
       "4room": 44,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 580
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 580
+      }
+    ]
   },
   "507b-wellington-circle": {
     "blk_no": "507B",
@@ -5881,15 +6630,17 @@
       "4room": 33,
       "5room": 77
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 552
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 552
+      }
+    ]
   },
   "507c-wellington-circle": {
     "blk_no": "507C",
@@ -5904,15 +6655,17 @@
       "4room": 47,
       "5room": 66
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 461
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 461
+      }
+    ]
   },
   "507d-wellington-circle": {
     "blk_no": "507D",
@@ -5926,15 +6679,17 @@
     "sold_units_by_type": {
       "exec": 77
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 385
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 385
+      }
+    ]
   },
   "508a-wellington-circle": {
     "blk_no": "508A",
@@ -5948,15 +6703,17 @@
     "sold_units_by_type": {
       "4room": 98
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 383
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 383
+      }
+    ]
   },
   "508b-wellington-circle": {
     "blk_no": "508B",
@@ -5970,15 +6727,17 @@
     "sold_units_by_type": {
       "4room": 100
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 406
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 406
+      }
+    ]
   },
   "508c-wellington-circle": {
     "blk_no": "508C",
@@ -5992,15 +6751,17 @@
     "sold_units_by_type": {
       "4room": 98
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 454
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 454
+      }
+    ]
   },
   "509a-wellington-circle": {
     "blk_no": "509A",
@@ -6015,15 +6776,17 @@
       "4room": 50,
       "5room": 50
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 450
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 450
+      }
+    ]
   },
   "509b-wellington-circle": {
     "blk_no": "509B",
@@ -6038,15 +6801,17 @@
       "4room": 49,
       "5room": 49
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 487
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 487
+      }
+    ]
   },
   "510a-wellington-circle": {
     "blk_no": "510A",
@@ -6060,15 +6825,17 @@
     "sold_units_by_type": {
       "4room": 100
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 484
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 484
+      }
+    ]
   },
   "510b-wellington-circle": {
     "blk_no": "510B",
@@ -6083,15 +6850,17 @@
       "4room": 48,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 511
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 511
+      }
+    ]
   },
   "512-wellington-circle": {
     "blk_no": "512",
@@ -6107,15 +6876,17 @@
       "1room": 78,
       "2room": 52
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 532
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 532
+      }
+    ]
   },
   "513-wellington-circle": {
     "blk_no": "513",
@@ -6133,15 +6904,17 @@
       "1room": 91,
       "2room": 15
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit C",
-      "distance": 563
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit C",
+        "distance": 563
+      }
+    ]
   },
   "588a-montreal-dr": {
     "blk_no": "588A",
@@ -6155,15 +6928,26 @@
     "sold_units_by_type": {
       "5room": 105
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 613
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 613
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 856
+      }
+    ]
   },
   "588b-montreal-dr": {
     "blk_no": "588B",
@@ -6177,15 +6961,26 @@
     "sold_units_by_type": {
       "exec": 96
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 552
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 552
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 896
+      }
+    ]
   },
   "588c-montreal-dr": {
     "blk_no": "588C",
@@ -6199,15 +6994,26 @@
     "sold_units_by_type": {
       "5room": 109
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 496
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 496
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 934
+      }
+    ]
   },
   "589a-montreal-dr": {
     "blk_no": "589A",
@@ -6222,15 +7028,26 @@
       "4room": 75,
       "5room": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 603
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 603
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 790
+      }
+    ]
   },
   "589b-montreal-dr": {
     "blk_no": "589B",
@@ -6245,15 +7062,26 @@
       "4room": 74,
       "5room": 30
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 570
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 570
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 804
+      }
+    ]
   },
   "589c-montreal-dr": {
     "blk_no": "589C",
@@ -6268,15 +7096,26 @@
       "4room": 76,
       "5room": 33
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 507
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 507
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 843
+      }
+    ]
   },
   "589d-montreal-dr": {
     "blk_no": "589D",
@@ -6291,15 +7130,26 @@
       "4room": 76,
       "5room": 33
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 454
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 454
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 889
+      }
+    ]
   },
   "590a-montreal-link": {
     "blk_no": "590A",
@@ -6314,15 +7164,26 @@
       "2room": 60,
       "3room": 54
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 713
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 713
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 813
+      }
+    ]
   },
   "590b-montreal-link": {
     "blk_no": "590B",
@@ -6337,15 +7198,26 @@
       "3room": 31,
       "4room": 64
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 752
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 752
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 768
+      }
+    ]
   },
   "590c-montreal-link": {
     "blk_no": "590C",
@@ -6360,15 +7232,26 @@
       "3room": 15,
       "4room": 88
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 711
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 711
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 768
+      }
+    ]
   },
   "591a-montreal-link": {
     "blk_no": "591A",
@@ -6384,15 +7267,26 @@
       "3room": 54,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 680
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 680
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit D",
+        "distance": 873
+      }
+    ]
   },
   "592a-montreal-link": {
     "blk_no": "592A",
@@ -6407,15 +7301,26 @@
       "3room": 32,
       "4room": 53
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 776
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 776
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 857
+      }
+    ]
   },
   "592b-montreal-link": {
     "blk_no": "592B",
@@ -6429,15 +7334,26 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 811
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 811
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 823
+      }
+    ]
   },
   "592c-montreal-link": {
     "blk_no": "592C",
@@ -6451,15 +7367,26 @@
     "sold_units_by_type": {
       "4room": 112
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 829
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 829
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 881
+      }
+    ]
   },
   "593a-montreal-link": {
     "blk_no": "593A",
@@ -6474,15 +7401,26 @@
       "3room": 30,
       "4room": 105
     },
-    "nearest_station": {
-      "id": "sembawang",
-      "name": "Sembawang",
-      "codes": [
-        "NS11"
-      ],
-      "exit": "Exit D",
-      "distance": 884
-    }
+    "nearest_stations": [
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 884
+      },
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 899
+      }
+    ]
   },
   "593b-montreal-link": {
     "blk_no": "593B",
@@ -6497,14 +7435,25 @@
       "2room": 105,
       "3room": 45
     },
-    "nearest_station": {
-      "id": "canberra",
-      "name": "Canberra",
-      "codes": [
-        "NS12"
-      ],
-      "exit": "Exit A",
-      "distance": 871
-    }
+    "nearest_stations": [
+      {
+        "id": "canberra",
+        "name": "Canberra",
+        "codes": [
+          "NS12"
+        ],
+        "exit": "Exit A",
+        "distance": 871
+      },
+      {
+        "id": "sembawang",
+        "name": "Sembawang",
+        "codes": [
+          "NS11"
+        ],
+        "exit": "Exit D",
+        "distance": 922
+      }
+    ]
   }
 }

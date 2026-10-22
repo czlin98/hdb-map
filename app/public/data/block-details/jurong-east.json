@@ -13,16 +13,27 @@
       "4room": 40,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 471
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 471
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 785
+      }
+    ]
   },
   "102-jurong-east-st-13": {
     "blk_no": "102",
@@ -38,16 +49,27 @@
       "4room": 22,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 458
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 458
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 811
+      }
+    ]
   },
   "103-jurong-east-st-13": {
     "blk_no": "103",
@@ -61,16 +83,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 509
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 509
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 751
+      }
+    ]
   },
   "104-jurong-east-st-13": {
     "blk_no": "104",
@@ -84,16 +117,27 @@
     "sold_units_by_type": {
       "3room": 20
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 543
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 543
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 727
+      }
+    ]
   },
   "105-jurong-east-st-13": {
     "blk_no": "105",
@@ -107,16 +151,27 @@
     "sold_units_by_type": {
       "4room": 98
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 521
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 521
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 736
+      }
+    ]
   },
   "106-jurong-east-st-13": {
     "blk_no": "106",
@@ -130,16 +185,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 581
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 581
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 676
+      }
+    ]
   },
   "107-jurong-east-st-13": {
     "blk_no": "107",
@@ -154,16 +220,27 @@
       "5room": 25,
       "exec": 35
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 584
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 584
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 673
+      }
+    ]
   },
   "108-jurong-east-st-13": {
     "blk_no": "108",
@@ -177,15 +254,27 @@
     "sold_units_by_type": {
       "4room": 98
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 559
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 559
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 697
+      }
+    ]
   },
   "109-jurong-east-st-13": {
     "blk_no": "109",
@@ -199,15 +288,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 453
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 453
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 812
+      }
+    ]
   },
   "110-jurong-east-st-13": {
     "blk_no": "110",
@@ -223,15 +324,27 @@
       "4room": 18,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 434
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 434
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 821
+      }
+    ]
   },
   "111-jurong-east-st-13": {
     "blk_no": "111",
@@ -245,15 +358,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 396
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 396
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 867
+      }
+    ]
   },
   "112-jurong-east-st-13": {
     "blk_no": "112",
@@ -267,15 +392,27 @@
     "sold_units_by_type": {
       "4room": 120
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 376
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 376
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 879
+      }
+    ]
   },
   "113-jurong-east-st-13": {
     "blk_no": "113",
@@ -289,15 +426,27 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 346
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 346
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 940
+      }
+    ]
   },
   "114-jurong-east-st-13": {
     "blk_no": "114",
@@ -315,15 +464,27 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 294
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 294
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 984
+      }
+    ]
   },
   "115-jurong-east-st-13": {
     "blk_no": "115",
@@ -339,15 +500,27 @@
       "4room": 19,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 306
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 306
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 949
+      }
+    ]
   },
   "116-jurong-east-st-13": {
     "blk_no": "116",
@@ -361,15 +534,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 252
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 252
+      }
+    ]
   },
   "20-teban-gdns-rd": {
     "blk_no": "20",
@@ -384,16 +559,18 @@
       "3room": 153,
       "4room": 153
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1075
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1075
+      }
+    ]
   },
   "201-jurong-east-st-21": {
     "blk_no": "201",
@@ -407,16 +584,18 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 306
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 306
+      }
+    ]
   },
   "202-jurong-east-st-21": {
     "blk_no": "202",
@@ -430,16 +609,18 @@
     "sold_units_by_type": {
       "3room": 12
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 336
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 336
+      }
+    ]
   },
   "203-jurong-east-st-21": {
     "blk_no": "203",
@@ -455,16 +636,18 @@
       "4room": 5,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 328
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 328
+      }
+    ]
   },
   "204-jurong-east-st-21": {
     "blk_no": "204",
@@ -479,16 +662,18 @@
       "4room": 50,
       "5room": 58
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 357
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 357
+      }
+    ]
   },
   "205-jurong-east-st-21": {
     "blk_no": "205",
@@ -503,16 +688,18 @@
       "3room": 54,
       "4room": 36
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 417
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 417
+      }
+    ]
   },
   "206-jurong-east-st-21": {
     "blk_no": "206",
@@ -527,16 +714,18 @@
       "3room": 56,
       "4room": 28
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 425
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 425
+      }
+    ]
   },
   "207-jurong-east-st-21": {
     "blk_no": "207",
@@ -551,16 +740,18 @@
       "3room": 56,
       "4room": 56
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 440
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 440
+      }
+    ]
   },
   "208-jurong-east-st-21": {
     "blk_no": "208",
@@ -576,16 +767,18 @@
       "4room": 42,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 505
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 505
+      }
+    ]
   },
   "209-jurong-east-st-21": {
     "blk_no": "209",
@@ -600,16 +793,27 @@
       "4room": 50,
       "5room": 58
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 465
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 465
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 853
+      }
+    ]
   },
   "21-teban-gdns-rd": {
     "blk_no": "21",
@@ -624,16 +828,18 @@
       "4room": 227,
       "5room": 75
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1057
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1057
+      }
+    ]
   },
   "210-jurong-east-st-21": {
     "blk_no": "210",
@@ -650,15 +856,27 @@
       "5room": 2,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 646
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 646
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 651
+      }
+    ]
   },
   "211-jurong-east-st-21": {
     "blk_no": "211",
@@ -673,16 +891,27 @@
       "3room": 110,
       "4room": 50
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 545
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 545
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 832
+      }
+    ]
   },
   "212-jurong-east-st-21": {
     "blk_no": "212",
@@ -696,16 +925,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 588
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 588
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 825
+      }
+    ]
   },
   "213-jurong-east-st-21": {
     "blk_no": "213",
@@ -719,16 +959,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 603
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 603
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 763
+      }
+    ]
   },
   "214-jurong-east-st-21": {
     "blk_no": "214",
@@ -746,16 +997,27 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 665
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 665
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 671
+      }
+    ]
   },
   "215-jurong-east-st-21": {
     "blk_no": "215",
@@ -769,15 +1031,27 @@
     "sold_units_by_type": {
       "3room": 15
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 598
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 598
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 753
+      }
+    ]
   },
   "215a-jurong-east-st-21": {
     "blk_no": "215A",
@@ -792,15 +1066,27 @@
       "3room": 16,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 593
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 593
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 726
+      }
+    ]
   },
   "216-jurong-east-st-21": {
     "blk_no": "216",
@@ -814,15 +1100,27 @@
     "sold_units_by_type": {
       "exec": 88
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 541
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 541
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 757
+      }
+    ]
   },
   "217-jurong-east-st-21": {
     "blk_no": "217",
@@ -836,15 +1134,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 546
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 546
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 783
+      }
+    ]
   },
   "217a-jurong-east-st-21": {
     "blk_no": "217A",
@@ -858,15 +1168,27 @@
     "sold_units_by_type": {
       "3room": 12
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 573
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 573
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 809
+      }
+    ]
   },
   "218-jurong-east-st-21": {
     "blk_no": "218",
@@ -880,15 +1202,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 522
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 522
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 824
+      }
+    ]
   },
   "219-jurong-east-st-21": {
     "blk_no": "219",
@@ -902,15 +1236,27 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 522
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 522
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 862
+      }
+    ]
   },
   "219a-jurong-east-st-21": {
     "blk_no": "219A",
@@ -924,15 +1270,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 464
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 464
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 878
+      }
+    ]
   },
   "22-teban-gdns-rd": {
     "blk_no": "22",
@@ -947,16 +1305,18 @@
       "4room": 226,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1132
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1132
+      }
+    ]
   },
   "220-jurong-east-st-21": {
     "blk_no": "220",
@@ -970,15 +1330,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 457
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 457
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 921
+      }
+    ]
   },
   "221-jurong-east-st-21": {
     "blk_no": "221",
@@ -992,15 +1364,27 @@
     "sold_units_by_type": {
       "3room": 15
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 400
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 400
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 933
+      }
+    ]
   },
   "221a-jurong-east-st-21": {
     "blk_no": "221A",
@@ -1014,15 +1398,27 @@
     "sold_units_by_type": {
       "4room": 90
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 340
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 340
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 960
+      }
+    ]
   },
   "222-jurong-east-st-21": {
     "blk_no": "222",
@@ -1037,15 +1433,17 @@
       "3room": 8,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 275
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 275
+      }
+    ]
   },
   "223-jurong-east-st-21": {
     "blk_no": "223",
@@ -1059,15 +1457,17 @@
     "sold_units_by_type": {
       "4room": 24
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 305
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 305
+      }
+    ]
   },
   "223a-jurong-east-st-21": {
     "blk_no": "223A",
@@ -1082,15 +1482,27 @@
       "5room": 31,
       "exec": 32
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 374
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 374
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 992
+      }
+    ]
   },
   "224-jurong-east-st-21": {
     "blk_no": "224",
@@ -1104,15 +1516,17 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 372
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 372
+      }
+    ]
   },
   "225-jurong-east-st-21": {
     "blk_no": "225",
@@ -1127,15 +1541,17 @@
       "3room": 10,
       "4room": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 430
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 430
+      }
+    ]
   },
   "225a-jurong-east-st-21": {
     "blk_no": "225A",
@@ -1152,15 +1568,17 @@
       "5room": 3,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 386
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 386
+      }
+    ]
   },
   "226-jurong-east-st-21": {
     "blk_no": "226",
@@ -1174,15 +1592,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 273
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 273
+      }
+    ]
   },
   "227-jurong-east-st-21": {
     "blk_no": "227",
@@ -1196,15 +1616,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 301
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 301
+      }
+    ]
   },
   "228-jurong-east-st-21": {
     "blk_no": "228",
@@ -1219,15 +1641,17 @@
       "4room": 65,
       "5room": 46
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 341
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 341
+      }
+    ]
   },
   "229-jurong-east-st-21": {
     "blk_no": "229",
@@ -1242,15 +1666,27 @@
       "3room": 132,
       "4room": 22
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 515
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 515
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 966
+      }
+    ]
   },
   "23-teban-gdns-rd": {
     "blk_no": "23",
@@ -1266,16 +1702,18 @@
       "3room": 114,
       "4room": 36
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1140
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1140
+      }
+    ]
   },
   "230-jurong-east-st-21": {
     "blk_no": "230",
@@ -1289,15 +1727,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 455
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 455
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 964
+      }
+    ]
   },
   "231-jurong-east-st-21": {
     "blk_no": "231",
@@ -1313,15 +1763,27 @@
       "4room": 22,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 526
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 526
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 892
+      }
+    ]
   },
   "232-jurong-east-st-21": {
     "blk_no": "232",
@@ -1337,16 +1799,27 @@
       "4room": 36,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 657
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 657
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 848
+      }
+    ]
   },
   "233-jurong-east-st-21": {
     "blk_no": "233",
@@ -1361,16 +1834,27 @@
       "3room": 70,
       "4room": 14
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 716
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 716
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 849
+      }
+    ]
   },
   "234-jurong-east-st-21": {
     "blk_no": "234",
@@ -1385,16 +1869,27 @@
       "4room": 12,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 661
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 661
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 935
+      }
+    ]
   },
   "235-jurong-east-st-21": {
     "blk_no": "235",
@@ -1408,16 +1903,27 @@
     "sold_units_by_type": {
       "3room": 15
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 667
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 667
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 990
+      }
+    ]
   },
   "236-jurong-east-st-21": {
     "blk_no": "236",
@@ -1431,16 +1937,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 715
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 715
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 980
+      }
+    ]
   },
   "237-jurong-east-st-21": {
     "blk_no": "237",
@@ -1454,16 +1971,27 @@
     "sold_units_by_type": {
       "3room": 12
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 750
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 750
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 874
+      }
+    ]
   },
   "238-jurong-east-st-21": {
     "blk_no": "238",
@@ -1477,16 +2005,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 760
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 760
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 803
+      }
+    ]
   },
   "239-jurong-east-st-21": {
     "blk_no": "239",
@@ -1500,16 +2039,27 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 781
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 781
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 839
+      }
+    ]
   },
   "24-teban-gdns-rd": {
     "blk_no": "24",
@@ -1523,16 +2073,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1135
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1135
+      }
+    ]
   },
   "240-jurong-east-st-21": {
     "blk_no": "240",
@@ -1547,16 +2099,27 @@
       "4room": 12,
       "5room": 68
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 787
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 787
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 911
+      }
+    ]
   },
   "240a-jurong-east-ave-1": {
     "blk_no": "240A",
@@ -1570,16 +2133,27 @@
     "sold_units_by_type": {
       "3room": 63
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 783
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 783
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 996
+      }
+    ]
   },
   "240b-jurong-east-ave-1": {
     "blk_no": "240B",
@@ -1595,16 +2169,18 @@
       "1room": 81,
       "2room": 81
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 775
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 775
+      }
+    ]
   },
   "241-jurong-east-st-24": {
     "blk_no": "241",
@@ -1620,16 +2196,18 @@
       "4room": 24,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 844
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 844
+      }
+    ]
   },
   "242-jurong-east-st-24": {
     "blk_no": "242",
@@ -1643,16 +2221,18 @@
     "sold_units_by_type": {
       "3room": 12
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 888
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 888
+      }
+    ]
   },
   "243-jurong-east-st-24": {
     "blk_no": "243",
@@ -1667,16 +2247,27 @@
       "3room": 88,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 914
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 914
+      },
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 956
+      }
+    ]
   },
   "244-jurong-east-st-24": {
     "blk_no": "244",
@@ -1694,16 +2285,27 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 962
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 962
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 979
+      }
+    ]
   },
   "245-jurong-east-st-24": {
     "blk_no": "245",
@@ -1719,16 +2321,27 @@
       "4room": 36,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 855
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 855
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 933
+      }
+    ]
   },
   "246-jurong-east-st-24": {
     "blk_no": "246",
@@ -1743,15 +2356,27 @@
       "4room": 12,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 741
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 741
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 886
+      }
+    ]
   },
   "247-jurong-east-st-24": {
     "blk_no": "247",
@@ -1771,15 +2396,27 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 626
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 626
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 944
+      }
+    ]
   },
   "248-jurong-east-st-24": {
     "blk_no": "248",
@@ -1794,15 +2431,27 @@
       "3room": 112,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 750
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 750
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 939
+      }
+    ]
   },
   "249-jurong-east-st-24": {
     "blk_no": "249",
@@ -1817,15 +2466,27 @@
       "3room": 80,
       "4room": 22
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 662
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 662
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 993
+      }
+    ]
   },
   "25-teban-gdns-rd": {
     "blk_no": "25",
@@ -1839,16 +2500,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1181
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1181
+      }
+    ]
   },
   "250-jurong-east-st-24": {
     "blk_no": "250",
@@ -1863,15 +2526,27 @@
       "3room": 88,
       "4room": 22
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 742
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 742
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 983
+      }
+    ]
   },
   "251-jurong-east-st-24": {
     "blk_no": "251",
@@ -1885,15 +2560,17 @@
     "sold_units_by_type": {
       "4room": 112
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 721
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 721
+      }
+    ]
   },
   "252-jurong-east-st-24": {
     "blk_no": "252",
@@ -1910,15 +2587,17 @@
     "rental_units_by_type": {
       "3room": 15
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 553
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 553
+      }
+    ]
   },
   "253-jurong-east-st-24": {
     "blk_no": "253",
@@ -1935,15 +2614,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 418
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 418
+      }
+    ]
   },
   "256-jurong-east-st-24": {
     "blk_no": "256",
@@ -1960,15 +2641,17 @@
     "rental_units_by_type": {
       "3room": 5
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 614
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 614
+      }
+    ]
   },
   "257-jurong-east-st-24": {
     "blk_no": "257",
@@ -1987,15 +2670,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 668
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 668
+      }
+    ]
   },
   "258-jurong-east-st-24": {
     "blk_no": "258",
@@ -2010,15 +2695,17 @@
       "4room": 20,
       "5room": 100
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 633
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 633
+      }
+    ]
   },
   "259-jurong-east-st-24": {
     "blk_no": "259",
@@ -2033,15 +2720,17 @@
       "3room": 10,
       "4room": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 777
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 777
+      }
+    ]
   },
   "260-jurong-east-st-24": {
     "blk_no": "260",
@@ -2056,15 +2745,17 @@
       "4room": 16,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 796
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 796
+      }
+    ]
   },
   "261-jurong-east-st-24": {
     "blk_no": "261",
@@ -2080,15 +2771,17 @@
       "4room": 64,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 844
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 844
+      }
+    ]
   },
   "262-jurong-east-st-24": {
     "blk_no": "262",
@@ -2103,15 +2796,17 @@
       "3room": 13,
       "4room": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 904
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 904
+      }
+    ]
   },
   "263-jurong-east-st-24": {
     "blk_no": "263",
@@ -2126,15 +2821,26 @@
       "4room": 12,
       "5room": 68
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 931
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 931
+      },
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 984
+      }
+    ]
   },
   "264-jurong-east-st-24": {
     "blk_no": "264",
@@ -2151,15 +2857,26 @@
       "5room": 1,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 952
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 952
+      },
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 973
+      }
+    ]
   },
   "265-toh-guan-rd": {
     "blk_no": "265",
@@ -2174,16 +2891,27 @@
       "4room": 45,
       "5room": 90
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 816
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 816
+      },
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 987
+      }
+    ]
   },
   "266-toh-guan-rd": {
     "blk_no": "266",
@@ -2197,16 +2925,27 @@
     "sold_units_by_type": {
       "4room": 86
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 866
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 866
+      },
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 948
+      }
+    ]
   },
   "267-toh-guan-rd": {
     "blk_no": "267",
@@ -2221,16 +2960,27 @@
       "4room": 45,
       "5room": 90
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 861
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 861
+      },
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 942
+      }
+    ]
   },
   "268-toh-guan-rd": {
     "blk_no": "268",
@@ -2245,15 +2995,27 @@
       "4room": 72,
       "5room": 15
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 857
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 857
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 949
+      }
+    ]
   },
   "269-toh-guan-rd": {
     "blk_no": "269",
@@ -2268,15 +3030,27 @@
       "4room": 45,
       "5room": 90
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 862
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 862
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 938
+      }
+    ]
   },
   "270-toh-guan-rd": {
     "blk_no": "270",
@@ -2291,15 +3065,27 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 865
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 865
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 940
+      }
+    ]
   },
   "271-toh-guan-rd": {
     "blk_no": "271",
@@ -2314,15 +3100,27 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 813
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 813
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 990
+      }
+    ]
   },
   "272-toh-guan-rd": {
     "blk_no": "272",
@@ -2337,15 +3135,27 @@
       "4room": 45,
       "5room": 90
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 813
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 813
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 989
+      }
+    ]
   },
   "273-toh-guan-rd": {
     "blk_no": "273",
@@ -2359,15 +3169,17 @@
     "sold_units_by_type": {
       "4room": 76
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 766
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 766
+      }
+    ]
   },
   "274-toh-guan-rd": {
     "blk_no": "274",
@@ -2381,15 +3193,17 @@
     "sold_units_by_type": {
       "4room": 98
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 751
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 751
+      }
+    ]
   },
   "275-toh-guan-rd": {
     "blk_no": "275",
@@ -2403,15 +3217,17 @@
     "sold_units_by_type": {
       "4room": 76
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 827
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 827
+      }
+    ]
   },
   "276-toh-guan-rd": {
     "blk_no": "276",
@@ -2426,15 +3242,17 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 848
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 848
+      }
+    ]
   },
   "277-toh-guan-rd": {
     "blk_no": "277",
@@ -2449,15 +3267,27 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 832
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 832
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 984
+      }
+    ]
   },
   "278-toh-guan-rd": {
     "blk_no": "278",
@@ -2472,15 +3302,27 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 886
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 886
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 928
+      }
+    ]
   },
   "279-toh-guan-rd": {
     "blk_no": "279",
@@ -2495,15 +3337,27 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 892
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 892
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 934
+      }
+    ]
   },
   "280-toh-guan-rd": {
     "blk_no": "280",
@@ -2517,15 +3371,27 @@
     "sold_units_by_type": {
       "4room": 95
     },
-    "nearest_station": {
-      "id": "bukit-batok",
-      "name": "Bukit Batok",
-      "codes": [
-        "NS2"
-      ],
-      "exit": "Exit D",
-      "distance": 906
-    }
+    "nearest_stations": [
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 906
+      },
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit D",
+        "distance": 946
+      }
+    ]
   },
   "281-toh-guan-rd": {
     "blk_no": "281",
@@ -2540,16 +3406,27 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 836
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 836
+      },
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 993
+      }
+    ]
   },
   "282-toh-guan-rd": {
     "blk_no": "282",
@@ -2563,16 +3440,18 @@
     "sold_units_by_type": {
       "4room": 95
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit D",
-      "distance": 857
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit D",
+        "distance": 857
+      }
+    ]
   },
   "283-toh-guan-rd": {
     "blk_no": "283",
@@ -2586,16 +3465,18 @@
     "sold_units_by_type": {
       "4room": 100
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit D",
-      "distance": 809
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit D",
+        "distance": 809
+      }
+    ]
   },
   "284-toh-guan-rd": {
     "blk_no": "284",
@@ -2610,16 +3491,18 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 788
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 788
+      }
+    ]
   },
   "285a-toh-guan-rd": {
     "blk_no": "285A",
@@ -2634,16 +3517,18 @@
       "5room": 2,
       "exec": 111
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit D",
-      "distance": 703
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit D",
+        "distance": 703
+      }
+    ]
   },
   "285b-toh-guan-rd": {
     "blk_no": "285B",
@@ -2658,16 +3543,18 @@
       "4room": 69,
       "5room": 30
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit D",
-      "distance": 739
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit D",
+        "distance": 739
+      }
+    ]
   },
   "285c-toh-guan-rd": {
     "blk_no": "285C",
@@ -2681,16 +3568,18 @@
     "sold_units_by_type": {
       "exec": 68
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit D",
-      "distance": 677
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit D",
+        "distance": 677
+      }
+    ]
   },
   "285d-toh-guan-rd": {
     "blk_no": "285D",
@@ -2705,16 +3594,18 @@
       "5room": 2,
       "exec": 111
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit D",
-      "distance": 634
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit D",
+        "distance": 634
+      }
+    ]
   },
   "286a-toh-guan-rd": {
     "blk_no": "286A",
@@ -2729,16 +3620,18 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 677
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 677
+      }
+    ]
   },
   "286b-toh-guan-rd": {
     "blk_no": "286B",
@@ -2753,16 +3646,18 @@
       "5room": 2,
       "exec": 111
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 633
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 633
+      }
+    ]
   },
   "286c-toh-guan-rd": {
     "blk_no": "286C",
@@ -2777,16 +3672,18 @@
       "5room": 2,
       "exec": 111
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 627
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 627
+      }
+    ]
   },
   "286d-toh-guan-rd": {
     "blk_no": "286D",
@@ -2801,16 +3698,18 @@
       "4room": 37,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 695
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 695
+      }
+    ]
   },
   "287a-jurong-east-st-21": {
     "blk_no": "287A",
@@ -2825,16 +3724,18 @@
       "5room": 2,
       "exec": 111
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 548
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 548
+      }
+    ]
   },
   "287b-jurong-east-st-21": {
     "blk_no": "287B",
@@ -2849,16 +3750,18 @@
       "5room": 2,
       "exec": 111
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 567
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 567
+      }
+    ]
   },
   "287c-jurong-east-st-21": {
     "blk_no": "287C",
@@ -2872,16 +3775,18 @@
     "sold_units_by_type": {
       "exec": 111
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 553
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 553
+      }
+    ]
   },
   "287d-jurong-east-st-21": {
     "blk_no": "287D",
@@ -2895,16 +3800,18 @@
     "sold_units_by_type": {
       "exec": 68
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 505
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 505
+      }
+    ]
   },
   "288a-jurong-east-st-21": {
     "blk_no": "288A",
@@ -2919,16 +3826,18 @@
       "4room": 45,
       "5room": 90
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 560
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 560
+      }
+    ]
   },
   "288b-jurong-east-st-21": {
     "blk_no": "288B",
@@ -2943,16 +3852,18 @@
       "4room": 42,
       "5room": 30
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 564
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 564
+      }
+    ]
   },
   "288c-jurong-east-st-21": {
     "blk_no": "288C",
@@ -2966,16 +3877,18 @@
     "sold_units_by_type": {
       "exec": 80
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 644
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 644
+      }
+    ]
   },
   "288d-jurong-east-st-21": {
     "blk_no": "288D",
@@ -2990,16 +3903,18 @@
       "4room": 45,
       "5room": 90
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 688
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 688
+      }
+    ]
   },
   "288e-jurong-east-st-21": {
     "blk_no": "288E",
@@ -3014,16 +3929,18 @@
       "4room": 45,
       "5room": 30
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 739
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 739
+      }
+    ]
   },
   "289a-toh-guan-rd": {
     "blk_no": "289A",
@@ -3038,16 +3955,18 @@
       "2room": 56,
       "3room": 14
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 789
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 789
+      }
+    ]
   },
   "289b-toh-guan-rd": {
     "blk_no": "289B",
@@ -3063,16 +3982,27 @@
       "3room": 48,
       "4room": 132
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 848
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 848
+      },
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 952
+      }
+    ]
   },
   "289c-toh-guan-rd": {
     "blk_no": "289C",
@@ -3088,16 +4018,27 @@
       "3room": 23,
       "4room": 108
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit A",
-      "distance": 843
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit A",
+        "distance": 843
+      },
+      {
+        "id": "bukit-batok",
+        "name": "Bukit Batok",
+        "codes": [
+          "NS2"
+        ],
+        "exit": "Exit D",
+        "distance": 965
+      }
+    ]
   },
   "30-teban-gdns-rd": {
     "blk_no": "30",
@@ -3111,16 +4052,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1360
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1360
+      }
+    ]
   },
   "301-jurong-east-st-32": {
     "blk_no": "301",
@@ -3137,15 +4080,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 361
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 361
+      }
+    ]
   },
   "302-jurong-east-st-32": {
     "blk_no": "302",
@@ -3161,15 +4106,17 @@
       "4room": 21,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 352
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 352
+      }
+    ]
   },
   "303-jurong-east-st-32": {
     "blk_no": "303",
@@ -3186,15 +4133,17 @@
       "5room": 1,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit C",
-      "distance": 442
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit C",
+        "distance": 442
+      }
+    ]
   },
   "304-jurong-east-st-32": {
     "blk_no": "304",
@@ -3210,15 +4159,17 @@
       "4room": 33,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 412
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 412
+      }
+    ]
   },
   "305-jurong-east-st-32": {
     "blk_no": "305",
@@ -3233,15 +4184,17 @@
       "4room": 20,
       "5room": 112
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 473
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 473
+      }
+    ]
   },
   "306-jurong-east-st-32": {
     "blk_no": "306",
@@ -3258,15 +4211,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 526
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 526
+      }
+    ]
   },
   "307-jurong-east-st-32": {
     "blk_no": "307",
@@ -3281,15 +4236,17 @@
       "4room": 24,
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 540
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 540
+      }
+    ]
   },
   "308-jurong-east-st-32": {
     "blk_no": "308",
@@ -3305,15 +4262,17 @@
       "4room": 75,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 602
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 602
+      }
+    ]
   },
   "309-jurong-east-st-32": {
     "blk_no": "309",
@@ -3328,15 +4287,17 @@
       "4room": 24,
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 602
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 602
+      }
+    ]
   },
   "31-teban-gdns-rd": {
     "blk_no": "31",
@@ -3350,16 +4311,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1419
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1419
+      }
+    ]
   },
   "310-jurong-east-st-32": {
     "blk_no": "310",
@@ -3374,15 +4337,17 @@
       "4room": 72,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 665
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 665
+      }
+    ]
   },
   "311-jurong-east-st-32": {
     "blk_no": "311",
@@ -3397,15 +4362,17 @@
       "4room": 57,
       "5room": 39
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 583
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 583
+      }
+    ]
   },
   "312-jurong-east-st-32": {
     "blk_no": "312",
@@ -3420,15 +4387,17 @@
       "4room": 78,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 498
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 498
+      }
+    ]
   },
   "313-jurong-east-st-32": {
     "blk_no": "313",
@@ -3443,15 +4412,17 @@
       "3room": 54,
       "4room": 36
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 539
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 539
+      }
+    ]
   },
   "314-jurong-east-st-32": {
     "blk_no": "314",
@@ -3466,15 +4437,17 @@
       "4room": 69,
       "5room": 39
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 483
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 483
+      }
+    ]
   },
   "315-jurong-east-st-32": {
     "blk_no": "315",
@@ -3489,15 +4462,17 @@
       "3room": 60,
       "4room": 84
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 406
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 406
+      }
+    ]
   },
   "316-jurong-east-st-32": {
     "blk_no": "316",
@@ -3512,15 +4487,17 @@
       "4room": 114,
       "5room": 63
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 397
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 397
+      }
+    ]
   },
   "317-jurong-east-st-31": {
     "blk_no": "317",
@@ -3535,15 +4512,17 @@
       "4room": 108,
       "5room": 54
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 487
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 487
+      }
+    ]
   },
   "318-jurong-east-st-31": {
     "blk_no": "318",
@@ -3558,15 +4537,17 @@
       "3room": 17,
       "4room": 2
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 593
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 593
+      }
+    ]
   },
   "318a-jurong-east-ave-1": {
     "blk_no": "318A",
@@ -3581,15 +4562,17 @@
       "2room": 62,
       "studio_apartment": 81
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 592
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 592
+      }
+    ]
   },
   "319-jurong-east-st-31": {
     "blk_no": "319",
@@ -3603,15 +4586,17 @@
     "sold_units_by_type": {
       "4room": 120
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 648
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 648
+      }
+    ]
   },
   "32-teban-gdns-rd": {
     "blk_no": "32",
@@ -3625,16 +4610,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1227
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1227
+      }
+    ]
   },
   "320-jurong-east-st-31": {
     "blk_no": "320",
@@ -3649,15 +4636,17 @@
       "4room": 72,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 722
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 722
+      }
+    ]
   },
   "321-jurong-east-st-31": {
     "blk_no": "321",
@@ -3672,15 +4661,17 @@
       "3room": 54,
       "4room": 36
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 699
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 699
+      }
+    ]
   },
   "322-jurong-east-st-31": {
     "blk_no": "322",
@@ -3695,15 +4686,26 @@
       "4room": 24,
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 709
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 709
+      },
+      {
+        "id": "lakeside",
+        "name": "Lakeside",
+        "codes": [
+          "EW26"
+        ],
+        "exit": "Exit C",
+        "distance": 927
+      }
+    ]
   },
   "322a-jurong-east-st-31": {
     "blk_no": "322A",
@@ -3717,15 +4719,26 @@
     "sold_units_by_type": {
       "exec": 80
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 687
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 687
+      },
+      {
+        "id": "lakeside",
+        "name": "Lakeside",
+        "codes": [
+          "EW26"
+        ],
+        "exit": "Exit C",
+        "distance": 885
+      }
+    ]
   },
   "323-jurong-east-st-31": {
     "blk_no": "323",
@@ -3739,15 +4752,26 @@
     "sold_units_by_type": {
       "exec": 76
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 753
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 753
+      },
+      {
+        "id": "lakeside",
+        "name": "Lakeside",
+        "codes": [
+          "EW26"
+        ],
+        "exit": "Exit C",
+        "distance": 927
+      }
+    ]
   },
   "324-jurong-east-st-31": {
     "blk_no": "324",
@@ -3762,15 +4786,17 @@
       "4room": 57,
       "5room": 39
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 738
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 738
+      }
+    ]
   },
   "325-jurong-east-st-31": {
     "blk_no": "325",
@@ -3784,15 +4810,26 @@
     "sold_units_by_type": {
       "exec": 76
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 794
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 794
+      },
+      {
+        "id": "lakeside",
+        "name": "Lakeside",
+        "codes": [
+          "EW26"
+        ],
+        "exit": "Exit C",
+        "distance": 951
+      }
+    ]
   },
   "326-jurong-east-st-31": {
     "blk_no": "326",
@@ -3806,15 +4843,17 @@
     "sold_units_by_type": {
       "3room": 12
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 787
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 787
+      }
+    ]
   },
   "327-jurong-east-st-31": {
     "blk_no": "327",
@@ -3828,15 +4867,26 @@
     "sold_units_by_type": {
       "exec": 76
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 826
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 826
+      },
+      {
+        "id": "lakeside",
+        "name": "Lakeside",
+        "codes": [
+          "EW26"
+        ],
+        "exit": "Exit C",
+        "distance": 970
+      }
+    ]
   },
   "328-jurong-east-st-31": {
     "blk_no": "328",
@@ -3851,15 +4901,17 @@
       "4room": 54,
       "5room": 42
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 821
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 821
+      }
+    ]
   },
   "329-jurong-east-ave-1": {
     "blk_no": "329",
@@ -3875,15 +4927,17 @@
       "4room": 48,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 893
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 893
+      }
+    ]
   },
   "33-teban-gdns-rd": {
     "blk_no": "33",
@@ -3898,16 +4952,18 @@
       "3room": 100,
       "5room": 6
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1362
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1362
+      }
+    ]
   },
   "330-jurong-east-ave-1": {
     "blk_no": "330",
@@ -3925,15 +4981,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 935
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 935
+      }
+    ]
   },
   "331-jurong-east-ave-1": {
     "blk_no": "331",
@@ -3948,15 +5006,17 @@
       "4room": 28,
       "5room": 96
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 954
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 954
+      }
+    ]
   },
   "332-jurong-east-ave-1": {
     "blk_no": "332",
@@ -3971,15 +5031,17 @@
       "4room": 76,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 1042
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 1042
+      }
+    ]
   },
   "333-jurong-east-ave-1": {
     "blk_no": "333",
@@ -3993,15 +5055,17 @@
     "sold_units_by_type": {
       "exec": 12
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 989
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 989
+      }
+    ]
   },
   "334-jurong-east-ave-1": {
     "blk_no": "334",
@@ -4015,15 +5079,17 @@
     "sold_units_by_type": {
       "exec": 24
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 931
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 931
+      }
+    ]
   },
   "335-jurong-east-ave-1": {
     "blk_no": "335",
@@ -4037,15 +5103,17 @@
     "sold_units_by_type": {
       "exec": 16
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 865
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 865
+      }
+    ]
   },
   "336-jurong-east-ave-1": {
     "blk_no": "336",
@@ -4059,15 +5127,17 @@
     "sold_units_by_type": {
       "exec": 72
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 890
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 890
+      }
+    ]
   },
   "337-jurong-east-ave-1": {
     "blk_no": "337",
@@ -4081,15 +5151,17 @@
     "sold_units_by_type": {
       "exec": 84
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 806
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 806
+      }
+    ]
   },
   "338-jurong-east-ave-1": {
     "blk_no": "338",
@@ -4103,15 +5175,17 @@
     "sold_units_by_type": {
       "4room": 18
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 872
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 872
+      }
+    ]
   },
   "339-jurong-east-ave-1": {
     "blk_no": "339",
@@ -4126,15 +5200,17 @@
       "3room": 72,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 792
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 792
+      }
+    ]
   },
   "34-teban-gdns-rd": {
     "blk_no": "34",
@@ -4149,16 +5225,18 @@
       "3room": 100,
       "5room": 6
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1410
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1410
+      }
+    ]
   },
   "340-jurong-east-ave-1": {
     "blk_no": "340",
@@ -4172,15 +5250,17 @@
     "sold_units_by_type": {
       "5room": 84
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 872
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 872
+      }
+    ]
   },
   "341-jurong-east-ave-1": {
     "blk_no": "341",
@@ -4195,15 +5275,17 @@
       "3room": 72,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 760
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 760
+      }
+    ]
   },
   "343-jurong-east-st-31": {
     "blk_no": "343",
@@ -4220,15 +5302,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 403
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 403
+      }
+    ]
   },
   "345-jurong-east-st-31": {
     "blk_no": "345",
@@ -4242,15 +5326,17 @@
     "sold_units_by_type": {
       "3room": 13
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 359
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 359
+      }
+    ]
   },
   "346-jurong-east-st-31": {
     "blk_no": "346",
@@ -4264,15 +5350,26 @@
     "sold_units_by_type": {
       "3room": 3
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 374
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 374
+      },
+      {
+        "id": "lakeside",
+        "name": "Lakeside",
+        "codes": [
+          "EW26"
+        ],
+        "exit": "Exit C",
+        "distance": 993
+      }
+    ]
   },
   "348-jurong-east-ave-1": {
     "blk_no": "348",
@@ -4286,15 +5383,17 @@
     "sold_units_by_type": {
       "3room": 8
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 269
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 269
+      }
+    ]
   },
   "349-jurong-east-ave-1": {
     "blk_no": "349",
@@ -4308,15 +5407,17 @@
     "sold_units_by_type": {
       "3room": 14
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 241
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 241
+      }
+    ]
   },
   "35-teban-gdns-rd": {
     "blk_no": "35",
@@ -4331,16 +5432,18 @@
       "3room": 104,
       "5room": 4
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1443
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1443
+      }
+    ]
   },
   "351-jurong-east-st-31": {
     "blk_no": "351",
@@ -4354,15 +5457,17 @@
     "sold_units_by_type": {
       "3room": 12
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 311
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 311
+      }
+    ]
   },
   "352-jurong-east-st-31": {
     "blk_no": "352",
@@ -4376,15 +5481,26 @@
     "sold_units_by_type": {
       "3room": 12
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 342
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 342
+      },
+      {
+        "id": "lakeside",
+        "name": "Lakeside",
+        "codes": [
+          "EW26"
+        ],
+        "exit": "Exit C",
+        "distance": 968
+      }
+    ]
   },
   "36-teban-gdns-rd": {
     "blk_no": "36",
@@ -4399,16 +5515,18 @@
       "3room": 96,
       "5room": 8
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1396
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1396
+      }
+    ]
   },
   "37-teban-gdns-rd": {
     "blk_no": "37",
@@ -4422,16 +5540,18 @@
     "sold_units_by_type": {
       "3room": 40
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1334
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1334
+      }
+    ]
   },
   "371-jurong-east-st-32": {
     "blk_no": "371",
@@ -4446,15 +5566,17 @@
       "2room": 90,
       "3room": 105
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 654
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 654
+      }
+    ]
   },
   "372-jurong-east-st-32": {
     "blk_no": "372",
@@ -4469,15 +5591,17 @@
       "2room": 120,
       "3room": 90
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 693
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 693
+      }
+    ]
   },
   "373-jurong-east-st-32": {
     "blk_no": "373",
@@ -4493,15 +5617,17 @@
       "1room": 176,
       "2room": 55
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 769
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 769
+      }
+    ]
   },
   "374-jurong-east-st-32": {
     "blk_no": "374",
@@ -4517,15 +5643,17 @@
       "1room": 176,
       "2room": 55
     },
-    "nearest_station": {
-      "id": "chinese-garden",
-      "name": "Chinese Garden",
-      "codes": [
-        "EW25"
-      ],
-      "exit": "Exit A",
-      "distance": 799
-    }
+    "nearest_stations": [
+      {
+        "id": "chinese-garden",
+        "name": "Chinese Garden",
+        "codes": [
+          "EW25"
+        ],
+        "exit": "Exit A",
+        "distance": 799
+      }
+    ]
   },
   "38-teban-gdns-rd": {
     "blk_no": "38",
@@ -4539,16 +5667,18 @@
     "sold_units_by_type": {
       "3room": 40
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1266
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1266
+      }
+    ]
   },
   "39-teban-gdns-rd": {
     "blk_no": "39",
@@ -4562,16 +5692,18 @@
     "sold_units_by_type": {
       "3room": 40
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1241
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1241
+      }
+    ]
   },
   "40-teban-gdns-rd": {
     "blk_no": "40",
@@ -4586,16 +5718,18 @@
       "3room": 94,
       "5room": 9
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1245
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1245
+      }
+    ]
   },
   "401-pandan-gdns": {
     "blk_no": "401",
@@ -4609,16 +5743,18 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1599
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1599
+      }
+    ]
   },
   "402-pandan-gdns": {
     "blk_no": "402",
@@ -4632,16 +5768,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1516
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1516
+      }
+    ]
   },
   "403-pandan-gdns": {
     "blk_no": "403",
@@ -4655,16 +5793,18 @@
     "sold_units_by_type": {
       "5room": 112
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1550
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1550
+      }
+    ]
   },
   "404-pandan-gdns": {
     "blk_no": "404",
@@ -4678,16 +5818,18 @@
     "sold_units_by_type": {
       "5room": 112
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1595
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1595
+      }
+    ]
   },
   "405-pandan-gdns": {
     "blk_no": "405",
@@ -4701,16 +5843,18 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1671
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1671
+      }
+    ]
   },
   "406-pandan-gdns": {
     "blk_no": "406",
@@ -4724,16 +5868,18 @@
     "sold_units_by_type": {
       "5room": 112
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1691
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1691
+      }
+    ]
   },
   "407-pandan-gdns": {
     "blk_no": "407",
@@ -4747,16 +5893,18 @@
     "sold_units_by_type": {
       "5room": 112
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1656
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1656
+      }
+    ]
   },
   "408-pandan-gdns": {
     "blk_no": "408",
@@ -4770,16 +5918,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1734
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1734
+      }
+    ]
   },
   "409-pandan-gdns": {
     "blk_no": "409",
@@ -4793,16 +5943,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1645
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1645
+      }
+    ]
   },
   "41-teban-gdns-rd": {
     "blk_no": "41",
@@ -4816,16 +5968,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1230
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1230
+      }
+    ]
   },
   "410-pandan-gdns": {
     "blk_no": "410",
@@ -4840,16 +5994,18 @@
       "3room": 162,
       "5room": 3
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1595
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1595
+      }
+    ]
   },
   "411-pandan-gdns": {
     "blk_no": "411",
@@ -4864,16 +6020,18 @@
       "3room": 162,
       "5room": 3
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1568
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1568
+      }
+    ]
   },
   "412-pandan-gdns": {
     "blk_no": "412",
@@ -4888,16 +6046,18 @@
       "3room": 158,
       "5room": 5
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1519
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1519
+      }
+    ]
   },
   "413-pandan-gdns": {
     "blk_no": "413",
@@ -4911,16 +6071,18 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1563
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1563
+      }
+    ]
   },
   "414-pandan-gdns": {
     "blk_no": "414",
@@ -4934,16 +6096,18 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1475
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1475
+      }
+    ]
   },
   "415-pandan-gdns": {
     "blk_no": "415",
@@ -4960,16 +6124,18 @@
     "rental_units_by_type": {
       "3room": 2
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1449
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1449
+      }
+    ]
   },
   "416-pandan-gdns": {
     "blk_no": "416",
@@ -4983,16 +6149,18 @@
     "sold_units_by_type": {
       "3room": 30
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1426
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1426
+      }
+    ]
   },
   "43-teban-gdns-rd": {
     "blk_no": "43",
@@ -5007,16 +6175,18 @@
       "3room": 66,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1275
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1275
+      }
+    ]
   },
   "44-teban-gdns-rd": {
     "blk_no": "44",
@@ -5031,16 +6201,18 @@
       "3room": 66,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1314
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1314
+      }
+    ]
   },
   "45-teban-gdns-rd": {
     "blk_no": "45",
@@ -5054,16 +6226,18 @@
     "sold_units_by_type": {
       "exec": 22
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1397
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1397
+      }
+    ]
   },
   "46-teban-gdns-rd": {
     "blk_no": "46",
@@ -5077,16 +6251,18 @@
     "sold_units_by_type": {
       "exec": 24
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1410
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1410
+      }
+    ]
   },
   "47-teban-gdns-rd": {
     "blk_no": "47",
@@ -5101,16 +6277,18 @@
       "3room": 66,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1412
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1412
+      }
+    ]
   },
   "48-teban-gdns-rd": {
     "blk_no": "48",
@@ -5125,16 +6303,18 @@
       "3room": 66,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1370
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1370
+      }
+    ]
   },
   "49-teban-gdns-rd": {
     "blk_no": "49",
@@ -5149,16 +6329,18 @@
       "3room": 10,
       "4room": 5
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1375
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1375
+      }
+    ]
   },
   "50-teban-gdns-rd": {
     "blk_no": "50",
@@ -5172,16 +6354,18 @@
     "sold_units_by_type": {
       "exec": 72
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1431
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1431
+      }
+    ]
   },
   "51-teban-gdns-rd": {
     "blk_no": "51",
@@ -5195,16 +6379,18 @@
     "sold_units_by_type": {
       "exec": 72
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1448
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1448
+      }
+    ]
   },
   "52-teban-gdns-rd": {
     "blk_no": "52",
@@ -5219,16 +6405,18 @@
       "4room": 82,
       "5room": 42
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1403
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1403
+      }
+    ]
   },
   "53-teban-gdns-rd": {
     "blk_no": "53",
@@ -5243,16 +6431,18 @@
       "4room": 78,
       "5room": 42
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1361
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1361
+      }
+    ]
   },
   "54-teban-gdns-rd": {
     "blk_no": "54",
@@ -5267,16 +6457,18 @@
       "3room": 18,
       "4room": 13
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1371
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1371
+      }
+    ]
   },
   "55-teban-gdns-rd": {
     "blk_no": "55",
@@ -5291,16 +6483,18 @@
       "3room": 74,
       "4room": 111
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1311
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1311
+      }
+    ]
   },
   "56-teban-gdns-rd": {
     "blk_no": "56",
@@ -5314,16 +6508,18 @@
     "sold_units_by_type": {
       "4room": 148
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1270
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1270
+      }
+    ]
   },
   "57-teban-gdns-rd": {
     "blk_no": "57",
@@ -5338,16 +6534,18 @@
       "3room": 111,
       "4room": 74
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1246
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1246
+      }
+    ]
   },
   "60-teban-gdns-rd": {
     "blk_no": "60",
@@ -5362,16 +6560,18 @@
       "4room": 62,
       "5room": 83
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1173
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1173
+      }
+    ]
   },
   "62-teban-gdns-rd": {
     "blk_no": "62",
@@ -5386,16 +6586,18 @@
       "4room": 96,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1292
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1292
+      }
+    ]
   },
   "63-teban-gdns-rd": {
     "blk_no": "63",
@@ -5410,16 +6612,18 @@
       "4room": 26,
       "5room": 96
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1325
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1325
+      }
+    ]
   },
   "64-teban-gdns-rd": {
     "blk_no": "64",
@@ -5434,16 +6638,18 @@
       "4room": 98,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1280
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1280
+      }
+    ]
   },
   "65-teban-gdns-rd": {
     "blk_no": "65",
@@ -5458,15 +6664,17 @@
       "4room": 96,
       "5room": 24
     },
-    "nearest_station": {
-      "id": "jurong-east",
-      "name": "Jurong East",
-      "codes": [
-        "NS1",
-        "EW24"
-      ],
-      "exit": "Exit B",
-      "distance": 1234
-    }
+    "nearest_stations": [
+      {
+        "id": "jurong-east",
+        "name": "Jurong East",
+        "codes": [
+          "NS1",
+          "EW24"
+        ],
+        "exit": "Exit B",
+        "distance": 1234
+      }
+    ]
   }
 }

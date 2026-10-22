@@ -12,15 +12,17 @@
       "4room": 18,
       "5room": 94
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 846
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 846
+      }
+    ]
   },
   "102-clementi-st-14": {
     "blk_no": "102",
@@ -34,15 +36,17 @@
     "sold_units_by_type": {
       "exec": 8
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 880
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 880
+      }
+    ]
   },
   "103-clementi-st-14": {
     "blk_no": "103",
@@ -57,15 +61,17 @@
       "4room": 18,
       "5room": 86
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 907
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 907
+      }
+    ]
   },
   "104-clementi-st-14": {
     "blk_no": "104",
@@ -79,15 +85,17 @@
     "sold_units_by_type": {
       "exec": 16
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 943
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 943
+      }
+    ]
   },
   "105-clementi-st-12": {
     "blk_no": "105",
@@ -104,15 +112,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 960
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 960
+      }
+    ]
   },
   "109-clementi-st-11": {
     "blk_no": "109",
@@ -126,15 +136,17 @@
     "sold_units_by_type": {
       "3room": 47
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 954
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 954
+      }
+    ]
   },
   "110-clementi-st-13": {
     "blk_no": "110",
@@ -148,15 +160,17 @@
     "sold_units_by_type": {
       "exec": 24
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1037
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1037
+      }
+    ]
   },
   "111-clementi-st-13": {
     "blk_no": "111",
@@ -170,15 +184,17 @@
     "sold_units_by_type": {
       "exec": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1085
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1085
+      }
+    ]
   },
   "112-clementi-st-13": {
     "blk_no": "112",
@@ -192,15 +208,17 @@
     "sold_units_by_type": {
       "exec": 24
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1014
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1014
+      }
+    ]
   },
   "113-clementi-st-13": {
     "blk_no": "113",
@@ -214,15 +232,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1066
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1066
+      }
+    ]
   },
   "114-clementi-st-13": {
     "blk_no": "114",
@@ -236,15 +256,17 @@
     "sold_units_by_type": {
       "5room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1117
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1117
+      }
+    ]
   },
   "115-clementi-st-13": {
     "blk_no": "115",
@@ -258,15 +280,17 @@
     "sold_units_by_type": {
       "exec": 98
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1128
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1128
+      }
+    ]
   },
   "116-clementi-st-13": {
     "blk_no": "116",
@@ -280,15 +304,17 @@
     "sold_units_by_type": {
       "exec": 98
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1219
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1219
+      }
+    ]
   },
   "117-clementi-st-13": {
     "blk_no": "117",
@@ -302,15 +328,17 @@
     "sold_units_by_type": {
       "4room": 140
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1202
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1202
+      }
+    ]
   },
   "118-clementi-st-13": {
     "blk_no": "118",
@@ -324,15 +352,17 @@
     "sold_units_by_type": {
       "4room": 140
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 1288
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 1288
+      }
+    ]
   },
   "201-clementi-ave-6": {
     "blk_no": "201",
@@ -346,15 +376,17 @@
     "sold_units_by_type": {
       "exec": 88
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 562
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 562
+      }
+    ]
   },
   "202-clementi-ave-6": {
     "blk_no": "202",
@@ -368,15 +400,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 642
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 642
+      }
+    ]
   },
   "203-clementi-ave-6": {
     "blk_no": "203",
@@ -390,15 +424,17 @@
     "sold_units_by_type": {
       "5room": 8
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 669
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 669
+      }
+    ]
   },
   "204-clementi-ave-6": {
     "blk_no": "204",
@@ -413,15 +449,17 @@
       "4room": 12,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 651
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 651
+      }
+    ]
   },
   "205-clementi-ave-6": {
     "blk_no": "205",
@@ -435,15 +473,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 693
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 693
+      }
+    ]
   },
   "206-clementi-ave-6": {
     "blk_no": "206",
@@ -457,15 +497,17 @@
     "sold_units_by_type": {
       "exec": 85
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 747
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 747
+      }
+    ]
   },
   "208a-clementi-ave-6": {
     "blk_no": "208A",
@@ -480,15 +522,17 @@
       "3room": 67,
       "4room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 782
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 782
+      }
+    ]
   },
   "208b-clementi-ave-6": {
     "blk_no": "208B",
@@ -503,15 +547,17 @@
       "3room": 67,
       "4room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 851
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 851
+      }
+    ]
   },
   "209a-clementi-ave-6": {
     "blk_no": "209A",
@@ -526,15 +572,17 @@
       "4room": 76,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 769
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 769
+      }
+    ]
   },
   "209b-clementi-ave-6": {
     "blk_no": "209B",
@@ -549,15 +597,17 @@
       "4room": 76,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 858
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 858
+      }
+    ]
   },
   "210a-clementi-ave-6": {
     "blk_no": "210A",
@@ -572,15 +622,17 @@
       "4room": 131,
       "5room": 124
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 740
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 740
+      }
+    ]
   },
   "210b-clementi-ave-6": {
     "blk_no": "210B",
@@ -596,15 +648,17 @@
       "4room": 168,
       "5room": 62
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 857
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 857
+      }
+    ]
   },
   "210c-clementi-ave-6": {
     "blk_no": "210C",
@@ -619,15 +673,17 @@
       "4room": 38,
       "5room": 115
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 912
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 912
+      }
+    ]
   },
   "211a-clementi-ave-6": {
     "blk_no": "211A",
@@ -643,15 +699,17 @@
       "4room": 40,
       "5room": 49
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 962
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 962
+      }
+    ]
   },
   "301-clementi-ave-4": {
     "blk_no": "301",
@@ -665,15 +723,17 @@
     "sold_units_by_type": {
       "4room": 112
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 746
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 746
+      }
+    ]
   },
   "302-clementi-ave-4": {
     "blk_no": "302",
@@ -687,15 +747,17 @@
     "sold_units_by_type": {
       "4room": 112
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 698
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 698
+      }
+    ]
   },
   "303-clementi-ave-4": {
     "blk_no": "303",
@@ -712,15 +774,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 653
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 653
+      }
+    ]
   },
   "304-clementi-ave-4": {
     "blk_no": "304",
@@ -736,15 +800,17 @@
       "4room": 22,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 607
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 607
+      }
+    ]
   },
   "305-clementi-ave-4": {
     "blk_no": "305",
@@ -761,15 +827,17 @@
       "5room": 3,
       "exec": 4
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 739
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 739
+      }
+    ]
   },
   "306-clementi-ave-4": {
     "blk_no": "306",
@@ -785,15 +853,17 @@
       "4room": 22,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 668
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 668
+      }
+    ]
   },
   "307-clementi-ave-4": {
     "blk_no": "307",
@@ -810,15 +880,17 @@
       "5room": 3,
       "exec": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 695
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 695
+      }
+    ]
   },
   "308-clementi-ave-4": {
     "blk_no": "308",
@@ -835,15 +907,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 650
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 650
+      }
+    ]
   },
   "309-clementi-ave-4": {
     "blk_no": "309",
@@ -859,15 +933,17 @@
       "4room": 22,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 620
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 620
+      }
+    ]
   },
   "310-clementi-ave-4": {
     "blk_no": "310",
@@ -884,15 +960,17 @@
       "5room": 1,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 540
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 540
+      }
+    ]
   },
   "311a-clementi-ave-4": {
     "blk_no": "311A",
@@ -908,15 +986,17 @@
       "4room": 185,
       "5room": 37
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 407
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 407
+      }
+    ]
   },
   "311b-clementi-ave-4": {
     "blk_no": "311B",
@@ -932,15 +1012,17 @@
       "4room": 185,
       "5room": 37
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 445
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 445
+      }
+    ]
   },
   "311c-clementi-ave-4": {
     "blk_no": "311C",
@@ -956,15 +1038,17 @@
       "4room": 148,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 517
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 517
+      }
+    ]
   },
   "312a-clementi-ave-4": {
     "blk_no": "312A",
@@ -980,15 +1064,17 @@
       "4room": 78,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 411
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 411
+      }
+    ]
   },
   "312b-clementi-ave-4": {
     "blk_no": "312B",
@@ -1004,15 +1090,17 @@
       "4room": 78,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 474
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 474
+      }
+    ]
   },
   "312c-clementi-ave-4": {
     "blk_no": "312C",
@@ -1027,15 +1115,17 @@
       "4room": 156,
       "5room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 469
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 469
+      }
+    ]
   },
   "315-clementi-ave-4": {
     "blk_no": "315",
@@ -1049,15 +1139,17 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 335
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 335
+      }
+    ]
   },
   "316-clementi-ave-4": {
     "blk_no": "316",
@@ -1071,15 +1163,17 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 342
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 342
+      }
+    ]
   },
   "317-clementi-ave-4": {
     "blk_no": "317",
@@ -1093,15 +1187,17 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 295
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 295
+      }
+    ]
   },
   "318-clementi-ave-4": {
     "blk_no": "318",
@@ -1115,15 +1211,17 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 287
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 287
+      }
+    ]
   },
   "319-clementi-ave-4": {
     "blk_no": "319",
@@ -1138,15 +1236,17 @@
       "3room": 138,
       "5room": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 217
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 217
+      }
+    ]
   },
   "320-clementi-ave-4": {
     "blk_no": "320",
@@ -1161,15 +1261,17 @@
       "3room": 176,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 160
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 160
+      }
+    ]
   },
   "324-clementi-ave-5": {
     "blk_no": "324",
@@ -1183,15 +1285,17 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 103
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 103
+      }
+    ]
   },
   "325-clementi-ave-5": {
     "blk_no": "325",
@@ -1207,15 +1311,17 @@
       "4room": 8,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 158
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 158
+      }
+    ]
   },
   "326-clementi-ave-5": {
     "blk_no": "326",
@@ -1232,15 +1338,17 @@
       "5room": 2,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 74
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 74
+      }
+    ]
   },
   "327-clementi-ave-5": {
     "blk_no": "327",
@@ -1255,15 +1363,17 @@
       "3room": 105,
       "4room": 45
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 89
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 89
+      }
+    ]
   },
   "328-clementi-ave-2": {
     "blk_no": "328",
@@ -1278,15 +1388,17 @@
       "3room": 31,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 150
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 150
+      }
+    ]
   },
   "329-clementi-ave-2": {
     "blk_no": "329",
@@ -1303,15 +1415,17 @@
       "5room": 2,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 215
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 215
+      }
+    ]
   },
   "330-clementi-ave-2": {
     "blk_no": "330",
@@ -1327,15 +1441,17 @@
       "4room": 33,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 231
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 231
+      }
+    ]
   },
   "331-clementi-ave-2": {
     "blk_no": "331",
@@ -1350,15 +1466,17 @@
       "3room": 121,
       "4room": 33
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 244
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 244
+      }
+    ]
   },
   "332-clementi-ave-2": {
     "blk_no": "332",
@@ -1372,15 +1490,17 @@
     "sold_units_by_type": {
       "4room": 130
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 204
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 204
+      }
+    ]
   },
   "333-clementi-ave-2": {
     "blk_no": "333",
@@ -1394,15 +1514,17 @@
     "sold_units_by_type": {
       "4room": 130
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 225
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 225
+      }
+    ]
   },
   "334-clementi-ave-2": {
     "blk_no": "334",
@@ -1418,15 +1540,17 @@
       "4room": 33,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 319
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 319
+      }
+    ]
   },
   "335-clementi-ave-2": {
     "blk_no": "335",
@@ -1443,15 +1567,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 406
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 406
+      }
+    ]
   },
   "336-clementi-ave-2": {
     "blk_no": "336",
@@ -1465,15 +1591,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 469
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 469
+      }
+    ]
   },
   "337-clementi-ave-2": {
     "blk_no": "337",
@@ -1487,15 +1615,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 429
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 429
+      }
+    ]
   },
   "338-clementi-ave-2": {
     "blk_no": "338",
@@ -1509,15 +1639,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 482
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 482
+      }
+    ]
   },
   "339-clementi-ave-5": {
     "blk_no": "339",
@@ -1534,15 +1666,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 641
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 641
+      }
+    ]
   },
   "340-clementi-ave-5": {
     "blk_no": "340",
@@ -1557,15 +1691,17 @@
       "4room": 16,
       "5room": 94
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 653
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 653
+      }
+    ]
   },
   "341-clementi-ave-5": {
     "blk_no": "341",
@@ -1582,15 +1718,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 592
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 592
+      }
+    ]
   },
   "342-clementi-ave-5": {
     "blk_no": "342",
@@ -1605,15 +1743,17 @@
       "4room": 12,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 610
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 610
+      }
+    ]
   },
   "343-clementi-ave-5": {
     "blk_no": "343",
@@ -1633,15 +1773,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 694
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 694
+      }
+    ]
   },
   "344-clementi-ave-5": {
     "blk_no": "344",
@@ -1658,15 +1800,17 @@
     "rental_units_by_type": {
       "2room": 180
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 525
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 525
+      }
+    ]
   },
   "345-clementi-ave-5": {
     "blk_no": "345",
@@ -1683,15 +1827,17 @@
       "5room": 2,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 499
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 499
+      }
+    ]
   },
   "346-clementi-ave-5": {
     "blk_no": "346",
@@ -1707,15 +1853,17 @@
       "4room": 22,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 568
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 568
+      }
+    ]
   },
   "347-clementi-ave-5": {
     "blk_no": "347",
@@ -1729,15 +1877,17 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 651
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 651
+      }
+    ]
   },
   "348-clementi-ave-5": {
     "blk_no": "348",
@@ -1751,15 +1901,17 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 642
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 642
+      }
+    ]
   },
   "349-clementi-ave-2": {
     "blk_no": "349",
@@ -1773,15 +1925,26 @@
     "sold_units_by_type": {
       "4room": 90
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 623
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 623
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit B",
+        "distance": 951
+      }
+    ]
   },
   "350-clementi-ave-2": {
     "blk_no": "350",
@@ -1795,15 +1958,17 @@
     "sold_units_by_type": {
       "4room": 90
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 520
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 520
+      }
+    ]
   },
   "351-clementi-ave-2": {
     "blk_no": "351",
@@ -1823,15 +1988,26 @@
     "rental_units_by_type": {
       "3room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 583
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 583
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 936
+      }
+    ]
   },
   "352-clementi-ave-2": {
     "blk_no": "352",
@@ -1847,15 +2023,26 @@
       "4room": 10,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 623
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 623
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 836
+      }
+    ]
   },
   "354-clementi-ave-2": {
     "blk_no": "354",
@@ -1870,15 +2057,26 @@
       "3room": 97,
       "4room": 10
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 573
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 573
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 860
+      }
+    ]
   },
   "355-clementi-ave-2": {
     "blk_no": "355",
@@ -1892,15 +2090,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 425
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 425
+      }
+    ]
   },
   "356-clementi-ave-2": {
     "blk_no": "356",
@@ -1914,15 +2114,26 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 454
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 454
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 984
+      }
+    ]
   },
   "357-clementi-ave-2": {
     "blk_no": "357",
@@ -1936,15 +2147,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 384
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 384
+      }
+    ]
   },
   "358-clementi-ave-2": {
     "blk_no": "358",
@@ -1958,15 +2171,17 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 376
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 376
+      }
+    ]
   },
   "359-clementi-ave-2": {
     "blk_no": "359",
@@ -1980,15 +2195,26 @@
     "sold_units_by_type": {
       "4room": 88
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 462
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 462
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 967
+      }
+    ]
   },
   "362-clementi-ave-2": {
     "blk_no": "362",
@@ -2008,15 +2234,26 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 489
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 489
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 945
+      }
+    ]
   },
   "363-clementi-ave-2": {
     "blk_no": "363",
@@ -2032,15 +2269,17 @@
       "4room": 22,
       "exec": 4
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 382
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 382
+      }
+    ]
   },
   "364-clementi-ave-2": {
     "blk_no": "364",
@@ -2056,15 +2295,17 @@
       "4room": 22,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 387
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 387
+      }
+    ]
   },
   "365-clementi-ave-2": {
     "blk_no": "365",
@@ -2079,15 +2320,26 @@
       "3room": 132,
       "4room": 22
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 510
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 510
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 935
+      }
+    ]
   },
   "366-clementi-ave-2": {
     "blk_no": "366",
@@ -2105,15 +2357,26 @@
       "1room": 84,
       "2room": 42
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 683
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 683
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 748
+      }
+    ]
   },
   "367-clementi-ave-2": {
     "blk_no": "367",
@@ -2132,15 +2395,26 @@
       "1room": 84,
       "2room": 41
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 670
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 670
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 759
+      }
+    ]
   },
   "371-clementi-ave-4": {
     "blk_no": "371",
@@ -2157,15 +2431,17 @@
       "5room": 1,
       "exec": 5
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 660
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 660
+      }
+    ]
   },
   "372-clementi-ave-4": {
     "blk_no": "372",
@@ -2180,15 +2456,17 @@
       "4room": 16,
       "5room": 94
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 561
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 561
+      }
+    ]
   },
   "373-clementi-ave-4": {
     "blk_no": "373",
@@ -2202,15 +2480,17 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 507
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 507
+      }
+    ]
   },
   "374-clementi-ave-4": {
     "blk_no": "374",
@@ -2226,15 +2506,17 @@
       "4room": 22,
       "5room": 4
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 453
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 453
+      }
+    ]
   },
   "375-clementi-ave-4": {
     "blk_no": "375",
@@ -2251,15 +2533,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 376
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 376
+      }
+    ]
   },
   "376-clementi-ave-4": {
     "blk_no": "376",
@@ -2275,15 +2559,17 @@
       "4room": 22,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 337
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 337
+      }
+    ]
   },
   "377-clementi-ave-5": {
     "blk_no": "377",
@@ -2300,15 +2586,17 @@
       "5room": 1,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 388
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 388
+      }
+    ]
   },
   "378-clementi-ave-5": {
     "blk_no": "378",
@@ -2323,15 +2611,17 @@
       "3room": 14,
       "4room": 5
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 329
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 329
+      }
+    ]
   },
   "379-clementi-ave-5": {
     "blk_no": "379",
@@ -2347,15 +2637,17 @@
       "4room": 22,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 405
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 405
+      }
+    ]
   },
   "380-clementi-ave-5": {
     "blk_no": "380",
@@ -2370,15 +2662,17 @@
       "3room": 10,
       "4room": 5
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 415
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 415
+      }
+    ]
   },
   "381-clementi-ave-5": {
     "blk_no": "381",
@@ -2392,15 +2686,17 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit B",
-      "distance": 467
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit B",
+        "distance": 467
+      }
+    ]
   },
   "410-c-wealth-ave-west": {
     "blk_no": "410",
@@ -2414,15 +2710,26 @@
     "sold_units_by_type": {
       "4room": 130
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 533
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 533
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 957
+      }
+    ]
   },
   "411-c-wealth-ave-west": {
     "blk_no": "411",
@@ -2436,15 +2743,26 @@
     "sold_units_by_type": {
       "4room": 130
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 560
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 560
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 973
+      }
+    ]
   },
   "412-c-wealth-ave-west": {
     "blk_no": "412",
@@ -2458,15 +2776,26 @@
     "sold_units_by_type": {
       "4room": 130
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 655
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 655
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 851
+      }
+    ]
   },
   "413-c-wealth-ave-west": {
     "blk_no": "413",
@@ -2480,15 +2809,26 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 672
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 672
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 801
+      }
+    ]
   },
   "414-c-wealth-ave-west": {
     "blk_no": "414",
@@ -2502,15 +2842,26 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 713
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 713
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 743
+      }
+    ]
   },
   "415-c-wealth-ave-west": {
     "blk_no": "415",
@@ -2524,15 +2875,26 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 738
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 738
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 749
+      }
+    ]
   },
   "416-clementi-ave-1": {
     "blk_no": "416",
@@ -2547,15 +2909,26 @@
       "4room": 74,
       "5room": 148
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 755
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 755
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 782
+      }
+    ]
   },
   "417-clementi-ave-1": {
     "blk_no": "417",
@@ -2570,15 +2943,26 @@
       "3room": 68,
       "4room": 68
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 721
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 721
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 834
+      }
+    ]
   },
   "418-clementi-ave-1": {
     "blk_no": "418",
@@ -2594,15 +2978,26 @@
       "3room": 50,
       "4room": 50
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 648
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 648
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 933
+      }
+    ]
   },
   "419-clementi-ave-1": {
     "blk_no": "419",
@@ -2618,15 +3013,26 @@
       "1room": 136,
       "2room": 85
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 612
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 612
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 978
+      }
+    ]
   },
   "420-clementi-ave-1": {
     "blk_no": "420",
@@ -2641,15 +3047,17 @@
       "3room": 76,
       "4room": 224
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 592
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 592
+      }
+    ]
   },
   "421-clementi-ave-1": {
     "blk_no": "421",
@@ -2664,15 +3072,17 @@
       "3room": 76,
       "4room": 224
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 633
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 633
+      }
+    ]
   },
   "422-clementi-ave-1": {
     "blk_no": "422",
@@ -2688,15 +3098,17 @@
       "1room": 170,
       "2room": 119
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 680
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 680
+      }
+    ]
   },
   "423-clementi-ave-1": {
     "blk_no": "423",
@@ -2712,15 +3124,26 @@
       "3room": 50,
       "4room": 50
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 699
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 699
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 957
+      }
+    ]
   },
   "424-clementi-ave-1": {
     "blk_no": "424",
@@ -2735,15 +3158,26 @@
       "3room": 68,
       "4room": 68
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 737
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 737
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 892
+      }
+    ]
   },
   "425-clementi-ave-1": {
     "blk_no": "425",
@@ -2758,15 +3192,26 @@
       "4room": 74,
       "5room": 148
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 782
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 782
+      },
+      {
+        "id": "dover",
+        "name": "Dover",
+        "codes": [
+          "EW22"
+        ],
+        "exit": "Exit A",
+        "distance": 823
+      }
+    ]
   },
   "426-clementi-ave-3": {
     "blk_no": "426",
@@ -2786,15 +3231,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 316
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 316
+      }
+    ]
   },
   "427-clementi-ave-3": {
     "blk_no": "427",
@@ -2810,15 +3257,17 @@
       "4room": 22,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 306
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 306
+      }
+    ]
   },
   "428-clementi-ave-3": {
     "blk_no": "428",
@@ -2837,15 +3286,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 309
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 309
+      }
+    ]
   },
   "429-clementi-ave-3": {
     "blk_no": "429",
@@ -2862,15 +3313,17 @@
       "5room": 1,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 328
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 328
+      }
+    ]
   },
   "430-clementi-ave-3": {
     "blk_no": "430",
@@ -2889,15 +3342,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 347
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 347
+      }
+    ]
   },
   "431-clementi-ave-3": {
     "blk_no": "431",
@@ -2917,15 +3372,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 325
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 325
+      }
+    ]
   },
   "432-clementi-ave-3": {
     "blk_no": "432",
@@ -2941,15 +3398,17 @@
       "4room": 22,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 291
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 291
+      }
+    ]
   },
   "433-clementi-ave-3": {
     "blk_no": "433",
@@ -2966,15 +3425,17 @@
       "5room": 1,
       "exec": 4
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 382
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 382
+      }
+    ]
   },
   "434-clementi-ave-3": {
     "blk_no": "434",
@@ -2990,15 +3451,17 @@
       "4room": 24,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 385
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 385
+      }
+    ]
   },
   "435-clementi-ave-3": {
     "blk_no": "435",
@@ -3016,15 +3479,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 287
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 287
+      }
+    ]
   },
   "440a-clementi-ave-3": {
     "blk_no": "440A",
@@ -3040,15 +3505,17 @@
       "3room": 102,
       "4room": 52
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 113
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 113
+      }
+    ]
   },
   "440b-clementi-ave-3": {
     "blk_no": "440B",
@@ -3063,15 +3530,17 @@
       "3room": 72,
       "4room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 184
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 184
+      }
+    ]
   },
   "440c-clementi-ave-3": {
     "blk_no": "440C",
@@ -3086,15 +3555,17 @@
       "4room": 75,
       "5room": 75
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 182
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 182
+      }
+    ]
   },
   "441a-clementi-ave-3": {
     "blk_no": "441A",
@@ -3109,15 +3580,17 @@
       "4room": 66,
       "5room": 66
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 84
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 84
+      }
+    ]
   },
   "441b-clementi-ave-3": {
     "blk_no": "441B",
@@ -3132,15 +3605,17 @@
       "3room": 64,
       "4room": 192
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 127
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 127
+      }
+    ]
   },
   "442-clementi-ave-3": {
     "blk_no": "442",
@@ -3156,15 +3631,17 @@
       "4room": 6,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 117
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 117
+      }
+    ]
   },
   "443-clementi-ave-3": {
     "blk_no": "443",
@@ -3178,15 +3655,17 @@
     "sold_units_by_type": {
       "3room": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 169
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 169
+      }
+    ]
   },
   "445a-clementi-ave-3": {
     "blk_no": "445A",
@@ -3201,15 +3680,17 @@
       "4room": 114,
       "5room": 78
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 215
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 215
+      }
+    ]
   },
   "445b-clementi-ave-3": {
     "blk_no": "445B",
@@ -3224,15 +3705,17 @@
       "4room": 115,
       "5room": 78
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 189
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 189
+      }
+    ]
   },
   "446-clementi-ave-3": {
     "blk_no": "446",
@@ -3246,15 +3729,17 @@
     "sold_units_by_type": {
       "3room": 16
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 188
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 188
+      }
+    ]
   },
   "449-clementi-ave-3": {
     "blk_no": "449",
@@ -3270,15 +3755,17 @@
       "4room": 4,
       "exec": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 99
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 99
+      }
+    ]
   },
   "450-clementi-ave-3": {
     "blk_no": "450",
@@ -3292,15 +3779,17 @@
     "sold_units_by_type": {
       "3room": 42
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 61
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 61
+      }
+    ]
   },
   "454-clementi-ave-3": {
     "blk_no": "454",
@@ -3314,15 +3803,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 223
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 223
+      }
+    ]
   },
   "455-clementi-ave-3": {
     "blk_no": "455",
@@ -3336,15 +3827,17 @@
     "sold_units_by_type": {
       "4room": 80
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 249
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 249
+      }
+    ]
   },
   "456-clementi-ave-3": {
     "blk_no": "456",
@@ -3358,15 +3851,17 @@
     "sold_units_by_type": {
       "4room": 80
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 284
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 284
+      }
+    ]
   },
   "457-clementi-ave-3": {
     "blk_no": "457",
@@ -3380,15 +3875,17 @@
     "sold_units_by_type": {
       "4room": 94
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 311
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 311
+      }
+    ]
   },
   "458-clementi-ave-3": {
     "blk_no": "458",
@@ -3402,15 +3899,17 @@
     "sold_units_by_type": {
       "5room": 74
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 314
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 314
+      }
+    ]
   },
   "459-clementi-ave-3": {
     "blk_no": "459",
@@ -3424,15 +3923,17 @@
     "sold_units_by_type": {
       "5room": 95
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 343
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 343
+      }
+    ]
   },
   "460-clementi-ave-3": {
     "blk_no": "460",
@@ -3446,15 +3947,17 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 359
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 359
+      }
+    ]
   },
   "461-clementi-ave-3": {
     "blk_no": "461",
@@ -3469,15 +3972,17 @@
       "4room": 137,
       "5room": 50
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 344
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 344
+      }
+    ]
   },
   "462-clementi-ave-3": {
     "blk_no": "462",
@@ -3491,15 +3996,17 @@
     "sold_units_by_type": {
       "4room": 183
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 333
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 333
+      }
+    ]
   },
   "464a-clementi-ave-1": {
     "blk_no": "464A",
@@ -3514,15 +4021,17 @@
       "4room": 272,
       "5room": 78
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 461
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 461
+      }
+    ]
   },
   "464b-clementi-ave-1": {
     "blk_no": "464B",
@@ -3539,15 +4048,17 @@
       "4room": 78,
       "5room": 76
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit C",
-      "distance": 511
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit C",
+        "distance": 511
+      }
+    ]
   },
   "465a-clementi-ave-1": {
     "blk_no": "465A",
@@ -3562,15 +4073,17 @@
       "4room": 195,
       "5room": 117
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 585
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 585
+      }
+    ]
   },
   "466a-clementi-ave-1": {
     "blk_no": "466A",
@@ -3585,15 +4098,17 @@
       "3room": 70,
       "4room": 42
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 508
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 508
+      }
+    ]
   },
   "501-west-coast-dr": {
     "blk_no": "501",
@@ -3610,15 +4125,17 @@
     "rental_units_by_type": {
       "3room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit A",
-      "distance": 716
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit A",
+        "distance": 716
+      }
+    ]
   },
   "505-west-coast-dr": {
     "blk_no": "505",
@@ -3632,15 +4149,17 @@
     "sold_units_by_type": {
       "3room": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 653
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 653
+      }
+    ]
   },
   "506-west-coast-dr": {
     "blk_no": "506",
@@ -3656,15 +4175,17 @@
       "4room": 33,
       "exec": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 551
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 551
+      }
+    ]
   },
   "507-west-coast-dr": {
     "blk_no": "507",
@@ -3680,15 +4201,17 @@
       "4room": 33,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 575
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 575
+      }
+    ]
   },
   "508-west-coast-dr": {
     "blk_no": "508",
@@ -3707,15 +4230,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 502
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 502
+      }
+    ]
   },
   "509-west-coast-dr": {
     "blk_no": "509",
@@ -3731,15 +4256,17 @@
       "4room": 39,
       "5room": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 601
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 601
+      }
+    ]
   },
   "510-west-coast-dr": {
     "blk_no": "510",
@@ -3755,15 +4282,17 @@
       "4room": 39,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 642
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 642
+      }
+    ]
   },
   "511-west-coast-dr": {
     "blk_no": "511",
@@ -3777,15 +4306,17 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 710
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 710
+      }
+    ]
   },
   "512-west-coast-dr": {
     "blk_no": "512",
@@ -3799,15 +4330,17 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 752
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 752
+      }
+    ]
   },
   "601-clementi-west-st-1": {
     "blk_no": "601",
@@ -3821,15 +4354,17 @@
     "sold_units_by_type": {
       "4room": 130
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1035
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1035
+      }
+    ]
   },
   "602-clementi-west-st-1": {
     "blk_no": "602",
@@ -3846,15 +4381,17 @@
       "5room": 2,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 999
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 999
+      }
+    ]
   },
   "603-clementi-west-st-1": {
     "blk_no": "603",
@@ -3869,15 +4406,17 @@
       "3room": 21,
       "4room": 6
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1051
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1051
+      }
+    ]
   },
   "604-clementi-west-st-1": {
     "blk_no": "604",
@@ -3891,15 +4430,17 @@
     "sold_units_by_type": {
       "5room": 84
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 985
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 985
+      }
+    ]
   },
   "605-clementi-west-st-1": {
     "blk_no": "605",
@@ -3913,15 +4454,17 @@
     "sold_units_by_type": {
       "5room": 84
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1004
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1004
+      }
+    ]
   },
   "606-clementi-west-st-1": {
     "blk_no": "606",
@@ -3935,15 +4478,17 @@
     "sold_units_by_type": {
       "5room": 84
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1060
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1060
+      }
+    ]
   },
   "607-clementi-west-st-1": {
     "blk_no": "607",
@@ -3958,15 +4503,17 @@
       "3room": 132,
       "4room": 22
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1123
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1123
+      }
+    ]
   },
   "608-clementi-west-st-1": {
     "blk_no": "608",
@@ -3986,15 +4533,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1088
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1088
+      }
+    ]
   },
   "609-clementi-west-st-1": {
     "blk_no": "609",
@@ -4008,15 +4557,17 @@
     "sold_units_by_type": {
       "4room": 130
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1110
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1110
+      }
+    ]
   },
   "610-clementi-west-st-1": {
     "blk_no": "610",
@@ -4031,15 +4582,17 @@
       "3room": 132,
       "4room": 66
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1118
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1118
+      }
+    ]
   },
   "611-clementi-west-st-1": {
     "blk_no": "611",
@@ -4054,15 +4607,17 @@
       "3room": 136,
       "4room": 72
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1233
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1233
+      }
+    ]
   },
   "612-clementi-west-st-1": {
     "blk_no": "612",
@@ -4077,15 +4632,17 @@
       "3room": 129,
       "4room": 85
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1231
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1231
+      }
+    ]
   },
   "613-clementi-west-st-1": {
     "blk_no": "613",
@@ -4100,15 +4657,17 @@
       "4room": 20,
       "5room": 108
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1177
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1177
+      }
+    ]
   },
   "701-west-coast-rd": {
     "blk_no": "701",
@@ -4125,15 +4684,17 @@
       "5room": 3,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 857
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 857
+      }
+    ]
   },
   "702-west-coast-rd": {
     "blk_no": "702",
@@ -4149,15 +4710,17 @@
       "4room": 24,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 905
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 905
+      }
+    ]
   },
   "703-west-coast-rd": {
     "blk_no": "703",
@@ -4174,15 +4737,17 @@
       "5room": 1,
       "exec": 4
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 983
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 983
+      }
+    ]
   },
   "704-west-coast-rd": {
     "blk_no": "704",
@@ -4199,15 +4764,17 @@
       "5room": 1,
       "exec": 5
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1026
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1026
+      }
+    ]
   },
   "705-clementi-west-st-2": {
     "blk_no": "705",
@@ -4224,15 +4791,17 @@
       "5room": 2,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1084
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1084
+      }
+    ]
   },
   "706-clementi-west-st-2": {
     "blk_no": "706",
@@ -4248,15 +4817,17 @@
       "4room": 22,
       "5room": 5
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 888
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 888
+      }
+    ]
   },
   "707-clementi-west-st-2": {
     "blk_no": "707",
@@ -4270,15 +4841,17 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 935
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 935
+      }
+    ]
   },
   "708-clementi-west-st-2": {
     "blk_no": "708",
@@ -4292,15 +4865,17 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1004
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1004
+      }
+    ]
   },
   "709-clementi-west-st-2": {
     "blk_no": "709",
@@ -4314,15 +4889,17 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1050
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1050
+      }
+    ]
   },
   "710-clementi-west-st-2": {
     "blk_no": "710",
@@ -4339,15 +4916,17 @@
       "5room": 2,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 976
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 976
+      }
+    ]
   },
   "711-clementi-west-st-2": {
     "blk_no": "711",
@@ -4364,15 +4943,17 @@
       "5room": 1,
       "exec": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1140
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1140
+      }
+    ]
   },
   "712-clementi-west-st-2": {
     "blk_no": "712",
@@ -4386,15 +4967,17 @@
     "sold_units_by_type": {
       "4room": 132
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1093
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1093
+      }
+    ]
   },
   "713-clementi-west-st-2": {
     "blk_no": "713",
@@ -4411,15 +4994,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1168
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1168
+      }
+    ]
   },
   "714-clementi-west-st-2": {
     "blk_no": "714",
@@ -4436,15 +5021,17 @@
       "5room": 1,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1170
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1170
+      }
+    ]
   },
   "715-clementi-west-st-2": {
     "blk_no": "715",
@@ -4460,15 +5047,17 @@
       "4room": 73,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1280
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1280
+      }
+    ]
   },
   "716-clementi-west-st-2": {
     "blk_no": "716",
@@ -4482,15 +5071,17 @@
     "sold_units_by_type": {
       "4room": 244
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1333
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1333
+      }
+    ]
   },
   "717-clementi-west-st-2": {
     "blk_no": "717",
@@ -4504,15 +5095,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1254
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1254
+      }
+    ]
   },
   "721-clementi-west-st-2": {
     "blk_no": "721",
@@ -4529,15 +5122,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1297
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1297
+      }
+    ]
   },
   "722-clementi-west-st-2": {
     "blk_no": "722",
@@ -4551,15 +5146,17 @@
     "sold_units_by_type": {
       "3room": 3
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1251
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1251
+      }
+    ]
   },
   "723-clementi-west-st-2": {
     "blk_no": "723",
@@ -4573,15 +5170,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1244
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1244
+      }
+    ]
   },
   "724-clementi-west-st-2": {
     "blk_no": "724",
@@ -4595,15 +5194,17 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1190
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1190
+      }
+    ]
   },
   "725-clementi-west-st-2": {
     "blk_no": "725",
@@ -4620,15 +5221,17 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1198
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1198
+      }
+    ]
   },
   "727-clementi-west-st-2": {
     "blk_no": "727",
@@ -4645,15 +5248,17 @@
     "rental_units_by_type": {
       "3room": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1101
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1101
+      }
+    ]
   },
   "728-clementi-west-st-2": {
     "blk_no": "728",
@@ -4669,15 +5274,17 @@
       "4room": 22,
       "exec": 5
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1006
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1006
+      }
+    ]
   },
   "729-clementi-west-st-2": {
     "blk_no": "729",
@@ -4694,15 +5301,17 @@
       "5room": 3,
       "exec": 2
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1043
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1043
+      }
+    ]
   },
   "730-clementi-west-st-2": {
     "blk_no": "730",
@@ -4719,15 +5328,17 @@
       "5room": 1,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1069
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1069
+      }
+    ]
   },
   "731-clementi-west-st-2": {
     "blk_no": "731",
@@ -4743,15 +5354,17 @@
       "4room": 18,
       "exec": 1
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1121
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1121
+      }
+    ]
   },
   "801a-west-coast-cres": {
     "blk_no": "801A",
@@ -4768,15 +5381,17 @@
       "4room": 59,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1522
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1522
+      }
+    ]
   },
   "801b-west-coast-cres": {
     "blk_no": "801B",
@@ -4793,15 +5408,17 @@
       "4room": 59,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1525
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1525
+      }
+    ]
   },
   "801c-west-coast-cres": {
     "blk_no": "801C",
@@ -4817,14 +5434,16 @@
       "4room": 124,
       "5room": 62
     },
-    "nearest_station": {
-      "id": "clementi",
-      "name": "Clementi",
-      "codes": [
-        "EW23"
-      ],
-      "exit": "Exit D",
-      "distance": 1461
-    }
+    "nearest_stations": [
+      {
+        "id": "clementi",
+        "name": "Clementi",
+        "codes": [
+          "EW23"
+        ],
+        "exit": "Exit D",
+        "distance": 1461
+      }
+    ]
   }
 }
