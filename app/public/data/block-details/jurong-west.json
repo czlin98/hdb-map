@@ -1881,7 +1881,7 @@
           "EW27"
         ],
         "exit": "Exit B",
-        "distance": 999
+        "distance": 1000
       }
     ]
   },
@@ -7201,7 +7201,7 @@
           "EW25"
         ],
         "exit": "Exit A",
-        "distance": 914
+        "distance": 915
       }
     ]
   },
@@ -9404,7 +9404,7 @@
           "EW27"
         ],
         "exit": "Exit E",
-        "distance": 631
+        "distance": 632
       }
     ]
   },
@@ -9948,7 +9948,7 @@
           "EW27"
         ],
         "exit": "Exit E",
-        "distance": 845
+        "distance": 846
       }
     ]
   },
@@ -10739,7 +10739,7 @@
           "EW27"
         ],
         "exit": "Exit E",
-        "distance": 824
+        "distance": 825
       }
     ]
   },
@@ -11422,7 +11422,7 @@
           "EW27"
         ],
         "exit": "Exit A",
-        "distance": 746
+        "distance": 747
       }
     ]
   },
@@ -12019,7 +12019,7 @@
           "EW28"
         ],
         "exit": "Exit A",
-        "distance": 701
+        "distance": 700
       }
     ]
   },
@@ -12831,7 +12831,7 @@
           "EW28"
         ],
         "exit": "Exit B",
-        "distance": 722
+        "distance": 721
       }
     ]
   },

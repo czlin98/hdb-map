@@ -791,7 +791,7 @@
           "TE17"
         ],
         "exit": "Exit 6",
-        "distance": 655
+        "distance": 656
       }
     ]
   },
@@ -2731,7 +2731,7 @@
           "TE17"
         ],
         "exit": "Exit 5",
-        "distance": 501
+        "distance": 500
       },
       {
         "id": "tanjong-pagar",
@@ -3321,7 +3321,7 @@
           "EW18"
         ],
         "exit": "Exit B",
-        "distance": 801
+        "distance": 800
       }
     ]
   },
@@ -3873,7 +3873,7 @@
           "EW15"
         ],
         "exit": "Exit A",
-        "distance": 520
+        "distance": 519
       }
     ]
   },
@@ -4490,7 +4490,7 @@
           "CC31"
         ],
         "exit": "Exit 2",
-        "distance": 872
+        "distance": 871
       },
       {
         "id": "tiong-bahru",
@@ -4674,7 +4674,7 @@
           "TE17"
         ],
         "exit": "Exit 6",
-        "distance": 973
+        "distance": 974
       }
     ]
   },
@@ -5664,7 +5664,7 @@
           "TE17"
         ],
         "exit": "Exit 8",
-        "distance": 707
+        "distance": 708
       }
     ]
   },
@@ -8583,7 +8583,7 @@
           "TE16"
         ],
         "exit": "Exit 3",
-        "distance": 652
+        "distance": 651
       },
       {
         "id": "great-world",
@@ -8625,7 +8625,7 @@
           "EW19"
         ],
         "exit": "Exit B",
-        "distance": 789
+        "distance": 788
       }
     ]
   },
@@ -8893,7 +8893,7 @@
         "codes": [
           "EW19"
         ],
-        "exit": "Exit A",
+        "exit": "Exit B",
         "distance": 972
       }
     ]
@@ -9012,7 +9012,7 @@
           "TE16"
         ],
         "exit": "Exit 3",
-        "distance": 787
+        "distance": 786
       },
       {
         "id": "great-world",
@@ -10809,7 +10809,7 @@
           "TE15"
         ],
         "exit": "Exit 2",
-        "distance": 554
+        "distance": 555
       },
       {
         "id": "havelock",
@@ -13824,7 +13824,7 @@
           "CC27"
         ],
         "exit": "Exit A",
-        "distance": 995
+        "distance": 996
       }
     ]
   },
@@ -14267,7 +14267,7 @@
           "EW15"
         ],
         "exit": "Exit A",
-        "distance": 638
+        "distance": 637
       }
     ]
   },
