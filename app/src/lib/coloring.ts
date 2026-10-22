@@ -4,6 +4,14 @@ import type { BlockFeature } from "../types/contract";
 export type ColorMode = "none" | "year" | "floors" | "mrt";
 export type ScaleMode = Exclude<ColorMode, "none">;
 
+// A straight line from one geocoded point is good to tens of metres at best, so from 1 km
+// whole metres would claim precision it doesn't have. Rounding via tenths of a km avoids
+// toFixed's binary halves (1450 -> "1.4").
+export function formatDistance(metres: number): string {
+  if (metres < 1000) return `${metres} m`;
+  return `${(Math.round(metres / 100) / 10).toFixed(1)} km`;
+}
+
 export interface Band {
   label: string;
   short: string;
@@ -78,7 +86,7 @@ export const COLOR_SCALES: Record<ScaleMode, ColorScale> = {
       { label: "800 m to 1 km", short: "<1k", color: "#addd8e" },
       { label: "1 km and more", short: "1k+", color: "#d9f0a3" },
     ],
-    describe: (metres) => `${metres} m`,
+    describe: formatDistance,
     note: "Straight-line distance to the nearest MRT or LRT exit",
     lowestOnTop: true,
   },

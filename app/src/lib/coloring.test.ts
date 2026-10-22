@@ -5,6 +5,7 @@ import {
   bandIndex,
   circleColor,
   countBands,
+  formatDistance,
   type ScaleMode,
 } from "./coloring";
 import { sampleIndex } from "../test/fixtures";
@@ -97,8 +98,18 @@ test("counts blocks per band over the given features", () => {
   expect(countBands(sampleIndex.features, COLOR_SCALES.mrt)).toEqual([0, 1, 0, 0, 1, 0]);
 });
 
-test("the MRT scale describes metres and carries the legend note", () => {
+test.each([
+  [999, "999 m"],
+  [1000, "1.0 km"],
+  [1450, "1.5 km"],
+  [3484, "3.5 km"],
+])("formatDistance(%i) is %s", (metres, text) => {
+  expect(formatDistance(metres)).toBe(text);
+});
+
+test("the MRT scale describes distances as the panel does and carries the legend note", () => {
   expect(COLOR_SCALES.mrt.describe(350)).toBe("350 m");
+  expect(COLOR_SCALES.mrt.describe(3484)).toBe("3.5 km");
   expect(COLOR_SCALES.mrt.note).toMatch(/straight-line/i);
   expect(COLOR_SCALES.year.note).toBeUndefined();
 });

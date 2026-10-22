@@ -2,21 +2,13 @@ import { useEffect, useImperativeHandle, useRef, useState, type Ref } from "reac
 import type { BlockDetail } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
-import { bandIndex, COLOR_SCALES, type ScaleMode } from "../lib/coloring";
+import { bandIndex, COLOR_SCALES, formatDistance, type ScaleMode } from "../lib/coloring";
 import { lineChipColors } from "../lib/lines";
 import { sheetBodyClass } from "../lib/sheet";
 import { useColorMode } from "../store/color";
 import { XIcon } from "lucide-react";
 import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
 import { Sheet, SheetContent, SheetTitle } from "./ui/sheet";
-
-// A straight line from one geocoded point is good to tens of metres at best, so from 1 km
-// whole metres would claim precision it doesn't have. Rounding via tenths of a km avoids
-// toFixed's binary halves (1450 -> "1.4").
-export function formatDistance(metres: number): string {
-  if (metres < 1000) return `${metres} m`;
-  return `${(Math.round(metres / 100) / 10).toFixed(1)} km`;
-}
 
 // Shown beside the value the map is colored by. The shard mirrors the index, so the band
 // matches the block's marker; on mobile the sheet covers the legend, so this is its key there.

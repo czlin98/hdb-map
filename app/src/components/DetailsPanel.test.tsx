@@ -5,7 +5,6 @@ import type { GetBlockDetail } from "../lib/data";
 import {
   DetailsContent,
   DetailsPanel,
-  formatDistance,
   useBlockDetail,
   type DetailsPanelHandle,
 } from "./DetailsPanel";
@@ -112,15 +111,6 @@ test("the Nearest MRT row names the station, a chip per line, the exit and the d
   expect(line1).toHaveTextContent(/^Outram Park/);
   expect(within(line1).getByText("NE3")).toHaveStyle({ backgroundColor: "#9900aa" });
   expect(line2).toHaveTextContent("176 m");
-});
-
-test.each([
-  [999, "999 m"],
-  [1000, "1.0 km"],
-  [1450, "1.5 km"],
-  [3484, "3.5 km"],
-])("formatDistance(%i) is %s", (metres, text) => {
-  expect(formatDistance(metres)).toBe(text);
 });
 
 test("MRT coloring puts the band swatch after the distance only", () => {

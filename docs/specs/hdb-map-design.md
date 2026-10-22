@@ -1001,8 +1001,9 @@ out.
   ("Outram Park EW16 NE3 TE17 · Exit 5"), then the distance alone on a second
   line ("350 m"), with the band swatch right after it in MRT mode, as for
   Year and Floors. From 1 km the distance shows in km to one decimal
-  ("3.5 km"): a straight line from one geocoded point isn't good to the
-  metre, and at that range the metres only add noise. The chips sit beside
+  ("3.5 km"), here and in the hover tooltip: a straight line from one
+  geocoded point isn't good to the metre, and at that range the metres only
+  add noise. The chips sit beside
   the name as on the station signs. The
   chips take each line's official color (the LRT lines share grey), since
   riders know the lines by color from the station signs. The colors live in
