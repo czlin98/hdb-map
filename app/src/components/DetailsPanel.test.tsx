@@ -87,47 +87,69 @@ test("floors coloring puts the block's band swatch on the floors row", () => {
   expect(within(field("Year completed")).queryByRole("img")).not.toBeInTheDocument();
 });
 
-test("the Nearest MRT row names the station, a chip per line, the exit and the distance", () => {
-  const amk = sampleShard["123-ang-mo-kio-ave-3"];
-  const detail = {
-    ...amk,
-    nearest_stations: [
-      {
-        id: "outram-park",
-        name: "Outram Park",
-        codes: ["EW16", "NE3", "TE17"],
-        exit: "Exit 5",
-        distance: 176,
-      },
-    ],
-  };
+const outram = {
+  id: "outram-park",
+  name: "Outram Park",
+  codes: ["EW16", "NE3", "TE17"],
+  exit: "Exit 5",
+  distance: 176,
+};
+const threeStations = {
+  ...sampleShard["123-ang-mo-kio-ave-3"],
+  nearest_stations: [
+    outram,
+    { id: "tanjong-pagar", name: "Tanjong Pagar", codes: ["EW15"], exit: "Exit A", distance: 640 },
+    { id: "maxwell", name: "Maxwell", codes: ["TE18"], exit: "Exit 2", distance: 1000 },
+  ],
+};
+
+function stationRows() {
+  return within(screen.getByRole("list", { name: "Nearest MRT" })).getAllByRole("listitem");
+}
+
+test.each([
+  ["one station", { ...sampleShard["123-ang-mo-kio-ave-3"], nearest_stations: [outram] }, 1],
+  ["three stations", threeStations, 3],
+])("the Nearest MRT heading names the list with %s", (_, detail, rows) => {
   render(<DetailsContent detail={detail} />);
-  const row = field("Nearest MRT");
-  const [line1, line2] = within(row).getAllByRole("definition");
-  expect([...line1.children].map((c) => c.textContent)).toEqual([
-    "EW16",
-    "NE3",
-    "TE17",
-    "· Exit 5",
-  ]);
-  expect(line1).toHaveTextContent(/^Outram Park/);
-  expect(within(line1).getByText("NE3")).toHaveStyle({ backgroundColor: "#9900aa" });
-  expect(line2).toHaveTextContent("176 m");
+  expect(screen.getByRole("heading", { level: 3, name: "Nearest MRT" })).toBeInTheDocument();
+  expect(stationRows()).toHaveLength(rows);
 });
 
-test("MRT coloring puts the band swatch after the distance only", () => {
+test("each station row names the station, a chip per line, the exit and the distance", () => {
+  render(<DetailsContent detail={threeStations} />);
+  const [first, second, third] = stationRows();
+  expect(first).toHaveTextContent(/^Outram Park/);
+  expect(
+    within(first)
+      .getAllByText(/^(EW16|NE3|TE17)$/)
+      .map((c) => c.textContent),
+  ).toEqual(["EW16", "NE3", "TE17"]);
+  expect(within(first).getByText("NE3")).toHaveStyle({ backgroundColor: "#9900aa" });
+  expect(first).toHaveTextContent(/· Exit 5\s*176 m$/);
+  expect(second).toHaveTextContent(/^Tanjong Pagar\s*EW15\s*· Exit A\s*640 m$/);
+  expect(third).toHaveTextContent(/^Maxwell\s*TE18\s*· Exit 2\s*1\.0 km$/);
+});
+
+test("MRT coloring puts one band swatch after the first distance, a blank on the others", () => {
   act(() => useColorMode.getState().setMode("mrt"));
-  render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
-  const swatch = within(field("Nearest MRT")).getByRole("img", { name: "200 to 400 m" });
-  expect(swatch).toHaveStyle({ backgroundColor: "#238443" });
-  expect(within(field("Year completed")).queryByRole("img")).not.toBeInTheDocument();
-  expect(within(field("Floors")).queryByRole("img")).not.toBeInTheDocument();
+  render(<DetailsContent detail={threeStations} />);
+  const [first, ...others] = stationRows();
+  const swatch = within(first).getByRole("img", { name: "Under 200 m" });
+  expect(swatch).toHaveStyle({ backgroundColor: "#005a32" });
+  expect(screen.getAllByRole("img")).toEqual([swatch]);
+  for (const row of others) {
+    expect(row.querySelectorAll("[aria-hidden='true']")).toHaveLength(1);
+  }
 });
 
-test("other modes leave the Nearest MRT row without a swatch", () => {
+test("other modes leave the station rows without a swatch or a blank", () => {
   act(() => useColorMode.getState().setMode("year"));
-  render(<DetailsContent detail={sampleShard["123-ang-mo-kio-ave-3"]} />);
-  expect(within(field("Nearest MRT")).queryByRole("img")).not.toBeInTheDocument();
+  render(<DetailsContent detail={threeStations} />);
+  for (const row of stationRows()) {
+    expect(within(row).queryByRole("img")).not.toBeInTheDocument();
+    expect(row.querySelector("[aria-hidden='true']")).toBeNull();
+  }
 });
 
 test("useBlockDetail: loading -> ready", async () => {

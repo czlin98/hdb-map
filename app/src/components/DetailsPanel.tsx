@@ -1,4 +1,4 @@
-import { useEffect, useImperativeHandle, useRef, useState, type Ref } from "react";
+import { useEffect, useId, useImperativeHandle, useRef, useState, type Ref } from "react";
 import type { BlockDetail, NearestStation } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
@@ -25,29 +25,51 @@ function BandSwatch({ mode, value }: { mode: ScaleMode; value: number }) {
   );
 }
 
-// The chips follow the name, as on the station signs.
-function NearestStationRow({ station, showBand }: { station: NearestStation; showBand: boolean }) {
+// The chips follow the name, as on the station signs. The distances sit at the right end so
+// they line up for comparing.
+function NearestStations({
+  stations,
+  showBand,
+}: {
+  stations: NearestStation[];
+  showBand: boolean;
+}) {
+  const headingId = useId();
   return (
-    <dl className="text-sm">
-      <dt className="text-muted-foreground">Nearest MRT</dt>
-      <dd className="flex flex-wrap items-center gap-x-1.5 gap-y-1">
-        {station.name}
-        {station.codes.map((code) => (
-          <span
-            key={code}
-            className="rounded-sm px-1 text-[10px] leading-4 font-semibold"
-            style={lineChipColors(code)}
-          >
-            {code}
-          </span>
+    <section className="text-sm">
+      <h3 id={headingId} className="text-muted-foreground">
+        Nearest MRT
+      </h3>
+      <ul aria-labelledby={headingId} className="space-y-1">
+        {stations.map((station, i) => (
+          <li key={station.id} className="flex items-start justify-between gap-3">
+            <span className="flex flex-wrap items-center gap-x-1.5 gap-y-1">
+              {station.name}
+              {station.codes.map((code) => (
+                <span
+                  key={code}
+                  className="rounded-sm px-1 text-[10px] leading-4 font-semibold"
+                  style={lineChipColors(code)}
+                >
+                  {code}
+                </span>
+              ))}
+              <span>· {station.exit}</span>
+            </span>
+            <span className="flex shrink-0 items-center gap-1.5 tabular-nums">
+              {formatDistance(station.distance)}
+              {/* The marker's band is the nearest station's, so only the first row gets it. */}
+              {showBand &&
+                (i === 0 ? (
+                  <BandSwatch mode="mrt" value={station.distance} />
+                ) : (
+                  <span aria-hidden="true" className="inline-block size-3" />
+                ))}
+            </span>
+          </li>
         ))}
-        <span>· {station.exit}</span>
-      </dd>
-      <dd className="flex items-center gap-1.5">
-        {formatDistance(station.distance)}
-        {showBand && <BandSwatch mode="mrt" value={station.distance} />}
-      </dd>
-    </dl>
+      </ul>
+    </section>
   );
 }
 
@@ -84,7 +106,7 @@ export function DetailsContent({ detail }: { detail: BlockDetail }) {
           <dd>{detail.total_dwelling_units}</dd>
         </div>
       </dl>
-      <NearestStationRow station={detail.nearest_stations[0]} showBand={mode === "mrt"} />
+      <NearestStations stations={detail.nearest_stations} showBand={mode === "mrt"} />
       {sold.length > 0 && (
         <section>
           <h3 className="font-medium">Sold</h3>
