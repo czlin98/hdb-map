@@ -14,7 +14,7 @@ interface Props {
   value: Range | null; // null = off
   onChange: (value: Range | null) => void;
   unit?: { symbol: string; name: string }; // e.g. "m", spoken as "metres"
-  step: number; // for the thumbs and the boxes' arrow keys; a typed value stays exact
+  step: number; // the thumbs'; a typed value stays exact
 }
 
 export function RangeFilter({ title, limits, value, onChange, unit, step }: Props) {
@@ -50,10 +50,10 @@ export function RangeFilter({ title, limits, value, onChange, unit, step }: Prop
       type="number"
       inputMode="numeric"
       aria-label={`${label}, ${END_NAMES[end]}`}
-      // The track, not the limits: an input's arrow keys also step from its min.
-      min={track[0]}
-      max={track[1]}
-      step={step}
+      // No step: the browser would flag the data's ends and exact typed values (15, 480) as
+      // invalid for missing the 50 m grid. The slider does the stepping.
+      min={limits[0]}
+      max={limits[1]}
       value={drafts[end] ?? String(current[end])}
       onChange={(e) => setDraft(end, e.target.value)}
       onKeyDown={(e) => e.key === "Enter" && commit(end)}

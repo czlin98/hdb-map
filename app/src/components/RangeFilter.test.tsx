@@ -164,6 +164,9 @@ test("a step moves the thumbs by whole steps between the data's ends", () => {
   const { onChange } = renderStepped();
   expect(stepped("spinbutton", "from")).toHaveValue(15);
   expect(stepped("spinbutton", "to")).toHaveValue(3545);
+  // Off the step grid, yet not flagged by the browser's own validation.
+  expect(stepped("spinbutton", "from")).toBeValid();
+  expect(stepped("spinbutton", "to")).toBeValid();
   // Off the grid at the data's minimum, the first step lands on the next multiple.
   fireEvent.keyDown(stepped("slider", "from"), { key: "ArrowRight" });
   expect(onChange).toHaveBeenLastCalledWith([50, 3545]);
