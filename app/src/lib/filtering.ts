@@ -2,13 +2,14 @@ import type { ExpressionSpecification } from "maplibre-gl";
 import type { BlockFeature, BlockIndexProperties } from "../types/contract";
 
 export type Range = [from: number, to: number];
-export type RangeKey = "year" | "floors";
+export type RangeKey = "year" | "floors" | "mrt";
 export type FlatTypeGroup = "sold" | "rental";
 
 export interface Filters {
   towns: string[]; // empty = any town
   year: Range | null; // null = off
   floors: Range | null;
+  mrt: Range | null; // metres to the nearest station exit
   // Keys from lib/flat-types.ts. One filter: a block passes with any chosen type of either group.
   soldTypes: string[];
   rentalTypes: string[];
@@ -18,6 +19,7 @@ export const EMPTY_FILTERS: Filters = {
   towns: [],
   year: null,
   floors: null,
+  mrt: null,
   soldTypes: [],
   rentalTypes: [],
 };
@@ -39,6 +41,7 @@ export function flatTypesOn(f: Pick<Filters, "soldTypes" | "rentalTypes">): bool
 export const RANGE_PROPERTY = {
   year: "year_completed",
   floors: "max_floor_lvl",
+  mrt: "station_distance",
 } as const satisfies Record<RangeKey, keyof BlockIndexProperties>;
 
 const RANGE_KEYS = Object.keys(RANGE_PROPERTY) as RangeKey[];

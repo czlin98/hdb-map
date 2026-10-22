@@ -12,13 +12,14 @@ const renderFields = () =>
 const box = (name: string) => screen.getByRole("spinbutton", { name }) as HTMLInputElement;
 const clearAll = () => screen.getByRole("button", { name: "Clear all" });
 
-test("renders the Filters heading, then town, year completed, floors and flat types", () => {
+test("renders the Filters heading, then town, the ranges and flat types", () => {
   renderFields();
   expect(screen.getAllByRole("heading").map((h) => h.textContent)).toEqual([
     "Filters",
     "Town",
     "Year completed",
     "Floors",
+    "MRT distance",
     "Flat types",
     "Sold",
     "Rental",
@@ -31,6 +32,8 @@ test("the range limits come from the features", () => {
   expect(box("Year completed, to").value).toBe("2015");
   expect(box("Floors, from").value).toBe("12");
   expect(box("Floors, to").value).toBe("30");
+  expect(box("MRT distance in metres, from").value).toBe("350");
+  expect(box("MRT distance in metres, to").value).toBe("820");
 });
 
 test("changing a control writes the store", () => {
@@ -39,12 +42,15 @@ test("changing a control writes the store", () => {
   fireEvent.click(screen.getByRole("checkbox", { name: /BEDOK/ }));
   fireEvent.change(box("Year completed, to"), { target: { value: "1990" } });
   fireEvent.keyDown(box("Year completed, to"), { key: "Enter" });
+  fireEvent.change(box("MRT distance in metres, to"), { target: { value: "500" } });
+  fireEvent.keyDown(box("MRT distance in metres, to"), { key: "Enter" });
   const rental = screen.getByRole("group", { name: "Rental" });
   fireEvent.click(within(rental).getByRole("button", { name: "Rental 1-Room" }));
   expect(useFilters.getState().filters).toEqual({
     ...EMPTY_FILTERS,
     towns: ["BEDOK"],
     year: [1978, 1990],
+    mrt: [350, 500],
     rentalTypes: ["1room"],
   });
 });

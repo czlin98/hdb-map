@@ -30,7 +30,7 @@ const box = (end: "from" | "to") =>
   screen.getByRole("spinbutton", { name: `Year completed, ${end}` }) as HTMLInputElement;
 const thumb = (end: "from" | "to") =>
   screen.getByRole("slider", { name: `Year completed, ${end}` });
-const resetLink = () => screen.queryByRole("button", { name: "Reset year completed" });
+const resetLink = () => screen.queryByRole("button", { name: "Reset Year completed" });
 
 function type(end: "from" | "to", text: string, commit: "enter" | "blur" = "enter") {
   const input = box(end);
@@ -114,4 +114,20 @@ test("Reset turns the filter off and moves focus to the from thumb", () => {
   expect(box("from").value).toBe("1960");
   // Not a number box: on a phone that would open the keyboard.
   expect(thumb("from")).toHaveFocus();
+});
+
+test("a unit shows after the boxes and is spoken in the labels", () => {
+  render(
+    <RangeFilter
+      title="MRT distance"
+      unit={{ symbol: "m", name: "metres" }}
+      limits={[15, 3545]}
+      value={[15, 500]}
+      onChange={() => {}}
+    />,
+  );
+  expect(screen.getByRole("group", { name: "MRT distance" })).toHaveTextContent(/to\s*m$/);
+  expect(screen.getByRole("spinbutton", { name: "MRT distance in metres, to" })).toHaveValue(500);
+  expect(screen.getByRole("slider", { name: "MRT distance in metres, to" })).toBeInTheDocument();
+  expect(screen.getByRole("button", { name: "Reset MRT distance" })).toBeInTheDocument();
 });

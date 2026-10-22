@@ -63,6 +63,13 @@ export function FilterFields({ features, towns }: Props) {
           value={filters.floors}
           onChange={(range) => setRange("floors", range)}
         />
+        <RangeFilter
+          title="MRT distance"
+          unit={{ symbol: "m", name: "metres" }}
+          limits={limits.mrt}
+          value={filters.mrt}
+          onChange={(range) => setRange("mrt", range)}
+        />
         <FlatTypeFilter
           sold={filters.soldTypes}
           rental={filters.rentalTypes}

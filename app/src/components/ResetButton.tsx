@@ -1,7 +1,7 @@
 import { RotateCcwIcon } from "lucide-react";
 
 interface Props {
-  label: string; // the accessible name, e.g. "Reset floors"
+  label: string; // the accessible name, e.g. "Reset Floors"
   onClick: () => void;
 }
 

@@ -74,12 +74,12 @@ contract and can change internally without breaking the other.
 **Added since v1:** marker coloring by year completed or number of floors
 (§5.10), filtering by town, year completed, floors, and flat type (§5.11),
 and each block's nearest MRT or LRT station, with the stations and their exits
-on the map and coloring by the distance to them (§5.12).
+on the map and coloring and filtering by the distance to them (§5.12).
 
 **Deferred (see §7):** further coloring modes, a collapsible sidebar, basemap
-selector, resale prices & transactions, filtering by MRT distance, nearby
-amenities, geocode-speed optimizations (persistent cache, token-bucket
-limiter), and an About page with the full data-licence notice.
+selector, resale prices & transactions, nearby amenities, geocode-speed
+optimizations (persistent cache, token-bucket limiter), and an About page
+with the full data-licence notice.
 
 ## 2. Repository Layout
 
@@ -381,10 +381,10 @@ every block at once, since neither can wait for lazily loaded shards:
   details panel's order. Both are always present, empty when the block has
   none, so the filter never has to handle a missing list. Another eighth.
   The counts themselves stay in the shard.
-- `station_distance`, for the MRT-distance coloring (§5.12): straight-line
-  metres to the nearest station's nearest exit. A short integer like the
-  coloring values, so about another eighth. The station itself stays in the
-  shard.
+- `station_distance`, for the MRT-distance coloring (§5.12) and filter
+  (§5.11): straight-line metres to the nearest station's nearest exit. A
+  short integer like the coloring values, so about another eighth. The
+  station itself stays in the shard.
 
 Filtering also reads `town`.
 
@@ -874,9 +874,9 @@ blocks, only the towers above a given height, or only the blocks with
 rental flats. Filters combine with coloring (§5.10): a coloring mode colors
 whatever stays visible.
 
-- **Filters:** town, year completed, floors, and flat types. A block shows
-  only if it passes every filter that is on. A filter is off while nothing
-  is ticked or picked, or its range spans all the data.
+- **Filters:** town, year completed, floors, MRT distance, and flat types.
+  A block shows only if it passes every filter that is on. A filter is off
+  while nothing is ticked or picked, or its range spans all the data.
   - **Town:** a checklist of the towns in `towns.json`, each with its total
     block count (not narrowed by the other filters), folded into one row
     that names the current choice. Ticking several shows the blocks in any
@@ -888,6 +888,9 @@ whatever stays visible.
     A typed value is clamped to the data's range and can't cross the other
     end. The limits come from the loaded index, so they follow each data
     refresh.
+  - **MRT distance** (§5.12): the same range, in metres, with the unit after
+    the boxes. A range rather than a single "within" limit: "within 500 m"
+    is still one thumb, and the range also answers "at least 1 km away".
   - A range, not the legend's bands (§5.10), because exact cut-offs matter
     ("built before 1986") and a band picker can only offer the band edges.
   - **Flat types:** two groups of toggle chips, **Sold** and **Rental**,
@@ -911,11 +914,12 @@ whatever stays visible.
 - **Not remembered** between visits and not part of the URL, like the
   coloring mode (§5.10).
 - **Rendering:** one MapLibre filter expression over the index's `town`,
-  `year_completed`, `max_floor_lvl`, `sold_types`, and `rental_types`
-  (§4.1), set on `blocks-circles` and `blocks-labels` (combined with the
-  labels' own condition, §5.9). Nothing is re-fetched. A hidden block has
-  no tooltip and can't be tapped. The map never moves when a filter
-  changes: a camera that jumped mid-drag of a slider would be disorienting.
+  `year_completed`, `max_floor_lvl`, `station_distance`, `sold_types`, and
+  `rental_types` (§4.1), set on `blocks-circles` and `blocks-labels`
+  (combined with the labels' own condition, §5.9). Nothing is re-fetched. A
+  hidden block has no tooltip and can't be tapped. The map never moves when
+  a filter changes: a camera that jumped mid-drag of a slider would be
+  disorienting.
 - **The selected block always shows.** The highlight layers are exempt from
   the filter (§5.9). Search ignores the filters (§5.6), so picking a hidden
   block still flies to it, highlights it, and opens its details; and a block
@@ -962,12 +966,12 @@ whatever stays visible.
     the screen: content scrolls only at **full**, and at half height the
     floors filter fell below the sheet's edge on shorter phones. The middle
     rest, where it opens, shows the Color row and the town, year, and floors
-    filters, and ends just above the flat-type filter's title, rather than
-    cutting through it. The flat-type chips and the expanded town list need
-    full. **Peek** shows the header and the Color row, so the coloring can
-    be switched with most of the map in view. The legend stays covered
-    there too, so until the sheet closes the colors read only from light to
-    dark (older to newer, lower to taller).
+    filters, and ends just above the MRT distance filter, rather than
+    cutting through it. That filter, the flat-type chips, and the expanded
+    town list need full. **Peek** shows the header and the Color row, so the
+    coloring can be switched with most of the map in view. The legend stays
+    covered there too, so until the sheet closes the colors read only from
+    light to dark (older to newer, lower to taller).
   - A slider's thumbs are exempt from the sheet's drag, so dragging one
     moves the thumb, not the sheet.
   - Focusing a number box leaves the sheet where it is: the browser brings
@@ -1063,8 +1067,8 @@ out.
   whichever loads first. The fly-to is unchanged, so the exit can be off
   screen or under the mobile sheet; the line is then the cue that points to
   it, which is why it was kept.
-- **Not in this iteration:** filtering by distance (§7.2), and the later
-  refinements in §7.5.
+- **Filter (§5.11):** a range over the same distance.
+- **Not in this iteration:** the later refinements in §7.5.
 
 ## 6. Deployment & CI
 
@@ -1170,8 +1174,6 @@ Still to come:
 - **The legend as a control:** hovering a band to pick it out on the map, or
   clicking one to filter by it.
 - **Flying to the matches** when none of them are in view.
-- **Filtering by MRT distance** (§5.12): a range like year and floors,
-  over the index's `station_distance`. The planned follow-up to §5.12.
 
 ### 7.3 Basemap selector
 

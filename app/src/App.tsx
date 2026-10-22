@@ -25,7 +25,7 @@ const EMPTY_INDEX: IndexFeatureCollection = { type: "FeatureCollection", feature
 // Peek at the details header, a half sheet, then fully open.
 const SNAP_POINTS = ["95px", 0.5, 1] as const;
 // The options sheet's rests fit its content: peek ends just under the Color row (157px), and the
-// middle rest ends between the Floors slider (382px) and the "Flat types" title (397px), which
+// middle rest ends between the Floors slider (382px) and the MRT distance row (397px), which
 // would otherwise peek in as a sliver. Revisit both when the sheet's layout changes.
 const OPTIONS_SNAP_POINTS = ["168px", "390px", 1] as const;
 

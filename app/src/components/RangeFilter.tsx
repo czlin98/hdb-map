@@ -13,12 +13,14 @@ interface Props {
   limits: Range;
   value: Range | null; // null = off
   onChange: (value: Range | null) => void;
+  unit?: { symbol: string; name: string }; // e.g. "m", spoken as "metres"
 }
 
-export function RangeFilter({ title, limits, value, onChange }: Props) {
+export function RangeFilter({ title, limits, value, onChange, unit }: Props) {
   const titleId = useId();
   const sliderRef = useRef<HTMLSpanElement>(null);
   const current = value ?? limits;
+  const label = unit ? `${title} in ${unit.name}` : title;
   // A box's text while it is being typed in; undefined shows the current value, so slider drags
   // show in the boxes without syncing state.
   const [drafts, setDrafts] = useState<[string?, string?]>([]);
@@ -43,7 +45,7 @@ export function RangeFilter({ title, limits, value, onChange }: Props) {
     <Input
       type="number"
       inputMode="numeric"
-      aria-label={`${title}, ${END_NAMES[end]}`}
+      aria-label={`${label}, ${END_NAMES[end]}`}
       min={limits[0]}
       max={limits[1]}
       value={drafts[end] ?? String(current[end])}
@@ -66,7 +68,7 @@ export function RangeFilter({ title, limits, value, onChange }: Props) {
           </h3>
           {value && (
             <ResetButton
-              label={`Reset ${title.toLowerCase()}`}
+              label={`Reset ${title}`}
               onClick={() => {
                 onChange(null);
                 // Not a number box: on a phone that would open the keyboard.
@@ -79,6 +81,11 @@ export function RangeFilter({ title, limits, value, onChange }: Props) {
           {box(0)}
           <span className="text-muted-foreground text-sm">to</span>
           {box(1)}
+          {unit && (
+            <span aria-hidden className="text-muted-foreground text-sm">
+              {unit.symbol}
+            </span>
+          )}
         </div>
       </div>
       <Slider
@@ -96,7 +103,7 @@ export function RangeFilter({ title, limits, value, onChange }: Props) {
         step={1}
         minStepsBetweenThumbs={0}
         value={current}
-        thumbLabels={END_NAMES.map((end) => `${title}, ${end}`)}
+        thumbLabels={END_NAMES.map((end) => `${label}, ${end}`)}
         onValueChange={([from, to]) => onChange(normalizeRange([from, to], limits))}
       />
     </div>
