@@ -148,21 +148,12 @@ test("the expression and matches agree on every block", () => {
   }
 });
 
-test("dataLimits spans each range's values, rounded out to whole steps", () => {
+test("dataLimits spans each range's values", () => {
   expect(dataLimits(sampleIndex.features)).toEqual({
     year: [1978, 2015],
     floors: [12, 30],
-    mrt: [350, 850],
+    mrt: [350, 820],
   });
-});
-
-test("dataLimits rounds the distance limits down and up to 50 m", () => {
-  const at = (station_distance: number) => ({
-    ...sampleIndex.features[0],
-    properties: { ...sampleIndex.features[0].properties, station_distance },
-  });
-  expect(dataLimits([at(15), at(3545)]).mrt).toEqual([0, 3550]);
-  expect(dataLimits([at(50), at(3500)]).mrt).toEqual([50, 3500]);
 });
 
 test("dataLimits of no blocks is zero, so callers need no special case", () => {

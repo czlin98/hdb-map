@@ -38,7 +38,7 @@ function renderFilter(initial: string[] = []) {
 }
 
 const disclosure = () => screen.getByRole("button", { name: /^Town/ });
-const resetLink = () => screen.queryByRole("button", { name: "Reset town" });
+const resetLink = () => screen.queryByRole("button", { name: "Reset Town" });
 
 function townRows() {
   return within(screen.getByRole("list"))

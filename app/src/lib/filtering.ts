@@ -89,15 +89,7 @@ export function dataLimits(features: BlockFeature[]): Record<RangeKey, Range> {
   const limits = {} as Record<RangeKey, Range>;
   for (const key of RANGE_KEYS) {
     const values = features.map((f) => f.properties[RANGE_PROPERTY[key]]);
-    // Rounded out to whole steps: the slider counts steps from its minimum, so a track starting
-    // at 15 m would stop at 65, 115, and never at 500.
-    const step = RANGE_STEP[key];
-    limits[key] = values.length
-      ? [
-          Math.floor(Math.min(...values) / step) * step,
-          Math.ceil(Math.max(...values) / step) * step,
-        ]
-      : [0, 0];
+    limits[key] = values.length ? [Math.min(...values), Math.max(...values)] : [0, 0];
   }
   return limits;
 }

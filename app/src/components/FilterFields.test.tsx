@@ -33,7 +33,7 @@ test("the range limits come from the features", () => {
   expect(box("Floors, from").value).toBe("12");
   expect(box("Floors, to").value).toBe("30");
   expect(box("MRT distance in metres, from").value).toBe("350");
-  expect(box("MRT distance in metres, to").value).toBe("850");
+  expect(box("MRT distance in metres, to").value).toBe("820");
 });
 
 test("changing a control writes the store", () => {
@@ -59,7 +59,7 @@ test("the flat-type reset clears both groups in the store", () => {
   renderFields();
   fireEvent.click(screen.getByRole("button", { name: "Sold 4-Room" }));
   fireEvent.click(screen.getByRole("button", { name: "Rental 1-Room" }));
-  fireEvent.click(screen.getByRole("button", { name: "Reset flat types" }));
+  fireEvent.click(screen.getByRole("button", { name: "Reset Flat types" }));
   expect(useFilters.getState().filters).toEqual(EMPTY_FILTERS);
 });
 

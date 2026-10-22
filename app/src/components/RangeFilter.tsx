@@ -14,14 +14,17 @@ interface Props {
   value: Range | null; // null = off
   onChange: (value: Range | null) => void;
   unit?: { symbol: string; name: string }; // e.g. "m", spoken as "metres"
-  step?: number; // for the thumbs and the boxes' arrow keys; a typed value stays exact
+  step: number; // for the thumbs and the boxes' arrow keys; a typed value stays exact
 }
 
-export function RangeFilter({ title, limits, value, onChange, unit, step = 1 }: Props) {
+export function RangeFilter({ title, limits, value, onChange, unit, step }: Props) {
   const titleId = useId();
   const sliderRef = useRef<HTMLSpanElement>(null);
   const current = value ?? limits;
   const label = unit ? `${title} in ${unit.name}` : title;
+  // Radix counts steps from the slider's minimum, so a track from 15 m would stop at 65, 115, and
+  // never at 500. Only the track is rounded out; the boxes, clamping and "off" use the data's ends.
+  const track: Range = [Math.floor(limits[0] / step) * step, Math.ceil(limits[1] / step) * step];
   // A box's text while it is being typed in; undefined shows the current value, so slider drags
   // show in the boxes without syncing state.
   const [drafts, setDrafts] = useState<[string?, string?]>([]);
@@ -47,8 +50,9 @@ export function RangeFilter({ title, limits, value, onChange, unit, step = 1 }: 
       type="number"
       inputMode="numeric"
       aria-label={`${label}, ${END_NAMES[end]}`}
-      min={limits[0]}
-      max={limits[1]}
+      // The track, not the limits: an input's arrow keys also step from its min.
+      min={track[0]}
+      max={track[1]}
       step={step}
       value={drafts[end] ?? String(current[end])}
       onChange={(e) => setDraft(end, e.target.value)}
@@ -102,8 +106,8 @@ export function RangeFilter({ title, limits, value, onChange, unit, step = 1 }: 
           "mt-3 [&_[data-slot=slider-track]]:bg-input",
           !value && "[&_[data-slot=slider-range]]:bg-muted-foreground",
         )}
-        min={limits[0]}
-        max={limits[1]}
+        min={track[0]}
+        max={track[1]}
         step={step}
         minStepsBetweenThumbs={0}
         value={current}

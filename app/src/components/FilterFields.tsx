@@ -54,12 +54,14 @@ export function FilterFields({ features, towns }: Props) {
         <RangeFilter
           title="Year completed"
           limits={limits.year}
+          step={RANGE_STEP.year}
           value={filters.year}
           onChange={(range) => setRange("year", range)}
         />
         <RangeFilter
           title="Floors"
           limits={limits.floors}
+          step={RANGE_STEP.floors}
           value={filters.floors}
           onChange={(range) => setRange("floors", range)}
         />

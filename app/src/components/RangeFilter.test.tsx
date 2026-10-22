@@ -14,6 +14,7 @@ function renderFilter(initial: Range | null = null) {
       <RangeFilter
         title="Year completed"
         limits={LIMITS}
+        step={1}
         value={value}
         onChange={(v) => {
           onChange(v);
@@ -122,6 +123,7 @@ test("a unit shows in the title and is spoken in the box labels", () => {
       title="MRT distance"
       unit={{ symbol: "m", name: "metres" }}
       limits={[15, 3545]}
+      step={50}
       value={[15, 500]}
       onChange={() => {}}
     />,
@@ -133,7 +135,7 @@ test("a unit shows in the title and is spoken in the box labels", () => {
   expect(screen.getByRole("button", { name: "Reset MRT distance" })).toBeInTheDocument();
 });
 
-test("a step moves the thumbs by whole steps, while a typed value stays exact", () => {
+function renderStepped() {
   const onChange = vi.fn();
   function Harness() {
     const [value, setValue] = useState<Range | null>(null);
@@ -141,7 +143,7 @@ test("a step moves the thumbs by whole steps, while a typed value stays exact", 
       <RangeFilter
         title="MRT distance"
         unit={{ symbol: "m", name: "metres" }}
-        limits={[0, 3550]}
+        limits={[15, 3545]}
         step={50}
         value={value}
         onChange={(v) => {
@@ -152,11 +154,30 @@ test("a step moves the thumbs by whole steps, while a typed value stays exact", 
     );
   }
   render(<Harness />);
-  const name = (end: string) => `MRT distance in metres, ${end}`;
-  fireEvent.keyDown(screen.getByRole("slider", { name: name("from") }), { key: "ArrowRight" });
-  expect(onChange).toHaveBeenLastCalledWith([50, 3550]);
-  const to = screen.getByRole("spinbutton", { name: name("to") });
-  fireEvent.change(to, { target: { value: "480" } });
-  fireEvent.keyDown(to, { key: "Enter" });
-  expect(onChange).toHaveBeenLastCalledWith([50, 480]);
+  return { onChange };
+}
+
+const stepped = (role: "slider" | "spinbutton", end: "from" | "to") =>
+  screen.getByRole(role, { name: `MRT distance in metres, ${end}` });
+
+test("a step moves the thumbs by whole steps between the data's ends", () => {
+  const { onChange } = renderStepped();
+  expect(stepped("spinbutton", "from")).toHaveValue(15);
+  expect(stepped("spinbutton", "to")).toHaveValue(3545);
+  // Off the grid at the data's minimum, the first step lands on the next multiple.
+  fireEvent.keyDown(stepped("slider", "from"), { key: "ArrowRight" });
+  expect(onChange).toHaveBeenLastCalledWith([50, 3545]);
+  // The track's rounded end clamps back to the data's, which turns the filter off.
+  fireEvent.keyDown(stepped("slider", "from"), { key: "Home" });
+  expect(onChange).toHaveBeenLastCalledWith(null);
+});
+
+test("with a step, a typed value stays exact and clamps to the data's ends", () => {
+  const { onChange } = renderStepped();
+  fireEvent.change(stepped("spinbutton", "to"), { target: { value: "480" } });
+  fireEvent.keyDown(stepped("spinbutton", "to"), { key: "Enter" });
+  expect(onChange).toHaveBeenLastCalledWith([15, 480]);
+  fireEvent.change(stepped("spinbutton", "to"), { target: { value: "3549" } });
+  fireEvent.keyDown(stepped("spinbutton", "to"), { key: "Enter" });
+  expect(onChange).toHaveBeenLastCalledWith(null);
 });

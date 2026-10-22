@@ -894,9 +894,10 @@ whatever stays visible.
     rather than a single "within" limit: "within 500 m" is still one thumb,
     and the range also answers "at least 1 km away". The thumbs move in
     round steps rather than single metres, which would crawl under the arrow
-    keys and stop at values like 487, so the limits are rounded out to whole
-    steps (the slider counts its steps from the minimum). A typed value stays
-    exact.
+    keys and stop at values like 487. The boxes still show the data's ends,
+    and only the slider's track is rounded out to whole steps (it counts its
+    steps from its minimum), so the first step from the nearest block's
+    distance lands on a round number. A typed value stays exact.
   - A range, not the legend's bands (§5.10), because exact cut-offs matter
     ("built before 1986") and a band picker can only offer the band edges.
   - **Flat types:** two groups of toggle chips, **Sold** and **Rental**,

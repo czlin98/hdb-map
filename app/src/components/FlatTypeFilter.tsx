@@ -23,7 +23,7 @@ export function FlatTypeFilter({ sold, rental, onToggle, onReset }: Props) {
         </h3>
         {flatTypesOn({ soldTypes: sold, rentalTypes: rental }) && (
           <ResetButton
-            label="Reset flat types"
+            label="Reset Flat types"
             onClick={() => {
               onReset();
               chipsRef.current?.querySelector("button")?.focus();
