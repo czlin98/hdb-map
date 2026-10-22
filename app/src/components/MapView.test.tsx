@@ -585,7 +585,11 @@ test("stations that beat load are drawn on load, each layer in its place among t
     "nearest-exit-label",
   ]);
   // One chip image per station, named for the label's image lookup.
-  expect(map.addImage.mock.calls.map((c) => c[0])).toEqual(["chips-ang-mo-kio", "chips-bedok"]);
+  expect(map.addImage.mock.calls.map((c) => c[0])).toEqual([
+    "chips-ang-mo-kio",
+    "chips-bedok",
+    "chips-mayflower",
+  ]);
 });
 
 test("stations that arrive after load are drawn then, once", () => {

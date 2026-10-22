@@ -12,7 +12,7 @@ export interface BlockIndexProperties {
   // Filtering: the keys of the shard's unit counts, in display order (lib/flat-types.ts).
   sold_types: string[];
   rental_types: string[]; // empty, not absent, when the shard has no rental counts
-  station_distance: number; // whole metres; coloring; mirrors the shard's nearest_station
+  station_distance: number; // whole metres; coloring; mirrors the shard's first nearest station
 }
 
 export interface BlockFeature {
@@ -37,7 +37,7 @@ export interface BlockDetail {
   total_dwelling_units: number;
   sold_units_by_type: FlatTypeCounts;
   rental_units_by_type?: FlatTypeCounts;
-  nearest_station: NearestStation;
+  nearest_stations: NearestStation[]; // 1 to 3, nearest first
 }
 
 export interface NearestStation {

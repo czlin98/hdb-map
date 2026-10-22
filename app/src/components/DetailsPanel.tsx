@@ -1,5 +1,5 @@
 import { useEffect, useImperativeHandle, useRef, useState, type Ref } from "react";
-import type { BlockDetail } from "../types/contract";
+import type { BlockDetail, NearestStation } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
 import { bandIndex, COLOR_SCALES, formatDistance, type ScaleMode } from "../lib/coloring";
@@ -26,13 +26,7 @@ function BandSwatch({ mode, value }: { mode: ScaleMode; value: number }) {
 }
 
 // The chips follow the name, as on the station signs.
-function NearestStationRow({
-  station,
-  showBand,
-}: {
-  station: BlockDetail["nearest_station"];
-  showBand: boolean;
-}) {
+function NearestStationRow({ station, showBand }: { station: NearestStation; showBand: boolean }) {
   return (
     <dl className="text-sm">
       <dt className="text-muted-foreground">Nearest MRT</dt>
@@ -90,7 +84,7 @@ export function DetailsContent({ detail }: { detail: BlockDetail }) {
           <dd>{detail.total_dwelling_units}</dd>
         </div>
       </dl>
-      <NearestStationRow station={detail.nearest_station} showBand={mode === "mrt"} />
+      <NearestStationRow station={detail.nearest_stations[0]} showBand={mode === "mrt"} />
       {sold.length > 0 && (
         <section>
           <h3 className="font-medium">Sold</h3>

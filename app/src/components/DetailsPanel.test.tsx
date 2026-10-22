@@ -91,13 +91,15 @@ test("the Nearest MRT row names the station, a chip per line, the exit and the d
   const amk = sampleShard["123-ang-mo-kio-ave-3"];
   const detail = {
     ...amk,
-    nearest_station: {
-      id: "outram-park",
-      name: "Outram Park",
-      codes: ["EW16", "NE3", "TE17"],
-      exit: "Exit 5",
-      distance: 176,
-    },
+    nearest_stations: [
+      {
+        id: "outram-park",
+        name: "Outram Park",
+        codes: ["EW16", "NE3", "TE17"],
+        exit: "Exit 5",
+        distance: 176,
+      },
+    ],
   };
   render(<DetailsContent detail={detail} />);
   const row = field("Nearest MRT");

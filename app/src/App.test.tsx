@@ -116,7 +116,7 @@ test("loads the stations beside the index and hands them to the map", async () =
   // Requested on mount with the index, not after it.
   const urls = (fetch as unknown as { mock: { calls: string[][] } }).mock.calls.map((c) => c[0]);
   expect(urls).toEqual(expect.arrayContaining(["/data/index.geojson", "/data/stations.geojson"]));
-  await waitFor(() => expect(screen.getByTestId("map")).toHaveAttribute("data-stations", "7"));
+  await waitFor(() => expect(screen.getByTestId("map")).toHaveAttribute("data-stations", "9"));
 });
 
 test("a failed stations load leaves the app working, with no error card", async () => {
@@ -153,13 +153,9 @@ describe("the nearest-exit highlight", () => {
       street_full: "BEDOK NORTH STREET 1",
       postal: "460001",
       town: "BEDOK",
-      nearest_station: {
-        id: "bedok",
-        name: "Bedok",
-        codes: ["EW5"],
-        exit: "Exit B",
-        distance: 820,
-      },
+      nearest_stations: [
+        { id: "bedok", name: "Bedok", codes: ["EW5"], exit: "Exit B", distance: 820 },
+      ],
     },
   };
   const bedokExit = { lon: 103.9302, lat: 1.3242, station: "bedok", exit: "Exit B" };
@@ -212,7 +208,7 @@ describe("the nearest-exit highlight", () => {
       }),
     );
     render(<App />);
-    await waitFor(() => expect(screen.getByTestId("map")).toHaveAttribute("data-stations", "7"));
+    await waitFor(() => expect(screen.getByTestId("map")).toHaveAttribute("data-stations", "9"));
     await userEvent.click(await screen.findByText(AMK));
     await userEvent.click(screen.getByText("marker-1-bedok-nth-st-1"));
     await waitFor(() => expect(shownExit()).toEqual(bedokExit));

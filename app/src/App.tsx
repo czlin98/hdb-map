@@ -148,7 +148,7 @@ export default function App() {
       .then((detail) => {
         const block = index.features.find((f) => f.properties.id === selectedId);
         if (!alive || !detail || !block) return;
-        const near = detail.nearest_station;
+        const near = detail.nearest_stations[0];
         const point = nearestExitPoint(stations, near, block.geometry.coordinates);
         setExitFor({
           id: selectedId,
