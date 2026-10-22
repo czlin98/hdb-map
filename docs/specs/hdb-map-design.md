@@ -892,7 +892,11 @@ whatever stays visible.
     the title ("MRT distance (m)") so its boxes line up with the other
     ranges'; a prefix unit like a price's $ fits the same way. A range
     rather than a single "within" limit: "within 500 m" is still one thumb,
-    and the range also answers "at least 1 km away".
+    and the range also answers "at least 1 km away". The thumbs move in
+    round steps rather than single metres, which would crawl under the arrow
+    keys and stop at values like 487, so the limits are rounded out to whole
+    steps (the slider counts its steps from the minimum). A typed value stays
+    exact.
   - A range, not the legend's bands (§5.10), because exact cut-offs matter
     ("built before 1986") and a band picker can only offer the band edges.
   - **Flat types:** two groups of toggle chips, **Sold** and **Rental**,

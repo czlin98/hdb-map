@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { activeCount, dataLimits } from "../lib/filtering";
+import { activeCount, dataLimits, RANGE_STEP } from "../lib/filtering";
 import { useFilters } from "../store/filters";
 import type { BlockFeature, Town } from "../types/contract";
 import { FlatTypeFilter } from "./FlatTypeFilter";
@@ -67,6 +67,7 @@ export function FilterFields({ features, towns }: Props) {
           title="MRT distance"
           unit={{ symbol: "m", name: "metres" }}
           limits={limits.mrt}
+          step={RANGE_STEP.mrt}
           value={filters.mrt}
           onChange={(range) => setRange("mrt", range)}
         />

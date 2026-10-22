@@ -132,3 +132,31 @@ test("a unit shows in the title and is spoken in the box labels", () => {
   expect(screen.getByRole("slider", { name: "MRT distance in metres, to" })).toBeInTheDocument();
   expect(screen.getByRole("button", { name: "Reset MRT distance" })).toBeInTheDocument();
 });
+
+test("a step moves the thumbs by whole steps, while a typed value stays exact", () => {
+  const onChange = vi.fn();
+  function Harness() {
+    const [value, setValue] = useState<Range | null>(null);
+    return (
+      <RangeFilter
+        title="MRT distance"
+        unit={{ symbol: "m", name: "metres" }}
+        limits={[0, 3550]}
+        step={50}
+        value={value}
+        onChange={(v) => {
+          onChange(v);
+          setValue(v);
+        }}
+      />
+    );
+  }
+  render(<Harness />);
+  const name = (end: string) => `MRT distance in metres, ${end}`;
+  fireEvent.keyDown(screen.getByRole("slider", { name: name("from") }), { key: "ArrowRight" });
+  expect(onChange).toHaveBeenLastCalledWith([50, 3550]);
+  const to = screen.getByRole("spinbutton", { name: name("to") });
+  fireEvent.change(to, { target: { value: "480" } });
+  fireEvent.keyDown(to, { key: "Enter" });
+  expect(onChange).toHaveBeenLastCalledWith([50, 480]);
+});

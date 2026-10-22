@@ -33,7 +33,7 @@ test("the range limits come from the features", () => {
   expect(box("Floors, from").value).toBe("12");
   expect(box("Floors, to").value).toBe("30");
   expect(box("MRT distance in metres, from").value).toBe("350");
-  expect(box("MRT distance in metres, to").value).toBe("820");
+  expect(box("MRT distance in metres, to").value).toBe("850");
 });
 
 test("changing a control writes the store", () => {

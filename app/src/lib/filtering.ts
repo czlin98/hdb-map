@@ -46,6 +46,10 @@ export const RANGE_PROPERTY = {
 
 const RANGE_KEYS = Object.keys(RANGE_PROPERTY) as RangeKey[];
 
+// Whole metres would land the thumbs on values like 487 and make the arrow keys crawl. 50 m is
+// still finer than a straight-line distance is accurate, and splits the 200 m color bands.
+export const RANGE_STEP: Record<RangeKey, number> = { year: 1, floors: 1, mrt: 50 };
+
 export function matches(p: BlockIndexProperties, f: Filters): boolean {
   if (f.towns.length && !f.towns.includes(p.town)) return false;
   const inRanges = RANGE_KEYS.every((key) => {
@@ -85,7 +89,15 @@ export function dataLimits(features: BlockFeature[]): Record<RangeKey, Range> {
   const limits = {} as Record<RangeKey, Range>;
   for (const key of RANGE_KEYS) {
     const values = features.map((f) => f.properties[RANGE_PROPERTY[key]]);
-    limits[key] = values.length ? [Math.min(...values), Math.max(...values)] : [0, 0];
+    // Rounded out to whole steps: the slider counts steps from its minimum, so a track starting
+    // at 15 m would stop at 65, 115, and never at 500.
+    const step = RANGE_STEP[key];
+    limits[key] = values.length
+      ? [
+          Math.floor(Math.min(...values) / step) * step,
+          Math.ceil(Math.max(...values) / step) * step,
+        ]
+      : [0, 0];
   }
   return limits;
 }
