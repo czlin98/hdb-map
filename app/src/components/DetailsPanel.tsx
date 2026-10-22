@@ -10,6 +10,14 @@ import { XIcon } from "lucide-react";
 import { Drawer, DrawerClose, DrawerContent, DrawerTitle } from "./ui/drawer";
 import { Sheet, SheetContent, SheetTitle } from "./ui/sheet";
 
+// A straight line from one geocoded point is good to tens of metres at best, so from 1 km
+// whole metres would claim precision it doesn't have. Rounding via tenths of a km avoids
+// toFixed's binary halves (1450 -> "1.4").
+export function formatDistance(metres: number): string {
+  if (metres < 1000) return `${metres} m`;
+  return `${(Math.round(metres / 100) / 10).toFixed(1)} km`;
+}
+
 // Shown beside the value the map is colored by. The shard mirrors the index, so the band
 // matches the block's marker; on mobile the sheet covers the legend, so this is its key there.
 function BandSwatch({ mode, value }: { mode: ScaleMode; value: number }) {
@@ -50,7 +58,8 @@ function NearestStationRow({
         <span>· {station.exit}</span>
       </dd>
       <dd className="flex items-center gap-1.5">
-        {station.distance} m{showBand && <BandSwatch mode="mrt" value={station.distance} />}
+        {formatDistance(station.distance)}
+        {showBand && <BandSwatch mode="mrt" value={station.distance} />}
       </dd>
     </dl>
   );

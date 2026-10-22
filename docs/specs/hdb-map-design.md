@@ -1000,7 +1000,10 @@ out.
   and Units grid: the station name, a chip per line code, and the exit
   ("Outram Park EW16 NE3 TE17 · Exit 5"), then the distance alone on a second
   line ("350 m"), with the band swatch right after it in MRT mode, as for
-  Year and Floors. The chips sit beside the name as on the station signs. The
+  Year and Floors. From 1 km the distance shows in km to one decimal
+  ("3.5 km"): a straight line from one geocoded point isn't good to the
+  metre, and at that range the metres only add noise. The chips sit beside
+  the name as on the station signs. The
   chips take each line's official color (the LRT lines share grey), since
   riders know the lines by color from the station signs. The colors live in
   a small table in the app, so a newly opened line needs a color there as
