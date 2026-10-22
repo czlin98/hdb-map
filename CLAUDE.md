@@ -56,13 +56,14 @@ types it. **Keep these two in sync when changing any field.** Files:
   `street`/`street_full`, `postal`, `town`) plus the values that coloring and filtering read, since
   both need every block at once: `year_completed` and `max_floor_lvl` (mirrored from the shard), and
   `sold_types`/`rental_types` (the keys of the shard's unit counts, always present, possibly empty),
-  and `station_distance` (whole metres to the nearest station exit, mirrored from the shard). Loaded
-  whole at startup; drives the map and the search index. Written compact, one block per line,
-  coordinates rounded to 6 decimals (`export.py`).
+  and `station_distance` (whole metres to the nearest station exit, the distance of the shard's
+  first `nearest_stations` entry). Loaded whole at startup; drives the map and the search index.
+  Written compact, one block per line, coordinates rounded to 6 decimals (`export.py`).
 - `block-details/{town_slug}.json`: heavy per-block detail (unit counts, year, floors, and
-  `nearest_station`: id, name, line codes, exit, distance) **sharded by town** and keyed by block
-  `id`. Lazy-loaded one shard at a time and cached (`createGetBlockDetail` in
-  `app/src/lib/data.ts`). A shard is written for _every_ town, even empty ones.
+  `nearest_stations`: the nearest station, then up to two more within 1 km, MRT before LRT, each
+  with id, name, line codes, exit, distance) **sharded by town** and keyed by block `id`.
+  Lazy-loaded one shard at a time and cached (`createGetBlockDetail` in `app/src/lib/data.ts`). A
+  shard is written for _every_ town, even empty ones.
 - `stations.geojson`: one Point per station (`kind: "station"`: id, name, line codes; placed at the
   mean of its exits) and one per exit point (`kind: "exit"`: station id, exit name). An exit name
   can have several points, one per entrance. Loaded at startup beside the index but not required by
@@ -96,7 +97,10 @@ The stations stage (`stations.py`) reads LTA's exit dataset from data.gov.sg, me
 stops into one station, and looks up each station's line codes on OneMap, keeping only codes whose
 prefix is in `OPEN_LINES` (`config.py`). A station left with no code fails the run, and a station
 guard like the block guard (`MIN_STATION_RATIO`) runs before geocoding. `transform` gives each block
-its nearest exit by straight-line (haversine) distance.
+its station list (`nearest_stations` in `stations.py`): each station is measured to its nearest exit
+by straight-line (haversine) distance; the nearest comes first, then up to `MAX_STATIONS - 1` more
+within `NEARBY_RADIUS_M`, MRT before LRT. `LRT_LINES` (`config.py`) decides which stations are
+LRT-only and must agree with `isLrtOnly` in `app/src/lib/lines.ts`.
 
 ## Frontend internals
 
@@ -113,8 +117,10 @@ failed load only loses the stations. `MapView` adds a `stations` source with sta
 (station chips are canvas images from `lib/station-chips.ts`, colored by `lib/lines.ts`, which must
 stay in step with `OPEN_LINES`), and a `nearest-exit` source for the selected block's highlight.
 `App` finds that exit from the shard (`nearestExitPoint` in `lib/data.ts`); the detail loader caches
-each shard's promise, so the panel and the highlight share one request. None of the station layers
-are hover or tap targets.
+each shard's promise, so the panel and the highlight share one request. The panel's station rows are
+toggle buttons that choose which station `App` highlights, or none; the choice resets to the nearest
+on each new selection, while "off" lasts for the visit. None of the station layers are hover or tap
+targets.
 
 Marker coloring: `lib/coloring.ts` is the single definition of the bands (edges, labels, colors) and
 derives the MapLibre `step` expression, the band lookup, and the legend counts from it. The active

@@ -246,9 +246,10 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   says the distance is straight-line (§5.12).
 - **Nearest stations:** the panel lists the nearest station and up to two
   more (§5.12), each measured the same way to its own nearest exit. The two
-  more come from the stations within
-  `NEARBY_RADIUS_M` (1 km) count. MRT stations come first, nearest first,
-  then LRT stops: in Punggol, Sengkang, Choa Chu Kang, and Bukit Panjang the
+  more come from the stations within `NEARBY_RADIUS_M` (1 km, in the whole
+  metres the shard stores, so no listed distance reads over 1 km). MRT
+  stations come first, nearest first, then LRT stops: in Punggol, Sengkang,
+  Choa Chu Kang, and Bukit Panjang the
   LRT loops put two or three stops closer than the MRT station the LRT feeds,
   and a plain "three closest" would leave that MRT station out (about 600
   blocks). A station counts as MRT if any of its codes is on an MRT line, so a
@@ -1091,7 +1092,9 @@ out.
   over each other. Where LTA lists one exit at several entrances, each point
   shows. Like stations, exits never take a block's hover or tap.
 - **Nearest-exit highlight:** while a block is selected, its nearest exit is
-  marked at every zoom, joined to the block by a thin dashed line, so the map
+  marked at every zoom (another station's, or none, once chosen from the
+  panel; see "Choosing the highlighted station" below), joined to the block
+  by a thin dashed line, so the map
   shows what the panel's distance measures; the dash reads as a straight
   line, not a route. The exit comes from the shard (the station and exit of
   the first entry in `nearest_stations`), so the app never searches for the nearest exit itself;
@@ -1107,10 +1110,14 @@ out.
   middle ("404 m", "1.2 km", worded as in the panel), in the highlight's
   amber, so the map says how far the marked exit is without a look back at
   the panel, which matters once the rows can move the highlight to another
-  station. The label runs along the line, kept upright, and gives way like
-  any other map label: on a line too short for it at the current zoom, or
-  where it would collide, it is simply hidden, which was judged fine since
-  the panel always has the number. Putting the distance in the exit's label
+  station. The label sits at the line's middle, turned to run along it and
+  kept upright, and gives way to other map labels: where it would collide it
+  is simply hidden, which was judged fine since the panel always has the
+  number. It is one label placed at the middle point rather than the map's
+  own along-the-line placement, which labelled each map tile a long line
+  crossed and so showed the number twice. On a line shorter than the label
+  it can sit beside the block rather than on the line. Putting the distance
+  in the exit's label
   instead was considered, as that point never runs short; the line was
   chosen so the number sits on the thing it measures.
 - **Choosing the highlighted station:** each row of the panel's list is a
@@ -1278,8 +1285,8 @@ Still to come:
 
 ### 7.5 Nearest station: later refinements
 
-The nearest station, its distance, and the station and exit layers shipped
-(§5.12).
+The nearest station, its distance, the station and exit layers, and the
+panel's list of nearby stations with its highlight choice shipped (§5.12).
 Still to come:
 
 - **Planned lines marked as future,** such as "CR11 (future)" at Ang Mo Kio.
