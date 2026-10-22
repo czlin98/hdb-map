@@ -217,6 +217,13 @@ def test_build_stations_orders_codes_by_line_then_number_without_duplicates():
     assert _one(result, "sengkang")["codes"] == ["NE16", "STC", "SE5"]
 
 
+def test_build_stations_raises_when_two_names_share_an_id():
+    rows = [_row("ONE-NORTH", "Exit A", 103.787, 1.299), _row("ONE NORTH", "Exit B", 103.788, 1.3)]
+
+    with pytest.raises(ValueError, match="Duplicate station id"):
+        build_stations(rows, {"ONE-NORTH": ["CC23"], "ONE NORTH": ["CC23"]})
+
+
 def test_build_stations_orders_codes_on_one_line_by_number():
     result = build_stations([_row("X", "Exit A", 103.8, 1.3)], {"X": ["DT10", "DT9"]})
 

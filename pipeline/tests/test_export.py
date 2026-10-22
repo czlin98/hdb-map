@@ -289,11 +289,6 @@ def test_stations_written_one_feature_per_line(tmp_path):
     assert len(lines) == 2 + 2  # header, station, exit, footer
 
 
-def test_duplicate_station_id_raises(tmp_path):
-    with pytest.raises(ValueError, match="Duplicate station id"):
-        write_stations([_station(), _station(name="ANG MO KIO")], app_data_dir=tmp_path)
-
-
 def test_shard_stations_and_exits_exist_in_the_stations_file(tmp_path):
     write_outputs([_rec()], TOWNS, app_data_dir=tmp_path)
     write_stations([_station()], app_data_dir=tmp_path)

@@ -2,6 +2,7 @@ import json
 import math
 import re
 import time
+from collections import Counter
 from pathlib import Path
 
 import requests
@@ -160,6 +161,11 @@ def build_stations(exits: list[dict], codes_by_station: dict[str, list[str]]) ->
             "stations with no code on an open line (add the new line to OPEN_LINES): "
             + ", ".join(sorted(uncoded))
         )
+    # A name override could make two names slug alike. Checked here, before the geocode, so the
+    # run fails before writing anything.
+    dup_ids = [i for i, n in Counter(s["id"] for s in stations).items() if n > 1]
+    if dup_ids:
+        raise ValueError(f"Duplicate station id(s): {sorted(dup_ids)}")
     return sorted(stations, key=lambda s: s["id"])
 
 

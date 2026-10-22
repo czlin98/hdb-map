@@ -105,11 +105,6 @@ def write_outputs(records: list[dict], towns: list[dict], app_data_dir: Path | N
 def write_stations(stations: list[dict], app_data_dir: Path | None = None) -> None:
     app_data_dir = Path(app_data_dir or config.APP_DATA_DIR)
 
-    # A name override could make two names slug alike.
-    dup_ids = [i for i, n in Counter(s["id"] for s in stations).items() if n > 1]
-    if dup_ids:
-        raise ValueError(f"Duplicate station id(s): {sorted(dup_ids)}")
-
     ordered = sorted(stations, key=lambda s: s["id"])
     features = [
         {
