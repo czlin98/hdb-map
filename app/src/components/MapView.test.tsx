@@ -561,7 +561,12 @@ const STATION_LAYERS = [
   "stations-labels",
   "stations-labels-lrt",
 ];
-const HIGHLIGHT_LAYERS = ["nearest-exit-line", "nearest-exit-circle", "nearest-exit-label"];
+const HIGHLIGHT_LAYERS = [
+  "nearest-exit-line",
+  "nearest-exit-circle",
+  "nearest-exit-distance",
+  "nearest-exit-label",
+];
 
 test("stations that beat load are drawn on load, each layer in its place among the blocks", () => {
   map.getLayer.mockReturnValue(undefined);
@@ -695,7 +700,13 @@ test("the tooltip ends with the distance in MRT mode", () => {
   expect(hoverTooltip()).toEqual(["123 ANG MO KIO AVE 3", " · 350 m"]);
 });
 
-const AMK_EXIT_A = { lon: 103.8488, lat: 1.3693, station: "ang-mo-kio", exit: "Exit A" };
+const AMK_EXIT_A = {
+  lon: 103.8488,
+  lat: 1.3693,
+  station: "ang-mo-kio",
+  exit: "Exit A",
+  distance: 350,
+};
 const AMK_BLOCK = sampleIndex.features[0].geometry.coordinates;
 
 function lastExitData() {
@@ -710,6 +721,7 @@ test("the exit highlight sits under the selected block, its label under the bloc
   expect(HIGHLIGHT_LAYERS.map((id) => layerAdded(id)?.before)).toEqual([
     "blocks-highlight",
     "blocks-highlight",
+    "nearest-exit-label",
     "blocks-highlight-label",
   ]);
   expect(layerAdded("nearest-exit-line")?.spec.paint).toMatchObject({
@@ -729,6 +741,12 @@ test("a nearest exit draws its point and a line from the selected block", () => 
       geometry: { type: "LineString", coordinates: [AMK_BLOCK, point] },
       properties: {},
     },
+    expect.objectContaining({
+      geometry: {
+        type: "Point",
+        coordinates: [(AMK_BLOCK[0] + point[0]) / 2, (AMK_BLOCK[1] + point[1]) / 2],
+      },
+    }),
     {
       type: "Feature",
       geometry: { type: "Point", coordinates: point },
@@ -738,6 +756,48 @@ test("a nearest exit draws its point and a line from the selected block", () => 
 
   rerender(<MapView {...props} selectedId={null} nearestExit={null} />);
   expect(lastExitData().features).toEqual([]);
+});
+
+test("the line's distance label reads as in the panel, from 1 km in km", () => {
+  const props = { data: sampleIndex, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} selectedId={null} />);
+  fire("load");
+  rerender(<MapView {...props} selectedId={SELECTED} nearestExit={AMK_EXIT_A} />);
+  expect(lastExitData().features[1].properties).toMatchObject({ label: "350 m" });
+  rerender(
+    <MapView {...props} selectedId={SELECTED} nearestExit={{ ...AMK_EXIT_A, distance: 1234 }} />,
+  );
+  expect(lastExitData().features[1].properties).toMatchObject({ label: "1.2 km" });
+});
+
+test("the distance label is its own point, turned with the line", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  const spec = layerAdded("nearest-exit-distance")?.spec;
+  expect(spec).toMatchObject({ type: "symbol", source: "nearest-exit", filter: ["has", "label"] });
+  expect(spec?.layout).toMatchObject({
+    "text-field": ["get", "label"],
+    "text-rotate": ["get", "angle"],
+    "text-rotation-alignment": "map",
+  });
+  // The exit's circle and name stay on the exit, not on the label's point.
+  for (const id of ["nearest-exit-circle", "nearest-exit-label"])
+    expect(layerAdded(id)?.spec.filter).toEqual(["has", "exit"]);
+});
+
+test.each([
+  ["east", [0.01, 0], 0],
+  ["west, turned upright", [-0.01, 0], 0],
+  ["north", [0, 0.01], -90],
+  ["north-west, turned upright", [-0.01, 0.01], 45],
+])("the label's angle follows a line running %s", (_, [dLon, dLat], angle) => {
+  const props = { data: sampleIndex, onSelectBlock: vi.fn() };
+  const { rerender } = render(<MapView {...props} selectedId={null} />);
+  fire("load");
+  const exit = { ...AMK_EXIT_A, lon: AMK_BLOCK[0] + dLon, lat: AMK_BLOCK[1] + dLat };
+  rerender(<MapView {...props} selectedId={SELECTED} nearestExit={exit} />);
+  const { angle: got } = lastExitData().features[1].properties as { angle: number };
+  expect(got).toBeCloseTo(angle, 0);
 });
 
 test("an exit known before load is drawn on load", () => {
@@ -752,7 +812,7 @@ test("an exit known before load is drawn on load", () => {
   map.addSource.mockClear();
   fire("load");
   const call = map.addSource.mock.calls.find((c) => c[0] === "nearest-exit");
-  expect((call?.[1] as { data: { features: unknown[] } }).data.features).toHaveLength(2);
+  expect((call?.[1] as { data: { features: unknown[] } }).data.features).toHaveLength(3);
 });
 
 test("the plain exit labels drop the highlighted exit and get it back on clear", () => {

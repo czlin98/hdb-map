@@ -4,7 +4,13 @@ import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import type { FeatureCollection } from "geojson";
 import type { IndexFeatureCollection, StationFeatureCollection } from "../types/contract";
-import { circleColor, COLOR_SCALES, type ColorMode, type ColorScale } from "../lib/coloring";
+import {
+  circleColor,
+  COLOR_SCALES,
+  formatDistance,
+  type ColorMode,
+  type ColorScale,
+} from "../lib/coloring";
 import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
 import { drawStationChips } from "../lib/station-chips";
 import { isLrtOnly } from "../lib/lines";
@@ -49,6 +55,7 @@ export interface NearestExit {
   lat: number;
   station: string; // station id
   exit: string;
+  distance: number; // whole metres, as in the shard
 }
 
 // Any lower and a dense estate reads as a wall of text.
@@ -148,21 +155,39 @@ function exitLabelFilter(nearest: NearestExit | null): maplibregl.FilterSpecific
   ];
 }
 
+// The distance label sits on a point at the line's middle, turned to the line, rather than
+// using "line-center": a GeoJSON line is cut at tile edges and each piece gets its own label.
+// The map never rotates, so an angle fixed in the data stays right.
+function lineMiddle([lon1, lat1]: [number, number], [lon2, lat2]: [number, number]) {
+  // Equirectangular is close enough to the screen at a few km; screen y runs down.
+  const dx = (lon2 - lon1) * Math.cos((lat1 * Math.PI) / 180);
+  const angle = (-Math.atan2(lat2 - lat1, dx) * 180) / Math.PI;
+  // Turned half a circle where it would read upside down.
+  const upright = angle > 90 ? angle - 180 : angle < -90 ? angle + 180 : angle;
+  return { coordinates: [(lon1 + lon2) / 2, (lat1 + lat2) / 2], angle: upright };
+}
+
 function nearestExitData(
   nearest: NearestExit | null,
   block: [number, number] | undefined,
 ): FeatureCollection {
   if (!nearest) return { type: "FeatureCollection", features: [] };
-  const point = [nearest.lon, nearest.lat];
+  const point: [number, number] = [nearest.lon, nearest.lat];
+  const middle = block && lineMiddle(block, point);
   return {
     type: "FeatureCollection",
     features: [
-      ...(block
+      ...(block && middle
         ? [
             {
               type: "Feature" as const,
               geometry: { type: "LineString" as const, coordinates: [block, point] },
               properties: {},
+            },
+            {
+              type: "Feature" as const,
+              geometry: { type: "Point" as const, coordinates: middle.coordinates },
+              properties: { label: formatDistance(nearest.distance), angle: middle.angle },
             },
           ]
         : []),
@@ -194,7 +219,7 @@ function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
       id: "nearest-exit-circle",
       type: "circle",
       source: "nearest-exit",
-      filter: ["==", ["geometry-type"], "Point"],
+      filter: ["has", "exit"],
       paint: {
         "circle-radius": 5,
         "circle-color": "#ffffff",
@@ -209,7 +234,7 @@ function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
       id: "nearest-exit-label",
       type: "symbol",
       source: "nearest-exit",
-      filter: ["==", ["geometry-type"], "Point"],
+      filter: ["has", "exit"],
       layout: {
         "text-field": ["get", "exit"],
         "text-font": ["Noto Sans Bold"],
@@ -222,6 +247,26 @@ function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
       paint: { "text-color": "#92400e", "text-halo-color": "#ffffff", "text-halo-width": 2 },
     },
     "blocks-highlight-label",
+  );
+  // Below the exit's label, so the exit name wins a collision. Unlike it, the distance gives
+  // way to other labels: the panel always has the number.
+  map.addLayer(
+    {
+      id: "nearest-exit-distance",
+      type: "symbol",
+      source: "nearest-exit",
+      filter: ["has", "label"],
+      layout: {
+        "text-field": ["get", "label"],
+        "text-font": ["Noto Sans Bold"],
+        "text-size": 12,
+        "text-rotate": ["get", "angle"],
+        "text-rotation-alignment": "map",
+        "text-offset": [0, -0.8],
+      },
+      paint: { "text-color": "#92400e", "text-halo-color": "#ffffff", "text-halo-width": 2 },
+    },
+    "nearest-exit-label",
   );
 }
 

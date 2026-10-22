@@ -144,7 +144,20 @@ test.each(["index.geojson", "towns.json"])(
 
 describe("the nearest-exit highlight", () => {
   const AMK = "marker-123-ang-mo-kio-ave-3";
-  const amkExit = { lon: 103.8488, lat: 1.3693, station: "ang-mo-kio", exit: "Exit A" };
+  const amkExit = {
+    lon: 103.8488,
+    lat: 1.3693,
+    station: "ang-mo-kio",
+    exit: "Exit A",
+    distance: 350,
+  };
+  const mayflowerExit = {
+    lon: 103.8368,
+    lat: 1.3716,
+    station: "mayflower",
+    exit: "Exit 2",
+    distance: 720,
+  };
   const bedokShard = {
     "1-bedok-nth-st-1": {
       ...sampleShard["123-ang-mo-kio-ave-3"],
@@ -158,7 +171,17 @@ describe("the nearest-exit highlight", () => {
       ],
     },
   };
-  const bedokExit = { lon: 103.9302, lat: 1.3242, station: "bedok", exit: "Exit B" };
+  const bedokExit = {
+    lon: 103.9302,
+    lat: 1.3242,
+    station: "bedok",
+    exit: "Exit B",
+    distance: 820,
+  };
+  // The details sheet is a Vaul drawer in jsdom; userEvent's pointerdown trips Vaul's
+  // setPointerCapture, so rows are clicked with fireEvent.
+  const clickRow = async (name: RegExp) =>
+    fireEvent.click(await screen.findByRole("button", { name }));
   const shownExit = () => JSON.parse(screen.getByTestId("map").dataset.nearestExit!);
 
   test("selecting a block hands the map its nearest exit; clearing takes it away", async () => {
@@ -187,6 +210,49 @@ describe("the nearest-exit highlight", () => {
     // The panel shows what it would without the highlight.
     expect(await screen.findByText(panel)).toBeInTheDocument();
     expect(shownExit()).toBeNull();
+  });
+
+  test("the rows move the highlight, turn it off, and it stays off for the next block", async () => {
+    stubFetch({
+      "index.geojson": sampleIndex,
+      "towns.json": sampleTowns,
+      "stations.geojson": sampleStations,
+      "ang-mo-kio.json": sampleShard,
+      "bedok.json": bedokShard,
+    });
+    render(<App />);
+    await userEvent.click(await screen.findByText(AMK));
+    await waitFor(() => expect(shownExit()).toEqual(amkExit));
+
+    await clickRow(/^Mayflower/);
+    await waitFor(() => expect(shownExit()).toEqual(mayflowerExit));
+    await clickRow(/^Mayflower/);
+    expect(shownExit()).toBeNull();
+
+    await userEvent.click(screen.getByText("marker-1-bedok-nth-st-1"));
+    await screen.findByRole("button", { name: /^Bedok/ });
+    expect(shownExit()).toBeNull();
+    await clickRow(/^Bedok/);
+    await waitFor(() => expect(shownExit()).toEqual(bedokExit));
+  });
+
+  test("while on, each new block starts at its nearest station", async () => {
+    stubFetch({
+      "index.geojson": sampleIndex,
+      "towns.json": sampleTowns,
+      "stations.geojson": sampleStations,
+      "ang-mo-kio.json": sampleShard,
+      "bedok.json": bedokShard,
+    });
+    render(<App />);
+    await userEvent.click(await screen.findByText(AMK));
+    await clickRow(/^Mayflower/);
+    await waitFor(() => expect(shownExit()).toEqual(mayflowerExit));
+
+    await userEvent.click(screen.getByText("marker-1-bedok-nth-st-1"));
+    await waitFor(() => expect(shownExit()).toEqual(bedokExit));
+    await userEvent.click(screen.getByText(AMK));
+    await waitFor(() => expect(shownExit()).toEqual(amkExit));
   });
 
   test("a quick second selection never shows the first block's exit", async () => {

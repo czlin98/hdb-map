@@ -152,6 +152,43 @@ test("other modes leave the station rows without a swatch or a blank", () => {
   }
 });
 
+test("every row is a toggle button, a lone station's too", () => {
+  render(
+    <DetailsContent
+      detail={{ ...sampleShard["123-ang-mo-kio-ave-3"], nearest_stations: [outram] }}
+      highlighted={0}
+    />,
+  );
+  const [row] = stationRows();
+  expect(within(row).getByRole("button", { pressed: true })).toHaveTextContent(/^Outram Park/);
+});
+
+test("the highlighted row is pressed and the rest are not", () => {
+  render(<DetailsContent detail={threeStations} highlighted={1} />);
+  expect(stationRows().map((row) => within(row).getByRole("button").ariaPressed)).toEqual([
+    "false",
+    "true",
+    "false",
+  ]);
+});
+
+test("with the highlight off no row is pressed", () => {
+  render(<DetailsContent detail={threeStations} highlighted={null} />);
+  for (const row of stationRows()) {
+    expect(within(row).getByRole("button")).toHaveAttribute("aria-pressed", "false");
+  }
+});
+
+test("a row highlights its station, and the pressed row turns the highlight off", async () => {
+  const onHighlight = vi.fn();
+  render(<DetailsContent detail={threeStations} highlighted={0} onHighlight={onHighlight} />);
+  const [first, , third] = stationRows().map((row) => within(row).getByRole("button"));
+  await userEvent.click(third);
+  expect(onHighlight).toHaveBeenLastCalledWith(2);
+  await userEvent.click(first);
+  expect(onHighlight).toHaveBeenLastCalledWith(null);
+});
+
 test("useBlockDetail: loading -> ready", async () => {
   const get = vi.fn().mockResolvedValue(sampleShard["123-ang-mo-kio-ave-3"]);
   const { result } = renderHook(() => useBlockDetail("123-ang-mo-kio-ave-3", "ANG MO KIO", get));
