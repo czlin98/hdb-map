@@ -2,7 +2,8 @@
 
 **Date:** 2026-08-25 (revised 2026-10-01 to match the shipped v1; marker
 coloring added 2026-10-11; filtering added 2026-10-15; flat-type filter added
-2026-10-16; nearest MRT/LRT station added 2026-10-20)
+2026-10-16; nearest MRT/LRT station added 2026-10-20; nearby stations in the
+panel added 2026-10-22)
 **Status:** Implemented. This spec describes the app as shipped. The plans in
 `docs/plans/` are the original execution record; the two v1 plans list their
 later deviations under "Post-implementation deltas".
@@ -243,6 +244,19 @@ vocabulary). The matched result's fields are captured as OneMap returns them
   `id`, so the output stays deterministic. A straight line, not a walking
   route: routing would add about 10k OneMap calls to every run, and the app
   says the distance is straight-line (§5.12).
+- **Nearest stations:** the panel lists the nearest station and up to two
+  more (§5.12), each measured the same way to its own nearest exit. The two
+  more come from the stations within
+  `NEARBY_RADIUS_M` (1 km) count. MRT stations come first, nearest first,
+  then LRT stops: in Punggol, Sengkang, Choa Chu Kang, and Bukit Panjang the
+  LRT loops put two or three stops closer than the MRT station the LRT feeds,
+  and a plain "three closest" would leave that MRT station out (about 600
+  blocks). A station counts as MRT if any of its codes is on an MRT line, so a
+  shared stop (Punggol) does; `config.py` lists the LRT prefixes. The nearest
+  station stays first whatever it is, since the distance, coloring, and
+  highlight all use it. The list is stored in distance order, with ties to
+  the lower `id`, and holds just the nearest when nothing else is within
+  1 km.
 - Join Property Information and the geocode result into one clean per-block
   record.
 - Derive two units-by-flat-type maps, **sold** and **rental**. Drop the
@@ -469,7 +483,10 @@ Self-contained (repeats address fields).
     "total_dwelling_units": 200,
     "sold_units_by_type": { "3room": 40, "4room": 60, "5room": 20, "exec": 20 },   // only >0; keys/labels/order per the flat-type table in the plans (e.g. exec → "Executive")
     "rental_units_by_type": { "1room": 40, "2room": 20 },                          // public rental; only >0; omitted/{} when none
-    "nearest_station": { "id": "ang-mo-kio", "name": "Ang Mo Kio", "codes": ["NS16"], "exit": "Exit A", "distance": 350 } // open lines only (§3.6); distance mirrors the index
+    "nearest_stations": [                 // 1 to 3, nearest first, then distance order (§3.3); open lines only (§3.6)
+      { "id": "ang-mo-kio", "name": "Ang Mo Kio", "codes": ["NS16"], "exit": "Exit A", "distance": 350 }, // the nearest: its distance mirrors the index
+      { "id": "yio-chu-kang", "name": "Yio Chu Kang", "codes": ["NS15"], "exit": "Exit B", "distance": 940 }
+    ]
   }
 }
 ```
@@ -495,10 +512,11 @@ that town's shard the first time and caches it in memory, then returns
   `max_floor_lvl`, and `total_dwelling_units` above zero; blocks without them
   are left out of the output and recorded (§3.2, §3.3).
 - Every `town` in the index and detail exists in `towns.json`.
-- A block's `station_distance` equals its shard's `nearest_station.distance`,
-  and that station exists in `stations.geojson` with the same name and codes.
-  Its `nearest_station.exit` is the name of at least one of that station's
-  exits there.
+- A block's `nearest_stations` holds one to three entries, each a different
+  station that exists in `stations.geojson` with the same name and codes,
+  and each `exit` the name of at least one of that station's exits there.
+  The first is the nearest station, and the block's `station_distance`
+  equals its distance; the others are within 1 km, in distance order.
 - Every station has at least one line code, and every code is on an open line.
 - Every exit's `station` is the `id` of a station in the same file.
 - Both files are written with fields in a fixed logical order, and with
@@ -647,7 +665,7 @@ without knowing about filters. They are not persisted either (§5.11).
 - Reads the selection (`selectedId` + `selectedTown`), calls
   `await getBlockDetail(id, town)`, and renders the **entire panel** from the
   shard record: the header (full address `{blk_no} {street_full} {postal}`),
-  then town, year completed, floors, total units, the nearest station
+  then town, year completed, floors, total units, the nearest stations
   (§5.12), and the units-by-flat-type breakdown as a **Sold** group and, when
   present, a **Rental** group. One source, no split between index and shard.
 - While a coloring mode is on, the row for that value (year completed, floors,
@@ -1007,11 +1025,22 @@ out.
   to stay short. The note sits behind an info button beside the legend title
   (hover or keyboard focus on desktop, tap on touch) rather than on its own
   line, which keeps the mobile legend short.
-- **Details panel (§5.5):** a "Nearest MRT" row below the Town, Year, Floors,
-  and Units grid: the station name, a chip per line code, and the exit
-  ("Outram Park EW16 NE3 TE17 · Exit 5"), then the distance alone on a second
-  line ("350 m"), with the band swatch right after it in MRT mode, as for
-  Year and Floors. From 1 km the distance shows in km to one decimal
+- **Details panel (§5.5):** a "Nearest MRT" list below the Town, Year, Floors,
+  and Units grid: the nearest station, then up to two more within 1 km
+  (§3.3), so a block between stations shows its choices. One line per
+  station: the name, a chip per line code, and the exit
+  ("Outram Park EW16 NE3 TE17 · Exit 5"), with the distance at the right
+  end, so the distances line up for comparing. In MRT mode the band swatch
+  follows the first station's distance only, since the marker's band is
+  that station's; the other rows keep a blank of the swatch's width, so the
+  distances still line up. The heading stays "Nearest MRT" whether one
+  station or three show: a heading that changed from block to block read as
+  a different field, and "nearby" would be wrong for a lone station 3 km
+  away. One line per station keeps three stations shorter than the old
+  two-line row repeated; listing only the nearest in full with the others
+  as a smaller "also within 1 km" line was tried and dropped, as it hid the
+  other stations' exits and took more height. From 1 km the distance shows
+  in km to one decimal
   ("3.5 km"), here and in the hover tooltip: a straight line from one
   geocoded point isn't good to the metre, and at that range the metres only
   add noise. The chips sit beside
@@ -1020,7 +1049,7 @@ out.
   riders know the lines by color from the station signs. The colors live in
   a small table in the app, so a newly opened line needs a color there as
   well as its prefix in the pipeline's open-line list. Naming the exit says
-  where the distance is measured to. The row reads from the shard, so it
+  where the distance is measured to. The list reads from the shard, so it
   needs no extra fetch.
 - **Coloring mode (§5.10):** "MRT distance", in 200 m bands up to 1 km, about
   two and a half minutes' walk each, with the nearest blocks darkest on
@@ -1064,8 +1093,8 @@ out.
 - **Nearest-exit highlight:** while a block is selected, its nearest exit is
   marked at every zoom, joined to the block by a thin dashed line, so the map
   shows what the panel's distance measures; the dash reads as a straight
-  line, not a route. The exit comes from the shard (`nearest_station`'s
-  station and exit), so the app never searches for the nearest exit itself;
+  line, not a route. The exit comes from the shard (the station and exit of
+  the first entry in `nearest_stations`), so the app never searches for the nearest exit itself;
   when that exit name has several points, the one nearest the block is
   marked. The exit gets an amber ring and its name in bold amber, matching
   the selected block, and its usual grey label is hidden so the name doesn't
@@ -1074,6 +1103,33 @@ out.
   whichever loads first. The fly-to is unchanged, so the exit can be off
   screen or under the mobile sheet; the line is then the cue that points to
   it, which is why it was kept.
+- **Distance on the line:** the dashed line carries its distance at its
+  middle ("404 m", "1.2 km", worded as in the panel), in the highlight's
+  amber, so the map says how far the marked exit is without a look back at
+  the panel, which matters once the rows can move the highlight to another
+  station. The label runs along the line, kept upright, and gives way like
+  any other map label: on a line too short for it at the current zoom, or
+  where it would collide, it is simply hidden, which was judged fine since
+  the panel always has the number. Putting the distance in the exit's label
+  instead was considered, as that point never runs short; the line was
+  chosen so the number sits on the thing it measures.
+- **Choosing the highlighted station:** each row of the panel's list is a
+  toggle button, a lone station's row included. Tapping a row moves the
+  highlight to that station's nearest exit (the same lookup as above, from
+  that row's station and exit); tapping the highlighted row turns the
+  highlight off, and tapping any row turns it back on. The highlighted row is
+  marked in the highlight's amber and reports itself as pressed. The
+  highlight starts on: it is what explains the distance, and a highlight
+  that started off would leave nothing hinting that the rows can be tapped.
+  Turned off, it stays off for the blocks selected after, since someone who
+  finds the line in the way would otherwise turn it off again on every
+  block; tapping any row brings it back. Like the color mode and filters,
+  the choice lasts for the visit and isn't saved. While it is on, each new
+  block starts with its nearest station highlighted. Click or tap
+  only, not hover: phones have no hover, and on desktop the highlight would
+  jump about as the pointer crossed the panel. Choosing another station
+  doesn't move the map, and the swatch stays on the first row, since the
+  marker's band is still the nearest station's.
 - **Filter (§5.11):** a range over the same distance.
 - **Not in this iteration:** the later refinements in §7.5.
 
@@ -1120,7 +1176,9 @@ out.
   as well, with one line counting the exits added, removed, and moved (an exit
   is matched by station and name, so a re-surveyed exit reads as moved). A
   block whose nearest station or distance moved shows as a changed block like
-  any other.
+  any other, as does one whose list of nearest stations (§3.3) changed; for
+  the list only the names count, since the distances shift by a metre with
+  every small geocode move.
   It only describes the run, so any failure in it logs a warning and the data
   is committed with the plain message.
 - **Steps:** checkout → setup Python → install → run the pipeline. The run
