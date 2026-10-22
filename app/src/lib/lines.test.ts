@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { lineChipColors } from "./lines";
+import { isLrtOnly, lineChipColors } from "./lines";
 
 test("a code takes its line's color with white text", () => {
   expect(lineChipColors("NS16")).toEqual({ background: "#d42e12", color: "#ffffff" });
@@ -19,4 +19,11 @@ test("LRT codes share the grey, matched on the whole prefix", () => {
 
 test("an unknown prefix falls back to the LRT grey", () => {
   expect(lineChipColors("XY9")).toEqual(lineChipColors("BP6"));
+});
+
+test("a station is LRT-only when every code is an LRT code", () => {
+  expect(isLrtOnly(["SE5"])).toBe(true);
+  expect(isLrtOnly(["BP6", "STC"])).toBe(true);
+  expect(isLrtOnly(["NE16", "STC"])).toBe(false);
+  expect(isLrtOnly(["EW5"])).toBe(false);
 });

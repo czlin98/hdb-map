@@ -7,6 +7,7 @@ import type { IndexFeatureCollection, StationFeatureCollection } from "../types/
 import { circleColor, COLOR_SCALES, type ColorMode, type ColorScale } from "../lib/coloring";
 import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
 import { drawStationChips } from "../lib/station-chips";
+import { isLrtOnly } from "../lib/lines";
 
 const STYLE_URL = "https://tiles.openfreemap.org/styles/positron";
 // Island view: drives the initial fit and the zoom floor. Centered on the main island's
@@ -232,9 +233,11 @@ function addStationLayers(
   stations: StationFeatureCollection,
   nearest: NearestExit | null,
 ) {
+  const lrtIds: string[] = [];
   for (const f of stations.features) {
     const p = f.properties;
     if (p.kind !== "station") continue;
+    if (isLrtOnly(p.codes)) lrtIds.push(p.id);
     const chips = drawStationChips(p.codes, window.devicePixelRatio);
     if (chips)
       map.addImage(CHIP_IMAGE_PREFIX + p.id, chips, { pixelRatio: window.devicePixelRatio });
@@ -293,34 +296,42 @@ function addStationLayers(
     },
     "nearest-exit-line",
   );
-  map.addLayer(
-    {
-      id: "stations-labels",
-      type: "symbol",
-      source: "stations",
-      filter: isStation,
-      minzoom: 13,
-      layout: {
-        "text-field": [
-          "format",
-          ["get", "name"],
-          {},
-          "\n",
-          {},
-          ["image", ["concat", CHIP_IMAGE_PREFIX, ["get", "id"]]],
-          {},
-        ],
-        "text-font": ["Noto Sans Bold"],
-        "text-size": ["interpolate", ["linear"], ["zoom"], 13, 11, 17, 14],
-        "text-variable-anchor": ["top", "bottom", "left", "right"],
-        "text-radial-offset": 0.8,
-        "text-padding": 2,
-        "text-justify": "auto",
+  // LRT loops put a stop every few hundred metres, so their names wait a step to keep the MRT
+  // names readable. A station shared with an MRT line counts as MRT.
+  const isLrt: maplibregl.ExpressionSpecification = ["in", ["get", "id"], ["literal", lrtIds]];
+  const labelLayers: [string, maplibregl.FilterSpecification, number][] = [
+    ["stations-labels", ["all", isStation, ["!", isLrt]], 13],
+    ["stations-labels-lrt", ["all", isStation, isLrt], 14],
+  ];
+  for (const [id, filter, minzoom] of labelLayers)
+    map.addLayer(
+      {
+        id,
+        type: "symbol",
+        source: "stations",
+        filter,
+        minzoom,
+        layout: {
+          "text-field": [
+            "format",
+            ["get", "name"],
+            {},
+            "\n",
+            {},
+            ["image", ["concat", CHIP_IMAGE_PREFIX, ["get", "id"]]],
+            {},
+          ],
+          "text-font": ["Noto Sans Bold"],
+          "text-size": ["interpolate", ["linear"], ["zoom"], 13, 11, 17, 14],
+          "text-variable-anchor": ["top", "bottom", "left", "right"],
+          "text-radial-offset": 0.8,
+          "text-padding": 2,
+          "text-justify": "auto",
+        },
+        paint: { "text-color": "#111827", "text-halo-color": "#ffffff", "text-halo-width": 2 },
       },
-      paint: { "text-color": "#111827", "text-halo-color": "#ffffff", "text-halo-width": 2 },
-    },
-    "nearest-exit-label",
-  );
+      "nearest-exit-label",
+    );
 }
 
 // MapLibre has no public way to collapse the compact credits, so press its own ⓘ button.

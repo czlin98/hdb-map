@@ -18,12 +18,21 @@ const LINE_COLORS: Record<string, string> = {
   PW: LRT_GREY,
 };
 
+// The LRT lines are the ones that share the grey, so the table above is the one list of them.
+export function isLrtOnly(codes: string[]): boolean {
+  return codes.every((code) => LINE_COLORS[linePrefix(code)] === LRT_GREY);
+}
+
+function linePrefix(code: string): string {
+  // Prefixes run two or three letters, and some codes have no number (STC, PTC).
+  return /^[A-Z]+/.exec(code)?.[0] ?? "";
+}
+
 // White on the Circle Line's orange is only about 2:1 contrast.
 const DARK_TEXT = new Set(["CC"]);
 
 export function lineChipColors(code: string): { background: string; color: string } {
-  // Prefixes run two or three letters, and some codes have no number (STC, PTC).
-  const prefix = /^[A-Z]+/.exec(code)?.[0] ?? "";
+  const prefix = linePrefix(code);
   return {
     background: LINE_COLORS[prefix] ?? LRT_GREY,
     color: DARK_TEXT.has(prefix) ? "#1f2937" : "#ffffff",

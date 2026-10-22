@@ -1033,7 +1033,12 @@ out.
   interaction. A map label can't put a background behind part of its text,
   so the app draws each station's chips as one small image when the stations
   load and embeds it in the label. The labels sit above the block numbers and win where
-  they collide. Stations never take a block's hover or tap (no tooltip
+  they collide. A station served only by the LRT gets its name one step later
+  than the MRT stations: the LRT loops put a stop every few hundred metres,
+  and their names crowded out the MRT names at the estate view. A station
+  shared with an MRT line counts as MRT. On a phone that later step shows
+  only a few streets, so LRT names come late there; a per-device threshold
+  is a possible follow-up. Stations never take a block's hover or tap (no tooltip
   either), and filters don't hide them (§5.9).
 - **Exit layer:** every exit point, shown only when zoomed in close enough to
   see the space between buildings, so the station dot stands alone further

@@ -72,6 +72,7 @@ import { MapView } from "./MapView";
 import { sampleIndex, sampleStations } from "../test/fixtures";
 import { BLOCK_COLOR, circleColor } from "../lib/coloring";
 import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
+import type { StationFeature } from "../types/contract";
 
 afterEach(() => {
   for (const k of Object.keys(handlers)) delete handlers[k];
@@ -553,7 +554,13 @@ function layerAdded(id: string) {
   return call && { spec: call[0] as Record<string, unknown>, before: call[1] as string };
 }
 
-const STATION_LAYERS = ["exits", "exits-labels", "stations-circles", "stations-labels"];
+const STATION_LAYERS = [
+  "exits",
+  "exits-labels",
+  "stations-circles",
+  "stations-labels",
+  "stations-labels-lrt",
+];
 const HIGHLIGHT_LAYERS = ["nearest-exit-line", "nearest-exit-circle", "nearest-exit-label"];
 
 test("stations that beat load are drawn on load, each layer in its place among the blocks", () => {
@@ -574,6 +581,7 @@ test("stations that beat load are drawn on load, each layer in its place among t
     "blocks-circles",
     "blocks-labels",
     "nearest-exit-line",
+    "nearest-exit-label",
     "nearest-exit-label",
   ]);
   // One chip image per station, named for the label's image lookup.
@@ -614,11 +622,39 @@ test("exits and stations filter on kind, exits only once zoomed in", () => {
       minzoom: 16,
     });
   }
-  for (const id of ["stations-circles", "stations-labels"]) {
-    expect(layerAdded(id)?.spec.filter).toEqual(["==", ["get", "kind"], "station"]);
-  }
+  expect(layerAdded("stations-circles")?.spec.filter).toEqual(["==", ["get", "kind"], "station"]);
   // Below the block labels' zoom, so a station is findable from the estate view.
   expect(layerAdded("stations-circles")?.spec.minzoom).toBeLessThan(16);
+});
+
+test("LRT-only stations get their names a zoom step after MRT stations", () => {
+  const lrt = (id: string, codes: string[]): StationFeature => ({
+    type: "Feature",
+    geometry: { type: "Point", coordinates: [103.9, 1.39] },
+    properties: { kind: "station", id, name: id, codes },
+  });
+  const stations = {
+    ...sampleStations,
+    features: [
+      ...sampleStations.features,
+      lrt("ranggung", ["SE5"]),
+      lrt("sengkang", ["NE16", "STC"]),
+    ],
+  };
+  render(
+    <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} stations={stations} />,
+  );
+  fire("load");
+  const isLrt = ["in", ["get", "id"], ["literal", ["ranggung"]]];
+  const isStation = ["==", ["get", "kind"], "station"];
+  expect(layerAdded("stations-labels")?.spec).toMatchObject({
+    filter: ["all", isStation, ["!", isLrt]],
+    minzoom: 13,
+  });
+  expect(layerAdded("stations-labels-lrt")?.spec).toMatchObject({
+    filter: ["all", isStation, isLrt],
+    minzoom: 14,
+  });
 });
 
 test("stations, exits and the exit highlight are neither hover nor tap targets", () => {
