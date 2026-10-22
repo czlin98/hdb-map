@@ -45,7 +45,7 @@ export function TownFilter({ towns, features, selected, onToggle, onReset }: Pro
         </h3>
         {selected.length > 0 && (
           <ResetButton
-            label="Reset town"
+            label="Reset Town"
             onClick={() => {
               onReset();
               buttonRef.current?.focus();

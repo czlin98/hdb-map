@@ -13,12 +13,18 @@ interface Props {
   limits: Range;
   value: Range | null; // null = off
   onChange: (value: Range | null) => void;
+  unit?: { symbol: string; name: string }; // e.g. "m", spoken as "metres"
+  step: number; // the thumbs'; a typed value stays exact
 }
 
-export function RangeFilter({ title, limits, value, onChange }: Props) {
+export function RangeFilter({ title, limits, value, onChange, unit, step }: Props) {
   const titleId = useId();
   const sliderRef = useRef<HTMLSpanElement>(null);
   const current = value ?? limits;
+  const label = unit ? `${title} in ${unit.name}` : title;
+  // Radix counts steps from the slider's minimum, so a track from 15 m would stop at 65, 115, and
+  // never at 500. Only the track is rounded out; the boxes, clamping and "off" use the data's ends.
+  const track: Range = [Math.floor(limits[0] / step) * step, Math.ceil(limits[1] / step) * step];
   // A box's text while it is being typed in; undefined shows the current value, so slider drags
   // show in the boxes without syncing state.
   const [drafts, setDrafts] = useState<[string?, string?]>([]);
@@ -43,7 +49,9 @@ export function RangeFilter({ title, limits, value, onChange }: Props) {
     <Input
       type="number"
       inputMode="numeric"
-      aria-label={`${title}, ${END_NAMES[end]}`}
+      aria-label={`${label}, ${END_NAMES[end]}`}
+      // No step: the browser would flag the data's ends and exact typed values (15, 480) as
+      // invalid for missing the 50 m grid. The slider does the stepping.
       min={limits[0]}
       max={limits[1]}
       value={drafts[end] ?? String(current[end])}
@@ -63,10 +71,17 @@ export function RangeFilter({ title, limits, value, onChange }: Props) {
         <div className="flex items-center gap-2">
           <h3 id={titleId} className="text-sm font-medium">
             {title}
+            {/* In the title rather than beside the boxes, so every range's boxes line up and a
+                prefix unit like $ needs no other layout. The boxes speak the unit's name. */}
+            {unit && (
+              <span aria-hidden className="text-muted-foreground font-normal">
+                {` (${unit.symbol})`}
+              </span>
+            )}
           </h3>
           {value && (
             <ResetButton
-              label={`Reset ${title.toLowerCase()}`}
+              label={`Reset ${title}`}
               onClick={() => {
                 onChange(null);
                 // Not a number box: on a phone that would open the keyboard.
@@ -91,12 +106,12 @@ export function RangeFilter({ title, limits, value, onChange }: Props) {
           "mt-3 [&_[data-slot=slider-track]]:bg-input",
           !value && "[&_[data-slot=slider-range]]:bg-muted-foreground",
         )}
-        min={limits[0]}
-        max={limits[1]}
-        step={1}
+        min={track[0]}
+        max={track[1]}
+        step={step}
         minStepsBetweenThumbs={0}
         value={current}
-        thumbLabels={END_NAMES.map((end) => `${title}, ${end}`)}
+        thumbLabels={END_NAMES.map((end) => `${label}, ${end}`)}
         onValueChange={([from, to]) => onChange(normalizeRange([from, to], limits))}
       />
     </div>

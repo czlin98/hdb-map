@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { activeCount, dataLimits } from "../lib/filtering";
+import { activeCount, dataLimits, RANGE_STEP } from "../lib/filtering";
 import { useFilters } from "../store/filters";
 import type { BlockFeature, Town } from "../types/contract";
 import { FlatTypeFilter } from "./FlatTypeFilter";
@@ -54,14 +54,24 @@ export function FilterFields({ features, towns }: Props) {
         <RangeFilter
           title="Year completed"
           limits={limits.year}
+          step={RANGE_STEP.year}
           value={filters.year}
           onChange={(range) => setRange("year", range)}
         />
         <RangeFilter
           title="Floors"
           limits={limits.floors}
+          step={RANGE_STEP.floors}
           value={filters.floors}
           onChange={(range) => setRange("floors", range)}
+        />
+        <RangeFilter
+          title="MRT distance"
+          unit={{ symbol: "m", name: "metres" }}
+          limits={limits.mrt}
+          step={RANGE_STEP.mrt}
+          value={filters.mrt}
+          onChange={(range) => setRange("mrt", range)}
         />
         <FlatTypeFilter
           sold={filters.soldTypes}

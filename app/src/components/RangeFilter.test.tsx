@@ -14,6 +14,7 @@ function renderFilter(initial: Range | null = null) {
       <RangeFilter
         title="Year completed"
         limits={LIMITS}
+        step={1}
         value={value}
         onChange={(v) => {
           onChange(v);
@@ -30,7 +31,7 @@ const box = (end: "from" | "to") =>
   screen.getByRole("spinbutton", { name: `Year completed, ${end}` }) as HTMLInputElement;
 const thumb = (end: "from" | "to") =>
   screen.getByRole("slider", { name: `Year completed, ${end}` });
-const resetLink = () => screen.queryByRole("button", { name: "Reset year completed" });
+const resetLink = () => screen.queryByRole("button", { name: "Reset Year completed" });
 
 function type(end: "from" | "to", text: string, commit: "enter" | "blur" = "enter") {
   const input = box(end);
@@ -114,4 +115,72 @@ test("Reset turns the filter off and moves focus to the from thumb", () => {
   expect(box("from").value).toBe("1960");
   // Not a number box: on a phone that would open the keyboard.
   expect(thumb("from")).toHaveFocus();
+});
+
+test("a unit shows in the title and is spoken in the box labels", () => {
+  render(
+    <RangeFilter
+      title="MRT distance"
+      unit={{ symbol: "m", name: "metres" }}
+      limits={[15, 3545]}
+      step={50}
+      value={[15, 500]}
+      onChange={() => {}}
+    />,
+  );
+  expect(screen.getByRole("heading")).toHaveTextContent("MRT distance (m)");
+  expect(screen.getByRole("group", { name: "MRT distance" })).toBeInTheDocument();
+  expect(screen.getByRole("spinbutton", { name: "MRT distance in metres, to" })).toHaveValue(500);
+  expect(screen.getByRole("slider", { name: "MRT distance in metres, to" })).toBeInTheDocument();
+  expect(screen.getByRole("button", { name: "Reset MRT distance" })).toBeInTheDocument();
+});
+
+function renderStepped() {
+  const onChange = vi.fn();
+  function Harness() {
+    const [value, setValue] = useState<Range | null>(null);
+    return (
+      <RangeFilter
+        title="MRT distance"
+        unit={{ symbol: "m", name: "metres" }}
+        limits={[15, 3545]}
+        step={50}
+        value={value}
+        onChange={(v) => {
+          onChange(v);
+          setValue(v);
+        }}
+      />
+    );
+  }
+  render(<Harness />);
+  return { onChange };
+}
+
+const stepped = (role: "slider" | "spinbutton", end: "from" | "to") =>
+  screen.getByRole(role, { name: `MRT distance in metres, ${end}` });
+
+test("a step moves the thumbs by whole steps between the data's ends", () => {
+  const { onChange } = renderStepped();
+  expect(stepped("spinbutton", "from")).toHaveValue(15);
+  expect(stepped("spinbutton", "to")).toHaveValue(3545);
+  // Off the step grid, yet not flagged by the browser's own validation.
+  expect(stepped("spinbutton", "from")).toBeValid();
+  expect(stepped("spinbutton", "to")).toBeValid();
+  // Off the grid at the data's minimum, the first step lands on the next multiple.
+  fireEvent.keyDown(stepped("slider", "from"), { key: "ArrowRight" });
+  expect(onChange).toHaveBeenLastCalledWith([50, 3545]);
+  // The track's rounded end clamps back to the data's, which turns the filter off.
+  fireEvent.keyDown(stepped("slider", "from"), { key: "Home" });
+  expect(onChange).toHaveBeenLastCalledWith(null);
+});
+
+test("with a step, a typed value stays exact and clamps to the data's ends", () => {
+  const { onChange } = renderStepped();
+  fireEvent.change(stepped("spinbutton", "to"), { target: { value: "480" } });
+  fireEvent.keyDown(stepped("spinbutton", "to"), { key: "Enter" });
+  expect(onChange).toHaveBeenLastCalledWith([15, 480]);
+  fireEvent.change(stepped("spinbutton", "to"), { target: { value: "3549" } });
+  fireEvent.keyDown(stepped("spinbutton", "to"), { key: "Enter" });
+  expect(onChange).toHaveBeenLastCalledWith(null);
 });

@@ -84,11 +84,12 @@ test("filterExpression is null when nothing is on", () => {
   expect(filterExpression(EMPTY_FILTERS)).toBeNull();
 });
 
-test("filterExpression joins town, year, floors and flat types in that order", () => {
+test("filterExpression joins town, the ranges and flat types in that order", () => {
   const f: Filters = {
     towns: ["BEDOK"],
     year: [1990, 2000],
     floors: [10, 20],
+    mrt: [200, 800],
     soldTypes: ["4room"],
     rentalTypes: ["1room"],
   };
@@ -99,6 +100,8 @@ test("filterExpression joins town, year, floors and flat types in that order", (
     ["<=", ["get", "year_completed"], 2000],
     [">=", ["get", "max_floor_lvl"], 10],
     ["<=", ["get", "max_floor_lvl"], 20],
+    [">=", ["get", "station_distance"], 200],
+    ["<=", ["get", "station_distance"], 800],
     ["any", ["in", "4room", ["get", "sold_types"]], ["in", "1room", ["get", "rental_types"]]],
   ]);
 });
@@ -114,6 +117,10 @@ test("the expression and matches agree on every block", () => {
     { ...EMPTY_FILTERS, floors: [12, 30] },
     { ...EMPTY_FILTERS, floors: [11, 29] },
     { ...EMPTY_FILTERS, floors: [13, 31] },
+    { ...EMPTY_FILTERS, mrt: [350, 820] },
+    { ...EMPTY_FILTERS, mrt: [351, 819] },
+    { ...EMPTY_FILTERS, mrt: [15, 350] },
+    { ...EMPTY_FILTERS, mrt: [820, 3545] },
     { ...EMPTY_FILTERS, soldTypes: ["3room"] },
     { ...EMPTY_FILTERS, soldTypes: ["1room", "5room"] },
     { ...EMPTY_FILTERS, rentalTypes: ["1room"] },
@@ -121,7 +128,16 @@ test("the expression and matches agree on every block", () => {
     { ...EMPTY_FILTERS, soldTypes: ["2room"], rentalTypes: ["1room"] },
     { ...EMPTY_FILTERS, towns: ["BEDOK"], year: [2015, 2015], floors: [30, 30] },
     { ...EMPTY_FILTERS, towns: ["BEDOK"], year: [1978, 2015], floors: [12, 29] },
-    { towns: ["BEDOK"], year: null, floors: null, soldTypes: ["4room"], rentalTypes: ["1room"] },
+    { ...EMPTY_FILTERS, towns: ["BEDOK"], mrt: [800, 900] },
+    { ...EMPTY_FILTERS, towns: ["BEDOK"], mrt: [300, 400] },
+    {
+      towns: ["BEDOK"],
+      year: null,
+      floors: null,
+      mrt: null,
+      soldTypes: ["4room"],
+      rentalTypes: ["1room"],
+    },
   ];
   for (const f of cases) {
     const expr = filterExpression(f);
@@ -132,12 +148,16 @@ test("the expression and matches agree on every block", () => {
   }
 });
 
-test("dataLimits spans the year and floor values", () => {
-  expect(dataLimits(sampleIndex.features)).toEqual({ year: [1978, 2015], floors: [12, 30] });
+test("dataLimits spans each range's values", () => {
+  expect(dataLimits(sampleIndex.features)).toEqual({
+    year: [1978, 2015],
+    floors: [12, 30],
+    mrt: [350, 820],
+  });
 });
 
 test("dataLimits of no blocks is zero, so callers need no special case", () => {
-  expect(dataLimits([])).toEqual({ year: [0, 0], floors: [0, 0] });
+  expect(dataLimits([])).toEqual({ year: [0, 0], floors: [0, 0], mrt: [0, 0] });
 });
 
 test("normalizeRange turns a range equal to the limits off", () => {
@@ -161,9 +181,10 @@ test("activeCount counts each filter once", () => {
     towns: ["BEDOK"],
     year: [1990, 2000],
     floors: [10, 20],
+    mrt: [200, 800],
     soldTypes: ["4room", "5room"],
     rentalTypes: ["1room"],
   };
-  expect(activeCount(all)).toBe(4);
+  expect(activeCount(all)).toBe(5);
   expect(activeCount({ ...EMPTY_FILTERS, rentalTypes: ["1room"] })).toBe(1);
 });

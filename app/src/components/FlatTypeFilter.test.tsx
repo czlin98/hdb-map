@@ -76,9 +76,9 @@ test("a chip toggles its own group's type", () => {
 
 test("reset shows only while a chip is on, clears both groups, and keeps focus in the filter", () => {
   const { onReset } = renderFilter({ rental: ["other_room"] });
-  fireEvent.click(screen.getByRole("button", { name: "Reset flat types" }));
+  fireEvent.click(screen.getByRole("button", { name: "Reset Flat types" }));
   expect(onReset).toHaveBeenCalledOnce();
-  expect(screen.queryByRole("button", { name: "Reset flat types" })).not.toBeInTheDocument();
+  expect(screen.queryByRole("button", { name: "Reset Flat types" })).not.toBeInTheDocument();
   expect(chip("Sold", "1-Room")).toHaveFocus();
 });
 
