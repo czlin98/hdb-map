@@ -119,14 +119,37 @@ def test_unknown_town_still_raises_when_values_are_missing():
         transform([_block(bldg_contract_town="ZZZ", year_completed="")], TOWNS, STATIONS)
 
 
-def test_transform_adds_the_nearest_station():
-    (rec,), _ = transform([_block()], TOWNS, STATIONS)
-    distance = round(haversine_m(103.84, 1.36, 103.849, 1.369))
-    assert rec["station_distance"] == distance
-    assert rec["nearest_station"] == {
-        "id": "ang-mo-kio",
-        "name": "Ang Mo Kio",
-        "codes": ["NS16"],
-        "exit": "Exit A",
-        "distance": distance,
+def _station(station_id, name, code, exit_name, lon, lat):
+    return {
+        "id": station_id,
+        "name": name,
+        "codes": [code],
+        "lon": lon,
+        "lat": lat,
+        "exits": [{"exit": exit_name, "lon": lon, "lat": lat}],
     }
+
+
+def test_transform_adds_the_nearest_stations():
+    # Ang Mo Kio's exit is about 1.4 km away, past the radius once a nearer station exists.
+    mayflower = _station("mayflower", "Mayflower", "TE6", "Exit 2", 103.836, 1.364)
+    bishan = _station("bishan", "Bishan", "NS17", "Exit C", 103.84, 1.368)
+    (rec,), _ = transform([_block()], TOWNS, [*STATIONS, bishan, mayflower])
+    near = round(haversine_m(103.84, 1.36, 103.836, 1.364))
+    assert rec["station_distance"] == near
+    assert rec["nearest_stations"] == [
+        {
+            "id": "mayflower",
+            "name": "Mayflower",
+            "codes": ["TE6"],
+            "exit": "Exit 2",
+            "distance": near,
+        },
+        {
+            "id": "bishan",
+            "name": "Bishan",
+            "codes": ["NS17"],
+            "exit": "Exit C",
+            "distance": round(haversine_m(103.84, 1.36, 103.84, 1.368)),
+        },
+    ]

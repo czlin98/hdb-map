@@ -43,7 +43,7 @@ def to_detail_entry(rec: dict) -> dict:
     }
     if rec["rental_units_by_type"]:
         entry["rental_units_by_type"] = rec["rental_units_by_type"]
-    entry["nearest_station"] = rec["nearest_station"]
+    entry["nearest_stations"] = rec["nearest_stations"]
     return entry
 
 

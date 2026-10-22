@@ -135,7 +135,7 @@ def test_load_snapshot_reads_what_export_writes(tmp_path):
         "id": "123-amk",
         "town_slug": "ang-mo-kio",
         "station_distance": 350,
-        "nearest_station": station,
+        "nearest_stations": [station],
     }
     write_outputs([rec], TOWNS, app_data_dir=tmp_path)
     failed = tmp_path / "failed.csv"
