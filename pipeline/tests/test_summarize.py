@@ -167,12 +167,62 @@ def test_write_summary_is_json_the_workflow_can_read(tmp_path, kind):
     assert set(data) == {"kind", "added", "removed", "changed", "text"}
 
 
+def _listed(*stations):
+    return [_nearest(name, distance) for name, distance in stations]
+
+
 def test_a_changed_distance_and_station_are_named_with_both_values():
-    before = _block(station_distance=350, nearest_station=_nearest("Bishan", 350))
-    after = _block(station_distance=420, nearest_station=_nearest("Marymount", 420))
+    before = _block(station_distance=350, nearest_stations=_listed(("Bishan", 350)))
+    after = _block(station_distance=420, nearest_stations=_listed(("Marymount", 420)))
     s = summarize(_snap(before), _snap(after))
     assert s.changed == 1
-    assert "(ANG MO KIO): MRT distance 350 → 420; station Bishan → Marymount" in s.text
+    assert "(ANG MO KIO): MRT distance 350 → 420; stations Bishan → Marymount" in s.text
+
+
+def test_a_changed_station_list_is_named_with_both_lists():
+    before = _block(
+        nearest_stations=_listed(("Cove", 200), ("Compassvale", 400), ("Meridian", 700))
+    )
+    after = _block(nearest_stations=_listed(("Cove", 200), ("Compassvale", 400), ("Punggol", 800)))
+    s = summarize(_snap(before), _snap(after))
+    assert s.kind == "refresh"
+    assert s.changed == 1
+    assert "(ANG MO KIO): stations Cove, Compassvale, Meridian → Cove, Compassvale, Punggol" in (
+        s.text
+    )
+
+
+def test_a_reordered_station_list_counts_as_changed():
+    before = _block(nearest_stations=_listed(("Cove", 200), ("Meridian", 300)))
+    after = _block(nearest_stations=_listed(("Meridian", 200), ("Cove", 300)))
+    s = summarize(_snap(before), _snap(after))
+    assert "stations Cove, Meridian → Meridian, Cove" in s.text
+
+
+def test_a_distance_change_inside_the_list_adds_no_station_line():
+    before = _block(
+        station_distance=200, nearest_stations=_listed(("Cove", 200), ("Meridian", 700))
+    )
+    after = _block(station_distance=201, nearest_stations=_listed(("Cove", 201), ("Meridian", 702)))
+    s = summarize(_snap(before), _snap(after))
+    assert s.changed == 1
+    assert "(ANG MO KIO): MRT distance 200 → 201\n" in s.text
+    assert "stations" not in s.text
+
+
+def test_an_old_snapshot_compares_only_the_nearest_station():
+    before = _block(nearest_station=_nearest("Cove", 200))
+    after = _block(nearest_stations=_listed(("Cove", 200), ("Meridian", 700)))
+    s = summarize(_snap(before), _snap(after))
+    assert s.kind == "none"
+    assert s.changed == 0
+
+
+def test_an_old_snapshot_with_another_nearest_station_names_both_lists():
+    before = _block(nearest_station=_nearest("Meridian", 200))
+    after = _block(nearest_stations=_listed(("Cove", 150), ("Meridian", 200)))
+    s = summarize(_snap(before), _snap(after))
+    assert "(ANG MO KIO): stations Meridian → Cove, Meridian" in s.text
 
 
 def test_station_sections_list_names_and_codes():
