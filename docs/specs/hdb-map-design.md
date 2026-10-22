@@ -888,9 +888,11 @@ whatever stays visible.
     A typed value is clamped to the data's range and can't cross the other
     end. The limits come from the loaded index, so they follow each data
     refresh.
-  - **MRT distance** (§5.12): the same range, in metres, with the unit after
-    the boxes. A range rather than a single "within" limit: "within 500 m"
-    is still one thumb, and the range also answers "at least 1 km away".
+  - **MRT distance** (§5.12): the same range, in metres, with the unit in
+    the title ("MRT distance (m)") so its boxes line up with the other
+    ranges'; a prefix unit like a price's $ fits the same way. A range
+    rather than a single "within" limit: "within 500 m" is still one thumb,
+    and the range also answers "at least 1 km away".
   - A range, not the legend's bands (§5.10), because exact cut-offs matter
     ("built before 1986") and a band picker can only offer the band edges.
   - **Flat types:** two groups of toggle chips, **Sold** and **Rental**,

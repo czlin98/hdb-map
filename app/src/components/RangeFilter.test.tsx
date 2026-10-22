@@ -116,7 +116,7 @@ test("Reset turns the filter off and moves focus to the from thumb", () => {
   expect(thumb("from")).toHaveFocus();
 });
 
-test("a unit shows after the boxes and is spoken in the labels", () => {
+test("a unit shows in the title and is spoken in the box labels", () => {
   render(
     <RangeFilter
       title="MRT distance"
@@ -126,7 +126,8 @@ test("a unit shows after the boxes and is spoken in the labels", () => {
       onChange={() => {}}
     />,
   );
-  expect(screen.getByRole("group", { name: "MRT distance" })).toHaveTextContent(/to\s*m$/);
+  expect(screen.getByRole("heading")).toHaveTextContent("MRT distance (m)");
+  expect(screen.getByRole("group", { name: "MRT distance" })).toBeInTheDocument();
   expect(screen.getByRole("spinbutton", { name: "MRT distance in metres, to" })).toHaveValue(500);
   expect(screen.getByRole("slider", { name: "MRT distance in metres, to" })).toBeInTheDocument();
   expect(screen.getByRole("button", { name: "Reset MRT distance" })).toBeInTheDocument();

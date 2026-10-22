@@ -19,7 +19,7 @@ test("renders the Filters heading, then town, the ranges and flat types", () => 
     "Town",
     "Year completed",
     "Floors",
-    "MRT distance",
+    "MRT distance (m)",
     "Flat types",
     "Sold",
     "Rental",

@@ -65,6 +65,13 @@ export function RangeFilter({ title, limits, value, onChange, unit }: Props) {
         <div className="flex items-center gap-2">
           <h3 id={titleId} className="text-sm font-medium">
             {title}
+            {/* In the title rather than beside the boxes, so every range's boxes line up and a
+                prefix unit like $ needs no other layout. The boxes speak the unit's name. */}
+            {unit && (
+              <span aria-hidden className="text-muted-foreground font-normal">
+                {` (${unit.symbol})`}
+              </span>
+            )}
           </h3>
           {value && (
             <ResetButton
@@ -81,11 +88,6 @@ export function RangeFilter({ title, limits, value, onChange, unit }: Props) {
           {box(0)}
           <span className="text-muted-foreground text-sm">to</span>
           {box(1)}
-          {unit && (
-            <span aria-hidden className="text-muted-foreground text-sm">
-              {unit.symbol}
-            </span>
-          )}
         </div>
       </div>
       <Slider
