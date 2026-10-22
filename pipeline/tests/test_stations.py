@@ -1,3 +1,5 @@
+import math
+
 import pytest
 import requests
 import responses
@@ -5,7 +7,7 @@ from responses import matchers
 
 import config
 import stations
-from stations import build_stations, fetch_exits, haversine_m, lookup_codes, nearest_station
+from stations import build_stations, fetch_exits, haversine_m, lookup_codes, nearest_stations
 
 INIT_URL = f"{config.DATASETS_API_BASE}/{config.EXITS_DATASET_ID}/initiate-download"
 POLL_URL = f"{config.DATASETS_API_BASE}/{config.EXITS_DATASET_ID}/poll-download"
@@ -294,11 +296,11 @@ def test_build_stations_prefixes_exit_names_only_at_a_merged_stop():
     assert [e["exit"] for e in _one(result, "outram-park")["exits"]] == ["Exit 1"]
 
 
-def _station(station_id, lon, lat, exits):
+def _station(station_id, lon, lat, exits, codes=("NS1",)):
     return {
         "id": station_id,
         "name": station_id.title(),
-        "codes": ["NS1"],
+        "codes": list(codes),
         "lon": lon,
         "lat": lat,
         "exits": [{"exit": name, "lon": x, "lat": y} for name, x, y in exits],
@@ -309,28 +311,118 @@ def test_haversine_m_measures_a_thousandth_of_a_degree_of_latitude():
     assert haversine_m(103.8, 1.3, 103.8, 1.301) == pytest.approx(111.2, abs=0.1)
 
 
-def test_nearest_station_goes_by_the_nearest_exit_not_the_station_point():
+# Metres along the earth per degree of latitude, at the radius haversine_m uses.
+_M_PER_DEG = 6_371_000 * math.pi / 180
+
+
+def _north(station_id, metres, codes=("NS1",)):
+    """A station with one exit the given distance due north of the block at (103.8, 1.3)."""
+    lat = 1.3 + metres / _M_PER_DEG
+    return _station(station_id, 103.8, lat, [("Exit A", 103.8, lat)], codes)
+
+
+def _picked(*stations_):
+    return [(s["id"], s["distance"]) for s in nearest_stations(103.8, 1.3, list(stations_))]
+
+
+def test_nearest_stations_lists_every_station_within_the_radius_nearest_first():
+    assert _picked(_north("c", 900), _north("a", 300), _north("b", 600)) == [
+        ("a", 300),
+        ("b", 600),
+        ("c", 900),
+    ]
+
+
+def test_nearest_stations_leaves_out_a_station_past_the_radius():
+    assert _picked(_north("a", 300), _north("b", 1200)) == [("a", 300)]
+
+
+def test_nearest_stations_keeps_the_nearest_even_past_the_radius():
+    assert _picked(_north("a", 1200), _north("b", 1500)) == [("a", 1200)]
+
+
+def test_nearest_stations_measures_the_radius_in_whole_metres():
+    assert _picked(_north("a", 300), _north("b", 1000.4), _north("c", 1000.6)) == [
+        ("a", 300),
+        ("b", 1000),
+    ]
+
+
+def test_nearest_stations_takes_at_most_three():
+    nearby = [_north(name, metres) for name, metres in [("a", 100), ("b", 200), ("c", 300)]]
+
+    assert _picked(*nearby, _north("d", 400)) == [("a", 100), ("b", 200), ("c", 300)]
+
+
+def test_nearest_stations_puts_an_mrt_station_in_before_a_nearer_lrt_stop():
+    lrt = [_north(name, metres, ["BP1"]) for name, metres in [("a", 200), ("b", 400), ("c", 600)]]
+
+    assert _picked(*lrt, _north("mrt", 800)) == [("a", 200), ("b", 400), ("mrt", 800)]
+
+
+def test_nearest_stations_keeps_the_nearest_lrt_stop_ahead_of_two_mrt_stations():
+    lrt = [_north(name, metres, ["BP1"]) for name, metres in [("a", 200), ("b", 400), ("c", 600)]]
+
+    assert _picked(*lrt, _north("m1", 800), _north("m2", 900)) == [
+        ("a", 200),
+        ("m1", 800),
+        ("m2", 900),
+    ]
+
+
+def test_nearest_stations_counts_a_shared_stop_as_mrt():
+    lrt = [_north(name, metres, ["PE1"]) for name, metres in [("a", 200), ("b", 400), ("c", 600)]]
+
+    assert _picked(*lrt, _north("punggol", 800, ["NE17", "PTC"])) == [
+        ("a", 200),
+        ("b", 400),
+        ("punggol", 800),
+    ]
+
+
+def test_nearest_stations_gives_each_station_its_own_nearest_exit():
+    a = _station("a", 103.8, 1.301, [("Exit 1", 103.8, 1.302), ("Exit 2", 103.8, 1.301)])
+    b = _station("b", 103.8, 1.304, [("Exit C", 103.8, 1.303), ("Exit D", 103.8, 1.305)])
+
+    result = nearest_stations(103.8, 1.3, [b, a])
+
+    assert result == [
+        {
+            "id": "a",
+            "name": "A",
+            "codes": ["NS1"],
+            "exit": "Exit 2",
+            "distance": round(haversine_m(103.8, 1.3, 103.8, 1.301)),
+        },
+        {
+            "id": "b",
+            "name": "B",
+            "codes": ["NS1"],
+            "exit": "Exit C",
+            "distance": round(haversine_m(103.8, 1.3, 103.8, 1.303)),
+        },
+    ]
+    assert [list(entry) for entry in result] == [["id", "name", "codes", "exit", "distance"]] * 2
+    assert all(isinstance(entry["distance"], int) for entry in result)
+
+
+def test_nearest_stations_goes_by_the_nearest_exit_not_the_station_point():
     # "far" has its point beside the block but its only exit 300 m away; "near" the reverse.
     far = _station("far", 103.8001, 1.3, [("Exit A", 103.8027, 1.3)])
     near = _station("near", 103.805, 1.3, [("Exit 1", 103.8, 1.3015)])
 
-    result = nearest_station(103.8, 1.3, [far, near])
-
-    assert result == {
-        "id": "near",
-        "name": "Near",
-        "codes": ["NS1"],
-        "exit": "Exit 1",
-        "distance": round(haversine_m(103.8, 1.3, 103.8, 1.3015)),
-    }
-    assert isinstance(result["distance"], int)
+    assert [s["id"] for s in nearest_stations(103.8, 1.3, [far, near])] == ["near", "far"]
 
 
-def test_nearest_station_breaks_an_exact_tie_by_the_lower_id():
+def test_nearest_stations_breaks_an_exact_tie_by_the_lower_id():
     a = _station("a", 103.8, 1.3, [("Exit A", 103.8, 1.301)])
     b = _station("b", 103.8, 1.3, [("Exit B", 103.8, 1.299)])
 
-    assert nearest_station(103.8, 1.3, [b, a])["id"] == "a"
+    assert [s["id"] for s in nearest_stations(103.8, 1.3, [b, a])] == ["a", "b"]
+
+
+def test_lrt_lines_are_open_lines():
+    assert config.LRT_LINES <= set(config.OPEN_LINES)
 
 
 @responses.activate
