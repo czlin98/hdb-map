@@ -46,8 +46,17 @@ export default function App() {
   const [index, setIndex] = useState<IndexFeatureCollection>(EMPTY_INDEX);
   const [towns, setTowns] = useState<Town[]>([]);
   const [stations, setStations] = useState<StationFeatureCollection | null>(null);
-  // Tagged with its block, so a result that lands after the selection moved on is never shown.
-  const [exitFor, setExitFor] = useState<{ id: string; exit: NearestExit | null } | null>(null);
+  // Tagged with its block and row, so a result that lands after the selection or the chosen
+  // row moved on is never shown.
+  const [exitFor, setExitFor] = useState<{
+    id: string;
+    index: number;
+    exit: NearestExit | null;
+  } | null>(null);
+  // Outlives the selection, so a highlight turned off stays off for the next block.
+  const [highlightOn, setHighlightOn] = useState(true);
+  // The row whose station is highlighted; back to the nearest on every new selection.
+  const [chosenIndex, setChosenIndex] = useState(0);
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [activeSnap, setActiveSnap] = useState<string | number | null>(SNAP_POINTS[1]);
   // Lifted here so a background map tap can start the close animation; the panel calls
@@ -140,6 +149,18 @@ export default function App() {
 
   const getBlockDetail = useMemo(() => createGetBlockDetail(buildTownSlugMap(towns)), [towns]);
 
+  // Reset during render rather than in an effect, so a new block's first render never pairs it
+  // with the last block's row. Keyed by id instead, a block picked again would get its old row.
+  const [chosenFor, setChosenFor] = useState(selectedId);
+  if (chosenFor !== selectedId) {
+    setChosenFor(selectedId);
+    setChosenIndex(0);
+  }
+  const onHighlight = (index: number | null) => {
+    setHighlightOn(index !== null);
+    if (index !== null) setChosenIndex(index);
+  };
+
   // The shard request is shared with the details panel through the loader's cache.
   useEffect(() => {
     if (!selectedId || !selectedTown || !stations) return;
@@ -148,11 +169,12 @@ export default function App() {
       .then((detail) => {
         const block = index.features.find((f) => f.properties.id === selectedId);
         if (!alive || !detail || !block) return;
-        const near = detail.nearest_station;
-        const point = nearestExitPoint(stations, near, block.geometry.coordinates);
+        const near = detail.nearest_stations[chosenIndex];
+        const point = near && nearestExitPoint(stations, near, block.geometry.coordinates);
         setExitFor({
           id: selectedId,
-          exit: point && { ...point, station: near.id, exit: near.exit },
+          index: chosenIndex,
+          exit: point && { ...point, station: near.id, exit: near.exit, distance: near.distance },
         });
       })
       // The panel reports a failed shard; the map just goes without the highlight.
@@ -160,8 +182,11 @@ export default function App() {
     return () => {
       alive = false;
     };
-  }, [selectedId, selectedTown, stations, getBlockDetail, index]);
-  const nearestExit = exitFor && exitFor.id === selectedId ? exitFor.exit : null;
+  }, [selectedId, selectedTown, stations, getBlockDetail, index, chosenIndex]);
+  const nearestExit =
+    highlightOn && exitFor?.id === selectedId && exitFor.index === chosenIndex
+      ? exitFor.exit
+      : null;
 
   // On mobile, the sheet's height at its current snap, so the selected marker lands above it.
   const sheetHeight = useMemo<number | null>(() => {
@@ -276,6 +301,8 @@ export default function App() {
           onOpenChange={setPanelOpen}
           onClose={clear}
           onEscape={() => setFiltersOpen(false)}
+          highlighted={highlightOn && stations ? chosenIndex : null}
+          onHighlight={onHighlight}
         />
       )}
     </main>

@@ -19,6 +19,7 @@ const LINE_COLORS: Record<string, string> = {
 };
 
 // The LRT lines are the ones that share the grey, so the table above is the one list of them.
+// LRT_LINES in pipeline/src/config.py uses the same rule and must agree.
 export function isLrtOnly(codes: string[]): boolean {
   return codes.every((code) => LINE_COLORS[linePrefix(code)] === LRT_GREY);
 }

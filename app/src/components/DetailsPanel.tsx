@@ -1,5 +1,5 @@
-import { useEffect, useImperativeHandle, useRef, useState, type Ref } from "react";
-import type { BlockDetail } from "../types/contract";
+import { useEffect, useId, useImperativeHandle, useRef, useState, type Ref } from "react";
+import type { BlockDetail, NearestStation } from "../types/contract";
 import type { GetBlockDetail } from "../lib/data";
 import { orderedUnits, RENTAL_FLAT_TYPES, SOLD_FLAT_TYPES } from "../lib/flat-types";
 import { bandIndex, COLOR_SCALES, formatDistance, type ScaleMode } from "../lib/coloring";
@@ -25,39 +25,81 @@ function BandSwatch({ mode, value }: { mode: ScaleMode; value: number }) {
   );
 }
 
-// The chips follow the name, as on the station signs.
-function NearestStationRow({
-  station,
+// The chips follow the name, as on the station signs. The distances sit at the right end so
+// they line up for comparing.
+function NearestStations({
+  stations,
   showBand,
+  highlighted,
+  onHighlight,
 }: {
-  station: BlockDetail["nearest_station"];
+  stations: NearestStation[];
   showBand: boolean;
+  highlighted: number | null;
+  onHighlight?: (index: number | null) => void;
 }) {
+  const headingId = useId();
   return (
-    <dl className="text-sm">
-      <dt className="text-muted-foreground">Nearest MRT</dt>
-      <dd className="flex flex-wrap items-center gap-x-1.5 gap-y-1">
-        {station.name}
-        {station.codes.map((code) => (
-          <span
-            key={code}
-            className="rounded-sm px-1 text-[10px] leading-4 font-semibold"
-            style={lineChipColors(code)}
-          >
-            {code}
-          </span>
+    <section className="text-sm">
+      <h3 id={headingId} className="text-muted-foreground">
+        Nearest MRT
+      </h3>
+      <ul aria-labelledby={headingId} className="space-y-1">
+        {stations.map((station, i) => (
+          <li key={station.id}>
+            <button
+              type="button"
+              aria-pressed={i === highlighted}
+              onClick={() => onHighlight?.(i === highlighted ? null : i)}
+              // The negative margin keeps the text in line with the fields above.
+              className={`-mx-2 flex w-[calc(100%+1rem)] cursor-pointer items-start justify-between gap-3 rounded-r-sm border-l-2 py-0.5 pr-2 pl-1.5 text-left focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none ${
+                i === highlighted
+                  ? "border-amber-600 bg-amber-50"
+                  : "border-transparent hover:bg-muted/60"
+              }`}
+            >
+              <span className="flex flex-wrap items-center gap-x-1.5 gap-y-1">
+                {station.name}
+                {station.codes.map((code) => (
+                  <span
+                    key={code}
+                    className="rounded-sm px-1 text-[10px] leading-4 font-semibold"
+                    style={lineChipColors(code)}
+                  >
+                    {code}
+                  </span>
+                ))}
+                <span>· {station.exit}</span>
+              </span>
+              <span className="flex shrink-0 items-center gap-1.5 tabular-nums">
+                {formatDistance(station.distance)}
+                {/* The marker's band is the nearest station's, so only the first row gets it. */}
+                {showBand &&
+                  (i === 0 ? (
+                    <BandSwatch mode="mrt" value={station.distance} />
+                  ) : (
+                    <span aria-hidden="true" className="inline-block size-3" />
+                  ))}
+              </span>
+            </button>
+          </li>
         ))}
-        <span>· {station.exit}</span>
-      </dd>
-      <dd className="flex items-center gap-1.5">
-        {formatDistance(station.distance)}
-        {showBand && <BandSwatch mode="mrt" value={station.distance} />}
-      </dd>
-    </dl>
+      </ul>
+    </section>
   );
 }
 
-export function DetailsContent({ detail }: { detail: BlockDetail }) {
+interface HighlightProps {
+  // The row whose station the map highlights, or null when the highlight is off.
+  highlighted?: number | null;
+  onHighlight?: (index: number | null) => void;
+}
+
+export function DetailsContent({
+  detail,
+  highlighted = null,
+  onHighlight,
+}: { detail: BlockDetail } & HighlightProps) {
   const mode = useColorMode((s) => s.mode);
   const sold = orderedUnits(detail.sold_units_by_type, SOLD_FLAT_TYPES);
   const rental = orderedUnits(detail.rental_units_by_type, RENTAL_FLAT_TYPES);
@@ -90,7 +132,12 @@ export function DetailsContent({ detail }: { detail: BlockDetail }) {
           <dd>{detail.total_dwelling_units}</dd>
         </div>
       </dl>
-      <NearestStationRow station={detail.nearest_station} showBand={mode === "mrt"} />
+      <NearestStations
+        stations={detail.nearest_stations}
+        showBand={mode === "mrt"}
+        highlighted={highlighted}
+        onHighlight={onHighlight}
+      />
       {sold.length > 0 && (
         <section>
           <h3 className="font-medium">Sold</h3>
@@ -162,19 +209,20 @@ function Body({
   id,
   town,
   getBlockDetail,
+  ...highlight
 }: {
   id: string;
   town: string;
   getBlockDetail: GetBlockDetail;
-}) {
+} & HighlightProps) {
   const { status, detail } = useBlockDetail(id, town, getBlockDetail);
   if (status === "loading") return <Skeleton />;
   if (status === "empty" || !detail)
     return <div className="p-4 text-muted-foreground">Details unavailable.</div>;
-  return <DetailsContent detail={detail} />;
+  return <DetailsContent detail={detail} {...highlight} />;
 }
 
-interface PanelProps {
+interface PanelProps extends HighlightProps {
   selectedId: string;
   selectedTown: string;
   getBlockDetail: GetBlockDetail;
@@ -218,7 +266,13 @@ export function DetailsPanel(props: PanelProps) {
     [isDesktop, onOpenChange],
   );
   const body = (
-    <Body id={props.selectedId} town={props.selectedTown} getBlockDetail={props.getBlockDetail} />
+    <Body
+      id={props.selectedId}
+      town={props.selectedTown}
+      getBlockDetail={props.getBlockDetail}
+      highlighted={props.highlighted}
+      onHighlight={props.onHighlight}
+    />
   );
 
   if (props.isDesktop) {

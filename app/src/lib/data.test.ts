@@ -25,7 +25,7 @@ test("loadIndex / loadTowns parse JSON", async () => {
 test("loadStations parses JSON from the default URL", async () => {
   const fetchMock = mockFetchOnce(sampleStations);
   vi.stubGlobal("fetch", fetchMock);
-  expect((await loadStations()).features).toHaveLength(7);
+  expect((await loadStations()).features).toHaveLength(9);
   expect(fetchMock).toHaveBeenCalledWith("/data/stations.geojson");
 });
 
@@ -73,7 +73,7 @@ test("getBlockDetail makes one request for two calls before the shard arrives", 
     get("123-ang-mo-kio-ave-3", "ANG MO KIO"),
     get("123-ang-mo-kio-ave-3", "ANG MO KIO"),
   ]);
-  expect(a?.nearest_station.exit).toBe("Exit A");
+  expect(a?.nearest_stations[0].exit).toBe("Exit A");
   expect(b).toBe(a);
   expect(fetchMock).toHaveBeenCalledTimes(1);
 });
@@ -91,7 +91,7 @@ test("getBlockDetail fetches again after a failed fetch", async () => {
   expect(fetchMock).toHaveBeenCalledTimes(2);
 });
 
-const amkNearest = sampleShard["123-ang-mo-kio-ave-3"].nearest_station;
+const amkNearest = sampleShard["123-ang-mo-kio-ave-3"].nearest_stations[0];
 
 test("nearestExitPoint picks the nearer of two points with the exit's name", () => {
   // West of the station: the western Exit A point wins.

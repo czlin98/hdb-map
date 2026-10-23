@@ -12,15 +12,36 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit A",
-      "distance": 475
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 475
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 636
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 986
+      }
+    ]
   },
   "102-bishan-st-12": {
     "blk_no": "102",
@@ -35,15 +56,36 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit A",
-      "distance": 485
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 485
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 606
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 932
+      }
+    ]
   },
   "103-bishan-st-12": {
     "blk_no": "103",
@@ -58,15 +100,36 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit A",
-      "distance": 537
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 537
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 564
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 954
+      }
+    ]
   },
   "104-bishan-st-12": {
     "blk_no": "104",
@@ -81,15 +144,36 @@
       "3room": 16,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit A",
-      "distance": 542
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 542
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 546
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 919
+      }
+    ]
   },
   "105-bishan-st-12": {
     "blk_no": "105",
@@ -107,16 +191,36 @@
     "rental_units_by_type": {
       "3room": 2
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit C",
-      "distance": 530
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 530
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 547
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 841
+      }
+    ]
   },
   "106-bishan-st-12": {
     "blk_no": "106",
@@ -130,16 +234,36 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit C",
-      "distance": 500
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 500
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 581
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 888
+      }
+    ]
   },
   "107-bishan-st-12": {
     "blk_no": "107",
@@ -153,16 +277,36 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit C",
-      "distance": 464
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 464
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 617
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 889
+      }
+    ]
   },
   "108-bishan-st-12": {
     "blk_no": "108",
@@ -177,16 +321,36 @@
       "3room": 16,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit C",
-      "distance": 440
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 440
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 637
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 826
+      }
+    ]
   },
   "109-bishan-st-12": {
     "blk_no": "109",
@@ -200,16 +364,36 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit C",
-      "distance": 427
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 427
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 655
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 890
+      }
+    ]
   },
   "110-bishan-st-12": {
     "blk_no": "110",
@@ -224,16 +408,36 @@
       "3room": 66,
       "4room": 50
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit C",
-      "distance": 354
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 354
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 728
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 890
+      }
+    ]
   },
   "111-bishan-st-12": {
     "blk_no": "111",
@@ -247,16 +451,36 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 391
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 391
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 691
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 894
+      }
+    ]
   },
   "112-bishan-st-12": {
     "blk_no": "112",
@@ -270,16 +494,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 427
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 427
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 701
+      }
+    ]
   },
   "113-bishan-st-12": {
     "blk_no": "113",
@@ -293,16 +528,36 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 376
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 376
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 735
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 975
+      }
+    ]
   },
   "114-bishan-st-12": {
     "blk_no": "114",
@@ -316,16 +571,36 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 343
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 343
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 770
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 981
+      }
+    ]
   },
   "115-bishan-st-12": {
     "blk_no": "115",
@@ -341,16 +616,36 @@
       "4room": 50,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 300
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 300
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 804
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 966
+      }
+    ]
   },
   "116-bishan-st-12": {
     "blk_no": "116",
@@ -365,16 +660,27 @@
       "3room": 64,
       "4room": 46
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 329
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 329
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 814
+      }
+    ]
   },
   "117-bishan-st-12": {
     "blk_no": "117",
@@ -389,16 +695,27 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 438
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 438
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 760
+      }
+    ]
   },
   "118-bishan-st-12": {
     "blk_no": "118",
@@ -413,16 +730,27 @@
       "3room": 8,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 477
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 477
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 715
+      }
+    ]
   },
   "119-bishan-st-12": {
     "blk_no": "119",
@@ -436,16 +764,27 @@
     "sold_units_by_type": {
       "exec": 60
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 413
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 413
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 818
+      }
+    ]
   },
   "120-bishan-st-12": {
     "blk_no": "120",
@@ -460,16 +799,27 @@
       "3room": 19,
       "4room": 7
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 429
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 429
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 824
+      }
+    ]
   },
   "121-bishan-st-12": {
     "blk_no": "121",
@@ -487,16 +837,27 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 440
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 440
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 828
+      }
+    ]
   },
   "122-bishan-st-12": {
     "blk_no": "122",
@@ -510,16 +871,27 @@
     "sold_units_by_type": {
       "4room": 114
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 473
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 473
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 769
+      }
+    ]
   },
   "123-bishan-st-12": {
     "blk_no": "123",
@@ -533,16 +905,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 509
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 509
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 729
+      }
+    ]
   },
   "124-bishan-st-12": {
     "blk_no": "124",
@@ -557,16 +940,27 @@
       "4room": 48,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 523
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 523
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 773
+      }
+    ]
   },
   "125-bishan-st-12": {
     "blk_no": "125",
@@ -581,16 +975,27 @@
       "4room": 44,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 463
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 463
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 850
+      }
+    ]
   },
   "126-bishan-st-12": {
     "blk_no": "126",
@@ -605,16 +1010,27 @@
       "4room": 44,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 571
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 571
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 809
+      }
+    ]
   },
   "127-bishan-st-12": {
     "blk_no": "127",
@@ -629,16 +1045,27 @@
       "4room": 50,
       "5room": 30
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 578
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 578
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 765
+      }
+    ]
   },
   "128-bishan-st-12": {
     "blk_no": "128",
@@ -653,16 +1080,27 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 553
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 553
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 690
+      }
+    ]
   },
   "129-bishan-st-12": {
     "blk_no": "129",
@@ -677,16 +1115,27 @@
       "3room": 8,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 591
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 591
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 648
+      }
+    ]
   },
   "130-bishan-st-12": {
     "blk_no": "130",
@@ -700,16 +1149,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 579
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 579
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 705
+      }
+    ]
   },
   "131-bishan-st-12": {
     "blk_no": "131",
@@ -723,16 +1183,27 @@
     "sold_units_by_type": {
       "4room": 96
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 615
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 615
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 670
+      }
+    ]
   },
   "132-bishan-st-12": {
     "blk_no": "132",
@@ -747,16 +1218,27 @@
       "3room": 21,
       "4room": 7
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 619
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 619
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 721
+      }
+    ]
   },
   "133-bishan-st-12": {
     "blk_no": "133",
@@ -771,16 +1253,27 @@
       "3room": 21,
       "4room": 7
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 644
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 644
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 715
+      }
+    ]
   },
   "134-bishan-st-12": {
     "blk_no": "134",
@@ -794,16 +1287,27 @@
     "sold_units_by_type": {
       "exec": 60
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 661
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 661
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 737
+      }
+    ]
   },
   "135-bishan-st-12": {
     "blk_no": "135",
@@ -818,15 +1322,27 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit C",
-      "distance": 608
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 608
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 732
+      }
+    ]
   },
   "136-bishan-st-12": {
     "blk_no": "136",
@@ -841,15 +1357,27 @@
       "4room": 44,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit C",
-      "distance": 614
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 614
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 788
+      }
+    ]
   },
   "137-bishan-st-12": {
     "blk_no": "137",
@@ -863,15 +1391,27 @@
     "sold_units_by_type": {
       "multigen": 48
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit C",
-      "distance": 641
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 641
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 756
+      }
+    ]
   },
   "138-bishan-st-12": {
     "blk_no": "138",
@@ -886,15 +1426,27 @@
       "4room": 52,
       "5room": 53
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit C",
-      "distance": 698
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 698
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 734
+      }
+    ]
   },
   "139-bishan-st-12": {
     "blk_no": "139",
@@ -909,16 +1461,27 @@
       "4room": 10,
       "5room": 6
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 703
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 703
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 774
+      }
+    ]
   },
   "140-bishan-st-12": {
     "blk_no": "140",
@@ -933,16 +1496,27 @@
       "4room": 56,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 767
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 767
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 779
+      }
+    ]
   },
   "141-bishan-st-12": {
     "blk_no": "141",
@@ -957,16 +1531,27 @@
       "4room": 42,
       "5room": 54
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 744
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 744
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 826
+      }
+    ]
   },
   "142-bishan-st-12": {
     "blk_no": "142",
@@ -981,16 +1566,27 @@
       "4room": 42,
       "5room": 54
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 715
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 715
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 857
+      }
+    ]
   },
   "143-bishan-st-12": {
     "blk_no": "143",
@@ -1005,16 +1601,27 @@
       "4room": 10,
       "5room": 6
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 679
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 679
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 817
+      }
+    ]
   },
   "144-bishan-st-12": {
     "blk_no": "144",
@@ -1029,16 +1636,27 @@
       "4room": 56,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 666
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 666
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 878
+      }
+    ]
   },
   "145-bishan-st-11": {
     "blk_no": "145",
@@ -1053,16 +1671,27 @@
       "4room": 74,
       "5room": 41
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 822
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 822
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 893
+      }
+    ]
   },
   "146-bishan-st-11": {
     "blk_no": "146",
@@ -1077,15 +1706,27 @@
       "4room": 70,
       "5room": 39
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit C",
-      "distance": 837
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 837
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 890
+      }
+    ]
   },
   "147-bishan-st-11": {
     "blk_no": "147",
@@ -1100,15 +1741,27 @@
       "4room": 52,
       "5room": 28
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit C",
-      "distance": 924
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 924
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 966
+      }
+    ]
   },
   "148-bishan-st-11": {
     "blk_no": "148",
@@ -1124,15 +1777,27 @@
       "4room": 18,
       "multigen": 45
     },
-    "nearest_station": {
-      "id": "braddell",
-      "name": "Braddell",
-      "codes": [
-        "NS18"
-      ],
-      "exit": "Exit C",
-      "distance": 905
-    }
+    "nearest_stations": [
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 905
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 912
+      }
+    ]
   },
   "149-bishan-st-11": {
     "blk_no": "149",
@@ -1147,16 +1812,27 @@
       "4room": 56,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 960
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 960
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 987
+      }
+    ]
   },
   "150-bishan-st-11": {
     "blk_no": "150",
@@ -1171,16 +1847,27 @@
       "3room": 8,
       "4room": 19
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 915
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 915
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 965
+      }
+    ]
   },
   "150a-bishan-st-11": {
     "blk_no": "150A",
@@ -1195,16 +1882,18 @@
       "3room": 8,
       "4room": 19
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 949
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 949
+      }
+    ]
   },
   "151-bishan-st-11": {
     "blk_no": "151",
@@ -1219,16 +1908,18 @@
       "3room": 16,
       "4room": 18
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 891
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 891
+      }
+    ]
   },
   "152-bishan-st-11": {
     "blk_no": "152",
@@ -1243,16 +1934,27 @@
       "3room": 9,
       "4room": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 777
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 777
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 974
+      }
+    ]
   },
   "152b-bishan-st-11": {
     "blk_no": "152B",
@@ -1267,16 +1969,27 @@
       "2room": 41,
       "studio_apartment": 135
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 769
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 769
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 904
+      }
+    ]
   },
   "153-bishan-st-13": {
     "blk_no": "153",
@@ -1291,16 +2004,18 @@
       "4room": 56,
       "5room": 56
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 774
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 774
+      }
+    ]
   },
   "154-bishan-st-13": {
     "blk_no": "154",
@@ -1315,16 +2030,18 @@
       "4room": 64,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 729
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 729
+      }
+    ]
   },
   "155-bishan-st-13": {
     "blk_no": "155",
@@ -1339,16 +2056,27 @@
       "4room": 12,
       "5room": 102
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 831
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 831
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 992
+      }
+    ]
   },
   "156-bishan-st-13": {
     "blk_no": "156",
@@ -1363,16 +2091,18 @@
       "4room": 12,
       "5room": 102
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 953
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 953
+      }
+    ]
   },
   "156a-bishan-st-11": {
     "blk_no": "156A",
@@ -1386,16 +2116,18 @@
     "sold_units_by_type": {
       "4room": 182
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 999
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 999
+      }
+    ]
   },
   "156b-bishan-st-11": {
     "blk_no": "156B",
@@ -1411,15 +2143,17 @@
       "3room": 80,
       "4room": 90
     },
-    "nearest_station": {
-      "id": "lorong-chuan",
-      "name": "Lorong Chuan",
-      "codes": [
-        "CC14"
-      ],
-      "exit": "Exit B",
-      "distance": 1059
-    }
+    "nearest_stations": [
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 1059
+      }
+    ]
   },
   "157-bishan-st-13": {
     "blk_no": "157",
@@ -1434,16 +2168,27 @@
       "4room": 12,
       "5room": 102
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 910
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 910
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 938
+      }
+    ]
   },
   "158-bishan-st-13": {
     "blk_no": "158",
@@ -1458,16 +2203,27 @@
       "4room": 4,
       "5room": 94
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 836
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 836
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 944
+      }
+    ]
   },
   "159-bishan-st-13": {
     "blk_no": "159",
@@ -1481,16 +2237,27 @@
     "sold_units_by_type": {
       "exec": 20
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 779
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 779
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 964
+      }
+    ]
   },
   "160-bishan-st-13": {
     "blk_no": "160",
@@ -1504,16 +2271,27 @@
     "sold_units_by_type": {
       "exec": 16
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 824
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 824
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 905
+      }
+    ]
   },
   "161-bishan-st-13": {
     "blk_no": "161",
@@ -1528,16 +2306,27 @@
       "4room": 4,
       "5room": 94
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 790
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 790
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 858
+      }
+    ]
   },
   "162-bishan-st-13": {
     "blk_no": "162",
@@ -1551,16 +2340,27 @@
     "sold_units_by_type": {
       "exec": 24
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 747
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 747
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 902
+      }
+    ]
   },
   "163-bishan-st-13": {
     "blk_no": "163",
@@ -1575,16 +2375,27 @@
       "4room": 4,
       "5room": 94
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 755
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 755
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 846
+      }
+    ]
   },
   "164-bishan-st-13": {
     "blk_no": "164",
@@ -1599,16 +2410,27 @@
       "4room": 12,
       "5room": 102
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 716
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 716
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 841
+      }
+    ]
   },
   "165-bishan-st-13": {
     "blk_no": "165",
@@ -1623,16 +2445,27 @@
       "4room": 12,
       "5room": 102
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 697
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 697
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 799
+      }
+    ]
   },
   "166-bishan-st-13": {
     "blk_no": "166",
@@ -1647,16 +2480,27 @@
       "4room": 64,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 609
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 609
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 913
+      }
+    ]
   },
   "167-bishan-st-13": {
     "blk_no": "167",
@@ -1671,16 +2515,27 @@
       "4room": 64,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 670
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 670
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 934
+      }
+    ]
   },
   "168-bishan-st-13": {
     "blk_no": "168",
@@ -1695,16 +2550,18 @@
       "5room": 68,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 605
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 605
+      }
+    ]
   },
   "169-bishan-st-13": {
     "blk_no": "169",
@@ -1718,16 +2575,18 @@
     "sold_units_by_type": {
       "exec": 16
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 637
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 637
+      }
+    ]
   },
   "170-bishan-st-13": {
     "blk_no": "170",
@@ -1742,16 +2601,27 @@
       "4room": 36,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 638
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 638
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 936
+      }
+    ]
   },
   "171-bishan-st-13": {
     "blk_no": "171",
@@ -1769,16 +2639,27 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 614
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 614
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 974
+      }
+    ]
   },
   "172-bishan-st-13": {
     "blk_no": "172",
@@ -1793,16 +2674,18 @@
       "4room": 64,
       "5room": 34
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 544
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 544
+      }
+    ]
   },
   "173-bishan-st-13": {
     "blk_no": "173",
@@ -1817,16 +2700,18 @@
       "5room": 68,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 582
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 582
+      }
+    ]
   },
   "174-bishan-st-13": {
     "blk_no": "174",
@@ -1840,16 +2725,18 @@
     "sold_units_by_type": {
       "exec": 16
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 553
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 553
+      }
+    ]
   },
   "175-bishan-st-13": {
     "blk_no": "175",
@@ -1864,16 +2751,18 @@
       "4room": 56,
       "5room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 457
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 457
+      }
+    ]
   },
   "176-bishan-st-13": {
     "blk_no": "176",
@@ -1888,16 +2777,18 @@
       "3room": 80,
       "4room": 40
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 524
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 524
+      }
+    ]
   },
   "177-bishan-st-13": {
     "blk_no": "177",
@@ -1912,16 +2803,18 @@
       "4room": 64,
       "5room": 36
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 515
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 515
+      }
+    ]
   },
   "178-bishan-st-13": {
     "blk_no": "178",
@@ -1936,16 +2829,27 @@
       "4room": 71,
       "5room": 53
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 402
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 402
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 991
+      }
+    ]
   },
   "179-bishan-st-13": {
     "blk_no": "179",
@@ -1960,16 +2864,18 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 327
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 327
+      }
+    ]
   },
   "180-bishan-st-13": {
     "blk_no": "180",
@@ -1984,16 +2890,18 @@
       "3room": 44,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 375
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 375
+      }
+    ]
   },
   "181-bishan-st-13": {
     "blk_no": "181",
@@ -2008,16 +2916,18 @@
       "4room": 87,
       "5room": 39
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 366
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 366
+      }
+    ]
   },
   "182-bishan-st-13": {
     "blk_no": "182",
@@ -2032,16 +2942,18 @@
       "4room": 43,
       "5room": 41
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 330
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 330
+      }
+    ]
   },
   "183-bishan-st-13": {
     "blk_no": "183",
@@ -2056,16 +2968,18 @@
       "5room": 68,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 261
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 261
+      }
+    ]
   },
   "184-bishan-st-13": {
     "blk_no": "184",
@@ -2080,16 +2994,18 @@
       "3room": 44,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 282
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 282
+      }
+    ]
   },
   "185-bishan-st-13": {
     "blk_no": "185",
@@ -2104,16 +3020,18 @@
       "3room": 44,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 290
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 290
+      }
+    ]
   },
   "186-bishan-st-13": {
     "blk_no": "186",
@@ -2127,16 +3045,18 @@
     "sold_units_by_type": {
       "exec": 80
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 325
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 325
+      }
+    ]
   },
   "187-bishan-st-13": {
     "blk_no": "187",
@@ -2150,16 +3070,18 @@
     "sold_units_by_type": {
       "exec": 80
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 224
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 224
+      }
+    ]
   },
   "188-bishan-st-13": {
     "blk_no": "188",
@@ -2174,16 +3096,18 @@
       "3room": 44,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 214
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 214
+      }
+    ]
   },
   "189-bishan-st-13": {
     "blk_no": "189",
@@ -2198,16 +3122,18 @@
       "3room": 44,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 204
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 204
+      }
+    ]
   },
   "190-bishan-st-13": {
     "blk_no": "190",
@@ -2222,16 +3148,18 @@
       "5room": 68,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 212
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 212
+      }
+    ]
   },
   "191-bishan-st-13": {
     "blk_no": "191",
@@ -2246,16 +3174,18 @@
       "4room": 43,
       "5room": 41
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 142
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 142
+      }
+    ]
   },
   "192-bishan-st-13": {
     "blk_no": "192",
@@ -2270,16 +3200,18 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 262
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 262
+      }
+    ]
   },
   "193-bishan-st-13": {
     "blk_no": "193",
@@ -2294,16 +3226,27 @@
       "3room": 44,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 279
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 279
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 972
+      }
+    ]
   },
   "194-bishan-st-13": {
     "blk_no": "194",
@@ -2318,16 +3261,27 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 335
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 335
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 956
+      }
+    ]
   },
   "195-bishan-st-13": {
     "blk_no": "195",
@@ -2342,16 +3296,27 @@
       "3room": 44,
       "4room": 44
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 309
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 309
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 937
+      }
+    ]
   },
   "196-bishan-st-13": {
     "blk_no": "196",
@@ -2366,16 +3331,27 @@
       "4room": 36,
       "5room": 48
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 340
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 340
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit C",
+        "distance": 897
+      }
+    ]
   },
   "197-bishan-st-13": {
     "blk_no": "197",
@@ -2390,16 +3366,18 @@
       "4room": 63,
       "5room": 33
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 224
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 224
+      }
+    ]
   },
   "201-bishan-st-23": {
     "blk_no": "201",
@@ -2413,16 +3391,18 @@
     "sold_units_by_type": {
       "exec": 44
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 470
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 470
+      }
+    ]
   },
   "202-bishan-st-23": {
     "blk_no": "202",
@@ -2436,16 +3416,18 @@
     "sold_units_by_type": {
       "exec": 6
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 464
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 464
+      }
+    ]
   },
   "203-bishan-st-23": {
     "blk_no": "203",
@@ -2460,16 +3442,18 @@
       "4room": 47,
       "5room": 13
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 398
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 398
+      }
+    ]
   },
   "204-bishan-st-23": {
     "blk_no": "204",
@@ -2484,16 +3468,18 @@
       "4room": 53,
       "5room": 19
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 431
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 431
+      }
+    ]
   },
   "205-bishan-st-23": {
     "blk_no": "205",
@@ -2508,16 +3494,18 @@
       "4room": 54,
       "5room": 19
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 477
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 477
+      }
+    ]
   },
   "206-bishan-st-23": {
     "blk_no": "206",
@@ -2532,16 +3520,18 @@
       "4room": 48,
       "5room": 13
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 516
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 516
+      }
+    ]
   },
   "207-bishan-st-23": {
     "blk_no": "207",
@@ -2556,16 +3546,18 @@
       "4room": 53,
       "5room": 19
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 398
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 398
+      }
+    ]
   },
   "208-bishan-st-23": {
     "blk_no": "208",
@@ -2579,16 +3571,18 @@
     "sold_units_by_type": {
       "exec": 16
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 430
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 430
+      }
+    ]
   },
   "209-bishan-st-23": {
     "blk_no": "209",
@@ -2603,16 +3597,18 @@
       "4room": 52,
       "5room": 13
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 499
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 499
+      }
+    ]
   },
   "210-bishan-st-23": {
     "blk_no": "210",
@@ -2627,16 +3623,18 @@
       "4room": 61,
       "5room": 13
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 532
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 532
+      }
+    ]
   },
   "211-bishan-st-23": {
     "blk_no": "211",
@@ -2651,16 +3649,18 @@
       "4room": 48,
       "5room": 13
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 571
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 571
+      }
+    ]
   },
   "212-bishan-st-23": {
     "blk_no": "212",
@@ -2674,16 +3674,18 @@
     "sold_units_by_type": {
       "exec": 80
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 579
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 579
+      }
+    ]
   },
   "213-bishan-st-23": {
     "blk_no": "213",
@@ -2698,16 +3700,18 @@
       "4room": 81,
       "5room": 23
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 680
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 680
+      }
+    ]
   },
   "214-bishan-st-23": {
     "blk_no": "214",
@@ -2722,16 +3726,18 @@
       "4room": 67,
       "5room": 16
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 717
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 717
+      }
+    ]
   },
   "215-bishan-st-23": {
     "blk_no": "215",
@@ -2746,16 +3752,18 @@
       "4room": 45,
       "5room": 15
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 672
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 672
+      }
+    ]
   },
   "216-bishan-st-23": {
     "blk_no": "216",
@@ -2770,16 +3778,18 @@
       "4room": 48,
       "5room": 13
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 599
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 599
+      }
+    ]
   },
   "217-bishan-st-23": {
     "blk_no": "217",
@@ -2794,16 +3804,18 @@
       "4room": 54,
       "5room": 19
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 640
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 640
+      }
+    ]
   },
   "218-bishan-st-23": {
     "blk_no": "218",
@@ -2817,16 +3829,18 @@
     "sold_units_by_type": {
       "exec": 14
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 648
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 648
+      }
+    ]
   },
   "219-bishan-st-23": {
     "blk_no": "219",
@@ -2840,16 +3854,18 @@
     "sold_units_by_type": {
       "exec": 72
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 711
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 711
+      }
+    ]
   },
   "22-sin-ming-rd": {
     "blk_no": "22",
@@ -2864,15 +3880,35 @@
       "3room": 280,
       "5room": 8
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 3",
-      "distance": 701
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 701
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 924
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 934
+      }
+    ]
   },
   "220-bishan-st-23": {
     "blk_no": "220",
@@ -2887,16 +3923,18 @@
       "4room": 47,
       "5room": 17
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 715
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 715
+      }
+    ]
   },
   "221-bishan-st-23": {
     "blk_no": "221",
@@ -2911,16 +3949,18 @@
       "4room": 45,
       "5room": 50
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 757
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 757
+      }
+    ]
   },
   "222-bishan-st-23": {
     "blk_no": "222",
@@ -2934,16 +3974,18 @@
     "sold_units_by_type": {
       "exec": 67
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 775
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 775
+      }
+    ]
   },
   "223-bishan-st-23": {
     "blk_no": "223",
@@ -2959,16 +4001,18 @@
       "5room": 29,
       "exec": 23
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 820
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 820
+      }
+    ]
   },
   "224-bishan-st-23": {
     "blk_no": "224",
@@ -2984,16 +4028,18 @@
       "5room": 26,
       "exec": 21
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 879
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 879
+      }
+    ]
   },
   "225-bishan-st-23": {
     "blk_no": "225",
@@ -3008,16 +4054,18 @@
       "4room": 37,
       "5room": 17
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 838
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 838
+      }
+    ]
   },
   "226-bishan-st-23": {
     "blk_no": "226",
@@ -3032,16 +4080,18 @@
       "4room": 89,
       "5room": 23
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 842
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 842
+      }
+    ]
   },
   "227-bishan-st-23": {
     "blk_no": "227",
@@ -3056,16 +4106,18 @@
       "4room": 60,
       "5room": 9
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 790
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 790
+      }
+    ]
   },
   "228-bishan-st-23": {
     "blk_no": "228",
@@ -3080,16 +4132,18 @@
       "4room": 80,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 785
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 785
+      }
+    ]
   },
   "229-bishan-st-23": {
     "blk_no": "229",
@@ -3104,16 +4158,18 @@
       "4room": 108,
       "5room": 10
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 773
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 773
+      }
+    ]
   },
   "23-sin-ming-rd": {
     "blk_no": "23",
@@ -3128,15 +4184,35 @@
       "3room": 140,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 3",
-      "distance": 212
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 212
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 699
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 951
+      }
+    ]
   },
   "230-bishan-st-23": {
     "blk_no": "230",
@@ -3150,16 +4226,18 @@
     "sold_units_by_type": {
       "4room": 60
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 827
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 827
+      }
+    ]
   },
   "231-bishan-st-23": {
     "blk_no": "231",
@@ -3173,16 +4251,18 @@
     "sold_units_by_type": {
       "exec": 94
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 745
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 745
+      }
+    ]
   },
   "232-bishan-st-22": {
     "blk_no": "232",
@@ -3197,16 +4277,18 @@
       "4room": 68,
       "5room": 7
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 857
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 857
+      }
+    ]
   },
   "233-bishan-st-22": {
     "blk_no": "233",
@@ -3220,16 +4302,18 @@
     "sold_units_by_type": {
       "4room": 61
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 888
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 888
+      }
+    ]
   },
   "234-bishan-st-22": {
     "blk_no": "234",
@@ -3244,16 +4328,18 @@
       "4room": 43,
       "5room": 9
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 849
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 849
+      }
+    ]
   },
   "235-bishan-st-22": {
     "blk_no": "235",
@@ -3268,16 +4354,18 @@
       "4room": 45,
       "5room": 18
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 851
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 851
+      }
+    ]
   },
   "236-bishan-st-22": {
     "blk_no": "236",
@@ -3292,16 +4380,18 @@
       "4room": 80,
       "5room": 20
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 895
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 895
+      }
+    ]
   },
   "237-bishan-st-22": {
     "blk_no": "237",
@@ -3317,16 +4407,18 @@
       "5room": 33,
       "exec": 10
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 938
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 938
+      }
+    ]
   },
   "238-bishan-st-22": {
     "blk_no": "238",
@@ -3340,16 +4432,18 @@
     "sold_units_by_type": {
       "exec": 76
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 1050
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 1050
+      }
+    ]
   },
   "239-bishan-st-22": {
     "blk_no": "239",
@@ -3364,16 +4458,18 @@
       "4room": 84,
       "5room": 12
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 1113
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 1113
+      }
+    ]
   },
   "24-sin-ming-rd": {
     "blk_no": "24",
@@ -3387,15 +4483,35 @@
     "sold_units_by_type": {
       "3room": 144
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 3",
-      "distance": 292
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 292
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 755
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 894
+      }
+    ]
   },
   "240-bishan-st-22": {
     "blk_no": "240",
@@ -3409,15 +4525,17 @@
     "sold_units_by_type": {
       "exec": 8
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1062
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1062
+      }
+    ]
   },
   "241-bishan-st-22": {
     "blk_no": "241",
@@ -3433,15 +4551,17 @@
       "5room": 24,
       "exec": 10
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1050
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1050
+      }
+    ]
   },
   "242-bishan-st-22": {
     "blk_no": "242",
@@ -3456,15 +4576,17 @@
       "4room": 24,
       "5room": 46
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1028
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1028
+      }
+    ]
   },
   "243-bishan-st-22": {
     "blk_no": "243",
@@ -3478,15 +4600,17 @@
     "sold_units_by_type": {
       "4room": 116
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1066
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1066
+      }
+    ]
   },
   "244-bishan-st-22": {
     "blk_no": "244",
@@ -3500,16 +4624,18 @@
     "sold_units_by_type": {
       "exec": 6
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 1128
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 1128
+      }
+    ]
   },
   "245-bishan-st-22": {
     "blk_no": "245",
@@ -3523,16 +4649,18 @@
     "sold_units_by_type": {
       "exec": 76
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 1139
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 1139
+      }
+    ]
   },
   "246-bishan-st-22": {
     "blk_no": "246",
@@ -3547,15 +4675,17 @@
       "4room": 70,
       "5room": 10
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1132
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1132
+      }
+    ]
   },
   "247-bishan-st-22": {
     "blk_no": "247",
@@ -3569,15 +4699,17 @@
     "sold_units_by_type": {
       "exec": 10
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1098
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1098
+      }
+    ]
   },
   "248-bishan-st-22": {
     "blk_no": "248",
@@ -3591,15 +4723,17 @@
     "sold_units_by_type": {
       "4room": 72
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1106
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1106
+      }
+    ]
   },
   "249-bishan-st-22": {
     "blk_no": "249",
@@ -3614,15 +4748,17 @@
       "4room": 70,
       "5room": 10
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1102
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1102
+      }
+    ]
   },
   "25-sin-ming-rd": {
     "blk_no": "25",
@@ -3636,15 +4772,35 @@
     "sold_units_by_type": {
       "4room": 198
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 3",
-      "distance": 415
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 415
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 730
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 948
+      }
+    ]
   },
   "250-bishan-st-22": {
     "blk_no": "250",
@@ -3659,15 +4815,17 @@
       "4room": 80,
       "5room": 10
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1058
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1058
+      }
+    ]
   },
   "251-bishan-st-22": {
     "blk_no": "251",
@@ -3682,15 +4840,17 @@
       "4room": 24,
       "5room": 46
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1016
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1016
+      }
+    ]
   },
   "252-bishan-st-22": {
     "blk_no": "252",
@@ -3704,15 +4864,17 @@
     "sold_units_by_type": {
       "4room": 60
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1031
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1031
+      }
+    ]
   },
   "253-bishan-st-22": {
     "blk_no": "253",
@@ -3727,15 +4889,17 @@
       "4room": 35,
       "5room": 47
     },
-    "nearest_station": {
-      "id": "ang-mo-kio",
-      "name": "Ang Mo Kio",
-      "codes": [
-        "NS16"
-      ],
-      "exit": "Exit C",
-      "distance": 1059
-    }
+    "nearest_stations": [
+      {
+        "id": "ang-mo-kio",
+        "name": "Ang Mo Kio",
+        "codes": [
+          "NS16"
+        ],
+        "exit": "Exit C",
+        "distance": 1059
+      }
+    ]
   },
   "254-bishan-st-22": {
     "blk_no": "254",
@@ -3750,15 +4914,17 @@
       "4room": 113,
       "5room": 5
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1066
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1066
+      }
+    ]
   },
   "255-bishan-st-22": {
     "blk_no": "255",
@@ -3773,15 +4939,17 @@
       "4room": 54,
       "5room": 17
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1042
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1042
+      }
+    ]
   },
   "256-bishan-st-22": {
     "blk_no": "256",
@@ -3796,15 +4964,17 @@
       "4room": 50,
       "5room": 13
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1043
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1043
+      }
+    ]
   },
   "257-bishan-st-22": {
     "blk_no": "257",
@@ -3818,16 +4988,18 @@
     "sold_units_by_type": {
       "exec": 90
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 1123
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 1123
+      }
+    ]
   },
   "258-bishan-st-22": {
     "blk_no": "258",
@@ -3841,15 +5013,17 @@
     "sold_units_by_type": {
       "exec": 12
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1091
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1091
+      }
+    ]
   },
   "259-bishan-st-22": {
     "blk_no": "259",
@@ -3864,15 +5038,17 @@
       "4room": 54,
       "5room": 15
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1039
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1039
+      }
+    ]
   },
   "260-bishan-st-22": {
     "blk_no": "260",
@@ -3887,15 +5063,17 @@
       "4room": 54,
       "5room": 15
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1047
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1047
+      }
+    ]
   },
   "261-bishan-st-22": {
     "blk_no": "261",
@@ -3909,16 +5087,18 @@
     "sold_units_by_type": {
       "exec": 85
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 1041
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 1041
+      }
+    ]
   },
   "262-bishan-st-22": {
     "blk_no": "262",
@@ -3933,15 +5113,17 @@
       "4room": 72,
       "5room": 13
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 1108
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 1108
+      }
+    ]
   },
   "263-bishan-st-22": {
     "blk_no": "263",
@@ -3956,16 +5138,18 @@
       "4room": 96,
       "5room": 25
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 1079
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 1079
+      }
+    ]
   },
   "264-bishan-st-24": {
     "blk_no": "264",
@@ -3980,15 +5164,17 @@
       "4room": 58,
       "5room": 17
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 3",
-      "distance": 1033
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 1033
+      }
+    ]
   },
   "265-bishan-st-24": {
     "blk_no": "265",
@@ -4003,15 +5189,17 @@
       "4room": 67,
       "5room": 17
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 3",
-      "distance": 1019
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 1019
+      }
+    ]
   },
   "266-bishan-st-24": {
     "blk_no": "266",
@@ -4026,15 +5214,17 @@
       "4room": 54,
       "5room": 15
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 3",
-      "distance": 1000
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 1000
+      }
+    ]
   },
   "267-bishan-st-24": {
     "blk_no": "267",
@@ -4048,16 +5238,18 @@
     "sold_units_by_type": {
       "4room": 76
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 953
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 953
+      }
+    ]
   },
   "268-bishan-st-24": {
     "blk_no": "268",
@@ -4072,15 +5264,27 @@
       "4room": 88,
       "5room": 11
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 3",
-      "distance": 992
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 992
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 1000
+      }
+    ]
   },
   "269-bishan-st-24": {
     "blk_no": "269",
@@ -4094,16 +5298,27 @@
     "sold_units_by_type": {
       "4room": 80
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 901
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 901
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 966
+      }
+    ]
   },
   "270-bishan-st-24": {
     "blk_no": "270",
@@ -4118,16 +5333,36 @@
       "4room": 63,
       "5room": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 947
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 947
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 951
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 968
+      }
+    ]
   },
   "271-bishan-st-24": {
     "blk_no": "271",
@@ -4142,16 +5377,36 @@
       "4room": 85,
       "5room": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 908
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 908
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 922
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 3",
+        "distance": 973
+      }
+    ]
   },
   "272-bishan-st-24": {
     "blk_no": "272",
@@ -4165,16 +5420,27 @@
     "sold_units_by_type": {
       "4room": 110
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 843
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 843
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 913
+      }
+    ]
   },
   "273a-bishan-st-24": {
     "blk_no": "273A",
@@ -4189,16 +5455,27 @@
       "4room": 80,
       "5room": 80
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 764
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 764
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 982
+      }
+    ]
   },
   "273b-bishan-st-24": {
     "blk_no": "273B",
@@ -4213,16 +5490,27 @@
       "4room": 40,
       "5room": 120
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 775
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 775
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 927
+      }
+    ]
   },
   "275a-bishan-st-24": {
     "blk_no": "275A",
@@ -4237,16 +5525,27 @@
       "4room": 40,
       "5room": 120
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 826
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 826
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 993
+      }
+    ]
   },
   "278-bishan-st-24": {
     "blk_no": "278",
@@ -4261,16 +5560,18 @@
       "4room": 68,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 884
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 884
+      }
+    ]
   },
   "281-bishan-st-24": {
     "blk_no": "281",
@@ -4284,16 +5585,18 @@
     "sold_units_by_type": {
       "4room": 25
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 803
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 803
+      }
+    ]
   },
   "285-bishan-st-22": {
     "blk_no": "285",
@@ -4308,16 +5611,18 @@
       "4room": 68,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 997
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 997
+      }
+    ]
   },
   "286-bishan-st-24": {
     "blk_no": "286",
@@ -4332,16 +5637,18 @@
       "4room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 956
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 956
+      }
+    ]
   },
   "287-bishan-st-24": {
     "blk_no": "287",
@@ -4355,16 +5662,18 @@
     "sold_units_by_type": {
       "4room": 32
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 896
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 896
+      }
+    ]
   },
   "288-bishan-st-24": {
     "blk_no": "288",
@@ -4379,16 +5688,18 @@
       "4room": 67,
       "5room": 64
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 740
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 740
+      }
+    ]
   },
   "289-bishan-st-24": {
     "blk_no": "289",
@@ -4403,16 +5714,18 @@
       "4room": 67,
       "5room": 64
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 727
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 727
+      }
+    ]
   },
   "290-bishan-st-24": {
     "blk_no": "290",
@@ -4427,16 +5740,18 @@
       "4room": 65,
       "5room": 92
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 680
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 680
+      }
+    ]
   },
   "291-bishan-st-24": {
     "blk_no": "291",
@@ -4451,16 +5766,18 @@
       "4room": 65,
       "5room": 92
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 643
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 643
+      }
+    ]
   },
   "292-bishan-st-22": {
     "blk_no": "292",
@@ -4475,16 +5792,18 @@
       "4room": 67,
       "5room": 64
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 624
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 624
+      }
+    ]
   },
   "293-bishan-st-22": {
     "blk_no": "293",
@@ -4499,16 +5818,18 @@
       "4room": 67,
       "5room": 64
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit B",
-      "distance": 639
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit B",
+        "distance": 639
+      }
+    ]
   },
   "301-shunfu-rd": {
     "blk_no": "301",
@@ -4522,15 +5843,26 @@
     "sold_units_by_type": {
       "exec": 70
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 94
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 94
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 683
+      }
+    ]
   },
   "302-shunfu-rd": {
     "blk_no": "302",
@@ -4545,15 +5877,26 @@
       "3room": 16,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 42
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 42
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 748
+      }
+    ]
   },
   "303-shunfu-rd": {
     "blk_no": "303",
@@ -4568,15 +5911,26 @@
       "4room": 16,
       "5room": 84
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 111
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 111
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 666
+      }
+    ]
   },
   "304-shunfu-rd": {
     "blk_no": "304",
@@ -4592,15 +5946,26 @@
       "4room": 48,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 180
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 180
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 595
+      }
+    ]
   },
   "305-shunfu-rd": {
     "blk_no": "305",
@@ -4616,15 +5981,26 @@
       "4room": 48,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 132
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 132
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 666
+      }
+    ]
   },
   "306-shunfu-rd": {
     "blk_no": "306",
@@ -4639,15 +6015,36 @@
       "3room": 16,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 148
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 148
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 709
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 991
+      }
+    ]
   },
   "307-shunfu-rd": {
     "blk_no": "307",
@@ -4665,15 +6062,26 @@
     "rental_units_by_type": {
       "3room": 1
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 170
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 170
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 647
+      }
+    ]
   },
   "308-shunfu-rd": {
     "blk_no": "308",
@@ -4689,15 +6097,26 @@
       "4room": 48,
       "5room": 2
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 225
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 225
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 555
+      }
+    ]
   },
   "309-shunfu-rd": {
     "blk_no": "309",
@@ -4713,15 +6132,26 @@
       "4room": 48,
       "5room": 1
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 272
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 272
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 510
+      }
+    ]
   },
   "310-shunfu-rd": {
     "blk_no": "310",
@@ -4736,15 +6166,26 @@
       "4room": 24,
       "5room": 96
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 213
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 213
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 618
+      }
+    ]
   },
   "311-shunfu-rd": {
     "blk_no": "311",
@@ -4759,15 +6200,36 @@
       "3room": 16,
       "4room": 16
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 213
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 213
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 682
+      },
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 986
+      }
+    ]
   },
   "312-shunfu-rd": {
     "blk_no": "312",
@@ -4782,15 +6244,26 @@
       "4room": 16,
       "5room": 74
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 251
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 251
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 604
+      }
+    ]
   },
   "313-shunfu-rd": {
     "blk_no": "313",
@@ -4805,15 +6278,26 @@
       "3room": 81,
       "4room": 81
     },
-    "nearest_station": {
-      "id": "marymount",
-      "name": "Marymount",
-      "codes": [
-        "CC16"
-      ],
-      "exit": "Exit A",
-      "distance": 350
-    }
+    "nearest_stations": [
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit A",
+        "distance": 350
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 4",
+        "distance": 441
+      }
+    ]
   },
   "401-sin-ming-ave": {
     "blk_no": "401",
@@ -4827,15 +6311,35 @@
     "sold_units_by_type": {
       "exec": 24
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 94
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 94
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 767
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 6",
+        "distance": 996
+      }
+    ]
   },
   "402-sin-ming-ave": {
     "blk_no": "402",
@@ -4849,15 +6353,35 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 3",
-      "distance": 78
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 78
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 789
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 6",
+        "distance": 986
+      }
+    ]
   },
   "403-sin-ming-ave": {
     "blk_no": "403",
@@ -4872,15 +6396,35 @@
       "3room": 68,
       "4room": 68
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 47
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 47
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 817
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 6",
+        "distance": 942
+      }
+    ]
   },
   "404-sin-ming-ave": {
     "blk_no": "404",
@@ -4894,15 +6438,35 @@
     "sold_units_by_type": {
       "exec": 24
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 109
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 109
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 816
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 6",
+        "distance": 943
+      }
+    ]
   },
   "405-sin-ming-ave": {
     "blk_no": "405",
@@ -4916,15 +6480,35 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 145
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 145
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 855
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 5",
+        "distance": 909
+      }
+    ]
   },
   "406-sin-ming-ave": {
     "blk_no": "406",
@@ -4939,15 +6523,35 @@
       "3room": 93,
       "4room": 69
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 75
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 75
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 840
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 6",
+        "distance": 918
+      }
+    ]
   },
   "407-sin-ming-ave": {
     "blk_no": "407",
@@ -4962,15 +6566,35 @@
       "3room": 96,
       "4room": 48
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 81
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 81
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 6",
+        "distance": 860
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 898
+      }
+    ]
   },
   "408-sin-ming-ave": {
     "blk_no": "408",
@@ -4984,15 +6608,35 @@
     "sold_units_by_type": {
       "5room": 96
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 148
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 148
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 5",
+        "distance": 853
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 910
+      }
+    ]
   },
   "410-sin-ming-ave": {
     "blk_no": "410",
@@ -5008,15 +6652,35 @@
       "1room": 168,
       "2room": 240
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 2",
-      "distance": 226
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 2",
+        "distance": 226
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 887
+      },
+      {
+        "id": "mayflower",
+        "name": "Mayflower",
+        "codes": [
+          "TE6"
+        ],
+        "exit": "Exit 5",
+        "distance": 896
+      }
+    ]
   },
   "441-sin-ming-ave": {
     "blk_no": "441",
@@ -5032,15 +6696,26 @@
       "5room": 18,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 3",
-      "distance": 352
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 352
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 372
+      }
+    ]
   },
   "442-sin-ming-ave": {
     "blk_no": "442",
@@ -5055,15 +6730,26 @@
       "5room": 72,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 3",
-      "distance": 328
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 328
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 394
+      }
+    ]
   },
   "443-sin-ming-ave": {
     "blk_no": "443",
@@ -5079,15 +6765,26 @@
       "5room": 14,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 3",
-      "distance": 363
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 363
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 372
+      }
+    ]
   },
   "444-sin-ming-ave": {
     "blk_no": "444",
@@ -5102,15 +6799,26 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 316
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 316
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 405
+      }
+    ]
   },
   "445-sin-ming-ave": {
     "blk_no": "445",
@@ -5126,15 +6834,26 @@
       "5room": 18,
       "exec": 7
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 331
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 331
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 393
+      }
+    ]
   },
   "446-bright-hill-dr": {
     "blk_no": "446",
@@ -5150,15 +6869,26 @@
       "5room": 14,
       "exec": 6
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 243
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 243
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 480
+      }
+    ]
   },
   "447-bright-hill-dr": {
     "blk_no": "447",
@@ -5173,15 +6903,26 @@
       "5room": 76,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 277
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 277
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 443
+      }
+    ]
   },
   "448-bright-hill-dr": {
     "blk_no": "448",
@@ -5197,15 +6938,26 @@
       "5room": 18,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 300
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 300
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 433
+      }
+    ]
   },
   "449-sin-ming-ave": {
     "blk_no": "449",
@@ -5221,15 +6973,26 @@
       "5room": 16,
       "exec": 6
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 285
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 285
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 489
+      }
+    ]
   },
   "450-sin-ming-ave": {
     "blk_no": "450",
@@ -5244,15 +7007,26 @@
       "5room": 84,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 332
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 332
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 479
+      }
+    ]
   },
   "451-sin-ming-ave": {
     "blk_no": "451",
@@ -5267,15 +7041,26 @@
       "4room": 50,
       "exec": 4
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 366
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 366
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 482
+      }
+    ]
   },
   "452-sin-ming-ave": {
     "blk_no": "452",
@@ -5289,15 +7074,26 @@
     "sold_units_by_type": {
       "exec": 30
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 392
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 392
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 496
+      }
+    ]
   },
   "453-sin-ming-ave": {
     "blk_no": "453",
@@ -5312,15 +7108,26 @@
       "5room": 52,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 426
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 426
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 445
+      }
+    ]
   },
   "454-sin-ming-ave": {
     "blk_no": "454",
@@ -5336,15 +7143,26 @@
       "5room": 18,
       "exec": 8
     },
-    "nearest_station": {
-      "id": "bright-hill",
-      "name": "Bright Hill",
-      "codes": [
-        "TE7"
-      ],
-      "exit": "Exit 3",
-      "distance": 397
-    }
+    "nearest_stations": [
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 397
+      },
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 399
+      }
+    ]
   },
   "455-sin-ming-ave": {
     "blk_no": "455",
@@ -5360,15 +7178,26 @@
       "5room": 9,
       "exec": 4
     },
-    "nearest_station": {
-      "id": "upper-thomson",
-      "name": "Upper Thomson",
-      "codes": [
-        "TE8"
-      ],
-      "exit": "Exit 2",
-      "distance": 358
-    }
+    "nearest_stations": [
+      {
+        "id": "upper-thomson",
+        "name": "Upper Thomson",
+        "codes": [
+          "TE8"
+        ],
+        "exit": "Exit 2",
+        "distance": 358
+      },
+      {
+        "id": "bright-hill",
+        "name": "Bright Hill",
+        "codes": [
+          "TE7"
+        ],
+        "exit": "Exit 3",
+        "distance": 430
+      }
+    ]
   },
   "501-bishan-st-11": {
     "blk_no": "501",
@@ -5383,16 +7212,27 @@
       "4room": 42,
       "5room": 10
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 255
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 255
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 868
+      }
+    ]
   },
   "502-bishan-st-11": {
     "blk_no": "502",
@@ -5407,16 +7247,36 @@
       "4room": 13,
       "5room": 7
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 223
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 223
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 862
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 925
+      }
+    ]
   },
   "503-bishan-st-11": {
     "blk_no": "503",
@@ -5431,16 +7291,36 @@
       "4room": 35,
       "5room": 5
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit C",
-      "distance": 174
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit C",
+        "distance": 174
+      },
+      {
+        "id": "marymount",
+        "name": "Marymount",
+        "codes": [
+          "CC16"
+        ],
+        "exit": "Exit B",
+        "distance": 898
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 904
+      }
+    ]
   },
   "506-bishan-st-11": {
     "blk_no": "506",
@@ -5455,16 +7335,27 @@
       "4room": 42,
       "5room": 14
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit A",
-      "distance": 183
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit A",
+        "distance": 183
+      },
+      {
+        "id": "braddell",
+        "name": "Braddell",
+        "codes": [
+          "NS18"
+        ],
+        "exit": "Exit A",
+        "distance": 951
+      }
+    ]
   },
   "532a-bishan-st-14": {
     "blk_no": "532A",
@@ -5478,16 +7369,18 @@
     "sold_units_by_type": {
       "4room": 221
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 349
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 349
+      }
+    ]
   },
   "532b-bishan-st-14": {
     "blk_no": "532B",
@@ -5501,16 +7394,18 @@
     "sold_units_by_type": {
       "4room": 244
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 328
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 328
+      }
+    ]
   },
   "532c-bishan-st-14": {
     "blk_no": "532C",
@@ -5526,16 +7421,18 @@
       "3room": 54,
       "4room": 56
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 339
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 339
+      }
+    ]
   },
   "535a-bishan-st-13": {
     "blk_no": "535A",
@@ -5549,16 +7446,18 @@
     "sold_units_by_type": {
       "4room": 230
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 330
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 330
+      }
+    ]
   },
   "535b-bishan-st-13": {
     "blk_no": "535B",
@@ -5572,16 +7471,18 @@
     "sold_units_by_type": {
       "4room": 301
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 386
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 386
+      }
+    ]
   },
   "535c-bishan-st-13": {
     "blk_no": "535C",
@@ -5596,15 +7497,26 @@
       "3room": 70,
       "4room": 170
     },
-    "nearest_station": {
-      "id": "bishan",
-      "name": "Bishan",
-      "codes": [
-        "NS17",
-        "CC15"
-      ],
-      "exit": "Exit D",
-      "distance": 441
-    }
+    "nearest_stations": [
+      {
+        "id": "bishan",
+        "name": "Bishan",
+        "codes": [
+          "NS17",
+          "CC15"
+        ],
+        "exit": "Exit D",
+        "distance": 441
+      },
+      {
+        "id": "lorong-chuan",
+        "name": "Lorong Chuan",
+        "codes": [
+          "CC14"
+        ],
+        "exit": "Exit B",
+        "distance": 975
+      }
+    ]
   }
 }

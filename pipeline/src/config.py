@@ -20,6 +20,12 @@ EXITS_DATASET_ID = "d_b39d3a0871985372d7e1637193335da5"
 # Lines in service, in display order. A new line's first stations fail the run until it is added
 # here, since a station must have at least one code (stations.py).
 OPEN_LINES = ["NS", "EW", "CG", "NE", "CC", "DT", "TE", "BP", "STC", "SE", "SW", "PTC", "PE", "PW"]
+# A station is LRT-only when every code is on one of these; isLrtOnly in app/src/lib/lines.ts uses
+# the same rule and must agree.
+LRT_LINES = {"BP", "STC", "SE", "SW", "PTC", "PE", "PW"}
+# A block lists its nearest station and up to MAX_STATIONS - 1 more within NEARBY_RADIUS_M.
+NEARBY_RADIUS_M = 1000
+MAX_STATIONS = 3
 # Official names that title case gets wrong.
 STATION_NAME_OVERRIDES = {
     "HARBOURFRONT": "HarbourFront",

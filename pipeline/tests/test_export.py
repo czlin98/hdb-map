@@ -27,13 +27,15 @@ def _rec(**over):
         "sold_units_by_type": {"3room": 40},
         "rental_units_by_type": {},
         "station_distance": 350,
-        "nearest_station": {
-            "id": "ang-mo-kio",
-            "name": "Ang Mo Kio",
-            "codes": ["NS16"],
-            "exit": "Exit A",
-            "distance": 350,
-        },
+        "nearest_stations": [
+            {
+                "id": "ang-mo-kio",
+                "name": "Ang Mo Kio",
+                "codes": ["NS16"],
+                "exit": "Exit A",
+                "distance": 350,
+            }
+        ],
     }
     base.update(over)
     return base
@@ -142,7 +144,7 @@ def test_written_fields_follow_logical_order(tmp_path):
         "max_floor_lvl",
         "total_dwelling_units",
         "sold_units_by_type",
-        "nearest_station",
+        "nearest_stations",
     ]
 
 
@@ -173,7 +175,7 @@ def test_written_index_values_mirror_shards(tmp_path):
         )
         assert p["sold_types"] == list(entry["sold_units_by_type"])
         assert p["rental_types"] == list(entry.get("rental_units_by_type", {}))
-        assert p["station_distance"] == entry["nearest_station"]["distance"]
+        assert p["station_distance"] == entry["nearest_stations"][0]["distance"]
 
 
 def test_shard_ids_written_in_sorted_order(tmp_path):
@@ -238,10 +240,10 @@ def test_index_with_no_blocks_is_valid_geojson(tmp_path):
     assert index == {"type": "FeatureCollection", "features": []}
 
 
-def test_detail_entry_puts_the_nearest_station_after_the_units():
+def test_detail_entry_puts_the_nearest_stations_after_the_units():
     entry = to_detail_entry(_rec(rental_units_by_type={"1room": 5}))
-    assert list(entry)[-2:] == ["rental_units_by_type", "nearest_station"]
-    assert entry["nearest_station"] == _rec()["nearest_station"]
+    assert list(entry)[-2:] == ["rental_units_by_type", "nearest_stations"]
+    assert entry["nearest_stations"] == _rec()["nearest_stations"]
 
 
 def test_write_stations_writes_stations_then_exits(tmp_path):
@@ -289,9 +291,29 @@ def test_stations_written_one_feature_per_line(tmp_path):
     assert len(lines) == 2 + 2  # header, station, exit, footer
 
 
-def test_shard_stations_and_exits_exist_in_the_stations_file(tmp_path):
-    write_outputs([_rec()], TOWNS, app_data_dir=tmp_path)
-    write_stations([_station()], app_data_dir=tmp_path)
+def _nearby(station_id, name, codes, exit_name, distance):
+    return {"id": station_id, "name": name, "codes": codes, "exit": exit_name, "distance": distance}
+
+
+def test_shard_stations_meet_the_contract_invariants(tmp_path):
+    three = _rec(
+        id="456-ang-mo-kio-ave-10",
+        station_distance=350,
+        nearest_stations=[
+            _nearby("ang-mo-kio", "Ang Mo Kio", ["NS16"], "Exit A", 350),
+            _nearby("mayflower", "Mayflower", ["TE6"], "Exit 2", 720),
+            _nearby("yio-chu-kang", "Yio Chu Kang", ["NS15"], "Exit B", 980),
+        ],
+    )
+    write_outputs([_rec(), three], TOWNS, app_data_dir=tmp_path)
+    write_stations(
+        [
+            _station(),
+            _station("mayflower", "Mayflower", ["TE6"], [("Exit 2", 103.836, 1.372)]),
+            _station("yio-chu-kang", "Yio Chu Kang", ["NS15"], [("Exit B", 103.845, 1.382)]),
+        ],
+        app_data_dir=tmp_path,
+    )
 
     features = _features(tmp_path / "stations.geojson")
     stations = {
@@ -305,9 +327,18 @@ def test_shard_stations_and_exits_exist_in_the_stations_file(tmp_path):
         if f["properties"]["kind"] == "exit"
     }
     assert {station for station, _ in exits} <= set(stations)
+    index = {f["properties"]["id"]: f["properties"] for f in _features(tmp_path / "index.geojson")}
     amk = json.loads((tmp_path / "block-details" / "ang-mo-kio.json").read_text())
-    for entry in amk.values():
-        nearest = entry["nearest_station"]
-        station = stations[nearest["id"]]
-        assert (station["name"], station["codes"]) == (nearest["name"], nearest["codes"])
-        assert (nearest["id"], nearest["exit"]) in exits
+    assert [len(entry["nearest_stations"]) for entry in amk.values()] == [1, 3]
+    for block_id, entry in amk.items():
+        listed = entry["nearest_stations"]
+        assert 1 <= len(listed) <= 3
+        assert len({s["id"] for s in listed}) == len(listed)
+        for nearest in listed:
+            station = stations[nearest["id"]]
+            assert (station["name"], station["codes"]) == (nearest["name"], nearest["codes"])
+            assert (nearest["id"], nearest["exit"]) in exits
+        assert listed[0]["distance"] == index[block_id]["station_distance"]
+        others = [s["distance"] for s in listed[1:]]
+        assert all(d <= 1000 for d in others)
+        assert others == sorted(others)

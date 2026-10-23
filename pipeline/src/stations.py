@@ -9,6 +9,9 @@ import requests
 
 from config import (
     EXITS_DATASET_ID,
+    LRT_LINES,
+    MAX_STATIONS,
+    NEARBY_RADIUS_M,
     ONEMAP_SEARCH_URL,
     OPEN_LINES,
     STATION_NAME_OVERRIDES,
@@ -106,17 +109,25 @@ def load_live_stations(path: Path) -> list[dict]:
     return [f for f in features if f["properties"]["kind"] == "station"]
 
 
+def _line(code: str) -> str:
+    # The whole prefix, so STC is never read as an SE code.
+    prefix = re.match(r"[A-Z]+", code)
+    return prefix.group() if prefix else ""
+
+
 def _code_order(code: str) -> tuple[int, int]:
-    prefix = re.match(r"[A-Z]+", code).group()
+    prefix = _line(code)
     number = code[len(prefix) :]
     # STC and PTC (the Sengkang and Punggol LRT hubs) have no number.
     return OPEN_LINES.index(prefix), int(number) if number.isdigit() else 0
 
 
 def _is_open(code: str) -> bool:
-    # The whole prefix must match, so STC is never read as an SE code.
-    prefix = re.match(r"[A-Z]+", code)
-    return prefix is not None and prefix.group() in OPEN_LINES
+    return _line(code) in OPEN_LINES
+
+
+def _is_lrt_only(codes: list[str]) -> bool:
+    return all(_line(code) in LRT_LINES for code in codes)
 
 
 def build_stations(exits: list[dict], codes_by_station: dict[str, list[str]]) -> list[dict]:
@@ -183,20 +194,32 @@ def haversine_m(lon1: float, lat1: float, lon2: float, lat2: float) -> float:
     return 2 * 6_371_000 * math.asin(math.sqrt(a))
 
 
-def nearest_station(lon: float, lat: float, stations: list[dict]) -> dict:
-    """The station of the exit nearest the point, with that exit and its distance."""
-    best = None
-    # Sorted, with a strict comparison below, so an exact tie goes to the lower id.
-    for station in sorted(stations, key=lambda s: s["id"]):
+def nearest_stations(lon: float, lat: float, stations: list[dict]) -> list[dict]:
+    """The nearest station, then others within the radius (MRT before LRT), nearest first."""
+    ranked = []
+    for station in stations:
+        # Strict, so a tie between one station's exits goes to the first in its sorted list.
+        distance, exit_name = math.inf, None
         for exit_ in station["exits"]:
-            distance = haversine_m(lon, lat, exit_["lon"], exit_["lat"])
-            if best is None or distance < best[0]:
-                best = (distance, station, exit_["exit"])
-    distance, station, exit_name = best
-    return {
-        "id": station["id"],
-        "name": station["name"],
-        "codes": station["codes"],
-        "exit": exit_name,
-        "distance": round(distance),
-    }
+            d = haversine_m(lon, lat, exit_["lon"], exit_["lat"])
+            if d < distance:
+                distance, exit_name = d, exit_["exit"]
+        ranked.append((distance, station["id"], station, exit_name))
+    ranked.sort(key=lambda r: (r[0], r[1]))
+
+    nearest, *rest = ranked
+    # Whole metres, as stored, so a listed station never shows more than the radius.
+    nearby = [r for r in rest if round(r[0]) <= NEARBY_RADIUS_M]
+    # A stable sort, so each group stays nearest first.
+    mrt_first = sorted(nearby, key=lambda r: _is_lrt_only(r[2]["codes"]))
+    others = sorted(mrt_first[: MAX_STATIONS - 1], key=lambda r: (r[0], r[1]))
+    return [
+        {
+            "id": station["id"],
+            "name": station["name"],
+            "codes": station["codes"],
+            "exit": exit_name,
+            "distance": round(distance),
+        }
+        for distance, _, station, exit_name in [nearest, *others]
+    ]

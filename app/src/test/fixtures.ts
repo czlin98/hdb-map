@@ -62,13 +62,10 @@ export const sampleShard: Record<string, BlockDetail> = {
     total_dwelling_units: 200,
     sold_units_by_type: { "3room": 40, "4room": 60 },
     rental_units_by_type: { "1room": 20 },
-    nearest_station: {
-      id: "ang-mo-kio",
-      name: "Ang Mo Kio",
-      codes: ["NS16"],
-      exit: "Exit A",
-      distance: 350,
-    },
+    nearest_stations: [
+      { id: "ang-mo-kio", name: "Ang Mo Kio", codes: ["NS16"], exit: "Exit A", distance: 350 },
+      { id: "mayflower", name: "Mayflower", codes: ["TE6"], exit: "Exit 2", distance: 720 },
+    ],
   },
 };
 
@@ -85,6 +82,11 @@ export const sampleStations: StationFeatureCollection = {
       type: "Feature",
       geometry: { type: "Point", coordinates: [103.9299, 1.324] },
       properties: { kind: "station", id: "bedok", name: "Bedok", codes: ["EW5"] },
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [103.8366, 1.372] },
+      properties: { kind: "station", id: "mayflower", name: "Mayflower", codes: ["TE6"] },
     },
     {
       type: "Feature",
@@ -110,6 +112,11 @@ export const sampleStations: StationFeatureCollection = {
       type: "Feature",
       geometry: { type: "Point", coordinates: [103.9302, 1.3242] },
       properties: { kind: "exit", station: "bedok", exit: "Exit B" },
+    },
+    {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [103.8368, 1.3716] },
+      properties: { kind: "exit", station: "mayflower", exit: "Exit 2" },
     },
   ],
 };

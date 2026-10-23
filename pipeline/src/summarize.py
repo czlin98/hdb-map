@@ -90,10 +90,11 @@ def _changes(old: dict, new: dict) -> list[str]:
                 out.append(
                     f"{label} {flat_type} {before.get(flat_type, 0)} → {after.get(flat_type, 0)}"
                 )
-    old_station = (old.get("nearest_station") or {}).get("name")
-    new_station = (new.get("nearest_station") or {}).get("name")
-    if old_station != new_station:
-        out.append(f"station {old_station} → {new_station}")
+    # Names only: the distances shift by a metre with every small geocode move.
+    old_names = [s["name"] for s in old["nearest_stations"]]
+    new_names = [s["name"] for s in new["nearest_stations"]]
+    if old_names != new_names:
+        out.append(f"stations {', '.join(old_names)} → {', '.join(new_names)}")
     if (old["lon"], old["lat"]) != (new["lon"], new["lat"]):
         out.append(f"lon/lat {old['lon']}, {old['lat']} → {new['lon']}, {new['lat']}")
     return out

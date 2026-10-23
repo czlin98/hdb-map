@@ -1,5 +1,5 @@
 from config import make_id
-from stations import nearest_station
+from stations import nearest_stations
 
 # (source column, output key), in display order. Output keys must match app/src/lib/flat-types.ts.
 FLAT_TYPES_SOLD = [
@@ -72,7 +72,7 @@ def transform(
             )
             continue
         lat, lon = float(block["lat"]), float(block["lon"])
-        station = nearest_station(lon, lat, stations)
+        nearby = nearest_stations(lon, lat, stations)
         records.append(
             {
                 "id": make_id(block["blk_no"], block["street"]),
@@ -87,8 +87,8 @@ def transform(
                 **values,
                 "sold_units_by_type": _units_by_type(block, FLAT_TYPES_SOLD),
                 "rental_units_by_type": _units_by_type(block, FLAT_TYPES_RENTAL),
-                "station_distance": station["distance"],
-                "nearest_station": station,
+                "station_distance": nearby[0]["distance"],
+                "nearest_stations": nearby,
             }
         )
     return records, skipped
