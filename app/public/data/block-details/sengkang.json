@@ -122,7 +122,7 @@
           "NE15"
         ],
         "exit": "Exit B",
-        "distance": 862
+        "distance": 861
       }
     ]
   },
@@ -156,7 +156,7 @@
           "SE5"
         ],
         "exit": "Exit A",
-        "distance": 436
+        "distance": 437
       },
       {
         "id": "buangkok",
@@ -424,7 +424,7 @@
           "STC"
         ],
         "exit": "Exit C",
-        "distance": 999
+        "distance": 998
       }
     ]
   },
@@ -1513,7 +1513,7 @@
           "SE2"
         ],
         "exit": "Exit A",
-        "distance": 525
+        "distance": 526
       }
     ]
   },
@@ -1555,7 +1555,7 @@
           "SE4"
         ],
         "exit": "Exit A",
-        "distance": 596
+        "distance": 597
       }
     ]
   },
@@ -2066,7 +2066,7 @@
           "SE2"
         ],
         "exit": "Exit A",
-        "distance": 464
+        "distance": 465
       },
       {
         "id": "sengkang",
@@ -2939,7 +2939,7 @@
           "SE1"
         ],
         "exit": "Exit A",
-        "distance": 740
+        "distance": 739
       }
     ]
   },
@@ -2973,7 +2973,7 @@
           "SE2"
         ],
         "exit": "Exit A",
-        "distance": 241
+        "distance": 242
       },
       {
         "id": "kangkar",
@@ -2982,7 +2982,7 @@
           "SE4"
         ],
         "exit": "Exit A",
-        "distance": 705
+        "distance": 706
       }
     ]
   },
@@ -3110,7 +3110,7 @@
           "SE1"
         ],
         "exit": "Exit A",
-        "distance": 698
+        "distance": 697
       }
     ]
   },
@@ -3957,7 +3957,7 @@
           "SE3"
         ],
         "exit": "Exit A",
-        "distance": 380
+        "distance": 379
       },
       {
         "id": "coral-edge",
@@ -4301,7 +4301,7 @@
           "SE2"
         ],
         "exit": "Exit A",
-        "distance": 630
+        "distance": 631
       },
       {
         "id": "kangkar",
@@ -5076,7 +5076,7 @@
           "SE2"
         ],
         "exit": "Exit B",
-        "distance": 587
+        "distance": 588
       },
       {
         "id": "coral-edge",
@@ -5246,7 +5246,7 @@
           "SE3"
         ],
         "exit": "Exit A",
-        "distance": 490
+        "distance": 491
       },
       {
         "id": "coral-edge",
@@ -5470,7 +5470,7 @@
           "PE3"
         ],
         "exit": "Exit A",
-        "distance": 543
+        "distance": 542
       }
     ]
   },
@@ -6624,7 +6624,7 @@
           "SE2"
         ],
         "exit": "Exit A",
-        "distance": 460
+        "distance": 459
       },
       {
         "id": "sengkang",
@@ -7466,7 +7466,7 @@
           "STC"
         ],
         "exit": "Exit C",
-        "distance": 446
+        "distance": 445
       }
     ]
   },
@@ -8241,7 +8241,7 @@
           "NE15"
         ],
         "exit": "Exit B",
-        "distance": 498
+        "distance": 499
       },
       {
         "id": "sengkang",
@@ -8547,7 +8547,7 @@
           "NE15"
         ],
         "exit": "Exit B",
-        "distance": 731
+        "distance": 730
       },
       {
         "id": "sengkang",
@@ -9074,7 +9074,7 @@
           "SW8"
         ],
         "exit": "Exit B",
-        "distance": 488
+        "distance": 489
       },
       {
         "id": "buangkok",
@@ -11480,7 +11480,7 @@
           "SW1"
         ],
         "exit": "Exit B",
-        "distance": 683
+        "distance": 682
       }
     ]
   },
@@ -11523,7 +11523,7 @@
           "SW1"
         ],
         "exit": "Exit B",
-        "distance": 624
+        "distance": 623
       }
     ]
   },
@@ -12004,7 +12004,7 @@
           "SW1"
         ],
         "exit": "Exit B",
-        "distance": 558
+        "distance": 557
       }
     ]
   },
@@ -12475,7 +12475,7 @@
           "STC"
         ],
         "exit": "Exit D",
-        "distance": 253
+        "distance": 254
       },
       {
         "id": "compassvale",
@@ -12527,7 +12527,7 @@
           "SE1"
         ],
         "exit": "Exit A",
-        "distance": 627
+        "distance": 628
       }
     ]
   },
@@ -14154,7 +14154,7 @@
           "SW8"
         ],
         "exit": "Exit A",
-        "distance": 533
+        "distance": 534
       },
       {
         "id": "ranggung",
@@ -15336,7 +15336,7 @@
           "STC"
         ],
         "exit": "Exit D",
-        "distance": 717
+        "distance": 716
       },
       {
         "id": "punggol",
@@ -16061,7 +16061,7 @@
         "codes": [
           "SE1"
         ],
-        "exit": "Exit A",
+        "exit": "Exit B",
         "distance": 582
       }
     ]
@@ -16318,7 +16318,7 @@
           "PTC"
         ],
         "exit": "LRT Exit C",
-        "distance": 739
+        "distance": 738
       },
       {
         "id": "sengkang",
@@ -16725,7 +16725,7 @@
           "STC"
         ],
         "exit": "Exit D",
-        "distance": 730
+        "distance": 729
       },
       {
         "id": "punggol",
@@ -16863,7 +16863,7 @@
           "STC"
         ],
         "exit": "Exit D",
-        "distance": 786
+        "distance": 785
       },
       {
         "id": "punggol",
@@ -17215,7 +17215,7 @@
           "NE15"
         ],
         "exit": "Exit A",
-        "distance": 602
+        "distance": 601
       },
       {
         "id": "sengkang",
@@ -17345,7 +17345,7 @@
           "NE15"
         ],
         "exit": "Exit A",
-        "distance": 559
+        "distance": 560
       },
       {
         "id": "sengkang",
@@ -17968,7 +17968,7 @@
           "STC"
         ],
         "exit": "Exit C",
-        "distance": 971
+        "distance": 972
       }
     ]
   },
@@ -18142,7 +18142,7 @@
           "SW2"
         ],
         "exit": "Exit B",
-        "distance": 688
+        "distance": 689
       }
     ]
   },
@@ -18870,7 +18870,7 @@
           "STC"
         ],
         "exit": "Exit C",
-        "distance": 707
+        "distance": 708
       },
       {
         "id": "buangkok",
@@ -19221,7 +19221,7 @@
           "SW7"
         ],
         "exit": "Exit B",
-        "distance": 492
+        "distance": 491
       },
       {
         "id": "sengkang",
@@ -19539,7 +19539,7 @@
           "STC"
         ],
         "exit": "Exit A",
-        "distance": 732
+        "distance": 731
       }
     ]
   },
@@ -20590,7 +20590,7 @@
           "SW2"
         ],
         "exit": "Exit A",
-        "distance": 491
+        "distance": 492
       }
     ]
   },
@@ -21505,7 +21505,7 @@
           "STC"
         ],
         "exit": "Exit D",
-        "distance": 436
+        "distance": 437
       },
       {
         "id": "farmway",
@@ -22826,7 +22826,7 @@
           "SW4"
         ],
         "exit": "Exit A",
-        "distance": 929
+        "distance": 930
       }
     ]
   },
@@ -22941,7 +22941,7 @@
           "SW4"
         ],
         "exit": "Exit A",
-        "distance": 964
+        "distance": 965
       }
     ]
   },
@@ -24824,7 +24824,7 @@
           "SW4"
         ],
         "exit": "Exit B",
-        "distance": 408
+        "distance": 409
       }
     ]
   },
@@ -25030,7 +25030,7 @@
           "SW6"
         ],
         "exit": "Exit B",
-        "distance": 352
+        "distance": 353
       },
       {
         "id": "thanggam",
@@ -25555,7 +25555,7 @@
           "SW4"
         ],
         "exit": "Exit B",
-        "distance": 638
+        "distance": 639
       }
     ]
   },
@@ -25892,7 +25892,7 @@
           "SW4"
         ],
         "exit": "Exit A",
-        "distance": 562
+        "distance": 563
       },
       {
         "id": "layar",
@@ -26542,7 +26542,7 @@
           "SW4"
         ],
         "exit": "Exit A",
-        "distance": 428
+        "distance": 429
       },
       {
         "id": "layar",
@@ -26851,7 +26851,7 @@
           "SW6"
         ],
         "exit": "Exit B",
-        "distance": 608
+        "distance": 609
       }
     ]
   },
@@ -27076,7 +27076,7 @@
           "SW4"
         ],
         "exit": "Exit A",
-        "distance": 845
+        "distance": 846
       }
     ]
   },
@@ -28384,7 +28384,7 @@
           "SW6"
         ],
         "exit": "Exit B",
-        "distance": 526
+        "distance": 527
       }
     ]
   },
@@ -28590,7 +28590,7 @@
           "SW6"
         ],
         "exit": "Exit B",
-        "distance": 599
+        "distance": 600
       },
       {
         "id": "thanggam",
@@ -28633,7 +28633,7 @@
           "SW6"
         ],
         "exit": "Exit B",
-        "distance": 525
+        "distance": 526
       },
       {
         "id": "thanggam",

@@ -300,7 +300,7 @@
           "EW20"
         ],
         "exit": "Exit B",
-        "distance": 666
+        "distance": 667
       }
     ]
   },
@@ -515,7 +515,7 @@
           "CC22"
         ],
         "exit": "Exit D",
-        "distance": 896
+        "distance": 897
       }
     ]
   },
@@ -971,7 +971,7 @@
           "EW20"
         ],
         "exit": "Exit B",
-        "distance": 911
+        "distance": 912
       }
     ]
   },
@@ -1171,7 +1171,7 @@
           "CC23"
         ],
         "exit": "Exit B",
-        "distance": 954
+        "distance": 953
       }
     ]
   },
@@ -2289,7 +2289,7 @@
           "CC22"
         ],
         "exit": "Exit A",
-        "distance": 447
+        "distance": 446
       }
     ]
   },
@@ -3190,7 +3190,7 @@
           "CC22"
         ],
         "exit": "Exit A",
-        "distance": 999
+        "distance": 1000
       }
     ]
   },
@@ -3267,7 +3267,7 @@
           "CC23"
         ],
         "exit": "Exit B",
-        "distance": 926
+        "distance": 925
       }
     ]
   },
@@ -4548,7 +4548,7 @@
           "EW20"
         ],
         "exit": "Exit C",
-        "distance": 996
+        "distance": 997
       }
     ]
   },
@@ -5452,7 +5452,7 @@
           "EW19"
         ],
         "exit": "Exit D",
-        "distance": 552
+        "distance": 553
       }
     ]
   },
@@ -7063,7 +7063,7 @@
           "CC21"
         ],
         "exit": "Exit B",
-        "distance": 949
+        "distance": 950
       },
       {
         "id": "dover",
@@ -7403,7 +7403,7 @@
           "CC21"
         ],
         "exit": "Exit C",
-        "distance": 887
+        "distance": 888
       }
     ]
   },
@@ -8548,7 +8548,7 @@
           "EW18"
         ],
         "exit": "Exit A",
-        "distance": 913
+        "distance": 914
       }
     ]
   },

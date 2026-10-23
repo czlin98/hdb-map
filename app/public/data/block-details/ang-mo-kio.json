@@ -329,7 +329,7 @@
           "TE7"
         ],
         "exit": "Exit 1",
-        "distance": 811
+        "distance": 810
       }
     ]
   },
@@ -1299,7 +1299,7 @@
           "NS15"
         ],
         "exit": "Exit A",
-        "distance": 757
+        "distance": 758
       },
       {
         "id": "lentor",
@@ -1392,7 +1392,7 @@
           "NS15"
         ],
         "exit": "Exit B",
-        "distance": 719
+        "distance": 718
       },
       {
         "id": "lentor",
@@ -2714,7 +2714,7 @@
           "NS16"
         ],
         "exit": "Exit C",
-        "distance": 943
+        "distance": 944
       }
     ]
   },
@@ -3036,7 +3036,7 @@
           "TE7"
         ],
         "exit": "Exit 1",
-        "distance": 671
+        "distance": 670
       }
     ]
   },
@@ -3378,7 +3378,7 @@
           "TE7"
         ],
         "exit": "Exit 1",
-        "distance": 622
+        "distance": 621
       }
     ]
   },
@@ -3517,7 +3517,7 @@
           "TE6"
         ],
         "exit": "Exit 6",
-        "distance": 443
+        "distance": 444
       }
     ]
   },
@@ -9623,7 +9623,7 @@
           "TE6"
         ],
         "exit": "Exit 2",
-        "distance": 694
+        "distance": 693
       },
       {
         "id": "yio-chu-kang",
@@ -9720,7 +9720,7 @@
           "NS15"
         ],
         "exit": "Exit C",
-        "distance": 927
+        "distance": 926
       }
     ]
   },
@@ -10195,7 +10195,7 @@
           "NS15"
         ],
         "exit": "Exit A",
-        "distance": 882
+        "distance": 883
       }
     ]
   },
@@ -10314,7 +10314,7 @@
           "NS15"
         ],
         "exit": "Exit C",
-        "distance": 570
+        "distance": 569
       }
     ]
   },
@@ -10393,7 +10393,7 @@
           "TE6"
         ],
         "exit": "Exit 2",
-        "distance": 975
+        "distance": 976
       }
     ]
   },
@@ -10678,7 +10678,7 @@
           "TE6"
         ],
         "exit": "Exit 3",
-        "distance": 876
+        "distance": 877
       }
     ]
   },
@@ -10714,7 +10714,7 @@
           "TE5"
         ],
         "exit": "Exit 4",
-        "distance": 590
+        "distance": 589
       },
       {
         "id": "mayflower",
@@ -10757,7 +10757,7 @@
           "TE5"
         ],
         "exit": "Exit 4",
-        "distance": 613
+        "distance": 614
       },
       {
         "id": "mayflower",
@@ -11120,7 +11120,7 @@
           "TE5"
         ],
         "exit": "Exit 4",
-        "distance": 652
+        "distance": 651
       }
     ]
   },
