@@ -639,7 +639,8 @@ without knowing about filters. They are not persisted either (§5.11).
 - **Block labels** (`blocks-labels`, `blocks-highlight-label`): from zoom 16,
   each marker shows its `blk_no` beside it, since touch has no hover. Collision
   detection thins labels in dense estates; the dots always stay. The selected
-  block's label is bold amber and always shown.
+  block's label is bold amber, always shown, and starts earlier, with the
+  station names (§5.12).
 - **Stations, exits, and the nearest-exit highlight** (§5.12): their own
   sources and layers, drawn among the block layers; none takes a hover or tap.
 - **Interactions:**
@@ -1073,8 +1074,9 @@ out.
   details panel (§5.5), so the map shows which lines stop where without any
   interaction. A map label can't put a background behind part of its text,
   so the app draws each station's chips as one small image when the stations
-  load and embeds it in the label. The labels sit above the block numbers and win where
-  they collide. A station served only by the LRT gets its name one step later
+  load and embeds it in the label. The labels are placed before every other
+  map label, the selection's amber ones included, so they win where they
+  collide. A station served only by the LRT gets its name one step later
   than the MRT stations: the LRT loops put a stop every few hundred metres,
   and their names crowded out the MRT names at the estate view. A station
   shared with an MRT line counts as MRT. On a phone that later step shows
@@ -1092,7 +1094,7 @@ out.
   over each other. Where LTA lists one exit at several entrances, each point
   shows. Like stations, exits never take a block's hover or tap.
 - **Nearest-exit highlight:** while a block is selected, its nearest exit is
-  marked at every zoom (another station's, or none, once chosen from the
+  marked (another station's, or none, once chosen from the
   panel; see "Choosing the highlighted station" below), joined to the block
   by a thin dashed line, so the map
   shows what the panel's distance measures; the dash reads as a straight
@@ -1101,8 +1103,10 @@ out.
   when that exit name has several points, the one nearest the block is
   marked. The exit gets an amber ring and its name in bold amber, matching
   the selected block, and its usual grey label is hidden so the name doesn't
-  show twice; the name always shows, even where it would collide. The
-  highlight draws above the stations and every block but the selected one,
+  show twice. The ring and line show at every zoom, so they point the way
+  even zoomed out; the name follows the rule for the selection's labels
+  below. The highlight draws above the station dots and every block but the
+  selected one,
   whichever loads first. The fly-to is unchanged, so the exit can be off
   screen or under the mobile sheet; the line is then the cue that points to
   it, which is why it was kept.
@@ -1111,8 +1115,9 @@ out.
   amber, so the map says how far the marked exit is without a look back at
   the panel, which matters once the rows can move the highlight to another
   station. The label sits at the line's middle, turned to run along it and
-  kept upright, and gives way to other map labels: where it would collide it
-  is simply hidden, which was judged fine since the panel always has the
+  kept upright, and gives way to the station names and the selection's other
+  labels, though not to plain block and exit labels: where it would collide
+  it is simply hidden, which was judged fine since the panel always has the
   number. It is one label placed at the middle point rather than the map's
   own along-the-line placement, which labelled each map tile a long line
   crossed and so showed the number twice. On a line shorter than the label
@@ -1120,6 +1125,17 @@ out.
   in the exit's label
   instead was considered, as that point never runs short; the line was
   chosen so the number sits on the thing it measures.
+- **The selection's labels:** the selected block's number, the exit's name,
+  and the distance start at the LRT names' zoom rather than with the block
+  numbers further in, so a block far from its station is labelled at both
+  ends of its line without zooming close to either. They start with the LRT
+  names, not the MRT names a step out, since an exit's name read oddly
+  without its station's; only the few blocks furthest from a station (about
+  3.5 km at Changi Village) then need a pan on a phone. The three share one
+  bold amber size, growing with zoom, just under the station names', so they
+  read as one group. Station names are placed first and win a collision;
+  then the block's number and the exit's name, which always show even where
+  they collide; then the distance; then the plain block and exit labels.
 - **Choosing the highlighted station:** each row of the panel's list is a
   toggle button, a lone station's row included. Tapping a row moves the
   highlight to that station's nearest exit (the same lookup as above, from
