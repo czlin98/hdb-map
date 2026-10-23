@@ -1335,7 +1335,7 @@
           "CC14"
         ],
         "exit": "Exit A",
-        "distance": 931
+        "distance": 932
       }
     ]
   },
@@ -2112,7 +2112,7 @@
           "CC14"
         ],
         "exit": "Exit A",
-        "distance": 806
+        "distance": 807
       }
     ]
   },
@@ -3256,7 +3256,7 @@
           "CC13"
         ],
         "exit": "Exit F",
-        "distance": 541
+        "distance": 542
       }
     ]
   },
@@ -4015,7 +4015,7 @@
           "CC14"
         ],
         "exit": "Exit A",
-        "distance": 420
+        "distance": 421
       }
     ]
   },
@@ -4904,7 +4904,7 @@
           "CC12"
         ],
         "exit": "Exit B",
-        "distance": 836
+        "distance": 835
       },
       {
         "id": "lorong-chuan",
@@ -6951,7 +6951,7 @@
           "CC12"
         ],
         "exit": "Exit B",
-        "distance": 664
+        "distance": 663
       }
     ]
   },

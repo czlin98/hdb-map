@@ -1232,7 +1232,7 @@
           "NE13"
         ],
         "exit": "Exit A",
-        "distance": 903
+        "distance": 902
       }
     ]
   },
@@ -4978,7 +4978,7 @@
           "NE14"
         ],
         "exit": "Exit A",
-        "distance": 867
+        "distance": 866
       }
     ]
   },
@@ -6597,7 +6597,7 @@
           "NE14"
         ],
         "exit": "Exit B",
-        "distance": 732
+        "distance": 731
       }
     ]
   },
@@ -6809,7 +6809,7 @@
           "NE14"
         ],
         "exit": "Exit B",
-        "distance": 777
+        "distance": 776
       }
     ]
   },
@@ -7275,7 +7275,7 @@
           "SE5"
         ],
         "exit": "Exit B",
-        "distance": 805
+        "distance": 804
       }
     ]
   },
@@ -9949,7 +9949,7 @@
           "NE14"
         ],
         "exit": "Exit C",
-        "distance": 853
+        "distance": 854
       }
     ]
   },
@@ -10066,7 +10066,7 @@
           "SW8"
         ],
         "exit": "Exit A",
-        "distance": 693
+        "distance": 694
       },
       {
         "id": "hougang",
@@ -10610,7 +10610,7 @@
           "SW8"
         ],
         "exit": "Exit A",
-        "distance": 957
+        "distance": 956
       }
     ]
   },
@@ -13790,7 +13790,7 @@
           "NE13"
         ],
         "exit": "Exit C",
-        "distance": 794
+        "distance": 795
       }
     ]
   },
@@ -17549,7 +17549,7 @@
           "SW6"
         ],
         "exit": "Exit A",
-        "distance": 694
+        "distance": 695
       },
       {
         "id": "fernvale",
