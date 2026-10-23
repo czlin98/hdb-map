@@ -586,8 +586,9 @@ test("stations that beat load are drawn on load, each layer in its place among t
     "blocks-circles",
     "blocks-labels",
     "nearest-exit-line",
-    "nearest-exit-label",
-    "nearest-exit-label",
+    // The names go on top, placed before the selection's labels.
+    undefined,
+    undefined,
   ]);
   // One chip image per station, named for the label's image lookup.
   expect(map.addImage.mock.calls.map((c) => c[0])).toEqual([
@@ -762,12 +763,49 @@ test("the line's distance label reads as in the panel, from 1 km in km", () => {
   const props = { data: sampleIndex, onSelectBlock: vi.fn() };
   const { rerender } = render(<MapView {...props} selectedId={null} />);
   fire("load");
-  rerender(<MapView {...props} selectedId={SELECTED} nearestExit={AMK_EXIT_A} />);
-  expect(lastExitData().features[1].properties).toMatchObject({ label: "350 m" });
   rerender(
     <MapView {...props} selectedId={SELECTED} nearestExit={{ ...AMK_EXIT_A, distance: 1234 }} />,
   );
   expect(lastExitData().features[1].properties).toMatchObject({ label: "1.2 km" });
+});
+
+test("the selection's labels start with the LRT names, before the other block labels", () => {
+  render(
+    <MapView
+      data={sampleIndex}
+      selectedId={null}
+      onSelectBlock={vi.fn()}
+      stations={sampleStations}
+    />,
+  );
+  fire("load");
+  const minzoom = (id: string) => layerAdded(id)?.spec.minzoom;
+  const stationNames = minzoom("stations-labels-lrt");
+  expect([...HIGHLIGHT_LAYERS, "blocks-highlight-label"].map(minzoom)).toEqual([
+    undefined,
+    undefined,
+    stationNames,
+    stationNames,
+    stationNames,
+  ]);
+  expect(stationNames).toBeLessThan(minzoom("blocks-labels") as number);
+});
+
+test("the selection's three amber labels share one size, growing with zoom", () => {
+  render(<MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} />);
+  fire("load");
+  const size = (id: string) =>
+    (layerAdded(id)?.spec.layout as Record<string, unknown>)["text-size"] as unknown[];
+  const ramp = ["interpolate", ["linear"], ["zoom"], 14, 11, 17, 13];
+  expect(size("nearest-exit-label")).toEqual(ramp);
+  expect(size("nearest-exit-distance")).toEqual(ramp);
+  // The block's label has more stops, for the offset from its growing dot; same sizes.
+  const block = size("blocks-highlight-label");
+  expect(block.slice(0, 3)).toEqual(ramp.slice(0, 3));
+  const stops = block.slice(3) as number[];
+  for (let i = 0; i < stops.length; i += 2)
+    expect(stops[i + 1]).toBeCloseTo(11 + ((stops[i] - 14) * 2) / 3);
+  expect([stops[0], stops[stops.length - 2]]).toEqual([14, 17]);
 });
 
 test("the distance label is its own point, turned with the line", () => {

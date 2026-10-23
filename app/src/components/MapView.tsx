@@ -60,6 +60,10 @@ export interface NearestExit {
 
 // Any lower and a dense estate reads as a wall of text.
 const LABEL_MIN_ZOOM = 16;
+const MRT_LABEL_MIN_ZOOM = 13;
+// The selection's amber labels start here too, so an exit's name never shows without its
+// station's.
+const LRT_LABEL_MIN_ZOOM = 14;
 
 function highlightFilter(id: string | null): maplibregl.FilterSpecification {
   return ["==", ["get", "id"], id ?? ""];
@@ -84,35 +88,56 @@ function pickBlock(features: maplibregl.MapGeoJSONFeature[]) {
   return features.find((f) => DOT_LAYERS.includes(f.layer.id)) ?? features[0];
 }
 
-// Text size (px) at LABEL_MIN_ZOOM and at max zoom (17).
-const LABEL_SIZE: [number, number] = [10, 12];
 const LABEL_GAP_PX = 2;
 
-// `radius` is the dot's radius (px) at LABEL_MIN_ZOOM and at 17. The offset is in ems, so it
-// is derived per zoom stop: a fixed value would drift against a dot that grows differently.
-function labelLayout(radius: [number, number]) {
-  const offset = (i: 0 | 1) => (radius[i] + LABEL_GAP_PX) / LABEL_SIZE[i];
+type Stops = [zoom: number, value: number][];
+
+function valueAt(stops: Stops, zoom: number): number {
+  const i = stops.findIndex(([z]) => z >= zoom);
+  if (i <= 0) return stops[i === 0 ? 0 : stops.length - 1][1];
+  const [[z0, v0], [z1, v1]] = [stops[i - 1], stops[i]];
+  return v0 + ((v1 - v0) * (zoom - z0)) / (z1 - z0);
+}
+
+const BLOCK_RADIUS: Stops = [
+  [11, 2],
+  [14, 4],
+  [16, 8],
+  [17, 10],
+];
+const HIGHLIGHT_RADIUS: Stops = [
+  [11, 5],
+  [14, 7],
+  [16, 10],
+  [17, 13],
+];
+// Px at the block labels' first zoom and at max zoom (17).
+const BLOCK_LABEL_SIZE: Stops = [
+  [LABEL_MIN_ZOOM, 10],
+  [17, 12],
+];
+
+// The selection's amber labels (block number, exit name, distance) share one size so they read
+// as one unit; it stays under the station names' and over the plain labels' at 17.
+const AMBER_SIZE: Stops = [
+  [LRT_LABEL_MIN_ZOOM, 11],
+  [17, 13],
+];
+
+function zoomRamp(stops: Stops): maplibregl.ExpressionSpecification {
+  return ["interpolate", ["linear"], ["zoom"], ...stops.flat()];
+}
+
+// A block number beside its dot, at each zoom in `zooms`. The offset is in ems, so it is derived
+// per zoom: a fixed value would drift against a dot that grows at another rate than the text.
+function labelLayout(zooms: number[], radius: Stops, size: Stops) {
   return {
     "text-field": ["get", "blk_no"],
-    "text-size": [
-      "interpolate",
-      ["linear"],
-      ["zoom"],
-      LABEL_MIN_ZOOM,
-      LABEL_SIZE[0],
-      17,
-      LABEL_SIZE[1],
-    ],
+    "text-size": zoomRamp(zooms.map((z) => [z, valueAt(size, z)])),
     "text-variable-anchor": ["left", "right", "top", "bottom"],
-    "text-radial-offset": [
-      "interpolate",
-      ["linear"],
-      ["zoom"],
-      LABEL_MIN_ZOOM,
-      offset(0),
-      17,
-      offset(1),
-    ],
+    "text-radial-offset": zoomRamp(
+      zooms.map((z) => [z, (valueAt(radius, z) + LABEL_GAP_PX) / valueAt(size, z)]),
+    ),
     "text-justify": "auto",
   } satisfies maplibregl.SymbolLayerSpecification["layout"];
 }
@@ -200,8 +225,8 @@ function nearestExitData(
   };
 }
 
-// Under the selected block, above every other marker. The label is always shown, like the
-// selected block's.
+// Under the selected block, above every other marker. The ring and line show at every zoom to
+// point the way; the exit's name starts with the selected block's and always shows.
 function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
   map.addSource("nearest-exit", { type: "geojson", data });
   map.addLayer(
@@ -235,10 +260,11 @@ function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
       type: "symbol",
       source: "nearest-exit",
       filter: ["has", "exit"],
+      minzoom: LRT_LABEL_MIN_ZOOM,
       layout: {
         "text-field": ["get", "exit"],
         "text-font": ["Noto Sans Bold"],
-        "text-size": 11,
+        "text-size": zoomRamp(AMBER_SIZE),
         "text-variable-anchor": ["left", "right", "top", "bottom"],
         "text-radial-offset": 0.9,
         "text-justify": "auto",
@@ -248,18 +274,19 @@ function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
     },
     "blocks-highlight-label",
   );
-  // Below the exit's label, so the exit name wins a collision. Unlike it, the distance gives
-  // way to other labels: the panel always has the number.
+  // Below the exit's label and above the plain labels. Unlike the other amber labels it can be
+  // hidden, by a station name or by them: the panel always has the number.
   map.addLayer(
     {
       id: "nearest-exit-distance",
       type: "symbol",
       source: "nearest-exit",
       filter: ["has", "label"],
+      minzoom: LRT_LABEL_MIN_ZOOM,
       layout: {
         "text-field": ["get", "label"],
         "text-font": ["Noto Sans Bold"],
-        "text-size": 12,
+        "text-size": zoomRamp(AMBER_SIZE),
         "text-rotate": ["get", "angle"],
         "text-rotation-alignment": "map",
         "text-offset": [0, -0.8],
@@ -270,9 +297,9 @@ function addNearestExitLayers(map: maplibregl.Map, data: FeatureCollection) {
   );
 }
 
-// Stations sit above the block dots but below the nearest-exit highlight and the selected
-// block; exits, plainer, sit under every block. Symbol layers higher in the stack are placed
-// first, so station names win over block numbers, and block numbers over exit names.
+// Station dots sit above the block dots but below the selection; exits, plainer, sit under every
+// block. Labels higher in the stack are placed first, so the names on top win over the
+// selection's amber labels, those over block numbers, and block numbers over exit names.
 function addStationLayers(
   map: maplibregl.Map,
   stations: StationFeatureCollection,
@@ -345,38 +372,35 @@ function addStationLayers(
   // names readable. A station shared with an MRT line counts as MRT.
   const isLrt: maplibregl.ExpressionSpecification = ["in", ["get", "id"], ["literal", lrtIds]];
   const labelLayers: [string, maplibregl.FilterSpecification, number][] = [
-    ["stations-labels", ["all", isStation, ["!", isLrt]], 13],
-    ["stations-labels-lrt", ["all", isStation, isLrt], 14],
+    ["stations-labels", ["all", isStation, ["!", isLrt]], MRT_LABEL_MIN_ZOOM],
+    ["stations-labels-lrt", ["all", isStation, isLrt], LRT_LABEL_MIN_ZOOM],
   ];
   for (const [id, filter, minzoom] of labelLayers)
-    map.addLayer(
-      {
-        id,
-        type: "symbol",
-        source: "stations",
-        filter,
-        minzoom,
-        layout: {
-          "text-field": [
-            "format",
-            ["get", "name"],
-            {},
-            "\n",
-            {},
-            ["image", ["concat", CHIP_IMAGE_PREFIX, ["get", "id"]]],
-            {},
-          ],
-          "text-font": ["Noto Sans Bold"],
-          "text-size": ["interpolate", ["linear"], ["zoom"], 13, 11, 17, 14],
-          "text-variable-anchor": ["top", "bottom", "left", "right"],
-          "text-radial-offset": 0.8,
-          "text-padding": 2,
-          "text-justify": "auto",
-        },
-        paint: { "text-color": "#111827", "text-halo-color": "#ffffff", "text-halo-width": 2 },
+    map.addLayer({
+      id,
+      type: "symbol",
+      source: "stations",
+      filter,
+      minzoom,
+      layout: {
+        "text-field": [
+          "format",
+          ["get", "name"],
+          {},
+          "\n",
+          {},
+          ["image", ["concat", CHIP_IMAGE_PREFIX, ["get", "id"]]],
+          {},
+        ],
+        "text-font": ["Noto Sans Bold"],
+        "text-size": ["interpolate", ["linear"], ["zoom"], 13, 11, 17, 14],
+        "text-variable-anchor": ["top", "bottom", "left", "right"],
+        "text-radial-offset": 0.8,
+        "text-padding": 2,
+        "text-justify": "auto",
       },
-      "nearest-exit-label",
-    );
+      paint: { "text-color": "#111827", "text-halo-color": "#ffffff", "text-halo-width": 2 },
+    });
 }
 
 // MapLibre has no public way to collapse the compact credits, so press its own ⓘ button.
@@ -463,7 +487,7 @@ export function MapView({
         ...(blockFilter && { filter: blockFilter }),
         paint: {
           // Small at low zoom to avoid clutter; an easy tap target once zoomed into an estate.
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 2, 14, 4, 16, 8, 17, 10],
+          "circle-radius": zoomRamp(BLOCK_RADIUS),
           "circle-color": circleColor(colorModeRef.current),
           "circle-stroke-width": 0.5,
           "circle-stroke-color": "#ffffff",
@@ -476,7 +500,7 @@ export function MapView({
         source: "blocks",
         filter: highlightFilter(selectedIdRef.current),
         paint: {
-          "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 5, 14, 7, 16, 10, 17, 13],
+          "circle-radius": zoomRamp(HIGHLIGHT_RADIUS),
           "circle-color": "#f59e0b",
           "circle-stroke-width": 1.5,
           "circle-stroke-color": "#ffffff",
@@ -490,8 +514,10 @@ export function MapView({
         source: "blocks",
         minzoom: LABEL_MIN_ZOOM,
         filter: labelFilter(selectedIdRef.current, blockFilter),
-        // Must match the blocks-circles radius at zoom 16 and 17.
-        layout: { ...labelLayout([8, 10]), "text-font": ["Noto Sans Regular"] },
+        layout: {
+          ...labelLayout([LABEL_MIN_ZOOM, 17], BLOCK_RADIUS, BLOCK_LABEL_SIZE),
+          "text-font": ["Noto Sans Regular"],
+        },
         paint: {
           "text-color": "#1e3a8a",
           "text-halo-color": "#ffffff",
@@ -502,13 +528,13 @@ export function MapView({
         id: "blocks-highlight-label",
         type: "symbol",
         source: "blocks",
-        minzoom: LABEL_MIN_ZOOM,
+        minzoom: LRT_LABEL_MIN_ZOOM,
         filter: highlightFilter(selectedIdRef.current),
-        // Must match the blocks-highlight radius at zoom 16 and 17.
+        // From the LRT names' zoom, at each corner of the dot's radius ramp.
         layout: {
-          ...labelLayout([10, 13]),
+          ...labelLayout([LRT_LABEL_MIN_ZOOM, 16, 17], HIGHLIGHT_RADIUS, AMBER_SIZE),
           "text-font": ["Noto Sans Bold"],
-          // Always shown. As the topmost layer it is placed first, so neighbours yield to it.
+          // Always shown; placed right after the station names, so block numbers yield to it.
           "text-allow-overlap": true,
         },
         paint: {
