@@ -621,7 +621,7 @@
           "EW15"
         ],
         "exit": "Exit A",
-        "distance": 408
+        "distance": 407
       },
       {
         "id": "outram-park",
@@ -922,7 +922,7 @@
           "CC2"
         ],
         "exit": "Exit E",
-        "distance": 194
+        "distance": 195
       },
       {
         "id": "bugis",
@@ -1564,7 +1564,7 @@
           "DT19"
         ],
         "exit": "Exit A",
-        "distance": 361
+        "distance": 362
       }
     ]
   },
@@ -1830,7 +1830,7 @@
           "DT19"
         ],
         "exit": "Exit A",
-        "distance": 235
+        "distance": 234
       },
       {
         "id": "outram-park",
@@ -2368,7 +2368,7 @@
           "NE5"
         ],
         "exit": "Exit A",
-        "distance": 190
+        "distance": 191
       },
       {
         "id": "telok-ayer",
@@ -2593,7 +2593,7 @@
           "DT13"
         ],
         "exit": "Exit B",
-        "distance": 353
+        "distance": 354
       },
       {
         "id": "little-india",
@@ -3120,7 +3120,7 @@
           "NE8"
         ],
         "exit": "Exit F",
-        "distance": 316
+        "distance": 315
       },
       {
         "id": "jalan-besar",

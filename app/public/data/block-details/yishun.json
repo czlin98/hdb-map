@@ -682,7 +682,7 @@
           "NS12"
         ],
         "exit": "Exit C",
-        "distance": 945
+        "distance": 944
       }
     ]
   },
@@ -4479,7 +4479,7 @@
           "NS12"
         ],
         "exit": "Exit B",
-        "distance": 976
+        "distance": 975
       }
     ]
   },
@@ -16228,7 +16228,7 @@
           "NS13"
         ],
         "exit": "Exit D",
-        "distance": 955
+        "distance": 956
       }
     ]
   },

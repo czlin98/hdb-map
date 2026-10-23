@@ -214,7 +214,7 @@
           "BP6"
         ],
         "exit": "LRT Exit D",
-        "distance": 503
+        "distance": 502
       }
     ]
   },
@@ -1137,7 +1137,7 @@
           "DT2"
         ],
         "exit": "Exit A",
-        "distance": 962
+        "distance": 963
       }
     ]
   },
@@ -3106,7 +3106,7 @@
           "BP13"
         ],
         "exit": "Exit A",
-        "distance": 404
+        "distance": 403
       }
     ]
   },
@@ -3317,7 +3317,7 @@
           "BP13"
         ],
         "exit": "Exit A",
-        "distance": 334
+        "distance": 333
       },
       {
         "id": "petir",
@@ -3449,7 +3449,7 @@
           "BP9"
         ],
         "exit": "Exit A",
-        "distance": 938
+        "distance": 937
       }
     ]
   },
@@ -3551,7 +3551,7 @@
           "BP9"
         ],
         "exit": "Exit A",
-        "distance": 783
+        "distance": 782
       }
     ]
   },
@@ -4534,7 +4534,7 @@
           "DT2"
         ],
         "exit": "Exit A",
-        "distance": 966
+        "distance": 967
       }
     ]
   },
@@ -5996,7 +5996,7 @@
           "BP9"
         ],
         "exit": "Exit A",
-        "distance": 418
+        "distance": 417
       },
       {
         "id": "petir",
@@ -7379,7 +7379,7 @@
           "BP12"
         ],
         "exit": "Exit A",
-        "distance": 652
+        "distance": 651
       }
     ]
   },
@@ -7757,7 +7757,7 @@
           "BP9"
         ],
         "exit": "Exit A",
-        "distance": 426
+        "distance": 427
       },
       {
         "id": "bukit-panjang",
@@ -8019,7 +8019,7 @@
           "BP10"
         ],
         "exit": "Exit A",
-        "distance": 394
+        "distance": 395
       },
       {
         "id": "bukit-panjang",
@@ -9507,7 +9507,7 @@
           "BP12"
         ],
         "exit": "Exit A",
-        "distance": 947
+        "distance": 946
       }
     ]
   },
@@ -11161,7 +11161,7 @@
           "BP6"
         ],
         "exit": "MRT Exit A",
-        "distance": 801
+        "distance": 802
       }
     ]
   },
@@ -11416,7 +11416,7 @@
           "BP12"
         ],
         "exit": "Exit A",
-        "distance": 307
+        "distance": 308
       },
       {
         "id": "bukit-panjang",
@@ -11504,7 +11504,7 @@
           "BP12"
         ],
         "exit": "Exit A",
-        "distance": 386
+        "distance": 387
       },
       {
         "id": "bukit-panjang",
@@ -12210,7 +12210,7 @@
           "BP10"
         ],
         "exit": "Exit A",
-        "distance": 570
+        "distance": 571
       }
     ]
   },
@@ -13080,7 +13080,7 @@
           "BP6"
         ],
         "exit": "MRT Exit A",
-        "distance": 583
+        "distance": 582
       }
     ]
   },
@@ -14577,7 +14577,7 @@
           "BP13"
         ],
         "exit": "Exit A",
-        "distance": 726
+        "distance": 727
       }
     ]
   },

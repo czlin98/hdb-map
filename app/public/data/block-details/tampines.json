@@ -626,7 +626,7 @@
           "EW3"
         ],
         "exit": "Exit A",
-        "distance": 854
+        "distance": 855
       },
       {
         "id": "tampines-west",
@@ -1417,7 +1417,7 @@
           "DT34"
         ],
         "exit": "Exit A",
-        "distance": 869
+        "distance": 870
       }
     ]
   },
@@ -1709,7 +1709,7 @@
           "DT34"
         ],
         "exit": "Exit A",
-        "distance": 735
+        "distance": 734
       },
       {
         "id": "tampines-east",
@@ -1976,7 +1976,7 @@
           "DT34"
         ],
         "exit": "Exit A",
-        "distance": 747
+        "distance": 748
       }
     ]
   },
@@ -3804,7 +3804,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 881
+        "distance": 880
       }
     ]
   },
@@ -4053,7 +4053,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 861
+        "distance": 860
       },
       {
         "id": "simei",
@@ -4377,7 +4377,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 947
+        "distance": 946
       }
     ]
   },
@@ -5539,7 +5539,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 629
+        "distance": 628
       }
     ]
   },
@@ -6369,7 +6369,7 @@
           "DT34"
         ],
         "exit": "Exit A",
-        "distance": 789
+        "distance": 790
       }
     ]
   },
@@ -7082,7 +7082,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 573
+        "distance": 572
       }
     ]
   },
@@ -7222,7 +7222,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 674
+        "distance": 673
       }
     ]
   },
@@ -12511,7 +12511,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 849
+        "distance": 848
       }
     ]
   },
@@ -21774,7 +21774,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 942
+        "distance": 941
       }
     ]
   },
@@ -21843,7 +21843,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 834
+        "distance": 833
       }
     ]
   },
@@ -22108,7 +22108,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 966
+        "distance": 965
       }
     ]
   },
@@ -22178,7 +22178,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 965
+        "distance": 964
       }
     ]
   },
@@ -23938,6 +23938,155 @@
       }
     ]
   },
+  "887-tampines-st-81": {
+    "blk_no": "887",
+    "street": "TAMPINES ST 81",
+    "street_full": "TAMPINES STREET 81",
+    "postal": "520887",
+    "town": "TAMPINES",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 42
+    },
+    "nearest_stations": [
+      {
+        "id": "tampines-west",
+        "name": "Tampines West",
+        "codes": [
+          "DT31"
+        ],
+        "exit": "Exit A",
+        "distance": 883
+      }
+    ]
+  },
+  "887a-tampines-st-81": {
+    "blk_no": "887A",
+    "street": "TAMPINES ST 81",
+    "street_full": "TAMPINES STREET 81",
+    "postal": "521887",
+    "town": "TAMPINES",
+    "year_completed": 1988,
+    "max_floor_lvl": 4,
+    "total_dwelling_units": 16,
+    "sold_units_by_type": {
+      "4room": 10,
+      "5room": 6
+    },
+    "nearest_stations": [
+      {
+        "id": "tampines-west",
+        "name": "Tampines West",
+        "codes": [
+          "DT31"
+        ],
+        "exit": "Exit A",
+        "distance": 900
+      }
+    ]
+  },
+  "888-tampines-st-81": {
+    "blk_no": "888",
+    "street": "TAMPINES ST 81",
+    "street_full": "TAMPINES STREET 81",
+    "postal": "520888",
+    "town": "TAMPINES",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 108,
+    "sold_units_by_type": {
+      "4room": 66,
+      "5room": 42
+    },
+    "nearest_stations": [
+      {
+        "id": "tampines-west",
+        "name": "Tampines West",
+        "codes": [
+          "DT31"
+        ],
+        "exit": "Exit A",
+        "distance": 987
+      }
+    ]
+  },
+  "888a-tampines-st-81": {
+    "blk_no": "888A",
+    "street": "TAMPINES ST 81",
+    "street_full": "TAMPINES STREET 81",
+    "postal": "521888",
+    "town": "TAMPINES",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 96,
+    "sold_units_by_type": {
+      "4room": 54,
+      "5room": 42
+    },
+    "nearest_stations": [
+      {
+        "id": "tampines-west",
+        "name": "Tampines West",
+        "codes": [
+          "DT31"
+        ],
+        "exit": "Exit A",
+        "distance": 973
+      }
+    ]
+  },
+  "889-tampines-st-81": {
+    "blk_no": "889",
+    "street": "TAMPINES ST 81",
+    "street_full": "TAMPINES STREET 81",
+    "postal": "520889",
+    "town": "TAMPINES",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "exec": 90
+    },
+    "nearest_stations": [
+      {
+        "id": "tampines-west",
+        "name": "Tampines West",
+        "codes": [
+          "DT31"
+        ],
+        "exit": "Exit A",
+        "distance": 926
+      }
+    ]
+  },
+  "889a-tampines-st-81": {
+    "blk_no": "889A",
+    "street": "TAMPINES ST 81",
+    "street_full": "TAMPINES STREET 81",
+    "postal": "521889",
+    "town": "TAMPINES",
+    "year_completed": 1988,
+    "max_floor_lvl": 13,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 78,
+      "5room": 42
+    },
+    "nearest_stations": [
+      {
+        "id": "tampines-west",
+        "name": "Tampines West",
+        "codes": [
+          "DT31"
+        ],
+        "exit": "Exit A",
+        "distance": 864
+      }
+    ]
+  },
   "890a-tampines-ave-1": {
     "blk_no": "890A",
     "street": "TAMPINES AVE 1",
@@ -24660,7 +24809,7 @@
           "DT32"
         ],
         "exit": "Exit F",
-        "distance": 572
+        "distance": 573
       }
     ]
   },
@@ -25387,7 +25536,7 @@
           "DT32"
         ],
         "exit": "Exit C",
-        "distance": 848
+        "distance": 847
       }
     ]
   },
@@ -25626,7 +25775,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 606
+        "distance": 605
       }
     ]
   },
@@ -26278,7 +26427,7 @@
           "DT30"
         ],
         "exit": "Exit B",
-        "distance": 633
+        "distance": 632
       }
     ]
   },
@@ -26380,7 +26529,7 @@
           "DT31"
         ],
         "exit": "Exit B",
-        "distance": 600
+        "distance": 601
       }
     ]
   },

@@ -1040,7 +1040,7 @@
           "TE2"
         ],
         "exit": "Exit 1",
-        "distance": 761
+        "distance": 762
       }
     ]
   },
@@ -6175,7 +6175,7 @@
           "NS8"
         ],
         "exit": "Exit B",
-        "distance": 973
+        "distance": 972
       }
     ]
   },
@@ -8460,7 +8460,7 @@
           "TE2"
         ],
         "exit": "Exit 6",
-        "distance": 488
+        "distance": 487
       }
     ]
   },
@@ -9142,7 +9142,7 @@
           "NS10"
         ],
         "exit": "Exit B",
-        "distance": 948
+        "distance": 947
       }
     ]
   },
@@ -11122,7 +11122,7 @@
           "NS10"
         ],
         "exit": "Exit B",
-        "distance": 801
+        "distance": 800
       },
       {
         "id": "woodlands",
@@ -14482,7 +14482,7 @@
           "TE2"
         ],
         "exit": "Exit 5",
-        "distance": 963
+        "distance": 964
       }
     ]
   },
@@ -17994,7 +17994,7 @@
           "TE1"
         ],
         "exit": "Exit 1",
-        "distance": 672
+        "distance": 673
       }
     ]
   },
@@ -18876,7 +18876,7 @@
           "TE1"
         ],
         "exit": "Exit 1",
-        "distance": 900
+        "distance": 901
       },
       {
         "id": "admiralty",
@@ -19032,7 +19032,7 @@
           "TE2"
         ],
         "exit": "Exit 4",
-        "distance": 916
+        "distance": 917
       },
       {
         "id": "woodlands-north",
@@ -19200,7 +19200,7 @@
           "TE1"
         ],
         "exit": "Exit 1",
-        "distance": 981
+        "distance": 982
       },
       {
         "id": "admiralty",
@@ -19596,7 +19596,7 @@
           "NS10"
         ],
         "exit": "Exit B",
-        "distance": 731
+        "distance": 730
       }
     ]
   },
@@ -20112,7 +20112,7 @@
           "TE1"
         ],
         "exit": "Exit 1",
-        "distance": 720
+        "distance": 721
       }
     ]
   },
@@ -20543,6 +20543,321 @@
         ],
         "exit": "Exit B",
         "distance": 702
+      }
+    ]
+  },
+  "887a-woodlands-dr-50": {
+    "blk_no": "887A",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "731887",
+    "town": "WOODLANDS",
+    "year_completed": 2013,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 90
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 568
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 808
+      }
+    ]
+  },
+  "887b-woodlands-dr-50": {
+    "blk_no": "887B",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "732887",
+    "town": "WOODLANDS",
+    "year_completed": 2013,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 84,
+    "sold_units_by_type": {
+      "3room": 42,
+      "4room": 42
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 618
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 761
+      }
+    ]
+  },
+  "887c-woodlands-dr-50": {
+    "blk_no": "887C",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "733887",
+    "town": "WOODLANDS",
+    "year_completed": 2013,
+    "max_floor_lvl": 15,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "2room": 13,
+      "3room": 28,
+      "studio_apartment": 79
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 650
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 733
+      }
+    ]
+  },
+  "889a-woodlands-dr-50": {
+    "blk_no": "889A",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "731889",
+    "town": "WOODLANDS",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 120,
+    "sold_units_by_type": {
+      "4room": 90,
+      "5room": 30
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 521
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 852
+      }
+    ]
+  },
+  "889b-woodlands-dr-50": {
+    "blk_no": "889B",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "732889",
+    "town": "WOODLANDS",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 90,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 30
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 488
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 888
+      }
+    ]
+  },
+  "889c-woodlands-dr-50": {
+    "blk_no": "889C",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "733889",
+    "town": "WOODLANDS",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 88,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 28
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 441
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 940
+      }
+    ]
+  },
+  "889d-woodlands-dr-50": {
+    "blk_no": "889D",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "734889",
+    "town": "WOODLANDS",
+    "year_completed": 2015,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 88,
+      "5room": 30
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 408
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 976
+      }
+    ]
+  },
+  "890a-woodlands-dr-50": {
+    "blk_no": "890A",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "731890",
+    "town": "WOODLANDS",
+    "year_completed": 2016,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 58
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 545
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 840
+      }
+    ]
+  },
+  "890b-woodlands-dr-50": {
+    "blk_no": "890B",
+    "street": "WOODLANDS DR 50",
+    "street_full": "WOODLANDS DRIVE 50",
+    "postal": "732890",
+    "town": "WOODLANDS",
+    "year_completed": 2016,
+    "max_floor_lvl": 16,
+    "total_dwelling_units": 118,
+    "sold_units_by_type": {
+      "4room": 60,
+      "5room": 58
+    },
+    "nearest_stations": [
+      {
+        "id": "woodlands",
+        "name": "Woodlands",
+        "codes": [
+          "NS9",
+          "TE2"
+        ],
+        "exit": "Exit 5",
+        "distance": 470
+      },
+      {
+        "id": "admiralty",
+        "name": "Admiralty",
+        "codes": [
+          "NS10"
+        ],
+        "exit": "Exit B",
+        "distance": 923
       }
     ]
   },

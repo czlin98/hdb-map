@@ -1658,7 +1658,7 @@
           "CC9"
         ],
         "exit": "Exit C",
-        "distance": 562
+        "distance": 561
       },
       {
         "id": "macpherson",
@@ -2720,7 +2720,7 @@
           "DT27"
         ],
         "exit": "Exit A",
-        "distance": 852
+        "distance": 851
       },
       {
         "id": "kembangan",
@@ -2982,7 +2982,7 @@
           "DT27"
         ],
         "exit": "Exit A",
-        "distance": 732
+        "distance": 731
       }
     ]
   },
@@ -3152,7 +3152,7 @@
           "TE24"
         ],
         "exit": "Exit 2",
-        "distance": 916
+        "distance": 915
       }
     ]
   },
@@ -3220,7 +3220,7 @@
           "DT26"
         ],
         "exit": "Exit E",
-        "distance": 586
+        "distance": 585
       },
       {
         "id": "mattar",
@@ -3497,7 +3497,7 @@
           "DT25"
         ],
         "exit": "Exit B",
-        "distance": 590
+        "distance": 589
       }
     ]
   },
@@ -3608,7 +3608,7 @@
           "DT25"
         ],
         "exit": "Exit B",
-        "distance": 588
+        "distance": 589
       }
     ]
   },
@@ -3798,7 +3798,7 @@
           "CC8"
         ],
         "exit": "Exit B",
-        "distance": 504
+        "distance": 503
       },
       {
         "id": "aljunied",
@@ -5404,7 +5404,7 @@
           "EW7"
         ],
         "exit": "Exit C",
-        "distance": 785
+        "distance": 786
       }
     ]
   },
@@ -6214,7 +6214,7 @@
           "CC9"
         ],
         "exit": "Exit E",
-        "distance": 957
+        "distance": 958
       },
       {
         "id": "ubi",
@@ -7895,7 +7895,7 @@
           "CC7"
         ],
         "exit": "Exit A",
-        "distance": 587
+        "distance": 586
       },
       {
         "id": "aljunied",
@@ -8376,7 +8376,7 @@
           "CC8"
         ],
         "exit": "Exit B",
-        "distance": 376
+        "distance": 375
       },
       {
         "id": "aljunied",
@@ -9614,7 +9614,7 @@
           "CC7"
         ],
         "exit": "Exit B",
-        "distance": 600
+        "distance": 601
       }
     ]
   },
@@ -9993,7 +9993,7 @@
           "DT25"
         ],
         "exit": "Exit B",
-        "distance": 469
+        "distance": 470
       },
       {
         "id": "paya-lebar",
@@ -10212,7 +10212,7 @@
           "DT25"
         ],
         "exit": "Exit B",
-        "distance": 497
+        "distance": 498
       },
       {
         "id": "paya-lebar",
@@ -10954,7 +10954,7 @@
           "EW9"
         ],
         "exit": "Exit B",
-        "distance": 777
+        "distance": 776
       }
     ]
   },
@@ -11642,7 +11642,7 @@
           "DT25"
         ],
         "exit": "Exit B",
-        "distance": 578
+        "distance": 579
       },
       {
         "id": "paya-lebar",
@@ -12133,7 +12133,7 @@
           "CC9"
         ],
         "exit": "Exit D",
-        "distance": 943
+        "distance": 944
       }
     ]
   },

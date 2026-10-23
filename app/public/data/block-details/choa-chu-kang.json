@@ -481,7 +481,7 @@
           "BP6"
         ],
         "exit": "MRT Exit A",
-        "distance": 868
+        "distance": 867
       }
     ]
   },
@@ -568,7 +568,7 @@
           "BP6"
         ],
         "exit": "MRT Exit A",
-        "distance": 867
+        "distance": 868
       }
     ]
   },
@@ -2193,7 +2193,7 @@
           "BP4"
         ],
         "exit": "Exit A",
-        "distance": 439
+        "distance": 440
       }
     ]
   },
@@ -2889,7 +2889,7 @@
           "BP3"
         ],
         "exit": "Exit A",
-        "distance": 427
+        "distance": 426
       },
       {
         "id": "bukit-panjang",
@@ -3159,7 +3159,7 @@
           "BP1"
         ],
         "exit": "MRT Exit B",
-        "distance": 677
+        "distance": 678
       }
     ]
   },
@@ -3887,7 +3887,7 @@
           "BP1"
         ],
         "exit": "MRT Exit B",
-        "distance": 272
+        "distance": 271
       },
       {
         "id": "keat-hong",
@@ -4333,7 +4333,7 @@
           "BP1"
         ],
         "exit": "MRT Exit B",
-        "distance": 534
+        "distance": 533
       }
     ]
   },
@@ -4856,7 +4856,7 @@
           "BP1"
         ],
         "exit": "MRT Exit B",
-        "distance": 701
+        "distance": 702
       }
     ]
   },
@@ -5767,7 +5767,7 @@
           "BP3"
         ],
         "exit": "Exit A",
-        "distance": 913
+        "distance": 914
       }
     ]
   },
@@ -6007,7 +6007,7 @@
           "BP3"
         ],
         "exit": "Exit A",
-        "distance": 917
+        "distance": 918
       }
     ]
   },
@@ -6095,7 +6095,7 @@
           "BP3"
         ],
         "exit": "Exit A",
-        "distance": 946
+        "distance": 947
       }
     ]
   },
@@ -7331,7 +7331,7 @@
           "BP6"
         ],
         "exit": "MRT Exit A",
-        "distance": 767
+        "distance": 766
       },
       {
         "id": "choa-chu-kang",
@@ -7794,7 +7794,7 @@
           "BP1"
         ],
         "exit": "MRT Exit B",
-        "distance": 388
+        "distance": 387
       },
       {
         "id": "keat-hong",
@@ -7934,7 +7934,7 @@
           "BP3"
         ],
         "exit": "Exit A",
-        "distance": 891
+        "distance": 892
       }
     ]
   },
@@ -8605,7 +8605,7 @@
           "BP2"
         ],
         "exit": "Exit A",
-        "distance": 633
+        "distance": 632
       }
     ]
   },
@@ -8986,7 +8986,7 @@
           "BP2"
         ],
         "exit": "Exit A",
-        "distance": 863
+        "distance": 862
       }
     ]
   },
@@ -11278,7 +11278,7 @@
           "NS5"
         ],
         "exit": "Exit D",
-        "distance": 892
+        "distance": 891
       }
     ]
   },
@@ -17760,7 +17760,7 @@
           "BP4"
         ],
         "exit": "Exit A",
-        "distance": 976
+        "distance": 975
       }
     ]
   },
@@ -17916,7 +17916,7 @@
           "BP2"
         ],
         "exit": "Exit A",
-        "distance": 517
+        "distance": 518
       },
       {
         "id": "choa-chu-kang",

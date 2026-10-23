@@ -308,7 +308,7 @@
           "CC5"
         ],
         "exit": "Exit A",
-        "distance": 599
+        "distance": 598
       },
       {
         "id": "bendemeer",
@@ -2707,7 +2707,7 @@
           "NE8"
         ],
         "exit": "Exit B",
-        "distance": 573
+        "distance": 572
       },
       {
         "id": "bendemeer",
@@ -3247,7 +3247,7 @@
           "DT24"
         ],
         "exit": "Exit B",
-        "distance": 662
+        "distance": 661
       },
       {
         "id": "bendemeer",
@@ -3289,7 +3289,7 @@
           "EW11"
         ],
         "exit": "Exit A",
-        "distance": 417
+        "distance": 416
       },
       {
         "id": "bugis",
@@ -4110,7 +4110,7 @@
           "NE8"
         ],
         "exit": "Exit H",
-        "distance": 564
+        "distance": 565
       }
     ]
   },
@@ -5097,7 +5097,7 @@
           "CC5"
         ],
         "exit": "Exit A",
-        "distance": 485
+        "distance": 484
       }
     ]
   },
@@ -5174,7 +5174,7 @@
           "DT23"
         ],
         "exit": "Exit A",
-        "distance": 996
+        "distance": 995
       }
     ]
   },
@@ -5597,7 +5597,7 @@
           "DT12"
         ],
         "exit": "Exit F",
-        "distance": 993
+        "distance": 992
       }
     ]
   },
@@ -5879,7 +5879,7 @@
           "DT12"
         ],
         "exit": "Exit F",
-        "distance": 963
+        "distance": 962
       }
     ]
   },
@@ -6158,7 +6158,7 @@
           "CC5"
         ],
         "exit": "Exit A",
-        "distance": 541
+        "distance": 540
       },
       {
         "id": "bendemeer",
@@ -6917,7 +6917,7 @@
           "CC5"
         ],
         "exit": "Exit A",
-        "distance": 574
+        "distance": 573
       },
       {
         "id": "jalan-besar",
@@ -7092,7 +7092,7 @@
           "CC5"
         ],
         "exit": "Exit A",
-        "distance": 581
+        "distance": 582
       },
       {
         "id": "jalan-besar",
@@ -7517,7 +7517,7 @@
           "DT23"
         ],
         "exit": "Exit A",
-        "distance": 961
+        "distance": 960
       }
     ]
   },
@@ -8205,7 +8205,7 @@
           "NE10"
         ],
         "exit": "Exit C",
-        "distance": 826
+        "distance": 827
       },
       {
         "id": "boon-keng",
@@ -8339,7 +8339,7 @@
           "NE9"
         ],
         "exit": "Exit A",
-        "distance": 796
+        "distance": 795
       },
       {
         "id": "potong-pasir",
@@ -8516,7 +8516,7 @@
           "NE9"
         ],
         "exit": "Exit B",
-        "distance": 805
+        "distance": 804
       },
       {
         "id": "potong-pasir",
@@ -9334,7 +9334,7 @@
           "NE9"
         ],
         "exit": "Exit C",
-        "distance": 647
+        "distance": 648
       },
       {
         "id": "bendemeer",
@@ -10754,7 +10754,7 @@
           "DT24"
         ],
         "exit": "Exit B",
-        "distance": 889
+        "distance": 890
       }
     ]
   },
@@ -11298,7 +11298,7 @@
           "NE8"
         ],
         "exit": "Exit B",
-        "distance": 860
+        "distance": 859
       }
     ]
   },

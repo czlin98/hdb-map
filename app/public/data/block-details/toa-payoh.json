@@ -1176,7 +1176,7 @@
           "NE11"
         ],
         "exit": "Exit B",
-        "distance": 517
+        "distance": 516
       }
     ]
   },
@@ -1210,7 +1210,7 @@
           "NE11"
         ],
         "exit": "Exit A",
-        "distance": 469
+        "distance": 470
       }
     ]
   },
@@ -1866,7 +1866,7 @@
           "CC16"
         ],
         "exit": "Exit B",
-        "distance": 890
+        "distance": 889
       }
     ]
   },
@@ -2194,7 +2194,7 @@
           "NE11"
         ],
         "exit": "Exit B",
-        "distance": 869
+        "distance": 868
       }
     ]
   },
@@ -2228,7 +2228,7 @@
           "NE10"
         ],
         "exit": "Exit A",
-        "distance": 585
+        "distance": 586
       }
     ]
   },
@@ -2262,7 +2262,7 @@
           "NE10"
         ],
         "exit": "Exit A",
-        "distance": 657
+        "distance": 658
       },
       {
         "id": "bartley",
@@ -2308,7 +2308,7 @@
           "TE9"
         ],
         "exit": "Exit 2",
-        "distance": 685
+        "distance": 686
       },
       {
         "id": "toa-payoh",
@@ -2467,7 +2467,7 @@
           "TE9"
         ],
         "exit": "Exit 2",
-        "distance": 521
+        "distance": 522
       },
       {
         "id": "toa-payoh",
@@ -2631,7 +2631,7 @@
           "NE11"
         ],
         "exit": "Exit B",
-        "distance": 953
+        "distance": 952
       }
     ]
   },
@@ -2708,7 +2708,7 @@
           "NE10"
         ],
         "exit": "Exit A",
-        "distance": 717
+        "distance": 718
       },
       {
         "id": "bartley",
@@ -2803,7 +2803,7 @@
           "CC11"
         ],
         "exit": "Exit A",
-        "distance": 967
+        "distance": 966
       }
     ]
   },
@@ -3615,7 +3615,7 @@
           "NE11"
         ],
         "exit": "Exit B",
-        "distance": 717
+        "distance": 716
       }
     ]
   },
@@ -4110,7 +4110,7 @@
           "TE9"
         ],
         "exit": "Exit 3",
-        "distance": 571
+        "distance": 570
       }
     ]
   },
@@ -4575,7 +4575,7 @@
           "NE11"
         ],
         "exit": "Exit B",
-        "distance": 715
+        "distance": 714
       }
     ]
   },
@@ -5397,7 +5397,7 @@
           "NS18"
         ],
         "exit": "Exit B",
-        "distance": 830
+        "distance": 829
       }
     ]
   },
@@ -7867,7 +7867,7 @@
           "CC13"
         ],
         "exit": "Exit A",
-        "distance": 839
+        "distance": 840
       }
     ]
   },
@@ -8328,7 +8328,7 @@
           "CC13"
         ],
         "exit": "Exit A",
-        "distance": 725
+        "distance": 726
       },
       {
         "id": "woodleigh",
@@ -11223,7 +11223,7 @@
           "NS19"
         ],
         "exit": "Exit A",
-        "distance": 864
+        "distance": 863
       }
     ]
   },
@@ -12417,7 +12417,7 @@
           "NS18"
         ],
         "exit": "Exit C",
-        "distance": 698
+        "distance": 697
       }
     ]
   },
@@ -12664,7 +12664,7 @@
           "NS18"
         ],
         "exit": "Exit C",
-        "distance": 673
+        "distance": 672
       }
     ]
   },
@@ -13117,7 +13117,7 @@
           "NS18"
         ],
         "exit": "Exit C",
-        "distance": 535
+        "distance": 534
       }
     ]
   },
@@ -13205,7 +13205,7 @@
           "TE9"
         ],
         "exit": "Exit 3",
-        "distance": 799
+        "distance": 798
       }
     ]
   },
@@ -13608,7 +13608,7 @@
           "TE9"
         ],
         "exit": "Exit 3",
-        "distance": 893
+        "distance": 892
       }
     ]
   },
@@ -13737,7 +13737,7 @@
           "TE9"
         ],
         "exit": "Exit 3",
-        "distance": 788
+        "distance": 787
       }
     ]
   }
