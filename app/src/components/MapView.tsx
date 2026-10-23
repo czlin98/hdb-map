@@ -64,6 +64,7 @@ const MRT_LABEL_MIN_ZOOM = 13;
 // The selection's amber labels start here too, so an exit's name never shows without its
 // station's.
 const LRT_LABEL_MIN_ZOOM = 14;
+const MAX_ZOOM = 17;
 
 function highlightFilter(id: string | null): maplibregl.FilterSpecification {
   return ["==", ["get", "id"], id ?? ""];
@@ -124,6 +125,11 @@ const AMBER_SIZE: Stops = [
   [17, 13],
 ];
 
+const STATION_LABEL_SIZE: Stops = [
+  [MRT_LABEL_MIN_ZOOM, 11],
+  [MAX_ZOOM, 14],
+];
+
 function zoomRamp(stops: Stops): maplibregl.ExpressionSpecification {
   return ["interpolate", ["linear"], ["zoom"], ...stops.flat()];
 }
@@ -162,7 +168,42 @@ function tooltipContent(p: TooltipProps, mode: ColorMode) {
   return el;
 }
 
-const CHIP_IMAGE_PREFIX = "chips-";
+// MapLibre scales an image in a label by the text-size now over the text-size at the tile's zoom
+// (shaping.ts), so one image never keeps pace with a zoom-ramped name. One image per tile zoom,
+// drawn for that zoom's size, keeps the chips in proportion with the names.
+const CHIP_ZOOMS = Array.from(
+  { length: MAX_ZOOM - MRT_LABEL_MIN_ZOOM + 1 },
+  (_, i) => MRT_LABEL_MIN_ZOOM + i,
+);
+
+const CHIP_PREFIX = "chips-";
+
+function chipImageId(stationId: string, zoom: number) {
+  return `${CHIP_PREFIX}${stationId}-${zoom}`;
+}
+
+// Unscaled, a chip is about as tall as the smallest station name; this shrinks it from there.
+const CHIP_TO_NAME = 0.9;
+
+function chipScale(zoom: number) {
+  const size = valueAt(STATION_LABEL_SIZE, zoom);
+  return (CHIP_TO_NAME * size) / valueAt(STATION_LABEL_SIZE, MRT_LABEL_MIN_ZOOM);
+}
+
+function stationLabelField(): maplibregl.ExpressionSpecification {
+  const field = (zoom: number): maplibregl.ExpressionSpecification => [
+    "format",
+    ["get", "name"],
+    {},
+    "\n",
+    {},
+    // Builds the same name as chipImageId.
+    ["image", ["concat", CHIP_PREFIX, ["get", "id"], `-${zoom}`]],
+    {},
+  ];
+  const [first, ...rest] = CHIP_ZOOMS;
+  return ["step", ["zoom"], field(first), ...rest.flatMap((z) => [z, field(z)])];
+}
 
 const IS_EXIT: maplibregl.ExpressionSpecification = ["==", ["get", "kind"], "exit"];
 
@@ -310,9 +351,13 @@ function addStationLayers(
     const p = f.properties;
     if (p.kind !== "station") continue;
     if (isLrtOnly(p.codes)) lrtIds.push(p.id);
-    const chips = drawStationChips(p.codes, window.devicePixelRatio);
-    if (chips)
-      map.addImage(CHIP_IMAGE_PREFIX + p.id, chips, { pixelRatio: window.devicePixelRatio });
+    // MapLibre also resamples these images within a zoom step, which blurs a native-resolution
+    // bitmap; drawing at 2x leaves it downscaling a sharper source.
+    const pixelRatio = 2 * window.devicePixelRatio;
+    for (const zoom of CHIP_ZOOMS) {
+      const chips = drawStationChips(p.codes, pixelRatio * chipScale(zoom));
+      if (chips) map.addImage(chipImageId(p.id, zoom), chips, { pixelRatio });
+    }
   }
   map.addSource("stations", { type: "geojson", data: stations as unknown as FeatureCollection });
   const isStation: maplibregl.FilterSpecification = ["==", ["get", "kind"], "station"];
@@ -383,17 +428,9 @@ function addStationLayers(
       filter,
       minzoom,
       layout: {
-        "text-field": [
-          "format",
-          ["get", "name"],
-          {},
-          "\n",
-          {},
-          ["image", ["concat", CHIP_IMAGE_PREFIX, ["get", "id"]]],
-          {},
-        ],
+        "text-field": stationLabelField(),
         "text-font": ["Noto Sans Bold"],
-        "text-size": ["interpolate", ["linear"], ["zoom"], 13, 11, 17, 14],
+        "text-size": zoomRamp(STATION_LABEL_SIZE),
         "text-variable-anchor": ["top", "bottom", "left", "right"],
         "text-radial-offset": 0.8,
         "text-padding": 2,
@@ -452,7 +489,7 @@ export function MapView({
       bounds: MIN_BOUNDS,
       maxBounds: MAX_BOUNDS,
       minZoom: 9,
-      maxZoom: 17,
+      maxZoom: MAX_ZOOM,
       attributionControl: false,
       // North-up and flat: rotation and tilt add nothing to flat markers, and an accidental
       // twist would need a compass to undo.
