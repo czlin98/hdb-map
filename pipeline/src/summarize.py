@@ -77,13 +77,6 @@ def _label(block: dict) -> str:
     return f"{block['blk_no']} {block['street']} ({block['town']})"
 
 
-def _station_names(block: dict) -> list[str]:
-    if "nearest_stations" in block:
-        return [s["name"] for s in block["nearest_stations"]]
-    nearest = block.get("nearest_station")
-    return [nearest["name"]] if nearest else []
-
-
 def _changes(old: dict, new: dict) -> list[str]:
     out = [
         f"{label} {old.get(key)} → {new.get(key)}"
@@ -98,11 +91,9 @@ def _changes(old: dict, new: dict) -> list[str]:
                     f"{label} {flat_type} {before.get(flat_type, 0)} → {after.get(flat_type, 0)}"
                 )
     # Names only: the distances shift by a metre with every small geocode move.
-    old_names, new_names = _station_names(old), _station_names(new)
-    # A snapshot from before the list holds only the nearest station; comparing the whole list
-    # would report every block that gained a second station.
-    compared = new_names if "nearest_stations" in old else new_names[:1]
-    if old_names != compared:
+    old_names = [s["name"] for s in old["nearest_stations"]]
+    new_names = [s["name"] for s in new["nearest_stations"]]
+    if old_names != new_names:
         out.append(f"stations {', '.join(old_names)} → {', '.join(new_names)}")
     if (old["lon"], old["lat"]) != (new["lon"], new["lat"]):
         out.append(f"lon/lat {old['lon']}, {old['lat']} → {new['lon']}, {new['lat']}")

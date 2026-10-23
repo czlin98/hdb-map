@@ -52,7 +52,7 @@ function NearestStations({
               aria-pressed={i === highlighted}
               onClick={() => onHighlight?.(i === highlighted ? null : i)}
               // The negative margin keeps the text in line with the fields above.
-              className={`-mx-2 flex w-[calc(100%+1rem)] cursor-pointer items-start justify-between gap-3 rounded-r-sm border-l-2 px-2 py-0.5 text-left focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none ${
+              className={`-mx-2 flex w-[calc(100%+1rem)] cursor-pointer items-start justify-between gap-3 rounded-r-sm border-l-2 py-0.5 pr-2 pl-1.5 text-left focus-visible:ring-2 focus-visible:ring-ring focus-visible:outline-none ${
                 i === highlighted
                   ? "border-amber-600 bg-amber-50"
                   : "border-transparent hover:bg-muted/60"

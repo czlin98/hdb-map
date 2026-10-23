@@ -236,6 +236,18 @@ describe("the nearest-exit highlight", () => {
     await waitFor(() => expect(shownExit()).toEqual(bedokExit));
   });
 
+  test("without the stations no row shows as highlighted, since the map has none", async () => {
+    stubFetch({
+      "index.geojson": sampleIndex,
+      "towns.json": sampleTowns,
+      "ang-mo-kio.json": sampleShard,
+    }); // stations -> 404
+    render(<App />);
+    await userEvent.click(await screen.findByText(AMK));
+    const row = await screen.findByRole("button", { name: /^Ang Mo Kio/ });
+    expect(row).toHaveAttribute("aria-pressed", "false");
+  });
+
   test("while on, each new block starts at its nearest station", async () => {
     stubFetch({
       "index.geojson": sampleIndex,

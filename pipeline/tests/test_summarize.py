@@ -26,6 +26,7 @@ def _block(blk_no="123", **over):
         "rental_units_by_type": {},
         "lon": 103.84,
         "lat": 1.36,
+        "nearest_stations": [_nearest()],
     }
     base.update(over)
     return base
@@ -208,21 +209,6 @@ def test_a_distance_change_inside_the_list_adds_no_station_line():
     assert s.changed == 1
     assert "(ANG MO KIO): MRT distance 200 → 201\n" in s.text
     assert "stations" not in s.text
-
-
-def test_an_old_snapshot_compares_only_the_nearest_station():
-    before = _block(nearest_station=_nearest("Cove", 200))
-    after = _block(nearest_stations=_listed(("Cove", 200), ("Meridian", 700)))
-    s = summarize(_snap(before), _snap(after))
-    assert s.kind == "none"
-    assert s.changed == 0
-
-
-def test_an_old_snapshot_with_another_nearest_station_names_both_lists():
-    before = _block(nearest_station=_nearest("Meridian", 200))
-    after = _block(nearest_stations=_listed(("Cove", 150), ("Meridian", 200)))
-    s = summarize(_snap(before), _snap(after))
-    assert "(ANG MO KIO): stations Meridian → Cove, Meridian" in s.text
 
 
 def test_station_sections_list_names_and_codes():

@@ -301,7 +301,7 @@ export default function App() {
           onOpenChange={setPanelOpen}
           onClose={clear}
           onEscape={() => setFiltersOpen(false)}
-          highlighted={highlightOn ? chosenIndex : null}
+          highlighted={highlightOn && stations ? chosenIndex : null}
           onHighlight={onHighlight}
         />
       )}
