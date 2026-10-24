@@ -65,10 +65,11 @@ vi.mock("maplibre-gl", () => ({
 vi.mock("maplibre-gl/dist/maplibre-gl.css", () => ({}));
 // jsdom has no canvas.
 vi.mock("../lib/station-chips", () => ({
-  drawStationChips: vi.fn((codes: string[]) => ({ codes })),
+  drawStationChips: vi.fn((codes: string[], _pixelRatio: number) => ({ codes })),
 }));
 
 import { MapView } from "./MapView";
+import { drawStationChips } from "../lib/station-chips";
 import { sampleIndex, sampleStations } from "../test/fixtures";
 import { BLOCK_COLOR, circleColor } from "../lib/coloring";
 import { EMPTY_FILTERS, filterExpression, type Filters } from "../lib/filtering";
@@ -79,6 +80,7 @@ afterEach(() => {
   sources.clear();
   for (const k of Object.keys(sourceObjects)) delete sourceObjects[k];
   vi.clearAllMocks();
+  vi.unstubAllGlobals();
 });
 
 function fire(ev: string, e?: unknown) {
@@ -590,12 +592,28 @@ test("stations that beat load are drawn on load, each layer in its place among t
     undefined,
     undefined,
   ]);
-  // One chip image per station, named for the label's image lookup.
-  expect(map.addImage.mock.calls.map((c) => c[0])).toEqual([
-    "chips-ang-mo-kio",
-    "chips-bedok",
-    "chips-mayflower",
-  ]);
+  // One chip image per station per label zoom, none drawn smaller than the last.
+  const zooms = [13, 14, 15, 16, 17];
+  const ids = ["ang-mo-kio", "bedok", "mayflower"];
+  expect(map.addImage.mock.calls.map((c) => c[0])).toEqual(
+    ids.flatMap((id) => zooms.map((z) => `chips-${id}-${z}`)),
+  );
+  const ratios = vi
+    .mocked(drawStationChips)
+    .mock.calls.slice(0, zooms.length)
+    .map((c) => c[1]);
+  expect(ratios).toEqual([...ratios].sort((a, b) => a - b));
+  expect(ratios[0]).toBeLessThan(ratios[ratios.length - 1]);
+  // The label picks the image built for the zoom it is laid out at.
+  const field = (layerAdded("stations-labels")?.spec.layout as Record<string, unknown[]>)[
+    "text-field"
+  ];
+  expect(field.slice(0, 2)).toEqual(["step", ["zoom"]]);
+  const images = field.filter(Array.isArray).slice(1);
+  expect(images.map((f) => (f as unknown[])[5])).toEqual(
+    zooms.map((z) => ["image", ["concat", "chips-", ["get", "id"], `-${z}`]]),
+  );
+  expect(field.filter((v) => typeof v === "number")).toEqual(zooms.slice(1));
 });
 
 test("stations that arrive after load are drawn then, once", () => {
@@ -651,9 +669,11 @@ test("LRT-only stations get their names a zoom step after MRT stations", () => {
       lrt("sengkang", ["NE16", "STC"]),
     ],
   };
+  map.getLayer.mockReturnValue(undefined);
   render(
     <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} stations={stations} />,
   );
+  map.getLayer.mockReturnValue({});
   fire("load");
   const isLrt = ["in", ["get", "id"], ["literal", ["ranggung"]]];
   const isStation = ["==", ["get", "kind"], "station"];
@@ -665,6 +685,34 @@ test("LRT-only stations get their names a zoom step after MRT stations", () => {
     filter: ["all", isStation, isLrt],
     minzoom: 14,
   });
+  // No chip image for a zoom where the station has no name.
+  const images = map.addImage.mock.calls.map((c) => c[0] as string);
+  expect(images.filter((id) => id.startsWith("chips-ranggung-"))).toEqual(
+    [14, 15, 16, 17].map((z) => `chips-ranggung-${z}`),
+  );
+  expect(images).toContain("chips-sengkang-13");
+});
+
+test("chips are drawn at 2x on a 1x screen and at the screen's own ratio above that", () => {
+  const ratiosAt = (dpr: number) => {
+    vi.stubGlobal("devicePixelRatio", dpr);
+    // The mock map is shared, so drop the load handler the previous mount left behind.
+    for (const k of Object.keys(handlers)) delete handlers[k];
+    map.addImage.mockClear();
+    const { unmount } = render(
+      <MapView
+        data={sampleIndex}
+        selectedId={null}
+        onSelectBlock={vi.fn()}
+        stations={sampleStations}
+      />,
+    );
+    fire("load");
+    unmount();
+    return new Set(map.addImage.mock.calls.map((c) => c[2]?.pixelRatio));
+  };
+  expect(ratiosAt(1)).toEqual(new Set([2]));
+  expect(ratiosAt(3)).toEqual(new Set([3]));
 });
 
 test("stations, exits and the exit highlight are neither hover nor tap targets", () => {

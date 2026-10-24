@@ -1073,8 +1073,12 @@ out.
   it, a small chip per line in the line's color, the same colors as the
   details panel (§5.5), so the map shows which lines stop where without any
   interaction. A map label can't put a background behind part of its text,
-  so the app draws each station's chips as one small image when the stations
-  load and embeds it in the label. The labels are placed before every other
+  so the app draws each station's chips as a small image when the stations
+  load and embeds it in the label. The names grow as the map zooms in, and
+  the map resizes an embedded image within each zoom step, so the app draws
+  one image per zoom step, sized for that step, which keeps the chips in
+  proportion with the names; each is drawn at high resolution so the
+  resizing doesn't blur it. The labels are placed before every other
   map label, the selection's amber ones included, so they win where they
   collide. A station served only by the LRT gets its name one step later
   than the MRT stations: the LRT loops put a stop every few hundred metres,
