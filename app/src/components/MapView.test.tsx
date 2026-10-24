@@ -694,8 +694,10 @@ test("LRT-only stations get their names a zoom step after MRT stations", () => {
 });
 
 test("chips are drawn at 2x on a 1x screen and at the screen's own ratio above that", () => {
-  const ratioAt = (dpr: number) => {
+  const ratiosAt = (dpr: number) => {
     vi.stubGlobal("devicePixelRatio", dpr);
+    // The mock map is shared, so drop the load handler the previous mount left behind.
+    for (const k of Object.keys(handlers)) delete handlers[k];
     map.addImage.mockClear();
     const { unmount } = render(
       <MapView
@@ -707,10 +709,10 @@ test("chips are drawn at 2x on a 1x screen and at the screen's own ratio above t
     );
     fire("load");
     unmount();
-    return map.addImage.mock.calls[0][2];
+    return new Set(map.addImage.mock.calls.map((c) => c[2]?.pixelRatio));
   };
-  expect(ratioAt(1)).toEqual({ pixelRatio: 2 });
-  expect(ratioAt(3)).toEqual({ pixelRatio: 3 });
+  expect(ratiosAt(1)).toEqual(new Set([2]));
+  expect(ratiosAt(3)).toEqual(new Set([3]));
 });
 
 test("stations, exits and the exit highlight are neither hover nor tap targets", () => {
