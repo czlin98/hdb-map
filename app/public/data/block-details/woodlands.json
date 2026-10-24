@@ -1040,7 +1040,7 @@
           "TE2"
         ],
         "exit": "Exit 1",
-        "distance": 762
+        "distance": 761
       }
     ]
   },
@@ -6175,7 +6175,7 @@
           "NS8"
         ],
         "exit": "Exit B",
-        "distance": 972
+        "distance": 973
       }
     ]
   },
@@ -8460,7 +8460,7 @@
           "TE2"
         ],
         "exit": "Exit 6",
-        "distance": 487
+        "distance": 488
       }
     ]
   },
@@ -9142,7 +9142,7 @@
           "NS10"
         ],
         "exit": "Exit B",
-        "distance": 947
+        "distance": 948
       }
     ]
   },
@@ -11122,7 +11122,7 @@
           "NS10"
         ],
         "exit": "Exit B",
-        "distance": 800
+        "distance": 801
       },
       {
         "id": "woodlands",
@@ -14482,7 +14482,7 @@
           "TE2"
         ],
         "exit": "Exit 5",
-        "distance": 964
+        "distance": 963
       }
     ]
   },
@@ -17994,7 +17994,7 @@
           "TE1"
         ],
         "exit": "Exit 1",
-        "distance": 673
+        "distance": 672
       }
     ]
   },
@@ -18876,7 +18876,7 @@
           "TE1"
         ],
         "exit": "Exit 1",
-        "distance": 901
+        "distance": 900
       },
       {
         "id": "admiralty",
@@ -19032,7 +19032,7 @@
           "TE2"
         ],
         "exit": "Exit 4",
-        "distance": 917
+        "distance": 916
       },
       {
         "id": "woodlands-north",
@@ -19200,7 +19200,7 @@
           "TE1"
         ],
         "exit": "Exit 1",
-        "distance": 982
+        "distance": 981
       },
       {
         "id": "admiralty",
@@ -19596,7 +19596,7 @@
           "NS10"
         ],
         "exit": "Exit B",
-        "distance": 730
+        "distance": 731
       }
     ]
   },
@@ -20112,7 +20112,7 @@
           "TE1"
         ],
         "exit": "Exit 1",
-        "distance": 721
+        "distance": 720
       }
     ]
   },
@@ -20611,7 +20611,7 @@
           "NS10"
         ],
         "exit": "Exit B",
-        "distance": 761
+        "distance": 762
       }
     ]
   },

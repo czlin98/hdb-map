@@ -626,7 +626,7 @@
           "EW3"
         ],
         "exit": "Exit A",
-        "distance": 855
+        "distance": 854
       },
       {
         "id": "tampines-west",
@@ -1417,7 +1417,7 @@
           "DT34"
         ],
         "exit": "Exit A",
-        "distance": 870
+        "distance": 869
       }
     ]
   },
@@ -1709,7 +1709,7 @@
           "DT34"
         ],
         "exit": "Exit A",
-        "distance": 734
+        "distance": 735
       },
       {
         "id": "tampines-east",
@@ -1976,7 +1976,7 @@
           "DT34"
         ],
         "exit": "Exit A",
-        "distance": 748
+        "distance": 747
       }
     ]
   },
@@ -3804,7 +3804,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 880
+        "distance": 881
       }
     ]
   },
@@ -4053,7 +4053,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 860
+        "distance": 861
       },
       {
         "id": "simei",
@@ -4377,7 +4377,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 946
+        "distance": 947
       }
     ]
   },
@@ -5539,7 +5539,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 628
+        "distance": 629
       }
     ]
   },
@@ -6369,7 +6369,7 @@
           "DT34"
         ],
         "exit": "Exit A",
-        "distance": 790
+        "distance": 789
       }
     ]
   },
@@ -7082,7 +7082,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 572
+        "distance": 573
       }
     ]
   },
@@ -7222,7 +7222,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 673
+        "distance": 674
       }
     ]
   },
@@ -12511,7 +12511,7 @@
           "DT32"
         ],
         "exit": "Exit B",
-        "distance": 848
+        "distance": 849
       }
     ]
   },
@@ -21774,7 +21774,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 941
+        "distance": 942
       }
     ]
   },
@@ -21843,7 +21843,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 833
+        "distance": 834
       }
     ]
   },
@@ -22108,7 +22108,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 965
+        "distance": 966
       }
     ]
   },
@@ -22178,7 +22178,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 964
+        "distance": 965
       }
     ]
   },
@@ -24809,7 +24809,7 @@
           "DT32"
         ],
         "exit": "Exit F",
-        "distance": 573
+        "distance": 572
       }
     ]
   },
@@ -25536,7 +25536,7 @@
           "DT32"
         ],
         "exit": "Exit C",
-        "distance": 847
+        "distance": 848
       }
     ]
   },
@@ -25775,7 +25775,7 @@
           "DT31"
         ],
         "exit": "Exit A",
-        "distance": 605
+        "distance": 606
       }
     ]
   },
@@ -26427,7 +26427,7 @@
           "DT30"
         ],
         "exit": "Exit B",
-        "distance": 632
+        "distance": 633
       }
     ]
   },
@@ -26529,7 +26529,7 @@
           "DT31"
         ],
         "exit": "Exit B",
-        "distance": 601
+        "distance": 600
       }
     ]
   },

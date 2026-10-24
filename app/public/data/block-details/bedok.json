@@ -3133,7 +3133,7 @@
           "EW5"
         ],
         "exit": "Exit B",
-        "distance": 978
+        "distance": 979
       }
     ]
   },
@@ -5034,7 +5034,7 @@
           "EW5"
         ],
         "exit": "Exit A",
-        "distance": 873
+        "distance": 872
       }
     ]
   },
@@ -7057,7 +7057,7 @@
           "DT30"
         ],
         "exit": "Exit A",
-        "distance": 860
+        "distance": 859
       }
     ]
   },
@@ -8326,7 +8326,7 @@
           "EW5"
         ],
         "exit": "Exit B",
-        "distance": 837
+        "distance": 836
       }
     ]
   },
@@ -8811,7 +8811,7 @@
           "EW5"
         ],
         "exit": "Exit B",
-        "distance": 846
+        "distance": 845
       }
     ]
   },
@@ -10218,7 +10218,7 @@
           "EW5"
         ],
         "exit": "Exit B",
-        "distance": 997
+        "distance": 996
       }
     ]
   },
@@ -10337,7 +10337,7 @@
           "EW5"
         ],
         "exit": "Exit B",
-        "distance": 830
+        "distance": 829
       }
     ]
   },
@@ -10575,7 +10575,7 @@
           "EW6"
         ],
         "exit": "Exit B",
-        "distance": 929
+        "distance": 928
       }
     ]
   },

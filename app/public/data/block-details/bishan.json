@@ -118,7 +118,7 @@
           "CC15"
         ],
         "exit": "Exit A",
-        "distance": 564
+        "distance": 563
       },
       {
         "id": "marymount",
@@ -5316,7 +5316,7 @@
           "CC16"
         ],
         "exit": "Exit A",
-        "distance": 966
+        "distance": 965
       }
     ]
   },
@@ -6227,7 +6227,7 @@
           "CC15"
         ],
         "exit": "Exit C",
-        "distance": 986
+        "distance": 987
       }
     ]
   },
@@ -6328,7 +6328,7 @@
           "TE8"
         ],
         "exit": "Exit 2",
-        "distance": 767
+        "distance": 768
       },
       {
         "id": "mayflower",
@@ -6782,7 +6782,7 @@
           "TE8"
         ],
         "exit": "Exit 2",
-        "distance": 372
+        "distance": 373
       }
     ]
   },
@@ -7309,7 +7309,7 @@
           "CC16"
         ],
         "exit": "Exit B",
-        "distance": 898
+        "distance": 897
       },
       {
         "id": "braddell",
