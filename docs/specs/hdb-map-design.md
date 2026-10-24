@@ -1077,7 +1077,7 @@ out.
   load and embeds it in the label. The names grow as the map zooms in, and
   the map resizes an embedded image within each zoom step, so the app draws
   one image per zoom step, sized for that step, which keeps the chips in
-  proportion with the names; each is drawn at double resolution so the
+  proportion with the names; each is drawn at high resolution so the
   resizing doesn't blur it. The labels are placed before every other
   map label, the selection's amber ones included, so they win where they
   collide. A station served only by the LRT gets its name one step later

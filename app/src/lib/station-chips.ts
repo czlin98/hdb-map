@@ -8,14 +8,19 @@ const GAP = 2;
 const RADIUS = 2.5;
 const FONT_PX = 8;
 
+// Read once: every station draws several images, and each lookup forces a style recalculation.
+let fontFamily: string | undefined;
+
 /** The chips for one station side by side, or null with no codes or no canvas (tests). */
 export function drawStationChips(codes: string[], pixelRatio: number): ImageData | null {
   // A zero-width canvas would make getImageData throw. The pipeline fails a station with no
   // codes, so this only keeps the other stations drawing if one slips through.
   if (codes.length === 0) return null;
-  const ctx = document.createElement("canvas").getContext("2d");
+  // Only ever read back, so a CPU canvas skips the GPU readback that made up most of the time.
+  const ctx = document.createElement("canvas").getContext("2d", { willReadFrequently: true });
   if (!ctx) return null;
-  const font = `600 ${FONT_PX}px ${getComputedStyle(document.body).fontFamily}`;
+  fontFamily ??= getComputedStyle(document.body).fontFamily;
+  const font = `600 ${FONT_PX}px ${fontFamily}`;
   ctx.font = font;
   const widths = codes.map((c) => Math.ceil(ctx.measureText(c).width) + 2 * PAD_X);
   const width = widths.reduce((a, b) => a + b, 0) + GAP * (codes.length - 1);

@@ -104,25 +104,25 @@ const BLOCK_RADIUS: Stops = [
   [11, 2],
   [14, 4],
   [16, 8],
-  [17, 10],
+  [MAX_ZOOM, 10],
 ];
 const HIGHLIGHT_RADIUS: Stops = [
   [11, 5],
   [14, 7],
   [16, 10],
-  [17, 13],
+  [MAX_ZOOM, 13],
 ];
-// Px at the block labels' first zoom and at max zoom (17).
+// Px at the block labels' first zoom and at max zoom.
 const BLOCK_LABEL_SIZE: Stops = [
   [LABEL_MIN_ZOOM, 10],
-  [17, 12],
+  [MAX_ZOOM, 12],
 ];
 
 // The selection's amber labels (block number, exit name, distance) share one size so they read
-// as one unit; it stays under the station names' and over the plain labels' at 17.
+// as one unit; it stays under the station names' and over the plain labels' at max zoom.
 const AMBER_SIZE: Stops = [
   [LRT_LABEL_MIN_ZOOM, 11],
-  [17, 13],
+  [MAX_ZOOM, 13],
 ];
 
 const STATION_LABEL_SIZE: Stops = [
@@ -171,15 +171,22 @@ function tooltipContent(p: TooltipProps, mode: ColorMode) {
 // MapLibre scales an image in a label by the text-size now over the text-size at the tile's zoom
 // (shaping.ts), so one image never keeps pace with a zoom-ramped name. One image per tile zoom,
 // drawn for that zoom's size, keeps the chips in proportion with the names.
-const CHIP_ZOOMS = Array.from(
-  { length: MAX_ZOOM - MRT_LABEL_MIN_ZOOM + 1 },
-  (_, i) => MRT_LABEL_MIN_ZOOM + i,
-);
+function chipZooms(minzoom: number) {
+  return Array.from({ length: MAX_ZOOM - minzoom + 1 }, (_, i) => minzoom + i);
+}
 
-const CHIP_PREFIX = "chips-";
-
-function chipImageId(stationId: string, zoom: number) {
-  return `${CHIP_PREFIX}${stationId}-${zoom}`;
+// The image's name for a station id, or for the expression that reads the id in a label.
+function chipImageName(zoom: number, id: string): string;
+function chipImageName(
+  zoom: number,
+  id: maplibregl.ExpressionSpecification,
+): maplibregl.ExpressionSpecification;
+function chipImageName(
+  zoom: number,
+  id: string | maplibregl.ExpressionSpecification,
+): string | maplibregl.ExpressionSpecification {
+  const [prefix, suffix] = ["chips-", `-${zoom}`];
+  return typeof id === "string" ? prefix + id + suffix : ["concat", prefix, id, suffix];
 }
 
 // Unscaled, a chip is about as tall as the smallest station name; this shrinks it from there.
@@ -197,11 +204,10 @@ function stationLabelField(): maplibregl.ExpressionSpecification {
     {},
     "\n",
     {},
-    // Builds the same name as chipImageId.
-    ["image", ["concat", CHIP_PREFIX, ["get", "id"], `-${zoom}`]],
+    ["image", chipImageName(zoom, ["get", "id"])],
     {},
   ];
-  const [first, ...rest] = CHIP_ZOOMS;
+  const [first, ...rest] = chipZooms(MRT_LABEL_MIN_ZOOM);
   return ["step", ["zoom"], field(first), ...rest.flatMap((z) => [z, field(z)])];
 }
 
@@ -350,13 +356,14 @@ function addStationLayers(
   for (const f of stations.features) {
     const p = f.properties;
     if (p.kind !== "station") continue;
-    if (isLrtOnly(p.codes)) lrtIds.push(p.id);
-    // MapLibre also resamples these images within a zoom step, which blurs a native-resolution
-    // bitmap; drawing at 2x leaves it downscaling a sharper source.
-    const pixelRatio = 2 * window.devicePixelRatio;
-    for (const zoom of CHIP_ZOOMS) {
+    const lrtOnly = isLrtOnly(p.codes);
+    if (lrtOnly) lrtIds.push(p.id);
+    // MapLibre also resamples these images within a zoom step, which blurs a 1x bitmap, so draw
+    // at 2x or more. Denser screens are sharp at their own ratio; memory grows with its square.
+    const pixelRatio = Math.max(2, window.devicePixelRatio);
+    for (const zoom of chipZooms(lrtOnly ? LRT_LABEL_MIN_ZOOM : MRT_LABEL_MIN_ZOOM)) {
       const chips = drawStationChips(p.codes, pixelRatio * chipScale(zoom));
-      if (chips) map.addImage(chipImageId(p.id, zoom), chips, { pixelRatio });
+      if (chips) map.addImage(chipImageName(zoom, p.id), chips, { pixelRatio });
     }
   }
   map.addSource("stations", { type: "geojson", data: stations as unknown as FeatureCollection });
@@ -369,7 +376,7 @@ function addStationLayers(
       filter: IS_EXIT,
       minzoom: LABEL_MIN_ZOOM,
       paint: {
-        "circle-radius": ["interpolate", ["linear"], ["zoom"], 15, 2.5, 17, 4],
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 15, 2.5, MAX_ZOOM, 4],
         "circle-color": "#6b7280",
         "circle-stroke-width": 1,
         "circle-stroke-color": "#ffffff",
@@ -405,7 +412,7 @@ function addStationLayers(
       filter: isStation,
       minzoom: 12,
       paint: {
-        "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 3, 14, 5, 17, 8],
+        "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 3, 14, 5, MAX_ZOOM, 8],
         "circle-color": "#ffffff",
         "circle-stroke-width": 2,
         "circle-stroke-color": "#374151",
@@ -552,7 +559,7 @@ export function MapView({
         minzoom: LABEL_MIN_ZOOM,
         filter: labelFilter(selectedIdRef.current, blockFilter),
         layout: {
-          ...labelLayout([LABEL_MIN_ZOOM, 17], BLOCK_RADIUS, BLOCK_LABEL_SIZE),
+          ...labelLayout([LABEL_MIN_ZOOM, MAX_ZOOM], BLOCK_RADIUS, BLOCK_LABEL_SIZE),
           "text-font": ["Noto Sans Regular"],
         },
         paint: {
@@ -569,7 +576,7 @@ export function MapView({
         filter: highlightFilter(selectedIdRef.current),
         // From the LRT names' zoom, at each corner of the dot's radius ramp.
         layout: {
-          ...labelLayout([LRT_LABEL_MIN_ZOOM, 16, 17], HIGHLIGHT_RADIUS, AMBER_SIZE),
+          ...labelLayout([LRT_LABEL_MIN_ZOOM, 16, MAX_ZOOM], HIGHLIGHT_RADIUS, AMBER_SIZE),
           "text-font": ["Noto Sans Bold"],
           // Always shown; placed right after the station names, so block numbers yield to it.
           "text-allow-overlap": true,

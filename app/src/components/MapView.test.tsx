@@ -80,6 +80,7 @@ afterEach(() => {
   sources.clear();
   for (const k of Object.keys(sourceObjects)) delete sourceObjects[k];
   vi.clearAllMocks();
+  vi.unstubAllGlobals();
 });
 
 function fire(ev: string, e?: unknown) {
@@ -668,9 +669,11 @@ test("LRT-only stations get their names a zoom step after MRT stations", () => {
       lrt("sengkang", ["NE16", "STC"]),
     ],
   };
+  map.getLayer.mockReturnValue(undefined);
   render(
     <MapView data={sampleIndex} selectedId={null} onSelectBlock={vi.fn()} stations={stations} />,
   );
+  map.getLayer.mockReturnValue({});
   fire("load");
   const isLrt = ["in", ["get", "id"], ["literal", ["ranggung"]]];
   const isStation = ["==", ["get", "kind"], "station"];
@@ -682,6 +685,32 @@ test("LRT-only stations get their names a zoom step after MRT stations", () => {
     filter: ["all", isStation, isLrt],
     minzoom: 14,
   });
+  // No chip image for a zoom where the station has no name.
+  const images = map.addImage.mock.calls.map((c) => c[0] as string);
+  expect(images.filter((id) => id.startsWith("chips-ranggung-"))).toEqual(
+    [14, 15, 16, 17].map((z) => `chips-ranggung-${z}`),
+  );
+  expect(images).toContain("chips-sengkang-13");
+});
+
+test("chips are drawn at 2x on a 1x screen and at the screen's own ratio above that", () => {
+  const ratioAt = (dpr: number) => {
+    vi.stubGlobal("devicePixelRatio", dpr);
+    map.addImage.mockClear();
+    const { unmount } = render(
+      <MapView
+        data={sampleIndex}
+        selectedId={null}
+        onSelectBlock={vi.fn()}
+        stations={sampleStations}
+      />,
+    );
+    fire("load");
+    unmount();
+    return map.addImage.mock.calls[0][2];
+  };
+  expect(ratioAt(1)).toEqual({ pixelRatio: 2 });
+  expect(ratioAt(3)).toEqual({ pixelRatio: 3 });
 });
 
 test("stations, exits and the exit highlight are neither hover nor tap targets", () => {
